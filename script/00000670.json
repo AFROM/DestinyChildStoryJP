@@ -1,0 +1,174 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ウサギ君、起きて！お昼寝中？\\こんな所で寝てたら子供たちに\\連れ去られちゃうわよ。",
+      "background": "bg122_f",
+      "bgm": "17",
+      "char": "c010_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "連れ去られる？",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ウサギ君、可愛いから。\\子供たちって可愛いの見ると我慢できないのよ。",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あ、そうじゃなくて。\\ウサギ君、ダーリン…じゃなくて\\可愛い悪魔様を見なかった？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "悪魔様って本当に可愛いことしかしないのよ。\\私がどれだけ好きか知ってて逃げるんだから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "わざとなのよ。\\恋の駆け引きだってできるんだから。\\おバカさんだと思ってたけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "可愛い悪魔様は月の国に行きました。\\だからウサギ君は月の国を…ぶっ壊したんだよぉ！",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "私に興味なさそうに見える？\\確かにモナも同じこと言ってたっけ…",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "恋愛なんてマンガとか\\ドラマの中でしか見たことない悪魔様だから…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "心に傷を負っても仕方ないわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "でも実際そうでしょう？\\そういうところが可愛いのよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ハエ！ハエだ！\\デメテルの頭にハエが！あっち行け！",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "one_ani": "attack"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あら、ウサギ君、私のこと可愛いって思ってたの？\\どうしましょー",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "悪魔様もそう言ってくれるといいのに。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "もう！私らしくないこと言っちゃった！\\美人は王子様を手に入れて当然でしょ？",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "こんな所で時間つぶしてる場合じゃないわ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ダーリン、隠れても無駄！\\月の果てまで追いかけてあげる！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "月の国にはウサギが暮らしてる～\\誰も住んでいない北極の国～",
+      "background": "e048_01_f",
+      "char": "m151_01",
+      "speaker": "same_full"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "お姫様を探しにウサギが降りて来る～\\雪が降る～",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ウサギは呼ぶけど誰も答えない～\\誰も答えない～",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "24": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

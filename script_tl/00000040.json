@@ -1,0 +1,158 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "な…なあモナ、ホントにこの道を通るの？",
+      "background": "bg036_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "102400001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "もちろんです♥\\この路地なんですけどね、\\すごく良い《スポット》なんですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "102400002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "へー、そうなんだ。\\でも、きっと後悔するような気がするんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "102400003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "現に、さっきから肌がぞわぞわしっぱなしだ。\\イヤな予感がする…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "102400004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ご主人さまの口ぶりからして、\\以前ここへ来たことがあるようですね。\\口にするのも憚られるような怪奇現象でも\\目撃したんですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "voiceid": "102400005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "い、いや、\\そう言うのとはちょっと違うんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "102400006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ウ～ッ、ワンワン！",
+      "char": "c017_00",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake",
+      "loop_ani": "attack",
+      "one_ani": "attack",
+      "voiceid": "102400007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "幽霊王様！オラのお願いきいてけろ～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dark",
+      "voiceid": "102400999"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "で、出たぁ、猛犬だぁ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "voiceid": "102400008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "こいつ、俺を見るたびに牙を剥き出しにして、\\まっしぐらに突撃してくるんだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "102400009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あら、それはおかしいですね。\\魂を見る限りでは、素直な良い子ですよ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "102400010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "なに言ってんだ、そんなわけあるかよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "102400011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ワンワンワン…！！",
+      "char": "c017_00",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102400012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "こ、ここはさっさと逃げるぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "after_effect": "go_to_left_point",
+      "voiceid": "102400013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "あっ、ご主人さま、待ってくださ～い！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "after_effect": "go_to_left_point",
+      "voiceid": "102400014"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

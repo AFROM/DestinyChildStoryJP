@@ -1,0 +1,200 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "background": "bg196_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ヒャヒャヒャヒャヒャ！\\来たなぁ！",
+      "char": "c083_01",
+      "speaker": "same",
+      "one_ani": "attack",
+      "voiceid": "105803001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "うわっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "after_effect": "go_to_left_jump",
+      "voiceid": "105803002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ふっ！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy",
+      "after_effect": "go_to_right_jump",
+      "voiceid": "105803003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "mvd_pos": "center"
+    },
+    "6": {
+      "type": "talk",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
+      "mvd_pos": "left_bottom"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "危ない奴だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "voiceid": "105803004"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "本当に…\\やかましいですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "voiceid": "105803005"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ハハハ…\\なんだ！<color=ff9900>《この力》</color>は？",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "loop_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "mvd_pos": "left_bottom",
+      "voiceid": "105803006"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "お前、ご主人様に対して…\\もういい加減にしろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "angry",
+      "before_effect": "shake",
+      "voiceid": "105803007"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ご主人様ね…ハハッ！",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "after_effect": "shake",
+      "voiceid": "105803008"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "mvd_pos": "bottom"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ひええ…完全にイカレてるじゃん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "after_effect": "go_to_left_point",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
+      "voiceid": "105803009"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ねぇ～、<color=ff9900>《パパ》</color>！\\この力の正体は何？",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "105803010"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《パパ》</color>？！…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "105803011"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そりゃ、お前、契約者の欲望を解放し、\\その代価として得た<color=ff9900>《悪魔の力》</color>だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "105803012"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "そうか…\\ハハハ。ハハハハ。\\…これがオレが欲しがっていた<color=ff9900>《力》</color>なんだ。",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105803013"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "パパ！生んでくれてありがとう！！\\これからは、見守ってくれるんでしょ？\\<color=ff9900>子供の成長</color>を！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "loop_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "voiceid": "105803014"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "俺はまだ<color=ff9900>独身</color>だよっ！！\\子供なんて知らないよっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "after_effect": "go_to_left_fast",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
+      "voiceid": "105803015"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "このままでは極めて危険です。\\彼女が余計なことをしでかす前に、私たちで\\抑えましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "105803016"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "normal"
+    }
+  }
+}

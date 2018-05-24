@@ -1,0 +1,423 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "！",
+      "background": "bg042_f",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "おい！",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake_weak"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "go_to_right_slow"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "おい！ちょっと待て！",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake_weak"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "な、な、何？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "enter_from_right_fast"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "お前、今俺を避けただろ？",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ち、ちがうよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake_weak"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "いや、いま俺を見た途端、\\驚いて俺を避けただろ！",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake_weak"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そ、それは…避けたよ！だから何！\\避けちゃダメなわけ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "none",
+      "one_ani": "attack"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "たまに理由もなく俺を避けるヤツがいるが、\\やっぱ気になるだろ。",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…だってニケに、ヘクトルには近づくなって\\言われたんだもん。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "アイツが？",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "アンタみたいなヤツと仲良くするなって…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふざけたマネしやがって！\\俺とは関わるなってことか…\\お前、いつからアイツの言うことなんか\\聞くようになったんだ！",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ニケのヤツ、どこにいった！",
+      "background": "bg086_f",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "何だよ、急に！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "アイツ、ガキのサキュバスに俺と関わるなって\\ほざいたらしい！",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…ニケなら言いそうだな。\\でも、ダビがアイツの言うことを聞いたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そうだ！",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "それは変だな？\\でも、お前もそこまで怒ることないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "関わるなって言われたぐらいで怒るタマでもないし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そ、それは…\\とにかく、アイツを見かけたら\\ただじゃおかないと伝えておけ！",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ハイハイ。伝えておくよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "keep",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "おーい、モナ～",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "お呼びかしら～♥ご主人さま？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ダビがニケから、「ヘクトルとは関わるな」って\\言われたらしいんだけど本当か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ええ、本当ですよ～♥\\モナもその場にいましたから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ダビ。名誉を知らぬ者に関わってはいけない。\\言葉も交わすな。",
+      "background": "dungeon_bg",
+      "char": "c129_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ダビに命令しないでよね！\\アンタのこと嫌いなんだから。\\トサカ野郎をいじめるのも邪魔するしさぁ…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "トサカ野郎でなく、ご主人様よ！",
+      "char": "c129_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray",
+      "one_ani": "attack"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ふんっ、だ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "angry",
+      "screen_effect": "gray"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "モナはニケの言う通りだと思うわ。\\注意を払って悪いことはないわよ、ダビ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "モナ姉さまがそういうならそうする！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "screen_effect": "gray"
+    },
+    "37": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "そういうことだったのか。\\でも、どうしてニケの肩を持つんだ？\\アイツみたいに名誉がどうこうって\\理由ではないだろ？",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ヘクトルの契約者は覚えてますか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "そいつがどうかしたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "やっぱりご主人さまは鈍感なのが魅力的ですね～♥\\あの子、ダビに片思いをしてるんですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "その影響のせいか、ヘクトルもダビのこと\\気に入ってるみたいなんです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "それって本当なのか？！\\だからさっきあんなに怒ってたのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "まあ、まだ認めてはいないみたいですけどね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "それでダビが心配になってヘクトルから\\離れさせようとしたワケか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "そうですね～♥ダビが心配だからなのか、それとも…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "…何だよ、また秘密かよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "48": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

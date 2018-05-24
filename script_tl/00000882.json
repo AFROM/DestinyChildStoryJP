@@ -1,0 +1,722 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "はぁはぁ…\\あいつらチャイルドだよな？",
+      "background": "bg070_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "そのようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "なんでコムギがチャイルドに襲われてるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "それは、わかりませんが、何か嫌な感じですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "コムギ！お前いったい何したの！？",
+      "char": "c000_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ウゥ～ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ひとまず、安全な場所に移動しましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "で、何で俺の部屋なんだ？",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "もちろん、ここが一番安全だからです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "俺は、犬が苦手なんだよ！\\部屋に犬の匂いが付いたらどうするんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "残念です。\\すでに染みついているようですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "コムギ！布団に潜るな！\\あぁ、もう…泥だらけじゃないか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そんな事より、早くコムギから事情を聴いてみたらどうだ？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "そ、そうだな…\\モナ、よろしく頼むよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "はい。お任せください。\\コムギ、いったい何があったの？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ふむふむ…それで？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ウゥ～ガウガウ！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そうなの…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "モナ、わかったか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あまり要領を得ませんね。\\急に襲われるようになったとしか…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ならば、《ひき逃げ事件》の事を聞いてみてくれ。\\その事件に関係しているらしい。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ひき逃げ事件？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ああ。\\その現場でコムギが目撃された事が今回の原因かもしれない。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "本当に事件じゃないか！？\\そういう大事なことは、早く言ってよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "キャプテンが尻込みすると思ってな。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "当たり前だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "コムギ、どうなの？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "31": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "あの日…\\オラは雨の中、お嬢様の帰りを待っていただす。",
+      "background": "bg017_f",
+      "bgm": "45",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "朝は晴れてたのに急にこんな雨になるなんて…",
+      "char": "c115_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "コムギはまたお迎えに来てくれてるのかな。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ふふっ…\\急がないとコムギがずぶ濡れになっちゃうね！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "あっ！お嬢様だす！お嬢様～",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray",
+      "loop_ani": "attack"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "コムギ～",
+      "char": "c115_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "えっ！？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "gray"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "キィーーーー、ドンッッッ！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "お嬢様～！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "gray"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "その時、車から人が降りてきただす。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "くそっ！俺は悪くない、俺のせいじゃない！！\\こいつが急に飛び出してくるからっ！！",
+      "char": "none",
+      "speaker": "COMMANDER",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "中隊長、落ち着いて…\\貴方は車に戻っていなさい。",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "し、しかし…",
+      "char": "none",
+      "speaker": "COMMANDER",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "はやく！",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "は、はいっ！",
+      "char": "none",
+      "speaker": "COMMANDER",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "可愛そうに、即死ね。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "目撃者は？\\……そう、無しね。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "厄介な事になったわね…\\でも、あの中隊長を手駒に加えるチャンスかしら？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "ワンワン！ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray",
+      "loop_ani": "attack"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "犬？うるさいわね。\\早くここを離れたほうがいいか…",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "行くわよ。車を出して。早く。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "before_effect": "go_to_left_slow",
+      "screen_effect": "gray"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "はいっ！",
+      "char": "none",
+      "speaker": "COMMANDER",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "オラはその車を追いかけただすが、やがて見失ってしまっただす…",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "お嬢様…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "ん？あれは何だすか？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "58": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "ペン？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "はい。お嬢様の近くにペンが落ちていたそうです。",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "ガルル…ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "そのペンが犯人の落とし物だって言ってるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "状況的にそのようですね。\\犯人はコムギを捕まえるというよりは、現場に落としたペンを回収したいのでしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "64": {
+      "type": "talk",
+      "dialogue": "う～ん、ペンか…\\コムギ、そのペンはどうしたんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "65": {
+      "type": "talk",
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "66": {
+      "type": "talk",
+      "dialogue": "ふむ、近くの公園に埋めたそうです。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "67": {
+      "type": "talk",
+      "dialogue": "今から、取りに行きましょう！\\少女とコムギの無念を晴らすのです！",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "68": {
+      "type": "talk",
+      "dialogue": "そして、罪人に裁きの鉄槌を！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "69": {
+      "type": "talk",
+      "dialogue": "ダメだ、ダメ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "70": {
+      "type": "talk",
+      "dialogue": "ど、どうしてですか！？",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "71": {
+      "type": "talk",
+      "dialogue": "どうしても何も、俺は目立つ事はしたくない。\\それに、そんなペンが証拠になるのかよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "72": {
+      "type": "talk",
+      "dialogue": "で、ですが…\\正義を示さねば世が乱れます！",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "73": {
+      "type": "talk",
+      "dialogue": "アストレア。私たちは正義の味方ではないのよ？\\それに…悪魔的にはもう少し世が乱れてくれたほうが助かるわね～\\そうですよね、ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "74": {
+      "type": "talk",
+      "dialogue": "なぜ、俺に振る！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "75": {
+      "type": "talk",
+      "dialogue": "ご主人様。このような悪女の言葉に耳を傾けてはいけません！！\\ご主人様は優しき正義の使徒。\\正義によって、この世に平和をもたらしましょう！！",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "76": {
+      "type": "talk",
+      "dialogue": "正義系チャイルドはこれだから面倒ですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh"
+    },
+    "77": {
+      "type": "talk",
+      "dialogue": "キャプテン！！",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "78": {
+      "type": "talk",
+      "dialogue": "…なんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "79": {
+      "type": "talk",
+      "dialogue": "俺に考えがある。任せてくれないか？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "80": {
+      "type": "talk",
+      "dialogue": "どんな考えだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "81": {
+      "type": "talk",
+      "dialogue": "俺の契約者を使う。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "82": {
+      "type": "talk",
+      "dialogue": "あのオジサン？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "83": {
+      "type": "talk",
+      "dialogue": "そうだ。あれでも一応は警察官だ。\\今は契約により、心に正義の火が再び灯った。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "84": {
+      "type": "talk",
+      "dialogue": "俺が、彼にそのペンを渡してこよう。\\きっと有効に活用してくれるはずだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "85": {
+      "type": "talk",
+      "dialogue": "正義の警察官とか、あんまり近寄りたくないんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "86": {
+      "type": "talk",
+      "dialogue": "キャプテン！！",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "87": {
+      "type": "talk",
+      "dialogue": "わかった、わかった！\\ひとまず、そのペンを回収しにいく！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "88": {
+      "type": "talk",
+      "dialogue": "そのあとはアガメムノン、お前が何とかしろよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "89": {
+      "type": "talk",
+      "dialogue": "ああ、任せてくれ！",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "90": {
+      "type": "talk",
+      "dialogue": "よかったわね、コムギ！",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "91": {
+      "type": "talk",
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "92": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

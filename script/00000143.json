@@ -1,0 +1,117 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "うーん…\\モナが勝手に学園の女子生徒と契約し、\\<color=ff9900>《エウロペ》</color>というチャイルドが生まれたらしい…",
+      "background": "bg196_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105503001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "モナの奴、自分たちは<color=ff9900>《次の契約者》</color>を探すから、\\俺だけで会って来いとか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105503002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "こんにちは、悪魔くん。",
+      "char": "c062_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105503003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あっ、こんにちは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "voiceid": "105503004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あの綺麗なサキュバスさんたちから\\話は聞いてるわよ、可愛いご主人さま。",
+      "char": "c062_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105503005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "どんな話を聞いたんだか…\\いいや、大体わかるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "105503006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "フフフ、意外な話かもしれないわよ？",
+      "char": "c062_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105503007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "まさかな…\\どうせ背も低くて、\\ヒョロッとしてて、無気力な目つき…\\とかだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105503008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ふ～ん。貴方ってそういう悪魔なの？\\あのサキュバス、そんな事、\\一言も言ってなかったわよ。",
+      "char": "c062_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105503009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "結局、私の契約者は、\\<color=ff9900>くだらない願い</color>の為に…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105503010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "小さくて無気力な目つきの悪魔と\\契約したって事だよね？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105503011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "は～あ、やりきれない気分。\\あなたはちゃんと契約者の願いを\\聞いてくれるのかな～？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_slow",
+      "voiceid": "105503012"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
+      "wait": "normal"
+    }
+  }
+}

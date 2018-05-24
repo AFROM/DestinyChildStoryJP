@@ -1,0 +1,281 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "まだ痛むのか？\\確か…片頭痛、と言ったか。",
+      "background": "bg056_f",
+      "bgm": "9",
+      "char": "c050_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "はい。\\どのようになろうと、状態は変わりません。\\たとえチャイルドになっても、これだけは。",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "…頭痛から解放されたことなどありません。\\頭痛のない《私》を想像できなかったからかも\\しれません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "違う。\\お前の問題はそうではなく…",
+      "char": "c050_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "では…何だというのです？",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うわ…",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "意外な客だった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ごきげんよう、旦那様。",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "こいつはオードのサポーターをしてるアルテミス。\\ちゃんと話すのは初めてだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あ、あ、アルテミス…お前が来るなんて珍しいな。\\戦いに来た訳じゃ…なさそうだし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "…オード様から\\あなたが私の役に立つだろう、と言われたのです。",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "俺がお前の役に…？\\え、何を期待されてんの、俺？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "confused"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "私にもわかりません。\\私はただ、\\オード様の言いつけ通りにしているだけです。",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "…そっか。じゃあ、まずは話を聞くよ。\\役に立てるかは、それからだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "オード様がおっしゃるには、あなたなら…\\私の頭痛を治す事が出来る、と。",
+      "background": "bg086_f",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "どうやってかは…わかりかねますが。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うん、俺もわかんないや。\\あいつ、俺に何ができると思って\\お前を寄こしたんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "それは建前でー\\ご主人を暗殺するために送りこまれた\\刺客なんじゃないのー？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ホントは、ご主人が寝てる時に…グサッ！\\ってやるんでしょ！でしょ？でしょ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "このクソガキ！お前は黙ってろっての！\\ったく、1日1回は喧嘩を売ってきやがる…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "御主人様。\\また机の引き出しにゴミを入れましたね？\\何度も申しあげてますが、机はゴミ箱では…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はっ！？いや、それゴミじゃないから！\\確認も取らずにビリビリに破くとかありえない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あーもう…\\アルテミス、悪いけど、とりあえず入って…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "なになに？新しいサポーター？\\また増やすなんて、ご主人ってほんとバカだね！\\わけわかんない！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "来たって、もう入れる場所もないよ？\\あ、そうだ！ご主人のベッドを捨てれば…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ナチュラルに俺の物を捨てんな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "まぁ！新人さんですか～？\\って、あらあら、どこかで見た顔ね…♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "新人じゃないし！よく見ろよ、チャイルドだろ！\\オードがまた何か試そうとしてんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "門前払いする訳にもいかないだろ？\\だから、とりあえず中に…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "おい！俺のベッドを捨てんなっていってるだろ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "normal",
+      "facial": "shock",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…\\…うるさい家ですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

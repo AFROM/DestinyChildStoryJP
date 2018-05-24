@@ -1,0 +1,102 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "モナさんは主人を変えたりしないんですか？\\大変じゃないですか？\\<color=ff9900>ゴミ悪魔</color>のご機嫌取りなんて…",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c048_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104602001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ゴミ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "nonsense",
+      "screen_effect": "shake_weak",
+      "voiceid": "104602002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ふふ、まあ、大変よ～\\それに引き換えフレイ様は、自分のことはちゃんと\\出来る方だから、羨ましいわ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "104602003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "こっちのご主人さまは、モナがいないと\\なーんにもできないし…\\はぁ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "voiceid": "104602004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "聞こえよがしのため息、やめてくれませんか～？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad",
+      "voiceid": "104602005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ご主人さまはモナなしで、\\魔王争奪戦を戦い抜く<color=ff9900>自信</color>があるんですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "104602006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "バカにするなよ？\\今まで俺は、ちゃんと一人で生きてきたんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake",
+      "voiceid": "104602007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ふっ、身の程知らずが。\\呪われてしまえばいいのに……",
+      "char": "c048_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104602008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はっ…すいません。また<color=ff9900>《失言》</color>を……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104602009"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

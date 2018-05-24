@@ -1,0 +1,577 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "早く早く！ご主人！温泉が冷めちゃうよ！",
+      "background": "bg077_f",
+      "bgm": "8",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "joy",
+      "before_effect": "enter_from_right_fast"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "温泉が、冷めるわけないだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ここは魔界の湯が楽しめるという温泉街へ通じる道。正月ということもあり、温泉街は沢山の悪魔や\\チャイルドで、ごった返していた。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "去年の疲れを癒すため…\\という理由でサキュバスたちに無理やり連れて\\来られたが…\\家でグダグダしてた方が疲れが取れた気がする。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "さぁ、ご主人さま！\\シャキッと歩いてください。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "御主人様。あの建物です。急ぎましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "いらっしゃいませ。\\…あら？ご主人様？",
+      "background": "bg155_f",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "おっ！？なんでコウガがここに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "あ、悪魔さん！いらっしゃいませ！！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あたしがお手伝いを頼んだんですよ～\\この時期は毎年忙しくって！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "メイに比べて、仕事に初々しさがあるコウガ…\\心境の変化だろうか？コウガが手伝いなんて。\\新たな力を手に入れてどうなる事かと思ったけど、\\上手くやっているようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "どうぞ、ゆっくりしていって下さいね～",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "それじゃ、よろしく頼むよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "じゃあ、私は女性陣を案内するね～！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "よろしくお願いね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "どうしたんですか？ご主人様。\\そんなに見つめて…",
+      "background": "bg068_f",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "べ、別に見つめてなんか…\\ただ、仕事頑張ってるんだなと思ってさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ふふふっ。メイに頼まれてしまって仕方なくです。\\なかなか良いことですね。\\ああやって、人と触れ合うのは…",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "まぁ、何にせよ、元気そうで安心したよ。\\お前はいつも一人でいたからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "心配してくれていたんですか？\\ご主人様は、いつもお優しいですね。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…ふん。\\さぁ、温泉に入ってスッキリするか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はい。ご主人様。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "こちらが当館名物の大浴場となっております。\\では、じっくり日頃の疲れを癒してきてくださいね。",
+      "background": "bg228_f",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ああ、案内ありがとな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "28": {
+      "type": "curtain",
+      "background": "bg228_f",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ギャー！何、女湯に入って来てんの！？\\この変態！トサカ野郎！",
+      "bgm": "4",
+      "char": "c003_13",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あらあら、ご主人さまったら♥\\こんな堂々とノゾキとは…\\欲望に忠実な悪魔らしさにとうとう目覚めましたか？",
+      "char": "c001_16",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ち、ちが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "こんな事もあろうかと水着を持って来て正解でした。しかし、最低ですね。御主人様。",
+      "char": "c002_12",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "うう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "とりあえず、さっさと出てけ！",
+      "char": "c003_13",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ぐはっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake_weak"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ダビが投げた、カゴが頭に直撃する。ふたつ目のカゴが飛んでくる前に、俺はその場から逃げ出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "37": {
+      "type": "curtain",
+      "background": "bg233_f",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "はぁ、はぁ…",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "えらい目に遭った…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あら、ご主人様。\\もうお風呂から上がられたのですか？\\それにしては、とてもお疲れのようで…",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "お疲れってお前…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "何の騒ぎ…って、そこ、女湯じゃないですか！\\コウガってば、一体どこに案内してんのよ！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "女湯？そういえば、時間で入れ替わると…",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "ご、ごめんね。大丈夫だった？\\コウガにはよく言っておくから！\\あと、こっちが男湯です…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "ああ、ありがとう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "46": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "bg233_f",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ふう…やっとのんびり…",
+      "bgm": "12",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ぐわっ！なんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "go_to_left_jump",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "突然、今入ってきたばかりの脱衣所のドアが蹴り開けられた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ん？お前も来ていたのか、補欠。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "フレイ！驚かすなよ！\\少しは周りの迷惑ってもんを考えろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "はっ！貧乏人が！\\よくこんな高級な店に来られたもんだな！\\ああ、バイトか…\\ここはお客様用の風呂だ。さっさと消えろ！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "う、ウザい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "脱衣所のドアが壊れてる…？",
+      "char": "c124_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_slow"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…あら？\\どうしてあなた達がいるの…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "……\\…\\あっ、覗き？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そりゃ、こっちのセリフだ！\\男湯に入ってきたのはお前だろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…えっ、男湯ですって？",
+      "char": "c124_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "まさか、イヴもコウガに案内されたのか？\\いや、イヴの場合、単純に迷ったという可能性も…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "お客様？どうかなさいましたか？",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "うわっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "何の騒ぎ…きゃっ！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "メイは俺と目が合うと、顔を真っ赤にした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ごめんなさい、メイ。\\私…またやってしまったみたいです。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "な、慣れてないんだし、仕方ないよ。\\とにかく、業者を呼んでドアを\\修理してもらいましょう。",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "チッ、安物はこれだから…\\ほら、修理代だ、もっと頑丈な物に取り替えておけ！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "問題の本質って、そこじゃないだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "――そんなこんなで小一時間後、\\風呂場のドアは頑丈な物へと無事交換された…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ふぅ～やっと終わりましたね。もうクタクタです…",
+      "background": "bg155_f",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ホント、お疲れ様。",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "コウガの隣で、メイは苦笑している。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "色々巻き込まれたし大変そうだけど、コウガも契約者と上手くやってるみたいだし俺もひと安心だ。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

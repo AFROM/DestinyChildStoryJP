@@ -1,0 +1,337 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "問題です！\\《朝は4本足、昼は2本足、\\夜は3本足で歩く動物は！？》",
+      "background": "bg034_f",
+      "bgm": "9",
+      "char": "c216_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ずいぶん定番のなぞなぞだな。\\答えは《人間》だろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ブーッ！不正解！",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "なんでだよ？\\赤ちゃんの時ハイハイ、大きくなると2本の脚で…ってヤツだろ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "答えは《朝からお腹を下した可哀想な人間》だよ～",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "はぁ！？なんだそれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "え～じゃあ説明してあげるね～\\朝、お腹が痛すぎて這って歩いて。",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "昼になったらよくなったから普通に歩くの～\\で、夜になったらまた再発ね～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "その流れだと、夜も4本足だろ？\\そんな勝手に作った答え、わかるか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "文句が多いな～じゃあ、もういっこ。\\《太陽を追う狼と、月を追う狼を飼ってる\\少女の名前は？》",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "また…変な答えじゃないだろうな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ふざけるのは最初だけだよ。",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ホントかよ…\\まぁ、いいや。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "えーと、太陽と月を追う狼？\\あれ、どこかで聞いたことがあるような…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "思い出せそうで思い出せない…\\わからん！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "もうギブアップ？\\ニャンコちゃん、根気なさすぎ！",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "答えはニャンコちゃんの目の前にいたのにね～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "目の前って…あ、アイツらは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "スコル、ハティ。おとなしくね。\\そう、いい子達ね。",
+      "char": "c216_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "enter_from_right_slow"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ワーウルフの契約者じゃないか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "スコルとハティ。太陽を追う狼と、月を追う狼。\\答えは自分の契約者だったのか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "お前、契約者がここに来ること知ってたのか？\\…って、ワーウルフ、どこ行った？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あ、あ…あなた…！\\なぜこんなところに？",
+      "char": "c216_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "な、な、な、何？\\…っていうか君は誰？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あなた、以前あたしに…何かしたわよね？",
+      "char": "c216_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "何を言ってるんですか？\\何かなんてするわけないじゃないですか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "after_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "うわっ、ちょっと待て。こらっ、おい！\\やめろって！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "突然、契約者の子狼達が俺の匂いを嗅ぎ始めた。\\痛い…尻尾がブンブンしている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そういえば、以前もこんなふうに子狼に捕まって、\\ワーウルフの契約者と出会ったんだっけ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "前と同じ光景ね。\\この子達は、一度嗅いだ匂いは忘れないわ。",
+      "char": "c216_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "覚えてたのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ねぇ…\\あたしに何をしたのか、今すぐ説明してちょうだい。",
+      "char": "c216_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "俺は別に…何もしてないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "そんなはずない！\\あなたに会った日、絶対何かあったの！",
+      "char": "c216_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "うまく言えないけど、すごくスッキリして…\\やっとまともに呼吸ができるようになったの。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "なんだかとっても、気持ち良かった…\\お願い、同じことをもう一度やってよ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そんなのは知らないよ。一体、何のことだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "契約当時の感覚を覚えているようだ…\\でも、契約は、いいことばかりじゃないんだよ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "あたしは…\\少しでも、自由な気分を味わいたい。",
+      "char": "c216_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "もうすぐサーカスで稽古の時間なの。\\息苦しくて…嫌い…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "自由が手に入らないのは知ってる。\\お願い。気分だけでも、救われたいの。\\解放されたいのよ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "…気分だけで、いいのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "ええ…\\だって、それ以上は望めないもの。",
+      "char": "c216_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "わかった。\\でも、あまりのめりこむなよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "45": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

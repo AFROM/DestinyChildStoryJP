@@ -1,0 +1,188 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg196_f",
+      "bgm": "9",
+      "fade_out": "shortest",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ダンジョンが解放されたのを感じ取ったので\\来てみましたが…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "serious",
+      "before_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "105504023"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "…大丈夫ですか、御主人様？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle",
+      "voiceid": "105504024"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "うん。ご覧の通り、<color=ff9900>ボコボコにされた</color>。\\今やっと終わったとこだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "105504025"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あら？<color=ff9900>《鼻血》</color>？\\鼻血が出ています！\\どうしましょう♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "tempt",
+      "before_effect": "shake",
+      "voiceid": "105504026"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "うっ…\\なんだか喜んでる様に見えるんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "105504027"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "いいか？\\モナが勝手に契約者を連れて来たせいで…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105504028"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "フフッ、何を言っているんですか？\\そんな事より、止血をしましょう♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt",
+      "voiceid": "105504029"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "はぁ～もういいよ。\\モナのせいで、いつも苦労してんだぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "105504030"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "しかし、華奢な女の子から生まれたチャイルドが、\\あの腕力って…\\こんな鼻血が出たのは本当に久しぶりだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "105504031"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ご主人さま、モナが知らない所で\\殴られるのは止めてくださいね？\\しくしく…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "105504032"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あぁー、\\大体、お前がいる時にボコられてるから\\心配いらないよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "voiceid": "105504033"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "モナが来る前は、本当に幸せだったなぁ～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "105504034"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ご主人さま、照れちゃって～♥\\モナのようなサポーターに巡り会えるなんて\\一生に一度あるかどうかですよ～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "idle",
+      "voiceid": "105504035"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "モナは仄暗い闇を照らす、\\<color=ff9900>《希望の光》</color>とでも言いましょうか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "105504036"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "行く先を遮る<color=ff9900>《漆黒の闇》</color>に見えるぞ…\\はぁ～一旦帰るか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "105504037"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "bg037_f",
+      "fade_out": "longer",
+      "wait": "longer",
+      "fade_in": "longer"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ん？敦子じゃないか。",
+      "char": "c083_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "105504038"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…え？ここは…？",
+      "char": "c062_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "voiceid": "105504039"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あんた、いきなり現れたみたいだけど。\\何かあったのか？\\それに…あそこのアイツらは何？",
+      "char": "c083_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "105504040"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longest",
+      "wait": "longer",
+      "fade_in": "normal"
+    }
+  }
+}

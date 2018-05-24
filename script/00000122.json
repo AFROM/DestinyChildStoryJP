@@ -1,0 +1,478 @@
+{
+  "phase1": {
+    "1": {
+      "type": "timebrief",
+      "background": "bg095_f",
+      "bgm": "9",
+      "date": "2017-12-08",
+      "time": "17:16"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "<color=cc66ff>★魔王争奪戦速報！★</color>\\候補生たちの戦いが激しくなり、\\<color=ff9900>脱落者が続出</color>しています！\\くれぐれも巻き込まれないよう、ご注意を！",
+      "background": "bg117_f",
+      "char": "none",
+      "speaker": "newsflash",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "105200001"
+    },
+    "3": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "…フン。\\魔界で俺が鼻にもかけなかった連中が、\\ずいぶんとはしゃいでいるようだ。",
+      "background": "bg119_f",
+      "bgm": "9",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "105200002"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "しかし、まずいな…\\このままでは、他の連中に追い越されてしまう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105200003"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "まるで自分が一番先頭にいるみたい…\\そんな事実は過去にも現在にも\\全くありませんからね。",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "105200004"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "憎まれ口ばかり叩いて…\\お前は一体、<color=ff9900>誰の味方</color>なんだ…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105200005"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…<color=ff9900>勝利する方</color>です。",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105200006"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "なるほど、そう来たか。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105200007"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "フン…\\まあ、ついて来い。\\ジッとしていてもどうにもならんしな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_jump",
+      "voiceid": "105200008"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あ、あ！マイク～、マイクテスト～★\\<color=ff9900>《緊急生中継》</color>始めちゃいますよ～。\\ちゃんと聞こえますか～？",
+      "background": "bg099_f",
+      "char": "c174_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "shake",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "105200009"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "は～い★あなたのお耳にお口でサービス！\\深夜のパートナーA.I登場～★\\この番組は、格闘実況<color=cc66ff>チャンネルEvil</color>が\\提供しておりま～す！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "105200010"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦は一段とヒートアップし、\\いよいよ本格的に盛り上がってきました！",
+      "char": "keep",
+      "speaker": "same",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "105200011"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "さらに！なんと！既に強力なチャイルドを\\何百体も集めた悪魔がいるという情報も\\キャッチしておりま～す！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "toonear",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "105200012"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "まだチャイルドを手にしてない\\悪魔さんはいますか～！？\\そんなマヌケはいないと思いますけどもしいたら、\\気をつけてくださいね～！",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "dialog_shake",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "105200013"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《信頼できる情報源》</color>からチャンネルEvilが\\電撃的に入手した情報によると――",
+      "char": "keep",
+      "speaker": "same",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "105200014"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "間もなく大々的な<color=ff9900>《候補生狩り》</color>が\\開始されるらしいのです！",
+      "char": "keep",
+      "speaker": "same",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "105200015"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "それでは皆さん、安全にエキサイティングな\\魔王争奪戦ライフを送ってくださいね～、えへへっ♪では以上、チャンネルEvil緊急生中継\\<color=ff9900>《今日の悪魔》</color>でした～！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "105200016"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "何が安全にだよ！バカバカしい…",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake",
+      "voiceid": "105200017"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "エキサイティングな魔王争奪戦ライフって、\\早く死ねってこと？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "105200018"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105200019"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "な、何だ…\\何か言いたいことでもあるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake",
+      "voiceid": "105200020"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "いいえ。サポーターの私ごときが、\\御主人様に向かって意見など、畏れ多いことです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105200021"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なんだよ、何か言いたいことがあるんだったら、\\はっきり言ってくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "105200022"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "でも、きっとお怒りになるかと。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105200023"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺はサポーターの話に怒るほど、\\器が小さな悪魔じゃないさ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "105200024"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "では、言わせてもらいます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "irritation",
+      "voiceid": "105200025"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "「御主人様も、争奪戦に出場していなければ、\\今ごろテレビの前で腹を抱えて\\笑っていたのではないでしょうか？」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "serious",
+      "mvd_post_effect": "none",
+      "voiceid": "105200026"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "うっ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "shake_weak",
+      "voiceid": "105200027"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "「朝起きて夜寝るまで主な日課が\\テレビの視聴だけだなんて、かわいそうに」",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "mvd_post_effect": "none",
+      "voiceid": "105200028"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "や、やめて！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "screen_effect": "shake",
+      "voiceid": "105200029"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "「石の上にも三年といいますが、\\御主人様が一人前の悪魔になるためには\\30年かかりそうですね」",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "toonear",
+      "facial": "serious",
+      "mvd_post_effect": "none",
+      "voiceid": "105200030"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "やめろって言ってるだろっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "voiceid": "105200031"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "これは俺の繊細な心が受け入れるには\\あまりにもひどい暴言だった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105200032"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ですから、私はご忠告申し上げました。\\無駄な事をするのは御主人様の悪い癖です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "105200033"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "はいはい。俺が悪うございましたよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "105200034"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "そうやって周りも自分自身も茶化して\\本心を隠すんですね…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105200035"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "そんな軟弱な姿勢では、\\魔王争奪戦に勝ち残る事は不可能です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "105200036"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "まぁ…\\俺自身も勝ち残れるなんて思っちゃいないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "105200037"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "契約者を探しに行きましょう。\\御主人様の時間は、今日から1分1秒たりとも\\無駄使いはさせません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "teach",
+      "voiceid": "105200038"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "徹底的に鍛え直します。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "teach",
+      "voiceid": "105200039"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "お前はさっきの放送を見なかったのか！？\\大々的な<color=ff9900>《候補生狩り》</color>がもうすぐ始まると\\言ってたじゃないか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "105200040"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "弱い奴は大人しく、家の中で争奪戦が終わるのを\\待ってろって言ってんだよ、あれは。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "105200041"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "御主人様が見た放送は、私が見た放送とは、\\違う放送のようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "105200042"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "先の放送は<color=ff9900>《候補生狩り》</color>が始まる前に\\腕を上げなさいという意味ですよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105200043"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "獲物になる前に食物連鎖の頂点を\\目指さないといけません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_left_slow",
+      "voiceid": "105200044"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "うわっ！\\モナ、こいつをちょっとどうにかしてよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "go_to_left_slow",
+      "voiceid": "105200045"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "ふぁぁ…\\こんな朝早くからお仕事ですか～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "105200046"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "車には気をつけて、なるべく夜遅くに行動しながら\\怪しい人から声をかけられたら\\素早く契約してくださいね～♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "105200047"
+    },
+    "53": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

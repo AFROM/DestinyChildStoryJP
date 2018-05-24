@@ -1,0 +1,540 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あら、今回の場所…<color=ff9900>《高校》</color>なの？",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "105501001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "何か問題でも？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105501002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "問題というより、ついに来た…という感じかしら。\\ご主人さま、ずいぶん長い間、\\学校に行ってないから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "105501003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "うっ……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "105501004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そうだったんですね…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105501005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "人間界にこれだけ馴染んでいながら、\\なぜ学園に行くのをイヤがるんですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105501006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "お、俺は悪魔だから、\\人間のつまらない制度には縛られないんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "105501007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…光熱費と家賃はきちんと支払っているのに？\\よくそんな事が言えますね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "smile",
+      "voiceid": "105501008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "う…うるさいな！\\俺が行きたくないから行かないだけだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "105501009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "本当に、ただの引きこもりですね♥\\さて、そこで取り出したるは～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "105501010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "この日の為に準備した\\<color=ff9900>《モナのスペシャルプレゼント2弾！》</color>",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "105501011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "今度はなんだよ？…はっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "105501012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "モナは、怪しい何かを取り出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105501013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "<color=CC66FF>《学生証：阿隈賀奇太郎》\\<color=CC66FF>都立運命高等学校",
+      "char": "none",
+      "speaker": "none",
+      "image": "student_card",
+      "voiceid": "105501014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "い…いつの間にこんな偽造学生証を作った！？\\勝手に俺の写真を撮って！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "voiceid": "105501015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "おい、その学生証よこせよっ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "toonear",
+      "facial": "fury",
+      "voiceid": "105501016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あんっ、ご主人さま…♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "toonear",
+      "facial": "tempt",
+      "voiceid": "105501017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "いくらモナがご主人さまのサポーターでも、\\急にそんなところを<color=ff9900>触る</color>のはちょっと…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "105501018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "どこも触ってないだろ！\\<color=ff9900>誤解</color>を生むような言い方やめろって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "105501019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "と、とにかく…今回の件はパスだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "105501020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "やっぱり悪魔が人間界の\\ルールを守るなんておかしいしな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "105501021"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あら…？モナが何かしようとする度に、\\ご主人さまは人間界のルールを守るように\\言ったような気がしますが…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "angry",
+      "voiceid": "105501022"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "気のせいでしょうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh",
+      "voiceid": "105501023"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "学校にも行かないご主人さまが…\\人間界のルールについて語るなんて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh",
+      "voiceid": "105501024"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "そうですね。\\これまで生ゴミを捨てる日、\\資源ゴミを捨てる日と、\\どうして真面目に区分していたんですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "before_effect": "shake",
+      "voiceid": "105501025"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "近隣住民の迷惑になるから、\\22時以降に大声を出してはいけないという\\ルールも守る必要などない気がしますね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "teach",
+      "before_effect": "shake",
+      "voiceid": "105501026"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "うるさいな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "105501027"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ふう…まあ、構いません。\\ご主人さまに協力していただけないのであれば、\\仕方がないですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh",
+      "voiceid": "105501028"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "今回の件は、我々サポーターが対応しましょう♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "voiceid": "105501029"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "おい、お前ら…\\何をする気だ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105501030"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "リザ、どこの高校でしたっけ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "voiceid": "105501031"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "都立運命高等学校です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105501032"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ふむふむ。\\それでは、潜入しちゃいましょう♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "tempt",
+      "voiceid": "105501033"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "若者たちの<color=ff9900>新鮮な精気</color>を\\た～っぷり頂きましょうね～♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "tempt",
+      "voiceid": "105501034"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "良い考えですね。\\高校は<color=ff9900>陽の気</color>が溢れていますから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105501035"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "何言ってるんだよ！\\そんな事したら<color=ff9900>大騒ぎ</color>になるぞ！本当に！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "105501036"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "あれもダメ、これもダメ…\\一体何をしろと言うんですか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "105501037"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "そういう問題じゃないだろ…\\だいたいお前たちが<color=ff9900>学生</color>って無理があるだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105501038"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "……へぇ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "superangry",
+      "voiceid": "105501039"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "……それはどういう意味でしょうか？\\ぜひ<color=ff9900>言葉の真意</color>をお伺いしたいですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy",
+      "voiceid": "105501040"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "俺はサキュバス2人の殺気を耐えるので\\精いっぱいだった…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105501041"
+    },
+    "42": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "そして結局2人は<color=ff9900>《ファイロ》</color>からもらった\\セーラー服を取り合っている。",
+      "background": "bg035_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105501042"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105501043"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "最初の数ヶ月はかなり頑張って通ったんだけどな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105501044"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "いつから学校に行かなくなったんだろ…？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "105501045"
+    },
+    "47": {
+      "type": "curtain",
+      "background": "bg016_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "せっかく学園まで来たんですから、\\何人倒せるか、試してみましょうか。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "105501046"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "倒すって、別に戦いに来たわけじゃないだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "105501047"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "賛成です。\\<color=ff9900>《フレイノート》</color>に書かれた学生が\\何人かいるみたいですし。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105501048"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "それでは、契約者は私が探しますね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "105501049"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "ご主人さま。今は授業時間なので\\見つからないよう注意し探してくださいね♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105501050"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "先生に捕まると、何処かに連れていかれて\\ひどく怒られるので、気を付けてくださいね♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105501051"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "はぁ～何とかならないの？\\魔力とかでさ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "105501052"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "それはやめといた方がいいですね。\\昔から言うではないですか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "105501053"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "「小さな火種を消すために、\\1杯しかない水を使うのは愚か者だ」…と。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "105501054"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《魔界の例え》</color>はよくわからないんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "before_effect": "shake",
+      "voiceid": "105501055"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "ふむ、少し違いましたか…\\1杯ではなく半分？が適切の表現のようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105501056"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "リザ、ご主人さまをからかってはいけませんよ。\\おしゃべりはこの辺にして、\\ターゲットを探しに行きましょう！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_fast",
+      "voiceid": "105501057"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "おい！ちょっと！！\\お前ら…絶対楽しんでるだろう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "105501058"
+    },
+    "61": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

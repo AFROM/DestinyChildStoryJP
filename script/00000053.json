@@ -1,0 +1,173 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "フレイヤ～どこにいるんだ～！\\なあ、キゲン直してくれよ～っ！",
+      "background": "bg178_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "102800001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "なあフレイヤ、謝るからさ！\\そろそろ出てきてくれ…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "102800002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ニャ…",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "hide_from_right",
+      "voiceid": "102800003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "よかった、見つけたぞ！\\あんまり心配かけるなよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "voiceid": "102800004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "んっ…？\\だ、誰だ！そこにいるのは！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "102800005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "102800006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "…って、お前か。\\まだうろうろしてたのかよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "102800007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《フレイ様、俺が悪かったですぅ》</color>と情けない声が\\聞こえたもんでな。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102800008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ふ、ふざけるな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry",
+      "before_effect": "shake",
+      "voiceid": "102800009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "どけ、お前に用はない。\\おいチビ、俺と契約しろ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102800010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "い、嫌だニャ、あっち行けニャ！",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102800011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ふん…\\ならば、力ずくで従わせてくれる！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102800012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "待てよ、むりやり何やってんだ、嫌がってるだろ！\\それに<color=ff9900>《その子は俺のもの》</color>だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "102800013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ニャニャ！？",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "voiceid": "102800014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "黙れ。どんな方法であろうと、\\より多くのチャイルドを従わせた者が魔王に近づく。邪魔をするな。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102800015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ニャァ～ッ！",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "go_to_right_point",
+      "voiceid": "102800016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "お、おい、フレイヤ！待てよ、どこに行くんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "after_effect": "go_to_right_point",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102800017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ちっ、逃げられたか…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102800018"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter"
+    }
+  }
+}

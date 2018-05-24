@@ -1,0 +1,431 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "おい、そこの店員！！",
+      "background": "bg097_chr02",
+      "bgm": "9",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "center",
+      "before_effect": "enter_from_left_fast",
+      "screen_effect": "dialog_shake",
+      "voiceid": "101800001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "いきなりタメ口かよ！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "101800002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "聞こえてるなら返事しろ！",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake",
+      "voiceid": "101800003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "は、はい…いらっしゃいませ、\\何かご用でしょうか？",
+      "char": "none",
+      "speaker": "hero",
+      "facial": "confused",
+      "voiceid": "101800004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ここで一番高いビールはどこにあるんだ？",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "voiceid": "101800005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ええっと…左側の一番隅っこに並んでる\\青い缶とその下の黒い缶が、\\当店で一番高いビールになります。",
+      "char": "none",
+      "speaker": "hero",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "101800006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "よし。じゃあ、それを寄越せ。",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "voiceid": "101800007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "none",
+      "speaker": "hero",
+      "pos": "left",
+      "voiceid": "101800008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…おい、何やってるんだ？\\さっさと持ってこいってんだよ！",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "center",
+      "voiceid": "101800009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "お買い上げの品は\\直接こちらへ持ってきて頂ければ…",
+      "char": "none",
+      "speaker": "hero",
+      "voiceid": "101800010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…へぇ、コンビニのバイト風情が\\よくもそんな口を聞きやがったなぁ？\\あぁん？",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "center",
+      "voiceid": "101800011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "くそっ、変な奴にひっかかった…",
+      "char": "none",
+      "speaker": "hero",
+      "screen_effect": "dark",
+      "voiceid": "101800012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "おいっ、お前！\\俺が誰なのか知ってて、\\そんな態度に出やがったのかよ？",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "center",
+      "voiceid": "101800013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…\\いえ、お客様のことは存じ上げませんが…",
+      "char": "none",
+      "speaker": "hero",
+      "voiceid": "101800014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "王様だ！\\この俺はお客様、お客様は王様だぞ！",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "101800015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "お前、そんなことも知らずに働いてたってのか？\\こりゃあ本社にクレーム入れないとダメだよなぁ～\\えぇっ？",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "101800016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ああもう、勘弁してくれよ…",
+      "background": "bg097_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "screen_effect": "dark",
+      "voiceid": "101800017"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ヒック…ああ、ちっくしょう。\\まったく、ムカつくったらありゃしないぜ！",
+      "background": "bg098_f",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "screen_effect": "shake_weak",
+      "voiceid": "101800018"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "若僧のくせに、指差し命令かよ～！？\\上司なんだから当然ってかぁ、えぇっ！？",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "101800019"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あの～大丈夫ですか？\\店の前で、そのようにされると大変困ります…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "101800020"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "一生懸命仕事しようがなんだろうが、\\貧乏人はず～っと貧乏！\\コツコツ貯めたって雀の涙！\\あぁ～こんなつまらん生き方があるかよ！",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "101800021"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "はぁ～どんだけ稼ごうが、金がぜんぜん足んねえ！\\足りなかったら借りて、借りたら返して…\\気づいたら、底なし沼にズップリ！",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "voiceid": "101800022"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "人生そんなもんさ、それが俺の人生さ！",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "voiceid": "101800023"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "うぷっ…！\\あ、あの…息を吹きかけないでくれませんか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "101800024"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "おいっ、小僧！\\ヒック、なあ…ヒックヒック…\\やっぱ金は欲しいなぁ～？",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "101800025"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "あの…ビール1缶で酔ったんですか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "101800026"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "うぃ～ヒック…\\誰が酔ってるってんだ、バァ～カ！",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "101800027"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ヒック…なぁ小僧、忠告しといてやる。\\どんなに金が入り用でも、闇金には手を出すなよ～？",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "101800028"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "特によぉ～\\「無審査で貸してあげます～♥」って\\業者だけはやめとけ！\\こういうのはなぁ、すっげー危険だぞぉ～？",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "101800029"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "いろいろ教えてくれてありがとうございます。\\それと…ここで、そのようにくだを巻かれると、大変困りますので…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "101800030"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "利息を払ってよぉ～どんだけ払っても\\元金が減らなくてよぉ～\\身ぐるみ剥がされちまうんだよ…",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "101800031"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ひっく！骨折り損の～くたび～れ儲け～♪\\てやんでぃバーロー。ヒック…",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "voiceid": "101800032"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "金銭への欲望と、執着…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "101800033"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "いかん、これは…\\<color=ff9900>《押さえつけられた欲望》</color>が今にも爆発しそうだ！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "101800034"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "1日でいいんだ、1日で！\\何のしがらみもなく、自由気ままに暮らしてえんだ！",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "101800035"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "やめろっ、それ以上、言っちゃダメぇ～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "screen_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "101800036"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "超、超、超～金持ちの家に生まれてよぉ！\\綺麗な女はべらかせながらよぉ！\\王侯貴族のように優雅に生きてぇ～んだよ！\\うぃ～っ、ひっく！",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "voiceid": "101800037"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "あらあら、社長さん♥\\王様みたいに優雅に生きていける方法があったら、\\どうします？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "tempt",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "101800038"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "うおっ、やっぱ出やがった…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "serious",
+      "before_effect": "shake_weak",
+      "voiceid": "101800039"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "な、なんだ、このねーちゃん？\\何もないとこから飛び出してきたように\\見えたんだが！？",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "101800040"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "うふふっ♥\\社長さんってば、酔ってらっしゃいますね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "affair",
+      "voiceid": "101800041"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "ご主人さま、朗報です♥\\この方、使えそうですよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "affair",
+      "voiceid": "101800042"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "やっぱり、こういう流れになるわけか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "101800043"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "さぁ～王様♥\\私たちならあなたの願いを叶えられますよ。\\心を開いてくださいね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "tempt",
+      "voiceid": "101800044"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "心？ああ、開いてやるよぉ！\\ヒッ…ヒック！",
+      "char": "c180_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "101800045"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "では、契約を始めます！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "101800046"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "ほとんど無理矢理だな…\\あぁもう、しょうがない…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "101800047"
+    },
+    "49": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

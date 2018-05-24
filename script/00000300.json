@@ -1,0 +1,223 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "モリーユはどこだ？",
+      "background": "dungeon_bg",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "そうですねぇ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "モリーユを連れて来いって言ったろ。\\まさか、頼んだことを忘れたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "モナに言っても無駄です。\\失礼、間違えました。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "御主人様が言える立場ではありません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…なんで言い直した？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "彼女にはちゃんとご主人様の話はしました。\\でも信じてくれなかったんですよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "変なイタズラしたわけじゃないよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "モナをなんだと思ってるんですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "怠け者、ペテン師、残酷非道な悪魔。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "素晴らしい表現ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "とにかく！今日はモリーユなしで戦うしか…\\今度は俺が面と向かって言う！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あら、何を言うつもりなのかしら？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "お前が必要だ。",
+      "background": "bg041_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "な、な、何よ、いきなり！このガキ！",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ガキ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "子供のくせに変なこと覚えて！\\そんな甘い話にあたしが乗ると思ってるの？",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "何言ってるんだ？\\チャイルドが主人を助けるのは当然だろ？\\これは建前じゃない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "お前が来ないから\\俺たちだけで戦いに行ったんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "なんとか勝てたけど\\お前がいないせいで結構苦労したんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そ、そんなの当然でしょ…そうだと思った…",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ひどすぎるわ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ひっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "勘違いさせるようなことしないで！この浮気者！",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "一体、さっきから何の話だ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "28": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

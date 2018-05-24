@@ -1,0 +1,65 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "お～い、フレイ。\\ずっ～と逃げ回って最後に出てくるつもりかよ！",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "before_effect": "shake",
+      "voiceid": "103701007"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "そうだ。\\その前に倒れてくれれば言うことなしだがな。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "far",
+      "voiceid": "103701008"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "無駄だ！\\そんな手で俺は倒せないからな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry",
+      "voiceid": "103701009"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "はははっ！\\そうか、ならば期待してるよ。\\さぁ！俺の代わりにこの娘が相手をしよう！！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103701010"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "神よ、仰せのままに。",
+      "char": "c056_01",
+      "speaker": "same",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "103701011"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "なに？\\フレイが…神だって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103701012"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

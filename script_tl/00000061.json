@@ -1,0 +1,224 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "毎度恒例、魂のダンジョンに到着っと。",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "enter_from_left_slow",
+      "voiceid": "103201001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "このダンジョンのどこかに、\\先ほどの子から生み出されたチャイルド\\<color=ff9900>《ヘカテー》</color>がいます。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ですが、少し気がかりですね…\\彼女、かなりためらっている様子でしたから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "まあ…そうだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103201004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "はい。これまでのチャイルド以上に、\\ごねる可能性がありますね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あっ！\\あそこにいるのって…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103201006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103201007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "はい、あれがチャイルド<color=ff9900>《ヘカテー》</color>ですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そして、アイツもご一緒ってわけか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "103201009"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "なぁ…\\不安を感じないのか？\\あんな下級悪魔のチャイルドになるなんて。",
+      "background": "bg198_f",
+      "char": "c051_02",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "103201010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "で、でも…\\他に選択肢はないんだし…",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "おいおい。\\俺が目の前にいるじゃないか。",
+      "char": "c051_02",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "103201012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "どういうことですか…？",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "俺はあいつなんかとは比べものにならないほどの\\上級悪魔だ。\\悪いことは言わん、従うなら俺にしておけ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "103201014"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "で、でも…",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "103201015"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "お前だって\\せっかくチャイルドとして生まれたんだ。\\不安を感じず、思うがままに生きて行きたいだろう？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103201016"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "だったら強い方になびいときゃいいんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103201017"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "で、でも…最初に話したのは、\\あちらですし…",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201018"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "躊躇なんかしなくていい、\\義理立てするような恩は受けてないだろ？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103201019"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "お～い…\\いい雰囲気のところ、申し訳ないけど、\\ここはですね、俺が開いたダンジョンなんですが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "voiceid": "103201020"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "なんだ、補欠か。とっとと失せろ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103201021"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ひどい言いぐさだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "103201022"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "悪魔同士のケンカは力勝負になりがちですが、\\フレイ様はすごくしつこく仕掛けてくる上に、\\悪質でいやらしいですよね～。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201023"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "はっ、褒めてるのか？\\卑怯、卑劣は悪魔にとって<color=ff9900>《当然》</color>だ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "103201024"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter"
+    }
+  }
+}

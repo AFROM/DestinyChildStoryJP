@@ -1,0 +1,152 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "お会計、1560円になります。ポイントカードを――",
+      "background": "bg097_chr02",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "hero",
+      "voiceid": "103404001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "……",
+      "background": "bg097_f",
+      "char": "c209_00",
+      "speaker": "woman_contractor",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "103404002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "あの、お客様…？",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "hero",
+      "voiceid": "103404003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ご、ごめんなさい。\\でも…なんだか…",
+      "char": "c209_00",
+      "speaker": "woman_contractor",
+      "pos": "right",
+      "voiceid": "103404004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あの…私たち、以前にどこかでお会いしたこと、\\ありましたでしょうか…？",
+      "char": "keep",
+      "speaker": "woman_contractor",
+      "pos": "right",
+      "voiceid": "103404005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ま、まさか、俺を憶えているのか？",
+      "background": "bg097_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "103404006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "この髪型…\\確かに、どこかで見たことが…",
+      "char": "c209_00",
+      "speaker": "woman_contractor",
+      "pos": "right",
+      "voiceid": "103404007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ま、まずいっ！\\ど、どうやって切り抜ける？\\シラを切りとおすか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "103404008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あらあら、まあまあ～♥\\お久しぶりですね！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "pretense",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "103404009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "えっと…\\あら、貴女は確か…",
+      "background": "bg097_f",
+      "char": "c209_00",
+      "speaker": "woman_contractor",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "go_to_right_jump",
+      "voiceid": "103404010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あら～？もしかして…\\<color=ff9900>《イケナイ発言》</color>しようとしてます？\\そんな子は連行しちゃいますよ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_slow",
+      "voiceid": "103404011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "えっ？あっ、ちょっと…",
+      "char": "c209_00",
+      "speaker": "girl_contractor",
+      "pos": "right",
+      "after_effect": "go_to_right_slow",
+      "voiceid": "103404012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "none",
+      "speaker": "none"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "keep",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "お、おい！お金っ！！\\代金まだなんですけど～！\\あぁ～行っちゃった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "shock",
+      "screen_effect": "dialog_shake",
+      "voiceid": "103404013"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "はぁ～あ…俺の金で埋めとかないと…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "unfair",
+      "voiceid": "103404014"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

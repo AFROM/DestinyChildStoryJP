@@ -1,0 +1,274 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "はあ…\\モナさん、私の悩み聞いてくれませんか？",
+      "background": "bg101_f",
+      "bgm": "31",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "あら、どうしたの～？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "欲しいものがあるんですけど\\悪魔さんがお金を持っていないせいで\\買えないんです…",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ツッコミどころ満載な悩みね…",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ああ、どうして悪魔さんは\\お金持ちじゃないんでしょう？",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "NO金持ち！\\NO金持ち！金なし！サル！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そうね～\\誰でもお金持ちになれるわけじゃないし…",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "お金持ちの悪魔に交換したいです。\\…交換…悪くないかも！",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "おい、俺は物じゃないぞ…\\そもそも、誰と交換するつもりだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "やだ！盗み聞きしてたんですか？\\悪趣味な悪魔さんですね！",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "出た！サル！しゃべるサル！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "サルって言うな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "mvd": "ux/talk/efx_script_angry_set.mvd",
+      "mvd_pos": "left_top"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "金なし！モンキー！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "サルもモンキーも同じだろ！\\そうやって悪口言いまくるのは、\\悪趣味じゃないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "盗み聞きする方がもっと悪趣味です！\\許してほしければ、この限定人形を買ってください。",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "なんで俺が許しを乞わなきゃいけないんだ…\\…まあ、そんなに高くなければ\\買ってやらないこともないけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "今ならお買い得ですよ！\\限定版なのに、55人で買えちゃいます♥",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "55人…って樋口一葉がか？\\どこがお買い得だよ…俺には1人でも大金だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ちぇっ……せっかく高い人形を\\手に入れられると思ったのに。\\サルに期待したのが間違いでした。",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "金なしサル！モンキー！ゴリラ！キングコング！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "サルじゃないって言ってるだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "アウストラロピテクス！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "pos": "center",
+      "distance": "far",
+      "before_effect": "none",
+      "one_ani": "attack"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "だから俺はサルじゃ…\\あ？アウス…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "うふふ、そんな困った顔しなくても\\検索すれば出てきますよ～♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "褒め言葉だから調べなくてもいいですよ。\\ね？アウストラロピテクスさん。",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ほんとに褒め言葉なのか？一体、どんな意味が…\\あ、これか。「アウストラロピテクス」とは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "って、全然褒め言葉じゃないじゃん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "バカザル！アホザル！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "サルじゃないっつーの。\\いい加減にしろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そんなに怒らなくても～♥\\好きな子ほどいじめたくなっちゃうんですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "そんなわけないだろ…\\好きなら何でいじめるんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far",
+      "before_effect": "go_to_right_slow"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…あら～？図星だったのかしら～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "tempt"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "な、なんだよ。何で急に黙るんだ？\\おい、メーデイア？どこ行くんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ご主人さまってば♥\\ほんと、罪な男ですね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "36": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

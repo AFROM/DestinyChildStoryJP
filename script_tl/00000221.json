@@ -1,0 +1,239 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "御主人様、そろそろ起床のお時間です。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "idle"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "はぁ？今何時だよ…？\\って…まだ朝の6時じゃん…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "もう6時なんですよ。\\早起きは三文の徳というでしょう？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "俺にとっては\\寝てる方がよっぽど得なんだっつーの…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ふむ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "差し出がましいようですが、\\損得ではなく、自分を律することも大切ですよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "たまには新しい習慣を取り入れてみるのも\\いいのではないでしょうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "あああああー、もう！\\小言をほざく以外に芸はないのか、お前は！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake_weak"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "どうしてあんなに怒るのでしょう…",
+      "background": "bg089_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "2番目の御主人様は、気難しいですね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "まあ、同じ失敗は繰り返せません。\\このことはノートにメモしておきましょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "《2番目の御主人様についての記録、その1》\\・成長を促すべく助言したが、逆効果だった。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "《今後の方針》\\・口頭ではなく、実地指導とするべきだろう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "御主人様、起きてください。\\今日は、御主人様におすすめの勉強法を\\用意したんです。",
+      "background": "bg086_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "どうしました、変な顔をして？\\大丈夫ですよ。きっとお気に召すと思います。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "映像を見るだけですし、\\御主人様の趣味に合っているはずですので。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "先輩方の堂々とした姿を見れば、\\頭ではなく、心で理解出来ることでしょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "いえ、御主人様は既に\\その効果をご理解なさっているのかも…\\よく画面をご覧になってますし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "一体なんだよ？…\\まあいいや、見せてよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ちょっ、これ！\\映画じゃん！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "映画「祓魔師」です。\\悲しい終わりを迎えましたが…\\実に勇敢な方でした…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ぎゃあああっ！怖いっ！！\\もう止めてくれ～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "今日の授業は大きな効果を上げる事ができました…\\しかし、外出してくれたのは良いですが、帰って来ませんね…",
+      "background": "bg089_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "これからの方針は、\\「無理をしない」とするべきかもしれません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ふふふっ…\\もう、世話の焼ける子たちね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "29": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

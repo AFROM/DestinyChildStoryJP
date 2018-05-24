@@ -1,0 +1,250 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "こんにちは、契約者サン……\\気持ちのいい午後ね……",
+      "background": "bg070_f",
+      "bgm": "14",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "…こんにちは。チャイルドの暮らしはどう…？\\私の方はそれなりに充実しているわ…",
+      "char": "c198_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "…ウソだけど…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ふふ、相変わらずね、契約者サンったら…\\退屈で、つまらなそう…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…でも、チャイルドとしての暮らしも同じよ…\\ご主人サマは、可愛いネンネちゃんだし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あら…… それは意外ね……\\",
+      "char": "c198_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そうは見えなかったでしょ…？\\すごく美味しそうで…\\飲み込んだら、お腹の中ですぐに溶けちゃいそう…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "飲み込むだなんて、怖いわ…\\まるで蛇みたい。",
+      "char": "c198_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ふふ、蛇、ねえ…\\ご主人サマを丸のみにできるなら、悪くないわ。\\いっそのこと、蛇に生まれたらよかったのに…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "それじゃあ…次の願いは、それにしましょうか？",
+      "char": "c198_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "いいわね…\\だけど、そう思い通りには\\いかないんじゃないかしら？\\…あら？",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "どうしたの？\\彼が、あなたを呼んでいる…？",
+      "char": "c198_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ええ、行ってくるわね…\\それと、\\あなたが契約した時のことを覚えていることは、\\秘密にしておくわ…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "……そのほうが面白いから。\\それじゃ、またね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ええ…\\生きていたら、また…",
+      "char": "c198_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ご主人サマ、お呼びかしら？\\うふ、今度こそ私のお願いを…",
+      "background": "dungeon_bg",
+      "bgm": "2",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それは聞かないって言ってるだろ…\\俺は平等がモットーなの！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ああ、必要な時だけ利用して、\\私の人権を好きなだけ蹂躙するのね…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "じゅう、りん？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "踏みにじるということですわ、ご主人さま♥\\チャイルドであるゼロスに、\\人権なんて初めからありませんけど♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あら、酷い…\\権利を蹂躙…と言えばよかったかしら…？",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ふふ、ゼロスの持つすべての権利は、\\ご主人さまのものよ。\\だから、それにも該当しないわ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "あら、まあ…\\厳しいわね…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "私には、権利も人格もなし…か…\\",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "うふ…気に入ったわ…\\…ところで、あなたはどうして、\\そんなところで盗み聞きしているの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "うっ…",
+      "char": "c251_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "可愛い坊や♥\\私から逃げられると思っているのかしら…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "う、うるさいな…どいてよ！\\…って、メルが言ってるの…",
+      "char": "c251_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ふふ…そうやって、\\ぷるぷる震えながら突っぱねようとするところが、\\また可愛いのよね…\\食べちゃいたくなるわ…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…！\\お、お兄ちゃ～ん！助けて～！",
+      "char": "c251_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_right_point"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "あら、逃げちゃったわ。\\ふふ…本当に可愛い…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

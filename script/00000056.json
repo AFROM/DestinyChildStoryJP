@@ -1,0 +1,79 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg177_f",
+      "bgm": "9",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "なあ、フレイヤ。もういいだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "102803001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "俺の手を取ってくれよ。さあ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "smile",
+      "voiceid": "102803002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ご主人さミャ…フレイニャは、フレイニャは…",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "102803003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "待て！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102803004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "やっと見つけたぞ、猫！\\さあ、俺と契約しろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102803005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "も、もう、しつこいニャ、あっち行けニャっ！",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102803006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "何だその口のきき方は！\\それが主人への態度か！？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake_weak",
+      "voiceid": "102803007"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

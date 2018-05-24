@@ -1,0 +1,163 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "神よ…悪を裁こうというのに、\\なぜコソコソとお隠れになるのですか？",
+      "background": "bg056_f",
+      "bgm": "2",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "善い行いをするには、\\少しぐらい悪いこともする必要があるのさ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "…わかりました。神よ、常に正しい神よ…\\あとは、その<color=ff9900>リザ</color>というサキュバスを、\\さらえばいいのですね。",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "さらうんじゃないってば。\\迷える子羊を導いて来るんだ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "やはりフレイさまは慈悲深い…\\裏切り者を優しく包む、慈愛の神よ…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "……",
+      "background": "bg089_f",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "うおっ、何だ！？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「時間を稼いで始末しよう」</color>\\って思ってるでしょ。",
+      "bgm": "4",
+      "char": "c053_01",
+      "speaker": "same"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "えええっ！？",
+      "char": "c051_02",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「作戦を修正して、今すぐ始末しよう」</color>\\って思ってる。",
+      "char": "c053_01",
+      "speaker": "same"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うっ…",
+      "char": "c051_02",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "迷える子羊を…\\導くのではないのですか？",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「リザに余計なことを言う前に逃げよう」</color>\\<color=ff7480>「俺はリザを……」</color>",
+      "char": "c053_01",
+      "speaker": "same"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "メティス？私を呼びましたか？\\誰か来たのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>やめろ～！！</color>",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "shake"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "な、何だこれ！！\\ダビ、お前…また散らかしたな！",
+      "background": "bg089_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "違うもん！ダビじゃないもん！\\ふえ～ん…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake",
+      "after_effect": "shake_weak"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ベー、だ。",
+      "background": "keep",
+      "char": "c053_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
+    }
+  }
+}

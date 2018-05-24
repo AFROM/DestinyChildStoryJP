@@ -1,0 +1,358 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "さぁ、コムギ！いってらっしゃい！",
+      "background": "bg136_f",
+      "bgm": "9",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "コムギは元気だな。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "遊びに来たんじゃないんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あら、さっそくコムギが何か持ってきましたよ。\\ご主人さま。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ああ。ずいぶん汚れてるな…\\土を払ってっと…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ん？これペンか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それは、骨ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "うわっ！こんなもん持ってくるな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "本当にペンなんて見つかるのか…\\大丈夫かなぁ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "大丈夫ですよ。ご主人さま。\\あれはコムギの感謝の気持ちです。\\すぐにペンを持ってきますよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "感謝の気持ちで骨か…\\犬らしいと言えば犬らしいけど、俺の先祖は猫なんだよな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ご主人さま。コムギがペンを持ってきましたよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "これか。これもずいぶん汚れてるな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "結構、高そうなペンだけど…これイニシャルか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "M・Mと書いてありますね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "誰かの名前かな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うわっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "go_to_left_jump",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "久しぶりだな、小僧！",
+      "bgm": "6",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_right_slow"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "お前はユダか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "こいつはユダ。\\魔王争奪戦に参加している悪魔の1人だ。\\そして、人間界に紛れ込み犯罪集団を影で操る暗黒街の帝王でもある。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "こいつの部下を契約者にしたため、俺は目を付けられてしまった。正直関わりたくないヤツの1人だ。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いきなり攻撃して、俺を殺す気か！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "すまん、すまん。\\久しぶりに会えて、嬉しくなっちまってな。\\ところで俺の部下になる決心はついたか？",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "お前もしつこいな…その話は断っただろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "まぁいいさ、気長に待つとしよう。\\しかし、お前のおかげで助かったぜ。\\こんなに早くペンが見つかるなんてな。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "…なんで、お前がこのペンを探してるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ちょっとした仕事でな。\\犬が持ち去ったと聞かされた時は途方にくれたぜ。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "仕方ないから、犬を追いかけていたが、ちょうどお前を見つけてな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "おかげで、こうして見つける事ができた。\\ありがとよ。\\そんじゃ、おしゃべりはこれぐらいにして…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "さぁ、そのペンを渡してもらおうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "クッ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ご主人さま。\\そのペンを渡して、ここは退きましょう。\\相手は、かなりの戦力を用意している様子。\\ペンを渡しても私たちにはデメリットはありません。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "見つけた物を奪われるのは釈然としないんだよ…\\でも、無用な戦闘は回避したいのが本音。\\さて、どうするか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "う～ん…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "よし！取引をして小銭を稼ごう！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "アナタのような者に、このペンは渡せません！\\さっさと立ち去りなさい！！",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ちょっと！何言ってんの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "キャプテン！\\キャプテンの気持ちはわかった！俺に任せてくれ！",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "それって、どんな気持ち！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "はっはっは！やはり、こうなったか…\\それじゃ、小僧の実力を見てやろうじゃないか。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "いくぜっ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "45": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

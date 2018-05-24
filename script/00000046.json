@@ -1,0 +1,64 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg095_f",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "他愛ない騒ぎもありましたが、\\ここってステキな町ですよね♥\\良質な欲望が充ち満ちていますし。",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102404001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ま、まさか！\\ご主人さまは、その事にいち早く気づいて\\ここに住み始めたんですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "pretense",
+      "before_effect": "shake",
+      "voiceid": "102404002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ははは…ま、まあな。\\第六感が囁いたというか、直感が告げたっていうか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "102404003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "さすがはご主人さま♥\\やはり次期魔王になるために\\生まれたお方なんですね！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102404004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "家賃が安いからここにしたなんて、\\口が裂けても言えないな…",
+      "char": "c000_01",
+      "speaker": "none",
+      "pos": "left",
+      "facial": "irritation",
+      "screen_effect": "dark",
+      "voiceid": "102404005"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

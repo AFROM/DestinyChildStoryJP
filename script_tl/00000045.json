@@ -1,0 +1,115 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "グルルル…ワンワン！",
+      "background": "bg095_f",
+      "bgm": "4",
+      "char": "c017_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "loop_ani": "attack",
+      "voiceid": "102404006"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "お願いしますだ！オラ、お嬢ば苦しめる幽霊ば追っ払える闘犬さなりたいんだす！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dark",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "102404999"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "チッ、あっち行け！シッシッ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102404007"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "グルル…ワウ～……",
+      "char": "c017_00",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102404008"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "どうすれば、オラのお願いば聞いてくれるんだべ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_slow",
+      "screen_effect": "dark",
+      "one_ani": "attack",
+      "voiceid": "102404998"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あ、ワンコちゃん、行っちゃいました。\\可愛そうに…\\お願い聞いてあげればいいじゃないですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102404009"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "はぁ？なんだよお願いって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "102404010"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そんなことより…今日は俺の勝ちみたいだな！\\覚えておけよ…\\次会うときこそ長年にわたる決着をつけるからな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "voiceid": "102404011"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "あのう、ご主人さま。\\ワンコちゃんとの喧嘩でカッコつけられても、\\反応に困ります…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "102404012"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そ、それは言わない約束だぞ…",
+      "char": "c000_01",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near",
+      "facial": "sulky",
+      "voiceid": "102404013"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

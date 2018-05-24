@@ -1,0 +1,97 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "フレイ！\\女の影にコソコソ隠れて…汚いぞ！",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103804001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103804002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "おお、我が神、我が太陽！\\どうかお逃げください！\\ここは私が死んでも食い止めます！",
+      "char": "c056_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake",
+      "voiceid": "103804003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ああ、もう！\\ホントしつこいな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "103804004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "さすがは俺のチャイルド、見上げた心意気だ。\\では、この場は任せるぞ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_slow",
+      "voiceid": "103804005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "おい、フレイ！\\待て！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "103804006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "行ってしまいましたね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103804007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ああ！遥かなる聖地を目指し、\\私たちの旅路はどこまでも続きます。\\ですが、大いなる神フレイ様は\\常に子羊を見守って下さいます！",
+      "char": "c056_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103804008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "まったく、毎度毎度ペラペラペラペラと…\\カンペでも読んでるのかよ、お前は！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "103804009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "わかったよ…\\もう、いい加減、終わりにしよう…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103804010"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

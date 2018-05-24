@@ -1,0 +1,216 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "いらっしゃいませ…可愛いお客様。",
+      "background": "bg087_f",
+      "bgm": "10",
+      "char": "c057_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ひいぃっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "毎回、ご挨拶ですね…\\アナタとワタシはもはや、姉弟のような関係…\\もっと打ち解けてください…",
+      "char": "c057_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "お前が姉貴だなんて、ゾッとするな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そんなことより、今日は聞きたいことがあるんだ。\\お前、最近オードに会ったか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あら、ワタシとしたことが…\\大切な用事を忘れていました…\\可愛いお客様、\\お話は次の機会にしてもらえますか…？",
+      "char": "c057_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "時間は取らせない。こっちも急いでるんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それではさようなら、可愛いお客様…",
+      "char": "c057_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_slow"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "は？\\ちょっと待てよ、ランフェイ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "こんにちは、ランフェイさん！\\こちらまでいらっしゃるのは、久しぶりですね！",
+      "background": "bg054_f",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ええ…",
+      "char": "c057_01",
+      "speaker": "same"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "こんにちは、姐さん！今日はどんな御用で！",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "まあ、色々とね…\\みんな、ご苦労様…",
+      "char": "c057_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ね、姐さん！\\連絡をくだされば、出迎えに行きましたのに…！\\今日はどうされたんですか？",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ワタシに構わないで…\\今日は、様子を見に来ただけだから…",
+      "char": "c057_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "野郎ども！姐さんがいらっしゃったぞ！",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "…ハァ。まったく、困ったものですね…\\みんな、持ち場に戻りなさい…",
+      "char": "c057_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ワタシを慕ってくれるのは嬉しいけれど…\\仕事の手を止めるのは、考え物ですね…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そういえば…\\ワタシを見て身を隠した者が、数人いましたね…",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《腐った枝》</color>は、さっさと切り落としましょう…",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "御主人様が、明らかに何か企んでいると\\仰るから尾行しましたが…\\ランフェイは、自分の縄張りを確認している\\だけのようですよ。",
+      "background": "bg055_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "何かやましいことがあるから、チェックしてるんだ。そうに違いない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "どうでしょうか。ランフェイにとっては、\\今が最も大事な局面ですからね。\\取引相手は悪魔ですし、用心を重ねるのは当然かと。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ここからでは詳しいやり取りはわかりませんが、\\ランフェイは普段通りに行動しながら、\\数人にカマをかけているようです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "部下の中から怪しい者を炙り出し、切り捨てるつもりなのでしょう。\\賢いやり方ですね。頭のいいリーダーです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "御主人様も、見習ったらいかがですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "はいはい、どうせ俺は頭の悪いリーダーですよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "30": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

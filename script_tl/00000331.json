@@ -1,0 +1,418 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "お前がこの子に何をしてやったというんだ…",
+      "background": "e048_01_f",
+      "bgm": "15",
+      "char": "none",
+      "speaker": "papa"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "…この子の出演料…\\あなたが全部使い込んだじゃない…！",
+      "char": "none",
+      "speaker": "mama"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "使い込むだなんて人聞きの悪い…\\この家の長として当然の権利じゃないか…",
+      "char": "none",
+      "speaker": "papa"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あなたのお金じゃないでしょ…！？\\それじゃあ…",
+      "char": "none",
+      "speaker": "mama"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "パパ、ママ…ケンカしないで…！",
+      "char": "c053_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>ケンカしちゃ、ヤダ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ベンチに座り込んだメティスの肩が震えていた。\\覆った手から、嗚咽が漏れている。",
+      "background": "bg048_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…こうして見ると、まだホントに子供なんだな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "メティス！\\あ、あのさ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "呼びかけると、メティスはハンカチを取り出し、\\涙を拭いて髪を整えた。\\そして、平然とした顔で俺を見つめてくる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…まるで、何事もなかったかのように。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "願いを叶えてあげたのに、\\あいつ、何であんなに不幸に見えるんだろう？",
+      "background": "dungeon_bg",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "それは…契約者が幸せになりたいとは\\願いませんでしたから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "screen_effect": "gray"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "え？願いが叶えば\\自然と幸せになれるんじゃないの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray",
+      "facial": "confused"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それは違いま～す。モナたちは願いを叶え、\\契約者は魂の一部を渡す。\\ただ、それだけの取引ですもの♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "screen_effect": "gray"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「なんて言えばいいんだろう。</color>\\<color=ff7480>こういうのは苦手なんだ」</color>\\って思ってるでしょ。",
+      "background": "bg048_f",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "う、うん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「こいつ、また心を読みやがって」</color>\\って思ってる。",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "そうだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「もっといい方法はないかな……」</color>\\と思ってる。",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "俺が黙ったままでも、\\会話できそうだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry",
+      "before_effect": "shake_weak"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "いいの。あなたが気にすることじゃないわ。\\私の契約者は、人の心を読む前も不幸だったし、\\今も変わらず不幸なの。これからもきっとそう。",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺は何も言わず、メティスに手を差し伸べた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「お前に何を言えばいいか、わからないけど…」</color>",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "メティス、俺の心を読むな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "facial": "fury"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "いいか、メティス。\\これまで出会った契約者たちは、",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "みんな、自分の心の中なんて知らないんだ。",
+      "bgm": "keep",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "でも、お前は違うだろ？\\自分の心だって、読めるじゃないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "私の、心…？",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "今からはさ…\\他の人の心を先に読むんじゃなくて、\\自分の心から覗いてみたらどうだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "自分の心なんて、知らないわけが…",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "そう…私の契約者は、\\本当の願いを言わなかったのね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "本当の願いは…\\ただ、パパとママが仲良くなることだったのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "誰も、私の心を覗いてくれなかった…\\だから…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "メティスはせきを切ったように、\\俺の腕の中で泣き崩れた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "「なんて言えばいいんだろう。\\こういうのは苦手なんだ」",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "45": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "あら～♥\\最近は調子良さそうね、メティス♥",
+      "background": "bg086_f",
+      "bgm": "17",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "そう見える？",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "いいこと、メティス。人間の心はとっても広いの。\\ご主人さまとモナが1日中覗き込んでも、\\把握できないぐらいにね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "たとえ、あなたは心が読めるとしても、\\その中は、全部見渡せないと思うわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "…でも、私は…\\あなたの心が一杯に満たされるのを見たわ…",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "あら、つまらないことを言うのね♥\\モナ、照れちゃう♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "before_effect": "go_to_left_point"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "…行っちゃった。\\本当、なのにな…",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "53": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

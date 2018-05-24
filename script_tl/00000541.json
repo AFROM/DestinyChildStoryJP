@@ -1,0 +1,336 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "裁判長、入廷。全員、起立！",
+      "background": "dungeon_bg",
+      "bgm": "20",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "えっへん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "superangry"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "これより、トサカ野郎の窃盗について\\裁判を開始します。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "はぁ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "おい、待て！俺が何を盗んだって？\\何だよ、これ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "被告人！静粛に！\\検察、被告人の罪状の説明を！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "被告人は裁判長の大切なサキュバス、\\モナを盗みました。",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "被告人、この事実を認めますか？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "認めるって…イタズラもいい加減にしろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake_weak"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "被告人、なぜモナを奪うというハレンチな\\計画を思いついたのですか？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ハレンチ？言いがかりは止してくれ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake_weak"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "裁判長、被告人の罪は相当重いと判断します。",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "斬首刑に処し、このような犯罪が二度と\\起こらないよう、世間に知らしめるべきです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "何だって！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "頭をちょん切ってやる。",
+      "char": "m050_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "いや…これ、ドッキリか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "頭を…",
+      "char": "m050_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "も、もういいだろう？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ちょん切って…",
+      "char": "m050_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "全然面白くない…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ちょん切るぞ！！",
+      "char": "m050_01",
+      "speaker": "same",
+      "distance": "toonear",
+      "screen_effect": "dialog_shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "うわああああ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "24": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "はあ、はあ、はあ…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ゆ、夢か…よかった…ハハ…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "悪い夢でも見たのか？",
+      "char": "m050_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "うわああ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "相当、悪い夢を見たようだな。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あ、頭は切らないでくれ！モナは返すから！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "after_effect": "shake_weak",
+      "screen_effect": "dialog_shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "何のことかは知らないが\\悪魔の頭を切るつもりはない。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "うう…すっごい嫌な夢だった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "mvd": "ux/talk/efx_sigh.mvd"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "そんなに怯えていたら魔王になど、なれないぞ。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "悪魔だって頭を切られるのはイヤなんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "戦いとは、どちらかが倒れることだ。\\勝たなければ魔王にはなれない。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "魔王になんてならない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "負ける者と倒れる者。どっちが嫌なんだ？",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "どっちもイヤだ。平和に暮らそうぜ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "なら、俺が代わりに敵の頭を切ってやろう。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "気持ちだけ、ありがたく受け取るよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "悪魔はいつか俺の首を切らねばならない。\\それには最後まで生き残る必要がある。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "だから、それは他の奴に頼んでくれよ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "43": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

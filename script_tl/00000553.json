@@ -1,0 +1,271 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ご主人！ご主人！",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy",
+      "screen_effect": "dialog_shake"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "一体何だよ？うるさいな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ホントにホントにすっごい話聞いた！\\この辺におっきなドラゴンがいるんだって！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ドラゴン？あの体中が鱗で覆われてる、\\角があって空も飛べるモンスターか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ここは魔界じゃないぞ？\\人間界にドラゴンなんている訳が。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ホントだもん！本当に聞いたもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "嘘じゃない。本当だ。",
+      "char": "c116_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "お前が言ったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "私は聞いた話しか言わない。\\ありもしない話もしない。\\私が聞いた話では、\\この近所にドラゴンが住んでいる。",
+      "char": "c116_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "良く考えてみろ。\\お前もよく知るドラゴンだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "俺が知ってるドラゴン…あれ？\\そういえば…心当たりがあるな…まさか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "オルガ！オルガー！",
+      "background": "dungeon_bg",
+      "char": "c000_01",
+      "pos": "left",
+      "facial": "fury",
+      "screen_effect": "dialog_shake",
+      "speaker": "same"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふう…今度は何だ。やかましい奴め。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "お前、最近夜中に散歩してるか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "している。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "それだ…お願いだから自重してくれ。\\ドラゴンがいるって噂が\\近所に広まってるらしいぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "で？",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "で、って…\\そのうち、近所に悪魔が住んでるって\\噂まで立ちそうだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "おい。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "な、なんだよ、いきなり…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "私が何もしないからといって、\\お前をどうこうできないわけじゃないぞ。\\これ以上面倒に巻き込むな。",
+      "char": "m057_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それで…俺を2,000m上空から\\東京見物でもさせてくれるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "うう…近くで見たら超怖いじゃん。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "いや、ここは主人としての威厳を\\チャイルドに見せなければ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "俺の小言が聞きたくなければ、\\小言を言われるようなことをするな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…ふう、もしドラゴンを見たという噂を聞いたら\\雲の影なんじゃないかって言ってやれ。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "馬鹿げてるな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "人間界にドラゴンがいるって方が馬鹿げてるだろ。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "うう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "散歩は止めてくれないのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "同じことを二度言わせるな。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "わかった、わかった。\\ただ、お前も少しは気を付けてくれ。\\できるだけ見つからないようにしろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_left_point"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "生意気な悪魔め、戦いでは言うことを聞く。\\だが契約はそれだけだ。\\それ以外の時間は自由にさせろ。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "面倒だが、近々あのうるさい口を\\二度と開けないようにしてやらねば。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "37": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

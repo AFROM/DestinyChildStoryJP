@@ -1,0 +1,91 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg200_f",
+      "bgm": "9",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "やれやれ、やっと邪魔者がいなくなった。\\フレイヤ、俺と来てくれるだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah",
+      "voiceid": "102804004"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "は、はい…ニャ…",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "102804005"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "これで、<color=ff9900>《契約完了》</color>……だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "102804006"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ご主人さま、おめでとうございます♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "102804007"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ドキドキドキ…フレイニャ、\\ご主人さミャを見るとドキドキするニャ。",
+      "char": "c031_02",
+      "speaker": "same",
+      "voiceid": "102804008"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "えっ…か、体の具合でも悪いのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "102804009"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "た、大変だっ！は、早く病院へ連れていかないと！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "shake_weak",
+      "voiceid": "102804010"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ご主人さま。\\言っておきますが、風邪ではありませんよ？\\これだからどこかのニブチンさんは…\\罪な男って言っていいのかしら…？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "102804011"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

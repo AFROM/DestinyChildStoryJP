@@ -1,0 +1,99 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "さあ、覚えてないわ…",
+      "background": "bg097_chr02",
+      "bgm": "9",
+      "char": "c062_00",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "106800001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "でもよ、確かに見たんだ。\\敦子が怪物みたいなのに連れられていくのを。",
+      "background": "bg097_chr02",
+      "char": "c083_00",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "106800002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "それが何だっていうの？\\怪物が私を拉致したとしても、\\それはあなたには関係ないはずでしょ。",
+      "background": "bg097_chr02",
+      "char": "c062_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "voiceid": "106800003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…そういう言い方するなよ。\\相談に乗るから、話してよ。",
+      "background": "bg097_chr02",
+      "char": "c083_00",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "106800004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "何でわざわざ首を突っ込もうとするの？\\あなたにメリットはないでしょう？",
+      "background": "bg097_chr02",
+      "char": "c062_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_left_slow",
+      "voiceid": "106800005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そうは言うけど、ほっとけないだろ！",
+      "background": "keep",
+      "char": "c083_00",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "before_effect": "go_to_left_slow",
+      "voiceid": "106800006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "あ、あぁ…\\<color=ff9900>不安</color>でたまらない…",
+      "background": "bg097_f",
+      "char": "none",
+      "speaker": "none",
+      "pos": "left",
+      "screen_effect": "dark",
+      "voiceid": "106800007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "念のためモナたちに知らせておこう。",
+      "background": "bg097_f",
+      "char": "none",
+      "speaker": "none",
+      "pos": "left",
+      "screen_effect": "dark",
+      "voiceid": "106800008"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "…ふぅ。\\今回も何とか片付きましたね。\\大丈夫でしたか？メイ。",
+      "background": "bg077_f",
+      "bgm": "17",
+      "char": "c167_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "う、うん。\\…けど、また助けられちゃったね。",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "…余計な手出しをしてしまいましたか？",
+      "char": "c167_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "そんな！あなたがいなかったら、\\あたしもクレアも大変なことになってただろうし…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ですが、自分で彼女を守りたかったのでしょう？",
+      "char": "c167_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "それは…\\クレアを助けたいって思ったのはあたしだし、\\できれば自分で何とかしたかったけど…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "メイ、助けてくれた！アリガト！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…誰かを守れる力が欲しいのですか？",
+      "char": "c167_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…うん、欲しい。\\母さんが、あたしを守ってくれたみたいに、\\あたしも、誰かを守りたい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "わかりました。ならば私が力を貸しましょう。",
+      "char": "c167_01",
+      "pos": "center",
+      "distance": "near"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "え？どういう…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "さてさてご主人さま、私達の出番ですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "――！\\あ、あなたは…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "無理やり連れて来られたと思ったら、\\まさか、また契約することになるなんてな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "さあさあ、話は後です！願いを叶えたければ、\\契約をお願いしま～す♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "契約って…よくわかんないけど…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それで誰かを守る力が手に入るなら…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "メイは唇をキュッと噛み締めると、\\契約を受け入れたのだった。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "left",
+      "screen_effect": "dark"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

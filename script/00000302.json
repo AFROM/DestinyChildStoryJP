@@ -1,0 +1,298 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "御主人様。このような手紙が届きましたが。",
+      "background": "bg086_f",
+      "bgm": "20",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "手紙？俺に？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "俺はリザに手渡された封筒を開けてみた。",
+      "char": "none",
+      "speaker": "none"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ただの…写真ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ただの写真？\\オマエ、これがただの写真に見えるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "はい。御主人様が写っているという以外は\\何の変哲もなさそうですが。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "俺はな、こんな写真撮った覚えないぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "そうでしたか。これはどう見ても\\《撮った写真》ではなく、《撮られた写真》ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "これでもただの写真だって言えるか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "まさか、ストーカー被害にあってるとでも\\お考えですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "考えてるも何も、身に覚えのない写真が\\突然自分の家に送られてくるなんて、",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "絶対に普通じゃないだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ひとつ忠告しておきますが、どんな手紙であれ\\まずは送り主を確認するのが普通です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "お、送り主？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "リザの言う通り、俺はすぐに送り主を確認した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あ…シャマシュって書いてあるな。え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "おい、シャマシュ。どういうつもりか知らないけど\\不満があるなら直接言ってくれ！",
+      "background": "dungeon_bg",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "none"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "こんな写真、数枚送ってきたくらいでショックを\\受けるような俺じゃないぞ！",
+      "background": "dungeon_bg",
+      "bgm": "9",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "と言いつつ顔がこわばってるじゃない。",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "う、うるさい！一体いつ撮ったんだ？\\元パパラッチなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "百聞は一見に如かず。\\直接見たら自分の過ちに気づくと思ったが。",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "お、俺の過ち？俺が一体何を…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ちゃんと写真を見てないんだね。",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "そう言われ、俺はもう一度写真に目を移した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "こ、これは…\\俺がジュースの空き缶を捨てるところ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "《ポイ捨て》よ。",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そういえば、横断歩道でも信号無視や\\立ち入り禁止の芝生に入る姿などが撮られている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "オマエ、防犯カメラにでもなりたいのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ご主人様の普段の行動を見ていると\\しばらくはこのような制裁が必要だと思うけど…",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "とりあえず、今日のところは大目に見てあげる。\\また同じようなことをしたら\\今度こそ警察行きだから。",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "警察！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…家にひきこもるしかなさそうだな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

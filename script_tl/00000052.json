@@ -1,0 +1,106 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "はぁ～、なんかすっごく疲れたぞ…\\なんなんだよ、アイツは！？",
+      "background": "bg200_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "voiceid": "102704001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ご主人さま、大丈夫ですか？\\急に体調を崩されたようにお見受けしましたが…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "102704002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "あぁ～、まあな。\\きっとあのフレイとかいうヤツのせいだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "102704003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "私が見る限り、直接的な原因は、\\この<color=ff9900>香り</color>のせいかと思いますが。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "102704004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《香り》</color>？香りって何の香りだ？\\特に何も感じないけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "102704005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そうかもしれませんね、感じ方は人によって\\違いますので。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "102704006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "なんだよ？\\気になるじゃないか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "102704007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "いいえ、今のは忘れてください♥\\モナの勘違いですので、どうかお気になさらず♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "after_effect": "none",
+      "voiceid": "102704008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "はぁ、そういうもんか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "none",
+      "voiceid": "102704009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はい、そういうものです♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_slow",
+      "voiceid": "102704010"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

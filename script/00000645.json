@@ -1,0 +1,299 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "かかってこい、生意気な悪魔め。\\魔王になりたければ、お前の力を証明してみせろ！",
+      "background": "bg056_f",
+      "bgm": "30",
+      "char": "c210_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "だから、魔王になるつもりはないって。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "こんなふざけたヤツが\\王座を狙っていようとは…",
+      "char": "c210_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "お前などに王の座は譲らん！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "だからお前は先代魔王なんかじゃなくて、\\俺のチャイルドだってば！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "またその話か！\\私がお前のチャイルドだという戯言を！\\今すぐその生意気な口を慎め！",
+      "char": "c210_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ハァッ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "うわああ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "これも全部あの本のせいだ…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "タルタロスの童話の本ですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "モ、モナ！いい加減、急に現れる癖を直せ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ご主人さまこそ驚く癖を直した方が\\よろしいのでは？これだから、ついつい、\\からかいたくなるんですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "笑いながら言うな…\\悪魔の俺が見ても恐ろしいわ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "この本はタルタロスの契約者が働く\\図書館で借りたものだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "プルートから魔王争奪戦に関する本があると聞き、\\図書館で見つけた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "《人間の世界にも王がいるように、\\悪魔の世界にも魔王がいる》",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "《ある日、魔王は言った。私の後を継ぎ、\\新しい魔王となる悪魔を捜さなければ…》",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "別に読まなくてもいいぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あら？童話は気持ちを込めて\\読んでくれる人がいないと面白くないですよ…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ご主人さま♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ハイハイ、わかりましたよ、モナ先生。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "それよりこの本…誰が書いたんだろう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "そうですね～悪魔が書いたかもしれないし…\\もしくは悪魔と契約した人間が\\書いたのかもしれません。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ふ～む…タルタロスの契約者か。\\童話の内容は全部忘れてるよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "少し気にしすぎじゃないですか？\\ただの童話ですし、そこまで\\深く考えてなくてもいいのでは？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "…ひょっとしたら、ってこともあるだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "普段からもそうやって徹底してくれると\\嬉しいのですが♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ふん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "タルタロスの契約者が万が一のことを考え、\\戦いに巻き込まれたときの為に\\手を打ったのかもしれません、が…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "これは、あくまでモナの推測です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "まったく、用心深いこった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "とにかく、この本のせいでタルタロスは\\自分が先代魔王だと思い込んでいる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "一体この問題をどう解決すべきか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "いっそのことタルタロスを\\倒してみるのはどうですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "モナお前な…\\他人事じゃなくてお前の主人のことだぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "全力で戦ってみたら意外と\\いい練習相手になってくれるかもしれませんよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "はぁ…結局は解決できない問題ってことだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "39": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

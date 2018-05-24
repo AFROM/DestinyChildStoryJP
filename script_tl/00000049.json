@@ -1,0 +1,75 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ふう…まったく、この辺りにはろくな奴が\\いないようだな…",
+      "background": "bg177_f",
+      "bgm": "9",
+      "char": "c051_02",
+      "speaker": "unknown1",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "102702001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦を勝ち抜くため、\\選りすぐりのチャイルドを集めないと\\いかんというのに…",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "center",
+      "voiceid": "102702002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ニャオ。",
+      "char": "c031_00",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "102702003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ん？この猫、まさか…\\おいお前、誰と契約した？\\話を聞かせろ！",
+      "char": "c051_02",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "102702004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "にゃッ！！",
+      "char": "c031_00",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "after_effect": "go_to_left_point",
+      "loop_ani": "attack",
+      "voiceid": "102702005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ぐあっ、か、顔がっ！\\思いっきり引っ掻きやがったな！",
+      "char": "c051_02",
+      "speaker": "unknown1",
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102702006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "このクソ猫がっ、こっちに来やがれ！",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "102702007"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

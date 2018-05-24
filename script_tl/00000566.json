@@ -1,0 +1,181 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "うわああああん！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "cry",
+      "screen_effect": "dialog_shake"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "うるさい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ダビのだもん！ダ・ビ・の！\\うえーん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "cry",
+      "screen_effect": "dialog_shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "コイツ、どうしたんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ベルボーイが欲しいそうです。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あー、《自分だけのベルボーイ》が\\欲しいってことだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ぐすん…！ダビにもベルボーイ買って！\\ダビもベルボーイ！ほしいの！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "うわ…耐えられない。逃げよっと。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "after_effect": "go_to_right_point"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…こういう時はちゃっかりしてますね。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "フフ…だからダビに言ったんだ。\\《俺のベルボーイ》だってな。",
+      "background": "bg070_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ダビのヤツ、俺がひとつでもいいもの持ってると\\羨ましがってダダをこねるから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あ、だからってお前を\\物扱いしてるわけじゃないぞ。\\ダビはお前を買ってくれって騒いでるけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "オマエは俺の《チャイルド》だからな。\\チャイルドは売り買いするものじゃない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ベルボーイはご主人様のものです。\\ご主人様はベルボーイの《ご主人様》です。",
+      "char": "m137_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そうだけど…変こと言っちゃったかな…\\俺はただ、ダビが羨ましがってるのを見て…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "つい、からかってしまった…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "オマエは《私をお呼びですか？》って言って\\いつでも来てくれるな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ベルボーイはご主人様のために働くことが好きです。",
+      "char": "m137_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ありがとな、ベルボーイ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "こちらこそ。\\私はご主人様のおかげでここにいるのです。",
+      "char": "m137_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ベルボーイはご主人様のものです。\\いつでも私をお呼びください…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "どわっ！\\また性懲りもなく現れやがった！",
+      "background": "bg041_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "shake_weak",
+      "voiceid": "102403001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ワンコちゃん、こんにちは～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102403002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "くそっ、あっちいけよ！ほらほら、しっしっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102403003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ガルル…ワンワン！！",
+      "char": "c017_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "loop_ani": "attack",
+      "voiceid": "102403004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "たくさんの幽霊ば連れてるんは、\\<color=ff9900>《幽霊王》</color>の証拠だべ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dark",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "102403999"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "に、逃げるぞ、モナっ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_left_point",
+      "screen_effect": "shake_weak",
+      "voiceid": "102403005"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

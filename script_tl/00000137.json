@@ -1,0 +1,63 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg097_f",
+      "bgm": "9",
+      "fade_out": "shorter",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "リザは誰かいないの？\\魔界に残してきた<color=ff9900>婚約者</color>とか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105303001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "いません。\\私にそのようなものは必要ありませんから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "105303002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "必要ないって…\\寂しくはないの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "105303003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "寂しさは感じませんが、\\まぁ、唯一の心配事はフレイ様ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy",
+      "voiceid": "105303004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "暇さえあれば、メールをしてきたり、\\プレゼントを送ってくるので困ります。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy",
+      "voiceid": "105303005"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

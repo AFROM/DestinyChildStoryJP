@@ -1,0 +1,68 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "フン…\\お前がバカで強情だってことはわかっていたが…\\これ以上は付き合いきれんな。",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104800001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "お前の方からいつも\\ちょっかいを出してくる気がするんだけどな…\\いい加減、俺も<color=ff9900>《本気》</color>をだすぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "104800002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "はははっ！言うじゃないか！\\だが、背伸びのしすぎじゃないか？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104800003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "angry",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "104800004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "104800005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《プライド》</color>を賭けた男同士の戦い！\\これは燃えちゃいますね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "tempt",
+      "before_effect": "shake",
+      "voiceid": "104800006",
+      "distance": "near"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "そんなことより、あんなのが堂々と都心のど真ん中に建っているのに、なんで誰も気に留めないんだ？",
+      "background": "bg182_f",
+      "bgm": "25",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200202001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ま、悪魔のやる事だから何でもありだろうけど…幻術とかか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200202002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ニャハハハ～♪\\あれは悪魔だけに送る…しょ、しょ…？",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "200202003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "招待状だってさっ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200202004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "招待状…！？\\悪魔に招待状を送って何する気なんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "200202005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あ～惜しいな～！\\招待状じゃなくて、挑戦状だね！",
+      "char": "c274_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200202006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "おいっ！何が惜しいんだよ！\\全然違うじゃないか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200202007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…っていうか、なんだお前？\\いきなり現れて。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "200202008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "よくぞ聞いてくれたね、私はバスト！\\ご主人様のお供をして、遠い遠い熱砂の海を渡って\\はる～ばるやってきたんだよ！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "200202009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "私ね、ここでご主人様と一緒に悪いことをい～っぱいしでかすのさ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200202010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "アナタもネコなんでしょ？私もネコだよ！\\長く長～く生きてきたネコのおばあさんなの！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200202011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "おばあちゃんって呼んでもいいよ！\\ニャハハハ～♪",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "voiceid": "200202012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "悪いことをしでかす…ご主人様と一緒に…？\\さてはお前、あのオベなんちゃらをおっ立てた悪魔のチャイルドだな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200202013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "シッシ！あっち行け！\\俺は魔王争奪戦とは関係のない善良な一般市民だ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake_weak",
+      "voiceid": "200202014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "え～？でもでも～ネコの匂いがするよ～？\\ネコが人間の姿をしてるってことは、それはもう神様か悪魔のどちらかしかありえないよ～",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200202015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ご主人様がね、魔王候補生を片っ端から連れてこいって。ほらほら～魔王争奪戦をするから早く行こうよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200202016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "な、があっ！引っ張るな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200202017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ニャハハハ～♪今日はツイてるな～\\まさかいきなりネコ悪魔を見つけちゃうなんて～",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200202018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ご主人様も～きっと誉めてくれるニャン！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200202019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "おい猫ばばあ！俺を猫呼ばわりするなら、孫を死に追いやるようなことはしちゃいけない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake_weak",
+      "voiceid": "200202020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ニャ～？なんか言ったかニャ～？\\歳のせいか耳が遠くて困っちゃってるニャン！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200202021"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

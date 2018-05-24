@@ -1,0 +1,491 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg217_f",
+      "bgm": "6",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "はあ…はあ…",
+      "char": "c049_10",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ううく…マ…アト……",
+      "char": "c056_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ジャンヌ…？",
+      "char": "c049_10",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "マアト…気を取り戻したんですね…\\よ…かっ…う…！",
+      "char": "c056_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "わ、私…何を…？",
+      "char": "c049_10",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "マアト、俺が誰だかわかるか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "悪…魔…ううく…！頭が…頭が割れそう…！",
+      "char": "c049_10",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "loop_ani": "attack"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "マアト。契約者の影響から逃れなければなりません。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "このままでは、あなたの自我が契約者の魂と共に崩壊してしまうでしょう。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あふ！苦しい！あああ！\\どうか…どうか助けて！どうか！ああああっ！！",
+      "char": "c049_10",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "shake"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "100",
+      "fade_in": "normal",
+      "hold": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "こんにちは、マアト。私の魂。苦しそうですね。",
+      "char": "c049_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ロゼッタ…\\私ね、友達を傷つけてしまいました。\\私の苦悩を理解してくれる唯一の人だったのに…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "私さえ諦めてしまったあなたの魂を最後まで助けようとしてくれた人だったのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "なぜこうなってしまったんですか？\\大それた願いをした訳でもないのに！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "私はただ…安らぎを…\\不安もなく、苦しさもない幸せを求めただけなのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "無償で叶う願いなんて無いですよ。",
+      "char": "c049_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ただ安らぎを見つけたかっただけですって？\\他の人達のようにささやかに暮らすのが願いと？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あなたがどんな願い事を祈っても、その願いは必ず\\対価を必要とするでしょう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "そうですね…\\神に祈るか、悪魔に跪くか…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "マアト。神は私達に同情はしません。\\既に知っているでしょう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "私はひょっとしたら、神に見捨てられたのかもしれません。私には、ロゼッタの求める安らぎを永遠に見つけることはできないでしょう。",
+      "background": "bg058_f",
+      "char": "c049_01",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "私が救われる事なんてないんです！\\そんな私がどうやって彼女の魂を救うというん\\ですか！？",
+      "background": "bg058_f",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ああ……",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "だから、神に対しても、悪魔に対しても持てる全てを捧げるのです。彼らのその貪欲な腹が満ちるまで…",
+      "char": "c049_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "彼らがジャンヌの犠牲を求めているのであれば、\\彼女を彼らに捧げるのです。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ジャンヌが私達を理解してくれたところで、\\何の意味があるんですか？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "所詮、彼女も堕ちた聖女にすぎないのですから…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "それがあなたの答えですか？ロゼッタ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "いいえ。私たちの答えです。",
+      "char": "c049_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "それは、違います。\\それは私の答えではありません。",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "どんなに祈っても神には応えてもらえませんでした。限りない忍耐と犠牲だけを求められました。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そうして得られたものは死にゆく魂と友の傷だけ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "そんな祈りなら、もうしません！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "高慢ですね、マアト。\\被造物のくせに神に逆らうと？",
+      "char": "c049_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "逆らう？そんなつもりはありません。\\それに彼らにはもう何も望んではいません…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "だから、私は神になります…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "すべての不安と苦しみから解放され、\\自らで高みに到達します。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "私が《私》の創造主となるのです！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "mvd": "effect/battle/sfx_special_skill_rebirth_max.mvd",
+      "mvd_pos": "bottom"
+    },
+    "44": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "マアト…そんな…何が起きた？",
+      "background": "bg217_f",
+      "bgm": "2",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "マアト姉さんが2人になった…！\\ダビこんなの初めて見る！",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "あら～モナも初めての経験です～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "tempt"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "こんにちは、悪魔。\\あっ、ついさっきまで一緒だったし、\\挨拶はしなくていいですね？",
+      "char": "c360_01",
+      "speaker": "same",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "しかし…\\この姿で会うのは初めてだし、やっぱり挨拶するのがいいのかしら？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "何だか雰囲気が…\\お前、本当にマアトか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "あら…混乱してるみたい。\\それなら改めて格式に合わせた挨拶をしましょうか？",
+      "char": "c360_01",
+      "speaker": "same"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "我の名は《解放されたマアト》\\<b>地上に降臨した新しい神</b>である！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "か、神！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "ゴホン、それでは…掃除をはじめましょうか？\\降臨してすぐ仕事なんて気が向かないですけど…",
+      "char": "c360_01",
+      "speaker": "same"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "心機一転、新しい服に着替えたら、古い服は綺麗さっぱり捨ててしまったほうがいいでしょう？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "大胆にも神を語るなんて…！\\不届き者に裁きを！！",
+      "char": "c049_10",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "少し寂しいわね。\\ちょっと前までは一つの身だったのに…",
+      "char": "c360_01",
+      "speaker": "same"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "ど、どっち側の味方をするべきだ？\\いや、もちろん新しいマアトの方が味方っぽいけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "そうですね～\\でも、心配いらないんじゃないですか？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "マアトの言う通り、少し前まで1つだった体が\\2つになったのなら…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "自我の分裂が、正しく行われたと言うことでしょう。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "自我？分裂？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "簡単に言ってしまうと、マアトが願いの答えを見つけたということで～す♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "64": {
+      "type": "talk",
+      "dialogue": "だから古いお洋服の真っ黒マアトは、悩みの塊と\\言えますね。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "65": {
+      "type": "talk",
+      "dialogue": "わかった。どういうことか大体理解した！\\だったら、新しいマアトと一緒に…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "66": {
+      "type": "talk",
+      "dialogue": "そう、戦えばいいのですよ。\\もう話は終わり？それじゃあ、さっさと行くわよ！",
+      "char": "c360_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "67": {
+      "type": "talk",
+      "dialogue": "性格、短気になってない…？\\慣れるまで少し時間がかかりそうだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "68": {
+      "type": "talk",
+      "dialogue": "慣れるって…フフ。\\ただ受け入れればいいのよ。\\それが神を迎える正しい姿勢よ。",
+      "char": "c360_01",
+      "speaker": "same"
+    },
+    "69": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

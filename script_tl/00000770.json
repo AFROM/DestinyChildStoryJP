@@ -1,0 +1,465 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "やっと出られた…\\ホント怖かった～！\\誰かに追い出されるなんて初めてだよ…",
+      "background": "bg006_f",
+      "bgm": "4",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "before_effect": "enter_from_left_fast"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "う～ん、おかしいな～…\\こんなはずじゃないのに…",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "はぁ…失敗ばかりね。\\ダビちゃんには申し訳ないけど、もうそろそろ…",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "さ～て、今日の契約者は…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "enter_from_left_slow"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あれ！？お前たち！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あっ！",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "screen_effect": "dialog_shake"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あのお兄さんは…！",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "冷蔵庫から毎日ダビちゃんの牛乳を奪う、例のお兄さん？",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "きっとそうだよ！\\ダビが悔しがってるのを見て楽しんでるらしいけど…あのお兄さん、そんなに悪い人には見えないけど…",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "酷い言われようだな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "irritation",
+      "mvd_post_effect": "posteffect_shock_wave"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "9",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "突如現れた《ダビ魔王軍》は、お菓子を山のように抱えたダビを俺に押し付けて風のように消えていった…",
+      "background": "bg064_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "もぐもぐ…\\ホント人間どもって、おかしいわ。\\地上波とかケーブルとか、変なことばかり言ってダビを混乱させるなんて！",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "アハハ…\\それで、チャンネルEvilのスタッフから追い出され、ムカついて俺が契約するのを邪魔しに来たのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "フン、何を言ってるの？このトサカ野郎…\\さっきだってこの魔王ダビのおかげで、契約に成功したんじゃない。",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ウソつけ！\\ダビの助けなど全く借りていないと断言できる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "むしろコイツは…\\助けるどころか、邪魔しかしてなかった！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "4",
+      "fade_out": "normal",
+      "fade_in": "normal",
+      "hold": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "お～ほっほっほっほっ！\\そこのあなた～悩みがありそうね？\\ちょっと話さない～♥",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray",
+      "one_ani": "attack",
+      "mvd_post_effect": "posteffect_shock_wave"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うわっ！な、何？！\\あなたは誰ですか？！\\なんで胸を押し付けてくるんですか？",
+      "char": "none",
+      "speaker": "maybe_contractor",
+      "before_effect": "shake_weak",
+      "screen_effect": "gray"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "何言ってるの？これは胸を押し付けてるんじゃなくてサキュバス式体術よ。\\さあ、どう！自然と契約したくなってきたでしょ？",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "screen_effect": "dark",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "一体、何を言ってるんですか…？\\警察、呼びますよ！",
+      "char": "none",
+      "speaker": "maybe_contractor",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "アハハハ…ダビさん…？\\コレもう、契約どころじゃないよな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "変ね…\\モナ姉さまはいつもこんなふうに…\\あっ、ねえ、あなた！ダビの話を聞きなさい！",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "distance": "normal",
+      "screen_effect": "dark"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "何だ、この人…！\\最近このあたりで噂の不審者か？！",
+      "char": "none",
+      "speaker": "maybe_contractor",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あれ！？\\もしかして俺まで不審者扱いされてる…！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "screen_effect": "dark"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "はぁ…\\モナから課せられた契約ノルマは、どうやって達成すればいいんだろうな…\\トホホ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "screen_effect": "dark"
+    },
+    "28": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ふむふむ…\\ダビが邪魔したせいでノルマを達成できなかったと？それはそれは…",
+      "background": "bg040_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そうなんだよ！\\だから、ごめん！許して！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "邪魔されたのなら仕方ないですね。\\それにしても外見が変わってもやっぱり中身はダビですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "フフフ、かわいいですよね～♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "そんなことは、どうでもいい！\\ダビのヤツ、モナの真似してるつもりなのか、手当たり次第声かけまくってさ。\\おかげで俺まで不審者扱いされたよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あらあら♥\\でも、そんなところがすご～く、かわいいでしょ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "真面目にきいてくれよ…\\ダビのヤツ《ダビ魔王軍》とか言って、街のチビっ子達を自分の手下にしてたんだぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "あら、それはちょっと困りますね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "まぁ、でも心配するほどのことじゃない。\\ダビ魔王軍って言っても、端から見たら子供のイタズラ、遊びの範疇の内だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "それにしても不思議だよな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "背が2倍くらい高くなったのに、誰も変だと思ってないなんて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ああ、それはサキュバス式幻術のおかげですね。\\おぼろげな情報しか相手に与えないので、個人の特徴があまり認識できないんです。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "疑い深い人には全く通じませんけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "ま、中身はアレでもダビだってサキュバスですから♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "まったく…！\\ダビのことになると、すぐそうやって庇うよな！\\たまには俺にも優しくしてくれよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "shake"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "あらまぁ～♥\\いつからそんなに積極的になったんですか？\\モナが、相手しないから寂しかったんですか～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "え！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "もっと早くおっしゃってくだされば…\\気の利かないモナのせいでご主人さまの心を煩わせてしまったようですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "さあ、もっと近くに来てくださ～い♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "tempt",
+      "mvd_post_effect": "none"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "どわぁっ！\\ちがう！そういう意味じゃない！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "フフフ。ま、しばらく見守ってあげましょう。\\これも、成長している証拠ですからね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "誰だって誰かを真似して、失敗してもまた挑戦して、段々と成長していくものですからね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "ああ見えてもダビは着実に成長してるんですよ。\\まるで、ご主人さまみたいじゃないですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "どこが俺みたいなんだよ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake"
+    },
+    "53": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "keep",
+      "fade_out": "normal",
+      "fade_in": "normal"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "フン。どうやら今回の計画は失敗ね。\\魔王軍の戦力が不足していたわ…",
+      "background": "bg122_f",
+      "bgm": "4",
+      "char": "c367_01",
+      "speaker": "same_full"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "今度はもっとたくさんの人間と契約して、ご主人よりも多くのチャイルドを連れて来よう。\\そうすればモナお姉さまは絶対ダビに惚れるはず！",
+      "char": "keep",
+      "speaker": "same_full",
+      "facial": "idle"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "うふふふ…\\完璧…完璧な計画ね！お～ほっほっほっほっ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near",
+      "facial": "joy",
+      "screen_effect": "dialog_shake"
+    },
+    "57": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

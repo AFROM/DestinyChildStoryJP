@@ -1,0 +1,271 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あーっ！イライラするっ！",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "どうしたんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "アイツ、ホントに頭に来るわー！",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "アイツ？って…誰のことだよ？\\今回の復讐相手か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "残念、ハズレよ。アイツよ、アイツ！\\仮面つけて、ピエロみたいにヘラヘラ笑ってる奴！\r\n",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ああ、モムスのことか。アイツがどうした？\\まさかお前にもちょっかい出してきたとか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そうよ！うう…アイツ…\\無視してもキリがないんだけど！",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "マルスにまでちょっかい出すとは…\\モムス、すごいな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "この暴走娘に、他のチャイルドは\\みんな関わらないようにしてるっていうのに…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "急に現れて、いきなり尻もちついたり\\つまらない冗談を言ってひとりで笑ってるし…",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ついさっきなんて、アタシの前に立ちふさがって\\モノマネをしてきたのよ！\\誰のマネか当てるまで、どかないって言うし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あんなヘタクソなモノマネわかる訳ないじゃない！\\あとちょっとで銃をぶっ放すところだったわ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ガマンしてくれてありがとな…\\アイツはもともとそういう奴だし、気にするなよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "気にするなって…\\どうやったら、アレを気にしないでいられるのよ…",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ん？何か言ったか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "何でもないわ。じゃあ、またね。",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ちょっと待て、まさか、それを言うためだけに\\俺のとこに来たのか？思ったよりヒマなんだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "screen_effect": "dialog_shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "うるさいわね！どうせアンタは今日も\\情けないツラしてるんだろうと思って、\\どれだけ情けないか見に来てやったのよ。",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "はいはい、どうせ俺は情けない奴ですよ。\\…って、あれ？もしかして俺に会いたかったの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そ、そりゃ当然でしょ。\\何はともあれ、アンタはアタシの主なんだから。",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "主がダメダメだと、あ…アタシの復讐にも\\支障が出るかもしれないでしょ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "だから、もっとしっかりしてよね！\\ゴホン！とにかくもう行くわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "おい、マルス。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "な、何よ？",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "困ったこととかあれば、いつでも来いよ。\\俺でよければ、いくらでも相手してやるから。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…ふん、つまらない冗談ね。\\アンタがアタシの役に立つと思ってるの？",
+      "char": "c005_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "候補生の中でも最弱のくせに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_slow"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "まったく、素直じゃないな。\\あいつと仲良くなるのは大変だ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "confused"
+    },
+    "29": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "まったく、主っていうあの男にしろ、\\モムスとかいうピエロ野郎にしろ…",
+      "background": "dungeon_bg",
+      "char": "c005_01",
+      "speaker": "same"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ホント…アタシが傍にいてあげないと…",
+      "background": "dungeon_bg",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…って、違う！アタシったら、何言ってるのよ！",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "何でこんな気になるのよう…もう。",
+      "char": "keep",
+      "speaker": "same",
+      "before_effect": "shake_weak"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "情けない奴らと一緒にいたせいで\\アタシまでおかしくなったのかしら。\\うぅ…イライラする～",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

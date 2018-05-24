@@ -1,0 +1,93 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ところでリザ。\\お前、なんで俺について来たんだよ？",
+      "background": "bg196_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "confused",
+      "voiceid": "105802001",
+      "pos": "left"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "なぜ、とは？\\サポーターが主と共に行動することに\\特別な理由が必要ですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105802002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "いや…けど…お前、何か隠してるだろ？\\なんかいつもと違う気がするんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "105802003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "余計なところで鋭いのですね…\\まあ、なんと言いますか、\\そういう縁があったということでしょうか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105802004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "いえ、縁というよりも<color=ff9900>因果</color>に近いかと。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105802005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "インガ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad",
+      "voiceid": "105802006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あ、因果というのはですね、\\木に彫られた絵にインクを…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "105802007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それ、版画だろっ！？\\さらっと嘘を教えるなよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake",
+      "voiceid": "105802008",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "因果ぐらい知ってるよ！恐ろしいヤツだな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "105802009",
+      "facial": "confused"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

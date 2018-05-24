@@ -1,0 +1,66 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "おい、補欠。\\魔王争奪戦は諦めて、さっさと魔界に帰れ。",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104702001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ヤダ！絶対！！\\何でそんなヒドイ事言うの！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "104702002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "な、なんだ、急に！？\\何をそんなに怯えているんだ？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "104702003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "だ、だってさ、魔界って、\\ここなんかとは比べものにならないくらい\\<color=ff9900>恐ろしい女</color>たちがウヨウヨしてるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "104702004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そ、想像しただけで…震えが…\\あああぁ…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "after_effect": "go_to_right_point",
+      "voiceid": "104702005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "だ、大丈夫か…？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104702006"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

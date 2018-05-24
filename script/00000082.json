@@ -1,0 +1,48 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "フレイの奴、どんな手を使って\\彼女を<color=ff9900>《洗脳》</color>したんだ…？",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103800001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "なあ、お前！\\アイツを神だとか思うようになる前、\\なんかされなかったか！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "103800002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "私は<color=ff9900>《約束のキス》</color>により…\\神の存在に気づいたのです…",
+      "char": "c056_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "voiceid": "103800003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あ、そう…キスね。\\へえ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "103800004"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

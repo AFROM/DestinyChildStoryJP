@@ -1,0 +1,67 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "さすが<color=ff9900>《悪童フレイ》</color>様。\\やはり強いですね。",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104801004"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "え、待って。\\アイツ、魔界で本当に<color=ff9900>《悪童》</color>って呼ばれてんの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "104801005"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《悪童》</color>ってさ、何かダサくないか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "104801006"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あら？\\魔界で<color=ff9900>《悪童》</color>という称号は大変な栄誉ですよ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "104801007"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そうなのか？\\…そうだな。\\でもダサい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "dark",
+      "voiceid": "104801008"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "お、お前…！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "104801009"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

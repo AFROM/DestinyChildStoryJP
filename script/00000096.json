@@ -1,0 +1,84 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ふぅ～…",
+      "background": "bg086_f",
+      "bgm": "12",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "voiceid": "104404007"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "やっと落ち着いた？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "104404008"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "落ち着いたんじゃなくて、諦めです。\\ああっ！モナの運命はなんて過酷なんでしょうか…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "104404009"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "しかし、\\モナのお話は全部流しているかと思いましたが、\\少しは覚えていてくださったんですね♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "104404010"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "同じ話を一日に何回も聞いていたら、\\イヤでも覚えるよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "unfair",
+      "voiceid": "104404011"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "なるほど…\\これは<color=ff9900>《睡眠学習》</color>でも効果が見込めそうですね♥\\では、これから睡眠学習も取り入れましょう～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt",
+      "voiceid": "104404012"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "やめてくれ！\\落ち着いて寝られない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "screen_effect": "shake_weak",
+      "voiceid": "104404013"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

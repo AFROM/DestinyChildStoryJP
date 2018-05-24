@@ -1,0 +1,153 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg102_f",
+      "bgm": "9",
+      "fade_out": "shortest",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ええっと、つまり悪魔と契約しても、\\<color=ff9900>《自分の本当の願いがわからない》</color>ってこと？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "101604012"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そうですね。それはたぶん魂がとても<color=ff9900>大きく</color>、\\かつ<color=ff9900>複雑怪奇</color>なせいで、人間たちが把握しきれないからでしょう。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101604013"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "人間たちは3千年もの間、思い悩んでいたようです。\\でも結局のところ、誰も答えを出せませんでした。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101604014"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "4千年ぐらい生きてみればわかるのかな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "101604015"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ふふ、長生きで解決できる問題なら\\悪魔はいなかったんじゃないですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101604016"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "それに問題が解決してしまったら、悪魔が介入する余地がなくなっちゃうと思いますよ～？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101604017"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "アハハ、私だったらすぐにわかるけど～？\\自分の本当の願いなんて！",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "101604018"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "うわっ！\\前にも言っただろうが、出てくる時は合図しろって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "posteffect_tile_wave",
+      "voiceid": "101604019"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…はぁ～お前は俺の話を\\これっぽっちも聞いてないよな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "101604020"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ねえねえっ！このデメテルの一番の願いはねぇ、\\ダーリンが惜しみなく注いでくれる…<color=ff7480>《愛》</color>！",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake",
+      "voiceid": "101604021"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あ…愛だなんて、悪魔の俺には似合わないだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "voiceid": "101604022"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "カワイイ～♥\\恥ずかしがっちゃって！",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101604023"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "う、うるさい！\\恥ずかしがってなんかないっての！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "101604024"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "…まあ、今すぐご主人さまに理解しろと\\いう方が酷ですよね。",
+      "char": "c001_01",
+      "pos": "right",
+      "voiceid": "101604025",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "人間誰しも仮面を使い分けて生きています。\\どれが本当の自分かわからない以上、\\本当の願いもまた、わからないんです…",
+      "char": "keep",
+      "pos": "right",
+      "voiceid": "101604026",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

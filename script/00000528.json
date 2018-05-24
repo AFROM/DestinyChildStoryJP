@@ -1,0 +1,307 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ねぇねぇ、お小遣い！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "俺に金でも預けたか？そんなものはない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "うえーん！\\お小遣い、お小遣いちょうだい！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "cry"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ないものはない！\\それになんで小遣いが必要なんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "必要なの。買いたいものがあるの。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "無駄遣いだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ダビをバカにするな！\\ダビは可愛いヒヨコを買うの！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "やっぱり無駄遣い…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "バカご主人には分からないでしょ！\\賢いダビが、すっごい計画を立てたんだから！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ヒヨコをいっぱい買って、農場を作るの。\\そしたらヒヨコがもっといっぱいになるでしょ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そしたらダビもヒヨコ売りみたいに小学校の前で\\高い値段で売るの。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "フフフ…1羽50円で売れば…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そうか、そうか…\\大金持ちになったら俺の面倒みてくれよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "考えておく。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "victory"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ピヨピヨ…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はあ…ヒヨコ、ヒヨコってうるさいから\\買ってあげたのに\\当の本人は見向きもしないじゃないか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "心配しないでください。\\ご主人さまがたまにトイレを掃除して\\餌をあげればいいだけですから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "モナがご主人さまのお世話をするより遥かに\\楽ですよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "言われなくてもやってるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "リユガー、怒る！怒っ…",
+      "char": "m039_01",
+      "speaker": "same",
+      "distance": "near",
+      "before_effect": "enter_from_right_fast",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ピヨピヨ…",
+      "char": "none",
+      "speaker": "none"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "おい、リユガー。\\いくら怒っててもヒヨコはダメだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "リユガー…怒って…",
+      "char": "m039_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ピヨ、ピヨ",
+      "char": "none",
+      "speaker": "none"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "リユガー…",
+      "char": "m039_01",
+      "speaker": "same"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ダメだって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ヒヨコ、いい…",
+      "char": "m039_01",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "殺しちゃ…え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "リユガー… ヒヨコ、好き…ヒヨコ…飼う…",
+      "char": "m039_01",
+      "speaker": "same",
+      "before_effect": "go_to_right_point"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "え、お、おい…リユガー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "本当に…持っていきやがった…ヒヨコ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "意外な好みがあるのね、リユガーは。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "だ、大丈夫かな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "生きたまま食べたり\\丸ごと飲み込んだり…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ゆっくり…見守りましょう。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ピヨ、ピヨ",
+      "background": "dungeon_bg",
+      "bgm": "14",
+      "char": "none",
+      "speaker": "none"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "リユガー…小さくて可愛いもの…好き…",
+      "char": "m039_01",
+      "speaker": "same"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "リユガーが…守る…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "41": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

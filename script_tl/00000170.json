@@ -1,0 +1,64 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "それではご主人さま。\\目には目を、歯には歯を！やられたらやり返す。\\これは正しいと思いますか？",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "106504001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "それは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "106504002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "負けた方が責任を負わされるのが人の歴史なら、\\<color=ff9900>弱い事はそのまま罪</color>になるのが、\\この世の真理なのでしょうか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "106504003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "そして…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "106504004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "うわああ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "after_effect": "go_to_left_jump",
+      "voiceid": "106504005"
+    },
+    "6": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal",
+      "wait": "normal"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

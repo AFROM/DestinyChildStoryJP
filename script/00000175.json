@@ -1,0 +1,107 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg024_f",
+      "bgm": "9",
+      "fade_out": "shorter",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "俺が一番心配してるのはさ、俺だけじゃなく、\\<color=ff9900>みんなまとめて死ぬ</color>ことだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "confused",
+      "voiceid": "106604008"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "もちろんリザ、お前だって例外じゃない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "106604009"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "俺を鍛えたいとか、リザの考えはわかる。\\けどさ、死んだら元も子もないだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "106604010"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "だから、あんまり極端な手段に出るのはやめて\\ほしいんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle",
+      "voiceid": "106604011"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "なるほど。お気持ちはよくわかりました。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "106604012"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ですが、勘違いなさらないでください。\\私やモナの<color=ff9900>存在価値</color>は、\\御主人様のサポートにあります。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "106604013"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "御主人様が悪魔の頂点、\\<color=ff9900>《魔王》</color>という大願を成すように助ける事です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "106604014"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "それは命よりも重要なことなのです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "toonear",
+      "voiceid": "106604015"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "いや、しかし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "106604016"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "これが私の<color=ff9900>《信念》</color>です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "106604017",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

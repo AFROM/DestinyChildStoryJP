@@ -1,0 +1,322 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "リザ！で、アタイを魔王にしてくれるの？\\くれないの？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "あの時の私はちょっと…いえ、とにかく駄目です。\\チャイルドが魔王になるなど…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "何だいそれ？じゃあ、アタイを騙したってのかい！？",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "そんなつもりはありません…\\そもそも、チャイルドが、存在するのは悪魔が\\魔王になるため…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そんなの知ったこっちゃないよ！\\アタイは魔王になるの！",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "はぁ、もう、戦闘なんてウンザリだよ…\\なんで俺がこんなこと…",
+      "background": "dungeon_bg",
+      "bgm": "2",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ヤル気のない悪魔はそこで見てな！\\アタイが活躍してやるからさ！！",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "待て、あの敵はオレが相手をしよう。",
+      "char": "c072_01",
+      "speaker": "same",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "わわっ！爆発に巻き込まれた！\\うう、今度こそアタイが…！",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "くそっ、敵がダンジョンの奥に逃げていきやがった。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ちょ、ちょっと…！\\アタイを置いて行くなよ！",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_point"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あっ、おいっ！イナンナ！\\危ないから、あまり深入りするな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "怪我はないか、少女よ。",
+      "background": "dungeon_bg",
+      "char": "c072_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "だ、大丈夫だよ。これくらい…っ！",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ぐっ…！",
+      "char": "c072_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "フェンリル…\\お前また、むやみに突っ込んで行ったな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "イナンナ、おまえもだ…\\ヤバい時は一旦下がって、次の攻撃のチャンスを\\狙うんだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "う、うるさい…\\アタイだって…やればできるんだ…",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "アタイはここにいる！ここにいるんだってば！\\ちゃんとアタイを見ろよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "うう、体中が痛い…\\くそっ、また筋肉痛かよ…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ちょっと大袈裟ではないですか？\\いい加減、慣れてください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "明日はきっと寝込むな。\\うん、俺、寝込む予定だから、よろしく。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "はぁ…\\寝込んでも、特にお世話はしませんけど…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "それにしても、\\大詰めでイナンナが活躍しましたね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "なかなかでしたよね、ご主人さま？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あ…まあ…途中でやらかしたけどね…",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "その程度のミスはご主人さまに比べたら、ねぇ？\\とんでもない指揮で全滅するところでした…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "そ、それは言わない約束だろー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…けっこう大きな失敗してるんだな。\\悪魔も…",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "どうしたのだ、イナンナ？",
+      "background": "dungeon_bg",
+      "bgm": "17",
+      "char": "c072_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "助けてくれて…いや、その必要はなかったけど…\\余計なことっていうか、自分で何とかできたけど…",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ああ、気にするな。お前は弱いのだから。",
+      "char": "c072_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "くっ…！ア、アタイは…",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "「今は」だ。\\お前はこれからどんどん強くなる。\\そうすれば、手出しする必要もなかろう？",
+      "char": "c072_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "…そ、そうだな。",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

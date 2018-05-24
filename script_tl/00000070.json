@@ -1,0 +1,104 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "この間なんてさ…",
+      "background": "bg097_chr02",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "hero",
+      "voiceid": "103402001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "はあ、どうされたんですか？",
+      "background": "bg097_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "103402002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あと少しで廃棄処分になる<color=ff9900>《おにぎり》</color>を\\虎視眈々と狙ってたのに、客に買われちゃってさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "103402003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "固定費の支払いのために色々切り詰めてて\\腹が減ってたもんだから、ガックリ来て…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry",
+      "voiceid": "103402004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あらら～それは切ないですね～\\でも、良い子は真似しちゃいけない行為ですね…\\しょうがない、モナが1個買ってあげましょうか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "103402005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "やめろ！同情するな！！",
+      "background": "bg097_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "sulky",
+      "screen_effect": "shake_weak",
+      "voiceid": "103402006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "具はシャケでいいですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "103402007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ツナマヨネーズでお願いします…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "103402008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はい、了解で～す♥\\ではコンビニバイト、頑張ってくださいね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile",
+      "mvd": "ux/talk/talk_overlay_fullscreen.mvd",
+      "voiceid": "103402009"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

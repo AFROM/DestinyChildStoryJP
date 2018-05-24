@@ -1,0 +1,317 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "嫌なら嫌とおっしゃってください。\\子供じみてはいませんか？",
+      "background": "bg086_f",
+      "bgm": "20",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "どうせ言っても聞かないだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "いや、そうじゃなくて…これは俺のせいじゃない！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "他でもない御主人様に契約書をお渡ししたのに\\自分のせいじゃないですって？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "確かにもらったけど、落書きしたのは俺じゃない！\\それに、俺がこんな小学生みたいな絵を描くと\\思ってるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そのくらい私にも分かります。これはオーロラの\\仕業です。もう彼女は自白してます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ひどいわ、リザ！",
+      "char": "c026_01",
+      "speaker": "same"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ならオーロラにだけ怒ればいいだろ。\\なんで俺が怒られるの！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "契約書を受け取ったのはご主人様です。\\最後まで責任を取ってください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "責任なんて！ちょっとトイレに行ってる間に…\\どう食い止めろって言うんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "もっと絵を描きたいの！",
+      "char": "c026_01",
+      "speaker": "same"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ダメです、オーロラ。\\さっきも言ったでしょう？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "それともまだ理解できていないのですか？\\やはり最初からお話ししないと…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "嫌よ！文句言われたくないわ！",
+      "char": "c026_01",
+      "speaker": "same",
+      "before_effect": "shake_weak"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "一体いつまで説教するんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "オーロラ、お前はもう帰れ。\\紙はもうない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ぐすん…お絵かき…",
+      "char": "c026_01",
+      "speaker": "same"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "さっさと行けって…\\こっちが迷惑なんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "オーロラの執着は予想を遥かに超え、\\俺の横にセミのようにくっついて…",
+      "background": "bg041_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…紙をくれとせがんだ。\\しかもただの紙じゃなく、契約書を、だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "それがいいの！",
+      "char": "c026_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "これはダメだ…\\一体いつまでついて来るつもりだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "俺が何とかしよう。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "うわっ、ビックリした！？\\どこから現れたんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "キャア！怖い！イヤ！",
+      "char": "c026_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "いい加減、飛び跳ねるな…\\あっ！ズボンがちぎれる！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "厄介なものが離れないんだって？\\俺が片づけてやろう。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "オーロラのことか？どこ情報だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "リザから聞いた。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "自分は面倒だからって、遣いを送ったのか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "で、どうやって解決するつもりだ？\\言っておくが、こいつはただ者じゃないぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "こ、来ないで！",
+      "char": "c026_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "オーロラは怯えた表情で\\《凶殺》と書かれた名札を突き出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "気に入らないヤツに付ける名札…\\お守りのようにも見えるが、相手がギロチンでも特に効果はない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "頭をちょん切ってやる…",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "頭を？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "キャア！キャアアア！",
+      "char": "c026_01",
+      "speaker": "same",
+      "before_effect": "shake",
+      "one_ani": "attack"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "さあ、頭を差し出せ。",
+      "char": "m050_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "これじゃ「遣い」じゃなくて「刺客」だな…\\やり方が極端すぎる…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

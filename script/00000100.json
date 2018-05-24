@@ -1,0 +1,83 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あの、すみません。",
+      "background": "bg198_f",
+      "bgm": "12",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104601001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ん？なんで謝ってんの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "104601002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "私、少しでも気を抜くと、\\<color=ff9900>《本心》</color>を語ってしまうんです。",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "104601003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "…気楽に話しかけるな、このチビ野郎…\\とか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104601004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "104601005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "私がどんな事を言っても、\\嫌いにならないでください…",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104601006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "本心ではありませんから。\\わかったか？タマなしの<color=ff9900>軟弱悪魔</color>……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104601007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "お前、わざとだろ！？\\わざとやってるだろ！？\\しかも、俺はついてるよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "voiceid": "104601008",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

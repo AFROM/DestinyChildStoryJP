@@ -1,0 +1,258 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ニャン！ホルル！\\どうして私について来るの？",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c274_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "もう我慢できない！",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "dialog_shake"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "おい、いつまでイラついてるつもりだ？",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ご主人様のお言葉さえなかったら、ホルルはとっくの昔にあの世行きだよ！",
+      "char": "c274_01",
+      "speaker": "same"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あの世ってどの世だ？\\まったく、知能の低いヤツとは話にならないな。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そのくらいにしとけ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ニャーン！\\子猫ちゃんは一体、どっちの味方？",
+      "char": "c274_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "子猫ちゃんって俺のことか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "私の味方じゃないなら他のとこに行って！",
+      "char": "c274_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "他のとこって…ここは俺の家だぞ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あら？ご主人さま、どうして外にいるのかしら～？\\あ、まさかモナのお迎えに？",
+      "background": "bg095_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そういうことに…しておいてくれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "追い出されたんですね…\\ほんと、情けないご主人様。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "自分の家から追い出される主人だなんて…\\今日こそ決着をつけましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sulky"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "まずは御主人様の味方になってくれるチャイルドを全て招集して…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "寄ってたかってバストとホルスをリンチするのか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "違います。\\それは、あのチャイルドたちには逆効果です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "主人とチャイルドの立場を明らかにするのです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "主人の立場を見せつけてどうする？\\そんなことしなくても、主人は俺だぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そうでしょうか？\\このままでは、そのうち立場が逆転しますよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "遠からずチャイルドが主人となり、主人がチャイルドとなる奇跡が起こるかもしれません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "奇跡！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いつもいつもケンカばかりだな。",
+      "background": "dungeon_bg",
+      "char": "c267_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ニャン…",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "おっと、また怒ってるのか？女王様！\\そんなに怒ってばかりいるとシワが増えるぞ。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "わざわざ《女王様》と呼ぶな！この無礼者めが。\\貴様の意地の悪さは世界一だな。",
+      "char": "c267_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そうだよ！ご主人様は女王じゃなくてファラオだよ！バカホルル…",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "毎日、人が嫌がることばかりして！\\ホルルは初めて会った時からダメ男だったんだから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ハッハッハッ！\\悲しいな。ここには俺の味方はいないのか？",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "当たり前でしょ！\\私はずーっとご主人様の味方だもん！\\バカホルルになんて邪魔させないんだから！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

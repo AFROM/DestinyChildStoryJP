@@ -1,0 +1,208 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ご主人さま、この辺りに強い<color=ff9900>《暴力への渇望》</color>が\\漂っています…注意してください。",
+      "background": "bg035_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "idle",
+      "voiceid": "102201001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "えっ、マジ？\\ってか、渇望とか感知できるようなもんなの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "102201002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "はい。\\モナは人間の欲望すべてに興味がありますので、\\それを逃すまいと神経を張り巡らせていますから！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile",
+      "before_effect": "shake",
+      "voiceid": "102201003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "…なるほど。\\しかし、そんな感じの人間はどこにも…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "102201004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "いえ…ご主人さま、見てください。\\あそこの、路地裏の入口のところです…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102201005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ん…どれどれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "102201006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "わあ、凄いですね♥\\平凡な少年がコンクリートの\\建物をガシガシ殴りつけてます！",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "twinkle",
+      "voiceid": "102201007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "許せない、許せない！\\ただじゃおかんっ、ただじゃおかないぞおっ！",
+      "char": "c208_00",
+      "speaker": "unknown1",
+      "pos": "center",
+      "distance": "normal",
+      "before_effect": "shake",
+      "loop_ani": "attack",
+      "voiceid": "102201008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そうだね…\\まあ、平凡だね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "102201009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "負けない、負けないぞぉっ！",
+      "char": "c208_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "loop_ani": "attack",
+      "voiceid": "102201010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ははは…\\こぶしが血まみれになってもお構いなしに\\壁をドッカンドッカン殴ってるよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "102201011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "こういう光景が見れるのは魔界だけだと\\思っていたんですけど、\\人間界でも珍しくないんですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "102201012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "違う…絶対違う…\\あんな光景、普通は見られないんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "102201013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "か、関わり合いたくないから、\\さっさと行こう！",
+      "char": "keep",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "102201014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "そこの君～、ちょっといいかしら♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt",
+      "after_effect": "go_to_left_point",
+      "voiceid": "102201015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "お…おい、バカ！なに声かけてんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "serious",
+      "before_effect": "shake",
+      "after_effect": "go_to_left_fast",
+      "voiceid": "102201016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ん…？",
+      "char": "c208_00",
+      "speaker": "unknown1",
+      "voiceid": "102201017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "こちらはこれから魔王となる予定の大悪魔様で、\\私はこの方にお仕えするサキュバスです♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102201018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "願い事を叶えてあげる見返りとして、\\ご主人さまと契約する気はありませんか～？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102201019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "お、おいモナ、待てって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102201020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "いえいえ、待ちませんよ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "102201021"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "どうしようも無かった…\\止めるヒマもなく、\\モナは手早く契約を始めてしまった…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "102201022"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "たった今、新しいニュースが入ってきました！\\様々な悪魔から力を得た強力なチャイルドが争奪戦\\会場近くに出没しているようです。",
+      "background": "bg099_f",
+      "bgm": "9",
+      "char": "c174_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "107203001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "悪魔に対する憎しみが半端じゃないみたいです！\\候補生の皆さんは、くれぐれもご注意を！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "normal",
+      "mvd": "ux/talk/efx_tv_blink.mvd",
+      "voiceid": "107203002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "それじゃ、またお会いしましょ～★\\チャ～オ♪",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "107203003"
+    },
+    "4": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "16",
+      "fade_out": "longest",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "……",
+      "background": "bg099_f",
+      "char": "c174_01",
+      "speaker": "same",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "107203004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ふう～…\\あのさぁ、ちょっといい？\\こんな貴重な情報、垂れ流しちゃっていいの？",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "107203005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "んーと…\\大きな声じゃ言えないし、小さな声じゃ聞こえない。というわけで、ちょっと耳貸して！",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "107203006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "<b>こ～の～っ、超超ちょ～うトウシロがっ！！</b>",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "107203007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "その足りない脳みそで考えなさい！\\悪魔たちが血みどろになって死闘を繰り広げる姿を\\中継すれば、どれくらい放送料を稼げると思う？",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "shake",
+      "voiceid": "107203008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "私たちがどれほど壮大なビジョンを立ててこの番組を企画したか、よーく思い出してみなさい。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "107203009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "弱い悪魔が負けて、強いやつが勝つ。\\たまに大番狂わせもある。\\それでもう充分エンターテインメントなの！",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "dialog_shake",
+      "voiceid": "107203010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "作り手は方向性を絞りやすいし、視聴者は見ていて\\まず飽きないしね。",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "107203011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "サイドビジネスだって展開できる。\\悪魔がケガすれば家まで送り届けて、謝礼をふんだくれるしさ。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "107203012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "今後も徹底的に魔王争奪戦から搾り取るわよ！\\情報は選別と出し惜しみが必要だからね！\\わかった～！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "107203013"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "9",
+      "fade_out": "longest",
+      "wait": "longer",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "この悪魔でもない…\\その前の悪魔でもなかった…",
+      "background": "bg093_f",
+      "char": "m040_02",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "107203014"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "私はこのまま復讐できないのか…\\そのような生に意味があるのか…？",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "107203015"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "許さない…\\断じて、許さない…",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "107203016"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "1人ずつ消していけば…\\いつか奴に辿り着けるはずだ…",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "107203017"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "必ず見つけ出す…\\私を生み出した者を…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "107203018"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

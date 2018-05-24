@@ -1,0 +1,298 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "見つけたぞ。アガメムノン。",
+      "background": "bg058_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "enter_from_left_fast"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "キャプテン！？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "もういい？\\まったく、チャイルド探しなんて1人でやってよね。",
+      "char": "c235_01",
+      "speaker": "same"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ダヌ。お前はご主人様が心配じゃないのか？\\夜中に1人で歩いてたら他の悪魔から攻撃されるかもしれないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ハッ！ウケる！\\アンタを攻撃する悪魔なんて、たかが知れてるわよ。",
+      "char": "c235_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "キャプテン！\\どうして、ここが分かった？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ダヌが教えてくれたよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "なぜ俺を探していた？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "姿が見えなかったからな。\\ところで、お前はここで何してるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ふん、じゃあ、私が当ててあげよっか？\\汚職刑事のアンタの契約者と悪いことでも企んでたんでしょ？",
+      "char": "c235_01",
+      "speaker": "same"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "…お前の契約者がここから出るのを見た。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "キャプテンも俺が悪いと思っているのか？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そう思いたくないから、お前から説明してほしいん\\だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "はぁ、じれったい…\\ガツンと殴ってさっさと吐かせればいいでしょう！？",
+      "char": "c235_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ダヌ…\\お前のやり方と俺のやり方は、違うんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "うるさいわね、まったく。",
+      "char": "c235_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "アガメムノン、正直に話してくれ。\\契約者と何をしていた？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…契約者を助けていた。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "やっぱり…\\裏金の用意でもしてた？",
+      "char": "c235_01",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "違う！\\1人で犯人を追ってるアイツを助けてやっただけだ。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "1人で犯人を…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "キャプテンと契約してから、俺の契約者も変わったんだ。今まではともかく、昔はアイツにも正義の心が\\あったからな。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それから、ダヌの契約者に協力を求めたらしいが、残念ながら断られたようだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ふん。\\当たり前でしょ。因果応報じゃない。",
+      "char": "c235_01",
+      "speaker": "same"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ああ、話にならんな。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ダヌの契約者、富樫智佳(とがし ともか)は、\\アガメムノンの契約者が警部補を務める刑事課に配属された新人刑事。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "アガメムノンの契約者、\\武藤龍蔵(むとう りゅうぞう)が\\不正を働いていることを知り、告発しようとした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "でも、武藤が権力を使って脅迫したため、挫折してしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あの件について、俺の契約者は後悔している。\\これ以上ダヌの契約者を脅すこともないだろう。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ホントかな…",
+      "char": "c235_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "キャプテンも俺の契約者を信じられないか？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "お前の契約者とはそんなに話したことないし、ろくに知りもしないヤツをどうやって信じるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "そうか…",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "でも、勘違いするな。\\俺はお前のことは結構知ってるつもりだ。\\だから、お前の事は信じても良いと思ってる。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "キャプテン。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そんな目で見つめるな！\\は、はずかしいだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "screen_effect": "dialog_shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "あ～気持ち悪い。\\男同士で見つめ合っちゃって何してんの？",
+      "char": "c235_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ダヌ。\\いつかお前も、俺の契約者を信じられる日が来るはずだ。だからその時まで、待っていてくれ。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ふん！\\そんな日、絶対に来ないと思うけどね。",
+      "char": "c235_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

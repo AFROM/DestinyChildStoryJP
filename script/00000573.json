@@ -1,0 +1,138 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ご主人さま、いつまで隠れているつもりですか？",
+      "background": "bg086_f",
+      "bgm": "20",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "何を…言ってる？隠れているんじゃなくて…\\服を探して…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "服はテキトーに着るなって言ってたろ？\\契約者にナメられないようにって…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ご主人さまが？服を？\\ひょっとして、クローゼット開けたら同じ服が\\10着あるタイプかしら？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ご主人さま緊張してるようですね♥\\ドキドキしてる音がここまで聞こえてきますよ～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "音？何の音？\\同じ音出せる！",
+      "bgm": "16",
+      "char": "m148_01",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "し、静かにしろ！声が大きすぎる。\\今、外にお前の契約者が来てるんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "契約者が？ところでここで何しているの？\\契約者が逃げ出す前にさっさと再契約しちゃおう！",
+      "char": "m148_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "逃げる？そんなことはないだろう。\\俺を襲う勢いで待ってるし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "正確に言うと、モナを待ってるのです。\\契約者には契約の記憶がないですから。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そうだ！初めて契約したのも\\《モナの相談所》に来たからだ！",
+      "char": "m148_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "上の家がうるさいからって…\\ところで原因は？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "とにかく、ご主人さまが恐がる必要はないですよ。\\今まで通り、困った時はモナが解決して\\あげますから～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ううっ…本当のことだから言い返せない…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "悪魔らしくない良心も、たまにはいいですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "悪魔くん、恐がらないで元気出して！",
+      "char": "m148_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はい、はい。ありがとよ…\\はあ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

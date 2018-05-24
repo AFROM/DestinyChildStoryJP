@@ -1,0 +1,102 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ヒャッハー！！遅いよ、パパ！",
+      "background": "bg196_f",
+      "bgm": "9",
+      "char": "c083_02",
+      "speaker": "same",
+      "pos": "right",
+      "loop_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "voiceid": "105804001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "この<color=ff9900>親不孝者</color>！\\心配かけずに家に帰ってきなさい！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "voiceid": "105804002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "クスクス。嫌だよ！\\パパ、もっと遊んでよ！",
+      "char": "c083_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
+      "voiceid": "105804003"
+    },
+    "4": {
+      "type": "curtain",
+      "fade_out": "shortest",
+      "wait": "shortest",
+      "fade_in": "shortest"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "keep",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal",
+      "char": "none"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あらら～\\とても元気溢れるお子様ですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "before_effect": "shake",
+      "image_pos": "right_top",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
+      "voiceid": "105804004"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "褒めてる場合じゃないよ。\\お前も子供を産めば、俺の苦労がわかるよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
+      "voiceid": "105804005"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ふふふっ、\\大きな子供のお守をしている<color=ff9900>モナの気苦労</color>、\\ちょっとは理解できましたか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
+      "voiceid": "105804006"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "くっ、<color=ff9900>親の心子知らず</color>とはよく言ったもんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
+      "voiceid": "105804007"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

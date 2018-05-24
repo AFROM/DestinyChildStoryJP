@@ -1,0 +1,121 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "fade_out": "shortest",
+      "wait": "normal",
+      "fade_in": "shorter"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "願いを叶えて一人ぼっちなんて\\それじゃあ可哀想だろ？",
+      "background": "bg197_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "101404001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そうですね～\\彼女には辛い一日になりそうです。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101404002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "信じられないっ、あのバカ契約者っ！！",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "101404003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "うわっ、びっくりした！\\お前、どこから出てきたんだ？\\逃げ回ってたくせに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "voiceid": "101404004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ご主人さまが気づかないだけで、\\チャイルドはいつもご主人さまの側にいるんですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "smile",
+      "voiceid": "101404005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "デメテルちゃん、お久しぶり♥\\結構探しましたよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "voiceid": "101404006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ふん…",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "101404007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ねえ、私思うんだけど。\\言いたいことがあるならさ、\\何もかも吐きだした方がすっきりするじゃん？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "none",
+      "voiceid": "101404008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "なのに、何でウジウジ後悔しているわけ？\\私があんなバカから生まれたなんて、\\ほんっと、ありえないわ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "101404009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "101404010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "不満が溜まっているようですね。\\とりあえず、自分から現れてくれて一安心です♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "101404011"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

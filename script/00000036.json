@@ -1,0 +1,71 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "おい、待てよ！",
+      "background": "bg035_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "102202001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "なんだ…誰かと思えば、君だったか。\\まだロードワークが終わっていないので、\\後にしてもらえないか？",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102202002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "いいから、このベルトをさっさと受け取ってくれよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102202003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "遠慮はいらん、それは君が持っていなさい。\\では少年よ、君の成長と更生を心から祈っているぞ！ハッハッハッハッ……！",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_fast",
+      "voiceid": "102202004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "またまた行っちゃいましたね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102202005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "チ、チクショウ…おいコラ、待て～っ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_right_fast",
+      "voiceid": "102202006"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

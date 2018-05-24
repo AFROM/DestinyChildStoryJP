@@ -1,0 +1,74 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg197_f",
+      "fade_out": "shortest",
+      "wait": "shorter",
+      "fade_in": "shorter"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ところで、何でデメテルのダンジョンは扉が開いていたの？\\俺と契約する前だったじゃん。",
+      "background": "bg197_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "101203024"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そこなんですけど…\\どうも彼女、ご主人さま以外の悪魔とも契約してたみたいですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "101203025"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "はぁ？\\そういうのってアリなわけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake_weak",
+      "voiceid": "101203026"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "人間の欲望はとてつもなく大きいですからね。\\いくらでもバラ売り出来ちゃうわけですよ…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "voiceid": "101203027"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "人間の欲望ってヤツは、半端ないな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "101203028"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "それにしても、さっきから寒気がするぞ。\\モナ、早くここから出よう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "101203029"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

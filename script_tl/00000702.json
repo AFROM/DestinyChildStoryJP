@@ -1,0 +1,257 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "う、うわあああ～っ！",
+      "background": "bg096_f",
+      "bgm": "20",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "shock",
+      "screen_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "どうかなさいましたか、御主人様？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "before_effect": "enter_from_right_fast"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "お、俺の携帯が、ドボンと！\\うっわぁ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ああ、トイレに落としてしまったのですね。\\ボーっとしているからですよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "くそぉ…\\携帯は、俺のたった1人の友達だったのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "御主人様は将来魔王になるお方です。\\この機会に携帯などという悪友とは、縁を切るべきでしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "携帯と魔王は全然関係ないよなぁ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "いや、サポーターの言う通りよ。",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "女王に友達なんか要らない…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ん…？急に出てきてどうしたんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あまりに騒々しいから様子を見に来たのよ。\\しかし、たかが携帯如きで泣きわめいていたとはね…",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "やはり小物。\\君は魔王の器ではないわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あーはいはい。\\そこんとこは俺も同感だよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "それよりも、リザ。\\頼むよ、新しい携帯買ってくれよぉ～",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "駄々をこねないで下さい。\\ダメと言ったらダメです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "そんなこと言わずに頼むよ。\\アイツがいないと寂しくて寂しくて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "まさか御主人様…\\本当に携帯電話を、友達だと思っているのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "だって、しょうがないだろ。俺をちゃんと\\主人扱いしてくれるのは、携帯ぐらいなんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "私はちゃんと《御主人様》を《御主人様》として\\扱っておりますが？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ウソつけ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "まだ携帯如きで騒いでいるの？\\いい加減日が暮れるわよ。",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "しょうがないだろ？\\ウチの財布はリザが握ってるんだから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "主でありながら、サポーターにも認められず、\\さらに財政まで明け渡すとは…",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "こんな男が魔王候補だとは…\\笑わせてくれるわね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "それはもういいだろ…\\そもそも俺は、魔王になんか興味ないの！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "またそのようなことを…\\いえ、もういっそ御主人様はその調子で構いません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ん？そりゃありがたいけど…\\何のつもりだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "それはもちろん、御主人様が魔王になった暁には、\\全て私の手柄とさせていただくつもりです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "うわぁ…\\抜け目がない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "うむ。君にはもったいないサポーターね。\\ありがたく思いなさい。",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "はあ…\\携帯すら買わせてくれないサキュバスなんて、\\ウンザリだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

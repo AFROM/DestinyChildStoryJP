@@ -1,0 +1,306 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "さあ、お嬢様。\\そろそろ結論を出してくれないか？\\アイツはやめて、俺にしろ。\\…いいよな？",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "103204001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "<color=ffcccc>はい、フレイ様…♥",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "103204002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "こら～っ、待てっての！\\業界マナーとかないのかよ、この野郎！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "103204003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ん…？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103204004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あ…、貴方は…！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103204005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あのなあ。\\チャイルドの横取りなんて、\\常識がないのかよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "103204006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "常識？\\さすがは下級悪魔だ、\\そんなバカげたものを持ち出すとはな！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103204007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "<b>はあ。何をしているのかと思いましたが…\\<b>その頭で考えたのがこの茶番劇ですか？",
+      "char": "none",
+      "speaker": "unknown1",
+      "voiceid": "103204008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ん…？誰だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103204009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "なっ、リザ！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103204010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "私がいない間に、\\何をコソコソしているかと思えば…",
+      "char": "c256_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "before_effect": "enter_from_left_slow",
+      "voiceid": "103204011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "リ、リザ、あ、こ、これはその…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103204012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "フレイ様、以前お諫めしたはずですよ。\\<color=ff9900>《軽率な行動》</color>は謹んでくださいと。",
+      "char": "c256_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "voiceid": "103204013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦は<color=ff9900>《長期戦》</color>になります。\\初めから他の候補生に恨まれるような行動は\\お控えくださいと申し上げたのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "serious",
+      "voiceid": "103204014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ご理解いただけなかったのでしょうか？\\そんなに私の説明は難しかったと？",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "103204015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "リ、リザ…、これはその…\\ご、誤解するな、俺は…！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake",
+      "voiceid": "103204016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…まあ、結構です。\\これ以上他の候補生に見苦しいところを\\晒す必要もないでしょう。",
+      "char": "c256_01",
+      "speaker": "same",
+      "before_effect": "none",
+      "voiceid": "103204017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それでは、失礼します。",
+      "char": "keep",
+      "speaker": "same",
+      "after_effect": "go_to_right_slow",
+      "voiceid": "103204018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "リザ、待ってくれ！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103204019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "くっ…\\おい補欠、今日のことは貸しにしておくぞ！",
+      "char": "keep",
+      "speaker": "same",
+      "after_effect": "go_to_right_jump",
+      "voiceid": "103204020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "行っちまった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "103204021"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "えっ、フレイ様？\\こ、これって…\\これって私、<color=ff9900>捨てられちゃったの！？</color>",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "far",
+      "screen_effect": "shake",
+      "one_ani": "attack",
+      "voiceid": "103204022"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "あ、あの～ヘカテーさん？",
+      "background": "bg047_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103204023"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "イヤっ、近寄らないで！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "voiceid": "103204024"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "イヤっ、来ないで！\\鬼っ、ヘンタイっ、悪魔！\\貴方も同じなんでしょ？\\都合が悪くなったら、私を捨てるんだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "103204025"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ま、まあ、悪魔なのは間違いないが。\\だけど俺は、あんなヤツとは違うからな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "before_effect": "shake",
+      "voiceid": "103204026"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "もう、騙されるものですかッ…！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "center",
+      "after_effect": "none",
+      "one_ani": "attack",
+      "voiceid": "103204027"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ま、待てってば！\\…ああもう、また逃げられた…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "103204028"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "おいモナ、どうしてさっきからずっと\\黙り込んでるんだよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "103204029"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あ、いえいえ～、\\懐かしい顔を見たもので、\\感慨に浸ってしまいました♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103204030"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "はあ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "103204031"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "いえいえ、こっちの話です。\\ほらほら、それよりヘカテーを追いかけなくては！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103204032"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あ、ああ、そうだな…急ごう！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103204033"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

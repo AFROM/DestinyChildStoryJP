@@ -1,0 +1,533 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "25",
+      "fade_out": "normal",
+      "wait": "longer",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg184_f",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "longer",
+      "hold": "longer"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "もう止めろ、クレオパトラ！\\俺たちのオベリスクは崩壊したんだ。",
+      "background": "bg184_f",
+      "bgm": "keep",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "voiceid": "200208040"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "何を言うか、わらわはまだ戦える！\\まだ、終わってなどおらん…！\\わらわは、不滅の太陽なのだぞ…！",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "200208041"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "きちんと現実を見据えて打開策を考えるのが、\\王であり為政者ってもんだろう？",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208042"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "戦いが終わる兆しが見えずに膠着状態が続く中、\\ホルスが突然仲介に入った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "200208043"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "クレオパトラのヤツ、なんか急に弱くなった気がしないか？パワーもスピードも妙に不安定だし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200208044"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "うふふっ♥それはですね…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "voiceid": "200208045"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ご主人さまのために少々細工をしてきました♥\\このオベリスクに仕込まれた魔法陣や呪文を、片っ端から壊してきたんです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200208046"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "おもに魔力を増幅させるタイプの仕掛けでしたが…\\クレオパトラ様は、意外とご自分の魔力に自信が無いようですね♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200208047"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "仕掛けを無力化してしまえば、\\弱体化は避けられません♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200208048"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "だから、あちこち壊しまわっていたわけか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200208049"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "うふふっ…正解です～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "voiceid": "200208050"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "お前たち、随分と余裕だな…",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208051"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "女王！もうこちらに勝機はない。ここは退くべきだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208052"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そーだそーだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200208053"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "仮にこの場を乗り切れたとして、あいつより強い悪魔に目を付けられたらどうにもならない。\\オベリスクも破壊され、八方塞がりだ。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208054"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "このまま戦い続けることは不可能だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208055"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "何を言うかと思えば…また《女王》と呼ぶのか…\\ふん。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208056"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "わらわとあれだけ長い時間を過ごしておきながら、\\お前はまだわらわを理解しておらんようだな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208057"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "わらわはファラオ！太陽の名を戴いた身…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208058"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "天下万民を希望の光で照らす王になるのが、わらわの務めなのだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208059"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "一寸の死角もない理想的で完璧な王になるのだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208060"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "理想的で完璧な…か。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "200208061"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "太陽とはすなわち、完全無欠の存在。ゆえにわらわは完璧でなければならない！",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208062"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "わらわの限界をお前に決めさせなどしない。\\これがファラオのあるべき姿だ、ホルス。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208063"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "負けるわけにはいかぬ。\\汚点を残せば、それはもうファラオではないのだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208064"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "もう二度と失敗はせぬ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208065"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "なんでお前はそんなに極端なんだよ？\\誰がお前を殺すって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200208066",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "お前が理想としている王の姿ってのはよ～く分かったよ。うん、だからかな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200208067"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "お前は全然、悪魔っぽくない気がするんだよ…\\現に、魔王争奪戦にエントリーだって済ませてないんだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200208068"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "それ以上、女王様を惑わすのはやめてもらおう！",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208069"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "女王様、俺の言い方が悪かった。\\ここで退こうと言ったのは諦めるって意味じゃない。",
+      "bgm": "9",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208070"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ここは彼に花を持たせ、俺たちは力を蓄えようと言ってるだけさ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208071"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "いったん休戦して、ここはあいつらの世話になろう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208072"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "はぁ！？何を勝手に！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "200208073"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ファラオ！考えてみてほしい…\\君は目覚めたばかりで、今の世情を全く分かっていない。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208074"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "だからここは、しばらく情報を集めよう。\\こいつのことは後でどうとでもできる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208075"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "またそのように、大口ばかり叩きおって。\\しかし…その考え、一理ある。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208076"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "時間が必要なのは確かだ。\\この世界にわらわは、まだ適応できておらぬしな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208077"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "それから…ひとつ宣言しておくぞ、ホルス。\\お前が腹の底で何を企んでいるか、必ず突き止めてみせる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208078"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "フッハッハッハッ、何も企んでなんかいないさ。何もね…",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208079"
+    },
+    "43": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "15",
+      "fade_out": "longest",
+      "wait": "normal",
+      "fade_in": "longer"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "…眠っている間、とても長い夢を見た。",
+      "background": "bg185_f",
+      "char": "c267_01",
+      "speaker": "same",
+      "screen_effect": "dark",
+      "voiceid": "200208080"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "わらわの国において、神であり創造主でもある太陽は必ずどこかに長い影を落としていた。",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "dark",
+      "voiceid": "200208081"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "太陽でさえ不完全なのだから、今のわらわがそれを望めるはずもない。",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "dark",
+      "voiceid": "200208082"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "わらわが己の無力さを噛みしめる間にも時間は流れ続ける…",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "dark",
+      "voiceid": "200208083"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "そして今、わらわの栄光も玉座も、ともに打ち砕かれた。",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "dark",
+      "voiceid": "200208084"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "わらわの真の戦いはここより始まる。\\勝つためには、己が研鑽を怠るわけにはいかない。",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "dark",
+      "voiceid": "200208085"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "見ておれ…\\未来の玉座をわらわは必ず掴んでみせよう！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dark",
+      "voiceid": "200208086"
+    },
+    "51": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longest",
+      "wait": "normal",
+      "fade_in": "longer"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "さて、そこの。\\今からわらわはお前を何と呼べばいい？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200208087"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "別に、好きに呼んでくれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "200208088"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "ふん、女王ともどもよろしく頼むぞ。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "voiceid": "200208089"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "ニャハハハ～♪よろしくニャン！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "voiceid": "200208090"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "この野郎…お前が言うか！このホルル！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "shake_weak",
+      "voiceid": "200208091"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "ホルスだ…！",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200208092"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "はぁ…\\磁石が砂鉄を吸い寄せるみたいに俺の家にトラブルの種が次々と集まって来る…\\うう～う…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "cry",
+      "voiceid": "200208093"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "ハハハハハッ！\\泣くほど喜んでもらえるとは、わらわも嬉しく思う\\ぞ。",
+      "char": "c267_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200208094"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "家の中がまた賑やかになりそうで、モナはとっても嬉しいです♥ね～ダビ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "smile",
+      "voiceid": "200208095"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "むにゃむにゃ…\\モナ姉さまの腕の中…幸せ～♥",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "victory",
+      "voiceid": "200208096"
+    },
+    "62": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

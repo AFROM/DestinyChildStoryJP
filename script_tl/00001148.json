@@ -1,0 +1,91 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "なぁ？俺たちの目的って\\<color=ff9900>《暴走するチャイルドを抑える》</color>ことだよな？",
+      "background": "bg159_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "bgm": "23",
+      "voiceid": "400613001",
+      "pos": "left"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "そうでしたね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "voiceid": "400613002",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "でも、こいつら…\\めっちゃ統制とれてるよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "voiceid": "400613003",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "暴走チャイルドの動きじゃない…\\どう考えても…",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "400613004",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "だから、モナが注意したじゃないですか。\\この話には裏があると。",
+      "char": "c001_01",
+      "speaker": "same",
+      "voiceid": "400613005",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "何だよ！何であの時\\ちゃんと教えてくれなかったんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "voiceid": "400613006",
+      "pos": "center",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "distance": "near"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そんなの決まってます♥\\部屋でゴロゴロしているご主人さまより\\仕事をしているご主人さまが<color=ff9900>輝いている</color>からです♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "voiceid": "400613007",
+      "pos": "center",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それに～\\文句を言っていますが、\\これはご主人さまの選択の結果ですよ？",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "400613008",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "進みますか？後退しますか？\\では、これから方針を決めてください♥",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "400613009",
+      "pos": "right"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "おう、ジーザスクライストなオーマイゴッドよ！その託宣を我、受け取ったり！清廉なる神は聖なる山に降臨されました！祭壇を作りましょう！",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c049_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ええっ…どうした？服はあちこち破けてるし\\葉っぱもあちこちついてるし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "顔も…傷だらけじゃないか。\\難しくて長～い変なセリフばっか言ってるのはいつも通りとして…今度はどこで何やらかしてきたんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake_weak"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "近くの裏山を徘徊しているところを確保しました。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "sigh"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…はぁ。\\で、聖なる山がどうしたって？\\その神だか何だかと、裏山で出会ったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "残念ながらその姿は見えませんでしたが…\\深慮遠謀なる神の啓示を受けました！",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "山の湧水を汲んで下りて来た人間の男性に\\水を分けてもらったらしく、\\その水を飲んでからこの調子のようです。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…今度は…湧水の神様の使いってか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ああっ…偉大なる神はその千里眼をもって、\\疲れ果てて、喉を枯らした我に、\\永生の水をお与えになりましたっ…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ああもう、ちょっと静かにしてくれ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "いい加減にしてくれ…\\いるかどうかもわからない、\\神に出会うまで、これがずっと続くのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "だいたい、おまえは悪魔の手下なんだからさ。\\今、神になんて出会ったら裏切り者として聖なる炎かなんかで焼かれちゃうんじゃないの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…そうですね。",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あ、あれ？なんか調子狂うな。いつもみたいに、\\「それでも神は騙された子羊に気付いて救いの手を\\差し伸べてくれるでしょう！」\\とか言うのかと思ったら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "御主人様。珍しく、言い過ぎですよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "teach"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ただの冗談なんだけどなぁ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "意図がどうであれ、ご主人さまの思惑通り\\しばらくは大人しくしていそうですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うーん、なんかスッキリしないな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ここにいると思ったよ。",
+      "background": "bg085_f",
+      "bgm": "15",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…汚らわしい悪魔が清廉潔白な神の守る、\\聖なる場所に立ち入るとは…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そりゃ嫌だよ、こんな所にいたくないさ。\\でも仕方ないだろ、家出癖のついてる\\不良チャイルドを従えちまったんだからさ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "悪魔が主…\\なぜ我は悪魔の手下などに成り下がってしまったのだろうか…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "そりゃ、お前の契約者が俺に願いを託したからさ。\\安らぎをくれってね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "俺はちゃんと警告したぞ？\\悪魔に願いを叶えてもらおうなんて、\\やめたほうがいいってね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "でも契約したいって言うんだから、\\仕方ないじゃないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…悪魔だというのに、時々とても優しいのだな。",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "優しい？誰が…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "でも、そんなことで\\悪魔に心を許すわけにはいかない。",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "絶対神によって慰撫されるとき。\\聖なる、唯一の…光、その光を体いっぱいに\\浴びた時に、心から安らぐはずなのだ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "その光だけを、一途に…何年も何年も、\\求め…祈ってきたというのに…\\まだ我は闇の中に在る…まして…\\もっと暗い、深い闇に堕ちてしまった…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "shake"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…あのな、悪魔にそんな話したって\\相槌打ちながら一緒になって、いつまでも\\無視を決め込んでる神に文句を言うだけだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "まあ、でも解決策があるとしたら…\\お気に召さないかもしれないけど、\\神が無視できないくらいの\\悪魔の王になる俺を手伝ってみたら？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "なーんて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "あ、でも勘違いするなよ。\\手を汚せっていうわけじゃないし。\\嫌だってことは、なるべくやらせないように\\するから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "うう…\\温厚篤実な神の敵である悪魔の手下となるなんて…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "でも、あなたを信じる事はできそうです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ホント！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "shake_weak"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "……努力してみる、という意味です。",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "真理は、己を愛し\\探し求める者に、姿を見せるものですから……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "42": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

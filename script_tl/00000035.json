@@ -1,0 +1,159 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ん…？\\また君か…",
+      "background": "bg197_f",
+      "bgm": "9",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102202007"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "はぁ、はぁ…やっと追いついた…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "102202008"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "いいか、もう一度言うぞ！\\こんなゴミ要らないから、持って帰ってくれよ！\\ほら！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "image": "a008_01_f",
+      "image_pos": "center",
+      "voiceid": "102202009"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "バカ者がッ、それは断じてゴミではない！\\ファイターの血と汗と涙が染み込んだ、\\<color=ff9900>《男の勲章》</color>そのものだぞ！",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake_weak",
+      "one_ani": "attack",
+      "voiceid": "102202010"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そしてこれは、ついさっき道端で拾ったものだ。\\これも着ればより<color=ff9900>《完璧》</color>になるぞ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "voiceid": "102202011"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "なんだ、これ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "102202012"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "<color=CC66FF>太ももの真ん中まで降りてくるボクサー用パンツ。\\<color=CC66FF>トップスと合わせて着ると風格が増す。",
+      "char": "none",
+      "speaker": "none",
+      "image": "a009_01_f"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "だ、だから、何で俺によこすんだよ？\\自分で着りゃいいじゃんか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "102202014"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あのなぁ、少年よ。\\君はどうしてそんなに危機感がないんだ？",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102202015"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "いいかね、中身の少ない脳みそを使って\\考えてみたまえ。\\この先君はそんな貧相な体でどうやって生き抜いていくつもりだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "one_ani": "attack",
+      "voiceid": "102202016"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "お先真っ暗な未来しか待っていないから、\\今のうちに何とかしろと言っているのだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102202017"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あ、アホか！\\ヒョロヒョロな肉体だと\\お先真っ暗な未来が確定って、\\そんな理屈があってたまるかっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102202018"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "いいから俺のチャイルドになれよ、さあ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "102202019"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふっ…何を言うかと思えば、笑わせる。\\寝食を忘れて肉体改造に励み、出直してくるんだな！",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_right_slow",
+      "voiceid": "102202020"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "あらあら、またしても行っちゃいましたね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "voiceid": "102202021"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "…どうして？\\どうして、こうなった！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "voiceid": "102202022"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

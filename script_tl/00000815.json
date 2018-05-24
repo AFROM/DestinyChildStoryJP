@@ -1,0 +1,202 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "…おい、ピクシー。\\これはどういう状況なんだ？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "何って～？\\ちょっと遊んでただけだよ～？",
+      "char": "c269_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ちょっと？\\これだけ散らかしといてよく言えるな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ほんとにちょっとだけだもん！",
+      "char": "c269_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "嘘つけ！\\散らかそうと思っても、\\ここまで散らかせないだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "全く、イタズラばっかりして…\\ここでは遊ぶなって、いつも言ってるだろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ふああああ～ん！\\お兄ちゃんが怒ったー！！",
+      "char": "c269_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "はあ…俺には子育てなんて無理だ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…この部屋の惨状は何ですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation",
+      "before_effect": "enter_from_right_fast"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "リザ！\\怒る前に俺の話を聞いてくれ！\\これはピクシーの仕業で…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "洋服はすべて床に散らかされ、\\壁には落書きがいっぱいですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "その上カーテンは引き裂かれ、本は破かれ…\\これをピクシーがひとりでやったと？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あの小さなチャイルドに、\\本当にそんなことができると思っているのですか？\\嘘をつくにしても、もう少しまともな嘘を\\ついてはいかがです？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "嘘じゃないって！\\ピクシーからも言ってくれ。\\早くほんとのことを話さないと\\リザに誤解されるだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ふえええ～ん！\\また怒った！お兄ちゃんが怖いよー！",
+      "char": "c269_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "お、おい。\\ここで泣かれたら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ピクシーに罪を押し付けるだけでは飽き足らず、\\脅すとは…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "恥ずかしくないのですか？\\御主人様。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "だから、誤解です…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "教育的指導です。\\こっちに来てください。\\その根性を叩き直して差し上げます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "違うって言ってるだろ～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "after_effect": "go_to_right_point"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ふああああ～ん！",
+      "char": "c269_01",
+      "speaker": "same",
+      "screen_effect": "dialog_shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あ、あれ？お兄ちゃん？\\私をおいて遊びに行っちゃったの？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "何で誰もいないの？\\お兄ちゃ～ん！ピクシーも連れて行ってよー！",
+      "char": "keep",
+      "speaker": "same",
+      "after_effect": "go_to_right_point"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

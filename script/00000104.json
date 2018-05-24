@@ -1,0 +1,143 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あんたなんて、<color=ff9900>祓われてしまえ</color>！！",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c048_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "shake_weak",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "104604001"
+    },
+    "2": {
+      "type": "curtain",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ネヴァン、落ち着いたか？",
+      "background": "bg198_f",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104604002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "………\\……\\…はい。",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "104604003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "祓魔師を呼んで来た件、\\今回だけは許す。わかったか？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104604004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "はい…フレイ様…\\いつも、感謝しております…",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "104604005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "何してるの…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "104604006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "っ！驚かすな！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "104604007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…ふんっ！\\お前が知る必要はない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104604008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "私がフレイ様に<color=ff9900>《聖水》</color>をかけて、\\<color=ff9900>《祓魔師》</color>をけしかけました。",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "104604009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…\\",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "104604010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "メチャクチャだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "104604011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "はぁ……\\二人とも<color=ff9900>《浄化》</color>されてしまえ。",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "104604012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あっ、すいません。つい本音が…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "104604013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "フン…俺はもう行くぞ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_jump",
+      "voiceid": "104604014"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

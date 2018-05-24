@@ -1,0 +1,42 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あなたは悪い人に見えないし、いいわ。",
+      "background": "bg196_f",
+      "bgm": "9",
+      "char": "c244_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "おお！協力してくれるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "少しの間だけよ。\\それに、もし犯罪を起こしたら容赦はしないわよ。",
+      "char": "c244_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "これからよろしくね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

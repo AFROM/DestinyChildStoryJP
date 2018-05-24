@@ -1,0 +1,369 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ハ～イ、悪魔！今日は何するの？",
+      "background": "bg035_f",
+      "bgm": "14",
+      "char": "c047_01",
+      "speaker": "same",
+      "before_effect": "enter_from_right_slow"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "…びっくりした。\\まさか、あのヘスティアが、\\こんなに明るく声をかけてくるなんて。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "あ、うん…\\ちょっと買い物にでも行こうかと。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "そうなの？\\じゃあ、あたいも一緒に行っていい？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "以前のヘスティアとは別人のようだ。\\一体どんな心境の変化なのか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "どうかした？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あ、ううん。\\いいよ、一緒に行こう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "あのさ、悪魔。\\あの…例のサキュバスは、元気？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "モナのことか？\\あいつなら、いつだって元気だよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "そっか。あ、あのさ…あんたが望むなら、\\そのサキュバ…いや、モナ、とも…\\仲良くできるように、頑張ってみるわ。",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…え、誰これ？本当にこれがヘスティアなのか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "何よ、その目は。\\あたいのこと、冷たい女だと思ってたの？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そ、そういうわけじゃないけど。\\まあ、でもそうだよな、うん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake_weak"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あ、あのね、それよりもさ…\\あたいたちが一緒にいる姿って…\\他の人にはどう見えると思う？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "兄妹じゃないか？\\ヘスティアは背が低いし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "おおう。\\急にヘスティアさんの目つきが険しくなりましたよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "…まあ、いいけど。\\そうだ、今度、花火大会に一緒に行かない？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "いいんじゃない。\\モナも同じようなことを言ってたよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あのう、ヘスティアさん…？\\またまた目が怖いんですけど…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "いい…わ。ところで、悪魔はどんな女の子が好き？\\料理の上手な子？知的な子？\\それとも…",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "んー…最近は、スタイルのいい子が…\\って、どうしたんだよ、さっきから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…「最近は」ってことは…\\そうじゃなくてもいいのね。\\それで、悪魔は優しい子が好きなのよね？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いや、俺はスタイルのいい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "悪魔は優しい子が好きなのよね？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "いや、スタイ…すみません、優しい子が好きです！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "でしょ！！\\うん、それならよかった。",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "悪魔が優しい女の子が好きなんだったら、\\あたいも優しくなれるように頑張ろうかなー。\\ふふっ♪",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あ、は、はい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "何よ、その顔は。\\お前にできるのかって、思ってるの？\\ならいいわ、後でギャフンって言わせてやるから。",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "や、優しくなるんじゃなかったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "悪魔にはわからないかしら？\\力尽くで優しい人ですって言わせれば…",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "それって脅迫だろ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…冗談よ。\\そんなこと、しないわ。",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "いや、お前ならやりかねないと…いや、ごめん。\\謝るからさ、そんな怖い目で見るなって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "…とにかく、さっきのは冗談だから。\\それよりも、悪魔。\\ひとつお願いがあるんだけど、いい？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "えーっと…俺にできることなら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そんな無理なお願いじゃないわ。\\あんたにできることなんて、\\あんまりないってのは知ってるから。",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "なんか複雑なんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ふふっ。\\すごく単純なことよ。ね、聞いてくれる？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "難しくないなら…どうぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "うん…\\あのね、あんたがいつか魔王になったら…\\そしたら、いつもあんたの傍にいてもいい？",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "なんだ。そんなの、当たり前じゃん。\\戦いに勝ったらそれでおしまいだなんて、\\俺は思ってないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "shake_weak"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "…そういう意味じゃないんだけど…\\まあ、あんたらしいわね。バーカ。",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "バカで悪かったな！？でもさ、ホントに俺は\\そんな無責任な奴じゃないから。安心しろよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "shake"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "…そっか。\\じゃあ、いつか訪れるその日を楽しみにしてるわ。\\今の約束…絶対忘れないでね。ふふっ♪",
+      "char": "c047_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "48": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

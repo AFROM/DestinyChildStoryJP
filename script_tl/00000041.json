@@ -1,0 +1,172 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg196_f",
+      "bgm": "4",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ハァ、ハァ、ハァ、ハァ…\\ここまで逃げれば、大丈夫だろ…",
+      "background": "bg196_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "102401001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ご主人さま…\\犬から逃げるためにスポットに飛び込むなんて…\\ここは、避難所じゃありませんよ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "voiceid": "102401002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "し、仕方ないだろ！\\あんな凶悪な猛犬がいたら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "102401003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ウ～…ワン！ワン！",
+      "char": "c017_00",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake",
+      "loop_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "102401004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "まってけろ！\\お願いば聞いてくれるまで、逃がさね！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dark",
+      "voiceid": "102401999"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うわあ！？出た！\\なんでここまで追って来れるんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "far",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102401005"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ご主人さまの後について来てしまったみたいですね♥悪魔に同行すれば、悪魔やチャイルド以外でも\\スポットに入れるんですよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102401006"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ううっ…！知らなかった…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry",
+      "voiceid": "102401007"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はいはい、よしよし♥いい子いい子♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102401008"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "クゥゥン…",
+      "char": "c017_00",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "voiceid": "102401009"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "きょ、今日はいつもより、おとなしいみたいだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "102401010"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "うふふっ、そんなに怯える必要なんかないですよ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "102401011"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "モ、モナ、い…いいからその犬、\\ちゃんと抑えててくれよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "102401012"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "はぁい、もちろんです♥\\……いやぁ～ん♥\\言ってるそばから、逃がしちゃいました～！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "after_effect": "shake",
+      "voiceid": "102401013"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ガルル…ワンワン！",
+      "char": "c017_00",
+      "speaker": "same",
+      "pos": "center",
+      "after_effect": "go_to_left_point",
+      "voiceid": "102401014"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "おいっ、今のワザとだろ！\\手より言葉が早かったぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "after_effect": "go_to_left_point",
+      "screen_effect": "shake",
+      "voiceid": "102401015"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

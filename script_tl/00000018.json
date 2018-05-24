@@ -1,0 +1,166 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg086_f",
+      "bgm": "9",
+      "fade_out": "shortest",
+      "wait": "shorter",
+      "fade_in": "shorter"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "なあモナ。\\あの契約者はこれからどうなるんだ？\\今の状態って、彼女が望んだ形なのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "101404012"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "これからどうなるかは知りませんが、\\本人は後悔しているように見えますね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101404013"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ならば、以前の様に<color=ff9900>《本音を話さないよう》</color>気を付けるしかないでしょうね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "101404014"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "以前の様に？\\幸せになれてないんだったら、\\契約した意味ないじゃないか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "101404015"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ですが私たちには何も問題ありません。\\私たちはなにも気にせず、ただ契約を結んで\\チャイルドを生み出せればいいだけです♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101404016"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "…不公平だろ？それでいいのかよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "101404017"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "人間は契約自体を忘れてしまったり、\\夢だと思いこみます。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101404018"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "彼女も、契約が原因で今の状況があるなんて、気が付いてもいないでしょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "101404019"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "それじゃあ、可哀想だよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "101404020"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ハ～イ、ダーリン♥",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "screen_effect": "shake",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "101404021"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "う、うわっ…！\\出てくる時には合図しろって言っただろう？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "shake",
+      "voiceid": "101404022"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そんなことはどうでもいいのよ！\\ね、まさかとは思うけどさ…\\私の本体のこと、同情してるわけ？",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "101404023"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "じゃ、じゃ、じゃ…\\邪悪な悪魔である俺が、くだらない感傷なんか抱くわけがないだろう？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake",
+      "voiceid": "101404024"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ふぅ～ん…そうなんだ。\\私は何か感じちゃったんだけど～？\\ほら、ダーリンってば優しいし♥",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101404025"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ふん…\\うわ、バイトの時間だっ！ああ、もう行かないと！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "101404026",
+      "after_effect": "go_to_left_point"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ふふふっ…\\可愛いダーリン♥",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "101404027"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

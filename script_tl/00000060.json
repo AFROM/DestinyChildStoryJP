@@ -1,0 +1,57 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ヘカテ～、本当のご主人さまはこっちですよ～♥",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201025"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ご、ごめんなさい…！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake",
+      "after_effect": "go_to_right_jump",
+      "voiceid": "103201026"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "あっ、逃げてしまった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "103201027"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "チッ。まったく、お前らが出しゃばるから…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103201028"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ああ、お前の相手なんかしてられない！\\モナ、追うぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "after_effect": "go_to_right_point",
+      "voiceid": "103201029"
+    },
+    "6": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

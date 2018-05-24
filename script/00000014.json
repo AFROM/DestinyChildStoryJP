@@ -1,0 +1,184 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg197_f",
+      "bgm": "9",
+      "fade_out": "shortest",
+      "wait": "shorter",
+      "fade_in": "shorter"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ゼェ～ハァ～…\\何とか、初の契約を結ぶ事ができたっぽいが、\\デメテルが逃げてしまった。状況に変化が無い…\\これって、契約する意味あるの？",
+      "background": "bg197_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "101400001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "何だ、ここは…駅のホーム？？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "101400002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ってここどこなの！デメテルどこいったの！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "101400003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "うふふっ、ご主人さま、焦らずに♥\\ここを見てください。\\なんて書いてあるか、わかります～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101400004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "なん…だと…\\11と3/4出口…！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "confused",
+      "voiceid": "101400005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "しっ、知らなかったっ！\\ホグ〇ーツが実在するなんて…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
+      "voiceid": "101400006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "じゃあ、このまま待ってれば、\\フクロウが入学証明書を…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "voiceid": "101400007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ふふっ、そんな事あるわけないじゃないですか。\\お茶目なご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101400008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ここは繁華街駅11番出口にある<color=ff9900>スポット</color>です♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101400009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "騙された！悪魔の純情もて遊ばれた！\\っていうか、デメテルとスポット、何の関係が！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "screen_effect": "dialog_shake",
+      "voiceid": "101400010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "はい、よくぞ聞いてくださいました♥\\このスポットはですね…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101400011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "人の欲望や邪念が集まりやすい場所の事を言います。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "101400012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "こういった場所のことを、人間たちは\\《パワースポット》や《龍脈》と呼んでいるようですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101400013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "我々はただ単に、<color=ff9900>スポット</color>と呼んでいます♥\\そして、デメテルですけど、\\多分このへんにいると思います～♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "101400014"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "おいおい、また探すの？\\面倒くさい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "101400015"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "まぁまぁ、そう言わずに。\\スポットには人間の魂の一部が集まりますので、\\内部は魂のダンジョンと同じ構造になってます♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101400016"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "はぁ～\\また、ダンジョンに潜らなきゃいけないって事か…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "101400017"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "さぁさぁ、参りましょう！\\お仕事を頑張るご主人さまは、\\と～ってもカッコイイですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "101400018"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

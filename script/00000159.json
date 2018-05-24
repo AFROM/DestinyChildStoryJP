@@ -1,0 +1,101 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg177_f",
+      "bgm": "9",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "あのトサカ野郎ってば、\\どこに行こうとしてるんだ～？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "joy",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "106300001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "どこに行こうと、\\ご主人はダビの手のひらの上なんだぞ～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "victory",
+      "voiceid": "106300002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "それにしてもご主人って、\\なに一人でノコノコ出歩いてるんだろ？\\魔王争奪戦で物騒だっていうのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle",
+      "voiceid": "106300003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "106300004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あ…そっかっ！\\アイツが一人でぶらぶらしてる理由なんて、\\ひとつしかないじゃん！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "victory",
+      "voiceid": "106300005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "少女誘拐！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "joy",
+      "before_effect": "shake_weak",
+      "after_effect": "shake",
+      "voiceid": "106300006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "あのヘンタイ悪魔め～っ！\\最後までついて行ってびっくりさせてやらないと！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "106300007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "くっくっくっ…\\このダビちゃんに追跡されるなんて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "victory",
+      "voiceid": "106300008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "光栄に思え～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "smile",
+      "voiceid": "106300009"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

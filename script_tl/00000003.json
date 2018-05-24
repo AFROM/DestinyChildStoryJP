@@ -1,0 +1,62 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "さすが未来の魔王さま！\\楽勝ですね～♥",
+      "background": "dungeon_bg",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "101103001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "normal",
+      "facial": "unfair",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "101103002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "あらら～？\\突然無口になりましたね～♥\\次は<color=\"ff9900\">フィーバータイム</color>について説明しますね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101103003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">フィーバータイム</color>とは、\\<color=\"fcc800\">ノーマルスキルを無制限</color>に使用できる\\絶好の<color=\"ff9900\">チャンスタイム</color>です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101103004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">7秒の制限時間内</color>で、\\どれだけ<color=\"ff9900\">スキルを連打</color>できるかが勝利への鍵です！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101103005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "本当にそれだけでいいの？\\昔ゲームで鍛えたテクニック、披露するかな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "joy",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "none",
+      "voiceid": "101103006"
+    }
+  }
+}

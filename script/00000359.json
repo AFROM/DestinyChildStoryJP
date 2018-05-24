@@ -1,0 +1,207 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "うーん…おかしいな。\\タナトスとはどういう経緯で契約したんだっけ？\\こんなに記憶に残ってないのは初めてかもだ……",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "契約のとき、居眠りでもしてたってのか…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "うふふっ～きっとそういうことだと思いますよ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "after_effect": "go_to_right_slow"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "モナは、なんでいつもタナトスの話を避けるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "タナトスはとにかく変わってる。\\どうやら自分と死んでくれるっていう\\奇特な相手を探してるらしい。",
+      "background": "dungeon_bg",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "初めて会った時なんかも……",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "死にたい…",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "は～、そうですか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…と答えたら、ちょっと拗ねてしまったようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "我と共にあの世に行かぬか…？",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あの世っていうと少し違うけど、\\俺は魔界が嫌で飛び出してきたんだ。\\家出少年なんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…と答えたら、さらに拗ねたようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "答えろ。",
+      "background": "bg086_f",
+      "bgm": "keep",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "何を？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "我が人生にどんな意味があるのか…",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "命ある限り、人生は永遠に未完成…\\描き続ける絵の如し…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "screen_effect": "dialog_shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "我は何者だ…？",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そうとも、俺は炎の男。\\あきらめの悪い男さ…ハハハ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "……話にならんな、若造。",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "また拗ねてしまったようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "約束は忘れてないだろうな、サキュバスよ。",
+      "background": "dungeon_bg",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "んもう、急かしちゃイヤです♥\\時間が必要なんですってば。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "one_ani": "attack"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

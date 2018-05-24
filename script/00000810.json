@@ -1,0 +1,274 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "なあ、俺のこと信じてくれよ。\\俺、嘘ついたことないし。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "イヤ～！\\ママが変なおじさんとは話しちゃダメって\\言ってたもん！",
+      "char": "c270_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "俺、変なおじさんなの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "sound": "none",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "なんで俺が変なおじさんなんだよ！\\せめてお兄さんと呼べ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "どうしてお兄ちゃんが私のご主人さまなの？\\ピクシーはご主人さまなんていらないもん！\\早くママのところに帰して！",
+      "char": "c270_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そんな言い方するなよ。誘拐犯みたいだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ピクシーは他のチャイルドと同様、\\人間と契約することで得たチャイルドだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "だから、ピクシーにも他のチャイルド達にも\\母親なんているはずがない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…となると、たぶん、\\ピクシーが言う《ママ》ってのは、\\ピクシーの契約者のことだろうな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ピクシー、\\お前達チャイルドには《ママ》なんていないんだ。\\お前が母親だと思ってるのは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "聞きたくない！",
+      "char": "c270_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ママがいないなんて、どうしてそんな嘘つくの！？\\そんなこと、絶対信じないから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "おいっ！どこいくんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ピクシーは背を向けると、\\一瞬で消えて行ってしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ピクシー、ピクシー！",
+      "background": "bg001_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ダビみたいにもっと大きな声で呼びなよっ、\\バカご主人！\\ピクシー！ピクシー！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "わかってるよ…\\ピクシ~！どこにいるんだー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あっ、いた！\\ピクシーだ！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ピクシー？どこに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "捕まえちゃうぞ～",
+      "background": "bg012_f",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "イヤ！来ないで！\\ダビもお兄ちゃんも嫌い！大っ嫌い！！",
+      "char": "c270_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ピクシー…\\頼むから、俺の話を聞いてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "イヤ！\\だってお兄ちゃん、変なことばっかり言うもん！\\ピクシーはママに…",
+      "char": "c270_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ピクシー！\\ピクシーのママはここにいるよ。\\ピクシーを生んだのはご主人なんだから！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…お兄ちゃんが、ママ？",
+      "char": "c270_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ママっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "screen_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "その言い方は抵抗があるけど、\\まあ、間違っちゃいない…か？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ふああああん～！！",
+      "char": "c270_01",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "わっ！な、なんで泣くの？\\…あっ、わかった！\\ご主人がママなのが嫌なんでしょ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ふああああん～！！",
+      "char": "c270_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "当たり？\\そりゃ嫌だよね～。\\こんなウスラトンカチがママなんて。\\ダビもご主人がママだったらグレてるもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "smile"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "うう…俺だって、ダビの母親なんてごめんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "sigh"
+    },
+    "34": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

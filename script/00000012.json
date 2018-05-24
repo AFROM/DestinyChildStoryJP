@@ -1,0 +1,96 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg197_f",
+      "bgm": "9",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "へぇ～\\思ったよりやるじゃん、<color=ff9900>ダ～リン♥</color>",
+      "background": "bg197_f",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101204010"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "だ、だーりん？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "voiceid": "101204011"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "なんか私、あなたのこと気に入っちゃったかも♥",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "101204012"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "だ・か・ら～ふふふっ。\\これで終わりじゃ面白くないわよね♥\\じゃあ、またね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "101204013"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "keep",
+      "speaker": "same",
+      "before_effect": "go_to_right_jump"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あ！おい、待て！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "101204014"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "消えた…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "101204015"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あらら～逃げちゃいましたね。\\ミエミエの虚勢なんか張っちゃって、\\可愛いですね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "101204016"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "そ、それで契約は…\\できたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "101204017"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

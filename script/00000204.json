@@ -1,0 +1,335 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あ～もう！\\リザ、頼むから俺の話を聞いてくれってば！",
+      "background": "bg095_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "hero",
+      "pos": "left",
+      "facial": "unfair",
+      "screen_effect": "dialog_shake",
+      "voiceid": "107603001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "いいえ、これについては聞く耳持ちません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "107603002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ねえ、リザ。何があったの？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "107603003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "はい。モナとダビにも話しておきます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "107603004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "御主人様に危機感がなさすぎたり、感情に流されがちなのは、おそらく他の悪魔の振る舞いを間近で見た事が無いせいです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "107603005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ふむふむ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "107603006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "フレイ様のようにしろとは言いません。\\ですが、どう戦うかぐらいは、参考に見ておいて、\\損はないと思います。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "107603007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "他の悪魔がどれほど悪辣か知ることは、意味があるはずです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "107603008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あ、リザ、それってあれのことだよね！\\ええっと…発明教師っ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "107603009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "反面教師です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "107603010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あう…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "voiceid": "107603011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "それでも半分は正解よ、ダビ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "107603012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "わ～い！モナ姉さまってばナイスフォロー♥",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy",
+      "one_ani": "attack",
+      "voiceid": "107603013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "リザの言うことにも一理ある…かもしれない…\\けど、フレイのいけすかない顔を見るのは、やっぱり気が進まないんだよなぁ…",
+      "char": "none",
+      "speaker": "none",
+      "before_effect": "enter_from_right_fast",
+      "screen_effect": "dark",
+      "voiceid": "107603014"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "画面の前のみなさ～ん！\\お待ちかね、\\今日のニュース速報をお届けしますよ～！",
+      "background": "bg117_f",
+      "bgm": "16",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603015"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "当局が誇る腕利きの報道記者たちが独自の情報網を\\駆使して仕入れた、獲れ立てホヤホヤの情報で～す★",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603016"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "人間界にやってくるなり、祓魔師集団の真っ只中に\\出現してしまったというアンラッキーな悪魔の\\追加情報です！",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603017"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "その時ちょうど祓魔師たちは大掃除をしていたため、どうすることもできず、一方的にやられたのだそうです！",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603018"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "これでやっと、祓魔師にまったく動きがない理由が\\判明しましたね！",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603019"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "厄介きわまりない祓魔師に邪魔される心配がないのにゴロゴロしている魔王候補生はいませんよね～？",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603020"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "祓魔師たちが立ち直って手出ししてくる前に、\\魔王争奪戦を終わらせてしまいましょう～！",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603021"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "というわけで、今日のニュース速報はここまで！\\チャンネルEvilニュースキャスター、A.Iがお届けしました～★",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603022"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それではCMの後、\\チャンネルEvil《夜の世界でこんにちは！》でまた\\お会いしましょう★",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603023"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いよいよ魔王争奪戦は激化し、緊張感は日ごとに\\高まっていきますね！",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603024"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "でも、たまにはぐっすり安眠したくないですか～？\\そんなあなたに、《デビルアラーム》をオススメします！ぜひ使ってみてくださいね～！",
+      "char": "none",
+      "speaker": "newsflash",
+      "voiceid": "107603025"
+    },
+    "27": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "やっぱり、今日は家にいなきゃだな。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "107603026"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "うふふっ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "107603027"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "最弱な上に臆病者…\\救いようがないですね、御主人様。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "107603028"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "し、失礼な！\\お前らは俺の真の強さを知らないだけだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "107603029"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "お前らが祓魔師にやられても、\\骨は拾ってやらないからな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "107603030"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ご主人さまの真の強さ…ですか♥\\確かに知りませんね～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "107603031"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "祓魔師たちがいない今、最弱悪魔のご主人さまに\\とっては一世一代のチャンスです♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "107603032"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "そうそう！\\馬車馬みたいに働いて契約しまくって\\チャイルドを集めろ～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "107603033"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ちくしょ～…\\寄ってたかって俺を追い込む気か…！\\だったら俺にも考えがある！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "107603034"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "家出する！\\もうこの家を出ていってやるー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "after_effect": "go_to_left_point",
+      "voiceid": "107603035"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ちょっ、ご主人！？どこに行くのさ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "107603036"
+    },
+    "39": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal",
+      "char": "none"
+    }
+  }
+}

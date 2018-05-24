@@ -1,0 +1,227 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "モゴモゴ…ぷはぁっ。\\我は、清らかな神より選ばれた唯一の敬虔な信者…\\もう少し丁重に扱っていただけませんか！",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c049_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "あらら、残念ながらあなた、\\悪魔に選ばれちゃったんですよ～",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "まぁ、正確にはあなたが、\\ご主人さまを選んだってことになるんですけどね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "え、俺が選ばれたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そうなるんじゃないですか？\\先に近づいてきたのは\\マアトの契約者でしたからねぇ～♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "なるほど、つまり我は…悪魔の神を自ら選んだ、\\唯一の極めて信心深い信者…\\それなら魔神の復活祭をいたしましょう。\\この街を巻き込んで、盛大に！！",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "復活祭でもなんでも好きにすればいいけどさ…\\もうどっちでもいいよ。\\選ぼうが選ばれようが、あまり関係ないだろうし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "どちらも、運が良かったってことにしときましょ～\\はい、このお話終わり！",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "sigh"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そうはいきません。\\白黒はっきりつけないと真理に辿りつけません。\\しっかり決めていただけませんか、\\選んだのか、選ばれたのか！",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "さっきからよくわからないことばかり…\\あのさ、本当に少し黙っててくれないかな！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "confused"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ひっ、神の使いがお怒りになられた…\\うぅ、役立たずのマアトは、この大したことのない\\人生の幕を下ろす時が来たようです…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "人生の幕を下ろす？\\誰がそんなことしろって言った！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "もう一度そんなこと言ったら、本当に怒るぞ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ぐすっ、我は…安らぎを得るために神を探し求めたのに、神は応えてくれず…あげくの果てに焦り、悪魔にこの身を捧げてしまった…",
+      "background": "bg059_f",
+      "bgm": "16",
+      "char": "c049_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ああ、認めよう。悪魔に出会い我が魂を捧げたが、\\もちろん何も叶えられず、神の元にも戻れず、\\我の心は吹きすさぶ風の音だけが響くだけ…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "吹かれてたゆたう霧のように虚しいこの人生……\\私はどこへ向かえば……",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "また逃げるの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "はぁ、他にもいろんな場所があるのに、\\なんでよりによって悪魔が棲む聖堂にいたのか…\\まあ、その格好に一番似合う場所ではあるけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "でもさぁ、そういうところで修道女のアンタと\\悪魔の俺が出会うっていうのは、\\やっぱちょっと気まずいじゃん？\\もっとちゃんとしたところでさ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "はっ、もしかして！？\\…全能の神が我に試練を与えるために\\この者をつかわしたのでは…\\そのために我を探して舞い降りたと！？",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…舞い降りるって…\\ジャージ姿で駆け込んだだけじゃん？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いや、それより言い合いしてても仕方ないか。\\わがままはこれぐらいにして、さっさとついてこい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "家に帰ろう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "我の心が安らぐ場所は、まだ見つかっていない…",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "けれども、貴方と共に探すのが\\全てを見通す神の思し召しなら、従うのみです！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "30": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

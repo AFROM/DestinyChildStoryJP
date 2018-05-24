@@ -1,0 +1,518 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg100_f",
+      "bgm": "9",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "こ、こんにちはA.Iさん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "よく来たわね。\\セイレーンさんをメジャーデビューさせる気に\\なったの？",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "今日は、その話じゃなくてですね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そう、ならさっさと帰って。\\いまね、と～っても忙しいのよ！！",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ひっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "A.Iさん。実は初音ミクさんが悪魔に狙われている\\という情報を掴んだの。襲撃は今日の放送の時間。\\このままでは大変なことになるわ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_left_slow"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…あなたは？",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "私はモナ。ご主人さまのサポーターよ♥\\そして、この子たちは、リザとダビ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "リザです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ダビだよ～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "joy",
+      "one_ani": "attack"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そう…\\その情報どこから手に入れたのか知らないけど、\\ちょうどいいわ。ちょっとこっちにきて。",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "shorter",
+      "fade_in": "shorter"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "bg100_f",
+      "fade_out": "shorter",
+      "wait": "shorter"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ミクの襲撃の情報はこっちでも掴んでるわ。",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "おい！ならどうして放送を中止しないんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "出来ないのよ！\\いい？ミクの歌を待ち望んでいる視聴者がどれだけいるとおもってるの？\\今放送を中止したら、それこそ暴動がおこるわ。",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "だけど、それにしたってミクの安全が一番だろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "fury"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "チャンネルEvilも備えは怠っていないわ。",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "でも…不安なのね？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そうね…私たちが相手にしてるのは悪魔。\\何が起こるかわからない。\\だからあなた達にお願いがあるの。",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ここでミクの護衛をしてもらえないかしら。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ふむ。私たちに一体どんなメリットが？",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "チャンネルEvilに貸しがつくれるのよ？\\大きなメリットじゃないかしら？",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "うふふ、分かったわ。それで手を打ちましょう。\\大きな貸しを一つ頂きました～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "おい！勝手に話を進めるな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "まぁまぁ、ご主人さまもタダ働きは嫌でしょ？\\セイレーンのこともありますし、この貸しを有効活用しましょう♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "話は決まったわね！\\それじゃーあとは頼んだわよ★",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "はぁ…で、俺たちはどうすればいいんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "スタジオで直接ミクを守ってちょうだい。\\くれぐれも余計なことはしないようにね！",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "shorter",
+      "fade_in": "shorter"
+    },
+    "32": {
+      "type": "curtain",
+      "background": "bg100_f",
+      "fade_out": "shorter",
+      "wait": "shorter"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "そして俺たちは今、\\スタジオで異常がないか警備中だ…",
+      "bgm": "12",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "おい、そこのバイト！このセットをさっさと運べ！",
+      "char": "none",
+      "speaker": "staff"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "はいっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "モデルさん達は、こっちで座って待機しててね。",
+      "char": "none",
+      "speaker": "staff"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "は～い♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "バイト！さっさと茶持って来い！",
+      "char": "none",
+      "speaker": "staff"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ちょっとまて！この扱いの差はなんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "仕方の無いことです。\\御主人様はアルバイトにしか見えませんし。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "わ～い。スタジオってこうなってるんだね！\\あっ！あれが初音ミク？サインもらってこよー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "ダビ、お前は少し大人しくしてろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "うふふ、今日はよろしくお願いします！\\はい、サイン。",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_left_fast"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "うわっ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "うわ～い！ありがとう！大事にするね！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy",
+      "one_ani": "attack"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "あ、ああ、ごめんなさい！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "気にしないでください。\\スタッフさんが頑張ってくれるから、こうして歌う\\ことができるんです。",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "私こそありがとうございます！\\では、準備があるので失礼します。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "ミクさん、マジ天使♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "joy",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "御主人様…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "ん？なんだよ。人が余韻に浸ってるときに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "御主人様、気が付きましたか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "何がだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "どうやら、襲撃が始まったようですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "ま、マジかよ…\\チャンネルEvilの備えも大した事ないじゃん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "初音ミクさんスタンバイしました！\\それでは、放送開始します！3秒前！",
+      "bgm": "18",
+      "char": "none",
+      "speaker": "staff"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "おいおい、どうすんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "2秒前！",
+      "char": "none",
+      "speaker": "staff"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "ご主人さま！モナが時間を稼ぎます！\\任せてください！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "after_effect": "go_to_left_point"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "1秒前！",
+      "char": "none",
+      "speaker": "staff"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "えっ！？\\任せろって、ちょっと待てよ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "スタート！",
+      "char": "none",
+      "speaker": "staff"
+    },
+    "64": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "65": {
+      "type": "curtain",
+      "background": "bg099_f",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "66": {
+      "type": "talk",
+      "dialogue": "初音ミクで～す♥\\私の歌を聞いてください～！",
+      "bgm": "29",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "twinkle",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "67": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "shock"
+    },
+    "68": {
+      "type": "talk",
+      "dialogue": "その時、世界の時間が停止した…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "69": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "ふぅー、やっと見つけたぞ。",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "103202001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103202002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "なあ。\\まだ、俺のチャイルドになることに迷いがあるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103202003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "…はい。",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103202004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "貴方のような下級悪魔のチャイルドになったら、\\教会の配給食しか\\食べさせてもらえないと聞いたんです…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "103202005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ちょ！教会って！？\\そんなすごい事ができる下級悪魔がいるかよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "103202006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そ、それだけじゃありません。\\貴方と契約すると、\\お化け屋敷のバイトをさせられると聞きました！？",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake",
+      "screen_effect": "shake_weak",
+      "voiceid": "103202007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "コスプレかっ？\\あっ、確かにその見た目なら、行けるか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "103202008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "いやいや、悪魔にもプライドがある！\\バイトなんてさせないよ。\\そんなヒドいウソ、誰から聞いたんだよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "103202009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "先ほどフレイ様がおっしゃっていましたが。",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "none",
+      "voiceid": "103202010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…って、そうだった。\\あいつ以外にいないよな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "none",
+      "voiceid": "103202011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そ、そういうわけで、もう少し考えさせてください！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_fast",
+      "one_ani": "attack",
+      "voiceid": "103202012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あらら、またまた逃げてしまいました…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "103202013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "まったく、ハラが立つ！\\フレイさえ余計なこと吹き込まなきゃ、\\スムーズに行ったかもしれないのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "103202014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "そうですね…\\ご主人さまも毎度毎度、\\本当に苦労の連続ですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "103202015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ウカウカしてると\\フレイが先にヘカテーを見つけて、\\自分のチャイルドとして\\取り込んじまうかもしれない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "103202016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はい、それはかなり現実味があるかと。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "103202017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "くそ、アイツの思い通りにさせてたまるか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "103202018"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

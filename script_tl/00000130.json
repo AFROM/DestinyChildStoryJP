@@ -1,0 +1,119 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "発見しました。\\あの少女が<color=ff9900>《ダイアナ》</color>ですね。",
+      "background": "bg196_f",
+      "bgm": "9",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105204001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "あの子か…\\あっ、ヤバイ。なんか緊張してきた！\\どうしようリザ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "105204002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation",
+      "voiceid": "105204003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "知らなかった…悪魔の力を得るって、\\こんなにも<color=ff9900>清々しい気持ち</color>なのね…",
+      "char": "c033_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105204004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あら。こんにちは、ご主人様。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "105204005",
+      "one_ani": "attack"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "は、は、は、初めまして…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "after_effect": "shake",
+      "mvd_post_effect": "none",
+      "voiceid": "105204006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "どうしたんですか？御主人様。\\それでは、まるで<color=ff9900>変質者</color>ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "105204007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "お、お前！誤解を招くようなこというなよ！\\俺は女の子と話すのが苦手なんだよ。\\あ、あ～眩暈が…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "105204008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "本当に面倒な方ですね。\\眩暈は実戦で慣れていくしかありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation",
+      "voiceid": "105204009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "御主人様。ここは男らしく、<color=ff9900>突撃</color>あるのみです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_left_slow",
+      "voiceid": "105204010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "お、おい、やめろって！\\<color=ff9900>心の準備</color>が…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "go_to_left_slow",
+      "voiceid": "105204011"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "は～い★深夜のパートナーA.I登場～★\\この番組は、<color=CC66FF>格闘実況チャンネルEvil</color>が\\提供しております！",
+      "background": "bg099_f",
+      "bgm": "9",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack",
+      "voiceid": "106802001"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "この番組ってさ、いっつも突然始まるよな…\\録画放送でもないみたいだし、\\ニュースキャスターは毎回笑顔で出てくるし。",
+      "background": "bg089_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "106802002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "さすがは<color=ff9900>プロ</color>、番組作りに命を賭けてますよね～。\\ホントに凄いと思います♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "106802003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "毎日同じ事の繰り返しなんて、\\私だったらうんざりして死んでしまいますよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "106802004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "だよな？\\仕事するって簡単じゃないよな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "106802005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あっ、何おもむろに横になっているんですか！\\ご主人さま、真の悪魔とは…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "teach",
+      "voiceid": "106802006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "毎日同じ事の繰り返しだと、\\死んでしまうと言ったよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "106802007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ヒドイ…！\\モナに死ねと言うんですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sad",
+      "voiceid": "106802008",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "distance": "near"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "俺がいつそう言った…\\むしろ、死なないように…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "none",
+      "voiceid": "106802009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "わかった、わかったよ！\\仕事に行くよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "go_to_left_slow",
+      "voiceid": "106802010"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal",
+      "wait": "normal"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal",
+      "char": "none"
+    }
+  }
+}

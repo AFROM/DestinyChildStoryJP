@@ -1,0 +1,494 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "この動画見るんじゃなかったなー…\\腹減ったー。",
+      "background": "bg086_f",
+      "bgm": "14",
+      "char": "c000_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "面白い大食い動画があると聞いて観ていたのだが、\\今はとても後悔している。\\すごく美味しそうだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "悪魔くん、何してるの？",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "大食い動画を観てるんだ。\\すっごく美味しそうに食べてるんだよ。\\あの小さい身体の、一体どこに入るんだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "大食い動画？なあに、それ？",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "料理を食べる姿を映像にした奴だよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ふーん、そういうのもあるのね。\\私も観たいなー。",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ちょっ、近すぎるって…\\もっとあっちに行けよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ほお～…ふう～ん…\\おお～！？",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "おい、見入ってないで、\\あっちに行けってば。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ふむ、なるほどね。\\悪魔くん、これが食べたいの？作ろうか？",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "マジで？\\そういや、お前、お菓子作り得意だもんな。\\うん、お腹も空いたし、頼むよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "うふ、了解～！ちょっと待っててね！\\ね、悪魔くん、やっぱわたしが一番でしょ！？",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "うん、アムブロシア最高！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ちなみに、モナたちはみんな外出中だから。\\近所のカフェの新メニューを試しに行ったよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "だ、大チャンスなのだ…！！\\うん、頑張って作るね！えへへ。",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "いきなり上機嫌だな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ラララ～♪\\悪魔くんはわたしが一番～♪\\わたしが最高～♪",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "loop_ani": "idle"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "かんせーい、なのだ！",
+      "background": "bg089_f",
+      "char": "c068_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "え、もう完成！？\\作り始めて3分も経ってない気が…？\\もしかしてレトルトとか、インスタントとか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "悪魔くーん！早く食べてみて。\\動画で出てた料理を再現してみたのだ！",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "酢豚を…3分で…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "どれどれ…\\おお、見た目は出来立ての酢豚だ。\\うん、とりあえず合格。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "初めて作ったんだ。\\口に合うといいんだけど…",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "すっごい美味しそうだ、これでマズい訳がない！\\いっただきまーす！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "どうかしたの、悪魔くん？\\早く食べてみるのだ。",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あ、う、うん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…なんだろう。\\見た目は完璧なんだけど…\\すっごく甘い匂いがする…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ま、まあ、食べてみればわかるさ。\\いただきます。\\もぐ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "どう？美味しい？",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…！？\\…？？？？？？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "screen_effect": "shake_weak"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "わあ！\\もしかして、言葉も出ないほどに美味しい！？",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "なっ、何だよこれ！\\わ、わけがわからん…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "表面は熱くて、中は冷たい。\\味は…甘くてしょっぱくて酸っぱい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "…これ、どうやって作ったんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ん？動画で見たのを忠実に再現するために、\\冷凍の揚げ物にハチミツと塩とレモン汁を、\\1：1：1の比率で…",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ハチミツと塩とレモン汁ぅ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "それで、電子レンジにいれて、\\3分間チンしたのだ。",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "だから、外は熱くて中は冷たかったのか！\\火が通ってないってことじゃん！\\食べ物で遊んじゃいけません！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "ほらあ、悪魔くん。たくさん食べて？\\それとも、わたしが食べさせてあげよっか？\\えへへ…♪",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "えっ？\\遠慮します。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "そんなに恥ずかしがらなくてもいいのだ～！",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "いや、恥ずかしいんじゃなくて！\\お前も食べてみろって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "えっ、悪魔くんが使ったお箸で、わたしが食べるの？悪魔くんのバカ、恥ずかしい！\\もう、早く食べてよっ！",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "うおっ！？\\むぐっ！んんっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "いーっぱい食べてね？\\4人前ぐらい作ったから！",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "ひっ！？\\も、モナ！モナはどこだ！？\\緊急事態発生…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "…そして、俺は見た。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "窓の外で微笑みながら手を振るモナの姿を。\\あいつ、一部始終をずっと見てたのか！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "もしかして…\\モナの奴、最初からわかってたのか！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "思えば、アムブロシアの契約者は佐藤詩織だ。\\料理が下手過ぎた彼女が願ったのは…そう…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "お菓子作りが上手になりたいと言ったんだ。\\俺が叶えてやったのはそれだけだった！\\すっかり忘れてた！\\アンブロシアは全部の料理が上手な訳じゃない！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "パティシエの腕しかなかったのか…！失敗した！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "悪魔くーん、もういらないの？\\全部食べてね？もっと作るから！",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "えっ！？やっ、やめてくれー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "58": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

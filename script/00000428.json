@@ -1,0 +1,285 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "バカトサカ野郎！ただじゃおかないよ！",
+      "background": "bg086_f",
+      "bgm": "12",
+      "char": "c003_01",
+      "speaker": "same",
+      "screen_effect": "dialog_shake",
+      "pos": "right"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "何だよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ダビの、ダビの…宝物の写真集を捨てたー！！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "cry"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "は？…まさかあのカラフルな\\スケッチブックみたいなやつのことか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ダビが心を込めてつくった宝物なのに！\\モナ姉さまの写真を集めたアルバムなんだよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "angry"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "盗み撮りかよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "このトサカ野郎！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "おい！や、やめろ！あっち行け！やめろって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ダビは爪を立てて俺に向かって走ってきた。\\こんなちっちゃなヤツにこれ程の力があるとは。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "おい！やめろ！痛いってば！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "バカ！アホ！絶対に許さない！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うわっ！誰でもいいから助けてくれ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "きゃっ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ヴァルキリー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "俺の呼びかけに答えたようだ。\\ヴァルキリーは無心にダビを遠くに放り投げた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "こいつの力も普通じゃない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "何よ！みんなひどい！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury",
+      "after_effect": "go_to_right_point"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "はあ、死ぬとこだった…ありがとな、ヴァルキリー。おかげで助かったよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "戦士として当然のことをしたまでだよ、\\悪魔っ子。",
+      "char": "c135_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "悪魔…っ子。誰が子供だよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "考えてみたんだけど、悪魔って名目持ってる人が\\どうして自分のサキュバスにあんな惨めに\\やられるわけ？",
+      "char": "c135_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "惨めって言葉はやめてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "顔のその傷を見て言ってくれないかな。",
+      "char": "c135_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "これはまあ…だ、だから、理由は何だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "簡単だよ。\\アナタはまだ成長しきれてない子供だから。",
+      "char": "c135_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "誰が誰に向かって成長うんぬん言える立場なんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "悪魔っ子。\\今からでも好き嫌いしないで何でも食べて。\\運動もちゃんとしてさ。",
+      "char": "c135_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "そんな体でどうやって魔王になる気？\\はあー。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ここのガキたちは…そろいもそろって\\俺をからかうのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "それじゃ、私は行くわ。\\それと、これからは夜に呼んでくれない？",
+      "char": "c135_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "昼は行動しない主義で…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "心配するな。\\もう二度と呼ぶもんか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

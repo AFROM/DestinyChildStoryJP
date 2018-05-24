@@ -1,0 +1,175 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "bg086_f",
+      "bgm": "8",
+      "fade_out": "shortest",
+      "wait": "shorter",
+      "fade_in": "shorter"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "さあ、ご主人さま。\\今日も張り切って契約者を探しましょ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "聞くところによると秋葉原という所に、欲望が渦巻くとっても良質なスポットがあるそうです。\\試しに行ってみませんか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "秋葉原か…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "悪くないな！\\よし行こう、すぐ行こう！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あらあら、珍しい。\\ご主人さまが、文句のひとつもないなんて。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そんなの当たり前だろ？\\秋葉原といえば、オタクの聖地。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ゲームやアニメはもちろん、\\ディープな趣味まで何でもござれ。\\俺の欲しいものは大体あそこで手に入るぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "なるほど。\\御主人様のような方にとっては、\\夢のような街なのですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "そういうことだ。それじゃさっさと出発するか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "待って！それだったら、ボクも一緒に行くよ。",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うわっ！誰かと思えばエルメスか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そういやお前も好きそうだよな、アキバ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "うん。それに今、<color=ff9900>アトレ秋葉原</color>で期間限定の\\《トリぐるみ》が売ってるんだ。\\それが欲しくてさ。",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "トリぐるみ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "トリのぬいぐるみだよ！",
+      "char": "c036_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あら、ぬいぐるみが欲しくて付いて来るなんて。\\ふふっ、可愛い♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ぬいぐるみ？\\わーい！ダビも欲しい～！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ち、違う…っ！限定モノだから、\\コレクターとして持っておきたいんだ！\\それだけっ！",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "御主人様。そろそろ出発を。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "分かった分かった。\\そんじゃ、とっとと、出発するぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  }
+}

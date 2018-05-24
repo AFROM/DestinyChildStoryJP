@@ -1,0 +1,73 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ご主人さま！\\以前から何度も話してきましたが、\\<color=ff9900>《真の悪魔》</color>はですね！",
+      "background": "bg198_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "teach",
+      "voiceid": "104404001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "はい！\\<color=ff9900>人間の立場なんて考えません！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "104404002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "強い魔王候補生とは！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry",
+      "voiceid": "104404003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>一番効率的に契約を遂行する者です！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "104404004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "また、そうやって…\\受け答えだけは<color=ff9900>優等生</color>ですね！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "teach",
+      "screen_effect": "dialog_shake",
+      "voiceid": "104404005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "どうすりゃいいんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry",
+      "voiceid": "104404006"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

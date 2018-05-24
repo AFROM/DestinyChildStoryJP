@@ -1,0 +1,79 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あいつ…\\占い師、予言者？そんな感じだったな…",
+      "background": "bg200_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "107802001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "何をそんなにぶつぶつ言ってんの？\\早く契約して帰ろうよ！",
+      "bgm": "keep",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "107802002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "初めて会った時も何か変な話をしたな。\\変なアクセサリーを持ってたし？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "107802003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "そうそう！\\それでご主人様に「悪いオーラが出てる」とか言ってたよね！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "victory",
+      "screen_effect": "dialog_shake",
+      "voiceid": "107802004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "なんか、怪しいヤツはあまりチャイルドに\\したくないんだけどな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation",
+      "voiceid": "107802005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ご主人、選り好みできる立場なの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "107802006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "別に選り好みしてるわけじゃない。\\危ないものには近寄らないってだけだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "107802007"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

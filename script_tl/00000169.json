@@ -1,0 +1,73 @@
+{
+  "phase1": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ご主人さま～♥",
+      "background": "bg098_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "106504006"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "今日はもう質問禁止だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "voiceid": "106504007"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あら、何故です？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "106504008"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "何でって聞くのも質問だぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "106504009"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "たいした<color=ff9900>暴君</color>っぷりですね！\\そうですか、それでは残念ながら引き下がります。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "106504010"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "…本当に残念♥\\ご主人さまを困らせるのって面白いのよね～♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "tempt",
+      "voiceid": "106504011"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

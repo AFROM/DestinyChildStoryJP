@@ -1,0 +1,149 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "アレはいったい何だったんだ？",
+      "background": "bg018_f",
+      "bgm": "9",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "お、俺は頭がおかしくなったのか？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "あれが悪魔…？\\一体どんな契約をしてしまったというんだ！？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "覚えてないのか？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "う、うわっ！お前は！？",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そう警戒するな。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "俺の名は《アガメムノン》\\お前の欲望から生まれた存在。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "俺の欲望？",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そうだ。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "意味が分からない…",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "欲望とは、欲する心。それを満たそうと望む願い…",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "お前は何を欲し、何を望んだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "思い出せ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "俺が望んだのは……",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "キャプテン。大変だ！",
+      "background": "bg086_f",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "うわっ！いきなりなんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "犬が危ない！！",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

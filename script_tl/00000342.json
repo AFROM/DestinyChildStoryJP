@@ -1,0 +1,190 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "昨日はこいつが事故を起こして…\\おとといはあいつが事故を起こした…",
+      "background": "bg068_f",
+      "bgm": "24",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《煩悩》</color>にさいなまれているのか、小僧よ。",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "煩悩？\\はは…そうだな、そうかもしれない…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "なぜそなたは、その手に収まらぬ者たちを、\\引き留めておこうとするのだ？",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "引き留める？俺が？\\いや、俺はどっちかっていうと、\\<color=ff9900>放任主義</color>なんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "しようとしていることを、できなくする。\\消えるべき者を、この世に繫ぎ止める…",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "すべて、そなたの業を増やすだけだぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "あー…うん、一理あるな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "じゃあ、俺は罪を犯してるって事か？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "当然だろう。\\お前は悪魔なのだから。",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そうか…そうなんだ…\\それじゃ、俺がこうやって、\\チャイルドの尻拭いをするのも業なのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "それは、そなたが犯した罪による結果だ。",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "うう…じゃあ…俺はどうしたらいいんだ？\\地獄の業火に焼かれないと、\\この苦痛は終わらないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そうだな…\\まずは、万物が行きつく先に行くことだ。",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "その後は、本人の業によって決まる。\\獣になる者もいれば、虫けらになる者もいる…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "虫けら…それは嫌だなあ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "でもなぁ、だからって、\\あいつらを放っとくわけにはいかないよ。\\俺のせいで地獄に行くんだから、\\責任を取ってやらなきゃな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それも、道理か。\\…苦痛から抜け出すのに、苦痛を用いるのでは\\駄目なのだ。",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "shorter"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "hold": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "色即是空空即是色…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "御主人様は、ニルティと話すと、\\様子がおかしくなるのですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あれ、ちょっと待てよ？\\存在するのに存在しない？\\なんだよこれ…適当に書いたんじゃないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はぁ…放っておいたら、\\そのうち即身仏になるって言いだしそうですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}
