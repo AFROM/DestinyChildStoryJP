@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased] ??/05/2018
 ### Added
 - Chapter 1 Fully TL
-- Tutorial (Ony Newcomers) Fully TL
+- Tutorial (Only Newcomers) Fully TL
 
 ### Changed
 - Update files from DC 1.0.8.155516 Ver
