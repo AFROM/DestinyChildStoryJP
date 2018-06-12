@@ -2,342 +2,292 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "パッパラパー♪パパパパッパラパー♪",
-      "background": "bg086_f",
+      "dialogue": "<color=ff1493>エトワール！",
+      "background": "e048_01_f",
       "bgm": "4",
-      "char": "c130_01",
+      "char": "c107_02",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うっ…",
-      "char": "c000_01",
+      "dialogue": "はぁ。",
+      "background": "bg086_f",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ここでティンパニーがドンドンドン。",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "いつも俺をからかい遊んでいるモナが、ああやって\\困っている顔をするのは珍しい…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "う…何だよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "dialogue": "ふん！いい気味だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "弦楽器がジャジャーン、トランペット！パパパーン！",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "しかし！そろそろこの辺でやめておかないとモナは\\きっと怒りを爆発させるだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "う、うるさい…",
+      "dialogue": "おい！\\そこの興奮したヒマワリ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "クライマックス！パーパパーン！",
-      "char": "c130_01",
+      "dialogue": "<color=ff1493>イエッサー！",
+      "char": "c107_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "うるさいってば！何してるんだよ！",
+      "dialogue": "うちの女王様をいじめるのはやめにして、\\呼んでもいないのに来た理由を教えてくれ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…クソ、クソ、クソ、クソ、クソー！このバカ悪魔！アンタのせいで今ひらめいたこと\\忘れちゃったじゃない！",
-      "char": "c130_01",
+      "dialogue": "<color=ff1493>あ、そのことですが…<color=ff1493>",
+      "char": "c107_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
+      "distance": "near"
     },
     "10": {
       "type": "talk",
-      "dialogue": "夜中に何のつもりだ！\\お前のせいで眠れないだろ！",
+      "dialogue": "ひぃ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "やっぱり芸術の「げ」の字も分からない野蛮人は、\\救いようがないわね。",
-      "char": "c130_01",
+      "dialogue": "<color=ff1493>ゴッドファーザーの\\<color=ff1493>チャイルドになれたことは嬉しいのですが、\\<color=ff1493>もう少し刺激が必要です。",
+      "char": "c107_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "夜は創作と芸術の時間！",
-      "char": "keep",
+      "dialogue": "し、刺激…？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "陽が沈み、淡い月の光が輝く頃こそ\\芸術の感覚が研ぎ澄まされる…",
-      "char": "keep",
+      "dialogue": "<color=ff1493>ウィー！\\<color=ff1493>これから我々は、《バンビーナ》を捕まえます！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "はいはい、徹夜して作曲でも指揮でも\\何でもしてくれ。\\でもどうして俺の部屋なんだ？",
+      "dialogue": "ば、ばんび…？\\何を捕まえるって？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "それは…この部屋が一番集中できるからで…\\分からないわ、一体何が不満なのか。",
-      "char": "c130_01",
+      "dialogue": "「女の子」って意味ですよ♥\\つまりナンパですね。\\ご主人さまも彼と一緒に出かけてみては？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "私のおかげで生涯聞けないかもしれない素晴らしい\\音楽をいつでも思う存分聞けるというのに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "感謝されてもされきれない…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "悪いけど俺は野蛮人だからクラシックなんか聞いても眠くなるだけだ。",
+      "dialogue": "ああ、刺激ってそういう…\\だったら一人で…って、\\おい待て、お前ら部屋から押し出すんじゃない！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "それに、俺の部屋にいると集中できるなんて。",
-      "char": "keep",
+      "dialogue": "<color=ff1493>トレビアーン！\\<color=ff1493>女神の様な美しい髪をもつそこの少女！",
+      "background": "bg011_f",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "center"
     },
     "20": {
       "type": "talk",
-      "dialogue": "本当にそうなら、今頃俺は毎日クラシックを\\聴きながら優雅に指揮棒を振ってるだろうよ。",
-      "char": "keep",
+      "dialogue": "うっ…葉っぱが俺の頭に当たってる…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "nonsense"
     },
     "21": {
       "type": "talk",
-      "dialogue": "アンタみたいなちびっ子に、\\音楽の感性が理解できるのか？",
-      "char": "c130_01",
+      "dialogue": "<color=ff1493>その冷たい表情！とってもセクシーです！！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center"
     },
     "22": {
       "type": "talk",
-      "dialogue": "誰に向かってちびっ子だって？",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>緊張されているのですか、バンビーナ…♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near"
     },
     "23": {
       "type": "talk",
-      "dialogue": "アンタは私にこの部屋を渡す義務がある。",
-      "char": "c130_01",
-      "speaker": "same",
+      "dialogue": "うざい…うせろ。",
+      "char": "c048_00",
+      "speaker": "same_full",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "アンタのせいで、人生最高の作品を完成させる\\機会を逃したっていうのに。",
-      "char": "keep",
+      "dialogue": "<color=ff1493>う…うせろだなんて…",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center"
     },
     "25": {
       "type": "talk",
-      "dialogue": "どういう意味だ？",
+      "dialogue": "残念だったな。\\まぁ、お前の姿が見える女が、\\普通の女だと思うか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "idle"
     },
     "26": {
       "type": "talk",
-      "dialogue": "アンタが私の契約者と契約した日、\\素晴らしい音楽がひらめいた。\\幻想のように楽譜が目の前に広がったの。",
-      "char": "c130_01",
+      "dialogue": "<color=ff1493>ジュネ…",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center"
     },
     "27": {
       "type": "talk",
-      "dialogue": "それなのに！その歌を思い出せない！",
-      "char": "keep",
+      "dialogue": "俺にも分かるように話せよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "irritation"
     },
     "28": {
       "type": "talk",
-      "dialogue": "で、俺の部屋で忘れた音楽を思い出そうと？",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>…私には、よ、よく分かりません…",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "center",
+      "loop_ani": "attack"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そうよ。\\この部屋にはきっとアンタの精神が宿っている。\\だから、この部屋で作曲すれば\\きっと感覚を取り戻せるはず。",
-      "char": "c130_01",
+      "dialogue": "お前の姿が見える女性たちはな…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "精神が宿ってるだなんて… 悪魔よりもっと悪魔らしい言い分だな。",
-      "char": "c000_01",
+      "dialogue": "みんな正気じゃなかったり、\\悪魔に関係した恐ろしい女たちってことだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "haah"
     },
     "31": {
       "type": "talk",
-      "dialogue": "もしそのひらめきを取り戻したら、\\その時は部屋を返してくれるんだろう？",
-      "char": "keep",
+      "dialogue": "<color=ff1493>そ、そんなっ！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "center",
+      "before_effect": "shake"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…もちろん！こんな男臭い部屋は私もごめんだよ。",
-      "char": "c130_01",
+      "dialogue": "お前の描いている未来がどんなだか知らないが、\\これが現実だ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "33": {
       "type": "talk",
-      "dialogue": "…はいはい。ところで、なんでお前は自分の作品に満足できないでいるんだ？",
-      "char": "c000_01",
+      "dialogue": "分かったならもう諦め…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "34": {
       "type": "talk",
-      "dialogue": "抜けだらけよ。\\楽譜を見るたびに自分でも呆れるくらい平凡な音楽。どうやってそれに満足しろっていうの？",
-      "char": "c130_01",
+      "dialogue": "あっ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "35": {
       "type": "talk",
-      "dialogue": "私には確かに才能がある。\\その才能を絶対に無駄にはできない。",
-      "char": "keep",
+      "dialogue": "<color=ff1493>そこの、バンビーナ！！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "before_effect": "shake"
     },
     "36": {
       "type": "talk",
-      "dialogue": "私の契約者は自分の才能が何かも分からない、\\間抜けなヤツだけどね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "どけ。",
+      "char": "c142_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "お前の契約者にもその言葉を聞いてほしい。\\間抜けっての以外は。",
+      "dialogue": "こりない奴だな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "38": {
-      "type": "talk",
-      "dialogue": "よし。快く部屋を引き渡してくれたから、\\アンタのために歌をつくってあげよう。",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "いや、別に…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "遠慮するな。きっと気に入るよ。\\我が家の子犬は可愛い子～♪",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "おい…だいぶ予想外の歌な気が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

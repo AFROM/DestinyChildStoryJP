@@ -2,71 +2,245 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "小さいころ、父上の事が大好きでした。",
-      "background": "e048_01_f",
-      "bgm": "24",
-      "char": "c014_00",
-      "speaker": "same_full"
+      "dialogue": "全ては神の意志。\\友よ、君が私たちの主人になったこともやはり\\神の意志だ。",
+      "background": "bg070_f",
+      "bgm": "9",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それは、今も変わりません。\\愛国心と正義感の強い軍人の父上を心の底から尊敬しています。",
-      "bgm": "keep",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "そんなの、悪魔に向かっていうことじゃないぞ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "3": {
       "type": "talk",
-      "dialogue": "だから私が軍人になったのも必然だったのでしょう。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "全ての肉体は滅びを迎えるが、私がこうして新しい命を得るなんて誰が想像しただろうか。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "でも、私には父上のように人を引き付ける魅力も卓越した能力もありませんでした。",
+      "dialogue": "命を失い、残ったものと言えば枯れた小枝のような、みすぼらしい死体だけだった私が！",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "父親の背中を追いかける単なる小娘…",
+      "dialogue": "神の御恩に感謝を…！",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "それでは、誰も付いて来るはずがありません。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "神の話はやめろって！\\聞いただけで吐き気がする…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "でも、今はまだ、それでいい…\\だって私は見つけたのだから…",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "そうだな！\\私に新しい機会を与えてくれた悪魔に栄光を…！",
+      "char": "m200_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "8": {
       "type": "talk",
-      "dialogue": "気高き心を…\\正義とは何かを…\\そして、進むべき道を！",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "うわあっ！何するんだよ！放せ！\\痛い！痛いって！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ゆえに私は求める！正義をなす為の力を！！",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "ハハハ！抱擁でなく胴上げをしてやりたい気分だ！",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "10": {
       "type": "talk",
-      "dialogue": "",
-      "background": "back",
-      "char": "none",
-      "speaker": "none",
-      "mvd": "effect/battle/drive/attribute/wood/drive_set.mvd"
+      "dialogue": "抱きつかれるのも、胴上げも勘弁だよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "11": {
+      "type": "talk",
+      "dialogue": "分かった、分かった。ハハハ…",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ひ弱な悪魔に対して、なんて扱いをするんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ふっ、許してくれ。\\しかし、君に出会えたことは奇跡だな！",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "いや、単なる偶然だろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ここは全く異なる世界だな。",
+      "background": "bg050_f",
+      "bgm": "17",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "私が覚えているものは全て消え、私が手にしていたものだけが残った。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "人間だった頃のお主の名は何といったか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ヘルです。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "gray"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "やはり…お主の名は覚えていない。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "既に死んだ身。\\以前の朽ちた肉体が生き返るわけではありません。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "gray"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "そうか…\\私たちは死んだ者の復活のために内蔵を取り出し死体にお香を入れミイラを作った。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "お主もミイラになったのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はい。遠い昔に干からびてしまいましたが。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "gray"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "空の壺に魂を閉じ込められるとは…\\どれほど苦しんだことか…",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そのお言葉だけでも、身に余る思いでございます。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "gray"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "偉大なるエジプトの名将と聞いていたが…\\存外素朴よな。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "今はお主にも肉体がある。\\新しい機会だ。お主はどんな人生を選ぶつもりだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "許されるのであれば…\\引き続き、使命を全うしたいと思います。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "gray"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ファラオ。\\貴方にこの命を捧げます。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "gray"
+    },
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,286 +2,315 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様？\\何をなさっているのですか？",
-      "background": "bg086_f",
-      "bgm": "31",
-      "char": "c002_01",
+      "dialogue": "シャマシュ、セレーネを見なかったか？",
+      "background": "dungeon_bg",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "normal",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "見てわからないか？",
-      "char": "c000_01",
+      "dialogue": "見てない。",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "さっぱりです。",
-      "char": "c002_01",
+      "dialogue": "そうか。アイツ、またどこ行ったんだ？\\とにかく分かった。見かけたら教えてくれ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "傘をさしてしゃがんでるんだ。",
-      "char": "c000_01",
+      "dialogue": "うん。",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
-      "type": "talk",
-      "dialogue": "それは分かりますが…\\なぜ家の中で傘をさしているのですか？\\まだ屋根に穴は空いていませんが。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "まだ…？\\いつか穴が空くっていうのか？",
-      "char": "c000_01",
+      "dialogue": "ここにいたんだ。",
+      "background": "bg048_f",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "御主人様が傘を集めることが\\好きなのは知っていましたが",
-      "char": "c002_01",
+      "dialogue": "…私を連れて行くの？",
+      "char": "c029_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "傘をさすのも好きだとは知りませんでした。",
-      "char": "keep",
+      "dialogue": "ご主人様が探してるから。",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "今は俺をバカにしてるかもしれないが、\\後で俺の読みに驚くさ。",
-      "char": "c000_01",
+      "dialogue": "適当に戻るわ。",
+      "char": "c029_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "天気予報が雨でしたか？",
-      "char": "c002_01",
+      "dialogue": "意地を張ってないで一緒に行こう。",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "例え台風でも\\家の中で傘をさす必要はなさそうですけど。",
-      "char": "keep",
+      "dialogue": "散歩をしに来ただけよ。\\大げさに言わないで。",
+      "char": "c029_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "まぁまぁ、見てろって。",
-      "char": "c000_01",
+      "dialogue": "ご主人様の命令だから。",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "困りました、私のマニュアルには、\\正気でない悪魔の扱い方は載ってないのですが…",
-      "char": "c002_01",
+      "dialogue": "命令とか規則とか…あなたと話していると\\息が詰まりそうよ。",
+      "char": "c029_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "うっ…！",
-      "char": "keep",
+      "dialogue": "そっちこそ人を怒らせてること、\\分かってないみたいだけど。",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ふふ。",
-      "char": "c000_01",
+      "dialogue": "規則を守らない者は社会に必要ない。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "これは…塩水？\\私に塩水をかけたのですか？",
-      "char": "c002_01",
+      "dialogue": "まるでこの世界には自分しかいないみたいに\\ものを言うのね。あなたみたいな人のために、\\この世界は存在してるわけじゃないわ。",
+      "char": "c029_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "irritation"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "汚らわしい悪魔よ、直ちにここから消え去りなさい！",
-      "char": "c056_01",
+      "dialogue": "それはこっちのセリフ。",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "やめなさい、ジャンヌ！\\御主人様に向かって何を！",
-      "char": "c002_01",
+      "dialogue": "あ！いた！やっと見つけたよ…\\あれ？シャマシュじゃないのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "19": {
       "type": "talk",
-      "dialogue": "塩水を撒き散らすジャンヌから逃げ惑うリザは、\\結局俺の傘に入ってきた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "何だ、俺の話を聞いてセレーネを探してたのか？\\ありがとな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そういえば、前にもこんなことがあったような…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "いや、別に…",
+      "char": "c040_01",
+      "speaker": "same",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "御主人様…\\じっとしてないで、彼女を止めてください。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "ほら、セレーネ。\\鬼ごっこはこのくらいにして、\\そろそろ家に帰ろう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "22": {
       "type": "talk",
-      "dialogue": "嫌だ、冷たくてベトベトしてるのは嫌いなんだ。\\それより、傘があってよかっただろ？",
-      "char": "c000_01",
+      "dialogue": "残念ね。シャマシュさえいなければ\\夜空を思う存分、眺めていられたのに…",
+      "char": "c029_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
-      "type": "talk",
-      "dialogue": "御主人様！",
-      "char": "c002_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "serious"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "はいはい、分かったよ。",
+      "dialogue": "今日はありがとな。おかげでいつもより早く\\セレーネを見つけ出せたよ。",
+      "background": "dungeon_bg",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ジャンヌ、ちょっとこれを見てくれ。",
-      "char": "keep",
+      "dialogue": "やるべきことをしたまで。それはそうと、\\セレーネにはどんな処罰を下すの？",
+      "char": "c040_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そ、それは…！",
-      "char": "c056_01",
+      "dialogue": "またそれか。処罰なんてないよ。\\ちゃんと言い聞かせたから\\当分の間は大人しくしてるだろ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "俺が取り出した本を見たジャンヌは\\驚いたように手を止め、俺を見つめた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…ご主人様は甘すぎる。",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "どうやってそれを…",
-      "char": "c056_01",
+      "dialogue": "仕方ないだろ…\\主人って言っても、他の悪魔みたいに\\自慢できることもないし、",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そりゃ、俺はお前が言う\\《汚らわしい》悪魔じゃないからさ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "何ですか、それ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "《ジャンヌダルク経典》さ。\\どうだ、俺はお前が書いた経典も\\自由に触れるんだぜ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c056_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "効果があったようですね。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "フフフ…感心、感心。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "うわぁぁぁ！",
+      "dialogue": "かと言って他の悪魔がしてるみたいに\\厳しくするのもなんかな…",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "distance": "normal"
     },
-    "36": {
+    "30": {
       "type": "talk",
-      "dialogue": "聖水で浄化できないなら…\\この聖なる炎で悪を全て焼き尽くしてやる！",
-      "char": "c056_01",
+      "dialogue": "ご主人様は…チャイルドたちの主人。",
+      "char": "c040_01",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "distance": "normal"
     },
-    "37": {
+    "31": {
       "type": "talk",
-      "dialogue": "うわっ、落ち着けジャンヌ！\\本気で暴れるんじゃ…うわっ！？",
+      "dialogue": "チャイルドをコントロールして、必要によっては\\処罰できる権限があるのに。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "その権限を…捨てるということ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "怖い言い方だな。権限だなんて…\\みんな一緒に暮らしている…\\家族みたいなもんだろ、俺たち。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "だからオマエもあまり難しく考えすぎるな。\\セレーネにもそうだし、他のヤツらにも…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "家族なら…どんな規則を守れば…",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "もう！理解！配慮！包容力！\\そういうの分からないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "…わ、分かった。おせっかいということか。",
+      "char": "c040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "38": {
       "type": "talk",
-      "dialogue": "光は闇を制す！",
-      "char": "c056_01",
+      "dialogue": "どこかで聞き覚えのある言葉だな…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
     },
     "39": {
       "type": "curtain",

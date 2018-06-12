@@ -2,244 +2,336 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "処容(ショヨウ)は幼い子供の姿をしている。\\いや…姿だけじゃなく、中身もただの子供だ。",
-      "background": "bg086_f",
-      "bgm": "12",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ああ…！あぐうううっ！うあああ！あううっ！",
+      "background": "dungeon_bg",
+      "bgm": "20",
+      "char": "c180_01",
+      "speaker": "same",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "走るよ、隊長！仲良く遊ぼー！ね？ねっ？",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "親の顔が見てみたい…\\と言われる子供ってのはこんなんではなかろうか。\\処容は走って走って、走り続けている最中だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "うぅっ…頭が痛い…\\おい、もう夜中の1時だぞ。\\子供はとっくに寝る時間だろ？",
+      "dialogue": "…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "distance": "normal"
     },
-    "5": {
+    "3": {
       "type": "talk",
-      "dialogue": "え？なんで寝なきゃいけないの？\\そんなの知らないもーん！\\力の限り走り続けるんだー！とりゃ！",
-      "char": "c004_01",
+      "dialogue": "ありえぬ！ああ！こんなことはあってはならぬ！",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "6": {
+    "4": {
       "type": "talk",
-      "dialogue": "くそ、何が魔王候補だ…\\これじゃただの子守りじゃないか。",
+      "dialogue": "…えっと、芝居の練習？\\マンモンさ。ちょっと俺の話聞いてくれる？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ああ！ああああ！",
+      "char": "c180_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal",
-      "facial": "sulky"
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…どうもマンモンとの話は\\諦めたほうが良さそうです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "それにしても、\\これだけ毎日騒がしくしてるっていうのに、\\どうして隣の住人は抗議に来ないんだ？",
-      "char": "keep",
+      "dialogue": "リザもそう思うよな？\\それじゃ、行こうか。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "怒り狂った隣人たちが力を合わせ、\\魔界と抗争を繰り広げ、魔王争奪戦なんか、\\とっとと終わらせてくれりゃいいのに…",
-      "char": "keep",
+      "dialogue": "待つのだ！",
+      "char": "c180_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "うん？話ちゃんと聞こえてたのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "9": {
-      "type": "talk",
-      "dialogue": "うふふ♥\\それはまあ、一種の法則みたいなものですよ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
     "10": {
       "type": "talk",
-      "dialogue": "チャイルドの契約者本人も、チャイルドのことは\\ほとんど気づかないものですから",
-      "char": "c002_01",
+      "dialogue": "理解できぬ！なぜモナさんは\\こんな出来損ないに心を奪われたのか！",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "普通の人間に、わかるはずがありません。",
-      "char": "keep",
+      "dialogue": "プッ。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "12": {
       "type": "talk",
-      "dialogue": "隊長！攻撃だ！とりゃあ！突撃ー！！",
-      "char": "c004_01",
+      "dialogue": "今、笑ったよな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "はぁ…\\結局、この修羅場で大変な思いをするのは\\俺だけってことか。",
+      "dialogue": "いいえ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "正直に言ってくれ…\\どの辺がおかしかった？\\出来損ない？モナが心を奪われた？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "…出来損ない。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "他人事だからって楽しむなよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "haah"
     },
-    "14": {
-      "type": "talk",
-      "dialogue": "仲良くしようよ！一緒に遊ぼう、ねっ？",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "もーうるさい！あっち行ってよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "一緒に遊ぼうよ！コレほしい！？\\チャンバラゴッコしてあげるよ！",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
     "17": {
       "type": "talk",
-      "dialogue": "ちょっと！\\ダビはそんなので喜ぶほど子供じゃないもん！\\アンタと一緒にしないでよ！\\モナ姉さまに言いつけるよ？",
-      "char": "c003_01",
+      "dialogue": "あの日マンモンの契約者が出会ったのが\\モナじゃなくてお前だったら、\\今頃お前がマンモンの愛しの人になってたかもよ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "fury"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "大変な思いをしているのは\\ご主人さまだけじゃないみたいですね♥",
-      "char": "c001_01",
+      "dialogue": "…そんなおぞましいこと言わないでください。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "19": {
       "type": "talk",
-      "dialogue": "はあ…\\ダビが爆発する前に、俺が行って止めないとな…",
+      "dialogue": "ホントだって。マンモンの契約者の頭の中に\\俺の顔が残ってると思うか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あーそーぼー！",
-      "char": "c004_01",
+      "dialogue": "モナのあのキレイなおっ…\\じゃなくて、顔だけが残っているだろう。\\マンモン然り、あいつの契約者然り、\\女に目がなさそうだもんな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "21": {
       "type": "talk",
-      "dialogue": "いい加減にしないと、後悔させてやるんだからね！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "fury"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "チビたち、そのくらいにして、もう寝よう。な？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "突撃！レッツゴー！イェーイ！",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ぐわっ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "あらまぁ。\\おチビちゃんたちの前じゃ形無しですね～♥",
-      "char": "c001_01",
+      "dialogue": "いくら考えても\\我が貴様より何が劣るのかがわからぬ。",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "26": {
+    "22": {
       "type": "talk",
-      "dialogue": "そんなことではメンツが立ちませんし、\\カッコもつきませんね…",
-      "char": "c002_01",
+      "dialogue": "どうすれば…一体どうすれば\\モナさんの心とあの豊満な体を\\我のモノにできるのだ…あぁっ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "えっと…まずは話を進めようか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "えーい！うるさいぞ、出来損ないが！",
+      "char": "c180_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "俺の言うことをちゃんと聞けば、モナと上手く行くように手伝ってやるのになあ…\\それでもそんなこと言っちゃう？残念だな～",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal",
-      "facial": "sigh"
+      "facial": "pretense"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そ、それは本当か？\\だが貴様も、モナさんのことを…",
+      "char": "c180_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "隊長！ご臨終？\\それじゃ、生き返ったらまた遊ぼ！",
-      "char": "c004_01",
+      "dialogue": "違うっ！\\俺は、あんなおっかないお姉さまは好みじゃない！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あぁ…いっそこのまま殺してくれ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "我を騙そうと企てているのではあるまいな？",
+      "char": "c180_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
+      "type": "talk",
+      "dialogue": "そんなことないって。信じろってば。\\俺が責任もっていい感じにしてやるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "おお！なんと心強い言葉！\\礼を言うぞ、召し使いよ。",
+      "char": "c180_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "め、召し使い？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "そうだ、貴様は今から召し使い…\\いや、召し使い1号に昇格だ！\\側近中の側近だぞ、嬉しいだろう。",
+      "char": "c180_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "えっと、その前はなんだったのかな…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ただの愚民…\\小生意気なゴミ虫…",
+      "char": "c180_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "あの、もういいです…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…モナとマンモンをくっつけるだなんて。\\本当に出来るんですか、御主人様？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "な、何がだよ？\\それに、俺は努力する、としか言ってない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "はぁ…どういう手を使ってでも\\マンモンのお金を手に入れて、以前のぐうたらな生活に戻りたいようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そういうところは悪魔らしいですが…\\そう、うまく行くでしょうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "味方がひとりもいないな、俺。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "sigh"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

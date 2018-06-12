@@ -2,444 +2,257 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うぅ…頭痛い…寒い…辛いよぉ…",
+      "dialogue": "ニャン！ホルル！\\どうして私について来るの？",
       "background": "bg086_f",
       "bgm": "4",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "shake_weak",
-      "after_effect": "none"
+      "char": "c274_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "俺、このまま死んじゃうのかなあ…",
+      "dialogue": "もう我慢できない！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "cry",
-      "before_effect": "shake_weak",
-      "after_effect": "none"
+      "screen_effect": "dialog_shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "大袈裟ですね～たかだか40度の熱ですよ？\\ご主人さま…",
-      "char": "c001_01",
+      "dialogue": "おい、いつまでイラついてるつもりだ？",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "たるんでいますね。魔王候補たるもの、この程度で\\音を上げないで下さい。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "none",
-      "after_effect": "none"
+      "dialogue": "ご主人様のお言葉さえなかったら、ホルルはとっくの昔にあの世行きだよ！",
+      "char": "c274_01",
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "雪の降る中、朝から晩まで契約者探しなんて、\\誰だって風邪ひくだろ…！",
-      "char": "c000_01",
+      "dialogue": "あの世ってどの世だ？\\まったく、知能の低いヤツとは話にならないな。",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "つーか、病人にその態度おかしいだろ！？\\サキュバスなら、こういう時ぐらい労わってくれよ！",
-      "char": "keep",
+      "dialogue": "そのくらいにしとけ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dialog_shake"
+      "facial": "sigh"
     },
     "7": {
       "type": "talk",
-      "dialogue": "残念ですがご主人さま、サキュバスは看護師じゃ\\ありませんから♥",
-      "char": "c001_01",
+      "dialogue": "ニャーン！\\子猫ちゃんは一体、どっちの味方？",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "むしろこれを乗り越えて、免疫機能を鍛えて頂きたいですね。",
-      "char": "c002_01",
+      "dialogue": "子猫ちゃんって俺のことか！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "はぁ、もういい。なら、せめて静かにしてくれ…\\こっちはさっさと眠りたいんだ…",
-      "char": "c000_01",
+      "dialogue": "私の味方じゃないなら他のとこに行って！",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "none",
-      "after_effect": "none"
+      "distance": "near"
     },
     "10": {
       "type": "talk",
-      "dialogue": "はいはーいっ！じゃあ、\\ダビが子守歌歌ったげるーっ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "バカは風邪をひかないけれど♪\\バカご主人が風邪ひいたー♪",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "びっくり不思議♪摩訶不思議～♪だからそう、\\これは寿命なのー♪",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "なんて歌だ…\\せめて、もっと静かな歌にしてくれよ…",
+      "dialogue": "他のとこって…ここは俺の家だぞ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "center",
       "distance": "near",
       "facial": "serious",
-      "before_effect": "none",
-      "after_effect": "none"
+      "screen_effect": "dialog_shake"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あら？ご主人さま、どうして外にいるのかしら～？\\あ、まさかモナのお迎えに？",
+      "background": "bg095_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そういうことに…しておいてくれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "14": {
       "type": "talk",
-      "dialogue": "たとえば、ご主人さまが雪山で会った子の歌なら、\\よく眠れそうですか？",
+      "dialogue": "追い出されたんですね…\\ほんと、情けないご主人様。",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "pretense",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "irritation"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ん？ああ、そうだな。\\あの子の歌なら、気持ちよく寝られそうだ。",
-      "char": "c000_01",
+      "dialogue": "自分の家から追い出される主人だなんて…\\今日こそ決着をつけましょう。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right",
+      "facial": "sulky"
     },
     "16": {
       "type": "talk",
-      "dialogue": "呼びましたか？",
-      "char": "c359_01",
+      "dialogue": "まずは御主人様の味方になってくれるチャイルドを全て招集して…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack",
-      "sound": "se_summon",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "きゅ～！",
-      "char": "m253_01",
+      "dialogue": "寄ってたかってバストとホルスをリンチするのか！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "うわっ！？ホ、ホントに来た！？\\ユキネも！",
-      "char": "c000_01",
+      "dialogue": "違います。\\それは、あのチャイルドたちには逆効果です。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right",
+      "facial": "irritation"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うわ～なにこの小さいの！\\可愛い～！！",
-      "char": "c003_01",
+      "dialogue": "主人とチャイルドの立場を明らかにするのです。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "irritation"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ふふ、久しぶりですね。\\来てしまいました。ユキネもご挨拶して？",
-      "char": "c359_01",
+      "dialogue": "主人の立場を見せつけてどうする？\\そんなことしなくても、主人は俺だぞ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "きゅきゅ～！",
-      "char": "m253_01",
+      "dialogue": "そうでしょうか？\\このままでは、そのうち立場が逆転しますよ。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "shake",
-      "after_effect": "none"
+      "pos": "right",
+      "facial": "pretense"
     },
     "22": {
       "type": "talk",
-      "dialogue": "戸締りはしっかりしておいたはず。\\一体どうやって？",
-      "char": "c002_01",
+      "dialogue": "遠からずチャイルドが主人となり、主人がチャイルドとなる奇跡が起こるかもしれません。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "pretense"
     },
     "23": {
       "type": "talk",
-      "dialogue": "まあまあ、細かいことはいいから♥\\せっかくだし、歌を聞かせてもらえないかしら？",
-      "char": "c001_01",
+      "dialogue": "奇跡！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "私たちのご主人さまは、ぐっすり眠れるような\\子守歌が聞きたいらしいの♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "え、子守歌ですか…？",
-      "char": "c359_01",
+      "dialogue": "いつもいつもケンカばかりだな。",
+      "background": "dungeon_bg",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "shake_weak",
-      "after_effect": "none"
+      "distance": "near"
     },
     "26": {
       "type": "talk",
-      "dialogue": "お…おい。\\それじゃまるで、俺が子供みたいじゃないか…",
-      "char": "c000_01",
+      "dialogue": "ニャン…",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "でも、ダビも聞いてみたいなー♪\\ご主人が褒めてた歌！",
-      "char": "c003_01",
+      "dialogue": "おっと、また怒ってるのか？女王様！\\そんなに怒ってばかりいるとシワが増えるぞ。",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "分かりました。\\それでは、歌わせて頂きますね。",
-      "char": "c359_01",
+      "dialogue": "わざわざ《女王様》と呼ぶな！この無礼者めが。\\貴様の意地の悪さは世界一だな。",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "before_effect": "shake"
     },
     "29": {
       "type": "talk",
-      "dialogue": "<b>～♪</b>",
-      "bgm": "17",
-      "char": "keep",
+      "dialogue": "そうだよ！ご主人様は女王じゃなくてファラオだよ！バカホルル…",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "歌が流れる…\\それはとても優しくて、\\包み込まれていくような歌声。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "毎日、人が嫌がることばかりして！\\ホルルは初めて会った時からダメ男だったんだから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "31": {
       "type": "talk",
-      "dialogue": "目をつむり…\\ウトウトとまどろんでしまいそうになる…",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "ハッハッハッ！\\悲しいな。ここには俺の味方はいないのか？",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…ぐう。",
-      "char": "c000_01",
+      "dialogue": "当たり前でしょ！\\私はずーっとご主人様の味方だもん！\\バカホルルになんて邪魔させないんだから！",
+      "char": "c274_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "none",
-      "after_effect": "none"
+      "distance": "near"
     },
     "33": {
-      "type": "talk",
-      "dialogue": "すごい。３秒で寝ちゃった…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "shock",
-      "before_effect": "none",
-      "after_effect": "none"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ええ、本当に…\\見てください、ほっぺたを抓っても起きませんよ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "素晴らしい威力ですね。\\ダンジョン攻略に役立ちそうです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "えっと、きっと元々疲れていただけなのでは\\ないでしょうか…？",
-      "char": "c359_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ふふっ、とっても気持ちよさそうに寝てるわね。\\ご主人さま♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ご主人さまに代わってお礼を言わせて頂戴。\\あなた、お名前は？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "そうですね…《雪》と呼んでください。",
-      "char": "c359_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

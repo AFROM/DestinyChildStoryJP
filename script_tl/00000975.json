@@ -1,12 +1,34 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">最大レベル</color>が上がりました。\\おめでとうございます♥",
+      "dialogue": "My master, are you okay?",
       "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none",
-      "one_ani": "attack"
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "teach",
+      "screen_effect": "dialog_shake",
+      "voiceid": "900201011"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "Please, resist!\\We should run away from here!",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "teach",
+      "voiceid": "900201012"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "Mona has a point, we should hurry!\\I await your instructions!",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "900201013"
     }
   }
 }

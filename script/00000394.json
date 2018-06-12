@@ -2,291 +2,380 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔さん！悪魔さん！\\新しい人形、買ってくれますよね！？ね！？",
-      "background": "bg070_f",
-      "bgm": "14",
-      "char": "c106_01",
+      "dialogue": "家にいないで外で仕事して来いとか…\\モナの奴、母親みたいなこと言いやがる…",
+      "background": "bg015_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "far"
+      "facial": "idle",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…朝から元気だな。",
-      "char": "c000_01",
+      "dialogue": "契約者なんて、どこにでもいるけど…\\やっぱり学校が一番かな。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "買って！買って！サル！アウストラロピテクス！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "きゃああああ！？",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "悪口やめろ。",
+      "dialogue": "ななな何だいきなり？\\ど、どこからか悲鳴が…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ホモサピエンス！！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "まるで魂をとられるかのような、\\そんな絶望を感じさせる悲鳴だった。\\…調理室の方かな？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "もう騙されないぞ…どうせ、それも悪口だろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "mvd": "ux/talk/efx_script_angry_set.mvd",
-      "mvd_pos": "left_top"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…悪魔さんってバカですね。",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "どこにいるの！？どこ行っちゃったの！？\\もうヤダぁ！",
+      "background": "bg014_f",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "バカ！バカ！",
-      "char": "keep",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "耳慣れた声だ。そう思いつつ調理室の扉を\\開けると、アムブロシアの契約者、\\佐藤詩織(さとうしおり)がいた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "くっ…知らなくても、\\検索したら全部出てくるんだよ！\\ホ…モサピエン…スとは…ん？悪口じゃ、ない？",
+      "dialogue": "あの…\\調理台の上で何してるの？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
       "facial": "confused"
     },
     "10": {
       "type": "talk",
-      "dialogue": "やっぱりサル！やっぱりサル！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "あっ！き、きみは！\\ちょうどよかったのだ！\\あいつが出たのよ！あの邪悪な奴が！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "うっ…今度は何も言い返せない…",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "それ、俺のこと？\\見るなりその扱いはひどくない？",
+      "char": "none",
+      "speaker": "none",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dark"
     },
     "12": {
       "type": "talk",
-      "dialogue": "それで、買ってくれるんですよね？人形。",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "何言ってるのよっ！きみのことじゃなくて！\\絶対この辺にいるの！どっかに隠れちゃったのだ！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "まあ、安ければな。\\けど、この近くに人形屋なんてないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "隠れるような場所はないけど…\\って言うか、ちょっと前、\\俺が思ったことに対して言葉を返してなかった？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ありますよ！\\とっても近くに！",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "ねえ、じっとしていないで、\\どうにかするのだ！男でしょ！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…そんなとこあったか？\\で、どんな人形が欲しいんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "まあな、こう見えても俺だって男だ。\\何に怯えてるのかわからないけど、\\邪悪な存在なんてちょろいちょろい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "すっごく高性能なんです！\\動くし言葉までしゃべるんですよ！？",
-      "char": "c106_01",
+      "dialogue": "…でもなあ、面倒だから帰ろうかな。",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "left",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…ワトソンのことか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "！？\\きみさ、心の中でなんかやっつける的なこと、\\考えてなかった？なのに放っておくつもり？",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ワタシ？ワタシ？",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "やっぱり心を読んでたな！？\\お前、超能力者なの？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ぶっぶー！もっと高性能です！\\あったかくて、サイズは1分の1！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "ううん。\\きみは、全部顔に出るのだ。",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "サイズが1分の1って、絶対高いヤツだろ…\\却下！",
+      "dialogue": "えっ！？\\俺のポーカーフェイスは、\\その程度だったのか…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake_weak",
-      "facial": "fury"
+      "distance": "normal",
+      "facial": "confused"
     },
     "21": {
       "type": "talk",
-      "dialogue": "高くなんてないです！\\お金で買えないだけ！",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "そんなことより！\\早くどうにかしてよ！お願いだから！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お金で買えないって、ますます無理だろ…",
+      "dialogue": "何かお願いする時は、\\土下座して頼むもんじゃない？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "無理じゃありません！\\悪魔さんの気持ち次第ですから！",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "う…っ！\\平に～…平に～！\\ご容赦くださいませ～！！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "気持ちでどうにかなるなら\\世の中、誰も困らないっての。",
+      "dialogue": "じょ、冗談だって…！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…うう、やっぱりバカです。\\悪魔さんの勘さえよければ、すぐに手に入るのに…",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "くっ…詩織の奴、\\本当に困ってるみたいだな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
       "type": "talk",
-      "dialogue": "バカって言うな！",
+      "dialogue": "それじゃ、ふざけるのはこれくらいにするか。\\一体どうしたんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…そもそも、そんなでかい人形どこにあるんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "dialogue": "嘘でしょ！？\\土下座までしたのに、ふざけてただけ！？\\まあいいや、とにかく…\\奴が現れたの！大ピンチなのだ！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "…バカ！鈍感！サル！",
-      "char": "c106_01",
+      "dialogue": "奴？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "one_ani": "attack"
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "おい、本音が出てるぞ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "わたしの天敵！ううん、全人類の天敵！\\あっ、あそこ！いたああっ！\\いやああっ！！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "shake"
     },
     "30": {
       "type": "talk",
-      "dialogue": "あら～楽しそうですね～♥\\一体、何のお話ですか～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "dialogue": "目に涙を浮かべて座り込むなんて、\\一体何を見たんだ？\\見渡しても、俺の目には何も見えない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "31": {
       "type": "talk",
-      "dialogue": "メーデイアが人形を買ってくれってうるさいんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "どんな人形なんですか～？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "すぐ近くにある、\\高性能で1分の1サイズの人形らしい。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "金では買えないけど、\\俺の気持ち次第で手に入るとか何とか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "あらあら…\\メーデイア、ご主人さまには、\\はっきり言った方がいいんじゃない～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "pretense"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "無理です！気づかない方がバカなんです！\\この、鈍感サル！",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far",
-      "after_effect": "go_to_right_point"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "だから、俺はサルじゃないっての。\\モナ、分かったなら教えてくれよ。",
+      "dialogue": "まさかお前…\\この世のモノじゃない何かを見る能力があるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "違うよ！怖いこと言わないでよ！\\これあげるから、早く片付けて！\\わたしには…無理…！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "何だこれ？テニスのラケット？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "取っ手のボタンを押して振り回すと、\\電流が流れるから。\\気を付けてね、奴は…飛べるから。",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "電気ラケット？\\あ…ああ、なるほど！これ、虫取りラケットか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "なんだ、たかが虫ぐらいで、\\あんな悲鳴を上げてたのか？\\飛ぶ虫なら、ハエとか蚊だろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ま、適当に振り回して捕まえてやるから。\\そこから下りて来なよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "38": {
       "type": "talk",
-      "dialogue": "うふふ、それは自分で気づいた方がいいですよ～♥\\ご主人さま♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "smile"
+      "dialogue": "きみ…何か勘違いしてない？\\ハエとか蚊だったら、わたしにだって退治できるよ。奴は…奴は…",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "39": {
+      "type": "talk",
+      "dialogue": "また怯えた顔して…奴が出たのか？\\どこだ！このラケットで一撃必…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "そして俺は見た。\\親指よりも巨大な「奴」を。\\普段は飛ばないが…\\飛ぶとさらに恐ろしい「奴」の姿を。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "きゃああああっ！\\こっちにくるうううっ！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "詩織だけじゃなく、\\奴と遭遇した誰もが悲鳴を上げるだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "それが俺に向かってきていた。\\あの独特な黒光りのボディで、正面から飛んでくる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "う、うわあぁぁぁーーーッ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "screen_effect": "none"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "ひいいぃ…っ！",
+      "char": "c068_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

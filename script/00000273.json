@@ -2,221 +2,275 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "そこまでだ！さぁ、噂話を止めるためにも\\今日以降屋根に上るのはやめてもらおうか！",
-      "background": "bg086_f",
-      "bgm": "26",
-      "char": "c000_01",
+      "dialogue": "まだ痛むのか？\\確か…片頭痛、と言ったか。",
+      "background": "bg056_f",
+      "bgm": "9",
+      "char": "c050_02",
       "speaker": "same",
-      "facial": "fury",
       "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あら、禁止令が出ちゃいましたわ。",
-      "char": "c029_01",
+      "dialogue": "はい。\\どのようになろうと、状態は変わりません。\\たとえチャイルドになっても、これだけは。",
+      "char": "c013_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そりゃ、原因がわかれば止めるだろ…\\いいから早く家の中に入りなさい。",
-      "char": "c000_01",
+      "dialogue": "…頭痛から解放されたことなどありません。\\頭痛のない《私》を想像できなかったからかも\\しれません。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そうおっしゃらず、\\ご主人様もご一緒にいかがです？\\気持ちいいですよ。",
-      "char": "c029_01",
+      "dialogue": "違う。\\お前の問題はそうではなく…",
+      "char": "c050_02",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "悪いけど、俺は誰かさんみたいに\\夜行性じゃないんだ。",
-      "char": "c000_01",
+      "dialogue": "では…何だというのです？",
+      "char": "c013_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "あら？その尻尾はネコの尻尾じゃありませんこと？\\ネコといえば夜行性ですわよね？",
-      "char": "c029_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "これは、柄だけ。\\柄だけネコ。",
+      "dialogue": "うわ…",
+      "background": "bg089_f",
+      "bgm": "31",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "serious"
     },
     "8": {
       "type": "talk",
-      "dialogue": "まあ、残念。ネコの尻尾を持ったご主人様なら\\夜に惹かれるわたくしの気持ちを\\わかってくださると思ったのに。",
-      "char": "c029_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "わたくしの契約者を理解してくださったように。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…俺は理解したって覚えはないよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ご謙遜を。契約者の心を理解せずして、\\契約がスムーズに進むとは思えません。",
-      "char": "c029_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "スムーズ？夜な夜な泣きじゃくる女の子の話を\\時にウトウトしながら相槌打つこと1週間…\\それがスムーズ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "そんな大変なことを、ご主人様は行い、\\気持ちに寄り添ってくださいました。\\そして契約者が心を開いた…\\わたくしがその証拠です。",
-      "char": "c029_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "おいおい。\\俺のことを過大評価するのはやめろよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "もっと自信を持ってください。\\いわば、わたくしは、ご主人様が契約者のことを\\想って生まれた作品なんですよ。",
-      "char": "c029_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "夜の闇を怖がっていた人間から、\\夜の闇を照らすチャイルドを生み出した。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ご主人様じゃなければ、こんなことは絶対\\成し遂げられません。\\お優しい、あなたでなければ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "俺のことをポジティブにとらえてくれるのは\\ありがたいけど…全てのチャイルドがそうやって\\うまくいったわけじゃないから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "とにかく！外には出ないように。\\あと、たまに屋根にいないだろ！\\いったいどこに出かけてるんだ！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あら、その口調。まるで年頃の娘を心配して、\\小言を言うお父さんみたいですね。",
-      "char": "c029_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ご主人様の気持ちを言い当ててみました。\\わたくしもなかなかのものでしょう？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "はいはい、ありがとう。それじゃこれからは\\家で大人しくしてくれるね。我が娘よ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "それもいいですが…やはり年頃の娘に\\パパのお小言は気に入らないものです。",
-      "char": "c029_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "おい、セレーネ！\\どこ行くんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "screen_effect": "dialog_shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "窓からひらりと出て行ったセレーネは\\微かな笑い声だけを残して夜空の\\向こうに飛んで行ってしまった。",
+      "dialogue": "意外な客だった。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "26": {
+    "9": {
       "type": "talk",
-      "dialogue": "まったく、\\年頃ってほどの若さでもないだろうに…",
+      "dialogue": "ごきげんよう、旦那様。",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "こいつはオードのサポーターをしてるアルテミス。\\ちゃんと話すのは初めてだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あ、あ、アルテミス…お前が来るなんて珍しいな。\\戦いに来た訳じゃ…なさそうだし。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "confused"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "…オード様から\\あなたが私の役に立つだろう、と言われたのです。",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "俺がお前の役に…？\\え、何を期待されてんの、俺？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "confused"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "私にもわかりません。\\私はただ、\\オード様の言いつけ通りにしているだけです。",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "…そっか。じゃあ、まずは話を聞くよ。\\役に立てるかは、それからだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "オード様がおっしゃるには、あなたなら…\\私の頭痛を治す事が出来る、と。",
+      "background": "bg086_f",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "どうやってかは…わかりかねますが。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うん、俺もわかんないや。\\あいつ、俺に何ができると思って\\お前を寄こしたんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "それは建前でー\\ご主人を暗殺するために送りこまれた\\刺客なんじゃないのー？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ホントは、ご主人が寝てる時に…グサッ！\\ってやるんでしょ！でしょ？でしょ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "このクソガキ！お前は黙ってろっての！\\ったく、1日1回は喧嘩を売ってきやがる…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "御主人様。\\また机の引き出しにゴミを入れましたね？\\何度も申しあげてますが、机はゴミ箱では…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はっ！？いや、それゴミじゃないから！\\確認も取らずにビリビリに破くとかありえない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あーもう…\\アルテミス、悪いけど、とりあえず入って…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "なになに？新しいサポーター？\\また増やすなんて、ご主人ってほんとバカだね！\\わけわかんない！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
     },
     "27": {
+      "type": "talk",
+      "dialogue": "来たって、もう入れる場所もないよ？\\あ、そうだ！ご主人のベッドを捨てれば…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ナチュラルに俺の物を捨てんな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "まぁ！新人さんですか～？\\って、あらあら、どこかで見た顔ね…♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "新人じゃないし！よく見ろよ、チャイルドだろ！\\オードがまた何か試そうとしてんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "門前払いする訳にもいかないだろ？\\だから、とりあえず中に…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "おい！俺のベッドを捨てんなっていってるだろ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "normal",
+      "facial": "shock",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…\\…うるさい家ですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "35": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

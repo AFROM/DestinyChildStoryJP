@@ -2,515 +2,346 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔さん、少々よろしいですか。",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c101_01",
+      "dialogue": "うわあ…",
+      "background": "dungeon_bg",
+      "bgm": "19",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ソファでぐっすり寝つこうとした直前、\\声をかけられた。\\俺の安眠を返して欲しい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…紙くずだらけですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "nonsense"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何なんだよ一体…？\\俺を起こした罰として、\\手を上げて反省してもらおうか。",
+      "dialogue": "紙くずって…さすがに酷くないか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うっ…わ、わかりました…",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake_weak"
+      "dialogue": "リザは呆れたように、\\部屋を埋め尽くしているラブレターを見渡した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いや、冗談のつもりだったんだけど…\\本当にシュリンクスは言う通り、\\手を上げてじっとしてた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "とりあえず、このラブレターの主を…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "6": {
       "type": "talk",
-      "dialogue": "冗談だよ…真に受けちゃうタイプなんだね、お前。",
-      "char": "c000_01",
+      "dialogue": "呼んだかしら、坊や。",
+      "char": "c065_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal",
-      "facial": "smile"
+      "facial": "idle"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…あなた、優しくないです。\\やっぱり悪魔ですね…",
-      "char": "c101_01",
+      "dialogue": "いや、ちょうど呼ぼうとしてたとこ。\\さすがだな、このラブレター。\\お前の契約者が見たら、喜ぶんじゃないか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "8": {
       "type": "talk",
-      "dialogue": "警戒されていると言った方が正しいかな？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どうだっていいわ。\\契約者は契約者。\\あたしはあたしだもの。",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "9": {
       "type": "talk",
-      "dialogue": "何というか、俺はやたらシュリンクスに\\嫌われてる気がする。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "10": {
-      "type": "curtain",
-      "background": "bg089_f",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "…それはいいとして、よく来てくれたわね。\\このゴミの量に、参ってたところなの。",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "idle"
     },
     "11": {
       "type": "talk",
-      "dialogue": "やはり、悪魔は悪い存在なんですね…\\もしわたしが悪魔に生まれたと思うと、\\ゾッとしてしまいます…",
-      "char": "c101_01",
+      "dialogue": "おいおい、お前までゴミ扱いかよ…\\あんなに愛されたがってたのに、\\愛されたらポイッか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "12": {
       "type": "talk",
-      "dialogue": "本気で怒っているようだ。\\よっぽど嫌われているらしい…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それはあたしの契約者の話でしょ？",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "13": {
       "type": "talk",
-      "dialogue": "…もうわたしは、あなたを信じません。\\いじめとは、心に悪魔が宿ることで\\生じるものですからね。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "おいおい、なんでも悪魔のせいにしないでくれよ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "だいたい、どうして俺が\\そんなに嫌われなきゃいけないんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "それはもちろん、あなたが悪魔だからです。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "でも、モナのことは嫌いじゃないんだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "はい、あの方は悪魔ではありませんからね。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "まあ、モナはサキュバスだから、違うけどさ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "悪魔もサキュバスも似たようなもんじゃないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "いいえ、悪魔はすべての悪の根源です。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "あなたがいるから、いじめ、ケンカ、犯罪、内乱、\\戦争、核問題が起こります。\\やさしく平和な世界が訪れません。",
+      "dialogue": "何度も言わせないで。あたしには関係ないわ。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "idle",
+      "one_ani": "attack"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "そう言うなよ。\\…しかし、ホントにいっぱいあるよな。\\全部読むの、大変だったろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ふふ、まさか。読むわけないでしょ？",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はあ？\\それなのに捨てるつもりなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ええ、どうせ「愛してる」だの「美しい」だの、\\薄っぺらい、お決まりの言葉が連ねられてるだけだもの。",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "お前な…\\たとえそうだとしても、もらったからには読めよ。\\片付けるのはそれからだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "嫌よ。\\時間の無駄でしょ？",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…リザ、読み上げてやってくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "かしこまりました。\\…ですが、まさか、ここにある手紙を、\\全て読め…とはおっしゃいませんよね？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
     },
     "23": {
       "type": "talk",
-      "dialogue": "で、出た～すべての悪の根源は悪魔説。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "いいから早く。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
     },
     "24": {
       "type": "talk",
-      "dialogue": "じゃあ逆に、\\すべての善の源は天使とでも言うのかよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "いいえ、人は生まれながらにして善の存在です。\\悪人になるのは、悪魔の誘惑があるからです。",
-      "char": "c101_01",
+      "dialogue": "…はあ。\\「初めまして。これまで、あなたを見守って…」",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "わ～完全に言い負かされちまったよ。\\はいはい、悪魔は悪いヤツです！\\ごめんなさいね！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "before_effect": "shake_weak"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "当然です。\\罪を省みなさい、悪魔さん。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "生まれてきてすいません。その罪って、\\お前に懺悔でもすればいいわけ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
       "distance": "normal",
       "facial": "pretense"
     },
+    "25": {
+      "type": "talk",
+      "dialogue": "…やめて。\\どういうつもりなの、坊や。",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "それはこっちのセリフだ。\\お前こそどういうつもりなんだ？\\お前にラブレターを出したやつらの気持ち、\\少しは考えたことあるのかよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "どうしてあたしがそんなこと考えなきゃいけないの？相手が勝手に書いただけでしょ？",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "なら、その言葉、\\手紙を寄越したやつらに直接言ってみろよ。\\「手紙なんていらない。\\こんな無駄なこと、二度とするな」…ってな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
+    },
     "29": {
       "type": "talk",
-      "dialogue": "いいえ、絶対に許されません。\\悪魔のあなたは、永遠に反省してください。",
-      "char": "c101_01",
+      "dialogue": "それは…",
+      "char": "c065_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ええ…何も悪いことしてないのに\\一生反省してなきゃいけないのか？",
+      "dialogue": "できないんだろ？\\嫌われるのが怖いから。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "near",
+      "facial": "angry"
     },
     "31": {
       "type": "talk",
-      "dialogue": "はい、あなたが悪魔だから悪いんです。\\この悪魔っ！",
-      "char": "c101_01",
+      "dialogue": "そ、そんなわけ…",
+      "char": "c065_01",
       "speaker": "same",
       "pos": "right",
-      "screen_effect": "dialog_shake"
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ダメだこりゃ。\\こいつ、単に俺が気に入らないだけだな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お前は自分の契約者が情けないって言ってたけど、\\俺はそうは思わない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
     },
     "33": {
       "type": "talk",
-      "dialogue": "わたしは、あなたが嫌いです。",
-      "char": "c101_01",
+      "dialogue": "自分に向けられた愛情を弄ぶようなやつなんかより、ずっとマシだからな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
     },
     "34": {
       "type": "talk",
-      "dialogue": "ズバッと言われた！ハッキリ言われた！\\ぐ…さすがに傷つくな～",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c065_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal",
-      "facial": "confused"
+      "facial": "idle"
     },
     "35": {
       "type": "talk",
-      "dialogue": "傷？\\…悪魔なのに、心に痛みがあるんですか…？",
-      "char": "c101_01",
+      "dialogue": "帰ろう、リザ。\\こいつが手紙を全部読み終わるまで、\\まだまだかかるだろうからな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal",
-      "before_effect": "shake_weak"
+      "facial": "fury"
     },
     "36": {
       "type": "talk",
-      "dialogue": "悪魔の心が傷つくなんて、\\思いもよりませんでした…\\ごめんなさい、悪魔さん…",
-      "char": "keep",
+      "dialogue": "…また、悪魔らしくないことを。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "serious"
     },
     "37": {
       "type": "talk",
-      "dialogue": "あー…というと、さっきまでの優しくない言葉は、\\その変なイメージのせいか？",
+      "dialogue": "うるさい！\\じゃあな、エラト。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "go_to_left_point"
     },
     "38": {
       "type": "talk",
-      "dialogue": "優しくない…言葉？",
-      "char": "c101_01",
+      "dialogue": "…まさか、坊やにあんなことを言われるなんて。\\いつまでも子供じゃないのね…",
+      "char": "c065_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "いや、ごめんごめん。優しい、優しいよ？\\シュリンクスの優しさはみーんな知ってるから、\\間違いないって！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "わたし自身が優しくないのに、\\優しい世界を望んでいたなんて…\\わたしは、悪い子だったんですね…",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "だから、優しいって言ってるじゃん！\\あ～もう！ごめん、俺が悪かったよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "思えば、こいつの契約者は8歳の女の子だ。\\シュリンクスの中身は、\\外見よりずっと幼いのかもしれない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "あー…なんだ？シュリンクス。\\その…お菓子あるぞ、食べるか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "あっ、ちょっと子ども扱いしすぎたかな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "…いただきます。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "ありゃ、受け取っちゃうのか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
-    },
-    "47": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "お菓子をあげた途端、\\シュリンクスの態度が柔らかくなった気がする。",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "でもこれって…餌付けしてるような気が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "餌付け？\\悪魔さんは、動物さんを飼っているのですか？",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "い、いや、なんでもないぞ。\\ただの独り言だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "…？？",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "幸い、餌付けされてるのが自分だってことは\\気づいてなさそうだ。\\それより、ずいぶん幸せそうにお菓子を食べるなあ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "…もっと食べるか？お菓子。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "…！！\\い、いいんですか？",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "56": {
-      "type": "talk",
-      "dialogue": "それって喜んでるのか！？\\ま、いいや…ほら、お菓子。\\まだいっぱいあるから、ゆっくり食べてていいぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
-    },
-    "57": {
-      "type": "talk",
-      "dialogue": "ありがたく…いただきます。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "58": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "59": {
-      "type": "talk",
-      "dialogue": "うん、どうした？食べないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "60": {
-      "type": "talk",
-      "dialogue": "あの…悪魔さん。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "61": {
-      "type": "talk",
-      "dialogue": "もしかするとあなたは…\\少し、優しい方かもしれませんね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "62": {
-      "type": "talk",
-      "dialogue": "小さな声でよく聞こえなかったが、なんとなく…\\シュリンクスの中で俺の印象が変わった気がした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "63": {
-      "type": "talk",
-      "dialogue": "まあ、まだお菓子はあるからな。\\満足するまで、食べてけよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "64": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

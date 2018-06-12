@@ -2,279 +2,381 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うわぁ～っ！！\\シャマシュ、お前、何やってるんだよ！",
-      "background": "bg086_f",
+      "dialogue": "…うう、無理。絶対失敗する…",
+      "background": "bg036_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "shock",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "大げさね…\\ゴミ箱をひっくり返しただけじゃない。",
-      "char": "c040_01",
+      "dialogue": "なんだ？\\どこからか、聞いたことのある\\ネガティブな声が聞こえる…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ゴミ箱をひっくり返した「だけ」だと…？\\あのな、ここ掃除したばっかりなんだけど！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "unfair"
+      "dialogue": "わ、わたしの名前は篠原しほです。\\わたしの、将来の夢は…",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そう言うけど、これはご主人様の掃除が\\なっていないからよ。ほら、見て。\\ゴミの分別もちゃんと出来ていないでしょ。",
-      "char": "c040_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "…中学生になることです。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "自分のことは棚に上げておいて、\\俺の掃除にケチつけるわけ？\\こんなに散らかして…！もう知らん！\\お前が全部片付けろよ！",
-      "char": "c000_01",
+      "dialogue": "あら♥発表の練習をしているんでしょうか～？\\それにしても、なかなか素朴な夢ですね～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "facial": "pretense",
+      "before_effect": "enter_from_left_fast"
     },
     "6": {
       "type": "talk",
-      "dialogue": "何を言ってるの。\\原因はゴミをきちんと分別しなかった\\ご主人様でしょう？自分で片付けて。",
-      "char": "c040_01",
+      "dialogue": "モナがあの子ぐらいのときは、\\魔王に一泡吹かせるのが目標でしたのに♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "いちいち細かいヤツだな…！",
+      "dialogue": "お前と一緒にすんなよ…\\ああいうのが子供らしさってもんだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "irritation"
     },
     "8": {
       "type": "talk",
-      "dialogue": "社会の中で生活するのであれば、\\定められたルールは必ず守るべきよ。",
-      "char": "c040_01",
+      "dialogue": "やあ、お嬢ちゃん。こんな所で何してるんだい？\\そろそろお家に帰らないと。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "haah"
     },
     "9": {
       "type": "talk",
-      "dialogue": "くそ…わかったよ、俺が片付ける。",
-      "char": "c000_01",
+      "dialogue": "この変なお兄ちゃんの話は無視していいのよ♥\\お嬢ちゃん、何か悩みがあるの？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "facial": "idle"
     },
     "10": {
       "type": "talk",
-      "dialogue": "俺の返事に納得したのか、\\シャマシュはうなずくとその場を去って行った。",
+      "dialogue": "お姉さんに話してみなさいな♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "やめろって！勝手なことするな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "モナ、お前…\\こんな子供と契約するつもりか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "だって、仕方ないじゃありませんか～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ご主人さまは魔力も身長も平均以下ですし…\\モナだけでもしっかりしないと♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "…怪しい人！お、おまわりさんに電話…\\110番…！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "違うよ！？このお姉さんは怪しいけど、\\お兄さんは絶対違うから！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あらあら♥\\怖かったわね～…でも大丈夫、\\この怪しいお兄さんは悪い人じゃなくて…\\いい悪魔なの♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "バラしてどうするんだよ、もう黙ってろって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ち、近寄らないで！",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "で、電話一本かければ、\\常に待機中の強いおまわりさん500人が…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "わかったから落ち着けって…\\ウソつくと地獄に落ちるよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "それに、俺は本当に悪い人じゃないから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "利口な少女だ。\\俺の学生証と住所、携帯電話の番号を控えると、",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "11": {
+    "25": {
       "type": "talk",
-      "dialogue": "チクショー…\\どいつもこいつも、なんで俺をいじめるんだ。",
+      "dialogue": "やっと彼女は疑いの目で見なくなった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "で、あなたの願いは何かしら～？\\引っ込み思案な性格を治したいとか～？",
+      "background": "bg064_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "モナ、だからやめろって。\\俺はこんな小さい子と契約するつもりはないよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "cry"
+      "facial": "irritation"
     },
-    "12": {
+    "29": {
       "type": "talk",
-      "dialogue": "ご主人、何してるのー？新しい遊び？\\変わった趣味なんだね。",
-      "char": "c173_01",
+      "dialogue": "わ、わたしは、引っ込み思案じゃありません！",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あら、ご主人さまったら…\\この哀れな悩める少女を\\ほったらかしにするつもりですか？",
+      "char": "c001_01",
       "speaker": "same",
+      "pos": "right",
+      "facial": "angry",
+      "before_effect": "shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "わたしは、引っ込み思案じゃなくて、",
+      "char": "c139_00",
+      "speaker": "same_full",
       "pos": "right",
       "distance": "normal"
     },
-    "13": {
+    "32": {
       "type": "talk",
-      "dialogue": "これを遊びだと思うなら、病院に行け。",
+      "dialogue": "う、いや…でも俺、子供はちょっと嫌だよ。\\ダビだけで十分だし…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "fury"
     },
-    "14": {
+    "33": {
       "type": "talk",
-      "dialogue": "ひどいわね。あたしなりに、ご主人がかわいそう\\だな～って思って手伝いに来てあげたのに。",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "わたしは、引っ込み思案じゃなくて、\\思慮深いんですっ！！",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "distance": "near",
+      "before_effect": "shake"
     },
-    "15": {
+    "34": {
       "type": "talk",
-      "dialogue": "ありがとうございます、ディナシー様！\\どうぞ、この哀れな悪魔めに救いの手を！",
+      "dialogue": "うわ、びっくりした…し、思慮深い！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "near",
-      "facial": "joy"
+      "facial": "confused"
     },
-    "16": {
+    "35": {
       "type": "talk",
-      "dialogue": "ご主人、結構面白いこと言うのね。",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "わたしは変わりたいとか思ってないです。\\このままじゃいけないんですか？\\大人しい性格も、恥ずかしがり屋なのも…\\全部わたしなのに。",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
-    "17": {
+    "36": {
       "type": "talk",
-      "dialogue": "…サンキュー\\でも真顔の反応はやめて。\\居たたまれない気持ちになるから。",
+      "dialogue": "い、いきなりそんな難しいこと言わないでくれよ…\\えっと、俺が思うには…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "facial": "confused"
     },
-    "18": {
+    "37": {
       "type": "talk",
-      "dialogue": "ディナシーはクスクス笑いながら、\\俺の横にしゃがみ込み、ゴミの整理を手伝い始めた。",
+      "dialogue": "その後、俺は10歳の少女を相手に、\\引っ込み思案と脆弱さに関する討論をさせられた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "19": {
+    "38": {
       "type": "talk",
-      "dialogue": "でもなんか意外だな。\\こんな面倒くさくて汚い仕事、\\ディナシーは好きじゃないと思ってたよ。",
+      "dialogue": "お兄さん、わたしは…このままでいいんです。\\ただもっと…のんびり構えて聞いてもらえれば、\\それでいいんです。",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そ、そうだよね…\\人間関係の基本は聞き上手になることっていうし…\\それにしても、ずいぶんしゃべりが上手くなったな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "facial": "confused"
     },
-    "20": {
+    "40": {
       "type": "talk",
-      "dialogue": "一度やってみようかなって思ったの。\\そうすれば、面白いかどうかわかるでしょ？",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "どういうことだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "シャマシュはこういう遊びが\\好きみたいだったから。\\前もご主人に、音楽のボリューム下げろって\\言ってるのを見たし。",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "シャマシュって、\\「ルールを守る遊び」をしてるんでしょ？\\だから、あたしもやってみようと思って。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "マジで言ってる？\\それとも、俺を笑わせたいの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…あたし、何か変な事言った？",
-      "char": "c173_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ディナシーは、不思議そうに首をかしげた。\\その表情を見る限り、本人は大真面目らしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…ま、いいや。\\何事もやってみればいいよ。\\思ったより、つまらないかもしれないけどな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "そうね…ご主人の言う通りかも。\\こんなの、つまんない。\\シャマシュはなんで、こんな遊びが好きなのかしら？",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "好きなわけないだろ？ \\契約者がルールを守ることで\\周りの人を守ろうとしてたみたいに…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…シャマシュも自分の周りを\\守りたくてやってるってだけだよ。",
+      "dialogue": "…まあいいや。\\とにかく、「無責任な人生の先輩」としては、\\そのままでも大丈夫ってのが、俺の意見だよ。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "facial": "confused"
     },
-    "31": {
+    "41": {
       "type": "talk",
-      "dialogue": "残念なことに、シャマシュの契約者が\\守ろうとした妹は、その気持ちが\\わからなかったみたいだ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "そして、どうやらその無関心は、\\妹から生まれたディナシーにも\\そのまま受け継がれたらしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ふーん…あいつって、ホント変なチャイルドね。\\まあ、どうでもいいわ。",
-      "char": "c173_01",
+      "dialogue": "…こ、これなら、答えになったか？",
+      "char": "keep",
       "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "…無責任な人生だなんて、情けないですね…",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "う…も、申し訳ない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "でも…慰めてくれてありがとう。\\お兄さんの言うことなら、\\少しは信じてみてもいいかも。",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "…はい、これ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
       "distance": "near"
     },
-    "34": {
+    "46": {
+      "type": "talk",
+      "dialogue": "少女は、いつの間にサインしたのか、\\自筆署名入りの契約書を差し出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "目を覚ましたら、\\俺のことは忘れてしまうだろうけど…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "1文字ずつ丁寧に書かれたサインを見たら、\\この少女はもう大丈夫だろうと確信した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "49": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

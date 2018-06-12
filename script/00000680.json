@@ -2,278 +2,292 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お疲れ様でした、御主人様。",
+      "dialogue": "ワーウルフ、お前なぁ…\\どうしていつも、そんな豪快に転ぶんだ？",
       "background": "bg086_f",
-      "bgm": "4",
-      "char": "c002_01",
-      "speaker": "same"
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "angry"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うおお…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "負けた？また負けた？\\そうなんでしょ～？",
-      "char": "c003_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "smile"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ま、負けてなんかいないっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "そうよ、ダビ。いくらご主人さまでも\\負けっ放しってわけじゃないんだから♥",
-      "char": "c001_01",
+      "dialogue": "どうしてだろうね～\\もう1回、転べばわかるかな？",
+      "char": "c216_01",
       "speaker": "same",
       "pos": "right"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "転ぶな！\\見てるこっちまで痛くなる…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "そんなの気のせいだって～\\妄想激しいんだから～",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そういうのは妄想とは言わない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "それ、フォローになってないからな！",
+      "dialogue": "お前さ、子供じゃないんだから…\\膝小僧とかすりむくか？普通…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "まったく…\\こんなにケガするのは幼稚園児くらいだろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "よちよち…\\滑り台でケガしちゃったんでちゅか？\\ワーウルフちゃん？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "よちよち…\\ニャンコちゃんはあたしがケガして悲ちぃのね？\\優しい子ね～",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…ゴホン！\\ともかく、薬持ってくるからそこで待ってろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sulky"
     },
-    "7": {
+    "11": {
       "type": "talk",
-      "dialogue": "だったらバカご主人、なんでため息ついてるの？",
-      "char": "c003_01",
+      "dialogue": "は～い。\\さみしいから早く戻って来てね～",
+      "char": "c216_01",
       "speaker": "same",
       "pos": "right"
     },
-    "8": {
+    "12": {
       "type": "talk",
-      "dialogue": "あ、そっか！さんざん苦戦して、何とかギリギリ\\勝てたってわけか！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ご主人も中途半端だなあ。\\変に中途半端に勝たず、潔く負けちゃえば、\\身になる勉強になったんじゃないの？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "お前なあ、いちいち神経を逆撫でするなっての！",
+      "dialogue": "さみしいって、お前はそんなヤツか！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "facial": "haah"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…って、いないし！どこ行った！？",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
       "facial": "confused"
     },
-    "11": {
+    "15": {
       "type": "talk",
-      "dialogue": "また御主人様のお得意芸、ギリギリ戦法が\\面目躍如したみたいですね。",
-      "char": "c002_01",
+      "dialogue": "さみしいから、早く戻って来てって…\\いったい何だったんだろうな？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "facial": "nonsense"
     },
-    "12": {
+    "16": {
       "type": "talk",
-      "dialogue": "そのネーミングセンスには大いに物申したい！",
+      "dialogue": "まぁ、本気にしちゃいないけど。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "haah"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "はぁ…\\世の中のお父さんは、こんな気持ちなのかな。",
+      "background": "bg055_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あたしの残り香をたどってここまで来たの？\\ニャンコちゃん。",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そんな器用な真似ができるか！\\普通に探しに来たんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そうなんだ…\\オロオロとあたしを探し回るニャンコちゃんの姿を想像したら、ちょっと申し訳ない気分になっちゃった。",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "申し訳ないと思うなら、勝手にいなくなるなよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "13": {
-      "type": "talk",
-      "dialogue": "うふふっ、スリリングでサスペンスフルで、\\最後にあっと言わせるどんでん返しまで用意された\\バトルだったわけですね！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "いつも手に汗握る迫力満点のエンターテインメント\\をありがとうございます、ご主人さま！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "はあ、当てこすりにしか聞こえないのは\\気のせいですかねえ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "おい、ダフネ！\\全部まとめてお前のせいだぞ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "とぉ～っても楽しかったぁ～♪",
-      "char": "c232_01",
-      "speaker": "same"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "はあ、話になりゃしない！\\さっきの戦闘だって、頭の中がお花畑！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ダフネ、今だ！\\とどめを刺し…",
-      "background": "dungeon_bg",
-      "bgm": "12",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry",
-      "screen_effect": "gray"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "冷た～いレモネードが飲みた～い☆",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "gray"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "し、しまったっ、反撃されたっ…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "screen_effect": "gray",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
-    },
     "23": {
       "type": "talk",
-      "dialogue": "ダフネってば、ほ～んと上の空ですね♥",
-      "char": "c001_01",
+      "dialogue": "いいじゃない。あたしは自由な狼なんだから～",
+      "char": "c216_01",
       "speaker": "same",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "なに呑気なこと言ってるんだ、\\おかげでこっちは大変なことになってるぞ！",
+      "dialogue": "自由ってな、そういうことじゃないと思うぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "after_effect": "shake",
-      "screen_effect": "gray"
+      "facial": "irritation"
     },
     "25": {
       "type": "talk",
-      "dialogue": "すっきり爽やかレモネードに、サンドイッチも\\用意して…みんなでピクニックに\\行きましょ♪",
-      "char": "c232_01",
+      "dialogue": "一言、断りを入れるって、常識の範疇だからな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "gray"
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "頼むよ、ダフネ…\\こっちは命がけなんだから…",
-      "char": "c000_01",
+      "dialogue": "う～ん！いい天気。",
+      "char": "c216_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "cry",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "27": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "28": {
       "type": "talk",
-      "dialogue": "決めた！\\今後はもう、ダフネは連れていかない！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "おー、なるほど！\\ダフネってば、あったまいー！",
-      "char": "c003_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "smile"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…おいお前ら、何をコソコソ話してる？",
+      "dialogue": "はぐらかすな。\\いい天気も何も、もう夜だぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "28": {
+      "type": "talk",
+      "dialogue": "こんな月夜に、家に引きこもってるほうがもったいないじゃん。",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "引きこもるっていうか、寝る時間だからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "むしろ俺はもう寝たいんだが…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
     "31": {
       "type": "talk",
-      "dialogue": "えーっとね…\\はいダフネ、バトンタッチ！\\うまいことご主人をいいくるめて！",
-      "char": "c003_01",
+      "dialogue": "悪いけど、あたし夜行性だからね～",
+      "char": "c216_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "えっとね、ダフネの趣味はお散歩なの。\\今朝もお散歩の途中、可愛いネコちゃんと\\会ったの～★",
-      "char": "c232_01",
+      "dialogue": "ニャンコちゃんさ。\\あたしがまたいなくなっても、探してくれる？",
+      "char": "keep",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "可愛いネコちゃん…？\\それ、暗号でご主人のことを言ってるの？",
-      "char": "c003_01",
+      "dialogue": "探さないよ。自分でちゃんと戻ってこい！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "confused"
     },
     "34": {
       "type": "talk",
-      "dialogue": "違いますよ、ダビ。\\うーん、困りましたね…\\ちょっと彼女は扱いが難しそうです。",
-      "char": "c002_01",
+      "dialogue": "え～残念。探して欲しかったのにな～",
+      "char": "c216_01",
       "speaker": "same",
-      "facial": "serious",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "35": {
+      "type": "talk",
+      "dialogue": "アホなこと言ってないで帰るぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "そうだね。\\寝る子は育つって言うもんねー！",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "バカ言え、俺はもう大人だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ハハ。\\ニャンコちゃんは、もっと大人にならなきゃね～",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

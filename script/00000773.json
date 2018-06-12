@@ -2,187 +2,251 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "データ収集及び分析の結果、\\ウォッチャーが探している悪魔は\\日本にいないと推定されます。",
-      "background": "bg049_f",
+      "dialogue": "正面素振り50回！\\…そこ！集中してください！",
+      "background": "bg123_f",
       "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "char": "c292_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それ、本当か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "剣先が下がっていますよ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "困ったわねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "はぁ、はぁ…もうダメです！\\少し休ませてください！",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "4": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "ダメです！\\さっきも休んだでしょう。",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "本当に困ったもんだ。\\せっかくここまで来たのに。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "でも、こんなんじゃ、みんな倒れちゃいますよ！\\いったん休憩にして、先生の初恋の話でも聞かせてくださいよ～",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "6": {
       "type": "talk",
-      "dialogue": "俺を心配しているのか？",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "……",
+      "char": "c292_00",
+      "speaker": "same_full"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "…うん。それで？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "御主人様、呑気なこと言ってる場合ではありません。ウォッチャーのターゲットが日本にいないことは\\分かったので、",
-      "char": "c002_01",
+      "dialogue": "ルインよ、デュランダルよ。",
+      "background": "bg188_f",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "screen_effect": "gray"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ウォッチャーはこれ以上、\\ここに留まることはできません。",
+      "dialogue": "私はお前たちを、ただの手駒として扱う気はない。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "screen_effect": "gray"
     },
     "10": {
       "type": "talk",
-      "dialogue": "すなわち、これ以上御主人様のチャイルドとして\\働けないということです。",
+      "dialogue": "私が魔界の王となるために、お前たちの力を貸して欲しい。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "screen_effect": "gray"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "仕方ないだろ。公務執行中なんだし。\\むしろ引き留めたら公務執行妨害に\\なるんじゃないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ウォッチャーは大切な戦力です。\\簡単に諦めすぎではないですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
+      "dialogue": "師匠～\\今日は天気が悪いのでアイスクリームを買って2人で食べましょうよ～？",
+      "background": "bg188_f",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "13": {
       "type": "talk",
-      "dialogue": "やむを得ないだろ。",
-      "char": "c000_01",
+      "dialogue": "悪天候とアイスクリームは関係ありません。",
+      "char": "c292_01",
       "speaker": "same",
-      "pos": "left"
+      "screen_effect": "gray"
     },
     "14": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "それに、あなたは今、減量中のはずでは？",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "gray"
     },
     "15": {
       "type": "talk",
-      "dialogue": "こんな時は！",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "いや、まぁ、そうなんですけど…\\それじゃ、師匠の初恋の話でも聞かせてくださいよ～",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "16": {
       "type": "talk",
-      "dialogue": "やっぱり当事者の意見を聞くのが一番ね♥",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "はあ…\\これも試練の1つですか、ルーファス様…",
+      "char": "c292_01",
+      "speaker": "same",
+      "before_effect": "shake",
+      "screen_effect": "gray"
     },
     "17": {
-      "type": "talk",
-      "dialogue": "いつからそんな真面目に…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ウォッチャー、こんなことになっちゃったけど、\\アナタはこれからどうしたいの？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "すぐに怠けようとする愚かな輩…\\誰かが私の忠誠心を試すために、奴らに色魔を紛れ込ませているのか？",
+      "background": "bg097_chr02",
+      "char": "c292_00",
+      "speaker": "same_full"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人様の言う通り、俺の役割は魔界を脅かす者を\\見つけ出し監視して遮断すること。",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "ああ、頭がおかしくなりそう…\\ルーファス様、私はいつまでここにいればいいのですか…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "20": {
       "type": "talk",
-      "dialogue": "やっぱり…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "魔王争奪戦の情報を集めるために、力を尽くしているけど…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "21": {
       "type": "talk",
-      "dialogue": "だが…その者が逃亡した地域は\\俺の管轄区域ではない。",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "未だ有益な情報は得られていない…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "22": {
       "type": "talk",
-      "dialogue": "え？一人でやってたわけじゃないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "まるで不良生徒に振り回される新米教師みたいだな。",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "hero"
     },
     "23": {
       "type": "talk",
-      "dialogue": "もちろんだ。\\魔界の犯罪者は数えきれないくらい多い。",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "……",
+      "char": "c292_00",
+      "speaker": "same_full"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だから…俺はここに残って約束を守る。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "面倒な生徒に言う事を聞かせるため、アイスを買ってやったんだって？",
+      "char": "none",
+      "speaker": "hero"
     },
     "25": {
       "type": "talk",
-      "dialogue": "約束？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "もしまた同じ手を使うなら、先に食べさせて「食べたんだからやれ！」って言えばいいよ。",
+      "char": "none",
+      "speaker": "hero"
     },
     "26": {
       "type": "talk",
-      "dialogue": "受けた分を返すという約束。",
-      "char": "m125_01",
+      "dialogue": "食べたんだからやれ？",
+      "char": "c292_00",
       "speaker": "same",
-      "distance": "near"
+      "pos": "center"
     },
     "27": {
       "type": "talk",
-      "dialogue": "これからは俺がご主人様に協力する。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "これさ、サキュバス達が俺によく使う手なんだけど、これが結構効くんだよ…",
+      "char": "none",
+      "speaker": "hero"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "言う事を聞きたくなくて、返そうと思っても、すでにアイスはお腹の中…\\どうだ？恐ろしい策略だろ？",
+      "char": "none",
+      "speaker": "hero"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "余計なお世話です。\\チビ猫のアドバイスなど要りません。",
+      "char": "c292_00",
+      "speaker": "same_full"
+    },
+    "30": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "せ、先生…さっき食べたアイス、吐きそうです…\\うっ…",
+      "background": "bg123_f",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "何を言っているのですか！？\\素振りで嘔吐する人なんて、見たことありません。",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "before_effect": "shake"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "さぁ、思い切り竹刀を振ってください。\\例え吐いても、私が責任をもって片付けます。",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "気合いを入れて正面素振り、あと100回！",
+      "char": "keep",
+      "speaker": "same_full",
+      "one_ani": "attack"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ううっ…\\もう勘弁してください！！",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ふふふ…\\チビ猫も、たまには役に立ちますね。",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

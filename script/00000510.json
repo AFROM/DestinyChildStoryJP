@@ -2,174 +2,317 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "炎龍… 恐ろしい…",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "モナ～！\\お願い～！",
+      "background": "bg041_f",
+      "bgm": "14",
+      "char": "c184_01",
       "speaker": "same",
-      "facial": "sigh"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そのような発言は控えてください。\\仮にも貴方は、そのチャイルドの主人なのですよ…",
-      "char": "c002_01",
+      "dialogue": "あら～♥そんなに慌ててどうしたの？\\エリシオンったら～♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "お前も見ただろ？\\あの残忍で暴悪な戦い方を…",
-      "char": "c000_01",
+      "dialogue": "悪魔にもし、あたしのこと聞かれても、\\見なかったって答えて！お願い！",
+      "char": "c184_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "確かに圧倒的な勝利でした。\\あんな素晴らしいチャイルドが\\味方だなんて、喜ばしいではありませんか。",
-      "char": "c002_01",
+      "dialogue": "穏やかじゃないわね～♥\\一体何をやらかしちゃったの～？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あいつが俺に言ったこと、覚えてるか？",
-      "char": "c000_01",
+      "dialogue": "やらかしたっていうか…\\と、とにかくお願いね！",
+      "char": "c184_01",
       "speaker": "same",
       "pos": "left"
     },
     "6": {
+      "type": "talk",
+      "dialogue": "あらあら～…へ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "お前もこうして引き裂いてやる、悪魔め。",
-      "background": "dungeon_bg",
-      "char": "m003_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "gray"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ひいいい…！",
+      "dialogue": "…モナ！\\エリシオンを見なかったか！？",
+      "background": "bg041_f",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "screen_effect": "gray"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ひいいい…！",
-      "background": "bg086_f",
-      "char": "keep",
+      "dialogue": "え～と～♥エリシオンって言うと～？\\船長帽とビキニと浮き輪でフワフワ浮いてる、ちょっぴり刺激的なお嬢さんですよね？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right",
+      "facial": "pretense"
     },
     "10": {
       "type": "talk",
-      "dialogue": "チャイルドになめられるようではいけません。\\チャイルドは勘がいいですから、",
-      "char": "c002_01",
+      "dialogue": "そう、めちゃくちゃけしからんやつ。\\見なかった？\\こっちのほうに来たはずなんだけど！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "after_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そんな弱気な心構えでは、いつか見抜かれ、\\本当に引き裂かれて食べられてしまいますよ。",
-      "char": "keep",
+      "dialogue": "あらあら♥\\なんでそんなにエリシオンに会いたいのかしら？\\ちょっぴり嫉妬しちゃいます♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "いや、そんな冗談は良いからさ。\\見かけたんだろ？そうだよな？\\あいつ、どっちに行った！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "教えたい気持ちはあるんですが、\\エリシオンに頼まれちゃったんですよね♥\\絶対にご主人さまには言うなって♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "お前…\\俺が怒り狂って憤死するところが見たいとか、\\言い出すんじゃないだろうな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ふふふ♥\\冗談でも、そんな縁起の悪いこと言うなんて♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "12": {
+    "16": {
+      "type": "talk",
+      "dialogue": "ご主人さまがいなくなったら、\\モナはいろんな意味で生きていけませんよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…演技でもいいから、\\もう少し悲しそうな顔でもしてりゃあ、\\美しい主従愛ってことにできたんだろーけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "うふふ♥\\ここに来たのはついさっきです♥\\あちらに行ったので、急げば追いつくかと♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "わかった、ありがとう！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "エリシオンめ！\\捕まえたらタダじゃおかないぞ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "21": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "13": {
+    "22": {
       "type": "talk",
-      "dialogue": "お前を、口に放り込んで、\\この牙で、噛み砕いてやる！",
-      "background": "bg197_f",
-      "char": "m003_01",
+      "dialogue": "さて、あとはもうすぐ来るバスに乗れば、\\晴れてあたしは自由の身だ！ヨーホー♪",
+      "background": "bg037_f",
+      "char": "c184_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "loop_ani": "attack"
     },
-    "14": {
+    "23": {
       "type": "talk",
-      "dialogue": "口を開けば、噛むとか引き裂くとか…\\ちょっとは普通に話しかけてくれよ！",
+      "dialogue": "自由？へえ。\\なれるものならなってみな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "superangry",
+      "screen_effect": "dialog_shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ひいっ！？\\その声は…",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "俺から逃げられると思ったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry",
+      "distance": "near",
+      "before_effect": "none",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "う～…\\何よそのヤンデレサイコストーカーちっくな台詞！\\キモイんですけど！",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "はぁ？お前が自分の欲望のままに、\\逃げ回るような不良チャイルドじゃなきゃ\\こんなに追いかけ回さないんですが？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "きーっ！ああ言えばこう言う！\\ねぇ、いつまであたしを束縛すれば気が済むの？\\もうあんたのそばにいるのは、ヤなんですけど！",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "…他人が聞いたら、\\俺が束縛しすぎてるカップル同士の、\\ケンカにしか聞こえないだろうな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "確かにチャイルドは契約して主人と一緒にいるけど、だからって所有物じゃないの。\\あたしだって、自由にどこにでも行く権利がある。",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…それは別に構わないけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "えっ、じゃあ好きなところに行っていいの！？",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…限度をわきまえてくれればな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "confused"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あのさぁ、この際だからちゃんと話しておくけど。\\お前が俺の所有物じゃないってのは分かる。\\でも、俺と契約している以上は…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "俺はお前の面倒を見る義務があるんだ。\\危ないことに巻き込まれないようにとか、\\迷子になって帰れなくならないようにとか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "うう～、うるさい！うるさい～！\\お父さんなんて大っ嫌い！",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "俺はお父さんじゃないだろ！？\\お前は思春期の娘かよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
       "before_effect": "shake"
     },
-    "15": {
+    "38": {
       "type": "talk",
-      "dialogue": "リザ…お前の言う通りだった…\\俺はもう奴に喰われる寸前だ。",
-      "char": "keep",
+      "dialogue": "うう～…\\今日は失敗したけど、\\次は絶対に脱出してみせるから！",
+      "char": "c184_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
+      "pos": "right",
+      "one_ani": "none"
     },
-    "16": {
+    "39": {
       "type": "talk",
-      "dialogue": "喰われるのを待つしかない\\草食動物のような気分だ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "だが…",
-      "char": "m003_01",
-      "speaker": "same"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "喰うならさっさと喰え…え？",
+      "dialogue": "何かあったら責任取るのは俺なんだから…\\頼むから余計なことはしないでくれよ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "cry"
     },
-    "19": {
-      "type": "talk",
-      "dialogue": "《ピーちゃん》のために我慢する。\\《ピーちゃん》…再契約しなければもう会えない。",
-      "char": "m003_01",
-      "speaker": "same"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ピ、《ピーちゃん》？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "だからと言って、お前を許したわけではない！\\《ピーちゃん》をいじめたら…\\その時は本当に喰ってやる！",
-      "char": "m003_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "《ピーちゃん》…あのトカゲに名前までつけたのか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "23": {
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

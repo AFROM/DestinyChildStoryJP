@@ -2,325 +2,224 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "もう大丈夫。今すぐ私が助けます！\\…テロン、お願い！",
-      "background": "bg075_f",
-      "bgm": "9",
-      "char": "c195_01",
+      "dialogue": "悪魔さん、こんにちは。\\今日もいい天気ですねー。",
+      "background": "bg070_f",
+      "bgm": "4",
+      "char": "c133_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お願い、じゃないし！",
+      "dialogue": "お前、今日も公園にいたんだな。",
       "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "angry",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "きゃっ！",
-      "char": "c195_01",
+      "dialogue": "そうですよ。あ、ところでこれ食べませんか？\\はい、あーん。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "びっくりいたしました…\\もう、ご主人様ったら…",
-      "char": "keep",
+      "dialogue": "ど、どうしたんだ？今日は何か優しいぞ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺の方がビックリだよ。\\キュベレー、これはどういうことだ？\\説明してくれるよな？",
-      "char": "c000_01",
+      "dialogue": "美味しいですか？",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "見ればおわかりでしょ？\\檻に入れられた可哀想な子たちを助けようと…",
-      "char": "c195_01",
+      "dialogue": "うん、美味いな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "smile"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ふう…チャイルドは、\\普通の人間には見えないから、\\目撃されてないとはいえ…",
-      "char": "c000_01",
+      "dialogue": "じゃあ、500円になりまーす！",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "8": {
       "type": "talk",
-      "dialogue": "手を離してください。\\今ここで助けないと…！",
-      "char": "c195_01",
+      "dialogue": "はっ！？\\えっ、コレって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ダメだ！\\離したらこの世の動物園を、全て壊しそうだし…",
-      "char": "c000_01",
+      "dialogue": "あそこのおじさんに払ってくださいね。\\ごちそうになりますね、悪魔さん。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ほら、もう無茶なことはやめて、\\一緒に帰ろう。",
-      "char": "keep",
+      "dialogue": "後払いかよ！\\よく売ってもらえたな！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "見捨てろとおっしゃるのですか？\\無理矢理こんなところに連れて来られて、\\見世物にもされて…",
-      "char": "c195_01",
+      "dialogue": "こんな素敵な日に、そんな顔しないでください。\\仁王様みたい。ほら、お寺の入口にいるおじさん。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "本来この子たちは広い草原を走り回ったり、\\青い空を飛ぶべき子たちなんです！",
-      "char": "keep",
+      "dialogue": "ティタニア。あれを「おじさん」とか言ったら、\\悪魔でもチャイルドでもバチあたるぞ……",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "serious"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それなのに、\\こんな狭い場所にずっと閉じ込められて…",
-      "char": "keep",
+      "dialogue": "ご忠告ありがとうございます。\\お礼に、映画のチケットを差し上げますね。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "こんな姿は不自然です。\\私、我慢できません！",
-      "char": "keep",
+      "dialogue": "…これも後払いなんじゃないだろうな？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "loop_ani": "attack"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…キュベレー。",
-      "char": "c000_01",
+      "dialogue": "これは大丈夫ですよ。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…そこまで言うのでしたら、\\私の代わりに、あの子たちを、\\救ってあげてください。",
-      "char": "c195_01",
+      "dialogue": "だってすでに、\\悪魔さんの机の上にあったお札数枚と、\\等価交換させてもらいましたから。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "え？\\俺にはそんなこと出来ないよ…",
+      "dialogue": "今度は先払いかよ！？\\し、しかも俺の野口英世先生を！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "nonsense",
+      "screen_effect": "shake_weak"
     },
     "18": {
       "type": "talk",
-      "dialogue": "できます。\\私に、自由をくれた時の様に\\してくださればいいのです。",
-      "char": "c195_01",
+      "dialogue": "はい。樋口一葉さんだったら、\\よかったんですけどねー。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "俺がお前に自由を？",
-      "char": "c000_01",
+      "dialogue": "次からはお札のラインナップを充実させてね。\\福沢諭吉先生がいらっしゃると嬉しいですね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そうです。\\すべての生物が集う楽園を夢見る心…\\それを私と、…そしてテロンに、\\与えてくれたのは貴方。",
-      "char": "c195_01",
+      "dialogue": "もう机の上には置かないぞ！\\ちゃんと財布と通帳に入れてやる！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あなたのおかげで、私とテロンは狭い檻から出て\\自由を夢見ることができたのよ。",
-      "char": "keep",
+      "dialogue": "あら、悪魔さんには貯金箱のほうが、\\お似合いですよ？",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お願いします。あの子たちと契約を結んで。\\願いを叶えられるように、力を貸してください。",
-      "char": "keep",
+      "dialogue": "うるさい！俺のお金をこれ以上、\\勝手に使われてたまるか！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "バカなこと言うなよ！",
+      "dialogue": "そんな、心の狭い。\\コミュニケーションの必要経費じゃないですか。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "勝手なこと言うな。\\俺はもう帰るぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あら、そのまま帰っちゃ駄目ですよ。映画は、\\観て帰らないと。これ、無駄になっちゃいますよ？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "うっ…チケット…\\無駄にしちゃうのはもったいないな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ふふ、それじゃあ、一緒に楽しく過ごしましょう！",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ああ…結局、\\こいつの思い通りになるのか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "near",
-      "facial": "angry"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "…ご主人様？",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "俺がどんな力を与えたって言うんだ？\\お前が夢見る楽園なんて、俺は知らない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "自由とか楽園とか…\\そういうのは、お前たちが自分で願ったことだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "でも、貴方と契約を結んだから…",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "俺は悪魔だぞ？\\夢とか希望とか知るか。\\…チャイルドの力だけ得られればいいんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "facial": "serious"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "そんな、心にもないことを…",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "どういう意味だよ。\\お前に俺の心なんて、わかるわけないだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "わかります。\\私の契約者が貴方に心を開かなかったら、\\私はこの場にいなかったのでしょう？",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "それは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "チャイルドは人間の心から、\\生まれた存在。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "だから、差し伸べられた手がどういったものか、\\とてもよくわかってしまうのです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "貴方が先に手を差し伸べなかったら、\\その心を受け止めてくれなかったら",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "私たちは生まれてこれなかった。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "…な、何が言いたいのかさっぱりわからん。\\ほら、もう帰るぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "檻の中の子たちの夢も、お前の願いが叶った時に、\\誰かが叶えてくれるだろうよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "…ふふふ、やっぱり貴方は優しい人。\\…貴方のチャイルドになれて、よかったです。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

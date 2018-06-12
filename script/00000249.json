@@ -2,324 +2,354 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "俺がクーシーと契約をしたのは、この小道だった。",
-      "background": "bg034_f",
+      "dialogue": "あぁ～\\モナ、そこにいたりするのか？",
+      "background": "bg089_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "あいつは、ここにじっと座って\\片時も離れようとはしなかった。\\雨の日も、雪の日も、風が吹く日も。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "クゥ～ン…",
-      "char": "c017_00",
-      "speaker": "same_full"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ねぇ、ご主人。\\この犬と契約してよ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "この死にかけの子犬を？私は反対です。\\この子犬では戦力になりません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "戦力とかじゃないもん！\\ダビのペットにするんだもん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "smile"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ダビ、チャイルドはペットではありません。\\役に立たないチャイルドを増やしても、\\御主人様の負担になるだけです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "none"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ねぇ、リザ。\\役に立たないチャイルドなんていないわ。\\育てれば使えるようになるわ♥\\ご主人さまだって同じでしょう？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "さすが、モナ姉さま！素敵…♥",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "「ご主人さまだって同じでしょう？」ってとこに\\誰もツッコまないんだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "idle",
+      "before_effect": "enter_from_left_fast"
     },
-    "11": {
+    "2": {
       "type": "talk",
-      "dialogue": "どうかしましたか、褒め言葉ですよね？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "褒め言葉です♥",
+      "dialogue": "は～い♥\\お呼びですか？可愛いご主人さま～？",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "smile",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
-    "13": {
+    "3": {
       "type": "talk",
-      "dialogue": "うん、褒め言葉！",
-      "char": "c003_01",
+      "dialogue": "うわわっ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake"
     },
-    "14": {
+    "4": {
       "type": "talk",
-      "dialogue": "お前ら…",
+      "dialogue": "まあ、その目…\\まるでオバケでも見るみたいな…\\モナ、傷ついちゃいました。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sad"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "傷ついたのは俺の心臓だよ！！\\一体どこから出てくるんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ご主人さまの心の中からですよ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "俺の心にお前が入る隙間はない…\\将来の不安でゆとりが無いんだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "15": {
+    "8": {
       "type": "talk",
-      "dialogue": "そして仕方なく、\\この犬と契約する事にしたわけだが…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "あの、あなたさまは…\\ひょっとして、幽霊王様ですか？",
-      "background": "dungeon_bg",
-      "char": "c017_01",
+      "dialogue": "あっ…\\自分で言ってて悲しくなってきた。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sad"
     },
-    "18": {
+    "9": {
       "type": "talk",
-      "dialogue": "幽霊王…？なんだ、それ。",
-      "char": "c000_01",
+      "dialogue": "うふふっ、悩める青少年ですね。\\でも、悲しいですね～\\モナの事、もっと頼ってくださってもいいんですよ？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "smile"
     },
-    "19": {
+    "10": {
       "type": "talk",
-      "dialogue": "ご主人さまの後ろば、ぞろぞろついて来るのって、\\ぜーんぶ幽霊だが？すごいですだー！",
-      "char": "c017_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "後ろ？\\もしかして、チャイルドのことを言ってんのか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "あのぅ、幽霊王様！",
-      "char": "c017_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "オラのお願い、聞いてくださいですだー！",
+      "dialogue": "それはさておき、どうかなさいました？\\あっ！ようやく契約しに行く気になりましたか～？",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "loop_ani": "attack"
+      "facial": "idle"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "契約だと…？",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "before_effect": "enter_from_left_fast"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "何処かの誰かさんが住み着いたせいで、生活費がバカにならないんだよ！\\契約なんかする暇あるか！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake_weak"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ふ～ん、町一番のお金持ちと契約して\\養子になる計画を無しにしたのは\\どちら様でしたっけ～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "う…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "良さげな家の持ち主を騙してそこを間借りするって\\作戦、ボツにしたのは誰でしたっけ～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "常識的な計画にしてくれないと\\俺だって賛成なんかできないだろう！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "screen_effect": "dialog_shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "まぁいいや。\\これつけるから手伝って。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ま～たそうやって話を逸らしちゃうんですね…\\で、これは何なんです？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "美少女フィギュアのスカートにでも似合いそうな\\安っぽいピンク色のカーテンですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "男女が同じ部屋で一緒に寝るわけにはいかないだろ？これで俺の部屋とモナの部屋を分けるつもりだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "はい？冗談ですよね？\\その…本気ですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "なんでガッカリした顔するんだよ…\\ほら、役に立つモノも用意してきたし、コレコレ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "before_effect": "shake_weak"
     },
     "23": {
       "type": "talk",
-      "dialogue": "おお…な、なんだよ？",
-      "char": "c000_01",
+      "dialogue": "あらら、これは…\\ガムテープ？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "facial": "nonsense"
     },
     "24": {
       "type": "talk",
-      "dialogue": "悪い幽霊がお嬢様につきまとってて、\\お嬢様、とっても可哀想なんですぅ！",
-      "char": "c017_01",
+      "dialogue": "そうだ。これで俺の部屋とお前の部屋を区切る。\\無断侵入禁止！これが我が家のルール《その1》だ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "joy"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ほら、\\今もお嬢様に幽霊が近づいてます！\\幽霊王様、どうか追い払ってくださいですだー！",
-      "char": "keep",
+      "dialogue": "この数日、妙に口数が少なかったのは\\こ～んなキュートなことを考えてたからですか？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "serious"
     },
     "26": {
       "type": "talk",
-      "dialogue": "え？そのお嬢様ってのは、\\いったいどこにいるんだ？",
-      "char": "c000_01",
+      "dialogue": "申し訳ありませんけど、モナの部屋は\\すでにご主人さまのお部屋に設置済です。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "idle"
     },
     "27": {
       "type": "talk",
-      "dialogue": "気配はあっても姿は見えず…\\ご主人さま、もしかしてこの子が言うお嬢様は、\\もう亡くなってるのではないでしょうか？",
-      "char": "c001_01",
+      "dialogue": "なんだと！\\この狭いワンルームのどこにそんなスペースが！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake_weak"
     },
     "28": {
       "type": "talk",
-      "dialogue": "そして、幽霊となってこの小道を彷徨っている…\\この子犬は、\\ここでずっと彼女を守っているんですね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "はっ！まさか、心に住んでいるというのは\\喩えとかじゃなく…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "29": {
       "type": "talk",
-      "dialogue": "俺は寂れた小道を見回した。\\そして、\\その木々の闇に潜んでいる気配に目を凝らす。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "left",
-      "screen_effect": "dark"
+      "dialogue": "ふふふっ。そんなに慌てないでください♥\\サキュバス界のトップシークレットですが、\\ご主人様には特別にこの秘密お教えしますね！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "before_effect": "go_to_right_slow"
     },
     "30": {
       "type": "talk",
-      "dialogue": "あのさ…\\悪いけど、俺に幽霊を追い払う力はないんだ。\\だから、お前が追い払ってやれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "モナはそう言って部屋の押し入れを開け、\\中を見せてくれた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "31": {
-      "type": "talk",
-      "dialogue": "オラが、ですか？それは、無理ですだー…\\だってオラは、ペットショップでも、他の犬たちに\\負けてばっかりで…",
-      "char": "c017_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "shorter",
+      "fade_in": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "心配すんな。俺が勝たせてやるから。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "俺は、クーシーに手を伸ばした。",
+      "dialogue": "…？！",
+      "background": "bg164_f",
       "char": "none",
       "speaker": "none",
-      "screen_effect": "dark"
+      "screen_effect": "dialog_shake"
+    },
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "shorter",
+      "fade_in": "shorter"
     },
     "34": {
       "type": "talk",
-      "dialogue": "来い。\\お前の願い、俺が叶えてやる。",
+      "dialogue": "う、うおっ！なんだ？！\\この広くて快適そうな部屋は？！\\この広さ、俺の部屋…いや、この建物にもないぞ！",
+      "background": "bg086_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "shock"
     },
     "35": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ふふ～驚きました？\\ということなので\\モナの部屋は心配しなくて大丈夫です♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
     },
     "36": {
       "type": "talk",
-      "dialogue": "こうして、クーシーは俺のチャイルドになった。",
-      "background": "bg086_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "詳しいことは、\\サキュバスの、企・業・秘・密、で～す♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
     },
     "37": {
       "type": "talk",
-      "dialogue": "お嬢様は、幽霊たちに付きまとわれて、\\あの小道でシクシク泣いていたんですだー",
-      "char": "c017_01",
+      "dialogue": "すごいな！サキュバスが野宿するっていう話は\\聞いたことなかったけど…\\こういう秘密があったのか！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "38": {
       "type": "talk",
-      "dialogue": "オラ、守ってあげなきゃって思って…\\だから、ずっとお嬢様のそばにいたんですだー",
+      "dialogue": "それで…\\この押し入れに入っていた…俺の荷物は？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "39": {
       "type": "talk",
-      "dialogue": "でももう、いないみたいですだー…\\おうちに帰ったんかな？",
-      "char": "keep",
+      "dialogue": "…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "idle"
     },
     "40": {
       "type": "talk",
-      "dialogue": "…ああ。きっとそうだよ。",
-      "char": "c000_01",
+      "dialogue": "詳しいことは、\\サキュバスの、企・業・秘・密、で～す♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right",
+      "facial": "smile",
+      "before_effect": "go_to_right_slow"
     },
     "41": {
       "type": "talk",
-      "dialogue": "俺は、クーシーの頭を優しく撫でた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "そっかぁ…\\えへへ、オラ、なでなでされるの大好きですだー\\もっと撫でてくださぁい！ペロペロ♪",
-      "char": "c017_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "わ！おい、舐めるなって！くすぐった…\\ちょ、抱きつくな、倒れる…わぁっ！",
+      "dialogue": "…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "after_effect": "shake"
+      "facial": "serious"
     },
-    "44": {
+    "42": {
+      "type": "talk",
+      "dialogue": "捨てたな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

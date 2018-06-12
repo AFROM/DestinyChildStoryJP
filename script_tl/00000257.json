@@ -2,423 +2,227 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ね、おチビさん。\\ワタシが一番好きなもの、知ってる？",
-      "background": "dungeon_bg",
-      "bgm": "19",
-      "char": "c020_01",
-      "speaker": "same"
+      "dialogue": "じゃーん！特別に、あんたに見せてあげる！\\ダビが描いたんだよ！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "joy"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…俺が一番嫌いなこと、知ってる？\\チビって呼ばれることだよ！",
+      "dialogue": "ん？\\それは、何の絵だ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "superangry"
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あらあら♥",
-      "char": "c001_01",
+      "dialogue": "へぇ、すげーじゃん。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "confused"
     },
     "4": {
       "type": "talk",
-      "dialogue": "くそ…またかよ。\\たまにいるんだよな、こういう奴。",
-      "char": "c000_01",
+      "dialogue": "立派な…石？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ありゃ、ご機嫌損ねちゃった？\\わかったよ。今後は気を付けるね、おチビさん。",
-      "char": "c020_01",
+      "dialogue": "石！？違うよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "sulky",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…どこがだ！？",
+      "dialogue": "それじゃあ…\\黒い、海苔…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
+      "facial": "serious"
     },
     "7": {
       "type": "talk",
-      "dialogue": "まーまー。くだらない話はおいといて、\\ワタシの話を聞いてよ、おチビさん。",
-      "char": "c020_01",
+      "dialogue": "違う！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "cry",
+      "before_effect": "shake_weak"
     },
     "8": {
       "type": "talk",
-      "dialogue": "こいつ…絶対わざとだろ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "海苔でもない…\\だとすると…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "9": {
       "type": "talk",
-      "dialogue": "で…なんだっけ？\\お前の一番好きなもの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そう。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "…って言われてもなぁ…全然わからん。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "うふふ、あれこれ口うるさい割には\\自分のチャイルドの好みもわからないんですねぇ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "がっかりだなぁ、おチビさん。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "俺が悪いのか？お前みたいに気まぐれな奴が\\何を好きかなんて当てられるわけねーじゃん。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "モナはわかっちゃいましたよ～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "からかうために好き勝手言うだけだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "もう、ご主人様ったら♥\\モナはデキるサキュバスなんですよ～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…あー、そーですかー。\\んで？フォルトゥナが好きなモノってなんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "まだわからないんです？\\ヒントはたっぷりあるじゃないですか♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "へ？\\ヒントなんてあったか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "モナは俺の問いには答えなかった。\\ただフォルトゥナを指さし\\ニコニコ笑っているだけだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "俺はぶつくさ言いながら\\フォルトゥナを見てみたが…\\特にピンと来るものはない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "フォルトゥナはいつも通り煙管をくわえたまま\\サイコロを手の中で転がしている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "何がヒントだって…\\あ、もしかして…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ふふ、わかったようね、おチビさん。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "サイコロ…か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "フォルトゥナはサイコロを空中に弾きながら\\ニヤリと笑う。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どんな数字が出るかなんて誰もわからない。\\どう、おチビさん？アンタの運命を試してみる？",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "サイコロ占いか…それ、変な仕掛けとかないよな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "もちろん。正真正銘、ただのサイコロ。\\そして…すべてはこのサイコロ次第。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "でもなぁ…\\どんな数字が出ても、いい結果じゃなさそうだな。\\俺、運が悪い悪魔で有名だし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "まあ、物は試しよ。\\おしゃべりはやめて、行くわよ。いち、にい、さん！",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "フォルトゥナはサイコロを勢いよく床に投げた。\\コロコロと転がったサイコロが、俺の足元で止まる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "あら、ピンゾロじゃないですか♥\\ご主人さまの生涯でもう二度と出ないだろう\\運の良い数字！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "う、嘘だろ…幸運の数字だなんて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "いや、\\俺だっていつも運が悪いばかりじゃないはずだし！",
+      "dialogue": "あ、わかった！\\隕石に破壊された小惑星だ！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "facial": "joy"
     },
-    "37": {
+    "10": {
       "type": "talk",
-      "dialogue": "うふふっ♥",
-      "char": "c001_01",
+      "dialogue": "ち、がーう！\\このウスラトンカチ！\\わざと間違えてるんでしょ！？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "facial": "cry"
     },
-    "38": {
+    "11": {
       "type": "talk",
-      "dialogue": "なんだよ、俺の幸運を馬鹿にすんのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "…しかしこの違和感はなんだ？\\まるで、何か大事なことを見逃しているような…",
+      "dialogue": "ダビは頬を膨らませて、俺を睨む。\\だが、わざと間違えているつもりはない。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "40": {
+    "12": {
       "type": "talk",
-      "dialogue": "あー！！おい、これって！\\全部の面が1になってんじゃん！",
+      "dialogue": "俺には本当に、この絵が\\石か海苔にしか見えないのだ",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "モナ姉さま～！\\ご主人がダビをいじめるよ～！うわああん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "go_to_right_point"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あらあら、どうしたの？\\そんなに泣いて、可愛い顔が台無しよ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "before_effect": "enter_from_right_fast"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ふふ、なるほど。\\ご主人さまは、ダビが何の絵を描いたのか\\わからなかったんですね。",
+      "background": "bg021_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "before_effect": "shake_weak"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ダビ。その絵を、モナに見せてちょうだい？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "何の絵か当てようと頑張ったけどさー…\\こんなんじゃわかんねーよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
+      "facial": "confused"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "どれどれ…あら！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "これは、ご主人さまの肖像画じゃないですか♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "は？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "俺…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "どうしてそんなに驚いているんです？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "まさか本当にわからなかったんですか？\\こんなに精密に描かれているのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "精密？肖像画？\\これのどこが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
       "screen_effect": "dialog_shake"
     },
-    "41": {
+    "26": {
       "type": "talk",
-      "dialogue": "うふふふ♥",
+      "dialogue": "どこがって、\\どこからどうみてもご主人さまじゃないですか？\\それにしても、本当に上手に描けていますね～♥",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "tempt"
+      "facial": "pretense"
     },
-    "42": {
+    "27": {
       "type": "talk",
-      "dialogue": "うう…\\俺の純情をもてあそぶのがそんなに楽しいか…！？",
+      "dialogue": "…っていうか、ダビが俺の絵を描くなんて、\\珍しいこともあるもんだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "それは誤解だよ、おチビさん。\\ワタシのサイコロがほんのちょーっと特別なだけさ。ま、悪い気はしないだろ？",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "くそ…こんな占い、全然意味ねーじゃん…！\\待った、そのサイコロ、まさか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "ふと気づき、サイコロを拾おうとした瞬間。\\フォルトゥナが、\\横から素早くサイコロを拾いあげた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "ダメだよ。運命は、サイコロのみぞ知る、ってね。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "バカバカしい…\\いくら振ったって同じなくせに…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "それはどうかしらね、おチビさん。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "far"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "って、逃げるのかよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
       "facial": "confused"
     },
-    "50": {
-      "type": "talk",
-      "dialogue": "うふふ♥\\お客様の満足を一番に考える、\\親切な占い師さんでしたね、ご主人さま♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "どこがだ…！全然満足じゃないぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "52": {
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,119 +2,334 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様。どこに居るのですか、御主人様？\\…御主人様？",
-      "background": "bg086_f",
-      "bgm": "24",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "よし！いいカンジ！",
+      "background": "bg061_f",
+      "bgm": "19",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "2": {
       "type": "talk",
-      "dialogue": "このっ…早く出てきなさい、御主人様！",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "本当？よかったぁ。\\最近、ちょっと太ったから心配してたんだけどぉ。",
+      "char": "c233_00",
+      "speaker": "same_full"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…はぁ。また、逃げられてしまいましたか。\\一体どこに行ったんでしょう…？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "何言ってるの？アナタのスタイルは完璧よ。\\さ、ちょっと休んでまた撮影しましょ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "4": {
       "type": "talk",
-      "dialogue": "君の主人なら\\そこからコソコソと抜け出していったな。",
-      "char": "m192_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "それじゃ、\\私は静かな場所で日焼けでもしてこよっとぉ。",
+      "char": "c233_00",
+      "speaker": "same_full"
     },
     "5": {
       "type": "talk",
-      "dialogue": "は、はい…？血龍。\\なぜそれをもっと早く、言わなかったのですか…？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "あら？",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なぜ我がそんなことをしなければならない。\\そういうことは、下僕共の仕事だろう？",
-      "char": "m192_01",
+      "dialogue": "どうもー。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はぁ…あなたに聞いた、私が間違いでしたね。",
-      "char": "c002_01",
-      "speaker": "same",
+      "dialogue": "もう会えないと思ってたのにぃ。",
+      "char": "c233_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "それよりだ、リザ。あの悪魔の代わりに\\我に仕える気はないか？",
-      "char": "m192_01",
+      "dialogue": "偶然、通りかかったんだ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "いい取引だと思うぞ。\\魔王になるのは、我に決まっているからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "偶然…この海辺を？",
+      "char": "c233_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そうですか。それはとても魅力的な提案ですね。",
-      "char": "c002_01",
+      "dialogue": "あ、ああ…問題あるか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "しかし生憎ですが、私はハズレると分かっている\\賭けには乗らない主義ですので。",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "まさかぁ。",
+      "char": "c233_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "12": {
-      "type": "talk",
-      "dialogue": "ただ…そのあふれる自信の半分程度は、\\御主人様にも分けて欲しいぐらいですね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そんなこと、ほぼ不可能だと思いますけど…はぁ",
-      "char": "keep",
+      "dialogue": "アルゲースの契約者は\\ご主人様に好感を持っています。\\再契約を交わすのに有利な状況です。",
+      "background": "bg086_f",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そのクールな知性と、実直さ…素晴らしい。\\君がますます欲しくなってきたぞ。",
-      "char": "m192_01",
+      "dialogue": "ただ子供扱いされてる気が…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near"
+      "screen_effect": "gray"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そのようなご評価は、光栄ですが…",
+      "dialogue": "素敵な男性がたくさんいる中で、あえてご主人様に\\サンオイルを塗ってほしいと頼むのは",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "16": {
       "type": "talk",
-      "dialogue": "今回はご縁がなかったということで。\\ふふ、まあそれでも…少々嬉しかったとは\\言っておきます。",
+      "dialogue": "間違いなくご主人様に下心があるからです。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense"
+      "screen_effect": "gray"
     },
     "17": {
+      "type": "talk",
+      "dialogue": "《あえて》って言葉、付けなきゃダメか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "screen_effect": "gray"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "とにかく、初めて出会った場所に戻って\\再契約を結びましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "そこで撮影しているようですから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "というわけで、ここに来た…\\なんて口が裂けても言えない。",
+      "background": "bg061_f",
+      "char": "none",
+      "speaker": "none"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "撮影の時、男がわんさか見学してたな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "私は自分の仕事をこなしてるだけだよぉ。",
+      "char": "c233_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それよりこの女…\\俺の知ってる誰かに似てる気がする…\\誰だっけ？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "何をジロジロ見てるのぉ？",
+      "char": "c233_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あ、いや。何でもない。\\今日も日焼けか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "んー、どうしよぉ。\\オイルを塗ってくれる人がいたら\\日焼けを楽しみたいんだけどぉ。",
+      "char": "c233_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "それなら心配ないだろ。あそこでこっちを見てる\\男の群れから選んで頼めばいい。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "私はアナタに塗ってほしいのにぃ。\\この前塗ってくれた時、上手だったわよぉ。",
+      "char": "c233_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "お、俺が何を…\\あの時は仕方なく塗ってやったけど\\今日はダメだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "じゃあ、このまま帰っちゃうのぉ？\\難しいお願いでもないでしょお？",
+      "char": "c233_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "そう言うな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "お願い、可愛いご…",
+      "char": "c233_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "うわっ！我慢できん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_left_point"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "あら、本当に行っちゃったわねぇ。仕方ない。",
+      "char": "c233_00",
+      "speaker": "same_full"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ま、いつかまた会えるわよね♥",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そこのステキなお兄さん、\\ちょっと手伝ってくれなぁい？",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "38": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "はあ、はあ…あの契約者、もう二度と会うもんか！",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "契約者に会わないですって～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "toonear"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "うわああああっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "モナってそんな怖い顔してますかぁ？それとも…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "そ、それとも…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "モナのこと考えてたんですか～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "…やっぱり似てる。モナとアルゲースの契約者…\\うう…恐ろしい女たちめ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

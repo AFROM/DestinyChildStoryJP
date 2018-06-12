@@ -2,278 +2,273 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リザ…ほら見てみろ。天使が笑ってる。\\あれ？俺について来いって言ってるぞ。",
+      "dialogue": "モナ！勝手に人間に会うなって言っただろ？",
       "background": "bg086_f",
-      "bgm": "31",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
-      "facial": "smile",
       "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "幻覚に幻聴まで…完全に風邪ですね。\\当分の間、この部屋は隔離するべきでしょう。",
-      "char": "c002_01",
+      "dialogue": "怒られてモナは悲しいです。\\ご主人さまの仕事を減らしてあげようと\\思っただけなのに…",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "家中にウイルスを\\ばらまくわけにはいきませんからね。\\ご理解下さい、御主人様。",
-      "char": "keep",
+      "dialogue": "お前さ、毎日主人、主人ばかりで\\俺のやりたいように\\させてくれたことないじゃないか。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ハハ…リザの背中に羽があるや。\\まるで天使みたいだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c002_01",
+      "dialogue": "じゃあ、これからはずーっと、\\ご主人さまがやりたいようにしてください♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "5": {
+      "type": "talk",
+      "dialogue": "それも口だけだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "でも、リザ。\\ご主人さまを隔離しちゃったら\\誰が看護をするの？",
+      "dialogue": "あら、そんなに信じられないですか？\\なら、これからモナは\\ご主人さまのことに一切関与しません。",
       "char": "c001_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そ、それは…",
-      "char": "c002_01",
+      "dialogue": "だから、ご主人さまがやりたいように\\やってくれてかまいません。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "やっぱりこういうことは、\\最初に言いだした人がやるべきよね？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "んー…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そ、そんな、無理矢理こじつけないで下さい！",
-      "char": "c002_01",
+      "dialogue": "その代わり！モナがいない一週間で、\\チャイルドを10人集めること！",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "shy"
+      "distance": "near"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あら、リザ。\\エリート補佐官が、この程度で泣き言かしら？",
-      "char": "c001_01",
+      "dialogue": "じゅ、10人…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "serious"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "泣き言なんて言ってません！\\ですが私でなくても看護は…！",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "shy"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そういうことなら、私がやるわ。",
-      "char": "c041_01",
+      "dialogue": "どう考えてもいいアイディアだ。\\そうだろ？アンプル。",
+      "background": "bg054_f",
+      "bgm": "20",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "left",
+      "facial": "pretense"
     },
     "13": {
       "type": "talk",
-      "dialogue": "え、ティアマト？\\あなたが御主人様の看護を…？",
-      "char": "c002_01",
+      "dialogue": "果たして…いいアイディアでしょうか？",
+      "char": "m063_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "なにその目。\\信用できないって言いたいの？",
-      "char": "c041_01",
-      "speaker": "same"
+      "dialogue": "アンプルの樹液は万病に効く薬だから\\大人気になるはずだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ええ。\\正直…信頼できるチャイルドではありませんね。\\厄介者、そう呼ぶのが適切かと。",
-      "char": "c002_01",
+      "dialogue": "これで悪魔信者をかき集めて\\平和に契約を結べば万事解決！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ふふ…可愛らしいサキュバスは\\言うことも可愛いのね。いじめちゃおうかしら？",
-      "char": "c041_01",
+      "dialogue": "そうだろう？モナもここまでは考えなかったはずだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あ、ティアマト、目からバチバチ火花が出てる。\\すげぇー。",
-      "char": "c000_01",
+      "dialogue": "…悪魔信者なら問題ないかもしれません…",
+      "char": "m063_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "今度は幻覚じゃないみたいね。\\女の闘い勃発って所かしら？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "え？副作用のない栄養ドリンク無料体験サービス？\\悪魔様がここで何をしているのですか？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あなたが看護だなんて信じられません。\\どうせ御主人様に害を成すに決まっています。",
-      "char": "c002_01",
+      "dialogue": "これ、この契約者にサインさえすれば万病に効く薬\\アンプルの栄養ドリンク無料サービス！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "joy"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そう、ならアナタがやりなさいよ。\\その無表情がトロけるのを\\眺めるのも悪くなさそうだしね。",
-      "char": "c041_01",
-      "speaker": "same"
+      "dialogue": "何だ、タダじゃないのか！\\魂を売って栄養ドリンクを買えって？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "21": {
       "type": "talk",
-      "dialogue": "たしかに、ご主人様に熱烈看護を\\しちゃってるリザも見てみたいわね♥",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "え…で、でも損はしないし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "22": {
       "type": "talk",
-      "dialogue": "う、うるさいですよ、モナ！",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "shy"
+      "dialogue": "当然、サインしなきゃ！\\悪魔様のチャイルドになるのは\\名誉なことです！",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "23": {
       "type": "talk",
-      "dialogue": "と、とにかくティアマト、\\やはりアナタは信じられません。\\お引き取りを。",
-      "char": "keep",
+      "dialogue": "おお！本当か？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "では、ご主人様の看護は、私が引き受けよう。",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ささ、早く片づけましょうよ！\\ここにサインすればいいんですよね？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…ふん。好きにすればいいわ。",
-      "char": "c041_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "それから栄養ドリンク！この瓶に入っている\\緑色の液体を飲めばいいんですか？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "26": {
       "type": "talk",
-      "dialogue": "トート、アナタなら信じられます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…簡単に信じない方がいいんじゃない？\\その仮面の下に\\どんな凶悪な顔が隠れているやら。",
-      "char": "c041_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…悪いが、私を低俗な争いに\\巻き込まないでくれないか。",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "フフ…ただの軽い冗談じゃない。\\もしかして高貴なお方には難しすぎたかしら？",
-      "char": "c041_01",
-      "speaker": "same"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "トートー、ティアマトとケンカ中？\\2人とも目から火花が出てるー。",
+      "dialogue": "そうそう。\\なんだかスムーズに行き過ぎな気が…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "smile"
     },
+    "27": {
+      "type": "talk",
+      "dialogue": "これなら10人じゃなくて20人は契約できそうだ！\\だろ？アンプル。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "あ、栄養ドリンクとの併用は副作用にご注意ください。",
+      "char": "m063_01",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "何だって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "え、もう飲んじゃったけど…",
+      "char": "none",
+      "speaker": "unknown1"
+    },
     "31": {
       "type": "talk",
-      "dialogue": "あら、幻覚は治ったようですね？\\そうですよ、バチバチ火花が散ってます♥",
-      "char": "c001_01",
+      "dialogue": "そんな…",
+      "char": "m063_01",
       "speaker": "same"
     },
     "32": {
-      "type": "talk",
-      "dialogue": "ご主人様は私が看護しよう。\\だからそちらこそ\\そんな怖い顔はやめてくれないか？",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "あらこの美貌にずいぶんね…\\ところでアナタ。私と力比べでもしてみない？",
-      "char": "c041_01",
-      "speaker": "same"
+      "dialogue": "すごいわ、ご主人さま！チャイルドを集めに出て\\被害補償請求書を持ってくるなんて…",
+      "background": "bg086_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
     },
     "34": {
       "type": "talk",
-      "dialogue": "ああ、望むところだ。",
-      "char": "c154_01",
+      "dialogue": "どうして副作用があるって言わなかったんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "35": {
       "type": "talk",
-      "dialogue": "はあ…御主人様の看護は私が引き受けます。\\ま、まあ、これはこれで…？",
-      "char": "c002_01",
+      "dialogue": "悪魔には特効薬ですが\\人間にとっては致命的な毒なのです。",
+      "char": "m063_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "先にかかってきなさい。高貴なトート様。",
-      "char": "c041_01",
+      "dialogue": "でも悪魔信者は少し紛らわしくて…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "レディーファーストだ。\\どうぞお先に、冗談が上手いティアマトさん。",
-      "char": "c154_01",
+      "dialogue": "そういうのは先に言ってくれ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "sigh"
     },
     "38": {
-      "type": "talk",
-      "dialogue": "でも…感謝する必要はなさそうですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
-    },
-    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,92 +2,91 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人さま。本当に、あの相手と契約したんですね。",
+      "dialogue": "うむ。\\君の部屋は、とても居心地がいいな。",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "bgm": "19",
+      "char": "c132_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…ああ。",
+      "dialogue": "本当にそう思ってるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "もちろん。この狭さといい、\\ひしめき合って配置された家具といい、とても生活感があるよ。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "この部屋が気に入ったなら、あげるけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そうかね？\\なるほど…だがその前に、手をちょっと…",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…はぁ。素直に「汚い部屋」って言えばいいだろ。\\難しいこと言わないでさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "はは。まあ正直、私の好みではないな。\\しかし、居心地がいいというのは事実だよ。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "何というか…\\君は、私と同じことを考えていそうだからね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "同じこと？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "3": {
-      "type": "talk",
-      "dialogue": "信じられません。\\ホント…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "teach"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "はは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ホ～ント悪魔らしくなってきましたね～♥\\さすがご主人さまです♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "tempt"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "…そう言うと思った。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "アシュトレスとの契約は不本意だったし、契約の詳細は話さないつもりだったけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "結局モナに問い詰められて話してしまった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "《人間の未来がどうなろうと俺の知ったことか！\\誰にも俺の邪魔はさせない！》",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "angry"
-    },
     "10": {
       "type": "talk",
-      "dialogue": "…とでも言ったところでしょうか？",
-      "char": "keep",
+      "dialogue": "「カルペ・ディエム」…\\今を生きろという意味だよ。",
+      "char": "c132_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "distance": "near"
     },
     "11": {
       "type": "talk",
-      "dialogue": "やっと魔王になるための自覚に目覚めたのですね～♥",
+      "dialogue": "明日を考えず、怠惰をむさぼる。\\その点が私と似ていると思ったんだ。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
@@ -95,283 +94,283 @@
     },
     "12": {
       "type": "talk",
-      "dialogue": "魔王にはならないよ。\\あの日の俺はどうかしてた…",
+      "dialogue": "かなり遠回しだけど、\\すごいこと言ってくるな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "まぁまぁ、そんなことおっしゃらずに♥\\モナと立派な魔王を目指しましょうね、ご主人さま♥",
-      "char": "c001_01",
+      "dialogue": "まあ、私には「怠惰」よりは「余裕」という言葉が\\相応しいけどね。",
+      "char": "c132_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "やっぱり、言うんじゃなかった…",
+      "dialogue": "言っとくけどさ…\\お前が思ってるほど俺は怠け者じゃないよ。\\お前みたいに、\\余裕ブッこいてる暇すらないんだ。",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "サキュバスたちは、\\1件でも多くの契約を結んで来いってうるさいし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ポストには後から後から請求書が届くし。\\部屋が散らかってるのは、俺が忙しいって証拠だよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "irritation"
     },
-    "15": {
+    "17": {
       "type": "talk",
-      "dialogue": "ところで、ご主人さまは、アシュトレスについてどうお考えですか？",
-      "char": "c001_01",
+      "dialogue": "別に、怠けてるのは罪じゃない。\\恥ずかしがることはないんだよ？",
+      "char": "c132_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "16": {
+    "18": {
       "type": "talk",
-      "dialogue": "どうって…\\アシュトレスは悪魔の力によって増幅された人間の欲望そのもの…だろ。",
+      "dialogue": "私が思うに、君はまだ完全に人生を諦めていない\\ようだね。もっと果敢に、暮らしを捨てなくては。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "それって…\\すっごく誤解されやすい発言だと思わない？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "17": {
-      "type": "talk",
-      "dialogue": "そうですね～♥\\彼女ほど、魔王に相応しいチャイルドはいませんからね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "や、やめろよ。そういう言い方。\\ただでさえ、契約したことを後悔してるんだから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "unfair"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "友達が悪魔と契約してるところを見て、\\自分も契約したいなんて言い出すようなヤツと契約したなんて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
     "20": {
       "type": "talk",
-      "dialogue": "ご主人さまが後悔なんて、アシュトレスがかわいそうですよ？\\それにあの子は生まれてきたことを、感謝しているかもしれませんよ？",
-      "char": "c001_01",
+      "dialogue": "そうかい？\\もしかすると明日、車にひかれるかもしれない。",
+      "char": "c132_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "どうだか…",
+      "dialogue": "あるいは、大スターになるかもしれない。\\それは誰にも分からないことだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "極端すぎる…\\もうちょっと、現実的な例えを挙げようよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "distance": "normal",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "…なあ、アシュトレス。\\ちょっといいか？",
-      "background": "dungeon_bg",
-      "bgm": "24",
-      "char": "c000_01",
+      "dialogue": "何をしたところで、時間は勝手に流れていくんだ。\\君はもう少し、心に余裕を持ったほうがいい。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "あら、ご主人様。どうかなさいました？",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "お前さ…\\俺のチャイルドになったこと、どう思ってる？",
+      "dialogue": "俺のサキュバスたちにも、そう伝えてもらえる？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "26": {
+    "25": {
       "type": "talk",
-      "dialogue": "フフッ。もちろん嬉しく思っていますよ？\\ご主人様には感謝しておりますわ。",
-      "char": "c194_01",
+      "dialogue": "ふむ、サキュバスたちか。\\そういえば、リザというサキュバスは\\非常にお堅いようだね。",
+      "char": "c132_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "26": {
+      "type": "talk",
+      "dialogue": "おお、その辺は気が合いそうだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
     "27": {
       "type": "talk",
-      "dialogue": "…モナの言った通りか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "まあ、私には関係ないことだがね。\\実際、君が一生懸命生きようと生きまいと\\私にはどうでもいいことだ。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ご主人様と出会えたからこそ、私の願いを叶える方法が見つかったのです。",
-      "char": "c194_01",
+      "dialogue": "たとえ君が魔王になったとしても、\\それもまた、私には関係ない。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ああ、早く魔王になりたいわぁ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "またそれか。\\…お前、本気で魔王になりたいのか？",
+      "dialogue": "はぁ…そうかよ。お前と同じぐらい、\\リザも無関心でいてくれればいいんだけどな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そのリザというサキュバスだけどね…\\今、君の後ろで、歯ぎしりしてるよ？\\私とは関係ないことだが。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "フフッ、当然ですわ。\\できることなら、この願いはご主人様に叶えていただきたいのですが…",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "仮に俺が魔王だとしても、さすがにその願いは叶えてやれないな。",
+      "dialogue": "そう、それ。\\リザもそういう無関心な態度…え？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "after_effect": "shake",
+      "facial": "smile"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "よくわかっているね。\\だから、リザというサキュバスが…",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "がっかりですわ、ご主人様。いっそ、\\俺が魔王になりたいからだっておっしゃって。",
-      "char": "c194_01",
+      "dialogue": "御主人様。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near",
+      "facial": "irritation"
     },
     "34": {
       "type": "talk",
-      "dialogue": "そんなこというか！\\お前みたいな子供に、魔王なんて\\任せられないからだ。",
-      "char": "c000_01",
+      "dialogue": "…と呼んでも、私には関係ないことさ。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
+      "pos": "right",
+      "distance": "normal"
     },
     "35": {
       "type": "talk",
-      "dialogue": "子供…？",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ああ。そうだ。\\そんな風に駄々をこねて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "危ないからダメと言われてるのに聞き分けのない、\\わがままな子供だ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "駄々をこねているわけでは…\\私は本気で魔王に…",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "本当にそうか？\\お前の契約者が友達の真似をして契約したみたいに、お前も俺の真似をしたいだけじゃないのか？",
+      "dialogue": "ちょっと待った。これ、空耳じゃないよな？\\今、リザの声がすごくハッキリ聞こえたんだけど。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "angry"
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "私のお世話が気に障ったのでしたら、\\誠に申し訳ありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "げっ…本物じゃん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ところで、どうしましょう？\\こう見えて、私はとても執着する性格なんです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "御主人様がそのようにおっしゃるなら…\\さらにやる気が出て参ります。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "40": {
       "type": "talk",
-      "dialogue": "そんなことは…",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "とにかく、生半可な気持ちで魔王になりたいだなんてもう言うなよ？",
+      "dialogue": "いや、ちょっとそれは…\\あの、そのやる気は、\\今出さなくていいから。な？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "正確には「御主人様の怠惰」に対するやる気です。\\さあ、その性根を叩き直すとしましょうか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "one_ani": "attack"
     },
     "42": {
       "type": "talk",
-      "dialogue": "次、言ったら本気で怒るぞ。\\分かったな？",
-      "char": "keep",
+      "dialogue": "降参、降参です！！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "cry",
+      "before_effect": "shake"
     },
     "43": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "44": {
       "type": "talk",
-      "dialogue": "この私が子供だなんて…\\ご主人様の目は節穴のようですね。",
-      "background": "dungeon_bg",
-      "char": "c194_01",
+      "dialogue": "ふふ…潔く敗北を認めるその姿…\\本当、気に入ったよ。",
+      "char": "c132_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
+      "distance": "normal",
       "one_ani": "attack"
     },
-    "45": {
-      "type": "talk",
-      "dialogue": "でもそんな愚かなところが、ご主人様の魅力なのかもしれないけど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "46": {
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

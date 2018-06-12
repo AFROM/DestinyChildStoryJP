@@ -2,172 +2,256 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハーイ、赤鼻のお友達。話は聞いてるわ。\\アナタが本物のルドルフのチャイルドよね？",
-      "background": "bg046_f",
-      "bgm": "17",
-      "char": "c246_01",
+      "dialogue": "お兄ちゃーん♥",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c258_01",
       "speaker": "same",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "one_ani": "attack"
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ハーイ…クラン…プス",
-      "char": "m217_01",
+      "dialogue": "何だ？急に甘えてくるなんて。\\お前何かたくらんでるだろ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ワタシは…ニコルのそり…ひき…僕を…信じて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "信じる？そういえば、アナタも私も、可愛い\\ルドルフ君も、みーんな嘘つきしかいないわね。",
-      "char": "c246_01",
+      "dialogue": "そ、そんなことないよ！\\ただ、お兄ちゃんに聞いてほしいお願いがあるだけ！",
+      "char": "c258_01",
       "speaker": "same",
       "pos": "right"
     },
+    "4": {
+      "type": "talk",
+      "dialogue": "お願い？…ってどんなお願いだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "5": {
       "type": "talk",
-      "dialogue": "おっと、前のご主人様もそうだった！",
-      "char": "keep",
+      "dialogue": "ピクシーのお願い聞いてくれるの！？",
+      "char": "c258_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ねえ、知ってる？私の昔のご主人様って\\たくさん嘘をついたせいで",
-      "char": "keep",
+      "dialogue": "いや、だからまず、どんな願いなのか聞いてから…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "嘘と現実の区別がつかなくなったのよ。",
-      "char": "keep",
+      "dialogue": "ふわああん！\\お願い聞いてくれないの！？",
+      "char": "c258_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "でも私は幸い、自分の嘘に騙されなかった。\\早い段階で気づいたの。",
-      "char": "keep",
+      "dialogue": "うわっ！わ、わかった！\\聞く！聞くから泣くなって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "9": {
       "type": "talk",
-      "dialogue": "みんなが求めている、純粋で可愛らしい\\クリスマスの妖精にはなれないってことをね。",
-      "char": "keep",
+      "dialogue": "ほんと！？\\へへへ。じゃあ、これ受け取って。",
+      "char": "c258_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "別にいいわ。初めからそんなもの、なりたいとも思ってないし。",
-      "char": "keep",
+      "dialogue": "これ…手紙か？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "それでアナタは本当に\\《真っ赤なお鼻のトナカイ》になりたいの？",
-      "char": "keep",
+      "dialogue": "うん！\\ママに渡しておいて！",
+      "char": "c258_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ワタシは…ソリ引き…ワタシの望みは…ソリを…引くこと…？",
-      "char": "m217_01",
+      "dialogue": "ママに…か。\\何が書いてあるんだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "僕の願い、は…ニコル…ニコルを…",
-      "char": "keep",
+      "dialogue": "ナイショ！\\ママに書いた手紙なんだから、\\お兄ちゃんは読んじゃダメだからね！",
+      "char": "c258_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ああっ…あ…ううっ…",
-      "char": "keep",
+      "dialogue": "わ、わかってるよ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake"
+      "facial": "sigh"
     },
     "15": {
-      "type": "talk",
-      "dialogue": "あら、あまり無理しない方がいいわよ。",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "可哀想な子。契約の途中で\\欲を失っちゃったのね。",
-      "char": "keep",
+      "dialogue": "…「わかってる」とは言ったものの、\\ダメと言われると余計に見たくなるんだよな。\\ちょっとくらいなら…",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "欲を…失う…？",
-      "char": "m217_01",
+      "dialogue": "外道ですね。\\子供相手に嘘をつくなんて…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "チャイルドにとっては最悪な知らせね。\\私たちは契約者の欲望で生まれた存在だから。",
-      "char": "c246_01",
+      "dialogue": "うわっ！\\お、驚かすなよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
     },
     "19": {
       "type": "talk",
-      "dialogue": "確かに、昔のことすぎて\\契約者の欲なんて忘れちゃったけど。",
+      "dialogue": "俺はてっきり、\\悪魔らしいって\\褒めてくれると思ったんだけどな…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "pretense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "欲…覚えて、ない…願い…なんだっ、け…",
-      "char": "m217_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "一日でも早くアナタの欲を見つけてね。\\でないと…ゴミのように、フーッ！",
-      "char": "c246_01",
+      "dialogue": "褒めるに値しない、幼稚な行為です。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "ま、まあ、確かに、\\子供の手紙を覗き見するなんて\\情けないかもしれないけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "消えちゃうかもよ♥",
+      "dialogue": "でも、これはピクシーがママに書いた手紙だろう？\\どんな内容かぐらい知っておかないと、\\主人としてはいけないだろう？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "新しい願い…見つけたい…\\ワタシの…本当の、望み…",
-      "char": "m217_01",
+      "dialogue": "はいはい。\\お好きになさってください。",
+      "char": "c002_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "facial": "serious"
     },
     "24": {
+      "type": "talk",
+      "dialogue": "な、なんだよ？\\とりあえず、さっそく読んでみるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ママ、お元気ですか？\\嘘つきなおじさん悪魔に捕まって、毎日怖くて大変だけど、ピクシーは元気です。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "おいおい。\\まさか、嘘つきなおじさん悪魔って…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "状況から察するに、\\御主人様を指しているようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "子供ってさ、想像力豊かだよね…\\さ、続き続き。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "毎日怖くて大変だけど、ピクシーは元気です。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "特に大変なのは、\\嘘つきなおじさんが毒の入った食べ物を\\無理やり食べさせようとすることです。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "こちらは、御主人様が偏食するピクシーに、\\無理やりピーマンを食べさせようとしたことを示しているようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "毒って…\\俺はただピクシーが元気に大きく育つようにと思ってやってたのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "親の心子知らずとはよく言ったものですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

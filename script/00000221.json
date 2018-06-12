@@ -2,233 +2,274 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様、そろそろ起床のお時間です。",
-      "background": "bg086_f",
+      "dialogue": "いろいろありましたが、イブ様は私たちに協力してくださるそうです！",
+      "background": "bg089_f",
       "bgm": "9",
       "char": "c002_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "idle"
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "108304032"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はぁ？今何時だよ…？\\って…まだ朝の6時じゃん…！",
-      "char": "c000_01",
+      "dialogue": "ですが、別の問題が…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "108304033"
     },
     "3": {
       "type": "talk",
-      "dialogue": "もう6時なんですよ。\\早起きは三文の徳というでしょう？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "dialogue": "問題？",
+      "char": "c000_01",
+      "pos": "left",
+      "voiceid": "108304034"
     },
     "4": {
       "type": "talk",
-      "dialogue": "俺にとっては\\寝てる方がよっぽど得なんだっつーの…！",
-      "char": "c000_01",
+      "dialogue": "おい、ネヴァン！ここから動くつもりがないだと！？ふざけるのもいい加減にしろ！",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108304035"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ふむ…",
-      "char": "c002_01",
+      "dialogue": "それとも何か？\\お前、この家で暮らすつもりなのか！？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "center",
+      "one_ani": "attack",
+      "voiceid": "108304036"
     },
     "6": {
       "type": "talk",
-      "dialogue": "差し出がましいようですが、\\損得ではなく、自分を律することも大切ですよ。",
-      "char": "keep",
+      "dialogue": "だって私、その「スーパールーキー」とかいう悪魔に殺されちゃうかもしれないんですよ…\\フレイ様は私がどうなってもいいと言うんですか？",
+      "char": "c048_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "center",
+      "one_ani": "attack",
+      "voiceid": "108304037"
     },
     "7": {
       "type": "talk",
-      "dialogue": "たまには新しい習慣を取り入れてみるのも\\いいのではないでしょうか？",
+      "dialogue": "ホント最っ低、なんて無責任なの！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "voiceid": "108304038"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あああああー、もう！\\小言をほざく以外に芸はないのか、お前は！？",
-      "char": "c000_01",
+      "dialogue": "どこにいようと、危険は変わらないだろうが！",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake_weak"
+      "pos": "center",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108304039"
     },
     "9": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "お前でも囮くらいは務まる！\\俺のためにその悪魔をおびき出す大役を果たせ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "108304040"
     },
     "10": {
       "type": "talk",
-      "dialogue": "どうしてあんなに怒るのでしょう…",
-      "background": "bg089_f",
-      "char": "c002_01",
+      "dialogue": "リザも一緒に付いて来てくれるよな？\\俺のサポーターとして。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
+      "pos": "center",
+      "voiceid": "108304041"
     },
     "11": {
       "type": "talk",
-      "dialogue": "2番目の御主人様は、気難しいですね…",
-      "char": "keep",
+      "dialogue": "面白い冗談ですね。\\まったくもって笑えませんが。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "irritation"
+      "facial": "serious",
+      "voiceid": "108304042"
     },
     "12": {
       "type": "talk",
-      "dialogue": "まあ、同じ失敗は繰り返せません。\\このことはノートにメモしておきましょう。",
-      "char": "keep",
+      "dialogue": "冗談なんかじゃない…\\大真面目だ。",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "center",
+      "voiceid": "108304043"
     },
     "13": {
       "type": "talk",
-      "dialogue": "《2番目の御主人様についての記録、その1》\\・成長を促すべく助言したが、逆効果だった。",
-      "char": "keep",
+      "dialogue": "はぁ～…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "facial": "irritation",
+      "voiceid": "108304044"
     },
     "14": {
       "type": "talk",
-      "dialogue": "《今後の方針》\\・口頭ではなく、実地指導とするべきだろう。",
-      "char": "keep",
+      "dialogue": "まだリザのこと諦めてないのか。\\ある意味、尊敬するな。あのしつこさ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "108304045"
     },
     "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "まあ、いいでしょう。一緒に行かせて頂きます。\\ただし…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "108304046"
     },
     "16": {
       "type": "talk",
-      "dialogue": "御主人様、起きてください。\\今日は、御主人様におすすめの勉強法を\\用意したんです。",
-      "background": "bg086_f",
-      "char": "c002_01",
+      "dialogue": "フレイ様はちゃんと本気を出してください。\\そして、御主人様と共に戦ってもらいます。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "distance": "near",
+      "facial": "smile",
+      "voiceid": "108304047"
     },
     "17": {
       "type": "talk",
-      "dialogue": "どうしました、変な顔をして？\\大丈夫ですよ。きっとお気に召すと思います。",
-      "char": "keep",
+      "dialogue": "う、ううむ…",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "voiceid": "108304048"
     },
     "18": {
       "type": "talk",
-      "dialogue": "映像を見るだけですし、\\御主人様の趣味に合っているはずですので。",
-      "char": "keep",
+      "dialogue": "何か問題でも？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "voiceid": "108304049"
     },
     "19": {
       "type": "talk",
-      "dialogue": "先輩方の堂々とした姿を見れば、\\頭ではなく、心で理解出来ることでしょう。",
-      "char": "keep",
+      "dialogue": "本気を出すのはかまわない。\\しかし、なぜ俺がこいつを手伝わなければいけない？",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "voiceid": "108304050"
     },
     "20": {
       "type": "talk",
-      "dialogue": "いえ、御主人様は既に\\その効果をご理解なさっているのかも…\\よく画面をご覧になってますし…",
-      "char": "keep",
+      "dialogue": "フレイ様は強い悪魔。\\ですが、まだ前回の負傷から回復しきっていません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108304051"
     },
     "21": {
       "type": "talk",
-      "dialogue": "一体なんだよ？…\\まあいいや、見せてよ。",
-      "char": "c000_01",
+      "dialogue": "御主人様と共に戦えば、戦力バランスが取れるはず\\です。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "voiceid": "108304052"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ちょっ、これ！\\映画じゃん！",
-      "char": "keep",
+      "dialogue": "…フン、誰が回復していないだと？",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "voiceid": "108304053"
     },
     "23": {
       "type": "talk",
-      "dialogue": "映画「祓魔師」です。\\悲しい終わりを迎えましたが…\\実に勇敢な方でした…",
+      "dialogue": "やせ我慢と虚勢はフレイ様の数少ない特技ですが、\\今は不要です。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense"
+      "voiceid": "108304054"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ぎゃあああっ！怖いっ！！\\もう止めてくれ～！",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c051_02",
       "speaker": "same",
-      "distance": "near",
-      "facial": "shock",
-      "before_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "voiceid": "108304055"
     },
     "25": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "26": {
       "type": "talk",
-      "dialogue": "今日の授業は大きな効果を上げる事ができました…\\しかし、外出してくれたのは良いですが、帰って来ませんね…",
-      "background": "bg089_f",
+      "dialogue": "ネヴァン。生命の橋で会ったとき、あなたは私に何と言ったか、覚えていますか？",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "voiceid": "108304056"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "108304057"
     },
     "27": {
       "type": "talk",
-      "dialogue": "これからの方針は、\\「無理をしない」とするべきかもしれません。",
-      "char": "keep",
+      "dialogue": "「フレイ様を助けて」――そう言ったんです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "108304058"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ふふふっ…\\もう、世話の焼ける子たちね～♥",
-      "char": "c001_01",
+      "dialogue": "そして実際にフレイ様とお会いして、確信しました。今のフレイ様は全力で戦える状態ではない、と。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right",
+      "voiceid": "108304059"
     },
     "29": {
+      "type": "talk",
+      "dialogue": "フレイ様がイブ様と出会った時、戦闘にならなかったのが、その証拠です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108304060"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "黙って御主人様の家までやって来たのもそれが理由でしょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108304061"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c051_02",
+      "speaker": "same",
+      "voiceid": "108304062"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "<color=999999>フレイ様はきっと大怪我を負っている。\\<color=999999>説得を続ければ必ず折れるはず…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dark",
+      "voiceid": "108304063"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

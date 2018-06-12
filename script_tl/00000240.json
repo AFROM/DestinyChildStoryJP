@@ -2,332 +2,1001 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "こんにちは、ディーノです。\\今日は悪魔様のために努力してみたいと思います。",
-      "background": "bg086_f",
-      "bgm": "20",
-      "char": "c011_01",
+      "dialogue": "チャイルドどもめ、こぞって逃げおったか。\\どういうつもりだ？",
+      "background": "bg024_f",
+      "bgm": "9",
+      "char": "c024_01",
       "speaker": "same",
-      "screen_effect": "dark"
+      "pos": "right",
+      "sound": "se_summon",
+      "voiceid": "108804053"
     },
     "2": {
       "type": "talk",
-      "dialogue": "全部聞こえてるのに、何呟いてるんだ？\\",
+      "dialogue": "どういうつもりも何も…\\あんなひどい扱いを受ければ逃げたくもなるだろう。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "108804054"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ホントね♥\\",
-      "char": "c001_01",
+      "dialogue": "腹立たしい…\\我が麾下の一兵として戦う以外、何ら価値を持たぬ分際で！",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108804055"
     },
     "4": {
       "type": "talk",
-      "dialogue": "悪魔様をお助けするのに一番必要なのは何でしょう？それは、生活環境の改善だと思います。",
-      "char": "c011_01",
+      "dialogue": "下賤な能なしの輩どもめ、俺から受けた恩を忘れおったか…！",
+      "char": "keep",
       "speaker": "same",
-      "screen_effect": "dark"
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "108804056"
     },
     "5": {
       "type": "talk",
-      "dialogue": "間違ってはいないな。\\",
+      "dialogue": "まさか、普段からそんな風にチャイルドたちを叱り飛ばしてたんじゃないだろうな？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "108804057"
     },
     "6": {
       "type": "talk",
-      "dialogue": "それでは、生活環境の改善とは一体何なのか。\\私が思うに、掃除だと思います。",
-      "char": "c011_01",
+      "dialogue": "王に臣下を叱責する権利がないと申すか？",
+      "char": "c024_01",
       "speaker": "same",
-      "screen_effect": "dark"
+      "pos": "right",
+      "voiceid": "108804058"
     },
     "7": {
       "type": "talk",
-      "dialogue": "これからはディーノが掃除をしてくれるのかしら？\\そういえば、今朝何かしてたわね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "はい！今朝悪魔様のお部屋をお掃除しました。\\ゴミのようなオモチャがたくさんあったので\\全部捨てておきました。",
-      "char": "c011_01",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "え？部屋のオモチャ？\\それってプラモデルのことか！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ディーノったら、大胆なことをしたわね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "なんで人の物を勝手に捨てるんだよ！\\さっさと回収してこないと！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "after_effect": "go_to_left_fast",
-      "screen_effect": "dialog_shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あらら…\\",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "あれ、悪魔様が外に走って行きましたね。\\まぁ、心配することはないでしょう。\\大したことではないので。",
-      "char": "c011_01",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ディーノったら、相変わらずマイペースね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "それから、2つ目の生活環境の改善案は\\何だと思いますか？それは料理です！\\だから…準備しておきました。",
-      "char": "c011_01",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "はあ…はあ…やっと回収した。\\全部そのまま残っててよかったよ。\\で、…次は何の話だ？",
+      "dialogue": "チャイルドに逃げられた原因は、その偉そうな態度だよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh",
-      "before_effect": "enter_from_left_fast"
+      "voiceid": "108804059"
     },
-    "17": {
+    "8": {
       "type": "talk",
-      "dialogue": "今度は料理をするみたいですよ。\\",
-      "char": "c001_01",
+      "dialogue": "ふん…未来の王から逃げるとは、全くもって許しがたい…！",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "108804060"
     },
-    "18": {
+    "9": {
       "type": "talk",
-      "dialogue": "でも私、料理には自信がありません。\\だから料理はやめることにしました！",
-      "char": "c011_01",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "何だ、一番やってほしいことをしてくれないのかよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "その代わり、ピザを10枚注文しておきました。\\悪魔様、いつもカード決済ですよね？",
-      "char": "c011_01",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ピザ10枚！？金は俺が払うのか！？\\何してくれてるんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "あら、今日はピザパーティーですね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "んなわけないだろ！今すぐキャンセルだ！\\もしもし？さっきの注文をキャンセ…\\え、もう3枚作った？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "うふふ。ピザパーティー確定ですね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "くっ…そ、それじゃ…\\その3枚だけお願い…します…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "3枚くらいなら\\月末まで乗り切れますね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "くっ…これで当分は節約か…\\ディーノ、お前な！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どうしてそんなに睨むんですか？",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "よく、そんなことが言えるな！\\説教だ！そこに座れ…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "タンドリーキチン、お待たせしました！\\",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "アッ！届きましたね！\\",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…チ、チキン？\\  ",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "あら？この流れはもしかして♥\\ピザよりも先にチキンを頼んでいたのね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "偏った食生活はよくありませんからね！\\",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "くっ…。キャンセルするにはもう手遅れか…\\ディーノ…俺に何か恨みでもあるのか…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "お前のおかげで暴食だよ…",
+      "dialogue": "補欠悪魔よ。\\興味半分で遊んでやろうと思ったが、興がそがれた。ネズミは今この場で殺してやろう。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "right",
+      "voiceid": "108804061"
     },
-    "37": {
+    "10": {
       "type": "talk",
-      "dialogue": "私みたいに努力するチャイルドは、\\他にいませんよね？\\そろそろ有名店のラーメンも来るはずです！",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ラ、ラーメン！？\\",
+      "dialogue": "お、おいおい、ちょっと待て！\\怒りをぶつける相手、間違ってないか！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "voiceid": "108804062"
     },
-    "39": {
+    "11": {
       "type": "talk",
-      "dialogue": "これじゃあ、大食い大会ですね♥",
-      "char": "c001_01",
+      "dialogue": "今、俺の目の前にいるのは、お前だ！！",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "108804063"
     },
-    "40": {
+    "12": {
       "type": "talk",
-      "dialogue": "か、金が…今月の生活費が！\\ディーノォォォォ！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "screen_effect": "shake"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "そんな感情込めて私を呼んでくださるなんて…\\幸せ！これからも一生懸命、努力します！",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "うわあぁぁぁぁ！",
+      "dialogue": "マジで怒ってる！\\ぎゃ～～殺されるぅ～！\\やっぱり、さっさと逃げとけば良かったあああ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious",
-      "screen_effect": "shake"
+      "before_effect": "shake",
+      "voiceid": "108804064"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "落ち着きなさいよ。",
+      "char": "c124_02",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "voiceid": "108804065"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "お前なあ、ネズミ呼ばわりされたんだったら、窮鼠猫を噛むぐらい言ってみせろ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804066"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ふっ、イブにフレイか。",
+      "char": "c024_01",
+      "speaker": "same",
+      "voiceid": "108804067"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "お前たちまで相手取るとさすがに分が悪い。\\どうやら<b>ルシフェロ</b>の言う通り、簡単にはいかないようだな。",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "108804068"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "こちらも手の内を随分見せてしまった。\\ひとまず今日のところはここまでにしておこう。",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "108804069"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ルーファス様…！？",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108804070"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "お待ちください、ルーファス様。\\命令さえ頂ければ、私が…！",
+      "char": "c289_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108804071"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そう興奮するな。まだ時が満ちていないだけだ。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108804072"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "補欠の悪魔よ。\\しばし、お前が演じる喜劇を楽しむとするか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108804073"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
+      "wait": "longest",
+      "fade_in": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ちぇっ、消えやがった。逃げたか。",
+      "background": "bg024_f",
+      "bgm": "14",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804075"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "捕まっていたチャイルドもみんないなくなってるわ。",
+      "char": "c124_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804076"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "逃げたチャイルドたちの主人は、みんなルーファスにやられちまったんだよな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "108804077"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…ってことは、新しい主人が見つかるまで人間界を彷徨うことになるわけか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108804078"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "今回は私のサポーター探しを手伝うってことで大目に見てあげたけど…\\次はないわよ、フレイ。",
+      "char": "c124_02",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "108804079"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "それはこっちのセリフだ。\\今回は一時的に組んだだけだからな！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "108804080"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ふん、かわいい言い訳ね。",
+      "char": "c124_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_point",
+      "voiceid": "108804081"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "おい、補欠！\\リザはしばらく預けておく。大切に扱え！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804082"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "………",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "serious",
+      "voiceid": "108804083"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "じゃあな！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_left_point",
+      "voiceid": "108804084"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "イブとフレイはお互い文句を言い合いながら、それぞれ反対方向へ消え去った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108804085"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ああ、良かった…！\\あのピンチの中、俺は生き残ったんだ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "108804086"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "おめでとうございます、ご主人さま♥\\本当によかったですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108804087"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ところでさ、ルーファスが言ってた\\「手の内を見せすぎた」って、どういう意味だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108804088"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ああ、それは悪魔を追跡していた者たちに関することですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804089"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "魔王候補生のバトルは、全部チャンネルEvilで生中継されていたようです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "108804090"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "な、なんだって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "serious",
+      "voiceid": "108804091"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ご心配は無用です～♥\\ご主人さまの姿はオンエアされないよう、しっかり手を回しておきましたので～！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108804092"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "やるな、モナ！抜かりが無い！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "voiceid": "108804093"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "でも、申し訳ありませんが…\\フレイ様とイブ様の姿につきましては、秘密を守り抜けず…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804094"
     },
     "43": {
       "type": "talk",
-      "dialogue": "あら、ジリ貧のご主人さま、倒れちゃいましたね♥\\ディーノもまあまあ困った子ね。ふふふ。",
-      "char": "c001_01",
+      "dialogue": "お前、まさか…\\俺のことを流させない代わりに、フレイとイブを売ったんじゃ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "108804095"
     },
     "44": {
+      "type": "talk",
+      "dialogue": "うふふっ、何を言ってるかわかりませ～ん♥\\おふたりともこれを機にリタイアすればいいん\\ですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108804096"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "お前なあ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108804097",
+      "facial": "sigh"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "さぁ御主人様、家に帰りましょう。\\おかげでとても良いデータを取る事ができました。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "108804098"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "今回の戦いをきっかけに少しは成長できるはずです。良かったですね、御主人様。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108804099"
+    },
+    "48": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longest",
+      "fade_in": "longer"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "うーむ…\\やっぱり脱落したのか…？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108804100"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "ここ1週間ほど、誰を探しているのですか？\\次の契約相手であれば、もう少しお待ちいただ\\ければ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "108804101"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "いやいや、そうじゃなくてな。\\レジェンドのことで…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "108804102"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "ああ…\\主人である悪魔をなくしたチャイルドでしたね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804103"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "あいつの元の主人を探してあげるって話になってたからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "108804104"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "何を躍起になっているのかと思えば、そんなバカなことで時間を浪費していたんですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy",
+      "voiceid": "108804105"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "俺はアイツと約束したんだ。俺にとってはバカなことでもなんでもない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "108804106"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "主人を見つけてあげたとして、その後はどうするつもりです？\\レジェンドを前の主人に返すのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "108804107"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108804108"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "うぅ、持病の腰痛が！\\きっとサポーターが無理矢理戦わせすぎるから、悪化しちまったんだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108804109"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "またそうやって誤魔化すのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "108804110"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "ただいま戻りました～♥",
+      "background": "bg089_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108804111"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "あっ、ご主人さま！\\美少女アニメのレアグッズ、無事に買えましたか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804112"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "おい、モナ…\\それ、絶対に人前で口にするなって言ったよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake_weak",
+      "voiceid": "108804113"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "あら、そうでしたか？\\覚えてませんね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108804114"
+    },
+    "64": {
+      "type": "talk",
+      "dialogue": "この変態エロ悪魔め～！\\とっちめてやりたい！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "108804115"
+    },
+    "65": {
+      "type": "talk",
+      "dialogue": "思う存分スプラッターにしても大丈夫ですよ。\\ダビの妄想の中であれば。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "108804116"
+    },
+    "66": {
+      "type": "talk",
+      "dialogue": "そんなの意味ないよ～っ！\\現実でギタギタのボロボロにしてやりたーいっ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804117"
+    },
+    "67": {
+      "type": "talk",
+      "dialogue": "御主人様、足を上げてください。\\魔王争奪戦の資料を踏んづけていますよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious",
+      "voiceid": "108804118"
+    },
+    "68": {
+      "type": "talk",
+      "dialogue": "うむ！\\言い方に敬意がこもってないから、もう一度だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "108804119"
+    },
+    "69": {
+      "type": "talk",
+      "dialogue": "足を少々、上げていただいてもよろしいでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy",
+      "voiceid": "108804120"
+    },
+    "70": {
+      "type": "talk",
+      "dialogue": "良かろう、仕方あるまい。\\お上げいただいて差し上げよう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "108804121"
+    },
+    "71": {
+      "type": "talk",
+      "dialogue": "くっ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy",
+      "voiceid": "108804122"
+    },
+    "72": {
+      "type": "talk",
+      "dialogue": "リザ、思う存分いじめてあげていいですよ♥\\妄想の中でなら…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "108804123"
+    },
+    "73": {
+      "type": "talk",
+      "dialogue": "ダビの気持ち、今ならよくわかります…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804124"
+    },
+    "74": {
+      "type": "talk",
+      "dialogue": "でしょ～！？\\ねえリザ、一緒にボコボコにしちゃおうよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804125"
+    },
+    "75": {
+      "type": "talk",
+      "dialogue": "ところで、ご主人さま。\\契約者になりそうな人間を探している途中で面白い方に会ったんです。\\ぜひぜひ、ご主人さまと挨拶がしたいと！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108804126"
+    },
+    "76": {
+      "type": "talk",
+      "dialogue": "そんなわけで～連れてきちゃいました♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804127"
+    },
+    "77": {
+      "type": "talk",
+      "dialogue": "随分いきなりだな。\\何か不安なんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "after_effect": "shake_weak",
+      "voiceid": "108804128"
+    },
+    "78": {
+      "type": "talk",
+      "dialogue": "ま、まさか！4番目のサキュバスとか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "108804129"
+    },
+    "79": {
+      "type": "talk",
+      "dialogue": "バカご主人、縁起でもないことゆーなっ！\\そうじゃなくても狭いのに！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "voiceid": "108804130"
+    },
+    "80": {
+      "type": "talk",
+      "dialogue": "誰のせいでこんな狭っ苦しくなってると思ってるんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake",
+      "voiceid": "108804131"
+    },
+    "81": {
+      "type": "talk",
+      "dialogue": "ご主人さま、早くしてくださ～い♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108804132"
+    },
+    "82": {
+      "type": "talk",
+      "dialogue": "まったく、誰が来たってんだ？\\変ないたずらだったら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "108804133"
+    },
+    "83": {
+      "type": "talk",
+      "dialogue": "いたずらだと？\\そのようなつもりはない。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_slow",
+      "voiceid": "108804134"
+    },
+    "84": {
+      "type": "talk",
+      "dialogue": "わっ！？\\お、おおお、お前は！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "108804135"
+    },
+    "85": {
+      "type": "talk",
+      "dialogue": "エマージェンシーエマージェンシー！\\緊急事態発生、緊急事態発生！",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "after_effect": "shake",
+      "voiceid": "108804136"
+    },
+    "86": {
+      "type": "talk",
+      "dialogue": "落ち着くがいい。\\戦うために来たわけではない。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804137"
+    },
+    "87": {
+      "type": "talk",
+      "dialogue": "じゃあ、なんでここに来たんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "108804138"
+    },
+    "88": {
+      "type": "talk",
+      "dialogue": "お前！\\その無礼な口のきき方、即刻やめろ！",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108804139"
+    },
+    "89": {
+      "type": "talk",
+      "dialogue": "ルイン、落ち着け。",
+      "char": "c289_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108804140"
+    },
+    "90": {
+      "type": "talk",
+      "dialogue": "散歩していたのだが、この格好が珍しいのか、周囲の視線が集まってしまってな。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804141"
+    },
+    "91": {
+      "type": "talk",
+      "dialogue": "それゆえ、挨拶ついでに普通の服を借り受けに来たのだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804142"
+    },
+    "92": {
+      "type": "talk",
+      "dialogue": "服？残念だったな。\\俺が着るものすらロクにないんだ。\\貸せる服なんてないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "108804143"
+    },
+    "93": {
+      "type": "talk",
+      "dialogue": "ルーファス様♥\\こちらのお召し物をどうぞ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "108804144"
+    },
+    "94": {
+      "type": "talk",
+      "dialogue": "おい、モナっ！\\お前、何を勝手なことを…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake",
+      "voiceid": "108804145"
+    },
+    "95": {
+      "type": "talk",
+      "dialogue": "ご主人さま、ピンチはチャンスですよ♥\\こんなに強い悪魔と親しくなれるチャンス、滅多にありません！",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "108804146"
+    },
+    "96": {
+      "type": "talk",
+      "dialogue": "いや、俺は親しくなりたくな…\\って、ちょっと待て！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "after_effect": "shake",
+      "voiceid": "108804147"
+    },
+    "97": {
+      "type": "talk",
+      "dialogue": "はい、どうしました？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "108804148"
+    },
+    "98": {
+      "type": "talk",
+      "dialogue": "それ、1回も着たことない新品じゃないか！\\返せ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "108804149"
+    },
+    "99": {
+      "type": "talk",
+      "dialogue": "着たことがないのではなく、丈が長くて着れなかったはずですよ。\\どうせ着れないのですから、有効活用しましょう♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804150"
+    },
+    "100": {
+      "type": "talk",
+      "dialogue": "ではルーファス様、どうぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804151"
+    },
+    "101": {
+      "type": "talk",
+      "dialogue": "うむ、ありがたく使わせてもらうとしよう。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "108804152"
+    },
+    "102": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "normal",
+      "fade_in": "longer"
+    },
+    "103": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
+    },
+    "104": {
+      "type": "talk",
+      "dialogue": "さて、俺はしばらくこのあたりに留まる予定だ。",
+      "background": "bg089_f",
+      "bgm": "13",
+      "char": "c024_00",
+      "speaker": "same",
+      "distance": "near",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108804153"
+    },
+    "105": {
+      "type": "talk",
+      "dialogue": "え、そうなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "108804154"
+    },
+    "106": {
+      "type": "talk",
+      "dialogue": "うむ、あくまでも予定の話であるがな。\\お前に興味が湧いたのだ。\\しばらく、見守らせてもらうとしよう。",
+      "char": "c024_00",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804155"
+    },
+    "107": {
+      "type": "talk",
+      "dialogue": "丈が少し短いが、この衣服も貢ぎ物として受け取っておこう。\\それでは、またな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_left_slow",
+      "voiceid": "108804156"
+    },
+    "108": {
+      "type": "talk",
+      "dialogue": "…一時はどうなる事かと思いましたが、大人しく帰っていきましたね。\\正直、命拾いしたとしか言いようがないですが…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804157"
+    },
+    "109": {
+      "type": "talk",
+      "dialogue": "相手に逆らわず、時には貢物をしたりして機嫌を取っておく…\\これが生存戦略ってヤツだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "108804158"
+    },
+    "110": {
+      "type": "talk",
+      "dialogue": "ちなみに俺の生存戦略ってのは、細く長く、半悪魔的で半人間的に、カメレオンみたく生きていくことだ！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108804159"
+    },
+    "111": {
+      "type": "talk",
+      "dialogue": "バカご主人はホントバカ。\\そうやって八方美人にすればするほど、反対に寿命を縮めちゃうんだよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "voiceid": "108804160"
+    },
+    "112": {
+      "type": "talk",
+      "dialogue": "あっ…\\何も言い返せない…",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "cry",
+      "voiceid": "108804161"
+    },
+    "113": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "114": {
+      "type": "curtain",
+      "background": "season01_3_title",
+      "fade_out": "longest",
+      "wait": "longest",
+      "fade_in": "longest",
+      "hold": "longest"
     }
   }
 }

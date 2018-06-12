@@ -1,109 +1,367 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "あっそぼ、仲良くあっそぼ！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c004_01",
-      "speaker": "same",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "distance": "near",
-      "pos": "center"
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "アイツは今日も相変わらずだ。\\疲れというものを知らないのだろうか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "神を求めしものよ。\\何故手ぶらで参ったのじゃ？",
+      "background": "dungeon_bg",
+      "bgm": "19",
+      "char": "c183_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "遊ぼ、遊ぼ！突撃！前へー！",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "大丈夫、子供と遊ぶっていうなら、俺に任せてよ。\\俺みたいに子守りが上手いチャイルドは\\世界中を探してもいないからさ。",
-      "char": "c052_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "うれしい！何して遊ぶ？",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "幸いにも、今日はベリトが構ってくれるらしい。\\俺はゆっくり昼寝でもするか…\\そう思った瞬間だった。",
+      "dialogue": "ダナの問いに、\\俺は反射的に自分の手に目を向けた。\\見事に手ぶらだ。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "7": {
+    "4": {
       "type": "talk",
-      "dialogue": "ぐえっ！…おい！\\横になってる人の腹を踏むんじゃない！\\それくらい習わなかったのか…？",
+      "dialogue": "別にポケットで充分だろ？\\カバンとか邪魔だし。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…そういうことではない。",
+      "char": "c183_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "神に相応しい供物を捧げよ。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "と言っているのだ。",
+      "char": "keep",
+      "speaker": "same"
     },
     "8": {
       "type": "talk",
-      "dialogue": "習ってないよーだ！ヘヘヘ。",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ヘヘヘ、じゃない！\\おまえな～、これは殺人未遂だぞ！\\…なんで急に人の腹の上に座るんだよ？",
+      "dialogue": "おいおい、自分からなんか寄越せって、\\神として恥ずかしくないのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…愚か者めが。\\その口に災いあれ！",
+      "char": "c183_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "10": {
       "type": "talk",
-      "dialogue": "だって、ベリトが言ってたんだもん。\\隊長が遊んでくれるって。\\隊長、世界で一番楽しい遊びを\\教えてもらったんでしょ！？",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "教えてもらった覚えはないぞ。",
+      "dialogue": "ふん！そんな脅し、効くかよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "その時は、そう思っていたが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "13": {
       "type": "talk",
-      "dialogue": "嘘つきー！隊長、隊長、早く遊ぼう！ね？",
-      "char": "c004_01",
+      "dialogue": "ダビ！お前、俺の貯金箱に触るなって言っただろ！",
+      "background": "bg086_f",
+      "bgm": "20",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "べーっだ！触ってないも～ん！\\証拠あるの？しょ・う・こ！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "証拠も何も、この家でそんなことする奴、\\お前しかいないだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "after_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "泥棒が入ったかもしれないじゃ～ん！\\どっちにしろ、お金は返ってこないけどね～だ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
       "one_ani": "attack"
     },
-    "13": {
+    "17": {
       "type": "talk",
-      "dialogue": "おい！腹の上で飛び跳ねる…ぐわっ！",
+      "dialogue": "こ、こいつ、調子に乗らせとけば！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "やっぱお前だろ！よくやったな、偉い！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "joy",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "偉いって言った方が偉い…へ？\\ご主人、今なんて言ったの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "…ん？\\俺は一体何を言っているんだ？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "よくやったって言ったんだ。\\その金は、好きに使ってくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ど、どーしちゃったの？\\頭でもぶつけた？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "自分でも訳がわからない。\\しかも、おかしな現象はそれで終わらなかった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "なあ、リザ、お前の説教のことなんだけど…",
+      "background": "bg095_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あまり叱らないで欲しいとでも？\\私といたしましても、御主人様を叱りたくて\\叱っているわけでは…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "いや、逆だよ。\\悪いとこがあれば、もっとどんどん叱ってくれ。\\リザに説教してもらわないと、張り合いないからさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "joy"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…はい？\\あ、あの、体調でも悪いのでは？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "それじゃ、これからも頼んだぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "まるで誰かに乗っ取られたかのように、\\俺の口は考えていることと真逆の言葉を吐き出す。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "不安になった俺は、\\モナに相談することにした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "32": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "モナ…\\実はさ、俺…何だかおかしいんだよ。\\モナのことを愛してるみたいで…",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…って違う！\\そんなこと…常に思って…\\ああっ！だから、そうじゃないって！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "これは…\\確かにおかしいですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "わ、わかってくれるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "もちろんです、ご主人さま♥\\一体、いつからこうなったのですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "偉大なるダナ様が！い、偉大？\\俺に呪いをかけてくださ…\\違う、かけたのかもしれない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake",
+      "after_effect": "shake"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "うふふ♥何と言いますか…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "言いますか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "楽しそうな祝福ですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "…お前も呪われたいのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "ご主人さまと一緒なら、喜んで♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "うう、ふざけてる場合じゃ…\\ああ、ダナ様、お願いです！元に…うわぁ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -111,95 +369,73 @@
       "facial": "confused",
       "after_effect": "shake"
     },
-    "14": {
-      "type": "talk",
-      "dialogue": "あらあら、ご主人さまがおチビちゃんに\\踏まれて死んでしまうなんて、最期の最期まで\\残念でしたね～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+    "45": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
-    "15": {
+    "46": {
       "type": "talk",
-      "dialogue": "誰が見ても御主人様が不利な状況ですが…\\手を貸す必要もないでしょう。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "いいね、処容！もっと楽しく飛び跳ねちゃえ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "one_ani": "attack"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ご飯も寝床もくれてやったってのに、\\この恩知らずどもめ…\\自分を守れるのは自分しかいない…\\残酷な世の中だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "これでもくらえ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "俺は咄嗟に掴んだ何かをぶん投げた。\\処容はそれを捕まえようと、勢いよく走って行く。",
+      "dialogue": "こ、今度は身体まで勝手に…\\絶対、土下座なんて…",
+      "background": "dungeon_bg",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "20": {
+    "47": {
       "type": "talk",
-      "dialogue": "うわ～い！",
-      "char": "c004_01",
+      "dialogue": "少しは反省したか？",
+      "char": "c183_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_fast"
+      "distance": "normal"
     },
-    "21": {
+    "48": {
       "type": "talk",
-      "dialogue": "投げたものを追いかけるなんて、\\アイツは犬なのか…？",
+      "dialogue": "ダメだ…\\俺は呪いに抗いきれず、ダナに土下座した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "全知全能なるダナ様。\\この愚かな悪魔を憐れみ、\\恵みを施してくださいませ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "sigh"
+      "facial": "cry"
     },
-    "22": {
+    "50": {
       "type": "talk",
-      "dialogue": "隊長！持ってきたよ！もう1回！",
-      "char": "c004_01",
+      "dialogue": "その言葉が本当の気持ちなのか、\\呪いのせいなのか、\\俺にはもうわからなかった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "我は、傲慢な者には慈悲を施さぬ。",
+      "char": "c183_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
-      "before_effect": "enter_from_right_fast"
+      "one_ani": "attack"
     },
-    "23": {
+    "52": {
       "type": "talk",
-      "dialogue": "まったく…",
+      "dialogue": "この土下座こそ、忠誠の証！\\おお、女神よ、お慈悲を～！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "center",
+      "distance": "near",
+      "facial": "cry",
+      "screen_effect": "none",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "24": {
+    "53": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

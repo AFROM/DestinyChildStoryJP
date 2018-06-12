@@ -2,447 +2,410 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お、何の匂いだろう…\\誰か料理でもしてるのか？",
-      "background": "bg089_f",
-      "bgm": "14",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "お前がこの子に何をしてやったというんだ…",
+      "background": "e048_01_f",
+      "bgm": "15",
+      "char": "none",
+      "speaker": "papa"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あ！悪魔くん、いらっしゃーい。",
-      "char": "c068_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "…この子の出演料…\\あなたが全部使い込んだじゃない…！",
+      "char": "none",
+      "speaker": "mama"
     },
     "3": {
       "type": "talk",
-      "dialogue": "アムブロシア！\\久しぶりじゃん。何してるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "dialogue": "使い込むだなんて人聞きの悪い…\\この家の長として当然の権利じゃないか…",
+      "char": "none",
+      "speaker": "papa"
     },
     "4": {
       "type": "talk",
-      "dialogue": "えっへん！\\悪魔くんのために、お菓子を作ったのだー！",
-      "char": "c068_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "あなたのお金じゃないでしょ…！？\\それじゃあ…",
+      "char": "none",
+      "speaker": "mama"
     },
     "5": {
       "type": "talk",
-      "dialogue": "おー、やった！\\ちょうど小腹が空いてたんだよね。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
+      "dialogue": "パパ、ママ…ケンカしないで…！",
+      "char": "c053_00",
+      "speaker": "same_full",
+      "pos": "center",
       "distance": "normal",
-      "facial": "joy",
-      "before_effect": "shake_weak"
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら、ご主人さまいらっしゃい♥\\この子、なかなかの腕前なんですよ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "<color=ff9900>ケンカしちゃ、ヤダ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "うわ、でかっ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "shock",
-      "before_effect": "shake"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "この量は…正直太りそうな気が。",
+      "dialogue": "ベンチに座り込んだメティスの肩が震えていた。\\覆った手から、嗚咽が漏れている。",
+      "background": "bg048_f",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うふふ、ご主人さま～♥\\何か変なこと考えてません？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "いいえ、まったく。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "悪魔くん、早く食べてみて！\\悪魔くんが帰って来るの、待ってたんだよ？",
-      "char": "c068_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "じゃあ遠慮なく……甘くて美味しい！\\すごいじゃん！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "あれ、なんだ？何か固いものが…\\これ、何が入ってるんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "あらあら、ご主人さまもひっかかりましたね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "引っかかるってなんだよ？\\イタズラでもしたのか？\\食べ物で遊ぶなよな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "これは…紙？\\なんか書いてあるな…\\今日のラッキーアイテム…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "細長い紙切れに、何やら文字が書かれている。",
+      "dialogue": "…こうして見ると、まだホントに子供なんだな。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "18": {
+    "10": {
       "type": "talk",
-      "dialogue": "ええと…ラッキーアイテムは…\\紫色の髪の少女…",
+      "dialogue": "メティス！\\あ、あのさ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "facial": "sad"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "呼びかけると、メティスはハンカチを取り出し、\\涙を拭いて髪を整えた。\\そして、平然とした顔で俺を見つめてくる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "center",
       "distance": "normal"
     },
-    "19": {
+    "13": {
       "type": "talk",
-      "dialogue": "はい！はい！！\\わたしです！紫色の髪でーす！\\悪魔くん、それわたしのコトだよ！",
-      "char": "c068_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "…まるで、何事もなかったかのように。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "20": {
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
+    },
+    "15": {
       "type": "talk",
-      "dialogue": "…？？？",
+      "dialogue": "願いを叶えてあげたのに、\\あいつ、何であんなに不幸に見えるんだろう？",
+      "background": "dungeon_bg",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "screen_effect": "gray"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "それは…契約者が幸せになりたいとは\\願いませんでしたから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "screen_effect": "gray"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "え？願いが叶えば\\自然と幸せになれるんじゃないの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray",
+      "facial": "confused"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それは違いま～す。モナたちは願いを叶え、\\契約者は魂の一部を渡す。\\ただ、それだけの取引ですもの♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "screen_effect": "gray"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「なんて言えばいいんだろう。</color>\\<color=ff7480>こういうのは苦手なんだ」</color>\\って思ってるでしょ。",
+      "background": "bg048_f",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "意味がわからないんだけど。\\どういうこと？",
-      "char": "keep",
+      "dialogue": "う、うん…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
     "22": {
       "type": "talk",
-      "dialogue": "あらあら♥\\ご主人さまったら、ご存じないですか？\\これは、フォーチュンクッキーを真似てるんですよ。",
-      "char": "c001_01",
+      "dialogue": "<color=ff7480>「こいつ、また心を読みやがって」</color>\\って思ってる。",
+      "char": "c053_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "フォーチュンクッキー？\\ああ、中に占いの紙が入った…",
+      "dialogue": "…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ってことは、このたくさんのお菓子全部に、\\紙切れが入ってるってことか。",
-      "char": "keep",
+      "dialogue": "…",
+      "char": "c053_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "そうだよ、悪魔くん！\\ねえねえ！これも、あれも食べてみて！",
-      "char": "c068_01",
+      "dialogue": "そうだな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "angry"
     },
     "26": {
       "type": "talk",
-      "dialogue": "やたら勧めて来ると思ったら…",
-      "char": "c000_01",
+      "dialogue": "<color=ff7480>「もっといい方法はないかな……」</color>\\と思ってる。",
+      "char": "c053_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "まあでも、うん、美味しい。\\ちゃんと紙切れも入ってるし。\\内容は、っと…",
-      "char": "keep",
+      "dialogue": "俺が黙ったままでも、\\会話できそうだな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "superangry",
+      "before_effect": "shake_weak"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ラッキーアイテムは…\\「料理する少女」、「目の前のチャイルド」…",
-      "char": "keep",
+      "dialogue": "いいの。あなたが気にすることじゃないわ。\\私の契約者は、人の心を読む前も不幸だったし、\\今も変わらず不幸なの。これからもきっとそう。",
+      "char": "c053_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "…なんで「アイテム」なのに、\\「少女」や「チャイルド」が出るんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "dialogue": "俺は何も言わず、メティスに手を差し伸べた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "えへへ…どう、悪魔くん？\\ラッキーアイテムは、\\キープしなきゃって思わない？",
-      "char": "c068_01",
+      "dialogue": "<color=ff7480>「お前に何を言えばいいか、わからないけど…」</color>",
+      "char": "c053_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
     "31": {
       "type": "talk",
-      "dialogue": "あら、積極的ね～♥",
-      "char": "c001_01",
+      "dialogue": "メティス、俺の心を読むな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "facial": "fury"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…もう一度契約しようってことか？\\契約なら、もう一度済ませただろ…",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c053_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c068_01",
+      "dialogue": "いいか、メティス。\\これまで出会った契約者たちは、",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "smile"
     },
     "34": {
       "type": "talk",
-      "dialogue": "あらあら♥\\そう来ましたか～…うふふ♥",
-      "char": "c001_01",
+      "dialogue": "みんな、自分の心の中なんて知らないんだ。",
+      "bgm": "keep",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "left",
+      "facial": "smile"
     },
     "35": {
       "type": "talk",
-      "dialogue": "…悪魔くん、あのね、もっと食べて！\\はい！はい！！",
-      "char": "c068_01",
+      "dialogue": "でも、お前は違うだろ？\\自分の心だって、読めるじゃないか。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "pos": "left",
+      "facial": "smile"
     },
     "36": {
       "type": "talk",
-      "dialogue": "えっ、なんで…\\うっ…押し込むな！もう入らないよ！",
-      "char": "c000_01",
+      "dialogue": "私の、心…？",
+      "char": "c053_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "37": {
       "type": "talk",
-      "dialogue": "うわっ、やめろって！\\多すぎる…！",
-      "char": "keep",
+      "dialogue": "今からはさ…\\他の人の心を先に読むんじゃなくて、\\自分の心から覗いてみたらどうだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "facial": "confused"
     },
     "38": {
       "type": "talk",
-      "dialogue": "まあ…\\アムブロシアの愛がたっぷりですね♥",
-      "char": "c001_01",
+      "dialogue": "自分の心なんて、知らないわけが…",
+      "char": "c053_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
+      "before_effect": "shake"
     },
     "39": {
       "type": "talk",
-      "dialogue": "愛ってか…拷問だろ、これ。",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "40": {
       "type": "talk",
-      "dialogue": "もういいから！\\紙切れの内容も、どれも同じだし！",
+      "dialogue": "そう…私の契約者は、\\本当の願いを言わなかったのね。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "41": {
       "type": "talk",
-      "dialogue": "紫の髪！可愛い少女シェフ！\\ボブスタイルの可愛い少女！\\カッコ、サキュバスではない！\\カッコ閉じ！",
+      "dialogue": "本当の願いは…\\ただ、パパとママが仲良くなることだったのに…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "42": {
       "type": "talk",
-      "dialogue": "悪魔くん、どうかな？\\ラッキーアイテムだよ！欲しいでしょ？\\わたし、ずっとお菓子を作ってあげられるのだ！",
-      "char": "c068_01",
+      "dialogue": "誰も、私の心を覗いてくれなかった…\\だから…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
     "43": {
       "type": "talk",
-      "dialogue": "俺…ずっと紙切れを食わされるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "dialogue": "メティスはせきを切ったように、\\俺の腕の中で泣き崩れた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "44": {
       "type": "talk",
-      "dialogue": "アムブロシア、\\これはちょっとダメな気がするわ。\\ご主人さまは、顔に全部出ちゃうから♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "「なんて言えばいいんだろう。\\こういうのは苦手なんだ」",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "45": {
-      "type": "talk",
-      "dialogue": "うう、そうなの…？\\おかしいな…こんなはずじゃなかったのに。",
-      "char": "c068_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "46": {
       "type": "talk",
-      "dialogue": "あのね、悪魔くん！\\お菓子、まだまだあるから！\\もっともーっと、\\ラッキーアイテムをチェックしてみるのだ！",
-      "char": "keep",
+      "dialogue": "あら～♥\\最近は調子良さそうね、メティス♥",
+      "background": "bg086_f",
+      "bgm": "17",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "smile"
     },
     "47": {
       "type": "talk",
-      "dialogue": "待て、アムブロシア！\\もういらないって…",
-      "char": "c000_01",
+      "dialogue": "そう見える？",
+      "char": "c053_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "48": {
       "type": "talk",
-      "dialogue": "何なんだよ一体！何のイジメだよ！\\どうせラッキーアイテムって、\\全部お前のことなんだろ！？",
-      "char": "keep",
+      "dialogue": "いいこと、メティス。人間の心はとっても広いの。\\ご主人さまとモナが1日中覗き込んでも、\\把握できないぐらいにね♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "screen_effect": "dialog_shake",
-      "before_effect": "shake"
+      "facial": "smile"
     },
     "49": {
       "type": "talk",
-      "dialogue": "あらあら♥\\ご主人さまったら、全然わかってないですね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "ねえ、もっと！\\もっと食べて！悪魔くん！\\ううっ…",
-      "char": "c068_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "何で泣くんだよ！？\\わ、わかったよ…これもらうから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "アムブロシアの奴、一体何がしたいんだ…？\\まったくわからん！",
+      "dialogue": "たとえ、あなたは心が読めるとしても、\\その中は、全部見渡せないと思うわ。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "smile"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "…でも、私は…\\あなたの心が一杯に満たされるのを見たわ…",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "あら、つまらないことを言うのね♥\\モナ、照れちゃう♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "before_effect": "go_to_left_point"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "…行っちゃった。\\本当、なのにな…",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "53": {
       "type": "curtain",

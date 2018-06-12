@@ -2,325 +2,206 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様、ご主人様！\\私、いつもとちょっと違うと思いません？",
+      "dialogue": "むにゃむにゃ～デヘヘ？\\るるーん、ウッヒョヒョヒョ～",
       "background": "bg086_f",
       "bgm": "14",
-      "char": "c038_01",
+      "char": "c026_01",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…全然わからん。\\大体、俺にそんな高度な質問してくるなよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "そんなこと言わないでください！\\もっとよく見て！変わったところがあるでしょ？",
-      "char": "c038_01",
+      "dialogue": "御主人様。オーロラが袖をなびかせ、\\巨大なペリカンのようにうろついています。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "4": {
+    "3": {
       "type": "talk",
-      "dialogue": "あ～あ…\\前髪を切ったとか？",
+      "dialogue": "え、なんでペリカン？まあいいけど…\\殺すって宣告を突きつけられるよりは\\マシなんじゃないの。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "オーロラは何かに色を塗るのが好きみたいだし。\\なんかを破壊するくらいなら、子供みたいに\\ぬり絵でもしてくれてたほうがいいよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "もう！\\ご主人様、本当にわからないんですか？\\もう一度見てください。",
-      "char": "c038_01",
+      "dialogue": "破壊よりぬり絵に対する評価が高いという偏見には\\賛成しかねますが。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "う～ん…\\化粧を変えた…とか？",
+      "dialogue": "常識的に考えて、だよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ぜんぜん違います！！\\あ～もう！本当にヒドイですねご主人様。\\ほら！爪が2mmも伸びちゃってるんですよ～？\\どうして気づいてくれないんですか…",
-      "char": "c038_01",
+      "dialogue": "それは、人間の常識ではありませんか。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そんなこと、わかるか！\\新手の嫌がらせかよ！？",
-      "char": "c000_01",
+      "dialogue": "むにゃにゃ～きゃははっ！",
+      "char": "c026_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "shock"
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ひどい、ご主人様。\\私に関心がないんですか？\\どうして私の爪が伸びていることに気づかず、平気でいられるんですか？？",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "じゃあ、お前も俺を見てみろよ！\\俺の変わったところがわかるか、うん？",
+      "dialogue": "うおっ、ホントに飛んだ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ぴょーん！うひゃー！",
+      "char": "c026_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "loop_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "私がご主人様と同じだと思ってるんですか？\\ここです！この髪の毛！",
-      "char": "c038_01",
+      "dialogue": "塗るよー！塗るんだよおー！\\へへへっ！可愛くしてあーげーるー！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ん？髪の毛？",
+      "dialogue": "…あのさ、リザ。\\なんか、変な物が見える気がするんだけど、気のせいか？\\オーロラが俺のベッドの上に飛び乗って…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ご主人様の髪の毛は、昨日よりもっとキラキラ、\\ツヤツヤしてますね！",
-      "char": "c038_01",
+      "dialogue": "はい、オーロラは御主人様のベッドに飛び乗って\\寝具を多彩な色で塗りつぶしていますね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "あ、それは…\\頭を洗わなくてちょっと油が…\\…ってそんなことが言いたいわけじゃない！",
+      "dialogue": "うわああああっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "facial": "shock",
+      "screen_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "まだありますよ？\\ご主人様の服。昨日よりシワが増えてます。",
-      "char": "c038_01",
+      "dialogue": "甘く～酸っぱく～カラフルに～\\むにゃにゃにゃ～たーのしー！",
+      "char": "c026_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "その通り。大当たりだ！",
-      "char": "c000_01",
+      "dialogue": "あのね、デビルさま、見て見て！\\デビルさまを描いたよ！ウヒョヒョ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…ってお前、俺を怒らそうとしているのか！？",
-      "char": "keep",
+      "dialogue": "これが御主人様…\\ナスかズッキーニの間違いではないでしょうか。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "fury"
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ご主人様の顔には吹き出物が新しく2つもできて…",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "昨日は右目に目ヤニがありましたが今日は左目にも…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "何これ…怖いんだけど？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "分かりましたか？\\私はいつもご主人様のことを見ています！\\だからご主人様も、もっと私を見てくださ～い！",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "や、やめろ！興奮するなって…\\誰かが聞いたら、俺たちが付き合ってるって誤解するだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "えっ、違うんですか…？",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "えっ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "はい？",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "あーちょっと待ってくれ…\\カリプソは、いつからそんな風に考えてたんだ…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "もちろん…契約してからずっとです♥",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "いや、ちょっと待て！\\俺がいつ、そんな素振りをした？\\いつ、付き合ってるなんて言ったんだよー！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "しまった…言い過ぎた。俺は顔を赤らめて震える\\カリプソを見て冷や汗をかいた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "な、なぁ、カリプソ。俺が言いたいのは…",
+      "dialogue": "に、似てない…！\\それにあの絵の具…じゃない、これは…うわあ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "32": {
+    "19": {
       "type": "talk",
-      "dialogue": "言わないでください。\\全部、私の勘違いだったんですね…",
-      "char": "c038_01",
+      "dialogue": "絵の具ではなく、調味料や食材のようですね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "33": {
+    "20": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "いいんです。私がいけないんですから。",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ふぅ…思ったより簡単に引いてくれたか…？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "最初からうまく行くなんて、思っていませんから。",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "今度は逃がさないよう、しっかり捕まえておきます。私、絶対諦めませんから…",
+      "dialogue": "白味噌、赤味噌、酢味噌、醤油…\\それと、思い切って買ったオーガニック卵1パック。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
-    "38": {
+    "21": {
       "type": "talk",
-      "dialogue": "はぁ…\\ホント、俺なんかのどこが良いんだよ…",
+      "dialogue": "食べ物を粗末にしちゃダメなんだぞ！？\\ぬり絵は絵の具とかクレヨンでやるんだ、オーロラ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "クレヨン？\\ナニソレ、食べ物？",
+      "char": "c026_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…はあ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sigh"
     },
-    "39": {
+    "24": {
+      "type": "talk",
+      "dialogue": "明日の食事…大丈夫かな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

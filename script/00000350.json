@@ -2,261 +2,308 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔くん、悪魔くーん！\\ついに、ついに始まるわよ！！",
-      "background": "bg036_f",
-      "bgm": "8",
-      "char": "c062_01",
+      "dialogue": "こんにちは、ネヴァン。\\今日も悩みの多そうな顔をしていますね。",
+      "background": "bg040_f",
+      "bgm": "26",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "distance": "near",
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "平和な昼下がりに響く、はしゃいだエウロペの声。\\不意に俺の腕が掴まれる。\\そんなに騒いで、何が始まるっていうんだ？",
+      "dialogue": "はい…\\感動しました。リザさん…",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "私の気持ちをわかってくれるのは…\\いつだってリザさんだけ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "いつも同じ表情のくせに\\何がリザさんだけ、だよ。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "3": {
-      "type": "talk",
-      "dialogue": "一体どうしたんだよ、そんなに嬉しそうに。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ビッグニュース！あの全米が泣いた、\\例の超名作映画が封切りされるんだって！\\私、すっごい観たい映画なの！でねっ、でねっ！",
-      "char": "c062_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
     "5": {
       "type": "talk",
-      "dialogue": "エウロペの頬が紅潮している。\\興奮しすぎて言葉に出来ないようだ。",
+      "dialogue": "…と、言おうとしたけど\\リザに足を思い切り踏まれた。",
       "char": "none",
       "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
       "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "観たいのが始まるならよかったじゃん。",
+      "dialogue": "ぐっ！\\…ところで、毎日ウチに来ちゃってもいいのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "facial": "sigh",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はぁ…ホント鈍いんだから。",
-      "char": "c062_01",
+      "dialogue": "私のこと、揺れに揺れる節操のない女\\って思ってるんでしょう？",
+      "char": "c048_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "なんか、\\すごいガッカリした顔で何かつぶやいた気が？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "せ、節操って…違うよ！\\ったく、ああ言えばこう言うし！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あれ？俺、なんか悪いことした？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ふん…どうせサキュバスでもないし…\\上下関係にこだわる必要はないですよね…\\……あっ！",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あら♥\\エウロペちゃんにご主人さまじゃないですか？",
-      "char": "c001_01",
+      "dialogue": "もっと刺激的なサービスを期待していたのなら…\\ごめんなさい、そこまでする気はないんです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "げっ…美人サキュバス…",
-      "char": "c062_01",
+      "dialogue": "なにいっちゃってるの？期待なんてしてないから！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "エウロペは美少年好きの美人嫌いだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "はぁ…\\俺はただ心配しただけだ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
     },
     "13": {
       "type": "talk",
-      "dialogue": "だからモナのことが苦手らしい。\\会うたび逃げ回っているようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "心配、ですか…？",
+      "char": "c048_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ちょっと聞こえましたよ～\\例の映画って、《アレ》のことかしら♥",
-      "char": "c001_01",
+      "dialogue": "そう。\\二重契約のせいで、\\何か困ったことになってないかって。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c062_01",
+      "dialogue": "都合のいい時はこき使っておきながら、今さら感が…",
+      "char": "c048_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "エウロペは露骨にモナから顔をそむけた。\\やっぱりガン無視してるな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "身も心も捧げたのに、ぼろ雑巾のように捨てるの…？人間だろうが悪魔だろうが、男はみんな一緒ね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "うふふ、や～っぱりあの映画なのね♥",
-      "char": "c001_01",
+      "dialogue": "…なんでそう思うのかはわからないけど\\俺が心の傷に触れちゃったんだったら、謝るよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "confused"
     },
     "18": {
       "type": "talk",
-      "dialogue": "な、なんだ…その笑みは。\\なんか怖いぞ。",
-      "char": "c000_01",
+      "dialogue": "あまり真面目に相手にしない方が宜しいかと。\\この子は、機嫌がコロコロ変わりますので。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "idle"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人さま♥\\その映画、と～っても面白いんですって。\\ふふ、エウロペと一緒に観てきてはいかがですか♥",
-      "char": "c001_01",
+      "dialogue": "ですよね、ネヴァン？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "！？",
-      "char": "c062_01",
+      "dialogue": "はい…やっぱり私のことをわかってくれるのは…\\リザさんだけ…尊敬に値します…",
+      "char": "c048_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "エウロペの驚いた顔と言ったら。\\そうか、エウロペは映画を一人で見に行きたくなくて俺を誘おうとしてたのか。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "こんな素敵な方がこの世にいる以上\\私の人生は常に闇の中…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "少年たちが海で友情を育む物語だそうですよ。\\上映前から、何かと話題だった映画なんです。",
-      "char": "c001_01",
+      "dialogue": "暗い…暗殺、暗殺するしかないの…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あ、わかった。\\ブレーメンズっていうジャンルだよな？",
+      "dialogue": "今、尊敬してるって言ったばかりだろ！！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ブレーメン…\\ブレーメンの音楽隊のことですか？",
-      "char": "c001_01",
+      "dialogue": "ダメだこりゃ！\\お前には、今日から24時間監視体制を敷く。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "left",
+      "facial": "haah"
     },
     "25": {
       "type": "talk",
-      "dialogue": "青春映画って意味だよ。\\人間界の映画のジャンルまでは\\流石に知らないんだな。\\じゃあエウロペ、一緒に行こうか。",
-      "char": "c000_01",
+      "dialogue": "息を吸うのも、眠るときも…\\うちにいる間はずーっと監視してやる！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "えっ、ホント！？\\うん、とっても観たかったの！\\悪魔くん、ありがとう！",
-      "char": "c062_01",
+      "dialogue": "監視…24時間…",
+      "char": "c048_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "こんなに観たがってるなら、\\連れてってあげるのも主人の仕事だよな！\\モナも勧めてることだし、俺も楽しみだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そうだ！\\それに、なんだかんだでお前はフレイのチャイルドじゃないか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "ここでの言葉は嘘かもしれないしな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "やりたいようにやっていいけど、\\家の中ではケンカは禁止な！わかったか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "とにかく、俺たちと一緒にいる間は、それがルール！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "よーく覚えとけ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "一緒にいる間…一緒に…\\…うれしい。",
+      "char": "c048_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "29": {
+    "34": {
       "type": "talk",
-      "dialogue": "かくして俺は、映画の全貌を目の当たりにした。\\モナの言っていることは何一つ間違っていなかった…そして、逃げ出すにはあまりに遅すぎた。",
-      "background": "bg023_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "隣で始終はしゃいでいるエウロペとは打って変わって血を吐くような気持ちで終わるのを待つ俺…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "映画の内容は…ボーイズラ…ぶほっ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ちなみに、ご主人さまが勘違いしたのは\\「ブロマンス」よ♥",
-      "background": "back",
-      "char": "c001_01",
+      "dialogue": "なぁにぃ？\\お前、本当に二重契約したのか！？",
+      "background": "bg022_f",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "はあ…悪魔ってのは…\\自分たちは毎日嘘ばっかりのクセに…",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "お前、それじゃあ魔王争奪戦で奴と俺が残ったら\\どっちの味方をするんだ？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "勝つ方に、です。",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "……はぁ。\\まぁ、魔界の女はこんなのばっかりだな。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "好きにしろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ただし！夜はちゃんと帰ってこい。\\俺のチャイルドがおかしな奴に\\軽く扱われるのはごめんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
       "distance": "near"
     },
-    "33": {
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

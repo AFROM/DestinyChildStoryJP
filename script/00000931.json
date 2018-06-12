@@ -1,126 +1,264 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg223_f",
-      "bgm": "10",
-      "fade_in": "shorter",
-      "hold": "shortest",
-      "char": "c002_01"
+      "type": "talk",
+      "dialogue": "ふぅ…大丈夫だったか？",
+      "background": "bg077_f",
+      "bgm": "8",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はぁ…本当に派手なインテリアですね…",
-      "char": "keep",
+      "dialogue": "う、うん、ありがとう。それで、コウガは…",
+      "char": "c167_00",
       "speaker": "same",
-      "voiceid": "200606001"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "美だけを追求し、実用性に欠けている…\\まさしく虚飾の極みですね。",
-      "char": "keep",
+      "dialogue": "ふふ、参りました。よく頑張りましたね、メイ。\\今度こそ、あなたの力で守れたではありませんか。",
+      "char": "c355_01",
       "speaker": "same",
-      "voiceid": "200606002"
+      "pos": "center"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ご主人様を…\\いえ、社長を侮辱するのはおやめ下さい。",
-      "char": "c283_00",
-      "speaker": "Morgan",
+      "dialogue": "…！",
+      "char": "c167_00",
+      "speaker": "same",
       "pos": "right",
-      "voiceid": "200606003"
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "それだけは…ガマンが出来ませんから…",
-      "char": "keep",
-      "speaker": "Morgan",
-      "pos": "right",
-      "voiceid": "200606004"
+      "dialogue": "コウガ、お前、まさか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なるほど、見事な忠誠心ですね。",
-      "char": "c002_01",
+      "dialogue": "どうやら、暴走したふりをして、\\契約者の力を引き出そうとしたようですね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606005"
+      "pos": "center",
+      "facial": "pretense"
     },
     "7": {
       "type": "talk",
-      "dialogue": "答えて頂けないと思いますが、一応お尋ねします。\\あなたの社長は、今どこにいますか？",
-      "char": "keep",
+      "dialogue": "そういうことだったのか…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606006"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…さっさと、掛かってこい！",
-      "bgm": "36",
-      "char": "c283_01",
-      "speaker": "same",
-      "pos": "center",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "200606007"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "理解できませんね。どうしてヴェルデレトに、\\そこまで執着するのか…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606008"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…ここは、絶対に通さない…\\あの方は私が守る！",
-      "char": "c283_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200606009"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "彼に…依存しているのですね。\\彼には、あなたの気持ちは伝わりませんよ…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606010"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "むしろ、その気持ちを利用されるはず。\\いえ、もう既にされているのですね。",
+      "dialogue": "そうならそうと、先に言ってくれ…",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "200606011"
+      "facial": "irritation"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ねぇ、どうして、あたしにそこまでしてくれるの？",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "私は元々、あなたの寂しいという思いから、\\生まれた存在だからです。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "えっ！？",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そして、誰かを守りたいという思いも…",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "13": {
       "type": "talk",
-      "dialogue": "<b>ご主人様を侮辱するな！</b>",
-      "char": "c283_01",
-      "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "voiceid": "200606012"
+      "dialogue": "コウガは自分の正体をメイに明かすと、\\俺に向き直った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "《ご主人様》ですか…\\私の記憶では、そんな呼び方をされるような人物ではなかったはずですがね、ヴェルデレトは…",
-      "char": "c002_01",
+      "dialogue": "生まれ落ちてからも、貴女の寂しさは私に\\伝わってきました。",
+      "char": "c355_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606013"
+      "pos": "center"
     },
     "15": {
+      "type": "talk",
+      "dialogue": "ご主人様、お願いがあります。\\あなたは、メイが心から守りたいと思った方…\\どうか、これからもメイの傍にいてあげてください。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "こ、コウガってば、何言って…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あら？傍にいてほしくないのですか？",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それは…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あー…\\よくわからないけど、そんな約束できないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "！？",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そ、そうだよね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "でもさ、バイトが休みで暇な時なら、話し相手ぐらいにはなってもいいよ。それでいいか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "う、うん！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ふふ。では、私はこれで…",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あっ、待って、コウガ！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "どうしました？",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "さっき、力を貸してくれるって言ってたでしょ？\\あなたがそう言ってくれるなら、\\あたしもあなたの力になりたい。",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…だから、友達になってくれないかな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "私が、メイの友達に…ですか？",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "うん。…ダメ？",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…いえ、嬉しいです。\\ご主人様とともども、\\よろしくお願いしますね。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ふたりは笑顔で握手を交わす。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "一時はどうなることかと思ったけど、二人のキズナが深まったようだし、結果オーライさ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "これで一件落着…だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "35": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

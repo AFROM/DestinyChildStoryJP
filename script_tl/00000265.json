@@ -2,73 +2,195 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "むにゃむにゃ～デヘヘ？\\るるーん、ウッヒョヒョヒョ～",
+      "dialogue": "御主人様、もうお昼ですがいつまでベッドで\\ゴロゴロしているおつもりですか。",
       "background": "bg086_f",
-      "bgm": "14",
-      "char": "c026_01",
+      "bgm": "20",
+      "char": "c002_01",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "right",
+      "facial": "irritation"
     },
     "2": {
       "type": "talk",
-      "dialogue": "御主人様。オーロラが袖をなびかせ、\\巨大なペリカンのようにうろついています。",
-      "char": "c002_01",
+      "dialogue": "うう…10分だけ…いや、15分…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none"
     },
     "3": {
       "type": "talk",
-      "dialogue": "え、なんでペリカン？まあいいけど…\\殺すって宣告を突きつけられるよりは\\マシなんじゃないの。",
-      "char": "c000_01",
+      "dialogue": "御主人様、起きてください！",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "near",
+      "facial": "angry"
     },
     "4": {
       "type": "talk",
-      "dialogue": "オーロラは何かに色を塗るのが好きみたいだし。\\なんかを破壊するくらいなら、子供みたいに\\ぬり絵でもしてくれてたほうがいいよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "破壊よりぬり絵に対する評価が高いという偏見には\\賛成しかねますが。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "常識的に考えて、だよ。",
+      "dialogue": "さ、さぶい…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "リザが布団を取り上げると、俺は体をブルブル震わせ丸くなった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "今すぐ起きてください！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "sigh"
     },
     "7": {
+      "type": "curtain",
+      "background": "bg086_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "8": {
       "type": "talk",
-      "dialogue": "それは、人間の常識ではありませんか。",
-      "char": "c002_01",
+      "dialogue": "おい、ボス。あの女ならもういないぞ。",
+      "bgm": "9",
+      "char": "c009_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "8": {
+    "9": {
       "type": "talk",
-      "dialogue": "むにゃにゃ～きゃははっ！",
-      "char": "c026_01",
+      "dialogue": "ふう…やっといなくなったか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "一体、魔王の何が嫌で\\寝たフリなんかするんだ？",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そんなこと聞かないでくれ。\\話すのも面倒くさい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "俺ならどうにかしてでもチャイルドを\\ありったけ集めて必ず魔王になってやるけどな。",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そんないいチャンスを手放そうなんて、\\理解に苦しむぜ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "理解しようとするだけ無駄だ。\\放っておいてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "あの契約者もそうだ。\\家族のために強くなるなんて\\俺には理解できん…",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "結局、この世は一人だ。\\大事なのは金だけさ！\\金になるなら、いくらでも戦う！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
       "one_ani": "attack"
     },
-    "9": {
+    "17": {
       "type": "talk",
-      "dialogue": "うおっ、ホントに飛んだ！？",
+      "dialogue": "名誉とか友情とか家族とか…\\そんなのに何の意味がある？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "オマエ…友達いないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "友達？なんだそれ、美味いのか？",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "お前の方こそ理解できないな。\\一人寂しく暮らすのがそんなにいいか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "金が全てだなんて悲しすぎるだろ。\\金より大事なものだって、いっぱいあるぞ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あー、貧乏人がよく言うセリフだ。",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "何だと？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -76,132 +198,90 @@
       "facial": "confused",
       "before_effect": "shake_weak"
     },
-    "10": {
+    "24": {
       "type": "talk",
-      "dialogue": "ぴょーん！うひゃー！",
-      "char": "c026_01",
+      "dialogue": "まあ、いいだろう。\\そうでもして自分を慰めたいなら\\これ以上とやかく言うつもりない。",
+      "char": "c009_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "loop_ani": "attack"
+      "distance": "normal"
     },
-    "11": {
+    "25": {
       "type": "talk",
-      "dialogue": "塗るよー！塗るんだよおー！\\へへへっ！可愛くしてあーげーるー！",
+      "dialogue": "だが俺はそんな時間があるなら少しでも\\金を稼いで、誰も俺を見下したり\\できないようにしてやる。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "12": {
+    "26": {
       "type": "talk",
-      "dialogue": "…あのさ、リザ。\\なんか、変な物が見える気がするんだけど、気のせいか？\\オーロラが俺のベッドの上に飛び乗って…",
+      "dialogue": "お前、本当に契約者とは真逆の性格だな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "13": {
+    "27": {
       "type": "talk",
-      "dialogue": "はい、オーロラは御主人様のベッドに飛び乗って\\寝具を多彩な色で塗りつぶしていますね。",
-      "char": "c002_01",
+      "dialogue": "それじゃ、何だ？\\あのガキみたいに生きろっていうのか？",
+      "char": "c009_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "14": {
+    "28": {
       "type": "talk",
-      "dialogue": "うわああああっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "shock",
-      "screen_effect": "shake"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "甘く～酸っぱく～カラフルに～\\むにゃにゃにゃ～たーのしー！",
-      "char": "c026_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あのね、デビルさま、見て見て！\\デビルさまを描いたよ！ウヒョヒョ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "これが御主人様…\\ナスかズッキーニの間違いではないでしょうか。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "に、似てない…！\\それにあの絵の具…じゃない、これは…うわあ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "絵の具ではなく、調味料や食材のようですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "白味噌、赤味噌、酢味噌、醤油…\\それと、思い切って買ったオーガニック卵1パック。",
+      "dialogue": "アイツは自分の弟が事故に遭ったのを\\自分のせいだと思い込んでるみたいだが…",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "21": {
+    "29": {
       "type": "talk",
-      "dialogue": "食べ物を粗末にしちゃダメなんだぞ！？\\ぬり絵は絵の具とかクレヨンでやるんだ、オーロラ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "screen_effect": "dialog_shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "クレヨン？\\ナニソレ、食べ物？",
-      "char": "c026_01",
+      "dialogue": "それはアイツの弟が弱いからで、\\アイツのせいじゃない。それなのに…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "23": {
+    "30": {
       "type": "talk",
-      "dialogue": "…はあ。",
+      "dialogue": "口ではそう言っても…契約者のことが心配なんだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あんなヤツ、眼中にもない。\\お前もさっさと起きて仕事でもしろ！",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "まだ俺に支払う金が残ってるだろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "まったく…これじゃ、チャイルドじゃなくて\\借金取りを連れて来たみたいだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sigh"
     },
-    "24": {
-      "type": "talk",
-      "dialogue": "明日の食事…大丈夫かな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

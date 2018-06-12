@@ -1,344 +1,205 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "あなたがリザさんね？こんにちは。",
-      "background": "bg086_f",
-      "bgm": "24",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "bgm": "4",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "こんにちは、アシュトレス。私がリザです。",
-      "char": "c002_01",
+      "dialogue": "はぁはぁ…こ、ここまで来れば、\\もうアイツも、追ってこられまい…",
+      "background": "dungeon_bg",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "one_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あなたの噂は聞いてるわ。\\とても有能なサポーターだそうね。\\会えてうれしいわ。",
-      "char": "c194_01",
+      "dialogue": "ヴァルカン？\\大汗かいて、どうしたんだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "私も、アナタのことは伺っています。\\とても礼儀正しく、親切なチャイルドだそうですね。",
-      "char": "c002_01",
+      "dialogue": "はぁはぁ…\\全部あの《マイラ》とかいう、チャイルドのせいだ…",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺の部屋で何してるんだよ？\\商談か名刺交換の練習？",
+      "dialogue": "はは～ん…マイラね。\\なんとなく、ことの成り行きがわかったぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "facial": "confused"
     },
     "6": {
       "type": "talk",
-      "dialogue": "こんなところでビジネスの話なんてしません。\\くだらない冗談はさておき、彼女は本当に素晴らしいチャイルドですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "だけど、これもいい機会だな。\\ここはワザとすっとぼけて、\\ヴァルカンの本音を聞いてみようか。",
+      "char": "none",
+      "speaker": "none"
     },
     "7": {
       "type": "talk",
-      "dialogue": "素晴らしいチャイルドね…",
+      "dialogue": "へ～…マイラがどうしたんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "irritation"
+      "facial": "idle"
     },
     "8": {
       "type": "talk",
-      "dialogue": "フフッ、そんなに褒められたら恥ずかしいですわ。\\私なんて、まだまだです。",
-      "char": "c194_01",
+      "dialogue": "最近アイツが、私にトコトコ付きまとってくるんだ。まったく、いい迷惑だ…",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ご謙遜を。\\どうやらアナタとは、上手くやって行けそうですね。",
-      "char": "c002_01",
+      "dialogue": "トコトコって…ぷっ",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "haah",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "まあ、ありがとう。リザさん。",
-      "char": "c194_01",
+      "dialogue": "おい、そこで何故笑う！？\\私をバカにしているのか！",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…それでは、私はこの辺りで失礼いたします。\\またお会いしましょう、アシュトレス。",
-      "char": "c002_01",
+      "dialogue": "いや、マイラがお前に付いていく姿を\\想像しちゃってさ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
+      "pos": "left",
+      "facial": "haah"
     },
     "12": {
       "type": "talk",
-      "dialogue": "おーい、俺にもひと言くらい…\\…あ、行っちゃった。",
-      "char": "c000_01",
+      "dialogue": "なんというか？\\頑固な飼い主についてく子犬みたいな感じなのか？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "うらやましいですね。\\あんな素敵なサキュバスにサポートしてもらえるなんて…フフフッ。",
-      "char": "c194_01",
+      "dialogue": "ふん、子犬のように可愛らしければ\\まだマシだったがな。",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "おいおい、なんでリザの後ろ姿を見ながらニヤニヤしてるんだ？キモいぞ…",
+      "dialogue": "おいおい、なんでそんな深刻な顔してんだよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あら、ごめんなさい。\\気に障りましたか？",
-      "char": "c194_01",
+      "dialogue": "お前なんかを、あんだけ敬ってくれる\\チャイルドなんて他にいないだろ。\\もっと喜んでもいいと思うぞ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "idle"
     },
     "16": {
       "type": "talk",
-      "dialogue": "気に障るも何も…\\一体、何を企んでるんだよ？",
-      "char": "c000_01",
+      "dialogue": "引っかかる物言いだな…\\とにかく、私はアイツが気に食わんのだ。",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "企んでいるだなんて、人聞きが悪いですね。\\私は何も…",
-      "char": "c194_01",
+      "dialogue": "我ながら妙な気分だが、\\アイツのお節介が、煩わしくて仕方がない。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そんなわけないだろ。チャイルドってのは、人間の欲望から生まれた存在だ。\\だから、みんな何かしらの願いを持ってるもんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "たしかにチャイルドになってからも、\\こいつらのしてることは変わってないな…\\契約者の記憶が干渉してるのか？",
+      "char": "none",
+      "speaker": "none"
     },
     "19": {
       "type": "talk",
-      "dialogue": "それなのに、お前はそういうのを全然、表に出さないだろ？",
-      "char": "keep",
+      "dialogue": "ふーん…でもま、口には気をつけろよ。\\今もマイラが隠れて、見てるかもしれないしな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "pretense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "だから、何か企んでいると思ったのですか？\\心配はいりませんよ。私はただ願い事を胸の内に秘めているだけ。\\あまりガツガツしていたら、はしたないでしょう？",
-      "char": "c194_01",
+      "dialogue": "もし今の話を聞かれてたら、\\ショックで泣いちゃってるかもしれないぞ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "pretense"
     },
     "21": {
       "type": "talk",
-      "dialogue": "お前の契約者は、俺に願いも何も話さなかった。\\とにかく契約しろって駄々をこねられてさ。\\契約しなかったらネットに晒すとか言って…",
-      "char": "c000_01",
+      "dialogue": "ふん！\\アイツがどう思おうと、私の知ったことか！",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そんなヤツからどんなチャイルドが生まれるか…\\まったく想像もできなかったよ。",
-      "char": "keep",
+      "dialogue": "とか何とか言っちゃって、\\ホントは気になっちゃってるんだろ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "idle"
     },
     "23": {
       "type": "talk",
-      "dialogue": "確かに願いのない人間なんていませんね。\\でも、沢山の物を欲しがる強欲な人間などとは違い、私の願いはただ1つですわ。",
-      "char": "c194_01",
+      "dialogue": "う、うるさいっ！お前などに相談したのが、\\そもそも間違いだったな…！",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "アシュトレスの怪しい微笑みに、背筋がゾクッと震えた。な、何なんだ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "不愉快だ、帰らせてもらおう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ご主人様、私は何をしても許される…\\そんな存在になりたいのです。",
-      "char": "c194_01",
+      "dialogue": "ははっ。俺はお前の慌てっぷりを見れて、\\けっこう楽しかったけどな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "smile"
     },
     "26": {
       "type": "talk",
-      "dialogue": "何をしても？\\それ、かなりヤバい願いだって、分かって言ってるのか？",
-      "char": "c000_01",
+      "dialogue": "また来いよ。\\ちょくちょくこのネタで、からかってやるよ。\\ふっふっふ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "near",
+      "facial": "pretense"
     },
     "27": {
-      "type": "talk",
-      "dialogue": "フッ、承知しておりますとも。\\ご主人様にとって、とても危険な願いということも。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "え…？\\何で《俺にとっては》なんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "《何をしても許される存在》…\\つまり私の願いは、魔王になることですから。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "はあ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "魔王になれば、何をしても許されるのでしょう？",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "そうすれば、誰にも邪魔されずに自由に暮らせる。\\フフフッ。素晴らしいではありませんか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "冗談だろ？\\チャイルドが魔王になりたいだなんて…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "私、冗談など申しませんわ。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "…こ、心が読めるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "構いませんよね？私が魔王になっても。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ご主人様は、魔王になど興味がないのですから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "確かに俺は魔王なんてなりたくない。\\だけど、チャイルドが魔王になるなんて、普通あり得ないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "まぁ！悪魔とかチャイルドとか、そんな細かいことはどうでもよろしいでしょう？",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "どうでもよくない！\\お前は俺のチャイルドなんだから好き勝手はさせないからな！\\その腐った根性、叩き直してやる！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "フフッ、どう叩き直してくださるのですか…\\楽しみにしていますわ。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

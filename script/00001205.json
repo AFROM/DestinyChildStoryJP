@@ -1,0 +1,65 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "道が少し複雑ですが、\\広さ自体は上の層とあまり差はないですね。",
+      "background": "bg159_f",
+      "bgm": "23",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400610001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "そして、下に行けばいくほど、\\強い相手が現れますね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400610002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "やっぱりそうだろ？\\気のせいじゃなかった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "400610003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《深淵》</color>に近づけば近づくほど、\\<color=ff9900>《強いチャイルド》</color>が待っている方式ですね。 ",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400610004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "最後の相手はどんな相手なのか\\何だか<color=ff9900>ドキドキ</color>しますね～？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt",
+      "voiceid": "400610005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "俺は、いつ倒されるのかと<color=ff9900>ドキドキ</color>してるよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake_weak",
+      "voiceid": "400610006"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

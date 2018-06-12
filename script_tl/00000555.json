@@ -2,172 +2,330 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "最近、戦闘多くないか？このままだと死んじゃうよ。",
-      "background": "bg086_f",
-      "bgm": "9",
+      "dialogue": "ディアブロ！キミにきめた！",
+      "background": "dungeon_bg",
+      "bgm": "2",
       "char": "c000_01",
       "speaker": "same",
-      "facial": "sigh"
+      "pos": "left",
+      "facial": "fury",
+      "after_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "大げさですね～\\他の悪魔たちは不景気だって言ってましたよ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…決めタ？",
+      "char": "m038_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "私たちは運がいいのか、",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "仕事がどんどん舞い込んできて喜んでいた\\ところなのに、ご主人さまは不満ばっかり。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "そもそも戦闘とか争奪戦とか、\\望んでないんだよ。俺は。",
+      "dialogue": "悪い、ディアブロ。わかりづらかったな。\\出て戦ってくれって意味だったんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "4": {
+      "type": "talk",
+      "dialogue": "幼稚すぎ！ご主人！\\そんなアニメ、子供が観るものだよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "いやあ、こうでもすれば多少は\\可愛くなるかなって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "文句言わないでください♥\\またチャイルド探しに行きましょ。",
-      "char": "c001_01",
+      "dialogue": "ディアブロはポケットに入んないもん。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "チャイルド探しって、結局戦闘だろ？ \\チャイルドたちも疲れてるだろうし、\\ちょっと休ませてやれよ…",
-      "char": "c000_01",
+      "dialogue": "でもでも、可愛いダビはモナ姉さまの\\ポケットに入るもんねー♪",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "smile"
     },
     "8": {
       "type": "talk",
-      "dialogue": "はーい！そんなご主人さまのために、\\このモナが心強い応援を呼んできましたよ～♥",
-      "char": "c001_01",
+      "dialogue": "入れ入れ。そして、二度と出て来るな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "pretense"
     },
     "9": {
       "type": "talk",
-      "dialogue": "じゃじゃーん！",
-      "char": "keep",
+      "dialogue": "ふーんだ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "お呼びですか、マスター。",
-      "char": "m059_01",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "dialogue": "…戦ってもいいのカ？",
+      "char": "m038_01",
+      "speaker": "same"
     },
     "11": {
       "type": "talk",
-      "dialogue": "いや…呼んだ覚えはない。ないけど…\\今日はオマエが必要だ。",
+      "dialogue": "…今まで待ってたの！？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
     },
     "12": {
       "type": "talk",
-      "dialogue": "バズーカは疲れというものを知りません。\\そうでしょ、バズーカ？",
-      "char": "c001_01",
+      "dialogue": "うわっ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "13": {
       "type": "talk",
-      "dialogue": "Positive. \\どんな戦闘に出向こうと疲れというものを\\知りません。",
-      "char": "m059_01",
+      "dialogue": "やーい、グズグズしてるから攻撃されてやんの～",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "victory",
+      "one_ani": "attack"
     },
     "14": {
       "type": "talk",
-      "dialogue": "バズーカを戦闘マシーン扱いしすぎじゃないか？",
+      "dialogue": "お前な～味方が言う台詞かよ！？\\ディアブロ！早く攻撃するんだ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "Positive. \\戦闘マシーンは私にとって\\最も正確な表現です。",
-      "char": "m059_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…そうすル。",
+      "char": "m038_01",
+      "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "バズーカに催眠術でもかけたのか？",
+      "dialogue": "もっと早く動いてくれ～！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "17": {
-      "type": "talk",
-      "dialogue": "あら～、傷つきますわ。ご主人さまこそ\\ご自分のチャイルドなのに興味なさすぎるのでは？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "バズーカは戦場で本領を発揮する子ですよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ちゃんと見てあげてください♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "戦いが好きなのか？\\だんだん厄介なチャイルドが増えてる気がする…",
+      "dialogue": "下手したら死ぬところだった…",
+      "background": "bg101_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
+    "19": {
+      "type": "talk",
+      "dialogue": "ご主人が鈍すぎるんだよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "俺じゃなくてディアブロだろ？\\遅かったのはあいつなんだし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "さ、これで問題は解決しましたね！\\それじゃ、早速仕事しに行きましょ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…でモ、勝った。",
+      "char": "m038_01",
+      "speaker": "same"
     },
     "22": {
       "type": "talk",
-      "dialogue": "は、はい…",
+      "dialogue": "まーな。でもさ、もっと簡単に勝てないわけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ご主人様、ご主人様！\\ダビ、甘いモノが食べたいなー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "くそ、こういう時だけ「様」付けしやがって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "一生懸命戦ったから、お腹が空いたんだもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "どこまで偉そうなんだよ…\\ああもう、わかった。でも、高すぎるのはダメだぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ふん、ケチー",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "買ってやるだけありがたいと思え。\\で、何が食べたいんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "フルーツと生クリームたっぷりのクレープ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ディアブロ、お前は？何か食べたいものはあるか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m038_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ディアブロは食べたい物がないって！\\そうだ、ダビがディアブロの分まで…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ダメだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ご主人の欲張り！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "欲張りは俺じゃなくてお前だろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ディアブロの分までダビが食べるのー！\\ご主人の分もー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sad",
+      "one_ani": "attack"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "いい加減にしろっての！\\騒ぐなら何も買ってやんないぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "…アイす…アめリカ―ノ。",
+      "char": "m038_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ん？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "食べたいモノ…アイすアめリカ―ノ",
+      "char": "m038_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "…お、教えてくれてありがとう。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "23": {
-      "type": "talk",
-      "dialogue": "バズーカ、出撃します。",
-      "char": "m059_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "24": {
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

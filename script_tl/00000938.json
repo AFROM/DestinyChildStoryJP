@@ -2,10 +2,236 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "Both the enemies and the members of your team attack automatically.\\That's called <color=\"ff9900\">Auto</color> skill.",
+      "dialogue": "ようやく落ち着いたな。\\結局、お前はなんなんだ？チャイルドなのか？",
+      "background": "bg145_r",
+      "bgm": "17",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ちゃいるどでも、ぬいぐるみでもないトリ…\\でもトリにも、よくわからないトリ…",
+      "char": "m246_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そんなことはどうでもいいよ。\\ほらほら、クマクマの中に入って。\\大事にしてあげるから。ねっ？",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "トリー！？\\そんなぬいぐるみの中に、入らないトリー！\\絶対イヤだトリー！",
+      "char": "m246_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "待って、エルメス。\\やっぱりそれは、いけないことだと思うわ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "え…！？\\で、でもさっきまで手伝ってくれるって…",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "やっぱり可哀想だと思ったのよ。\\エルメスだって、何処かに閉じ込められたら\\イヤでしょう？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それは…そうだけど…",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "トリー…\\やめて欲しいトリー…",
+      "char": "m246_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "う、うぅ…分かった！\\普通の《トリぐるみ》でガマンする！",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "偉いわエルメス。ごめんなさいね？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "お姉さん、ありがとうトリー！\\おかげで助かったトリー！",
+      "char": "m246_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "お礼に、トリのグッズの詰め合わせをあげるトリー！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "雑貨に、食品まであるな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "自分の姿をしたものを他人に食わせるのか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あら、モナはとっても可愛らしいと思いますよ。\\愛嬌があって♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "うぅ…いいなあ…いいなあ…",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ふふ、帰ったらみんなで分けましょ。\\もちろんマヤウェルも仲良くね？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "まぁ、そうっすね。それで手を打つっす。\\ゲームのお供になるおやつお願いしやっす！",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "お姉さん、ありがトリー！\\おかげで助かったトリー！",
+      "char": "m246_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そんな訳で秋葉原のトリ騒動は、\\モナの活躍で締めくくられたのだったが、\\どうにも俺は腑に落ちない。",
+      "background": "back",
       "char": "none",
-      "speaker": "none",
-      "voiceid": "900102004"
+      "speaker": "same",
+      "screen_effect": "dark"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "だから帰り際、\\こっそりモナに尋ねてみることにした。",
+      "char": "none",
+      "speaker": "same",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "モナ、急にトリを助けたのって、\\何か理由があるんじゃないか？",
+      "background": "bg010_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "理由ですか？\\たとえば？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "たとえば…トリが人の物欲を刺激するから、\\あのまま放置して契約者を増やすつもり、とか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…ふふっ、どうでしょうね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "おっきなトリは残念だけど、\\普通の《トリぐるみ》は買えた。\\ふふ、これは将来プレミアが付くはず…",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "それは分からないけど、いいものっすねー！\\どこに飾ろうかな～",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "みんなそこそこ納得出来たみたいだし…\\ま、いっか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そうだな、また、暇な時にでも、\\皆で<color=ff9900>アトレ秋葉原</color>にショッピングにでも行くかな…",
+      "char": "none",
+      "speaker": "same",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
     }
   }
 }

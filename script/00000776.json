@@ -2,187 +2,299 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "データ収集及び分析の結果、\\ウォッチャーが探している悪魔は\\日本にいないと推定されます。",
-      "background": "bg049_f",
-      "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "思うんですが、青い服を着たサンタなんて\\いないんじゃないですか？",
+      "background": "bg203_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それ、本当か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "困ったわねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "m124_01",
-      "speaker": "same"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "本当に困ったもんだ。\\せっかくここまで来たのに。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "俺を心配しているのか？",
-      "char": "m124_01",
-      "speaker": "same"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "…うん。それで？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "御主人様、呑気なこと言ってる場合ではありません。ウォッチャーのターゲットが日本にいないことは\\分かったので、",
-      "char": "c002_01",
+      "dialogue": "サンタの服が赤くなきゃいけないなんて\\誰が決めたんだ？固定観念に縛られんなよ。",
+      "char": "c299_00",
       "speaker": "same",
       "pos": "right"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "それに、ロシアのサンタは青い服らしいぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "赤い服のサンタはな\\炭酸水を売りたい人間たちが生み出したんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "まあ、人間のクセになかなかやる。\\参考になるやり方だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そ、そうですね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そういうお前は、なんて格好してるんだ。",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "俺の服？なんでです？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "9": {
       "type": "talk",
-      "dialogue": "ウォッチャーはこれ以上、\\ここに留まることはできません。",
-      "char": "keep",
+      "dialogue": "《クリスマスこそ悪魔たちの祭典》知らないのか？",
+      "char": "c299_00",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "すなわち、これ以上御主人様のチャイルドとして\\働けないということです。",
+      "dialogue": "年に一度の絶好のチャンス。\\まさかこのまま過ごすつもりか？",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "仕方ないだろ。公務執行中なんだし。\\むしろ引き留めたら公務執行妨害に\\なるんじゃないか？",
+      "dialogue": "えっと…俺も先輩みたいに\\サンタの格好でもしろと？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ウォッチャーは大切な戦力です。\\簡単に諦めすぎではないですか？",
-      "char": "c002_01",
+      "dialogue": "はあ…\\ちょっとここで待ってろ。",
+      "char": "c299_00",
       "speaker": "same",
       "pos": "right",
-      "facial": "serious"
+      "after_effect": "go_to_right_point"
     },
     "13": {
       "type": "talk",
-      "dialogue": "やむを得ないだろ。",
+      "dialogue": "なんか不吉な予感がするな…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "haah"
     },
     "14": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "m124_01",
-      "speaker": "same"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "こんな時は！",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "思った通りだった…",
+      "background": "bg203_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "やっぱり当事者の意見を聞くのが一番ね♥",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "着替えろ。",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "いつからそんな真面目に…",
+      "dialogue": "ええと…その、サンタの服に、ですか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ウォッチャー、こんなことになっちゃったけど、\\アナタはこれからどうしたいの？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "そうだ。固定観念にとらわれた愚かなガキどもの\\ために特別に赤い服を用意した。",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人様の言う通り、俺の役割は魔界を脅かす者を\\見つけ出し監視して遮断すること。",
-      "char": "m124_01",
-      "speaker": "same"
+      "dialogue": "ついでにヒゲもな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
     },
     "20": {
       "type": "talk",
-      "dialogue": "やっぱり…",
+      "dialogue": "あの…絶対着なきゃダメです？\\もっとクリエイティブな方法もあるんじゃ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "unfair"
     },
     "21": {
       "type": "talk",
-      "dialogue": "だが…その者が逃亡した地域は\\俺の管轄区域ではない。",
-      "char": "m124_01",
-      "speaker": "same"
+      "dialogue": "クリエイティブ？なるほど、固定観念にとらわれているのは、お前のほうだったのか。",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "え？一人でやってたわけじゃないのか？",
+      "dialogue": "いや、そうじゃなくて…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "もちろんだ。\\魔界の犯罪者は数えきれないくらい多い。",
-      "char": "m124_01",
-      "speaker": "same"
+      "dialogue": "今まで、俺より画期的にチャイルドを増やした奴はいない。悪魔がサンタクロースになるなんて、\\誰が想像できた？",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だから…俺はここに残って約束を守る。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "ま、役割にのめり込み過ぎて、\\自分が本当のサンタだと、信じ込んでしまったが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "25": {
       "type": "talk",
-      "dialogue": "約束？",
-      "char": "c000_01",
+      "dialogue": "…お前、だから俺はサンタクロースの妄想にとらわれたんだって思っただろう？",
+      "char": "c299_00",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "受けた分を返すという約束。",
-      "char": "m124_01",
+      "dialogue": "いいえーそんなことは決して～",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "pretense"
     },
     "27": {
       "type": "talk",
-      "dialogue": "これからは俺がご主人様に協力する。",
-      "char": "keep",
+      "dialogue": "まったく…\\悪魔のくせにそんなに愚かでどうするんだ？",
+      "char": "c299_00",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "だが、俺もそこまで言う資格はないか。\\自分が本当のサンタだって信じてる悪魔だなんて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あはは…まあ、過ぎたことですし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "優秀なチャイルドがいたおかげだな。\\クランプスがいなければ今頃存在しないルドルフを探し続けていただろう。",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "それはそうと、小僧。\\お前、これからもこの国にいるつもりか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "はい？",
+      "char": "c000_01",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "俺が見たところ、お前はちょっと頭は悪いが\\ちゃんと教えればなかなかいい悪魔になりそうだ。",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "悪魔？詐欺師じゃなくて？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "詐欺師言うなよ！格が違うだろ…\\とにかく、俺と一緒にこの狭苦しい国を離れないか？",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "クランプスと3人で、クリスマスの\\新しい悪夢になるんだ。ハハハハ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "いやー…俺は誰かさんの言葉を借りると\\《怠け者のインドア派悪魔》なんで。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "サキュバスたちにそんなこと言われてるのか？",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "サキュバスとは言ってませんよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ははっ…\\顔に出てるんだよ、小僧。",
+      "char": "c299_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

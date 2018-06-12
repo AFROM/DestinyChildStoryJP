@@ -2,375 +2,181 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "その日、俺は倒れていた。",
-      "background": "back",
-      "bgm": "6",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "メティス～\\アレクトがお菓子を焼いてきたんだって！\\味見する？",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "宿敵の攻撃を受けて…そう、いつかは\\こういう日が来るって思っていた…",
-      "char": "none",
-      "speaker": "none"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "やり方が汚ない…\\お茶に風邪薬を入れて飲ませるなんて…",
-      "char": "none",
-      "speaker": "none"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "俺は風邪薬を飲むと無性に眠くなっちまうんだ……",
-      "char": "none",
-      "speaker": "none"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ハイ、今のうちに契約契約ぅ！\\ハンコ♪ハンコ♪",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "joy",
-      "loop_ani": "attack"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ダビ…お前の仕業だったか…",
-      "char": "none",
-      "speaker": "none"
-    },
-    "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "今回の契約者は\\公園をうろついていた初老のおっさんだ。",
-      "background": "bg006_f",
-      "char": "none",
-      "speaker": "none",
-      "facial": "idle",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ダビ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "teach"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "わあっ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ここで何してるの？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "teach"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "な、何って、契約だよ！\\寝てるご主人を連れてくるの大変だったんだから！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "勝手に契約したのね？\\ダビ、契約はご主人さまの意志に従うのが\\筋道ってものよ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "でもでも～！\\モナ姉さまは、こんなバカの下にいちゃ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ダビ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "teach"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "気持ちはわかるけど、\\ご主人さまのチャイルドが暴走したら\\困るのは誰かしら？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "teach"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "サキュバスの大原則、忘れてないわね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "teach"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…うん。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "superangry"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "契約をたくさんしたからといって、\\イコール強い悪魔ってわけじゃないし。\\ましてや魔王争奪戦が早く終わるわけでもないわ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "teach"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "サキュバスみんなが無事にお仕事を終えられることが私の目標なの、協力してくれるわよね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "…うん、わかった。\\それじゃあの契約者には、帰ってもらうね。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "before_effect": "shake_weak"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "誰…だ…\\我を呼んだ者は…",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "far"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "あら～、残念。\\手遅れみたいね…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "27": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shortest",
-      "fade_in": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "タナトス、あなたの願いは何かしら？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle",
-      "background": "bg057_f"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "死……",
-      "char": "c067_01",
+      "dialogue": "気を遣わなくていいわよ。\\<color=ff7480>「本当は独り占めしたい」</color>って思ってるでしょ？",
+      "char": "c053_01",
       "speaker": "same",
       "pos": "center"
     },
-    "30": {
+    "3": {
       "type": "talk",
-      "dialogue": "我は…\\死を望む…",
+      "dialogue": "ん？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shock"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「チャイルドなんかより<color=ff7480>モナ姉さまにあげたい」",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…",
       "char": "keep",
       "speaker": "same",
       "pos": "center",
       "distance": "near"
     },
-    "31": {
+    "6": {
       "type": "talk",
-      "dialogue": "駄目よ、タナトス♥\\あなたはもうご主人さまのチャイルドなんですよ～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "モナたちの財産ってことです。\\だから、勝手に死なれては困っちゃうんです♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "死こそ唯一の希望…\\生命に対する唯一の祝福…",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "…あら~、\\あからさまに面倒くさそうなことほざいてますね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "35": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "なぜ、ここにいるチャイルドたちを殺しては\\いけないというのだ？\\死は祝福であろう。",
-      "background": "bg177_f",
-      "char": "c067_01",
+      "dialogue": "へ？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "shock",
+      "before_effect": "shake"
     },
-    "37": {
+    "7": {
       "type": "talk",
-      "dialogue": "他のチャイルドはそう思わないかもしれないですし、もう少し社会性ってものをわきまえてください。",
-      "char": "c001_01",
+      "dialogue": "今度は<color=ff7480>「何を言ってるの？」</color>って思ってる。",
+      "char": "c053_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "teach"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "苦痛だらけのこの世を去ること、\\即ち大いなる喜びのはず。\\痛みなど、ほんの一瞬。死ねば皆感謝するだろう…",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ですから何度も言うように、他のチャイルド達は\\そう思わないかもしれないんですってば。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "teach"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "…我は、生きる理由がわからない。",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "我の契約者は何者でもない、普通の人間だった。\\生きる必要がなかった。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "あいつの人生にいったい何の意味が\\あったと言うのだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "もし意味があるというなら、探してみろ。\\我の命の価値を。ただし…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "ただし？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "答えが見つからなかったとき、我は命を絶つだろう。そして、その死を邪魔した代償として…",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "お前も道連れにしてくれよう…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
       "distance": "near"
     },
-    "47": {
+    "8": {
       "type": "talk",
-      "dialogue": "あら～、怖い怖い♥",
+      "dialogue": "う、うあああん！\\モナ姉さまあ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "メティス、おやめなさい～♥",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "tempt",
+      "pos": "center",
+      "facial": "pretense",
       "one_ani": "attack"
     },
-    "48": {
+    "10": {
+      "type": "talk",
+      "dialogue": "サキュバスの心を読むなんて\\宣戦布告のつもりなの～？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ダビ、そんなこと考えてないもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "superangry",
+      "before_effect": "shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "嘘ね、考えてたわ。",
+      "char": "c053_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "メティス。\\ダビは嘘をついていたわけじゃないわ。\\本当に自分の心がわからなかったのよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "smile"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そんなわけないじゃない。\\自分の心ならわかるはずよ。",
+      "char": "c053_01",
+      "speaker": "same",
+      "facial": "angry",
+      "one_ani": "attack"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "心を読めば、\\中には、いい人もいると思ったのに…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "命あるモノなんて、みんな同じ…\\悪魔も、サキュバスも…醜くて…自分勝手…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "みんな、欲張り。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そうなの～？\\なら、モナの心も読んでみる？",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>「可哀想な子。\\<color=ff7480>本当に叶えたいことも願えなかった」",
+      "char": "c053_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "本当に叶えたいこと？\\…私の契約者が望んだことって、何？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あら、どうしてモナに訊くのかしら～？\\自分の心なら分かるはず、でしょう？",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "わからない……",
+      "char": "c053_01",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ふふ、やっぱりまだまだ子供ね。可愛い♥\\もう少し大きくなったら、また来なさい♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "24": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,158 +2,299 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "気になっていることがあるんだが…\\そのうちの一つが何か分かるか？",
-      "background": "dungeon_bg",
-      "bgm": "19",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "あの、これを…",
+      "background": "bg033_f",
+      "bgm": "17",
+      "char": "c232_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "さぁ、何かしら？",
-      "char": "c001_01",
+      "dialogue": "なに、それ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "魔界で最も有能なサポーターであるがアンタが\\どういう魂胆で補欠出身の悪魔を選んだ？",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "dialogue": "なんか綺麗にラッピングされた箱みたいだけど。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "モナの好みを気にしてくれるなんて…\\ひょっとしてモナに興味があるのかしら？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "あ～っ、ご主人がワイロを受け取ってる～！",
+      "char": "c003_01",
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺もお前の立場は分かってる。\\恐ろしい姿をしたモンスターに\\興味あるわけないだろう。",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ねえねえ、考え直しなよ！\\袖の下なんか渡したって、なんの毒にもならないし！",
+      "char": "keep",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "うふふ…アナタならちょっと興味があるかも♥",
-      "char": "c001_01",
+      "dialogue": "それを言うなら「得」な。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "sigh"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そんなに俺のことが気になるか？",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "べーだ！バカご主人のバーカバーカ！",
+      "char": "c003_01",
+      "speaker": "same"
     },
     "8": {
       "type": "talk",
-      "dialogue": "心配ない。こう見えても臆病者なんだ、俺は。\\絶対に困らせないから安心してくれ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "お礼のつもりなんだけど、\\受け取ってくれませんか…？",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "この前、ダビにモナのことを信じない方がいいって\\アドバイスしてくれたみたいね？",
-      "char": "c001_01",
+      "dialogue": "そ、そりゃ、断る理由なんかないしな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "pretense"
     },
     "10": {
       "type": "talk",
-      "dialogue": "おっと、拗ねたのか？それは困ったな。\\モナに嫌われるのは恐ろしい…クフフ…",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "あなたがきっかけをくれたおかげで、\\勇気が出たんです。\\家の外にも出られるようになりましたし…",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "あら♥\\だったらこれからは紳士的なキメラを\\期待してもいいのかしら？",
-      "char": "c001_01",
-      "speaker": "same",
+      "dialogue": "まあ、まだ夜は怖いですけどね…",
+      "char": "keep",
+      "speaker": "same_full",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "もちろんだ。\\ご主人様に忠誠する素晴らしいチャイルドに\\なってみせる。クフフ…",
-      "char": "m191_01",
+      "dialogue": "はぁ～あ。\\ご主人と契約する人間って、ほんとバカばっか。",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "自分が魂を抜かれてるってこと、\\全然わかってない。\\なのに平気な顔してお礼言ってるんだもん。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "はいはい。お前はそのカワイイ口を\\ちょっと閉じといてくれ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "13": {
+    "15": {
+      "type": "talk",
+      "dialogue": "き、キモすぎて鳥肌立ったし！\\ダビ、モナ姉さまにさえカワイイって\\言われておけば、毎日ご飯三杯はいけるもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "before_effect": "shake",
+      "facial": "fury"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "たまにホメてやればそういうこと言うしなー、\\お前。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "きゃあっ…！",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "な、なんだ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "い、今、何かヘンな音がしたよっ！",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そ、そうか…？俺には別に、なにも…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ご主人～？\\白状しなよ、オナラしたでしょ！",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "何を言うんだ、オナラなんかしてないぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "い、今、何かの息遣いみたいな音が\\しましたけれど…",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "うん、それで合ってるよ。\\ご主人のお尻が息をしたってこと！",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "違うっての！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "や、やっぱりまだ、ストーカーが\\うろついているのでしょうか…",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "心配はいらないよ。俺もダビも\\そばにいるわけだしさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "で、でも…だ、ダメです、やっぱり怖い…\\い、家に帰りますから、送っていってくれませんか？",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "まあ、別にいいけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "はいはーい、この契約書にご署名いただければ\\安全確実に配達しちゃいます！",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "配達ってなぁ…\\ボキャブラリー貧困な俺ですらもうちょいマシな\\言い方ができるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "わ、わかりました、もう一度契約します！\\じゃあ、ペンを用意して…と。",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "おいおい、マジに受け取らないでいいから。\\とりあえず、もっと心を強く持たないと、\\アイドル復帰はできないぜ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "は、はい。それには、あなたの力があれば…",
+      "char": "c232_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "あなたが手伝ってくれれば、勇気が出せます。\\ストーカーも怖がらずに済むかと…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "えー、俺が…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "しょーがないなあ、バカご主人！\\契約うんぬんはおいといて、\\早く送ってきてあげなよ！",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "あ、ああ…そうだな、わかったよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "14": {
+    "40": {
       "type": "talk",
-      "dialogue": "ちゃんとキメラに忠告したのですか？",
-      "background": "bg089_f",
-      "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "相変わらず、ホントーにアマアマちゃんねぇ。",
+      "background": "bg077_f",
+      "char": "c232_01",
+      "speaker": "same"
     },
-    "15": {
+    "41": {
       "type": "talk",
-      "dialogue": "モナはいつもまじめに仕事してるわよ～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "多少図々しいところはありますが…\\仕事となると完璧にこなしますし、\\信じるとしましょう。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "私はこれから、キメラの監視範囲を\\広げたいと思います。",
+      "dialogue": "どれだけ手を伸ばしても、幸せは指先を\\すり抜けちゃう…\\ダフネの旅、いつ終わるんだろ？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
-    "18": {
-      "type": "talk",
-      "dialogue": "うふふ、お疲れ様ね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "アナタもちゃんと監視してくださいね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ダビはまだ子供なので\\キメラが二人の中を\\引き裂こうとする戦略は無駄でしたが、",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "いつか彼のイタズラが\\度を過ぎる日がきっと来るはずです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,252 +2,119 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "今回の戦闘は必ず勝たなくちゃいけないんだ。",
-      "background": "bg045_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "御主人様。どこに居るのですか、御主人様？\\…御主人様？",
+      "background": "bg086_f",
+      "bgm": "24",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "この戦いで勝てば、しばらく楽になるのですか？",
-      "char": "c300_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "このっ…早く出てきなさい、御主人様！",
+      "char": "keep",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いや…負けたらモナに叱られる…\\だけなんだけどな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "…はぁ。また、逃げられてしまいましたか。\\一体どこに行ったんでしょう…？",
+      "char": "keep",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うふふっ。マスターらしい理由ですね。",
-      "char": "c312_01",
+      "dialogue": "君の主人なら\\そこからコソコソと抜け出していったな。",
+      "char": "m192_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "絶対、バカにしてるだろ？",
-      "char": "c000_01",
+      "dialogue": "は、はい…？血龍。\\なぜそれをもっと早く、言わなかったのですか…？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら。また本音が…",
-      "char": "c312_01",
+      "dialogue": "なぜ我がそんなことをしなければならない。\\そういうことは、下僕共の仕事だろう？",
+      "char": "m192_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "からかうのも、いい加減にしろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "とにかく、負けたらヤバいんだから、\\二人ともちゃんと協力してくれよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "心配しないでください、マスター",
-      "char": "c312_01",
+      "dialogue": "はぁ…あなたに聞いた、私が間違いでしたね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "それよりだ、リザ。あの悪魔の代わりに\\我に仕える気はないか？",
+      "char": "m192_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "いい取引だと思うぞ。\\魔王になるのは、我に決まっているからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
     "10": {
       "type": "talk",
-      "dialogue": "マスターが勝てるようにお手伝いします。\\ピエタスに協力する気はありませんが。",
-      "char": "keep",
+      "dialogue": "そうですか。それはとても魅力的な提案ですね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そういう態度はやめろって言ってるんだよ。",
-      "char": "c000_01",
+      "dialogue": "しかし生憎ですが、私はハズレると分かっている\\賭けには乗らない主義ですので。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "銃を使うチャイルドなんて…\\美学というものを知らない、あんなチャイルドとは\\付き合わない主義ですから。",
-      "char": "c312_01",
+      "dialogue": "ただ…そのあふれる自信の半分程度は、\\御主人様にも分けて欲しいぐらいですね…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あら、失礼なことを…\\一応、個人の趣味や趣向は尊重されるべきですよね？でも、やはり武器としては銃の方がレベルがはるかに低いと言うか…",
+      "dialogue": "そんなこと、ほぼ不可能だと思いますけど…はぁ",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お前はなんでいつも辛口トークなんだよ…",
-      "char": "c000_01",
+      "dialogue": "そのクールな知性と、実直さ…素晴らしい。\\君がますます欲しくなってきたぞ。",
+      "char": "m192_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "near"
     },
     "15": {
       "type": "talk",
-      "dialogue": "気にしないでください、マスター\\薄っぺらい職人ほど自分の道具に執着するものです。",
-      "char": "c300_01",
+      "dialogue": "そのようなご評価は、光栄ですが…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "私は気にしませんよ。ナイフでも銃でも。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "フフッ、余裕の笑みですね。なるほど～\\最高の解決師は伊達ではないみたいですね。\\そんな方がどうしてナイフではなく銃を使うか\\知りませんが…",
-      "char": "c312_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そもそもさ～\\なんでそんなにナイフにこだわってんの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ナイフは世の中で最も美しく創造的な道具ですよ。",
-      "char": "c312_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "逆じゃない？最も野蛮で攻撃的な道具だろう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "はぁ…そう言うと思いました。\\ま、仕方ないですね。無知は罪ではないですから。",
-      "char": "c312_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "また、さり気なく嫌味言うなぁ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "元々ナイフというのは1つを2つに分けるために作られた道具ですよ。",
-      "char": "c312_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "そう！\\まるで完成されたケーキをピースに分けるように…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "でも銃は中途半端な穴を空けるのが精一杯じゃない。あら、何か変なこと言いましたか？\\確かに趣味や趣向はみんな違いますけど。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "落ち着いてくださいよ、ティルフィングさん…\\そんな言い方するとピエタスさんが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "あなたは勝つことにはあまり興味がないようですね。マスターのお望みは勝利のはずですが？",
-      "char": "c300_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "私はあなたのような解決師ではないですから。\\勝敗自体に興味なんてありません。",
-      "char": "c312_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "パティシエの興味は、\\きれいなケーキを作って切ることですね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "とはいえ、\\ケーキに限らず何かを切るのも好きですが。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "やっぱり切ることほど、うっとりすることは他にないですね。",
+      "dialogue": "今回はご縁がなかったということで。\\ふふ、まあそれでも…少々嬉しかったとは\\言っておきます。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "facial": "pretense"
     },
-    "32": {
-      "type": "talk",
-      "dialogue": "うっとりですって…マスター聞きました？\\ちょっと危ないですよ、このチャイルド。",
-      "char": "c300_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake_weak"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "犬猿の仲のチャイルドを連れてきてしまった…\\どうしよう…今回の戦闘…本当に勝てるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "cry"
-    },
-    "34": {
+    "17": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

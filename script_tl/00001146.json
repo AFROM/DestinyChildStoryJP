@@ -2,64 +2,30 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あらら… ",
-      "background": "bg159_f",
+      "dialogue": "魔界最弱体とおさらばし、満を持して魔王争奪戦に挑むために、まずモナが基本的なガイドをして差し上げます！",
+      "background": "bg095_f",
+      "bgm": "9",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "confused",
-      "voiceid": "400605001",
-      "bgm": "23"
+      "pos": "center"
     },
     "2": {
       "type": "talk",
-      "dialogue": "もしかしてと思っていたけど… ",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "400605002"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "地下への階段… ",
+      "dialogue": "何だって？！それは断る。\\休日に外出するのはとても勇気が必要なんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah",
-      "voiceid": "400605003"
+      "facial": "unfair",
+      "screen_effect": "shake"
     },
-    "4": {
+    "3": {
       "type": "talk",
-      "dialogue": "ここが<color=ff9900>《終わりじゃない》</color>ということですね～",
+      "dialogue": "それじゃあ、家の外に出ることから練習しましょうか？",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "voiceid": "400605004"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "まあ、こうなった以上、\\次の階層も挑戦したらどうですか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400605005"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "自分の力がどこまでなのか\\正しく把握することも悪くないですね！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
       "facial": "pretense",
-      "voiceid": "400605006"
-    },
-    "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "after_effect": "go_to_right_slow"
     }
   }
 }

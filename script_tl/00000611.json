@@ -2,216 +2,118 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "……",
-      "background": "bg017_f",
-      "bgm": "17",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "おい、ユーナ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "何かしら？",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "…いつまでここにいるつもりだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "坊やこそ、いつまでここにいるつもりなのかしら。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "俺はいいんだよ。\\ただ、もし、俺に付き合ってくれてるつもりなら、\\帰っていいからな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "あら、気を遣ってくれているの？\\でも、大丈夫よ。\\私も特別な用事があって、ここにいるだけだから。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "その特別な用事…ってのは、\\俺に関係があるもの…じゃないよな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ふふ、どうかしら…ね。\\今度は私が聞いてもいい？",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ダメだ…って言いたいとこだけど、いいよ。\\何だ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "坊やはここで、何を待っているの？",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…傘を差した人を待ってるんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "どんな傘？",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…っ！\\よく、俺が「人」じゃなくて、\\「傘」を待ってるってわかったな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "私、悪魔の坊やにとっても興味があるの。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "怠け者で、のんびりしていて、\\一見、何も考えていないようにも見えるけれど、\\実は悲しい物語を抱えている…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "それがどんな物語かは知らないけれど、\\そんな坊やが、ただ人を待っているわけがない。\\…そうでしょう？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…どうだろうな。\\ユーナが言うような悲しい物語なんて、\\俺も知らないから、よくわからない。\\俺が傘を待つのも、ただ傘が好きなだけだし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "では、どうして傘が好きなのかしら。",
-      "char": "c172_01",
+      "dialogue": "宜しくお願いしますね、マンティ。",
+      "background": "bg095_f",
+      "bgm": "24",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
-    "21": {
+    "2": {
       "type": "talk",
-      "dialogue": "…雨が降るまでは、傘って見向きもされないだろ？\\けど、降り出した途端に、\\みんな傘がないって慌て出す。",
+      "dialogue": "教えたルートを動けば\\簡単に見つけ出すことができます。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "心配するな。",
+      "char": "m153_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "絶対にばれてはいけません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "隠れるのは俺の特技だ。",
+      "char": "m153_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ルルル～ララ～",
+      "background": "bg008_f",
+      "bgm": "20",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "やっぱりバイト代は封筒でもらうのが一番だな。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "それじゃ、神聖なるバイト代の\\清算式でも始めるとしますか。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "憎たらしいサキュバスのヤツらめ。\\バイトを3件はしごしてるとは\\夢にも思ってないだろう！",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "joy"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "捕まえた、マスター。",
+      "char": "m153_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ひえっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "serious",
+      "before_effect": "shake"
     },
-    "22": {
+    "13": {
       "type": "talk",
-      "dialogue": "そんな姿を見るのが楽しくて、\\時々、傘をこっそり隠したりしてるんだ。\\傘が好きな理由なんて、ただそれだけのことだよ。",
-      "char": "keep",
+      "dialogue": "すまないが全部お見通しだ。",
+      "char": "m153_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
-    "23": {
+    "14": {
       "type": "talk",
-      "dialogue": "ふふ、そうだったの。\\…じゃあ、あの傘は坊やにはつまらないものかしら？ちょうど、誰かが捨てていったみたいだけれど。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "…いや。誰かが捨てた傘を拾うってのも悪くない。\\よし、今日はあれにするか。",
+      "dialogue": "うっ…そんな…嘘、だろ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "cry"
     },
-    "25": {
+    "15": {
       "type": "talk",
-      "dialogue": "…あっ、俺がこんなことしてるって、\\他の奴らには秘密にしてくれよ？",
-      "char": "keep",
+      "dialogue": "大人しく諦めろ。",
+      "char": "m153_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ふふ、わかったわ。\\ふたりだけの秘密、ね。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "right",
       "distance": "near"
     },
-    "27": {
+    "16": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,157 +2,319 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "真生田(まにゅうだ)さん…\\こんなところに呼び出して、いったい何の用ですか？",
-      "background": "bg057_f",
-      "bgm": "19",
-      "char": "c012_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "enter_from_right_slow"
+      "dialogue": "クレオパトラ無しにルーンを扱うのは大変でしょう。",
+      "background": "bg043_f",
+      "bgm": "9",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "久しぶりね、武藤。\\元気そうで何よりだわ。",
-      "char": "m056_00",
-      "speaker": "same_full",
+      "dialogue": "そうだな。\\ルーンはクレオパトラを自分の主人だと思っているからな。",
+      "char": "c000_01",
+      "speaker": "same",
       "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "おかげ様でね。\\用がないなら、俺は行きますよ？\\これでも忙しい身なんでね。",
-      "char": "c012_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "しかし、それ以外は問題ないだろ？\\いいヤツだし、大人しくて、親切で…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "実は、折り入ってお願いがあるの。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "こんにちは～可愛い悪魔。\\私の名前はルーンと申しま～す。",
+      "char": "m212_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "止めてくださいよ。取引はあの1回で終わりでしょ？これ以上、危ない橋は渡りたくないんでね。",
-      "char": "c012_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "毎回会う度にあの挨拶をするのは困りものだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら、連れないわね…\\ちゃんとご褒美も用意してあるのよ？",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "バカだからでしょ？ホルスが言ってたし。\\毎日毎日忘れるから同じ挨拶しかできないって。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "遠慮しておきます。\\身の程ってものをわきまえないと、とんでもないことになりますからね。",
-      "char": "c012_00",
-      "speaker": "same_full",
+      "dialogue": "強制契約の後遺症かもしれません。\\契約時、抵抗が激しかったそうです。",
+      "char": "c002_01",
+      "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そう、残念。でも、いいのかしら？\\貴方、私との取引以外でも裏で色々な事をやってるわよね。",
-      "char": "m056_00",
-      "speaker": "same_full",
+      "dialogue": "ホルスが契約したんだろ？",
+      "char": "c000_01",
+      "speaker": "same",
       "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "汚職刑事…\\それがバレちゃったら、大変なんじゃない？",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "仕方なかったのさ。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…俺を脅すのか？\\俺が捕まれば、アンタだって困るんじゃないか？",
-      "char": "c012_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "仕方なかったか…\\典型的な良い訳だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "11": {
       "type": "talk",
-      "dialogue": "どうかしら？貴方が昇進できたのは、私の力よ。\\そんな私が貴方ごときと道連れになると思う？",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "ところで、この話は女王…\\ファラオの前では遠慮してくれたら嬉しいね。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あっ、使える駒が減るのは困っちゃうわね。",
+      "dialogue": "知ってるだろ？あれこれ事情が複雑なのさ…",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "speaker": "same",
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c012_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "いつまで騙すつもりなんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ねぇ武藤？あの時の事は、私も感謝してるわ。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "ご主人様を…騙しているのか、ホルス～！",
+      "char": "m212_01",
+      "speaker": "same",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "だから、私も与えた。\\お互いにメリットのある取引だったでしょ？",
+      "dialogue": "ホルスがご主人様を騙した。\\ホルスがご主人様を…",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "これから、もっといい関係を築けると思ってたのだけど…私の勘違いかしら？",
+      "dialogue": "だけど、ご主人様は騙されたと教えてくれなかったけど…？",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "貴方は私の手を取った。もう引き返せないのよ？\\それに、安心して。\\誰にでもできる簡単なお仕事だから。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "それは、現在進行形で騙されてるからだろ！\\こいつ、自分の言ってる事わかってるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "18": {
       "type": "talk",
-      "dialogue": "チッ…わかりましたよ。で、用件は？",
-      "char": "c012_00",
-      "speaker": "same_full",
+      "dialogue": "ルーンは物事と物事を結びつける線が非情に細い状態です。",
+      "char": "c002_01",
+      "speaker": "same",
       "pos": "right"
     },
     "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "部分的記憶喪失とでも言いましょうか。\\文字は読めるが単語の意味を思い出せないのと同じような症状ですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "…使える男かと思ったけど、見込み違いかしら？",
-      "background": "bg058_f",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "center"
+      "dialogue": "これも強制契約の後遺症でしょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "しょうがないわね。保険をかけておきましょう。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "リザ。俺は決めた！\\こんな不幸なチャイルドが生まれないように、無理な契約はしないと！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "22": {
+      "type": "talk",
+      "dialogue": "親切に、紳士的に、理性的に説得して契約を行うということでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "その通り！\\やっぱりリザは賢いな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "実力のある悪魔なら何の問題もありませんね。\\その実力があればの話ですが。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "酷い…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ああ、本当に酷い話だね～\\一緒に俺まで非難する必要はないだろう？",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "そんな意図はありませんが。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "それにルーンは優しすぎるだけで、使えないわけじゃない。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "一人前の働きはできるさ。そうだろ、ルーン？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "私は私の役目を全うしま～す！\\ところで、私の役目ってなんでしょう？",
+      "char": "m212_01",
+      "speaker": "same"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あなたの役目は御主人様が魔王になれるように最善を尽くして戦うことです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ウフフ～知ってる。ご主人様が言ってた～\\可愛い悪魔の代わりに魔王候補生になりたいって～",
+      "char": "m212_01",
+      "speaker": "same"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "でも…可愛い悪魔がいるから\\今はそうすることはできないと言ってました～",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "そ、そうか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "アハー！可愛い悪魔がいれば、ご主人様も喜ぶよ！\\見てみたい～ご主人様の笑顔～",
+      "char": "m212_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "なんて主人思いの優しいヤツ！\\お前らも、ルーンを見習うべきだな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ハハッ、優しすぎて他のことは考えられないって短所があるけど…",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "どう使うかは、その悪魔の実力次第…\\そういうことだろう、リザ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "その通りですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "お前ら、ホントうるさいよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "なんで俺の周りには厄介なヤツしかいないんだよ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "おお～\\こんにちは～可愛い悪魔。\\私の名前はルーンと申しま～す。",
+      "char": "m212_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "もう、ホント嫌だ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "cry"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

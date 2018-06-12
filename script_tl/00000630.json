@@ -2,349 +2,289 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ん？なんか足元で何かが、\\俺の足の匂いを嗅いでいるような…",
-      "background": "bg068_f",
-      "bgm": "17",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "idle"
+      "dialogue": "最近、ティタニアは公園によく行くらしい。\\ちょっと様子を見に行こう。",
+      "background": "bg070_f",
+      "bgm": "13",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "「ような」ではなく、\\実際に匂いを嗅がれています。\\…ライオンのようですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "青い空！新鮮な空気！たくさんの人間！\\ぜんぶあたしのためにあるみたい！気持ちいいー！",
+      "char": "c133_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ライオンって言うと…",
+      "dialogue": "ティタニア、ご機嫌だな。\\何がそんなに楽しいんだ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "テロン！テロン！",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "うっ…誰？",
+      "char": "c133_01",
+      "speaker": "same",
       "pos": "right",
-      "distance": "far"
+      "before_effect": "shake_weak"
     },
     "5": {
       "type": "talk",
-      "dialogue": "やっぱり…\\あの子のライオンか。",
+      "dialogue": "警戒しなくていいよ。俺だよ、俺。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "俺は、遠くから駆け寄ってくる、\\キュベレーの契約者を見つけ呟いた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ああ、かの有名な「オレオレ詐欺」ですか？\\あたし、お金ありませんけど…",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ソーリー！ごめん！\\ビックリ？\\でも、テロン、ヒト、噛まない！安心、する！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "あれ？なんだ、俺のことわからないのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "8": {
       "type": "talk",
-      "dialogue": "知ってるよ。",
-      "char": "c000_01",
+      "dialogue": "ええ。あたしは、詐欺師の悪魔なんて知りません。\\弱っちい感じの悪魔なら知ってますけど。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "俺の足を丹念に舐めている様は、\\まるで味見をしているように見えるけど、\\気が付かないフリをする。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おい…わかっててやってるな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "10": {
       "type": "talk",
-      "dialogue": "テロン、知ってる？\\あれ？どこか、会った？",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ん？なんのことですか？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "会ったことがあるかと聞いているようですね。",
-      "char": "c002_01",
+      "dialogue": "ふざけてるのか、そうじゃないのか。\\ハッキリしてくれ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "いや、初めてだけど？",
-      "char": "c000_01",
+      "dialogue": "ああ、それはもちろん…\\ふざけてるんです。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "でも、テロン、噛まない。\\ユー、知ってる。\\なんで？",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "こら、真面目な顔して言うな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "自分のライオンが人を噛まないことを、\\なぜ知っているのかと聞いています。",
-      "char": "c002_01",
+      "dialogue": "ふふ。この程度のイタズラは、\\仲良くなりたいっていう意思表示じゃないですか。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…通訳ありがとう。",
-      "char": "c000_01",
+      "dialogue": "それはさておき、悪魔さん。\\何かご用事ですか？",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "なんとなく、かな…\\俺、昔からネコ科の動物とは、仲がいいんだよ。",
-      "char": "keep",
+      "dialogue": "いや、特に用事があるわけじゃないんだけど…\\お前がよく公園にいるって聞いて来てみたんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "この子に初めて会った時も、\\こんな話をした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…付きまとい事案？\\悪魔さんって、ストーカー？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ライオンが俺の匂いをたどって、\\擦り寄ってきたところで、\\追いかけてきたこの子と出会った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "人聞きの悪いことを言うな！\\心配してやってるんだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "友達と遊んでいたのかい？",
-      "char": "c000_01",
+      "dialogue": "わかりました。公園によく来る理由ですよね？\\んー。多分、契約者の影響だと思います。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "イエス！テロン、トモダチ！\\オニーサン、いっしょ、あそぼ！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ティタニアの契約者はこの公園で、\\大会に出るための瞬発力が欲しいと願った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "21": {
       "type": "talk",
-      "dialogue": "テロンが友達だと言っています。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "契約者が望んだ姿がこれです。バレーボールの妖精。だからって、まさか本当に妖精になるとはね。",
+      "char": "c133_01",
+      "speaker": "none",
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "…そ、それぐらいわかるよ。",
+      "dialogue": "妖精というか、天使に近い見た目だけどな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "テロン、怖い？",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "まあ、それはどっちでもいいんですけどね。\\しかし、天使って…言ってて恥ずかしくないですか？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "怖いかって？\\いや、こんな小さかったら、\\怖くはないけど…",
+      "dialogue": "恥ずかしいって言われても、\\他にピッタリくるものがないしなぁ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "haah"
     },
     "25": {
       "type": "talk",
-      "dialogue": "成長しきったキュベレーのテロンに比べれば、\\こんなちっこいのは子猫みたいなもんだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それだけあたしの美貌が素晴らしいって話ですよね。それなら仕方がありません。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "サンキュー！\\…マイアンクル、怖がる。\\テロン、こんなに、優しいのに…",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "そうそう。美貌が…って、そんな話はしてないし！\\都合よく解釈するな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "27": {
       "type": "talk",
-      "dialogue": "彼女のおじさんは、\\テロンを怖がっているようです。",
-      "char": "c002_01",
+      "dialogue": "お近づきになるためのコミュニケーションです。\\残念。あたしの美貌を褒めたたえていいのに。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "その反対かもな。",
+      "dialogue": "お前は会話が一方的すぎるよ。\\まったく…これコミュニケーションか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "sigh"
     },
     "29": {
       "type": "talk",
-      "dialogue": "はい？",
-      "char": "c002_01",
+      "dialogue": "悪魔さんのコミュ力がないのです。\\じゃあ、何か軽く食べながら\\ちゃんとお話ししましょうか？",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "お前が、おじさんを怖がっている。\\それがテロンに伝わってるのかもしれないな。",
+      "dialogue": "あ、そうだな。\\それはいいアイディアだ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "joy"
     },
     "31": {
       "type": "talk",
-      "dialogue": "うーん…怖く、ない。\\でも、アフリカ、帰りたい。\\だけど、トモダチできたから、へいき。",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "あ、あと、あそこで売ってる可愛い風船も、\\買ってきてください。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "テロン以外の友達ができたってこと？",
+      "dialogue": "え、風船？ああ、あれか。\\まあ、いいけど…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "33": {
       "type": "talk",
-      "dialogue": "うん。そのヒト、\\インマイドリーム…夜、寝る。\\夢、会いに来てくれる…",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "その次は、あそこのレストランで\\おすすめメニューを…",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "夢の中で出会った友達？",
+      "dialogue": "お、おう…って、俺はパシリか！\\支払いも全部俺かよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "35": {
       "type": "talk",
-      "dialogue": "She has a big lion！\\カワイイ。カッコイイ！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "せっかくちゃんとコミュニケーションを\\取りたいなって、思ったのに！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "36": {
       "type": "talk",
-      "dialogue": "はは、そうか。\\あいつら、\\この子の夢にお邪魔してるってわけか…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "えー、誤解ですよ！じゃあ、仕方ないなぁ。\\まずは、甘いモノを食べながら仲良くなりましょう！",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "それじゃ、今は寂しくない？",
+      "dialogue": "う、うーん…まあ、それならいいけど。\\なんか振り回されてないか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "facial": "sigh"
     },
     "38": {
       "type": "talk",
-      "dialogue": "うん。ダイジョーブ！\\オジサンとも、仲良くなれるように、\\がんばる！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "そんなことないですって。\\さあ、行きましょう！",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "そっか、頑張れ。\\お前の友達もきっと頑張ってるからさ。\\負けないようにしないとな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "誠に言い難いのですが…\\テロンが思いっきり御主人様の、\\お尻に噛みついてます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "う、ううう、うん…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "きゃあ！テロン！\\ノー！ダメ！ストップ！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "ある意味、頑張るのは俺の方か…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

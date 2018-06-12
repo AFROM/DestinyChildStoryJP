@@ -2,228 +2,444 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リベンジガールの契約者の願いですか？\\まさか、忘れてしまったのですか？",
+      "dialogue": "うぅ…頭痛い…寒い…辛いよぉ…",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "c002_01",
+      "bgm": "4",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake_weak",
+      "after_effect": "none"
     },
     "2": {
       "type": "talk",
-      "dialogue": "念のため、確認だ…",
-      "char": "c000_01",
+      "dialogue": "俺、このまま死んじゃうのかなあ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "distance": "normal",
+      "facial": "cry",
+      "before_effect": "shake_weak",
+      "after_effect": "none"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうですか。願いを忘れる程、\\たくさんのチャイルドを集めたということですね。",
-      "char": "c002_01",
+      "dialogue": "大袈裟ですね～たかだか40度の熱ですよ？\\ご主人さま…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "4": {
       "type": "talk",
-      "dialogue": "しかし、おかしいですね…\\御主人様の契約件数では、忘れてしまうことの方が\\不思議です。",
-      "char": "keep",
+      "dialogue": "たるんでいますね。魔王候補たるもの、この程度で\\音を上げないで下さい。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "5": {
       "type": "talk",
-      "dialogue": "正直にバカだと言ってくれ…",
+      "dialogue": "雪の降る中、朝から晩まで契約者探しなんて、\\誰だって風邪ひくだろ…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "cry"
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "6": {
       "type": "talk",
-      "dialogue": "御主人様にそんな無礼なことは言えません。",
-      "char": "c002_01",
+      "dialogue": "つーか、病人にその態度おかしいだろ！？\\サキュバスなら、こういう時ぐらい労わってくれよ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dialog_shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "よく言うよ！",
-      "char": "c000_01",
+      "dialogue": "残念ですがご主人さま、サキュバスは看護師じゃ\\ありませんから♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "8": {
       "type": "talk",
-      "dialogue": "リベンジガールの契約者が銀行強盗だ、ということはご存知ですよね？\\指名手配されたということも…",
+      "dialogue": "むしろこれを乗り越えて、免疫機能を鍛えて頂きたいですね。",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "9": {
       "type": "talk",
-      "dialogue": "それも全て、仲間であり恋人だった人間のせいです。契約者を裏切り、警察と手を組みました。",
-      "char": "keep",
+      "dialogue": "はぁ、もういい。なら、せめて静かにしてくれ…\\こっちはさっさと眠りたいんだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "10": {
       "type": "talk",
-      "dialogue": "契約者の願いは単純です。\\裏切った男に復讐すること。",
-      "char": "keep",
+      "dialogue": "はいはーいっ！じゃあ、\\ダビが子守歌歌ったげるーっ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none",
+      "one_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もう忘れないでくださいね。",
+      "dialogue": "バカは風邪をひかないけれど♪\\バカご主人が風邪ひいたー♪",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none",
+      "one_ani": "attack"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ああ…",
-      "char": "c000_01",
+      "dialogue": "びっくり不思議♪摩訶不思議～♪だからそう、\\これは寿命なのー♪",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none",
+      "one_ani": "attack"
     },
     "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "なんて歌だ…\\せめて、もっと静かな歌にしてくれよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お前の企みは全て把握している！\\契約者と復讐する気だろ？",
-      "background": "dungeon_bg",
-      "bgm": "24",
-      "char": "c000_01",
+      "dialogue": "たとえば、ご主人さまが雪山で会った子の歌なら、\\よく眠れそうですか？",
+      "char": "c001_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "fury",
-      "mvd_post_effect": "none"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "15": {
       "type": "talk",
-      "dialogue": "今頃、思い出したのか？\\お前というヤツは本当に…",
-      "char": "m145_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "ん？ああ、そうだな。\\あの子の歌なら、気持ちよく寝られそうだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "16": {
       "type": "talk",
-      "dialogue": "それで、私を邪魔しに来たのか？",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "呼びましたか？",
+      "char": "c359_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "one_ani": "attack",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "17": {
       "type": "talk",
-      "dialogue": "当然だ！",
-      "char": "c000_01",
+      "dialogue": "きゅ～！",
+      "char": "m253_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "18": {
       "type": "talk",
-      "dialogue": "警告を忘れたようだな…",
-      "char": "m145_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "うわっ！？ホ、ホントに来た！？\\ユキネも！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "19": {
       "type": "talk",
-      "dialogue": "その指以外、全て使えなくしてやると言ったはずだ…",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "うわ～なにこの小さいの！\\可愛い～！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あ…モナと一緒に来るの忘れてた…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ふふ、久しぶりですね。\\来てしまいました。ユキネもご挨拶して？",
+      "char": "c359_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "21": {
       "type": "talk",
-      "dialogue": "お、落ち着け。指だけじゃお前を助けてやれない。",
-      "char": "c000_01",
+      "dialogue": "きゅきゅ～！",
+      "char": "m253_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake",
+      "after_effect": "none"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そして、俺はお前の助けが必要なんだ。\\魔王になるために…",
-      "char": "keep",
+      "dialogue": "戸締りはしっかりしておいたはず。\\一体どうやって？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "23": {
       "type": "talk",
-      "dialogue": "私の契約者もそう言った。私の助けが必要だと。\\復讐のために。",
-      "char": "m145_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "まあまあ、細かいことはいいから♥\\せっかくだし、歌を聞かせてもらえないかしら？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "24": {
       "type": "talk",
-      "dialogue": "私は契約者の怨念から生まれた存在。\\無理やり引き留めても、その欲望を消すことは\\できない。",
+      "dialogue": "私たちのご主人さまは、ぐっすり眠れるような\\子守歌が聞きたいらしいの♥",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near"
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "25": {
       "type": "talk",
-      "dialogue": "だが私の邪魔をしないのであれば\\お前の目的のために私も最善を尽くしてやろう。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "え、子守歌ですか…？",
+      "char": "c359_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake_weak",
+      "after_effect": "none"
     },
     "26": {
       "type": "talk",
-      "dialogue": "いや、本当は魔王なんかになりたくは…",
+      "dialogue": "お…おい。\\それじゃまるで、俺が子供みたいじゃないか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "27": {
       "type": "talk",
-      "dialogue": "だからもう邪魔はするな。\\これ以上邪魔をしたら、その時は…",
-      "char": "m145_01",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "でも、ダビも聞いてみたいなー♪\\ご主人が褒めてた歌！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "28": {
       "type": "talk",
-      "dialogue": "わ、分かった、分かったよ…",
-      "char": "c000_01",
+      "dialogue": "分かりました。\\それでは、歌わせて頂きますね。",
+      "char": "c359_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "facial": "nonsense"
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "29": {
       "type": "talk",
-      "dialogue": "分かったからどうか命だけは…",
+      "dialogue": "<b>～♪</b>",
+      "bgm": "17",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "30": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "歌が流れる…\\それはとても優しくて、\\包み込まれていくような歌声。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "目をつむり…\\ウトウトとまどろんでしまいそうになる…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…ぐう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "すごい。３秒で寝ちゃった…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ええ、本当に…\\見てください、ほっぺたを抓っても起きませんよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "素晴らしい威力ですね。\\ダンジョン攻略に役立ちそうです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "えっと、きっと元々疲れていただけなのでは\\ないでしょうか…？",
+      "char": "c359_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ふふっ、とっても気持ちよさそうに寝てるわね。\\ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ご主人さまに代わってお礼を言わせて頂戴。\\あなた、お名前は？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そうですね…《雪》と呼んでください。",
+      "char": "c359_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     }
   }
 }

@@ -2,384 +2,375 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "最近シュリンクスがよく俺に笑いかけてくる。\\これはおやつをくれっていう、\\意思表示なのだろうか？",
-      "background": "bg089_f",
-      "bgm": "14",
+      "dialogue": "その日、俺は倒れていた。",
+      "background": "back",
+      "bgm": "6",
       "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "speaker": "none"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ほらシュリンクス、おやつの時間だぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
+      "dialogue": "宿敵の攻撃を受けて…そう、いつかは\\こういう日が来るって思っていた…",
+      "char": "none",
+      "speaker": "none"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…悪魔さんは、\\なんでもお菓子で解決しようとするのですね。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "やり方が汚ない…\\お茶に風邪薬を入れて飲ませるなんて…",
+      "char": "none",
+      "speaker": "none"
     },
     "4": {
       "type": "talk",
-      "dialogue": "バレた！\\やっぱりお菓子だけで手懐けるのは無理だよな。\\そりゃ犬だって、ずっと同じエサだけだと飽きるらしいし。",
+      "dialogue": "俺は風邪薬を飲むと無性に眠くなっちまうんだ……",
       "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "speaker": "none"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何か失礼なこと考えてますね。\\そんな顔してます。",
-      "char": "c101_01",
+      "dialogue": "ハイ、今のうちに契約契約ぅ！\\ハンコ♪ハンコ♪",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "facial": "joy",
+      "loop_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "まあ…そうだね。ごめんなさい。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "dialogue": "ダビ…お前の仕業だったか…",
+      "char": "none",
+      "speaker": "none"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "やっぱり悪魔ですね！ひどいですよ！\\どんな失礼なことを考えてたんですか？\\きっと私を操って、悪の手先にする方法でも\\考えてたんでしょう？",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake_weak"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "えっと、お前のこと…\\すごいカワイイって思ったんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "dialogue": "今回の契約者は\\公園をうろついていた初老のおっさんだ。",
+      "background": "bg006_f",
+      "char": "none",
+      "speaker": "none",
+      "facial": "idle",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あ、悪魔さんはそれを失礼だって\\思ったんですね。",
-      "char": "c101_01",
+      "dialogue": "ダビ？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "near",
+      "facial": "teach"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あの…大丈夫です。\\そういうことなら…もっと思っていただいても…",
-      "char": "keep",
+      "dialogue": "わあっ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "じゃあ、お詫びってことで。\\プリン食べるか？",
-      "char": "c000_01",
+      "dialogue": "ここで何してるの？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "smile"
+      "facial": "teach"
     },
     "12": {
       "type": "talk",
-      "dialogue": "…！？",
-      "char": "c101_01",
+      "dialogue": "な、何って、契約だよ！\\寝てるご主人を連れてくるの大変だったんだから！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
+      "facial": "joy"
     },
     "13": {
       "type": "talk",
-      "dialogue": "プ…プリン…それも3つの味をセットで…？",
-      "char": "keep",
+      "dialogue": "勝手に契約したのね？\\ダビ、契約はご主人さまの意志に従うのが\\筋道ってものよ？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "serious"
     },
     "14": {
       "type": "talk",
-      "dialogue": "プ、プリンは嫌いか？",
-      "char": "c000_01",
+      "dialogue": "…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "cry"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あ、悪魔さんは…もしかして天使ですか？",
-      "char": "c101_01",
+      "dialogue": "…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "serious"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ハッハッハ、プリンあげたら、\\俺も天使に昇格できるのか！",
-      "char": "c000_01",
+      "dialogue": "…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
+      "pos": "right",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "うう…け、契約者の影響でしょうか。\\あの子…春日井奈波(かすがい ななみ)は甘い\\ものに目がないので…",
-      "char": "c101_01",
+      "dialogue": "でもでも～！\\モナ姉さまは、こんなバカの下にいちゃ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "angry"
     },
     "18": {
       "type": "talk",
-      "dialogue": "奈波は…とっても頑張り屋さんなんです。\\同級生にいじめられても塞ぎ込まず、\\笑顔を忘れないような強くて優しい子で…",
-      "char": "keep",
+      "dialogue": "ダビ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near",
+      "facial": "teach"
     },
     "19": {
       "type": "talk",
-      "dialogue": "契約者を思い出して、しんみりしちゃったみたいだ。話によると、その子は「優しい世界」を\\望んでいるらしいけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "気持ちはわかるけど、\\ご主人さまのチャイルドが暴走したら\\困るのは誰かしら？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "teach"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それはそうと…おいしいですね、このプリン。",
-      "char": "c101_01",
+      "dialogue": "サキュバスの大原則、忘れてないわね？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "teach"
     },
     "21": {
       "type": "talk",
-      "dialogue": "しんみりが1分も保たなかったな…\\契約者さんも、プリンには勝てなかったか…",
-      "char": "c000_01",
+      "dialogue": "…うん。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right",
+      "facial": "superangry"
     },
     "22": {
       "type": "talk",
-      "dialogue": "もぐもぐ…何か言いましたか？",
-      "char": "c101_01",
+      "dialogue": "契約をたくさんしたからといって、\\イコール強い悪魔ってわけじゃないし。\\ましてや魔王争奪戦が早く終わるわけでもないわ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "teach"
     },
     "23": {
       "type": "talk",
-      "dialogue": "いや、独り言だよ。\\気にせず食べて。",
-      "char": "c000_01",
+      "dialogue": "サキュバスみんなが無事にお仕事を終えられることが私の目標なの、協力してくれるわよね？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "smile"
     },
     "24": {
       "type": "talk",
-      "dialogue": "はい、ごちそうさまでした。\\どの味も、とってもおいしかったです。",
-      "char": "c101_01",
+      "dialogue": "…うん、わかった。\\それじゃあの契約者には、帰ってもらうね。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "smile",
+      "before_effect": "shake_weak"
     },
     "25": {
       "type": "talk",
-      "dialogue": "早っ！もう全部食べたのか？\\女子の別腹って本当にあるのかも…\\確かめたくなってきた。",
-      "char": "c000_01",
+      "dialogue": "誰…だ…\\我を呼んだ者は…",
+      "char": "c067_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "pos": "center",
+      "distance": "far"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…シュリンクス、チョコ…食べるか？",
-      "char": "keep",
+      "dialogue": "あら～、残念。\\手遅れみたいね…",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "facial": "sigh"
     },
     "27": {
-      "type": "talk",
-      "dialogue": "ああ…！か、神よ…！！あなたは神なのですか！",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "チョコも効果はバツグンだ！",
-      "char": "c000_01",
+      "dialogue": "タナトス、あなたの願いは何かしら？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "center",
+      "facial": "idle",
+      "background": "bg057_f"
     },
     "29": {
       "type": "talk",
-      "dialogue": "チョコ、おいしいです。\\口の中でトロけて、甘さがじんわりと…\\これこそ優しくて幸せな味ですね！",
-      "char": "c101_01",
+      "dialogue": "死……",
+      "char": "c067_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center"
     },
     "30": {
       "type": "talk",
-      "dialogue": "グルメリポーター顔負けのコメントだ…！\\チョコってそんなすごい食べ物だっけ？",
-      "char": "c000_01",
+      "dialogue": "我は…\\死を望む…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "pos": "center",
+      "distance": "near"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ま、シュリンクスはよっぽど甘いものが\\好きなんだな。\\またシュリンクス用に買い置きしとくよ。",
-      "char": "keep",
+      "dialogue": "駄目よ、タナトス♥\\あなたはもうご主人さまのチャイルドなんですよ～？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "facial": "idle"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ホントですか…！\\悪魔さんは悪魔なんか辞めて、天使になるべきです！",
-      "char": "c101_01",
+      "dialogue": "モナたちの財産ってことです。\\だから、勝手に死なれては困っちゃうんです♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ハハ、そうだな。考えとくよ。",
-      "char": "c000_01",
+      "dialogue": "死こそ唯一の希望…\\生命に対する唯一の祝福…",
+      "char": "c067_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "こんなに喜んでくれるなら\\初めからおやつをあげとけば良かったかな。",
-      "char": "keep",
+      "dialogue": "…あら~、\\あからさまに面倒くさそうなことほざいてますね。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "facial": "serious"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "いえ、それは無理だと思います。\\あの頃のわたしは、\\悪魔さんのことを警戒してましたから。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "じゃあ…今は？",
-      "char": "c000_01",
+      "dialogue": "なぜ、ここにいるチャイルドたちを殺しては\\いけないというのだ？\\死は祝福であろう。",
+      "background": "bg177_f",
+      "char": "c067_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "37": {
       "type": "talk",
-      "dialogue": "そうですね、\\わたしの今の気持ちを素直に表現すると…\\悪魔さんは…本当に温かくて優しいです。",
-      "char": "c101_01",
+      "dialogue": "他のチャイルドはそう思わないかもしれないですし、もう少し社会性ってものをわきまえてください。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "teach"
     },
     "38": {
       "type": "talk",
-      "dialogue": "そしてわたしは、そんなあなたのお手伝いができて、本当に良かったと思っていますよ。優しい悪魔さん。",
-      "char": "keep",
+      "dialogue": "苦痛だらけのこの世を去ること、\\即ち大いなる喜びのはず。\\痛みなど、ほんの一瞬。死ねば皆感謝するだろう…",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ですから何度も言うように、他のチャイルド達は\\そう思わないかもしれないんですってば。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "teach"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "…我は、生きる理由がわからない。",
+      "char": "c067_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "39": {
-      "type": "talk",
-      "dialogue": "…！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky",
-      "before_effect": "shake_weak"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "シュリンクスがニコッと明るく微笑んだので、\\驚いてしまった。\\どうやら、ついに俺を認めてくれたらしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
     "41": {
       "type": "talk",
-      "dialogue": "こちらこそ、ありがとな、シュリンクス。\\これからもよろしく頼む。",
-      "char": "c000_01",
+      "dialogue": "我の契約者は何者でもない、普通の人間だった。\\生きる必要がなかった。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "right"
     },
     "42": {
       "type": "talk",
-      "dialogue": "はい、悪魔さん。\\これからも…美味しいおやつをお願いします。",
-      "char": "c101_01",
+      "dialogue": "あいつの人生にいったい何の意味が\\あったと言うのだ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "43": {
       "type": "talk",
-      "dialogue": "結局、おやつが目当てなのか！",
-      "char": "c000_01",
+      "dialogue": "もし意味があるというなら、探してみろ。\\我の命の価値を。ただし…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "44": {
       "type": "talk",
-      "dialogue": "まったく、中身がお子様だから仕方ないか…\\シュリンクスの幸せそうな姿を見るために、\\またおやつを用意しといてやろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ただし？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
     },
     "45": {
+      "type": "talk",
+      "dialogue": "答えが見つからなかったとき、我は命を絶つだろう。そして、その死を邪魔した代償として…",
+      "char": "c067_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "お前も道連れにしてくれよう…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "あら～、怖い怖い♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "tempt",
+      "one_ani": "attack"
+    },
+    "48": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

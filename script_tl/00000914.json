@@ -2,305 +2,225 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "本当に負けてしまうなんて…",
-      "background": "bg205_f",
-      "bgm": "39",
-      "char": "c299_01",
+      "dialogue": "アシュトレス、お前なぁ！",
+      "background": "bg245_f",
+      "bgm": "12",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108019"
+      "facial": "fury",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "おめでとうございます、御主人様。\\めでたく一石三鳥ですね。",
-      "char": "c002_01",
+      "dialogue": "もういい加減にしろ！これ以上は戦闘禁止！",
+      "char": "keep",
       "speaker": "same",
-      "facial": "smile",
-      "voiceid": "200108020"
+      "pos": "center"
     },
     "3": {
       "type": "talk",
-      "dialogue": "イェーイ♪\\ルドルフに乗ってクリスマスの妖精と一緒に、\\町中にプレゼントを配りに行こー！",
-      "char": "c003_01",
+      "dialogue": "ずっと言ってるけど、お前のやり方はホント\\おかしい。容赦なさすぎるだろ！！",
+      "char": "keep",
       "speaker": "same",
-      "facial": "joy",
-      "one_ani": "attack",
-      "voiceid": "200108021"
+      "pos": "center"
     },
     "4": {
       "type": "talk",
-      "dialogue": "一晩寝たらダビのヤツも、\\あんなにはしゃいでたことも忘れちまうんだろうな…",
-      "char": "c000_01",
+      "dialogue": "おかしいですか？",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "200108022"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あんな生意気なガキに\\サンタクロースが負けるなんて…！",
-      "char": "c299_01",
+      "dialogue": "そんなこと言われたら、傷つきます。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108023"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "失礼な。誰が生意気なガキだ。",
+      "dialogue": "ウソつけ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200108024"
+      "pos": "center",
+      "distance": "near",
+      "facial": "irritation"
     },
     "7": {
       "type": "talk",
-      "dialogue": "納得いかないようだけど、\\今のお前は強いこと言える立場じゃ…",
+      "dialogue": "とにかく、ネズミをもてあそぶネコみたいな事は\\やめろ…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200108026"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "顔に書いてある、この怠惰で能なしのガキめ！",
-      "char": "c299_01",
+      "dialogue": "あら、悪魔のはずのご主人様がそんなことを言うなんて。では、こう考えてみてはいかがでしょうか。",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108025"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "どういうことだ！？",
-      "char": "c299_01",
+      "dialogue": "私はただ《正義》を行っているのです。\\あの名も知らない魔王候補生は、これまで私の契約者をずいぶん苦しめたそうです。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "voiceid": "200108027"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "だ、だから、あんたは俺に負けたわけだし…",
-      "char": "c000_01",
+      "dialogue": "私の契約者とその友達がどれだけ苦しんだことか…\\想像もできないでしょう？あの悪魔に操られていたせいで、彼女たちの学校は地獄だったそうです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake",
-      "voiceid": "200108028"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ちょっと私も言わせてもらっていい？\\私だって、あなたにそんな妄想癖さえなかったら…",
-      "char": "c246_01",
+      "dialogue": "つまり、これは、いたいけな少女たちを苦しめた罪への制裁。正当な権利ですわ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108029"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "も、妄想癖だと…！？",
-      "char": "c299_01",
+      "dialogue": "そんな詭弁で騙されないぞ？\\そもそも、お前の契約者は操られてなんかいない。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "voiceid": "200108030"
+      "pos": "left",
+      "facial": "angry"
     },
     "13": {
       "type": "talk",
-      "dialogue": "サンタクロースの振りをしているうちに、\\本当に自分がサンタクロースだと\\信じちゃうんだもん…",
-      "char": "c246_01",
+      "dialogue": "お前の契約者の黒木麗花が友達を苦しめたのは、悪魔のせいじゃない。ただ、そういう性格なだけだろ。お前だってそうだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108031"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "クランプスがコンビを解消した理由が、\\悪魔の妄想にあったなんて…",
-      "char": "c002_01",
+      "dialogue": "フフフッ。なんだか恥ずかしいですね…\\ちゃんと私の事を理解してくださっているなんて。",
+      "char": "c194_01",
       "speaker": "same",
-      "voiceid": "200108032"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ソリを引くルドルフを探すって言って、\\私をほったらかしにしたんだよね～？",
-      "char": "c246_01",
+      "dialogue": "でも、思いやりが足りないですわ。",
+      "bgm": "keep",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108033"
+      "distance": "near"
     },
     "16": {
       "type": "talk",
-      "dialogue": "うっ…！",
-      "char": "c299_01",
+      "dialogue": "お前なぁ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108034"
+      "pos": "left",
+      "facial": "haah"
     },
     "17": {
       "type": "talk",
-      "dialogue": "おい、お前、本当にクランプスか！？\\ウソだろ！\\僕が尊敬するクランプスはもっとカリスマ性に溢れてて、カッコ良くて…",
-      "char": "c225_01",
+      "dialogue": "私もご主人様の気持ちを理解したいところですが…",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108035"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ナイスバディーなんだよ！",
+      "dialogue": "でも、残念。\\楽しいおしゃべりはここまでのようですね。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "200108036"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "それなのに、コイツは…\\それこそ本当の《クリスマスの妖精》じゃないか！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108037"
+      "dialogue": "貴様…どういうつもりだ？\\お前のことだ！このたいまつ頭め！\\なんで俺様の獲物を横取りするんだ！？",
+      "char": "none",
+      "speaker": "Devil",
+      "screen_effect": "dialog_shake"
     },
     "20": {
       "type": "talk",
-      "dialogue": "これのどこが《伝説のクランプス》なんだよ！",
-      "char": "keep",
+      "dialogue": "あはっ、たいまつ頭…！\\やったね、ご主人！新しい名前が増えたよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108038"
+      "pos": "center",
+      "before_effect": "enter_from_right_fast",
+      "facial": "joy"
     },
     "21": {
       "type": "talk",
-      "dialogue": "伝説の基準って一体何なんだ！？",
+      "dialogue": "うるさいよ！別に燃えてるわけじゃない！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200108039"
+      "distance": "toonear",
+      "facial": "unfair",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "22": {
       "type": "talk",
-      "dialogue": "でも～！\\私は前のご主人様を忘れたわけじゃないわよ。",
-      "char": "c246_01",
+      "dialogue": "本当に失礼な悪魔ですわね。私のたいまつ頭…いえ…ご主人様に無礼な口を利くなんて。",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "voiceid": "200108040"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "直接会えば、悪魔としての自分を思いだすかもって\\期待したんだけど…",
+      "dialogue": "ご主人様は私に新しい命をくださったお方。\\誰であろうと、ご主人様を辱める者は許しません。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "voiceid": "200108041"
+      "one_ani": "attack"
     },
     "24": {
       "type": "talk",
-      "dialogue": "思ったよりも役に立ってくれてありがとう！\\新しいご主人さま♥",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200108042"
+      "dialogue": "許さないならどうすんだぁ？コラ！\\八つ裂きにしてやろうか！",
+      "char": "none",
+      "speaker": "Devil"
     },
     "25": {
       "type": "talk",
-      "dialogue": "俺をダシにしてサンタクロースに会い、\\まんまと目的を達成したわけか！",
+      "dialogue": "ひぃ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "200108043"
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "こうなった以上、過ぎたことを悔やんでも仕方ない。さあ、残り僅かな聖夜を満喫しよう！",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108044"
+      "dialogue": "…あ～もういい。\\たっぷり痛めつけてボコボコにしてやろうかと思ったが、弱そうだし面倒だ。\\さっさと消えろ！",
+      "char": "none",
+      "speaker": "Devil"
     },
     "27": {
       "type": "talk",
-      "dialogue": "すっごいポジティブな先輩だな…",
-      "char": "c000_01",
+      "dialogue": "ご主人様に恐れをなして逃げるのですか？\\まぁ、当然ですね。ご主人様は強い悪魔ですからね！",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200108045"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "《クリスマスこそ悪魔たちの祭典》\\さあ、純粋な人間たちの魂を奪ってやろう！",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108046"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "頼もしい悪魔とチャイルドが加わってくれて、\\よかったですね、ご主人さま♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "200108047"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "なんか引っかかるぞ…",
+      "dialogue": "アシュトレスさん！やめて！\\そんな発言、全然うれしくないから！！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "voiceid": "200108048"
+      "facial": "shock",
+      "before_effect": "shake"
     },
-    "31": {
+    "29": {
       "type": "talk",
-      "dialogue": "でも、まぁいいか！",
-      "char": "keep",
+      "dialogue": "フフフッ、さぁ、ご主人様。\\もっと、私を楽しませてください。",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "smile",
-      "voiceid": "200108049"
+      "pos": "right"
     },
-    "32": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ルドルフ…\\こんなに長い月日が経っているのに、\\相変わらずなのね。",
-      "background": "bg205_f",
-      "bgm": "24",
-      "char": "c253_01",
-      "speaker": "unknown1",
-      "voiceid": "200108050"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "しかも、この鼻をつく匂い…悪魔ね。",
-      "char": "keep",
-      "speaker": "unknown1",
-      "voiceid": "200108051"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "一緒にいるのもほどほどにね、ルドルフ。\\匂いが移ったら困るから。",
-      "char": "keep",
-      "speaker": "unknown1",
-      "voiceid": "200108052"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "さてと…\\それじゃあ、私のソリ引きを連れ戻しに行くと\\しましょうか！",
-      "char": "keep",
-      "speaker": "unknown1",
-      "distance": "near",
-      "voiceid": "200108053"
-    },
-    "37": {
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

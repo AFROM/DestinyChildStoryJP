@@ -2,234 +2,354 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハ～イ★深夜のパートナーホルス参上～",
-      "background": "bg040_f",
-      "bgm": "24",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "うっわ！",
+      "dialogue": "いたっ！\\何だよ、急に！？",
+      "background": "bg101_f",
+      "bgm": "4",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
       "facial": "serious",
       "before_effect": "shake"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "よし！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy"
+    },
     "3": {
       "type": "talk",
-      "dialogue": "そういうの、やめろよっ！！\\あとな、そのモノマネは嫌いだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "そんな下手だったかい？\\結構似てたと思うんだけどなぁ。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "もしかして芸能人とか嫌い？\\脳内彼女とか作って楽しむタイプ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "単にそのモノマネが嫌いなだけだ！\\今は忙しいんだから、邪魔するなよ！",
+      "dialogue": "何がよし、だ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "confused",
+      "one_ani": "attack"
     },
-    "7": {
+    "4": {
       "type": "talk",
-      "dialogue": "んー？これ、あれだろ？さっきサキュバス達に\\メチャクチャ叱られて押しつけられた宿題。",
-      "char": "c266_01",
+      "dialogue": "いたっ！なんで叩くの！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
     },
-    "8": {
+    "5": {
       "type": "talk",
-      "dialogue": "どれどれ…アハハ！なんだこりゃ！\\問題：「人間が実現不可能な望みを願った時の正しい対処法は？」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "答え：「慌てず騒がず、その願いを受け付ける」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "こいつは違うな。\\なーんでこんな基本的な問題を間違えるかな？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "えっ！？これが一番悪魔らしくないか？\\叶えてやれない願いも、受け付けるってのがさ。",
+      "dialogue": "オマエこそ急に人の目を突きやがって！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "12": {
+    "6": {
       "type": "talk",
-      "dialogue": "違うな。\\受け付けるんじゃなくて願いの方を変えさせるのさ。",
-      "char": "c266_01",
+      "dialogue": "痛かった？ご主人？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
     },
-    "13": {
+    "7": {
       "type": "talk",
-      "dialogue": "割に合わない契約をしてしまい、後から魔力をごっそり持ってかれたらどうするんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "騙す方法はいくらでもある。\\自分の都合の良いように誘導するのさ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "チャイルドにするんだぞ？\\わざわざ反感を買う必要はないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "悪魔のくせに、そんな心配をしてるのか？\\今までよく生き残れたなあ…",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "バカなのか…？アッハッハッ、笑えるな！\\小僧、この答案用紙このまま提出したら大目玉だぞ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ふん、いいんだよ。\\この宿題は俺に対する八つ当たりみたいなものだし。",
+      "dialogue": "当たり前だろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "confused",
+      "before_effect": "shake"
     },
-    "19": {
+    "8": {
       "type": "talk",
-      "dialogue": "どんな答えを書いたって、どうせ叱られるんだよ。",
+      "dialogue": "うっ…涙が出る…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "cry"
     },
-    "20": {
+    "9": {
       "type": "talk",
-      "dialogue": "いや、そうだとしても、これは基本中の基本だ。\\口車に乗せるぐらい出来ないと、悪魔失格だぞ？",
-      "char": "c266_01",
+      "dialogue": "ヘヘ…ダヌの言う通りだ。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile"
     },
-    "21": {
+    "10": {
       "type": "talk",
-      "dialogue": "ちゃんとメモしとけよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "<b>余計な願い</b>を引き受けると…\\叶えられなかった時、痛い目に遭うぞ。",
+      "dialogue": "ダヌがね、嫌いなヤツを見かけたら\\目玉を突けって。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "facial": "smile"
     },
-    "23": {
+    "11": {
       "type": "talk",
-      "dialogue": "経験者の言葉だ。\\肝に銘じておけ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "経験者…？",
+      "dialogue": "…アイツ、俺に恨みでもあるのか。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "25": {
+    "12": {
       "type": "talk",
-      "dialogue": "悪魔の寿命がどれだけ長いかは知ってるだろ？",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ねえ！アンタたち。ここで何してるの？",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
-    "26": {
+    "13": {
       "type": "talk",
-      "dialogue": "願いを叶えてやれなかったせいで、\\生涯お世話しないといけなくなったりするんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "噂をしたけりゃ日陰ってこのことだね。",
+      "char": "c003_01",
+      "speaker": "same"
     },
-    "27": {
+    "14": {
       "type": "talk",
-      "dialogue": "それって、クレオパトラと契約したときの話か…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "今日はなかなか冴えてるじゃないか。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "そうだ。女王様を2000年も追いかけているのは、単に俺の執着だけじゃないってことさ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "一生お世話か…",
+      "dialogue": "噂をすれば影、だろ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "アンタたち、今、私の悪口言ったでしょ？",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ち、違います！刑事さん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "なんで目を反らすのよ。怪しいわね。",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "刑事さんに似た子の話をしてたんだよ。",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "私に似た子？\\誰かは知らないけど、きっと可愛いんでしょうね。",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "よくもまぁ、そんなことが言えるな…\\と思ったけど、確かにすごい童顔だ、\\この刑事さん。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "この顔で飲兵衛だなんて信じられないけど…\\この人がダヌの契約者、富樫智佳(とがし ともか)だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "と、ところで刑事さんはここで何を…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "見たら分かるでしょ、勤務中よ。",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ダビ、知ってる！潜入入試でしょ！",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "それを言うなら潜入調査だろ…\\でもこんな大通りを堂々と歩いてていいんですか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "まぁ、子供と話してたら犯人もまさか私が\\刑事だとは思わないでしょ。",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "あ、そうだ。あの巨乳のお姉さんは元気？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "アイツならいつも通りですよ。\\ふてぶてしく、いつもニコニコ笑ってます…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "モナ姉さまの悪口言うな！",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "fury",
+      "one_ani": "attack"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "後でまた相談所に行くからって伝えてくれる？",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
     "31": {
       "type": "talk",
-      "dialogue": "わかった。肝に銘じておくよ。\\下手に願いを受け入れて、人生を棒に振るわけにいかないからな。",
-      "char": "keep",
+      "dialogue": "また？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ここでいう相談所とは《モナの相談所》のことだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "訪ねて来た生贄…もとい、客と契約を結ぼうという\\真っ黒な下心が感じられる…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "行っちゃ悪い？",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "あ、いえ…まさか…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "irritation"
     },
-    "32": {
+    "36": {
+      "type": "talk",
+      "dialogue": "よかったじゃん！ダヌと再契約を…",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "smile"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "う、うるさい！この空気の読めないガキめ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "再契約が何だって…？",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "いや、最近相談所にお客さんが\\めっきり来なくなって…\\また来てくれたら嬉しいなって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "怪しいわね…",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "そ、それより悩みでもあるんですか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "班長がさ…見れば見るほど腹立たしくって！\\だからって一発殴るわけにもいかないし。",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "例の上司ですか？\\結局、告発しないんですか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "もう少しタイミングを見計らって…\\今はまだその時じゃないわ。",
+      "char": "c235_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "none"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "うう…イライラする！仕事が終わったら酒よ、酒！\\今日はとことん飲んでやる！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "極端な人だな…\\ダヌがどうして、ああなのか分かる気がする…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "47": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

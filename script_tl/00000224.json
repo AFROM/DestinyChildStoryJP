@@ -2,291 +2,277 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あーん！\\モナお姉さま、待って！待ってったら！",
-      "background": "e048_01_f",
-      "bgm": "4",
-      "char": "c003_01",
+      "dialogue": "結局、一緒に行くことになったわけ？\\フレイのやつ、よく納得したわね。",
+      "background": "bg175_f",
+      "bgm": "9",
+      "char": "c124_02",
       "speaker": "same",
-      "distance": "normal",
-      "facial": "cry",
-      "screen_effect": "dialog_shake",
-      "before_effect": "enter_from_right_fast"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108501001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "魔王争奪戦には、\\参加しないって言ってたよね！？",
-      "char": "keep",
+      "dialogue": "まあな。でも俺は事あるごとにフレイとケンカする\\もんだから、リザに隔離されてしまった…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "cry",
-      "before_effect": "shake_weak",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "108501002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうなんだけど…\\すぐに帰ってくるから、心配しないで？",
-      "char": "c001_01",
+      "dialogue": "ああ、なるほど。\\だから、いつになく大人しくしてるわけね？",
+      "char": "c124_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "enter_from_left_fast"
+      "pos": "right",
+      "voiceid": "108501003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "やだ！モナ姉さまが行くなら、ダビも行く！\\置いてっちゃやだぁ！",
-      "char": "c003_01",
+      "dialogue": "情けないわね。\\サポーターに主導権を奪われるなんて。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle",
-      "before_effect": "shake"
+      "voiceid": "108501004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "連れてってくれないんだったら…、\\ダビを踏んづけて行って…！",
-      "char": "keep",
+      "dialogue": "別に主導権を奪われたわけじゃ…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "cry"
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "108501005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ええ…？\\大丈夫？痛いわよ…？",
-      "char": "c001_01",
+      "dialogue": "いや、奪われてるな…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy",
-      "before_effect": "shake_weak",
-      "one_ani": "attack"
+      "facial": "irritation",
+      "voiceid": "108501006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "うわあん！\\遠慮なくダビを足蹴にするお姉さま…",
-      "char": "c003_01",
+      "dialogue": "あなたって本当に抜けてるわね…",
+      "char": "c124_02",
       "speaker": "same",
       "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake_weak",
-      "screen_effect": "dialog_shake"
+      "voiceid": "108501007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "最高にステキーっ！！",
+      "dialogue": "はっきり言って、悪魔らしくない。\\そんなことで、今後どうやって生き残るつもりでいるのかしら？",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "facial": "smile",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "voiceid": "108501008"
     },
     "9": {
       "type": "talk",
-      "dialogue": "お姉さま！魔王争奪戦が終わったら、\\すぐに帰ってくるって約束して！",
-      "char": "keep",
+      "dialogue": "そ、そこまでひどく言わなくても！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "cry"
+      "facial": "unfair",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "108501009"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ダビ～？\\足にしがみつかないでちょうだいな？",
-      "char": "c001_01",
+      "dialogue": "こういうのはハッキリ言う方があなたのためだもの。",
+      "char": "c124_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "voiceid": "108501010"
     },
     "11": {
       "type": "talk",
-      "dialogue": "約束してくれるまで離さないもん！\\本当はどこにも行かないで、\\ずっとダビのそばにいてほしいんだもん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "cry",
-      "before_effect": "shake"
+      "dialogue": "会うヤツにことごとく悪魔らしくないと言われる…\\そもそも、悪魔らしい悪魔ってどんなヤツだよ？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108501011"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あらあら、困った子ねぇ。\\必ず帰ってくるから、大人しく待っていてね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "何かあるとすぐ暴力を振るう乱暴者…\\ってわけでもないだろうし。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108501012"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ううう～…\\じゃあ、この<color=ff9900>契約書</color>にサインして！",
-      "char": "c003_01",
+      "dialogue": "ふふん、だいぶ悩んでるようね？",
+      "char": "c124_02",
       "speaker": "same",
       "pos": "right",
-      "facial": "cry"
+      "voiceid": "108501013"
     },
     "14": {
       "type": "talk",
-      "dialogue": "契約書？\\えーと…\\「私、<color=ff9900>《モナ》</color>は魔王争奪戦が終わったら\\すぐに帰ってくることを約束します」",
-      "char": "c001_01",
+      "dialogue": "ほっとけ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "sigh",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108501014"
     },
     "15": {
       "type": "talk",
-      "dialogue": "「約束を破った時は、ダビと結婚して、\\生涯を共に歩むことを誓います」",
+      "dialogue": "ところでお前、俺たちと合流するって聞いたけど？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "voiceid": "108501015"
     },
     "16": {
       "type": "talk",
-      "dialogue": "この契約書にサインをすれば、\\いい子にしていてくれるのね？わかったわ。\\…はい、これでいいかしら。",
-      "char": "c001_01",
+      "dialogue": "…まぁ。そうよ。",
+      "char": "c124_02",
       "speaker": "same",
-      "distance": "near",
-      "facial": "smile"
+      "pos": "right",
+      "voiceid": "108501016"
     },
     "17": {
       "type": "talk",
-      "dialogue": "きゃぁぁ♥ありがとう、モナお姉さまーっ♥\\新婚旅行はどこに行く？\\ダビは、ずーっと姉さまと\\二人きりでいられる場所がいいな！",
-      "char": "c003_01",
+      "dialogue": "なんだよ、歯切れが悪いな…\\協力は不本意ってことか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left",
+      "voiceid": "108501017"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そうねぇ、最近話題の観光地が\\いいんじゃないかしら。",
-      "char": "c001_01",
+      "dialogue": "そうね…\\どう答えたらいいのかしら…",
+      "char": "c124_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "voiceid": "108501018"
     },
     "19": {
       "type": "talk",
-      "dialogue": "観光地なんて、邪魔者がいっぱいいるじゃん！\\…あ、全部吹っ飛ばしちゃえばいっか。\\それで誰もいない静かな街に、\\お姉さまとの愛の巣を…えへへ…",
-      "char": "c003_01",
+      "dialogue": "というか、あなたはなぜ、\\私の事情を知りたがるの？",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "facial": "joy",
-      "before_effect": "shake_weak"
+      "pos": "right",
+      "voiceid": "108501019"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それじゃ、お留守番よろしくね♥",
-      "char": "c001_01",
+      "dialogue": "協力するって決めた以上、嫌な顔なんてされたく\\ないんだよ。それだけだ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "idle",
+      "voiceid": "108501020"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あ、モナお姉さまぁぁぁ！",
-      "char": "c003_01",
+      "dialogue": "あなたとは別にフレイとも話をしたけど…\\世界が滅亡しても彼からは出てこない言葉ね。",
+      "char": "c124_02",
       "speaker": "same",
       "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
+      "voiceid": "108501021"
     },
     "22": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "お前、よくあいつと会話を成立させられるよな。\\本気で尊敬するよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "108501022"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うわああああああん！",
-      "background": "e048_01_f",
-      "bgm": "15",
-      "char": "c003_01",
+      "dialogue": "あなたとフレイの相性が悪すぎるだけよ。\\それに、あんなのはただの腹の探り合い。",
+      "char": "c124_02",
       "speaker": "same",
-      "distance": "near",
-      "facial": "cry",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "pos": "right",
+      "voiceid": "108501023"
     },
     "24": {
       "type": "talk",
-      "dialogue": "よく見たら、\\契約書のサインが、<color=ff9900>《ナモ》</color>になってるー…！！",
-      "char": "keep",
+      "dialogue": "腹の探り合い？\\2人で腹を撫であったり触ったり？\\どういう状況だよ！？",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "idle",
-      "before_effect": "shake_weak",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "108501024"
     },
     "25": {
       "type": "talk",
-      "dialogue": "それに、知らないうちに内容が書き足されてる…",
-      "char": "keep",
+      "dialogue": "腹の探り合いって、そういう意味じゃないわよ。\\あなた、バカなの？",
+      "char": "c124_02",
       "speaker": "same",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
+      "pos": "right",
+      "voiceid": "108501025"
     },
     "26": {
       "type": "talk",
-      "dialogue": "「婚姻の時期は契約者が決める。\\日取りは明記しない」",
-      "char": "keep",
+      "dialogue": "た、ただの冗談だよ、冗談…",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "cry"
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "108501026"
     },
     "27": {
       "type": "talk",
-      "dialogue": "うう…モナお姉さまのバカー！",
-      "char": "keep",
+      "dialogue": "相手の本音や真意を引き出すため、他愛のないやり取りをしたってこと。",
+      "char": "c124_02",
       "speaker": "same",
-      "facial": "cry",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "pos": "right",
+      "voiceid": "108501027"
     },
     "28": {
       "type": "talk",
-      "dialogue": "うわああああああん！",
+      "dialogue": "魔王候補生同士が出会ったら、だいたいそんな感じになるわよ。\\そうやって相手の実力や戦略を推し量るの…",
       "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "facial": "cry",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right",
+      "voiceid": "108501028"
     },
     "29": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "…先に言っておくと。\\あなたに私のことを教えるつもりは一切ないから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108501029"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ぐすっ…\\モナお姉さまを探しに行かなきゃ…\\そうよ、ダビとお姉さまは、\\少しの間だって離れちゃダメなの！",
-      "background": "bg067_f",
-      "bgm": "30",
-      "char": "c003_01",
+      "dialogue": "確実に言えるのは、この同盟関係は一時的なものってこと。\\私のサポーターを探し出すまでの間だけ。",
+      "char": "keep",
       "speaker": "same",
-      "facial": "cry"
+      "pos": "right",
+      "voiceid": "108501030"
     },
     "31": {
       "type": "talk",
-      "dialogue": "モナ姉さまは、行き先を教えてくれなかったけど、\\ダビにはわかるよ。だって、ダビとお姉さまとは\\心がつながってるから！",
-      "char": "keep",
+      "dialogue": "つれないな…\\そこまでドライに言われると、俺も少し凹むんだが。",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "joy",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "108501031"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…あ！あっちの方から、\\お姉さまの甘くて優しい香りがする！\\くんくん…ああ、イイ匂い…ハァハァ…",
-      "char": "keep",
-      "facial": "victory",
-      "before_effect": "shake_weak"
+      "dialogue": "バカね、こんな程度の割り切りで心を痛めるなら悪魔としてやっていけないわよ？",
+      "char": "c124_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108501032"
     },
     "33": {
-      "type": "talk",
-      "dialogue": "モナ姉さまを探して…魔界の果てまで！",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

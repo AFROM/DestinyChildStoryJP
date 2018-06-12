@@ -2,328 +2,204 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "レジェンド！レジェンド！\\あいつ、どこに行ったんだ？",
-      "background": "bg034_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same"
+      "dialogue": "ちゃんと説明しないと\\その目障りな頭の毛をむしり取るわよ！",
+      "background": "bg040_f",
+      "bgm": "20",
+      "char": "c039_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "2": {
+      "type": "talk",
+      "dialogue": "ひどい言い草だな…一体、何を説明しろって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "どうして誰もあたしのこと\\好きになってくれないのよ！",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "それはお前の、その…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "何！？",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "いや…それはお前の勘違いっていうか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "お前のその凶暴さのせいだ、なんて言ったら\\体中の毛をむしり取られそうな勢いだ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "嘘つかないで！アレでしょ？",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ん？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "結局見た目なんでしょ？契約者の頃より\\劣ってるって言いたいんでしょ？",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "違う！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "なら正直に言って！あたしの方がずっと立派だって！",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あたし…その…スタイルが…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "それにしちゃ、気が小さいな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "うるさい、この変態野郎！",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "え！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "最初からあり得ないのよ。\\こんな奴に惚れるなんて…",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "今度は何をぶつぶつ言って…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "本当にサイテーね！人の話を盗み聞きするなんて…\\最低だわ。",
+      "char": "c039_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "アンタみたいな奴とは絶対に仲良くしないんだから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "疲れる奴だ…悪魔の気力を奪うなんて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "22": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "3": {
-      "type": "talk",
-      "dialogue": "レジェンド！\\どこにもいない…\\あいつ、まさか…",
-      "background": "bg048_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "そのまさかが、現実に…♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "やめろ、不安になるだろ！\\っていうか、もう不安だけど！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "レジェンド！レジェンド！\\聞こえたら返事しろ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "くそ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "きっと、自分の主人を探しに行ったんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "あいつは忠義心の塊だから、\\死ぬ時は主人の傍で…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そう願いながら、\\あちこち彷徨ってるのかもしれない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "早く見つけないと！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "shock",
-      "before_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あいつに、ここまで慕われてる悪魔…\\いったいどんな奴なんだ！",
-      "background": "bg024_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "羨ましすぎるぞ、ちくしょう…！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "おっと、つい心の声が…って、\\そんなことを言ってる場合じゃない。\\早くレジェンドを探さないと…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "本当にそう思っているでござるか？",
-      "char": "c054_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "うわっ、レジェンド…！\\お前、どこにいたんだよ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "どれだけ探したと思ってるんだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "本当に、そう思っているでござるか？",
-      "char": "c054_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
     "23": {
       "type": "talk",
-      "dialogue": "え？なにがだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "人気者で困ってる？男になんて飽き飽き？\\贅沢な契約者ね。\\そんな願いをするからこうなったのよ…",
+      "background": "bg050_f",
+      "bgm": "17",
+      "char": "c039_01",
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "先ほど言っていたではないか。\\拙者の主君が羨ましいと。",
-      "char": "c054_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "この世で一番モテないチャイルドだなんて…",
+      "char": "keep",
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…なんだよ。ああ、羨ましいよ。\\っていうか、なんで姿を見せなかったんだよ？\\必死に探したんだぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "しかもマスターに惚れるなんてどうかしてるわ。\\もういい、\\惚れたのはあたしじゃなくて契約者だもの。",
+      "char": "keep",
+      "speaker": "same"
     },
     "26": {
       "type": "talk",
-      "dialogue": "俺が慌ててるのを見て、面白がってたのか？",
+      "dialogue": "それなのにどうして？あたしまでドキドキしてる…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "speaker": "same"
     },
     "27": {
       "type": "talk",
-      "dialogue": "そ、それは誤解でござる。\\すぐに姿を現すつもりだったでござる。",
-      "char": "c054_01",
+      "dialogue": "ホント、嫌。最悪。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "だが、お主の言葉を聞いて…ふと思ったのでござる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "お主は、拙者が心からお慕いしている主君を\\羨ましいと言った。\\しかし…あの方は、拙者を快く傍に置いてくださっていたのかと、不安に駆られたのでござる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…拙者は、主君を守れなかったでござる。\\この命に代えても、お守りすべきだったのに…！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…やっぱり俺は、お前の主人が羨ましいよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "そこまで主人に忠義を尽くせるチャイルドは\\滅多にいない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "現に、俺の周りにはひとりも…はぁ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ほ、本当にそう思うでござるか？",
-      "char": "c054_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ああ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "レジェンド。どうして、ここに来たんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "月を見に来たのでござるよ。\\久しぶりに、満月を眺めたくなったのでござる。",
-      "char": "c054_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "満月か。\\そういや俺も、こうやって夜空を見上げるのは、\\久しぶりだなあ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "お館様のお傍で共に見物出来たら、\\この上ない喜びでござるが…\\戦友であるお主とこうして眺めるのも、\\悪くないでござるな。",
-      "char": "c054_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "そうか？ならよかった。\\俺は、お前の主君ってやつにはなれないけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "お前の力を貸して欲しい。\\俺と一緒に戦ってくれ。\\これからよろしく頼むな、戦友。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "承知したでござる。",
-      "char": "c054_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

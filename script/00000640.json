@@ -2,365 +2,256 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご苦労様、アタランテ。",
-      "background": "bg058_f",
-      "bgm": "24",
-      "char": "c200_01",
-      "speaker": "same"
+      "dialogue": "こ、こんにちは…",
+      "background": "bg012_f",
+      "bgm": "14",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "distance": "near",
+      "before_effect": "shake_weak"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ふん、あんたはもうおしまいよ、悪魔め！",
-      "char": "c188_01",
+      "dialogue": "お、おう…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "お前たちさ、人さらいは重罪だぞ？\\犯罪だってこと、自覚してる？",
-      "char": "c000_01",
+      "dialogue": "そんなに目を真っ赤にさせて、どれだけ泣いたんだ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "screen_effect": "dialog_shake"
+      "distance": "near"
     },
     "4": {
       "type": "talk",
-      "dialogue": "それはこっちのセリフ！\\さあ、洗いざらい話してもらいましょうか。",
-      "char": "c188_01",
-      "speaker": "same",
+      "dialogue": "きゃっ！",
+      "char": "c026_00",
+      "speaker": "same_full",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "それこそ俺のセリフだ。\\眠れる悪魔をつつくなんて、\\どんだけ意地が悪いんだ？",
+      "dialogue": "はあ…家の外には1歩も出ないヤツが\\ここで何してる？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
+      "facial": "sigh"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あなたが私たちの契約者の\\邪魔をする理由を教えてください。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "わ、私がここにいること…\\どうしてわかったのですか？",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そ、それは……",
+      "dialogue": "偶然だよ、偶然！\\どこかで見たことある女の子が\\道端で泣いているから声かけただけだよ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "言えないのを見ると、やっぱりあんたが\\拉致事件の真犯人なんでしょ？",
-      "char": "c188_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "偶然って…モナが見つけてきて\\再契約させようとここに送り込んだだけだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "だから、違うってば！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "dialogue": "体を小刻みに震わせているこの少女は、\\オーロラの契約者、鏡野有沙(かがみのありさ)だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あれはただのコソ泥だって！\\ニュースでもやってただろ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "dialogue": "そして、エウロスを生み出した\\欲の破片もこの少女のものだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "見えているものがすべてではありません。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "あなたを…探していました…本当に…よかった…\\こうして会えて…",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "お前も知ってるだろ？ 俺はあの女をさらった覚えはない。\\むしろ、あっちから俺を呼んだんだ。",
+      "dialogue": "怖いもの知らずだな！病気がうつるかもって\\他人に話しかけられもしないくせに。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "俺は願いを告げた人間と\\契約をした罪しかないよ。",
+      "dialogue": "俺がどこに住んでるか\\知っててここに来たんだろう？",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "願いを告げた人間……ですか。\\しかし私たちの契約者は願いすら\\聞いてもらえなかった。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "う…",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あなたのその、自分勝手な欲望のために……",
-      "char": "keep",
+      "dialogue": "もう泣くな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near"
     },
     "16": {
       "type": "talk",
-      "dialogue": "彼らは、悪魔が自分たちの邪魔をしているとも\\知らずに一生懸命事件を追っているんですよ？",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "ぐすん。",
+      "char": "c026_00",
+      "speaker": "same_full",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それは申し訳ないと思ってる。\\でも、俺の存在を明かすことはできなかったんだ。",
+      "dialogue": "はあ…それで、俺に何の用だ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "なぜです？",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "こ、これ…",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "人間が悪魔の存在を知って、良い事なんてないから。",
+      "dialogue": "…プレゼント？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それはあなたが決めることではありません。\\真実を知るには、その対価が必要です。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "はい…私からではありませんが…\\渡さないといけないと…思いまして…",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "知らぬが仏って言葉もあるぞ？",
+      "dialogue": "1つ…2つ…4つもあるな。\\誰がこれを？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "知識は力なり、という言葉もあります。",
-      "char": "c200_01",
+      "dialogue": "しかし、箱の中を覗いた俺は\\プレゼントの送り主が誰なのか一目で分かった。",
+      "char": "none",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "screen_effect": "dark"
     },
     "23": {
-      "type": "talk",
-      "dialogue": "ああ言えばこう言う！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "アナタがどれだけ邪魔をしても\\彼女たちは自分たちの仕事をやり遂げます。",
-      "char": "c200_01",
+      "dialogue": "まったく…エウロス。",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "それは困るよ…… 俺は誠実じゃない悪魔だから……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "でも、ダメなもんはダメなんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "不公平ですね。\\ダナの契約者には堂々と姿を見せたくせに。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "それは……あの子が俺に会いたがってたから……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "あの子は、お前が大嫌いな犯罪者に\\監禁されてたんだぞ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "助けるのは当然だろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "私の契約者には協力できない、のに？",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "これが協力だよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "……私の契約者のことを、心配しているのですか？",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "もちろん。何の罪もない人間が\\妙な悪魔のせいで被害を受けちゃいけないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "正直……おかしいと思いました。\\契約だなんて……\\もっと簡単で確実な方法もあるのに。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "そんなのあるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "始末すればいいのです。",
-      "char": "c200_01",
+      "dialogue": "へえ？",
+      "char": "c169_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "38": {
+    "26": {
       "type": "talk",
-      "dialogue": "自分の契約者を殺せとか、よく言えるな。",
+      "dialogue": "あのさ、言いたいことがあるなら直接言ってくれよ。他人に迷惑かけるなって。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
-    "39": {
+    "27": {
       "type": "talk",
-      "dialogue": "私があなたなら、そうしたでしょう。\\でもあなたは、しなかった。",
-      "char": "c200_01",
+      "dialogue": "オーロラの契約者はお前にとっても\\赤の他人じゃないけど…契約の時に約束しただろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "契約者の台所でこれ以上事件を起こすなって。\\だからチョコレートとかは…俺の家で作れよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "でも…恥ずかしいでしょ？ありがとうって言うの…",
+      "char": "c169_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そんなことかよ。\\俺は好きで契約したんだから…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "それより、気に入った？",
+      "char": "c169_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
-    "40": {
+    "32": {
       "type": "talk",
-      "dialogue": "消すなんて、全然俺のやり方じゃないよ。\\かえって後味悪いや。",
+      "dialogue": "まあ、お前の作ったチョコは格別だからな。\\サキュバスたちもみんな好きだし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "へえ…ありがと、ご主人様！",
+      "char": "c169_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ああ…俺もありがとな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "smile"
     },
-    "41": {
-      "type": "talk",
-      "dialogue": "……もしかすると、私はあなたを\\誤解していたのかもしれません。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "やっとわかってくれたのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "ですが、真実は明らかにすべきです。\\やはりあなたは、憎い邪魔者でしかありません。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "ったく、結局そこは変わらないのかよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "45": {
+    "35": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,86 +2,208 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "これからは、\\今まで以上に気を引き締めないと命取りになります。",
-      "background": "back_dim50",
-      "bgm": "keep",
-      "char": "c001_01",
+      "dialogue": "ここまでの手際を見ていると、向こうには土地勘があるようです。\\そうなると、いつ襲撃されるかわかったものではありません。",
+      "background": "bg118_f",
+      "bgm": "9",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "teach",
-      "voiceid": "300501001"
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108103001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何だよ、急にマジメな顔して。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "300501002"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "今回は正直、運の要素に助けられた事は否めません。はっきり言いますが、フレイ様は今のご主人さまではとても太刀打ちできないほど強いんです。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "voiceid": "300501003"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "他の候補生も魔王争奪戦のルールに習熟しつつ\\ありますし、戦いの激化は必至です。",
+      "dialogue": "このままではことごとく後手に回ってしまいます。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "voiceid": "300501004"
+      "voiceid": "108103002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "向こうがご主人さまを避けてくれれば話は別ですが、そうもいきませんよね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "108103003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ま、待てよ！\\お前たち、やけに俺を脅すけど、向こうは俺の居場所なんて把握しようがないだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108103004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "はあぁ～…\\ため息がとまんねーな…\\またひとつ、重たい枷が俺の人生を縛りやがったか…",
-      "char": "c000_01",
+      "dialogue": "それについてですが…\\御主人様、携帯をお借りしてもよろしいでしょうか。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sad",
-      "voiceid": "300501005"
+      "pos": "right",
+      "voiceid": "108103005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "重い枷…ですか？\\例えば、他には？",
-      "char": "c001_01",
+      "dialogue": "これか？ほらよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "300501006"
+      "voiceid": "108103006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "まずは何をおいても…家賃だ。",
-      "char": "c000_01",
+      "dialogue": "ありがとうございます。それでは…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "voiceid": "300501007"
+      "pos": "right",
+      "voiceid": "108103007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "……\\  ",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "confused",
-      "voiceid": "300501008"
+      "dialogue": "《デビルアラームを起動中です。\\しばらく、お待ちください…》",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "水道代、電気代、ガス代…\\気づけば悪友ばっかの交友関係！\\はぁ、厳しい人生だ…",
+      "dialogue": "《解析終了。この周辺では強力な悪魔、またはチャイルドは検知できませんでした》",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "相手もこのアプリを使って、御主人様の居場所を探ることができるのではないでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108103010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "悪魔の存在を知らせるアプリ…\\使い方次第では、悪魔探しにも使えてしまいますね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108103011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "な、なんてこった！\\リザ、そのアプリをすぐに消してくれ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "unfair",
+      "before_effect": "shake_weak",
+      "voiceid": "108103012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ご主人さまのアプリを消しても、\\きっとどうにもなりませんよ～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "108103013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "いや、だけど…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "center",
-      "distance": "near",
       "facial": "sigh",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "300501009"
+      "voiceid": "108103014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "モナの言う通りです。こちらの情報はとっくに筒抜けになっていると考えた方がいいでしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108103015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そうは言うけど、その怪しいアプリをそのままにしていいのかよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "voiceid": "108103016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "性能そのものは信頼できますし、活用できる間は活用した方がいいと思います。\\とは言え、無料体験版の期間はあと数日ですが。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108103017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ご主人さま♥\\モナにとってもいい考えがありますよ！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "108103018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あいにくだが、間に合ってる。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "confused",
+      "voiceid": "108103019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "モナのそういう話に乗っかって、いい結果になった試しなんて一度もない…",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "108103020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ヒドイです。ご主人さま！\\聞いてみるだけでも聞いてみませんか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad",
+      "voiceid": "108103021"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "作戦ですが、このデビルアラームを利用して、ご主人さまがより弱い悪魔とチャイルドを探します。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "108103022"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "で、彼らをバッタバッタとやっつけて、経験値を\\稼ぐっていうプランなんですよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "108103023"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はいはい。\\スバラシイプランですね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "sulky",
+      "voiceid": "108103024"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

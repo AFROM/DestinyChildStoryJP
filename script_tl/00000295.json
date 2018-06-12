@@ -2,220 +2,220 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "へへっ、見てろよ～。\\いつかボクのセンスを褒めさせて\\足元にひれ伏させてやる！",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "う…うう…\\へ、平気かな？ぶつぶつ…きゃあ！",
+      "background": "bg015_f",
+      "bgm": "17",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "after_effect": "shake_weak"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はいッ！現行犯逮捕～！",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "angry",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "な、何だよ！？いきなり！\\急に声をかけられたらビックリするだろ！",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "none",
-      "before_effect": "shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "コソ泥のくせにそんなこと気にするのかよ！\\いいや、とにかく、やっと捕まえたぞ！\\俺の傘がしょっちゅう無くなると思ったら…",
+      "dialogue": "わ、悪い。大丈夫か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "5": {
+    "3": {
       "type": "talk",
-      "dialogue": "…お前がそのドデカいぬいぐるみに\\突っ込んでたんだな！？",
-      "char": "keep",
+      "dialogue": "あら～♥\\学校で女の子とぶつかるということは…！\\これはまさに、特定ジャンルにおけるフラグ…",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あのな～、特定ジャンルってなんだよ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "angry"
+      "facial": "confused"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あ、あの…ご、ごめんなさい。ええと、その…\\手、洗ったほうが…き、菌が…いる…かも…",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "タダのぬいぐるみじゃない！クマクマだ。",
-      "char": "c036_01",
-      "speaker": "same",
+      "dialogue": "手に付いた菌が、間違って目に入ると…\\脳まで入って、目が見えなくなって…\\それで、えっと…",
+      "char": "keep",
+      "speaker": "same_full",
       "pos": "right",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そんなことは、今はどうでもいい！とにかく、\\何で勝手に人の傘を持ってくんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "この子、鏡野有紗(かがみのありさ)はオーロラの契約者だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "エルメスのテディベアの口は、\\入りきらなかった傘の柄がはみ出ている。",
+      "dialogue": "文字通りの箱入り娘だった彼女は、\\ほとんど家から出たことがないという生活を\\送っていた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あーあ、リスみたいにホッペを膨らませて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "dialogue": "だが、自由になりたいと強く願い、\\様々な困難を乗り越えて、\\外に出られるようになった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ちぇっ。",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "極度に健康に気遣ったり気弱なのは、\\相変わらずのようだけど…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "これまで持ち去った傘と、今こいつに突っ込んだ傘\\全部返せ！今すぐ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
+      "dialogue": "あっ…え、えっと、あの、わたし…\\別に、め、目立とうとしたわけじゃ…うう…\\つい、あれこれ喋ってしまって…ご、ごめんなさい…",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right",
       "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
+      "before_effect": "shake_weak"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ふん、ボクは傘なんて知らない…",
-      "char": "c036_01",
+      "dialogue": "いや、いいよ。\\それより、どこかに行く途中だったんじゃないの？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "なにぃ、エルメス！\\テディベアからはみ出てる傘、\\全部俺のなんだけど！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "dialogue": "は、はい…や、やっとまた学校に来れるように\\なったんですけど…や、やっぱり",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "クマクマだって言ってるだろ！\\一度クマクマの中に入れたものは、\\値段が上がるまで絶対出さないって決めてるんだ。\\だから、傘は出さないよ！",
-      "char": "c036_01",
-      "speaker": "same",
+      "dialogue": "外の世界は寒くて、怖くて、あと…で、でも…",
+      "char": "keep",
+      "speaker": "same_full",
       "pos": "right",
       "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "……傘を返しなさい。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "angry",
-      "before_effect": "shake"
+      "dialogue": "でも…頑張って、勇気を出して…気合いを…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ふ、ふーんだ。\\そんな怖い顔したって無駄だからな。",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "shake_weak"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "確かに、テディベアにいろんなものを\\入れているのは見たことあるけど。\\何かを取り出すところは一度も見たことがない。",
+      "dialogue": "有紗の声が全く聞こえなくなってしまった。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "18": {
+    "17": {
       "type": "talk",
-      "dialogue": "その中に何が入ってるんだ？\\ずいぶん、いろんなものが入ってるみたいだけど、\\どうなってるんだよ？",
+      "dialogue": "あー…じゃあ、俺もう行くわ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あの！",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
     },
     "19": {
       "type": "talk",
-      "dialogue": "こ、コレクションだよ…\\ボクの大事なコレクションが全部。",
-      "char": "c036_01",
+      "dialogue": "…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "全部キラキラして、ボクの大事な宝物…\\見たらすっごく後悔するぞ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "あの…きゅ、急に空から植木鉢が落ちて来たら、\\どうすればいいですか…？",
+      "char": "c026_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "すっごく後悔する！？\\もしかして閲覧料とか取っちゃうの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "dialogue": "あの角を曲がったら、別の世界に飛ばされる…とか…それに道で悪魔に捕まったりしたら…\\う、うう…私、対処できるかな…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "へへっ、クマクマの中身を見たら、\\きっとびっくりするよ。",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "dialogue": "いや、どっちかって言うと、\\捕まってんのは俺なんだけどな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "…ったく、クマクマだかなんだか知らないけど、\\とにかく傘を返せよ！",
+      "dialogue": "はあ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "confused",
-      "before_effect": "shake",
-      "after_effect": "shake_weak"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "24": {
       "type": "talk",
-      "dialogue": "べー、だ！絶対ヤだもんね！",
-      "char": "c036_01",
-      "speaker": "same",
+      "dialogue": "どうしよう…どうしましょう…うう？\\うううん…",
+      "char": "c026_00",
+      "speaker": "same_full",
       "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake",
-      "after_effect": "go_to_right_jump"
+      "distance": "normal"
     },
     "25": {
-      "type": "curtain",
-      "background": "back",
-      "fade_in": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "うふふ♥\\どうやらまたすぐに契約してくれそうな感じですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "normal"
     },
     "26": {
+      "type": "talk",
+      "dialogue": "やはり一度ご主人さまと欲望の海を泳いだ人たちは\\もう一度ご主人さまを求めるんですね♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "変に誤解を招く言い回しはやめろ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

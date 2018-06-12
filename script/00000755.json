@@ -1,325 +1,253 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg012_f",
-      "bgm": "14",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "リザめ、今日こそは…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ミク達のセッションか…\\どんな感じになるんだろうな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "会場への護衛がこんなトサカ野郎で大丈夫なの～？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "一番信頼出来る人…\\いいえ、悪魔の方、ですから。",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ダビ！聞いたか？\\やっぱり、わかる人にはわかるんだよな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "よし、俺の命に代えても、ミクをライブ会場まで\\送り届けるぞ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry",
-      "before_effect": "shake"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "あの…\\そこまで気負わなくて大丈夫ですよ？",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "うっわ！本当にいるし！",
-      "bgm": "6",
-      "char": "none",
-      "speaker": "DemonA"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "！？",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "教会の外に出てくりゃ、こっちのもんだよな！\\ミクちゃーん！\\疲れてるオレ達を癒やしてくれね～！？",
-      "char": "none",
-      "speaker": "DemonB"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "早速かぎつけられてるじゃん…\\ご主人、ほら出番！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "わかってるよ！\\お前ら、ミクはこれからライブで…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "雑魚は引っ込んでろ！",
-      "char": "none",
-      "speaker": "DemonA"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ぶふっ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "shock",
-      "before_effect": "go_to_left_jump",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "悪魔さんっ！？",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "早速やられてるし…\\全然頼りにならない！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "み、ミク…オレのことは置いて…\\逃げるんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ご主人を置いてサッサと逃げたいけど…\\他の悪魔も続々集まってきてるよ～…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "実物だ～！\\テレビで姿を見るだけじゃ足りなかったんだよぉ…！",
-      "char": "none",
-      "speaker": "DemonC"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "きゃ～！",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "み、ミクに触るな…ぐふっ…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "あーもう。見てらんねー",
-      "bgm": "1",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ぐわっ",
-      "char": "none",
-      "speaker": "DemonA",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "これだから、甘ちゃんのアイドルはダメなんだよ。\\歌を届けるとか言っといて、そのステージにさえ立てねーでやんの。",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "one_ani": "attack"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "メルポメネ！お前、いつのまに！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "なんだこいつ！ミクちゃんを渡せ！",
-      "char": "none",
-      "speaker": "DemonB"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…うっぜ！\\お前、ホントにミクの事好きなのかよ？\\てめえらは、ソウルまで腐りきっててホントサイテーだな。",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ファンを語る偽物がよっ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ほら、ぼさっとしてんな！\\さっさと行くぞ！\\ウチが連れてってやるから！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "えっ…？",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "歌を届けるんだろ？\\あんたのソウル、見せてみろよ！",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…はいっ！",
-      "char": "c358_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "33": {
-      "type": "curtain",
-      "background": "back",
-      "bgm": "100",
-      "fade_out": "longest",
-      "wait": "longest"
-    },
-    "34": {
-      "type": "curtain",
-      "background": "bg239_f",
-      "bgm": "86",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "わあああ～！",
-      "char": "none",
-      "speaker": "none"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ラララ～♪",
-      "char": "c358_01",
-      "speaker": "same",
-      "distance": "far",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "無事にやれてるみたいだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "やっと来たのか。\\ま、ウチが手を貸したんだから心配ないぜ。",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "はは…ありがとな、メルポメネ。\\やっぱりお前もミクが好きだったんだな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "そんなんじゃねー！\\音楽に対するソウルは認めるってだけだし！",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "はいはい…\\あーあ、俺も最初から見たかったなぁ…",
+      "dialogue": "リザなら急用があるって出かけたぞ。\\ムチャなスケジュールを俺に託してな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "42": {
+    "3": {
       "type": "talk",
-      "dialogue": "みんな～！\\私の歌を聞いてくれてありがとう！！",
-      "char": "c358_01",
+      "dialogue": "ふん、また逃げられたか。",
+      "char": "c267_01",
       "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right"
     },
-    "43": {
+    "4": {
+      "type": "talk",
+      "dialogue": "逃げられた？何かあったのか？\\おい、ダビ！リザがどこに行ったか知ってるか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "リザはトサカ野郎がイヤになって、家出しちゃったんじゃない？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…もういい。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ふむ、モナというサキュバスもそうだが、そなたと\\違って賢いではないか。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "俺と違うってどういう意味だよ、それ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "さあな…\\あとでサキュバスたちに教えてもらうがよい。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_slow"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ま、待てよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "近う寄れ、バスト。",
+      "background": "bg048_f",
+      "bgm": "19",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ニャハハハ～♪",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "わらわに懐いてくれるのは、そなただけだな。\\フフッ、寂しいものだ。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ご主人様、今日もサキュバスに会えなかったの？\\悪いサキュバス！バストが懲らしめてあげよっか？",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "モナもリザも逃げ回っちゃってさー！\\サキュバスって悪い子ばっかりだね！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "2人とも、わらわのことを信じ切れていないのだ。\\それは賢明な判断だと思うぞ。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "だが、困ったものだな…\\これでは、わらわの計画に支障が…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "計画通りなら既に情報を集め、ここを後にするつもりだったのだが…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ニャン！バストもお供するの！\\ホルルやサキュバスがいない遠いところに行こうね！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そなたはわらわによく従ってくれている…\\猫の頃も、チャイルドになった今も、変わらず…",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ニャ？だって、ご主人様はバストの主だから！\\これからもずーっとご一緒するの！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ふっ…猫の言うことではないな。\\まあよい、時間はたっぷりある。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "いくらサキュバスが逃げ回ろうとも、\\わらわがあの小僧の下にいれば、\\いつか顔を合わせる時が来よう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "さあ、どちらが先に根をあげるか…\\根競べと行こうではないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ご主人様は悪いサキュバスが嫌いなの～？\\モナとリザ、ご主人様を避けてるもんね？",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "いいや。\\わらわは、あのような意思の強い者とは相性がいい。むしろ、そばに置いておきたいくらいだ。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "あの者たちなら、わらわを理解できようぞ。\\もちろん、理解できなくとも問題ない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "わらわを拒むというのなら、徹底的に支配するまで。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そうなれば、おとなしくわらわに従うであろう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "楽しみにしているがいい、バスト。\\面白いことになりそうだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "従うってなーに？",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ご主人様は王さまだもん！\\いつだって好きにしていいんだよ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

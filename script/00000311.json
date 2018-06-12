@@ -2,256 +2,310 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "マスター、マスター！\\ちょっと聞いてもいいですかー？",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "いつ頃からか、散歩に同行する人数が増えた。",
+      "background": "bg030_f",
+      "bgm": "13",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ん、なんだ？",
+      "dialogue": "……",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "center"
     },
     "3": {
       "type": "talk",
-      "dialogue": "マスターって、いつもイヤホンで\\何を聴いているんです？",
-      "char": "c045_01",
+      "dialogue": "ニャン、ニャン…",
+      "char": "c031_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あー…歌だよ、歌。",
+      "dialogue": "フレイヤ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "なるほど～！\\じゃあ、好きな歌手とかいるんですか？",
-      "char": "c045_01",
+      "dialogue": "！！",
+      "char": "c031_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "go_to_right_fast"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いや、別に。\\手当たり次第聴く感じだから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "なぁんだ、がっかり。\\マスターってば、今をときめく若者なのに、\\好きな歌手のひとりもいないなんて…\\退屈な人生ですね。",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "興味がないから仕方ないじゃん。\\言っとくけどな、俺としては\\それなりに人生をエンジョイしてるから。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "マスターって、絶対おじさんっぽい趣味でしょ。\\演歌とか、そういう感じのさ。",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "演歌をバカにするな！…じゃなくて、\\人の好みを勝手に決めないでくれよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "よーし、だったらアリアが、\\マスターをフレッシュな若者風味に\\改造してあげる！",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "余計なことはしないでくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "だが、アリアは俺の言葉にお構いなく\\アイドルのグラビアを手当たり次第にかき集め、\\俺に見せ始めた。",
+      "dialogue": "振り返ると隠れ、前を向くとついて来る。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "14": {
+    "7": {
       "type": "talk",
-      "dialogue": "ほら、この子はどうです？",
-      "char": "c045_01",
+      "dialogue": "はぁ…なんでだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ご主人！\\フレイヤがさっきからついて来てるわよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "知ってるさ。\\でも振り返ると隠れるし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "フレイヤ！\\こっちおいで♪",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "smile"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ニャビ♪",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "なんだと！\\ダビが呼ぶと来るのか…\\…はぁ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "なぁ、なんか悩み事でもあるのか？\\お前も苦労してると思うが、俺も大変なんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "本当に心配してるんだ。\\ただの反抗期ならそーっとしとくけどさ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "15": {
       "type": "talk",
-      "dialogue": "さあ…",
-      "char": "c000_01",
+      "dialogue": "具合悪かったらちゃんと言ってくれよ。\\病気にでもかかったら俺が困る。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "sad"
     },
     "16": {
       "type": "talk",
-      "dialogue": "もうっ、適当に返事しちゃってー。\\ちゃんと見てくださいっ、ねっ？",
-      "char": "c045_01",
+      "dialogue": "そ、それじゃもう行くからな…！\\ついて来たけりゃついてこい…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "go_to_left_slow"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あー面倒だなぁ…イマイチ。\\俺の好みじゃない。",
-      "char": "c000_01",
+      "dialogue": "恥ずかしいならカッコつけなきゃいいじゃん。\\本当に変なご主人。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "じゃあ、この人は？セクシー系ですよ！\\マスターもドキドキしちゃいません？",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "うっ…セクシーだけど、おっかないお姉さまが\\知り合いにいるんだ…それもパス。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "なるほど。\\それじゃ、この子はいかがです？\\可愛くて清純なタイプ！",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "パス。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "うーん、思ったよりこだわりが強いんですね…\\まぁ、まだまだいますし！\\次は、清純グラマータイプ！",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ちょっと待ってくれよ。\\これ、いつまでやるつもりなんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "マスターの口から「この子、推せる！」って言葉が\\出るまでですかね？",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "でも、マスターが推せる子はいないかもしれません…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "えーと、推せるとか、推せないとかよくわかんないけど、アイドルとかガールズグループとか、俺そういうの興味ないし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "仕方ありませんね。ならば、このアリアが\\マスターにアイドルの魅力を教えてあげます！",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "いや、余計なことしてくれなくていいから。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "before_effect": "shake",
-      "facial": "nonsense"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "覚悟してくださいね。\\アリアの魅力に溺れて\\息ができなくなっちゃうかも♥",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…怖っ！？",
+      "dialogue": "う、うるさいよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "center",
-      "distance": "near",
-      "facial": "serious"
+      "facial": "sulky"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あら♥",
+      "background": "dungeon_bg",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "モニャ！",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "機嫌よくなったみたいね、フレイヤ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "無神経なご主人さまで大変よねぇ？\\後悔してない？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ニャ！\\でもそれも…ご主人さまの魅力だニャ！",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "心が広いのね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "モナ？何してるんだ？\\まだチャイルドが見つかってないんだ、急ごう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "far"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "はぁ～い♥\\それじゃ、フレイヤ。頑張ってね！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ニャ！",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ニャビ！",
+      "background": "bg006_f",
+      "char": "c031_01",
+      "speaker": "same"
     },
     "31": {
+      "type": "talk",
+      "dialogue": "ニャアー",
+      "char": "c031_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ニャビは幸せ？",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ニャア！",
+      "char": "c031_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "フレイニャも幸せニャン！",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ニャンニャン！ニャ！",
+      "char": "c031_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "フレイニャもニャ。\\自分のやりたいようにやるようにしたら幸せニャ。",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ニャン。",
+      "char": "c031_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "近づいたら引っ込んで、手を出したら逃げる！\\それから、ブラシからは絶対逃げるニャ！\\だってフレイニャは猫だニャン。",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "それが普通ニャ。だから、\\ご主人さまが好きだから甘えたい時もある…\\それも普通だから、それでいいのニャ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ニャーン",
+      "char": "c031_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "うん！ニャビはニャビらしく！\\これからも一緒にご主人さまを見守るニャ！",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

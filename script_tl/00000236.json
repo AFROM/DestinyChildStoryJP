@@ -2,223 +2,133 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "最近、どうもデメテルがおかしい。",
-      "background": "bg005_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どんだけ倒しても、次から次へとチャイルドが湧いてくる…知った顔もちらほらいるな。",
+      "background": "bg175_f",
+      "bgm": "6",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "108801001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あら、ダ～リン♥\\おはよう～",
-      "char": "c010_01",
+      "dialogue": "この辺の奴らからチャイルドを全部奪ったってのは、本当の話みたいだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "108801002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "うぅ…ごめんなさい！",
-      "char": "c000_01",
+      "dialogue": "ああ。しかも無理矢理奪ったせいか、みんな理性が\\飛んで正気じゃないな…",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "screen_effect": "dialog_shake"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108801003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "え？",
-      "char": "c010_01",
+      "dialogue": "さらに結構強い…\\気を抜いたら、こっちがやられそうだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "108801004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "す、すまん…\\デメテルを見ると初めて戦った時のトラウマが…",
-      "char": "c000_01",
+      "dialogue": "…ところでお前、リザをどこに隠れさせた？",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right",
+      "voiceid": "108801005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ひど～い♥\\初恋の相手に対して怖いって言うの？",
-      "char": "c010_01",
+      "dialogue": "あいにくだが、お前にだけは絶対に教えるなって\\キツーく言われてるんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation",
+      "voiceid": "108801006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ち、近いって…",
-      "char": "c000_01",
+      "dialogue": "チッ、俺がカッコよく戦う姿を見せてやるつもりだったのに…",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right",
+      "voiceid": "108801007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "この浮気者！他に女でもいるんでしょ？\\うん？！",
-      "char": "c010_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "女ってなんだよ…\\俺たちは別に付き合ってるわけじゃ…",
+      "dialogue": "そんなこと考えられる余裕があるなんて、羨ましい限りだよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108801008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "お前みたいな非モテ男にはわからな…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108801009"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ひぃ！い、いや！ごめんなさい！\\もっと誠実に生きて行きますから…",
-      "char": "keep",
+      "dialogue": "…どいて。",
+      "char": "c124_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake"
+      "pos": "center",
+      "before_effect": "enter_from_left_fast",
+      "loop_ani": "attack",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "108801010"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…口を開くとあんな感じが基本で、\\最近はモナに頻繁に何かを相談している…",
-      "background": "bg086_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おうっ！？どこを狙って攻撃してる！？\\危うく巻き添えを喰らうとこだったぞ、イブ！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "108801011"
     },
     "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "残念ね。あなたも一緒に始末できればよかったのに。",
+      "char": "c124_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "108801012"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ふむふむ。",
-      "background": "bg086_f",
-      "char": "c001_01",
+      "dialogue": "ふん、なるほどな。\\やはり単純な協力関係ではないというわけか。",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "voiceid": "108801013"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ねえねえ、どう思う～？",
-      "char": "c010_01",
+      "dialogue": "味方の流れ弾で死んだりしないよな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "serious",
+      "voiceid": "108801014"
     },
     "15": {
-      "type": "talk",
-      "dialogue": "まだ早いと思うな～♥\\だけど、絶対ダメってわけじゃないかも？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そうよ、ダメなわけがないの…\\わたし、身も心も捧げてるんだから！",
-      "char": "c010_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ええ、よく知ってるわ…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shy"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "それはそうと、チャイルドの中に猫がいるのを\\知ってる～？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "え、えっ？いきなり何を言い出すわけ？",
-      "char": "c010_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "うっかりさんなのは契約前と同じみたいね？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "その仔猫ちゃんがね、ご主人さまに\\「ご主人さまを見てると胸がドキドキするニャ」って言ったのよ～。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "な、なんですって！\\そんな泥棒猫がいるなんて！！",
-      "char": "c010_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "でもね、ご主人さま\\「それ、心臓の病気じゃないか？」って…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c010_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "その子、それを真に受けて、病院に行ったみたい。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "いくらなんでもひどすぎるんじゃないかしら？！\\無神経にも程があるんじゃないの？！",
-      "char": "c010_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ほ～んとわけわかんない！\\こうなったら、わたしに惚れさせるしかないわね！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "あら、素敵～！\\デメテルって本当かわいいんだから♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "29": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

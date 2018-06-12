@@ -2,212 +2,217 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "え、エリザベート！それは机じゃない、パソコン！\\ああっ！水をこぼしちゃダメだって！",
-      "background": "bg086_f",
-      "bgm": "19",
-      "char": "c000_01",
+      "dialogue": "は～い★深夜のパートナーA.I登場～★\\格闘実況チャンネルEvilを\\あなたの元にお届けしま～す！",
+      "background": "bg099_f",
+      "bgm": "29",
+      "char": "c174_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "none",
-      "after_effect": "go_to_right_point"
+      "distance": "toonear",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "たかが水ごときで騒ぐとは…\\品の欠片もないな。",
-      "char": "c156_01",
+      "dialogue": "あなたのA.I、今日も張り切っていっちゃうよー！\\さて、今日のゲストは～？じゃーん★",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ふむ、これはなんだ？\\鏡か？",
+      "dialogue": "物凄い人気を誇る\\《カリスマ悪魔のイブ様》でーす！",
       "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "one_ani": "attack"
     },
     "4": {
       "type": "talk",
-      "dialogue": "鏡じゃなくてスマートフォンだよ。\\やめてくれ、落とさないでー！",
-      "char": "c000_01",
+      "dialogue": "いらっしゃいませ～イブ様！\\お越しいただき光栄です～！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "after_effect": "go_to_right_point"
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あら、あのお嬢さんは、どちら様でしょうか？",
-      "char": "c001_01",
+      "dialogue": "どうも…\\本当は出たくなかったけど…\\近所迷惑になるくらいに付きまとわれて、\\駄々をこねられるとは思わなかったから…",
+      "char": "c124_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "confused"
+      "before_effect": "enter_from_right_fast"
     },
     "6": {
       "type": "talk",
-      "dialogue": "新しく迎えたチャイルドです。\\ご主人様の給料ひと月分と支援金をはたいて\\連れてきたそうですよ。",
-      "char": "c002_01",
+      "dialogue": "あはっ！ちなみに、今回の出演交渉、\\なかなかハードだったんですよぉ！",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ローンもあるって！",
-      "char": "c003_01",
+      "dialogue": "1か月間、ストーカーの様にずーっと離れなかったから、あちこちに引っ張り回されちゃって！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "まぁ♥\\ご主人様自らチャイルドを？\\いい傾向じゃないですか♥",
-      "char": "c001_01",
+      "dialogue": "A.Iの恥ずかしい姿をカメラに収めたオトモダチが\\たくさんいるらしいんだけど、\\番組終わったらお仕置きに行くから覚悟しててね★",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "少しは真面目に魔王争奪戦に臨んでくれる気に\\なってくれたんでしょうか♥",
-      "char": "keep",
+      "dialogue": "魔界の果てまで追いかけちゃうんだから★\\それはそうと、イブ様！\\さっそくだけど質問ターイム！",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "正直、俺も何でそんなことをするつもりに\\なったのかわからない。\\でも、エリザベートに会った途端…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ヘタレでどうしようもない悪魔の\\使い魔になったって噂は本当なんですかぁ～？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "心惹かれたそうですよ。",
-      "char": "c002_01",
+      "dialogue": "……",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あら、一目惚れなのね♥",
-      "char": "c001_01",
+      "dialogue": "イブ様～？\\",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "affair"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ちがーう！",
-      "char": "c000_01",
+      "dialogue": "…ふふ、こんなことだろうと思ったわ…A.I。\\いいえ、チャンネルEvil。\\悪魔の取り巻きが…悪魔をからかおうっていうの？",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…どこか、懐かしい感じがしたんだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それとも、奴がバックについているからって…\\悪魔を甘く見てるのかしら…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "それにしてもご主人様の接し方、\\まるで貧乏人が高級品に触れるみたいですねぇ。",
-      "char": "c001_01",
+      "dialogue": "困るわね…チャンネルEvil…\\面倒なことを引き受けてくれていたから、\\黙っていたけど…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "おっかなびっくり！小心者！",
-      "char": "c003_01",
+      "dialogue": "あなたたちが魔王争奪戦でどんな役割をしようと…\\正直、私にはまったく興味がないの…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "この小さな活字はどのようにして作ったのだ？\\非常に腕のよい職人がいるものだな。",
-      "char": "c156_01",
+      "dialogue": "A.Iって言ったかしら…？\\私からどんなお仕置きを受けようと…\\後悔はないわね？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ああ、それは本って言って…\\あと、活字じゃなくて印刷だよ。",
-      "char": "c000_01",
+      "dialogue": "イブ様ったらあ！\\あーん、もう、このクールな反応♥\\イブ様のお仕置きならドンと来いです～★",
+      "char": "c174_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "go_to_right_point"
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "彼女は…少し、変わったチャイルドですね。",
-      "char": "c002_01",
+      "dialogue": "フフ…期待に応えてあげたいけど…\\それじゃあ、あなたたちが望む返事をしてあげるわ…",
+      "char": "c124_01",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "チャイルドになったことで、\\この時代のことを忘れてしまったのでしょうか？",
+      "dialogue": "いつか必ずどこかで、\\そのヘタレ悪魔を命がけで守るつもりよ…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "もしかしたら…\\遠い昔に生まれたチャイルドかもしれないわね。",
-      "char": "c001_01",
+      "dialogue": "おほぉ～先ほどとは打って変わって情熱的な発言！\\熱い熱い～★",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "near"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ふむ…\\坊や、そなたの尾から、何やらよい香りがするな。",
-      "char": "c156_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そういうこと言わな…匂いも嗅がないで！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake_weak"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ひっ…ひゃあ！く、くすぐったい…！",
+      "dialogue": "でも、それが魔王争奪戦の決勝だったら、\\どうなっちゃうんですか～？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "どこか懐かしい…\\猫、か…？それとも…",
-      "char": "c156_01",
-      "speaker": "same",
-      "pos": "center",
       "distance": "near"
     },
+    "23": {
+      "type": "talk",
+      "dialogue": "命懸けで戦うことに変わりはないわ。\\その時、同盟なんて何の意味も成さないでしょね…",
+      "char": "c124_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "この場にいた事を後悔するほど…\\徹底的に潰しにかかれば、誰も文句はないでしょ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
     "26": {
+      "type": "talk",
+      "dialogue": "だそうですよ？\\あらっ、ご主人さま、顔色が悪いですよ？",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ま、魔界の女って…怖すぎる…\\",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

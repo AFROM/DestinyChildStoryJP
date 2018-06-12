@@ -2,306 +2,312 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "こんにちは、ネヴァン。\\今日も悩みの多そうな顔をしていますね。",
-      "background": "bg040_f",
-      "bgm": "26",
-      "char": "c002_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "smile"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "はい…\\感動しました。リザさん…",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "私の気持ちをわかってくれるのは…\\いつだってリザさんだけ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "いつも同じ表情のくせに\\何がリザさんだけ、だよ。",
+      "dialogue": "気怠い午後。今日も静かな1日を過ごす。",
+      "background": "bg086_f",
+      "bgm": "9",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "窓辺に座り、うららかな日差しを楽しみながら\\コーヒーを一杯。\\これこそ人間界で平和を感じる唯一の楽しみ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "コラ！私の杖を返せ！",
+      "char": "c034_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "one_ani": "attack"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "遊んだって減るもんじゃないじゃん！ケチ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
     "5": {
       "type": "talk",
-      "dialogue": "…と、言おうとしたけど\\リザに足を思い切り踏まれた。",
+      "dialogue": "平和だ…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ぐっ！\\…ところで、毎日ウチに来ちゃってもいいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "私のこと、揺れに揺れる節操のない女\\って思ってるんでしょう？",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "せ、節操って…違うよ！\\ったく、ああ言えばこう言うし！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ふん…どうせサキュバスでもないし…\\上下関係にこだわる必要はないですよね…\\……あっ！",
-      "char": "c048_01",
+      "dialogue": "ダビ、お家の中でオモチャを\\振り回してはいけません。",
+      "bgm": "4",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
-    "10": {
+    "7": {
       "type": "talk",
-      "dialogue": "もっと刺激的なサービスを期待していたのなら…\\ごめんなさい、そこまでする気はないんです。",
-      "char": "keep",
+      "dialogue": "また怒ったー！\\えーん、モナ姉さまー！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near",
+      "facial": "cry",
+      "before_effect": "shake_weak"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "リザったら…\\子供は何かを壊しながら大きくなるものよ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "はぁ？ダビ、お前、何か壊したのか！？\\ちょっと、こっち来い！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "返せ！それは王に頂いた宝であるぞ！",
+      "char": "c034_01",
+      "speaker": "same",
+      "pos": "right",
       "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "なにいっちゃってるの？期待なんてしてないから！",
-      "char": "c000_01",
+      "dialogue": "もう！ムネモシネのことなのに、\\なんでご主人が出てくるの？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "distance": "near"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "はぁ…\\俺はただ心配しただけだ…",
-      "char": "keep",
+      "dialogue": "うるさくて我慢できないからだよ！\\まったく、人がせっかくくつろいでたってのに…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "fury"
     },
     "13": {
       "type": "talk",
-      "dialogue": "心配、ですか…？",
-      "char": "c048_01",
+      "dialogue": "バカご主人がそうやって割り込んでくるから、\\ムネモシネまで怒るんだよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "facial": "sulky"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そう。\\二重契約のせいで、\\何か困ったことになってないかって。",
-      "char": "c000_01",
+      "dialogue": "ダビにばーっかり、\\あーだこーだうっさくてさ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "victory"
     },
     "15": {
       "type": "talk",
-      "dialogue": "都合のいい時はこき使っておきながら、今さら感が…",
-      "char": "c048_01",
+      "dialogue": "もっと綺麗な言葉を使いなさい、ダビ。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
     "16": {
       "type": "talk",
-      "dialogue": "身も心も捧げたのに、ぼろ雑巾のように捨てるの…？人間だろうが悪魔だろうが、男はみんな一緒ね…",
-      "char": "keep",
+      "dialogue": "え？ええと…\\私に文句ばかり言いやがりくださいます？  ",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "cry"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…なんでそう思うのかはわからないけど\\俺が心の傷に触れちゃったんだったら、謝るよ…",
+      "dialogue": "あーもう、わかったよ！\\わかったからみんなどっか行ってくれ～",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "nonsense"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あまり真面目に相手にしない方が宜しいかと。\\この子は、機嫌がコロコロ変わりますので。",
-      "char": "c002_01",
+      "dialogue": "ほら、ムネモシネ！\\お前の杖、返してやるから。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "facial": "idle"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ですよね、ネヴァン？",
-      "char": "keep",
+      "dialogue": "……",
+      "char": "c034_01",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "はい…やっぱり私のことをわかってくれるのは…\\リザさんだけ…尊敬に値します…",
-      "char": "c048_01",
+      "dialogue": "なんだよ、受け取らないのか？\\そ、そっちまで持っていけばいいのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "21": {
-      "type": "talk",
-      "dialogue": "こんな素敵な方がこの世にいる以上\\私の人生は常に闇の中…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "暗い…暗殺、暗殺するしかないの…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "今、尊敬してるって言ったばかりだろ！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ダメだこりゃ！\\お前には、今日から24時間監視体制を敷く。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "息を吸うのも、眠るときも…\\うちにいる間はずーっと監視してやる！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "監視…24時間…",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "そうだ！\\それに、なんだかんだでお前はフレイのチャイルドじゃないか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ここでの言葉は嘘かもしれないしな！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "やりたいようにやっていいけど、\\家の中ではケンカは禁止な！わかったか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "とにかく、俺たちと一緒にいる間は、それがルール！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "よーく覚えとけ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "一緒にいる間…一緒に…\\…うれしい。",
-      "char": "c048_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "34": {
+    "22": {
       "type": "talk",
-      "dialogue": "なぁにぃ？\\お前、本当に二重契約したのか！？",
-      "background": "bg022_f",
-      "char": "c051_02",
+      "dialogue": "ムネモシネ、何してるの？",
+      "background": "dungeon_bg",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "smile"
     },
-    "35": {
+    "23": {
       "type": "talk",
-      "dialogue": "はあ…悪魔ってのは…\\自分たちは毎日嘘ばっかりのクセに…",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "お前、それじゃあ魔王争奪戦で奴と俺が残ったら\\どっちの味方をするんだ？",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "勝つ方に、です。",
-      "char": "c048_01",
+      "dialogue": "バリアを作る方法を研究中だ。",
+      "char": "c034_01",
       "speaker": "same",
       "pos": "right"
     },
-    "38": {
+    "24": {
       "type": "talk",
-      "dialogue": "……はぁ。\\まぁ、魔界の女はこんなのばっかりだな。",
-      "char": "c051_02",
+      "dialogue": "どうしてバリアなんか作るの？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "smile"
     },
-    "39": {
+    "25": {
       "type": "talk",
-      "dialogue": "好きにしろ。",
-      "char": "keep",
+      "dialogue": "戦闘で逃げる時に動くのが面倒くさいからだ。",
+      "char": "c034_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
-    "40": {
+    "26": {
       "type": "talk",
-      "dialogue": "ただし！夜はちゃんと帰ってこい。\\俺のチャイルドがおかしな奴に\\軽く扱われるのはごめんだ。",
-      "char": "keep",
+      "dialogue": "ふーん。本当に動くのが嫌いなんだね。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "left",
       "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "あの悪魔がどれだけ私をこき使うかわからん。\\捕虜の身といえども、生き延びるためには\\策を練らねばな。",
+      "char": "c034_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "なんだ、クン？\\…逃げるのは僕なのに不満があるのか、だと？\\お、お前…国では一度も歯向かったりは\\しなかったというのに！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ねぇ、ムネモシネって、本当に異界から来たの？\\本当に大魔法使い？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そうだ。何度も言っただろうが。",
+      "char": "c034_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "その国の人たちは、ムネモシネがいなくなったら\\どうするの？確か戦争中なんだよね？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…大丈夫なはずだ。\\私の指導の賜物でほぼ勝利は確定している。\\そうだ、王が何か褒美をくれると言っていたが…",
+      "char": "c034_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "誰、それ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "王を知らないのか！？\\仕方あるまい、聞かせてやるからそこに座れ。",
+      "char": "c034_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "王は元々、魔道国の二番目の王子だった。\\兄王子の策略で汚名を着せられ、\\城から追い出されたところを…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "36": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "それでそれで！？\\どうやって凶暴な放浪者から逃げ出したの？",
+      "background": "bg086_f",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "早く続きを聞かせてニャン！",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "なんだ、あれ？\\完全に子供に聞かせる、おとぎ話になってるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "まあ、なんたってまだ子供ですから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
     },
     "41": {
       "type": "curtain",

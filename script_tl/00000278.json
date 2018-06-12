@@ -2,309 +2,312 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "モナ！",
-      "background": "bg002_f",
-      "bgm": "31",
-      "char": "c001_01",
+      "dialogue": "うん…う～ん…まぶしい…\\あれ？アストレア？",
+      "background": "bg086_f",
+      "bgm": "14",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "2": {
       "type": "talk",
-      "dialogue": "モニャ！",
-      "char": "c031_01",
+      "dialogue": "あ、ご主人様。起こしてしまいましたか？",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "リザ！",
-      "char": "c002_01",
+      "dialogue": "テレビドラマ？\\まさか一晩中、観てたのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "リニャ！",
-      "char": "c031_01",
+      "dialogue": "はい…\\続きが気になって仕方なく、つい…",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ダビ！",
-      "char": "c003_01",
+      "dialogue": "何のドラマ…ああ、刑事ドラマか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ニャビ！",
-      "char": "c031_01",
+      "dialogue": "そうです。\\《警視庁過激犯罪課》っていうドラマです。",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "まーたやってたのか？喋り方講座。\\今回も効果はなさそうだなー",
+      "dialogue": "はは～ん…わかったぞ。\\アストレアが好きそうな正義のヒーローがいるんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "人の姿になったって言っても、\\頭は猫のままですからね～",
-      "char": "c001_01",
+      "dialogue": "そうなんです！\\市民を守るため、凄腕の刑事たちが捨て身の覚悟で凶悪事件に立ち向かうんです！",
+      "char": "c014_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "shy"
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そう考えると、服を着たり話すこと自体が\\相当なストレスになってるかもしれませんね…",
+      "dialogue": "とってもカッコいいんですよ！！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "10": {
       "type": "talk",
-      "dialogue": "もしかしたらそうかもしれないな…",
+      "dialogue": "たしかにカッコいいけど…\\俺はこういうの、あんまり感情移入できないな～",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sad"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ご主人様！いい感じニャ？",
-      "char": "c031_01",
+      "dialogue": "ああ…なるほど、ご主人様。\\それはきっと、卑劣なサキュバス三人衆と一緒にいたからですね。許せません！",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "いい感じニャ？じゃなくて\\お前のこと心配してるんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "あらあら！良かったわねフレイヤ。\\ご主人さまに心配してもらって！\\モナはご主人さまの事も心配ですけど…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ダビ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ニャビ！",
-      "char": "c031_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "うふふ…\\ダビはこのくらい言えればいいと思うけど？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "なんでダビはフレイヤにはそんなに好意的なんだ？\\不思議だな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "魔界の者は基本的に猫が好きなのです。\\それは本能的なもので…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "え？",
+      "dialogue": "サキュバス三人衆！？\\ああ、モナたちのことか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…って、いや、そういうわけじゃないと思う…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "私は特に、あの刑事が気に入りました！",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "俺の話を聞いてるか？\\…えっ！？あのオジサンが好きなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "はい。\\悪党たちには災難でしょうが、善良な市民にとっては正義のヒーローなんですよ。",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "う～ん…\\あのオジサンが、正義のヒーローね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あの刑事を見ていると、ご主人様を思い出します。",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あんなマッチョで中年のおっさんと俺とじゃ全然似てないだろ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "20": {
       "type": "talk",
-      "dialogue": "え？",
-      "char": "c002_01",
+      "dialogue": "いいえ。よく似ています。\\悪魔なのに人間たちを理解しようとしたり、不当なやり方で契約しない高潔さ。",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "それならダビが俺のことを嫌うのはおかしいだろ？\\俺の先祖をたどれば猫も混ざってるはずだし…",
-      "char": "c000_01",
+      "dialogue": "ご主人様は私が理想と考えるヒーローです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "サキュバスたちの視線が俺のしっぽに突き刺さる。",
+      "dialogue": "そう言って、アストレアはキラキラした眼差しを俺に向ける。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "…なぜかはわからないが…\\ちょっと恥ずかしい。",
+      "dialogue": "やめろ！そんな目で俺を見るな！\\俺はヒーローなんかじゃ…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "24": {
       "type": "talk",
-      "dialogue": "あらら♥",
-      "char": "c001_01",
+      "dialogue": "ご主人様。やはりご主人は魔王になるべき御方です。",
+      "char": "c014_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "smile"
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "25": {
       "type": "talk",
-      "dialogue": "そんな…",
-      "char": "c002_01",
+      "dialogue": "悪いけど、俺はお前が思っているほど立派なヤツじゃないよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そ、そんなの…認めないんだから！\\フレイヤ！このウスラトンカチが\\嘘をついてるか確認して！",
-      "char": "c003_01",
+      "dialogue": "きっと俺みたいなヤツが魔王になったらガッカリするさ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ニャン？クンクン…\\ご主人様…猫のにおい。",
-      "char": "c031_01",
+      "dialogue": "自信を持ってください。\\私はご主人様を信じています。",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あ、でも！\\ニャんて言えばいいのか…",
-      "char": "keep",
+      "dialogue": "アストレア…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
     },
     "29": {
       "type": "talk",
-      "dialogue": "う、ウスラトンカチにも猫の血が混ざってたなんて…ふえん…ショック…",
-      "char": "c003_01",
+      "dialogue": "ご主人様…",
+      "char": "c014_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "cry"
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "30": {
       "type": "talk",
-      "dialogue": "フレイニャは…フレイニャは…",
-      "char": "c031_01",
+      "dialogue": "1つお願いがあるんだけどさ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ただの尻尾かと思っていましたが、\\本人から直接聞くと衝撃的ですね。",
-      "char": "c002_01",
+      "dialogue": "あのマッチョのオジサンと俺が似てるって誰にも言わないでくれないか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "32": {
       "type": "talk",
-      "dialogue": "猫…\\猫の悪魔…",
+      "dialogue": "特に、あのサポーターたちには…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ご主人さま♥\\ダビがご主人を嫌っていたことを\\気にしていたんですか？",
-      "char": "c001_01",
+      "dialogue": "フフッ。ご主人様、恥ずかしいのですか？",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "34": {
       "type": "talk",
-      "dialogue": "うふふ♥\\ときどき見せるそんな意外性が\\とーっても可愛いですね～♥",
-      "char": "keep",
+      "dialogue": "ちがうよ…\\俺が正義の刑事に似てるなんてアイツらが聞いたら、きっと《上級悪魔養成講座》と称したお説教と地獄の特訓が待ってるからだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "confused"
     },
     "35": {
       "type": "talk",
-      "dialogue": "フレイニャは…ご主人様が…",
-      "char": "c031_01",
+      "dialogue": "そうなんですか！？\\もう、他のチャイルドとサキュバスたちにも話してしまいました…",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "モナは知っていたのですか？",
-      "char": "c002_01",
+      "dialogue": "終わった…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near",
+      "facial": "serious"
     },
     "37": {
-      "type": "talk",
-      "dialogue": "もちろん♥\\主人になる悪魔の遺伝子のチェックは\\基本中の基本よ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ダビはショック…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "cry"
-    },
-    "39": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "フレイニャは…\\ご主人様が猫だから好きなわけじゃ…ないニャ…",
-      "background": "bg095_f",
-      "char": "c031_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "ニャ～",
-      "char": "c031_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -1,118 +1,61 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "ねぇ！\\お願いだから、トリを捕まえるの、手伝ってよ！！",
-      "background": "bg036_f",
-      "bgm": "20",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "bg024_f",
+      "bgm": "59",
+      "fade_in": "normal",
+      "hold": "shorter"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ダダをこねるなって…\\さっきだって、俺達が手を貸さなきゃ危なかったろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "人間は、太陽の光に焼かれる虫…\\そして、一息で吹き飛んでしまう塵…",
+      "char": "c049_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "それに、トリも迷惑してたぞ？もう、諦めろって…\\ホラ、行くぞ。",
+      "dialogue": "朝になると風で散らばる霧の如し…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うううぅ…っ！待って！",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "dialogue": "人間は混沌という名の泥で作られ、永遠に罪を\\犯し続ける。暗闇の中で彷徨うことが私達の運命。",
+      "char": "keep",
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ボクのコレクションを、何でもいいからあげる！\\だから、トリを捕まえるのを手伝ってよ！",
+      "dialogue": "ああ…\\しかし、悔しくもあんなに高いところで輝く天の星が私達の目には、はっきりと見えてしまう…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "正直、ちょっと驚いた。\\エルメスが心底大事にしてるコレクションを譲るなんてこと、まず考えられないからだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "いくら歩いても、望んでも、願っても…\\私たちは決してあそこにたどり着けない。",
+      "char": "keep",
+      "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "おまけに「何でもいいから」と来た。\\つまりそれぐらい本気であのトリを欲しがってるということだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "私は決してあそこにたどり着けない。",
+      "char": "keep",
+      "speaker": "same"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…はぁ、分かった。手伝ってやるよ。",
-      "char": "c000_01",
+      "dialogue": "神よ、私を救ってください。\\どうか、私の声に耳を傾けてください。\\いつまで、私を無視するのですか…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "distance": "near"
     },
     "9": {
-      "type": "talk",
-      "dialogue": "ホント！？",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ああ。その代わり、\\さっきみたいな勝手な行動はなしだ。\\わかったな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "うんっ！うんっ！\\ありがとう！",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "はぁ…\\本当に、御主人様はチャイルドに甘すぎます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "irritation"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "なんか、いい話っぽくなってるけど、\\やろうとしてることは誘拐と大差ないって思うのは\\ダビだけなの～？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ふふ、それで全然かまわないんじゃない？\\とっても悪魔的だし♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "pretense"
-    },
-    "15": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

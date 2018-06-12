@@ -1,11 +1,24 @@
-{
+﻿{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ノーマルスキルは<color=ff9900>一定の確率</color>で<color=ff9900>クリティカル攻撃</color>になります。その際、スキルボタンの上に<color=FF0040>CRITICAL</color>が表示されます。",
-      "char": "none",
+      "dialogue": "ついに<color=\"ff9900\"><b>アンダーグラウンド</b></color>まで来ましたね♥\\ここは全チャイルドで挑まないといけないんです。",
+      "background": "back_dim50",
+      "char": "c255_01",
       "speaker": "none",
-      "voiceid": "900102008"
+      "one_ani": "attack"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">すべて15ステージ</color>で、全ステージを通り抜けられたら\\小さいご主人さまの勝利！",
+      "char": "keep",
+      "speaker": "none"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">3つのステージ</color>をクリアするたびに\\<color=\"ff9900\">コロニー</color>で報酬とバフをもらいます。",
+      "char": "keep",
+      "speaker": "none"
     }
   }
 }

@@ -2,305 +2,257 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はあ、はあ、はあ。",
-      "background": "bg086_f",
-      "bgm": "14",
+      "dialogue": "コラ、ダビ！\\1人で夜遅くに出かけるなって言ったろ！",
+      "background": "bg177_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "魔力もないくせに、体力はもっとないんだね。",
+      "dialogue": "うう、母親みたいなこと言わないでよ！\\ウスラトンカチ！",
       "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "う、うるさい。",
+      "dialogue": "主人としての命令だっつーの！\\まったく…ニュースを見てないのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "自分のチャイルドも捕まえられない悪魔の話なんて\\絶対に聞かないよ。",
-      "char": "c003_01",
+      "dialogue": "最近、この辺りじゃ\\暴力団同士のケンカが絶えないんだとよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "victory"
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "うう…このガキ…！お前と遊ぶ体力なんてない。\\あっち行って遊んでろ。",
-      "char": "c000_01",
+      "dialogue": "人間がたくさん死んじまったんだと…\\巻き込まれたらシャレにならない。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "idle"
     },
     "6": {
       "type": "talk",
-      "dialogue": "だったらダビを捕まえてみなよ！\\そしたらお望み通り消えてあげる！",
-      "char": "c003_01",
+      "dialogue": "夜出歩くなんて自殺も同じだ。\\ホラ、大人しく家に帰るぞ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前まで…！これもモルガナのせいだ！\\捕まってみろ、ただじゃおかない！",
-      "char": "c000_01",
+      "dialogue": "バカご主人。\\悪魔が人間を怖がってどうするのよ？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "捕まったら…どうするつもり？",
-      "char": "c178_01",
+      "dialogue": "そりゃあ、悪魔より人間の方がずっと恐いからな。\\長い間ここに住んで得た教訓だ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "モル…！",
-      "char": "c000_01",
+      "dialogue": "そんな腰抜け悪魔はご主人だけよ。\\バカでマヌケで、臆病者な悪魔だもん。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "confused"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "俺は、スーッと現れたモルガナを捕まえるため\\手を伸ばした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…マジで置いてこうかな、こいつ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "でも蜃気楼らしく彼女はいたずらに笑いながら\\俺の手を簡単にすり抜けた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "諦めた。俺の負けだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ふーん…",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "なんだ、その表情は？お前の勝ちだ。\\契約も諦めた。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "つまらない。",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "…ひどいな。汗まみれの\\かわいそうな主人のことも考えてくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "粘り強さが足りないよ。\\モルガナ、もう少し引き延ばして！",
+      "dialogue": "ふん！腰抜けご主人の言うことなんか、\\聞かないもんっ！",
       "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "angry"
     },
-    "18": {
+    "12": {
       "type": "talk",
-      "dialogue": "立場が逆だろっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "もう追いかけてこないの？",
-      "char": "c178_01",
+      "dialogue": "おいガキ、ご主人様の言うことはよく聞けよな。",
+      "char": "c037_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
+    "13": {
+      "type": "talk",
+      "dialogue": "ひぃ！ち、近寄らないでーっ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "何だよ、さっきまで威張ってたくせに、\\ビクビクして…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "に、人間なんか怖くないけど、\\あの悪魔のおじさんは怖いのー！",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "おう、よく分かってるじゃねえかガキ。\\…命が惜しけりゃ無駄口叩くんじゃねぞ。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ひいい！",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "やめろよ。ガキをいじめて楽しいか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "クハハハ！\\俺様にとっちゃ、お前ら2人ともガキだガキ。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "20": {
       "type": "talk",
-      "dialogue": "毎日笑ってばかりいたヤツが\\どういうわけか残念な表情を浮かべている。",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "おいおい、そのガキに\\右腕になれって言った悪魔は誰だよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "21": {
       "type": "talk",
-      "dialogue": "意地悪というべきか、天真爛漫というべきか…",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "ガキはそのうちデカくなるからな。\\先行投資ってヤツだ。\\で、考えは変わったか？",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "追いかけっこがしたいんだろ。",
+      "dialogue": "変わらないよ。\\お前の手下になるつもりは全くない。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c178_01",
+      "dialogue": "可愛げねえガキだなあ。\\よーく考えてみろ。",
+      "char": "c037_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "また笑ってる。本当にやりにくい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お前1人で魔王になれると本気で思っているのか？\\大人しく俺様につけよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "よし！この際、めいっぱい遊んでやるよ。",
-      "char": "c000_01",
+      "dialogue": "俺様が魔王になるのを見守るのも悪くないだろう？\\歓迎するぜ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "期待しないで、モルガナ。\\五分もしないうちにへたれるから。",
-      "char": "c003_01",
+      "dialogue": "何と言われてもイヤだね。\\第一、暴力団のケンカもお前の仕業だろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "その前に…！五分だけ休もう、な？",
-      "char": "c000_01",
+      "dialogue": "裏社会の一員だなんて真っ平だ。\\サキュバス達の面倒みてた方がまだマシだな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "体力ないねー。",
-      "char": "c003_01",
+      "dialogue": "暴力こそが人間の本質だ。\\それはお天道様の下にいたって、変わらねえぞ。",
+      "char": "c037_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "うるさい。お前の言う通り、\\五分でへたれないようにするには\\今から休まないとダメだ。",
+      "dialogue": "いいや、違うね。お前が何もしなかったら\\みんな肩組んでニコニコ笑ってたはずだ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "いいよ。",
-      "char": "c178_01",
+      "dialogue": "クハハハ！生意気なガキだ！\\男ならそうでなくちゃな！",
+      "char": "c037_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "俺の提案に納得したのか\\モルガナは俺の横に大人しく座り込んだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "だが…あんま調子に乗るんじゃねえぞ。\\俺様は全てにおいて完璧だが、\\我慢だけは知らねえからな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
     },
     "32": {
       "type": "talk",
-      "dialogue": "こうやって彼女を見ていると\\ヤツの顔からぼんやり契約者の顔が伺える。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ひい！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "33": {
       "type": "talk",
-      "dialogue": "人に利用されるのが嫌で\\蜃気楼のように誰の目にも入らないようにしてほしいって言ってたっけ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ご主人…格好悪い。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
     },
     "34": {
       "type": "talk",
-      "dialogue": "モルガナ、もしさ。俺がお前を捕まえて\\ずっと離さなかったら…その時はどうするつもりだ？",
-      "char": "c000_01",
+      "dialogue": "クハハハ！また誘いに来るからな！\\そん時は、いい返事を待ってるぜ！",
+      "char": "c037_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "…また逃げる。",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "そう、それこそお前だ。\\俺だって蜃気楼を捕まえられるとは思ってない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "それじゃ、追いかけっこでも始めるか！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

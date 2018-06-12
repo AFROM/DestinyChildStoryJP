@@ -2,200 +2,220 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "夜中の2時になると夜道を徘徊し\\戦う相手を探すファイター。",
-      "background": "bg177_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "マーリン！止まれ！\\捕まえたらただじゃ置かないからな！",
+      "background": "bg036_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ファイターの契約者はそれなりに有名な\\格闘技選手だが、悪魔との闘いで\\負けたせいで無理やり契約を結んだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お兄ちゃんってバカなの？\\止まれって言われて止まるヤツなんていないよ！",
+      "char": "c205_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうやって生まれたせいなのか、\\ファイターもやはり自分は悪魔に\\負けたと思っている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "くっそ、屁理屈だけは上手いんだから！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "夜中の2時はその悪魔に出会った時間だ。\\だからファイターは夜中の2時に夜道を徘徊する。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "僕を捕まえてごらん！\\もっとオモシロいもの見せてあげる！",
+      "char": "c205_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どうして夜中の2時なんだ？\\昼の2時でもいいじゃないか！\\もしくは夕方6時とか…",
-      "bgm": "12",
+      "dialogue": "あれより恐ろしいことか？\\一体どうやってあの獅子のヒゲをむしり取ったんだ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "6": {
       "type": "talk",
-      "dialogue": "悪魔は夜中に現れるでしょ。\\そんなことも知らないの？",
-      "char": "c003_01",
+      "dialogue": "ヒヒッ！",
+      "char": "c205_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "夜は家で大人しくゲームしたり\\テレビみたりゆっくりする時間なんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "見つけた！ウサギ頭！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "お！俺と戦いに来たのか？",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "同じ相手とは二度戦わない主義で…",
+      "dialogue": "一気に老けそうだ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "sigh"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "マーリンのヤツ…\\チャイルドになってそんなに経たないうちに\\俺の部屋にとんでもないイタズラをした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "キュベレーのペットである\\テロンのヒゲを俺の部屋のベッドに置いたのだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "キュベレーのヤツ、俺がテロンのヒゲを\\無慈悲に抜いたと言って泣きわめくし、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ねぇ、なんで汗かいてるの？",
-      "char": "c003_01",
-      "speaker": "same"
+      "dialogue": "テロンも俺を捕って食う勢いで牙を鳴らした。\\本当に思い出しただけでもゾッとする…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "12": {
       "type": "talk",
-      "dialogue": "見なかったことにしてくれ…",
+      "dialogue": "またあの恐怖を味わうわけにはいかない…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "キャハハッ！さっき誰と戦ったか知ってるか？",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "おい！今すぐこっちに来い！\\手足を括り付けてやる！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ここで！俺の契約者に会ったんだ！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "うわー、こわ～い。",
+      "char": "c205_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "契約者と戦ったのか？お前、正気かよ！",
+      "dialogue": "棒読みでも怖がってくれてありがとよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "全く怒りが収まっていないようだけど…\\大丈夫よね、テロン。",
+      "background": "bg086_f",
+      "char": "c195_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "マーリンのヤツ、なんでテロンのヒゲを\\むしり取るようなイタズラを…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "戦ってなかったら契約者だって気付かずに、\\すれ違ってたさ。",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "やっぱり俺の契約者だ。腕前は相変わらずだった。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "最初に契約者だって気が付かなかったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
     "19": {
       "type": "talk",
-      "dialogue": "仕方ないだろ。随分会ってない。",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "いや、それよりテロン、\\アイツはどうして俺に怒ってるんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "で、勝ったの？",
-      "char": "c003_01",
+      "dialogue": "テロンは、私がアナタに\\泣かされたと思っているのよ。",
+      "char": "c195_01",
       "speaker": "same",
       "pos": "center"
     },
     "21": {
       "type": "talk",
-      "dialogue": "当然、俺が勝った！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "まったく…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "契約者の方も勝ったけどな！キャハハッ！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "おかしいよ…\\二人で戦ってどっちも勝つなんてことあるの？",
-      "char": "c003_01",
-      "speaker": "same"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…引き分けって言いたいんじゃないのか。",
+      "dialogue": "こうなった以上、マーリンが\\二度とあんなことできないようテロン、\\お前が叱ってやってくれ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "22": {
+      "type": "talk",
+      "dialogue": "…そんなことできないわ。",
+      "char": "c195_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "どうしてだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "あれは…マーリンがお願いして抜いたヒゲなの。",
+      "char": "c195_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "つまり…お前たちがグルになって\\やらかしたことだったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "26": {
       "type": "talk",
-      "dialogue": "うるさい！\\この俺に引き分けなんてものは存在しない！\\勝つか負けるか、ふたつにひとつだ！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "テロンはあの子がイタズラするなんて\\知らなかったの。\\それにおかしいわ。",
+      "char": "c195_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "27": {
       "type": "talk",
-      "dialogue": "それこそが戦いの世界！キャハハッ！",
+      "dialogue": "あの子、どうやってテロンに\\お願いしたのかしら？",
       "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "speaker": "same",
+      "pos": "center"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "テロンの言葉を聞き取れるのは私しかいないのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "確かに…\\アイツ、本当に魔法使いにでもなったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

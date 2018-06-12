@@ -2,310 +2,297 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様のお部屋が…\\以前よりすごいことになってますね。",
-      "background": "bg086_f",
+      "dialogue": "いた、ご主人様。",
+      "background": "bg090_f",
       "bgm": "9",
-      "char": "c117_01",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それって、前からすごい汚かった\\って言いたいのか…？",
+      "dialogue": "あれ、誰かと思ったら……カルカスじゃないか。\\はは、なんかしばらく会ってない気がするな、\\元気だったか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "irritation",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "まあ、時に…この本はなんでしょうか？",
-      "char": "c117_01",
+      "dialogue": "そりゃそうですよ。\\ご主人様が僕のことを\\ずっと避けてたんじゃないですか。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あー、そこらのは全部、\\エリオスが置いていった本だな。",
-      "char": "c000_01",
+      "dialogue": "あ、気のせいでしょうけど。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…エリオスが？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "…実は、気のせいじゃない。\\カルカスには悪いけど俺は\\あまりこいつと顔を合わせたくない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そう、これ見てみろよ？\\明らかに俺が読めるものじゃなさそうだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "だまして契約をしたわけじゃない。\\でも、そこに契約者、加納悠(かのうゆう)の意志がなかったのは間違いない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "孟子、論語、自由論、ソクラテスの弁明…\\全部哲学書ですね。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "必要に迫られて契約したでもなく\\望んで契約したわけでもない。\\だから俺を恨んでてもおかしくない…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ああ、毎日買ってきては置いてってさ、\\ついにこんな山積みになっちまった。",
+      "dialogue": "なんで俺がこんなに顔色をうかがわなくちゃ\\いけないんだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "sigh"
     },
     "9": {
       "type": "talk",
-      "dialogue": "早く片付けないと、リザが怒り出しそうですね。",
-      "char": "c117_01",
+      "dialogue": "はい？",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "んー、でも…リザの説教も怖いが、\\エリオスの小言のほうが、もっと怖いんだよな…",
+      "dialogue": "いや、なんでもない。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "idle"
     },
     "11": {
       "type": "talk",
-      "dialogue": "なんつーか、何言ってるか\\チンプンカンプンなんだよ。",
-      "char": "keep",
+      "dialogue": "まあ、いいです。\\それより僕、「運命の選択」って言ってましたよね？ご主人様と初めて会った時。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "真理がどーとか、摂理がどーとか…\\俺は悪魔だけどな。\\あいつの話を聞いてると、\\キレイに浄化された気分になっちまう。",
-      "char": "keep",
+      "dialogue": "うむ……そんなこと言ったなあ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あいつは俺のことを何か誤解してるんだよ。\\俺にこれ以上、愚かな人間をダマすなって\\言ってきたんだぞ。",
-      "char": "keep",
+      "dialogue": "今思うに、生きるというのは選択の連続なのに\\僕は少し出過ぎたことを言ってしまいました。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "俺の方が何倍も人間にダマされ続けてるっての！",
+      "dialogue": "軽率な物言いのせいで、ご主人様の運命に\\よからぬ影響を与えたのではないかと\\……ずっと考えています。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "エリオスは愚か者です。\\あのような愚者の言葉に耳を傾ける必要は\\ありません。",
-      "char": "c117_01",
+      "dialogue": "……気のせいでしょうけど。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "あれ…\\お前、そんなにエリオスのこと嫌いだったっけ？",
+      "dialogue": "何を改まっちゃってるんだよ。\\お前、もしかしてその時の言葉を気にして、\\俺が避けてると思ったのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "facial": "confused"
     },
     "17": {
       "type": "talk",
-      "dialogue": "くそ、俺がバイトでいくら給料をピンハネされたと\\思ってやがる…！",
-      "char": "keep",
+      "dialogue": "違うのですか？",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…エリオスは愚かなだけではなく、\\厚かましいんです。",
-      "char": "c117_01",
+      "dialogue": "違うよ。\\ホントのことを言うと、お前のせいじゃなくて、\\俺の心の問題。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "idle",
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あれだけ悪魔を嫌っておきながら、\\その悪魔の力を借りているなんて…信じられません。",
+      "dialogue": "あー…そういう誤解をされてるとは…\\なんとなく噛み合ってないと思ったんだよな、\\お前が何を考えてるかわからないし。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あ、ええっと…エリオスにも、\\どうしようもない事情が…",
-      "char": "c000_01",
+      "dialogue": "俺は基本的に人づきあいが苦手なの。\\知ってるよな？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そんなこと、どうでもいいです。",
-      "char": "c117_01",
+      "dialogue": "そうみたいですね。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "とにかく、私の前では二度と\\その愚かなチャイルドの話はしないでください。",
-      "char": "keep",
+      "dialogue": "謝るのも嫌いだ。\\やっちまったことは謝っても戻らない。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
+      "pos": "left",
+      "facial": "sigh"
     },
     "23": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c000_01",
+      "dialogue": "それ以前に、悪魔がへコへコ頭下げて回るなんて、\\みっともないだろ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "unfair"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ヤーガが帰った後も、俺はしばらく\\彼女の態度について考えていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それもうっすら気づいていました。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ヤーガとエリオスの契約者2人は\\元々仲のいい兄妹だったが、\\悪魔についての見解の相違によって\\疎遠になってしまった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そんな俺が、今さらお前に\\「あの時ダビを止められなくてごめん！」とか",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そして兄妹2人は悪魔によって起きた問題を、\\悪魔の力を借りて解決しようとした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "無理やり契約しちゃって責任感じてます！\\とか言えるわけないだろう……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "27": {
       "type": "talk",
-      "dialogue": "そんな訳でヤーガとエリオスが生まれた訳だが、\\現実での関係と同じくチャイルド達も、\\お互いを理解できなかったようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "28": {
       "type": "talk",
-      "dialogue": "…って、それって俺が原因みたいじゃん。\\いや、たしかに俺のせいなのかも…う～ん…",
-      "char": "c000_01",
+      "dialogue": "なるほど。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "御主人様…\\この本の山は一体…？",
-      "char": "c002_01",
+      "dialogue": "今の話を聞いて、僕、\\ご主人様は不器用な人なんだなって思いました。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "serious"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "うえっ、リザ。こ、この本はだな。\\俺じゃなくてエリ…",
-      "char": "c000_01",
+      "dialogue": "「ご主人様」って呼ぶのも\\モナさんが教えてくれたから、使っているだけで。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "はあ…部屋を散らかしておきながら、\\まずは言い訳ですか？\\それとも、小姑みたいなお説教は控えろとでも？",
-      "char": "c002_01",
+      "dialogue": "ったく、モナの奴……\\それはあまり気にしなくていいよ。\\好きに呼べばいい。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
+      "pos": "left",
+      "facial": "sulky"
     },
     "32": {
       "type": "talk",
-      "dialogue": "い、いや、別にそんなこと\\言うつもりじゃなくてだな…",
-      "char": "c000_01",
+      "dialogue": "いえ、もうこれが楽なんで。\\ただ、主人がどうしてせっかく契約した下僕を\\避けるのか…",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ふむ…ですが御主人様がこんな本を読まれるとは\\意外です…哲学書、お好きなんですか？",
-      "char": "c002_01",
+      "dialogue": "それが知りたかっただけです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "しかし哲学書を読んだからと言って。\\御主人様の格が上がるとは思えませんけどね。\\ふふ…",
-      "char": "keep",
+      "dialogue": "そりゃ、色々考えちまうから…\\って言ってても仕方ないか…\\契約したのは俺だ。これからは避けない！\\…ように、するよ。できるだけ、なるべく。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "confused"
     },
     "35": {
       "type": "talk",
-      "dialogue": "だから、これは俺のじゃなくてさ…",
-      "char": "c000_01",
+      "dialogue": "避けないとは言わないんですね。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "そうですね、この際、\\御主人様にふさわしくない物は、\\全部処分してスッキリしましょう。",
-      "char": "c002_01",
+      "dialogue": "守れない約束はしない……！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left"
     },
     "37": {
       "type": "talk",
-      "dialogue": "えっ？リザ、ちょっと待て！\\や、やめろ！やめてくれー！",
-      "char": "c000_01",
+      "dialogue": "わかりました、お好きにどうぞ。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "shock",
-      "screen_effect": "shake"
+      "pos": "right"
     },
     "38": {
+      "type": "talk",
+      "dialogue": "ただ、あなたのことが少しわかって\\ちょっと気が楽になりました。\\嫌われてるわけではないみたいなので。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "それでは、よい一日を。\\必要なら呼んでください。いつでも駆けつけます。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

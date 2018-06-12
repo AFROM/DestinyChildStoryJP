@@ -2,309 +2,354 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "これで何度目？\\先生が許せるのも限界があるわ。",
-      "background": "bg014_f",
+      "dialogue": "あれ？おかしいな。扉が…",
+      "background": "bg095_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "unknown1"
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "confused"
     },
     "2": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "どうかされましたか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "口がついてるなら話しなさい。\\この前はテストのカンニング。\\今度は誰かの課題を丸写し？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "鍵が開いてるんだよ。っと…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…すみませんでした。",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "うわっ！なんだ、この部屋のありさまは…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "その痣はどうしたの？友達とケンカでもした？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "これはひどい…\\本当に鍵はかけていたんですよね？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "い、いえこれは…転んで怪我しただけです。",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "ああ、もちろん。\\それにワーウルフが留守番してたはずだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "この課題はなかったことにするわね。\\明日までやってきなさい。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "でも、ワーウルフはいませんね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "はぁ…もう戻っていいわ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "モナは契約者を連れてくると言って出かけましたし、ダビはモナについて行きましたし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "はい…",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "誰もいなかったってことか？！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "10": {
+      "type": "talk",
+      "dialogue": "そのようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "それで泥棒に入られたのか…\\おかげで部屋がグチャグチャだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "unfair",
+      "screen_effect": "dialog_shake"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "片づけるのが大変ですね。",
+      "background": "bg086_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "のんきなこと言ってないで、何か盗られた物がないか確認してくれよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ご心配なく。プロの泥棒でも、この家から金目の物を探し出せるはずはありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "none"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "確かにうちに金目の物はないけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "何が盗られるか分からないだろ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "大事な物が何かなんて、人それぞれなんだからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "そうかもしれませんが、これだけ何もなかったら、\\むしろ泥棒のほうがかわいそうです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "代わりに良い物を置いていこうと思うレベルです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "悪かったな！こんな貧乏な家に住ませて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "問題ありません。食べては行けますので。\\それでは、ワーウルフを探しに行きましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "うう…ワーウルフを探して文句言ってやる！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "24": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "11": {
+    "25": {
       "type": "talk",
-      "dialogue": "この課題をやったのは私。\\書き写したのはあの子たち。\\私はやってない、私は…",
-      "background": "bg064_f",
-      "char": "c230_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "私は世界の運命を背負った…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ここで何している？",
-      "char": "c230_01",
+      "dialogue": "今日は、月が綺麗だ。\\だから、ワーウルフは絶対この近くにいる！",
+      "background": "bg024_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "確かに綺麗な月夜ですね…\\これは、ワーウルフが好みそうです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "安易な発想ですが…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ハハハッ、正解で～す。ここだよ～",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "near"
     },
-    "14": {
+    "29": {
       "type": "talk",
-      "dialogue": "あ、アナタは…？",
-      "char": "c230_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "私のことを知る必要はないわ。\\さっさと家に帰りなさい、ここは危険よ。",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "危険？",
-      "char": "c230_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "さっきここで何かの力を…\\いや、アナタが知る必要はない。",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "早くここを離れなさい！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "screen_effect": "dialog_shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "スクルド！",
-      "bgm": "12",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "enter_from_left_fast"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "遅かったわね？",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "かくれんぼはこのくらいにしとこう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "フフ…ついに結論を出すときが来たのか？",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ああ、そうだ！\\かかってこい。力の限り相手してやる！",
+      "dialogue": "あ、ワーウルフ！おまえな～探したんだぞ！\\留守番してたんじゃないのかよ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "fury"
     },
-    "24": {
-      "type": "talk",
-      "dialogue": "とりゃ！",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ネックスライス！",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "serious",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "くっ！背後から…攻撃してくるとは…！",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "気絶…したよな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "はい。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "あの、一体これは…",
-      "char": "c230_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
     "30": {
       "type": "talk",
-      "dialogue": "ああ、気にしないでくれ。アイツ、病気なんだよ。\\これは治療みたいなもんだ…",
-      "char": "c000_01",
+      "dialogue": "御主人様の安易な発想でも、見つかるものですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "pretense"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ところであんなダサい技名を\\叫ぶ必要があったでしょうか？",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "リザ、バカにしてるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "32": {
       "type": "talk",
-      "dialogue": "気分の問題だ。",
-      "char": "c000_01",
+      "dialogue": "探しに来てくれてありがと～\\ニャンコちゃんに、ごほうびあげなくっちゃね～",
+      "char": "c216_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "知ってはいましたが…\\御主人様もこのチャイルドと同じくらい厄介ですね。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "あの、この人…誰ですか？\\ひょっとして…この人の名前…",
-      "char": "c230_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "気にするなって。\\そして、見なかったことにしてくれ。\\恥ずかしいから…",
+      "dialogue": "お前が留守番をサボったから、家に泥棒が入ったんだぞ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "fury"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "どうしてくれるんだよ！番犬もできない狼め！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "あんな家、泥棒に入ったって盗む物ないよ～？",
+      "char": "c216_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "御主人様、あの女性はスクルドの契約者では\\ありませんか？\\この際、再契約しましょう。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "それに、そんなの盗みに入られるヤツが悪いんだよ～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "ダメだ。そんなことしたらヤツが\\また目を覚ますだろ。",
+      "dialogue": "俺のせいか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "盗みに入るヤツの方が絶対悪いだろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "自分の身は自分で守るしかないということですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "そんな理屈で済むかよ？世知辛い世の中だな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "38": {
-      "type": "talk",
-      "dialogue": "それも困りますね…\\ネックスライスと、もう一度叫びたくはありません。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "やりたくないんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "とにかく、全て解決！俺たちはもう帰るから\\キレイさっぱり忘れてくれ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "after_effect": "go_to_left_point"
-    },
     "41": {
       "type": "talk",
-      "dialogue": "いい機会なのに、残念です。",
-      "char": "c002_01",
+      "dialogue": "仕方ないよ～だって悪いことって楽しいもん！",
+      "char": "c216_01",
       "speaker": "same",
-      "after_effect": "go_to_left_point"
+      "pos": "right"
     },
     "42": {
       "type": "talk",
-      "dialogue": "あの女性、すごく似ている。想像の中の私の姿と…",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "ついつい、やってみたくなっちゃうからね～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "43": {
       "type": "talk",
-      "dialogue": "あの人の名前も…《スクルド》かしら。",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "楽しそうに言うなっ！\\はぁ…こういうヤツがいるから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "44": {
+      "type": "talk",
+      "dialogue": "世の中、強くなければ生き残れません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "そんな世界、生き残れる気がしないよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

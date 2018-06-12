@@ -2,296 +2,239 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "んー…",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "ねえ…すぐに帰ってくるわよね？",
+      "background": "bg037_f",
+      "bgm": "15",
+      "char": "m045_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あまり気を落とすな。\\リザに文句言われる俺の立場にもなってくれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ただの出張だろ？何をそんなに心配してるんだ？\\すぐに戻ってくるよ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ダビは行くよ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ほ、本当？本当にすぐに戻ってくる？",
+      "char": "m045_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "待て。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "…これ。俺が帰ってくるまでに預かっててくれ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "5": {
       "type": "talk",
-      "dialogue": "レディに頼みなよ！\\なんでダビが家事をしなくちゃいけないの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "この花瓶…",
+      "char": "m045_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "だからくじで決めようって言ってるんだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "一番大事にしている花瓶だ。\\誰かにプレゼントでもらったんだけど…\\とにかく、この花瓶を見て俺を思い出してくれ。\\いいな？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "7": {
       "type": "talk",
-      "dialogue": "リザも呼んで！リザも家事をしなくちゃ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "あ、バスが来た。\\それじゃ、行ってくる。元気でな。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "8": {
       "type": "talk",
-      "dialogue": "アイツはダメだ…愚痴ばっかだから。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "あ！ちょっと待って！",
+      "char": "m045_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "隣で聞いてたら雑巾を奪って\\俺が掃除したくなるくらいだ…",
+      "dialogue": "ちょっと…この花瓶…\\私が初めて会った日にあげたものじゃない。",
       "char": "keep",
-      "speaker": "same",
+      "speaker": "same_full",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "near"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "バカご主人。\\サキュバスの言いなりになって情けない…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そんなこと言える立場か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "遅れてすみません。待ちましたか？",
+      "background": "bg002_f",
+      "bgm": "19",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "12": {
       "type": "talk",
-      "dialogue": "とにかく。俺、ダビ、そしてレディ。\\この三人でくじを引くんだ。",
-      "char": "keep",
+      "dialogue": "うふふ、少しだけ♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "はあ…本当はモナも呼びたいところだけど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "本当にすみません。ちょっと用がありまして…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "14": {
       "type": "talk",
-      "dialogue": "モナ姉さまはダメだよ！",
-      "char": "c003_01",
+      "dialogue": "用って？\\ひょっとして…彼女のことですか？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "pretense"
     },
     "15": {
       "type": "talk",
-      "dialogue": "はいはい…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "は、はい？そ、それは…その…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "16": {
       "type": "talk",
-      "dialogue": "それじゃ、一人ずつ…まずはレディから…",
-      "char": "keep",
+      "dialogue": "あらあら、冗談のつもりだったのに、\\そこまで慌てなくていいんですよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "は、はは…\\それよりあなたから先に連絡をくれるなんて\\夢にも思いませんでした。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あ、お前は動けないんだっけ…\\それじゃ俺が代わりに…",
-      "char": "c000_01",
+      "dialogue": "モナは猪突的な男性が好きなんです。\\だから勇気を出して連絡してみたんですよ♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あれ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ありがとうございます。\\僕の気持ちを受け取ってくれて…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "20": {
       "type": "talk",
-      "dialogue": "皿洗いに決定！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "す、すまない…レディ。",
-      "char": "c000_01",
+      "dialogue": "うふふ、短気なんですね。\\まだそちらの気持ちは受け取れてないんですよ。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "モナ…モナ！\\ただじゃおかない！殺してやる！",
+      "char": "m045_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "問題ない。",
-      "char": "m136_01",
+      "dialogue": "うう、耐えろ！これはただの営業だ、営業！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "でもさ、レディって縛られてるじゃん？\\どうやって皿洗いするの？",
-      "char": "c003_01",
+      "dialogue": "あの女のせいで私の契約者が不幸になった！\\泣いてる！許さない！",
+      "char": "m045_01",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "そう言えばこの前、家事をした時も…",
+      "dialogue": "それには俺も同感だけど…\\あいつには絶対勝てないぞ、恐ろしい女なんだ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "25": {
       "type": "talk",
-      "dialogue": "鍵がある…拘束具を外す鍵が…",
-      "char": "m136_01",
-      "speaker": "same"
+      "dialogue": "ううっ…！あの女さえいなければ…！",
+      "char": "m045_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "鍵があるはずだけど…その拘束具を外す鍵が。\\どんなに探しても見つからない。",
-      "background": "bg072_f",
-      "char": "m136_00",
-      "speaker": "same",
-      "pos": "center",
-      "screen_effect": "gray"
+      "dialogue": "正直、全ての原因は\\あの男にあるような気がするが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "27": {
       "type": "talk",
-      "dialogue": "そう言えば、レディの契約者が\\そんなこと言ってたっけ。\\鍵って本当にあるのか。",
-      "background": "bg086_f",
+      "dialogue": "恋人がいながらもモナにアタックするとは…\\完全な浮気者だな、あいつ。",
       "char": "none",
-      "speaker": "none"
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "28": {
       "type": "talk",
-      "dialogue": "鍵を取り出してくれ。",
-      "char": "m136_01",
-      "speaker": "same"
+      "dialogue": "それにしても、モナもすごいな。\\あれを営業に活かすとは…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ダビは彼女の懐にある\\鍵を一つ取り出した。",
+      "dialogue": "しかもあの男の恋人まで引き込んで\\結局はブーケを作り出したし。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "お前が外してくれ。",
-      "char": "m136_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "俺が？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ああ。\\それからその鍵…これからはお前が保管してくれ。",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "失くしちゃうかもよー。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "うるさい！\\って言いたいところだけど…本当に失くすかも…\\いいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "問題ない。大切なものほど…\\信頼する友に預けるべきだ。",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ダビならともかく\\バカご主人は絶対失くすよ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ぜーったいに失くさない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ありがたい。",
-      "char": "m136_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "あ、ああ…ところで、急に近寄るのはやめてくれないか…",
+      "dialogue": "やっぱり恐ろしい女だ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "41": {
+    "31": {
+      "type": "talk",
+      "dialogue": "ご主人さま！ちょっとこっちに来てくれます？\\お客様がサインしてくださるみたいです♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "いや、これは恐ろしいってもんじゃない。\\残酷な女だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ぶっ殺す、モナ！",
+      "char": "m045_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

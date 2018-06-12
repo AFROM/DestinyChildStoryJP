@@ -2,101 +2,117 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "見つけたぞ。アガメムノン。",
-      "background": "bg058_f",
+      "dialogue": "お前、もう金輪際キッチンには近づくなよ！？",
+      "background": "bg089_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "before_effect": "enter_from_left_fast"
+      "facial": "fury"
     },
     "2": {
       "type": "talk",
-      "dialogue": "キャプテン！？",
-      "char": "c012_01",
+      "dialogue": "ふぇぇ、そこまで言う事ないじゃん！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake"
+      "facial": "cry",
+      "before_effect": "shake_weak"
     },
     "3": {
       "type": "talk",
-      "dialogue": "もういい？\\まったく、チャイルド探しなんて1人でやってよね。",
-      "char": "c235_01",
-      "speaker": "same"
+      "dialogue": "あのな、これでも優しく言ってる方だぞ！？\\インスタントラーメン作ろうとして、どうして\\家が燃えそうになるんだ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ダヌ。お前はご主人様が心配じゃないのか？\\夜中に1人で歩いてたら他の悪魔から攻撃されるかもしれないだろ？",
-      "char": "c000_01",
+      "dialogue": "ワザとじゃないもん！\\怒鳴らないでよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "sulky",
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ハッ！ウケる！\\アンタを攻撃する悪魔なんて、たかが知れてるわよ。",
-      "char": "c235_01",
+      "dialogue": "ワザとなら、怒る程度じゃすまないぞ！",
+      "char": "c000_01",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "キャプテン！\\どうして、ここが分かった？",
-      "char": "c012_01",
+      "dialogue": "とにかく、ガスレンジには絶対！絶対！\\触るなよ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ダヌが教えてくれたよ。",
-      "char": "c000_01",
+      "dialogue": "嫌だ！ヤダヤダ！触るもん！\\ラーメンも作るし、目玉焼きも作るもんね！\\だって、それフリでしょ！？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "なぜ俺を探していた？",
-      "char": "c012_01",
+      "dialogue": "振りなワケないだろ！どこのクラブだ！\\とにかく、素直に言うこと聞かないと…お、オルガ！ちょうどいいところへ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "姿が見えなかったからな。\\ところで、お前はここで何してるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "…ふう、喧しいな。\\何事だ？",
+      "char": "m057_01",
+      "speaker": "same"
     },
     "10": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c012_01",
+      "dialogue": "言うこと聞かないと、オルガに頼んで\\上空2,000mから東京見物させるぞ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "fury"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ふん、じゃあ、私が当ててあげよっか？\\汚職刑事のアンタの契約者と悪いことでも企んでたんでしょ？",
-      "char": "c235_01",
-      "speaker": "same"
+      "dialogue": "もちろん命綱なしでな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury"
     },
     "12": {
       "type": "talk",
-      "dialogue": "…お前の契約者がここから出るのを見た。",
-      "char": "c000_01",
+      "dialogue": "ヒイッ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "キャプテンも俺が悪いと思っているのか？",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "おい、私の意志は…",
+      "char": "m057_01",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そう思いたくないから、お前から説明してほしいん\\だ。",
+      "dialogue": "オルガ、すまん！\\ここは黙って言うことを聞いてくれ…！\\家を無事に守るためだ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -104,190 +120,159 @@
     },
     "15": {
       "type": "talk",
-      "dialogue": "はぁ、じれったい…\\ガツンと殴ってさっさと吐かせればいいでしょう！？",
-      "char": "c235_01",
+      "dialogue": "それでもいいのか？俺は本気だぞ？なっ、オルガ？",
+      "char": "keep",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "confused"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ダヌ…\\お前のやり方と俺のやり方は、違うんだよ…",
+      "dialogue": "やれやれ…こやつの言うとおりだ。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ふええん、ご主人ズルい！\\モナ姉さまに言いつけちゃうんだからー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "superangry",
+      "after_effect": "go_to_right_point"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "はあ…面倒事に巻き込むな。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あのな、さっきも言っただろ。\\家を守るためだって。\\お前も家がなくなったら困るだろ？\\だから相槌の協力くらいしてくれってこと。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "んで、キッチンには何の用だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "家中に漂うこの美味そうな匂い…\\それにつられて戻ってきたら、\\ダビがラーメンを作ってると聞いたので。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "えー、自分で作るのが面倒だから\\ダビに分けてもらおうと思ったってこと？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "分けてもらう？…いや、足りるわけないだろう。\\無論、丸ごといただこうと思っていた。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "…ダビは俺に感謝すべきだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "座ってな、俺が作ってやるよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "俺、こう見えて自炊歴長いからさ。\\俺の作るインスタントラーメンは美味いぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "たかがインスタントでも、作るにはコツがあるんだ。麺じゃなくてスープから入れる！これがミソ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…お前、そんな無口だっけ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "17": {
-      "type": "talk",
-      "dialogue": "うるさいわね、まったく。",
-      "char": "c235_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "アガメムノン、正直に話してくれ。\\契約者と何をしていた？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…契約者を助けていた。",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "やっぱり…\\裏金の用意でもしてた？",
-      "char": "c235_01",
-      "speaker": "same"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "違う！\\1人で犯人を追ってるアイツを助けてやっただけだ。",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "1人で犯人を…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "キャプテンと契約してから、俺の契約者も変わったんだ。今まではともかく、昔はアイツにも正義の心が\\あったからな。",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "それから、ダヌの契約者に協力を求めたらしいが、残念ながら断られたようだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ふん。\\当たり前でしょ。因果応報じゃない。",
-      "char": "c235_01",
-      "speaker": "same"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ああ、話にならんな。",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ダヌの契約者、富樫智佳(とがし ともか)は、\\アガメムノンの契約者が警部補を務める刑事課に配属された新人刑事。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "アガメムノンの契約者、\\武藤龍蔵(むとう りゅうぞう)が\\不正を働いていることを知り、告発しようとした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "でも、武藤が権力を使って脅迫したため、挫折してしまった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "あの件について、俺の契約者は後悔している。\\これ以上ダヌの契約者を脅すこともないだろう。",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ホントかな…",
-      "char": "c235_01",
-      "speaker": "same"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "キャプテンも俺の契約者を信じられないか？",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "33": {
       "type": "talk",
-      "dialogue": "お前の契約者とはそんなに話したことないし、ろくに知りもしないヤツをどうやって信じるんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "そういうお前は\\前からそんなに口やかましかったか？",
+      "char": "m057_01",
+      "speaker": "same"
     },
     "34": {
       "type": "talk",
-      "dialogue": "そうか…",
-      "char": "c012_01",
+      "dialogue": "いや…でもお前といるせいか、\\柄にもないけど、おしゃべりになった気分だね。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "35": {
       "type": "talk",
-      "dialogue": "でも、勘違いするな。\\俺はお前のことは結構知ってるつもりだ。\\だから、お前の事は信じても良いと思ってる。",
-      "char": "c000_01",
+      "dialogue": "じゃあ、普段通り静かにしていろ。\\俺のようにな。",
+      "char": "m057_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near"
     },
     "36": {
       "type": "talk",
-      "dialogue": "キャプテン。",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "そんな目で見つめるな！\\は、はずかしいだろ…",
+      "dialogue": "…キャラに合わないことしても仕方ないか。\\遠慮なくそうさせてもらうよ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "shock",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "haah"
     },
-    "38": {
-      "type": "talk",
-      "dialogue": "あ～気持ち悪い。\\男同士で見つめ合っちゃって何してんの？",
-      "char": "c235_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ダヌ。\\いつかお前も、俺の契約者を信じられる日が来るはずだ。だからその時まで、待っていてくれ。",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "ふん！\\そんな日、絶対に来ないと思うけどね。",
-      "char": "c235_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "41": {
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

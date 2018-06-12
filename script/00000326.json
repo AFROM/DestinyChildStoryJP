@@ -2,196 +2,220 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "頼んでもない魔王争奪戦に無理やり参戦させられた\\それが俺の運の尽きだったように思う。",
+      "dialogue": "へへっ、見てろよ～。\\いつかボクのセンスを褒めさせて\\足元にひれ伏させてやる！",
       "background": "bg086_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…ったく、魔王候補とやらはどれくらいいるんだよ？後から後から湧いて来て…",
+      "dialogue": "はいッ！現行犯逮捕～！",
+      "background": "bg086_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "near",
+      "facial": "angry",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "3": {
       "type": "talk",
-      "dialogue": "しかも戻ったらご丁寧に、\\サポーターが1人ずつダメ出ししてくれるし！\\…さすがに頭にくる！",
-      "char": "keep",
+      "dialogue": "な、何だよ！？いきなり！\\急に声をかけられたらビックリするだろ！",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "none",
+      "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "大体、本当に決着なんてつくのか？\\年末のレ○ード大賞も\\ビックリの候補者数みたいだけど？",
-      "char": "keep",
+      "dialogue": "コソ泥のくせにそんなこと気にするのかよ！\\いいや、とにかく、やっと捕まえたぞ！\\俺の傘がしょっちゅう無くなると思ったら…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "最近の大賞はアイドルグループが\\よくもらってるみたいだからねぇ。\\多く見えても、参加しているグループ数は\\大したことないんじゃないかなぁ。",
-      "char": "c052_01",
+      "dialogue": "…お前がそのドデカいぬいぐるみに\\突っ込んでたんだな！？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
     },
     "6": {
       "type": "talk",
-      "dialogue": "んん…でも君はー…\\あはは、授賞式の1週間前に事故に遭って\\不戦敗になるタイプだよねぇ。",
-      "char": "keep",
+      "dialogue": "タダのぬいぐるみじゃない！クマクマだ。",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "その妙にリアルな想像はやめてくれ。\\…魔王争奪戦に参加してからの\\不運の連続を思い出すと笑えない。",
+      "dialogue": "そんなことは、今はどうでもいい！とにかく、\\何で勝手に人の傘を持ってくんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ご主人さま、安心してください♥\\たとえ事故に遭って動けなくなっても\\会場までは必ずお連れしますから♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "エルメスのテディベアの口は、\\入りきらなかった傘の柄がはみ出ている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "御主人様！\\膝を抱えている場合ではありません！",
-      "char": "c002_01",
+      "dialogue": "あーあ、リスみたいにホッペを膨らませて…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "10": {
       "type": "talk",
-      "dialogue": "少しくらい、この薄情なサポーターに囲まれた\\俺のことを放っておいてくれ…",
-      "char": "c000_01",
+      "dialogue": "ちぇっ。",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sad"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "新しい魔王候補の気配を感知しました！\\相当、好戦的な候補者のようです。\\すぐに迎撃準備を！",
-      "char": "c002_01",
+      "dialogue": "これまで持ち去った傘と、今こいつに突っ込んだ傘\\全部返せ！今すぐ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "…悪魔の世界に労働基準法って\\…言うだけ無駄だな、はぁ…",
-      "char": "c000_01",
+      "dialogue": "ふん、ボクは傘なんて知らない…",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あーあ、どうしてそんなに辛くて苦しいのに\\ホイホイ言うことを聞くかなぁ？\\まったく、僕には理解できないよ♪",
-      "char": "c052_01",
+      "dialogue": "なにぃ、エルメス！\\テディベアからはみ出てる傘、\\全部俺のなんだけど！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "14": {
       "type": "talk",
-      "dialogue": "生物に等しく与えられている脳みそっていうのを\\もっと有効活用しなよー僕みたいに、さ♪",
-      "char": "keep",
+      "dialogue": "クマクマだって言ってるだろ！\\一度クマクマの中に入れたものは、\\値段が上がるまで絶対出さないって決めてるんだ。\\だから、傘は出さないよ！",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "使いこなす能力がなければ、宝の持ち腐れです。\\脳に従う体はその言いなりなので、知能が低ければ\\御主人様のようになるのは至極当然です。",
-      "char": "c002_01",
+      "dialogue": "……傘を返しなさい。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "facial": "angry",
+      "before_effect": "shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "リザはよく分かってるね～\\さすがエリートサキュバス！\\いい子いい子～…♪",
-      "char": "c052_01",
+      "dialogue": "ふ、ふーんだ。\\そんな怖い顔したって無駄だからな。",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "shake_weak"
     },
     "17": {
       "type": "talk",
-      "dialogue": "無駄口叩いてる暇があるなら、お前も手伝え！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "確かに、テディベアにいろんなものを\\入れているのは見たことあるけど。\\何かを取り出すところは一度も見たことがない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "18": {
       "type": "talk",
-      "dialogue": "それだけ大きな口を叩くんだから、\\さぞかし大きな戦力になってくれるんだろうな…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "もちろんだよ、伊達に参謀気取ってないからさぁ。\\僕のこと信じてよ？\\嘘ついたら舌引っこ抜いてくれていいよぉ。",
-      "char": "c052_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "いつも通り大口を叩いたベリトは\\緩慢そうにあたりを見回すと、\\ちょうど部屋を走り抜けようとしていた\\処容を呼び止めた。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "right",
-      "screen_effect": "dark"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "そこの風のように駆け抜けるお嬢さん。\\もう少し大きな場所を走ってみたくない？",
-      "char": "c052_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "えっ、風のように！？嬉しい！\\うんうん、もっと走りたい！",
-      "char": "c004_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "でしょ～？\\僕が特別にもっと広い場所に連れてってあげるよ。\\君の好きな隊長とも思う存分走れるように\\してあげよう♪",
-      "char": "c052_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "…押し付けたな？",
+      "dialogue": "その中に何が入ってるんだ？\\ずいぶん、いろんなものが入ってるみたいだけど、\\どうなってるんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "nonsense"
     },
-    "25": {
+    "19": {
       "type": "talk",
-      "dialogue": "わー、うれしい！隊長、早くいこ！",
-      "char": "c004_01",
-      "speaker": "same"
+      "dialogue": "こ、コレクションだよ…\\ボクの大事なコレクションが全部。",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
-    "26": {
+    "20": {
       "type": "talk",
-      "dialogue": "仕事っていうのはこうやって片付けるもんだよねぇ。さーて、僕はゆっくり見物させてもらうねぇ。",
-      "char": "c052_01",
+      "dialogue": "全部キラキラして、ボクの大事な宝物…\\見たらすっごく後悔するぞ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "27": {
+    "21": {
+      "type": "talk",
+      "dialogue": "すっごく後悔する！？\\もしかして閲覧料とか取っちゃうの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "へへっ、クマクマの中身を見たら、\\きっとびっくりするよ。",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…ったく、クマクマだかなんだか知らないけど、\\とにかく傘を返せよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "confused",
+      "before_effect": "shake",
+      "after_effect": "shake_weak"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "べー、だ！絶対ヤだもんね！",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake",
+      "after_effect": "go_to_right_jump"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal",
+      "wait": "normal"
+    },
+    "26": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

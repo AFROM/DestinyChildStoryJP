@@ -2,334 +2,302 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よし！いいカンジ！",
-      "background": "bg061_f",
-      "bgm": "19",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "いらっしゃいましたか、ヤナ様。\\またの名をっ！《闇を切り裂く黒き蝶》！！",
+      "background": "bg024_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "after_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "本当？よかったぁ。\\最近、ちょっと太ったから心配してたんだけどぉ。",
-      "char": "c233_00",
-      "speaker": "same_full"
+      "dialogue": "… \\…！",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何言ってるの？アナタのスタイルは完璧よ。\\さ、ちょっと休んでまた撮影しましょ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "痛っ！\\なんだよっ！主人を叩くなんて！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake_weak"
     },
     "4": {
       "type": "talk",
-      "dialogue": "それじゃ、\\私は静かな場所で日焼けでもしてこよっとぉ。",
-      "char": "c233_00",
-      "speaker": "same_full"
+      "dialogue": "お前が私の主人である事はわかっている。\\私はお前から始まったのだから…",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あら？",
+      "dialogue": "しかし、私がまだ《存在》する前の話を\\冗談交じりで喋る事は…",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どうもー。",
-      "char": "c000_01",
+      "dialogue": "─────到底、許す事はできない。\\お前に笑われる為に生まれたわけではないからな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "もう会えないと思ってたのにぃ。",
-      "char": "c233_00",
-      "speaker": "same_full",
+      "dialogue": "お前に束縛されることで命を得たが、\\だからと言って尊敬と権力をはき違えてはならない。",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "偶然、通りかかったんだ。",
+      "dialogue": "恥ずかしいならそう言えばいいのに…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "irritation"
     },
     "9": {
       "type": "talk",
-      "dialogue": "偶然…この海辺を？",
-      "char": "c233_00",
-      "speaker": "same_full",
+      "dialogue": "…\\お前が私を侮辱し、得るものはなんだ？",
+      "char": "c221_01",
+      "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あ、ああ…問題あるか？",
-      "char": "c000_01",
+      "dialogue": "お前の心臓は他人を侮辱することで\\動くのか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "まさかぁ。",
-      "char": "c233_00",
-      "speaker": "same_full",
+      "dialogue": "お前の血は他人を軽蔑することで\\体をめぐるのか？",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right"
     },
     "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "お前の魂は他人を冷やかすことで\\真の価値を得るのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "アルゲースの契約者は\\ご主人様に好感を持っています。\\再契約を交わすのに有利な状況です。",
-      "background": "bg086_f",
-      "char": "c002_01",
+      "dialogue": "ならばこのヤナ、お前を主人にすることを\\心から後悔しなければならない…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ただ子供扱いされてる気が…",
+      "dialogue": "すまなかった、ヤナ…\\だけど、聞いてほしいんだ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "screen_effect": "gray"
+      "facial": "sad"
     },
     "15": {
       "type": "talk",
-      "dialogue": "素敵な男性がたくさんいる中で、あえてご主人様に\\サンオイルを塗ってほしいと頼むのは",
-      "char": "c002_01",
+      "dialogue": "俺はヤナを侮辱すると…\\楽しい。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "gray"
+      "pos": "left",
+      "facial": "pretense"
     },
     "16": {
       "type": "talk",
-      "dialogue": "間違いなくご主人様に下心があるからです。",
+      "dialogue": "それに俺は、ヤナを軽蔑するのは…\\もっと楽しい！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "gray"
+      "pos": "left",
+      "facial": "smile",
+      "before_effect": "shake_weak"
     },
     "17": {
       "type": "talk",
-      "dialogue": "《あえて》って言葉、付けなきゃダメか？",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "最後に、ヤナを冷やかすのは…\\最高に楽しい！",
+      "char": "keep",
       "pos": "left",
-      "facial": "sigh",
-      "screen_effect": "gray"
+      "distance": "near",
+      "facial": "joy",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "18": {
       "type": "talk",
-      "dialogue": "とにかく、初めて出会った場所に戻って\\再契約を結びましょう。",
-      "char": "c002_01",
+      "dialogue": "くっ！わ、私はあの夜の事を後悔している。\\全身全霊で、お前に会った事を心から…",
+      "char": "c221_01",
       "speaker": "same",
       "pos": "right",
-      "screen_effect": "gray"
+      "before_effect": "shake_weak"
     },
     "19": {
       "type": "talk",
-      "dialogue": "そこで撮影しているようですから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "gray"
-    },
-    "20": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "というわけで、ここに来た…\\なんて口が裂けても言えない。",
-      "background": "bg061_f",
-      "char": "none",
-      "speaker": "none"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "撮影の時、男がわんさか見学してたな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "私は自分の仕事をこなしてるだけだよぉ。",
-      "char": "c233_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "それよりこの女…\\俺の知ってる誰かに似てる気がする…\\誰だっけ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "何をジロジロ見てるのぉ？",
-      "char": "c233_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "あ、いや。何でもない。\\今日も日焼けか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "んー、どうしよぉ。\\オイルを塗ってくれる人がいたら\\日焼けを楽しみたいんだけどぉ。",
-      "char": "c233_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "それなら心配ないだろ。あそこでこっちを見てる\\男の群れから選んで頼めばいい。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "私はアナタに塗ってほしいのにぃ。\\この前塗ってくれた時、上手だったわよぉ。",
-      "char": "c233_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "お、俺が何を…\\あの時は仕方なく塗ってやったけど\\今日はダメだ！",
+      "dialogue": "それは残念だな。俺は後悔なんてしてないのに。\\とりあえず俺は…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sulky"
     },
-    "31": {
+    "20": {
       "type": "talk",
-      "dialogue": "じゃあ、このまま帰っちゃうのぉ？\\難しいお願いでもないでしょお？",
-      "char": "c233_00",
-      "speaker": "same_full",
+      "dialogue": "第一印象が印象的だった…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c221_01",
+      "speaker": "same",
       "pos": "right"
     },
-    "32": {
+    "22": {
       "type": "talk",
-      "dialogue": "そう言うな…",
+      "dialogue": "《堕落した友人の魂を救うため》\\《自ら3つの封印門を開き地上へ来た使者》",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "《しかし使者としての力は足りず》\\《黒き悪魔へ救いを求める！》",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "や、やめろ！\\やめろ、やめろ、やめるんだ！",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "after_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "くくく、それから何だっけ。\\友を裏切り禁忌を犯した罪として…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "うぅ…！消してやる！消滅させ、駆逐して、浄化して捻って、粉砕して魂の最後の欠片まで！",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なんでそんなに怒るんだよ！\\お前みたいなチャイルドはいっぱいいるって。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "それにちょっとカッコよくないか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "カッコいい…？",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "お前は恥ずかしがってるけど、\\お前の契約者は本当に友達を助けたがっていた。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "31": {
+      "type": "talk",
+      "dialogue": "想像だとしても、誰かを救おうとする行動を\\実践したことは立派だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "その行動の結果がお前だということも\\カッコいいと思うぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
     "33": {
       "type": "talk",
-      "dialogue": "お願い、可愛いご…",
-      "char": "c233_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "か、カッコいいだなんて…",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "うわっ！我慢できん！",
+      "dialogue": "うん、カッコいい。黒いガントレットの女剣士！\\悪魔の力が宿った魔剣を片手に持ってな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "after_effect": "go_to_left_point"
+      "facial": "joy"
     },
     "35": {
       "type": "talk",
-      "dialogue": "あら、本当に行っちゃったわねぇ。仕方ない。",
-      "char": "c233_00",
-      "speaker": "same_full"
+      "dialogue": "昼は眠り、夜に羽ばたく黒き蝶…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "36": {
       "type": "talk",
-      "dialogue": "ま、いつかまた会えるわよね♥",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "やめろ！やめてくれ！",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "37": {
       "type": "talk",
-      "dialogue": "そこのステキなお兄さん、\\ちょっと手伝ってくれなぁい？",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "痛っ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "go_to_left_jump",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "38": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "はあ、はあ…あの契約者、もう二度と会うもんか！",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "契約者に会わないですって～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "toonear"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "うわああああっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "モナってそんな怖い顔してますかぁ？それとも…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "そ、それとも…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "モナのこと考えてたんですか～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "pretense"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "…やっぱり似てる。モナとアルゲースの契約者…\\うう…恐ろしい女たちめ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

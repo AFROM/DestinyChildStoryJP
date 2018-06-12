@@ -2,260 +2,246 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "この本は…",
-      "background": "bg013_f",
+      "dialogue": "モナ、最近家の中でおかしなことが頻発しています。",
+      "background": "bg089_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same"
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "この本がお気に召しましたか？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "おかしなこと？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "この本、どんな内容ですか？",
-      "char": "c000_01",
+      "dialogue": "はい。\\炊飯器の中でキノコが育ったという都市伝説は聞いたことがありますが、御主人様の炊飯器はひと味違うようです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "有名な童話ですが、ご存知ないですか？\\「青い鳥」という本です。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "まさか、タケノコでも生えていたのかしら？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "きこりの子であるチルチルとミチルが\\あるおばあさんの頼みで青い鳥を\\探しに行くというお話です。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "いいえ。\\それならば、タケノコ御飯にでもするだけです。\\…ですが炊飯器に入っていたのは食用には適さない、つつじの花でした。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "兄妹は青い鳥を探すため、\\不思議な国へ冒険しに行くんです。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "……\\それは…確かにおかしいわね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "その兄弟は青い鳥を見つけたんですか？",
-      "char": "c000_01",
+      "dialogue": "ええ。\\その上、洗面台には菜の花が散りばめられ…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "いいえ。結局青い鳥は見つけられず、\\現実の世界に戻ってきます。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "え…？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused"
     },
     "9": {
       "type": "talk",
-      "dialogue": "童話なのにバッドエンドなんですね。",
-      "char": "c000_01",
+      "dialogue": "便器はバラの花びらで詰まっていました。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そんなことはありませんよ。\\兄妹は青い鳥を見つけることは\\できませんでしたが、父親が兄妹に\\キジバトをプレゼントするんです。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "何ですって！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "11": {
       "type": "talk",
-      "dialogue": "二人はキジバトを見て、\\一番近いところにいたという事実に気づきます。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "これは、御主人様に想いを寄せた\\誰かからのプレゼント…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
     },
     "12": {
       "type": "talk",
-      "dialogue": "幸せは一番近いところにある…ってことか。\\この本、いくらですか？",
-      "char": "c000_01",
+      "dialogue": "さすがに、それはないんじゃないかしら。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "confused"
     },
     "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "…同感です。御主人様を狙った、他の悪魔達の仕業と考えた方が妥当でしょうね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ん？何、これ？童話の本？\\何、子供みたいに童話なんか読んで…",
-      "background": "bg086_f",
-      "char": "c003_01",
+      "dialogue": "ふふ、そうね。\\ちょっとご主人さまが可哀想だけど♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "pretense"
     },
     "15": {
-      "type": "talk",
-      "dialogue": "ダビ、人の部屋で何してるんだ？あ、その本！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あら、可愛いご主人さまのご登場！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "なんだよ、急にモナの真似しやがって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "退屈だったんですか？\\童話なんか読んじゃって♥",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "可愛いご主人さま、\\私が絵本を読んであげますわ～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "モナの真似はいいから、さっさと部屋から出ろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ふん！その歳で童話なんか読んじゃって…\\レベル低すぎて一緒にいれないわ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "まったく…どっちがレベル低いんだか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "23": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "24": {
+    "16": {
       "type": "talk",
-      "dialogue": "ヒュプノス、何して…いや、何の夢をみてるんだ？",
-      "background": "dungeon_bg",
-      "bgm": "17",
+      "dialogue": "フローラ、またお花咲かせてー！",
+      "background": "bg086_f",
+      "bgm": "14",
+      "char": "c018_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "いいよぉ。",
+      "char": "c120_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "フローラが来てからというもの、\\家中が花の香りでいっぱいだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "顔を合わせるたびに稽古だ特訓だって\\飛びかかってくるファイロや、\\妙なことばかり言うアポロンとは全く違う。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "この癒し…\\これこそ、チャイルドを得る喜びってやつだな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "フレイヤ、しっぽに花輪をつけてあげるねぇ。",
+      "char": "c120_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ニャンニャン！つけてニャ！",
+      "char": "c031_02",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "うひゃ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "24": {
+      "type": "talk",
+      "char": "c120_01",
+      "dialogue": "あれ？",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "none",
+      "one_ani": "none"
     },
     "25": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c142_01",
+      "dialogue": "ちょ、ちょっと待て、フローラ。\\それはフレイヤの尻尾じゃ…うひゃひゃっ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "わかった…返事はしなくていいぞ。\\オマエにプレゼントがあるんだ。",
-      "char": "c000_01",
+      "dialogue": "じっとしててぇ。",
+      "char": "c120_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "青い鳥だ。覚えてるか？\\オマエの契約者が図書館で盗もうとした本だよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "アイツ、童話の中で暮らしたいって言ってたよな。",
+      "dialogue": "く、くすぐったいんだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "irritation",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "うごいちゃメ！よぉ。",
+      "char": "c120_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "御主人様はあんな場所が弱いのですか…",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "30": {
       "type": "talk",
-      "dialogue": "でも青い鳥を探していた兄妹は結局、\\幸せは一番近いところにあるって気づいたんだ。",
-      "char": "keep",
+      "dialogue": "あら♥\\リザがご主人さまの弱いところに興味があるなんて\\知らなかったわ～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "facial": "tempt"
     },
     "31": {
       "type": "talk",
-      "dialogue": "俺は、オマエが現実の世界でも\\幸せであってほしいと願ってる。\\ま、オマエが俺を信じてくれるかは\\分からないけど…",
-      "char": "keep",
+      "dialogue": "…ちがいます。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "sigh"
     },
     "32": {
-      "type": "talk",
-      "dialogue": "とにかく、夢から覚めたら俺のところに来てくれ。\\現実の世界も思ったより悪くないってこと、\\教えてやるよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "青い…鳥…夢をみなくても青い鳥に会えるかしら？\\本当に信じてもいいの？",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

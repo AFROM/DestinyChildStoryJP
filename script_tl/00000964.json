@@ -1,11 +1,408 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "強化のレベルが高くなるほどより多くのアイテムが必要です。",
-      "background": "back_dim50",
+      "dialogue": "ええい、しぶとい輩よ…！",
+      "background": "bg185_f",
+      "bgm": "18",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "sound": "se_cleopatra_scene2",
+      "voiceid": "200208001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "さっきから壁とか床がミシミシ言ってるけど、このオベリスク、崩壊しようとしているのか…？\\クレオパトラの力が不安定ってことなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "こ、これは我慢比べか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene4",
+      "voiceid": "200208003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ねえ、ご主人！この塔、崩れはじめてる！\\あとちょっとガマンすれば、ダビたちの勝ちが確定だよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy",
+      "screen_effect": "shake_weak",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "静かにしろ！敵に聞こえるだろ！\\俺もそう考えていたところだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ふぅ…これで何とか希望は見えてきた。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208006",
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "おい、お前！さっきの話によれば、正式な魔王候補生じゃないってことだよな？最近まで封印されてたんなら、争奪戦にエントリーできるわけがないし。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "shake_weak",
+      "sound": "se_cleopatra_scene2",
+      "voiceid": "200208007",
+      "facial": "fury"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "女王様に関して言えば、そうだね。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "《女王様に関して》だと…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200208009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "それよりもアイツ、クレオパトラを女王様と呼んでるよな？クレオパトラは嫌がってるみたいだけど。",
       "char": "none",
-      "speaker": "none"
+      "speaker": "none",
+      "before_effect": "shake",
+      "screen_effect": "dark",
+      "sound": "se_cleopatra_scene4",
+      "voiceid": "200208010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…はは。しまったな。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "俺はいろいろ約束事が多い身の上でね。\\約束ってものは大事だって思うだろう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene4",
+      "voiceid": "200208012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "随分と軽い口をしているな。\\そんなことでは信用はついてこないぞ？",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "アッハッハッハッ、何をおっしゃるのですか女王様。少し不幸な誤解があっただけですよ。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene4",
+      "voiceid": "200208014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "未だ、わらわを《女王様》呼ばわりか…\\この無礼者めが。ファラオを侮辱した罪は後ほど問うてやる。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake_weak",
+      "sound": "se_cleopatra_scene2",
+      "voiceid": "200208015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ニャン…ご主人様、怒らないで…",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "さあ、ここからはわらわが相手だ！お前たちは控えておれ。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そこの少年よ。次期魔王を志す者なら、ここで逃げたりしないであろうな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene4",
+      "voiceid": "200208018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ちょ、ちょっと待て！俺は別に、魔王を目指してるわけじゃ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ほう、さっきまでの威勢はどうした？一転して逃げ腰になってしまったようだな？",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "であれば、そんな下郎にわらわの貴重な時間を取られてしまったことは、慚愧に堪えぬ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene2",
+      "voiceid": "200208021"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "下郎なんてとんでもない！\\常に真面目にやってますよ…アハハッ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208022"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "死を前に少しはやる気になったか？",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene2",
+      "voiceid": "200208023"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "さあ、思う存分あらがい、逃げ回れ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208024"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "真の太陽の威光、拝ませてやるとしよう！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208025"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "女王様、少し落ち着いてください。\\今戦ったら俺たちが不利になります。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208026"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "封印から復活したばかりで力が不安定ですし。戦いなら、俺に任せてください。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200208027"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ど、どうするの、バカご主人！どっちが出てきたところで、ちっとも勝てる予感がしないよ～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "cry",
+      "screen_effect": "shake_weak",
+      "sound": "se_cleopatra_scene2",
+      "voiceid": "200208028"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あああ～ダビ、ここでむごたらしく死んじゃうの～？うぅう～死ぬ時はモナ姉さまの腕の中でって、決めてたのに～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "cry",
+      "voiceid": "200208029"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "まったく…\\こんな時までよくもそんな色ボケした話を持ち出…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake_weak",
+      "screen_effect": "shake",
+      "sound": "se_cleopatra_scene1",
+      "voiceid": "200208030"
+    },
+    "31": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "shortest",
+      "fade_in": "shortest"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "あらま～♥\\それならダビ、もうちょっとがんばらなきゃね～",
+      "background": "bg185_f",
+      "bgm": "13",
+      "char": "c314_01",
+      "speaker": "same",
+      "before_effect": "shake_weak",
+      "screen_effect": "shake",
+      "one_ani": "attack",
+      "sound": "se_cleopatra_scene3",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "200208031"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "その時、遠くから聞こえていた崩落の音が一気に大きくなり…その場にモナが現れた！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "sound": "se_cleopatra_scene3",
+      "voiceid": "200208032"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "モナ姉さま！？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "joy",
+      "voiceid": "200208033"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "どこから出てきたんだよ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "voiceid": "200208034"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ご主人さま～\\そんなビックリした顔しないでください♥\\ちゃ～んとノックはしましたよ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "voiceid": "200208035"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ノックの返事が頂けないので手当たり次第、壊してきちゃいましたけど♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200208036"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "オベリスクの崩壊ってモナのせいか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "200208037"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "何のことですか？なかなか入れてくれないので天井から入ってきましたが…いけませんでしたか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "screen_effect": "shake_weak",
+      "sound": "se_cleopatra_scene2",
+      "voiceid": "200208038"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "オベリスクのてっぺんを素手でぶち壊したのか…ハハハハッ…今度からモナを怒らせる頻度を減らさないと家が壊れてしまう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "200208039"
+    },
+    "41": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

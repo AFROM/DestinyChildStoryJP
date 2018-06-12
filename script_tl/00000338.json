@@ -2,290 +2,353 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あら、ダーリン…\\お久しぶりですね…\\お元気でしたか…？",
-      "background": "bg087_f",
-      "bgm": "10",
-      "char": "c057_01",
+      "dialogue": "ご主人さま～\\プラカードをもうちょっと持ち上げてくださいな。",
+      "background": "bg086_f",
+      "bgm": "14",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "まあまあだな。\\お前はどうだ？ランフェイ。",
-      "char": "c051_02",
+      "dialogue": "うーん…？\\こう…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ワタシは…\\場末の小さな茶店の主人として、\\細々やっておりますよ…",
-      "char": "c057_01",
+      "dialogue": "いえ、もっと高く…\\あーん、身長差のせいか、うまくいかないですね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "<color=ff9900>《場末の茶店》</color>ねえ。ハハッ！",
-      "char": "c051_02",
+      "dialogue": "はいはい、チビで悪うございました。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sulky"
     },
     "5": {
       "type": "talk",
-      "dialogue": "噂じゃ、だいぶ羽振りがいいようだが？\\世間知らずの魔王候補生たちのおかげでなぁ。",
+      "dialogue": "ダビ、風船は割らないように吹いてね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "はあーーっ、ぷうーーー、\\はあーーっ、ぷうーーっ…\\あ、割れちゃった！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ねー、このへんちくりんな物体は何なのー！？\\脆くてすぐ割れちゃうんだけど！\\大きくしたらどうなるのー！？",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "6": {
-      "type": "talk",
-      "dialogue": "少し声が大きいですよ…\\人様に聞かれたら、誤解されてしまいます…",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "わざと意地悪をして…\\このランフェイを独り占めするつもりですか…？\\ふふ、欲張りな方は、いつか天罰を受けますよ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
     "8": {
       "type": "talk",
-      "dialogue": "天罰、ね。そりゃ楽しみだ。\\さあ、頼んでいたモノを渡してくれよ。\\まさか忘れたわけじゃないだろ？",
-      "char": "c051_02",
+      "dialogue": "モナ、壁に書かれた妙な文字は何ですか？\\M……A……RICA？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ええ、ちゃんと仕入れていますよ…\\魔界の文字が読めずに、とても苦労しました…",
-      "char": "c057_01",
+      "dialogue": "間違って貼っちゃったの。\\ご主人さまったら、綴りを知らなかったみたいで…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "10": {
       "type": "talk",
-      "dialogue": "世話をかけたな。\\慣れない場所で暮らしてると、魔界の物が\\恋しくなるんだよ。",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "これは、半分置いていく。\\後でオードに渡してやってくれ。\\あいつも、これが好きなんだ。\\それではな。マイハニー。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "遊び人…\\女たらし…\\地獄に落ちろ…",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ランフェイ。",
-      "background": "bg087_f",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "オード様、いらっしゃいませ…",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ああ。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "…\\……",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…ふふ、こうして見つめあっているだけでは、\\話が進みませんね…\\フレイ様が預けられていった物を、\\受け取りにいらしたのですね…？",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あいつが、取りに行けとしつこく言うからな。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ふふ…\\アナタもこれがお好きだと伺いました…\\どうぞ、魔界から仕入れた<color=ff9900>《水》</color>です…",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "魔界の文字で書かれた説明書が読めないので、\\特別な保管はしておりませんが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ああ、問題ない。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "…そういえば、あの<color=ff9900>《補欠の悪魔》</color>さんと、\\トラブルがあったと聞いたのですが…",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "どうだったかな。\\少なくとも、お前を楽しませるほどの\\話じゃないことは確かだ。\\じゃあな。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "…ふふふ。",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "お堅い悪魔ですね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "いらっしゃい、可愛いお客様…\\アナタが来てくれるなんて…驚きました…",
-      "background": "bg087_f",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ひぃっ！",
+      "dialogue": "仕方ないだろ。\\俺、最近学校行ってないし。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ちょっとサボりすぎですかね？\\お勉強もちゃんとしないと…\\あっ！ヘラが来る時間ですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "Hey、みんな何してるの？",
+      "char": "c043_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "うわぁぁああああ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
       "before_effect": "shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ご主人さま～！？\\もう、プラカードをしっかり持っててって\\言ったのに…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "俺が転んだせいで、ヘラの頭上に\\「Welcome to America！」と書かれた\\プラカードが落ちた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "こっちはモナが書いたから、綴りはバッチリだ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…Ouch！！\\No way、あなたたち何してるの！？",
+      "char": "c043_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ごめんなさいねぇ…でも、ヘラのために\\「アメリカにいる気分を味わう」っていうパーティなのよ♥ご主人さまが提案したの♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "提案ってほど、おおげさなもんじゃないよ。\\ただ、そういうのやったら気分転換になるかなって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "とっても控えめなお方なので♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ご主人さまがそう言うってことは、\\他の人が熱烈に「やろう！」って言うのと\\同じ意味なの♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "Stupid！こんな子供だましで喜ぶと思ったの？",
+      "char": "c043_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "パーティ中止！？\\それじゃ、この風船とかっていう変なの、\\もう作らなくていい？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…Partyは続行よ！\\ただし、大人が喜んで参加するPartyに変更！\\…朝まで騒ぎましょ！！",
+      "char": "c043_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "Hey、こんなところにいたの？\\まだみんな大騒ぎしてるわよ。",
+      "background": "bg048_f",
+      "bgm": "17",
+      "char": "c043_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "騒がしいのは苦手なんでね。\\…あ、だからって楽しくないわけじゃないからな！\\ちょっと休憩。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…あのさ、アメリカ行きは…他に方法を考えよう。\\俺も突き放しすぎた。反省してる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "みんなで考えれば何かいい方法があるよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…Ahaha！\\大丈夫よ、わたし、子供じゃないんだから。",
+      "char": "c043_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
     },
     "31": {
       "type": "talk",
-      "dialogue": "まぁ…\\人の顔を見て悲鳴を上げるなんて…\\失礼な方ですね…",
-      "char": "c057_01",
+      "dialogue": "あのね、あなたと話した後、色々考えたの。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ふん！\\失礼も何も、俺はお前と馴れ馴れしくするつもり\\なんてないぞ！",
-      "char": "c000_01",
+      "dialogue": "「この姿は莉花が望んだものだ」っていう\\あなたの言葉について色々考えた…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ふふ、可愛らしい…\\大人の女の扱いがわからなくて、\\わざと尖ったフリをしているのですね…？",
-      "char": "c057_01",
+      "dialogue": "最初は違和感ばかりで。\\わたしの体は大人になったのに、\\中身は伴っていなくて…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "でも…\\どのみち、アナタとワタシは、そういう関係…",
+      "dialogue": "でも、今はなんとなく…Americaに行きたい、\\Daddyに会いたいって思ってる限り、\\子どものままなんじゃないかな…って。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "アナタの望みを叶えるため、\\ワタシは心からご奉仕します…\\アナタは、ワタシの身も心も、\\思いのままにできるのです…",
+      "dialogue": "だから、わたしはまだ子供。\\でも、大人になったら、Americaに行きたいって\\思わなくなるんじゃないかなって…",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "へ、変なこと言うなよ！\\他のヤツが聞いたら誤解するだろ？",
+      "dialogue": "……",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "distance": "normal",
+      "facial": "idle"
     },
     "37": {
       "type": "talk",
-      "dialogue": "そんなに慌てて…\\聞かれて困ることなど、何もありませんよ…\\それで、今日のご用件は…？",
-      "char": "c057_01",
+      "dialogue": "でも、今はDaddyに会えなくて寂しいから、\\家族が欲しいって思ってるの。\\で、欲しいなら作っちゃおう、って！",
+      "char": "c043_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "toonear"
+      "pos": "right",
+      "distance": "near"
     },
     "38": {
       "type": "talk",
-      "dialogue": "用件は…って、待て！\\それ以上近づくな！\\お前、なんか怖いんだよ…！",
+      "dialogue": "え？家族を作る？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "after_effect": "go_to_left_point"
+      "facial": "confused"
     },
     "39": {
       "type": "talk",
-      "dialogue": "怖い…？\\ふふ…それは照れ隠しですか？\\やはりアナタは、可愛い人ですね…",
-      "char": "c057_01",
+      "dialogue": "Yes！家族がいないって泣いてばかりじゃ\\いつまでもChildのまま。\\成長するためにも、自分で作ればいいのよ！",
+      "char": "c043_01",
       "speaker": "same",
       "pos": "right"
     },
     "40": {
+      "type": "talk",
+      "dialogue": "おお、いい考えじゃん！ゴホン、それなら、\\魔王の末裔であるこの俺が、お前のお父さんに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "No！悪魔くんはわたしのBrother！",
+      "char": "c043_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "なんでだよ！\\パパに会いたかったんじゃないのか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "大人だからいつまでもDaddyに憧れてちゃダメよ。\\身長も胸も、どう見てもわたしのほうが\\お姉さんじゃない！",
+      "char": "c043_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "胸は関係なくない！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake"
+    },
+    "45": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

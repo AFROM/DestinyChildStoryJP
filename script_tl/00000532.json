@@ -2,227 +2,236 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いろんな意味でわしの方が若造よりいい境遇だ。",
-      "background": "dungeon_bg",
+      "dialogue": "アナタ…\\たまに来ては《魔界の生態》や《悪魔育児法》みたいなおかしな本を探しているけど…",
+      "background": "bg013_f",
       "bgm": "9",
-      "char": "m040_01",
-      "speaker": "same"
+      "char": "c209_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何をぶつぶつ文句言ってるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "あるわけないでしょ、そんな本！\\私を困らせたいのですか！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "若造は悩みを抱えているが、わしに悩みなどない。\\そういう意味だ。",
-      "char": "m040_01",
+      "dialogue": "そんなに怒るなよ。\\探せば見つかるかもしれないだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sulky"
     },
     "4": {
       "type": "talk",
-      "dialogue": "本当にお前には悩みがないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "その時は責任をもってお貸ししますわ！\\図書館では静かに！絶対静粛にです！！",
+      "char": "c209_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "5": {
       "type": "talk",
-      "dialogue": "悩みがないというのは何を聞いても\\振り回されないという意味だ。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "自分に与えられた運命もまた同じ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "急に呼び出しておいて何の話だよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "運命に抗わず水の流れのように\\全て流れに身を任せるのが…",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "私が得た悟りだが…\\今回だけはその真理に反することにした。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "悟ったとおり生きてくださいよ。",
+      "dialogue": "うるさいのはどっちだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "irritation"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "静かに！\\口数が多いですよ！",
+      "char": "c209_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "とにかく、図書館では静かにしてください。\\静粛にです！分かりましたか！？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake_weak"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "none",
+      "speaker": "none"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そろそろ入ってもよろしいですか～？",
+      "char": "none",
+      "speaker": "mona"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "静かにと言ったでしょ！  ",
+      "char": "c209_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "若造の悩みを解決する方法を教えるとしよう。",
-      "char": "m040_01",
+      "dialogue": "俺は何も言ってないぞ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "pretense"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あ…それって魔王争奪戦を\\しなくてもいい方法か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "やはりこの女には聞こえている。\\身を隠したモナの声が…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そうだ。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ヘカテーの契約者はその得体のしれない《声》を\\聞き続けてきたようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "それなら大歓迎だ。\\で、その方法って？",
-      "char": "c000_01",
+      "dialogue": "こんにちわ～♥不破文香(ふわ ふみか)さん！",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "pos": "center",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "15": {
       "type": "talk",
-      "dialogue": "諦めることだ。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "え、これはどういう…",
+      "char": "c209_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "諦めるって…何を。",
-      "char": "c000_01",
+      "dialogue": "やっぱり私の声が聞こえるみたいですね。\\どうしてそんな強い力を持っちゃったのかしら？\\かわいそうに♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "mvd": "none"
     },
     "17": {
       "type": "talk",
-      "dialogue": "魔王になりたいという欲をだ。",
-      "char": "m040_01",
+      "dialogue": "またお前はいきなり…\\けど、かわいそう？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…期待した俺がバカだった。\\ふざけてるのか？",
-      "char": "c000_01",
+      "dialogue": "はい、少なくとも彼女の周りには、\\彼女の幻聴を解決できる人がいないんですよ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "わしは真剣だ。\\お前の心の中には欲がある。",
-      "char": "m040_01",
+      "dialogue": "魔女の末裔。\\魔女の力といっても、\\使い方もわからないみたいですし。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "サキュバスたちからはその欲すらないって\\文句言われてるのに一体どういう意味だよ。",
-      "char": "c000_01",
+      "dialogue": "ここで暮らしていくなら\\人間らしく生まれ変わるほうが\\幸せかもしれませんね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "pretense"
     },
     "21": {
       "type": "talk",
-      "dialogue": "欲がないだと？よく考えてみろ。\\お前は戦いに参戦する度に最善を尽くす。",
-      "char": "m040_01",
+      "dialogue": "ああ、でも本当にもったいないです♥\\あの魔力、そのまま頂くことはできないでしょうか。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "tempt"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そりゃあ、できれば勝った方がいいし…\\それに俺のせいでチャイルドたちに\\怪我を負わせるわけにはいかないだろう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "それこそが欲だと言っている。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "カレーライスに100円追加して\\唐揚げトッピングするのも欲だって言いそうだな。",
+      "dialogue": "なんか不吉なことを考えてないか？\\変なこと考えるなよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "facial": "serious"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "わかってますよ～\\ヘタレな可愛いご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "でも、不破さんの夢に現れて、苦しめている原因は\\大体想像がつきますね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
       "facial": "sigh"
     },
     "25": {
       "type": "talk",
-      "dialogue": "立派な例えだ。若造よ、欲のない者などいない。\\お前の悩みはその欲から生まれるものだ。",
-      "char": "m040_01",
+      "dialogue": "わかるのか？\\だったらその原因を何とかすることはできないのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そんなのこじつけだ。\\アンタの言う通りなら、チャイルドたちが\\どうなろうと気にするなってことじゃないか！",
-      "char": "c000_01",
+      "dialogue": "ん～…\\モナならできると思いますけど～",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake_weak"
+      "pos": "right",
+      "facial": "pretense"
     },
     "27": {
       "type": "talk",
-      "dialogue": "アンタも俺のチャイルドだってこと分かってるのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake_weak"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "わしはお前の所有物だということか。\\それこそが欲だと言っているのだ。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ぐわっ！全く話が通じない！もういい！帰る！",
+      "dialogue": "なら、頼めないか？\\かわいそう、だし…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "after_effect": "go_to_right_point",
-      "screen_effect": "dialog_shake"
+      "facial": "idle"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "うふふ、仕方ありません。\\ご主人さまのお願いですからね！\\モナが一肌二肌、脱ぐとしますね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "お前が言うと変に聞こえるんだが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
     },
     "30": {
       "type": "talk",
-      "dialogue": "欲を捨てろ。純粋な欲ほど\\悩みは大きくなる。",
-      "char": "m040_01",
+      "dialogue": "そう聞こえてるのはご主人さまだけですよ～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "loop_ani": "attack"
+      "pos": "right",
+      "facial": "pretense"
     },
     "31": {
       "type": "curtain",

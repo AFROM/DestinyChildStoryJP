@@ -2,256 +2,299 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リユガーにも優しい心があるのかもしれない。",
-      "background": "bg086_f",
+      "dialogue": "あー、なるほど。\\君があの家の息子か。\\お兄さんが空手の選手らしいね。",
+      "background": "bg041_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "char": "none",
+      "speaker": "unknown1"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご主人さま、少年マンガと現実を\\ごちゃ混ぜにしては困ります。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…それで？",
+      "char": "c208_00",
+      "speaker": "same_full"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ちがう！俺なりにリユガーを観察して\\下した結論だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "そういや、君もこの前大会で賞をとったんだって？\\お母さんから聞いたよ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "4": {
       "type": "talk",
-      "dialogue": "毎日怒ってばかりで、何かにつけてぶっ壊すだの…\\実際にあれこれ壊したりもしたし。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "話がえらく長くてさ！\\ハハ、よっぽど自慢の息子なんだね。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "5": {
       "type": "talk",
-      "dialogue": "でも、ダビと仲良くしたり\\ヒヨコみたいなのが好きだったり…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "…母さんは僕が守る。兄さんなんて、必要ない。",
+      "char": "c208_00",
+      "speaker": "same_full"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そういうのを見ると悪いところばかりじゃ\\ない気がするんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "おいおい、そういうことを言うもんじゃないぞ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "7": {
       "type": "talk",
-      "dialogue": "よかったと言うべきですかね？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "もう、僕の方が兄さんより強いんだ。\\絶対…兄さんに勝ってみせる…",
+      "char": "c208_00",
+      "speaker": "same_full",
+      "distance": "near"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "もちろんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "自分のチャイルドへの情が多いほどいいですが…\\それを上手く使えればいいですね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "お前、俺がリユガーと上手くやっていけないと\\思ってるだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ご主人さまの言う通りなら\\リユガーは小さくて可愛いものが\\好きってことだけど…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "そ、それは…\\俺が小さくて可愛いって意味じゃなくて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "モナの目にはいつも小さくて可愛いご主人さまだから可能性はなくはないですね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ひいっ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "15": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "16": {
+    "9": {
       "type": "talk",
-      "dialogue": "リ、リユガー…",
-      "background": "bg067_f",
-      "char": "c000_01",
+      "dialogue": "ファイロ！この卑怯者め…どこに隠れた！",
+      "background": "bg086_f",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "one_ani": "attack"
     },
-    "17": {
+    "10": {
       "type": "talk",
-      "dialogue": "<b>殺す！</b>",
-      "char": "m039_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ぎゃあ！すみません！\\殺さないでくだ…、じゃなくて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "お、お前にあげたい物があって来たんだ！\\プレゼントだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ガルル…",
-      "char": "m039_01",
-      "speaker": "same"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "こ、これ…ヒヨコの…人形…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ヒ…ヨコ…",
-      "char": "m039_01",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "この前ダビが持ってきたヒヨコは\\ニワトリになって飛んで行っちゃっただろ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "お前が愛情込めて育てたのに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ガルゥゥ…",
-      "char": "m039_01",
-      "speaker": "same"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "い、いや、お前のせいってわけじゃなくて！\\こ、今回は絶対に逃げない友達を連れて来た\\ってわけで…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ヒヨコ…人形…",
-      "char": "m039_01",
-      "speaker": "same"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "うん、うん…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "かわい…",
-      "char": "m039_01",
-      "speaker": "same"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "はあ…よかった…",
+      "dialogue": "ここにはいないよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "お前が隠したのか！？",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うっわ…悪人面…\\悪魔より悪魔らしいんじゃないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "お前もあいつの味方をするんだな…\\いいぜ、一緒に片付けてやる。",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "<b>とりゃ！</b>",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
+      "loop_ani": "attack"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "うわあ！？\\部屋が黒焦げになる！\\やめろ！修繕費がバカにならんっ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ファイロ！出てこい！さもなくば\\お前の主人を炭にしてやる！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "部屋だけじゃなくて俺も炭にする気かよ！\\落ち着け、話し合おう！なっ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "嘘つきなど、信用出来るわけねーだろ！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "俺がいつ嘘ついたよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "俺をだましたじゃねーか！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "俺を強くするとか言って、\\ほんとはファイロを守るために契約したんだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "契約者だろうが悪魔だろうが…\\結局、どっちも卑怯者なんだ。",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "お前も俺を利用するだけ利用して、\\あの悪魔みたいに見捨てるんだろ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "俺がファイロの契約者と契約するとき、\\欲望の欠片が落ちた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "どうしてそんなことになったかは\\俺にもよくわからないが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "その欠片をある悪魔が拾った結果、\\フェニックスは生み出されたらしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "不完全な欲望から生まれたせいで、\\フェニックスは悪魔でさえもコントロールできない\\狂戦士と化した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "…そのせいで、結局、前の主人に捨てられたんだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "何もかも、ファイロのせいだ！！\\あいつさえ、いなければ…！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "31": {
       "type": "talk",
-      "dialogue": "ヒヨコの…人形…バカ主人から奪う…",
-      "char": "m039_01",
-      "speaker": "same"
+      "dialogue": "…悪かったよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
     },
     "32": {
       "type": "talk",
-      "dialogue": "え？い、いや、あげるんだってば！",
-      "char": "c000_01",
+      "dialogue": "何…？",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "<b>奪う！</b>",
-      "char": "m039_01",
-      "speaker": "same",
-      "screen_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "助けてくれ！！",
+      "dialogue": "全部、俺のせいだ。\\俺がファイロと契約するときに、\\もうちょっと注意してれば…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "facial": "sad"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あ、いや、\\お前が生まれたのを否定してるわけじゃないぞ？\\だけどさ、\\お前は俺のせいで嫌な思いをしてるわけだし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
     },
     "35": {
+      "type": "talk",
+      "dialogue": "…男のくせに、うるさいやつだな。",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "えっと…それは、\\謝罪なんかいらないってことか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "…別に、そういうわけじゃない。",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "39": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あんな簡単に自分の非を認めるなんて…\\呆れたヤツだな。",
+      "background": "dungeon_bg",
+      "char": "c007_01",
+      "speaker": "same"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

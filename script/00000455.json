@@ -2,235 +2,302 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "新しく来たイシュタルっていうチャイルドは、\\気のせいかもしれないけど、\\態度が冷たいような気がする。",
-      "background": "bg035_f",
-      "bgm": "31",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "…ありがとう。\\あなたの占いのおかけで、猫を助けられたわ。",
+      "background": "bg016_f",
+      "bgm": "9",
+      "char": "c127_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…フン。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "お礼なんていいよ。\\実際に猫を助けたのは君だからね。",
+      "char": "c113_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あのさ、イシュタル。\\来てからずっとそんな様子だけど\\何か気に入らないことでもあるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "でも、あなたが警告してくれたおかげで、\\事故を避けられた。",
+      "char": "c127_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…この服、どう思う。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "だから、それは俺の力じゃない。\\君は君自身の力で、未来を変えたんだ。",
+      "char": "c113_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "お前の服？んーなんていうか動きづらそうだし…\\窮屈そうだよな。脱がしてやろうか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "もう俺と会わないほうがいい。\\君のためにも、これ以上占ってあげる事は出来ない。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…！ち、近づかないで！\\…この服は…落ち着く…脱がすのは不要だ！",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "dialogue": "ファン…",
+      "char": "c127_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そ、そうなんだ…",
-      "char": "c000_01",
+      "dialogue": "まだ自分の力を信じられないなんて…\\相変わらずね、あなたって子は…",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "center",
+      "distance": "normal"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "…フン。それと、私に、1メートル以上近づくな。\\ただし…半径1メートル以上離れるのも禁止する。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ぴったり1メートル以内にいろってか？\\変な命令だな。…で？他にしてほしいことは？",
+      "dialogue": "うわっ！驚かせるなよ、バステト…\\そうやって急に出てくるの、やめてくんない？\\第一、どこから出てきてるんだ？",
+      "background": "bg086_f",
+      "bgm": "25",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…特にない。",
-      "char": "c164_01",
+      "dialogue": "試しにあなたもやってみたらどう？\\かくれんぼみたいなものよ。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "って言いながらチラチラ見られると\\気になるよ。",
+      "dialogue": "かくれんぼ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "…フン。",
-      "char": "c164_01",
+      "dialogue": "そうよ。誰にも見つからないように、身を隠すの。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "イシュタルの契約者が望んだのは、自分自身の束縛。茨の刺はイシュタルの心に備え付けられたドアにも\\絡みついてしまったみたいだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "誰にも見つからないように…か。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…気になる？",
-      "char": "c164_01",
+      "dialogue": "そんなことが出来りゃ、\\リザのお説教からも逃げられるな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ああ、すごくね。\\変なことはしないから、何でも話してくれない？",
-      "char": "c000_01",
+      "dialogue": "よし決めた。お前みたいに\\サッと消える方法を教えてくれよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…フン。",
-      "char": "c164_01",
+      "dialogue": "簡単よ。影の中に隠れればいいの。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ついに黙ってしまった。\\一体、俺にどうしろと？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "影？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…ほら。そっち、水たまり。\\こっちに避けて。",
-      "char": "c164_01",
+      "dialogue": "灯台下暗し。外敵の影に隠れれば、\\誰もあなたを見つけられないわ。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "おおっと！\\危ない危ない。泥水って落ちないからなー…\\ありがとな、イシュタル。",
+      "dialogue": "影の中に隠れろって…無理だろ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "20": {
       "type": "talk",
-      "dialogue": "…フン、今回は接近を許可する。\\その水たまりを避けたら、2メートル離れることを\\要求する。",
-      "char": "c164_01",
+      "dialogue": "お前以外に出来るとは思えないぞ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "近くなったら、倍以上離れさせるのかい！\\っていうか、今のは不可抗力だ！",
-      "char": "c000_01",
+      "dialogue": "ふ~ん…\\せっかく教えてあげたのに、不満そうね…\\別にやりたくなければそれでいいのよ。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "悪魔が近寄れば、私は困る。",
-      "char": "c164_01",
+      "dialogue": "せめて、もっと簡単な方法で頼む…\\最近、リザの小言がひどくなってきたから、\\隠れたいんだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "23": {
       "type": "talk",
-      "dialogue": "俺が近づくのがそんなに嫌なのか…！\\そこまで嫌がってたとは知らず…悪いことをしたな…",
-      "char": "c000_01",
+      "dialogue": "へえ…どんな風に、ひどくなってきたの？",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "また水たまりがある。\\こちらに避けるといい。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "いや、そしたらまたお前に近付くことになる。\\それは嫌だろうから、反対に避けるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "…こっちに避けて。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "浅い水たまりみたいだし、\\このまま突っ切ってもいけそうだな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…こっちに避けてってば。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "俺を睨む顔が怖い。\\やれやれ、ご機嫌を損ねるくらいなら黙って\\イシュタルの指示に従った方がいいだろう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…フン。もう危機は去った。\\4メートル以上離れろ。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "やっぱりかよ！\\意味がわからん！",
+      "dialogue": "前までは、1日に1度でいいから\\とにかく契約して来いって言ってたのに。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "今じゃ、1日にチャイルド5人を連れて来いって\\言うんだぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "昨日なんて、俺よりチャイルドのほうがマシだって\\言われた。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "チャイルドのほうがマシって…ひどすぎないか？\\いくら何でも言いすぎだろ！血も涙もないやつだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "あそこまで不愛想だと、誰も嫁に貰ってくれないぞ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "なんですって？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "リ、リザ？ええっと、何というかですね…\\バ、バステト、助けて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "バステトなんていませんよ。\\そんなことより御主人様…\\先の発言について詳しく説明して下さい…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…フン。",
-      "char": "c164_01",
+      "dialogue": "バ、バステトがいないっ！\\ついさっきまでそこにいたのに！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ふふ、怒られてる怒られてる。\\なんてからかい甲斐のある悪魔なのかしら。",
+      "background": "dungeon_bg",
+      "char": "c127_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "でもね、悪魔さん。\\他の奴らは、あなたをからかうだけじゃ\\気が済まないかもよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "せいぜい、気を付けることね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

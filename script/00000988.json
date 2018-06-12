@@ -2,15 +2,16 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "すべてのチャイルドが<color=\"ff9900\">戦闘不能</color>の状態になっても、\\ステージが進めないだけで、記録は残ります。",
+      "dialogue": "手動戦闘でも、通常攻撃は操作なしで自動的に行われます。",
       "background": "back_dim50",
-      "char": "none",
-      "speaker": "none"
+      "char": "c255_01",
+      "speaker": "none",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "もし負けても、<b><color=\"ff9900\">夜中の4時</color>に挑戦回数が<color=\"ff9900\">リセット</color></b>されるので\\その時にまたステージを更新して挑戦してみてくださいね♥",
-      "char": "none",
+      "dialogue": "さあ、これからノーマルスキルはご主人さまがボタンをタップすると発動されます。\\試しに<color=ff9900><b>ノーマルスキル</color></b>をタップしてみましょうか？",
+      "char": "keep",
       "speaker": "none"
     }
   }

@@ -2,266 +2,309 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はあ…",
-      "background": "bg098_f",
-      "bgm": "9",
-      "char": "c044_00",
-      "speaker": "same_full"
+      "dialogue": "モナ！",
+      "background": "bg002_f",
+      "bgm": "31",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "特に行くあてがあるわけでもないのに、\\なんでバス停にいるんだろ…",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "モニャ！",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c044_01",
+      "dialogue": "リザ！",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あの人もおれと同じなのかな。\\1時間ぐらいここにいるし…",
-      "char": "c044_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "風は西に吹いている…ならば、西に行ってみましょうか。",
-      "char": "c044_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ちょっと待て！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "きみが…なぜここに…？",
-      "char": "c044_01",
+      "dialogue": "リニャ！",
+      "char": "c031_01",
       "speaker": "same",
       "pos": "center"
     },
-    "8": {
+    "5": {
       "type": "talk",
-      "dialogue": "お前こそ、こんなとこで何してるんだ？",
+      "dialogue": "ダビ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ニャビ！",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "まーたやってたのか？喋り方講座。\\今回も効果はなさそうだなー",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "人の姿になったって言っても、\\頭は猫のままですからね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あれ、あの人…どっかで見た気がするぞ…\\どこでだっけ？",
-      "char": "c044_00",
-      "speaker": "same_full",
+      "dialogue": "そう考えると、服を着たり話すこと自体が\\相当なストレスになってるかもしれませんね…",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "パンテオンの契約者がこっちを見ている。\\ということは、今までこいつは自分の契約者と\\一緒だったのか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "もしかしたらそうかもしれないな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
     },
     "11": {
       "type": "talk",
-      "dialogue": "おい、パンテオン…あの人と何話してたんだ？\\契約者との無駄な接触は控えろって言っただろ。",
-      "char": "c000_01",
+      "dialogue": "ご主人様！いい感じニャ？",
+      "char": "c031_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ああ、あの青年がぼくの契約者なんですか？",
-      "char": "c044_01",
-      "speaker": "same"
+      "dialogue": "いい感じニャ？じゃなくて\\お前のこと心配してるんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "とぼけんな！",
-      "char": "c000_01",
+      "dialogue": "あらあら！良かったわねフレイヤ。\\ご主人さまに心配してもらって！\\モナはご主人さまの事も心配ですけど…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "facial": "pretense"
     },
     "14": {
       "type": "talk",
-      "dialogue": "本当に知らなかったんです。\\それに、心配はご無用です。\\ぼくとあの青年は、何も話してませんよ。",
-      "char": "c044_01",
-      "speaker": "same"
+      "dialogue": "ダビ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "それならいいけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "けど…それはそれで、おかしくないか？\\自分の契約者を目の前にして、\\何も話さないなんて…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "…絶対どこかで見かけたような…",
-      "char": "c044_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "うう…見てる、俺のことめっちゃ見てる。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "この際、再契約を結んでみるのはいかがでしょうか？",
-      "char": "c044_01",
-      "speaker": "same"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "再契約？うーん…やっぱりチャイルドとしては\\再契約を結んだほうがいいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "まあ、ぼくはどっちでも構いませんけど…ぼくが強くなるのも弱くなるのも、きみ次第…。",
-      "char": "c044_01",
-      "speaker": "same"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "…そう言うと思った。この悲観主義者め。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "それは、ぼくの契約者も同じだと思いますよ。\\試してみましょうか？",
-      "char": "c044_01",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "そう言うとパンテオンはいきなり契約者に向かって\\スタスタと歩き出した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "きみの願いは何ですか？",
-      "char": "c044_01",
+      "dialogue": "ニャビ！",
+      "char": "c031_01",
       "speaker": "same",
       "pos": "center"
     },
-    "26": {
+    "16": {
       "type": "talk",
-      "dialogue": "おい、いきなりそんなこと聞いたら…",
+      "dialogue": "うふふ…\\ダビはこのくらい言えればいいと思うけど？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "なんでダビはフレイヤにはそんなに好意的なんだ？\\不思議だな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "魔界の者は基本的に猫が好きなのです。\\それは本能的なもので…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "え？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake_weak",
-      "facial": "confused"
+      "facial": "nonsense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "それならダビが俺のことを嫌うのはおかしいだろ？\\俺の先祖をたどれば猫も混ざってるはずだし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "サキュバスたちの視線が俺のしっぽに突き刺さる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…なぜかはわからないが…\\ちょっと恥ずかしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "あらら♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "そんな…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そ、そんなの…認めないんだから！\\フレイヤ！このウスラトンカチが\\嘘をついてるか確認して！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ぼくの願い…？うーん…",
-      "char": "c044_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "ニャン？クンクン…\\ご主人様…猫のにおい。",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あるでしょう？宝くじを当てたいとか、\\大企業に就職したいとか…",
-      "char": "c044_01",
-      "speaker": "same"
+      "dialogue": "あ、でも！\\ニャんて言えばいいのか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
     },
     "29": {
       "type": "talk",
-      "dialogue": "願い…願い、ね…",
-      "char": "c044_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "う、ウスラトンカチにも猫の血が混ざってたなんて…ふえん…ショック…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry"
     },
     "30": {
       "type": "talk",
-      "dialogue": "…特に、ないかも…",
+      "dialogue": "フレイニャは…フレイニャは…",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ただの尻尾かと思っていましたが、\\本人から直接聞くと衝撃的ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "猫…\\猫の悪魔…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "31": {
-      "type": "talk",
-      "dialogue": "はあ…やっぱ似たモノ同士なんだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "はは、そうですか？ぼくだったら、\\こんなチャンスは無駄にはしませんけどね。",
-      "char": "c044_01",
-      "speaker": "same",
-      "pos": "center"
-    },
     "33": {
       "type": "talk",
-      "dialogue": "…ぼくだって、出来るものならそうするさ。\\でも、ぼくはものすごい不運な星のもとに\\生まれたんだ…ちょっと前にも同じような\\チャンスがあったような気がするけど…",
-      "char": "c044_00",
-      "speaker": "same_full",
+      "dialogue": "ご主人さま♥\\ダビがご主人を嫌っていたことを\\気にしていたんですか？",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "結局ふいにしてしまった。\\まあ、悪い夢でも見ただけなんだろうけど…",
+      "dialogue": "うふふ♥\\ときどき見せるそんな意外性が\\とーっても可愛いですね～♥",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "facial": "smile"
     },
     "35": {
       "type": "talk",
-      "dialogue": "…何だ？契約した時のことを言っているのか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "フレイニャは…ご主人様が…",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "36": {
       "type": "talk",
-      "dialogue": "…だそうです。どうしますか？",
-      "char": "c044_01",
-      "speaker": "same"
+      "dialogue": "モナは知っていたのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "どうするも何も…\\俺も絶好のチャンスを逃したってだけさ。\\こりゃ、サキュバスたちには内緒にしないとな。",
-      "char": "c000_01",
+      "dialogue": "もちろん♥\\主人になる悪魔の遺伝子のチェックは\\基本中の基本よ？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "38": {
+      "type": "talk",
+      "dialogue": "ダビはショック…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "cry"
+    },
+    "39": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "フレイニャは…\\ご主人様が猫だから好きなわけじゃ…ないニャ…",
+      "background": "bg095_f",
+      "char": "c031_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ニャ～",
+      "char": "c031_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

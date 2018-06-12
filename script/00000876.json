@@ -2,538 +2,234 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ガウガウ！ワンワン！",
-      "background": "bg133_f",
-      "bgm": "9",
-      "char": "c017_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "loop_ani": "attack"
+      "dialogue": "ニャン！捕まえた！",
+      "background": "bg041_f",
+      "bgm": "26",
+      "char": "c274_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "くそっ！退くぞ！",
-      "char": "none",
-      "speaker": "PUNKA"
+      "dialogue": "やはり猫はすばしっこいな。\\今回もすぐに捕まってしまった。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "どうだ！参ったかっ！",
-      "char": "none",
-      "speaker": "hero",
-      "screen_effect": "dialog_shake"
+      "dialogue": "今度はアンコが鬼だよ！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "行きましたか…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "アンクだ。",
+      "char": "m200_01",
+      "distance": "near",
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あの～…\\大丈夫ですか？",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "しかし、困ったな…\\君は早すぎて簡単には捕まえられない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そう言って俺は見知らぬ女性に手を差し伸べた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それがわかってるから、自分から鬼になると言ったのだろう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "心配してくれてありがとう。\\しかし、貴方こそ、大丈夫ですか？\\地面に寝転がって…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "こんなことでは君と楽しく遊んであげられないな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "実は、大丈夫じゃない…\\俺は、彼女に手を取ってもらい、起き上がった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ううん！バストは楽しいよ！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あ、ありがとう…",
-      "char": "c000_01",
+      "dialogue": "そうか？それならよかった。\\では、私も最善を尽くして君を捕まえるとしよう。",
+      "char": "m200_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "enter_from_left_fast"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "しかし！コムギ！\\なんでお前が襲われてるんだよ？\\店の料理に手でも出したか！？",
+      "dialogue": "覚悟しておくがいい。ハハハ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ガルル！ワンワン！",
-      "char": "c017_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "one_ani": "attack"
+      "dialogue": "それじゃ～逃げるニャン！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_fast"
     },
     "12": {
       "type": "talk",
-      "dialogue": "わかった、わかった！\\止めてっ！噛まないでっ！",
+      "dialogue": "すごい体力だな。\\あのお転婆猫を相手に何時間も…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "フフッ…貴方はこの犬の飼い主なのですか？\\この犬は勇敢ですね。3人の男に襲われて、一歩も引かないなんて…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "クレオパトラが信頼するのも分かりますね。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "助太刀に入ったはいいが、逆に足を引っ張ってしまいましたね。申し訳ありません。",
+      "dialogue": "御主人様では、10分もせずに諦めたことでしょう。",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "大丈夫だよ。コムギは俺の飼い犬じゃないし、こいつはそんなこと気になんてしてないさ。",
+      "dialogue": "俺と比べるなよ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "irritation"
     },
     "16": {
       "type": "talk",
-      "dialogue": "あんた軍人さんか？それにしては弱いな。",
-      "char": "keep",
+      "dialogue": "今回も私の負けだ。全く見つからない。\\バスト、どこに隠れている？",
+      "char": "m200_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "はっきり言いますね。",
-      "char": "c014_00",
-      "speaker": "same_full",
+      "dialogue": "もう出てきてくれ。",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あっ…そ、その別にバカにしたわけじゃ…\\ほら、俺なんて地面に寝転がってただけだし！",
-      "char": "c000_01",
+      "dialogue": "バスト！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "お互い、何もできない癖に、首を突っ込んだというわけですか。\\フッ、本当におかしいですね。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あんた、大丈夫か…？",
+      "dialogue": "どこに隠れてるんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "20": {
+      "type": "talk",
+      "dialogue": "おかしい。\\見えなくても、気配は感じるはずだが…",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "クゥ～ン。",
-      "char": "c017_00",
-      "speaker": "same_full",
-      "distance": "near"
-    }
-  },
-  "phase2": {
-    "1": {
+      "dialogue": "アイツ…迷子にでもなったか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "探してみましょう。バストにはまだ猫としての本能がだいぶ残っていますから。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "必要以上に目につく行動をしないか心配です。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "24": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "2": {
-      "type": "talk",
-      "dialogue": "ごめんなさい。私の愚痴に付き合ってもらって。",
-      "background": "bg178_f",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "この人の父親はなんでも、すごい軍人らしい。\\そんな父親に憧れて軍人になったは良いが、父親が凄すぎるせいで、過度な期待を向けられてしまった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "無茶な要求に答えようと頑張ったらしいが、結局は失敗。\\裏返った期待は失望となり、さらに彼女を苦しめた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "しかし、まさか部下からあんな仕打ちを受けるとは思いませんでした。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "酷いヤツらだな！\\あんたの気持ち、俺にも分かるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "俺は魔王になんてなりたくないのに、勝手に祭り上げられ、ちょっと失敗すると、未熟だと責められる。\\ああ、なんだかこの人に親近感が湧いてきたぞ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "しょうがないよな、できない事はできないんだから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "その通りですね…\\ですが、私はできない事をできるようになりたい。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…それはどうして？",
-      "char": "c000_01",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "失った信頼を取り戻したいからです。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "身勝手に押し付けられた物でもか？\\それに、その信頼は偽物だよ。\\みんな、あんたを通して親父さんを見てる。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "偽物…そうですね。\\でも、それは私も同じです。\\私は父上の背中を追って軍人になったんです。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "多分、軍人になりたくてなったわけじゃないんです。軍人に正しく向かい合っていなかったんです。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "私は決めましたっ！\\私は父上の背中を追うのを止めます。\\父上を超える、最高の軍人になります。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そして、父上が愛するこの国を、正義を守ります！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "親近感が湧いたなんて言ったけど、この人は俺とは全然似てないや。\\それがちょっぴり悲しくもあり、嬉しくもあるけど。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そんなこと言って大丈夫か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "決めたことです。\\何があろうと、あとは突き進みます！",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "そうか、そうだな…\\応援してるよ。あんたが立派な軍人になれることを。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ありがとうございます。\\それより…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ん？どうしたの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "貴方さえよければ、また会って…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ワンワン！",
-      "char": "c017_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "one_ani": "attack"
-    },
     "25": {
       "type": "talk",
-      "dialogue": "どうした、コムギ？",
-      "char": "c000_01",
+      "dialogue": "やっと捕まえた。\\ハハ。最後まで世話を焼かせる友だ。",
+      "background": "bg147_f",
+      "bgm": "17",
+      "char": "m200_01",
       "speaker": "same",
       "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ご主人さま～♥\\帰りが遅いと思ったら、ナンパですか～？",
-      "char": "c001_01",
+      "dialogue": "ニャン、ニャ！",
+      "char": "c274_01",
       "speaker": "same",
-      "facial": "pretense",
-      "before_effect": "enter_from_right_slow"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "モ、モナ！？どうしてここに？",
-      "char": "c000_01",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "dialogue": "猫はしつけが難しいと言うが、日当たりの良い草むらにいる猫ならなおさらだ。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ご主人さまが心配になって探しに来たんですよ？\\で～も、ナンパだなんて…\\ご主人さまも、隅に置けませんね。",
-      "char": "c001_01",
-      "facial": "sigh"
+      "dialogue": "ふにゃ～ん。くかー",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "知り合いですか？",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "眠っているのか。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "これは…！？\\とても強い欲望を感じます。",
-      "char": "c001_01",
+      "dialogue": "バストが目覚めるまで、私もここで休むとしよう。",
+      "char": "keep",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "left"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ご主人さま。流石ですね♥\\契約者を見つけて来るなんて。",
+      "dialogue": "ご主人様は今頃、腹を立てながら探し回っているだろうな。",
       "char": "keep",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "この人と、契約するつもりはないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "そうなんですか？\\ふむ…アナタお名前は？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "藤堂勝美(とうどう かつみ)と申します。貴女は？",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "私の名前はモナ。\\ここにいるご主人さまのサポーターをしております。",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ところで…\\何かお悩みでも？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "悩みですか…\\私の悩みはたった今、解決しました。\\あとは目標を叶えるのみです。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "そうですか、それはよかったですね～♥\\でも、その目標を叶えるのって、大変なんじゃないですか…？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "そうですね、一筋縄ではいかないでしょう。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "もし、その目標が簡単に叶う方法があったら、アナタはどうしますか？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "おい、やめろよ、モナ！\\俺は契約するつもりはないって言っただろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "勝美さん。こんな怪しい話に耳を傾けちゃダメだ！\\目標ってものは、誰かに叶えてもらうんじゃなくて、自分で叶えるもんだろ？",
+      "dialogue": "だが仕方ない。\\ファラオの猫をお守りすることも\\私の使命…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "簡単に目標が叶う…ですか。\\その話、詳しく聞かせてください。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "えっ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "目標達成の為、手段は選んでいられません。",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "何があろうと、あとは突き進むのみ！",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "えぇ～～！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "人の話も聞かずに、勝手に突き進んでしまうヤツには誰もついていきたくないよな…\\あの時感じた、親近感を返してくれ！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "結局、藤堂勝美の勢いに押され俺は契約をしてしまった。\\こうして、チャイルド《アストレア》が生まれた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    }
-  },
-  "phase3": {
-    "1": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "longer",
-      "fade_in": "normal"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "私の名は《アストレア》\\正義の女神の名を頂いたチャイルド…",
-      "background": "bg199_f",
-      "char": "c014_01",
-      "speaker": "same",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "正義は私が守ります！",
-      "char": "keep",
-      "speaker": "same",
+      "pos": "center",
       "distance": "near"
     },
-    "4": {
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

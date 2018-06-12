@@ -2,206 +2,194 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ホルル～！\\またバストの髪にイタズラしたでしょ！\\絶対に許さないんだから～！",
+      "dialogue": "アリル～\\荷造りは終わった？",
       "background": "bg086_f",
-      "bgm": "4",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "まったく…なんですぐ俺を疑うんだ。\\そんな疑い深いヤツに、女王様を任せておくわけにはいかないな。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "うわ～ん！トサカ野郎！ダビが隠しておいたおやつ、また勝手に食べたな～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "俺がおやつを食べた証拠がどこにある？\\何時何分何秒、地球が何回回った時～？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "も～そんなのわかんないよ！\\いっつもダビが見てない時に食べてるじゃん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ニャ！ここでバストをいじめる悪いヤツは、ホルルだけだもん！",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "も～我慢できない！\\今日という今日は許さないんだからね～！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ふん、砂漠でお前を助けてやったのは誰だと思って\\るんだ？口答えばっかりしやがって。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ほんっと、恩知らずなヤツだな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "心強い味方が増えたと思ったのですが問題児だったようですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "sigh"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ご主人さま！\\いつまであの騒ぎを放っておくつもりですか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "teach"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あのな、俺は自分の家の子供ですら言うことを聞かせられないんだぞ？\\余所の家の子供をどうやって止めろって言うんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "confused"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "そういう態度を改めていただきたいのですが。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "shy"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "どうするかを訊くのではなく、ご自分でどうにかしてください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "shy"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "はぁ…モナはご主人さまのことが心配です…\\いくら魔王候補生になって日が浅いとは言え、その開き直った態度はいかがなものかと…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "sigh"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ま～た始まった。\\いきなりやれって言われても、できるわけないだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "シャー！かかって来い！バカホルル！今日こそ\\決着を…",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak",
-      "one_ani": "attack"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "いつも口先だけじゃないか！\\お前こそ覚悟するんだな。\\生意気な猫め…",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "これはいったい…\\何を騒いでおるのだ！？",
       "bgm": "9",
-      "char": "c267_01",
+      "char": "c238_01",
       "speaker": "same",
       "pos": "right",
       "before_effect": "enter_from_right_fast",
-      "after_effect": "shake"
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "あなたじゃあるまいし。\\とっくに終わってるわ。",
+      "char": "c242_00",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ティフォンはどこかしら～？\\あの子の様子を見てきてくれない？",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "うっ、あれも私の担当？\\おーい、ティフォン！どこー？",
+      "char": "c242_00",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "朝から慌ただしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "今日はハロウィン応援団であり魔界の大先輩\\《サムハインパーティー》のメンバーが\\魔界に帰る日だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "メブ姐さんたちは、預けていた荷物を引き取って\\慌ただしく帰還準備をしていた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "それじゃあね。",
+      "background": "bg111_f",
+      "char": "c242_00",
+      "speaker": "same"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "アリルは一度も振り返らずに\\「ぽん」という音と共に姿を消した。",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "で？\\ティフォン、あんたはホントに残るの？",
+      "char": "c238_01",
+      "speaker": "none"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うん。 僕は人間界は初めてだから…\\ もう少し見て行きたいんだ。",
+      "char": "c237_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "支度ができたら呼んで。見送るから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふんだ、まるで子供相手の言い方ね。\\…まあ、そういう扱い嫌いじゃないけど。\\じゃ、後でね。",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "はぁ～やっと支度が終わったわ！\\久しぶりに動いたから、体中がバッキバキ…",
+      "background": "bg133_f",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "メブ姐さんはにっこり笑って\\別れの挨拶をするように手を差し出した。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "right",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "メ、メブ姐さん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あっ？あらあら～もしかして…",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ニャ～！ご主人様～！\\ホルルが…ホルルが～！",
-      "char": "c274_01",
+      "dialogue": "あんた、泣いてるの？\\ねえ、泣いてるの？",
+      "char": "c238_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "21": {
       "type": "talk",
-      "dialogue": "バスト、座れ！ホルス、そなたもだ。\\眠っている間に礼儀も忘れてしまったのか？",
-      "char": "c267_01",
+      "dialogue": "ち、違います…\\これは泣いてるんじゃなくて…\\目にゴミが入ったんだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "unfair"
     },
     "22": {
       "type": "talk",
-      "dialogue": "くそ、バストめ…\\結局、お前のせいで俺まで！",
-      "char": "c266_01",
+      "dialogue": "あははは！実は泣き虫だったり？\\チョーダサい！",
+      "char": "c238_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "sulky",
+      "before_effect": "shake_weak"
     },
     "23": {
       "type": "talk",
-      "dialogue": "バストだって怒られたもん。\\バカ～！バカホルル～！",
-      "char": "c274_01",
+      "dialogue": "…あのね、坊や。\\悪魔に生まれて悪魔として生きていくのに、\\人間みたいに、感情に振り回されると損するわよ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ホルス…そなたのその態度がバストを挑発していると気付いておらぬわけではなかろう。",
-      "char": "c267_01",
+      "dialogue": "これはねえ、ハロウィンの夜が見せる一夜限りのパーティーなの。みんなそうやって割り切っている。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ほどほどにせぬと、いつか本当に血を見ることになるぞ。",
+      "dialogue": "感情的になるのはやめなさい。浮かれたパーティーは夜が明ければ終わるものなの。終わればただの他人になる…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "それとも、それがそなたの望みか？\\なら、わらわに直接訴えればよい。",
+      "dialogue": "あんたみたいに抱き抱えているものが多いと、\\失うものも多いわよ。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
@@ -209,76 +197,64 @@
     },
     "27": {
       "type": "talk",
-      "dialogue": "しっかり聞き入れてやるぞ？\\…そなたには、日増しに失望が募るばかりだからな。",
+      "dialogue": "あんたは弱点が多すぎて、魔王になるのは\\大変だわね。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ぐっ…！！",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "こっ…怖ぁ…",
+      "dialogue": "魔王なんて、なる気ないです…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake_weak"
+      "facial": "irritation"
     },
-    "30": {
+    "29": {
       "type": "talk",
-      "dialogue": "あら～なんて素敵なんでしょう♥\\胸がドキドキするわね～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "tempt"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ほう？\\ならば、ついにわらわの眷属になる決心がついたか？",
-      "char": "c267_01",
+      "dialogue": "ふん、その割にはけっこう頑張ってるじゃない。",
+      "char": "c238_01",
       "speaker": "same",
       "pos": "right"
     },
+    "30": {
+      "type": "talk",
+      "dialogue": "ま、いいわ。あんたがもし魔王になったら\\あたしがお祝いに歌って踊って、パーティーを\\盛り上げてあげる！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "天使も悪魔も、楽しい時には歌を歌うのよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
     "32": {
       "type": "talk",
-      "dialogue": "うふふ、残念です♥\\それとこれとは別の話なんですよね～♥",
-      "char": "c001_01",
+      "dialogue": "そんな日が本当に来るかわからないけど…\\期待してます…",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "smile"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ですが…現代に生まれるチャイルドにはない凄まじいまでの威厳です。",
-      "char": "c002_01",
+      "dialogue": "そうね。 それじゃ、次のお祭りで会いましょ！\\あたしがいれば、きっと楽しいわよ！",
+      "char": "c238_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "center",
+      "distance": "near"
     },
     "34": {
-      "type": "talk",
-      "dialogue": "これはお手本にするべきですよ、御主人様。",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "smile"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "絶対、無理…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "serious"
-    },
-    "36": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "normal",
+      "fade_out": "longest",
       "wait": "normal",
-      "fade_in": "normal"
+      "fade_in": "longer"
     }
   }
 }

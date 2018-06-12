@@ -2,258 +2,290 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "キャンディーおいしー！",
-      "background": "bg089_f",
-      "bgm": "20",
+      "dialogue": "うわ～！雪だ！",
+      "background": "bg034_f",
+      "bgm": "14",
       "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "smile"
+      "distance": "normal",
+      "facial": "joy",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そんなに甘い物ばっか食べてると歯が腐るぞ。",
-      "char": "c000_01",
+      "dialogue": "都心で雪は珍しいですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ふん！ダビはそんなのちっとも怖くないよ！",
+      "dialogue": "そう言えば、この間の旅行たのしかったね！\\モナ姉さまっ！",
       "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "4": {
       "type": "talk",
-      "dialogue": "本当に恐ろしいのが何か知ってるか？\\それはな、人間界の歯医者さ。",
-      "char": "c000_01",
+      "dialogue": "ええ♥途中でご主人さまが\\遭難しちゃったアクシデントはありましたけど…",
+      "char": "c001_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "serious"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "5": {
       "type": "talk",
-      "dialogue": "はい…しゃ…？",
-      "char": "c003_01",
+      "dialogue": "御主人様にかまくら作りの才能があるとは、\\知りませんでした。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうさ。火花が散る尖った拷問器具で\\お前の歯をひとつずつ削っていくんだ…",
-      "char": "c000_01",
+      "dialogue": "ご主人、雪だるまになる才能も開花させてたよね～！",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "toonear",
-      "facial": "shock"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ひええええ！",
-      "char": "c003_01",
+      "dialogue": "お前ら！\\ご主人様をイジメて楽しいか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "shake",
+      "after_effect": "none"
     },
     "8": {
       "type": "talk",
-      "dialogue": "心配しないで、ダビ。歯医者さんに行くには\\沢山のお金が必要だから、ご主人さまには無理よ♥",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "まったく…\\これなら遭難してた方がまだマシだったな。\\綺麗な舞や歌も聞けたしな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そうなんだ！\\へへ、よかった。",
-      "char": "c003_01",
+      "dialogue": "あら～？\\なにやらロマンスの香りがしますね～♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "smile"
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "10": {
       "type": "talk",
-      "dialogue": "はいはい、よかったね。",
-      "char": "c000_01",
+      "dialogue": "えーっ、トサカ野郎のくせにナマイキー！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ところでそのキャンディーどうしたんだ？\\まさか、バイト先のコンビニでこっそり\\盗んだわけじゃ…？",
-      "char": "keep",
+      "dialogue": "茶化すなって。遭難した所を女の子に助けられて、\\人生相談に乗っただけだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "12": {
       "type": "talk",
-      "dialogue": "違う！ダビはそんなことしないもんっ！",
-      "char": "c003_01",
+      "dialogue": "歌や踊りが上手い子でさ。\\あの時だけは日々の疲れから解放されたね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "13": {
       "type": "talk",
-      "dialogue": "じゃあ、どうしたんだよ！",
-      "char": "c000_01",
+      "dialogue": "おかしいですね…\\まるで普段から、ずいぶん苦労されているような\\言い方です。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "14": {
       "type": "talk",
-      "dialogue": "銀行強盗のお姉さん！",
-      "char": "c003_01",
+      "dialogue": "こんなに尽くしてくれるサキュバスたちに囲まれて\\いるのに、何のご不満があるんでしょうね～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "15": {
       "type": "talk",
-      "dialogue": "え？",
+      "dialogue": "さっき自分で言ったセリフ思い出してみろよ？\\お前たち。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "16": {
       "type": "talk",
-      "dialogue": "まさか…リベンジガールの契約者？",
+      "dialogue": "はぁ…\\何だかまた、あの子の歌が聞きたくなってきた。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "そんなに良かったんですか？その歌は…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "18": {
       "type": "talk",
-      "dialogue": "はあ、はあ…もう遅かったか？\\はあ…死ぬほど走ったのに…",
-      "background": "bg098_f",
-      "bgm": "24",
+      "dialogue": "ああ、なんていうのかな、心が暖まるっていうか…\\そういえば、もっと沢山の人に歌を聞いてほしいって言ってたな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "shy",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ここで何をしている？また私の邪魔を…",
-      "char": "m145_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "なら、街とかで歌えばいいんじゃん？\\路上ライブとか？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そうだ！邪魔しに来たんだよ！\\今度こそ現行犯逮捕のつもりが逃がしてしまった。",
+      "dialogue": "彼女の歌はな、そんな安っぽい歌じゃないんだよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "21": {
       "type": "talk",
-      "dialogue": "お前、契約者と何を企んでる？\\契約者がなぜ俺の住む町に来たんだ。",
-      "char": "keep",
+      "dialogue": "心のこもった歌であれば、どこで歌おうとも問題ないのでは？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お前と契約者を再契約させるためだ。\\再契約するのが嫌なのか？",
-      "char": "m145_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "まぁ、そうなんだけど…\\彼女にはちゃんとした舞台を用意してあげたいって\\いうか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "23": {
       "type": "talk",
-      "dialogue": "面白い悪魔だな。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "あらまあ、ご主人さまがこんなに夢中になるなんて。どんな歌なのか、私もちょっと気になりますね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "この前もそうだし、何かあるんだろう？\\俺に嘘ついてることがあるなら今すぐ言ってくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "fade_in": "shorter"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "そうすれば許してやる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "bg034_f",
+      "wait": "shorter",
+      "fade_in": "shorter"
     },
     "26": {
       "type": "talk",
-      "dialogue": "誰が誰を許すって？",
-      "char": "m145_01",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "…",
+      "char": "none",
+      "speaker": "none"
     },
     "27": {
       "type": "talk",
-      "dialogue": "私は誰からの許しも求めていない。\\私が求めるものはアイツの破滅のみ！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "見つけた…\\私に勇気をくれた人。",
+      "char": "c359_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_right_fast",
+      "after_effect": "none"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "誰にも邪魔はさせない！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "うっ…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "おい！リベンジガール！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "はあ…服が汚れたよ…リザに怒られるな…\\それよりアイツの願いって…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…何だっけ。",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "irritation",
-      "distance": "near"
-    },
-    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

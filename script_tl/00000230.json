@@ -2,403 +2,70 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様と私は赤い糸で結ばれているわ。\\赤い糸ってわかる？",
-      "background": "dungeon_bg",
-      "bgm": "20",
-      "char": "c038_01",
+      "dialogue": "拠点防衛もサポーターの重要な任務ですか…\\なるほど。",
+      "background": "bg119_f",
+      "bgm": "2",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108702014"
     },
     "2": {
       "type": "talk",
-      "dialogue": "運命の人って意味だろ。",
-      "char": "c008_01",
+      "dialogue": "子供を騙すスキルにどんどん磨きをかけているようですね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "108702015"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうよ。だからご主人様は\\渡さないわ！",
-      "char": "c038_01",
+      "dialogue": "ああいうピュアさを見ると、たまらなく\\なっちゃうの♥\\まだまだイジリ足りない気分よ～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "108702016"
     },
     "4": {
       "type": "talk",
-      "dialogue": "はぁ？",
-      "char": "c008_01",
+      "dialogue": "それじゃ、最高のエンターテイメント、悪魔たちの青春群像劇を見に行くとしましょうか～♥",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "tempt",
+      "voiceid": "108702017"
     },
     "5": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "他人事のように言いますね…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "108702018"
     },
     "6": {
       "type": "talk",
-      "dialogue": "アナタがフリーガ？",
-      "background": "dungeon_bg",
-      "char": "c015_01",
+      "dialogue": "ええ、そうよ。\\だって他人事でしょ～違うの？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "108702019"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そういうお前は？",
-      "char": "c008_01",
+      "dialogue": "なるほど。確かにそうかもしれません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108702020"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "私はヘレナよ。",
-      "char": "c015_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "何か用か？",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "アナタ、目障りなのよね。",
-      "char": "c015_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "…はぁ？",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "特にアナタがご主人様と一緒にいると\\不愉快で仕方ないの。",
-      "char": "c015_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "なんだ、お前もか？",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "他にも誰か来たの？",
-      "char": "c015_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "カリプソとかいう奴が…",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "カリプソですって！",
-      "char": "c015_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point",
-      "screen_effect": "dialog_shake"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "まったく…どいつもこいつも。",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "よう、フリーガ。調子はどうだ？",
-      "background": "dungeon_bg",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あっち行け。",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "会った瞬間、それかよ！？\\そんなに俺のことが嫌いなのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "別に嫌いなわけじゃないけど…\\まあ、予防っていうか…とにかく近寄るな。",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "どういうことだ？\\俺にも分かるように説明してくれよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "説明も何も…こんなガキのどこがいいんだよ…\\お前、実家は裕福なのか？",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "はぁ？何だって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "いや。\\悪魔のことだから、\\何かおかしな薬でも飲ませたのかも…",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "待て、待て。何のことだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "お前のことが好きだっていう奴がやってきてな。",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ご主人様に近寄るなって\\脅してきたんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "なんだそりゃ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "思ったよりモテるんだな。羨ましい。",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "羨ましいって…ははは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "まあ、私はお前が\\誰と付き合おうと関係ないけど。",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "厄介事は起こすなよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "厄介事？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "恋敵同士でのイザコザだよ。\\そんなのもうコリゴリだ。",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "どうせ愛なんてホルモン作用の一種。\\時間が過ぎたら顔も見たくなくなる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "そんなこと言ったら俺に恋人がいるって\\勘違いされるだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "違うのか？",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "そんなわけないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "まあ、それはいいんだ。\\とにかく、あいつらに伝えてくれ。",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "男を追いかけるヒマがあるなら\\自分磨きでもしろってな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "へぇ、こいつの口から\\「自分磨き」なんて言葉が出るなんて。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "例えば？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "ジョギングしたり、縄跳びしたり…",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "それが自分磨き…？\\普通はエステとか美容とかだろ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "エステ？\\エステに行けば筋肉がつくのか？\\これだから女は…",
-      "char": "c008_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "お前も自分が女だってこと自覚しろよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "serious",
-      "screen_effect": "dialog_shake"
-    },
-    "49": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

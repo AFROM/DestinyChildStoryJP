@@ -1,11 +1,336 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longest",
+      "wait": "normal",
+      "fade_in": "longer"
+    },
+    "2": {
       "type": "talk",
-      "dialogue": "チャイルドに武器を装備させ、もっと強くしてみてください。",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none"
+      "dialogue": "このまま惨めに死ぬのかい？\\太陽の娘も大したことないね。",
+      "background": "bg185_f",
+      "bgm": "25",
+      "char": "c266_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200200001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "神のように振る舞っても人は人。\\よし、君にもう一度チャンスをあげよう！",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200200002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "チャンスを、わらわに…？",
+      "char": "c267_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200200003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ああ、そうさ。\\失態を演じた女王様に、もう一度玉座へのチャンスを与えようじゃないか。",
+      "char": "c266_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200200004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "選択権は、君が持っている…",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200200005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "俺の手を取るか、それとも歴史の中に消えゆく\\《没落の女王》となるかは君の選択次第だ。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200200006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…よかろう。お主がどんな存在でも構わない。\\再度機会を与えられるのなら、わらわは必ず玉座を掴み取る！",
+      "char": "c267_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200200007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "決して沈まぬ太陽の王…\\それこそがわらわのあるべき姿よ。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200200008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "太陽の王、か…\\フッハッハッハッハッ！",
+      "char": "c266_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "distance": "normal",
+      "voiceid": "200200009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "一時は神だった君を尊重して、\\名はそのまま残してあげよう。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200200010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "今から君は私の物だ。\\君の魂を捧げろ！クレオパトラ！！",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "center",
+      "distance": "near",
+      "one_ani": "attack",
+      "voiceid": "200200011"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "9",
+      "fade_out": "longer",
+      "wait": "longer",
+      "fade_in": "longer"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "平和な日常。\\変わることのない日々。",
+      "background": "bg098_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "200200012"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦に半強制的に参加させられて、\\日々、命がすり減っていこうとも…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "200200013"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "平常心さえ保っていれば、別にどうってことは――",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "200200014"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "25",
+      "fade_out": "shorter",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "何だ、あの塔みたいな建物は…？\\ハハッ、ついに俺も過労と心労が祟りすぎて、幻覚が見え始めたか…？",
+      "background": "bg183_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200200015"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あら、ステキな《オベリスク》が建てられてるじゃないですか♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200200016"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "今ではもう、わずかな文献にしか残っていない、\\太古の宣戦布告の方法です。\\あれを相手の目につくところに建てることが、挑戦状になるわけですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "200200017"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "な、何だそりゃ…？\\映画の宣伝か何かの間違いじゃないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak",
+      "voiceid": "200200018"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "そうでしょうか？\\それにしてはとても《明確で攻撃的な文言》が書かれていますが…どれどれ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200200019"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "おい！\\読まなくていいって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200200020"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "《現世に生きる闇の眷属たちよ、審判の日は訪れた》",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "200200021"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "《四囲にうごめく有象無象よ、この偉大なるファラオを畏れよ。我が再臨の日を震えて待つがよい》",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "200200022"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あらあら、困っちゃいましたね～\\これは古代の悪魔たちが使っていた言語で間違いないですよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "200200023"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "つ、つまり、それを書いたヤツが近々蘇ろうと\\してるってことなのか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak",
+      "voiceid": "200200024"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "オベリスクを建て、ファラオと名乗る悪魔。\\すっごい悪魔が来たみたいですね♥\\ご主人さまの相手として不足はないです。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200200025"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "モナ、ワクワクしてきました！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "twinkle",
+      "voiceid": "200200026"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ひ、ひぃっ、死にたくない！今のうちにズラかろう！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200200027"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "まーた、相手の姿も見ないうちから、そんなことを言い出すんですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200200028",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "しかし、間違った選択とも言い切れません。\\情報のない《古代の悪魔》を相手にするのは少々厄介です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200200029"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "だ、だろ？\\リザもたまには、いいこと言うじゃんか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "joy",
+      "voiceid": "200200030"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "はあ。たまには…ですか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy",
+      "voiceid": "200200031"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "自分に都合の良い話はちゃんと聞いてるんですから…モナは止めませんよ？\\命の限り、必死で逃げてくださ～い♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200200032"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ただ1つだけ、忠告しておきます。\\こんな露骨な挑戦状を送る相手が大人しく引き下がるとは思えませんよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "200200033"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "はっはー！なめるなよー！\\こっちだってな、逃げは得意中の得意なのさ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "shake",
+      "voiceid": "200200034"
+    },
+    "38": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

@@ -2,209 +2,129 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "しっかり隠れなさい。お尻が丸見えよ～",
-      "background": "bg245_f",
-      "bgm": "18",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "…我を無視するとは何事だ。",
+      "background": "bg107_f",
+      "bgm": "9",
+      "char": "m199_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "アハハハハッ…フフフフッ…\\かくれんぼなんて何年ぶりかしら。契約者の記憶では12歳の頃かな？",
-      "char": "keep",
+      "dialogue": "はあ…？いきなり何だってんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "おい、アシュトレス！そんなに暴れるなよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "dialogue": "我が知らないとでも思っていたのか。\\前回の戦闘時、我を置いて行っただろう。\\…不愉快だ。",
+      "char": "m199_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "どうしてですか？",
-      "char": "c194_01",
+      "dialogue": "おい待て。それってつまり…\\毎度毎度お前を戦いに連れてけってのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ど、どうしてって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "然り！むしろ我以外の者など塵芥も同然！\\我1人で全て片付けてやろうぞ！",
+      "char": "m199_01",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "俺のチャイルドには、基本的に危ない目にはあってほしくない。それが俺の正直な気持ちだけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "いや、1人で全部って、何言ってんだお前…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "7": {
       "type": "talk",
-      "dialogue": "アシュトレスに限っては、何かが違う。そんな感じがする。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "うぬぼれんじゃねーぞ。戦場ではみんな一生懸命、\\力を合わせて戦ってるんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "8": {
       "type": "talk",
-      "dialogue": "俺はアシュトレスに何が言いたいんだ？\\《そんなに暴れたら危ない》とか《おとなしく主人の言うことを聞け》とか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それに引き換え、お前は戦いの最中でも俺を\\無視するわ、見下すわ、疑り深いわ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "でも、こんな言葉はアイツには伝わらないだろう。\\何か決定的に噛み合っていない。すごく危険なそんな感じだ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ホント、協調性の欠片もねえのな！\\二度と戦闘なんかに連れてくもんか！\\1人で飯食って寝てろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "はぁ、こんな面倒なことになるなんて想定外だ。\\あんなヤツだなんて想像もしてなかった…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "…！？この無礼者め…",
+      "char": "m199_01",
+      "speaker": "same"
     },
     "11": {
       "type": "talk",
-      "dialogue": "全部、ご主人のせいじゃない！\\相談無しに勝手に契約したんだしね！",
-      "char": "c003_01",
+      "dialogue": "無礼者めが！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "idle"
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "12": {
       "type": "talk",
-      "dialogue": "いや、俺はただ…\\アシュトレスの契約者がどれだけ無謀なことをしたのか、教えてやりたくて。",
+      "dialogue": "うるせえ！そんなに戦いたかったら、\\ちょっとは俺の言うことを聞けよ！",
       "char": "c000_01",
+      "speaker": "same",
       "pos": "left",
-      "facial": "sad",
-      "speaker": "same"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "まさか、こんなことになるなんて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "何故お前の言うことを聞かなければならない？\\我は全ての戦場で、お前を勝利に導ける力を\\持っている！",
+      "char": "m199_01",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "優しいのですね。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "それは何故か？我が最強だからだ！\\我は最強すぎるが故に、誰の指図も受けんのだ！",
+      "char": "keep",
+      "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "フフフッ。さぁご主人様、このアシュトレスが敵を見つけましたよ。あなたの命を付け狙う悪魔があそこにいます。いかがいたしましょうか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "首を斬れば即死でしょう。\\でも、それでは、あまり楽しめませんね～？\\とりあえず舌を切って黙らせてやりましょうか？\\何なりとお申し付けください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ほらね…\\やっぱりコイツからは危険なオーラを感じる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "お前がそうしたいだけだろ？\\そんなこと言ってないで、そろそろ撤収しよう。\\人目につきそうだし、このままじゃ大きな戦いになるぞ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "screen_effect": "dialog_shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "そうですか…つまんない。\\まぁ、それが魔王争奪戦のルールなのですね。\\では、ひとつだけ質問があります。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "魔王争奪戦は最も邪悪な悪魔を選ぶ試験ですよね？\\他の悪魔を排除するほど有利になるのでは？\\ご主人様がそれをしないのは何故ですか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "魔王争奪戦は最も邪悪な悪魔を選ぶ試験じゃない。\\最も強い悪魔を決めるための戦いだ。\\そして俺は最も強い悪魔じゃ…",
+      "dialogue": "はいはい最強最強（笑）\\もー、お前なんか知らん。勝手にしろよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "22": {
+    "16": {
       "type": "talk",
-      "dialogue": "あっ…このまま《俺は最も強い悪魔じゃない》\\なんて言ったらアシュトレスに弱みを見せることに？俺はそこまで言いかけて黙った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "なるほど、最も強い悪魔を選ぶ戦いですか…\\それならなおのこと、戦いを避けて通るわけにはいきませんよね？\\私のご主人様が弱腰なんて我慢なりません。",
-      "char": "c194_01",
+      "dialogue": "おお、我の自由で構わんと！？であれば良し！\\では諸君、武器を持って我に従え！\\今より戦場へ出立だ～っ！",
+      "char": "m199_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
-    "24": {
+    "17": {
       "type": "talk",
-      "dialogue": "ご主人様も敵も悪魔ですから、悪魔に悪いことをしても罪にはなりませんよね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…",
+      "dialogue": "あ、あれっ？なんかコイツ、ナチュラルに\\俺の役割取ろうとしてね…？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "superangry"
+      "pos": "left"
     },
-    "26": {
-      "type": "talk",
-      "dialogue": "フフフッ、黙るということはそうなんですね？\\ま、かまいません。ゆっくり遊びましょう。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "時間はたっぷりありますから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
+    "18": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "normal",
+      "bgm": "keep",
       "wait": "normal",
       "fade_in": "normal"
     }

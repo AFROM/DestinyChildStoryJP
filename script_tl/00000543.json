@@ -2,39 +2,38 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "久しぶりに、とても嬉しい知らせがあります。\\あ、御主人様には悪い知らせですが。",
-      "background": "bg086_f",
+      "dialogue": "くうっ…",
+      "background": "bg089_f",
       "bgm": "20",
-      "char": "c002_01",
-      "speaker": "same"
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "えっ…\\何それ？脅すなよ…",
-      "char": "c000_01",
+      "dialogue": "ご主人さま、どうしてそんなにお疲れなんですか？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ご主人には悪い知らせ？\\なになにー！？\\リザ、はーやーくー！",
-      "char": "c003_01",
+      "dialogue": "わざと分からないフリをしてるのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ふふっ…\\モナたちにとって良い知らせなら\\ご主人さまもきっと喜ぶはずよ♥",
+      "dialogue": "えー？モナには分かりませんが？",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "tempt"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "不安だ…\\ひじょ～に不安だ…",
+      "dialogue": "全部お前のせいだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -42,292 +41,147 @@
     },
     "6": {
       "type": "talk",
-      "dialogue": "これです。",
-      "char": "c002_01",
+      "dialogue": "トカゲと再契約をしろっていうからしたけど…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "リザが取り出したのは\\少し分厚めの<color=ff9900>白い封筒</color>だった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おかげでトイレにトカゲが\\住み着いちゃったじゃないか！\\最悪だよ俺の人生…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あっそれ！俺のバイト代…！",
-      "char": "c000_01",
+      "dialogue": "人間界は厳しすぎる…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "facial": "sigh"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ええ、そうです。少し前に、職場から頂いた\\御主人様のバイト代です。",
-      "char": "c002_01",
+      "dialogue": "グワアア！",
+      "char": "m004_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "10": {
       "type": "talk",
-      "dialogue": "おい、リザ！なんでそれを…！",
+      "dialogue": "うわーっ！\\びっくりして心臓が止まるかと思っただろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "この家の財政は完璧に把握していますから。\\ヘソクリの場所も知ってますよ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "俺の契約者を悪く言うな、\\この臭い悪魔め！",
+      "char": "m004_01",
+      "speaker": "same"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ピザ頼もうよ！ピザ食べたい！\\あとね、フライドチキンと！あとあと～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ダメ！絶対ダメ！返せよ、リザ！\\それは俺の血と涙と汗の賜物なんだぞ！？",
+      "dialogue": "俺は悪魔だけど別に臭くはないぞ！\\毎日ちゃんとシャワーだって浴びてるし、\\特に足はキレイに洗ってる！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "facial": "confused"
     },
-    "14": {
+    "13": {
       "type": "talk",
-      "dialogue": "またまたぁ、嬉しいくせに～。\\「うちのサキュバスたちにご馳走してあげないとな」って、おっしゃってたじゃないですか♥",
+      "dialogue": "一度くらいはありますよね？\\足を洗うの忘れて寝ることくらい～",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "毎日ちゃんと洗ってるっての！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
     "15": {
       "type": "talk",
-      "dialogue": "勝手に話を作んなよ！\\まったく…信用出来るやつがひとりもいない…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry",
-      "screen_effect": "dialog_shake"
+      "dialogue": "恐怖の足の臭い！その足で契約者を苦しめている！",
+      "char": "m004_01",
+      "speaker": "same"
     },
     "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "17": {
       "type": "talk",
-      "dialogue": "ふう…\\なんとか逃げて来たぞ…",
-      "background": "bg178_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "良かった、俺のヘソクリちゃんは無事だな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ああ…死神さん。\\ついに私を迎えに来てくれたんですね…？",
-      "char": "m051_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あ、あんたは…\\ここで何してんだ？",
+      "dialogue": "だから、なんでトイレにいるんだよ！\\普通トイレにトカゲが住み着くなんて\\思いもしないだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "17": {
+      "type": "talk",
+      "dialogue": "俺だってトカゲなんか\\踏みつぶしたくはないんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あの時のことを思い出すと今でもゾッとする…\\あのヌルっとした感触…それにあの質感…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ううう…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "グワアア！ゾッとするのはこっちだ！\\契約者の復讐する！必ず！",
+      "char": "m004_01",
+      "speaker": "same",
+      "distance": "near"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "私の祈りが届いたんですね…よかった。\\今日こそは、私を連れて行ってください。",
-      "char": "m051_00",
-      "speaker": "same_full",
+      "dialogue": "ほーんとによかったですね。\\トイレにトカゲが住み着いたおかげで\\新しいチャイルドも手に入りましたし♥",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "面倒なことになったなあ。",
+      "dialogue": "復讐するって話、聞いてなかったのか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "死神さんがいなくなってしまって、\\どんなにつらかったことでしょう…\\私は、死神にも愛想をつかされたのかと…",
-      "char": "m051_00",
-      "speaker": "same_full",
+      "dialogue": "あら♥そんな話、他のチャイルドからも\\しょっちゅう言われてるじゃないですか？フフフ♥",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "私は本当に不幸な人間なんだな…って\\…そう思い続けていました…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "だから…だから、私は…！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "どうしようか？\\ここで死神じゃないって正直に話したら\\モナやリザにめちゃくちゃ説教されるだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "かといって、いつまでも騙すわけにも…\\まあ、最初は適当に騙して契約に\\持ち込んだんだけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ええと…\\お、おい、人間。\\お前はまだ死にたいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "もちろんです！",
-      "char": "m051_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "この問いに即答するとは…\\さすがはハデスの契約者。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "わ、私はいつ死ねるのですか？",
-      "char": "m051_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "はあ…\\ちょっと待ってろ。",
+      "dialogue": "慰めの言葉になってないぞ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "33": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "えっ…？\\こ、これは…<color=ff9900>ピザ</color>？",
-      "background": "bg178_f",
-      "char": "m051_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "俺の血と汗がにじんだ貴重なピザだ。\\心から感謝して食えよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "これを…た、食べろと？\\どうして？",
-      "char": "m051_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "そうだ。明日も来るからな。\\明日は…フライドチキンにしようか。\\明後日は、そうだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "あの、それは…なぜ…？",
-      "char": "m051_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "1週間だ。それ以上は金がないから無理だけど。\\1週間経っても死にたいって思ってたら…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "その時は…\\あんたが会いたがっている\\死神に会わせてやるよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "正直に言うと、ハデスなんだけどね。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "…1週間後も、私の気持ちは変わらないわ。",
-      "char": "m051_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "さて、どうかな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "44": {
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

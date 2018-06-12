@@ -2,289 +2,382 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様ー！ご主人様ー！",
+      "dialogue": "悪魔さん、少々よろしいですか。",
       "background": "bg086_f",
       "bgm": "14",
-      "char": "c126_01",
+      "char": "c101_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうしたんだ、サルマキス？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "またまた、眠りに落ちる直前に\\話しかけられるとは…\\デジャヴを感じるな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "バステト見なかった？",
-      "char": "c126_01",
+      "dialogue": "何？\\またお菓子が欲しいのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "4": {
       "type": "talk",
-      "dialogue": "バステト？\\いや…アイツは神出鬼没だからな…",
-      "char": "c000_01",
+      "dialogue": "…！！\\い、いただけるんですか？\\あっ、いえ、そうじゃなく…\\悪魔さん、今日は別件で来たんです。",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どこに行ったんだろ？",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "何か用があるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "実は彼女のことが心配で。",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "何があったか知らないけど、\\アイツのことなら心配しなくていいぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "他のことはともかく、自分のことは\\自分でなんとかするタイプのヤツだから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ひどいよ、ご主人様！",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "え？何が？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "彼女のこと、放っておきすぎじゃない？",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "私はね、バステトを見るたびに思うの。\\ボーっとしてるっていうか…\\寂しそうにしてるっていうか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "アイツがか？他のヤツはともかく、\\アイツは絶対に寂しさなんか知らないヤツだぞ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "気のせいだろ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そんなことないわ。\\寂しさを感じない人なんていないもの。",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "彼女は他のチャイルドと仲良くするつもりは\\全くないみたい。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "話しかけても変なことばかり言うし…\\心を開いてくれるといいんだけど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あんなことしてたら\\一生独りぼっちになっちゃうよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "そんなこと言ったって、\\アイツがどこにいるかも分からないに…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "どうやってあんなヤツの友達になろうってんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "心配しないで！\\必ず彼女の友達になってみせるから！",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "こんなことしてる場合じゃない。\\バステトを探しに行かなくちゃ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "バステトー！バステトー！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "本当に奇妙ねぇ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "モナ？どこに隠れてたんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "サルマキスの契約者はバステトの契約者の\\お兄さんが好きだったのよぉ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "結局、彼女のお兄さんは亡くなっちゃったけど。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ああ。そのせいで彼女は独りぼっちになったんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そんな彼女から、誰も信じようとしない\\バステトが生まれたってわけだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それより、どこに隠れてたんだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ナ・イ・ショ・です♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "tempt"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ハァ？俺の部屋に秘密の通路でもつくったのか？",
+      "dialogue": "うん、じゃあ何？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "34": {
+    "6": {
       "type": "talk",
-      "dialogue": "フフ～♥",
-      "char": "c001_01",
+      "dialogue": "悪魔さんは悪魔なのに\\どうして悪いことをしないんですか？",
+      "char": "c101_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
-    "35": {
+    "7": {
       "type": "talk",
-      "dialogue": "うっ…恐ろしい女だ。",
+      "dialogue": "それって、俺にもっと悪いことをしろって\\言いたいの？",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "いいえ…あなたは変わってると言いたいんです、\\悪魔さん。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "変わってる…今ソファで寝ようとしてることが？\\普通は布団かベッドだもんな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "い、いえ。そこで悪魔さんが昼寝してる時、\\モナさんに小言を言われている姿は\\もう見慣れていますので。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "わたしが聞きたいのは寝床のことではなく、\\あなたがなぜ悪行をしないかということです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そりゃあ悪魔が悪いことしなきゃいけないって、\\決まりはないからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "じゃあ、えっと…なまけ者？",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "なまけ者なら…とりあえず、悪くはないような…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "おいおい、まだ納得いかないの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "どう思おうがお前の自由だけどさ、\\少なくとも俺はお前のイメージしてた\\悪い悪魔じゃないからね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "そう…ですね。\\たしかに、そうかもしれません…",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ちなみに、お前のイメージしてた悪魔って\\どんなの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ええと…この世を破滅に導く、血に飢えた野獣？",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うわあ…\\どんな化け物だよそれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "でも…今は少しだけ、イメージが変わりました。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "へ～どんなふうに？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "おやつをくれる…邪悪な存在？",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "単に「おやつ」を追加しただけじゃん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "まだあなたとは出会ったばかりですが、\\少なくとも世界を破滅させる気はなさそうですね。\\安心しました。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "はいはい、平和な世界が守られてよかったね。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "はい。それでは、今日はこの辺で…きゃっ！",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "短い悲鳴を上げて、\\シュリンクスは何もない所で、すっ転んだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "う、うう…ぐすっ…",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あら、ご主人さま。\\いくら趣味とはいえ、\\女の子を泣かせるなんていけませんよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "teach",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "うわっ！なんだ、モナか…\\俺が泣かせたわけじゃないし、そんな趣味あるわけない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "まったく…おい、シュリンクス、大丈夫か？\\ほら、俺の手につかまって。立てる？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sigh"
     },
+    "33": {
+      "type": "talk",
+      "dialogue": "あり…がとう。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "おお、ちゃんとお礼言えたね。\\お菓子食べる？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…わたしは、お菓子をもらって喜ぶほど\\子供じゃありません。\\でも…いただきます。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
     "36": {
+      "type": "talk",
+      "dialogue": "もうすっかり泣き止んだようだ。\\やっぱこいつにはお菓子をあげれば、\\大体解決するらしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "…もぐもぐ。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "一生懸命お菓子を頬張る姿が、\\リスみたいで可愛らしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "まあ、リスみたいに可愛い食べ方ですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ああ、珍しく考えが合ったな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "…からかわないでください。それと…",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "うん？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "…わたし、分かったんです。\\悪魔さん、あなたは…優しい人です。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "…そっか、そりゃあ嬉しいな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "ちょっとは俺のことを信じてくれたのかな。\\シュリンクスは初めて、俺に優しく微笑んでくれた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

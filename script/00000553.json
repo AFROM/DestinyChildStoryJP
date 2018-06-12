@@ -2,265 +2,187 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人！ご主人！",
+      "dialogue": "真夜中に学校って…\\なんであんな怖い所に\\また行かなくちゃいけないんだよ。",
       "background": "bg086_f",
       "bgm": "9",
-      "char": "c003_01",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "joy",
-      "screen_effect": "dialog_shake"
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "一体何だよ？うるさいな。",
-      "char": "c000_01",
+      "dialogue": "悪魔にはピッタリの場所ですよ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ホントにホントにすっごい話聞いた！\\この辺におっきなドラゴンがいるんだって！",
-      "char": "c003_01",
+      "dialogue": "都市伝説の定番だな。\\学校の怪談には実話もあるらしいけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ドラゴン？あの体中が鱗で覆われてる、\\角があって空も飛べるモンスターか？",
-      "char": "c000_01",
+      "dialogue": "私たちが確認しに行った怪談は思ったより\\大したことなかったでしたけど♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ここは魔界じゃないぞ？\\人間界にドラゴンなんている訳が。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "モナの言う学校の怪談は\\町の学校で実際に起こった謎の事故だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ホントだもん！本当に聞いたもん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "誰もいない教室で花瓶が落ちたり、\\本棚が人に向かって倒れてきたり…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "嘘じゃない。本当だ。",
-      "char": "c116_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "お化けのイタズラだという噂が広まったが\\リザは悪魔の仕業かもしれないと俺を学校に\\引っ張り出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "お前が言ったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "そして犯人は…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "私は聞いた話しか言わない。\\ありもしない話もしない。\\私が聞いた話では、\\この近所にドラゴンが住んでいる。",
-      "char": "c116_01",
+      "dialogue": "大したことなかった？\\それより本当に面白いヤツだな…\\俺の契約者は。キキキ…",
+      "char": "m037_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "良く考えてみろ。\\お前もよく知るドラゴンだ。",
-      "char": "keep",
+      "dialogue": "モナの言葉にがっかりする必要はないぞ…\\俺が常に思っていることだが、\\お化け、いや、悪魔より怖いのは人間だ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "俺が知ってるドラゴン…あれ？\\そういえば…心当たりがあるな…まさか。",
-      "char": "c000_01",
+      "dialogue": "お前の契約者は、俺が悪魔であることを知った上で\\ニヤニヤと笑いながら契約したんだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "面白そうだっていう理由でな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "オルガ！オルガー！",
-      "background": "dungeon_bg",
-      "char": "c000_01",
-      "pos": "left",
-      "facial": "fury",
-      "screen_effect": "dialog_shake",
-      "speaker": "same"
+      "dialogue": "キキキ、怖かったのか？\\本当に悪魔はからかい甲斐があるな。キキキ…",
+      "char": "m037_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふう…今度は何だ。やかましい奴め。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "お前、最近夜中に散歩してるか？",
+      "dialogue": "それより…再契約したければ直接来ればいいのに\\なんでまた学校でイタズラなんかするんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "16": {
+    "15": {
       "type": "talk",
-      "dialogue": "している。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "それだ…お願いだから自重してくれ。\\ドラゴンがいるって噂が\\近所に広まってるらしいぞ。",
-      "char": "c000_01",
+      "dialogue": "悪魔をなんとも思ってないのか…\\やっぱり人間は怖いな。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
+    "16": {
+      "type": "talk",
+      "dialogue": "イベント好きなんだ、俺の契約者は…キキキ…\\期待してろ…",
+      "char": "m037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "悪魔を驚かせたい一心で、一生懸命準備したはずだ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "で？",
-      "char": "m057_01",
-      "speaker": "same"
+      "dialogue": "や、やっぱり行かない方がよさそうだ。\\向こうから来てもらおう、な？モナ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "19": {
       "type": "talk",
-      "dialogue": "で、って…\\そのうち、近所に悪魔が住んでるって\\噂まで立ちそうだよ。",
-      "char": "c000_01",
+      "dialogue": "それもいいですけど…\\この際、肝試しもいいんじゃないでしょうか？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m057_01",
-      "speaker": "same"
+      "dialogue": "ご主人さまは度胸をつける必要がありますわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "おい。",
+      "dialogue": "あら、こうしてみると頼りない悪魔より\\人間の方が使い道あるかも♥",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "facial": "pretense"
     },
     "22": {
       "type": "talk",
-      "dialogue": "な、なんだよ、いきなり…",
+      "dialogue": "じゃあ、その人間に\\主人になってくれるよう頼んでみろよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "sulky"
     },
     "23": {
       "type": "talk",
-      "dialogue": "私が何もしないからといって、\\お前をどうこうできないわけじゃないぞ。\\これ以上面倒に巻き込むな。",
-      "char": "m057_01",
+      "dialogue": "あら、拗ねちゃいました？\\可愛いご主人さま♥",
+      "char": "c001_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "それで…俺を2,000m上空から\\東京見物でもさせてくれるのか？",
+      "dialogue": "別に拗ねてないし！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "sulky"
     },
     "25": {
       "type": "talk",
-      "dialogue": "うう…近くで見たら超怖いじゃん。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "キキキ、面白い…実に面白い！",
+      "char": "m037_01",
+      "speaker": "same"
     },
     "26": {
-      "type": "talk",
-      "dialogue": "いや、ここは主人としての威厳を\\チャイルドに見せなければ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "俺の小言が聞きたくなければ、\\小言を言われるようなことをするな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…ふう、もしドラゴンを見たという噂を聞いたら\\雲の影なんじゃないかって言ってやれ。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "馬鹿げてるな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "人間界にドラゴンがいるって方が馬鹿げてるだろ。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "うう…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "散歩は止めてくれないのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "同じことを二度言わせるな。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "わかった、わかった。\\ただ、お前も少しは気を付けてくれ。\\できるだけ見つからないようにしろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "go_to_left_point"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "生意気な悪魔め、戦いでは言うことを聞く。\\だが契約はそれだけだ。\\それ以外の時間は自由にさせろ。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "面倒だが、近々あのうるさい口を\\二度と開けないようにしてやらねば。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,198 +2,309 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はあ、はあ…",
-      "background": "bg088_f",
+      "dialogue": "これで何度目？\\先生が許せるのも限界があるわ。",
+      "background": "bg014_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "sigh"
+      "char": "none",
+      "speaker": "unknown1"
     },
     "2": {
       "type": "talk",
-      "dialogue": "もう大丈夫！悪党はいない！",
-      "char": "m189_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "……",
+      "char": "c230_00",
+      "speaker": "same_full"
     },
     "3": {
       "type": "talk",
-      "dialogue": "おかげで助かった。\\悪魔が人間に殺されるところだったよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "口がついてるなら話しなさい。\\この前はテストのカンニング。\\今度は誰かの課題を丸写し？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "4": {
       "type": "talk",
-      "dialogue": "それもごく普通の人間に…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "…すみませんでした。",
+      "char": "c230_00",
+      "speaker": "same_full"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そうなったら死んでからもずーっと\\笑い者扱いされるんだろうな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "dialogue": "その痣はどうしたの？友達とケンカでもした？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "6": {
       "type": "talk",
-      "dialogue": "大丈夫！ご主人様は今でも笑い者扱いだから。",
-      "char": "m189_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "い、いえこれは…転んで怪我しただけです。",
+      "char": "c230_00",
+      "speaker": "same_full"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ありがとよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "この課題はなかったことにするわね。\\明日までやってきなさい。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "8": {
       "type": "talk",
-      "dialogue": "それよりもボクサーの契約者…しつこすぎないか？\\もう諦め時だろ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "はぁ…もう戻っていいわ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "9": {
       "type": "talk",
-      "dialogue": "人間同士、盗みをしようが\\悪魔の俺には関係ないことだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "はい…",
+      "char": "c230_00",
+      "speaker": "same_full"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "顔を見ても警察に突きつけるようなこと\\する気なんて全くないのに。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "大丈夫、ボクが守ってあげるから。",
-      "char": "m189_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "この課題をやったのは私。\\書き写したのはあの子たち。\\私はやってない、私は…",
+      "background": "bg064_f",
+      "char": "c230_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "それに魔王になる道は険しいって聞いたよ。",
+      "dialogue": "私は世界の運命を背負った…",
       "char": "keep",
-      "speaker": "same",
+      "speaker": "same_full",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それ、モナが言っただろ？",
-      "char": "c000_01",
+      "dialogue": "ここで何している？",
+      "char": "c230_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "near"
     },
     "14": {
       "type": "talk",
-      "dialogue": "うん！",
-      "char": "m189_01",
-      "speaker": "same",
+      "dialogue": "あ、アナタは…？",
+      "char": "c230_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "<b>見つけたぞ！</b>",
-      "bgm": "12",
-      "char": "m190_01",
+      "dialogue": "私のことを知る必要はないわ。\\さっさと家に帰りなさい、ここは危険よ。",
+      "char": "c230_01",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "<b>ぎゃあ！</b>",
-      "char": "m189_01",
-      "speaker": "same",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "dialogue": "危険？",
+      "char": "c230_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "今度は逃がすものか！一気に飲み込んでやる！\\契約者は獲物を逃したが、俺は違う！",
-      "char": "m190_01",
-      "speaker": "same"
+      "dialogue": "さっきここで何かの力を…\\いや、アナタが知る必要はない。",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "欲しいものは全て手に入れる！",
+      "dialogue": "早くここを離れなさい！",
       "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "screen_effect": "dialog_shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うわ！助けて！ご主人様は渡すからボクを助けて！",
-      "char": "m189_01",
+      "dialogue": "スクルド！",
+      "bgm": "12",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "enter_from_left_fast"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ハ？さっきは守るって言っただろ！\\おい、離れろ！",
-      "char": "c000_01",
+      "dialogue": "遅かったわね？",
+      "char": "c230_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ぎゃあああ！",
-      "char": "m189_01",
+      "dialogue": "かくれんぼはこのくらいにしとこう。",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "go_to_left_fast"
+      "pos": "left",
+      "facial": "angry"
     },
     "22": {
       "type": "talk",
-      "dialogue": "止まれ！金貨を出せ！",
-      "char": "m190_01",
-      "speaker": "same"
+      "dialogue": "フフ…ついに結論を出すときが来たのか？",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "なんで引っ付くんだよ！",
+      "dialogue": "ああ、そうだ！\\かかってこい。力の限り相手してやる！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "fury"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ヤダ！ぎゃあ！",
-      "char": "m189_01",
-      "speaker": "same"
+      "dialogue": "とりゃ！",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "25": {
       "type": "talk",
-      "dialogue": "こっちに来い！",
-      "char": "m190_01",
+      "dialogue": "ネックスライス！",
+      "char": "c002_01",
       "speaker": "same",
-      "before_effect": "go_to_left_jump"
+      "facial": "serious",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "26": {
       "type": "talk",
-      "dialogue": "二人とも離れろ！",
+      "dialogue": "くっ！背後から…攻撃してくるとは…！",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "気絶…したよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "はい。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あの、一体これは…",
+      "char": "c230_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ああ、気にしないでくれ。アイツ、病気なんだよ。\\これは治療みたいなもんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ところであんなダサい技名を\\叫ぶ必要があったでしょうか？",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "気分の問題だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "知ってはいましたが…\\御主人様もこのチャイルドと同じくらい厄介ですね。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あの、この人…誰ですか？\\ひょっとして…この人の名前…",
+      "char": "c230_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "気にするなって。\\そして、見なかったことにしてくれ。\\恥ずかしいから…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "sigh"
     },
-    "27": {
+    "36": {
+      "type": "talk",
+      "dialogue": "御主人様、あの女性はスクルドの契約者では\\ありませんか？\\この際、再契約しましょう。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ダメだ。そんなことしたらヤツが\\また目を覚ますだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "それも困りますね…\\ネックスライスと、もう一度叫びたくはありません。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "やりたくないんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "とにかく、全て解決！俺たちはもう帰るから\\キレイさっぱり忘れてくれ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_point"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "いい機会なのに、残念です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "after_effect": "go_to_left_point"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "あの女性、すごく似ている。想像の中の私の姿と…",
+      "char": "c230_00",
+      "speaker": "same_full"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "あの人の名前も…《スクルド》かしら。",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

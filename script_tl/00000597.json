@@ -2,336 +2,175 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よ、久しぶり。最近どうよ？",
-      "background": "bg021_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "うわああああん！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "cry",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "俺はまあまあかな。",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "うるさい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "まさか、まだフリーターなのか？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ダビのだもん！ダ・ビ・の！\\うえーん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "cry",
+      "screen_effect": "dialog_shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うっさい。\\好きでやってるんだから、別にいいだろ。",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal",
-      "before_effect": "shake"
+      "dialogue": "コイツ、どうしたんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "5": {
       "type": "talk",
-      "dialogue": "まあな…\\毎日変わり映えしない生活をするぐらいなら、\\お前みたいに何も考えずに生きたほうがいいよなあ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ベルボーイが欲しいそうです。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "はは。\\まあ、存分に羨ましがるがいいさ。",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "あー、《自分だけのベルボーイ》が\\欲しいってことだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
     },
     "7": {
       "type": "talk",
-      "dialogue": "あ、そうだ。おめでとう。\\弟が意識を取り戻したんだろ？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ぐすん…！ダビにもベルボーイ買って！\\ダビもベルボーイ！ほしいの！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "めっちゃ大変そうだったもんな…\\よかったな、うん。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "うわ…耐えられない。逃げよっと。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "after_effect": "go_to_right_point"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そうだな。",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "…こういう時はちゃっかりしてますね。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "反応うっすいなー\\あれ？あそこにいるの、お前の弟じゃね？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "えっ？",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "兄さん、ここにいたのか。\\ずいぶん探したよ。",
-      "char": "c131_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "明彦、どうしてここが…",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "お前が明弘の弟か。\\元気になってよかったな！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ありがとうございます。\\あの、ところで…\\兄と少し話があるのですが…",
-      "char": "c131_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あ、分かった。\\じゃあ、俺はこの辺で。\\またな、明弘。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "うん、じゃあな…",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "あれ、兄さんの友達？\\すごいね。僕をこんな目に遭わせておいて、\\兄さんは友達と楽しく遊んでるんだ？",
-      "char": "c131_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "…兄さんは僕のことを全然わかってない。\\呪術で目覚めさせてもらっても、\\ちっとも嬉しくなんてないのに。",
-      "char": "c131_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…仕方なかったんだよ。",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "だろうね。そうでもしなけりゃ、\\罪悪感で押しつぶされてたんだろうし？",
-      "char": "c131_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そういう言い方…やめろよ。",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal",
-      "before_effect": "shake_weak"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "兄さんが僕にしたことを考えれば、\\そんなこと、言えないはずだろ！",
-      "char": "c131_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…ご、ごめん。\\ちょっとムキになっちゃった。\\でも…兄さんを見ると、腹が立って仕方ないんだ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "俺がそんなに嫌いなら、消えてやるよ。\\それでいいだろ？",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "そんなの…逃げるなんて卑怯だよ。\\自分の尻拭いは自分でしなよ。",
-      "char": "c131_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "まあでも、兄さんだもんな。\\収拾とか、解決とか…\\そういうのは面倒だしやりたくないよね。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "…俺、先に帰るわ。\\また後でな。",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "31": {
+    "11": {
       "type": "talk",
-      "dialogue": "…もう一度あの悪魔を呼ぼう。\\今度はちゃんと願いを伝えるから。",
-      "background": "bg064_f",
-      "bgm": "24",
-      "char": "c132_00",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "別にいいけど、呼んでどうするんだ？",
+      "dialogue": "フフ…だからダビに言ったんだ。\\《俺のベルボーイ》だってな。",
+      "background": "bg070_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "pretense"
     },
-    "33": {
+    "12": {
       "type": "talk",
-      "dialogue": "悪魔…！\\俺が呼んだから来たのか？",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "まさか。偶然通りかかっただけだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "悪魔、俺の願いを叶えてくれ。\\今度は真面目に願うから…",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "俺に…あんたの弟を殺せっての？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "…できるか？",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "お前な…生き返らせろって言ってたくせに、\\今度は殺せだって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "superangry"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "あのさ、人の命を何だと思ってるんだ！？\\生と死は、子供の遊びじゃないんだぞ！",
+      "dialogue": "ダビのヤツ、俺がひとつでもいいもの持ってると\\羨ましがってダダをこねるから。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
+      "facial": "idle"
     },
-    "40": {
+    "13": {
       "type": "talk",
-      "dialogue": "だけど…",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "あ、だからってお前を\\物扱いしてるわけじゃないぞ。\\ダビはお前を買ってくれって騒いでるけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
-    "41": {
+    "14": {
       "type": "talk",
-      "dialogue": "これは、あんたが自分で願ったことだ！\\俺に責任を擦りつけないでくれ！",
+      "dialogue": "オマエは俺の《チャイルド》だからな。\\チャイルドは売り買いするものじゃない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ベルボーイはご主人様のものです。\\ご主人様はベルボーイの《ご主人様》です。",
+      "char": "m137_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そうだけど…変こと言っちゃったかな…\\俺はただ、ダビが羨ましがってるのを見て…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "left"
     },
-    "42": {
+    "17": {
       "type": "talk",
-      "dialogue": "…「人の命を何だと思ってるんだ」なんて\\言うのか…悪魔のくせに人間に説教するとは\\変な奴だな…",
-      "char": "c132_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "つい、からかってしまった…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
-    "43": {
+    "18": {
+      "type": "talk",
+      "dialogue": "オマエは《私をお呼びですか？》って言って\\いつでも来てくれるな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ベルボーイはご主人様のために働くことが好きです。",
+      "char": "m137_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ありがとな、ベルボーイ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "こちらこそ。\\私はご主人様のおかげでここにいるのです。",
+      "char": "m137_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ベルボーイはご主人様のものです。\\いつでも私をお呼びください…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "23": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

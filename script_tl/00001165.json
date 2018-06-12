@@ -1,0 +1,43 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "こんにちは。\\ここはデビルランブルショップ。",
+      "background": "bg100_f",
+      "bgm": "16",
+      "char": "c174_02",
+      "speaker": "same",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "400302001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "アリーナで得た<color=\"cc66ff\">ランブルコイン</color>で\\<color=\"cc66ff\">アイテム</color>が購入可能。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "400302002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "アイテムは<color=\"cc66ff\">一定時間ごとに更新</color>されます。\\<color=\"cc66ff\">クリスタル</color>を使用すれば\\リストをすぐに更新できるわ。",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "400302003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "販売アイテムを<color=\"cc66ff\">もっと</color>見たい…？\\そんな時は、<color=\"cc66ff\">スロット</color>を購入して！\\一度に陳列される商品が増えるわ。\\以上！",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "400302004"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

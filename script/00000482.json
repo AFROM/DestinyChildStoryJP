@@ -2,23 +2,28 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "どうして俺の周りには\\いつもおかしな奴らしかいないのか。",
-      "background": "bg066_f",
-      "bgm": "4",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "はぁ、はぁ…ここらへんじゃ、一番高いとこだよ…\\ふぅ…好きなだけ見ていけばいいだろ…ぜぇ、はぁ…",
+      "background": "bg050_f",
+      "bgm": "19",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "2": {
       "type": "talk",
-      "dialogue": "アハハッ！悪魔め！お前の罪を自白しろ！\\",
-      "char": "c189_01",
+      "dialogue": "うむ。\\エスコート感謝するぞ、坊や。",
+      "char": "c156_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "一体、俺が何の罪を犯したって…\\",
+      "dialogue": "どーいたしまして…はぁ～…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -26,187 +31,211 @@
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前は罪を犯した！\\とーっても大きな罪をね！\\だから自白しなさい！",
-      "char": "c189_01",
+      "dialogue": "よく言うよ…めんどくさいって断ったら、\\尻尾に噛みつく妙なペットを召喚して\\笑顔で脅したくせに…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sad"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何を自白しろっていうんだよ！\\俺は無罪だ。",
-      "char": "c000_01",
+      "dialogue": "ううっ…俺の人権…\\いや、悪魔権は誰が守ってくれるんだ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "堂々と嘘をつくなんて！\\私はアンタの罪を知ってる。だから自白するの！",
-      "char": "c189_01",
+      "dialogue": "ここから眺めると、\\この世がとても変わったことがよくわかるな。\\ここからどれだけ、変わってゆくのだろうか…",
+      "char": "c156_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "こいつ疲れる…\\",
+      "dialogue": "またそんなババァ…いや、老人…じゃない、\\ご先祖様みたいなことを…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あら、二人で何してるの？",
-      "char": "c001_01",
+      "dialogue": "…幼き悪魔よ。\\そなたは、魔王になるため戦っているのであろう？",
+      "char": "c156_01",
       "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あ、現れた！悪魔が犯した罪の結晶体！",
-      "char": "c189_01",
+      "dialogue": "え？\\ま、まあ…とりあえずは。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "idle"
     },
     "10": {
       "type": "talk",
-      "dialogue": "罪の…結晶体？\\ひどいわねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "そうしないと、支援金も途絶えるし…\\モナの小言もひどくなるだろうからな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "くう…こんなマヌケな悪魔にあんな絶世の美女が\\サポーターにつくわけない！",
-      "char": "c189_01",
+      "dialogue": "新たな魔王が生まれたら、\\この人間界はどうなるのだろうな。",
+      "char": "c156_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あらあら♥それじゃ、ご主人さまは\\違法な方法を使ってモナを雇ったのかしら？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "滅ぶと思うか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そうなのかしら、ご主人さま？本当に、モナに内緒で主催者側と手を組んで…",
-      "char": "keep",
+      "dialogue": "そんなこと、考えたことないけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "真に受けるな！被害者はこの俺だ！\\魔王争奪戦なんて、\\俺の人生計画にあるわけないだろ！",
-      "char": "c000_01",
+      "dialogue": "今も魔王はいるけど、別に滅んでないだろ？\\だったら、これからも同じじゃないか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "うふふ、そうでしょうね。\\それにしても面白いこと考える子ね♥",
-      "char": "c001_01",
+      "dialogue": "性根の悪い悪魔が魔王になれば、\\そうもゆかぬだろう。",
+      "char": "c156_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "くう！悔しい！悪魔、なんで相手にしないの？\\やっぱりモナは美女だから…",
-      "char": "c189_01",
+      "dialogue": "そりゃ…確かに。\\妙なヤツも多いしな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あら、嬉しい誤解♥",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "そなたは、魔王になりたくないのか？",
+      "char": "c156_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "このままだと私が不利になるでしょ！\\だから悪魔に足かせをしないと！",
-      "char": "c189_01",
+      "dialogue": "望んだからって皆が皆\\行きたい場所に行けるわけじゃないだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near"
     },
     "19": {
       "type": "talk",
-      "dialogue": "お前の足についたそれのことか？\\丁重にお断りするよ。",
-      "char": "c000_01",
+      "dialogue": "人間界だって同じだよ。\\勝ち組もいれば負け組もいる。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "near"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それはいい考えだ！\\片方は悪魔、もう片方は私にかけるんでしょ？",
-      "char": "c189_01",
+      "dialogue": "俺だって同じさ。\\与えられた場所で生きるだけだよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あら♥\\",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "ふふ…そなたは面白いな。",
+      "char": "c156_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
     },
     "22": {
       "type": "talk",
-      "dialogue": "二人三脚でもあるまいし\\なんで俺が…",
+      "dialogue": "し、尻尾を触るな…\\毛づくろい禁止…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うっ…ひとつくらい言うこと聞いてよ！\\",
-      "char": "c189_01",
+      "dialogue": "幼き悪魔よ。\\私は、そなたが魔王になることを願っておる。",
+      "char": "c156_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
     "24": {
       "type": "talk",
-      "dialogue": "な、なんだ！\\どうして怒るんだよ！",
+      "dialogue": "俺が…？どうして？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ううっ！それじゃ手錠！手錠ならどう？\\",
-      "char": "c189_01",
+      "dialogue": "私が、この世を見守り続けることに\\なりそうだからだ。",
+      "char": "c156_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
     "26": {
       "type": "talk",
-      "dialogue": "いや、だから何で俺が\\そんな不便なものをつけないと…",
-      "char": "c000_01",
+      "dialogue": "私も、私の契約者も…\\ずっとこの地で生き続けられるように…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near"
     },
     "27": {
       "type": "talk",
-      "dialogue": "きー！なら私に何をしてくれるの！？\\このバカ野郎！！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…何でそんなに怒るんだよ！\\",
+      "dialogue": "ま、そりゃそうか…\\俺が魔王になれたら、人間界を滅ぼすなんてことは、ありえないし…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "near",
+      "facial": "sad"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "だから…側にいてやろう。",
+      "char": "c156_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そうですね。\\いつか分かる日が来るんじゃないでしょうか♥",
-      "char": "c001_01",
+      "dialogue": "我が愛しき…懐かしき気配を持つ者よ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
     "30": {
       "type": "curtain",

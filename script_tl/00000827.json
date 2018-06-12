@@ -2,171 +2,253 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "クカー…バロン…ゴロゴロ…クカー…",
-      "background": "bg070_f",
-      "bgm": "17",
-      "char": "m195_01",
+      "dialogue": "キャンディーおいしー！",
+      "background": "bg089_f",
+      "bgm": "20",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どこに行ったかと思えばこんな所で寝てたのか…",
+      "dialogue": "そんなに甘い物ばっか食べてると歯が腐るぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "pretense"
     },
     "3": {
       "type": "talk",
-      "dialogue": "心配させやがって…\\何かあったんじゃないかってヒヤヒヤしたよ…",
-      "char": "keep",
+      "dialogue": "ふん！ダビはそんなのちっとも怖くないよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "幸せそうに寝ている姿を見ると…\\契約者みたいにただの子供だな。",
-      "char": "keep",
+      "dialogue": "本当に恐ろしいのが何か知ってるか？\\それはな、人間界の歯医者さ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near",
+      "facial": "serious"
     },
     "5": {
       "type": "talk",
-      "dialogue": "はぁ…起こしたら泣いて逃げるよな。\\戦いたくなかったら無理やりさせないって\\言ったけど…",
-      "char": "keep",
+      "dialogue": "はい…しゃ…？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ヘヘ…バロン…楽しい…ヘヘ…",
-      "char": "m195_01",
+      "dialogue": "そうさ。火花が散る尖った拷問器具で\\お前の歯をひとつずつ削っていくんだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "toonear",
+      "facial": "shock"
     },
     "7": {
       "type": "talk",
-      "dialogue": "何の夢みて笑ってるんだ？羨ましい…\\俺もここで昼寝でも…",
-      "char": "c000_01",
+      "dialogue": "ひええええ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
     },
     "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "心配しないで、ダビ。歯医者さんに行くには\\沢山のお金が必要だから、ご主人さまには無理よ♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うわ…本当に寝ちゃったよ。あれ？バロン…？\\また逃げたのか！",
-      "background": "bg070_f",
-      "char": "c000_01",
+      "dialogue": "そうなんだ！\\へへ、よかった。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "facial": "nonsense"
+      "pos": "right",
+      "facial": "smile"
     },
     "10": {
       "type": "talk",
-      "dialogue": "逃げてないバロン！",
-      "char": "m195_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ビックリした！",
+      "dialogue": "はいはい、よかったね。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "facial": "irritation"
     },
-    "12": {
+    "11": {
       "type": "talk",
-      "dialogue": "ど、どうして僕を追いかけてくるバロン？",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "オマエが逃げるからだろ。\\オマエこそなんで逃げるんだよ？",
-      "char": "c000_01",
+      "dialogue": "ところでそのキャンディーどうしたんだ？\\まさか、バイト先のコンビニでこっそり\\盗んだわけじゃ…？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
+    "12": {
+      "type": "talk",
+      "dialogue": "違う！ダビはそんなことしないもんっ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "じゃあ、どうしたんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "悪魔が追いかけてくるからバロン！",
-      "char": "m195_01",
+      "dialogue": "銀行強盗のお姉さん！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "何だよそれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "僕はもう家に帰るバロン。お腹空いたバロン。",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "え？本当にもう逃げないのか？",
+      "dialogue": "え？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "18": {
+    "16": {
       "type": "talk",
-      "dialogue": "お腹空いたバロン！",
-      "char": "m195_01",
+      "dialogue": "まさか…リベンジガールの契約者？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left"
     },
-    "19": {
-      "type": "talk",
-      "dialogue": "分かった、分かった。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "20": {
+    "17": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "18": {
+      "type": "talk",
+      "dialogue": "はあ、はあ…もう遅かったか？\\はあ…死ぬほど走ったのに…",
+      "background": "bg098_f",
+      "bgm": "24",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ここで何をしている？また私の邪魔を…",
+      "char": "m143_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そうだ！邪魔しに来たんだよ！\\今度こそ現行犯逮捕のつもりが逃がしてしまった。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "夢の中で悪魔が優しくしてくれたバロン。\\目を覚ましたら隣に悪魔がいたバロン。",
-      "background": "bg110_f",
-      "char": "m195_01",
-      "speaker": "same"
+      "dialogue": "お前、契約者と何を企んでる？\\契約者がなぜ俺の住む町に来たんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "22": {
       "type": "talk",
-      "dialogue": "バロンは悪魔の出る夢をみたのか、\\それとも悪魔が僕の夢に出てきたのか…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "お前と契約者を再契約させるためだ。\\再契約するのが嫌なのか？",
+      "char": "m143_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "23": {
+      "type": "talk",
+      "dialogue": "面白い悪魔だな。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "この前もそうだし、何かあるんだろう？\\俺に嘘ついてることがあるなら今すぐ言ってくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "そうすれば許してやる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "誰が誰を許すって？",
+      "char": "m143_01",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "私は誰からの許しも求めていない。\\私が求めるものはアイツの破滅のみ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "誰にも邪魔はさせない！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "うっ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "おい！リベンジガール！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "はあ…服が汚れたよ…リザに怒られるな…\\それよりアイツの願いって…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…何だっけ。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "irritation",
+      "distance": "near"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

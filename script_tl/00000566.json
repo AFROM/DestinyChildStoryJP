@@ -2,175 +2,220 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うわああああん！",
+      "dialogue": "う…ううっ…",
       "background": "bg086_f",
-      "bgm": "4",
-      "char": "c003_01",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うるさい…",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "m045_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ダビのだもん！ダ・ビ・の！\\うえーん！",
-      "char": "c003_01",
+      "dialogue": "うわあっ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "コイツ、どうしたんだよ。",
+      "dialogue": "気が付きましたか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "な、なんだ？何がどうなってるんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "5": {
-      "type": "talk",
-      "dialogue": "ベルボーイが欲しいそうです。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
     "6": {
       "type": "talk",
-      "dialogue": "あー、《自分だけのベルボーイ》が\\欲しいってことだろ？",
-      "char": "c000_01",
+      "dialogue": "御主人様が相手の攻撃を\\頭突きでかわそうとしたため。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ぐすん…！ダビにもベルボーイ買って！\\ダビもベルボーイ！ほしいの！",
-      "char": "c003_01",
+      "dialogue": "みっともなく気絶してしまったのです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "fury",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "うわ…耐えられない。逃げよっと。",
+      "dialogue": "頭突きって…チャイルドのために\\カッコよく身を投じたって言ってくれないか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
-      "after_effect": "go_to_right_point"
+      "facial": "sigh"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…こういう時はちゃっかりしてますね。",
+      "dialogue": "少しもカッコよくありません。\\結果的に、残されたチャイルドが苦労しましたから。",
       "char": "c002_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "一言で言えば、無駄骨です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "フフ…だからダビに言ったんだ。\\《俺のベルボーイ》だってな。",
-      "background": "bg070_f",
-      "bgm": "9",
+      "dialogue": "…それはそうと…ブーケはなんでこんなに\\俺の傍から離れないんだ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ダビのヤツ、俺がひとつでもいいもの持ってると\\羨ましがってダダをこねるから。",
-      "char": "keep",
+      "dialogue": "これからはブーケが御主人様の看病をします。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あ、だからってお前を\\物扱いしてるわけじゃないぞ。\\ダビはお前を買ってくれって騒いでるけど…",
-      "char": "keep",
+      "dialogue": "え？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "オマエは俺の《チャイルド》だからな。\\チャイルドは売り買いするものじゃない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "その反応は何？イヤなの？\\私が看病するのがそんなに嫌なの？",
+      "char": "m045_01",
+      "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ベルボーイはご主人様のものです。\\ご主人様はベルボーイの《ご主人様》です。",
-      "char": "m137_01",
+      "dialogue": "あ、いや、そうじゃなくて…\\よりによってどうしてお前が…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そうだけど…変こと言っちゃったかな…\\俺はただ、ダビが羨ましがってるのを見て…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "よりによって？\\やっぱり私が嫌いなのね！そうなんでしょ？\\私が嫌いなのよ！",
+      "char": "m045_01",
+      "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "つい、からかってしまった…",
-      "char": "keep",
+      "dialogue": "リ、リザ！こいつを何とかしてくれ！\\この状態で看病なんてできるわけないだろ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "18": {
       "type": "talk",
-      "dialogue": "オマエは《私をお呼びですか？》って言って\\いつでも来てくれるな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ベルボーイはご主人様のために働くことが好きです。",
-      "char": "m137_01",
+      "dialogue": "私もそう思いますが…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
-    "20": {
+    "19": {
       "type": "talk",
-      "dialogue": "ありがとな、ベルボーイ。",
+      "dialogue": "が…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "21": {
+    "20": {
       "type": "talk",
-      "dialogue": "こちらこそ。\\私はご主人様のおかげでここにいるのです。",
-      "char": "m137_01",
+      "dialogue": "許可しないなら許可するまで\\ついて行くと脅してきて…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "こ、これがエリートリザ様の忠誠心なのか？\\なんか言ってくれよ、リザ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "ベルボーイはご主人様のものです。\\いつでも私をお呼びください…",
+      "dialogue": "おい！リザ！リザ！",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "それでは私はこれで…やることが山積みですので。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "リザ？いもしないリザを呼んでいるの？\\私が横にいるのに？",
+      "char": "m045_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いや、だからそれは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "さっきは私のために命も投げ出すみたいなこと\\言ってたのに…私を弄んでいたのね！",
+      "char": "m045_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "こんなことになるくらいなら止めとけばよかった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "一生、私の名前だけ呼びなさい！\\私のことだけ考えて！",
+      "char": "m045_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "23": {
+    "29": {
+      "type": "talk",
+      "dialogue": "看病するってのは嘘だろ？\\俺を殺すつもりなんだろ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

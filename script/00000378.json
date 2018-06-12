@@ -2,352 +2,249 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ヒャヒャヒャ！",
-      "background": "bg086_f",
-      "bgm": "2",
-      "char": "c083_01",
+      "dialogue": "こんばんは、私の悪魔様！\\まるでこの世の終わりのような\\浮かない顔だけど、何かあった？",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "c061_01",
       "speaker": "same",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "2": {
       "type": "talk",
-      "dialogue": "こら！家の中では発砲するなって！",
+      "dialogue": "くっ…もともとこういう顔なんだよ！\\放っておいてくれ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair"
+      "facial": "sigh",
+      "before_effect": "shake_weak"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あーあー聞こえない！",
-      "char": "c083_01",
+      "dialogue": "「もともと」とか言って誤魔化してもダーメ！\\せめて、眉間のシワを治そうー？\\怒ってるように見えるし、戻らなくなっちゃうよー？",
+      "char": "c061_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "4": {
       "type": "talk",
-      "dialogue": "こんの…調子に乗りやがって…！",
+      "dialogue": "いいな、それ！\\《男の渋さはシワで決まる》…みたいな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "joy"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺は背後からネイトに抱き着いた。\\そして銃を奪いとろうとするが…\\余計に大暴れされてしまった！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "また～！すーぐ、そうやって誤魔化そうとする！",
+      "char": "c061_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "離せえええ！このクソオヤジ！",
-      "char": "c083_01",
+      "dialogue": "私の悪魔様は、自分が思ってる以上に、\\考えてることが顔に出やすいんだよ～。\\何かあったんでしょー？",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前っ！親に向かってなんて口のきき方だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "fury"
+      "dialogue": "色々ありすぎる人生…じゃなくて悪魔生？なので\\どれが俺を憂鬱にさせているのかは、\\心当たりがありすぎて、はっきりとは言えない…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "さっさと、そいつを寄こせ！\\家じゅうを穴だらけにするつもりか！？",
-      "char": "keep",
+      "dialogue": "「心当たりがありすぎて、はっきりとは言えない」\\っていう顔してるね～",
+      "char": "c061_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "right",
+      "distance": "near"
     },
     "9": {
       "type": "talk",
-      "dialogue": "イーーッ！",
-      "char": "c083_01",
+      "dialogue": "話したくないなら仕方ないか～\\無理しなくていいよー。その代わり～\\…応援の気持ちを込めて歌を捧げちゃうー！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "one_ani": "attack"
     },
     "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "タイトルは「夜中、迷える少女は悲しみの果てに\\分かれ道の左で悪魔様に出会った」！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "11": {
-      "type": "curtain",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "タイトル長っ！\\っていうか、また変な歌を…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "12": {
       "type": "talk",
-      "dialogue": "やめろって！\\…待て！銃口をこっちに向けるな！暴力反対！\\こいつ！躊躇わず引き金を引きやがった！",
-      "background": "back",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "分かれ道の左で出会った私の悪魔様♪\\使徒は言われるままに付き添い従った♪",
+      "bgm": "32",
+      "char": "c061_01",
+      "speaker": "same",
+      "pos": "right",
+      "loop_ani": "attack"
     },
     "13": {
       "type": "talk",
-      "dialogue": "運よく弾は外れて、俺の背後の壁に直撃。\\無残な穴が空いた。危なかった…\\俺の頭にあんなふうに風穴が空くところだったぜ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "この忠誠心♪笑いたいなら笑えばいいさ♪\\わかる人だけわかればいい♪\\負け犬に優しい弱虫デビル♪\\イエイッ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "loop_ani": "attack"
     },
     "14": {
       "type": "talk",
-      "dialogue": "当たったら死ぬだろ！",
-      "background": "bg086_f",
-      "bgm": "9",
+      "dialogue": "ちょ、今何時だと思ってるんだ！\\大声で歌うな！あと、恥ずかしいからやめてくれ！",
       "char": "c000_01",
       "speaker": "same",
-      "facial": "shock"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ネイトは俺の怒鳴り声に\\びくっとしたように体を竦めた。\\そして見開いた目で俺を見る。\\まるで、今目を覚ましたように…なんだこいつ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あらあら～？\\逃げるのはまだ早いよ！4番まであるんだから！",
+      "char": "c061_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "shake_weak"
     },
     "16": {
       "type": "talk",
-      "dialogue": "もういいから、その物騒なものを早く仕舞って…",
-      "char": "c000_01",
+      "dialogue": "走れない分かれ道の悪魔♪信号は青にならない♪",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "loop_ani": "attack"
     },
     "17": {
       "type": "talk",
-      "dialogue": "危なかったじゃないか！",
-      "char": "c083_01",
+      "dialogue": "まいったな、こりゃ…\\歌い終わるまで止まらないってか…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "serious"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…？それ、俺のセリフなんだけど…",
-      "char": "c000_01",
+      "dialogue": "てゆーか、この伴奏、何？\\ギターなんか持ってないし、スピーカーもアンプも\\ウーハーもないのに、どっから音出してるんだよ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "御主人様、何をそんなに騒いで…御主人様！？",
-      "char": "c002_01",
+      "dialogue": "悪魔様ったら、つまらないことを聞くんだね～\\当然、私の魔力で音を出しているんだよー！",
+      "char": "c061_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "before_effect": "enter_from_right_fast"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "大丈夫ですか？",
+      "dialogue": "これも悪魔様が\\私を強いチャイルドにしてくれたおかげ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あ、リザ。大丈夫だよ、なんでもない。",
+      "dialogue": "無駄に使えるくらい余裕があるなら、\\俺にちょっとは分けてくれよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "haah"
     },
     "22": {
       "type": "talk",
-      "dialogue": "何でもなくないです！下手したら御主人様が…",
-      "char": "c002_01",
+      "dialogue": "あとさ、\\こんな時間に重低音ギュインギュイン言わせて\\そんな大声で歌ってると人間たちに怒られるぞ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ネイト！あなたが！？",
+      "dialogue": "この辺りの人間はすごく怖いんだからな！\\後悔するなよ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "angry"
+      "pos": "left",
+      "facial": "pretense",
+      "after_effect": "shake_weak"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だって…だって！",
-      "char": "c083_01",
+      "dialogue": "ふーん、そんな子供だましの脅しに\\素直に引き下がるチャイルドがいるとでも～？",
+      "char": "c061_01",
       "speaker": "same",
       "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "「だって」じゃないです…！\\土下座して謝っても足りないぐらいなのに…！",
-      "char": "c002_01",
+      "dialogue": "本当に止めてほしかったらこう言ってよー！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "angry"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "もういいよ、リザ。2人とも無事だったんだから。",
-      "char": "c000_01",
+      "dialogue": "「君の歌を僕以外の誰にも\\聞かせたくないからやめてくれ」\\…キャー！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "27": {
       "type": "talk",
-      "dialogue": "御主人様！御主人様にも責任があります。\\チャイルドが間違ったことをしたら、\\諫めるのも主の務め。",
-      "char": "c002_01",
+      "dialogue": "き、君の歌を…ぼ…うへ～ムズがゆい…\\大体なんで俺がこんなこと言わなくちゃ\\いけないんだ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake_weak"
     },
     "28": {
       "type": "talk",
-      "dialogue": "何で俺が怒られるの！？",
-      "char": "c000_01",
+      "dialogue": "うーん、まあ、あんまり期待してなかったし\\いいやー",
+      "char": "c061_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "本当に…御主人様とチャイルドたちを見ていると\\ハラハラして仕方ありません。",
-      "char": "c002_01",
+      "dialogue": "あーもうどうでもいいや。\\とにかく歌うんだったら時と場所を考えろよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "fury",
+      "after_effect": "go_to_left_slow"
     },
     "30": {
       "type": "talk",
-      "dialogue": "わかった、わかったよ。",
-      "char": "c000_01",
+      "dialogue": "…ご機嫌は直ったみたいだね…\\でも、相変わらず眉間にシワ寄ってるし…\\それも面白いんだけどね！",
+      "char": "c061_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ネイト！あなたは今すぐあの穴を修繕しなさい。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "after_effect": "go_to_right_point"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…フン。",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "うう、お小言大魔王め…やっと行ったか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ネイト、大丈夫か？ケガ、してないよな？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "…パパ。リザの言うとおりだよ。\\あんたの問題は…",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "あまりにも甘すぎるところだよ。",
-      "char": "keep",
-      "speaker": "same",
+      "pos": "right",
       "distance": "near"
     },
-    "37": {
-      "type": "talk",
-      "dialogue": "はは。\\じゃあ、お前に説教をして罰でも与えろって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "それは嫌だ。",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "だろ？まあ、部屋はすごいことになったけど、\\誰もケガしてない。それでいいじゃん。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "一度失敗したら、\\同じことを繰り返さなきゃいいだけだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "ということで、家での銃火器の使用は禁止にしよう。わかったな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "…わかった。今回はパパの言うとおり\\イイ子にしといてやるよ。",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "…お前がそんなに素直に言うことを聞くなんて…\\いつもこうなら可愛いのにな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "パパにそんな風に言われると…\\また反抗したくなるんだけど？",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "それはやめてくれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "cry"
-    },
-    "46": {
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

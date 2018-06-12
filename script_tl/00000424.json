@@ -2,302 +2,268 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…ありがとう。\\あなたの占いのおかけで、猫を助けられたわ。",
-      "background": "bg016_f",
-      "bgm": "9",
-      "char": "c127_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "はあ…\\モナさん、私の悩み聞いてくれませんか？",
+      "background": "bg101_f",
+      "bgm": "31",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お礼なんていいよ。\\実際に猫を助けたのは君だからね。",
-      "char": "c113_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "あら、どうしたの～？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "でも、あなたが警告してくれたおかげで、\\事故を避けられた。",
-      "char": "c127_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "欲しいものがあるんですけど\\悪魔さんがお金を持っていないせいで\\買えないんです…",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
     },
     "4": {
       "type": "talk",
-      "dialogue": "だから、それは俺の力じゃない。\\君は君自身の力で、未来を変えたんだ。",
-      "char": "c113_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ツッコミどころ満載な悩みね…",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "もう俺と会わないほうがいい。\\君のためにも、これ以上占ってあげる事は出来ない。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ああ、どうして悪魔さんは\\お金持ちじゃないんでしょう？",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ファン…",
-      "char": "c127_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "NO金持ち！\\NO金持ち！金なし！サル！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
     },
     "7": {
       "type": "talk",
-      "dialogue": "まだ自分の力を信じられないなんて…\\相変わらずね、あなたって子は…",
-      "char": "c127_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "そうね～\\誰でもお金持ちになれるわけじゃないし…",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "お金持ちの悪魔に交換したいです。\\…交換…悪くないかも！",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うわっ！驚かせるなよ、バステト…\\そうやって急に出てくるの、やめてくんない？\\第一、どこから出てきてるんだ？",
-      "background": "bg086_f",
-      "bgm": "25",
+      "dialogue": "おい、俺は物じゃないぞ…\\そもそも、誰と交換するつもりだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "before_effect": "enter_from_left_fast"
     },
     "10": {
       "type": "talk",
-      "dialogue": "試しにあなたもやってみたらどう？\\かくれんぼみたいなものよ。",
-      "char": "c127_01",
+      "dialogue": "やだ！盗み聞きしてたんですか？\\悪趣味な悪魔さんですね！",
+      "char": "c106_01",
       "speaker": "same",
-      "distance": "normal",
-      "one_ani": "attack"
+      "distance": "far",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "かくれんぼ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "出た！サル！しゃべるサル！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そうよ。誰にも見つからないように、身を隠すの。",
-      "char": "c127_01",
+      "dialogue": "サルって言うな！",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused",
+      "mvd": "ux/talk/efx_script_angry_set.mvd",
+      "mvd_pos": "left_top"
     },
     "13": {
       "type": "talk",
-      "dialogue": "誰にも見つからないように…か。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "金なし！モンキー！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そんなことが出来りゃ、\\リザのお説教からも逃げられるな。",
-      "char": "keep",
+      "dialogue": "サルもモンキーも同じだろ！\\そうやって悪口言いまくるのは、\\悪趣味じゃないのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "よし決めた。お前みたいに\\サッと消える方法を教えてくれよ。",
-      "char": "keep",
+      "dialogue": "盗み聞きする方がもっと悪趣味です！\\許してほしければ、この限定人形を買ってください。",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "far"
     },
     "16": {
       "type": "talk",
-      "dialogue": "簡単よ。影の中に隠れればいいの。",
-      "char": "c127_01",
+      "dialogue": "なんで俺が許しを乞わなきゃいけないんだ…\\…まあ、そんなに高くなければ\\買ってやらないこともないけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "影？",
-      "char": "c000_01",
+      "dialogue": "今ならお買い得ですよ！\\限定版なのに、55人で買えちゃいます♥",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "far"
     },
     "18": {
       "type": "talk",
-      "dialogue": "灯台下暗し。外敵の影に隠れれば、\\誰もあなたを見つけられないわ。",
-      "char": "c127_01",
+      "dialogue": "55人…って樋口一葉がか？\\どこがお買い得だよ…俺には1人でも大金だ！",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "19": {
       "type": "talk",
-      "dialogue": "影の中に隠れろって…無理だろ…",
-      "char": "c000_01",
+      "dialogue": "ちぇっ……せっかく高い人形を\\手に入れられると思ったのに。\\サルに期待したのが間違いでした。",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "distance": "far"
     },
     "20": {
       "type": "talk",
-      "dialogue": "お前以外に出来るとは思えないぞ…",
+      "dialogue": "金なしサル！モンキー！ゴリラ！キングコング！",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": " watson",
+      "distance": "far"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ふ~ん…\\せっかく教えてあげたのに、不満そうね…\\別にやりたくなければそれでいいのよ。",
-      "char": "c127_01",
+      "dialogue": "サルじゃないって言ってるだろ！",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "left",
+      "before_effect": "shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "せめて、もっと簡単な方法で頼む…\\最近、リザの小言がひどくなってきたから、\\隠れたいんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
+      "dialogue": "アウストラロピテクス！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "pos": "center",
+      "distance": "far",
+      "before_effect": "none",
+      "one_ani": "attack"
     },
     "23": {
       "type": "talk",
-      "dialogue": "へえ…どんな風に、ひどくなってきたの？",
-      "char": "c127_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "前までは、1日に1度でいいから\\とにかく契約して来いって言ってたのに。",
+      "dialogue": "だから俺はサルじゃ…\\あ？アウス…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "うふふ、そんな困った顔しなくても\\検索すれば出てきますよ～♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "今じゃ、1日にチャイルド5人を連れて来いって\\言うんだぞ。",
-      "char": "keep",
+      "dialogue": "褒め言葉だから調べなくてもいいですよ。\\ね？アウストラロピテクスさん。",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "distance": "far"
     },
     "26": {
       "type": "talk",
-      "dialogue": "昨日なんて、俺よりチャイルドのほうがマシだって\\言われた。",
-      "char": "keep",
+      "dialogue": "ほんとに褒め言葉なのか？一体、どんな意味が…\\あ、これか。「アウストラロピテクス」とは…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "smile"
     },
     "27": {
       "type": "talk",
-      "dialogue": "チャイルドのほうがマシって…ひどすぎないか？\\いくら何でも言いすぎだろ！血も涙もないやつだ！",
+      "dialogue": "って、全然褒め言葉じゃないじゃん。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "unfair",
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
       "before_effect": "shake"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あそこまで不愛想だと、誰も嫁に貰ってくれないぞ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
+      "dialogue": "バカザル！アホザル！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "29": {
       "type": "talk",
-      "dialogue": "なんですって？",
-      "char": "c002_01",
+      "dialogue": "サルじゃないっつーの。\\いい加減にしろ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "serious",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "30": {
       "type": "talk",
-      "dialogue": "リ、リザ？ええっと、何というかですね…\\バ、バステト、助けて…",
-      "char": "c000_01",
+      "dialogue": "そんなに怒らなくても～♥\\好きな子ほどいじめたくなっちゃうんですよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "facial": "pretense"
     },
     "31": {
       "type": "talk",
-      "dialogue": "バステトなんていませんよ。\\そんなことより御主人様…\\先の発言について詳しく説明して下さい…",
-      "char": "c002_01",
+      "dialogue": "そんなわけないだろ…\\好きなら何でいじめるんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "serious"
+      "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "バ、バステトがいないっ！\\ついさっきまでそこにいたのに！",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "distance": "far",
+      "before_effect": "go_to_right_slow"
     },
     "33": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "…あら～？図星だったのかしら～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "tempt"
     },
     "34": {
       "type": "talk",
-      "dialogue": "ふふ、怒られてる怒られてる。\\なんてからかい甲斐のある悪魔なのかしら。",
-      "background": "dungeon_bg",
-      "char": "c127_01",
+      "dialogue": "な、なんだよ。何で急に黙るんだ？\\おい、メーデイア？どこ行くんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left"
     },
     "35": {
       "type": "talk",
-      "dialogue": "でもね、悪魔さん。\\他の奴らは、あなたをからかうだけじゃ\\気が済まないかもよ？",
-      "char": "keep",
+      "dialogue": "ご主人さまってば♥\\ほんと、罪な男ですね～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "center"
+      "distance": "near",
+      "facial": "pretense"
     },
     "36": {
-      "type": "talk",
-      "dialogue": "せいぜい、気を付けることね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

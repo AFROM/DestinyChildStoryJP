@@ -2,253 +2,379 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "久しぶりね、今戻ったわ。",
-      "background": "bg089_f",
+      "dialogue": "フォルトゥナのサイコロが、\\俺の足元に転がってきた。",
+      "background": "bg086_f",
       "bgm": "9",
-      "char": "c035_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ベルセポネが所かまわず床から現れるのにも\\そろそろ慣れてきた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…これで、33回目。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ああ、契約者の父親には会ってきたのか？",
-      "char": "c000_01",
+      "dialogue": "あら、数えてるの？",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "今は<color=ff9900>魔界</color>にいるから\\面会できないの。",
-      "char": "c035_01",
+      "dialogue": "そうでもしないと、止めそうもないからな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "来月<color=ff9900>審判</color>を受けるようだけど\\早めに書類の準備はしないといけないわ。",
-      "char": "keep",
+      "dialogue": "そう？どうせなら、100回までやる？",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "落ち着きすぎだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "100回？イヤだよ！\\33回だってすごいなと思ってるのに！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "元々、契約者の願いは素朴なものだった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "これが根性ってやつかしら？\\ワタシにもあるみたいね、根性。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "…そうですかぁ。\\んじゃ、100回目指して頑張ってくださーい。\\俺が数えてやるから。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "9": {
       "type": "talk",
-      "dialogue": "私、願い事なんてないけど…",
-      "background": "bg019_f",
-      "char": "c035_00",
-      "speaker": "same_full",
+      "dialogue": "ふふ。",
+      "char": "c020_01",
+      "speaker": "same",
       "pos": "right",
-      "screen_effect": "gray"
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "願い事がないなんて！考えてみて！\\ナイスバディーになりたいとか、\\いい成績をとりたいとか。",
-      "char": "c003_01",
+      "dialogue": "なんだよ、何か不満でもあるのか？\\サイコロばっか転がしてないで、\\はっきり言えばいいじゃないか。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "before_effect": "shake",
-      "screen_effect": "gray"
+      "pos": "left",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "世界一周したいとか、お金持ちになりたいとか！",
-      "char": "keep",
+      "dialogue": "大きく出たものねぇ？\\おチビさんに、\\お姉さまの気持ちが理解できるのかしら？",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left",
-      "screen_effect": "gray"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "これって…アンケートとか何かかしら？",
-      "char": "c035_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "screen_effect": "gray"
+      "dialogue": "お前の気まぐれなんて俺には理解不能なんだ。\\ちゃんと言葉にしてくれよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "私は…\\少し前にお父さんが亡くなったんだけど…",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "言葉に…ね。いいわ。",
+      "char": "c020_01",
+      "speaker": "same",
       "pos": "right",
-      "screen_effect": "gray"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お父さんが<color=ff9900>素敵な場所</color>に行ってくれたらいいな…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "screen_effect": "gray"
+      "dialogue": "フォルトゥナは\\サイコロを拾い上げて、話し始めた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ホントは、いつも悩んでいたのよね。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "人間ってホント欲張りだよね！\\",
-      "background": "bg105_f",
-      "char": "c003_01",
+      "dialogue": "アンタも知ってるだろうけど、\\ワタシは満足できない女だし。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "素敵な所に送ってほしいって。\\そんなすっごい願い、どうやって叶えるわけ？",
+      "dialogue": "サイコロをいくら転がしても、答えなんて出ない。\\あーあ。どこに向かえばいいのやら…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "それがそんなにすごい願いか…？",
+      "dialogue": "そのデタラメなサイコロに何を期待してんだよ？\\どうせ1しか出ないじゃないか。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "<color=ff9900>《素敵な場所》</color>って、\\どれだけ競争率高いか知ってる？\\<color=ff9900>《最悪な場所》</color>に行く方が何百倍も簡単だよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "俺はフォルトゥナの手からサイコロを奪った。\\手の中で転がしてみると…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "20": {
       "type": "talk",
-      "dialogue": "少しはこっちの身も考えて欲しいよね！",
-      "char": "keep",
+      "dialogue": "あれっ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "21": {
       "type": "talk",
-      "dialogue": "誰がそんな願いを…",
-      "char": "c000_01",
+      "dialogue": "ふふ。",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "調べたところ、父親は既に\\<color=ff9900>《素敵な場所》</color>には行けず",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "なんだ、普通のサイコロじゃないか。\\こないだのとは違うのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "結局探し出したチャイルドは、\\魔界とあの世を行き来する\\自称、魔界ネゴシエーターだった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あの時と同じサイコロよ。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "まあ…本人は一生懸命なようだけど。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ウソだ。あの時は全部の面が\\1だったはず…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "25": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "運ってのは、見方によって\\解釈が違ってくるものよ。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そういえば初めてみるネックレスだな、それ。",
-      "background": "bg086_f",
+      "dialogue": "どういう意味だ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "あ、魔界で会った悪魔からもらったの。",
-      "char": "c035_01",
+      "dialogue": "だから、問題はサイコロじゃなくて\\ワタシにあるってこと。",
+      "char": "c020_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "none"
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あっちの物を身につければ\\好感をもってもらえるからって。",
+      "dialogue": "「つまらない、退屈だ」って言い続けてたら、\\サイコロにもそれがうつっちゃったみたい。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "次はコウモリの羽でも付けてみようかしら。",
-      "char": "keep",
+      "dialogue": "何かよくわかんねーな…\\ただのトリックなんじゃないのか？手品とかさ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "それで、父親を《素敵な場所》に\\送ることはできそうか？",
-      "char": "c000_01",
+      "dialogue": "手品もいいわね。\\どんな結果が出るかわからないショーは素敵。\\でも、ワタシにはやっぱり賭け事のほうが\\合ってるわ。",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "まあ…1万年くらいかかるかな…\\1万年なんてすぐよ。",
-      "char": "c035_01",
+      "dialogue": "ワタシの運を試すにはもってこいの、\\一番熱くて確実な方法だもの。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "distance": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "すぐなのか、それって…",
+      "dialogue": "運試し、ねえ…\\俺は最近、自分の運のなさを確認してるよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal"
     },
     "33": {
+      "type": "talk",
+      "dialogue": "運のなさ？魔王争奪戦のこと？",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "そう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "それ、いいかも？",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…いきなりなんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "新しい賭けの話よ。何にするか決めたわ。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ふーん…よくわからないけど、\\これ以上サイコロ転がして\\時間を潰さなくてもいいなら、よかったんじゃない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "じゃ、そういうことだから。よろしく。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "へっ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "だから、新しい賭けの話だってば。\\今さっき、ワタシの運をどこに賭けるかを決めたの。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "えっと、まさかとは思うけど…俺？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "そうよ。勝率が低いほど、スリルがあっていいわ。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "…純粋に頑張れって応援してくれたほうが\\よっぽどありがたいんだけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "いいじゃない、ワタシは本気よ？\\さあ、おチビさん、ワタシの勝利のために、\\レースに勝ってちょうだいね♪",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "…競走馬扱いかよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "mvd": "ux/talk/efx_sigh.mvd"
+    },
+    "47": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

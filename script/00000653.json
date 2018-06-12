@@ -2,302 +2,229 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いらっしゃいましたか、ヤナ様。\\またの名をっ！《闇を切り裂く黒き蝶》！！",
-      "background": "bg024_f",
-      "bgm": "4",
+      "dialogue": "アタランテ！",
+      "background": "bg177_f",
+      "bgm": "12",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense",
-      "after_effect": "shake"
+      "facial": "idle",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "… \\…！",
-      "char": "c221_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "dialogue": "俺は誰かの背後を\\こっそり追っていたアタランテを捕まえた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "痛っ！\\なんだよっ！主人を叩くなんて！",
-      "char": "c000_01",
+      "dialogue": "悪魔？",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
+      "pos": "right",
+      "distance": "normal",
       "before_effect": "shake_weak"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前が私の主人である事はわかっている。\\私はお前から始まったのだから…",
-      "char": "c221_01",
+      "dialogue": "ここで何してる！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "しかし、私がまだ《存在》する前の話を\\冗談交じりで喋る事は…",
-      "char": "keep",
+      "dialogue": "しっ！静かにして。バレちゃう。",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "6": {
       "type": "talk",
-      "dialogue": "─────到底、許す事はできない。\\お前に笑われる為に生まれたわけではないからな。",
-      "char": "keep",
+      "dialogue": "今回も殺人事件か？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前に束縛されることで命を得たが、\\だからと言って尊敬と権力をはき違えてはならない。",
-      "char": "keep",
+      "dialogue": "今回は詐欺事件よ、アイツが主犯格。",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "恥ずかしいならそう言えばいいのに…",
+      "dialogue": "今回もボコボコにして\\警察署に突き出すつもりか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…\\お前が私を侮辱し、得るものはなんだ？",
-      "char": "c221_01",
+      "dialogue": "当たり前でしょ。本当ならセシャトに\\みんなの前で直接犯人を暴き出せって言いたいけど",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "お前の心臓は他人を侮辱することで\\動くのか？",
+      "dialogue": "あの子は注目されるのが嫌いだから。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "お前の血は他人を軽蔑することで\\体をめぐるのか？",
-      "char": "keep",
+      "dialogue": "まさか、アイツが頼んだのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "12": {
       "type": "talk",
-      "dialogue": "お前の魂は他人を冷やかすことで\\真の価値を得るのか？",
-      "char": "keep",
+      "dialogue": "セシャトはアイツが\\詐欺師だって証拠を集めればいいって言ってた。",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ならばこのヤナ、お前を主人にすることを\\心から後悔しなければならない…",
+      "dialogue": "でも…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "すまなかった、ヤナ…\\だけど、聞いてほしいんだ…",
+      "dialogue": "でも、って何だよ。\\名探偵様の言うことなら何でも聞いてたくせに。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sad"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "俺はヤナを侮辱すると…\\楽しい。",
-      "char": "keep",
+      "dialogue": "悔しいでしょ、セシャトが犯人を暴いたって、\\いい思いするのは警察なのに。",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "それに俺は、ヤナを軽蔑するのは…\\もっと楽しい！",
-      "char": "keep",
+      "dialogue": "忘れたのか？\\お前たちは人間じゃなくてチャイルドだ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "最後に、ヤナを冷やかすのは…\\最高に楽しい！",
-      "char": "keep",
-      "pos": "left",
+      "dialogue": "でも！",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "near",
-      "facial": "joy",
-      "before_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "screen_effect": "dialog_shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "くっ！わ、私はあの夜の事を後悔している。\\全身全霊で、お前に会った事を心から…",
-      "char": "c221_01",
+      "dialogue": "それにお前が言ってたじゃないか。\\セシャトは注目されるのが嫌いだって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "pos": "left",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "それは残念だな。俺は後悔なんてしてないのに。\\とりあえず俺は…",
-      "char": "c000_01",
+      "dialogue": "それはそうだけど…もったいないじゃない。\\あの天才的な頭脳、私にしか理解できないなんて…",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "第一印象が印象的だった…",
-      "char": "keep",
+      "dialogue": "どうしてお前だけだって思うんだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c221_01",
+      "dialogue": "え？",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "《堕落した友人の魂を救うため》\\《自ら3つの封印門を開き地上へ来た使者》",
+      "dialogue": "俺も知ってる、アイツがどれだけ賢いか。\\ま、俺を全ての犯罪の黒幕にしようとする癖は\\相変わらずだけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "《しかし使者としての力は足りず》\\《黒き悪魔へ救いを求める！》",
-      "char": "keep",
+      "dialogue": "悪魔！知ってたのね！\\セシャトの才能！",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
     },
     "24": {
       "type": "talk",
-      "dialogue": "や、やめろ！\\やめろ、やめろ、やめるんだ！",
-      "char": "c221_01",
+      "dialogue": "ああ、だから次からは\\人をボコボコにしないで…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "after_effect": "shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "くくく、それから何だっけ。\\友を裏切り禁忌を犯した罪として…",
-      "char": "c000_01",
+      "dialogue": "あっ！いつの間にかいなくなってる！\\もう！悪魔のせいよ！",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
     },
     "26": {
       "type": "talk",
-      "dialogue": "うぅ…！消してやる！消滅させ、駆逐して、浄化して捻って、粉砕して魂の最後の欠片まで！",
-      "char": "c221_01",
+      "dialogue": "アタランテ！アタランテ！\\ちっこいくせに足だけは速いな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "27": {
       "type": "talk",
-      "dialogue": "なんでそんなに怒るんだよ！\\お前みたいなチャイルドはいっぱいいるって。",
-      "char": "c000_01",
+      "dialogue": "はあ…詐欺師のヤツ。\\誰かは知らないけど、\\どうか命だけは無事でいてくれ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal",
+      "facial": "confused"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "それにちょっとカッコよくないか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "カッコいい…？",
-      "char": "c221_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "お前は恥ずかしがってるけど、\\お前の契約者は本当に友達を助けたがっていた。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "想像だとしても、誰かを救おうとする行動を\\実践したことは立派だ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "その行動の結果がお前だということも\\カッコいいと思うぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "か、カッコいいだなんて…",
-      "char": "c221_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "うん、カッコいい。黒いガントレットの女剣士！\\悪魔の力が宿った魔剣を片手に持ってな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "昼は眠り、夜に羽ばたく黒き蝶…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "やめろ！やめてくれ！",
-      "char": "c221_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "痛っ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "go_to_left_jump",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "38": {
-      "type": "curtain",
-      "background": "back",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

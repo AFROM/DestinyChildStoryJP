@@ -2,232 +2,33 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "こんにちは～\\<color=ff9900>《アンダーグラウンド》</color>の招待状を頂き、\\参上いたしました♥",
-      "background": "bg158_f",
-      "bgm": "23",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "400600001"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "おほっ、時間ぴったりじゃな。\\いらっしゃい、<color=CC66FF>《闇の種》</color>よ！",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400600002"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "何っ？種？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "none",
-      "voiceid": "400600003"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "随分と、古い呼び方ですね～\\ご主人さま、《闇の種》とは\\魔王候補生の事を言います。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "voiceid": "400600004"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "意味が通じん者がおるとは、悲しいわい…\\これも時代の流れかのう…",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400600005"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "あらあら、\\そんな悲しいこと言わないでくださいな♥\\…それで私たちにどんなご用でしょうか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "400600006"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "新たな魔王争奪戦が始まったと聞いてのう！\\我らは、前回の魔王争奪戦に負けて地下に\\身を隠した存在… ",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400600007"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "つまり<color=ff9900>《負け犬》</color>じゃ。はっはっはっ…\\地上では我らの事を\\野良犬と呼んでいるようじゃがのう。",
-      "char": "keep",
+      "dialogue": "この程度では足りぬ…\\もっと…もっと熱い苦痛を！",
+      "background": "back_dim50",
+      "bgm": "keep",
+      "char": "m051_01",
       "speaker": "same",
       "distance": "near",
       "screen_effect": "dialog_shake",
-      "voiceid": "400600008"
+      "voiceid": "900201015"
     },
-    "9": {
+    "2": {
       "type": "talk",
-      "dialogue": "野良犬って前向きな呼び名じゃないよな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "400600009"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "まあ、見ての通り、魔界に戻る力もない。\\今では、<color=ff9900>《祓魔師》</color>から逃れ、\\この閉鎖された地下鉄に集まって生きておる。",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400600010"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "それで？",
-      "char": "c000_01",
+      "dialogue": "簡単にはいかないようですね。\\どうやら普通の攻撃では無理そうです。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "400600011"
+      "facial": "angry",
+      "voiceid": "900201016"
     },
-    "12": {
+    "3": {
       "type": "talk",
-      "dialogue": "まぁそうあせるでない…\\他に用事があるわけでもなかろうに？",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400600012"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "おう、すまんすまん、じじいの話は退屈か？\\では、ここから本題じゃ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400600013"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "地下に潜った者たちを集め、\\ある程度の群れをつくる事には成功したんじゃが…",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400600014"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "その過程である問題が発覚したのじゃ。\\アンダーグラウンドの悪魔たちが\\<color=ff9900>チャイルドの扱いを忘れて</color>しもうてのぅ…",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400600015"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "<color=ff9900>《退化》</color>した…という事ですか…\\悪魔より人間に近くなったのかしら？\\カールホース様みたいに。",
-      "char": "c001_01",
+      "dialogue": "ダビに任せて！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense",
-      "voiceid": "400600016"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "まさに、その通り。\\チャイルドの扱いを忘れ、\\悪魔としての力が弱まれば…\\あとはわかるじゃろ？",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400600017"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "弱い主人に反発するチャイルドたちが、\\アンダーグラウンド内部で<color=ff9900>《暴走》</color>しておるのじゃ。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400600018"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "<color=ff9900>実戦を経験</color>している魔王候補生たちなら\\チャイルドの扱い方は上手じゃろ？",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400600019"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ドキッ！\\自分はそこまで…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "voiceid": "400600020"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "はい！もちろんですよ～♥\\それで？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "400600021"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400600022"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ゴホンッ。\\それで、我々にどうしろと？\\我々は安くはないですよ♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400600023"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "はっはっはっ！お嬢ちゃん、鋭いな！\\もちろん、ただでやってくれという話じゃない。",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400600024"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "悪魔の戦いは戦況を見る判断力だけではなく、\\いかにチャイルドをうまく使いこなすか。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400600025"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "チャイルドを適切に指揮する能力、\\臨機応変な対応と度胸がないと生き残れん。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400600026"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "アンダーグラウンドで悪魔たちが制圧できなかった\\<color=ff9900>《暴走チャイルド》</color>を片付けてくれ。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400600027"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "成功すれば…\\我らが持っている<color=ff9900>《結構使える資源》</color>を\\プレゼントしてやるわい。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400600028"
-    },
-    "29": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "facial": "idle",
+      "one_ani": "attack",
+      "voiceid": "900201017"
     }
   }
 }

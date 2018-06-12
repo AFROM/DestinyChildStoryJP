@@ -2,81 +2,170 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お、来たな。兄ちゃん！\\よくそんな純正品を持って通れたな！",
-      "background": "bg054_f",
-      "bgm": "none",
-      "char": "c069_02",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "エルメスの頼みで、手分けして《トリ》の追跡に\\向かった俺達だったが…",
+      "background": "bg145_r",
+      "bgm": "12",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "純正品…？",
-      "char": "c000_01",
+      "dialogue": "リザ。見て見て！\\この服とってもカワイイと思わない♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "near",
+      "facial": "tempt"
     },
     "3": {
       "type": "talk",
-      "dialogue": "どうしてその<color=CC66FF>アイテム</color>、チューニングしなかったの？\\何か理由でもあるの？",
-      "char": "c069_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "もしや、そういう趣味？",
-      "char": "keep",
+      "dialogue": "モナ、もう少し真面目に…\\私としては、モナには、そちらの展示されてる服の方が似合うかと思います。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "5": {
+    "4": {
       "type": "talk",
-      "dialogue": "…言葉も出ない。",
-      "char": "c000_01",
+      "dialogue": "さすがリザ！たしかにいい感じね。\\ちょっと試着しちゃおうかしら♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "keep",
+      "fade_out": "normal",
+      "wait": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "まあ、仲良くやろう。冗談だから。\\ほら、ちょっと見て兄ちゃん。",
-      "char": "c069_02",
+      "dialogue": "おおっ、さすがアキバのアトレだね。\\コレクションできそうなものがいっぱいだ！",
+      "background": "bg108_f",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "7": {
       "type": "talk",
-      "dialogue": "うちの店、オープンしたばかりで寂しかったんだよ。",
-      "char": "keep",
+      "dialogue": "ねぇねぇ～ご主人！これなに？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center"
     },
     "8": {
       "type": "talk",
-      "dialogue": "こんな風に会ったのも何かの縁だから、<color=CC66FF>それ</color>こっちにちょっと貸してみて。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "おい！二人ともちょっと待て…",
+      "char": "c000_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "facial": "fury"
     },
     "9": {
       "type": "talk",
-      "dialogue": "私がちゃんと<color=CC66FF>強化</color>してあげるから！",
+      "dialogue": "あれ？アトレ秋葉原にこんな所あったっけ…？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "何をどうしてくれるの？",
-      "char": "keep",
+      "dialogue": "そんな事、どうでもいいじゃないか…\\集中したいから話しかけないで！",
+      "char": "c036_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
+      "facial": "irritation"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ねぇねぇ～ご主人！これ買って～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "joy"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "なんだ、この展開は…\\みんな自分勝手にアトレを楽しんでトリのことを忘れている…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ここは、主人である俺がビシッと言い聞かせるしかないな！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "お前ら！トリのことはどうすんだよ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "…って、おー！\\コレ、超カッコイイな！\\モナ達にばれないように買わなくては…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
       "before_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "こんチキンしょー！\\離せって言っトリだろがー！！",
+      "char": "none",
+      "speaker": "none"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あ、なんか聞き覚えある声～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ああ、すげえわかりやすい。\\でもなんか様子が変だな…急ぐか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ほら！エルメス！さっさとついて来い！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "go_to_left_point"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あっ！まってくれよ！！",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "after_effect": "go_to_left_point"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
     }
   }
 }

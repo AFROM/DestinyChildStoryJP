@@ -2,242 +2,196 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハックション！",
+      "dialogue": "…おい、ピクシー。\\これはどういう状況なんだ？",
       "background": "bg086_f",
       "bgm": "9",
       "char": "c000_01",
-      "speaker": "same",
-      "facial": "serious",
-      "before_effect": "shake"
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "悪魔が風邪をひくなんて…",
-      "char": "c001_01",
+      "dialogue": "何って～？\\ちょっと遊んでただけだよ～？",
+      "char": "c271_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "人間界の冬は寒すぎる…\\家も古くて隙間風が…",
+      "dialogue": "ちょっと？\\これだけ散らかしといてよく言えるな…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "フフ…とりあえず鼻水を拭いてください♥",
-      "char": "c001_01",
+      "dialogue": "ほんとにちょっとだけだもん！",
+      "char": "c271_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "幸いにも、悪魔は人間界のウイルスなんかに\\感染しません。",
-      "char": "keep",
+      "dialogue": "嘘つけ！\\散らかそうと思っても、\\ここまで散らかせないだろ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "fury"
     },
     "6": {
       "type": "talk",
-      "dialogue": "だから、大げさに騒がないでさっさとお仕事に\\いきましょ♥",
+      "dialogue": "全く、イタズラばっかりして…\\ここでは遊ぶなって、いつも言ってるだろ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ふああああ～ん！\\お兄ちゃんが怒ったー！！",
+      "char": "c271_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ブワックション！",
-      "background": "bg033_f",
+      "dialogue": "はあ…俺には子育てなんて無理だ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "facial": "sigh"
     },
     "9": {
       "type": "talk",
-      "dialogue": "鼻水…",
-      "char": "m217_01",
+      "dialogue": "…この部屋の惨状は何ですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "irritation",
+      "before_effect": "enter_from_right_fast"
     },
     "10": {
       "type": "talk",
-      "dialogue": "悪いな、レッドノーズ…\\ハ、ハ、ハックション！体が言うことを聞かない。",
+      "dialogue": "リザ！\\怒る前に俺の話を聞いてくれ！\\これはピクシーの仕業で…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "cry",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "やっぱり変なウイルスにかかったんじゃないか？\\こ、このまま…ハックション！死んだらどうしよ…",
-      "char": "keep",
+      "dialogue": "洋服はすべて床に散らかされ、\\壁には落書きがいっぱいですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "死…ぬ？死ぬ…な…",
-      "char": "m217_01",
+      "dialogue": "その上カーテンは引き裂かれ、本は破かれ…\\これをピクシーがひとりでやったと？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "俺を心配してくれてるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "死んだら…面倒だ…悪魔…の、死体…\\かたづ、け…大変…",
-      "char": "m217_01",
+      "dialogue": "あの小さなチャイルドに、\\本当にそんなことができると思っているのですか？\\嘘をつくにしても、もう少しまともな嘘を\\ついてはいかがです？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "15": {
+    "14": {
       "type": "talk",
-      "dialogue": "ちゃんと聞こえるようにゆっくりと言ってくれる\\なんて。\\本当に優しいのね～",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "どうせなら死ねって正直に言ってくれ。",
+      "dialogue": "嘘じゃないって！\\ピクシーからも言ってくれ。\\早くほんとのことを話さないと\\リザに誤解されるだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "cry"
     },
-    "17": {
+    "15": {
       "type": "talk",
-      "dialogue": "もし、死んだとしてもぜーったいに風邪なんかで\\死なないからな！",
-      "char": "keep",
+      "dialogue": "ふえええ～ん！\\また怒った！お兄ちゃんが怖いよー！",
+      "char": "c271_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "お、おい。\\ここで泣かれたら…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "serious"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ピクシーに罪を押し付けるだけでは飽き足らず、\\脅すとは…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ハックション！",
+      "dialogue": "恥ずかしくないのですか？\\御主人様。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "悪魔…死なない…風邪…なんかで…",
-      "char": "m217_01",
+      "dialogue": "だから、誤解です…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それに…バカは…風邪ひか…ない…",
-      "char": "keep",
+      "dialogue": "教育的指導です。\\こっちに来てください。\\その根性を叩き直して差し上げます。",
+      "char": "c002_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "21": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "違うって言ってるだろ～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "after_effect": "go_to_right_point"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ここは…寒く、ない…暖かい…冬…",
-      "background": "bg047_f",
-      "char": "m217_01",
+      "dialogue": "ふああああ～ん！",
+      "char": "c271_01",
       "speaker": "same",
-      "pos": "left"
+      "screen_effect": "dialog_shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "故郷の…冬、寒い…雪…毎日…さむ、い…",
+      "dialogue": "あ、あれ？お兄ちゃん？\\私をおいて遊びに行っちゃったの？",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "本当に雪原で生まれたみたいにしゃべるんだな！\\そうやってしゃべっても、俺は信じないからなー",
-      "char": "c225_01",
+      "dialogue": "何で誰もいないの？\\お兄ちゃ～ん！ピクシーも連れて行ってよー！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "after_effect": "go_to_right_point"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "俺の記憶にオマエみたいなソリ引きなんていない。\\ニコルのソリ引きは俺がぜーんぶ覚えてるんだぜー",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ワタシは…ソリ引きの…チャイルド…姿が…かわ、った…",
-      "char": "m217_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "姿は変わっても見間違えたりしなーい！\\一体どれだけ勘だけで生きてきたか分かるか？",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "スリの勘ってやつを甘くみるなよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "とにかく！何を企んでいるかは知らないけど\\最後まで見守らせてもらうぜ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "騙そうなんて思うな。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "31": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "32": {
-      "type": "talk",
-      "dialogue": "ワタシの名前は…レッドノーズ…\\赤い鼻の…ソリ引き…",
-      "background": "bg197_f",
-      "char": "m217_01",
-      "speaker": "same"
-    },
-    "33": {
+    "26": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

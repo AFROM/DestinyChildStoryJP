@@ -2,151 +2,242 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "それで…\\何だってコムギが狙われてるんだよ？",
-      "background": "bg070_f",
+      "dialogue": "ハックション！",
+      "background": "bg086_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "詳細は俺にもわからない。\\だが、ある事件に関わっているらしい。",
-      "char": "c012_01",
+      "dialogue": "悪魔が風邪をひくなんて…",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ソレ…どこで手に入れた情報だよ？",
+      "dialogue": "人間界の冬は寒すぎる…\\家も古くて隙間風が…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "黙秘権を行使する。",
-      "char": "c012_01",
+      "dialogue": "フフ…とりあえず鼻水を拭いてください♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あのなぁ…",
-      "char": "c000_01",
+      "dialogue": "幸いにも、悪魔は人間界のウイルスなんかに\\感染しません。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "キャプテン…これも正義の為だ。",
-      "char": "c012_01",
+      "dialogue": "だから、大げさに騒がないでさっさとお仕事に\\いきましょ♥",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "正義の為なら仕方ありませんね。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "なんだよ、アストレア？お前も付いてきたのか？",
+      "dialogue": "ブワックション！",
+      "background": "bg033_f",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ええ。コムギには契約者がお世話になりましたから。",
-      "char": "c014_01",
+      "dialogue": "鼻水…",
+      "char": "m217_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そうか。\\しかし、ある事件ねぇ…",
+      "dialogue": "悪いな、レッドノーズ…\\ハ、ハ、ハックション！体が言うことを聞かない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "やっぱり変なウイルスにかかったんじゃないか？\\こ、このまま…ハックション！死んだらどうしよ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "死…ぬ？死ぬ…な…",
+      "char": "m217_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "俺を心配してくれてるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "11": {
-      "type": "talk",
-      "dialogue": "きっと、縄張り争いだよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "victory"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "人間と犬の縄張り争いだ？そんなわけあるか！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "いいえ、ご主人さま。コムギならあるいは…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
-    },
     "14": {
       "type": "talk",
-      "dialogue": "マジで！？",
-      "char": "c000_01",
+      "dialogue": "死んだら…面倒だ…悪魔…の、死体…\\かたづ、け…大変…",
+      "char": "m217_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そんな事あるわけないでしょう。\\御主人様は犬と同じレベルですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "ちゃんと聞こえるようにゆっくりと言ってくれる\\なんて。\\本当に優しいのね～",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "お前らの連携、今日も冴えてるね…",
+      "dialogue": "どうせなら死ねって正直に言ってくれ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "cry"
     },
     "17": {
       "type": "talk",
-      "dialogue": "キャプテン！",
-      "char": "c012_01",
+      "dialogue": "もし、死んだとしてもぜーったいに風邪なんかで\\死なないからな！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "sulky"
     },
     "18": {
       "type": "talk",
-      "dialogue": "なんだよ？",
-      "char": "c000_01",
+      "dialogue": "ハックション！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "コムギが襲われています！",
-      "char": "c014_01",
+      "dialogue": "悪魔…死なない…風邪…なんかで…",
+      "char": "m217_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right"
     },
     "20": {
+      "type": "talk",
+      "dialogue": "それに…バカは…風邪ひか…ない…",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ここは…寒く、ない…暖かい…冬…",
+      "background": "bg047_f",
+      "char": "m217_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "故郷の…冬、寒い…雪…毎日…さむ、い…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "本当に雪原で生まれたみたいにしゃべるんだな！\\そうやってしゃべっても、俺は信じないからなー",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "俺の記憶にオマエみたいなソリ引きなんていない。\\ニコルのソリ引きは俺がぜーんぶ覚えてるんだぜー",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ワタシは…ソリ引きの…チャイルド…姿が…かわ、った…",
+      "char": "m217_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "姿は変わっても見間違えたりしなーい！\\一体どれだけ勘だけで生きてきたか分かるか？",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "スリの勘ってやつを甘くみるなよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "とにかく！何を企んでいるかは知らないけど\\最後まで見守らせてもらうぜ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "騙そうなんて思うな。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "31": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ワタシの名前は…レッドノーズ…\\赤い鼻の…ソリ引き…",
+      "background": "bg197_f",
+      "char": "m217_01",
+      "speaker": "same"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

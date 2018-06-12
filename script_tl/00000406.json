@@ -2,322 +2,217 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ちょっと前のホウキ事件があった後、\\なんとリザが気前よく掃除機を買ってくれていた。",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "う～ん……これじゃないのかなあ？",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "高価で高性能な物を選びました。\\これからは御主人様ご自身で、\\お掃除なさって下さい。",
-      "char": "c002_01",
+      "dialogue": "ねえねえ、カルカス！ちょっと来てぇ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ここまでしたにも関わらず片付かないようなら、\\その時は御主人様に、またヤーガのホウキを\\握ってもらいますからね。",
-      "char": "keep",
+      "dialogue": "はい、ちびサキュバス様。\\あ、クロスワードパズルですね？",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "4": {
       "type": "talk",
-      "dialogue": "なんだよー、\\それって俺の面倒が増えただけじゃんかー。",
-      "char": "c000_01",
+      "dialogue": "うん！\\でもね、これ見て！なんか合わないの！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "facial": "sulky"
     },
     "5": {
       "type": "talk",
-      "dialogue": "それは私のセリフです。\\御主人様のせいで、来る日も来る日も\\掃除、洗濯、食事の支度まで…",
-      "char": "c002_01",
+      "dialogue": "どれどれ……「長く続くさま」。\\ダビさんが書いた答えは……「永遠と」。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "irritation"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "私は家政婦ではなく、\\あくまで御主人様のサポーターなんですよ！",
+      "dialogue": "ふふ、正しくは「延々と」ですね。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "irritation"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はいはい、わかってますよー。",
-      "char": "c000_01",
+      "dialogue": "えー？\\何よ、あのマヌケ。ダビに嘘ついたのね！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "それはそうと、\\ヤーガはどこに行ったんだ？",
-      "char": "keep",
+      "dialogue": "……ご主人様から教えてもらったのですか？\\「永遠と」って。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "さあ？ホウキを取られないように、\\どこかに隠れているのでは？",
-      "char": "c002_01",
+      "dialogue": "そうだよ！\\何も知らないダビをだますなんて……",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "えっと……ご主人様が……\\いや。ダビさん、ちょっと待って下さい。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もしかしてあいつ…まだエリオスのことで、\\怒ってんのかね？",
-      "background": "dungeon_bg",
-      "char": "c000_01",
+      "dialogue": "もしかすると……僕が間違えて、ご主人様の答えが合ってるかもしれません。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あ、ヤーガ、こんなトコにいたのか。\\気分はどうだ？",
-      "char": "keep",
+      "dialogue": "違う！「永遠と」って書くと\\縦のマスの答えが「永長戦」になっちゃうもん！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "angry"
     },
     "13": {
       "type": "talk",
-      "dialogue": "悪くはありません。\\わざわざ、それを訊きに来たんですか？",
-      "char": "c117_01",
+      "dialogue": "こ、こっちの世界には\\そういう言葉もあるのかも……",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "いや、まあ、そのだな…\\とにかく、元気ならいいんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ところで、他に何かご用ですか？\\命令などあれば…",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あー、だから別に用ってほどじゃないんだ。\\お前の姿が見えなかったからだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "…私を心配して見に来たと？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "まあ、そんなトコだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "面白いですね。\\ご主人様は、悪魔らしくない顔もお持ちで。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "まさか悪魔がチャイルドの心配をするとは…\\悪魔にとってチャイルドは\\道具に過ぎないと思っていましたが…",
-      "char": "keep",
+      "dialogue": "何言ってんの！？\\ちゃんと調べたけど、そんな言葉ないもん！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "あ！わかったー！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "victory"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "カルカスお前、\\ウスラトンカチのこと、かばってるんでしょ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ウスラトンカチ？\\ダビさん……ご主人様のことを、\\そんな風に呼んじゃダメですよ。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "うう……\\チャイルドたちはいっつもウスラトンカチのこと……",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ほらまた……",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ご主人の味方ばかりする……\\カルカスもそうなんでしょ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "どうだろうな…他の悪魔はそんな感じみたいだけど、俺はそういうの、ちょっとなあ。",
-      "char": "c000_01",
+      "dialogue": "そんなことは。\\ダビさんが望むなら、ダビさんの味方になりますよ。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "別に魔王になりたい訳でもねーし…\\何だよ、そんな怪訝そうなツラして？",
-      "char": "keep",
+      "dialogue": "ふーんだ。いつも口だけ……",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "sulky"
     },
     "23": {
       "type": "talk",
-      "dialogue": "私の契約者は、悪魔が願いを叶えてくれると\\本気で思っていました。",
-      "char": "c117_01",
+      "dialogue": "はは。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "お前はそう思ってないのか？",
-      "char": "c000_01",
+      "dialogue": "まあ、とにかく……\\これは飽きちゃったから、ご主人に遊んでもらうー。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "victory"
     },
     "25": {
       "type": "talk",
-      "dialogue": "さあ…私の契約者が願いを叶えるために\\ご主人様を呼んだのは事実ですが。",
-      "char": "c117_01",
+      "dialogue": "はいはい。\\あまり、いじめないであげてくださいね。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "結局ご主人様が彼女と契約を結んだのは、\\ご主人様の目論見通りだったのではないですか？",
-      "char": "keep",
+      "dialogue": "なんかお母さんみたーい！\\わかったよー！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "sulky",
+      "before_effect": "go_to_right_point"
     },
     "27": {
       "type": "talk",
-      "dialogue": "俺を自分勝手な奴だって、\\言いたいのか？",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "まさか。\\かえってご主人様が悪魔らしい行動をしたと\\感心しております。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "バカにされてるのか、本気でそう思ってるのか。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "どーも無表情だから、よくわからん。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…悪魔らしい行動、ねえ。それじゃお前は、\\どうしてそんな自己中なヤツの力を借りたいんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "理由は簡単です。\\悪魔が私より強いからです。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "はあ…何かよくわからんけど、\\これだけはハッキリしたな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "今、誰よりも悪魔っぽいのは俺じゃなくて、\\お前だろーな。",
+      "dialogue": "あの妙な関係には\\どう歩み寄ればいいかわからないな……",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "left"
     },
-    "35": {
-      "type": "talk",
-      "dialogue": "私が…悪魔らしい、ですか？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ホントの所、\\とっくにお前も分かってるんじゃないか？\\俺が人間の真似してる悪魔だってさ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "もしかして…怒っていますか？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "そーだな。\\お前と話していると、腹が立って仕方ないよ。\\俺、もう帰るわ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry",
-      "before_effect": "go_to_left_point"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "強いと言われて…怒ったの？\\本当に、悪魔らしくない悪魔ね。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "40": {
+    "29": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

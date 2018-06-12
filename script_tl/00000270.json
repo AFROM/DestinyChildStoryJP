@@ -2,405 +2,267 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "使用人！お昼ご飯の準備をさせてあげる！\\きょ、今日は…\\あんたが約束したことを実現させてあげるわ！",
-      "background": "bg086_f",
+      "dialogue": "…ディーノは少し変わっている。\\チャイルドは変なヤツが多い気がするけど…",
+      "background": "bg035_f",
       "bgm": "14",
-      "char": "c028_01",
-      "speaker": "same",
-      "distance": "near"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "えっと、酢豚とチャーハンだっけ？\\でも、その前に…",
+      "dialogue": "ん～…",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "……\\  ",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "3": {
-      "type": "talk",
-      "dialogue": "ふふん。ちゃんとお願いしろっていうんでしょ？\\わかってるわよ、使用人よ！\\酢豚とチャーハンを食べさせてください！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "4": {
       "type": "talk",
-      "dialogue": "うんうん、ちゃんと学習してて偉いぞ。\\ついでに、俺のことをしもべ扱いするのも\\やめてくれると嬉しいんだけど。",
-      "char": "c000_01",
+      "dialogue": "んんん～…",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "仕方ないじゃない。\\あんたの顔はどう見ても、王子様じゃないんだから。",
-      "char": "c028_01",
+      "dialogue": "どうした、ディーノ…？\\",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…イケメンじゃなくて悪うございましたね。",
-      "char": "c000_01",
+      "dialogue": "…ハッ！\\お呼びですか、悪魔様！",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "7": {
       "type": "talk",
-      "dialogue": "顔は生まれつきで変えられないけどさ。\\だからって蔑まれる謂れはない。\\ここにいる奴らはみんな平等だ。",
-      "char": "keep",
+      "dialogue": "何ボーっとしてるんだ？\\",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "悪魔のくせに、出来た人間みたいなこと言うのね。\\生意気よ。褒めてほしいんだったら筋違いね。\\この悪魔。",
-      "char": "c028_01",
+      "dialogue": "アッ。ちょっと頭を空っぽにしようと思いまして。\\木のように自然と一体になるって素敵なことじゃ\\ありませんか？",
+      "char": "c011_01",
       "speaker": "same",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "う~ん…\\なんでなんとなく嫌な気分になるんだ…？",
+      "dialogue": "木のように自然と一体って……\\ちっともよくないぞ、それ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "cry"
+      "facial": "confused"
     },
     "10": {
       "type": "talk",
-      "dialogue": "しもべ扱いするなっていうから、\\悪魔って呼んだだけよ。\\気分はどう、この悪魔。",
-      "char": "c028_01",
+      "dialogue": "う～ん……",
+      "char": "c011_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…今わかったけど、こいつの特技は、\\意味もなく相手を挑発することらしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おい！ディーノ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "よし、そういうこと言うんだったら\\酢豚とチャーハンはおあずけな。",
-      "char": "c000_01",
+      "dialogue": "ハッ！？何ですか、悪魔様！\\戦いですか！戦闘開始ですか！",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "13": {
       "type": "talk",
-      "dialogue": "悪魔さま！あたし、中華料理が食べたいわ♥",
-      "char": "c028_01",
+      "dialogue": "しっかりしろ！本当に木になるつもりか？\\そんなことに労力を使うな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "left",
+      "facial": "confused"
     },
     "14": {
       "type": "talk",
-      "dialogue": "豹変した。食べ物への執念恐るべし…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "んー、そうですね。\\それなら、今すぐにでも気を引き締めないとですね！",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ほら、可愛くお願いしたでしょ？\\さあ、中国とやらに電話して\\酢豚とチャーハンを用意して頂戴。",
-      "char": "c028_01",
+      "dialogue": "いい心構えだ。人は考える生き物。これからは…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "まさか本場中国から取り寄せろって言ってる…！？\\こいつ、まさか本気で中華料理を知らないんじゃ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "んんんー…",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "チャーハン～酢豚～♥\\ああ、どんな料理か、楽しみ～♥",
-      "char": "c028_01",
+      "dialogue": "おい！大丈夫か、ディーノ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…こんなに喜んでるのに、\\ダメって言ったら可哀想か…しょうがない。\\中国から、とはいかないが出前を取ってやろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ハッ！？何ですか、悪魔様！\\ブランチですか！ランチタイムですか！",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "20": {
       "type": "talk",
-      "dialogue": "ああ…！これが酢豚にチャーハン…♥\\もう食べていい！？いいわよね！？\\いただきま～…",
-      "background": "bg089_f",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "待て。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "な、なによ犬を扱うみたいに…！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "食べる前にはっきりさせよう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "このパイナップルは嫌いじゃないわよ？\\っていうか好き嫌いはないわよ！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "一部では温かいパイナップルは嫌われてるもんな…\\じゃなくて！\\これを食べたいなら人を小馬鹿にする態度は\\やめてもらおうか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "返事は？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "うう、お腹が…限界…\\わかったわ…これから絶対あんたのこと\\悪魔って呼ぶわ…この悪魔め…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…その含みがある言い方も禁止。\\で、さっき俺、なんて言った？\\小馬鹿にするのをやめろって。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ふーんだ。細かい男はもてないわよ。",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…わかりました。直せばいいんでしょ？\\今、この瞬間からあんたは平等な仲間よ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…本当にそう思ってるのかな？",
+      "dialogue": "お願いだからしっかりしてくれ！\\そんなに木になりたいのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
+    "20": {
+      "type": "talk",
+      "dialogue": "あ、違います！私は歯科衛生士になるのが夢です！\\あ、これは契約者の夢だっけ？ま、いっか。",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "お前の契約者もお前自身もそうだし…\\なんで他人の話に無関心なんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "木になることを望んでいるからでしょうか？",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "望むな！願うな！\\さっきは違うって言っただろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "話してたら気になり始めちゃって。\\",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "こいつの将来が不安になってきた…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "失礼ですね！\\私はこう見えても、努力することが好きなんです！\\今も自然と一体になるために絶賛努力中ですよ。",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "だから、頭を空っぽにするのは努力じゃないって…\\  ",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "う～ん。…それもそうですね。\\それなら、すぐ教えてくださればいいのに。",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "さっきから言ってただろ…\\お前は他人の話を聞かなすぎるんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "別にそんなつもりは…\\その証拠に、これからは悪魔様のために努力します！",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あ、でも私、戦うのはあまり好きじゃないので、\\悪魔様が戦っている時は、心の中で応援しますね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
     "32": {
       "type": "talk",
-      "dialogue": "本当、本当。\\…じゃあ、これもう食べていいのよね？\\あたし、チンしてくるわ♪",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "いや、これは出前だから温かいよ。\\湯気が立ってるだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "…そうなの！？\\それじゃ、これからずっと出前をしましょう♪\\楽チン～♪",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "お前が代金払うなら考えてやってもいいぞ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…ケチ。",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "お金が欲しくて契約した契約者の影響なのか、\\金の話をすると弱気になるんだよな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "それじゃ、今度こそ…\\いっただっきま～…食べていいのよね？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "あー、いいよ。お預けして悪かったな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "えへへ～♥",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "食べ物が絡むとここまで素直になるとは…\\この方法でコイツの高飛車を直せないだろうか…？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "美味いか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shy"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "うん、美味しい♥♥♥",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "これからは、自分のことは自分でするって\\約束してくれればこれくらいまた奢ってやるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "本当！？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "ホント。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "約束ね。ゆびきりげんまん。\\うーそつーいたら、いーちまんえーんはーらう…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "げっ…",
+      "dialogue": "さっき言ってた努力って言葉はどこにいったんだ？\\心の中で応援しても意味ないだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "shock",
       "before_effect": "shake"
     },
-    "49": {
+    "33": {
       "type": "talk",
-      "dialogue": "指きった！\\これで契約成立ね！",
-      "char": "c028_01",
+      "dialogue": "んー…\\",
+      "char": "c011_01",
       "speaker": "same",
       "pos": "right"
     },
-    "50": {
+    "34": {
       "type": "talk",
-      "dialogue": "さて、レダが変わると信じて…俺も昼飯を…\\って！？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ハッ！？無意識に\\頭の中が空っぽに！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
-    "51": {
+    "35": {
       "type": "talk",
-      "dialogue": "…な、ない！？\\まさか酢豚って蒸発するのか！？\\それとも時間制限が…！？",
+      "dialogue": "ああ…やっぱりこいつの将来が不安だ…\\",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "screen_effect": "shake_weak"
+      "facial": "sigh"
     },
-    "52": {
-      "type": "talk",
-      "dialogue": "甘い！これは戦争よ…\\あんたが喋っている間、\\テーブルの上のご飯は全ていただいたわ！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "にしても早すぎだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "こ、こいつには二度と奢らない！！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "55": {
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

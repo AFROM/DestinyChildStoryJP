@@ -2,261 +2,246 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "た、助けてくれ！お願いだ…うわああ！",
-      "background": "bg058_f",
-      "bgm": "18",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "dialog_shake"
+      "dialogue": "準備はよろしいですか？",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うっせえなあ。ったく、この程度で\\俺様が煩わせられるなんてな…",
-      "char": "c037_01",
-      "speaker": "same"
+      "dialogue": "え…俺、ちょっとトイレ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "悪魔め！あっちに行け！\\サインなんて無効だ！無効！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "まったく、人間はこれだから信じらんねえ…\\おい、人間。契約すると言ったのはお前だ。",
-      "char": "c037_01",
-      "speaker": "same"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "いい加減、覚悟決めろや。\\これ以上、ガタガタ抜かすんじゃねえぞ。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "あ、あの時は、お前が悪魔だと知らなかったから…",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "だからなんだ、俺様が悪魔だと分かった所で\\何も変わらねえ。\\契約は契約だ。",
-      "char": "c037_01",
-      "speaker": "same"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "悪魔なんかだと知ってたら、\\契約なんかしなかったよ…！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "おいおい、歴史の勉強が足りねえなあ…",
-      "char": "c037_01",
-      "speaker": "same"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "今の繁栄を築くのに、\\お前達の先祖がどれだけの悪魔と\\契約したか知っているか？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "人間たちだけの力で\\ここまで生き残れたとでも思ってるのか？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "欲を知り、その欲を満たす力をお前達が\\元々持ち合わせたものだと思っているのか？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "よく考えろ。\\お前は欲を満たし、俺様は力を得る…\\悪い話じゃないハズだ。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "い、嫌だ！絶対に契約しない！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ふん…苦労して捕まえた餌だ。\\簡単に手放すわけには…",
-      "char": "c037_01",
-      "speaker": "same"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "いかねえな。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "うわああああ！",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "dialog_shake"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "おい！大丈夫か！さっき悲鳴が…\\どうしてお前がここに？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "enter_from_left_fast"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あー、小僧か。",
-      "char": "c037_01",
+      "dialogue": "少し前に行ってきたばかりではないですか。\\これ以上待てません。さあ、準備してきてください。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "4": {
+      "type": "talk",
+      "dialogue": "ああ、待ってくれ。靴下に穴が空いてる！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "今日は裸足で靴を履いてください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "それじゃ足の臭いが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "大丈夫です。どうせ汗まみれになるでしょうから。\\戻ってきてシャワーを浴びれば足の臭いも\\消えてしまいます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "うう…なんで近くに山なんてあるんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "昨日まで一生懸命働いたんだから…\\今日は休んじゃダメか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "アルバイトのために大目に見てきましたが、\\今日はダメです。\\休日以外にいつ体を鍛えるつもりですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "山なんてなくなっちゃえばいいのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そんな呪い、何度呟いても無駄ですよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ちっ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "リザ！リザ！ハハハ！見たか、俺の呪いの威力を！",
+      "background": "bg036_f",
+      "bgm": "31",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "夜中、山に大きな穴が空いたそうですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ヘヘヘへ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "犯人はバズーカです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ヘヘへ…え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
     "20": {
       "type": "talk",
-      "dialogue": "これは一体…あんた何したんだ？\\あの人間は？まさか死んで…",
+      "dialogue": "まさか本気で呪いだと思ったのですか？\\あんな大胆なこと、御主人様には無理です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "バズーカ！本当なのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "21": {
-      "type": "talk",
-      "dialogue": "ピーチクうるさかったからな。\\面倒な奴は殺して当然だろう？",
-      "char": "c037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "22": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
+      "dialogue": "Positive.",
+      "char": "m059_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "superangry"
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ハハ！ガキらしくない顔だな。\\そんなに怒るなよ、気絶してるだけだ。",
-      "char": "c037_01",
+      "dialogue": "え、いや…山をどうしてくれるんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "24": {
       "type": "talk",
-      "dialogue": "大事な契約者を、むやみに殺せるわけねえだろ。",
-      "char": "keep",
+      "dialogue": "山をターゲットにしろと命じたのは、マスターです。",
+      "char": "m059_01",
       "speaker": "same",
       "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "大事な契約者…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ああ。",
-      "char": "c037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ユダはそう答え、\\倒れている人間を肩に担いだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どうする気だ？",
+      "dialogue": "なくなればいいとは思ってたけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "26": {
+      "type": "talk",
+      "dialogue": "少し前まであんな喜んでいたのに\\心変わりされたようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "チャイルドが起こした厄介事は主人である俺が\\何とかしないとな…でもどうやって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "何とか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
     "29": {
       "type": "talk",
-      "dialogue": "この人間か？\\目を覚ましたら契約書にサインさせるつもりだ。",
-      "char": "c037_01",
+      "dialogue": "俺は知らない！俺は見てない！見てないフリするぞ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious",
+      "after_effect": "go_to_left_point"
     },
     "30": {
       "type": "talk",
-      "dialogue": "…ったく、本当に面倒なシステムだぜ。",
-      "char": "keep",
+      "dialogue": "コントロールさえ上手くできれば\\立派な戦力になると思うのですが…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "助けてくれって声が聞こえた。\\どうして無理やり契約させるんだ？",
-      "char": "c000_01",
+      "dialogue": "無能な御主人様が開けた穴はチャイルドが\\埋めないと。これからも宜しくお願いしますね、\\バズーカ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "子犬が吠えても\\虎はビクともしないだろう？",
-      "char": "c037_01",
+      "dialogue": "Positive. 命令をください。",
+      "char": "m059_01",
       "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "お前のことは気に入ってるが\\他の奴は別だからな。\\だがそれも今のうちだぜ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "俺様がお前を見限ったら、面倒じゃ済まねえぞ。\\優しくしてやってる内に言うことを聞け。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "…やっぱり、あんたの手下にはなりたくないな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ハッ、肝が据わってるな。\\ますます気に入ったぜ。",
-      "char": "c037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "知れば知るほど、面白い奴だよ。お前は。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
       "distance": "near"
     },
-    "38": {
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

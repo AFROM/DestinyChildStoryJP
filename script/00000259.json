@@ -2,379 +2,253 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "フォルトゥナのサイコロが、\\俺の足元に転がってきた。",
-      "background": "bg086_f",
+      "dialogue": "今日こそ…復讐してやるわ。",
+      "background": "bg005_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "char": "c005_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…これで、33回目。",
+      "dialogue": "あー、もううんざりだ！\\いつまでポスティングしてなきゃ\\ならないんだよー。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "facial": "sigh"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あら、数えてるの？",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "今だ！",
+      "char": "c005_00",
+      "speaker": "same_full",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そうでもしないと、止めそうもないからな。",
+      "dialogue": "うわああっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そう？どうせなら、100回までやる？",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "あれ？何よ、またアンタ？",
+      "char": "c005_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "100回？イヤだよ！\\33回だってすごいなと思ってるのに！",
+      "dialogue": "それはこっちのセリフだ！またお前かよ！\\チラシが濡れちゃったじゃないか！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "これが根性ってやつかしら？\\ワタシにもあるみたいね、根性。",
-      "char": "c020_01",
+      "dialogue": "ガキじゃあるまいし、\\いつまで水鉄砲で遊んでるんだよ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…そうですかぁ。\\んじゃ、100回目指して頑張ってくださーい。\\俺が数えてやるから。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
+      "dialogue": "遊びですって！？そんなんじゃないわよ！",
+      "char": "c005_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ふふ。",
-      "char": "c020_01",
+      "dialogue": "わ、わかったよ。わかったから\\そのオモチャをしまえって。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "なんだよ、何か不満でもあるのか？\\サイコロばっか転がしてないで、\\はっきり言えばいいじゃないか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "フン、いい？アタシがやってるのは遊びじゃなくて\\復讐なの！",
+      "char": "c005_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "大きく出たものねぇ？\\おチビさんに、\\お姉さまの気持ちが理解できるのかしら？",
-      "char": "c020_01",
+      "dialogue": "復讐って…\\まだ、ご近所トラブルが解決してないのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "お前の気まぐれなんて俺には理解不能なんだ。\\ちゃんと言葉にしてくれよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "そうよ！上の奴らを今度こそ、\\ビショビショにしてやろうと思ったのに！",
+      "char": "c005_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "言葉に…ね。いいわ。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "アンタのせいで計画が台無しじゃない！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "フォルトゥナは\\サイコロを拾い上げて、話し始めた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "だから、それはこっちのセリフだっての！\\お前のせいで、チラシがビショビショじゃんか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ホントは、いつも悩んでいたのよね。",
-      "char": "c020_01",
+      "dialogue": "それに、この前は謝ったくせに、\\今回は逆ギレかよ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "sigh"
     },
     "16": {
       "type": "talk",
-      "dialogue": "アンタも知ってるだろうけど、\\ワタシは満足できない女だし。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "そ、そんな所にいるのが悪いんでしょ？\\大体アンタ、管理人さんにちゃんと\\許可もらってるの？",
+      "char": "c005_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "サイコロをいくら転がしても、答えなんて出ない。\\あーあ。どこに向かえばいいのやら…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そのデタラメなサイコロに何を期待してんだよ？\\どうせ1しか出ないじゃないか。",
+      "dialogue": "うっ！そ、それは…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "irritation",
+      "before_effect": "shake_weak"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "やっぱりね。\\まあ、チクッたりしないから、安心していいわよ。\\アタシのせいで濡れちゃったのもあるし…",
+      "char": "c005_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "俺はフォルトゥナの手からサイコロを奪った。\\手の中で転がしてみると…",
+      "dialogue": "ふう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "この子は、マルスの契約者だ。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "20": {
-      "type": "talk",
-      "dialogue": "あれっ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
     "21": {
       "type": "talk",
-      "dialogue": "ふふ。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "騒音に耐えかねて\\上の階の住人に水鉄砲で復讐しようとしている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "22": {
       "type": "talk",
-      "dialogue": "なんだ、普通のサイコロじゃないか。\\こないだのとは違うのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "dialogue": "以前、ここでポスティングのバイトをしていた時、\\今と同じように水がかかってしまった経緯があり、\\お詫びに契約してもらったという訳だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あの時と同じサイコロよ。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "それからというもの、このマンションに来るたび\\何故か毎回水を浴びせられる羽目になっている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ウソだ。あの時は全部の面が\\1だったはず…",
+      "dialogue": "…お前さ、正直に言ってみ？\\復讐に成功したこと、一度もないだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "teach"
     },
     "25": {
       "type": "talk",
-      "dialogue": "運ってのは、見方によって\\解釈が違ってくるものよ。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "それは、毎回アンタが出てくるからでしょ！",
+      "char": "c005_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "どういう意味だ？",
+      "dialogue": "俺のせいかよ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
     "27": {
       "type": "talk",
-      "dialogue": "だから、問題はサイコロじゃなくて\\ワタシにあるってこと。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "「つまらない、退屈だ」って言い続けてたら、\\サイコロにもそれがうつっちゃったみたい。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "何かよくわかんねーな…\\ただのトリックなんじゃないのか？手品とかさ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "手品もいいわね。\\どんな結果が出るかわからないショーは素敵。\\でも、ワタシにはやっぱり賭け事のほうが\\合ってるわ。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ワタシの運を試すにはもってこいの、\\一番熱くて確実な方法だもの。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "運試し、ねえ…\\俺は最近、自分の運のなさを確認してるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "運のなさ？魔王争奪戦のこと？",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "そう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "それ、いいかも？",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…いきなりなんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "新しい賭けの話よ。何にするか決めたわ。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ふーん…よくわからないけど、\\これ以上サイコロ転がして\\時間を潰さなくてもいいなら、よかったんじゃない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "じゃ、そういうことだから。よろしく。",
-      "char": "c020_01",
-      "speaker": "same",
+      "dialogue": "今日だって、\\アンタのせいで失敗に終わったんだから。\\いい？次はきっと成功させるんだから、\\邪魔しないでよね！",
+      "char": "c005_00",
+      "speaker": "same_full",
       "pos": "right",
       "distance": "near"
     },
-    "40": {
+    "28": {
       "type": "talk",
-      "dialogue": "へっ？",
+      "dialogue": "はいはい、どうぞ成功させてくださいね！\\お前こそ、次は俺に水かけるなよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused",
+      "before_effect": "shake"
     },
-    "41": {
+    "29": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "30": {
       "type": "talk",
-      "dialogue": "だから、新しい賭けの話だってば。\\今さっき、ワタシの運をどこに賭けるかを決めたの。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "アタシの契約者だけど、不器用ねえ…\\復讐には、緻密な計画と大胆な実行が必要なのに。",
+      "background": "bg005_f",
+      "char": "c005_01",
+      "speaker": "same"
     },
-    "42": {
+    "31": {
       "type": "talk",
-      "dialogue": "えっと、まさかとは思うけど…俺？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "助けてあげたいのは山々だけど、\\アタシも今、敵討ちを頼まれてる相手が多すぎるし…",
+      "char": "keep",
+      "speaker": "same"
     },
-    "43": {
+    "32": {
       "type": "talk",
-      "dialogue": "そうよ。勝率が低いほど、スリルがあっていいわ。",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "こっちが片付いたらアンタの復讐も\\必ず手伝ってあげるから…\\待ってなさい、アタシの契約者。",
+      "char": "keep",
+      "speaker": "same"
     },
-    "44": {
+    "33": {
       "type": "talk",
-      "dialogue": "…純粋に頑張れって応援してくれたほうが\\よっぽどありがたいんだけど。",
-      "char": "c000_01",
+      "dialogue": "一生かかろうと、必ず復讐は成し遂げるわ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "45": {
-      "type": "talk",
-      "dialogue": "いいじゃない、ワタシは本気よ？\\さあ、おチビさん、ワタシの勝利のために、\\レースに勝ってちょうだいね♪",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "…競走馬扱いかよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh",
-      "mvd": "ux/talk/efx_sigh.mvd"
-    },
-    "47": {
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

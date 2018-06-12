@@ -2,255 +2,352 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "蕾さん。もうお家に帰る時間ですよ。",
-      "background": "bg015_f",
-      "bgm": "17",
-      "char": "none",
-      "speaker": "unknown1",
-      "pos": "center"
+      "dialogue": "ヒャヒャヒャ！",
+      "background": "bg086_f",
+      "bgm": "2",
+      "char": "c083_01",
+      "speaker": "same",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "でも、花壇にお水をあげないと\\お花がしおれちゃうから…",
-      "char": "c120_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "こら！家の中では発砲するなって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いいのよ。\\その花壇は、明日取り壊されるんだから。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "あーあー聞こえない！",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そんな…",
-      "char": "c120_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "こんの…調子に乗りやがって…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "5": {
       "type": "talk",
-      "dialogue": "みんなで作った花壇なのに…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "俺は背後からネイトに抱き着いた。\\そして銃を奪いとろうとするが…\\余計に大暴れされてしまった！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "お花が咲くの、楽しみにしてたのに…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "離せえええ！このクソオヤジ！",
+      "char": "c083_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そんな顔しないで。\\そこに新しい建物が建つことになっているから、\\仕方がないのよ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "お前っ！親に向かってなんて口のきき方だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "fury"
     },
     "8": {
       "type": "talk",
-      "dialogue": "でも…",
-      "char": "c120_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "さっさと、そいつを寄こせ！\\家じゅうを穴だらけにするつもりか！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うっ…ううっ…お花、かわいそうだよぉ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left",
-      "before_effect": "shake_weak"
+      "dialogue": "イーーッ！",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "蕾さん…",
-      "char": "c027_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "11": {
       "type": "curtain",
-      "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "美しき花の女神よ。\\なぜこんな場所へ？",
-      "background": "bg015_f",
-      "char": "c027_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "やめろって！\\…待て！銃口をこっちに向けるな！暴力反対！\\こいつ！躊躇わず引き金を引きやがった！",
+      "background": "back",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "13": {
       "type": "talk",
-      "dialogue": "この花壇は、明日には消えてしまうと聞きましたが。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "運よく弾は外れて、俺の背後の壁に直撃。\\無残な穴が空いた。危なかった…\\俺の頭にあんなふうに風穴が空くところだったぜ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…うん。\\でも、お花さん達は咲きたいって言ってるのぉ。",
-      "char": "c120_01",
+      "dialogue": "当たったら死ぬだろ！",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "facial": "shock"
     },
     "15": {
       "type": "talk",
-      "dialogue": "このまま咲けないなんて、可哀想だよぉ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ネイトは俺の怒鳴り声に\\びくっとしたように体を竦めた。\\そして見開いた目で俺を見る。\\まるで、今目を覚ましたように…なんだこいつ？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "心優しいお嬢さん。貴女がそう望むのならば、\\貴女が花を咲かせるまで、\\このキンティアがお守りいたしましょう。",
-      "char": "c027_01",
+      "dialogue": "もういいから、その物騒なものを早く仕舞って…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ありがとぉ。\\マツバボタン、キンセンカ、スミレ…\\みんなフローラのお歌を聴いてぇ！",
-      "char": "c120_01",
+      "dialogue": "危なかったじゃないか！",
+      "char": "c083_01",
       "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "お花さん達の一番綺麗な姿を見せてほしいのぉ。",
-      "char": "keep",
+      "dialogue": "…？それ、俺のセリフなんだけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "idle"
     },
     "19": {
       "type": "talk",
-      "dialogue": "みんなの心を、幸せで満たせるように…",
-      "char": "keep",
+      "dialogue": "御主人様、何をそんなに騒いで…御主人様！？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "normal",
+      "before_effect": "enter_from_right_fast"
     },
     "20": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "大丈夫ですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ご覧になりましたか？あの花壇。",
-      "background": "bg015_f",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "あ、リザ。大丈夫だよ、なんでもない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "22": {
       "type": "talk",
-      "dialogue": "花壇？…まあ、いつの間に咲いたんでしょう。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "何でもなくないです！下手したら御主人様が…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "23": {
       "type": "talk",
-      "dialogue": "わかりません。\\…ですが、このまま取り壊されるのは\\少々もったいないですね。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ネイト！あなたが！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "angry"
     },
     "24": {
       "type": "talk",
-      "dialogue": "そうだわ！せっかくですし、\\工事が始まる前に花壇を移しませんか？\\屋上辺りなら、邪魔になることもないでしょうし。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "だって…だって！",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "いい考えですね。あれほど美しい花壇を\\失くしてしまうのは惜しいですから。\\では、早速。きっと子供達も喜びますよ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "「だって」じゃないです…！\\土下座して謝っても足りないぐらいなのに…！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "angry"
     },
     "26": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "もういいよ、リザ。2人とも無事だったんだから。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…モナ、新しい料理を考案しているようですね。",
-      "background": "bg089_f",
+      "dialogue": "御主人様！御主人様にも責任があります。\\チャイルドが間違ったことをしたら、\\諫めるのも主の務め。",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center"
     },
     "28": {
       "type": "talk",
-      "dialogue": "これは…お花ごはん？",
-      "char": "keep",
+      "dialogue": "何で俺が怒られるの！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そうよ～♥カラフルな物を食べると、\\気分も軽くなるんじゃないかと思って～♥",
-      "char": "c001_01",
+      "dialogue": "本当に…御主人様とチャイルドたちを見ていると\\ハラハラして仕方ありません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "center"
     },
     "30": {
       "type": "talk",
-      "dialogue": "それで花料理…ですか。",
-      "char": "c002_01",
+      "dialogue": "わかった、わかったよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
     "31": {
       "type": "talk",
-      "dialogue": "いけなかったかしら？\\家中がお花だらけだから、\\ちょうどいいと思ったんだけど～。",
-      "char": "c001_01",
+      "dialogue": "ネイト！あなたは今すぐあの穴を修繕しなさい。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "after_effect": "go_to_right_point"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…いえ、名案です。\\フローラの様子から言って、\\しばらくの間は花が増え続けそうですから。",
-      "char": "c002_01",
+      "dialogue": "…フン。",
+      "char": "c083_01",
       "speaker": "same",
       "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ふふ、フローラってばとっても楽しそうだものね～♥",
-      "char": "c001_01",
+      "dialogue": "うう、お小言大魔王め…やっと行ったか。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "sigh"
     },
     "34": {
       "type": "talk",
-      "dialogue": "…さあ、フラワーティーが入ったわよ～♥\\みんなで楽しみましょう～♥",
+      "dialogue": "ネイト、大丈夫か？ケガ、してないよな？",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…パパ。リザの言うとおりだよ。\\あんたの問題は…",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "あまりにも甘すぎるところだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "はは。\\じゃあ、お前に説教をして罰でも与えろって？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "smile"
     },
-    "35": {
+    "38": {
       "type": "talk",
-      "dialogue": "えへへ…みんな幸せになあれ。",
-      "char": "c120_01",
+      "dialogue": "それは嫌だ。",
+      "char": "c083_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "right"
     },
-    "36": {
+    "39": {
+      "type": "talk",
+      "dialogue": "だろ？まあ、部屋はすごいことになったけど、\\誰もケガしてない。それでいいじゃん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "一度失敗したら、\\同じことを繰り返さなきゃいいだけだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ということで、家での銃火器の使用は禁止にしよう。わかったな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "…わかった。今回はパパの言うとおり\\イイ子にしといてやるよ。",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "…お前がそんなに素直に言うことを聞くなんて…\\いつもこうなら可愛いのにな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "パパにそんな風に言われると…\\また反抗したくなるんだけど？",
+      "char": "c083_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "それはやめてくれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "cry"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

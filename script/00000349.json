@@ -2,367 +2,352 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "何ーっ！？\\セイレーンのメジャーデビューが決まった！？",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "めいの人生劇場…始まり、始まり…",
+      "background": "e048_01_f",
+      "bgm": "15",
+      "char": "c048_00",
+      "speaker": "same_full",
       "pos": "center",
-      "distance": "near",
-      "facial": "shock",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そー\\なんでも、メジャーデビューのプロモーション番組をチャンネルEvilで企画してるんだとか…",
-      "char": "c061_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "まずは家庭不和。ケンカの絶えない両親。\\おまけに父親の事業失敗…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
     },
     "3": {
       "type": "talk",
-      "dialogue": "主従契約している身だからって断ったのに、\\それは知ってる、でもぜひ！ってしつこくって…",
+      "dialogue": "それでも、ここまでは、まだマシでした…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same_full"
     },
     "4": {
       "type": "talk",
-      "dialogue": "まあチャンネルEvilなら、悪魔とか\\その取り巻きが見るチャンネルだし、\\構わないんじゃ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "dialogue": "初恋…ストーカーと勘違いされ終了…\\初恋の彼は、恋の相談をしていた幼馴染の女の子と\\くっつきました…",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
     },
     "5": {
       "type": "talk",
-      "dialogue": "それが、プロダクションはその人たちだけど、\\番組は民放で放送するんだって。",
-      "char": "c061_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "まあ、ありがちな話ですよね…",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なんてこった！\\父さんは許さんぞ！民放はダメだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "serious"
+      "dialogue": "3年間頑張って準備した高校入試…\\A型、B型、新型インフルに立て続けにかかって失敗…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "7": {
       "type": "talk",
-      "dialogue": "な、何してもいいって言ったじゃない！\\悪魔様、ひどい！",
-      "char": "c061_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "dialogue": "絶望しました…",
+      "char": "keep",
+      "speaker": "same_full",
+      "before_effect": "go_to_left_slow"
     },
     "8": {
       "type": "talk",
-      "dialogue": "言ったけど！\\でもチャイルドが民放に映っちゃいけない！危険だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "dialogue": "この頃ぐらいに、フレイ様が現れて…",
+      "char": "keep",
+      "speaker": "same_full",
+      "before_effect": "enter_from_right_slow"
     },
     "9": {
       "type": "talk",
-      "dialogue": "もし何か起きても\\俺が責任を取れる範囲内じゃないとダメだ！",
-      "char": "keep",
+      "dialogue": "「おい、絶妙な不幸具合だな」\\「お前を笑ったヤツに復讐したいとは思わんか？」",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ふふーん、さては私がブレイクして\\悪魔様から離れるのが嫌なんでしょ？",
-      "char": "c061_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "とか…あの綺麗な顔で言われたら…\\当然乗っちゃいますよね？",
+      "char": "c048_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "before_effect": "go_to_right_slow"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そうだよ！嫌に決まってるだろ！\\こっち来て、この本を見てみろ。やばいぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "dialogue": "でも、実際フレイ様のチャイルドになったら…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "enter_from_left_slow"
     },
     "12": {
       "type": "talk",
-      "dialogue": "人間界には、祓魔師もいるし…\\罪もない、歩いてるだけの悪魔に\\聖水をぶっかける奴もいるんだ！",
-      "char": "keep",
+      "dialogue": "うわ～ん…\\リザ… うおおん、俺を捨てないでくれ～…",
+      "char": "c051_02",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "far",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ほら、外の世界はこんなに怖いんだ！\\どうしてもテレビに出たければ…",
-      "char": "keep",
+      "dialogue": "フレイ様…落ち着いてください…\\みっともないですよ。",
+      "char": "c048_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "俺がもっと強くなってからにしろ！\\今はまだ早い！待ってくれ！\\父さんの言うことを聞きなさい！",
-      "char": "keep",
+      "dialogue": "知らないくせに！何も知らないくせに！",
+      "char": "c051_02",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
       "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "何時間？何分？何秒、待てばいいの？\\悪魔様、これは束縛と執着以外の何物でもないよ…",
-      "char": "c061_01",
+      "dialogue": "何も知らない…？\\無知でバカな女って意味ですか！？",
+      "char": "c048_01",
       "speaker": "same",
       "pos": "right",
+      "before_effect": "shake",
       "one_ani": "attack"
     },
     "16": {
       "type": "talk",
-      "dialogue": "主人が少しばかり束縛して何が悪い！\\執着して何が悪い！ぜんぶ、お前のためなんだぞ！",
-      "char": "c000_01",
+      "dialogue": "許さない…絶対許さない…\\私はあなたのために魂も捨てたのに…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ホントにメジャーデビューしたいなら…\\リザに相談してみるけど…やっぱり、俺は反対だ…",
-      "char": "keep",
+      "dialogue": "お、おい…\\勝手に話を作るな！\\いい加減疲れたぞ。もう好きにしろ！",
+      "char": "c051_02",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そこまで言った後、\\俺はセイレーンの顔色を窺った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どいつもこいつも気が強くてかなわん！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "考えてみれば、セイレーンの契約者も\\歌手になりたいと言っていた。\\だから自由になりたいと…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "何ですって！？\\都合が悪くなるとすぐそれね！",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "one_ani": "attack"
     },
     "20": {
       "type": "talk",
-      "dialogue": "俺と契約してから、数人の歌手チャイルドから\\レッスンを受けていたらしいが…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "もう我慢できない…これは虐待です…\\私は、もっと大事にしてくれる人を探します…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "それなのに俺としたことが…\\あんなに嫌な思いをしてた契約者と\\同じ思いをさせてしまった…\\このままじゃダメだ、なんとかしなきゃ！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "二重契約をする…という意味か？\\俺よりお前を大事にしてくれる奴なんて\\いないと思うがな。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
     },
     "22": {
+      "type": "talk",
+      "dialogue": "誰だろうが、今よりはマシなはずです！\\ダメならもう疲れました…\\祓魔師に浄化してもらいます…",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "おい、主人の前で浄化されるというのは\\どうなんだ！？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "24": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "23": {
-      "type": "talk",
-      "dialogue": "どうも、可愛らしいチャイルドさん。\\あなたがセイレーンですか？",
-      "background": "bg055_f",
-      "char": "c091_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "わっ、びっくりした！\\ど、どちら様ですか？",
-      "char": "c061_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
     "25": {
       "type": "talk",
-      "dialogue": "えっと…とあるお子ちゃま…\\いや、邪悪な悪魔に依頼された\\謎のボディーガード…",
-      "char": "c091_01",
+      "dialogue": "山あり谷ありの人生だったんだな…",
+      "background": "bg098_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "one_ani": "attack"
+      "facial": "haah"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…と、紹介しろと言われました。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ボディーガード？\\で、そんな方が私に何のご用ですか？",
-      "char": "c061_01",
+      "dialogue": "そうです…\\こうなったら、全部終わらせてしまおうかと。\\…でも、補欠さんの顔が浮かんだのです。",
+      "char": "c048_01",
       "speaker": "same",
       "pos": "right"
     },
+    "27": {
+      "type": "talk",
+      "dialogue": "もう止めてくれよ…\\補欠って言うの！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake_weak"
+    },
     "28": {
       "type": "talk",
-      "dialogue": "「補修は要らない。タダで守ってやろう」\\と言えと、台本に書かれていますね。",
-      "char": "c091_01",
+      "dialogue": "フン…\\呼び方なんてどうでもいいでしょう…",
+      "char": "c048_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "報酬と書きたかったようですが…",
+      "dialogue": "私の名前なんてもっと呆れますよ…\\敵と味方を混乱させる魔女だとか…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "あなた、メジャーデビューするそうですね。\\要するに頭の悪いご主人様が苦肉の策として…",
+      "dialogue": "何だったかしら…？\\《毒のある女》って意味だったような…？",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "…ボディーガード出身のチャイルドでも\\つけてやるか！という結論を下したようです。",
+      "dialogue": "フレイの奴…自分で付けた名前すら憶えてなくて…\\私の名前なんて、私ぐらいしか知らなくて…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "……ホント、バカな悪魔様。",
-      "char": "c061_01",
+      "dialogue": "あのさ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "idle"
     },
     "33": {
       "type": "talk",
-      "dialogue": "そういう方なんです。\\というわけで、セイレーンさんはメジャーデビュー\\したら私と行動を共にしていただきます。",
-      "char": "c091_01",
+      "dialogue": "思い出したら腹が立つ…\\私しかいないみたいなこと言ったくせに…",
+      "char": "c048_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "こんな回りくどい方法を使わないで、\\絶対ダメ、って言い続けてくれてもよかったのに…",
-      "char": "c061_01",
+      "dialogue": "私よりいい女がいるくせに…\\やきもち焼かせたいのかしら？やり方が幼稚なのよ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "…お気持ちはありがたいけど\\私、すでに民放のテレビ出演は、断ったんです。",
+      "dialogue": "私なんて使い道のないただのメスぶ…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "あなたもバカですね。\\でしたら、好きにするといいです。",
-      "char": "c091_01",
+      "dialogue": "どうどう！あのさ、ネヴァン！\\ちょっと落ち着こうか！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near"
+      "distance": "near",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "37": {
       "type": "talk",
-      "dialogue": "お子ちゃま…いや、「邪悪な悪魔」様は…\\愚かで臆病な方ですが…\\簡単に考えを変える方ではありません。",
+      "dialogue": "今の発言はヤバかった！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "二重契約でもなんでも、したいならしてやるよ。\\所有権はどうであれ、フレイもOKしたんだろ？",
+      "background": "bg098_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "名前ぐらい憶えてやるさ。\\お前の望みがそれならな。",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "38": {
-      "type": "talk",
-      "dialogue": "ですよね、ふふ。\\でも、実は他にやりたいことが見つかったんです。",
-      "char": "c061_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "それに、民放は断ったけど、ゲストとして\\チャンネルEvilで1曲お披露目できることに\\なったんです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
     "40": {
       "type": "talk",
-      "dialogue": "それだけでも、嬉しいです。",
-      "char": "keep",
+      "dialogue": "…",
+      "char": "c048_01",
       "speaker": "same",
       "pos": "right"
     },
     "41": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "wait": "longest",
-      "fade_in": "shorter"
+      "type": "talk",
+      "dialogue": "とりあえず帰れ。わかったな？\\何かあったら呼ぶから。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "42": {
       "type": "talk",
-      "dialogue": "これで望んでいることはすべて叶った。\\大きな舞台で、大勢の観客が私の歌声を\\心待ちにしている。",
-      "background": "bg100_f",
-      "bgm": "13",
-      "char": "none",
-      "speaker": "none",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dark"
+      "dialogue": "いま、ネヴァンって…",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "43": {
       "type": "talk",
-      "dialogue": "テレビを見ている何千…何万もの人も！\\私がピックを弾けば私の曲が始まり、\\この空間は数分間、私だけの世界！",
-      "char": "none",
-      "speaker": "none",
-      "pos": "right",
-      "screen_effect": "dark",
-      "one_ani": "attack"
+      "dialogue": "わかったか？\\俺はもう行くぞ。お前も帰れ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "44": {
       "type": "talk",
-      "dialogue": "この場に立つために応援してくれたみんなに…\\感謝の言葉を。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "right",
-      "screen_effect": "dark"
+      "dialogue": "教会の近くはうろつくなよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "go_to_left_slow"
     },
     "45": {
       "type": "talk",
-      "dialogue": "優しい私の悪魔様…貴方のために、歌うから。\\耳を澄まして、よ～く聞いててね！",
-      "char": "c061_01",
+      "dialogue": "覚えてくれた…\\私の名前…",
+      "char": "c048_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "before_effect": "enter_from_right_fast"
+      "pos": "right"
     },
     "46": {
-      "type": "talk",
-      "dialogue": "新曲\\「ワクワクする土曜、分かれ道の悪魔」！！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "47": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

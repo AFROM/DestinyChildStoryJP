@@ -2,330 +2,222 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ディアブロ！キミにきめた！",
-      "background": "dungeon_bg",
-      "bgm": "2",
-      "char": "c000_01",
+      "dialogue": "ビクトリス！ねえ、ビクトリスってばー！",
+      "background": "bg062_f",
+      "bgm": "9",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "after_effect": "shake"
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…決めタ？",
-      "char": "m038_01",
-      "speaker": "same"
+      "dialogue": "ビクトリスとフォルトゥナって、\\どっちが運がいいの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "悪い、ディアブロ。わかりづらかったな。\\出て戦ってくれって意味だったんだ。",
-      "char": "c000_01",
+      "dialogue": "あ？そりゃ、フォルトゥナだ。\\あたしはすでに、ボロ負けしてるしな。",
+      "char": "c202_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "幼稚すぎ！ご主人！\\そんなアニメ、子供が観るものだよ！",
+      "dialogue": "えー！たった、1回負けただけじゃーん！\\次は勝つかもよ～？",
       "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "いやあ、こうでもすれば多少は\\可愛くなるかなって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ディアブロはポケットに入んないもん。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "でもでも、可愛いダビはモナ姉さまの\\ポケットに入るもんねー♪",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "入れ入れ。そして、二度と出て来るな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ふーんだ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…戦ってもいいのカ？",
-      "char": "m038_01",
-      "speaker": "same"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "…今まで待ってたの！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "うわっ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "やーい、グズグズしてるから攻撃されてやんの～",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory",
-      "one_ani": "attack"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "お前な～味方が言う台詞かよ！？\\ディアブロ！早く攻撃するんだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…そうすル。",
-      "char": "m038_01",
-      "speaker": "same"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "もっと早く動いてくれ～！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "下手したら死ぬところだった…",
-      "background": "bg101_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ご主人が鈍すぎるんだよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "俺じゃなくてディアブロだろ？\\遅かったのはあいつなんだし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…でモ、勝った。",
-      "char": "m038_01",
-      "speaker": "same"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "まーな。でもさ、もっと簡単に勝てないわけ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ご主人様、ご主人様！\\ダビ、甘いモノが食べたいなー！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "くそ、こういう時だけ「様」付けしやがって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "一生懸命戦ったから、お腹が空いたんだもん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "angry",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "どこまで偉そうなんだよ…\\ああもう、わかった。でも、高すぎるのはダメだぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ふん、ケチー",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "買ってやるだけありがたいと思え。\\で、何が食べたいんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "superangry"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "フルーツと生クリームたっぷりのクレープ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ディアブロ、お前は？何か食べたいものはあるか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "m038_01",
-      "speaker": "same"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ディアブロは食べたい物がないって！\\そうだ、ダビがディアブロの分まで…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ダメだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ご主人の欲張り！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "angry",
-      "before_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "欲張りは俺じゃなくてお前だろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ディアブロの分までダビが食べるのー！\\ご主人の分もー！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sad",
-      "one_ani": "attack"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "いい加減にしろっての！\\騒ぐなら何も買ってやんないぞ！",
-      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "fury",
       "before_effect": "shake"
     },
-    "38": {
+    "5": {
       "type": "talk",
-      "dialogue": "…アイす…アめリカ―ノ。",
-      "char": "m038_01",
+      "dialogue": "このチビサキュバスめ…\\そんなに、あたしとフォルトゥナが、\\やり合うとこが見てえのか？",
+      "char": "c202_01",
       "speaker": "same",
-      "distance": "near",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ぎくっ！\\べ、別に～？\\ただ、1回の勝負で決めるのは、\\もったいないな～って思っただけで～…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "いいんだよ。\\1回負ければ、充分だ。",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "賭けってのは、そういうもんだからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ええ～。ダビにはわかんなーい！\\なんで、\\次は勝てるかもしれないのに、やんないの～？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
       "one_ani": "attack"
     },
-    "39": {
+    "10": {
       "type": "talk",
-      "dialogue": "ん？",
+      "dialogue": "勝つか、負けるか、確率は2分の1。\\この前負けたんだから、\\次は勝つかもしれないって？",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そりゃ、典型的なギャンブルの落とし穴だぜ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "勝負は、毎回別物だ。\\確率もいつだって半々なのに、\\つい前の勝負を引きずっちまうんだよな、なぜか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "旦那も不思議に思うだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake_weak"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "うっ…\\い、いきなり俺を巻き込むなよ！",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "enter_from_left_fast"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ギャハハ！\\旦那も、次こそあたしが真面目になるって方に、\\賭けてるんじゃないかと思ってさ！",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "アンタも物好きだねぇ～。そうか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "だから、勝手に家出するようなチャイルドを、\\そばに置いてるのかい…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あたしが変わるわけないってのに…な。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…そんなのわからないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あ？",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "結果は予測できても、\\実際にやってみないと、本当の結果はわからない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "例えば、俺がめちゃくちゃすごい悪魔になったら、\\お前はどうする？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "40": {
+    "23": {
       "type": "talk",
-      "dialogue": "食べたいモノ…アイすアめリカ―ノ",
-      "char": "m038_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "…お、教えてくれてありがとう。",
-      "char": "c000_01",
+      "dialogue": "お前だって俺に従うようになるかもしれないだろ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "42": {
+    "24": {
+      "type": "talk",
+      "dialogue": "…ま、そうなるつもりは、さらさらないけどな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "なんだよ、旦那。\\それじゃあ、結果は決まってるじゃねえか。",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…けどまあ、旦那の考えも悪くねえか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "どっちが先に根負けするか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "わかり切った結果が、本当に変わるか。\\もうひと勝負と行きますか！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "toonear"
+    },
+    "29": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

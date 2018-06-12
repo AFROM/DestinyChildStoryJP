@@ -2,336 +2,205 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ああ…！あぐうううっ！うあああ！あううっ！",
-      "background": "dungeon_bg",
-      "bgm": "20",
-      "char": "c180_01",
+      "dialogue": "リザ！ちょっとコレ見てよ！",
+      "background": "bg006_f",
+      "bgm": "4",
+      "char": "c153_01",
       "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c000_01",
+      "dialogue": "何ですか、これは？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ありえぬ！ああ！こんなことはあってはならぬ！",
-      "char": "c180_01",
+      "dialogue": "ぼくが主のために作ったスケジュール表だよ。",
+      "char": "c153_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…えっと、芝居の練習？\\マンモンさ。ちょっと俺の話聞いてくれる？",
-      "char": "c000_01",
+      "dialogue": "スケジュール表…ですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ああ！ああああ！",
-      "char": "c180_01",
+      "dialogue": "うん、主はやる気が足りないからね。\\でもこれがあれば、ハキハキ働いてくれると\\思うんだよ。",
+      "char": "c153_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…どうもマンモンとの話は\\諦めたほうが良さそうです。",
-      "char": "c002_01",
+      "dialogue": "ちょっと目を通してくれないかな？\\サキュバスで一番頭の良いリザなら、\\これの良さを分かってくれると思うんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "left",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "リザもそう思うよな？\\それじゃ、行こうか。",
-      "char": "c000_01",
+      "dialogue": "なるほど、良い判断です。\\そういうことなら、拝見しましょう。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "待つのだ！",
-      "char": "c180_01",
+      "dialogue": "どれどれ…朝7時に起床、健康的でいいですね。\\8時から12時まで「インディー・ジョーンズ」鑑賞？なんですか、これは…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うん？話ちゃんと聞こえてたのか？",
-      "char": "c000_01",
+      "dialogue": "昼食は、狩猟と採取で済ます…\\14時から18時まで、\\ダンジョン探検に備えた訓練…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "理解できぬ！なぜモナさんは\\こんな出来損ないに心を奪われたのか！",
-      "char": "c180_01",
+      "dialogue": "エポナ、これは何ですか…？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "irritation"
     },
     "11": {
       "type": "talk",
-      "dialogue": "プッ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "今、笑ったよな…",
-      "char": "c000_01",
+      "dialogue": "ん？まだ続きがあるよ。\\夜は、ぼくが昆虫の調理を教えようと思うんだけど…",
+      "char": "c153_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "13": {
+    "12": {
       "type": "talk",
-      "dialogue": "いいえ。",
+      "dialogue": "質問に答えてください。これは何なんですか！？\\どう見ても魔王争奪戦とは、何の関係もないですよ！",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "angry",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そんなことないよ。このスケジュールは主の\\精神を鍛えるために組まれてるんだ。",
+      "char": "c153_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "正直に言ってくれ…\\どの辺がおかしかった？\\出来損ない？モナが心を奪われた？",
-      "char": "c000_01",
+      "dialogue": "インディー・ジョーンズシリーズを観ることで\\刺激を受けた主が、槍とナイフを持って\\ジャングルで狩りをするんだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…出来損ない。",
+      "dialogue": "この辺に、ジャングルなんてあるのですか？",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
     },
     "16": {
       "type": "talk",
-      "dialogue": "他人事だからって楽しむなよ。",
-      "char": "c000_01",
+      "dialogue": "まあ、細かいことは気にしないで。\\それで、昼食後は、ロッククライミング、\\鞭の使い方講座、木登りの特訓をするんだ。",
+      "char": "c153_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あの日マンモンの契約者が出会ったのが\\モナじゃなくてお前だったら、\\今頃お前がマンモンの愛しの人になってたかもよ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…そんなおぞましいこと言わないでください。",
+      "dialogue": "木登り？御主人様は猿じゃないですよ？",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal",
       "facial": "irritation"
     },
-    "19": {
+    "18": {
       "type": "talk",
-      "dialogue": "ホントだって。マンモンの契約者の頭の中に\\俺の顔が残ってると思うか？",
-      "char": "c000_01",
+      "dialogue": "猿のように身軽じゃないと、\\探検はできないからね、仕方ないよ。",
+      "char": "c153_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "た、探検ですか…なるほど…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
     },
     "20": {
       "type": "talk",
-      "dialogue": "モナのあのキレイなおっ…\\じゃなくて、顔だけが残っているだろう。\\マンモン然り、あいつの契約者然り、\\女に目がなさそうだもんな。",
-      "char": "keep",
+      "dialogue": "あ、ちょっと口が滑っちゃった！ははは…\\って、ええええ！なんでスケジュール表を\\破っちゃうのさ！？",
+      "char": "c153_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "pretense"
+      "after_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "いくら考えても\\我が貴様より何が劣るのかがわからぬ。",
-      "char": "c180_01",
+      "dialogue": "こんなものは必要ありません。\\燃えるゴミの日にでも出しておきますね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "irritation",
+      "one_ani": "attack"
     },
     "22": {
       "type": "talk",
-      "dialogue": "どうすれば…一体どうすれば\\モナさんの心とあの豊満な体を\\我のモノにできるのだ…あぁっ…",
-      "char": "keep",
+      "dialogue": "ひ、ひどいよ～！",
+      "char": "c153_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "えっと…まずは話を進めようか…",
-      "char": "c000_01",
+      "dialogue": "はあ…やはりこの家でスケジュール管理が出来るのは私だけのようですね…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "えーい！うるさいぞ、出来損ないが！",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "俺の言うことをちゃんと聞けば、モナと上手く行くように手伝ってやるのになあ…\\それでもそんなこと言っちゃう？残念だな～",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "そ、それは本当か？\\だが貴様も、モナさんのことを…",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "違うっ！\\俺は、あんなおっかないお姉さまは好みじゃない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "我を騙そうと企てているのではあるまいな？",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "そんなことないって。信じろってば。\\俺が責任もっていい感じにしてやるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "おお！なんと心強い言葉！\\礼を言うぞ、召し使いよ。",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "め、召し使い？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "そうだ、貴様は今から召し使い…\\いや、召し使い1号に昇格だ！\\側近中の側近だぞ、嬉しいだろう。",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "えっと、その前はなんだったのかな…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ただの愚民…\\小生意気なゴミ虫…",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "あの、もういいです…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…モナとマンモンをくっつけるだなんて。\\本当に出来るんですか、御主人様？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "な、何がだよ？\\それに、俺は努力する、としか言ってない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "はぁ…どういう手を使ってでも\\マンモンのお金を手に入れて、以前のぐうたらな生活に戻りたいようですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "そういうところは悪魔らしいですが…\\そう、うまく行くでしょうか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "味方がひとりもいないな、俺。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "sigh"
-    },
-    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

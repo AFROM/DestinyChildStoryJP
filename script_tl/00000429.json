@@ -2,81 +2,94 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "指みて！\\絆創膏だらけね。アナタ、お裁縫でもするの？",
-      "background": "bg014_f",
+      "dialogue": "御主人様、チャイルドたちの不満が\\だんだんひどくなっています。",
+      "background": "bg086_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "unknown1"
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "しないわ。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "center",
+      "dialogue": "知ってる。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "じゃあ、どうしたのよ、その指。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "知ってるならなぜじっとしているのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "これは…アーチェリーの練習してて。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "center",
+      "dialogue": "俺にどうしろって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "アーチェリー？あ、アナタのお兄さん、\\アーチェリー選手だったわよね。\\アナタも習ってるの？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "御主人様のチャイルドです。\\チャイルドをコントロールするのも\\御主人様の役目です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうじゃなくて…ただの…趣味っていうか…",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "center",
+      "dialogue": "こんなチャイルドは初めてだ。俺にどうしろと。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "趣味？趣味にしては本格的ね。\\指がボロボロじゃない。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "分かりました…あまり気乗りはしませんが、\\モナに助けを求めましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "お兄ちゃんは毎日やってるし。",
-      "char": "c135_00",
+      "dialogue": "モナに？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "left",
       "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "お兄さんは選手で、アナタは趣味なんでしょ？\\そんなのやめて、今日は映画でも\\見に行きましょうよ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "はい。モナは御主人様よりずっと賢いですし、\\御主人様よりもずっと話がお上手ですから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ダメ、今日も練習しないと。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "そうだな。モナはリザよりずっと賢くて、\\リザよりもずっと口が上手いしな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "11": {
       "type": "talk",
-      "dialogue": "趣味って言ったくせに。分かった、好きにして。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ふん！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
     },
     "12": {
       "type": "curtain",
@@ -87,158 +100,238 @@
     },
     "13": {
       "type": "talk",
-      "dialogue": "今日も練習…ああ！ヤダ！\\アーチェリーなんかどうにでもなれ！",
-      "background": "bg070_f",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "よろしくな、モナ。",
+      "background": "dungeon_bg",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "やめるの？",
-      "char": "c135_01",
+      "dialogue": "モナでなんとかできるんでしょうか～？\\はっきりとご主人さまが嫌いだ、\\っていってますけど～。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…？アナタ、誰？",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "お前、この状況を楽しんでるだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そんな経ってないのに、もうやめちゃうの？",
-      "char": "c135_01",
+      "dialogue": "うふふ♥\\もともと興味津々な性格ですからね～。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "え？アナタ、知ってるの？私が何をしてるのか。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そ、それは…\\アナタがアーチェリーの矢を持ってるから…",
-      "char": "c135_01",
+      "dialogue": "なぁ、リザ。本当になんとかなるのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "18": {
+      "type": "talk",
+      "dialogue": "何も言わないでください。私も後悔してるので。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
+    },
     "19": {
       "type": "talk",
-      "dialogue": "そう？それじゃ、アーチェリーを始めて\\そんなに経ってないって\\どうして分かったの？",
-      "char": "c135_00",
-      "speaker": "same_full",
+      "dialogue": "エリオス、ちょっといいかしら～？",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それは…関係ないでしょ。\\重要なのは、アナタがもう諦めようとしてることよ。",
-      "char": "c135_01",
+      "dialogue": "……",
+      "char": "c112_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "アナタには関係ないでしょ。",
-      "char": "c135_00",
-      "speaker": "same_full",
+      "dialogue": "ダメみたいですね～。",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "pretense"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そうね、私の知ったことじゃないわ。\\そうやってすぐ諦める程\\大事なことでもないみたいだし。",
-      "char": "c135_01",
+      "dialogue": "それだけか？もう少し頑張ってみろよ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ち、違う…大事なことよ。\\でも、大変すぎるの。見て、この指。傷だらけよ。",
-      "char": "c135_00",
-      "speaker": "same_full",
+      "dialogue": "モナ、冷たい男性は苦手なんですよ～。\\それでは、あとは頑張ってくださいね♥",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
     },
     "24": {
       "type": "talk",
-      "dialogue": "どんなに力を使っても、弓を引けないの。\\弓の前じゃ、手も足もでないわ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "おい、モナ！\\ダメだ。リザ、お前が何とかしてくれ、な？\\あ、あいつ、どこに逃げた？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "25": {
       "type": "talk",
-      "dialogue": "初めからお兄ちゃんみたいな才能はないのよ。\\お兄ちゃんみたいに強くなるって思った私が\\バカだった。",
+      "dialogue": "いつもはあんなに自信満々なくせに…仕方ない。",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "26": {
       "type": "talk",
-      "dialogue": "お兄さんだって一度で弓を射たと思う？",
-      "char": "c135_01",
+      "dialogue": "エリオス。\\名前を呼ばれたら返事するのが筋だろ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "その人も、何百回も何千回も練習したから\\強くなれたのよ。",
-      "char": "keep",
+      "dialogue": "…人じゃなくて悪魔だろ。",
+      "char": "c112_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "…そうね。\\お兄ちゃんはいつも練習ばかりしてた。\\雨の日も、雪の日も、練習をやめなかった。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "はあ、やっと口を開いたか。\\一体なにがそんなに気に喰わないんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "29": {
       "type": "talk",
-      "dialogue": "お兄さんの努力を認めるなら、ここで諦めちゃダメ。私が手を貸してあげるから、もう一度やってみて。",
-      "char": "c135_01",
+      "dialogue": "ここにいる全てのヤツらだ。",
+      "char": "c112_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "near"
     },
     "30": {
       "type": "talk",
-      "dialogue": "…ありがとう。\\あ、ところでアナタの名前は？",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "…悪魔が嫌いなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "それは後で…後で教えてあげる。",
-      "char": "c135_01",
+      "dialogue": "ああ。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "お前のせいでチャイルドたちが\\どれだけ苦労してるか分かってるのか？\\あれこれ文句をつけてるらしいな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "32": {
+    "33": {
+      "type": "talk",
+      "dialogue": "あいつらが目障りなことをするからだ。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "目障りなことをしてるのは、\\あいつらじゃなくてお前の方だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "何にしろお前はチャイルドだ。\\あいつらはお前の仲間だろ。\\少しは心を開け。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "くだらん。俺が悪魔の仲間だと？",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "まるで思春期の子供だな。\\分かったよ、お前の好きにしろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "はあ…お先真っ暗だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

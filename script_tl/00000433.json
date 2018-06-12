@@ -2,360 +2,213 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "へえ～…で、結局見つからなかったの？\\記憶の中の場所！",
-      "background": "bg006_f",
-      "bgm": "9",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy"
+      "dialogue": "その幽霊は路地にいた。\\野良犬…いや、野良子犬のコムギがたたずむ場所に。",
+      "background": "bg177_f",
+      "bgm": "15",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うん。ポモナがうまく説明できなくて。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "そこでは女子高生と思われる幽霊が、\\壁にもたれてうずくまり、\\めそめそと涙を流していた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そっかぁ…でも、それってさ、\\カルカスなら探せるんじゃない？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "dialogue": "悲しい…辛い…誰か…助けて…\\この悲しみを止めて…",
+      "char": "c115_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…おお！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "どうせすぐに成仏してしまう霊の願いなど、\\犬のコムギ以外には見向きもされないはずだった…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "gray"
     },
     "5": {
       "type": "talk",
-      "dialogue": "こないだ、金属製の棒を曲げてたと思ったら、\\ご主人の部屋から水が出て来たよ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
+      "dialogue": "これ以上…悲しいのはイヤ…",
+      "char": "c115_00",
+      "speaker": "same_full",
+      "screen_effect": "gray"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "水脈を探し当てたのか！\\そうか、その方法があったか！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "screen_effect": "dialog_shake"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "水脈を当てた？\\いえ、金属棒を曲げたのはただのパフォーマンスでして、正確には、直感で話しただけですけどね。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "でも、「記憶の中の場所」ですか？それを探すには、お役には立てると思います。一緒に行きましょうか、ポモナさん。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "…\\…うん。",
-      "char": "c139_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "none"
-    },
-    "10": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "11": {
+    "7": {
       "type": "talk",
-      "dialogue": "そしてカルカスは見事に期待に応え、\\驚くべき早さで道を探し当てた。",
-      "background": "bg030_f",
+      "dialogue": "女子高生の霊はいつの間にか消え、\\今その場所にはソネットが立っていた。",
+      "background": "bg177_f",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "幽霊だけに聞こえる、\\悲しいレクイエムを奏でながら。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "恨めしい人生♬辛いばかりの世の中♬",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ぐすっ、悲しい。悲しすぎる…",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "許して、私が悪かったの…ううっ…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "12": {
       "type": "talk",
-      "dialogue": "「この辺かな？」「こっちかも…」\\と言った感じだった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "わたし死んだの♬まだ若いのに♬",
+      "char": "c115_01",
+      "speaker": "same",
+      "one_ani": "attack"
     },
     "13": {
       "type": "talk",
-      "dialogue": "やはりカルカスは、\\名前にふさわしい能力の持ち主だ。",
+      "dialogue": "どうやら幽霊の契約者と契約を交わしたせいか、\\ソネットは自分がまだ人間だと\\思い込んでいるようだ。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "すごい…！",
-      "char": "c000_01",
+      "dialogue": "あら、ご主人さま。\\魔界から報奨金が出ましたよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "お褒めにあずかり光栄ですが…\\何度か試したものの、",
-      "char": "c082_01",
+      "dialogue": "はい？何の報奨金だよ。\\俺は何もしてないぞ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "運命が決まるほどの大事な出来事には、\\力は発揮できないんですよ。",
-      "char": "keep",
+      "dialogue": "ソネットの歌を聴いて、\\「あの歌を聴くぐらいなら地獄にいるほうがマシ」とたくさんの霊が魔界にやってきたそうです。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "17": {
       "type": "talk",
-      "dialogue": "では、邪魔者はこの辺で。\\必要なら、また呼んでください。",
+      "dialogue": "それで、魔界の刑務所長が、\\感謝状と報奨金を送って来たんですよ。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "go_to_right_slow"
+      "distance": "normal",
+      "facial": "pretense"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あっ、あ…ありがとう…\\行っちゃった…",
-      "char": "c139_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ポモナは、いつも1テンポ遅いよな。\\まあ、そういうところがポモナらしいんだけどね…",
+      "dialogue": "それって良いこと…なのか？\\ソネットの願いは、幽霊退治じゃなかった\\ハズなんだが。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "idle"
     },
+    "19": {
+      "type": "talk",
+      "dialogue": "うふ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "tempt"
+    },
     "20": {
       "type": "talk",
-      "dialogue": "うん、これは悪魔になっても同じ…\\きっとずっと変わらない…",
-      "char": "c139_01",
+      "dialogue": "な、何だよその目は…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そうかもね。\\それより、探してた場所はここ？",
-      "char": "c000_01",
+      "dialogue": "もしかして妙なチャイルドを作ってしまったと、\\それもご自分の力が至らなかったせいだと、\\ちょっと後悔しちゃってますか？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
     },
     "22": {
       "type": "talk",
-      "dialogue": "思ったより近かったね。\\ここだってわかってれば、俺も見つけられたかも！",
-      "char": "keep",
+      "dialogue": "ち、違うって！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "終わってからなら何とでも言えるわ…\\でも、本当に近くにあった。",
-      "char": "c139_01",
+      "dialogue": "もう、ご主人さまったら可愛い♥\\そんなに申し訳なさそうにしなくてもいいのに♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
     },
     "24": {
       "type": "talk",
-      "dialogue": "青い鳥は家の中にいた……\\というおとぎ話の結末と同じね。",
+      "dialogue": "こんなに優しく想われて、うらやましいです。\\墓地に行ったら、亡くなった彼女に\\感激されちゃうかもしれませんね♥",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "陽射しがまぶしい…空気も重い…\\朝から頑張りすぎたなぁ。",
+      "dialogue": "い、いや、そんなコト…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "あのさ、これですっきりしたか？",
-      "char": "keep",
+      "dialogue": "悲しみが止まらない♬\\ああ、うらめしや♪あの詐欺師の悪魔め♬",
+      "char": "c115_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "far",
+      "loop_ani": "attack"
     },
     "27": {
-      "type": "talk",
-      "dialogue": "俺、実はこういう…健康的な人たちが、\\健康な日常を送る場所って、\\あんまし好きじゃなくて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…なら、どうして手伝ってくれたの？",
-      "char": "c139_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "どうしてって…\\俺はお前の主人だからな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "今さらな話だけどさ…\\これは一種のアフターサービスだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "何も知らない女の子を、\\魔王争奪戦に巻き込んだことに対する…\\責任っつーの？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "まあ、大したことはしてないんだけどな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "そんなことしなくても気にしていないのに…",
-      "background": "bg030_f",
-      "char": "c139_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "大丈夫、大丈夫。\\俺がやりたかったんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…あ、あれ？あの人…",
-      "background": "bg030_f",
-      "char": "c139_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "37": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "wait": "longer",
-      "fade_in": "longer"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "夢を、見ました。",
-      "background": "bg082_f",
-      "bgm": "17",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "蝶が飛んでいて、花が咲いていて…\\変わらないわたしがいる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "……こんなに良くしてもらっても、わたしは変わらないのに……",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "それなのに、「大丈夫」って声が聞こえるの。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "いつまでも、繰り返し…\\「無責任な人生も人生だから」って、そんな声が。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "あまり頼りにはしていないけど、",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "本当にこのままでもいいなら…\\もしかするとわたし1人ぐらいは、\\こうやって隠れていてもいいんじゃないかな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "そんなことを考えました。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "篠原しほ。秋のとある日。\\鉛筆で書いた、古い日記より抜粋。",
-      "char": "none",
-      "speaker": "none"
-    },
-    "47": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longer",
       "wait": "normal",
       "fade_in": "normal"
     }

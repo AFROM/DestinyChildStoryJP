@@ -2,270 +2,407 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "諦めた。無理だよ、無理。\\何がなんだかさっぱりだ。",
-      "background": "bg086_f",
+      "dialogue": "うーん…",
+      "background": "bg042_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "sigh"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "男のくせに根気ってものがないな。\\ちゃんと見てろよ。",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "そう言ってプタハは俺に、\\完全に分解された扇風機を指さした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "いくら説明してもらっても\\無理なものは無理だ。\\俺は機械オンチなんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "じゃあ、電球は？それくらいは交換できるだろ？",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "そのくらいできるけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "モナー！",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "今までモナが電球の交換をしてきたけど、\\たぶんモナがいなくても大丈夫よ。",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "そうですよね？可愛いご主人さま♥",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "pretense"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "今までモナに頼んでたのか？そんな簡単なこと。",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "そ、それは…モナが俺より身長が高いからで。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "12": {
+    "2": {
       "type": "talk",
-      "dialogue": "モナ、本当に大丈夫なのか？\\俺はちっとも安心できないぞ。",
-      "char": "c069_01",
+      "dialogue": "御主人様、どうかされましたか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
-    "13": {
+    "3": {
       "type": "talk",
-      "dialogue": "あら、思ったより心が広いのね、プタハって。\\まだご主人さまを信用してるなんて。",
-      "char": "c001_01",
+      "dialogue": "や、あのさ。\\なんかちょっと、変な感じがするんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "きっと気のせいですよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "なんでそう言い切れるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "私は何も感じないからです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "…俺の勘なんて、\\信じる価値がないってことかよ。\\俺だって悪魔なんだぜ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "悪魔の本能が騒ぐことも…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "危ないでござる！",
+      "char": "c054_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "は？レジェンド！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "突然目の前に現れたレジェンドは、\\俺の腕を掴んで、反対側の道に引き寄せた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "御主人様！？いったいどうしたんです…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "center"
     },
+    "13": {
+      "type": "talk",
+      "dialogue": "きゃあっ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle",
+      "before_effect": "shake"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "俺の契約者は何をもってコイツと契約したんだか…",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "慌てて近寄ってきたリザが、\\悲鳴を上げて立ち止まった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ひどいな！扇風機は直せなくても\\今までちゃんと生きてこれたぞ！",
+      "dialogue": "あ…それって、もしかしてアレか…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "しかしダビのヤツ、\\なんで毎回扇風機を壊すんだよ！",
-      "char": "keep",
+      "dialogue": "アレでござるな…",
+      "char": "c054_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "おかげで、とんだとばっちりだ！",
-      "char": "keep",
+      "dialogue": "アレ、とは…？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "center"
     },
     "18": {
       "type": "talk",
-      "dialogue": "おいおい、問題はそこじゃないだろ。\\扇風機一つ直せない奴が、どうやって\\あの大勢のチャイルドを纏めるっていうんだ？",
-      "char": "c069_01",
+      "dialogue": "ネズミを捕まえる仕掛けだよ。\\ネバネバしてて、一度くっついたら、\\絶対にはがれない。\\そして、もがけばもがくほど、絡みつくという…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人さまのチャイルドが\\大勢いるなんて初耳だわ～",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あいつにとっては十分すぎるくらいだ。\\そうだろ？",
-      "char": "c069_01",
+      "dialogue": "恐ろしい兵器でござるな。",
+      "char": "c054_01",
       "speaker": "same",
       "pos": "right"
     },
+    "20": {
+      "type": "talk",
+      "dialogue": "…お二人とも。無駄口を叩いていないで、\\早く手を貸してください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "さっきから聞いてれば言いたい放題言いやがって…\\用が済んだんなら早く帰ってくれ！",
+      "dialogue": "言っただろ？それは、一度くっついたら最後、\\絶対に取れないんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "オマエさ、リーダーらしくしてみろよ。",
-      "char": "c069_01",
+      "dialogue": "あー、困ったな。\\いったいどうしたらいいんだ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "pretense"
     },
     "23": {
       "type": "talk",
-      "dialogue": "余計なお世話だ！\\お前に言われなくても、\\ちゃんとやってるっつーの！",
-      "char": "c000_01",
+      "dialogue": "言葉と表情が一致していませんよ、御主人様。\\随分と楽しそうですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "よく言うぜ…\\まぁ、お前が主人なのには変わりないからな。\\とりあえずは、お前を信じて帰るぜ。",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "いちいちうるさいヤツだ！\\やっと帰ってくれてホッとしたぜ。",
+      "dialogue": "ありがとな、レジェンド。\\お前が助けてくれなかったら、俺がこうなってたよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "smile"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "御主人様。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そんなこと言ったらプタハに悪いですよ。\\彼はモナたちのお願いを聞いてくれたのですから。",
-      "char": "c001_01",
+      "dialogue": "礼には及ばぬ。\\当然のことをしたまででござる。",
+      "char": "c054_01",
       "speaker": "same",
       "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "お願いどころか、\\闇市場で働かないかって言ったら、\\むしろニヤケ顔で喜んでたじゃないか。",
-      "char": "c000_01",
+      "dialogue": "聞こえていますよね？\\早くこれを外してください！",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "irritation"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ボルトやナットなんかいじって何が楽しいんだか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "そうは言っても、\\引き受けてくれてホッとしてますよね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "闇市場の主人も腕のいい修理工だって\\喜んでますし、彼自身も気に入ってるみたいで、\\よかったじゃないですか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それに彼は誰かさんとは違って\\真面目に情報集めもしてくれそうですしね～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "真面目じゃなくて悪かったな。",
+      "dialogue": "うーん、そうか。\\俺が感じた妙な気配は、これだったんだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "pretense"
     },
-    "33": {
+    "29": {
       "type": "talk",
-      "dialogue": "それと、ご主人さまをハーレム街に\\連れていく口実もできました。",
-      "char": "c001_01",
+      "dialogue": "ところで、レジェンド。\\お前はどうしてここに？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "お主を危険から守るために、\\こっそり後をつけて来たでござるよ。",
+      "char": "c054_01",
       "speaker": "same",
       "pos": "right"
     },
-    "34": {
+    "31": {
       "type": "talk",
-      "dialogue": "あ、アイツが働くのと\\俺がハーレム街に行くのと\\何の関係があるんだよ…",
+      "dialogue": "レジェンド…！さすが俺の戦友だな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…それなのだが。\\拙者は今後、\\お主を戦友とは思わないことにしたでござる。",
+      "char": "c054_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "え？どうして急にそんな…\\ひょっとして、主人探しをまた始めるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "35": {
+    "34": {
       "type": "talk",
-      "dialogue": "ウフフ～ご主人さまは、\\もう少し大人になる必要がありますね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "死んでもお前みたいな、\\とぼけた大人にはならないぞ。",
-      "char": "c000_01",
+      "dialogue": "魔王争奪戦が終わったら、\\お前の主人を一緒に探すって約束したじゃないか…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
+    "35": {
+      "type": "talk",
+      "dialogue": "戦いが終わるのを待てずに、\\どうしても主人を探すっていうなら…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "俺を倒してからいけ！\\さあ、かかってこい…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "angry",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
     "37": {
+      "type": "talk",
+      "dialogue": "ち、違う！そうではないでござる！\\お主を…拙者の主君にすると、\\そう決めたのでござるよ。",
+      "char": "c054_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "レ、レジェンド…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "我が主君…！",
+      "char": "c054_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "お前の気持ちはすっごく嬉しい。\\だけどさ…お前、言ったよな？\\空に太陽は二つ存在しないって。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "むっ…",
+      "char": "c054_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "一度言ったことを覆すなんて、お前らしくないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "それは…\\お、お主は拙者の主君になるのは\\嫌なのでござるか？",
+      "char": "c054_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "ハハ、まさか！\\忠誠心の塊みたいなお前が\\俺の傍にいてくれるなんて、最高に嬉しいよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "それじゃあ改めて…\\これからよろしくな、レジェンド！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "こちらこそ、よろしくたのむでござる。",
+      "char": "c054_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "…おめでたい忠義ごっこは終わりましたか？\\でしたら、さっさと私を助けてください！",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "irritation"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "はいはい、今助けるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "…でも、いったい誰がこんなもの、\\道の真ん中に置いたんだろーな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "50": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "チッ、今回は失敗ね…",
+      "background": "back",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "でも、次こそは…くく…",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "victory",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "53": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

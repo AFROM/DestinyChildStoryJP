@@ -1,23 +1,546 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よくできました～♥\\ちなみにですけど、通常スキルを長くタップしていると<color=ff9900><b>[プレススキル]</color></b>を使うことができます。",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none"
+      "dialogue": "うわ…うわあ…うわああ！",
+      "background": "bg204_f",
+      "bgm": "39",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "joy",
+      "voiceid": "200102001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "<b>通常スキル</b>が自分の<b>次の番の敵1体</b>を攻撃するならば、<color=ff9900><b>プレススキル</color></b>は<b>敵全体を攻撃</b>します。",
-      "char": "keep",
-      "speaker": "none"
+      "dialogue": "ダビ…うるさいぞ。\\頭に響くだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200102002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ただし、プレススキルの効果は\\通常スキルに比べて少し弱いことを覚えておいてくださいね。それじゃ、実際にやってみましょうか！",
+      "dialogue": "ねえご主人、今日はいったい何のお祭りなの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy",
+      "voiceid": "200102003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "どうして街じゅうがこんなにピカピカして、\\どうしてみんながみんな楽しそうな顔して\\歩いてるのー？",
       "char": "keep",
-      "speaker": "none"
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy",
+      "before_effect": "shake",
+      "voiceid": "200102004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "どうしても何も、今日はクリスマスだろ？\\サキュバスのくせに元気だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200102005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あっ！バカだからクリスマスも知らないのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "voiceid": "200102006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "えへへ。\\今日は気分がいいから許してあげるよ、\\バカご主人。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "200102007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ダ、ダビが挑発に乗ってこない！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "voiceid": "200102008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "クリスマスの影響を相当受けているようですね。\\そこらじゅうに漂う陽の気に当てられたようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200102009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ねえダビ？\\ご主人さまとちょっと遊んでてくれるかしら？\\その間にクリスマスプレゼントを買ってくるわ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200102010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "モナ姉さまが行くなら、ダビも一緒に行くー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "voiceid": "200102011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "なんだよ？\\俺のチャイルド探しを手伝うとか言いながら、\\お前らだけで遊びに行くつもりか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200102012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "うふふっ、カン違いですよ、ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200102013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "モナはですね、ご主人さまにピッタリの\\プレゼントを探しに行くだけです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200102014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "モナ…真面目にやってください。\\今日は、私たちだけでクランプスを探しに\\行くはずです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "voiceid": "200102015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "オマエたちだけで？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200102016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はい。御主人様は今朝からずっとナーバスになっていますし。\\私たちで探してきますから、少しお休みになってください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200102017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "モナ姉さま、ダビを置いてけぼりにするつもり？\\ダビも一緒に行く～っ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "voiceid": "200102018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "おい、コイツの面倒を見るなんてご免だぞ。\\余計に疲れる！\\お前らで連れてってくれよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "voiceid": "200102019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ダビはいい子だから、ご主人さまの面倒を見ててくれるわよね？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200102020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "うぇ～ん、モナ姉さまと一緒に行きたいのに～\\だって、バカご主人めんどくさいんだも～ん。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sulky",
+      "voiceid": "200102021"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "お前に言われたくないよっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "200102022"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "メリ～クリスマース！！クリスマスケーキの\\試食イベントを開催しております！\\そこのステキなお嬢さん、どうぞ試食していって\\くださいよー。",
+      "background": "bg203_f",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200102023"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "美味しいケーキが、今ならタダ！\\この太っ腹な企画を見逃す手はありませんよ！\\さぁ～みなさん、遠慮なさらず！",
+      "char": "keep",
+      "speaker": "part time Rudolf",
+      "voiceid": "200102024"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "screen_effect": "none"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "この国の人たちは本当に人情深いですねー\\ケーキひとくちでお財布を丸ごとおいて行くんですからー",
+      "background": "bg204_f",
+      "char": "keep",
+      "speaker": "part time Rudolf",
+      "voiceid": "200102025"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "これだからスリをやめられなくて\\困ってしまうんですよ。\\さて、今日の収穫は…と。",
+      "char": "keep",
+      "speaker": "part time Rudolf",
+      "voiceid": "200102026"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "何だよ、スッカラカンじゃないか！\\見た目ばっかムダに飾りやがって！",
+      "char": "keep",
+      "speaker": "part time Rudolf",
+      "before_effect": "shake",
+      "voiceid": "200102027"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ルドルフ！",
+      "char": "c299_00",
+      "speaker": "unknown1",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200102028"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ん？男性客の相手はしないんだけど…\\すいません。ケーキは売り切れでーす！",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "pos": "right",
+      "voiceid": "200102029"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ここにいたのか、ルドルフ！",
+      "char": "c299_00",
+      "speaker": "unknown1",
+      "distance": "near",
+      "voiceid": "200102030"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "いかにも、僕がルドルフだよ！\\そういうあなたは青い…サンタさん？\\えっと…前にどこかで会いました？",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "pos": "right",
+      "voiceid": "200102031"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "さあ、戻るぞ！\\お前のせいでソリに乗れなくて困っているんだ。",
+      "char": "c299_00",
+      "speaker": "unknown1",
+      "pos": "left",
+      "one_ani": "attack",
+      "voiceid": "200102032"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "えっと…クリスマスごっこでもやってるの？\\ごめん、サンタのお兄さん。\\僕、仕事中でとっても忙しいんだ。",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "pos": "right",
+      "voiceid": "200102033"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "さあ、子供たちにプレゼントを渡しに行こう！",
+      "char": "c299_00",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200102034"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "だから、ごっこ遊びに僕を巻きこむなって！\\仕事中って言ったの、聞こえなかった？",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "pos": "right",
+      "after_effect": "go_to_right_point",
+      "voiceid": "200102035"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ふむ、長い間放っておきすぎて、\\ヘソを曲げてしまったのか。\\安心するがいい、もうひとりにはさせん。",
+      "char": "c299_00",
+      "speaker": "unknown1",
+      "pos": "left",
+      "after_effect": "go_to_right_point",
+      "voiceid": "200102036"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "あのさ、いい加減しつこいんだよ。\\僕につきまとうなって言ってるだろ！",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "pos": "right",
+      "distance": "normal",
+      "voiceid": "200102037"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "鬼ごっこをするというのか、\\たまにはよかろう。\\その代わり、あまり遠くまで行かないようにな～",
+      "char": "c299_00",
+      "speaker": "unknown1",
+      "pos": "left",
+      "distance": "normal",
+      "voiceid": "200102038"
+    },
+    "41": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "ランラランララ～♪サンタさんは～♪\\泣いてる子供にプレゼントを～くれないよ～♪",
+      "background": "bg204_f",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "one_ani": "attack",
+      "voiceid": "200102039"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "いいや、サンタは\\うるさい子供にはプレゼントをくれないんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200102040"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "ランラランララ～♪サンタさんは～♪\\うるさい子供には～♪",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "200102041"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "アホか！静かにしろって意味だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "voiceid": "200102042"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "うぅ、ひどい…\\ダビ、楽しく歌いたいだけなのに…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "voiceid": "200102043"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "うわあああーーーーんっっっ！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200102044"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "わ、悪かったよ、俺が悪かった！\\た、頼むから、泣かないでくれって！\\迷惑だからね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200102045"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "子供を泣かせるなんて、最低だね～",
+      "char": "c246_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200102046"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "な、何か誤解があるみたいだな。\\誰かは知らないけど、見なかったことにしてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "after_effect": "shake",
+      "voiceid": "200102047"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "トサカ野郎が何と言おうと、ダビ、歌うもんっ！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "voiceid": "200102048"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "くっ、手が付けられん…\\なんでこんな時に限って、モナもリザもいないんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200102049"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "アハハ。\\君も気の毒だねー\\クリスマスに子守りなんてね。",
+      "char": "c246_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200102050"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "せめてもの慰めに…\\私が楽しませてあげようか～？",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "200102051"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "慰めはいらないから、このガキを引き取ってくれよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "200102052"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "それは困るよ。\\私のタイプはお子様よりも\\君みたいな少年の方だからね…",
+      "char": "c246_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200102053"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "はい、ちゅうも～く！",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200102054"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "な、何だ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "voiceid": "200102055"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "イブの日に<color=ff9900>《神秘のクリスマスの妖精》</color>\\に出会いましたー",
+      "char": "c246_00",
+      "speaker": "unknown1",
+      "distance": "near",
+      "voiceid": "200102056"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "って話、聞いたことある？",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200102057"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "クリスマスの妖精？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200102058"
+    },
+    "62": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

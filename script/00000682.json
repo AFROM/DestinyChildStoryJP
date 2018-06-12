@@ -2,216 +2,263 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "これも、二束三文ぐらいにはなる…\\そうだな、これも持ってくか…",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c000_01",
+      "dialogue": "はあ、はあ、はあ！",
+      "background": "bg095_f",
+      "bgm": "9",
+      "char": "c220_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "質屋に持っていく品は選べましたか、御主人様？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ああ。\\ま、小銭程度でも現金を殖やしておかないと、\\本当に路頭に迷いかねないしな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "あの…さすがにこんなガラクタ、質草には\\ならないのでは…？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "手伝ってくれないならあっち行っててくれ。",
+      "dialogue": "また特訓して来たのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "あー、汗を流すと気持ちいい。",
+      "char": "c220_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "何見てるの？",
+      "char": "c220_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "おーい、おしゃべり悪魔さーん★",
-      "char": "c232_01",
+      "dialogue": "いや…機嫌良さそうだから。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ん…今俺に話しかけたのって、ダフネか？",
-      "char": "c000_01",
+      "dialogue": "運動すると気持ちよくなるの。\\だからアナタも一緒に…",
+      "char": "c220_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "珍しいこともあるものですね、\\ダフネから話しかけてくるなんて。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "ああ…聞こえないなー。聞こえなーい。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "9": {
       "type": "talk",
-      "dialogue": "それ、ぜーんぶダフネにちょーだい♪",
-      "char": "c232_01",
+      "dialogue": "いつまでごまかせるか見てなさいよ。",
+      "char": "c220_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "ぜんぶぅ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "一応言っておきますが、こんなのはいくら持って\\いてもゴミ同然ですよ。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "今日はいないかな…あ、あそこにいた。",
+      "background": "bg019_f",
+      "bgm": "13",
+      "char": "c220_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "うるさいな、少し黙ってろよ。",
-      "char": "c000_01",
+      "dialogue": "ハロー、今日も訓練？",
+      "char": "c220_01",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "欲しいって言うなら譲ってもいいが、\\いくら出すんだ？タダじゃやれないぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "うん、あなたも？",
+      "char": "c220_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "全部合わせても、100円がいいところでは？\\ヘタをすれば処分費を取られかねません。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "一日でもさぼったら大変だからね。",
+      "char": "c220_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "お金は持ってないけどぉ、これでどうかな？",
-      "char": "c232_01",
-      "speaker": "same",
+      "dialogue": "今日も…一緒にやってくれるよね？",
+      "char": "c220_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そう言って、ダフネは俺が引っ張り出した\\ガラクタのひとつを持ちあげて見せた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "もちろんよー\\どのくらい実力が上がったかしらー",
+      "char": "c220_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "はい、これー★",
-      "char": "c232_01",
-      "speaker": "same",
+      "dialogue": "ビックリしないでよ？",
+      "char": "c220_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…いや、ちょっと待て。\\それ、俺のもんだぞ？",
+      "dialogue": "どうりで機嫌がいいと思ったら…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うん、これあげるよー♪",
-      "char": "c232_01",
+      "dialogue": "あらあら♥\\こんなところにストーカーがいるなんて♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "20": {
       "type": "talk",
-      "dialogue": "いやいやいや。\\なんか根本的なカン違いがあるようだが、\\それは俺のだって！",
+      "dialogue": "ビックリした！悪魔を驚かせるな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
     },
     "21": {
       "type": "talk",
-      "dialogue": "これをダフネにくれれば、\\ダフネはこれをあげちゃう☆",
-      "char": "c232_01",
+      "dialogue": "うふふ♥\\ご主人様はどちらがタイプなのかしら？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "だ、ダメだ、日本語が通じてる気がしない…",
+      "dialogue": "うるさい。\\アトロポスを監視しようと思っただけだ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "つまり、こういうことでしょうか…\\御主人様のガラクタを、\\御主人様のガラクタで買うと。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "あら、怠け者のご主人様が珍しいことを\\言うんですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
     },
     "24": {
       "type": "talk",
-      "dialogue": "いや、それって理屈としておかしいだろ！",
+      "dialogue": "アトロポスの地獄の特訓が\\それなりに効果を出してきたんでしょうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "相変わらずひどい言い草だな。\\アトロポスが契約者に会ってるみたいだから\\ついて来たんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あら、ご主人さまの言う通り\\毎日契約者に会ってるみたいですけど…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "お互い、特訓相手になってるみたいだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "やっぱりアトロポスがタイプだったんですね。\\ならアトロポスの手を取って…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "お前、朝ドラの見すぎだぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そんなわけないだろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ならシャイな少年が片思いして…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "お前と一緒にいると\\こっちがどうにかなりそうだ！俺は行く！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
-      "screen_effect": "dialog_shake"
+      "after_effect": "go_to_left_point"
     },
-    "25": {
+    "33": {
       "type": "talk",
-      "dialogue": "これも～、これも～、ふふふ、あと…これも♪",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "お、おい、やめろって！\\返してくれよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "えっへへー★",
-      "char": "c232_01",
+      "dialogue": "ご主人さまが珍しく真面目に\\面倒を見るなんて、\\今日は苦労しそうな気がしますねぇ。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
+      "before_effect": "go_to_left_point"
     },
-    "28": {
+    "34": {
       "type": "talk",
-      "dialogue": "こら、ダフネっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "after_effect": "go_to_right_point",
-      "screen_effect": "dialog_shake"
+      "dialogue": "今日は負けないよ。",
+      "char": "c220_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
-    "29": {
+    "35": {
       "type": "talk",
-      "dialogue": "なるほど。ただ単に御主人様に構って\\ほしかっただけですね。",
-      "char": "c002_01",
+      "dialogue": "私もよ。精一杯、かかってきなさい！",
+      "char": "c220_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "left"
     },
-    "30": {
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
