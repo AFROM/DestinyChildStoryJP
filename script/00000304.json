@@ -2,25 +2,25 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "シャマシュ、セレーネを見なかったか？",
-      "background": "dungeon_bg",
-      "bgm": "9",
+      "dialogue": "そこまでだ！さぁ、噂話を止めるためにも\\今日以降屋根に上るのはやめてもらおうか！",
+      "background": "bg086_f",
+      "bgm": "26",
       "char": "c000_01",
       "speaker": "same",
-      "distance": "normal",
+      "facial": "fury",
       "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "見てない。",
-      "char": "c040_01",
+      "dialogue": "あら、禁止令が出ちゃいましたわ。",
+      "char": "c029_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうか。アイツ、またどこ行ったんだ？\\とにかく分かった。見かけたら教えてくれ。",
+      "dialogue": "そりゃ、原因がわかれば止めるだろ…\\いいから早く家の中に入りなさい。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -28,63 +28,63 @@
     },
     "4": {
       "type": "talk",
-      "dialogue": "うん。",
-      "char": "c040_01",
+      "dialogue": "そうおっしゃらず、\\ご主人様もご一緒にいかがです？\\気持ちいいですよ。",
+      "char": "c029_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "5": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
-    },
-    "6": {
       "type": "talk",
-      "dialogue": "ここにいたんだ。",
-      "background": "bg048_f",
-      "char": "c040_01",
+      "dialogue": "悪いけど、俺は誰かさんみたいに\\夜行性じゃないんだ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "7": {
+    "6": {
       "type": "talk",
-      "dialogue": "…私を連れて行くの？",
+      "dialogue": "あら？その尻尾はネコの尻尾じゃありませんこと？\\ネコといえば夜行性ですわよね？",
       "char": "c029_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "8": {
+    "7": {
       "type": "talk",
-      "dialogue": "ご主人様が探してるから。",
-      "char": "c040_01",
+      "dialogue": "これは、柄だけ。\\柄だけネコ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "まあ、残念。ネコの尻尾を持ったご主人様なら\\夜に惹かれるわたくしの気持ちを\\わかってくださると思ったのに。",
+      "char": "c029_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
     "9": {
       "type": "talk",
-      "dialogue": "適当に戻るわ。",
-      "char": "c029_01",
+      "dialogue": "わたくしの契約者を理解してくださったように。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "意地を張ってないで一緒に行こう。",
-      "char": "c040_01",
+      "dialogue": "…俺は理解したって覚えはないよ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "散歩をしに来ただけよ。\\大げさに言わないで。",
+      "dialogue": "ご謙遜を。契約者の心を理解せずして、\\契約がスムーズに進むとは思えません。",
       "char": "c029_01",
       "speaker": "same",
       "pos": "right",
@@ -92,15 +92,15 @@
     },
     "12": {
       "type": "talk",
-      "dialogue": "ご主人様の命令だから。",
-      "char": "c040_01",
+      "dialogue": "スムーズ？夜な夜な泣きじゃくる女の子の話を\\時にウトウトしながら相槌打つこと1週間…\\それがスムーズ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "命令とか規則とか…あなたと話していると\\息が詰まりそうよ。",
+      "dialogue": "そんな大変なことを、ご主人様は行い、\\気持ちに寄り添ってくださいました。\\そして契約者が心を開いた…\\わたくしがその証拠です。",
       "char": "c029_01",
       "speaker": "same",
       "pos": "right",
@@ -108,211 +108,115 @@
     },
     "14": {
       "type": "talk",
-      "dialogue": "そっちこそ人を怒らせてること、\\分かってないみたいだけど。",
-      "char": "c040_01",
+      "dialogue": "おいおい。\\俺のことを過大評価するのはやめろよ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "規則を守らない者は社会に必要ない。",
-      "char": "keep",
+      "dialogue": "もっと自信を持ってください。\\いわば、わたくしは、ご主人様が契約者のことを\\想って生まれた作品なんですよ。",
+      "char": "c029_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "まるでこの世界には自分しかいないみたいに\\ものを言うのね。あなたみたいな人のために、\\この世界は存在してるわけじゃないわ。",
-      "char": "c029_01",
+      "dialogue": "夜の闇を怖がっていた人間から、\\夜の闇を照らすチャイルドを生み出した。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それはこっちのセリフ。",
-      "char": "c040_01",
+      "dialogue": "ご主人様じゃなければ、こんなことは絶対\\成し遂げられません。\\お優しい、あなたでなければ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あ！いた！やっと見つけたよ…\\あれ？シャマシュじゃないのか？",
+      "dialogue": "俺のことをポジティブにとらえてくれるのは\\ありがたいけど…全てのチャイルドがそうやって\\うまくいったわけじゃないから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "とにかく！外には出ないように。\\あと、たまに屋根にいないだろ！\\いったいどこに出かけてるんだ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あら、その口調。まるで年頃の娘を心配して、\\小言を言うお父さんみたいですね。",
+      "char": "c029_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ご主人様の気持ちを言い当ててみました。\\わたくしもなかなかのものでしょう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "はいはい、ありがとう。それじゃこれからは\\家で大人しくしてくれるね。我が娘よ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "haah"
     },
-    "19": {
+    "23": {
       "type": "talk",
-      "dialogue": "何だ、俺の話を聞いてセレーネを探してたのか？\\ありがとな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "いや、別に…",
-      "char": "c040_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ほら、セレーネ。\\鬼ごっこはこのくらいにして、\\そろそろ家に帰ろう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "残念ね。シャマシュさえいなければ\\夜空を思う存分、眺めていられたのに…",
+      "dialogue": "それもいいですが…やはり年頃の娘に\\パパのお小言は気に入らないものです。",
       "char": "c029_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
     },
     "24": {
       "type": "talk",
-      "dialogue": "今日はありがとな。おかげでいつもより早く\\セレーネを見つけ出せたよ。",
-      "background": "dungeon_bg",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "やるべきことをしたまで。それはそうと、\\セレーネにはどんな処罰を下すの？",
-      "char": "c040_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "またそれか。処罰なんてないよ。\\ちゃんと言い聞かせたから\\当分の間は大人しくしてるだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…ご主人様は甘すぎる。",
-      "char": "c040_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "仕方ないだろ…\\主人って言っても、他の悪魔みたいに\\自慢できることもないし、",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "かと言って他の悪魔がしてるみたいに\\厳しくするのもなんかな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ご主人様は…チャイルドたちの主人。",
-      "char": "c040_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "チャイルドをコントロールして、必要によっては\\処罰できる権限があるのに。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "その権限を…捨てるということ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "怖い言い方だな。権限だなんて…\\みんな一緒に暮らしている…\\家族みたいなもんだろ、俺たち。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "だからオマエもあまり難しく考えすぎるな。\\セレーネにもそうだし、他のヤツらにも…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "家族なら…どんな規則を守れば…",
-      "char": "c040_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "もう！理解！配慮！包容力！\\そういうの分からないのか？",
+      "dialogue": "おい、セレーネ！\\どこ行くんだよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused",
-      "before_effect": "shake",
       "screen_effect": "dialog_shake"
     },
-    "37": {
+    "25": {
       "type": "talk",
-      "dialogue": "…わ、分かった。おせっかいということか。",
-      "char": "c040_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "窓からひらりと出て行ったセレーネは\\微かな笑い声だけを残して夜空の\\向こうに飛んで行ってしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "38": {
+    "26": {
       "type": "talk",
-      "dialogue": "どこかで聞き覚えのある言葉だな…",
+      "dialogue": "まったく、\\年頃ってほどの若さでもないだろうに…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "serious"
+      "facial": "sigh"
     },
-    "39": {
+    "27": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

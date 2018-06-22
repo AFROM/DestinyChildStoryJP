@@ -2,541 +2,167 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…",
-      "background": "bg151_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "さあ、続けてください。",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "enter_from_left_fast"
+      "pos": "right",
+      "facial": "serious"
     },
     "2": {
       "type": "talk",
-      "dialogue": "契約者を探すのに最も適した場所は、意外なことに散策コースだったり公園だったりする。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ダロンは絶対に御主人様のクッキーに\\下剤をかけたりしません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
     },
     "3": {
       "type": "talk",
-      "dialogue": "もしくは、ストレスを抱えがちな、子供たちが集まる場所…学校とか。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ダ、ダロン… ダロンは…",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "思春期特有の少年少女のイライラは、悪い方向に流されやすい。欲望を求める悪魔にとっては格好の獲物と言えるだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "大きい声ではっきりと。",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "serious"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺も何度か人間のフリをして、学校に通ってみたが、そういう時期のピリピリしたヤツとは気が合わなかった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ダロンは絶対にご主人様のクッキーに\\下剤をかけたりしないダロン…",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あの時はホントつらかった。\\授業をサボって公園で遊んでるヤツらの気持ちがよく分かったよ。",
-      "background": "bg006_f",
-      "char": "c000_01",
+      "dialogue": "ダロンは絶対にコショウで作ったクッキーを御主人様に食べさせたりしません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "before_effect": "enter_from_left_slow"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ご主人～…\\「学校なんてほとんど行ってなかった」ってモナ姉さまから聞いたけど？ウソはいけないよ～？",
-      "char": "c003_01",
+      "dialogue": "ダ、ダロンは絶対にコショウ…えーん…",
+      "char": "m198_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そんなこと言ってないで、モナ姉さまから言われた通り《軽い散歩》でもしてくれば？",
-      "char": "keep",
+      "dialogue": "泣いても無駄です。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "モナの言う《散歩》は《軽い》なんてものじゃない！この、だだっ広い公園の端から端まで駆けずり回って契約者を探せってことだよ！",
-      "char": "c000_01",
+      "dialogue": "悪い悪魔ダロン。全部リザにバラしたダロン。",
+      "char": "m198_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "いつもいつも、簡単に言ってくれるよな！",
-      "char": "keep",
+      "dialogue": "誤解です。御主人様は何も言っていません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "簡単なことを難しく考える御主人様の思考パターンがおかしいのです。",
-      "char": "c002_01",
+      "dialogue": "そ、それじゃリザはどうして分かったダロン？",
+      "char": "m198_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "表情が冴えない、いかにも悩みが多そうで、相談する相手もいない寂しそうな学生を探してください。",
+      "dialogue": "ダビが言ったダロン！悪いダビ！\\僕には友達だって言ったのに。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あのな～…\\そんなタイミングよく、望み通りの契約者が…",
-      "char": "c000_01",
+      "dialogue": "ダビも何も言っていません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ほら、あそこに。\\いかにも悩みの多そうな女子高生がいますよ？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "マジか！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
-    },
-    "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "…",
-      "background": "bg136_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "そ、それじゃ…",
+      "char": "m198_01",
       "speaker": "same",
       "pos": "left"
     },
-    "18": {
+    "15": {
       "type": "talk",
-      "dialogue": "はぁ～…\\モヤモヤした後味の悪い話を聞いてしまった。",
+      "dialogue": "言わなくても分かることもあります。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ずっと見てますから。",
       "char": "keep",
       "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ダロンの知らないところで…",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ひいっ！",
+      "char": "m198_01",
+      "speaker": "same",
       "pos": "left",
-      "facial": "cry"
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "確かに…\\あまり気分のいい話では無かったですね。",
+      "dialogue": "だから気を付けてくださいね、ダロン。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "な、なんだと…\\お前たちの一番の興味は、人間の欲望と不幸。\\こんな話は大好物のはずだろ？",
-      "char": "c000_01",
+      "dialogue": "次です！ダロンは絶対に壁に落書きして\\御主人様に罪を着せたりしません。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "一体、私のことを何だと思っているのですか？",
-      "char": "c002_01",
+      "dialogue": "ダロンは絶対に、壁に落書きして\\ご主人様に罪を着せたりしません。",
+      "char": "m198_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "しかし、今回の契約者、白井良枝(しらい よしえ)の\\話は、いろいろと気になりますね。",
-      "char": "keep",
+      "dialogue": "リザ…怖いダロン…",
+      "char": "m198_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "before_effect": "shake"
     },
     "23": {
-      "type": "talk",
-      "dialogue": "濡れ衣を着せられた友達を助けず見て見ぬふり。\\その事がバレて次の標的になったそうですね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "まぁ、魔界でもよくある退屈な話ですが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "とにかく、私は契約のショックで気を失った白井良枝を自宅に送ります。\\御主人様は、事故に気をつけて先にお帰りください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "go_to_right_slow"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "何が《事故に気をつけて先にお帰りください》だよ？余計なお世話だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "どうせすぐに帰っても、午後からトレーニングだ何だのと俺を苦しませるにちがいない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "せっかくだし寄り道して帰ろう！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ふーん…そういうこと。\\白井さんは悪魔と契約したのね？\\何にもできない、ただのブスだと思ってたけど、なかなかやるわね。",
-      "char": "c194_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "before_effect": "enter_from_right_fast"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "うわっ！！",
-      "bgm": "19",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "だだだ…誰だっ！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "白井さんが延々と話していた冤罪事件の黒幕ですわ。私が白井さんの友達に濡れ衣を着せましたの。",
-      "char": "c194_00",
-      "speaker": "same_full",
-      "pos": "center"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "リザ、こいつの記憶を…！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "あ、先に行ったのか…ど、どうしよう！！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ダビにまかせて～！！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "twinkle",
-      "before_effect": "enter_from_right_fast"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ダメだっ！\\お前に頼むくらいなら、その辺の猫に頼むからいい！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "screen_effect": "dialog_shake"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "私の記憶を消すですって？\\くだらないことをおっしゃいますね。",
-      "char": "c194_00",
-      "speaker": "same_full",
-      "pos": "center"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "いっそのこと、私とも契約してください。\\私にも願いがあります。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "center"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "は？どういうつもりだよ。冗談だろ？\\悪魔との契約ってのはなぁ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "そんな退屈な話は結構です。\\白井さんと契約する時、こっそり聞いてましたから。さあ、魂の一部をあげますから、契約してください。",
-      "char": "c194_00",
-      "speaker": "same_full"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "でもな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "チャイルドが欲しいのでしょう？\\それに…私の願いを聞いていただければ、あなたも納得するはずですよ？",
-      "char": "c194_00",
-      "speaker": "same_full"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "白井さんと《和解》したいのです。\\あの子と仲良くなりたいのです。その方法を教えてください。",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "気が乗らない…\\それに君と契約すると白井さんに申し訳が立たない…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "なんで白井さんは良くて、この私はダメなの？\\意味わかんない。\\私とも契約しなさい！そうしないと、あなたが悪魔\\だってこと、世間に暴露するわよ？",
-      "char": "c194_00",
-      "speaker": "same_full",
-      "before_effect": "shake"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "インターネット、SNS、テレビ、ラジオ、新聞、雑誌…あらゆるメディアに流します。",
-      "char": "keep",
-      "speaker": "same_full"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "だから私と契約しなさい。",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "悪魔相手に脅迫！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "あーもう分かったよ！\\悪魔と契約した人間がどんな末路を迎えるのか、自分で体験してみろ！",
-      "bgm": "keep",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "50": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "longer",
-      "fade_in": "normal"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "あぁ…清々しい気分ですわ。",
-      "background": "bg245_f",
-      "bgm": "20",
-      "char": "c194_01",
-      "speaker": "same",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "こんにちは、ご主人様。\\私はアシュトレスと申します。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "ご主人様の剣であり、忠実なシモベです。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "こいつ、自分で勝手に洗礼名をつけたのか？\\俺はまだ何も決めてないぞ！？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "《アシュトレス》\\自分で名前を付けるなんて…\\コイツ相当プライド高いな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "56": {
-      "type": "talk",
-      "dialogue": "フフフッ…",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "57": {
-      "type": "talk",
-      "dialogue": "何がおかしい？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "58": {
-      "type": "talk",
-      "dialogue": "すみません。ご主人様。\\チャイルドになれたことが嬉しすぎて、つい…",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "59": {
-      "type": "talk",
-      "dialogue": "あら？\\どうしてご主人様はそんな顔をなさるのですか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "60": {
-      "type": "talk",
-      "dialogue": "《悪魔と契約した人間がどんな末路を迎えるのか、自分で体験してみろ》とおっしゃったのは、ご主人様ではありませんか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "61": {
-      "type": "talk",
-      "dialogue": "それは…そうだけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "62": {
-      "type": "talk",
-      "dialogue": "ご主人様が気に病む必要はありません。\\ご主人様が白井さんと契約しているのを見て、契約者が契約するようにしつこく迫ったのですから。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "63": {
-      "type": "talk",
-      "dialogue": "ご主人様は私がお嫌いですか？\\それともお好きですか？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "64": {
-      "type": "talk",
-      "dialogue": "…別に好きでも…嫌いでもない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "65": {
-      "type": "talk",
-      "dialogue": "ハッ、自分の気持ちも分からないのですか？\\頭の出来が悪い…",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "66": {
-      "type": "talk",
-      "dialogue": "あら、言い過ぎましたね。本当に申し訳ありません。ご主人様、許していただけますか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "67": {
-      "type": "talk",
-      "dialogue": "嫌味な話し方だし、謝罪も棒読み…\\なんだかなぁ～",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "68": {
-      "type": "talk",
-      "dialogue": "そんな顔しないでください、ご主人様。\\せっかくご主人様のチャイルドになったのですから、もう少し仲良くしましょう。さもないと…",
-      "char": "c194_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "69": {
-      "type": "talk",
-      "dialogue": "油断しているところを、誰かに<b>奇襲</b>されますよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "70": {
-      "type": "talk",
-      "dialogue": "会ったばかりでお別れなんて嫌ですよね？\\それでは、ついて来てください。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "71": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -1,0 +1,35 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "これから<color=\"ff9900\">探検地域</color>は<color=\"cc66ff\">チームレベルが一定水準上昇するたびに</color>開かれます。",
+      "background": "bg061_f",
+      "char": "c153_01",
+      "speaker": "same"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "新しい<color=\"ff9900\">探検地域</color>が表示されたら、より遠くに行くことができるかもしれません。"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "《牛の歩みも千里》という言葉があるでしょう…？\\<color=\"ff9900\">探検に長い時間がかかるほど報酬が良い</color>って意味です…多分。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "といっても、探検は初めてなので今回は<color=\"ff9900\">1時間</color>だけ行ってみましょうか？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

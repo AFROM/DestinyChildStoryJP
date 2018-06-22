@@ -2,206 +2,274 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "レウケは、どんな男が好みなのだ？",
-      "background": "bg176_f",
-      "bgm": "19",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "参上したぞ、小僧。何の用だ？",
+      "background": "bg086_f",
+      "bgm": "31",
+      "char": "c299_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "マンモン様のような永遠に沈まぬ太陽のような男性が好みです。",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "どうしたの、何かあったのかい？",
+      "char": "c225_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ガハハ！そうか、そうか！困ったものだ。\\女は皆そう言うからのぅ。",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "もしかして、怒ってる？\\ということはこれは…お説教かしら★",
+      "char": "c246_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "実につらい。モテる男はつらい。",
-      "char": "keep",
+      "dialogue": "怒ってるように見えるか？\\そんなつもりないんだけど…\\とりあえず、お前らを呼んだのは説教とかそういうことじゃない。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ええ…そうでしょうね。あ、もう時間が…",
-      "char": "c277_01",
+      "dialogue": "多忙な身でわざわざ来てやったのに、\\礼の一つもなしか。",
+      "char": "c299_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "私はそろそろ帰らせていただきます。",
-      "char": "keep",
+      "dialogue": "…お忙しい中わざわざありがとうございます。\\大先輩。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "haah"
     },
     "7": {
       "type": "talk",
-      "dialogue": "な、何だと…\\楽しい時間はこれからではないか？",
-      "char": "c180_01",
+      "dialogue": "つまらないことで呼んだなら、そのみっともない\\体を、袋に入れて煙突からぶら下げてやる。",
+      "char": "c299_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "お忘れのようですが\\私の勤務時間は朝の9時から夕方6時まで\\でございます。",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "あの目はマジだ…本当にやりかねない…\\うう、背筋に寒気が…って、\\そんなことを言ってる場合ではない。\\ここは毅然とした態度で接しないと！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "もう6時2分です。\\それでは、また明日お目にかかります。",
-      "char": "keep",
+      "dialogue": "近頃、身に覚えのないモノが、\\急激に増えてるんですが、何か知ってますか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "待て！下僕なら下僕らしくしろ！",
-      "char": "c180_01",
+      "dialogue": "ぎく。",
+      "char": "c225_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "イライラさせないでください…",
-      "char": "c277_01",
+      "dialogue": "ぎく。",
+      "char": "c246_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "な、何だと？今何と…！？",
-      "char": "c180_01",
+      "dialogue": "…俺もやらないといけないのか、ソレ。",
+      "char": "c299_01",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "お・ほ・ほ。きっと空耳ですわ。\\興奮なさらないでください。お体に悪いですよ。",
-      "char": "c277_01",
+      "dialogue": "はあ…50円とはいえ、\\現金が入った使い古しの財布もありました。\\持ち主不明のね。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そんなに私と遊びたいのでしたら\\遊べないわけではありませんが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "う…",
-      "char": "c180_01",
+      "dialogue": "そうだね、ええっと…\\まあ、生活のお役に立てば、と思ってね。",
+      "char": "c225_01",
       "speaker": "same",
       "pos": "right"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "いや、増えてるのはモノだけじゃないんですよ。\\クリスマスの妖精にもう一度会いたいって、\\夜な夜な訪れては騒ぐ近所迷惑なひとり者が15人目。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "正直、私もマンモン様とこのように\\毎日お別れするのは寂しい限りです。",
-      "char": "c277_01",
+      "dialogue": "ピュアな男の子って魅力的よねえ～",
+      "char": "c246_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ほ、本当か？",
-      "char": "c180_01",
+      "dialogue": "俺は何もしてないぞ。",
+      "char": "c299_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "当然です。ですが、ご存知でしょう？\\貧しい新社会人が厳しい社会で生き残るのが\\どれほど大変か…",
-      "char": "c277_01",
+      "dialogue": "はい、そういうと思ってました。\\リザ、《証拠》を持ってきてくれ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "マンモン様は私と別れても\\他の美しい女性とお遊びになられると思いますが、",
-      "char": "keep",
+      "dialogue": "はい。御主人様。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "before_effect": "enter_from_right_slow"
     },
     "20": {
       "type": "talk",
-      "dialogue": "私は副業してやっと1ヶ月の生活費を稼ぐ身…\\これだから契約社員は…",
-      "char": "keep",
+      "dialogue": "何だ、その紙は？",
+      "char": "c299_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "おお…そんな事情があったとは…",
-      "char": "c180_01",
+      "dialogue": "《プレゼント》と、その届け先が書かれた、\\先輩の「配達リスト」です。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "持ち物と言えば金貨しかないこのマンモンには\\到底理解できぬ庶民の暮らし。",
+      "dialogue": "ゴキブリの粉で作ったジンジャークッキー、\\毒とトゲのある木で作ったクリスマスツリー、",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "生きたタランチュラブローチを付けたセーター、\\ボアの抜け殻で作ったマフラー……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "あはは、最高のプレゼント★\\受け取った人の顔を想像すると…くふふ♥\\で？わたし宛のプレゼントはどれかしら？",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "残念ながら、お前の名前はないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あなたったらぁ…\\イケズ～",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "「あなた」か…\\お前がそう呼んでくれていた頃が懐かしいな…",
+      "char": "c299_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "いや、話をそらさないでください！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "先輩の、このとんでもないプレゼントが、\\俺の名前で全世界に配られそうになってたんですよ！どういうことか説明してください！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "クランプス。気に入ったのがあれば持って行け。\\代わりに、この頭の悪い小僧は今後相手にするな。",
+      "char": "c299_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "俺と一緒にフィンランドに行こう。\\いや、今度はスイスに行こうか？",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "23": {
+    "32": {
       "type": "talk",
-      "dialogue": "庶民の暮らし…言わせておけば…",
-      "char": "c277_01",
+      "dialogue": "あら～そんなロマンチックなこと言われちゃうと\\気持ちがぐらぐら…\\あの時の出来事を思い出しちゃうかも…",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "でも、今はこの気が利かない坊やが、\\クランプスの「いい人」なんです。\\ね、あなた♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "はぁ、よりにもよってコイツか…",
+      "char": "c299_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "いや、もし気持ちが揺らいだなら遠慮せずに\\どうぞ元鞘に！\\その代わりややこしいことには巻き込まないでいただけると…！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "screen_effect": "dark"
+      "facial": "irritation"
     },
-    "24": {
+    "36": {
       "type": "talk",
-      "dialogue": "ゴホン。ですから…",
-      "char": "keep",
+      "dialogue": "えぇ～あなたぁ、この一途な愛を裏切るなんて…\\どうなるかわかってるよね？",
+      "char": "c246_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
-    "25": {
+    "37": {
       "type": "talk",
-      "dialogue": "マンモン様から残業代をいただけるのでしたら、\\もう少し一緒にいても構いませんわ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "おお！今すれ違った女性！我の好みだ！\\今すぐ我が妾に！",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "残業代の話が出た途端、逃げるなんて。",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "もうこっちがお断りですわ！\\メタボにタラコ唇のケチな中年の相手なんてね！",
-      "char": "keep",
+      "dialogue": "うう、サンタクロースが睨んでる…\\いっそ本当に、二人で何処かに行ってほしい…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "loop_ani": "attack"
+      "facial": "cry"
     },
-    "29": {
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

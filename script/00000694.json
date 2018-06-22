@@ -2,259 +2,326 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "アリル～\\荷造りは終わった？",
-      "background": "bg086_f",
+      "dialogue": "…うっ、動かないでくださいぃ…！\\う、撃ちますよ…！？",
+      "background": "bg119_f",
       "bgm": "9",
-      "char": "c238_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "char": "c227_00",
+      "speaker": "same_full",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あなたじゃあるまいし。\\とっくに終わってるわ。",
-      "char": "c242_00",
+      "dialogue": "うわっ！？\\は、はいっ！一寸たりとも動いてませんっ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake_weak"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ティフォンはどこかしら～？\\あの子の様子を見てきてくれない？",
-      "char": "c238_01",
-      "speaker": "same",
+      "dialogue": "そ、その声は…",
+      "char": "c227_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うっ、あれも私の担当？\\おーい、ティフォン！どこー？",
-      "char": "c242_00",
+      "dialogue": "ど、どーも。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "5": {
       "type": "talk",
-      "dialogue": "朝から慌ただしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "悪魔…さん…",
+      "char": "c227_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "今日はハロウィン応援団であり魔界の大先輩\\《サムハインパーティー》のメンバーが\\魔界に帰る日だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おっす…\\ふう、死ぬかと思ったよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "7": {
       "type": "talk",
-      "dialogue": "メブ姐さんたちは、預けていた荷物を引き取って\\慌ただしく帰還準備をしていた。",
+      "dialogue": "あたしも、銃を撃つことになるかと思いました…\\で、どうしてあたしを尾行してたんですか？",
+      "char": "c227_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "バレバレだったのか…話したいことがあるんだ。\\って、なんで銃なんか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "本物じゃないですよ！モデルガンです。\\ま、また襲われたときのことを考えると…護身で…",
+      "char": "c227_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "まあ、ビックリはするだろうな…って。\\お前まだアイツを追ってるのか？\\やめとけよ、また襲われたらどうするんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "い、いやです！\\また誰かを襲うかと思うと…その時はあたしも…",
+      "char": "c227_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "さすがはあのチャイルドの契約者だ……\\頑固なところはそっくりだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "マフデトも諦めるなって…",
+      "char": "c227_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "マフデトの契約者は、とある犯罪者に\\警察官だった父親を殺された。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "9": {
+    "15": {
       "type": "talk",
-      "dialogue": "それじゃあね。",
-      "background": "bg111_f",
-      "char": "c242_00",
-      "speaker": "same"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "アリルは一度も振り返らずに\\「ぽん」という音と共に姿を消した。",
+      "dialogue": "今は父親の復讐のために…\\それとこれ以上犯罪を起こさせないために\\自分の手で片をつけたいと、逃走中のその犯罪者を\\追っている。",
       "char": "none",
       "speaker": "none",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "screen_effect": "dark"
     },
-    "11": {
+    "16": {
       "type": "talk",
-      "dialogue": "で？\\ティフォン、あんたはホントに残るの？",
-      "char": "c238_01",
-      "speaker": "none"
+      "dialogue": "尾行が上手じゃないので犯人に見つかり、\\あわやというところで、偶然俺に出会い、\\なんとかその場を切り抜けたのだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "12": {
+    "17": {
       "type": "talk",
-      "dialogue": "うん。 僕は人間界は初めてだから…\\ もう少し見て行きたいんだ。",
-      "char": "c237_01",
+      "dialogue": "無責任なヤツめ。\\自分の契約者を何だと思ってるんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast"
+      "pos": "left"
     },
-    "13": {
+    "18": {
       "type": "talk",
-      "dialogue": "支度ができたら呼んで。見送るから。",
+      "dialogue": "マフデトはいつもあたしの心配をしてくれます…\\アドバイスだってしてくれるし…",
+      "char": "c227_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "俺もお前のことを心配してるんだ。\\父親の復讐なんてやめたほうがいい。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そんだけビビりなんだからさ。\\普通の生活に戻って、\\普通の女子高生として暮らせよ。",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "14": {
+    "21": {
       "type": "talk",
-      "dialogue": "ふんだ、まるで子供相手の言い方ね。\\…まあ、そういう扱い嫌いじゃないけど。\\じゃ、後でね。",
-      "char": "c238_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "でも、これがお父さんの無念を晴らす\\唯一の方法なんです…",
+      "char": "c227_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
-    "15": {
+    "22": {
+      "type": "talk",
+      "dialogue": "あ、悪魔さんには…あたしの気持ちなんて\\わかりっこないかもしれないですけど…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そうだな、俺は親の顔も知らない残忍な悪魔だ。\\どうぞご勝手に。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "人間ひとり死んだところで、俺には関係ない！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "はぁ～やっと支度が終わったわ！\\久しぶりに動いたから、体中がバッキバキ…",
-      "background": "bg133_f",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "メブ姐さんはにっこり笑って\\別れの挨拶をするように手を差し出した。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "right",
-      "screen_effect": "dark"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "メ、メブ姐さん…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あっ？あらあら～もしかして…",
-      "char": "c238_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あんた、泣いてるの？\\ねえ、泣いてるの？",
-      "char": "c238_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ち、違います…\\これは泣いてるんじゃなくて…\\目にゴミが入ったんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "あははは！実は泣き虫だったり？\\チョーダサい！",
-      "char": "c238_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sulky",
-      "before_effect": "shake_weak"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "…あのね、坊や。\\悪魔に生まれて悪魔として生きていくのに、\\人間みたいに、感情に振り回されると損するわよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "これはねえ、ハロウィンの夜が見せる一夜限りのパーティーなの。みんなそうやって割り切っている。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "感情的になるのはやめなさい。浮かれたパーティーは夜が明ければ終わるものなの。終わればただの他人になる…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
     "26": {
       "type": "talk",
-      "dialogue": "あんたみたいに抱き抱えているものが多いと、\\失うものも多いわよ。",
-      "char": "keep",
+      "dialogue": "でもさ、その命を助けた恩人に向かって\\自分の命はどうでもいい\\って言われるのはあまりいい気分じゃないよな。",
+      "background": "bg041_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "あんたは弱点が多すぎて、魔王になるのは\\大変だわね。",
-      "char": "keep",
+      "dialogue": "何をブツブツひとりで言っている。\\オレには見えないチャイルドでもいるのか？",
+      "char": "c227_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "28": {
       "type": "talk",
-      "dialogue": "魔王なんて、なる気ないです…",
+      "dialogue": "ただの独り言だよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "confused"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ふん、その割にはけっこう頑張ってるじゃない。",
-      "char": "c238_01",
+      "dialogue": "…オレの契約者のことを考えてくれるのは有難いが…",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ま、いいわ。あんたがもし魔王になったら\\あたしがお祝いに歌って踊って、パーティーを\\盛り上げてあげる！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "天使も悪魔も、楽しい時には歌を歌うのよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "そんな日が本当に来るかわからないけど…\\期待してます…",
+      "dialogue": "えっ、気付いてたのかよ。\\だったら、お前も復讐を止めろよ。\\お前が変なこと言うから…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あいつ、せっかく助けてやったのに、\\このままじゃまたいつか犯人に…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "心配無用。\\そうならないためにも、\\オレがちゃんと見守っている。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "そうね。 それじゃ、次のお祭りで会いましょ！\\あたしがいれば、きっと楽しいわよ！",
-      "char": "c238_01",
+      "dialogue": "見守る？意味のない復讐をあおったくせに……\\あの契約者の欲望から生まれたんだ、無理もないか。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "left"
     },
     "34": {
+      "type": "talk",
+      "dialogue": "でもな、契約者は普通の、\\臆病なただの女の子なんだぞ。\\この間は偶然助けることが出来たけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "次もそうなるとは限らないんだぞ。\\人間は死んだらいなくなっちゃうんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "だから、見守っていると言った。\\何かあったらオレが守る。それで文句はないだろう。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "主人の許可もなく勝手に\\契約者に関与するのは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "お前こそなんだ？\\助けるわけでも、父親の仇を取るわけでもないのに\\復讐をやめろだのなんだの…",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "それが悪魔流の情けの掛け方なのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "どいつもこいつも、何で俺を目の仇に…\\あ～、やめたやめた！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "shake_weak"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "はいはい、お節介な悪魔は引っ込みますよ。\\せいぜい契約者をお守りするんだな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "after_effect": "go_to_left_point"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "ふうむ…\\意外と決断力もあり、人命を優先する、か。",
+      "char": "c227_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "longest",
+      "fade_out": "normal",
       "wait": "normal",
-      "fade_in": "longer"
+      "fade_in": "normal"
     }
   }
 }

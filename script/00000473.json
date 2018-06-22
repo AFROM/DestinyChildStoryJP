@@ -2,339 +2,391 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あ～もう、ニッチもサッチも行かない…\\俺、ちょっと出かけて来る。",
+      "dialogue": "あく…ま…さん。",
       "background": "bg086_f",
-      "bgm": "20",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "idle",
-      "pos": "left"
+      "bgm": "9",
+      "char": "c149_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "もう帰ってくんな～！",
-      "char": "c003_01",
+      "dialogue": "…ん？お、ルサルカ！いらっしゃい。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal",
       "facial": "joy"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…ったく、あの可愛らしいお口は、\\どうやったら黙らせられるんだか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "dialogue": "まさか、ルサルカが自分から訪ねてくるなんて、\\すごい進歩だ。ちょっと嬉しいな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "御主人様、お出かけになるなら、ついでにこちらも…",
-      "char": "c002_01",
+      "dialogue": "お話…したくて来たの。",
+      "char": "c149_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "と、リザが差し出したのは小さなメモだった。",
+      "dialogue": "うんうん。せっかく来てくれたんだし、いくらでも話してくれよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "実は昨日…",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…ルサルカ。",
+      "background": "bg077_f",
+      "char": "c125_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…アルティス？",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "あなたに話したいことが…",
+      "char": "c125_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あ、あの…",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "実は…前からずっと、あなたのことが…",
+      "char": "c125_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ま、待って…！",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "何です？",
+      "char": "c125_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "きゅ、急用を、思い出して！…さようなら！",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "after_effect": "go_to_left_point",
+      "screen_effect": "gray"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "待ってください、ルサルカ！",
+      "char": "c125_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "…ということがあったの。\\アルティス、何を言おうとしてたのかしら？\\私のことが嫌い…とか？私、何か失礼なことでも…",
+      "background": "bg086_f",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "none"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "いくら、こういうことに疎い俺でも、\\アルティスが何を言おうとしていたのか\\すぐに予想がついた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "6": {
-      "type": "talk",
-      "dialogue": "何これ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ついでに買ってきてほしい物のリストです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "聡明なるリザ先生。\\まさか、今、出かけようとしている意味\\分からないわけじゃないですよね？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "近頃、御主人様への周りの評価が非常に良好です。\\他とは違い、下の者に寛大で平等だと…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そんなデマに乗せられるかっての！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "…チッ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "そうおっしゃらず、お願いします。ご主人さま♥\\ついでじゃないですか～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…このリストの中に、\\モナが頼んでるのはいくつある？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "5つくらいだと思います。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そんなことだろうと思った。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ダビのもあるよ、ご主人！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "一度に済ませられるように\\気を遣ってくれてありがとう。\\それじゃ行ってくるよ…グスッ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "cry"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そこの！待てい！",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "こ、この声は…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
     "20": {
       "type": "talk",
-      "dialogue": "我の命令を聞くのを忘れておるぞ！",
-      "char": "c180_01",
+      "dialogue": "ルサルカのことを悪く言うつもりは\\なかったと思うぞ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
     },
     "21": {
       "type": "talk",
-      "dialogue": "命令…って\\主人に命令するチャイルドまで出て来たのか。",
-      "char": "c000_01",
+      "dialogue": "どうして、そう思うの？",
+      "char": "c149_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "下等なる生物よ。愚民よ！\\この高貴な我の命令を受け取らせてやろう。\\泣いて喜べ。",
-      "char": "c180_01",
+      "dialogue": "それはその…悪魔の勘、かな？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "これは何…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "マンモンが巨大な鼻の穴をヒクつかせながら\\差し出したのはやはり買い物リストだった。",
-      "char": "none",
-      "speaker": "none"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "なんだこれは？酒とタバコばかりじゃないか。\\おい、俺はこの世界では未成年なんだぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "なんだ？愚民よ。泣いて喜び、従うかと思えば…\\我が命令に逆うつもりか？",
-      "char": "c180_01",
+      "dialogue": "勘…",
+      "char": "c149_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "27": {
+    "24": {
       "type": "talk",
-      "dialogue": "逆らうつもりはないけど、\\無理なんだって…いや、待て。\\これはそういう問題じゃないだろ！？",
+      "dialogue": "えっと、だから…\\根拠とかはないけど意外と当たるんだぞ？\\悪魔の勘って。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
+      "facial": "sulky"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ふふ、面白いのね、悪魔さんは。\\本当に当たるといいんだけど…",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "笑わせようと思ったわけじゃないんだけどな…\\まあ、とにかく俺を信じろよ。\\きっと、いい話をしようとしてたんだろうからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "でも私…小心者だし、話すのも苦手だし…\\アルティスにも、きっとすぐに失望されてしまうと\\思うの。",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "必要ならお前が自分で買って来いよ！お前らもだ！\\俺はお前らのパシリか？",
+      "dialogue": "なんだ。\\恋煩いをしてるのは、アルティスだけじゃないのか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そんなことないって。もっと自信を持てよ。\\ルサルカは可愛いし、歌も上手いんだからさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "アルティスに失望されたりしないって、\\この俺が保証する！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "もう一度言いますが、最近、御主人様の評判が…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "その手にはもう乗らん！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "facial": "joy"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ご主人～最近たるんでるんじゃない？",
-      "char": "c003_01",
+      "dialogue": "ふふ、ありがとう、悪魔さん。\\がんばって、告白します。アルティスに…",
+      "char": "c149_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "この生意気なお子様め…！",
+      "dialogue": "す…好き…って。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "好き…なんですか？",
+      "char": "c125_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "うわっ！あ、アルティス！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "おお、最高のタイミングだ！ルサルカ、がんばれ！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…は、い。あの…す、好いて、おります。",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そう、ですか。\\あなたはご主人様のことが好きだったのですね…",
+      "char": "c125_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "そうそう、俺のことが…って。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "after_effect": "shake_weak"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "僕はそんなことも知らず…し、失礼しました！",
+      "char": "c125_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "え、ええっ？\\ちょ、ちょっと待てよ、アルティス！今のは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ああ…気持ちを伝えられなかった…",
+      "char": "c149_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "いや、伝えた！アイツが勘違いしただけだ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "33": {
+    "43": {
       "type": "talk",
-      "dialogue": "あ～ん、困りましたね。\\頼れるのはご主人さまだけでしたのに…",
-      "char": "c001_01",
+      "dialogue": "うう…やっぱり、私の気持ちなんて…",
+      "char": "c149_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "sad"
+      "distance": "normal"
     },
-    "34": {
+    "44": {
       "type": "talk",
-      "dialogue": "俺が悪者みたいじゃん。\\人聞きの悪い言い方はよしてくれる？",
+      "dialogue": "うわあ…どうしてこうなった！？\\メチャクチャややこしくなった…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "おお、麗しいモナさん。心配ご無用です。\\あのトサカ頭の小僧は、\\この我が根性を叩きなおしましょう。",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "今すぐあいつを牢屋にぶち込んで\\4日間、水も食事も与えるな！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
+      "pos": "center",
       "distance": "near",
-      "screen_effect": "dialog_shake"
+      "facial": "serious",
+      "before_effect": "none",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "37": {
-      "type": "talk",
-      "dialogue": "御意～っ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "one_ani": "attack"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "あーもう！行くよ！行くってば！！\\言う通りにすればいいんだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "unfair"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "うぅ…初めて魔王になりたいという気持ちが\\芽生えた気がする…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "cry"
+    "45": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

@@ -2,274 +2,174 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "人を、いや、悪魔を怒らせるには\\様々な方法がある。",
-      "background": "dungeon_bg",
-      "bgm": "6",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "氷龍…恐ろしい…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いやまあ、実際は悪魔らしい悪魔を\\怒らせる方法はよくわからないけど",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そのような発言は控えてください。\\仮にも貴方は、そのチャイルドの主人なのですよ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "人間のマネをする悪魔を怒らせる方法なら\\よく知っている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お前も見ただろ？\\あの残忍で暴悪な戦い方を…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ガアアッ！",
-      "char": "m051_01",
+      "dialogue": "確かに圧倒的な勝利でした。\\あんな素晴らしいチャイルドが\\味方だなんて、喜ばしいではありませんか。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ハデス、ダメだって！\\おいモナ、どうにかしてくれよ！",
+      "dialogue": "あいつが俺に言ったこと、覚えてるか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "left"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "チャイルドが主人の前で死にたいと暴れる…\\それも口先だけじゃなく、行動でしっかりと\\示すなんて…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そうですね～…\\水でもかければいいのかしら～？",
-      "char": "c001_01",
+      "dialogue": "お前もこうして引き裂いてやる、悪魔め。",
+      "background": "dungeon_bg",
+      "char": "m004_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "distance": "near",
+      "screen_effect": "gray"
     },
     "8": {
       "type": "talk",
-      "dialogue": "のんきだな、おい！",
+      "dialogue": "ひいいい…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "gray"
     },
     "9": {
       "type": "talk",
-      "dialogue": "死ぬ…！死ぬのだ…！グアアアッ！",
-      "char": "m051_01",
+      "dialogue": "ひいいい…！",
+      "background": "bg086_f",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ハデス、ちょっと…落ち着けって！",
-      "char": "c000_01",
+      "dialogue": "チャイルドになめられるようではいけません。\\チャイルドは勘がいいですから、",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "うふふ♥ご主人さまってば、楽しそう～♥",
-      "char": "c001_01",
+      "dialogue": "そんな弱気な心構えでは、いつか見抜かれ、\\本当に引き裂かれて食べられてしまいますよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
-      "type": "talk",
-      "dialogue": "モナっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "superangry"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ご主人さま？いくら燃え盛る炎といえども\\燃やすものがなくなれば、消えてしまうものですよ？",
-      "char": "c001_01",
+      "dialogue": "お前を、口に放り込んで、\\この牙で、噛み砕いてやる！",
+      "background": "bg197_f",
+      "char": "m004_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "14": {
       "type": "talk",
-      "dialogue": "だから、それが問題なんだよ！\\このままじゃ、完全に燃え尽きて灰に…！",
+      "dialogue": "口を開けば、噛むとか引き裂くとか…\\ちょっとは普通に話しかけてくれよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "何が灰になるんです～？",
-      "char": "c001_01",
+      "dialogue": "リザ…お前の言う通りだった…\\俺はもう奴に喰われる寸前だ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "cry"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そりゃ…",
-      "char": "c000_01",
+      "dialogue": "喰われるのを待つしかない\\草食動物のような気分だ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "cry"
     },
     "17": {
       "type": "talk",
-      "dialogue": "うああ…うあうう…ぐううう…",
-      "char": "m051_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "だが…",
+      "char": "m004_01",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "火が…おさまった…？",
+      "dialogue": "喰うならさっさと喰え…え？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "cry"
     },
     "19": {
       "type": "talk",
-      "dialogue": "さぁてと…問題は解決したようですし♥\\モナはこれで失礼しますね？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "《ピーちゃん》のために我慢する。\\《ピーちゃん》…再契約しなければもう会えない。",
+      "char": "m004_01",
+      "speaker": "same"
     },
     "20": {
       "type": "talk",
-      "dialogue": "えっ？あ、ああ…",
+      "dialogue": "ピ、《ピーちゃん》？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ふふっ、あまり長居は禁物ですよ～\\ご主人さまが熱に当てられちゃうと困りますから♥",
-      "char": "c001_01",
+      "dialogue": "だからと言って、お前を許したわけではない！\\《ピーちゃん》をいじめたら…\\その時は本当に喰ってやる！",
+      "char": "m004_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense",
-      "after_effect": "go_to_right_point"
+      "distance": "near"
     },
     "22": {
       "type": "talk",
-      "dialogue": "…何を言ってるんだか。",
+      "dialogue": "《ピーちゃん》…あのトカゲに名前までつけたのか…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "haah"
     },
     "23": {
-      "type": "talk",
-      "dialogue": "うう…火が…火が欲しい。",
-      "bgm": "15",
-      "char": "m051_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "はあ…\\お前、こうやって鬱憤晴らししてんの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "沸き上がる…",
-      "char": "m051_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "何が？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "頼む…殺してくれ…",
-      "char": "m051_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ハデス。悪いけど、俺はお前を殺すつもりはない。\\そのつもりなら、契約なんてしてないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "地獄の炎が燃える…",
-      "char": "m051_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "お前は、今だって十分、苦しんでるだろ。\\その上、他の奴らにも苦しめられたいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "いきなり変わるのは難しいだろうけどさ…\\少しは頑張れって…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "いや、ごめん。今一番つらいのはお前だろうし\\頑張れってのはよくないな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "…沸き…上がる。",
-      "char": "m051_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "うん、俺には何でも話してくれよ。\\だからさ…自分を燃やすのは、そろそろ止めろよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sad"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "そうすれば、ハデスも…\\いつか全部、苦痛を吐き出せる日がくるだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

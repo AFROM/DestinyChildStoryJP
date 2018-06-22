@@ -2,319 +2,253 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "クレオパトラ無しにルーンを扱うのは大変でしょう。",
-      "background": "bg043_f",
-      "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "キャンディーおいしー！",
+      "background": "bg089_f",
+      "bgm": "20",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そうだな。\\ルーンはクレオパトラを自分の主人だと思っているからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "しかし、それ以外は問題ないだろ？\\いいヤツだし、大人しくて、親切で…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "こんにちは～可愛い悪魔。\\私の名前はルーンと申しま～す。",
-      "char": "m212_01",
-      "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "毎回会う度にあの挨拶をするのは困りものだけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "バカだからでしょ？ホルスが言ってたし。\\毎日毎日忘れるから同じ挨拶しかできないって。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "強制契約の後遺症かもしれません。\\契約時、抵抗が激しかったそうです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ホルスが契約したんだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "仕方なかったのさ。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "仕方なかったか…\\典型的な良い訳だな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ところで、この話は女王…\\ファラオの前では遠慮してくれたら嬉しいね。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "知ってるだろ？あれこれ事情が複雑なのさ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "いつまで騙すつもりなんだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ご主人様を…騙しているのか、ホルス～！",
-      "char": "m212_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ホルスがご主人様を騙した。\\ホルスがご主人様を…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "だけど、ご主人様は騙されたと教えてくれなかったけど…？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "それは、現在進行形で騙されてるからだろ！\\こいつ、自分の言ってる事わかってるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ルーンは物事と物事を結びつける線が非情に細い状態です。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "部分的記憶喪失とでも言いましょうか。\\文字は読めるが単語の意味を思い出せないのと同じような症状ですね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "これも強制契約の後遺症でしょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "リザ。俺は決めた！\\こんな不幸なチャイルドが生まれないように、無理な契約はしないと！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "親切に、紳士的に、理性的に説得して契約を行うということでしょうか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "その通り！\\やっぱりリザは賢いな！",
+      "dialogue": "そんなに甘い物ばっか食べてると歯が腐るぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "24": {
+    "3": {
       "type": "talk",
-      "dialogue": "実力のある悪魔なら何の問題もありませんね。\\その実力があればの話ですが。",
-      "char": "c002_01",
+      "dialogue": "ふん！ダビはそんなのちっとも怖くないよ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "25": {
+    "4": {
       "type": "talk",
-      "dialogue": "酷い…",
+      "dialogue": "本当に恐ろしいのが何か知ってるか？\\それはな、人間界の歯医者さ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "distance": "near",
+      "facial": "serious"
     },
-    "26": {
+    "5": {
       "type": "talk",
-      "dialogue": "ああ、本当に酷い話だね～\\一緒に俺まで非難する必要はないだろう？",
-      "char": "c266_01",
+      "dialogue": "はい…しゃ…？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "27": {
+    "6": {
       "type": "talk",
-      "dialogue": "そんな意図はありませんが。",
-      "char": "c002_01",
+      "dialogue": "そうさ。火花が散る尖った拷問器具で\\お前の歯をひとつずつ削っていくんだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "toonear",
+      "facial": "shock"
     },
-    "28": {
+    "7": {
       "type": "talk",
-      "dialogue": "それにルーンは優しすぎるだけで、使えないわけじゃない。",
-      "char": "c266_01",
+      "dialogue": "ひええええ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
     },
-    "29": {
+    "8": {
       "type": "talk",
-      "dialogue": "一人前の働きはできるさ。そうだろ、ルーン？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "私は私の役目を全うしま～す！\\ところで、私の役目ってなんでしょう？",
-      "char": "m212_01",
+      "dialogue": "心配しないで、ダビ。歯医者さんに行くには\\沢山のお金が必要だから、ご主人さまには無理よ♥",
+      "char": "c001_01",
       "speaker": "same"
     },
-    "31": {
+    "9": {
       "type": "talk",
-      "dialogue": "あなたの役目は御主人様が魔王になれるように最善を尽くして戦うことです。",
-      "char": "c002_01",
+      "dialogue": "そうなんだ！\\へへ、よかった。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile"
     },
-    "32": {
+    "10": {
       "type": "talk",
-      "dialogue": "ウフフ～知ってる。ご主人様が言ってた～\\可愛い悪魔の代わりに魔王候補生になりたいって～",
-      "char": "m212_01",
-      "speaker": "same"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "でも…可愛い悪魔がいるから\\今はそうすることはできないと言ってました～",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "そ、そうか…",
+      "dialogue": "はいはい、よかったね。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "irritation"
     },
-    "35": {
+    "11": {
       "type": "talk",
-      "dialogue": "アハー！可愛い悪魔がいれば、ご主人様も喜ぶよ！\\見てみたい～ご主人様の笑顔～",
-      "char": "m212_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "なんて主人思いの優しいヤツ！\\お前らも、ルーンを見習うべきだな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ハハッ、優しすぎて他のことは考えられないって短所があるけど…",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "どう使うかは、その悪魔の実力次第…\\そういうことだろう、リザ？",
+      "dialogue": "ところでそのキャンディーどうしたんだ？\\まさか、バイト先のコンビニでこっそり\\盗んだわけじゃ…？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
-    "39": {
+    "12": {
       "type": "talk",
-      "dialogue": "その通りですね。",
-      "char": "c002_01",
+      "dialogue": "違う！ダビはそんなことしないもんっ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "before_effect": "shake"
     },
-    "40": {
+    "13": {
       "type": "talk",
-      "dialogue": "お前ら、ホントうるさいよ！",
+      "dialogue": "じゃあ、どうしたんだよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "facial": "confused"
     },
-    "41": {
+    "14": {
       "type": "talk",
-      "dialogue": "なんで俺の周りには厄介なヤツしかいないんだよ…",
+      "dialogue": "銀行強盗のお姉さん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "まさか…リベンジガールの契約者？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "はあ、はあ…もう遅かったか？\\はあ…死ぬほど走ったのに…",
+      "background": "bg098_f",
+      "bgm": "24",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ここで何をしている？また私の邪魔を…",
+      "char": "m146_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そうだ！邪魔しに来たんだよ！\\今度こそ現行犯逮捕のつもりが逃がしてしまった。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "お前、契約者と何を企んでる？\\契約者がなぜ俺の住む町に来たんだ。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair"
+      "facial": "angry"
     },
-    "42": {
+    "22": {
       "type": "talk",
-      "dialogue": "おお～\\こんにちは～可愛い悪魔。\\私の名前はルーンと申しま～す。",
-      "char": "m212_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "お前と契約者を再契約させるためだ。\\再契約するのが嫌なのか？",
+      "char": "m146_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
-    "43": {
+    "23": {
       "type": "talk",
-      "dialogue": "もう、ホント嫌だ…",
+      "dialogue": "面白い悪魔だな。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "この前もそうだし、何かあるんだろう？\\俺に嘘ついてることがあるなら今すぐ言ってくれ。",
       "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "cry"
+      "pos": "left"
     },
-    "44": {
+    "25": {
+      "type": "talk",
+      "dialogue": "そうすれば許してやる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "誰が誰を許すって？",
+      "char": "m146_01",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "私は誰からの許しも求めていない。\\私が求めるものはアイツの破滅のみ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "誰にも邪魔はさせない！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "うっ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "おい！リベンジガール！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "はあ…服が汚れたよ…リザに怒られるな…\\それよりアイツの願いって…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…何だっけ。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "irritation",
+      "distance": "near"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

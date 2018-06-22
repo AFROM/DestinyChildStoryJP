@@ -2,259 +2,325 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "さっきから黙って聞いてたら…",
-      "background": "bg089_f",
-      "bgm": "20",
-      "char": "c000_01",
+      "dialogue": "ご主人様、ご主人様！\\私、いつもとちょっと違うと思いません？",
+      "background": "bg086_f",
+      "bgm": "14",
+      "char": "c038_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…だから、今快楽に負けて\\この菓子パンを食べたとする。\\そしたら糖質を過剰に取っていることになるから\\将来の健康は約束できないよ？",
-      "char": "c052_01",
+      "dialogue": "…全然わからん。\\大体、俺にそんな高度な質問してくるなよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "3": {
       "type": "talk",
-      "dialogue": "将来の健康…？？",
-      "char": "c003_01",
+      "dialogue": "そんなこと言わないでください！\\もっとよく見て！変わったところがあるでしょ？",
+      "char": "c038_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そう、つまりこのパンを食べることによって\\病にかかる可能性があるってこと。\\糖尿病とかね。体重だって維持できないかも。",
-      "char": "c052_01",
+      "dialogue": "あ～あ…\\前髪を切ったとか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "5": {
       "type": "talk",
-      "dialogue": "だから僕たちが片付けてあげるね。\\君の健康のためなら、\\僕たちの体の健康なんてどうでもいいからさ。",
-      "char": "keep",
+      "dialogue": "もう！\\ご主人様、本当にわからないんですか？\\もう一度見てください。",
+      "char": "c038_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なんて優しいの！？",
-      "char": "c003_01",
+      "dialogue": "う～ん…\\化粧を変えた…とか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "normal",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "あいつ…ダビを騙して\\人の分も菓子パンを食べてるじゃないか。",
-      "char": "c000_01",
+      "dialogue": "ぜんぜん違います！！\\あ～もう！本当にヒドイですねご主人様。\\ほら！爪が2mmも伸びちゃってるんですよ～？\\どうして気づいてくれないんですか…",
+      "char": "c038_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "おや、ご主人。",
-      "char": "c052_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
-    },
-    "9": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "バカご主人！トーシツが少ない食事を\\今すぐ用意しろ！！",
-      "background": "bg089_f",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "御主人様、この本を読むようにといただきました。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "来年の今くらいに、\\世界が滅亡するんだって。僕がこの耳で聞いたんだ。",
-      "char": "c052_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ウスラトンカチ！今すぐ食べ物用意しろ！！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "わかったわかった、今サラダを用意するから…って？",
+      "dialogue": "そんなこと、わかるか！\\新手の嫌がらせかよ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "near",
+      "facial": "shock"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ひどい、ご主人様。\\私に関心がないんですか？\\どうして私の爪が伸びていることに気づかず、平気でいられるんですか？？",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "じゃあ、お前も俺を見てみろよ！\\俺の変わったところがわかるか、うん？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "私がご主人様と同じだと思ってるんですか？\\ここです！この髪の毛！",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ん？髪の毛？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ご主人様の髪の毛は、昨日よりもっとキラキラ、\\ツヤツヤしてますね！",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あ、それは…\\頭を洗わなくてちょっと油が…\\…ってそんなことが言いたいわけじゃない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "悪魔が用意したご飯を食べる子は\\僕はあまり好きじゃないなぁ。",
-      "char": "c052_01",
+      "dialogue": "まだありますよ？\\ご主人様の服。昨日よりシワが増えてます。",
+      "char": "c038_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "俺が現実とサキュバスに追いかけ回されて\\ヘトヘトになっている間、",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "その通り。大当たりだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ベリトはチャイルドたちをそそのかして自分の仕事を代わりにやらせたり、騙したり、それに…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…ってお前、俺を怒らそうとしているのか！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "fury"
     },
     "18": {
       "type": "talk",
-      "dialogue": "おかしな宗教を作って菓子や菓子パンといった\\甘い食べ物を納めさせたりしていた。\\…本当に大丈夫なんだろうか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ご主人様の顔には吹き出物が新しく2つもできて…",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あっ、モナ姉さまぁ♥\\ダビ、迷子になってたチャイルドを捕まえてきたよ！あと何匹捕まえれば魔王争奪戦終わるかな？",
-      "char": "c003_01",
+      "dialogue": "昨日は右目に目ヤニがありましたが今日は左目にも…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "フフ、ダビは可愛いわねぇ。\\チャイルドを魅了する才能はピカイチなんだから♥",
-      "char": "c001_01",
+      "dialogue": "何これ…怖いんだけど？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
     },
     "21": {
       "type": "talk",
-      "dialogue": "え！？魅了？…私は新しい靴を見てただけ！\\グレーと灰色とネズミ色で迷ってただけなのに…！？",
-      "char": "c036_01",
+      "dialogue": "分かりましたか？\\私はいつもご主人様のことを見ています！\\だからご主人様も、もっと私を見てくださ～い！",
+      "char": "c038_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "へえ、そんな時はネズミ色がいいんじゃない。\\シンデレラもネズミと仲良しだったし。\\君ってシンデレラみたいに綺麗だからさ。",
-      "char": "c052_01",
+      "dialogue": "や、やめろ！興奮するなって…\\誰かが聞いたら、俺たちが付き合ってるって誤解するだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "そ、そうかな…？\\そうかも……",
-      "char": "c036_01",
+      "dialogue": "えっ、違うんですか…？",
+      "char": "c038_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "グレー、灰色、ネズミ色って違うのか…",
+      "dialogue": "えっ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "うーん、わかる人にはわかる…のかも。\\それよりご主人…",
-      "char": "c052_01",
+      "dialogue": "はい？",
+      "char": "c038_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "芯がなくフニャフニャしている君も\\僕を信れば明日には超マッスルになってるかも…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "え？今度は俺か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "彷徨える悪魔よ。ベリト教に献金すれば明日には\\ライバルたちが呪いで命を落とす…\\かもしれないよぉ？",
-      "char": "c052_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "信じないぞ。\\そんな雑誌の裏にあるようなインチキ広告、\\誰が金なんか払うか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "はぁ、夢も希望もないんだなぁ。\\君、つまらないやつだって言われない？\\信じる気持ちがないと、何事もうまくいかないよ～？",
-      "char": "c052_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "何も聞こえない…聞こえないったら聞こえない…",
+      "dialogue": "あーちょっと待ってくれ…\\カリプソは、いつからそんな風に考えてたんだ…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "もちろん…契約してからずっとです♥",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "いや、ちょっと待て！\\俺がいつ、そんな素振りをした？\\いつ、付き合ってるなんて言ったんだよー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "しまった…言い過ぎた。俺は顔を赤らめて震える\\カリプソを見て冷や汗をかいた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "な、なぁ、カリプソ。俺が言いたいのは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "32": {
       "type": "talk",
-      "dialogue": "迷える幼いチャイルドたちよ！\\僕を信じて、お菓子を捧げろ！\\歌え、踊れ、あはははは！",
-      "char": "c052_01",
+      "dialogue": "言わないでください。\\全部、私の勘違いだったんですね…",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "いいんです。私がいけないんですから。",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ふぅ…思ったより簡単に引いてくれたか…？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "最初からうまく行くなんて、思っていませんから。",
+      "char": "c038_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "今度は逃がさないよう、しっかり捕まえておきます。私、絶対諦めませんから…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "33": {
+    "38": {
       "type": "talk",
-      "dialogue": "こうなった以上、インチキ宗教でも作って、\\集まった信者と契約していった方が\\いいかもしれませんね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "それはさすがに犯罪だ！",
+      "dialogue": "はぁ…\\ホント、俺なんかのどこが良いんだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal",
+      "facial": "sigh"
     },
-    "35": {
+    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

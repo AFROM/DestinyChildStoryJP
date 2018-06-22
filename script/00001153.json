@@ -1,76 +1,42 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "地下3階…\\ここは時間ともに空気も凍っているようだ。",
-      "background": "bg158_f",
-      "bgm": "23",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray",
-      "voiceid": "400612001"
+      "type": "curtain",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご主人さま！ビビッてますね？",
-      "char": "c001_01",
+      "dialogue": "寂しい言葉をためらわずに言うね…\\…こう見えても俺、友達は…結構多いから。",
+      "background": "back_dim50",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "voiceid": "400612002"
+      "pos": "left",
+      "facial": "irritation"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何だって？\\ビ、ビビってなんてないんだけど…！ ",
-      "char": "c000_01",
+      "dialogue": "家に積もったプラスチックのおもちゃも友達に含めたんですか？\\フフ…その感性、可愛いですね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "voiceid": "400612003"
+      "pos": "right",
+      "facial": "smile"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そうですか～？\\でもこの<color=ff9900>《尻尾ちゃん》</color>は素直ですよ～♥  ",
-      "char": "c001_01",
+      "dialogue": "…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "400612004"
+      "pos": "left",
+      "facial": "irritation"
     },
     "5": {
       "type": "talk",
-      "dialogue": "このバカ尻尾！\\お前のせいで、俺がどれだけ苦労してきたことか！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake_weak",
-      "voiceid": "400612005"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "フフッ、困っている姿が可愛いですね～ ",
+      "dialogue": "今は本当にご主人さまを助けることができる<b>友達</b>を選択してみましょうか？",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "tempt",
-      "voiceid": "400612006"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "もうやめよう、尻尾の話は…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky",
-      "voiceid": "400612007"
-    },
-    "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "facial": "pretense"
     }
   }
 }

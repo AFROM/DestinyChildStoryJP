@@ -2,176 +2,188 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "今日までチャイルド5人が目標でしたが…",
-      "background": "bg036_f",
+      "dialogue": "なるほど、私の論文を貶めた\\あの論客が批判を撤回すると。\\で？私はそれに対してどう対応すれば？",
+      "background": "bg100_f",
       "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same"
+      "char": "none",
+      "speaker": "anchor"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はぁ？そんなこと聞いてないぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "そんなことのために私の貴重な時間を\\奪ったというのですか？",
+      "char": "m049_00",
+      "speaker": "same_full"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうでしたか？\\1週間でチャイルド5人は\\他の悪魔の平均より遥かに少ない数です。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "そうおっしゃらず、\\和解の握手をしていただけませんか？",
+      "char": "none",
+      "speaker": "anchor"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ですからわざわざ言う必要もないかと。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "論文に関するインタビューと聞いたから\\来たのですが。\\生きている時間は限りある。\\下らない事で潰す意味はない。",
+      "char": "m049_00",
+      "speaker": "same_full"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いつもそうやって主人を傷つけるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "生放送なので…段取り通りにお願いします…",
+      "char": "none",
+      "speaker": "anchor"
     },
     "6": {
       "type": "talk",
-      "dialogue": "お話ししても、結局はどうにかするって\\おっしゃいますし…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "段取り？",
+      "char": "m049_00",
+      "speaker": "same_full",
+      "distance": "near"
     },
     "7": {
       "type": "talk",
-      "dialogue": "それはお前が息もできないくらい\\責め立てるからだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ハッ！誰がそんなもの！",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "8": {
       "type": "talk",
-      "dialogue": "戦闘、戦闘、戦闘って…飽き飽きなんだよ…\\5人集められなくて申し訳ないけど、",
+      "dialogue": "なぜ一時でも、私の崇高な論文を批判した\\下等な人間と仲良くしなければならないのか？",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": "same_full"
     },
     "9": {
       "type": "talk",
-      "dialogue": "今日はここまで！もう無理だ。",
+      "dialogue": "大体、お前たちもお前たちだ…\\あいつの言うことを間に受けて、\\私を騙し討ちにして…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": "same_full"
     },
     "10": {
       "type": "talk",
-      "dialogue": "だろ、ベルボーイ。オマエも一言言ってやれ。",
+      "dialogue": "…そうだ、あの論客気取りの愚か者と、\\あなたたちで私に土下座すれば\\お望み通り、握手でもなんでもしてやるよ。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": "same_full"
     },
     "11": {
       "type": "talk",
-      "dialogue": "私はつ、疲れてなど…はあ…はあ…いませ…はあ…",
-      "char": "m137_01",
-      "speaker": "same",
-      "before_effect": "shake_weak"
+      "dialogue": "それは言い過ぎでは？\\大体、なぜ私たちが土下座を…",
+      "char": "none",
+      "speaker": "anchor"
     },
     "12": {
       "type": "talk",
-      "dialogue": "可哀想なベルボーイ…\\大車輪回すネズミみたいに働いたってのに…\\リザ、これを見て何も思わないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "はいはい、ならば交渉決裂と言うことで。\\二度とこんな馬鹿げた舞台に\\呼び出さないでくれるかな？",
+      "char": "m049_00",
+      "speaker": "same_full"
     },
     "13": {
-      "type": "talk",
-      "dialogue": "そうですね。とても疲れているようですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "がっかりです。",
-      "char": "keep",
+      "dialogue": "…私は間違ってない。私は正しい。\\理解しない愚か者ども。理解できない愚か者ども…",
+      "background": "bg086_f",
+      "char": "m049_01",
       "speaker": "same",
-      "pos": "right",
       "distance": "near"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…！",
-      "char": "m137_01",
+      "dialogue": "お！？しゃれこうべ…いや、スカルが\\初めて聞こえるように喋ってくれたぞ！？",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "その程度の体力でご主人様のために戦うと？",
-      "char": "c002_01",
+      "dialogue": "おめでとうございます、ご主人さま♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "もっと自分に厳しくなる必要がありそうですね、\\ベルボーイ。",
-      "char": "keep",
+      "dialogue": "いや、祝ってもらうような内容じゃなかっただろ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "リザ、ちょっと言いすぎじゃ…",
-      "char": "c000_01",
+      "dialogue": "あの言葉、あいつの契約者が\\俺たちに向けて言った言葉なんじゃないか…？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ベルボーイ、反省します。",
-      "char": "m137_01",
-      "speaker": "same"
+      "dialogue": "あらあら、ご主人さまったら♥\\まだご存じないんですね～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ご主人様の《ベルボーイ》は疲れを知りません。\\もっと戦えます。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "何が？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "え？無理するなよ！\\リザの言葉に惑わされるな！",
-      "char": "c000_01",
+      "dialogue": "ついさっき、スカルの契約者が\\生放送に出て番組の司会者と\\大喧嘩したんですよぉ～",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いい姿勢です。気に入りましたわ。\\それでは、新しいチャイルドを\\見つけに行きましょうか。",
-      "char": "c002_01",
+      "dialogue": "まーた、何かプライドを刺激されるようなことを\\言われたのかな？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ベルボーイ、出撃します。",
-      "char": "m137_01",
-      "speaker": "same"
+      "dialogue": "スカルは、契約者の心の動きに\\連動しているチャイルドのようですねぇ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "もう知るか！オマエたちだけで何とかしろ！",
+      "dialogue": "それにしてはコイツ、契約者のこと\\知ろうとしてないみたいに見えるけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "自分で考えたり、何かをしようとする機能が\\欠落しているのかもしれないですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "知れば知るほど、\\なんだかコイツが可哀想になってくるな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "sad"
     },
-    "25": {
+    "27": {
+      "type": "talk",
+      "dialogue": "でも、自分は正しいと信じているのだから、\\不幸ではないと思いますよ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

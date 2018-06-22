@@ -2,212 +2,356 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いい天気だな！",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c000_01",
+      "dialogue": "エ～ン！トサカ野郎がダビのプリン食べちゃった～！大嫌い！後でダビが食べようと取っておいたのに～！",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "distance": "near",
+      "facial": "cry",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いい天気ですだー！",
-      "char": "c017_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "昼飯も食ったし、\\あとはゆっくり昼寝をするべきだな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "お昼寝ですだー！スリスリ、ギュッ♪",
-      "char": "c017_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "…べったり、くっつかれてる…",
-      "char": "none",
-      "speaker": "none",
-      "pos": "left",
-      "screen_effect": "dark"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ご主人さま？どうしたんですぅ？",
-      "char": "c017_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "いや…まあ、いいか…\\とにかく昼寝だ、昼寝。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "…って、わ！？\\なんでいきなり顔の前に野菜が！？",
-      "background": "bg089_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "御主人様が昼食で残したサラダです。\\好き嫌いはいけませんよ。\\残さず食べてください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "別に、嫌いなもんを\\無理して食わなくたっていいだろ。\\他のもんはちゃんと食ってんだしさー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "でしたら、今後の食事は\\野菜のみとさせていただきます。\\きっと、おなかが空けば\\なんでも美味しく食べられますよ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "く…卑怯な。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "オラも、野菜は好きじゃないですだー\\ご主人さまと一緒にお残しするですだー",
-      "char": "c017_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "だよな、クーシー！\\よし、俺たちは断固として野菜を食べないぞ！",
+      "dialogue": "え～？何を言ってるのかさっぱりだなぁ？\\俺の給料で俺が買ってきた俺のプリンだけど？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "16": {
+    "3": {
       "type": "talk",
-      "dialogue": "クーシーときたら、御主人様の真似ばかりして…\\困ったものですね。",
-      "char": "c002_01",
+      "dialogue": "そもそもこの冷蔵庫の中身…\\この家の家賃から電気代まで全部俺の財布から\\出てるんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
-    "17": {
+    "4": {
+      "type": "talk",
+      "dialogue": "文句があるなら世帯主になって\\俺を養ってから言うんだな～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "う…うぅ…\\モナ姉さま～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "go_to_right_point"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あらあら、可哀想に…\\ご主人さま！もう少し優しくしてあげてもいいんじゃないですか？",
+      "background": "bg086_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "before_effect": "enter_from_right_fast"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "プリンにこんなに大きく《ダビ》と\\書いてあるのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "screen_effect": "dialog_shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ふ…ふん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "screen_effect": "dialog_shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "まったく、子供とケンカして、\\泣かせるなんて…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "この様なことをしている暇がったら、魔王争奪戦にも真剣に取り組んでほしいですね！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "teach"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "モナ、お前サキュバスだからってダビの肩を持つの\\か？たまには主人である俺の味方にもなってくれよ\\な…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "はいはい。モナの配慮が足りなかったですね～♥\\もっと立派なサポーターになれるようにがんばりま～す♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ま～す。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "クゥ…むかつく～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "15": {
+      "type": "talk",
+      "char": "none"
+    },
+    "16": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "shorter",
+      "wait": "normal",
       "fade_in": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "さて～ダビ…",
+      "background": "bg089_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あ、トイレ、トイレ。",
-      "background": "bg096_f",
-      "char": "c000_01",
+      "dialogue": "うぅん…",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "sulky"
     },
     "19": {
       "type": "talk",
-      "dialogue": "う、トイレ、トイレー",
-      "char": "c017_01",
+      "dialogue": "今日もご主人さまに何て言った～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "idle"
     },
     "20": {
       "type": "talk",
-      "dialogue": "…おい、クーシー。",
-      "char": "c000_01",
+      "dialogue": "…\\ダビ、覚えてない…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sulky"
     },
     "21": {
       "type": "talk",
-      "dialogue": "はい、なんですかぁ？",
-      "char": "c017_01",
+      "dialogue": "な～んて言ったの？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "facial": "teach"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いいか？順番はちゃんと守れ。",
-      "char": "c000_01",
+      "dialogue": "…トサカ野郎…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sulky"
     },
     "23": {
       "type": "talk",
-      "dialogue": "トイレに入るのは、俺が先だ！",
-      "char": "keep",
+      "dialogue": "聞こえないけど～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "idle"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ええっ、クーシーもトイレ入りたいですだー！\\ご主人さま、一緒に入るですだー♪",
-      "char": "c017_01",
+      "dialogue": "トサカ野郎って言ったの！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "sulky"
     },
     "25": {
       "type": "talk",
-      "dialogue": "は？そんなの、ダメに決まってるだろ！？",
-      "char": "c000_01",
+      "dialogue": "ダビ、いつも教えているわよね？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "pos": "right",
+      "facial": "idle"
     },
     "26": {
       "type": "talk",
-      "dialogue": "クーシーは、いつもご主人さまと一緒じゃ～！",
-      "char": "c017_01",
+      "dialogue": "ご主人に\\トサカ野郎って言っちゃいけないって…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "facial": "idle"
     },
     "27": {
       "type": "talk",
-      "dialogue": "こら、ダメだってば！\\入ってくるなー！",
-      "char": "c000_01",
+      "dialogue": "ねぇ～どうして？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake",
-      "after_effect": "shake"
+      "pos": "right",
+      "facial": "idle"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "サキュバスが主人をバカにするようなことを言ったらほかの悪魔たちもバカにするようになっちゃうって…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "どうしてバカにされちゃいけないの？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "before_effect": "shake_weak"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "主人が侮られると、それだけ危険が増え、サキュバス達が巻き込まれて死ぬかも知れないから…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry",
+      "before_effect": "shake_weak"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "なのにダビは今日もご主人さまに\\なんて言ってたのかしら？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…\\……",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ダビ…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "うえ～ん！ごめんなさい～\\怒らないで、モナお姉さま～",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "cry"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "よく聞いてダビ。\\魔王争奪戦も大事だけど、一番大切なのは私たちの安全なのよ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "サキュバスの大原則！安全第一。\\絶対忘れないでね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦が終わる頃には、\\ダビも少しはサキュバスとして成長しないとね！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "…うん。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "よし、いい子ね！\\もうすぐ拗ねて家出した可愛いご主人さまが\\戻ってくる頃だから、戻ってきたら謝りなさいね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "わかった…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "before_effect": "go_to_right_point"
+    },
+    "41": {
+      "type": "talk",
+      "char": "none"
+    },
+    "42": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "ふふ…まだまだ道は遠いわね。",
+      "background": "bg086_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "sigh"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

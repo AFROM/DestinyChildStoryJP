@@ -2,293 +2,360 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
-      "background": "bg099_f",
+      "dialogue": "へえ～…で、結局見つからなかったの？\\記憶の中の場所！",
+      "background": "bg006_f",
       "bgm": "9",
-      "char": "c174_01",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ん？今は深夜じゃないぞ？",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "あれは決め台詞ですからね。\\失踪事件の時もほぼ1日中、出っ放しでしたが、\\決め台詞はずっと同じでしたよ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "pretense"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ふ～ん…\\人気リポーターも大変なんだな。",
+      "dialogue": "うん。ポモナがうまく説明できなくて。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "そっかぁ…でも、それってさ、\\カルカスなら探せるんじゃない？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "…おお！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "5": {
       "type": "talk",
-      "dialogue": "会ったこともないテレビの向こうの人を心配している暇があるなら、明日の暮らしすら不安な私たちの心配をしてください！",
-      "char": "c001_01",
+      "dialogue": "こないだ、金属製の棒を曲げてたと思ったら、\\ご主人の部屋から水が出て来たよ。",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "teach"
+      "pos": "right",
+      "facial": "joy"
     },
     "6": {
       "type": "talk",
-      "dialogue": "世間話の延長で、いきなりそういうこと言われる\\主人の気持ちも心配してくれよ…",
+      "dialogue": "水脈を探し当てたのか！\\そうか、その方法があったか！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "unfair"
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "水脈を当てた？\\いえ、金属棒を曲げたのはただのパフォーマンスでして、正確には、直感で話しただけですけどね。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
-      "background": "bg099_f",
-      "char": "c174_01",
+      "dialogue": "でも、「記憶の中の場所」ですか？それを探すには、お役には立てると思います。一緒に行きましょうか、ポモナさん。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うぉ？また出てる。\\すごいなあ…ワーカーホリックか？",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "本当に働き者ですね。\\誰かさんに爪の垢でも煎じて飲ませたいですね。",
-      "char": "c002_01",
+      "dialogue": "…\\…うん。",
+      "char": "c139_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "serious"
+      "before_effect": "none"
     },
-    "11": {
-      "type": "talk",
-      "dialogue": "はいはい…\\こうやって八つ当たりされるのも俺の役目って\\ことだよな…\\俺って仕事熱心…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "12": {
+    "10": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "そしてカルカスは見事に期待に応え、\\驚くべき早さで道を探し当てた。",
+      "background": "bg030_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "「この辺かな？」「こっちかも…」\\と言った感じだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
     "13": {
       "type": "talk",
-      "dialogue": "最近テレビで見ない日のない、\\謎の人気リポーター、A.I。",
-      "background": "bg069_f",
-      "bgm": "24",
+      "dialogue": "やはりカルカスは、\\名前にふさわしい能力の持ち主だ。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "なぜそんな名前なのか、どんな経歴なのか、\\さらには人間なのか、悪魔なのか？\\さまざまな噂が囁かれている…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "明らかになっているのはA.Iという名前と性別、\\そして格闘実況チャンネルEvilの\\レギュラーリポーターってことだけだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そんな謎多きリポーターその人が…\\目の前に座っているという状況が嘘みたいに思える。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "えっと…その…\\何て呼べば…？",
+      "dialogue": "すごい…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "joy"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "お褒めにあずかり光栄ですが…\\何度か試したものの、",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "運命が決まるほどの大事な出来事には、\\力は発揮できないんですよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "では、邪魔者はこの辺で。\\必要なら、また呼んでください。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_slow"
     },
     "18": {
       "type": "talk",
-      "dialogue": "A.Iで…結構…です…\\",
-      "char": "c174_00",
-      "speaker": "same_full",
+      "dialogue": "あっ、あ…ありがとう…\\行っちゃった…",
+      "char": "c139_01",
+      "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "はい？あの、声が小さくて\\良く聞こえな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "A.Iって呼んでください！！",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "はっ、はいっ！わかりました！\\A.Iさんって呼びますね！\\で、用件とは…",
+      "dialogue": "ポモナは、いつも1テンポ遅いよな。\\まあ、そういうところがポモナらしいんだけどね…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "facial": "idle"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うん、これは悪魔になっても同じ…\\きっとずっと変わらない…",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そうかもね。\\それより、探してた場所はここ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "22": {
       "type": "talk",
-      "dialogue": "なぜセイレーンさんをデビューさせないのですか？\\あの子は貴方にとって豚に真珠…猫に小判…",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "思ったより近かったね。\\ここだってわかってれば、俺も見つけられたかも！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
     },
     "23": {
       "type": "talk",
-      "dialogue": "いえいえ、泥中の蓮なのです。\\デビューしたら、スター街道まっしぐら。\\すぐに日本の、いえ世界の音楽シーンを\\席巻するでしょう。",
-      "char": "keep",
+      "dialogue": "終わってからなら何とでも言えるわ…\\でも、本当に近くにあった。",
+      "char": "c139_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "確かにセイレーンは俺にとって豚に真珠だろう。\\しかし…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "うちには、うちの事情があるんだ。\\そこはいくらA.Iさんだとしても\\首を縦に振るわけには…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "sulky"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "私だって、よそ様の家の事情に干渉する趣味はありません。",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "しかし、明らかに金の卵であるセイレーンさんの\\デビューを…",
+      "dialogue": "青い鳥は家の中にいた……\\というおとぎ話の結末と同じね。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
+    "25": {
+      "type": "talk",
+      "dialogue": "陽射しがまぶしい…空気も重い…\\朝から頑張りすぎたなぁ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あのさ、これですっきりしたか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "俺、実はこういう…健康的な人たちが、\\健康な日常を送る場所って、\\あんまし好きじゃなくて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "28": {
       "type": "talk",
-      "dialogue": "よりによって主人である貴方が止めているという\\現状が…どうしても理解できません…\\素晴らしい能力の持ち主が…凡人に邪魔されて…",
-      "char": "keep",
+      "dialogue": "…なら、どうして手伝ってくれたの？",
+      "char": "c139_01",
       "speaker": "same",
       "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "はい？もう少し\\大きな声で喋ってもらえますか…？",
+      "dialogue": "どうしてって…\\俺はお前の主人だからな！",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "今さらな話だけどさ…\\これは一種のアフターサービスだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "30": {
-      "type": "talk",
-      "dialogue": "なんで！あんな！宝物を！\\埋もれさせて！おけるのですか！",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
     "31": {
       "type": "talk",
-      "dialogue": "鼓膜が破れる！\\…小さい声でブツブツ呟いてると思ったら\\いきなり近づいて大声かい！中間はないのか！",
-      "char": "c000_01",
+      "dialogue": "何も知らない女の子を、\\魔王争奪戦に巻き込んだことに対する…\\責任っつーの？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "facial": "confused"
     },
     "32": {
       "type": "talk",
-      "dialogue": "私は絶対諦めませんから！\\極上の原石を腐らせるわけにはいきません！",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "まあ、大したことはしてないんだけどな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
     },
     "33": {
       "type": "talk",
-      "dialogue": "だから、俺にそれを言っても…\\それより、俺の連絡先はどうやって？",
-      "char": "c000_01",
+      "dialogue": "そんなことしなくても気にしていないのに…",
+      "background": "bg030_f",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "チャンネルEvilの力を甘く見ないでください。\\それくらいは簡単に調べられます。\\そして、このままでは引き下がらないわよ…！",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "大丈夫、大丈夫。\\俺がやりたかったんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "チャンネルEvilは、開局から今日まで\\私が盛り上げてきたの。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "そのプライドにかけて\\必ずセイレーンさんはデビューさせる！\\今日はこのぐらいにしておくけど、\\次は絶対首を縦に振らせるから！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "…あ、あれ？あの人…",
+      "background": "bg030_f",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "37": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "normal",
+      "fade_out": "longest",
+      "wait": "longer",
+      "fade_in": "longer"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "夢を、見ました。",
+      "background": "bg082_f",
+      "bgm": "17",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "蝶が飛んでいて、花が咲いていて…\\変わらないわたしがいる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "……こんなに良くしてもらっても、わたしは変わらないのに……",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "それなのに、「大丈夫」って声が聞こえるの。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "いつまでも、繰り返し…\\「無責任な人生も人生だから」って、そんな声が。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "あまり頼りにはしていないけど、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "本当にこのままでもいいなら…\\もしかするとわたし1人ぐらいは、\\こうやって隠れていてもいいんじゃないかな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "そんなことを考えました。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "篠原しほ。秋のとある日。\\鉛筆で書いた、古い日記より抜粋。",
+      "char": "none",
+      "speaker": "none"
+    },
+    "47": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
       "wait": "normal",
       "fade_in": "normal"
     }

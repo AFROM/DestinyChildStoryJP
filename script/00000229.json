@@ -2,265 +2,243 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あーっ！イライラするっ！",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c005_01",
+      "dialogue": "バカフレイ…ひとりで立ち向かったりして、返り討ちに遭うリスクを考えてないの…？",
+      "background": "bg111_f",
+      "bgm": "18",
+      "char": "c048_01",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "voiceid": "108701001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうしたんだ？",
-      "char": "c000_01",
+      "dialogue": "不意打ちとはいえ、最初の戦いは惨敗だったのよ。\\考えなしに戦っても、結果は同じよ…！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "voiceid": "108701002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "アイツ、ホントに頭に来るわー！",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "アイツ？って…誰のことだよ？\\今回の復讐相手か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "残念、ハズレよ。アイツよ、アイツ！\\仮面つけて、ピエロみたいにヘラヘラ笑ってる奴！\r\n",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ああ、モムスのことか。アイツがどうした？\\まさかお前にもちょっかい出してきたとか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "そうよ！うう…アイツ…\\無視してもキリがないんだけど！",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "マルスにまでちょっかい出すとは…\\モムス、すごいな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "この暴走娘に、他のチャイルドは\\みんな関わらないようにしてるっていうのに…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "急に現れて、いきなり尻もちついたり\\つまらない冗談を言ってひとりで笑ってるし…",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ついさっきなんて、アタシの前に立ちふさがって\\モノマネをしてきたのよ！\\誰のマネか当てるまで、どかないって言うし…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あんなヘタクソなモノマネわかる訳ないじゃない！\\あとちょっとで銃をぶっ放すところだったわ！",
+      "dialogue": "悪魔って、ヘタレやバカばかりなの…？\\魔界の未来は暗いわ。滅亡も近いわね…",
       "char": "keep",
       "speaker": "same",
       "pos": "center",
       "distance": "near",
-      "before_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "voiceid": "108701003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "魔界の未来まで憂いはじめたわ…\\あの極端に突っ走るところが可愛い！\\ぜひスカウトしたいわ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "108701004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…やめなさい、ネヴァン。\\悪魔とは本来、愚かな生き物なのよ…",
+      "char": "c124_00",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "108701005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "騙されて最悪の末路を迎える悪魔の言い伝えは、掃いて捨てるほどあるでしょう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "108701006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "だとしても、フレイ様は愚かすぎです！",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108701007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…………",
+      "char": "c124_00",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "108701008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "イブ様のイラついた顔、すっごく可愛いわぁ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "tempt",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108701009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "モナ、黙ってて。",
+      "char": "c124_00",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "108701010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "このままじゃ空中分解しそうだ…\\イブもあからさまに不機嫌そうだし。",
+      "char": "none",
+      "speaker": "same",
+      "screen_effect": "dark",
+      "voiceid": "108701011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そもそもフレイ様のような考えなし…コホン。\\自由な方を完璧に制御することはできません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108701012"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ガマンしてくれてありがとな…\\アイツはもともとそういう奴だし、気にするなよ。",
-      "char": "c000_01",
+      "dialogue": "今後はチームというより、同盟相手として、ビジネスライクに考えていきましょう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right",
+      "voiceid": "108701013"
     },
     "14": {
       "type": "talk",
-      "dialogue": "気にするなって…\\どうやったら、アレを気にしないでいられるのよ…",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "チームだろうが同盟だろうが、背中を預けるには不安だ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108701014"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ん？何か言ったか？",
+      "dialogue": "それに今さらそんなこと話しても意味ないだろ？\\フレイはいなくなったんだし、今後アイツと会う機会があるかどうかも怪しいし。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "idle",
+      "voiceid": "108701015"
     },
     "16": {
       "type": "talk",
-      "dialogue": "何でもないわ。じゃあ、またね。",
-      "char": "c005_01",
+      "dialogue": "問題ありません。フレイ様を見つけるのは簡単です。お金さえ積めば大抵のことはなんとかなりますよ。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "108701016"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ちょっと待て、まさか、それを言うためだけに\\俺のとこに来たのか？思ったよりヒマなんだな。",
+      "dialogue": "っていうと…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah",
-      "screen_effect": "dialog_shake"
+      "voiceid": "108701017"
     },
     "18": {
       "type": "talk",
-      "dialogue": "うるさいわね！どうせアンタは今日も\\情けないツラしてるんだろうと思って、\\どれだけ情けないか見に来てやったのよ。",
-      "char": "c005_01",
+      "dialogue": "これをご覧下さい。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "distance": "near",
+      "voiceid": "108701018"
     },
     "19": {
       "type": "talk",
-      "dialogue": "はいはい、どうせ俺は情けない奴ですよ。\\…って、あれ？もしかして俺に会いたかったの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "dialogue": "「デビルアラームプレミアムサービスを\\ご利用いただき、ありがとうございます」――",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "108701019"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そ、そりゃ当然でしょ。\\何はともあれ、アンタはアタシの主なんだから。",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "dialogue": "「周辺で強力な悪魔、もしくはチャイルドが\\探知されました」――",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "108701020"
     },
     "21": {
       "type": "talk",
-      "dialogue": "主がダメダメだと、あ…アタシの復讐にも\\支障が出るかもしれないでしょ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "「生命の橋の方向へ、500mの距離です…」",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "108701021"
     },
     "22": {
       "type": "talk",
-      "dialogue": "だから、もっとしっかりしてよね！\\ゴホン！とにかくもう行くわ。",
-      "char": "keep",
+      "dialogue": "あれぇ～…？\\目が疲れてるのかな？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "108701022"
     },
     "23": {
       "type": "talk",
-      "dialogue": "おい、マルス。",
-      "char": "c000_01",
+      "dialogue": "デビルアラームがプレミアムサービスになっちゃってるよ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "smile"
+      "facial": "serious",
+      "voiceid": "108701023"
     },
     "24": {
       "type": "talk",
-      "dialogue": "な、何よ？",
-      "char": "c005_01",
+      "dialogue": "はい、より高機能なサービスに加入しておきました。もちろん、料金は御主人様の口座から引き落としされます。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "screen_effect": "dialog_shake"
+      "facial": "smile",
+      "voiceid": "108701024"
     },
     "25": {
       "type": "talk",
-      "dialogue": "困ったこととかあれば、いつでも来いよ。\\俺でよければ、いくらでも相手してやるから。",
+      "dialogue": "な、な、な、何てことを…！\\俺の老後資金がパーじゃないか！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "108701025"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…ふん、つまらない冗談ね。\\アンタがアタシの役に立つと思ってるの？",
-      "char": "c005_01",
+      "dialogue": "おめでとうございます。\\これでフレイ様とスーパールーキーの位置が正確に把握できるようになりました。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108701026"
     },
     "27": {
       "type": "talk",
-      "dialogue": "候補生の中でも最弱のくせに…",
+      "dialogue": "敵の正確な位置を把握できれば戦況は大きく好転します。\\これで光明が見えてきましたね。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_slow"
+      "facial": "pretense",
+      "voiceid": "108701027"
     },
     "28": {
       "type": "talk",
-      "dialogue": "まったく、素直じゃないな。\\あいつと仲良くなるのは大変だ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "confused"
+      "dialogue": "その代償として俺の将来に大きな影を落とすことに\\なった…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "left",
+      "screen_effect": "dark",
+      "voiceid": "108701028"
     },
     "29": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "まったく、主っていうあの男にしろ、\\モムスとかいうピエロ野郎にしろ…",
-      "background": "dungeon_bg",
-      "char": "c005_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ホント…アタシが傍にいてあげないと…",
-      "background": "dungeon_bg",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…って、違う！アタシったら、何言ってるのよ！",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "何でこんな気になるのよう…もう。",
-      "char": "keep",
-      "speaker": "same",
-      "before_effect": "shake_weak"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "情けない奴らと一緒にいたせいで\\アタシまでおかしくなったのかしら。\\うぅ…イライラする～",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "35": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

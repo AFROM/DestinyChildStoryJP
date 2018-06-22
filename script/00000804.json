@@ -2,103 +2,98 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "なあ、俺のこと信じてくれよ。\\俺、嘘ついたことないし。",
-      "background": "bg086_f",
+      "dialogue": "さっきフレイを見かけたけど、トートの後を\\追ってたみたいだな…",
+      "background": "bg089_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "イヤ～！\\ママが変なおじさんとは話しちゃダメって\\言ってたもん！",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "俺、変なおじさんなの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "serious",
-      "sound": "none",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "なんで俺が変なおじさんなんだよ！\\せめてお兄さんと呼べ！",
+      "dialogue": "まるで好きな男子を追いかける女子高生のように。\\うう、口にしてみると気持ち悪いな…",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "confused"
     },
-    "5": {
+    "3": {
       "type": "talk",
-      "dialogue": "どうしてお兄ちゃんが私のご主人さまなの？\\ピクシーはご主人さまなんていらないもん！\\早くママのところに帰して！",
-      "char": "c258_01",
+      "dialogue": "御主人様。\\どうやら今回の犠牲者はフレイ様のようですね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "4": {
+      "type": "talk",
+      "dialogue": "犠牲者…？\\ああ、あの噂のキャンディのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "はい。あのキャンディを食べると相手が誰であろうと病的な恋に落ちてしまうそうです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "そんな言い方するなよ。誘拐犯みたいだろ…",
+      "dialogue": "そう…誰であろうとか…\\効果はフレイとトートを見ればだいたいわかる。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "ピクシーは他のチャイルドと同様、\\人間と契約することで得たチャイルドだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "だから、ピクシーにも他のチャイルド達にも\\母親なんているはずがない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "うん、これは…",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…となると、たぶん、\\ピクシーが言う《ママ》ってのは、\\ピクシーの契約者のことだろうな。",
+      "dialogue": "俺の机の上に心当たりのない、プレゼントボックスが置いてある。\\真っ赤なハート型で、やたらとデカい。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ピクシー、\\お前達チャイルドには《ママ》なんていないんだ。\\お前が母親だと思ってるのは…",
+      "dialogue": "御主人様のものではないのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "いや。知らないぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "11": {
-      "type": "talk",
-      "dialogue": "聞きたくない！",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "one_ani": "attack"
-    },
     "12": {
       "type": "talk",
-      "dialogue": "ママがいないなんて、どうしてそんな嘘つくの！？\\そんなこと、絶対信じないから！",
-      "char": "keep",
+      "dialogue": "それでは、開けて見ましょう。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
+      "facial": "pretense",
+      "one_ani": "attack"
     },
     "13": {
       "type": "talk",
-      "dialogue": "おいっ！どこいくんだよ！",
+      "dialogue": "え？\\持ち主が誰かも分からないのに勝手に開けたら\\まずいだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -106,164 +101,394 @@
     },
     "14": {
       "type": "talk",
-      "dialogue": "ピクシーは背を向けると、\\一瞬で消えて行ってしまった。",
+      "dialogue": "大丈夫です。心当たりがありますので。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "リザがプレゼントボックスを開けると、その中には白いキャンディがぎっしりと詰まっていた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
     "16": {
       "type": "talk",
-      "dialogue": "ピクシー、ピクシー！",
-      "background": "bg001_f",
-      "char": "c000_01",
+      "dialogue": "シトリーですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "irritation"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ダビみたいにもっと大きな声で呼びなよっ、\\バカご主人！\\ピクシー！ピクシー！！",
-      "char": "c003_01",
+      "dialogue": "シトリーだな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "irritation"
     },
     "18": {
       "type": "talk",
-      "dialogue": "わかってるよ…\\ピクシ~！どこにいるんだー！",
-      "char": "c000_01",
+      "dialogue": "フレイが食べた、あの危険なキャンディに間違いないだろう。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あっ、いた！\\ピクシーだ！！",
-      "char": "c003_01",
+      "dialogue": "本当のターゲットは御主人様のようですね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
+      "facial": "serious"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ピクシー？どこに…",
+      "dialogue": "勘弁してくれよ…あのキャンディ魔女！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "うふふ！こんにちは、悪魔様。\\あら？どこからか甘い香りがしますね～",
+      "bgm": "31",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_slow"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "そういえば…犯人は犯行現場に再び現れるって、\\昔からよく言うよな～",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "21": {
-      "type": "talk",
-      "dialogue": "捕まえちゃうぞ～",
-      "background": "bg012_f",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "イヤ！来ないで！\\ダビもお兄ちゃんも嫌い！大っ嫌い！！",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
     "23": {
       "type": "talk",
-      "dialogue": "ピクシー…\\頼むから、俺の話を聞いてくれ。",
-      "char": "c000_01",
+      "dialogue": "あれ？これはキャンディですね～\\誰からもらったんですか～？",
+      "char": "c364_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "イヤ！\\だってお兄ちゃん、変なことばっかり言うもん！\\ピクシーはママに…",
-      "char": "c258_01",
+      "dialogue": "いや～誰かがキャンディをここに置いてったんだよ。勝手に置かれても困るんだけどな～",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "pretense"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ピクシー！\\ピクシーのママはここにいるよ。\\ピクシーを生んだのはご主人なんだから！",
-      "char": "c003_01",
+      "dialogue": "誰かは知りませんが、真心を込めて作ったみたいですね～おいしそう～",
+      "char": "c364_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…お兄ちゃんが、ママ？",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ママっ！？",
+      "dialogue": "あ、ほしい？それじゃ1個あげようか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "shock",
-      "screen_effect": "shake"
+      "facial": "pretense"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "きゃぁあ～！ホント！？本当に本当？\\日記に絶対書いておこう！\\かわいい悪魔様が私にコ・ク・ハ・クした日だって！",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "28": {
       "type": "talk",
-      "dialogue": "その言い方は抵抗があるけど、\\まあ、間違っちゃいない…か？",
-      "char": "keep",
+      "dialogue": "え！？\\別に、愛の告白でもホワイトデーのプレゼントってわけでもないんだけど…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "nonsense"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ふああああん～！！",
-      "char": "c258_01",
+      "dialogue": "うふふ。またまたそんなこと言っちゃって！\\あ、でも私、今日は甘いものばっかりで…",
+      "char": "c364_01",
       "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "わっ！な、なんで泣くの？\\…あっ、わかった！\\ご主人がママなのが嫌なんでしょ？",
-      "char": "c003_01",
+      "dialogue": "あ、心配しないで！\\悪魔様の気持ちは必ず受け入れますから。\\だから私の代わりにキャンディ食べてくれますか～？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ふああああん～！！",
-      "char": "c258_01",
+      "dialogue": "はい、ア～ンして。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "shake"
+      "distance": "near"
     },
     "32": {
       "type": "talk",
-      "dialogue": "当たり？\\そりゃ嫌だよね～。\\こんなウスラトンカチがママなんて。\\ダビもご主人がママだったらグレてるもん！",
-      "char": "c003_01",
+      "dialogue": "要らないよ！\\元々キャンディは男性が女性にあげるもんだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "irritation"
     },
     "33": {
       "type": "talk",
-      "dialogue": "うう…俺だって、ダビの母親なんてごめんだ！",
+      "dialogue": "そんな頭のカタ～い昔の人みたいなこと言ってたら、女の子にモテないですよ～？",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あげたい人があげたい人にあげればいいんです。\\こんなにきれいなキャンディを食べたら誰でも恋に\\落ちちゃうはずですから～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "恋どころか違う世界に落っこちそうだけど…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "御主人様。それならモナにあげるのはいかがですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "serious"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そうだ！シトリーは甘いもの食べすぎだから、モナにあげよう～",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "はい～？！",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "いつもモナががんばってくれてるから、お礼に甘いものプレゼントしなきゃ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "はい。せっかくキャンディが手に入ったのですから、御主人様に一番尽くしているモナにプレゼントするのが道理でしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "serious"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ダビにもあげよう！まだ子供だからキャンディあげたら、すごく喜ぶんじゃない？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "すばらしいです、御主人様。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "serious"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "それじゃ、早く持っていこう！\\モナ～ダビ～",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "pretense",
+      "after_effect": "go_to_left_slow"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "ちょちょちょ、ちょっと待って～！！",
+      "char": "c364_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "そ、そのキャンディは…サキュバスが食べると大変なことになるキャンディだそうです！",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "大変なことって～？\\例えばどんなこと～？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "だ、だから…え～と…そうだ！\\顔にニキビがたくさんできてフグみたいに膨れちゃうらしいですよ…プク～って…アハハハ…",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "えっ？何それ、こわくない？毒でも入ってるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "毒じゃなく愛の妙…！じゃなくて…\\そ、そうみたいですね～きゃ～こわ～い～",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "でも…さっき、このキャンディ、\\初めて見たって言ってなかったっけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "そ、そうですよ？絶対初めてですよ～",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "shake_weak"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "その割にはキャンディについて詳しいみたいだけど～",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "え～と…それは…つまり…",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "あ～も～知らない！こうなったらイチかバチか！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "うわっ！何だよ？！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "さっさとキャンディ食べなさい！\\女心を惑わせといて責任とらないつもりなの？",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "うわっ！うぐぐぐ…無理矢理、口に押し込むな！\\リザ！助け…うぐぐぐ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "どれだけ美味しいか味わってみなさい！\\はい、ア～ンして！",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "うぐぐぐぐぐ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "near",
-      "facial": "sigh"
+      "facial": "serious"
     },
-    "34": {
+    "61": {
+      "type": "talk",
+      "dialogue": "はぁ…\\さっさとそのキャンディ、味わってあげてください。どうせ大した効果もないでしょうし…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "いいえ！今回は上手にできましたよ！\\効果はあるはずです！",
+      "char": "c364_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "そんな危ないキャンディ、食えるかっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "serious",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "distance": "near"
+    },
+    "64": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,243 +2,318 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "《エネルギー減少。残り50%…》\\殲滅モード終了…\\これより節電モードに移行します。",
-      "background": "bg057_f",
+      "dialogue": "おっ？今日は客がいないな？\\この時間はいつもお客でいっぱいだったのに…",
+      "background": "bg223_f",
       "bgm": "9",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "center"
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うわ～…\\本当にすさまじい威力だな。",
-      "char": "c000_01",
+      "dialogue": "嫌味を言うために来たんですか？",
+      "char": "c283_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "リザは元々強かったけど、もはや次元が違うっていうか…",
-      "char": "keep",
+      "dialogue": "違うよ！\\ただ、様子を見に来ただけだって…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "sigh",
+      "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そうですね。\\おっしゃる通り、ロボットの状態なら戦闘力は劇的に上昇します。どこかの補欠魔王候補生より遥かに強いかもしれません。",
-      "char": "c365_01",
+      "dialogue": "ウソ…嫌味を言うためによ…",
+      "char": "c283_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どこかの補欠だと！？\\リザ、お前までそういうこと言うのか？",
+      "dialogue": "違うって…",
       "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
+      "pos": "left",
       "facial": "unfair"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…そもそも御主人様が弱すぎるのが問題です。\\御主人様より強いサポーター…\\なんと肩身が狭いことか。",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ふふん～♥",
+      "char": "c296_01",
+      "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "その、血も涙もない表現…",
+      "dialogue": "ヒルド…\\お前はお客がいないのに、元気そうだな？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "この悪魔！いや、ロボット！！",
-      "char": "keep",
+      "dialogue": "可愛いチビッ子お客様が来てくれたからですよ～♥",
+      "char": "c296_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake"
+      "distance": "near"
     },
     "9": {
       "type": "talk",
-      "dialogue": "でも少々困りましたね。\\強さに比例してエネルギーも大量に消費します。",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "エネルギー消費が多いのか？\\それなら、やっぱり食事でチャージするんだろ？\\まさか…電力？",
+      "dialogue": "あ、そう…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "irritation"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "しかし、社長は？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "before_effect": "shake_weak"
     },
     "11": {
       "type": "talk",
-      "dialogue": "はい。コネクターの規格は《USB type-C》で\\急速充電も可能です。\\別オプションでワイヤレス充電も可能です。",
-      "char": "c365_01",
+      "dialogue": "社長は…リザ様に会いに行きました。",
+      "char": "c283_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "マジか！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "嘘です。\\私も食事でエネルギーをチャージしますよ。",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "お前さ…\\ロボットになっても、そういうの変わらないんだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そうです。御主人様への忠誠は変わりません。",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ああ、もういいや。\\最先端か何なのか、ホントよく分からないヤツだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "私は常に最先端です。\\今の私は熱力学第2法則を克服した夢の存在。\\御主人様が使用するには、明らかにオーバースペックです。",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "しかしリザ。その恰好ちょっと面倒くさくないか？\\なんだか背も高くなって生活しにくくないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…そうですね。悩みどころです。\\戦闘には申し分ありませんが、日常生活には少し不便です。",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "そのままでいるつもりか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "はい。少し不便ですが、なかなかいい身体ではありませんか？丈夫ですし、力も強い。",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "少し費用面で心配がありますが、生体ボディに比べれば、運用はかなり効率的です。\\修復もパーツの交換で済みますからね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そ、そうなのか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "何と言うか、まぁ…\\本当にロボットになったみたいだな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…ん？今、何かおっしゃいましたか？",
-      "char": "c365_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "いや…なんでもないよ。\\リザの意見はよく分かった。",
-      "bgm": "4",
+      "dialogue": "またリザに文句つけに行ったな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "27": {
+    "13": {
       "type": "talk",
-      "dialogue": "ハハ…実はさっぱり分からん。\\リザの気持ち…いつかきっと理解してみせる！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "今は無理だけど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "…はい？\\どうかしましたか、御主人様？",
-      "char": "c365_01",
+      "dialogue": "ここには何のために来たんですか？\\ご主人…社長をまたイジメるために来たんですか？",
+      "char": "c283_01",
       "speaker": "same",
       "pos": "right"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "俺がいつヴェルデレトをイジメたんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "愚かで情けない悪魔がご主人様であること自体が…\\社長にとっては辛いことですよ。",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "愚かで情けない悪魔で本当にすいませんでした…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…って違う！！\\今日はお前に会いに来たの！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "私をイジメるために来たんですか？",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…でなければ私を人質にしてご主人…\\社長をイジメるために…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "はあ…お前はどうして俺をそんなに嫌うんだ？\\俺が主人になったことがそんなに気に入らないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "いや、こんな話をしたいんじゃなくて…\\…お前ともう少し仲良くなりたくて来たんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あら～ヒルド嫉妬しちゃいそう～\\ヒルドにはそんなこと一度も言ったことないのに～！",
+      "char": "c296_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "お前は、こんな話をしなくても大丈夫だろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "あら～♥\\それってポジティブに受け取ってもいいのかしら～？だけど…\\モーガンと仲良くなるのはホント～に難しいですよ？",
+      "char": "c296_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ヒルドもモーガンとずっと一緒にいたけど…\\なかなか心を開いてくれなかったんだから～",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "モーガンにはいつも社長だけだよね～\\そうでしょう、モーガン～？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "…社長はこんな話は嫌がるけど…",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "アイツは悪魔のサポーターである自分を誇りに思ってるだけだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "お前の気持ちがわからなくて、そうしている訳じゃ\\ないと思うよ。ずっと一緒だったんだろ？お前らは…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
     "30": {
       "type": "talk",
-      "dialogue": "………",
-      "char": "keep",
+      "dialogue": "…理解者のフリですか？",
+      "char": "c283_01",
       "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "定期的にメンテナンスの時間を設けたほうが良さそうですね。",
-      "char": "keep",
+      "dialogue": "フリじゃないよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "32": {
+      "type": "talk",
+      "dialogue": "まぁ…ちゃんと理解しているとも言えないけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "こう見えて結構、真剣なんだよ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "社長…ご主人様以外は…誰も信じません。",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "そ、そう…\\いきなりは信じられないよね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ご主人様以外は…誰も信じません。\\でも…ご主人様のために…\\あなたのチャイルドになって…あげられる…かも…",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "それだけでも十分だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "あ、驚かせたらごめん。\\今の言葉が嬉しくてつい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "とにかく、俺も俺なりに最善を尽くすからあまり\\憎まないでくれよな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "あらら～？チビッ子お客様はヒルドの物ですよ～\\奪われちゃったらどうしよう～？",
+      "char": "c296_01",
+      "speaker": "same"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

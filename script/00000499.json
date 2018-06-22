@@ -2,259 +2,271 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人さま♥ポジティブシンキングですよ～\\よかったじゃないですか。",
-      "background": "bg119_f",
-      "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "そりゃ、「この世で一番の見世物は戦闘♥」\\なんて言う奴にはな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "あらあら…\\そういう意味で言ったんじゃないですよ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "まあ、完全否定はしませんけど♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "idle"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ふん。結局、お前、止める気は無いんだな？",
-      "char": "c000_01",
+      "dialogue": "レディ・モナ。少し時間をもらえないだろうか。",
+      "background": "dungeon_bg",
+      "bgm": "19",
+      "char": "c175_01",
       "speaker": "same",
       "pos": "left"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "あら？何かしら～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "その…私の親友の話なのだが…",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ふふ、優しいのね～\\友達のために、そ～んな難しい顔をするなんて♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あ、そ、その…\\騎士として当然のこと…だ。",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "だって、いい機会じゃないですか？",
+      "dialogue": "すごいのね、騎士様って。\\…それで、お話って？",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "「舞い散る血と汗は青春の輝き！\\男の《友情》は拳を交わし紡がれるもの」",
-      "char": "keep",
+      "dialogue": "親友には、非常に尊敬するご婦人が\\いるそうなのだが…",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…とかいうじゃないですか♥",
+      "dialogue": "しかしそのご婦人は、\\なぜか親友を避けているようなのだ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near"
     },
     "9": {
       "type": "talk",
-      "dialogue": "さあな。俺にはよくわからないよ。\\殴り合いたきゃ、好きにすりゃいいけど。",
-      "char": "c000_01",
+      "dialogue": "あらあら。何か心当たりはないの？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "まあ、モナの言うとおりなのかもしれない。\\少なくとも、\\殴り込む前に挑戦状を送ってきたのは初めてだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "特にそれらしいものは…",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "フェニックスの奴…いきなり攻め込んだ挙げ句、\\ファイロを殺すだの騒いでたが\\少しはマシになったのだろうか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "じゃあ、女性にモテないタイプなのかしらね？\\あなたのお友達は。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ファイロを多少は認めはじめた、とか…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そ、そんなことは！",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "彼は、騎士の中の騎士！\\ご婦人に嫌われるような男ではない！…はずだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お前の覚悟はよくわかった！\\その覚悟に恥じぬよう、相手をしてやろう！",
-      "bgm": "6",
-      "char": "c208_01",
+      "dialogue": "うふふ♥そうね。\\ちょっぴり照れ屋なだけだものね～♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "background": "bg119_f"
+      "facial": "pretense"
     },
     "15": {
       "type": "talk",
-      "dialogue": "恥じぬよう…だと？お前じゃ俺に勝てねーよ！\\魂を燃やして戦え！\\生涯ただひとりのライバル、ファイロ！",
-      "char": "c007_01",
+      "dialogue": "そ、それをどうしてレディ・モナが…",
+      "char": "c175_01",
       "speaker": "same",
       "pos": "left",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "before_effect": "shake_weak"
     },
     "16": {
       "type": "talk",
-      "dialogue": "言ってて恥ずかしくないのかよ…\\もうちょい静かに戦え！馬鹿兄弟！",
+      "dialogue": "あなたにと～ってもよく似てると思ったからかしら？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "affair"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…！",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あらあら、お顔が真っ赤よ～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "た、戯れは止していただきたい！\\急用を思い出したので、私はもう失礼する！",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_point"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あ～んなに慌てちゃって。\\可愛い騎士様ね～♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…そんなことがあったのか？\\お前って、ホント意地悪だよな。",
+      "background": "bg086_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "17": {
+    "23": {
       "type": "talk",
-      "dialogue": "さ、ご主人さま♥もっと遠くで見物しましょ。\\巻き込まれたら大変ですよ～",
+      "dialogue": "あら、意地悪だなんて♥",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "18": {
+    "24": {
       "type": "talk",
-      "dialogue": "ポップコーンでも買ってくるか？",
+      "dialogue": "あんまり反応が可愛らしいから、\\ちょっぴりからかっただけですよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "どこが《ちょっぴり》なんだか…\\俺はモナにだけは恋愛相談はしまいと、\\固く心に決めた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "これ、《紅き十字架》って奴に\\届けといてくれないか？",
+      "background": "dungeon_bg",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "手紙、ですか？\\なぜ私に…",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "いや、お前なら、そいつの居場所を\\知ってるんじゃないかと思って。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…誤解です。私はその者のことなど…",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "知らないか？そりゃ、残念だな。\\せっかく、ユーナがそいつに\\感謝の手紙を書いてくれたってのに。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "19": {
-      "type": "talk",
-      "dialogue": "モナはチュロス派です♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "戦う前に、ひとつ聞きたいことがある。",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "なんだ？遺言なら聞いてやるぜ？",
-      "char": "c007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "なぜ、それほどまでに俺を憎む。",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "本当に…わからないのか？",
-      "char": "c007_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "お前が無能な主人と出会って騒いでる間…\\俺がどう過ごしていたか知ってるか！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "俺は、自分が何をすべきか、\\何を求めてるかさえわからなかった。\\ただ、怒りのままに暴れるしかなかった！！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "俺がクズだっていう、それだけの理由でな！！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "くっ…！",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "今度こそ…決着をつけてやるぜ！ファイロ！",
-      "char": "c007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "クズだと…？笑わせるな！\\このファイロ様が、\\クズごときと真剣にやり合うと思ってるのか！？",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ぐわっ！",
-      "char": "c007_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "俺は俺、お前はお前だ！フェニックス！\\一人のファイターとして、誇りをもって戦え！",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "32": {
       "type": "talk",
-      "dialogue": "…そうか。\\お前は…そう思うのか。",
-      "char": "c007_01",
+      "dialogue": "…！\\そ、そのような者のことなど存じませんが、\\手紙を渡すことはできます！",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "33": {
       "type": "talk",
-      "dialogue": "いいだろう…ファイロ。\\魂を燃やし尽くし、戦ってやる！\\俺を本気にさせたこと、後悔させてやるぜ！",
-      "char": "keep",
+      "dialogue": "…ぷっ。\\…ゴホン。そ、そうか。なら、頼んだぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "after_effect": "go_to_left_point"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…あの方は、やはり私が《紅き十字架》だと\\ご存じなのだろうか？",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "いずれにせよ、感謝いたします。我が主君よ。",
+      "char": "c175_01",
       "speaker": "same",
       "pos": "center",
       "distance": "near"
     },
-    "34": {
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

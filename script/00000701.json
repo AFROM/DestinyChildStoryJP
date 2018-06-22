@@ -2,321 +2,168 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "それでは、貴方への指令をお伝えします。\\心して聞くように。",
-      "background": "bg102_f",
-      "bgm": "31",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "ウサギ君、起きて！お昼寝中？\\こんな所で寝てたら子供たちに\\連れ去られちゃうわよ。",
+      "background": "bg122_f",
+      "bgm": "17",
+      "char": "c010_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "は～い！",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "連れ去られる？",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "我々のターゲットは独り身の男性です。\\計画は簡単です。\\特定の相手がいない人を探し…",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "一緒にクリスマスを過ごす、\\可愛い彼女になってあげること♥\\ま、その日限りだけどね～★",
-      "char": "c246_01",
+      "dialogue": "ウサギ君、可愛いから。\\子供たちって可愛いの見ると我慢できないのよ。",
+      "char": "c010_01",
       "speaker": "same",
       "pos": "right"
     },
+    "4": {
+      "type": "talk",
+      "dialogue": "あ、そうじゃなくて。\\ウサギ君、ダーリン…じゃなくて\\可愛い悪魔様を見なかった？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
     "5": {
       "type": "talk",
-      "dialogue": "お前たち、いまどれだけ残酷な計画を\\立てているのか自覚はあるのか？",
-      "char": "c000_01",
+      "dialogue": "悪魔様って本当に可愛いことしかしないのよ。\\私がどれだけ好きか知ってて逃げるんだから！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どうしたんですか、御主人様。\\人間に同情するなんて。",
-      "char": "c002_01",
+      "dialogue": "わざとなのよ。\\恋の駆け引きだってできるんだから。\\おバカさんだと思ってたけど…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "リザさん。\\きっと、ご主人様は、ご自身も特定の相手がいないから感情移入してるんですよ。",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "可愛い悪魔様は月の国に行きました。\\だからウサギ君は月の国を…ぶっ壊したんだよぉ！",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あっ…",
-      "char": "c002_01",
+      "dialogue": "私に興味なさそうに見える？\\確かにモナも同じこと言ってたっけ…",
+      "char": "c010_01",
       "speaker": "same",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "「あっ」ってなんだよ！\\違うし！",
-      "char": "c000_01",
+      "dialogue": "恋愛なんてマンガとか\\ドラマの中でしか見たことない悪魔様だから…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "違うんなら、作戦決行～★",
-      "char": "c246_01",
+      "dialogue": "心に傷を負っても仕方ないわ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ちょ、ちょっと待て…",
-      "char": "c000_01",
+      "dialogue": "でも実際そうでしょう？\\そういうところが可愛いのよ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そこの寂しそうな貴方～★\\かわいい彼女はいりませんか？",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "dialogue": "ハエ！ハエだ！\\デメテルの頭にハエが！あっち行け！",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "one_ani": "attack"
     },
     "13": {
       "type": "talk",
-      "dialogue": "わ、素早いな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "でも、彼女がいない独身の男なんて、どうやったらわかるんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "彼女が長年にわたって積み上げてきた経験と、\\勘…とでもいいましょうか。",
-      "char": "c002_01",
+      "dialogue": "あら、ウサギ君、私のこと可愛いって思ってたの？\\どうしましょー",
+      "char": "c010_01",
       "speaker": "same",
       "pos": "right"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "悪魔様もそう言ってくれるといいのに。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "あのさ、匠の技みたいな感じで言わないでくれる？\\一瞬、崇高な話に聞こえたぞ…",
-      "char": "c000_01",
+      "dialogue": "もう！私らしくないこと言っちゃった！\\美人は王子様を手に入れて当然でしょ？",
+      "char": "c010_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "御主人様。いじけるのは勝手ですが、契約書の準備はできていますか？",
-      "char": "c002_01",
+      "dialogue": "こんな所で時間つぶしてる場合じゃないわ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "契約書？\\いくらあいつにトンデモスキルがあったとしても、\\こんな短時間で契約までは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あら、愛してるだなんて…恥ずかしい♥\\それに、まだちょっと早いわよ？\\もっと貴方のこと、ゆっくりと、\\知・り・た・い・な★",
-      "char": "c246_01",
+      "dialogue": "ダーリン、隠れても無駄！\\月の果てまで追いかけてあげる！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "after_effect": "go_to_right_point"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
     },
     "20": {
-      "type": "talk",
-      "dialogue": "あっ、あれはプロだ…\\匠の技だ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "21": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "月の国にはウサギが暮らしてる～\\誰も住んでいない北極の国～",
+      "background": "e048_01_f",
+      "char": "m151_01",
+      "speaker": "same_full"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "お疲れ様でした、クランプス。\\お陰様で、今日はたくさん収穫がありました。",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "お姫様を探しにウサギが降りて来る～\\雪が降る～",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うう…疲れた…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "ウサギは呼ぶけど誰も答えない～\\誰も答えない～",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "怖いお姉さまたちがグイグイ行くから\\憐れな悪魔は干からびてしまいそうだよ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "あらあら、新しいご主人様はスタミナが無いのね。\\前のご主人様は、もっとタフだったわよ♥",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "元気だよなあ、あの人。\\今日も近所の子供たちをからかってたみたいだけど\\俺にはまねできないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "あなた、しっかりしてください。\\せっかく手に入れたワタシ。\\しっかり上手に使ってくださいませ。",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "そうやって親切の押し売りをすれば、\\俺が申し訳なさに身悶えるとでも？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "お前、悪魔たちの間ではかなり有名だぞ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "クリスマスシーズンになるたびにニセサンタと組んで稀代の詐欺を繰り広げるだの…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "あら、稀代の詐欺なんて大げさな。\\クリスマスの夜が見せるちょっとした\\ファンタジーよ？",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…で？私のことを責めるの？\\そんな人だとは思わなかったわ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "でも、お前さ、使ってくれとか殊勝なこと言いながらいつかフッとどこかに行っちゃいそうだし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ルドルフみたいに、こっそり俺の貯金箱の中身を盗むかもしれないしな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "あら～そんな風に言うってことは…",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "私がいなくなっちゃいそうで不安だったのね、\\あ・な・た♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "おい！くっつくな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "絶対、黙ってどこかに行ったりしないわ。\\はい、指切りげんまん♥",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "そ、そんな子供だましの約束なんていらないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "ホントに？後悔しちゃうかもよ？\\私がどこかに行ってもいいのかしら～？\\あ・な・た♥",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "わ、わかった！わかったよ…指切りするよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "ピーッ、タイムオーバ～★\\ご主人様？こうなったら、クランプスのこと、\\ちゃんと捕まえててくださいね～♥",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

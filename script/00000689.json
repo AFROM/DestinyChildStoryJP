@@ -2,254 +2,351 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ダヌが面倒なことを起こした。\\まぁ、そのこと自体は良い事でもあるが…",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それ…本当に純金？",
+      "background": "bg003_f",
+      "bgm": "19",
+      "char": "c003_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ただ…俺にとっては都合が悪い…",
-      "char": "c000_01",
+      "dialogue": "本気で聞いてるのか？",
+      "char": "c222_01",
       "speaker": "same",
-      "facial": "sigh"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何、一人でぶつぶつ言ってるの？\\呼び出したならさっさと要件を言いなさいよ。",
-      "char": "c235_01",
+      "dialogue": "金色に塗っただけかもしれないじゃん。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "何とぼけてるんだよ！\\オマエが捕まえた泥棒のことに決まってるだろ！\\そのせいで面倒なことになってるんだよ！",
-      "char": "c000_01",
+      "dialogue": "庶民には到底、理解できないだろう。",
+      "char": "c222_01",
       "speaker": "same",
       "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何よ！\\捕まえてあげたのに文句なの？",
-      "char": "c235_01",
+      "dialogue": "偽物かもしれないじゃん？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "誰がいつ頼んだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "空き巣被害で心配してたじゃない。",
-      "char": "c235_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "確かに…心配だとは言ったけど…\\でも泥棒を捕まえてくれなんて\\一言も言ってないぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "警察が泥棒を捕まえてくれた人に\\懸賞金を出すって近所中を\\探し回ってるんだよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "お前がもし防犯カメラにでも写ってたら\\どうするつもりだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "あー、あれ？壊したよ。",
-      "char": "c235_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "マジか…勘弁してくれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "証拠隠滅までしてあげたのに\\何よ、その言い草は！",
-      "char": "c235_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "正義の味方ごっこなら、よそでやれよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "これ以上アンタの愚痴を聞きたくないから\\捕まえてあげたのよ！",
-      "char": "c235_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "はいはい…全部俺のせいってことね…",
-      "char": "c000_01",
+      "dialogue": "あの主人に相応しいサキュバス…無礼極まりない。",
+      "char": "c222_01",
       "speaker": "same",
       "pos": "left"
     },
+    "7": {
+      "type": "talk",
+      "dialogue": "今、返事避けたでしょ？\\なら、ダビが噂を流しても大丈夫だよね？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "う、噂？",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "エルドラドの金は本当はニセモノだっていう噂だよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "勝手にしろ。\\そんなことをしても、\\私の金が偽物になるわけじゃない。",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "なんだ、つまんないの。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sulky"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ふふ、ダビを甘く見ないでよ。",
+      "background": "bg058_f",
+      "bgm": "20",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "victory"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ここに火をつければ…",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "victory"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "こらっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "angry",
+      "one_ani": "attack"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "いたっ！なんで叩くの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
     "17": {
       "type": "talk",
-      "dialogue": "男のくせにグチグチうるさいのよ！",
-      "char": "c235_01",
+      "dialogue": "火遊びするなって教わらなかったか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "angry"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ご主人さま～♥",
-      "char": "c001_01",
+      "dialogue": "こっそりやろうと思ったのにバレちゃった！",
+      "char": "c003_01",
       "speaker": "same",
-      "before_effect": "enter_from_right_fast"
+      "pos": "right",
+      "facial": "cry"
     },
     "19": {
       "type": "talk",
-      "dialogue": "モナどうした？",
+      "dialogue": "ホント、困ったヤツだな。\\ん？これ、エルドラドのブレスレットじゃないか。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "さっき、警察が来ましたよ～",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "お前、エルドラドのブレスレットに\\火をつけようとしたのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "21": {
       "type": "talk",
-      "dialogue": "げっ！ついに正体がバレたのか？",
-      "char": "c000_01",
+      "dialogue": "本物かどうか調べようとしただけだもん！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そうかもしれないし、\\そうじゃないかもしれませ～ん♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "pretense"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "何だ…はっきり言えよ。",
+      "dialogue": "それでか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "24": {
+    "23": {
       "type": "talk",
-      "dialogue": "するとモナは、俺に一枚の紙を差し出した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "え？！…これ、手配書じゃないか！\\おい、これって？！どうみてもダヌだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "はぁ？どうしてこんなブサイクが私なのよ！",
-      "char": "c235_01",
+      "dialogue": "リザに聞いたの。純金は熱で溶けるんだって。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
+    "24": {
+      "type": "talk",
+      "dialogue": "はあ…お前な…\\本当はどうやって金を溶かすか知ってるか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "溶鉱炉で溶かすんだよ！\\ぐつぐつ煮えたぎる火の釜で溶かすんだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "sigh",
+      "screen_effect": "dialog_shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "火の釜って…確かそんな名前のサウナが\\近所にあったような…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry"
+    },
     "27": {
       "type": "talk",
-      "dialogue": "この前、ダヌが捕まえた泥棒の共犯、って\\書いてありますね～",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "まったく…バカかお前は！\\金ってのは、ちょっと噛んでみれば\\分かるもんなんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ダヌ！オマエ、何かしたのか？",
-      "char": "c000_01",
+      "dialogue": "噛む？どうやって？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "screen_effect": "shake_weak"
+      "pos": "right",
+      "facial": "smile"
     },
     "29": {
       "type": "talk",
-      "dialogue": "こっちが知りたいわよ！\\どうして私がアイツの共犯になるわけ？",
-      "char": "c235_01",
+      "dialogue": "どうって…\\こうやって奥歯に挟んでそっと…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "その泥棒に恨みを買ったのかも知れないわねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "フリじゃなくてちゃんとやって見せてよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ほらみろ…\\面倒くさいことになったじゃないか…",
+      "dialogue": "こんな簡単なことまでやって見せないと\\分からないのか？\\よく見てろよ！こうやって…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "あの泥棒…ホント、許さない！",
-      "char": "c235_01",
+      "dialogue": "わぁ～！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
+      "facial": "joy"
     },
     "33": {
       "type": "talk",
-      "dialogue": "おい、ダヌ！どこ行くんだ！！\\ダヌ！ダヌ！！",
+      "dialogue": "ほら、歯の跡が残ってるだろ？だから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "これは本物の金ということだ。",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "そうだ。こうやって跡が残っ…あっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "私の黄金を盗むだけじゃ飽き足らず…\\歯型までつけるとは…",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "いや、これはダビが…\\おい、ダビ！何とか言ってくれ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "screen_effect": "dialog_shake",
-      "before_effect": "shake"
+      "facial": "confused"
     },
-    "34": {
+    "38": {
+      "type": "talk",
+      "dialogue": "ダ、ダビは止めたんだけど、\\このトサカ野郎が勝手に…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "cry",
+      "distance": "near"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "嘘つけ！\\いや、エルドラド！これは誤解だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "言い訳など聞きたくない。\\大切な金を台無しにしたその償いはしてもらおう。",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "つ、償い？！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "弁償金を支払うまで\\私の可愛い金たちを磨き続けろ。",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "ど、どのくらい磨けばいいんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "そうだな…\\貴様の存在価値を考えれば…一生、てところか。",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "俺の価値ってそんなに安いのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

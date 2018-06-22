@@ -2,274 +2,157 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "参上したぞ、小僧。何の用だ？",
-      "background": "bg086_f",
-      "bgm": "31",
-      "char": "c299_01",
-      "speaker": "same"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "どうしたの、何かあったのかい？",
-      "char": "c225_01",
-      "speaker": "same"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "もしかして、怒ってる？\\ということはこれは…お説教かしら★",
-      "char": "c246_01",
-      "speaker": "same"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "怒ってるように見えるか？\\そんなつもりないんだけど…\\とりあえず、お前らを呼んだのは説教とかそういうことじゃない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "多忙な身でわざわざ来てやったのに、\\礼の一つもなしか。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "…お忙しい中わざわざありがとうございます。\\大先輩。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "つまらないことで呼んだなら、そのみっともない\\体を、袋に入れて煙突からぶら下げてやる。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "あの目はマジだ…本当にやりかねない…\\うう、背筋に寒気が…って、\\そんなことを言ってる場合ではない。\\ここは毅然とした態度で接しないと！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "近頃、身に覚えのないモノが、\\急激に増えてるんですが、何か知ってますか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ぎく。",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ぎく。",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "…俺もやらないといけないのか、ソレ。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "はあ…50円とはいえ、\\現金が入った使い古しの財布もありました。\\持ち主不明のね。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "そうだね、ええっと…\\まあ、生活のお役に立てば、と思ってね。",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "いや、増えてるのはモノだけじゃないんですよ。\\クリスマスの妖精にもう一度会いたいって、\\夜な夜な訪れては騒ぐ近所迷惑なひとり者が15人目。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ピュアな男の子って魅力的よねえ～",
-      "char": "c246_01",
-      "speaker": "same",
+      "dialogue": "狂ってるなんて簡単に言うな！俺は狂ってる！",
+      "background": "bg083_f",
+      "bgm": "4",
+      "char": "m151_01",
+      "speaker": "same_full",
       "pos": "right",
       "one_ani": "attack"
     },
-    "17": {
+    "2": {
       "type": "talk",
-      "dialogue": "俺は何もしてないぞ。",
-      "char": "c299_01",
+      "dialogue": "アームズと一緒にいるとこっちまで狂いそうになる。",
+      "char": "c000_01",
       "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "無視するのがいいですよ。\\特に大切な話でもないみたいですし。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "へへ！うへへ！怒った！怒ってるのか？\\怒った！怒ってるさ！怒っ…ん…",
+      "char": "m151_01",
+      "speaker": "same_full",
       "pos": "right"
     },
-    "18": {
+    "5": {
       "type": "talk",
-      "dialogue": "はい、そういうと思ってました。\\リザ、《証拠》を持ってきてくれ。",
+      "dialogue": "怒ったぜ！えへへへ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あ、いいニュースを伝え忘れてました。\\まぁ、ご主人さまのような\\残念な悪魔にとっては、ですが。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "アームズの契約者は覚えてますか？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "あの…可哀想なヤツのことか？\\この前、パシられてた…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "ええ、あの可哀想なパシリ君がついにパシリから\\解放されたみたいです。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "そうなのか？\\よかったじゃないか。でもどうやって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "恐らくチャイルドの影響だと思います。\\契約後は、今までなかった怪力を\\発揮してるようですね。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "その力で悪いヤツらを正義の名で叩きのめし！\\学校に平和が戻りました！と、いう感じみたいです。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "かかってこい！ウサギに噛みつかれたいのか！\\オラオラ！かかれ、ウサギ！",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "契約者の影響を受けたって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "怒りのコントロール障害…\\っていう副作用まで受けちゃったようですね。\\やっぱりそれもその人の気持ち次第ですし。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "チャイルドはちょっとだけ\\促進剤の役割をしたというべきでしょう。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "促進剤って…\\まさか、アームズみたいな状態に\\なったわけじゃないよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "うふふ、そんな状態で\\普通の私生活は送れると思います？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
     "19": {
       "type": "talk",
-      "dialogue": "はい。御主人様。",
-      "char": "c002_01",
+      "dialogue": "様子みて再契約ってわけか。",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "enter_from_right_slow"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "何だ、その紙は？",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "あら、いつの間にこんなに成長したんでしょう♥\\感動のあまりモナ泣いちゃいます♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "《プレゼント》と、その届け先が書かれた、\\先輩の「配達リスト」です。",
+      "dialogue": "けっ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ゴキブリの粉で作ったジンジャークッキー、\\毒とトゲのある木で作ったクリスマスツリー、",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "敵軍が山の麓に隠れたぞ！ウサギ部隊出撃！",
+      "char": "m151_01",
+      "speaker": "same_full",
+      "one_ani": "attack"
     },
     "23": {
-      "type": "talk",
-      "dialogue": "生きたタランチュラブローチを付けたセーター、\\ボアの抜け殻で作ったマフラー……",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "あはは、最高のプレゼント★\\受け取った人の顔を想像すると…くふふ♥\\で？わたし宛のプレゼントはどれかしら？",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "残念ながら、お前の名前はないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "あなたったらぁ…\\イケズ～",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "「あなた」か…\\お前がそう呼んでくれていた頃が懐かしいな…",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "いや、話をそらさないでください！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "先輩の、このとんでもないプレゼントが、\\俺の名前で全世界に配られそうになってたんですよ！どういうことか説明してください！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "クランプス。気に入ったのがあれば持って行け。\\代わりに、この頭の悪い小僧は今後相手にするな。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "俺と一緒にフィンランドに行こう。\\いや、今度はスイスに行こうか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "あら～そんなロマンチックなこと言われちゃうと\\気持ちがぐらぐら…\\あの時の出来事を思い出しちゃうかも…",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "でも、今はこの気が利かない坊やが、\\クランプスの「いい人」なんです。\\ね、あなた♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "はぁ、よりにもよってコイツか…",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "いや、もし気持ちが揺らいだなら遠慮せずに\\どうぞ元鞘に！\\その代わりややこしいことには巻き込まないでいただけると…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "えぇ～あなたぁ、この一途な愛を裏切るなんて…\\どうなるかわかってるよね？",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "うう、サンタクロースが睨んでる…\\いっそ本当に、二人で何処かに行ってほしい…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

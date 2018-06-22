@@ -2,331 +2,400 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "問題です！\\《朝は4本足、昼は2本足、\\夜は3本足で歩く動物は！？》",
-      "background": "bg034_f",
-      "bgm": "9",
-      "char": "c216_01",
-      "speaker": "same"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "ずいぶん定番のなぞなぞだな。\\答えは《人間》だろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ブーッ！不正解！",
-      "char": "c216_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "なんでだよ？\\赤ちゃんの時ハイハイ、大きくなると2本の脚で…ってヤツだろ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "答えは《朝からお腹を下した可哀想な人間》だよ～",
-      "char": "c216_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "はぁ！？なんだそれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "え～じゃあ説明してあげるね～\\朝、お腹が痛すぎて這って歩いて。",
-      "char": "c216_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "昼になったらよくなったから普通に歩くの～\\で、夜になったらまた再発ね～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "その流れだと、夜も4本足だろ？\\そんな勝手に作った答え、わかるか！",
+      "dialogue": "リ…ザ…！たす…けて…！",
+      "background": "bg086_f",
+      "bgm": "20",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
-      "after_effect": "shake"
+      "before_effect": "shake"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "子犬がトイレに行きたくて鳴いてるみたいですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "あ…当たらずも、遠からず…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "真っ青な顔をしながら身体をくねくねさせて…\\もしかしてお腹を下したのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ち…ちがう！うう…\\で…でも…もう…すぐ…そうなる…かも…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "言い訳は結構です。早くトイレに行きましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そ…その…えーと…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "何かあったようですね…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "今の御主人様から正確な説明を聞くのは、難しいようですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
     },
     "10": {
       "type": "talk",
-      "dialogue": "文句が多いな～じゃあ、もういっこ。\\《太陽を追う狼と、月を追う狼を飼ってる\\少女の名前は？》",
-      "char": "c216_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "リザはそう言って、俺をトイレへ連れて行った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "また…変な答えじゃないだろうな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ふざけるのは最初だけだよ。",
-      "char": "c216_01",
+      "dialogue": "ただドアを開けて普通に入ればいいでしょうに…\\おや？",
+      "background": "bg096_f",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ホントかよ…\\まぁ、いいや。",
-      "char": "c000_01",
+      "dialogue": "テティス？\\…何をしているのですか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "えーと、太陽と月を追う狼？\\あれ、どこかで聞いたことがあるような…",
-      "char": "keep",
+      "dialogue": "リザ…！もうダメだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "思い出せそうで思い出せない…\\わからん！",
-      "char": "keep",
+      "dialogue": "御主人様！こんなところで漏らさないでください！\\もうそんな歳ではないでしょう！！",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "angry",
+      "before_effect": "shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "もうギブアップ？\\ニャンコちゃん、根気なさすぎ！",
-      "char": "c216_01",
+      "dialogue": "ちがう！！でも…もうすぐ…そうな…る…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "答えはニャンコちゃんの目の前にいたのにね～",
+      "dialogue": "ぐぬぬぬっ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "目の前って…あ、アイツらは…",
-      "char": "c000_01",
+      "dialogue": "真っ青な顔が真っ白になってしまいましたね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "19": {
       "type": "talk",
-      "dialogue": "スコル、ハティ。おとなしくね。\\そう、いい子達ね。",
-      "char": "c216_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "enter_from_right_slow"
+      "dialogue": "そんなこと…言ってる場合じゃ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ワーウルフの契約者じゃないか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "うう…全部テティスのせいだ。\\俺は恨みを込めてテティスをにらんだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "21": {
       "type": "talk",
-      "dialogue": "スコルとハティ。太陽を追う狼と、月を追う狼。\\答えは自分の契約者だったのか。",
+      "dialogue": "テティスはお風呂に浸かったまま、物思いにふけっている…のか？",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お前、契約者がここに来ること知ってたのか？\\…って、ワーウルフ、どこ行った？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "しかもお風呂の蛇口から、お湯が出しっぱなし。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あ、あ…あなた…！\\なぜこんなところに？",
-      "char": "c216_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
+      "dialogue": "トイレの床は、あふれたお湯でビショビショ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "24": {
       "type": "talk",
-      "dialogue": "な、な、な、何？\\…っていうか君は誰？",
+      "dialogue": "テティス、今すぐ出ろ！！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
       "facial": "confused",
       "before_effect": "shake"
     },
     "25": {
       "type": "talk",
-      "dialogue": "あなた、以前あたしに…何かしたわよね？",
-      "char": "c216_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "契約の時も手こずりましたが、ここまで手を焼かせるとは。\\いろいろと面倒なチャイルドですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
     },
     "26": {
       "type": "talk",
-      "dialogue": "何を言ってるんですか？\\何かなんてするわけないじゃないですか？",
-      "char": "c000_01",
+      "dialogue": "御主人様、私がなんとかします。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "after_effect": "shake"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious",
+      "one_ani": "attack"
     },
     "27": {
       "type": "talk",
-      "dialogue": "うわっ、ちょっと待て。こらっ、おい！\\やめろって！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "shake"
+      "dialogue": "リザは蛇口を締めて、お風呂から無理矢理テティスを引き上げた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "28": {
       "type": "talk",
-      "dialogue": "突然、契約者の子狼達が俺の匂いを嗅ぎ始めた。\\痛い…尻尾がブンブンしている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "私に触れないで…",
+      "char": "c187_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そういえば、以前もこんなふうに子狼に捕まって、\\ワーウルフの契約者と出会ったんだっけ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それはこっちの台詞だよ。\\うちの風呂の蛇口に触れるな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
     },
     "30": {
       "type": "talk",
-      "dialogue": "前と同じ光景ね。\\この子達は、一度嗅いだ匂いは忘れないわ。",
-      "char": "c216_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "リザ、早く…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "screen_effect": "dialog_shake"
     },
     "31": {
       "type": "talk",
-      "dialogue": "覚えてたのか…",
-      "char": "c000_01",
+      "dialogue": "お待ちください！",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ねぇ…\\あたしに何をしたのか、今すぐ説明してちょうだい。",
-      "char": "c216_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "俺は別に…何もしてないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "そんなはずない！\\あなたに会った日、絶対何かあったの！",
-      "char": "c216_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "うまく言えないけど、すごくスッキリして…\\やっとまともに呼吸ができるようになったの。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "なんだかとっても、気持ち良かった…\\お願い、同じことをもう一度やってよ！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "そんなのは知らないよ。一体、何のことだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "契約当時の感覚を覚えているようだ…\\でも、契約は、いいことばかりじゃないんだよ…",
+      "dialogue": "リザは、うなだれたテティスを引きずってトイレの外に出た。俺はやっと用を足すことができた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "39": {
-      "type": "talk",
-      "dialogue": "あたしは…\\少しでも、自由な気分を味わいたい。",
-      "char": "c216_00",
-      "speaker": "same_full",
-      "pos": "right"
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
-    "40": {
+    "34": {
       "type": "talk",
-      "dialogue": "もうすぐサーカスで稽古の時間なの。\\息苦しくて…嫌い…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "自由が手に入らないのは知ってる。\\お願い。気分だけでも、救われたいの。\\解放されたいのよ！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "…気分だけで、いいのか？",
-      "char": "c000_01",
+      "dialogue": "私には悲しみに浸る権利もないの？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c187_01",
       "speaker": "same",
-      "pos": "left"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "ええ…\\だって、それ以上は望めないもの。",
-      "char": "c216_00",
-      "speaker": "same_full",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
-    "44": {
+    "35": {
       "type": "talk",
-      "dialogue": "わかった。\\でも、あまりのめりこむなよ…",
+      "dialogue": "あのな～悲しみに浸るのは勝手だけど…\\なんで風呂でやるんだ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "水の中は静かね…何の音も聞こえない。\\悲しみの海に、私ひとりが囚われているのね。",
+      "char": "c187_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "何を言ってる？お前は詩人か？\\悲しむのは勝手だけど、俺の家が水浸しになるところだったんだぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ああ。私の悲しみがこんなに大きかったとは…",
+      "char": "c187_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "はぁ…悲しいのはこっちだよ…\\はは…なんだか、似た物同士って感じだな。\\お互い、元気だしていこうじゃないか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "同情してくれるの？優しいのね。\\やっぱり私を慰めてくれるのは、あなただけね。",
+      "char": "c187_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "お前を慰めないと、こっちがおかしくなりそうだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "御主人様。後始末はお任せしてよろしいですね？\\テティスの悩みは…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "大丈夫、任せてくれって。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "ではもう一度、私は静かな水の中へ…",
+      "char": "c187_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "45": {
+      "type": "talk",
+      "dialogue": "だから！ダメだって言ってるだろ！\\あ～も～…トイレに鍵でもかけようかな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

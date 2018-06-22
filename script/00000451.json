@@ -2,106 +2,103 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はぁ、はぁ…ここらへんじゃ、一番高いとこだよ…\\ふぅ…好きなだけ見ていけばいいだろ…ぜぇ、はぁ…",
-      "background": "bg050_f",
-      "bgm": "19",
+      "dialogue": "サルマキス、チャイルドの生活はどうだ？\\上手くやってるか？",
+      "background": "bg086_f",
+      "bgm": "4",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh",
-      "before_effect": "none",
-      "after_effect": "none"
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うむ。\\エスコート感謝するぞ、坊や。",
-      "char": "c156_01",
+      "dialogue": "心配しないで。ご主人様のおかげで、\\とっても楽しく過ごしてるから。",
+      "char": "c126_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "どーいたしまして…はぁ～…",
+      "dialogue": "それはよかった。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "よく言うよ…めんどくさいって断ったら、\\尻尾に噛みつく妙なペットを召喚して\\笑顔で脅したくせに…",
-      "char": "keep",
+      "dialogue": "ふーん。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sad"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ううっ…俺の人権…\\いや、悪魔権は誰が守ってくれるんだ…",
-      "char": "keep",
+      "dialogue": "ん？なんだ？何か悩みでもあるのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ここから眺めると、\\この世がとても変わったことがよくわかるな。\\ここからどれだけ、変わってゆくのだろうか…",
-      "char": "c156_01",
+      "dialogue": "そうじゃなくて…今思うとね。\\ご主人様って、思ったよりいい人みたい。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "またそんなババァ…いや、老人…じゃない、\\ご先祖様みたいなことを…",
+      "dialogue": "思ったよりって…\\まあ、そう言ってくれるのはありがたいけど。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…幼き悪魔よ。\\そなたは、魔王になるため戦っているのであろう？",
-      "char": "c156_01",
+      "dialogue": "この前、\\ご主人様は恋愛経験ゼロって聞いたから…\\とっても心配してたんだ。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "え？\\ま、まあ…とりあえずは。",
-      "char": "c000_01",
+      "dialogue": "ある意味、魅力がない人なのかなって…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そうしないと、支援金も途絶えるし…\\モナの小言もひどくなるだろうからな…",
-      "char": "keep",
+      "dialogue": "俺が恋愛経験ゼロ？\\誰がそんなこと言ってたんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "新たな魔王が生まれたら、\\この人間界はどうなるのだろうな。",
-      "char": "c156_01",
+      "dialogue": "モナが教えてくれたよ。",
+      "char": "c126_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "滅ぶと思うか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "モナのヤツ…\\よりによってサルマキスにそんな話を…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そんなこと、考えたことないけど…",
+      "dialogue": "その…誤解してるみたいだけど。\\俺は恋愛したことがないわけじゃないぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -109,135 +106,157 @@
     },
     "14": {
       "type": "talk",
-      "dialogue": "今も魔王はいるけど、別に滅んでないだろ？\\だったら、これからも同じじゃないか？",
+      "dialogue": "それに…心配されるほど魅力がないわけでも…\\ない、はずだ。たぶん…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "性根の悪い悪魔が魔王になれば、\\そうもゆかぬだろう。",
-      "char": "c156_01",
+      "dialogue": "恋愛経験がないのは恥ずかしいことじゃないわ。\\ちょっと残念なだけ。",
+      "char": "c126_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そりゃ…確かに。\\妙なヤツも多いしな。",
+      "dialogue": "そう言われると余計に恥ずかしいだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そなたは、魔王になりたくないのか？",
-      "char": "c156_01",
+      "dialogue": "実は、私の契約者も恋愛経験がないの。\\ひとりの男性だけを好きになったせいでね。",
+      "char": "c126_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "望んだからって皆が皆\\行きたい場所に行けるわけじゃないだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "人間界だって同じだよ。\\勝ち組もいれば負け組もいる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "俺だって同じさ。\\与えられた場所で生きるだけだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ふふ…そなたは面白いな。",
-      "char": "c156_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "し、尻尾を触るな…\\毛づくろい禁止…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation",
-      "before_effect": "shake"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "幼き悪魔よ。\\私は、そなたが魔王になることを願っておる。",
-      "char": "c156_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "俺が…？どうして？",
+      "dialogue": "そうだ。オマエの契約者、片思いしてたよな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "25": {
+    "19": {
       "type": "talk",
-      "dialogue": "私が、この世を見守り続けることに\\なりそうだからだ。",
-      "char": "c156_01",
+      "dialogue": "うん、結局は叶わなかったけど。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
-    "26": {
+    "20": {
       "type": "talk",
-      "dialogue": "私も、私の契約者も…\\ずっとこの地で生き続けられるように…",
+      "dialogue": "契約者が片思いしていた男性は事故で亡くなり…\\後を追って死のうとしていた契約者を、\\ダビが救った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "契約者はその人のことを忘れられなくて\\苦しんでたけど、私は絶対にそうはならないよ。",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "必ず、私だけの王子様を見つけ出すの！",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "near"
     },
-    "27": {
+    "23": {
       "type": "talk",
-      "dialogue": "ま、そりゃそうか…\\俺が魔王になれたら、人間界を滅ぼすなんてことは、ありえないし…",
+      "dialogue": "そうか。できるといいな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "sad"
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "だから、ご主人様も諦めないで！\\とっても素敵な人だから！",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "もしかすると、ご主人様の魅力に気づいている人が\\意外と近くにいるかも…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "まさか…\\俺の周りに、そんな人がいるわけないだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "俺の周りにいるのは変態おばさんと、\\何かにつけて文句ばかり言うガキだけだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "28": {
       "type": "talk",
-      "dialogue": "だから…側にいてやろう。",
-      "char": "c156_01",
+      "dialogue": "そんなことないよ！\\もう少し周りをよく見てみて！",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "我が愛しき…懐かしき気配を持つ者よ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "そう言うサルマキスの眼差しはどこか怪しかった。\\何かを知っているような目をしてた…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "30": {
+      "type": "talk",
+      "dialogue": "そんなはずない。オマエの勘違いだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "本当にそうかなー。ウフフ…",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "……？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

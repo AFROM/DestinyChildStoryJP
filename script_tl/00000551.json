@@ -2,277 +2,183 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お前、もう金輪際キッチンには近づくなよ！？",
+      "dialogue": "食べた？全部食べたの！？",
       "background": "bg089_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "bgm": "20",
+      "char": "c003_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ふぇぇ、そこまで言う事ないじゃん！",
-      "char": "c003_01",
+      "dialogue": "何言ってるんだ？当然、全部食べたさ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake_weak"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あのな、これでも優しく言ってる方だぞ！？\\インスタントラーメン作ろうとして、どうして\\家が燃えそうになるんだ！？",
-      "char": "c000_01",
+      "dialogue": "ダビの分の残しておくって言ったじゃん！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ワザとじゃないもん！\\怒鳴らないでよ！",
-      "char": "c003_01",
+      "dialogue": "そんな約束してない。\\どうやってアイスクリームを残すんだ？\\溶けちゃうだろ。溶ける前に食べ切らないと。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sulky",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "pretense"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ワザとなら、怒る程度じゃすまないぞ！",
-      "char": "c000_01",
+      "dialogue": "それがアイスクリームに対する礼儀ってもんだろ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
+      "facial": "pretense"
     },
     "6": {
       "type": "talk",
-      "dialogue": "とにかく、ガスレンジには絶対！絶対！\\触るなよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "dialogue": "キキキ…アイスクリームくらい\\買ってきてやる！",
+      "char": "m037_01",
+      "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "嫌だ！ヤダヤダ！触るもん！\\ラーメンも作るし、目玉焼きも作るもんね！\\だって、それフリでしょ！？",
+      "dialogue": "ホント？",
       "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "fury",
-      "before_effect": "shake"
+      "facial": "smile"
     },
     "8": {
       "type": "talk",
-      "dialogue": "振りなワケないだろ！どこのクラブだ！\\とにかく、素直に言うこと聞かないと…お、オルガ！ちょうどいいところへ！",
-      "char": "c000_01",
+      "dialogue": "食べろ！ぜーんぶ食べろ！キキキキ…",
+      "char": "m037_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…ふう、喧しいな。\\何事だ？",
-      "char": "m057_01",
-      "speaker": "same"
+      "dialogue": "一体何個あるんだよ！\\近所のスーパーで売ってるアイス買い占めたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "言うこと聞かないと、オルガに頼んで\\上空2,000mから東京見物させるぞ！",
-      "char": "c000_01",
+      "dialogue": "ビンゴ！",
+      "char": "m037_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "distance": "near"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もちろん命綱なしでな！",
+      "dialogue": "嘘つけ…そんな金ないだろ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "fury"
+      "facial": "serious"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ヒイッ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
+      "dialogue": "気に入ったか？ふふ…多いほどいいだろ…\\飽きるまで食べろ…ふふ…",
+      "char": "m036_01",
+      "speaker": "same"
     },
     "13": {
       "type": "talk",
-      "dialogue": "おい、私の意志は…",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "オルガ、すまん！\\ここは黙って言うことを聞いてくれ…！\\家を無事に守るためだ！",
+      "dialogue": "泥棒みたいなことするな！元に戻してこい！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "Amar~ Lhu natanti~",
+      "char": "m037_01",
+      "speaker": "same"
+    },
     "15": {
       "type": "talk",
-      "dialogue": "それでもいいのか？俺は本気だぞ？なっ、オルガ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "Ehineham… Anal nihaazinah bayalu imarah.",
+      "char": "m036_01",
+      "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "やれやれ…こやつの言うとおりだ。",
-      "char": "m057_01",
+      "dialogue": "Natanti tob mayaseh lkol. Ki bayalenu… tob ebah...",
+      "char": "keep",
       "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ふええん、ご主人ズルい！\\モナ姉さまに言いつけちゃうんだからー！",
-      "char": "c003_01",
+      "dialogue": "あいつら何て言ってるんだ？急に外国語かよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "superangry",
-      "after_effect": "go_to_right_point"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "はあ…面倒事に巻き込むな。",
-      "char": "m057_01",
-      "speaker": "same"
+      "dialogue": "ほんとバカご主人！そんなことも知らないの？\\あれは魔界の古い言葉だってリザが言ってたでしょ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あのな、さっきも言っただろ。\\家を守るためだって。\\お前も家がなくなったら困るだろ？\\だから相槌の協力くらいしてくれってこと。",
+      "dialogue": "…古代語か。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m057_01",
+      "dialogue": "近所の人たちに分けてあげよう！\\キキキ。",
+      "char": "m037_01",
       "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "んで、キッチンには何の用だ？",
-      "char": "c000_01",
+      "dialogue": "心優しい悪魔が近所の人たちのために\\アイスクリームを盗んだってな！キキキ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "after_effect": "go_to_right_point"
     },
     "22": {
       "type": "talk",
-      "dialogue": "家中に漂うこの美味そうな匂い…\\それにつられて戻ってきたら、\\ダビがラーメンを作ってると聞いたので。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "えー、自分で作るのが面倒だから\\ダビに分けてもらおうと思ったってこと？",
+      "dialogue": "お前ら何をひそひそと…ど、どこに行く！\\本当に噂を流す気か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "confused"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "じゃ、行ってくる！キキキ！",
+      "char": "m037_01",
+      "speaker": "same",
+      "distance": "far"
     },
     "24": {
       "type": "talk",
-      "dialogue": "分けてもらう？…いや、足りるわけないだろう。\\無論、丸ごといただこうと思っていた。",
-      "char": "m057_01",
+      "dialogue": "心配するな…\\仕事はしっかりするヤツだ…ふふ…",
+      "char": "m036_01",
       "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…ダビは俺に感謝すべきだな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "座ってな、俺が作ってやるよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "俺、こう見えて自炊歴長いからさ。\\俺の作るインスタントラーメンは美味いぞ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "たかがインスタントでも、作るにはコツがあるんだ。麺じゃなくてスープから入れる！これがミソ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…お前、そんな無口だっけ？",
+      "dialogue": "ああ、俺の運命…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "33": {
-      "type": "talk",
-      "dialogue": "そういうお前は\\前からそんなに口やかましかったか？",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "いや…でもお前といるせいか、\\柄にもないけど、おしゃべりになった気分だね。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "じゃあ、普段通り静かにしていろ。\\俺のようにな。",
-      "char": "m057_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…キャラに合わないことしても仕方ないか。\\遠慮なくそうさせてもらうよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "37": {
+    "26": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

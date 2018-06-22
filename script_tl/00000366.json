@@ -2,281 +2,288 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "おい、お前だろ？",
-      "background": "bg016_f",
-      "bgm": "2",
-      "char": "c069_00",
-      "speaker": "same"
+      "dialogue": "御主人様？\\何をなさっているのですか？",
+      "background": "bg086_f",
+      "bgm": "31",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…？\\お前こそなんだ？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "見てわからないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "最近、学校で生徒達をいじめてる奴が\\いるって聞いたんだが…\\実際会ってみたら大したことなさそうだな。",
-      "char": "c069_00",
-      "speaker": "same_full",
-      "pos": "center"
+      "dialogue": "さっぱりです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "何！？お前ケンカ売ってるのか？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "傘をさしてしゃがんでるんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いや、そういうわけじゃないが、\\俺は一応、風紀委員なんでね。",
-      "char": "c069_00",
-      "speaker": "same_full"
+      "dialogue": "それは分かりますが…\\なぜ家の中で傘をさしているのですか？\\まだ屋根に穴は空いていませんが。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "オマエのやってることを\\見過ごすわけにはいかないんだよ。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "まだ…？\\いつか穴が空くっていうのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "この…生意気な奴め！",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "dialog_shake"
+      "dialogue": "御主人様が傘を集めることが\\好きなのは知っていましたが",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "うっ…",
-      "char": "c069_00",
-      "speaker": "same_full",
-      "before_effect": "shake"
+      "dialogue": "傘をさすのも好きだとは知りませんでした。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ケンカ、止めたほうがいいよな？",
+      "dialogue": "今は俺をバカにしてるかもしれないが、\\後で俺の読みに驚くさ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "止めるのですか？",
+      "dialogue": "天気予報が雨でしたか？",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "知らんぷりしようと思ったけど、ダメなんだろ？\\なら行って止めないと。",
+      "dialogue": "例え台風でも\\家の中で傘をさす必要はなさそうですけど。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "まぁまぁ、見てろって。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "12": {
-      "type": "talk",
-      "dialogue": "素通りしないようにと言ったのは\\あの少年がプタハの契約者だからです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "13": {
       "type": "talk",
-      "dialogue": "彼と再契約を結びましょう。",
-      "char": "keep",
+      "dialogue": "困りました、私のマニュアルには、\\正気でない悪魔の扱い方は載ってないのですが…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "喧嘩を止めるのは\\私たちの目的ではありません。",
+      "dialogue": "うっ…！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ですので無理に喧嘩を止める必要はないと思います。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "うう…て、てめぇ…\\次、会ったときは覚えてろよ…！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "勝手にしろ。",
-      "char": "c069_00",
-      "speaker": "same_full"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "あ、逃げるぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "そろそろ行きましょうか。",
-      "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "うわ～\\モナよりふてぶてしいヤツがここにいた。",
+      "dialogue": "ふふ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "21": {
+    "16": {
       "type": "talk",
-      "dialogue": "…本当にすごいですね。\\相手を一発で倒すなんて…",
+      "dialogue": "これは…塩水？\\私に塩水をかけたのですか？",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "facial": "irritation"
     },
-    "22": {
+    "17": {
       "type": "talk",
-      "dialogue": "誰だ？あ、お前、この前の扇風機…",
-      "char": "c069_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "汚らわしい悪魔よ、直ちにここから消え去りなさい！",
+      "char": "c056_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
-    "23": {
+    "18": {
       "type": "talk",
-      "dialogue": "よおっ。",
-      "char": "c000_01",
+      "dialogue": "やめなさい、ジャンヌ！\\御主人様に向かって何を！",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "left"
     },
-    "24": {
+    "19": {
       "type": "talk",
-      "dialogue": "扇風機はちゃんと動いてるか？",
-      "char": "c069_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "あー、お陰様で…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "コイツはダビが壊した扇風機を修理するため\\修理屋で、偶然出会ったプタハの契約者だ。",
+      "dialogue": "塩水を撒き散らすジャンヌから逃げ惑うリザは、\\結局俺の傘に入ってきた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
+    "20": {
+      "type": "talk",
+      "dialogue": "そういえば、前にもこんなことがあったような…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "御主人様…\\じっとしてないで、彼女を止めてください。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "嫌だ、冷たくてベトベトしてるのは嫌いなんだ。\\それより、傘があってよかっただろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "御主人様！",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はいはい、分かったよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ジャンヌ、ちょっとこれを見てくれ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そ、それは…！",
+      "char": "c056_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
     "27": {
       "type": "talk",
-      "dialogue": "スパナでボルトとナットを締めるように、\\力でこの世を正したいと願っている変わったヤツだ。",
+      "dialogue": "俺が取り出した本を見たジャンヌは\\驚いたように手を止め、俺を見つめた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "28": {
       "type": "talk",
-      "dialogue": "俺が喧嘩しているのを見ていたのか？",
-      "char": "c069_00",
-      "speaker": "same_full",
+      "dialogue": "どうやってそれを…",
+      "char": "c056_01",
+      "speaker": "same",
       "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ま、まあ、結果的にはそうなった…",
+      "dialogue": "そりゃ、俺はお前が言う\\《汚らわしい》悪魔じゃないからさ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "まぁ、お前には関係のないことだが、\\なぜ、黙ってみていた？",
-      "char": "c069_00",
-      "speaker": "same_full",
+      "dialogue": "何ですか、それ。",
+      "char": "c002_01",
+      "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "俺は…誰かさんみたいに\\力があるわけじゃないからな。",
+      "dialogue": "《ジャンヌダルク経典》さ。\\どうだ、俺はお前が書いた経典も\\自由に触れるんだぜ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…俺だって別に力があるわけじゃない…",
-      "char": "c069_00",
-      "speaker": "same_full",
+      "dialogue": "……",
+      "char": "c056_01",
+      "speaker": "same",
       "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "御主人様に関しては力以前の問題ですね。",
+      "dialogue": "効果があったようですね。",
       "char": "c002_01",
       "speaker": "same"
     },
     "34": {
       "type": "talk",
-      "dialogue": "やっぱり…モナよりふてぶてしいな…",
+      "dialogue": "フフフ…感心、感心。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "pretense"
     },
     "35": {
       "type": "talk",
-      "dialogue": "この契約書にサインさえすれば\\欲しいものは何でも手に入ります。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "うわぁぁぁ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "36": {
       "type": "talk",
-      "dialogue": "なんだ…前にも同じようなことがあった気が…\\デジャヴってやつか？",
-      "char": "c069_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "聖水で浄化できないなら…\\この聖なる炎で悪を全て焼き尽くしてやる！",
+      "char": "c056_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "37": {
       "type": "talk",
-      "dialogue": "デジャヴのせいなのか分からないが…\\サインしても特に問題はなさそうだな…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "うわっ、落ち着けジャンヌ！\\本気で暴れるんじゃ…うわっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "38": {
       "type": "talk",
-      "dialogue": "さぁ、御主人様。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "光は闇を制す！",
+      "char": "c056_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "分かったよ。それじゃ、聞くぞ。\\お前の願いは何だ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "ボルトとナットを締めるスパナように\\世界を正す力が欲しい。",
-      "char": "c069_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

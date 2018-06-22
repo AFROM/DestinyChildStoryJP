@@ -2,210 +2,279 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いらっしゃいませ…可愛いお客様。",
-      "background": "bg087_f",
-      "bgm": "10",
-      "char": "c057_01",
-      "speaker": "same"
+      "dialogue": "ふあああっ！",
+      "background": "bg086_f",
+      "bgm": "31",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ひいぃっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "dialogue": "朝っぱらから金縛りか！？身体が重いし\\布団の中で何かがうごめいている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "毎回、ご挨拶ですね…\\アナタとワタシはもはや、姉弟のような関係…\\もっと打ち解けてください…",
-      "char": "c057_01",
+      "dialogue": "…",
+      "char": "c044_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前が姉貴だなんて、ゾッとするな…",
+      "dialogue": "お、お、お、お前…！\\何で俺の布団の中にいるんだよっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そんなことより、今日は聞きたいことがあるんだ。\\お前、最近オードに会ったか？",
-      "char": "keep",
+      "dialogue": "眠るには布団が必要でしょう。\\まだ明け方は冷えますし。",
+      "char": "c044_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら、ワタシとしたことが…\\大切な用事を忘れていました…\\可愛いお客様、\\お話は次の機会にしてもらえますか…？",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "時間は取らせない。こっちも急いでるんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "それではさようなら、可愛いお客様…",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "go_to_right_slow"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "は？\\ちょっと待てよ、ランフェイ！？",
+      "dialogue": "…それはマジレス？それともふざけてるのかな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "screen_effect": "dialog_shake"
+      "facial": "sigh"
     },
-    "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "11": {
+    "7": {
       "type": "talk",
-      "dialogue": "こんにちは、ランフェイさん！\\こちらまでいらっしゃるのは、久しぶりですね！",
-      "background": "bg054_f",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ええ…",
-      "char": "c057_01",
-      "speaker": "same"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "こんにちは、姐さん！今日はどんな御用で！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "まあ、色々とね…\\みんな、ご苦労様…",
-      "char": "c057_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ね、姐さん！\\連絡をくだされば、出迎えに行きましたのに…！\\今日はどうされたんですか？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ワタシに構わないで…\\今日は、様子を見に来ただけだから…",
-      "char": "c057_01",
-      "speaker": "same"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "野郎ども！姐さんがいらっしゃったぞ！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…ハァ。まったく、困ったものですね…\\みんな、持ち場に戻りなさい…",
-      "char": "c057_01",
-      "speaker": "same"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ワタシを慕ってくれるのは嬉しいけれど…\\仕事の手を止めるのは、考え物ですね…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "そういえば…\\ワタシを見て身を隠した者が、数人いましたね…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "<color=ff9900>《腐った枝》</color>は、さっさと切り落としましょう…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "22": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "御主人様が、明らかに何か企んでいると\\仰るから尾行しましたが…\\ランフェイは、自分の縄張りを確認している\\だけのようですよ。",
-      "background": "bg055_f",
-      "char": "c002_01",
+      "dialogue": "ベッドが少し狭いですが、できるだけ詰めて寝れば\\大丈夫そうです。",
+      "char": "c044_01",
       "speaker": "same",
       "pos": "right"
     },
-    "24": {
+    "8": {
       "type": "talk",
-      "dialogue": "何かやましいことがあるから、チェックしてるんだ。そうに違いない。",
+      "dialogue": "俺の質問に答えてよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "いいから、とにかく布団から出ろよ。\\そもそも、なんで俺のベッドで寝ようと思ったんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "硬い床の上で寝ると、背中が痛くて…",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そんなの、俺の知ったこっちゃない！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "12": {
+      "type": "talk",
+      "dialogue": "血も涙もない…さすが悪魔…",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "おい、なんで今ニヤッとした？\\なんか、ものすごくからかわれた気分なんだけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "しかも、明け方で寒いとか言ったけど…\\もう昼近くじゃないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "はは。布団から出なければ\\たとえ日が昇ろうと明け方なのです。",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そういうことにしておけば、\\自分の怠惰さから目を背けられます。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ややこしいわ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ね？\\ですから、一緒に横になりましょう。",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "何勝手なこと言ってんだ！\\さっさと俺の部屋から出ていけ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "はぁ…\\同類として心を通わせようと思ったのに、\\つれないんですね…",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "お前みたいなふてぶてしい悲観主義者と\\俺を一緒にするな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "きみは違うとでも？",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "俺のどこが悲観主義者なんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "聞いた話によると、魔王候補ではあるものの\\チャイルド集めに熱心なわけでもなく、",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "25": {
       "type": "talk",
-      "dialogue": "どうでしょうか。ランフェイにとっては、\\今が最も大事な局面ですからね。\\取引相手は悪魔ですし、用心を重ねるのは当然かと。",
-      "char": "c002_01",
+      "dialogue": "隙あらばリザさんの目を盗み、\\身を隠してしまいがち…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ここからでは詳しいやり取りはわかりませんが、\\ランフェイは普段通りに行動しながら、\\数人にカマをかけているようです。",
-      "char": "keep",
+      "dialogue": "うっ…そ、それは、\\俺が悲観主義者だからじゃなくて…！\\ただ単に…その…ちょっと、怠け者なだけだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "部下の中から怪しい者を炙り出し、切り捨てるつもりなのでしょう。\\賢いやり方ですね。頭のいいリーダーです。",
+      "dialogue": "だって、魔王なんて面倒くさいだろ？\\あのサキュバスたちさえ現れなければ…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "御主人様も、見習ったらいかがですか？",
+      "dialogue": "俺は適当に人間たちに紛れて\\それなりに頑張って生きてた…はず…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "はは。ぼくと同じ扱いされるのが、\\そんなに嫌なんですか？",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "いや、悲観主義者なんて…\\ちょっと気が重いだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "気が重い、ですか…\\ぼくは他人より少し余裕を持って\\生きているだけですけどね。",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "風に身を任せ流れる雲のように生きてゆくのです。\\とても自由な生き方だと思いませんか？",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "29": {
+    "33": {
       "type": "talk",
-      "dialogue": "はいはい、どうせ俺は頭の悪いリーダーですよ…",
+      "dialogue": "そう言われると、なんか羨ましい気が…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "sigh"
     },
-    "30": {
+    "34": {
+      "type": "talk",
+      "dialogue": "そうですよね？\\では、一緒に昼寝でも楽しみましょう。",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…っておい！今は明け方だって言ってなかったけ？\\結局、お前適当なこと言ってるだけだろ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "はは。\\言葉なんてどうでもいいじゃありませんか。",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "このタヌキめ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

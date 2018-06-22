@@ -2,89 +2,90 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "バシリってさ…前から思ってたんだけど\\俺のこと監視してるような気が…",
-      "background": "bg070_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same"
+      "dialogue": "じゃあね！クククッ！",
+      "background": "bg095_f",
+      "bgm": "20",
+      "char": "m007_01",
+      "speaker": "same",
+      "after_effect": "go_to_left_point"
     },
     "2": {
       "type": "talk",
-      "dialogue": "今もさ。ずっと監視されてる気分だ。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "バイバーイ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "バシリは日光浴の最中です。\\それに、日光浴中は大概、昼寝をしています。",
-      "char": "c002_01",
+      "dialogue": "あら、ダビ。誰に挨拶してるの？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m052_01",
-      "speaker": "same"
+      "dialogue": "テディだよ。バイバイしたの。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "やっぱり気のせいか？",
-      "char": "c000_01",
+      "dialogue": "そう？旅行にでも行くのかしら？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "気にすることはありません。\\御主人様には好意を抱いているようですし。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "まあ、確かに…\\戦う時もちゃんと指示をきいてくれるしな…",
-      "char": "c000_01",
+      "dialogue": "知らない。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "left"
     },
-    "8": {
+    "7": {
       "type": "talk",
-      "dialogue": "監視されてる気分になるのは、\\御主人様に後ろめたい気持ちがあるのでは…",
-      "char": "c002_01",
+      "dialogue": "知らない？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "出て行きたいっていうからドアを\\開けてあげたけど、どこに行くかは私も知らない。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "9": {
       "type": "talk",
-      "dialogue": "そんなことない！俺は潔白だ！",
-      "char": "c000_01",
+      "dialogue": "ダビったら、久々にいいことしてあげたのね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "すごい否定ですね…",
-      "char": "c002_01",
+      "dialogue": "やったー！モナ姉さまに褒められた。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "smile"
     },
     "11": {
       "type": "talk",
-      "dialogue": "やめろ！",
-      "char": "c000_01",
+      "dialogue": "ご主人さまもダビのこと少しは\\褒めてあげればいいのにね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m052_01",
-      "speaker": "same"
+      "dialogue": "トサカ野郎に褒められても嬉しくないよ。\\それに、テディが絶対トサカ野郎には\\言うなって言ってたから。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "13": {
       "type": "curtain",
@@ -95,32 +96,180 @@
     },
     "14": {
       "type": "talk",
-      "dialogue": "《バシリの日記》",
-      "background": "dungeon_bg",
-      "bgm": "24",
-      "char": "m052_01",
+      "dialogue": "つまり…テディが家出したってことか？",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "《リザの横についている猫のしっぽのヤツ…\\見るたびに目障りだ》",
-      "char": "keep",
+      "dialogue": "そういうことですね～",
+      "char": "c001_01",
       "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "《リザの横でゆっくり休みたいのに…邪魔だ》",
-      "char": "keep",
+      "dialogue": "ついでにダビはアイツが簡単に家を出られるよう\\ご丁寧にドアまで開けてあげた、と。",
+      "char": "c000_01",
       "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "《やっぱり、リザには内緒で片づけないと。\\そういえば…そろそろ狩りに出る時間だ…》",
-      "char": "keep",
+      "dialogue": "モナ姉さま、ひどい！\\どうしてトサカ野郎にしゃべったの？",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "facial": "cry"
     },
     "18": {
+      "type": "talk",
+      "dialogue": "一応、ご主人さまでしょ？\\チャイルドのせいで問題が起きたら\\モナも面倒だからよ。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "放っておけばいいじゃん、チャイルドなんて。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ダビ！テディはお前が探してこい！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "なんでダビが探さないといけないの！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "探して来なきゃ今日の晩ご飯は抜きだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "angry",
+      "mvd": "ux/talk/efx_script_angry_set.mvd",
+      "mvd_pos": "left_top"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "テディー！テディー！",
+      "background": "bg072_f",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ダビ！クククッ、\\ボクと遊びたくて来たの？",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ううん…トサカ野郎に怒られたの。\\テディの家出を手伝ったって…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sulky"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "もうバレたの？まだ遊び足りないのに…",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "戻ろうよ。\\テディを連れて戻らないと晩ご飯抜きなの。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ヤダ！それよりボクと遊ぼうよ。",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "イヤ！ダビはお腹空いたし。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "それじゃ、アイツのお菓子を盗っちゃおうか？",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "あの人間の子？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "そうだよ。さっきもいっぱい盗って食べたんだ。",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "本当に？どうやって？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "子供は僕みたいな可愛いぬいぐるみが\\大好きなんだ。それを利用すればいいのさ！\\クククッ！",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "それじゃ、お菓子盗ってくるから、\\よ～く見ててよ～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_point"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "あのチャイルド、気に入った！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

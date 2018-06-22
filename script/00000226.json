@@ -2,227 +2,88 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "じゃーん！特別に、あんたに見せてあげる！\\ダビが描いたんだよ！",
+      "dialogue": "おい、いつまで引きこもってるつもりだ！？\\時間の無駄じゃないか！",
       "background": "bg086_f",
-      "bgm": "4",
-      "char": "c003_01",
+      "bgm": "9",
+      "char": "c051_02",
       "speaker": "same",
-      "distance": "near",
-      "facial": "joy"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108503001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ん？\\それは、何の絵だ？",
-      "char": "c000_01",
+      "dialogue": "まったく…\\体からカビが生えそうだ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "after_effect": "shake_weak",
+      "voiceid": "108503002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "へぇ、すげーじゃん。",
-      "char": "keep",
+      "dialogue": "へぇ、お前は体からカビを生やす能力があるんだな！さすがは悪童様、すごい能力をお持ちですね！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "pretense",
+      "voiceid": "108503003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "立派な…石？",
-      "char": "keep",
+      "dialogue": "挑発としてレベルが低すぎて腹も立たん。\\気楽でいいものだ、補欠は！",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "voiceid": "108503004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "石！？違うよ！",
-      "char": "c003_01",
+      "dialogue": "どうしてお前はいちいちケチをつけてくるんだよ。\\いいから少しぐらい大人しくしてろ！",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "sulky",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "108503005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "それじゃあ…\\黒い、海苔…",
-      "char": "c000_01",
+      "dialogue": "おいモナ、お前からも何か言ってやれ。\\こんなチンタラやってていいのか？",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "right",
+      "voiceid": "108503006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "違う！",
-      "char": "c003_01",
+      "dialogue": "帰ってきてから1時間も経ってませんし、出かけるなら、もう少し休んでからにしましょ～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake_weak"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "108503007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "海苔でもない…\\だとすると…",
-      "char": "c000_01",
+      "dialogue": "クッ…\\どいつもこいつも！",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108503008"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あ、わかった！\\隕石に破壊された小惑星だ！",
+      "dialogue": "ああ、もう限界だ！\\こんな連中とつるんでたら、\\ヨボヨボのジジイになっちまう！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "108503009"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "ち、がーう！\\このウスラトンカチ！\\わざと間違えてるんでしょ！？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ダビは頬を膨らませて、俺を睨む。\\だが、わざと間違えているつもりはない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "俺には本当に、この絵が\\石か海苔にしか見えないのだ",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "モナ姉さま～！\\ご主人がダビをいじめるよ～！うわああん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "go_to_right_point"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "あらあら、どうしたの？\\そんなに泣いて、可愛い顔が台無しよ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "before_effect": "enter_from_right_fast"
-    },
-    "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ふふ、なるほど。\\ご主人さまは、ダビが何の絵を描いたのか\\わからなかったんですね。",
-      "background": "bg021_f",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "before_effect": "shake_weak"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ダビ。その絵を、モナに見せてちょうだい？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "何の絵か当てようと頑張ったけどさー…\\こんなんじゃわかんねーよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "どれどれ…あら！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "これは、ご主人さまの肖像画じゃないですか♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "は？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "俺…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "どうしてそんなに驚いているんです？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "まさか本当にわからなかったんですか？\\こんなに精密に描かれているのに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "精密？肖像画？\\これのどこが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "screen_effect": "dialog_shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "どこがって、\\どこからどうみてもご主人さまじゃないですか？\\それにしても、本当に上手に描けていますね～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…っていうか、ダビが俺の絵を描くなんて、\\珍しいこともあるもんだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,260 +2,353 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よう、《闇を切り裂く黒き蝶》さん！",
-      "background": "bg056_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "dialogue": "ハァイ。",
+      "background": "bg070_f",
+      "bgm": "17",
+      "char": "c190_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お前は相変わらず意地悪だな。",
-      "char": "c221_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "お姉さん！",
+      "char": "c190_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "なにっ！効いていない？\\もうこの攻撃は通じないのか…",
-      "char": "c000_01",
+      "dialogue": "お散歩？\\今日は外に出ていいって？",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "休む暇もなくからかっていましたからね。",
-      "char": "c002_01",
-      "speaker": "same",
+      "dialogue": "うん、体調もいいから…\\お医者様が許可をくださったの。",
+      "char": "c190_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "serious"
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そんなにからかったかな。",
-      "char": "c000_01",
+      "dialogue": "確かに、顔色がいいわ。\\前会った時より元気そう。",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "正直、私なら耐えられません。",
-      "char": "c002_01",
-      "speaker": "same",
+      "dialogue": "本当に？",
+      "char": "c190_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "shy"
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "モナなら、どんな手を使ってでも復讐していますね♥",
-      "char": "c001_01",
+      "dialogue": "うん。貴方の夢が叶う日も、\\そう遠くないみたい。",
+      "char": "c190_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "tempt"
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "暗殺したいくらいに…",
-      "char": "c003_01",
-      "speaker": "same",
+      "dialogue": "…お姉さん、いつも励ましてくれてありがとう。\\お姉さんのおかげで私…",
+      "char": "c190_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "idle",
-      "one_ani": "attack"
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "正直に言いすぎだ！",
-      "char": "c000_01",
+      "dialogue": "うふふ、私、嘘はつかないわ。\\本当にそう思ったから、そう言ったのよ！\\それより、演技の練習はしてる？",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "うわーん、モナ姉さまー！",
-      "char": "c003_01",
-      "speaker": "same",
+      "dialogue": "もちろん！",
+      "char": "c190_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "cry",
-      "before_effect": "go_to_right_slow"
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もっと仲良くしなきゃだめですよ。\\また小さい子を泣かせて。",
-      "char": "c001_01",
+      "dialogue": "そっか。じゃあ、ちょっと見せてもらえるかな？",
+      "char": "c190_01",
       "speaker": "same",
-      "before_effect": "go_to_right_point"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "身内を攻撃する御主人様に未来などありません。",
-      "char": "c002_01",
-      "speaker": "same",
+      "dialogue": "は、恥ずかしい…",
+      "char": "c190_00",
+      "speaker": "same_full",
       "pos": "right",
-      "before_effect": "go_to_right_point"
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "今日も意地悪されてばかりだ…",
-      "char": "c000_01",
+      "dialogue": "恥ずかしがっちゃダメ。\\だいたい、大勢の観客の前に立つんだから。",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "なぜ怒らない？\\彼女たちはただの使い魔ではないのか？",
-      "char": "c221_01",
+      "dialogue": "恥なんて捨てないと。\\役者にとって一番大事なのは自信！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "性格が違うのに、いちいち怒ってどうすんだよ？",
-      "char": "c000_01",
+      "dialogue": "見てて。…こほん。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "初めの頃はいちいち怒っていたけどね…\\これ、ナイショ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "「お嬢さん、時には思い切って\\20秒だけ勇気を出してごらん」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
     },
     "17": {
       "type": "talk",
-      "dialogue": "俺のせいで死ぬ思いもしてきたのに\\ちょっとのことで怒るわけにもいかないだろ？",
-      "char": "c000_01",
+      "dialogue": "「たった20秒、恥ずかしくても勇気を出そう」",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "言い返されるたびに怒るわけにもいかないし…\\俺の物を勝手に捨てるからって\\出て行けとも言えないし…",
+      "dialogue": "「そのたった20秒で、世界は変わる。\\きっと素敵なことが起こるから」",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "near"
     },
     "19": {
       "type": "talk",
-      "dialogue": "てか、結構イライラするな！\\俺がちょっと怠けたからって毎日説教ばかりで…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "dialogue": "…お姉さん、ありがとう。",
+      "char": "c190_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "怠けすぎだ。\\目覚ましの音でサキュバスが先に起きたら面倒だと",
-      "char": "c221_01",
+      "dialogue": "ちょっとは参考になったかしら。",
+      "char": "c190_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "一番先に起きて止めてからまた寝て、\\やっと契約者を見つけたのに目が気に喰わないとか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…うん、本当にすごかった。",
+      "char": "c190_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "まだ悪魔の世界をよく知らないみたいだけど、\\第一印象って大事なんだぜ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "自分の妄想にハマった\\中学2年の女子生徒は好印象だったのか？",
-      "char": "c221_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "非効率だとサキュバスたちが引き留めていたのに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ここだけの話、\\私は彼女が嫌いだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "誰かが撮った映像を\\そのまま見ているような気分だ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ヤナ…\\俺もそういう時期を過ごしてきたから分かるけど…",
+      "dialogue": "嫌だってば。他のやつに頼めよ。",
+      "background": "bg086_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "そう言わずに。お願い！\\1回だけだから、一生のお願い～！",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "…わかったよ。そこまでいうなら。\\1回だけだからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ありがとう、ご主人様。",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "で、俺は何をすればいいんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "28": {
       "type": "talk",
-      "dialogue": "成長痛というものだろう？誰でも経験する。\\リザもそう言っていた。",
-      "char": "c221_01",
+      "dialogue": "ここのセリフを読んで。",
+      "char": "c190_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "重要なのは、私が嫌いな私の過去の姿を\\全く関係のないお前が相手にしているという事だ。",
-      "char": "keep",
+      "dialogue": "…はぁ、めんどうくさい。何で俺がこんなこと…\\「時には思い切って」…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "30": {
       "type": "talk",
-      "dialogue": "最も醜い姿を見せているから\\…本人の立場ではむしろ気持ちが\\楽になったというか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "まとめると…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "魔王争奪戦が終わる頃までには\\《黒き蝶》ではないご主人様の魔剣として",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "同行するかもしれないという話を、\\…遠回りな言い方で話しただけだ。",
-      "char": "keep",
+      "dialogue": "もっと感情を込めて！",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
+    "31": {
+      "type": "talk",
+      "dialogue": "うう…なんでこんなこと…\\本当に、1回こっきりだからな。\\これが最初で最後だからな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "「時には思い切って\\20秒だけ勇気を出してみよう」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "「たった20秒、恥ずかしくても勇気を出そう\\そうすると、世界は変わる。きっと素敵な事が\\起きるから」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
     "34": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "あれ？次のセリフ、お前じゃないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…あ、ごめんなさい。\\ご主人様が思ってたより下手だったから\\どうしようかなって考え込んでたわ。",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "せっかく手伝ってやったのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "人様にお見せするなら、もう少し練習が必要だわ。",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "練習！？そんなのやらないよ。\\1回だけって言っただろ。\\一生のお願い使ったんだから、終わり。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "まあ、…そうだったわね。\\でも助かったわ。ありがとう。",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ふん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "本当に…本当にありがとう。",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

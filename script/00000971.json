@@ -1,17 +1,126 @@
-﻿{
+{
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "チャイルドは<color=\"ff9900\">覚醒</color>をすればするほど強くなり、\\<color=\"ff9900\">Bクラス以上</color>からは<color=\"ff9900\">装飾</color>が<color=\"ff9900\">装備</color>できるようになります。",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none"
+      "type": "curtain",
+      "background": "bg223_f",
+      "bgm": "10",
+      "fade_in": "shorter",
+      "hold": "shortest",
+      "char": "c002_01"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そして<color=\"ff9900\">チャイルド専用ストーリー</color>と\\<color=\"ff9900\">ボイス</color>も聞けますので、\\もっと仲良くなりますね♥",
+      "dialogue": "はぁ…本当に派手なインテリアですね…",
       "char": "keep",
-      "speaker": "none"
+      "speaker": "same",
+      "voiceid": "200606001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "美だけを追求し、実用性に欠けている…\\まさしく虚飾の極みですね。",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "200606002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ご主人様を…\\いえ、社長を侮辱するのはおやめ下さい。",
+      "char": "c283_00",
+      "speaker": "Morgan",
+      "pos": "right",
+      "voiceid": "200606003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "それだけは…ガマンが出来ませんから…",
+      "char": "keep",
+      "speaker": "Morgan",
+      "pos": "right",
+      "voiceid": "200606004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "なるほど、見事な忠誠心ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200606005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "答えて頂けないと思いますが、一応お尋ねします。\\あなたの社長は、今どこにいますか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200606006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…さっさと、掛かってこい！",
+      "bgm": "36",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "200606007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "理解できませんね。どうしてヴェルデレトに、\\そこまで執着するのか…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200606008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…ここは、絶対に通さない…\\あの方は私が守る！",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200606009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "彼に…依存しているのですね。\\彼には、あなたの気持ちは伝わりませんよ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200606010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "むしろ、その気持ちを利用されるはず。\\いえ、もう既にされているのですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200606011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "<b>ご主人様を侮辱するな！</b>",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "voiceid": "200606012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "《ご主人様》ですか…\\私の記憶では、そんな呼び方をされるような人物ではなかったはずですがね、ヴェルデレトは…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200606013"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

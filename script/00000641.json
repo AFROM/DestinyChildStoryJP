@@ -2,39 +2,37 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "マーリン！止まれ！\\捕まえたらただじゃ置かないからな！",
-      "background": "bg036_f",
+      "dialogue": "何だ？",
+      "background": "bg086_f",
       "bgm": "4",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お兄ちゃんってバカなの？\\止まれって言われて止まるヤツなんていないよ！",
-      "char": "c205_01",
+      "dialogue": "デヘヘ。",
+      "char": "c169_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "くっそ、屁理屈だけは上手いんだから！",
+      "dialogue": "お前しかいないのか？\\あ、いや…どうしてここにいるんだ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "僕を捕まえてごらん！\\もっとオモシロいもの見せてあげる！",
-      "char": "c205_01",
+      "dialogue": "私が…嫌い？",
+      "char": "c169_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あれより恐ろしいことか？\\一体どうやってあの獅子のヒゲをむしり取ったんだ？",
+      "dialogue": "いやいや…なんでそんなに極端なんだ？\\そうじゃなくて\\俺はサキュバスたちを呼んだんだ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -42,178 +40,191 @@
     },
     "6": {
       "type": "talk",
-      "dialogue": "ヒヒッ！",
-      "char": "c205_01",
+      "dialogue": "なのにお前が来たから驚いてるんだよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "一気に老けそうだ…",
-      "char": "c000_01",
+      "dialogue": "ん？モナは…ご主人様が私を呼んでるって言ってた。",
+      "char": "c169_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "マーリンのヤツ…\\チャイルドになってそんなに経たないうちに\\俺の部屋にとんでもないイタズラをした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "9": {
       "type": "talk",
-      "dialogue": "キュベレーのペットである\\テロンのヒゲを俺の部屋のベッドに置いたのだ。",
+      "dialogue": "モナの奴…\\会う契約とか営業とか面倒くさいことさせておいて\\いざ主人が呼び出すとシカトか。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "キュベレーのヤツ、俺がテロンのヒゲを\\無慈悲に抜いたと言って泣きわめくし、",
+      "dialogue": "とんでもないヤツを送り込んで\\俺を困らせるつもりだな。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "テロンも俺を捕って食う勢いで牙を鳴らした。\\本当に思い出しただけでもゾッとする…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ご主人様、退屈だって。\\だから遊んであげないと。",
+      "char": "c169_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "12": {
       "type": "talk",
-      "dialogue": "またあの恐怖を味わうわけにはいかない…",
+      "dialogue": "うわっ…そ、そうか。\\分かったから離れろ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "おい！今すぐこっちに来い！\\手足を括り付けてやる！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "うわー、こわ～い。",
-      "char": "c205_01",
+      "dialogue": "何して遊ぶ？ん？",
+      "char": "c169_01",
       "speaker": "same",
       "pos": "right"
     },
-    "15": {
+    "14": {
       "type": "talk",
-      "dialogue": "棒読みでも怖がってくれてありがとよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "全く怒りが収まっていないようだけど…\\大丈夫よね、テロン。",
-      "background": "bg086_f",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "マーリンのヤツ、なんでテロンのヒゲを\\むしり取るようなイタズラを…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "いや、それよりテロン、\\アイツはどうして俺に怒ってるんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "テロンは、私がアナタに\\泣かされたと思っているのよ。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "こうなった以上、マーリンが\\二度とあんなことできないようテロン、\\お前が叱ってやってくれ。",
+      "dialogue": "……",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "かくれんぼ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "カクレンボ？",
+      "char": "c169_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "隠れているサキュバスを探すんだ。\\誰が先に見つけるか賭けてみるか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "いいね！",
+      "char": "c169_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ふっ、モナめ。俺もやられてばかりじゃないぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "それじゃあ…",
+      "char": "c169_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ビックリした！近寄るなよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "…そんなことできないわ。",
-      "char": "c195_01",
+      "dialogue": "先に見つけたら何してくれる？",
+      "char": "c169_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "どうしてだ？",
+      "dialogue": "ん？そうだな…\\お前、チョコ好きだからチョコあげようか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "あれは…マーリンがお願いして抜いたヒゲなの。",
-      "char": "c195_01",
+      "dialogue": "んー、チョコは作ればいいから…違うやつ。",
+      "char": "c169_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "つまり…お前たちがグルになって\\やらかしたことだったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "テロンはあの子がイタズラするなんて\\知らなかったの。\\それにおかしいわ。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "あの子、どうやってテロンに\\お願いしたのかしら？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "テロンの言葉を聞き取れるのは私しかいないのに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "確かに…\\アイツ、本当に魔法使いにでもなったのか？",
+      "dialogue": "違うもの…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "チュッ！",
+      "char": "c169_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "な、なんだよ急に！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "私が勝ったらチューして！",
+      "char": "c169_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "勝つ前にもうしてるじゃないか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
     },
     "30": {
       "type": "curtain",

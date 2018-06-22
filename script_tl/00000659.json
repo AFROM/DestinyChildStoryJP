@@ -2,249 +2,306 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "常識的に考えて真夜中に\\どこからともなく音が聞こえたら、",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ノーデンス！",
+      "background": "bg016_f",
+      "bgm": "19",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "誰かがいると考えるのが普通だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "な、何であんたがここにいるの！？",
+      "char": "c140_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "しかし、その何者かが泥棒だとは考えにくい。\\少なくてもこの家では。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "フフッ。あなたこそ、どうしてここにいるの？",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "175円？これで全部？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "えっと…さ、散歩！散歩してただけよ。",
+      "char": "c140_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "なぜなら、盗める物がないといけないからだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "散歩ね～\\普通、学校で散歩なんてする？変じゃない？",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "おい、オマエ！俺の部屋で何してる！",
-      "char": "c000_01",
+      "dialogue": "あたしの勝手でしょ。\\あんたこそ、こんなところで何してるわけ？",
+      "char": "c140_01",
       "speaker": "same",
-      "facial": "fury"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "心配しなくてもいいよ、お兄さん。\\盗みたくても盗むものがないんだからー",
-      "char": "c225_01",
+      "dialogue": "何してると思う？",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "泥棒のくせに堂々としすぎだ。",
-      "char": "c000_01",
+      "dialogue": "何って？…まさか、あたしの後をつけて来たんじゃないでしょうね？",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ブタの貯金箱に入ってたお金がたったの\\175円だなんてー",
-      "char": "c225_01",
+      "dialogue": "あらやだ…\\ノーデンスったら、ちょっと自意識過剰じゃない？",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "175円でも泥棒にやる金はない。\\さっさと出てけ。",
-      "char": "c000_01",
+      "dialogue": "う、うるさいっ。",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "出てく？逃がしてくれるなんて嬉しいねー。",
-      "char": "c225_01",
+      "dialogue": "それで、あなたはどこに行くつもり？\\そろそろ追いかけるのも飽きてきたんだけど。",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "go_to_right_point"
+      "pos": "left",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "おい、待て待て。",
-      "char": "c000_01",
+      "dialogue": "やっぱりつけて来たんじゃない？！\\あたしのことからかって、そんなに楽しい？",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "窓を開けて何する気だ？",
-      "char": "keep",
+      "dialogue": "もちろん。\\こんなに楽しいこと、やめられないわ。",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "出てけって言ったじゃん？",
-      "char": "c225_01",
+      "dialogue": "あたしのこと、なめてるの？",
+      "char": "c140_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "far"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "部屋のドアから出てけって意味だ！",
-      "char": "c000_01",
+      "dialogue": "どうかしら…\\ねえ、それより当ててみましょうか？\\あなたが何しに来たのか。",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "面倒だけど、仕方ないか。",
-      "char": "c225_01",
+      "dialogue": "何いってるの？…も、もう帰るわ。",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "玄関もダメだぞ。",
-      "char": "c000_01",
+      "dialogue": "契約者に会いに来たんでしょう？",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ハ？窓もダメ、玄関もダメって。\\どうやって出てけって？",
-      "char": "c225_01",
+      "dialogue": "……",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "家出禁止だ！",
-      "char": "c000_01",
+      "dialogue": "フフッ…少し違ったかしら？\\最近よくここに来てるみたいだけど、一度も契約者と会ってないわよね。",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "出てけって行ったのはお兄さんでしょー?",
-      "char": "c225_01",
+      "dialogue": "一体、どうしてかしら。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "図々しいヤツ…",
-      "char": "c000_01",
+      "dialogue": "…まあ、顔を合わせたくないのも、わからなくもないわ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "分かったよ。家出がダメなら\\散歩でもしてくるよー",
-      "char": "c225_01",
+      "dialogue": "あなたの契約者は、友達を見捨てたんだから。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "そのくらいいいでしょー？",
+      "dialogue": "濡れ衣だって知っていたのに、何も言わなかった。\\他のみんなに嫌われたくないから…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near"
     },
     "24": {
       "type": "talk",
-      "dialogue": "そのくらいは許してやる…",
-      "char": "c000_01",
+      "dialogue": "そ、それは…\\元はと言えば、あんたの契約者のせいじゃない！",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
     },
     "25": {
       "type": "talk",
-      "dialogue": "とでも言うと思ったか！\\またどこかで盗みを働く気だろ？",
-      "char": "keep",
+      "dialogue": "ふふ、そう。濡れ衣を着せたのは私の契約者。でも、だから何？だましたり、だまされたり…それが人というものよ。",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "夜空の星のように輝く瞳をした女性の～",
-      "char": "c225_01",
+      "dialogue": "そんなことも分からないの、ノーデンス！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
+      "distance": "normal",
       "one_ani": "attack"
     },
     "27": {
       "type": "talk",
-      "dialogue": "財布だろ。",
-      "char": "c000_01",
+      "dialogue": "あたしは…\\あたしは、そんなの絶対認めない！",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ふふ。",
-      "char": "c225_01",
+      "dialogue": "じゃあ、なぜ契約者と会わないの？\\自分の契約者がしたことが許せないからでしょ…？",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "俺の家に来た以上、犯罪行為は絶対許さない。",
-      "char": "c000_01",
+      "dialogue": "違う！許したいから、見守ってるの！",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "お兄さん、ホントに悪魔？",
-      "char": "c225_01",
+      "dialogue": "一生懸命変わろうとしてる、あたしの契約者を…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "オマエ今、俺のこと悪魔らしくないって思ったろ？\\ダメなものはダメだ。",
-      "char": "c000_01",
+      "dialogue": "はぁ…まどろっこしいわね～",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "しつこいご主人様だねー\\分かったよ。今日はここまでにするよ。",
-      "char": "c225_01",
+      "dialogue": "あんたに何が分かるのよ！\\自分のことしか考えてないくせに…",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "それって…明日は盗みをするってことか？",
-      "char": "c000_01",
+      "dialogue": "それのどこが悪いの？\\つまんない…もう帰るわ。",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "after_effect": "go_to_left_point"
     },
     "34": {
+      "type": "talk",
+      "dialogue": "何なのよ、あいつ…",
+      "char": "c140_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "はぁ、困ったわ。新しいおもちゃを探すのは面倒くさいし…",
+      "background": "dungeon_bg",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "仕方ないわね。もう少しノーデンスを可愛がってあげましょう。\\…壊れたら、直せばいいしね？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

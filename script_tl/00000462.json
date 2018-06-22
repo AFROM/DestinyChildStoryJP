@@ -2,245 +2,319 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ふーん…",
-      "background": "bg086_f",
+      "dialogue": "はぁ、はぁ…おーい、ポモナ…\\まだ見つからないのか？",
+      "background": "bg067_f",
       "bgm": "9",
-      "char": "c173_01",
-      "speaker": "same"
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あれ、ディナシー？どうしてここに？",
-      "char": "c000_01",
+      "dialogue": "どこにもないわ。",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "退屈だから。",
-      "char": "c173_01",
+      "dialogue": "一体何を探してるんだ？\\教えてくれたら、一緒に探すけど？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near",
+      "facial": "idle"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そっか。でも残念だったな。\\ここにはお前を楽しませてやれるものはないよ。",
-      "char": "c000_01",
+      "dialogue": "まさか失った夢とか…希望とか…\\そういう抽象的なモノじゃないよな？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そうでもないと思うけど？",
-      "char": "c173_01",
+      "dialogue": "バカなの…？",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ディナシーの視線は、\\ベッドの上でゴロゴロしている俺に\\向けられていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "バカで悪かったな…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…まさか、俺に興味があんの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "多少。まだはっきりわからないけど。",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "と言ってもなぁ…\\そんなに見つめられても、何もないぞ。\\期待なんてするだけ無駄だから、\\他のおもちゃを探すんだな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ご主人は、1日中ベッドでモゾモゾしてるのが\\楽しいの？",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "…まさかお前、俺をイジッて遊ぶつもりか？\\そういうのは止めて欲しいんだけど。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "話すくらい、いいでしょ。\\他の悪魔たちは魔王争奪戦で忙しいのに、\\ご主人はのんびりしてるんだし。",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "怠けてるみたいに言うな！\\俺は魔王争奪戦なんてまったく興味がないんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ふーん。",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ディナシーは興味深そうに頷くと、\\俺のベッドの上に腰かけた。",
+      "dialogue": "ポモナはどちらかと言うと不思議系のチャイルドだ。言葉数が少ないチャイルドなら他にもいるけど、",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "こいつほど掴みどころのないチャイルドは、\\そういない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "今日は珍しく出かけるというから\\付き合ってやることにしたんだが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "あのさ、さらに深い所に向かってるみたいだけど、\\お前、道わかってるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…ううん。",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "すでに迷子なのかよ！？\\あてもなく、さすらってるってこと？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…うん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "今の返事に、間は必要だったのか…？\\考える必要もないだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "…ご主人のこと、気に入りそう。",
-      "char": "c173_01",
+      "dialogue": "出かけるって言うからついてきたのに…\\この有様かよー。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "sigh"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あ…そう？なんで？",
-      "char": "c000_01",
+      "dialogue": "…ごめん。",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "だって、シリアスなの嫌いだし、\\面倒くさいのも嫌いでしょ。\\怠け者で遊ぶのが好きで…あたしと同じだもん。",
-      "char": "c173_01",
+      "dialogue": "あ、いや、怒ってるわけじゃないぞ。\\でも、ちょっと不安だから、俺が先を歩くよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "haah"
     },
     "19": {
       "type": "talk",
-      "dialogue": "お前、褒めてんの？\\それとも、けなしてんの？",
-      "char": "c000_01",
+      "dialogue": "何を探してるのかだけは、\\正直に話してくれないか？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "facial": "haah"
     },
     "20": {
       "type": "talk",
-      "dialogue": "褒めてる。\\ねえ、あたしの契約者とデートしたんでしょ？\\どうだった？",
-      "char": "c173_01",
+      "dialogue": "場所。\\記憶の中の…場所。",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "だから…あれはデートじゃなくて、\\振り回されただけだってば。\\あいつが遊ぼうって、俺を勝手に連れまわしたんだ。",
+      "dialogue": "記憶の中の場所！？\\そりゃ、ずいぶん難しいものを探してるんだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "confused"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "そんなのはどうでもいいの。\\ねえ、どうだった？楽しかった？",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "それは…その。\\まあ、悪くは…なかったかな。",
+      "dialogue": "えっと…？\\「植物があって」「そばに水」…\\そして「静かな場所」！ここだ！！",
+      "background": "bg065_f",
+      "bgm": "17",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
+      "facial": "smile"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ならよかった。\\あたしの契約者も、きっと楽しかったと思うもの。",
-      "char": "c173_01",
+      "dialogue": "私の契約者は幼い少女だった…\\ここにはひとりでは来られない。",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "…そうか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そうに決まってるわ。\\じゃなきゃ、たった一度のデートで\\契約なんてしなかったはずよ。",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "そ、そうかな。",
+      "dialogue": "うーん…\\それじゃ、ここは？",
+      "background": "bg061_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
+      "facial": "idle"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "近いけど、ちょっと違う…\\ここまで静かな場所じゃなかった…",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "そうよ。きっとご主人といるのは\\楽しいんだと思う。",
-      "char": "c173_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "だから、多分これからも、\\しょっちゅう来ることになるから。\\よろしくね。ご主人。",
-      "char": "c173_01",
+      "dialogue": "よし、次はここ！\\これでどうだ！",
+      "background": "bg062_f",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "pretense"
     },
     "30": {
+      "type": "talk",
+      "dialogue": "…\\ここでもない。ごめん。",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "だったら、きっとここだろ！",
+      "background": "bg077_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…\\ここもちがう…",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ちぇっ、そうか。\\あー…いつまでも、\\探してばかりはいられないし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "時間の無駄だったか…\\むしろ他のことをしたほうが、\\もうちょいマシだったかもな。時間よ戻れ～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ごめんな。\\もっと俺の頭が良ければ、\\他の場所から探せたのにな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "…え？",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "もう1日が終わるって時に、\\こんなこと言っても意味ないんだけどさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "今日はここまでにしよう。\\明日もあるし、明後日もあるじゃん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "いつかは探せるさ。\\「記憶の中の場所」を。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

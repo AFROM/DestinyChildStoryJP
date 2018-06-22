@@ -2,204 +2,248 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "こんにちは…ご主人サマ。\\この前のこと、考えておいてくれた？",
-      "background": "bg092_f",
-      "bgm": "19",
-      "char": "c198_01",
+      "dialogue": "このバアル様にもっとふさわしいヤツを連れてこい！",
+      "background": "bg197_f",
+      "bgm": "6",
+      "char": "c147_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "この前のこと？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ふふ…とぼけちゃって…\\呼び方の話よ。",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake_weak"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "…ああ、他の奴らはチャイルドって呼んで、\\お前だけ名前で呼べって話か？",
+      "dialogue": "無茶なこと言うな。\\これは遊びじゃなくて戦闘なんだ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "臆病者が遠吠えか？\\戦い方を知らないなら見学してろ！",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "負けたりしたら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "5": {
       "type": "talk",
-      "dialogue": "ご名答。\\いい考えでしょう？ ご主人サマ。",
-      "char": "c198_01",
+      "dialogue": "ふむ…",
+      "char": "c147_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どーだろうな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense",
-      "mvd_post_effect": "none"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "はあ…またはぐらかすの？\\…酷いわ。",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "絶対に苦労させないよ…って、\\囁いてくれたあの言葉は、\\やっぱりウソだったのね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ウソも何も、そこまで言った覚えないんだけど…\\それに、そもそも名前を呼ぶのは\\お前だけにしろって、どんな頼みだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そんなことしたら、不便だろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "じゃあ、みんなにはあだ名でもつけましょうよ。\\そうすれば、不便じゃないでしょう？",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "メス豚、ゴミ、廃棄物、クズ…等々。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "明確でわかりやすい言葉って、\\たくさんあるじゃない？\\名前より、きっとそっちの方が便利よ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "あだ名の内容が問題だけどな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "あら、どこか問題だった？\\残念だわあ…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "残念だと思ってるのは、たぶんお前だけだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ふふ、ご主人サマってば、素直じゃないんだから。\\私ほど、ご主人サマに忠実な存在はいないのよ？",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "当然、特別扱いしてもらわないと。\\私はご主人サマの、大事な懐刀なんだから…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ぶ、物騒だな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ゼロス、お前の気持ちは嬉しいけど、\\だからって、お前だけを特別扱いするわけには\\いかないんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "わかってくれないか？\\お前にだけ、危険な役目を押し付けられないしな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "…ふふ。ご主人サマにそう言われたら、\\わからないとは言えないわ…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "惚れ直しちゃった…\\私の契約者も、\\きっと同じ気持ちだったんでしょうね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ん？何か言ったか？",
+      "dialogue": "何だ？戦闘中によそ見するな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "7": {
+      "type": "talk",
+      "dialogue": "俺はずいぶんオマエを甘く見ていた気がする。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "何だよ、急に…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "俺はな、とても奇抜な戦略を思いついた。\\だがそれを成功させるにはオマエの力が必要だ。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "何だ？突然俺を持ち上げやがって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "餌で獲物を釣る！",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うわあああ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "go_to_left_fast",
+      "screen_effect": "dialog_shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "クハハハ！適当に暴れてこい！\\俺はゆっくりついて行くぞ！",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "お、お、オマエ！俺を殺そうとしたな！",
+      "background": "bg111_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "前に言っただろう。\\俺は簡単には殺したりしないって。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "今さっき殺しかけただろうが！\\敵陣に投げ込んだだろ、俺を！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "confused"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "生きてるじゃないか。\\この俺様のアイディアのおかげで戦闘で勝ったしな。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "土下座して感謝されても足りないくらいだ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "お前とは絶対に戦わない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "俺以外にお前を使えるヤツがいるのか？",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "俺を道具扱いしやがって。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "笑わせるな。だったらお前は違うのか？\\お前もチャイルドを道具扱いしてるだろ。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "誰が…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "25": {
       "type": "talk",
-      "dialogue": "…何でもないわ。\\今晩のお散歩は、\\この辺りで終わりにしましょう…",
-      "char": "c198_01",
+      "dialogue": "お互いに利用してるんだ。配慮も犠牲も…\\それはずる賢いヤツらが他人を利用する\\手段ってだけだ。",
+      "char": "c147_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…惚れ直しはしたけど、特に収穫はなかったし…\\少しがっかりね。\\帰ったら、みんなをいじめようかしら…",
+      "dialogue": "それにお前はその手段を使うほど\\ずる賢いヤツじゃない。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "27": {
+      "type": "talk",
+      "dialogue": "だから他のヤツらはお前を無視するんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "だからお前も俺を無視するのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "クハハハ！そうだ！俺もお前を無視した。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "だが見てみろ。今回の戦闘も\\この俺がお前を使ってあげたじゃないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "それに心のこもった忠告まで…\\こんな待遇、他ではないぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "だから有り難く思えって言いたいのか？\\はいはい、ありがとうございましたー。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,274 +2,229 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "じゃあね！クククッ！",
-      "background": "bg095_f",
-      "bgm": "20",
-      "char": "m007_01",
+      "dialogue": "やあ、悪魔！\\モナがここに来ればいいって教えてくれたけど、\\偶然だね！",
+      "background": "bg070_f",
+      "bgm": "14",
+      "char": "c189_01",
       "speaker": "same",
-      "after_effect": "go_to_left_point"
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "バイバーイ！",
-      "char": "c003_01",
+      "dialogue": "俺がここにいるの分かってる時点で\\偶然でもなんでもないだろ…",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "sigh"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あら、ダビ。誰に挨拶してるの？",
-      "char": "c001_01",
+      "dialogue": "よし！偶然会ったから\\ちょっと親密度を上げてみようか！",
+      "char": "c189_01",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "テディだよ。バイバイしたの。",
-      "char": "c003_01",
+      "dialogue": "今日は私とデートだよ！\\",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そう？旅行にでも行くのかしら？",
-      "char": "c001_01",
+      "dialogue": "デート！？\\何だよ、デートって！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "知らない。",
-      "char": "c003_01",
+      "dialogue": "ドキドキしてる！？\\私の片方の足かせと手錠をはめて\\二人三脚デートだよ！",
+      "char": "c189_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "知らない？",
-      "char": "c001_01",
+      "dialogue": "何の罰ゲームだよ！\\",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "出て行きたいっていうからドアを\\開けてあげたけど、どこに行くかは私も知らない。",
-      "char": "c003_01",
+      "dialogue": "くっ…私とのデートが罰ゲームだなんて…\\ご褒美に決まってるでしょ！",
+      "char": "c189_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ダビったら、久々にいいことしてあげたのね。",
-      "char": "c001_01",
+      "dialogue": "どこがっ！\\",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "10": {
       "type": "talk",
-      "dialogue": "やったー！モナ姉さまに褒められた。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ご主人さまもダビのこと少しは\\褒めてあげればいいのにね。",
-      "char": "c001_01",
+      "dialogue": "そうだ、まだ親密度が低いからね。\\少しずつポイントが貯まれば悪魔も優しくなるはず！",
+      "char": "c189_01",
       "speaker": "same",
       "pos": "right"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "ついに現実と仮想世界の\\区別ができなくなったか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "12": {
       "type": "talk",
-      "dialogue": "トサカ野郎に褒められても嬉しくないよ。\\それに、テディが絶対トサカ野郎には\\言うなって言ってたから。",
-      "char": "c003_01",
+      "dialogue": "失礼だね！そのくらい区別できるよ！\\だから悪魔は好感度100点になったら、\\犯した罪を自白するようになる！",
+      "char": "c189_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そこからもう区別できてないみたいだけど…\\モナのせいだな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
     "14": {
       "type": "talk",
-      "dialogue": "つまり…テディが家出したってことか？",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same"
+      "dialogue": "とにかく！！デートよ！\\デートすれば全て解決するって言ってたし！",
+      "char": "c189_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そういうことですね～",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "俺に手錠と足かせを一つずつかけてか？\\",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ついでにダビはアイツが簡単に家を出られるよう\\ご丁寧にドアまで開けてあげた、と。",
-      "char": "c000_01",
-      "speaker": "same"
+      "dialogue": "あっ！そう！嬉しい！やっと理解してくれたんだ！\\",
+      "char": "c189_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "モナ姉さま、ひどい！\\どうしてトサカ野郎にしゃべったの？",
-      "char": "c003_01",
+      "dialogue": "断る！！\\",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
+      "pos": "left",
+      "facial": "serious"
     },
     "18": {
       "type": "talk",
-      "dialogue": "一応、ご主人さまでしょ？\\チャイルドのせいで問題が起きたら\\モナも面倒だからよ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "どう見てもデートじゃなくて\\罰ゲームだろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "放っておけばいいじゃん、チャイルドなんて。",
-      "char": "c003_01",
+      "dialogue": "ひどっ！\\",
+      "char": "c189_01",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ダビ！テディはお前が探してこい！",
-      "char": "c000_01",
+      "dialogue": "あらあらぁ。\\苦労してるみたいねぇ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "21": {
       "type": "talk",
-      "dialogue": "なんでダビが探さないといけないの！",
-      "char": "c003_01",
+      "dialogue": "モナ先生！\\",
+      "char": "c189_01",
       "speaker": "same",
       "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "探して来なきゃ今日の晩ご飯は抜きだ！",
+      "dialogue": "今の時代、サポーターは先生にもなれるのか。\\",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "angry",
-      "mvd": "ux/talk/efx_script_angry_set.mvd",
-      "mvd_pos": "left_top"
+      "facial": "sigh"
     },
     "23": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "24": {
       "type": "talk",
-      "dialogue": "テディー！テディー！",
-      "background": "bg072_f",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dialog_shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ダビ！クククッ、\\ボクと遊びたくて来たの？",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ううん…トサカ野郎に怒られたの。\\テディの家出を手伝ったって…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sulky"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "もうバレたの？まだ遊び足りないのに…",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "戻ろうよ。\\テディを連れて戻らないと晩ご飯抜きなの。",
-      "char": "c003_01",
+      "dialogue": "先生！悪魔の親密度を上げることができません！\\心の壁が高すぎます！",
+      "char": "c189_01",
       "speaker": "same",
       "pos": "right"
     },
-    "29": {
+    "24": {
       "type": "talk",
-      "dialogue": "ヤダ！それよりボクと遊ぼうよ。",
-      "char": "m007_01",
+      "dialogue": "フフ。\\それを壊して旗をさしたら大きな達成感が\\得られると思わない？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "確かに！さすが先生！\\そうね！難しい程、クリアした時の喜びは大きい！",
+      "char": "c189_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "俺はゲームの中の要塞か…\\クリアしても報酬アイテムはないぞ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "27": {
+      "type": "talk",
+      "dialogue": "それはやってみないと分からないよ！\\それに、クリアしたら間違いなく報酬はもらえる。",
+      "char": "c189_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "はあ…もう知るか。\\モナも来たことだし、二人で遊んでてくれ。\\俺は帰る。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "after_effect": "go_to_left_point"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あら、ご主人さま帰っちゃったわ。\\あなたはこれからどうするの？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
     "30": {
       "type": "talk",
-      "dialogue": "イヤ！ダビはお腹空いたし。",
-      "char": "c003_01",
+      "dialogue": "もちろん、罪を犯した悪魔に自白させる！\\…私の心を奪ったその罪の自白をね！",
+      "char": "c189_01",
       "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "それじゃ、アイツのお菓子を盗っちゃおうか？",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "これはまた、面白みがありそうね♥\\大変だと思うけど、がんばって♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "32": {
-      "type": "talk",
-      "dialogue": "あの人間の子？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "そうだよ。さっきもいっぱい盗って食べたんだ。",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "本当に？どうやって？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "子供は僕みたいな可愛いぬいぐるみが\\大好きなんだ。それを利用すればいいのさ！\\クククッ！",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "それじゃ、お菓子盗ってくるから、\\よ～く見ててよ～！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "after_effect": "go_to_left_point"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "あのチャイルド、気に入った！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

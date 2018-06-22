@@ -2,286 +2,265 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…こんにちは、補欠さん…",
-      "background": "bg095_f",
-      "bgm": "24",
-      "char": "c048_01",
+      "dialogue": "ダイアナ～頼むよ～な？",
+      "background": "bg036_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "cry"
     },
     "2": {
       "type": "talk",
-      "dialogue": "え…？この蚊の鳴くような声は…\\あれっ！？",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c033_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "お前、フレイのアレじゃなかった！？\\なんでこんなところにいるんだよ！？",
-      "char": "keep",
+      "dialogue": "ダイアナァ～！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair"
     },
     "4": {
       "type": "talk",
-      "dialogue": "《アレ》…？\\まさかとは思いますけど、愛人とでも…？",
-      "char": "c048_01",
+      "dialogue": "ご主人さま？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "違う、違う、そうじゃない！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お、ちょうどよかった！\\モナ、ちょっと助けてくれ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
     },
     "6": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "……！",
+      "char": "c033_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はあ…どいつもこいつも\\周りの迷惑を省みず、\\のうのうと生きてるクズばっかね…",
-      "background": "bg089_f",
-      "char": "c048_01",
+      "dialogue": "あ？え？どうした？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あんたが言う《こいつ》って…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "フレイ様のことです…\\あいつ、本当に迷惑なんですよ…",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "どれほどかって言うと\\腹がたって、聖水をかけたことがあります…\\しかも3回。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "なのにしぶとく生きてるんです…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "なんでまた聖水なんか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "しかし、そんなものどこで手に入れてるんだよ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "そりゃ…適当に涙を流して…\\救いを求めてるんですって祈ってれば…",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "私に騙される程度にレベルの低い祓魔師が引っ掛かります…\\1人見つければ…あとはさほど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "まあ、もし必要だったらお申し付けください…\\それぐらいなら、いつでも手に入りますから…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "あ、ああ…\\その時はよろしく…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "聖水が必要になる場面がまず思い浮かばない…",
+      "dialogue": "突然、ダイアナがモナと俺の間を遮った。\\その表情は、\\今にも拳が飛んで来そうなくらい険しい。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "19": {
+    "9": {
       "type": "talk",
-      "dialogue": "これさえ飲めばフレイ様もひとたまりもないだろう…と思って仕入れたのがきっかけなんですけど…",
-      "char": "c048_01",
+      "dialogue": "ダイアナ～？\\どうして、そんな怖い顔してるの～？\\モナ、あなたを怒らせるようなことしたかしら？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
-    "20": {
+    "10": {
       "type": "talk",
-      "dialogue": "ふふ…聖水ぐらいじゃ浄化できませんでした… \\フレイの奴、ふざけやがって、クズ野郎…",
-      "char": "keep",
+      "dialogue": "……",
+      "char": "c033_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
-    "21": {
+    "11": {
       "type": "talk",
-      "dialogue": "一日中水ばかり吐いて、いよいよ浄化される！\\と思ったのに。\\月が顔を出したらケロッとした顔で目を覚まして…",
-      "char": "keep",
+      "dialogue": "あらあら～…どうやらそうみたいね。\\モナとは話もしたくないって感じ…悲しいわ～",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
-    "22": {
+    "12": {
       "type": "talk",
-      "dialogue": "あのふざけた悪魔は、\\チャイルドが死にそうだって時に…\\《ラブレター》なんか書かせて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "《ラブレター》って何よ？\\呆れて、言われるがままに書いてやったけど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "どうせリザさんには読んでももらえないのに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "リザ宛てかよ！",
+      "dialogue": "お前…言ってることと表情が全然違うぞ。\\むしろリラックスしてんじゃん。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "貴方はご主人様に迷惑をかける…それが嫌なのです。",
+      "char": "c033_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ああ…\\ま、まぁな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ふむふむ…つまり、ダイアナは…\\かわいい飼い猫がとられちゃうのが心配なのね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "立場が逆だろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ご主人様の無垢な心は、私がお守りします。",
+      "char": "c033_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "だから、そういうこと言うなって…鳥肌立つから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ダイアナったら…\\ちょっとご主人さまを美化しすぎじゃないかしら？\\こう見えて…\\ご主人さまも血気盛んな年頃の男の子なのに♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そんなはずはありません。\\ご主人様は幼子の魂を持つ純粋なお方です。",
+      "char": "c033_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "うわぁ…サイコーに気色悪いな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "純粋な悪魔…まあ、詩的ではあるわね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "でも…その純粋な悪魔が、\\人間の魂を利用してるってこと…\\まさか、知らないはずないわよね、ダイアナ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それは…きっと、何か理由があるのでしょう。\\そうですよね、ご主人様？",
+      "char": "c033_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "えっ？ああ、もちろん！絶対の絶対にだ！\\魔王になりたいなんて、これっぽっちも思ってない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
       "facial": "serious",
       "before_effect": "shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そんなの書いてやることないぞ。\\自分で書けって言ってやれ！",
-      "char": "keep",
+      "dialogue": "わかりました。\\でしたら、私がご主人様をお助けしましょう。",
+      "char": "c033_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "center",
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "直接書かせると、どれだけ世話が焼けるかご存知ですか…？",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "「この字とあの字は何が違うのか」\\「どんな字で書いたらいいか」\\「何色のペンで書こうか」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "もう付き合いきれない…\\「ローズレッド」と「ルビーレッド」の違いなんて\\誰もわからないわよ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そもそも、\\ラブレターを赤いペンで書くってどうなの…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "リザが何であんなに辟易するのかわかった気が…",
+      "dialogue": "え？それってどうい…うわああああ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "after_effect": "go_to_left_jump"
     },
-    "32": {
+    "28": {
       "type": "talk",
-      "dialogue": "ところで、なんで俺にこんなことを話すんだろう。\\わけわからん奴だな。",
+      "dialogue": "ダイアナは俺の返事を待たず\\無言のまま、俺の手を掴んで走り出した。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "33": {
+    "29": {
       "type": "talk",
-      "dialogue": "あ、忘れるところでした…これを差し上げます。",
-      "char": "c048_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "何だろう。 雇用契約書… \\契約者は俺…？二重…契約？",
+      "dialogue": "どこ行く気だ！？おいいいいいい！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "二重契約うっ！？",
-      "char": "keep",
-      "speaker": "same",
       "pos": "left",
+      "distance": "near",
       "facial": "shock",
-      "before_effect": "shake"
+      "screen_effect": "dialog_shake",
+      "after_effect": "go_to_left_jump"
     },
-    "36": {
+    "30": {
       "type": "talk",
-      "dialogue": "フレイ様と大ゲンカしたので…",
-      "char": "c048_01",
+      "dialogue": "あら！意外と逃げ足が速いのね…\\まあ、精一杯逃げるといいわ♥\\足掻いたところで、モナの手の上ですけどね～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal",
+      "one_ani": "attack"
     },
-    "37": {
-      "type": "talk",
-      "dialogue": "最も稚拙で最悪な復讐を考えてたら\\補欠さんのことが浮かんだのです…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "私って天才かも…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "39": {
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,211 +2,180 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "しっかりして下さい。御主人様。",
-      "background": "bg086_f",
+      "dialogue": "2人とも歩く速度が非常に遅いですね。",
+      "background": "bg119_f",
       "bgm": "9",
-      "char": "c002_01",
+      "char": "c365_02",
       "speaker": "same",
-      "voiceid": "200100001"
+      "pos": "right",
+      "before_effect": "enter_from_right_slow",
+      "voiceid": "500101001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ははは…知ってるかリザ、今日はクリスマスだ。\\悪魔にとって最悪な日なんだよ。",
+      "dialogue": "これでも急いでるの！\\しょうがないじゃない、身長低いんだから…\\もう、機械だから人の心が解らないのね！",
+      "char": "c001_17",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "shock",
+      "before_effect": "enter_from_right_slow",
+      "voiceid": "500101002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "人って…お前はサキュバスだろ。\\都合のいい時だけ、人になるなよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh",
-      "voiceid": "200100002"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "はあ…そうは言いますが、\\別に、聖なる力が地上に満ちたりはしませんよ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200100003"
+      "voiceid": "500101003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "いや…そういうんじゃなくて、気分の問題だよ。\\優等生のリザ先生は気にならないんだろうな。",
-      "char": "c000_01",
+      "dialogue": "嫌味を言う体力は残っているようですね。\\そのまま素直に背中に乗ってくだされば、魔王から逃げきれたものを。",
+      "char": "c365_02",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200100004"
+      "pos": "right",
+      "voiceid": "500101004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "こんな日までチャイルド探しに明け暮れる自分に\\嫌気がさすって言うか…",
-      "char": "keep",
+      "dialogue": "魔王って、あのチビッ子サキュバスのダビだろ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah",
-      "voiceid": "200100005"
+      "voiceid": "500101005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "人間たちは楽しく遊んでるんだ、\\俺たちも休もう、な？",
+      "dialogue": "ご主人様にたてつくとは100年早い。\\少し、お仕置きしてやろうじゃないか！\\はっはっはっはー！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair",
-      "voiceid": "200100006"
+      "facial": "joy",
+      "voiceid": "500101006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "<color=ff9900>《クリスマスこそ悪魔たちの祭典》</color>\\という言葉を知りませんか？",
-      "char": "c002_01",
+      "dialogue": "知らないとは、罪ですね。\\そして…もうタイムリミットです。\\目標捕捉。識別RED。ターゲット、来ます。",
+      "bgm": "100",
+      "char": "c365_02",
       "speaker": "same",
       "pos": "right",
-      "voiceid": "200100007"
+      "voiceid": "500101007"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "はあ？\\誰がそんなことを言ってるんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "200100008"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…もしかしたらとは思っていましたが、\\まさか<color=ff9900>《クランプス》</color>を知らないのですか？",
-      "char": "c002_01",
+      "dialogue": "お～ほっほっほっほ～！\\このトサカ野郎、とうとう見つけたわよ！\\お前のようなゴミの命は、今日で終わりだと思え！",
+      "background": "bg197_f",
+      "bgm": "1",
+      "char": "c003_14",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200100009"
+      "pos": "center",
+      "distance": "near",
+      "facial": "joy",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "500101008"
     },
     "10": {
       "type": "talk",
-      "dialogue": "クリンプス？",
+      "dialogue": "はい！？あなた誰ですか！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "200100010"
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "500101009"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…クランプスです。\\クリスマスに人間の魂を略奪する\\伝説のチャイルドです。",
-      "char": "c002_01",
+      "dialogue": "…ん…ダビに似てる？\\わかった、ダビの家族か！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200100011"
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "500101010"
     },
     "12": {
       "type": "talk",
-      "dialogue": "伝説の…？",
-      "char": "c000_01",
+      "dialogue": "アイツめ、汚いぞ！\\勝てないからって身内を呼ぶなんて！！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "200100012"
+      "facial": "shock",
+      "voiceid": "500101011"
     },
     "13": {
       "type": "talk",
-      "dialogue": "伝説と言われていますが、\\実際に存在していたチャイルドです。",
-      "char": "c002_01",
+      "dialogue": "はっ！気でも狂った？愚かなトサカ野郎ね！\\私が新しい魔王！正真正銘のダビ様よ！\\お～ほっほっほっほ～！",
+      "char": "c003_14",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200100013"
+      "one_ani": "attack",
+      "voiceid": "500101012"
     },
     "14": {
       "type": "talk",
-      "dialogue": "主人である悪魔は人化サンタクロース。\\クランプスは《トナカイのルドルフ》に化けて\\人間たちを騙します。",
+      "dialogue": "ああ、そうね…\\この完璧に成長したダイナマイトボディを見て\\しまったら、そうなってしまうのも仕方ないわね。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200100014"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "500101013"
     },
     "15": {
       "type": "talk",
-      "dialogue": "人化サンタクロースって悪魔だったのかっ！？",
-      "char": "c000_01",
+      "dialogue": "これも全て！愚かな悪魔を主人として仕えながらも、コツコツと徳を積んだ成果よ！\\あ～はっはっはっは！お～っほっほっほっほ～！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "voiceid": "200100015"
+      "facial": "joy",
+      "voiceid": "500101014"
     },
     "16": {
       "type": "talk",
-      "dialogue": "実際の人化サンタクロースとは別人です。",
-      "char": "c002_01",
+      "dialogue": "さて、命乞いでもしたらどう？\\床にひれ伏して、この靴をなめてみなさい！\\ピカピカになるまで綺麗にしたら許してあげる\\かもよ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200100016"
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "voiceid": "500101015"
     },
     "17": {
       "type": "talk",
-      "dialogue": "人化サンタクロースの話しを上手く利用して、\\人間の魂を効率よく集めていた為、人化サンタクロースと呼ばれるようになっただけです。",
-      "char": "keep",
-      "pos": "right",
-      "voiceid": "200100017"
+      "dialogue": "これが、ダビ？\\ウソ…だろ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "500101016"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そ、そうか…\\子供の夢を壊さなくてよかったよ。",
-      "char": "c000_01",
+      "dialogue": "ご主人さま！大丈夫ですか？\\しっかりしてください！早くここから逃げないと！",
+      "char": "c001_17",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200100018"
+      "distance": "near",
+      "one_ani": "attack",
+      "voiceid": "500101017"
     },
     "19": {
       "type": "talk",
-      "dialogue": "しかし、クリスマスに仕事かよ？\\すごい先輩たちだな…",
-      "char": "keep",
-      "pos": "left",
-      "voiceid": "200100019"
+      "dialogue": "モナの言う通りです。急ぎましょう！\\早くご指示を！！",
+      "char": "c365_02",
+      "speaker": "same",
+      "one_ani": "attack",
+      "voiceid": "500101018"
     },
     "20": {
-      "type": "talk",
-      "dialogue": "数百年前、クランプスの主人が\\行方不明になってからは\\チャイルド1人で活動しているようです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "200100020"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "数百年もの間ずっと1人だなんて…\\そのチャイルドも苦労してるな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200100021"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "そうですね。ですが、心配は無用です。\\すぐに新しい御主人様ができますから。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200100022"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そうか、それはよかった…\\って、おい！まさか？\\その<color=ff9900>《新しい御主人様》</color>って言うのは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle",
-      "voiceid": "200100023"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "はい、お察しの通りです。\\クランプスが東京で目撃されたと情報が入りました。それでは、行ってみましょう。",
-      "char": "c002_01",
-      "voiceid": "200100024"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "はぁ～…\\苦労者同士、最高のパートナーになれそうだな。",
-      "char": "c000_01",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "200100025"
-    },
-    "26": {
       "type": "curtain",
       "background": "back",
+      "bgm": "keep",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"

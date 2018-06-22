@@ -2,277 +2,250 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人サマ、どうかご慈悲を…",
+      "dialogue": "あれ？テレビに出てるこの男の顔…\\どこかで見たような…",
       "background": "bg086_f",
-      "bgm": "4",
-      "char": "c022_01",
-      "speaker": "same"
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うわあ…モナ、聞いたか？\\こいつ、俺のこと「ご主人様」って言ったぞ。",
-      "char": "c000_01",
+      "dialogue": "こいつ、私の契約者を騙したヤツじゃないか。",
+      "char": "c008_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "よかったじゃないですか～\\おめでとうございます。ご主人さま♥",
-      "char": "c001_01",
+      "dialogue": "あ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "へへ…\\ついにマヤウェルにも俺のすごさがわかったんだな…",
-      "char": "c000_01",
+      "dialogue": "クソッ、ちょろちょろと逃げ回りやがって…！",
+      "char": "c008_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そうでもありません、ご主人サマ。\\ですが、わたくしめの忠誠心と尊敬を込めて、\\心から…",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "フリーガは剣を振り回し、今にでも\\テレビの中に飛び込んでいきそうな勢いだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…悲しくなるからもういいよ。寸劇はもう十分だ。\\どうせゲーム機が壊れたから直してほしいとかだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "テレビでは全国指名手配中の\\詐欺師の顔が流れている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…ったく、どいつもこいつも…\\都合のいい時だけご主人様だよな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "フリーガの契約者もまた、\\こいつの詐欺に遭った被害者だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "で、直してくれないってことすか？",
-      "char": "c022_01",
+      "dialogue": "そういえばこの前、\\バイト先のコンビニにも来てたっけ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うーん…\\まあ、お前のたったひとつの楽しみだろうし。\\まあ直してやっても…",
-      "char": "c000_01",
+      "dialogue": "契約者が？",
+      "char": "c008_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "おお！ありがとうございます！\\慈愛に満ちたご主人サマ！",
-      "char": "c022_01",
+      "dialogue": "うん。\\この街に住んでるから、たまに会うんだよ。\\見ないうちに随分たくましくになってたけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…いいかなって思ったんだけど\\お前のためを思うと、壊れたままのほうがいいかな。",
-      "char": "c000_01",
+      "dialogue": "さすがは私の契約者だな。",
+      "char": "c008_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "うっは、超絶肩透かし！\\悪魔氏に期待したボクがバカだったっす！",
-      "char": "c022_01",
+      "dialogue": "借金取りを相手にするには\\もっと体力をつけろってことか…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そんなに怒んなよ。\\一応、全部お前のためなんだぞ？",
-      "char": "c000_01",
+      "dialogue": "可哀想な女だよな。\\素敵な家庭を築くのが夢だって言ってたのに。\\よりによって彼氏が詐欺師だったなんて…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "14": {
       "type": "talk",
-      "dialogue": "フン！どうすかねー？\\どうせ、ボクを懲らしめたいだけじゃないんすか！",
-      "char": "c022_01",
+      "dialogue": "あんな奴は男じゃない。\\自分の女に借金を背負わせる奴なんて…",
+      "char": "c008_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "違うって。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そうじゃなくて、お前、ゲームばっかりしてるから\\他のチャイルドたちと全然仲良くならないだろ？",
+      "dialogue": "今度会ったらあいつを半分に斬り裂いて…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "他の奴らが、どれだけ残念がってるか知ってんのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "う、ウソだッ！\\…誰がボクと…仲良くなりたいなんて…",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…つーか、誰よりも、俺がお前と\\仲良くなりたいんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あらあら～♥どさくさに紛れて告白ですか～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "tempt"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "くそ、言うと思った…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "悪魔氏…それ…ほ、本当っすか？",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そうだよ。だから、これを機にゲームは卒業して…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "よお、元気してるか？…ん？なんだ、それ？",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "プタハ？\\闇市場にいるはずのお前が、なんでここに？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "どうしてるかなと思ってね。\\ところで…何だ？その面白そうなおもちゃは。",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "おもちゃ？ああ、マヤウェルのゲーム機か。\\お前、ゲームするんだっけ…あ、やべ、まさかお前…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "これ、壊れてるんだな。\\俺が直してやるよ。",
-      "char": "c069_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "おおー！慈悲深いプタハ様ー！",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ああー！おい、やめろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ほい、これで完了！",
-      "char": "c069_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "32": {
+    "16": {
       "type": "talk",
-      "dialogue": "あらあらぁ♥ご主人さまの薄っぺらい計略は、\\阻止されちゃったみたいですね～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "き、斬るだと…！？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "33": {
+    "17": {
       "type": "talk",
-      "dialogue": "薄っぺらい計略って…\\俺はマヤウェルと仲良くなりたかっただけで…",
+      "dialogue": "指名手配されたのも\\お前の契約者が警察に通報したからだって…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "怒りに震えながら…\\そういえば、あの女も全く同じこと言ってたな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ここまでくると\\本当に不憫なのは誰なのか分からなくなってくる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "こんなことしてる場合じゃない。",
+      "char": "c008_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "契約者もあんなに努力してるんだ。\\チャイルドになったからって\\じっとしてるわけにはいかない。",
+      "char": "c008_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…マッチョにでもなる気か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "当然だろ。力は筋肉！筋肉は強さの象徴！",
+      "char": "c008_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "確かに…その大きな剣を振り回すのに\\普通の体力じゃ無理そうだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
       "facial": "confused"
     },
-    "34": {
+    "26": {
       "type": "talk",
-      "dialogue": "よーし、じゃあ始めようか。",
-      "char": "c069_01",
+      "dialogue": "さ、そういうわけだから…私と一緒に走ろう。",
+      "char": "c008_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle",
-      "one_ani": "attack"
+      "distance": "normal"
     },
-    "35": {
+    "27": {
       "type": "talk",
-      "dialogue": "プタハ様っ！今日からご主人様と呼ばせてください！",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "right",
-      "loop_ani": "attack"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…まあ、主人なんて、\\そんな大したものでもないし…は、ははは…",
+      "dialogue": "いやいや、俺は遠慮しておくよ。\\お前の運動量と体力にはついていけない。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal",
+      "facial": "confused"
     },
-    "37": {
+    "28": {
+      "type": "talk",
+      "dialogue": "いつまでチャイルドを盾にするつもりだ？\\自分の身は自分で守れ。",
+      "char": "c008_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "立て、この役立たず！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "うわあ！分かったから耳をつまむなっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

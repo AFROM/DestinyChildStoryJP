@@ -2,171 +2,264 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "驚きです！今年1年生の加賀京介(かが きょうすけ)くん！",
-      "background": "bg090_f",
-      "bgm": "30",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
+      "background": "bg099_f",
+      "bgm": "29",
+      "char": "c174_01",
+      "speaker": "same",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "先輩たちを抜き中等部優勝を飾りました！",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "来たぞ！\\欲にまみれた悪魔たちのデス・ロワイヤル！！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
     },
     "3": {
       "type": "talk",
-      "dialogue": "俺が勝った…！俺が兄さんに勝った！",
-      "char": "c208_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "参加者には、なな、なんと！貪欲な悪魔も納得の\\超豪華プレゼントを差し上げま～す★",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "4": {
-      "type": "talk",
-      "dialogue": "全国大会で優勝した兄さんに…！\\いつも俺を苦しめていた兄さんに！",
-      "char": "c208_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "一発も当てる事が出来なかったヤツが…\\一体どこで訓練したんだ？",
-      "char": "none",
-      "speaker": "unknown1",
+      "dialogue": "誰が勝つかなぁ～ドキドキ！ワクワク！",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "joy"
     },
     "6": {
       "type": "talk",
-      "dialogue": "悪魔と契約でもしたのか？",
-      "char": "none",
-      "speaker": "unknown1",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "なあ、他のチャンネルに変えようよ。\\1日中こんなの観てて飽きないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "7": {
       "type": "talk",
-      "dialogue": "まるで映画の主人公だ…！\\苦悩を乗り越え立ち上がったウッキーのように！",
-      "char": "c208_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "フンだ。うだつの上がらない小悪魔に\\拘束されているサポーターにとって…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
     },
     "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "…強くてカッコイイ悪魔が観れるこのチャンネルは\\唯一のストレス解消なの！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あーっはっはっはっはー",
-      "background": "e048_01_f",
-      "char": "c208_01",
+      "dialogue": "誰がうだつが上がらない小悪魔だって！？\\まったく、変な言葉ばっかり覚えるよな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "loop_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "アイツ、さっきから何してんだ？",
-      "background": "bg086_f",
-      "char": "c000_01",
+      "dialogue": "とにかく、こんな暴力的な番組は視聴禁止。\\保護者としての指導だ。お前は情操を育てる\\教育番組でも観てろ！わかったな！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "笑いながらさ…",
-      "char": "keep",
+      "dialogue": "うわ～ん。横暴ウスラトンカチ～！\\じゃあ他の観るもん。\\《世界の暴走悪魔列車から》観る。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "どうやら、ファイロの契約者だったあの少年が今日、全国大会で優勝したみたいですね～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "もう、朝から気合を入れるんだってうりゃ！おおお！って大変だったんですから…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "どうやら、ファイロの成長が\\契約者も成長させたみたいですね～♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そうだ、これこそ俺の真の姿！\\もっと称えろ！この身に相応しい賛辞を！",
-      "background": "e048_01_f",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あの言葉遣いまでうつらないといいけど…",
-      "background": "bg086_f",
+      "dialogue": "深夜にやってる旅番組か。\\チャンネルEvilっていうのが気になるけど、\\まあ、それくらいならいいか。ポチッとな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "sigh"
     },
-    "17": {
+    "13": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "18": {
+    "14": {
       "type": "talk",
-      "dialogue": "加賀京介君に受賞の心境を聞いてみたいと思います。",
-      "background": "bg090_f",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "はぁい。あなたのそばに、チャンネルEvil…\\今日も飽きずにおなじみのセリフで始まりまーす…",
+      "background": "bg100_f",
+      "char": "c174_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "A.Iさん、何か今日はテンション低いな…",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "これは妹だよ。お姉さんのA.Iと全然違う！\\…誰かに似てると思ったら、\\うちの年がら年中ゴロゴロしている引きこもり…\\ぐむっ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "変な事ばかり言う口は塞いじゃうからなー？\\それにあれは妹じゃなくて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "え？「あーっはっはっはっはー」ですか？ 「もっと称えろ！」ですか？",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "実はどっちも本人です。\\双子っていうのはただの設定。\\A.Iもその妹も、どっちも私なの。",
+      "background": "bg069_f",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ハハ、すこし興奮しているようですね。\\なんと言いますか、無意識？とでも言いましょうか。心に響きます…",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "そ、そんな秘密をいきなり教えてもらっても！\\スキャンダルになっちゃうんじゃないか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake_weak"
     },
     "21": {
+      "type": "talk",
+      "dialogue": "話したところで週刊誌に売りつける度胸も\\なさそうだし。それに、誰かに話したところで、\\誰も信じないだろうし。",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "A.Iは人間でもなく、女でもない。\\…悪魔でもなく、その取り巻きでもない…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…あちこちでみんな、好き勝手言ってますし。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "そこであなたが「双子じゃない！」\\って言ったところで、新しい都市伝説の\\ひとつになるだけですよ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "そ、そっか…大変だな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "何がです？",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "大きな秘密を抱えて、テレビに出続けること。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "有名すぎてプライベートもなく、\\ワーカーホリックに間違えられるくらい\\仕事ばかりしてるから、じゃなくて？",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺は有名になったことがないから、\\コンビニ行く時も変装する気持ちなんて、\\分からないけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "でも俺なら「実はふたりとも私です！」って\\どっかでポロッと言っちゃいそうな気がする。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "嘘を吐き続けるのって性に合わないって言うか…\\あ、でもA.Iさんはそれで夢を売ってるから\\しょうがないか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "そうですね。A.Iの正体がこんな地味な女の子って\\知ったら子供たちの夢が…\\それに、私はただの商品で、たくさんの勢力の\\思惑で成り立っています。",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…あなたみたいに生きられたら面白いでしょうね。\\それじゃ、私は次の予定があるので、この辺で…",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

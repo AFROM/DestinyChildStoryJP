@@ -2,177 +2,173 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "勝ったー！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy",
-      "one_ani": "attack"
+      "dialogue": "やっぱり人間界は退屈だなぁ…\\魔王候補って言っても大したヤツもいないし…",
+      "background": "bg055_f",
+      "bgm": "9",
+      "char": "c051_02",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そんな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "dialogue": "あれ、バシリ。また寝てるのか？",
+      "char": "keep",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "本当に残念です。\\腕相撲でダビに負けるなんて…恥ずかしい。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "dialogue": "……",
+      "char": "m052_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "俺だって今、精一杯恥じらっているところだ…",
-      "char": "c000_01",
+      "dialogue": "天気がいいとすぐ寝る癖なんとかしろよ。\\そんなんじゃ、オマエに背中を預けることも\\できない。",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "がっかりしないで～♪\\君の未来は～明るく輝いて～♪",
-      "char": "m149_01",
-      "speaker": "same",
-      "one_ani": "attack"
+      "dialogue": "……",
+      "char": "m052_01",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "勝ったのはダビだよ！",
-      "char": "c003_01",
+      "dialogue": "返事くらいしろよ。あ、そういやオマエ、\\しゃべれないんだっけ…",
+      "char": "c051_02",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "トサカ野郎を慰めないで\\ダビのお祝いソング歌ってよ！",
+      "dialogue": "はあ…リザがいたらこんな細かいことに気を\\使わなくてもいいのに…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ノー、僕はね～悪魔のための歌をうたう～♪\\フォー・マイ・デビル～♪",
-      "char": "m149_01",
+      "dialogue": "シャア！",
+      "char": "m052_01",
       "speaker": "same",
+      "distance": "near",
       "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "この泥棒！",
-      "char": "c003_01",
+      "dialogue": "おい！今俺に向かって攻撃しようとしたのか？\\相手を間違ってるぞ、相手を！",
+      "char": "c051_02",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "痛っ！なんで叩くんだよ！",
-      "char": "c000_01",
+      "dialogue": "シャアアア！",
+      "char": "m052_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "after_effect": "go_to_left_point"
     },
     "11": {
       "type": "talk",
-      "dialogue": "モナ姉さまも、チャイルドも手に入れて！\\ダビも歌うチャイルドが欲しい！",
-      "char": "c003_01",
+      "dialogue": "おい！俺はオマエの主人…どこ行く！\\怒られるのがそんなに嫌なのか？",
+      "char": "c051_02",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "何言ってるんだよ…\\俺は悪魔でお前はサキュバスだろ？\\交換できるなら大歓迎だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "聞いてはいけないことを聞いてしまった気がします。",
-      "char": "c002_01",
+      "dialogue": "怒られるようなことをするからいけないんだろ！\\おい！バシリ！戻って来い！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…聞かなかったことにしてくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ダビも歌をうたうチャイルド手に入れる！",
-      "char": "c003_01",
+      "dialogue": "で…家出をしたと？",
+      "background": "bg077_f",
+      "bgm": "9",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m052_01",
+      "speaker": "same"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "そんなに言うならヘルツをくれてやってもいいけど…",
-      "char": "c000_01",
+      "dialogue": "少し理解しがたいですね。\\私に関する情報なんてフレイ様が愚痴をこぼした\\信憑性のない言葉だけだと思いますが…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "御主人様…？",
-      "char": "c002_01",
+      "dialogue": "まあ…フレイ様の世話をするより\\私のところに来る方が合理的な選択ですが。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "無視だ、無視。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "オオ～聞いてしまった～君の本心～♪\\悲しみのセレナーデ～♪",
-      "char": "m149_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "でも～！僕は諦めない～♪\\君のための歌を～♪\\フォーエバー♪",
+      "dialogue": "それに、時期は違えど\\同じ御主人様に仕えたという縁もありますし…",
       "char": "keep",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "それは僕のデスティニー、イエーイ♪",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "御主人様にはもったいないチャイルドですね。",
-      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "19": {
+      "type": "talk",
+      "dialogue": "何よりもアナタは貴重な戦力ですし、\\御主人様に紹介しましょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "まったくフレイ様は…実力はあるのに、\\部下を従える器がないのですから…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "《バシリの日記》",
+      "background": "dungeon_bg",
+      "bgm": "24",
+      "char": "m052_01",
+      "speaker": "same"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "間違ってはないな…\\俺みたいな悪魔には手に負えないから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "《ついにうるさい野郎から解放された》",
+      "char": "keep",
+      "speaker": "same"
     },
     "24": {
+      "type": "talk",
+      "dialogue": "《リザのところに来たから\\少しは平和になるだろう…》",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

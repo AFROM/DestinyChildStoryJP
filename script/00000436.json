@@ -2,379 +2,310 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔っ子。\\今日は私の後ろでじっとしていて。",
-      "background": "dungeon_bg",
-      "bgm": "4",
-      "char": "c135_01",
+      "dialogue": "ご主人様のお部屋が…\\以前よりすごいことになってますね。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ううう、ヴァルキリーさーん。\\ひとりでオイシイところを独り占めするつもりです？",
+      "dialogue": "それって、前からすごい汚かった\\って言いたいのか…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "手際が悪いから、手柄を取られるんだよ。\\そろそろ学んでみたらどうかな。",
-      "char": "c135_01",
+      "dialogue": "まあ、時に…この本はなんでしょうか？",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "はーい。勉強させてもらいます…",
+      "dialogue": "あー、そこらのは全部、\\エリオスが置いていった本だな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ふむ…なるほど。そういうことね！",
-      "char": "c141_01",
+      "dialogue": "…エリオスが？",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "6": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "そう、これ見てみろよ？\\明らかに俺が読めるものじゃなさそうだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "あのね、ヴァルキリー。\\ちょっとお話しいいかなぁ？",
-      "background": "bg070_f",
-      "char": "c141_01",
+      "dialogue": "孟子、論語、自由論、ソクラテスの弁明…\\全部哲学書ですね。",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…何だろう？",
-      "char": "c135_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "もしかして、なんだけど…胸が苦しかったり、\\口がムズムズしたり、そういうのない？",
-      "char": "c141_01",
+      "dialogue": "ああ、毎日買ってきては置いてってさ、\\ついにこんな山積みになっちまった。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "10": {
+    "9": {
       "type": "talk",
-      "dialogue": "どこか具合が悪いか、って意味？",
-      "char": "c135_01",
+      "dialogue": "早く片付けないと、リザが怒り出しそうですね。",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "10": {
+      "type": "talk",
+      "dialogue": "んー、でも…リザの説教も怖いが、\\エリオスの小言のほうが、もっと怖いんだよな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "ううん、そうじゃなくって。あるじゃない？\\言いたいけど、恥ずかしくて言えないっていうか…",
-      "char": "c141_01",
+      "dialogue": "なんつーか、何言ってるか\\チンプンカンプンなんだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "何が言いたいのか、さっぱりわからないよ。\\くだらないことなら、これ以上はお断りだよ。",
-      "char": "c135_01",
+      "dialogue": "真理がどーとか、摂理がどーとか…\\俺は悪魔だけどな。\\あいつの話を聞いてると、\\キレイに浄化された気分になっちまう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あーん、そう言わずにー。正直に話して？\\秘密は絶対守るから！ね？",
-      "char": "c141_01",
+      "dialogue": "あいつは俺のことを何か誤解してるんだよ。\\俺にこれ以上、愚かな人間をダマすなって\\言ってきたんだぞ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…正直に、と言われても。よくわからないね。\\何が言いたいのかな？",
-      "char": "c135_01",
+      "dialogue": "俺の方が何倍も人間にダマされ続けてるっての！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "んもうー、それを私の口で言えるわけが…\\って、本人の口からのほうが、言いにくいかな？",
-      "char": "c141_01",
+      "dialogue": "エリオスは愚か者です。\\あのような愚者の言葉に耳を傾ける必要は\\ありません。",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "なぜ体をくねらせるの？\\顔も赤いし…",
-      "char": "c135_01",
+      "dialogue": "あれ…\\お前、そんなにエリオスのこと嫌いだったっけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "くそ、俺がバイトでいくら給料をピンハネされたと\\思ってやがる…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "…エリオスは愚かなだけではなく、\\厚かましいんです。",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "17": {
-      "type": "talk",
-      "dialogue": "うん、わかった。私が協力してあげるね。\\そんなに言うのが恥ずかしいなら。",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…あのね、ヴァルキリーって…\\ご主人様のことが、好きでしょ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
     "19": {
       "type": "talk",
-      "dialogue": "急になんのこと？好き…？\\好意を持っているか、ってこと？",
-      "char": "c135_01",
+      "dialogue": "あれだけ悪魔を嫌っておきながら、\\その悪魔の力を借りているなんて…信じられません。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そう、それ、好意！姿が見えないと心配で、\\話を聞いてくれないと寂しくなって…",
-      "char": "c141_01",
+      "dialogue": "あ、ええっと…エリオスにも、\\どうしようもない事情が…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ふむ、そういうのが好意であれば、あるわ。",
-      "char": "c135_01",
+      "dialogue": "そんなこと、どうでもいいです。",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "やっぱり！戦いのことしか頭にないと思ったら、\\ヴァルキリーもやっぱり女の子だったのね！",
-      "char": "c141_01",
+      "dialogue": "とにかく、私の前では二度と\\その愚かなチャイルドの話はしないでください。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
     },
     "23": {
       "type": "talk",
-      "dialogue": "私が悪魔っ子に好意を持っているのと、\\私が女という事実に、何の関係があるの？",
-      "char": "c135_01",
+      "dialogue": "…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "もちろんよ。ヴァルキリーが恋をしてるってことは、ヴァルキリーも女の子だったってこと、でしょ？",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "ヤーガが帰った後も、俺はしばらく\\彼女の態度について考えていた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ああ、誤解だよ。\\私はそういう意味の好意を言った訳じゃないわ。",
-      "char": "c135_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ヤーガとエリオスの契約者2人は\\元々仲のいい兄妹だったが、\\悪魔についての見解の相違によって\\疎遠になってしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
       "type": "talk",
-      "dialogue": "なになに、今さらとぼけて。\\もう遅いよー。照れないで大丈夫だから！",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "そして兄妹2人は悪魔によって起きた問題を、\\悪魔の力を借りて解決しようとした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "27": {
       "type": "talk",
-      "dialogue": "とぼけるとか、そういうのじゃないわ。",
-      "char": "c135_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "そんな訳でヤーガとエリオスが生まれた訳だが、\\現実での関係と同じくチャイルド達も、\\お互いを理解できなかったようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "28": {
       "type": "talk",
-      "dialogue": "いいじゃない。身内だと思って、素直に話してみて？片思いって、そんな恥ずかしいことじゃないのよ？",
-      "char": "c141_01",
+      "dialogue": "…って、それって俺が原因みたいじゃん。\\いや、たしかに俺のせいなのかも…う～ん…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "あの、そういうのじゃないけれど。\\聞いてる？",
-      "char": "c135_01",
+      "dialogue": "御主人様…\\この本の山は一体…？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "serious"
     },
     "30": {
       "type": "talk",
-      "dialogue": "わかるー。まあ、ご主人様は片思いの相手としては、ちょっと足りない気もするけどさ。",
-      "char": "c141_01",
+      "dialogue": "うえっ、リザ。こ、この本はだな。\\俺じゃなくてエリ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused"
     },
     "31": {
       "type": "talk",
-      "dialogue": "よーく見ると、それなりに男らしい面もあるし、\\悪魔の割には優しいもんね！",
-      "char": "keep",
+      "dialogue": "はあ…部屋を散らかしておきながら、\\まずは言い訳ですか？\\それとも、小姑みたいなお説教は控えろとでも？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
     },
     "32": {
       "type": "talk",
-      "dialogue": "まるっきり、ダメな男ってわけじゃないよー。",
-      "char": "keep",
+      "dialogue": "い、いや、別にそんなこと\\言うつもりじゃなくてだな…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "話にならないわ。\\私はあの子に、これっぽっちも興味はないから。",
-      "char": "c135_01",
+      "dialogue": "ふむ…ですが御主人様がこんな本を読まれるとは\\意外です…哲学書、お好きなんですか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "pretense"
     },
     "34": {
       "type": "talk",
-      "dialogue": "ええって、なんで！？\\…本当に？",
-      "char": "c141_01",
+      "dialogue": "しかし哲学書を読んだからと言って。\\御主人様の格が上がるとは思えませんけどね。\\ふふ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal",
-      "before_effect": "shake_weak"
+      "facial": "pretense"
     },
     "35": {
       "type": "talk",
-      "dialogue": "なぜそんな誤解をしているのかわからないけど、異性として見たことなんて一度もないわ。",
-      "char": "c135_01",
+      "dialogue": "だから、これは俺のじゃなくてさ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "36": {
       "type": "talk",
-      "dialogue": "え、一度も？\\これっぽちも興味ない？",
-      "char": "c141_01",
+      "dialogue": "そうですね、この際、\\御主人様にふさわしくない物は、\\全部処分してスッキリしましょう。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "37": {
       "type": "talk",
-      "dialogue": "もちろん。",
-      "char": "c135_01",
+      "dialogue": "えっ？リザ、ちょっと待て！\\や、やめろ！やめてくれー！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "screen_effect": "shake"
     },
     "38": {
-      "type": "talk",
-      "dialogue": "あなたがご主人様にすごい気配りしてるから、\\もしかして、と思ったのに…",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "それは純粋に、強い者が弱い者に対して持つ、\\責任感や騎士道みたいなものよ。",
-      "char": "c135_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "ホントにホント？\\恥ずかしいから、そう言ってるだけとかじゃなくて？",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "しつこいね。\\本当に、違うわ。",
-      "char": "c135_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "えええー、そうなんだ。\\ざんねーん。",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "残念？",
-      "char": "c135_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "うん、ご主人様に愛の素晴らしさを教える、\\いいチャンスだと思ったんだけどなぁ。",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "はぁ。愛の素晴らしさね～",
-      "char": "c135_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "はーあ、やっぱり私が教えてあげないとダメかなぁ？",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "47": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

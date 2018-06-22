@@ -2,47 +2,209 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "欲しい物は、なんでも手に入れてきた。",
-      "background": "e048_01_f",
-      "bgm": "15",
-      "char": "c194_00",
-      "speaker": "same_full"
+      "dialogue": "本当の本当に、君の言う通りになるダロン？",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "可愛い物、美しい物、キラキラした物…\\人の心でさえも。",
-      "bgm": "keep",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "もちろん！ダビの言う通りにすればいいよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "つまり、何が言いたいのかというと…",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "上手くいくダロンか?",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "私が手に出来ない物はないということ。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "もう！ダビの言う通りにやれば大丈夫だってば！\\ちっとも難しくないよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "だから、私の手から逃げるものは許さない。\\それが誰であっても…",
+      "dialogue": "早く！ご主人が来る前にやらないと！",
       "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "　　　　",
-      "char": "none",
-      "speaker": "none",
-      "mvd": "effect/battle/sfx_atk_skill_drive_light_c194.mvd",
-      "background": "back_red"
+      "dialogue": "わ、分かったダロン！",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "悪魔様にあげようと思って持ってきたダロン。",
+      "background": "bg086_f",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "クッキーか？ありがとな、ダロン。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "い、いっぱい食べてくれダロン。",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ところで…なんでそんなに震えてるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ダ、ダロン？",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "口ごもったりして…それに、クッキーの上にある\\この不思議な粉は何だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そ、そ、それは！クッキーがもっと美味しくなる\\魔法の粉ダロン。",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "魔法の粉ー？へぇ、そこまで考えてくれるなんて\\本当にありがたいなー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そうだ！こんなに美味しいもの、一人で食べるのは\\もったいない。\\さ、オマエも食べてみろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ダ、ダロンはさっきいっぱい食べたから！\\お腹いっぱいダロン！",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "いいから一口だけ食べてみろって！\\俺一人で食べるのは申し訳なくてさ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "だ、だいじょう…",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "さ、食べてみな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "angry"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "うっ！ペッ、ペッ！",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "やっぱりおかしいと思った…\\クッキーに何をした？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ダビの武器、下剤をふりかけたダロン！",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "何だって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ダロンは魔王争奪戦が嫌ダロン！\\戦いは嫌ダロン！",
+      "char": "m198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ダロンに戦えって言うなら、\\コショウだってふりかけるダロン！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "after_effect": "go_to_right_point"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "心配するなって…\\わかってるからさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -1,23 +1,27 @@
 {
   "phase1": {
     "1": {
-      "type": "timebrief",
-      "background": "bg086_f",
-      "bgm": "4",
-      "location": "home2"
+      "type": "talk",
+      "dialogue": "どけ！これは俺の体だ！",
+      "background": "dungeon_bg",
+      "bgm": "9",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "悪魔！おい、悪魔はどこにいる！\\さっさと返事をしろ！",
-      "background": "bg086_f",
-      "char": "c090_01",
+      "dialogue": "この体はもともと私のモノなの！あなたこそ消えて！",
+      "char": "m077_01",
       "speaker": "same",
       "pos": "right",
-      "screen_effect": "dialog_shake"
+      "distance": "near",
+      "before_effect": "shake_weak"
     },
     "3": {
       "type": "talk",
-      "dialogue": "うっさいチャイルドだな…\\俺を召使いみたいに呼ぶなって…",
+      "dialogue": "今、俺が見ているのは\\自分自身と会話する、そんなパフォーマンス？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -25,139 +29,258 @@
     },
     "4": {
       "type": "talk",
-      "dialogue": "ハッ、笑わせるなよ。\\お前のような間抜けな者は召使いすら務まらぬわ。",
-      "char": "c090_01",
+      "dialogue": "パフォーマンスではなく、人格同士の会話ですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "お前、主人に向かってその言い草は、\\ひどすぎないか…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "生意気を言うな！\\そもそも平民のくせに主人を名乗ろうというのが、おこがましいのだ。",
-      "char": "c090_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "まったく、それすら分からんとは…\\最近のしもべは教育がなっとらんぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ハァ、もうシモベでも何でもいいや…\\それで、俺に何の用だよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "なんだその態度は。\\それがシモベの口の利き方か？",
-      "char": "c090_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…私めを呼びつけたのは、\\何のご用件でごぜえますでしょうかね、陛下ぁ？",
+      "dialogue": "どっちもモアじゃないか。会話が必要か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "モアはボク、ボクがモア！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "loop_ani": "attack"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "違います、ご主人様。私が本当のモアです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "またかよ…互いにホンモノだって\\言い張るのを見るのも、もう疲れたよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ご主人様はどう思いますか？\\私がホンモノのモアですよね？",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "私がホンモノのモアになるのを望んでますよね？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "far",
+      "before_effect": "shake",
+      "after_effect": "shake_weak"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "ぐぬぬ…わざわざ悪魔がチャイルドに\\合わせなきゃならんとは、なんて嫌な時代だ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "え？俺は全員がモアだと思ってるけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "12": {
       "type": "talk",
-      "dialogue": "うむ、たとえばだが、お前がこのヴァルカン様の力を必要とし、生意気にも呼びつけたとしよう。",
-      "char": "c090_01",
+      "dialogue": "ひとつだけ選んでください。\\ご主人様も、素直なモアがお好きでしょう？",
+      "char": "m077_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "far"
     },
     "13": {
       "type": "talk",
-      "dialogue": "しかし、だ。\\その際、この私がごく普通に登場したのでは…\\あまりにも華々しさに欠けると、そうは思わぬか？",
+      "dialogue": "嘘つくな！お前は素直じゃなくて、\\「イイ子ぶってるモア」だ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ならファンファーレでも吹いてやろうか？\\…おっと、差し上げましょうか？",
+      "dialogue": "ちょっと待て。まずは落ち着いて話をしよう。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ふむ、たまにはお前も気が利くな。\\ファンファーレに…そうだな、花火まで用意したら\\さぞ盛り上がることだろう。",
-      "char": "c090_01",
+      "dialogue": "俺にとっては全員がモアだ。\\素直なのも、怒ってるのも、全部ね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "smile"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ファ、ファンファーレに…花火って…マジかよ！\\ふざけんな！",
-      "char": "c000_01",
+      "dialogue": "俺は、その中にいるモアが全員ホンモノだと思っている。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "facial": "smile"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ファンファーレ吹いてチャイルドを呼ぶ悪魔が\\どこにいるんだよ！",
+      "dialogue": "横着しやがって！ひとつだけ選べ！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ご主人様、本当に全部ホンモノだと思っているのですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うん、もちろん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "俺がホンモノだって言ってんだよ！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "いや、全員がホンモノだ。あー、ややこしすぎて\\誰と話してるのか、わからなくなってきた。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "もっと効率的なやり方をしてみては？",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "効率的？どんな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "全部の人格のモアに向かって話すのです。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "えーっ、それぞれの人格が出ないと会話できないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "でも、モア同士は話せているではないですか。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "そっか。まあ、やってみるか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "よーし。おい、モアども！俺の話をよく聞けよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺はお前たち全員がホンモノだと思う。\\かつてどんな姿だったとしても、今が現実だから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "みんな、自分自身は大事にするだろ？\\みんなただ、幸せになりたいだけなんだろう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "多重人格のチャイルドなんて俺も初めてだから…\\どう接していいかわからないけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "誰が出てきても、俺は本音で付き合うぞ！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "near",
-      "facial": "confused"
+      "facial": "fury"
     },
-    "18": {
+    "33": {
       "type": "talk",
-      "dialogue": "さらに花火と来たか…\\もういっそ、レッドカーペットでも敷いてやろうか？",
+      "dialogue": "ご主人様…ありがとうござい…",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "うへっ…気色悪っ！",
       "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "うん、正直な感想、ありがとな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "19": {
-      "type": "talk",
-      "dialogue": "ほう、悪くない案だ。\\なかなかお前も気が利くではないか。",
-      "char": "c090_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "うわあああ！本気なのかよこいつ！\\カンベンしてくれーっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake"
-    },
-    "21": {
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

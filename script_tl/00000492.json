@@ -2,347 +2,362 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お、お前…",
-      "background": "bg177_f",
+      "dialogue": "これからよろしくな、ディナシー",
+      "background": "dungeon_bg",
       "bgm": "9",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "よっ、悪魔。久しぶりだな。",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "どうでもいいわ。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あ、ああ。\\…それにしても、お前、\\やっぱり俺のこと、覚えてるんだな…",
+      "dialogue": "どうでもいいって…\\お前はどうしたいんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あの天衣無縫を忘れられるわけないだろ～？",
-      "char": "c202_00",
-      "speaker": "same_full",
+      "dialogue": "う～ん。\\ご主人さまによるってことじゃないですか～？",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "悪魔をあそこまで叩きのめしたのも、\\初めてだったしな！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "うう…\\ガキのくせに人を値踏みしてるってのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "6": {
       "type": "talk",
-      "dialogue": "た、頼むからそのことは忘れてください…",
-      "char": "c000_01",
+      "dialogue": "ご主人？そう呼べばいいの？",
+      "char": "c173_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "いいのかよ？\\全部忘れられたら、困るんじゃねえのか？",
-      "char": "c202_00",
-      "speaker": "same_full",
+      "dialogue": "それでもいいし、お好きなように♥",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal",
+      "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "「他の悪魔との契約禁止」\\「よって、悪魔との賭け事も禁止」\\てめえが出した条件を、守れなくなるんだからな。",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "ちなみに、\\ダビは「ウスラトンカチ」って呼んでるよ！",
+      "char": "c003_01",
+      "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal",
+      "facial": "smile",
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "しっかし、\\ルールすら知らずに乗り込んできたかと思ったら…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "あら、ダビったら。ご主人さまの前で\\そう呼んじゃダメって言ったでしょ～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ずうずうしく代打ちを頼むなんてなあ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "toonear"
+      "dialogue": "俺がいなけりゃいいのかよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "お、お前も認めたんだからいいだろ！",
+      "dialogue": "ウスラトンカチ？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "やめろ。\\そういうのはいいから、普通に呼んでくれ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
-    },
-    "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ちなみに、代打ちをしたのは…",
-      "background": "back",
-      "char": "none",
-      "speaker": "none",
-      "distance": "near",
-      "screen_effect": "gray"
+      "dialogue": "そう。なら、これからご主人って呼ぶわ。\\これでもう用事は終わり？なら、出て行ってくれる？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "面白いことがあるって言うから来てみたら、\\天衣無縫が見られるなんてね。",
-      "background": "bg004_f",
-      "char": "c020_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "素っ気ないな…\\あのさ、お前から他に言いたいこととかないの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "大丈夫、イカサマには慣れっこだから。\\安心して見てなよ。",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "言いたいこと？",
+      "char": "c173_01",
+      "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "フォルトゥナの契約者だ。\\そして、場を操作したのはもちろん…",
-      "background": "back",
-      "char": "none",
-      "speaker": "none",
-      "distance": "near",
-      "screen_effect": "gray"
+      "dialogue": "よろしくとか、\\こういうのは気を付けてほしいとか、\\好きなモノとか嫌いなモノとか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "17": {
       "type": "talk",
-      "dialogue": "はっは～ん、うちの契約者ってば、\\天衣無縫に張り合うつもりみたいねえ。\\国士無双を狙うなら、やっぱこうかなあ～？",
-      "background": "bg004_f",
-      "char": "c020_01",
+      "dialogue": "好き嫌い…そうね。\\まず、面倒臭いのは嫌い。",
+      "char": "c173_01",
       "speaker": "same",
-      "pos": "left",
-      "after_effect": "shake",
-      "one_ani": "attack"
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ビクトリスはこうして、\\俺達が陰でイカサマをしていたことで、\\生まれたのだった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "口出ししてくるとか、小言とか…\\そういうのは大嫌い。あと、退屈なのも嫌い。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "てめえ！？イカサマしやがったのか！\\キャハハ！あの時はまんまとやられたわ！",
-      "char": "c202_01",
+      "dialogue": "そういうところは契約者そっくりだな。\\じゃあ、好きなものは？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そう笑い飛ばしてくれたのが救いだった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "好きなのは…遊ぶこと。\\あと…チョコレート。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "うふふ、好きなものもそっくりなんですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そ、それより…\\お前の「魂の半分」を見なかったか？",
-      "background": "bg177_f",
-      "char": "c000_01",
+      "dialogue": "ダビも遊ぶの大好き！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "one_ani": "attack"
     },
     "23": {
       "type": "talk",
-      "dialogue": "いんや～？\\たぶん、海の方にいると思うけど～。",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "そう？じゃあ、あなたはあたしと一緒に遊ぼう。\\でも、他の人たちは帰って。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "探してるなら、行くだけ行ってみたら～？\\たぶん、防波堤とかで、\\おセンチになってると思うぜ？\\ウケる！ギャハハ！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "…子供同士なら、まあまあ社交性はあるのか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "25": {
       "type": "talk",
-      "dialogue": "笑ってやるなよ…\\とりあえず、ありがと。\\あ…それと…",
-      "char": "c000_01",
+      "dialogue": "ねえねえ、モナ姉さまも一緒じゃダメ？\\楽しいよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile"
     },
     "26": {
       "type": "talk",
-      "dialogue": "あ？",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "遠慮しとくわ。大人が一緒だと楽しくないもの。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…あの時、イカサマして悪かったな。\\そのせいで、復讐か何かができなくなったんだろ？",
-      "char": "c000_01",
+      "dialogue": "なら、ダビも帰る！\\モナ姉さまがいないなら、\\何したって楽しくないもん。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "はっ、いいってことよ。\\イカサマなんて、\\気付かない方が悪いんだからな！",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "29": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…あ？悪魔の旦那じゃねえか。",
-      "background": "bg061_f",
-      "char": "c202_01",
+      "dialogue": "あっそ。どうでもいいわ。\\だったら…ご主人、あたしと遊ぶ？",
+      "char": "c173_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
-    "31": {
+    "29": {
       "type": "talk",
-      "dialogue": "…そーだよ。\\勝手に姿を消すわ、何度呼んでも応えないわ…\\一体、何してたんだ？",
+      "dialogue": "え、俺？遊ぶって…\\モナ、女の子と遊ぶ時って何をすればいいんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "まあ、今さら何をおっしゃってるんです～？\\ディナシーの契約者とは\\楽しく遊んだじゃないですか♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あれは遊んだんじゃなくて、\\振り回されたって言うんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
       "before_effect": "shake_weak"
     },
     "32": {
       "type": "talk",
-      "dialogue": "海を眺めながら、孤独を噛み締めてたんだよ。\\…で？わざわざこんなとこまで探しに来るなんて、\\何か用でもあんの？",
-      "char": "c202_01",
+      "dialogue": "…なに？嫌なの？",
+      "char": "c173_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
     "33": {
       "type": "talk",
-      "dialogue": "い、いや、別に用はないけど…",
+      "dialogue": "いや、そういうわけじゃないけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
       "facial": "sulky"
     },
     "34": {
       "type": "talk",
-      "dialogue": "お前が誰かに、\\「復讐」でもするんじゃないかって思って探してた…とはさすがに言えないよな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "うふふ、ごめんなさいね、ディナシー♥\\ご主人さま、ひとりで遊ぶのは上手なんだけど…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "35": {
       "type": "talk",
-      "dialogue": "ギャハハ！\\そーんなに、あたしに会いたかったのかあ？",
-      "char": "c202_01",
+      "dialogue": "ふーん…ご主人、引きこもりのボッチなんだね。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy"
     },
     "36": {
       "type": "talk",
-      "dialogue": "茶化すなよ…\\これでも、お前のこと、心配してたんだぞ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "お前は、まだ弱いんだから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "へえ…\\魔界で最弱のくせによく言うなあ。\\そんな奴に心配されるなんて、\\あたしもヤキが回ったみたいだねえ。",
-      "char": "c202_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "…なんてな。\\そんなこと言って、\\あたしが「復讐」を始めるんじゃないか…\\って心配してたんだろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "けど、心配しなくても大丈夫だよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "復讐も波に乗らないとできないもんだからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "たぶん、かなり先の話になるはずだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "なら、いいけど…\\できれば、もう勝手にいなくならないでくれよ？\\お嬢さん。",
+      "dialogue": "言葉には、もう少し気をつけてくんない？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal",
+      "facial": "nonsense"
     },
-    "44": {
+    "37": {
       "type": "talk",
-      "dialogue": "ふん、生意気なこと言うじゃねーか。\\悪魔の旦那よう！",
-      "char": "c202_01",
+      "dialogue": "そっか…\\ボッチだと誰かと遊ぶってハードル高いから、\\遊ぶのはイヤなのね。",
+      "char": "c173_01",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "distance": "normal"
     },
-    "45": {
+    "38": {
+      "type": "talk",
+      "dialogue": "いや、そんなこと言ってないし…\\つか、ボッチって言うな！違うから！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "…あたし、優柔不断なのも嫌いなの。もういいわ。\\遊び相手なんて、いくらでもいるもの。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あらあら…クールなのねぇ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "クールすぎて、\\こっちは心が凍り付きそうなんだけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,297 +2,443 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いた、ご主人様。",
-      "background": "bg090_f",
-      "bgm": "9",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "dialogue": "ニルティ様！",
+      "background": "back",
+      "bgm": "24",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "2": {
-      "type": "talk",
-      "dialogue": "あれ、誰かと思ったら……カルカスじゃないか。\\はは、なんかしばらく会ってない気がするな、\\元気だったか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake"
+      "type": "curtain",
+      "background": "bg148_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal",
+      "char": "none"
     },
     "3": {
-      "type": "talk",
-      "dialogue": "そりゃそうですよ。\\ご主人様が僕のことを\\ずっと避けてたんじゃないですか。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
     },
     "4": {
-      "type": "talk",
-      "dialogue": "あ、気のせいでしょうけど。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…実は、気のせいじゃない。\\カルカスには悪いけど俺は\\あまりこいつと顔を合わせたくない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おい！ニルティ！\\大丈夫か！？",
+      "background": "bg148_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "6": {
       "type": "talk",
-      "dialogue": "だまして契約をしたわけじゃない。\\でも、そこに契約者、加納悠(かのうゆう)の意志がなかったのは間違いない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "何奴！！",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "7": {
       "type": "talk",
-      "dialogue": "必要に迫られて契約したでもなく\\望んで契約したわけでもない。\\だから俺を恨んでてもおかしくない…",
+      "dialogue": "うわあっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "お前は…",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ううぅ…あなたの主人です…\\に、ニルティ様…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…「様」？\\おかしなことを言うのだな。\\いつも通りでいい。",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "それはこっちのセリフだよ…\\し、死ぬかと思った…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ニルティは、生前の記憶を失っている。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "8": {
-      "type": "talk",
-      "dialogue": "なんで俺がこんなに顔色をうかがわなくちゃ\\いけないんだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "はい？",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "いや、なんでもない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "まあ、いいです。\\それより僕、「運命の選択」って言ってましたよね？ご主人様と初めて会った時。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "うむ……そんなこと言ったなあ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
     "13": {
       "type": "talk",
-      "dialogue": "今思うに、生きるというのは選択の連続なのに\\僕は少し出過ぎたことを言ってしまいました。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "生前の記憶というか、\\その前世と前々世の記憶まで…\\という方が正しいか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "軽率な物言いのせいで、ご主人様の運命に\\よからぬ影響を与えたのではないかと\\……ずっと考えています。",
-      "char": "keep",
+      "dialogue": "ふむふむ～\\やはり祓魔師なんですね～",
+      "background": "bg067_f",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "15": {
       "type": "talk",
-      "dialogue": "……気のせいでしょうけど。",
-      "char": "keep",
+      "dialogue": "祓魔師！？\\俺達の敵じゃん！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_left_point",
+      "screen_effect": "gray"
     },
     "16": {
       "type": "talk",
-      "dialogue": "何を改まっちゃってるんだよ。\\お前、もしかしてその時の言葉を気にして、\\俺が避けてると思ったのか？",
-      "char": "c000_01",
+      "dialogue": "こうなった以上、\\始末してしまったほうがいいと思いますよ～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "17": {
       "type": "talk",
-      "dialogue": "違うのですか？",
-      "char": "c082_01",
+      "dialogue": "ほらほら、逃げないで！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "angry",
+      "screen_effect": "gray"
     },
     "18": {
       "type": "talk",
-      "dialogue": "違うよ。\\ホントのことを言うと、お前のせいじゃなくて、\\俺の心の問題。",
+      "dialogue": "うっ…で、でもさ…！\\よく見たら、この人…死にそうじゃん？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle",
-      "before_effect": "shake"
+      "facial": "confused",
+      "screen_effect": "gray"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あー…そういう誤解をされてるとは…\\なんとなく噛み合ってないと思ったんだよな、\\お前が何を考えてるかわからないし。",
-      "char": "keep",
+      "dialogue": "ええ。自らに課した苦行で、\\こうなったようですね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "20": {
       "type": "talk",
-      "dialogue": "俺は基本的に人づきあいが苦手なの。\\知ってるよな？",
-      "char": "keep",
+      "dialogue": "…苦行？\\自分で自分を苦しめるのか？自虐？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "screen_effect": "gray"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そうみたいですね。",
-      "char": "c082_01",
+      "dialogue": "まあ、私が思うに、それほど違いはありませんね。\\苦行も、自虐も。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "22": {
       "type": "talk",
-      "dialogue": "謝るのも嫌いだ。\\やっちまったことは謝っても戻らない。",
-      "char": "c000_01",
+      "dialogue": "祓魔師は、このように魂を苛め抜いて、\\そこから得られる力を利用するそうですよ～",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "23": {
       "type": "talk",
-      "dialogue": "それ以前に、悪魔がへコへコ頭下げて回るなんて、\\みっともないだろ。",
+      "dialogue": "では♥\\今後のためにも、ここで殺っちゃいますか？",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "24": {
       "type": "talk",
-      "dialogue": "それもうっすら気づいていました。",
-      "char": "c082_01",
+      "dialogue": "や、殺っちゃう！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "gray"
     },
     "25": {
       "type": "talk",
-      "dialogue": "そんな俺が、今さらお前に\\「あの時ダビを止められなくてごめん！」とか",
-      "char": "c000_01",
+      "dialogue": "今はこんな状態ですけど…\\回復すれば、ご主人さまの敵になるかもしれません。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "26": {
       "type": "talk",
-      "dialogue": "無理やり契約しちゃって責任感じてます！\\とか言えるわけないだろう……",
+      "dialogue": "祓魔師は、<color=ff9900>輪廻転生</color>を繰り返して強くなります。\\今殺しておけば、時間稼ぎにはなるはず…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "27": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "…誰、か…いるの…か…",
+      "char": "none",
+      "speaker": "woman_contractor",
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "28": {
       "type": "talk",
-      "dialogue": "なるほど。",
-      "char": "c082_01",
+      "dialogue": "あっ、駄目だ！やっぱ無理！\\俺は人を殺す覚悟なんてない！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "unfair",
+      "screen_effect": "gray"
     },
     "29": {
       "type": "talk",
-      "dialogue": "今の話を聞いて、僕、\\ご主人様は不器用な人なんだなって思いました。",
-      "char": "keep",
+      "dialogue": "…\\",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "irritation",
+      "screen_effect": "gray"
     },
     "30": {
-      "type": "talk",
-      "dialogue": "「ご主人様」って呼ぶのも\\モナさんが教えてくれたから、使っているだけで。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ったく、モナの奴……\\それはあまり気にしなくていいよ。\\好きに呼べばいい。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "dialogue": "不安要素は失くすべきというモナを説得して、\\なんとか契約にこぎつけたのがニルティだ。",
+      "background": "bg148_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "32": {
       "type": "talk",
-      "dialogue": "いえ、もうこれが楽なんで。\\ただ、主人がどうしてせっかく契約した下僕を\\避けるのか…",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "モナが言うには、俺達が見つけたのは、\\ニルティが最後の苦行を終え、\\死を待っている時だったらしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "33": {
       "type": "talk",
-      "dialogue": "それが知りたかっただけです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "すなわち、いつ記憶がもどるかわからないニルティと危険な同居をしている…というのだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "34": {
       "type": "talk",
-      "dialogue": "そりゃ、色々考えちまうから…\\って言ってても仕方ないか…\\契約したのは俺だ。これからは避けない！\\…ように、するよ。できるだけ、なるべく。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "避けないとは言わないんですね。",
-      "char": "c082_01",
+      "dialogue": "そなたは、私にいつも妙な表情を向ける。\\それはそなたにとっての苦行なのか？",
+      "char": "c058_01",
       "speaker": "same",
       "pos": "right"
     },
-    "36": {
+    "35": {
       "type": "talk",
-      "dialogue": "守れない約束はしない……！",
+      "dialogue": "いや、俺は別に苦行してる訳じゃないから…\\そう見えないかもしれないけど、\\好き勝手に生きてるし…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "37": {
+    "36": {
       "type": "talk",
-      "dialogue": "わかりました、お好きにどうぞ。",
-      "char": "c082_01",
+      "dialogue": "好き勝手に？\\チャイルドの尻拭いをするそなたがか？",
+      "char": "c058_01",
       "speaker": "same",
       "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "それは、俺のせいだから仕方ないんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "38": {
       "type": "talk",
-      "dialogue": "ただ、あなたのことが少しわかって\\ちょっと気が楽になりました。\\嫌われてるわけではないみたいなので。",
+      "dialogue": "俺がもっと強い悪魔だったら、チャイルドたちに、\\あんな思いをさせなくて済むんだけどな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "…悪魔とはもともと救いがたい種族だ。\\そなたがそう決めたなら、好きにすればいい。",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "しかし、忠告はしよう…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "39": {
+    "41": {
       "type": "talk",
-      "dialogue": "それでは、よい一日を。\\必要なら呼んでください。いつでも駆けつけます。",
+      "dialogue": "はは…悪魔にも忠告してくれるのか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "他の者たちに業を背負わせたのも、立派な業。\\そして、その業はそなたのものだ。",
+      "char": "c058_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "そうか…\\すべては、<color=ff9900>私の業</color>から始まっているのか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "ならば、どうすれば、\\この業を精算出来るのだろうな…",
+      "char": "keep",
+      "speaker": "same",
       "distance": "near"
     },
-    "40": {
+    "46": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
+      "wait": "normal",
+      "fade_in": "longest"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "ニルティ様！",
+      "background": "bg067_f",
+      "bgm": "24",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "今生では、もうお会いすることはないでしょう。\\それでは…また、来世で。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "ニルティ様の旅立ちに立ち会うことができ、\\光栄でした。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "none",
+      "speaker": "woman_contractor",
+      "screen_effect": "gray"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "ニルティ様は、今生は失敗されたと申しましたね。\\…ですが、私はそうは思いません。\\ずっと見守っていましたもの。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "あなたの行動と言葉、そして戦いとその生涯を。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "ごめんなさい。\\あなたの最期を見届けることはできません…\\もう行かなくては。\\祓魔師の本部が<color=ff9900>《襲撃》</color>されているのです。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "この手であなたを送り出すことができないことを\\どうかお許しください。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "しかし、あなたが生まれ変わったなら、\\必ず…私が探し出してみせます。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "それまで、しばしお別れです。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "またお会いしましょう、ニルティ様。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "58": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

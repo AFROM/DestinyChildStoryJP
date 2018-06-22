@@ -1,141 +1,127 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "One、Two！One、Two！\\One… Aaaaah！That's impossible！",
-      "background": "bg086_f",
+      "dialogue": "今日は料理をします！",
+      "background": "bg089_f",
       "bgm": "4",
-      "char": "c045_01",
+      "char": "c032_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "I see… There is such coincidence。\\I, also, can't put up with this anymore。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "dialogue": "無意識に白い泡の悪夢がよみがえってくるのを\\無理やり押し殺しながらアレクトを見つめた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "Is it already the limit…?",
-      "char": "c045_01",
+      "dialogue": "…料理、できるのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "Ahh it's already over",
-      "char": "c000_01",
+      "dialogue": "もちろんです！\\私の契約者はとっても多才な方ですから！",
+      "char": "c032_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "Then、Melpomene！\\Come out of this room now !",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "dialogue": "こんなに自信があるなら、信じてみてもよさそうだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "Cheeky！\\Why are you not coming out！",
-      "char": "c099_01",
+      "dialogue": "私の料理の腕前はモナさんも知っていますよ！",
+      "char": "c032_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "When Melpomene yelled at Aria\\She started playing guitar by that occasion.",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "モナが？\\アレクトの料理を食べたことがあるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "Then when Aria is losing\\she also starts to raise the speaker's volume.",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ええ、彼女の料理にはとってもビックリよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "And then I raise my voice.",
+      "dialogue": "少し笑みを浮かべながら話すモナの姿を見ると、\\その味が気になり始めた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "Eyy！You two、\\get out of my room alreadyyyyyyyyy！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "fury",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "before_effect": "shake"
+      "dialogue": "それじゃ、今日の食事はアレクトに任せてみるか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "Hun！\\Why don't you understand the greatness of the rock ?",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point",
-      "one_ani": "attack"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "Aria！You too come out！What time do you think it is ?",
+      "dialogue": "よし、それじゃ一番自信ある料理で頼むよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
+      "facial": "smile"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "お任せください、ご主人様…",
+      "char": "c032_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "Uh…Guu…",
-      "char": "c045_01",
+      "dialogue": "あ、ご主人様。私はちょっと出かけてくるわ♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "W、What…？\\Do not start to cry、You're a bad girl！",
+      "dialogue": "急に外出か？\\ま、わかった。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "That can't be、Master is horrible…！\\Aria wants Master to be pleased、\\And I'm trying hard…",
-      "char": "c045_01",
+      "dialogue": "遅くなるかもしれないから\\先に食べててね、ご主人様♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
     },
     "16": {
       "type": "talk",
-      "dialogue": "If you want to please me... Then quiet. It's time to sleep。",
+      "dialogue": "なんか機嫌よさそうだな。\\一緒に食べたらいいじゃないか…急用か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -143,122 +129,299 @@
     },
     "17": {
       "type": "talk",
-      "dialogue": "U...U..Uwaaaaaaah！",
-      "char": "c045_01",
+      "dialogue": "では、少しだけお待ちください。\\私のオリジナル料理をお見せしますね。",
+      "char": "c032_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "A..AH, I understand…\\Excuse me、I was wrong！",
+      "dialogue": "きっと気に入るはずですわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "おお、楽しみだ。\\よろしく頼むよ、アレクト。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "Fuu、Uu、Guuu…",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "facial": "smile"
     },
     "20": {
       "type": "talk",
-      "dialogue": "…Have you calmed down？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "今日の食事はいい感じになりそうだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "21": {
       "type": "talk",
-      "dialogue": "Master.",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "…という俺の浅はかな考えは、前回の大掃除事件に\\続いてまた悲惨な思いをすることになる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "22": {
       "type": "talk",
-      "dialogue": "What？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "誰が想像しただろうか。\\モナが言っていたビックリするというのが、\\そのままの意味だってことに。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "…Are you still mad？？",
-      "char": "c045_01",
+      "dialogue": "料理♪料理♪楽しいお料理♪\\私だけの～オリジナル～♪ウキウキお料理～♪\\悪魔様は～気に入って～くれるかしら～♪",
+      "char": "c032_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "…Nah、I'm not mad anymore.",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "Fuun… what a relief…",
-      "char": "c045_01",
+      "dialogue": "つぶしたニンニクを～♪炒めて～♪\\玉ねぎを～炒めて♪梅を少し～♪",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "25": {
+      "type": "talk",
+      "dialogue": "カレー粉をたっぷり～♪小麦粉とチョコレート♪",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
     "26": {
       "type": "talk",
-      "dialogue": "Uu.. I've a bad feeling",
+      "dialogue": "少しのショウガとお味噌～♪豚肉たっぷり～♪",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "カレー粉とチョコレートを混ぜるのか？\\うん、いい感じ…え？",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "27": {
-      "type": "talk",
-      "dialogue": "Then、we can do 3 more hours\\of lessons, can we ？",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
     "28": {
       "type": "talk",
-      "dialogue": "Eh？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "Thank you very much、Master♥\\Aria will do her best for Master！",
-      "char": "c045_01",
+      "dialogue": "牛乳にゼリーを入れて♪\\鯖とイチゴジャムを一緒に炒めましょ～♪",
+      "char": "c032_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "30": {
+    "29": {
       "type": "talk",
-      "dialogue": "What to do… Should I buy Earplugs ?",
+      "dialogue": "おーい、アレクト？何の料理を作ってるんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "sigh"
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あ、もうすぐ完成ですよ。普通の炒め料理です。",
+      "char": "c032_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "31": {
+      "type": "talk",
+      "dialogue": "そうか。やっぱり炒め物だったか。\\変な歌をうたってるから気になって聞いてみたんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "さ、これで完成ですよ！召し上がれ、悪魔様♪",
+      "char": "c032_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "匂いは合格だな。\\だけど、どんな料理になって…るかな…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "赤くて、白い、透明な3段プリン。おいしそうだ。",
+      "char": "none",
+      "speaker": "none"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "透明な部分に見えるまるごとの\\…鯖以外はな！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dialog_shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "アレクト。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "はい、お呼びですか？",
+      "char": "c032_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "これ、何料理だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "炒めもの料理ですよ、悪魔様。",
+      "char": "c032_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "落ち着け、慌てるな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "見た目はプリンだが、\\食べたら意外と普通の炒め物かもしれない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "よし、一度食べてみるか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "どうみてもプリンだよな？\\うん、表面はやわらかいみたいだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "ところが…赤い部分にはチャーハンが入ってる…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "鯖とチャーハンの入ったプリンはチャーハンなのか、プリンなのか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "あ！忘れてました！一番大切なものを！",
+      "char": "c032_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "慌ててグツグツ沸騰した鍋を注意深く持ってきて、その中身を3段プリンの上に注ぐアレクト。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "さぁ！これで本当に完成です！\\炒めプリンのチョコケーキ！",
+      "char": "c032_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "よし、決めた！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "これからはもう二度と、アレクトに\\何も頼まないことにする。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "それからアレクトのオリジナル料理、\\炒めプリンのチョコケーキは",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "逃げたモナにプレゼントすることにしよう、うん。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "55": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

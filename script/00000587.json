@@ -2,108 +2,112 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "……",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "ご主人様！まだ終わってないです。",
+      "background": "dungeon_bg",
+      "bgm": "6",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "facial": "teach"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご主人、一日中ボーっとしてるね。\\バカみたい、バカご主人～",
-      "char": "c003_01",
+      "dialogue": "分かってる！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "left",
+      "facial": "angry"
     },
     "3": {
       "type": "talk",
-      "dialogue": "やめなさい、ダビ。ご主人さまは今\\失恋に胸を痛めてるのよ。",
-      "char": "c001_01",
+      "dialogue": "ターゲット捕捉。照準入ります。",
+      "char": "m059_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "4": {
       "type": "talk",
-      "dialogue": "へ～、乙女心が分からないんだから当然ね！\\で、誰にフラれたのご主人？",
-      "char": "c003_01",
+      "dialogue": "待て！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_right_fast"
     },
     "5": {
       "type": "talk",
-      "dialogue": "失礼なことを言うな、俺はフラれてなんかない！",
-      "char": "c000_01",
+      "dialogue": "照準、失敗。照準、失敗。",
+      "char": "m059_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "誰かが俺をハメてるんだ！\\朝からずーっと、女チャイルドが\\浮気だのなんだの押し入ってきて…",
-      "char": "keep",
+      "dialogue": "ご主人様！",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "teach"
     },
     "7": {
       "type": "talk",
-      "dialogue": "何度ビンタを食らったことか…\\一体誰が俺のデマを広めてるんだ？",
+      "dialogue": "うっ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "全く理解できないですわ。\\バズーカの邪魔をするなんて…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "どうして敵を逃がしたのですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "また人間の真似ごとですか？\\相手に情けをかけるみたいな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "な、何を言ってるんだ！\\あれだ、その…か、蚊だ！\\バズーカが蚊に刺されるところだったんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "蚊に刺されたら痒いだろ…な、バズーカ？",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "8": {
-      "type": "talk",
-      "dialogue": "デマー？\\どうせ本当のことじゃないの～？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "victory"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "とぼけやがって…\\どうせお前達の仕業だろ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "あら？\\今、誰かがドアをノックしませんでしたか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ひい！ま、また誰か来やがった…！\\助けてくれ、モナ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "モナ姉さまにひっつくなー！\\離れろ、この変態ご主人！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "13": {
       "type": "talk",
-      "dialogue": "フフ、やっぱり純粋で…\\これだからご主人さまいじりは飽きませんね。",
-      "char": "c001_01",
+      "dialogue": "Negative. \\バズーカの身体構造成分は\\一般的な生物とは異なります。",
+      "char": "m059_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "モナ、まさかお前が犯人か…！？",
+      "dialogue": "うっ…モ、モナについてたっけかな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -111,156 +115,109 @@
     },
     "15": {
       "type": "talk",
-      "dialogue": "いいえ残念ですが違いますね。\\でも、誰か来たのは確かです♥",
+      "dialogue": "……",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "angry"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あー…残念だな。もう少しのところだったのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "蚊なんて私は一度も見てませんけど…",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "私が用意したイベントは楽しんでもらえたかしら？\\おチビさん。",
-      "char": "c041_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "は、イベント？まさか俺のデマを\\バラ撒いたのは、オマエの仕業か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
     "18": {
       "type": "talk",
-      "dialogue": "フフ、第一印象が大切だからね…\\どう、それなりにインパクトがあったでしょ？",
-      "char": "c041_01",
+      "dialogue": "疲れが溜まっているようですね…ご主人さま。\\幻覚まで見てしまうのですから。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ああ、インパクトがありすぎで飛び起きた。\\頼むから、俺の平穏を乱さないでくれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "いやよ、退屈なのはもう飽き飽き。\\ここも悪魔の家にしては、\\あまりに平凡すぎじゃない？",
-      "char": "c041_01",
+      "dialogue": "今日はこのくらいにしましょ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "21": {
+    "20": {
       "type": "talk",
-      "dialogue": "平凡どころか、悪魔的に騒がしい家だぞココは。",
+      "dialogue": "う、うん…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "ダメ、ダメよその程度じゃ。\\アナタは魔界の王になるつもりなんでしょう？",
-      "char": "c041_01",
+      "dialogue": "バズーカ、時には命令を素直に聞く必要は\\ないと思うわ。",
+      "background": "bg052_f",
+      "bgm": "19",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "それならそれらしく、\\もっと刺激的な毎日を過ごすべきよ。おチビさん。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "充分間に合ってる。\\俺の平穏はモナが現れた時からぶっ壊れたからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "そうなんですか？モナとしては、\\ずいぶん住み良い環境になりましたけど♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "俺にとっては刺激的すぎるんだよ！\\俺の平穏な日々を返してくれ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "大丈夫！魔界と比べたら、今でも全然平和だよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "比べる対象が間違ってる！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ふーん、まあいいわ。\\今日のイベントは挨拶代わりよ。\\今は邪魔なものが多いしね。",
-      "char": "c041_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "たとえば…おチビちゃんとサキュバス達の\\絆とかね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "お前、目が悪いのか？\\こいつらとの間に、絆なんてものは一切ないぞ！",
-      "char": "c000_01",
+      "dialogue": "理解できません。",
+      "char": "m059_01",
       "speaker": "same",
       "pos": "left"
     },
-    "32": {
+    "24": {
       "type": "talk",
-      "dialogue": "そうそう！失礼なこと言わないで頂戴！",
-      "char": "c003_01",
+      "dialogue": "ご主人様は有能な指揮官じゃないの。\\バズーカは勝ちたいんでしょ？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "33": {
+    "25": {
       "type": "talk",
-      "dialogue": "後で分かることよ。\\これからはちゃんと監視してるわ、おチビちゃん。",
-      "char": "c041_01",
+      "dialogue": "Positive.",
+      "char": "m059_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "私がたまに、すご～くたまに\\ご主人様の代わりになってあげるわ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "勝ちたいでしょ？バズーカ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "34": {
+    "28": {
       "type": "talk",
-      "dialogue": "ひい！俺につきまとわないでくれ～！",
-      "char": "c000_01",
+      "dialogue": "Positive. \\戦闘で勝利するのは\\バズーカの存在意義です。",
+      "char": "m059_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake_weak"
+      "pos": "left"
     },
-    "35": {
+    "29": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

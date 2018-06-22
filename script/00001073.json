@@ -1,10 +1,378 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "timebrief",
+      "background": "bg050_f",
+      "bgm": "14",
+      "date": "2017-11-24",
+      "location": "home1"
+    }
+  },
+  "phase2": {
+    "1": {
       "type": "talk",
-      "dialogue": "<color=“ff9900”>武器</color>を選んでください。",
+      "dialogue": "世界は\\ <color=ff9900>欲望</color>に満ちている。",
+      "background": "bg050_f",
+      "bgm": "keep",
       "char": "none",
-      "speaker": "none"
+      "speaker": "none",
+      "voiceid": "900203008"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "それだけは魔界も人間界も変わらない。",
+      "background": "bg010_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203009"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "俺は魔界に関心がなかったし、\\やりたい事もなかったから、人間界に定住した。",
+      "background": "bg036_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203010"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "魔界から送られてくる金とバイト代で\\細々と暮らす平和な日々…",
+      "background": "bg095_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203011"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "本当に気に入っているんだ――",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203012"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "《電気料金支払いのお知らせ。内容をご確認の上、\\《了承》もしくは《キャンセル》を選んでください》",
+      "bgm": "none",
+      "char": "none",
+      "speaker": "none",
+      "image": "phone_01_f",
+      "voiceid": "900203013"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "――こういう煩わしい問題さえなければ。",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203014"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "はいはい<color=ff9900>《了承》</color>しました、と。",
+      "background": "bg086_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203015"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "え！？\\…なんか…落ちてきた！？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "shake",
+      "voiceid": "900203016"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "初めまして、可愛いご主人さま♥\\ご主人さまのサポーター、<color=ff9900>モナ</color>と申します♥",
+      "background": "bg086_f",
+      "bgm": "12",
+      "char": "c314_01",
+      "speaker": "mona",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "900203017"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "は？？え？何！？\\サポーター！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "serious",
+      "before_effect": "shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "900203018"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "はい！ご主人さまは先ほど、\\次期魔王を決定するための<color=ff9900>《魔王争奪戦》</color>に\\登録されましたね？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt",
+      "one_ani": "idle",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "900203019"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "はぁ？\\何言ってるんだ、魔王がなんとかって…\\おい、勝手に俺の携帯触るなよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "voiceid": "900203020"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "覚えてませんか？\\ご主人さまは先ほど自らの手で魔王争奪戦の参加に、<color=ff9900>《了承》</color>されたでしょう？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "900203021"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "…え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "900203022"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そういえばさっきのメールで\\<color=ff9900>《了承》</color>ってボタンを押したような…\\いやでも、あれって電気料金のことだろ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "voiceid": "900203023"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "私はこの部屋を使えばいいですか～？\\フフ…若い男の子の匂いがしますね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "before_effect": "go_to_left_slow",
+      "sound": "se_prologue_trash1",
+      "voiceid": "900203024"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "おおい、勝手に横になるなよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "confused",
+      "voiceid": "900203025"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
+      "wait": "longest",
+      "fade_in": "longer"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "で、どういうことだよ、\\魔王争奪戦って。",
+      "background": "bg095_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "900203026"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あれれ～？\\魔界のニュースを知らないのですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "900203027"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "当然知らないよ！\\俺は…魔界がうんざりだからここにいるんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "900203028"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ご主人さま…\\お友達がいらっしゃらないのですね…\\なんて可哀想に…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "900203029"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "う、うるさい！ボッチってわけじゃないぞ！！\\ってか、ニュースってなんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "900203030"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "現在、魔界はちょっとしたお祭り騒ぎです♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "900203031"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "現魔王ルシフェロ様が突然引退を宣言し、\\行方不明になってしまったのです。\\いわば、家出ですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "900203032"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "家出！？魔王が！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "900203033"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "そこで、次期魔王を選ぶ魔王争奪戦が開かれることになったわけです。\\先ほどの手続きで、無事ご主人さまの登録も完了いたしました♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "900203034"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺の意思とは関係なく！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "900203035"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "何をおっしゃるんですか？\\先ほどご自身の意志で《了承》ボタンを押したじゃないですか！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "900203036"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "だから、あれは違うっての！\\俺は、魔王になんて興味ないんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "900203037"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "では、魔王争奪戦について学んでみましょう。\\レッツゴー♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "900203038"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "勝手に話を進めるなよー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "900203039"
+    },
+    "34": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "hold": "normal"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "bg086_f",
+      "fade_in": "normal",
+      "hold": "normal",
+      "char": "c001_01"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "さて、ご主人さまは現在、魔王の子孫の中で\\最弱と言われ、軽んじられています…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "900203040"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "どうでもいいだろ、余計なお世話だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "900203041"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ですが、最弱なんて称号とはもうサヨナラ！\\満を持して<color=ff9900>魔王争奪戦</color>に挑むために、\\モナがスペシャルガイドをして差し上げます！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "900203042"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "休日は家でダラダラ過ごしたいのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "900203043"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "まずは、その引きこもり癖から治しましょうか♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "affair",
+      "voiceid": "900203044"
+    },
+    "41": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "hold": "shortest"
     }
   }
 }

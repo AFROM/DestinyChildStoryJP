@@ -2,225 +2,213 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "アシュトレス、お前なぁ！",
-      "background": "bg245_f",
-      "bgm": "12",
-      "char": "c000_01",
+      "dialogue": "友よ。\\君はどのくらい人間界で暮らしているのだ？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "m200_01",
       "speaker": "same",
-      "facial": "fury",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "もういい加減にしろ！これ以上は戦闘禁止！",
-      "char": "keep",
+      "dialogue": "そうだな…\\もう、だいぶ経っていると思うけど。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ずっと言ってるけど、お前のやり方はホント\\おかしい。容赦なさすぎるだろ！！",
-      "char": "keep",
+      "dialogue": "さぞ寂しかっただろうに。",
+      "char": "m200_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "おかしいですか？",
-      "char": "c194_01",
+      "dialogue": "そうでもないよ。\\バイトにバイトにバイト…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "irritation"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そんなこと言われたら、傷つきます。",
+      "dialogue": "来る日も来る日も仕事ばっかで大変だったからな。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ウソつけ！",
-      "char": "c000_01",
+      "dialogue": "どんな身分でも独りで暮らすのは心細いこと。\\悪魔といえ寂しさを感じないわけではないだろう。",
+      "char": "m200_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "irritation"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "とにかく、ネズミをもてあそぶネコみたいな事は\\やめろ…",
+      "dialogue": "独りの時はともかく、最近は騒がしくて大変だよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ホント周りに人が増えたな。\\こんなことは一度もなかったのに。",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "8": {
-      "type": "talk",
-      "dialogue": "あら、悪魔のはずのご主人様がそんなことを言うなんて。では、こう考えてみてはいかがでしょうか。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "9": {
       "type": "talk",
-      "dialogue": "私はただ《正義》を行っているのです。\\あの名も知らない魔王候補生は、これまで私の契約者をずいぶん苦しめたそうです。",
+      "dialogue": "こんなことなら、独り暮らしの方がマシだ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "10": {
       "type": "talk",
-      "dialogue": "私の契約者とその友達がどれだけ苦しんだことか…\\想像もできないでしょう？あの悪魔に操られていたせいで、彼女たちの学校は地獄だったそうです。",
-      "char": "keep",
+      "dialogue": "そんな風に思っていたのか…",
+      "char": "m200_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "つまり、これは、いたいけな少女たちを苦しめた罪への制裁。正当な権利ですわ。",
+      "dialogue": "私も友にとっては迷惑な存在でしかないのか。\\すまない。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そんな詭弁で騙されないぞ？\\そもそも、お前の契約者は操られてなんかいない。",
+      "dialogue": "別にアンクのことじゃ…\\すまない。俺が悪かった。いや…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "お前の契約者の黒木麗花が友達を苦しめたのは、悪魔のせいじゃない。ただ、そういう性格なだけだろ。お前だってそうだ。",
+      "dialogue": "俺じゃない！この口が悪いんだ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "pretense"
     },
     "14": {
       "type": "talk",
-      "dialogue": "フフフッ。なんだか恥ずかしいですね…\\ちゃんと私の事を理解してくださっているなんて。",
-      "char": "c194_01",
+      "dialogue": "ハハハ！冗談だ。\\私が友のことを理解していないとでも？\\お前は、口で薄情なことを言っても、チャイルド全員の面倒をちゃんと見てるじゃないか。",
+      "char": "m200_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "でも、思いやりが足りないですわ。",
-      "bgm": "keep",
+      "dialogue": "愛情がなければできないことだ。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "お前なぁ…",
+      "dialogue": "それ、褒めてるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "sulky"
     },
     "17": {
       "type": "talk",
-      "dialogue": "私もご主人様の気持ちを理解したいところですが…",
-      "char": "c194_01",
+      "dialogue": "なんだ、照れてるのか？面白いヤツだな。",
+      "char": "m200_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "でも、残念。\\楽しいおしゃべりはここまでのようですね。",
+      "dialogue": "それより、ファラオはまだ、来ないな。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "貴様…どういうつもりだ？\\お前のことだ！このたいまつ頭め！\\なんで俺様の獲物を横取りするんだ！？",
-      "char": "none",
-      "speaker": "Devil",
-      "screen_effect": "dialog_shake"
+      "dialogue": "クレオパトラを待ってたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あはっ、たいまつ頭…！\\やったね、ご主人！新しい名前が増えたよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "enter_from_right_fast",
-      "facial": "joy"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "うるさいよ！別に燃えてるわけじゃない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "toonear",
-      "facial": "unfair",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "本当に失礼な悪魔ですわね。私のたいまつ頭…いえ…ご主人様に無礼な口を利くなんて。",
-      "char": "c194_01",
+      "dialogue": "ファラオが独りで散歩したいと出て行ってしまって\\な。",
+      "char": "m200_01",
       "speaker": "same",
       "pos": "right"
     },
-    "23": {
+    "21": {
       "type": "talk",
-      "dialogue": "ご主人様は私に新しい命をくださったお方。\\誰であろうと、ご主人様を辱める者は許しません。",
+      "dialogue": "独りになりたかったのか、護衛をファラオにも断られてしまった。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
-    "24": {
+    "22": {
       "type": "talk",
-      "dialogue": "許さないならどうすんだぁ？コラ！\\八つ裂きにしてやろうか！",
-      "char": "none",
-      "speaker": "Devil"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ひぃ！",
+      "dialogue": "うーん…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "facial": "irritation"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "だが、ファラオの気持ちも理解できる。\\私も静かに散歩するのが好きだからな。",
+      "char": "m200_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ファラオはしばらくは散歩を楽しむだろうから、\\私も久しぶりに趣味に没頭するとでもしよう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "平和はいつの時代も、風のように瞬く間に通り過ぎて行くものだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…あ～もういい。\\たっぷり痛めつけてボコボコにしてやろうかと思ったが、弱そうだし面倒だ。\\さっさと消えろ！",
-      "char": "none",
-      "speaker": "Devil"
+      "dialogue": "訪れる平和を楽しめない兵士は戦場で勝つことはできない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ご主人様に恐れをなして逃げるのですか？\\まぁ、当然ですね。ご主人様は強い悪魔ですからね！",
-      "char": "c194_01",
+      "dialogue": "君も心に余裕を持つといい。\\急いた気持ちでは運よく訪れる平和を手にすることは難しいからな。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "アシュトレスさん！やめて！\\そんな発言、全然うれしくないから！！",
+      "dialogue": "運よく訪れる平和、か…\\この世で一番運のない悪魔にも来るかな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "facial": "haah"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "フフフッ、さぁ、ご主人様。\\もっと、私を楽しませてください。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,274 +2,218 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔、こっち来て一緒に遊ぼう。",
-      "background": "bg086_f",
-      "bgm": "20",
-      "char": "c142_01",
-      "speaker": "same"
+      "dialogue": "リザ！リザ、頼む！ちょっと来てくれ！",
+      "background": "bg095_f",
+      "bgm": "31",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ヒュプノス、もうやめてくれ。",
-      "char": "c000_01",
+      "dialogue": "あら♥\\ご主人さまがこんなにも切実にリザを求めるなんて♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "facial": "tempt"
     },
     "3": {
       "type": "talk",
-      "dialogue": "悪魔、悪魔ってばー",
-      "char": "c142_01",
+      "dialogue": "変な言い方するな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "4": {
       "type": "talk",
-      "dialogue": "やめろー！",
-      "char": "c000_01",
+      "dialogue": "うふふ♥隠さなくてもいいんですよ～？\\付き合いも長くなってきましたし、\\時にはやましい気持ちになることも♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "facial": "tempt"
     },
     "5": {
       "type": "talk",
-      "dialogue": "一体何事ですか？\\あのヒュプノスが御主人様になつくなんて…",
-      "char": "c002_01",
+      "dialogue": "ない！絶対に！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら、本当ねぇ。",
-      "char": "c001_01",
+      "dialogue": "…って、今はふざけてる場合じゃないんだ。リザ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そこの二人！見てばっかいないで助けてくれ。",
-      "char": "c000_01",
+      "dialogue": "騒々しいですね。一体、何事ですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "なぜですか？ヒュプノスと仲良くなりたいと\\おっしゃったじゃないですか。良かったですね。",
-      "char": "c002_01",
+      "dialogue": "うちの玄関のドアがぶっ壊れてるんだ！\\その上、ドアの前に…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "angry"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そういう問題じゃなくて！\\うわ！ヒュプノス！離れろ！",
-      "char": "c000_01",
+      "dialogue": "「補欠、このドアのようになりたくなければ、\\リザを返せ。リザにふさわしいのは、このフレイ様だけだ！」",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "angry"
     },
     "10": {
       "type": "talk",
-      "dialogue": "悪魔ー幸せにしてあげる。ねえ、悪魔ー",
-      "char": "c142_01",
+      "dialogue": "…フレイ様…",
+      "char": "c002_01",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "irritation"
     },
     "11": {
       "type": "talk",
-      "dialogue": "仲良くなるどころじゃなくて、\\ご主人さまにどっぷりハマっちゃったみたいね。",
-      "char": "c001_01",
+      "dialogue": "クソ。フレイの奴、絶対にドアの修理代を請求してやる。…ってわけだからリザ、フレイの居場所を教えてくれ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "angry"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そうですね。一体どんな方法を使ったのか…",
+      "dialogue": "残念ですが、存じ上げません。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "irritation"
     },
     "13": {
       "type": "talk",
-      "dialogue": "悪魔ー私とずっと一緒に暮らしましょう。\\幸せな夢をみせてあげるわ。",
-      "char": "c142_01",
+      "dialogue": "…その代わり、この責任は私が。\\このようなことになったのは、私のせいですので。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "serious"
     },
     "14": {
       "type": "talk",
-      "dialogue": "俺は現実が好きなんだ！夢はオマエがみろよ！",
+      "dialogue": "別にリザのせいじゃないよ。\\あいつの性格は、嫌ってほど知ってるからな…",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ヒュプノスがご主人さまを自分の夢の中に\\引きずりこもうとしているみたいね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "それは困ります。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ヒュプノス、もうおやめなさい。\\御主人様がお困りです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "御主人様は今、魔王争奪戦の真っ最中なんです。\\夢の中に連れて行かれては困ります。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "魔女はあっち行ってて！",
-      "char": "c142_01",
-      "speaker": "same",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "魔女ですか…\\本当の魔女が何か教えてあげましょう。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "うわ！やめろ！リザ！\\オマエももう止めろ、ヒュプノス！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "リザの言う通り、\\俺は魔王争奪戦の真っ最中なんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "だから…争奪戦が終わったら、\\その時は一緒に遊んでやる。",
-      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "24": {
+    "15": {
       "type": "talk",
-      "dialogue": "本当？約束してくれる？",
-      "char": "c142_01",
+      "dialogue": "悪いのは全部、フレイだ！\\見つけ出して…",
+      "char": "keep",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "angry",
+      "before_effect": "shake"
     },
-    "25": {
+    "16": {
       "type": "talk",
-      "dialogue": "ああ、約束だ。",
+      "dialogue": "…お兄ちゃん、どうして怒ってるのぉ？\\フローラ、ケンカ嫌ぁ。",
+      "char": "c120_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ふ、フローラ？これはケンカじゃなくって…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
-    "26": {
+    "18": {
       "type": "talk",
-      "dialogue": "分かったわ。\\それじゃ、争奪戦が終わるまで寝てよっと。",
-      "char": "c142_01",
+      "dialogue": "慌てて弁解するが、時すでに遅し、\\フローラの目からは大粒の涙があふれ出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うわぁ～ん！！\\ケンカしないでよぉ～",
+      "char": "c120_01",
       "speaker": "same",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
+      "loop_ani": "attack"
     },
-    "27": {
+    "20": {
       "type": "talk",
-      "dialogue": "はあ、助かった。",
-      "char": "c000_01",
+      "dialogue": "すると不思議なことに、あちこちに花が咲き始める。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あら～綺麗ね～♥\\とっても素敵な能力♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right"
     },
-    "28": {
+    "22": {
       "type": "talk",
-      "dialogue": "彼女、急にどうしたのでしょう？\\御主人様を夢の中に連れて行こうとするなんて…",
+      "dialogue": "戦闘では、役に立ちませんが…",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "irritation",
+      "one_ani": "none"
     },
-    "29": {
+    "23": {
       "type": "talk",
-      "dialogue": "分からない。ネメシスがどうのこうの、\\自分の契約者がどうこうって…\\何のことだかさっぱりだ。",
+      "dialogue": "そんなこと言うなよ、\\癒されるんだからいいだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "sigh",
+      "before_effect": "none"
     },
-    "30": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "31": {
+    "24": {
       "type": "talk",
-      "dialogue": "今日はあの魔女のせいで失敗したけど\\次こそは必ず成功させてみせるわ。",
-      "background": "dungeon_bg",
-      "char": "c142_01",
+      "dialogue": "うう…\\ケンカしないで…",
+      "char": "c120_01",
       "speaker": "same",
       "pos": "center",
-      "distance": "normal"
+      "facial": "idle",
+      "before_effect": "shake_weak"
     },
-    "32": {
+    "25": {
       "type": "talk",
-      "dialogue": "待ってなさい、私の契約者。\\私がアナタの王子様を連れて行くわ。",
+      "dialogue": "…とにかく、俺達のせいでフローラが\\怖がってるみたいだし、この話は終わり！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "フレイの奴には、後で絶対、\\請求書を送りつけてやるけどな…",
       "char": "keep",
       "speaker": "same",
       "pos": "center",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "sigh"
     },
-    "33": {
-      "type": "talk",
-      "dialogue": "私たち、王子様と一緒に永遠に幸せに暮らすのよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "34": {
+    "27": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,215 +2,229 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "は～い★深夜のパートナーA.I登場～★\\格闘実況チャンネルEvilを\\あなたの元にお届けしま～す！",
-      "background": "bg099_f",
-      "bgm": "29",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "toonear",
-      "before_effect": "shake"
+      "dialogue": "みんなっ！いくぜっ～！\\ロックンロールベイべー！",
+      "background": "bg117_f",
+      "bgm": "4",
+      "char": "none",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あなたのA.I、今日も張り切っていっちゃうよー！\\さて、今日のゲストは～？じゃーん★",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ロックンロールベイベー！\\イエェエェイ！イエェエェイ！",
+      "background": "bg099_f",
+      "char": "c099_00",
+      "speaker": "same_full",
+      "mvd": "ux/talk/efx_tv_blink.mvd"
     },
     "3": {
       "type": "talk",
-      "dialogue": "物凄い人気を誇る\\《カリスマ悪魔のイブ様》でーす！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "いらっしゃいませ～イブ様！\\お越しいただき光栄です～！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "どうも…\\本当は出たくなかったけど…\\近所迷惑になるくらいに付きまとわれて、\\駄々をこねられるとは思わなかったから…",
-      "char": "c124_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "あはっ！ちなみに、今回の出演交渉、\\なかなかハードだったんですよぉ！",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "1か月間、ストーカーの様にずーっと離れなかったから、あちこちに引っ張り回されちゃって！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "A.Iの恥ずかしい姿をカメラに収めたオトモダチが\\たくさんいるらしいんだけど、\\番組終わったらお仕置きに行くから覚悟しててね★",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "魔界の果てまで追いかけちゃうんだから★\\それはそうと、イブ様！\\さっそくだけど質問ターイム！",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ヘタレでどうしようもない悪魔の\\使い魔になったって噂は本当なんですかぁ～？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c124_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "イブ様～？\\",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…ふふ、こんなことだろうと思ったわ…A.I。\\いいえ、チャンネルEvil。\\悪魔の取り巻きが…悪魔をからかおうっていうの？",
-      "char": "c124_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "それとも、奴がバックについているからって…\\悪魔を甘く見てるのかしら…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "困るわね…チャンネルEvil…\\面倒なことを引き受けてくれていたから、\\黙っていたけど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あなたたちが魔王争奪戦でどんな役割をしようと…\\正直、私にはまったく興味がないの…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "A.Iって言ったかしら…？\\私からどんなお仕置きを受けようと…\\後悔はないわね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "イブ様ったらあ！\\あーん、もう、このクールな反応♥\\イブ様のお仕置きならドンと来いです～★",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "フフ…期待に応えてあげたいけど…\\それじゃあ、あなたたちが望む返事をしてあげるわ…",
-      "char": "c124_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "いつか必ずどこかで、\\そのヘタレ悪魔を命がけで守るつもりよ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "おほぉ～先ほどとは打って変わって情熱的な発言！\\熱い熱い～★",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "でも、それが魔王争奪戦の決勝だったら、\\どうなっちゃうんですか～？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "命懸けで戦うことに変わりはないわ。\\その時、同盟なんて何の意味も成さないでしょね…",
-      "char": "c124_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "この場にいた事を後悔するほど…\\徹底的に潰しにかかれば、誰も文句はないでしょ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "25": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "だそうですよ？\\あらっ、ご主人さま、顔色が悪いですよ？",
-      "background": "bg089_f",
-      "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ま、魔界の女って…怖すぎる…\\",
+      "dialogue": "…ヒッ！",
+      "background": "bg086_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake_weak"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "どうしたんですか、マスター？",
+      "char": "c045_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "enter_from_right_fast"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ああ…その…\\メルポメネと勘違いしたんだ。ふう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "彼女はメルポメネじゃありませんよ。\\最近デビューしたアイドルの岡沢茉鈴(おかざわ まりん)です。",
+      "char": "c045_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "アリアがテレビの画面を指差した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "画面の中には、ステージの上でギターをかき鳴らす、メルポメネの契約者の姿があった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ロック系でギター弾けちゃうアイドルなんですよ。\\カッコいいですよね。\\アリアもあんな風にすれば良かったなあ。",
+      "char": "c045_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "カッコいいけどさ。\\今までのアリアのスタイルと、\\ちょっと違う気がするぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そうですね～\\アリア好みの路線とはちょっと違うけど、\\アイドルに必要なのは<color=ff9900>カリスマ</color>なんです！",
+      "char": "c045_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "最近すごい人気なんですよ。うらやましい！\\アリアも負けないように、レッスンしなくっちゃ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "アイドルっていうのも大変なんだな。\\がんばれよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ロックンロールベイベー！\\イエェエェイ！イエェエェイ！",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "うわっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "なんだ！今度は本物か！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "おう、その通り。わかってるじゃん。\\真のロッカーの登場だぜぇ！",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "…で、メルポメネ。\\どうしたんだ、いきなり。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ふん、ロック系アイドルだって…？\\ロックへの冒瀆だぜ！",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そうか？\\別にアイドルだってロックやったっていいだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ダメ！ゼッタイ！",
+      "char": "c099_01",
+      "pos": "left",
       "distance": "near",
-      "facial": "unfair",
-      "before_effect": "shake"
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ロックって言うのは、ハングリーで、ワイルドで、\\アナーキーなんだよ！\\あんな可愛げのあるもんじゃない！",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "うん。まあ、お前の言ってることが事実なら、\\お前こそが真のロッカーなのは間違いないかもな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ふふん。さすがは悪魔。\\ロック魂わかってるねぇ～",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "気に入ったぜ、悪魔！あんたのために\\ウチが作った最高の曲を聞かせてやんよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "タイトルは<color=ff9900>「トマトサンドイッチにトマトがない」</color>！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なんとも残念なタイトルだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "28": {
       "type": "curtain",

@@ -2,187 +2,293 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "真夜中に学校って…\\なんであんな怖い所に\\また行かなくちゃいけないんだよ。",
+      "dialogue": "なあ、モナ。\\ビクトリスがどこにいるか知らないか？",
       "background": "bg086_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
+      "pos": "left",
       "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "悪魔にはピッタリの場所ですよ。",
+      "dialogue": "ビクトリス、ですか？\\少なくとも、ここにはいませんね～",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "pretense"
     },
     "3": {
       "type": "talk",
-      "dialogue": "都市伝説の定番だな。\\学校の怪談には実話もあるらしいけど…",
+      "dialogue": "そうか…\\ビクトリス～！どこにいるんだ～？",
+      "background": "bg095_f",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "idle"
     },
     "4": {
       "type": "talk",
-      "dialogue": "私たちが確認しに行った怪談は思ったより\\大したことなかったでしたけど♥",
-      "char": "c001_01",
+      "dialogue": "ご主人、うるさい！\\ビクトリスなら、さっき出てったよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "5": {
-      "type": "talk",
-      "dialogue": "モナの言う学校の怪談は\\町の学校で実際に起こった謎の事故だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "誰もいない教室で花瓶が落ちたり、\\本棚が人に向かって倒れてきたり…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "お化けのイタズラだという噂が広まったが\\リザは悪魔の仕業かもしれないと俺を学校に\\引っ張り出した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "そして犯人は…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "大したことなかった？\\それより本当に面白いヤツだな…\\俺の契約者は。キキキ…",
-      "char": "m037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "モナの言葉にがっかりする必要はないぞ…\\俺が常に思っていることだが、\\お化け、いや、悪魔より怖いのは人間だ…",
+      "dialogue": "あいつ、いつの間に…",
+      "background": "bg098_f",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "お前の契約者は、俺が悪魔であることを知った上で\\ニヤニヤと笑いながら契約したんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "面白そうだっていう理由でな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "キキキ、怖かったのか？\\本当に悪魔はからかい甲斐があるな。キキキ…",
-      "char": "m037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "それより…再契約したければ直接来ればいいのに\\なんでまた学校でイタズラなんかするんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "悪魔をなんとも思ってないのか…\\やっぱり人間は怖いな。",
-      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "16": {
+    "7": {
       "type": "talk",
-      "dialogue": "イベント好きなんだ、俺の契約者は…キキキ…\\期待してろ…",
-      "char": "m037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "悪魔を驚かせたい一心で、一生懸命準備したはずだ…",
-      "char": "keep",
+      "dialogue": "まるで、家出した猫ちゃんみたいですね。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "facial": "pretense"
     },
-    "18": {
+    "8": {
       "type": "talk",
-      "dialogue": "や、やっぱり行かない方がよさそうだ。\\向こうから来てもらおう、な？モナ。",
+      "dialogue": "猫なら心がどれだけ楽か…\\はぁ～",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "たまにいなくなるチャイルドはいるけど、\\ビクトリスは少し特殊だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "言うなれば、\\目に入れたら痛いチャイルドというか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "「人生を懸けた勝負」「悪魔歓迎」\\「掛け金・魂」…？何だこりゃ…",
+      "background": "bg054_f",
+      "bgm": "10",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "19": {
+    "13": {
       "type": "talk",
-      "dialogue": "それもいいですけど…\\この際、肝試しもいいんじゃないでしょうか？",
-      "char": "c001_01",
+      "dialogue": "ここには言葉通り、魂を懸けて勝負をするという、\\少女がいるそうです。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
-    "20": {
+    "14": {
       "type": "talk",
-      "dialogue": "ご主人さまは度胸をつける必要がありますわ。",
+      "dialogue": "ただの冗談だと思い、\\気に留めていなかったのですが…\\いくつか、悪魔のサインがあるようですね。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "serious"
     },
-    "21": {
+    "15": {
       "type": "talk",
-      "dialogue": "あら、こうしてみると頼りない悪魔より\\人間の方が使い道あるかも♥",
+      "dialogue": "悪魔のサインって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "…ああ、これなんて、\\魔王候補のサインのようですよ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ええ。\\運よく勝ち続けているおかげで、\\今のところ、死は免れているようですが…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "人間に負けるような、\\間抜けな悪魔ばかりではありません。\\このままでは、近い将来、\\彼女は確実に命を落とすでしょうね。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
       "facial": "pretense"
     },
-    "22": {
+    "19": {
       "type": "talk",
-      "dialogue": "じゃあ、その人間に\\主人になってくれるよう頼んでみろよ。",
+      "dialogue": "そ、そんなこと俺に伝えて、どうするつもりだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "serious"
     },
-    "23": {
+    "20": {
       "type": "talk",
-      "dialogue": "あら、拗ねちゃいました？\\可愛いご主人さま♥",
-      "char": "c001_01",
+      "dialogue": "…特別な理由はありません。\\…ただ、私が悪魔なら、\\放っておくことはないだろうと思い、\\ご報告したまでです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "では、帰りましょうか？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "24": {
+    "22": {
       "type": "talk",
-      "dialogue": "別に拗ねてないし！",
+      "dialogue": "い、いや、やっぱり、その子のとこに行くぞ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "unfair",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ふふ、すごい勢いでしたよね♥あの時は。\\ルールもよく知らないのに、\\契約者に麻雀勝負を挑んで…",
+      "background": "bg108_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
     },
     "25": {
       "type": "talk",
-      "dialogue": "キキキ、面白い…実に面白い！",
-      "char": "m037_01",
-      "speaker": "same"
+      "dialogue": "モナさん。その話はしないでください…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "shake_weak"
     },
     "26": {
+      "type": "talk",
+      "dialogue": "「牌ってなんだ」「役ってなんだ」と、\\契約者の前で大騒ぎするなんて♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "し、仕方ないだろ！\\リザの話を聞いたら、\\さすがに放っておけなかったんだから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…まあ、結局、負けたけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "shorter",
+      "fade_in": "shortest"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ふふ、まさか、\\目の前で天衣無縫が見られるなんてねえ。",
+      "background": "bg004_f",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "おチビさんは、もし魔王になっても、\\賭け事だけはしない方がいいと思うよ？\\大変なことになりたくなければ…ね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…そーする…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "未だに麻雀のことはよくわからないけど、\\あの日の俺は、\\フォルトゥナすら見たことがないほど、\\見事な負けっぷりだった…らしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "それでも俺が今、無事でいるのは、\\チャイルドを1度だけ貸し出すという条件で、\\再戦…その上、代役を立てたからだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "チャイルドを賭けの対象にするなんて、\\ほんとなら、絶対にやりたくなかったんだけど…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "どうしても、\\あの契約者が放っておけなかったんだよな…",
+      "char": "c202_00",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

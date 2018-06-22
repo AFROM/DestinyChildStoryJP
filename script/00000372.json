@@ -2,372 +2,300 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お兄さん、お兄さん、悪魔のお兄さん！！\\朝ですよー！\\早く起きて―！ファイト！おーっ！！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c074_01",
-      "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "……",
+      "background": "bg093_f",
+      "bgm": "24",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うるさいよ…\\平和な朝が、騒音で台無しだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "ニルティ様、\\これで本当に…お別れです。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そ、騒音だなんて…！\\悪魔のお兄さんったら、ひどいです！",
-      "char": "c074_01",
+      "dialogue": "別れ…",
+      "char": "c058_00",
       "speaker": "same",
-      "pos": "right"
+      "screen_effect": "gray"
     },
     "4": {
       "type": "talk",
-      "dialogue": "悪魔のお兄さん、早く起きないと\\うちのニャンコも怒っちゃうんだからね！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "今生では、もうお会いすることはないでしょう。\\それでは…また、来世で。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "5": {
       "type": "talk",
-      "dialogue": "にゃーん。",
-      "char": "keep",
+      "dialogue": "ニルティ様の旅立ちに立ち会うことができ、\\光栄でした。",
+      "char": "none",
       "speaker": "unknown1",
-      "pos": "right"
+      "screen_effect": "gray"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…ニャンコが鋭く爪を立ててる。\\こりゃ危険だな、とっとと起きるとしよう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "光栄…か。",
+      "char": "c058_00",
+      "speaker": "same",
+      "screen_effect": "gray"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ところで悪魔のお兄さん、\\モナさんはどこに行っちゃったんです？",
-      "char": "c074_01",
+      "dialogue": "これを光栄なことと言えるのかはわからぬが…な。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "screen_effect": "gray"
     },
     "8": {
       "type": "talk",
-      "dialogue": "モナ…？\\さあ、知らないな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "《高潔たるその御霊は揺らぎなく、息遣いは\\消えゆく…》",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そっかー。\\モナさんに遊んでもらいたかったのに…\\仕方ないや。お兄さんで手を打ちましょう。",
-      "char": "c074_01",
+      "dialogue": "《争いは終わり、平穏の中で…炎が消えるように…\\聖者の心は…》",
+      "char": "c058_00",
       "speaker": "same",
-      "pos": "right"
+      "screen_effect": "gray"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "なんか俺じゃあご不満な様子だけど、\\そこはスルーしとこう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "type": "curtain",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "なんだよ。\\こっちに来たのは、モナ目当てだったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "fade_out": "longer",
+      "wait": "shortest",
+      "fade_in": "normal"
     },
     "12": {
-      "type": "talk",
-      "dialogue": "だってモナさん、カッコいいし、美人なんだもん。\\あたしも、ああいう大人になりたいんだー。",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longest",
+      "wait": "shorter",
+      "fade_in": "longer"
     },
     "13": {
       "type": "talk",
-      "dialogue": "モナみたいに大きく、か…\\ちょっと難しいんじゃないか…？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ニルティ！",
+      "background": "bg129_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お兄さん…\\今、目線が変なところに向いてなかった…？\\あたしの気のせい？",
-      "char": "c074_01",
+      "dialogue": "…",
+      "char": "c058_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ああ、気のせいだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ふーん。ま、いいや！\\それじゃあ悪魔のお兄さんも起きたことだし、\\特訓開始だね！",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ん？\\お前、特訓なんてしてるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "あたしじゃなくて、悪魔のお兄さんの特訓！\\モナさんがいないから、あたしが手伝ってあげる。",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "いやぁ、ちょっと言ってる意味がわかりませんね…",
+      "dialogue": "お前、これはやりすぎだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "20": {
+    "16": {
       "type": "talk",
-      "dialogue": "さあ、早く行きましょう！\\今日からあたしも、悪魔のお兄さんの\\サポーターです！",
-      "char": "c074_01",
+      "dialogue": "やりすぎとは…\\何がだ？",
+      "char": "c058_01",
       "speaker": "same",
       "pos": "right"
     },
-    "21": {
+    "17": {
       "type": "talk",
-      "dialogue": "待て、落ち着けって…\\具体的に、どんな特訓をするつもりなんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "うーん、特訓といえば…\\まずは1,000km全力疾走とかですかね？",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "できるかっ！\\1,000kmって、東京から種子島ぐらいの\\距離なんだぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "あっ、そ、そうなんですか？\\うーん、それなら、ナイアガラの滝で滝行とか…？",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "めちゃくちゃでかい滝じゃないか！\\水圧で押し流されるわ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "あうう…悪魔のお兄さんったら、文句ばっかり。\\それじゃ、ビクトリアの滝あたりで妥協しましょう。",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…そこ、ナイアガラの滝より高いんだぞ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "高度100mからの水流で鍛えられるヤツが\\いるとすりゃ、そいつは超人だな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "む～っ、じゃあ、どうしたいんですか？\\あっ、いいこと思いついた！",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "絶対ロクでもない考えな気がするが、\\一応聞かせてくれ。",
+      "dialogue": "はぁ…しらばっくれるな。\\これを見ろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "31": {
+    "18": {
       "type": "talk",
-      "dialogue": "佐渡島の海女と素潜り対決。\\これならどう？",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "さっきからコイツは、俺を殺したいんだろうか。\\素潜りのプロに勝てる訳ないだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ふう、まだ気に入らないの？\\こんなに悪魔のお兄さんのために、\\一生懸命考えてあげてるのにー。",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ヘンテコな特訓ばっか挙げるからだ。\\それに引き換え…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "モナはいっつも自分で体験してみてから、\\俺に提案するんだぞ？",
+      "dialogue": "全部ぶっ壊してどうする！？\\こんなに騒いだら、他の奴らに襲われるだろ！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "fury"
     },
-    "37": {
+    "19": {
       "type": "talk",
-      "dialogue": "えっ？そうなの？",
-      "char": "c074_01",
+      "dialogue": "よいか、小僧。\\<color=ff9900>破壊は誕生に結び付く道。</color>\\永遠など、どこにもない。",
+      "char": "c058_01",
       "speaker": "same",
       "pos": "right"
     },
-    "38": {
+    "20": {
       "type": "talk",
-      "dialogue": "もちろん嘘だけど。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "それじゃ、あたしもモナさんみたいにやってみる！\\まずどうすればいいの？",
-      "char": "c074_01",
+      "dialogue": "すべては生まれ、作られ、そして壊れる。\\壊れぬものは、理の外にあるのだと知れ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "40": {
+    "21": {
       "type": "talk",
-      "dialogue": "そうだな…たとえば…\\近所の公園に行って、\\自然と意思疎通を図る訓練とか。",
+      "dialogue": "だからって、全部壊しちゃ駄目だろう…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "irritation"
     },
-    "41": {
+    "22": {
       "type": "talk",
-      "dialogue": "自然と意思疎通！なんかそれっぽいね！",
-      "char": "c074_01",
+      "dialogue": "「小さき善が積もり、大きな器を満たすように…」",
+      "char": "c058_01",
       "speaker": "same",
       "pos": "right"
     },
-    "42": {
+    "23": {
       "type": "talk",
-      "dialogue": "だろ？自然の声が聞こえたら、成功だ。",
+      "dialogue": "「小さき悪をないがしろにし、罪がないと言うべからず」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "なんだそりゃ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あら～ご主人さまじゃないですか♥\\ニルティとお話してたのでは？\\それとも手合わせだったのかしら～？",
+      "background": "bg116_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ほっとけよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "43": {
+    "28": {
       "type": "talk",
-      "dialogue": "すごーい！かっこいい！\\超能力者みたいだね！",
-      "char": "c074_01",
+      "dialogue": "うふふ♥だから、申し上げたんですよ～？\\ニルティは一筋縄じゃいかないって♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "44": {
+    "29": {
       "type": "talk",
-      "dialogue": "そうだ、その意気だ！\\そして、その特訓の成果を、ぜひ俺に教えてくれ。",
+      "dialogue": "モナのおススメは～\\そのまま涅槃にお送りすること、だったのに♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "死にそうな人を放っておけないだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "fury"
     },
-    "45": {
+    "31": {
       "type": "talk",
-      "dialogue": "了解ですっ、悪魔のお兄さん！\\大至急、自然の声を聞いてきますね！",
-      "char": "c074_01",
+      "dialogue": "それ、れっきとした犯罪だからな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "あらあら。\\山奥で、死に装束を着て横たわるやせ細った女性…\\そんな人が、まともだと思います～？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "46": {
+    "33": {
       "type": "talk",
-      "dialogue": "ああ、がんばれよー。\\ファイトー！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "ファイトですっ！おーっ！",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "after_effect": "go_to_right_point"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "…\\よし、うるさいのはいなくなったな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "嘘がバレるまで、ゆっくり出来そうだ。\\さーて、もうひと眠りするかな…\\がんばれよ～、キリヌス。",
+      "dialogue": "明らかに<color=ff9900>《祓魔師》</color>です。\\それも、とても強い力を持った、ね。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right"
     },
-    "50": {
+    "34": {
+      "type": "talk",
+      "dialogue": "もちろん、完璧にご自分のチャイルドにできるなら…とっても心強いでしょうけど♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "でも、ご主人さまの手には余りますよね？\\どうします～？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "どうするって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "魔力を回収して契約を打ち切りますか？\\そうですね～…どうせなら、\\今後のためにも契約者はまた山奥に…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "駄目だって！それはできない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "絶対説得して、戦力にしてみせるから！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "うふふ、ご主人さまったら♥\\時々ああして、いばらの道を選ぶんだから～\\…もう♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "tempt"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

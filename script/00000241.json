@@ -2,321 +2,453 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔様、何をなさっているのですか？\\",
-      "background": "bg102_f",
-      "bgm": "26",
-      "char": "c011_01",
-      "speaker": "same"
+      "dialogue": "……",
+      "background": "bg175_f",
+      "bgm": "18",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_right_slow",
+      "voiceid": "108804001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…チラシのバイト。\\",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c124_02",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "enter_from_left_slow",
+      "voiceid": "108804002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "前からこのバイト、してましたっけ？\\",
-      "char": "c011_01",
+      "dialogue": "そちらの生意気な面構えはフレイで、隣の乱暴そうな女はイブだな。",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack",
+      "voiceid": "108804003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前のせいだろ！\\この前の件で一ヶ月分の食費を\\一日で使い切ったんだぞ！",
-      "char": "c000_01",
+      "dialogue": "乱暴そうな女ですって？\\私に言っているのかしら…？",
+      "char": "c124_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "voiceid": "108804004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "悪魔様、がんばって！応援しますから！\\",
-      "char": "c011_01",
+      "dialogue": "はっはっはっ。\\お前、魔界でどう呼ばれてるか知らないだろ？",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "voiceid": "108804005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "うわあ！イライラする！",
-      "char": "c000_01",
+      "dialogue": "何よ、なんて呼ばれてるのよ！？",
+      "char": "c124_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "108804006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "冗談ですよ、冗談！\\私も反省してますし！",
-      "char": "c011_01",
+      "dialogue": "知らない方が幸せだぞ？ふっ。",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "voiceid": "108804007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "本当か？\\",
+      "dialogue": "というかあいつ！\\俺のことにひとつも触れてないんだけど！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108804008"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ハイ！\\謝罪の意味も込めて悪魔様の\\お仕事を見つけておきました。",
-      "char": "c011_01",
+      "dialogue": "…ふむ、不快にさせて申し訳ない。\\君のことはどこにも記録がなくてな。",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "voiceid": "108804009"
     },
     "10": {
       "type": "talk",
-      "dialogue": "俺の…仕事？\\なんだろ、この不安…",
-      "char": "c000_01",
+      "dialogue": "<b>全ての</b>魔王候補生を把握していると思っていたが、\\俺もまだまだだな…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "voiceid": "108804010"
     },
     "11": {
       "type": "talk",
-      "dialogue": "今度こそ大丈夫です！\\二度も同じミスはしません！",
-      "char": "c011_01",
+      "dialogue": "確かに彼は、初めて見る悪魔です。",
+      "char": "c289_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108804011"
     },
     "12": {
       "type": "talk",
-      "dialogue": "本当か？\\本当に信じてもいいのか？",
-      "char": "c000_01",
+      "dialogue": "で、お前は一体何者だ？",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "left"
+      "voiceid": "108804012"
     },
     "13": {
       "type": "talk",
-      "dialogue": "私を信じてください！\\大好きな悪魔様のために\\一生懸命探したんですから！",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "だ、大好きな…！\\…なら、信じてみるかな。",
+      "dialogue": "お、俺は…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "fury",
+      "before_effect": "shake",
+      "voiceid": "108804013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "こいつは補欠さ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108804014"
     },
     "15": {
       "type": "talk",
-      "dialogue": "いくつか候補があるのですが。\\どれからお話ししましょうか？",
-      "char": "c011_01",
+      "dialogue": "ホケツ…\\やはり初めて聞く名前です。",
+      "char": "c292_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108804015"
     },
     "16": {
       "type": "talk",
-      "dialogue": "一番金になるやつから教えてくれ。\\",
+      "dialogue": "それ名前じゃないよ！しかもカタカナで…\\ちょっと卑猥じゃないか！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair",
+      "before_effect": "shake",
+      "voiceid": "108804016"
     },
     "17": {
       "type": "talk",
-      "dialogue": "なら、コレですね！日給3万円！\\深夜のバイトなので大変かもしれませんが、\\一日で大金をゲットです！",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "こいつが《顔のないスーパールーキー》と世間を騒がせていた悪魔…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108804017"
     },
     "18": {
       "type": "talk",
-      "dialogue": "どこの仕事だ？\\何の仕事なんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "見た目は温厚そうで、知的な雰囲気だ。\\くそ、なかなかのイケメンじゃないか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108804018"
     },
     "19": {
       "type": "talk",
-      "dialogue": "何の変哲もない白い粉を運ぶバイトだそうです。",
-      "char": "c011_01",
+      "dialogue": "まさかそちらから俺を訪ねてくるとは、正直驚いた。しかし、これほど愚かだとは思わなかったぞ。",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "voiceid": "108804019"
     },
     "20": {
       "type": "talk",
-      "dialogue": "明らかにヤバい仕事じゃないか！",
+      "dialogue": "なんだろ、こいつ…\\すごくムカつく口調だな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "108804020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "虫酸が走るな。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804021"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "私も友達になれそうにないわ。",
+      "char": "c124_02",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804022"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "だが…\\強敵であることは間違いなさそうだ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108804023"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "よし、俺も前にイブが言っていた\\《腹の探り合い》ってやつをやってみよう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108804024"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "…ま、まあまあ、そんな怖い顔はよそうぜっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "voiceid": "108804025"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "俺たちがどこへ逃げても、すぐ捕まえに来るんだろ？だから逆転の発想で、こっちから来てみたってわけ。びっくりしちゃった？めんごめんご！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "108804026"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ルーファス様に対し、なんたる不敬な言動！\\万死に値する！！",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "voiceid": "108804027"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "腹の探り合いに失敗した！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108804028"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そんな怒るなって！\\だいたい俺はルーファスなんて悪魔、知らないし！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "それに、何の変哲もない粉に\\なんで3万も出すんだよ！怪しいだろ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "うう…文句ばかりですね。\\それじゃ、次！これは日給2万5千円ですね！",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "それも怪しいな…\\日給が2万5千円って…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "普通のお店のアルバイトみたいですよ。\\悪魔様の写真を見せたら気に入ってました。",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…俺の写真を見て気に入った？\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "《この子なら、うちのお店で\\ナンバーワンになれる》\\とかなんとか言っていましたが。",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "とりあえず聞くけど、その店の名前は？\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "<color=\"CC66FF\">チェリーボーイ男の薔薇園</color>です。",
-      "char": "c011_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "<color=\"CC66FF\">チェリーボーイ男の薔薇園</color>で\\ナンバーワンになる！？冗談も大概にしろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "serious",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "voiceid": "108804029"
     },
     "30": {
       "type": "talk",
-      "dialogue": "お似合いだと思うのですが…\\",
-      "char": "c011_01",
+      "dialogue": "はは、威勢のいいことだ。\\お前の言う通り、遅かれ早かれ我らは顔を合わせる事になっただろう。",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108804030"
     },
     "31": {
       "type": "talk",
-      "dialogue": "それがどんな店か知ってるのか？\\",
-      "char": "c000_01",
+      "dialogue": "俺もこの世界のことはまだよく知らなくてな。\\そこにちょうど、案内してくれるという輩が接触してきたのだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "voiceid": "108804031"
     },
     "32": {
       "type": "talk",
-      "dialogue": "普通のカフェって言ってましたよ。\\女性は立ち入り禁止ということ以外は。",
-      "char": "c011_01",
+      "dialogue": "おかげでこうも容易くお前たちを探すことができた。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108804032"
     },
     "33": {
       "type": "talk",
-      "dialogue": "あ、あそこで店長さんが\\悪魔様に向かって手を振っています。",
-      "char": "keep",
+      "dialogue": "…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "108804033"
     },
     "34": {
       "type": "talk",
-      "dialogue": "絶対に目を合わせないぞ。\\スカウトなんかされるもんか。",
-      "char": "c000_01",
+      "dialogue": "しかし、少々残念ではある。\\お前たちが油断している隙を狙い、簡単に始末してやろうと思っていたのでな。",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "voiceid": "108804034"
     },
     "35": {
       "type": "talk",
-      "dialogue": "わがままな悪魔様ですね…\\何がそんなに気に入らないのですか？",
-      "char": "c011_01",
+      "dialogue": "《魔王争奪戦》など、所詮は単なる手続きにすぎん。無駄な労力を使わず終えられる方がいい。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108804035"
     },
     "36": {
       "type": "talk",
-      "dialogue": "まともな仕事がひとつもないじゃないか。\\普通の仕事なら俺だって文句は言わないさ。",
+      "dialogue": "手続き…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "angry",
+      "voiceid": "108804036"
     },
     "37": {
       "type": "talk",
-      "dialogue": "はあ…それではこれが最後です。\\これはどう見ても普通なのでやってみてください。\\時給2千円です。",
-      "char": "c011_01",
+      "dialogue": "違うか？\\最終的に魔王になるのは、この俺なのだ。",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108804037"
     },
     "38": {
       "type": "talk",
-      "dialogue": "さっきの二つより安いけど、\\時給にしてはいい方だな。\\よし、なんのバイトだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "今悪魔様がしているお仕事と\\同じチラシのバイトです。",
-      "char": "c011_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "お！いいね、やるよ。\\ところで、どんなチラシなんだ？\\レストラン？ゲーセン？",
+      "dialogue": "こいつもまた自信過剰と来たか。\\苦手なタイプだ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy"
+      "facial": "haah",
+      "voiceid": "108804038"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "おい、補欠。\\もっと話しかけて、情報を引き出せ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dark",
+      "voiceid": "108804039"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "何を聞き出せって言うんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "screen_effect": "dark",
+      "voiceid": "108804040"
     },
     "41": {
       "type": "talk",
-      "dialogue": "カフェです。\\<color=\"CC66FF\">チェリーボーイ男の薔薇園</color></b>のチラシです。",
-      "char": "c011_01",
+      "dialogue": "それは自分で考えろ。\\たまには自分で頭を使わないと、脳にクモの巣が張るぞ。",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108804041"
     },
     "42": {
       "type": "talk",
-      "dialogue": "俺はその店から抜け出せないのか！？",
+      "dialogue": "えっと、それじゃ…\\ルーファス、お前は魔王争奪戦にどうして参加したんだ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "shock",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "distance": "near"
+      "pos": "left",
+      "facial": "haah",
+      "screen_effect": "dialog_shake",
+      "voiceid": "108804042"
     },
     "43": {
+      "type": "talk",
+      "dialogue": "名実ともに王となるためよ。\\そして、将来は我が民となる悪魔たちの健気な奮闘を見守るためだな。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804043"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "躊躇なくトチ狂ったことを言いやがって…\\お前、未来の民をボコボコにしてんだぞ！どういうつもりなんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "after_effect": "shake",
+      "voiceid": "108804044"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "民を愛する形は王それぞれで異なる。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804045"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "…都合のいい話だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry",
+      "voiceid": "108804046"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "悪いことは言わん。魔界に帰還し、新しい魔王が決まるまで寝て暮らすがいい。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "108804047"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "そりゃ残念だ。\\もっと早く言ってくれればそうしてたよ。\\その方が楽だしな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "108804048"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "けど、俺はもうここまで来てるんだ。\\今さら引き下がれないんだよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "108804049"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "それに…\\俺と一緒に戦ってくれるヤツらもいるしな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "108804050"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "はっはっはっ…弱くとも悪魔は悪魔か。\\ならば少しだけ、未来の我が民に王の力を見せてやろう。",
+      "char": "c024_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "108804051"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "ルイン、デュランダル。\\親愛なる弱小悪魔に礼を尽くすがよい！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "108804052"
+    },
+    "53": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

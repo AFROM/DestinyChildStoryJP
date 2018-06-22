@@ -2,317 +2,101 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うん…う～ん…まぶしい…\\あれ？アストレア？",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c000_01",
+      "dialogue": "レオ、どこにいるの！？",
+      "background": "back_dim50",
+      "bgm": "keep",
+      "char": "c124_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "300701001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あ、ご主人様。起こしてしまいましたか？",
-      "char": "c014_01",
+      "dialogue": "不運続きだったとは言え、私の落ち度であることは\\否定できない。\\五体満足でいればいいけど…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "screen_effect": "dialog_shake",
+      "voiceid": "300701002",
+      "after_effect": "go_to_left_slow"
     },
     "3": {
       "type": "talk",
-      "dialogue": "テレビドラマ？\\まさか一晩中、観てたのか？",
+      "dialogue": "……\\",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "speaker": "none",
+      "voiceid": "300701003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "はい…\\続きが気になって仕方なく、つい…",
-      "char": "c014_01",
+      "dialogue": "…気を引き締めてください。\\ここは強い悪魔ばかりが集まっている地域のよう\\です。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "enter_from_right_slow",
+      "voiceid": "300701004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何のドラマ…ああ、刑事ドラマか？",
+      "dialogue": "はあ、なんでまたそんなことに！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused",
+      "voiceid": "300701005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうです。\\《警視庁過激犯罪課》っていうドラマです。",
-      "char": "c014_01",
+      "dialogue": "人間が多いため、新規のチャイルドを開拓するのに\\もってこいだからです。\\同じ理由で、日本の主だった都市にも悪魔たちが\\集まっているはずです。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "voiceid": "300701006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はは～ん…わかったぞ。\\アストレアが好きそうな正義のヒーローがいるんだ？",
+      "dialogue": "そうか、何となくイメージが掴めたぜ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
+      "facial": "joy",
+      "voiceid": "300701007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そうなんです！\\市民を守るため、凄腕の刑事たちが捨て身の覚悟で凶悪事件に立ち向かうんです！",
-      "char": "c014_01",
+      "dialogue": "過疎サーバーでキャラを作成しときゃ、\\レアモンスターやレア素材の競争率が下がって\\ウマーってやつだろ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "300701008"
     },
     "9": {
       "type": "talk",
-      "dialogue": "とってもカッコいいんですよ！！",
-      "char": "keep",
+      "dialogue": "カソ…サーバー、ですか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
+      "voiceid": "300701009"
     },
     "10": {
       "type": "talk",
-      "dialogue": "たしかにカッコいいけど…\\俺はこういうの、あんまり感情移入できないな～",
+      "dialogue": "ははは…\\すまん、今のは忘れてくれ。\\リザがおそらく一生縁の無い世界の言葉だから…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "voiceid": "300701010",
+      "facial": "irritation"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ああ…なるほど、ご主人様。\\それはきっと、卑劣なサキュバス三人衆と一緒にいたからですね。許せません！",
-      "char": "c014_01",
+      "dialogue": "はぁ…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "サキュバス三人衆！？\\ああ、モナたちのことか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…って、いや、そういうわけじゃないと思う…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "私は特に、あの刑事が気に入りました！",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "俺の話を聞いてるか？\\…えっ！？あのオジサンが好きなのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "はい。\\悪党たちには災難でしょうが、善良な市民にとっては正義のヒーローなんですよ。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "う～ん…\\あのオジサンが、正義のヒーローね…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "あの刑事を見ていると、ご主人様を思い出します。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あんなマッチョで中年のおっさんと俺とじゃ全然似てないだろ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "いいえ。よく似ています。\\悪魔なのに人間たちを理解しようとしたり、不当なやり方で契約しない高潔さ。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ご主人様は私が理想と考えるヒーローです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "そう言って、アストレアはキラキラした眼差しを俺に向ける。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "やめろ！そんな目で俺を見るな！\\俺はヒーローなんかじゃ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ご主人様。やはりご主人は魔王になるべき御方です。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "悪いけど、俺はお前が思っているほど立派なヤツじゃないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "きっと俺みたいなヤツが魔王になったらガッカリするさ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "自信を持ってください。\\私はご主人様を信じています。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "アストレア…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ご主人様…",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "1つお願いがあるんだけどさ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "あのマッチョのオジサンと俺が似てるって誰にも言わないでくれないか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "特に、あのサポーターたちには…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "フフッ。ご主人様、恥ずかしいのですか？",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ちがうよ…\\俺が正義の刑事に似てるなんてアイツらが聞いたら、きっと《上級悪魔養成講座》と称したお説教と地獄の特訓が待ってるからだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "そうなんですか！？\\もう、他のチャイルドとサキュバスたちにも話してしまいました…",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "終わった…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "serious"
-    },
-    "37": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "facial": "sigh",
+      "voiceid": "300701011"
     }
   }
 }

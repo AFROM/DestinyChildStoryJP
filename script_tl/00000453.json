@@ -2,498 +2,213 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "助けて、悪魔く～ん！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c158_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "idle"
+      "dialogue": "なんか近頃変なんだよな。\\背筋がゾッとするっていうか…",
+      "background": "bg095_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "断る！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "fury",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "背中から誰かの視線を感じる…\\でも後ろを振り向いても、誰もいないんだよな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "まだ何にも言ってないのに～",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "言わなくてもわかる。\\どうせ、今度こそ俺を\\溺死させようと思ってるんだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "溺死だなんてひっど～い！\\悪魔くんが勝手に溺れただけなのに～",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "プールの底で俺にしがみついといて、\\よく勝手にだなんて言えるな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "まあまあ、そんな昔のことどうでもいいでしょ～\\それよりこれ！次はこれを練習してみたいの！",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ナイアスが指さしたテレビには、恋愛ドラマが映っている。男女が愛をささやきながら口づけを交わす姿に俺は慌ててナイアスに振り向く。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ま、まさか、キスシーンの練習…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ち、違うよ～！\\悪魔くんにこんなこと頼むわけないでしょ～！\\さっきまでこんなシーンじゃなかったの！",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "で、ですよね～\\けど、ここまで嫌な顔されると、\\さすがに凹むな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "キスじゃなくてデート！デートの練習がしたいの！\\悪魔くんは、いつか出逢うあたしの王子様の役ね～",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "だが、断る！！",
+      "dialogue": "うう…まただ。何だよ、これ？\\もしかして、暗殺者に狙われてるのか…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "center",
-      "distance": "near",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "4": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ぷふっ…！\\し、失礼、つい噴き出してしまいました。",
+      "background": "bg086_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "おい、こっちは真剣なんだぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "だって、おかしいじゃないですか。\\よりによって、暗殺者だなんて…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "な、何がおかしいんだよ！\\俺だって一応、魔王争奪戦に参加してるんだし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "だから、俺を排除したいと思うヤツがいても\\おかしくない…と思うぞ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はあ、ようやくご自分の立場を自覚なされたのは\\喜ぶべきでしょうか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "それとも、自意識過剰と言うべきでしょうか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "おい待て！\\自意識過剰って、どういう意味だよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
       "facial": "fury",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "御主人様。客観的に申し上げますと、\\御主人様は誰かが策を巡らして倒すほどの存在感の\\あるお方ではありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ああ～ん、もう、即答しないでってば～！\\あたしが生まれたのは悪魔くんのせいなんだから、\\君に拒否権はないの～！わかった？",
-      "char": "c158_01",
+      "dialogue": "ですから、無駄な心配はせず、契約に向けて、\\地道に励んでください。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "うっ、そう言われると言い返せない…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh",
-      "after_effect": "shake_weak"
+      "dialogue": "ぐっ…それが事実なのは自分でもよーく分かってるが真っ向から突きつけられると、さすがにプライドが\\傷つくな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ふふ、いい子、いい子～\\それじゃあ、早速、デートにレッツゴー！",
-      "char": "c158_01",
+      "dialogue": "でも、つけられてるのは本当だって！\\ちょっとは信じてくれ！\\最近、ずっと視線を感じるんだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "それに、背筋がヒヤリとする時もあるし。\\時々、妙な音まで聞こえてくるしさ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ナイアスに連れてこられたのは、遊園地だった。\\混んでるし、面倒だな…",
-      "background": "bg072_f",
-      "bgm": "14",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "とにかく、なんか変なんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "19": {
       "type": "talk",
-      "dialogue": "さあ、悪魔くん。\\男の子としてちゃ～んとエスコートしてちょ～だい。",
-      "char": "c158_01",
+      "dialogue": "御主人様は少しお疲れなのかもしれませんね。\\元気の出る薬でも用意しましょうか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "20": {
       "type": "talk",
-      "dialogue": "え、エスコート？\\えっと…じゃあ、とりあえずそこのラーメン屋に…\\…って、何でにらんでるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "after_effect": "shake_weak"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "べっつに～\\悪魔くんってセンスないな～って思ってただけ！\\あっ、見て見て、あそこで風船配ってるよ～！",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "風船？…あ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ハーイ！みんなちゃんと並んでね～★",
-      "char": "c161_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "風船を配っていたのは、\\魔法少女のコスプレをした、\\どこか見覚えのある子だった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…風船より、あっちのアトラクションに行かないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "え～！何で～？\\あたし、風船欲しいのに～",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "今もらっても、邪魔になるだろ？\\ほら、こっちこっち。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "あいつに会うと、審判だの呪いだの面倒だからな…\\俺はアイツに気づかれる前に、\\ナイアスと共にアトラクションへ向かった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "29": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "もう日が暮れてきたね～\\悪魔くん、楽しかった～？",
-      "background": "bg072_f",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それなりに…な。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ふふ、よかった。\\けど、悪魔くんは年下だから、ちょっとデートって気分じゃなかったなー",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "まあ、どうすればデートっぽくなるかなんて、\\あたしも分かんないんだけどね～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "あっ！悪魔く～ん！\\最後にあれ乗ってみない？\\なんか、デートっぽいし！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "あれ？…ああ、観覧車か。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "うん！今なら絶対、夕日がキレイだよ～",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake_weak"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "確かにな。\\あれならそんなに並ばなそうだし、\\せっかくだから乗ってくか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…と考えたのは、俺達だけじゃなかったらしい。\\俺達が観覧車の前に並んだ頃には、\\人数がだいぶ増えていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ギリギリだったね～もうちょっとで、\\夕日が見えなくなるとこだったよ～？",
-      "bgm": "17",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "俺達が観覧車に乗る頃には、\\夕日はほとんど沈みかけていた。\\ま、まさか、こんなに並ぶことになるなんて…",
-      "char": "none",
-      "speaker": "none"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "ふふ、キレイだね～夕日。\\世界中が火事になってるみたい！",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "火事って…\\もうちょっと穏やかな表現はないのか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "…ん？\\ナイアス？なんか、お前の顔も赤くないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "そ、そうかな？\\ちょっと、雰囲気に酔っちゃったのかも。",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "雰囲気に？\\怪訝に思っていると、\\ナイアスは緊張したように俺を見る。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "あ、あのね、悪魔くん。\\最後の練習も…してみない？",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "最後の…ってなんだ？\\い、いや、それより、なんで近付いてくるんだ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "お、おい、急に動くとゴンドラが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "きゃあ！",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "「揺れるぞ」と注意する前に、\\観覧車のゴンドラが大きく揺れる。\\同時に、ナイアスがこっちに倒れてきた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "いったた、転んじゃった～\\…あっ、顔が…近い、よ…",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "なら、さっさと避けてくれよ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "悪魔…くん…",
-      "char": "c158_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "なんだ？\\ナイアスの奴、目を閉じたりなんてして…\\まさか、眠いのか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "はい、お疲れ様でしたー！\\足元に気を付けて降りてくださいねー！",
-      "bgm": "14",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "56": {
-      "type": "talk",
-      "dialogue": "っ…！？",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
-    },
-    "57": {
-      "type": "talk",
-      "dialogue": "ナイアスは観覧車のスタッフの声に、\\驚いたように目を開いた。\\やっぱ、疲れてるみたいだし…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "58": {
-      "type": "talk",
-      "dialogue": "それじゃ、帰るか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
-    },
-    "59": {
-      "type": "talk",
-      "dialogue": "…うう。",
-      "char": "c158_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake_weak"
-    },
-    "60": {
-      "type": "talk",
-      "dialogue": "ん？どうした？\\いくら眠くても、家まで我慢してね？\\俺も疲れてんだからさ。",
+      "dialogue": "はあ、もういいよ。\\こんなこと相談した俺がバカだったな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sigh"
     },
-    "61": {
+    "21": {
+      "type": "talk",
+      "dialogue": "リザの言う通り、俺を狙う奴がいるわけないもんな。ちょっと疲れてるのかも…\\ゆっくり休んだ方がいいかもしれない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "へぇ…思ってたより鈍くないのね。\\まさか、あたしの気配に気づくなんてね。",
+      "char": "c127_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "これからは少し、気を付けよっと。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

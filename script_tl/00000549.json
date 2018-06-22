@@ -2,294 +2,177 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "もっと賢くなきゃ、長生きできないわよ？",
-      "background": "bg042_f",
-      "bgm": "19",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "うーん…",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あなたは…自分がまだ生きていると、\\よく分かりましたね？",
-      "char": "m050_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "どうかしたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "この私から逃げられるとでも思ってたの？\\意外にお茶目さんね、あんた。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "これ…飲まない。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "自分を…殺すつもりですか？",
-      "char": "m050_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "氷まで入れて冷やしてやったのに…\\コーラが飲みたいって言ってたろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そうね、できれば今すぐにでも\\バラバラにしちゃいたいぐらいだけど…",
-      "char": "m056_00",
-      "speaker": "same_full",
+      "dialogue": "さっきは飲みたいってダダまでこねといて…",
+      "char": "keep",
+      "speaker": "same",
       "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "やめておくわ。\\私にも一応、良心ってものがあるもの。\\約束もあることだしね。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "ご主人が、カァー！ペッ！って…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "それよりも。\\ずいぶんスッキリした顔してるじゃない？\\もう完全に暴力団から足を洗ったの？",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "俺が唾でも吐いて入れたと思ってるのか？\\お前じゃあるまいし！安心して飲め！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
     },
     "8": {
       "type": "talk",
-      "dialogue": "はい、とある方のおかげで…\\命はひとつしかないってことに気づけましたから。",
-      "char": "m050_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "へぇ～ダビがイタズラしたの\\なんで分かったの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
     },
     "9": {
       "type": "talk",
-      "dialogue": "人ってね…自分の限界を悟ると\\慎み深くなるの。今のあんた、とっても素敵よ。",
-      "char": "m056_00",
-      "speaker": "same_full",
+      "dialogue": "ダビお前…正直に言え。\\いつだ？水持って来いって言った時か？\\スープ持って来いって言った時か？",
+      "char": "c000_01",
+      "speaker": "same",
       "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "自分を脅しに来たのなら、無駄足でしたね。\\最初から、自分は貴女の不正には\\興味ありませんでしたから。",
-      "char": "m050_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "へへ、コーラありがと、ご主人！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "after_effect": "go_to_right_point"
     },
     "11": {
       "type": "talk",
-      "dialogue": "せっかく褒めたのに、ツレないわね。\\言ったじゃない。\\あんたをどうこうするつもりはないの。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ただ、生かしておく代わりに…\\いや、そこまで言わなくてもいいわね。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ま、これからもちょくちょく遊びに来るわ。\\今日はそれだけ。\\じゃあ、元気でね。",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near",
-      "after_effect": "go_to_left_slow"
-    },
-    "14": {
-      "type": "curtain",
-      "background": "back",
-      "fade_in": "normal"
-    },
-    "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "…で、アバドンの契約者に会いに来た訳だが、\\なんでアバドンが付いて来るんだ？",
-      "background": "bg055_f",
+      "dialogue": "おい、待てダビ！ちゃんと答えろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "12": {
+      "type": "talk",
+      "dialogue": "見たぞ…ふふ…",
+      "char": "m036_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ふぎゃっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "全部見たぞ…\\元々、悪魔とは嘘がうまいものだ。ふふ…",
+      "char": "m036_01",
+      "speaker": "same"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "な、何を見たんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "やっぱりダビの奴、イタズラしてたのか？\\あいつ食べ物で遊んだらバチが当たるって\\言ったのに！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
     "17": {
       "type": "talk",
-      "dialogue": "この女との関係を、ハッキリさせるためだ。\\真生田真希子(まにゅうだ まきこ)！！",
-      "char": "m056_01",
-      "speaker": "same",
-      "before_effect": "shake_weak"
+      "dialogue": "バチが当たるだと？悪魔が？\\ふふ…面白い悪魔だな…",
+      "char": "m036_01",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ホント、久しぶりね。\\せっかく悪魔さんが訪ねてきてくれたんだもの。\\歓迎しちゃうわ。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "悪魔だって悪いことしたらバチが当たるんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "そりゃどうも、ずいぶんご機嫌だな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "dialogue": "だからお前は…そうやって生きているのか？",
+      "char": "m036_01",
+      "speaker": "same"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ええ、でも悪魔さんの方は不機嫌そうね？\\もしかして、私が約束を破りそうだから怒ってる？",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "…俺の何がいけないんだ？一体何が言いたい？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ああ、それなりに不機嫌だ。\\お前、俺の契約者の一人に会っただろ？",
-      "char": "c000_01",
+      "dialogue": "悪魔らしくないとか、なれとか、\\そんなことを言いたいならやめてくれ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "あらっ…バレちゃったみたいね。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "モナとリザにしょっちゅう言われてるからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "まあ、そう怖い顔しないで。\\昔の友達に会いに行ったようなものよ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "…見ているぞ。\\オマエがどれだけ…オモシロいものを…見せてくれるか…",
+      "char": "m036_01",
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "おかげさまで…とっても元気そうだったわよ、彼。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "陰気臭い奴だな…\\関わらない方がよさそうだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "あいつに構うなと警告したはずだ。\\なんで俺がお前と契約したか、忘れちまったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "もちろん覚えてるわ。ま、それはさておき…\\そろそろ、彼とも話をさせてくれない？",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "うむ！待ちくたびれたぞ！",
-      "char": "m056_01",
-      "speaker": "same",
-      "after_effect": "shake_weak"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "こんにちは、私の…チャイルドって呼ぶべきかしら？私の出した提案は、考えてみてくれた？",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "貴様の部下になれという馬鹿げた提案か？\\考えるまでもない！",
-      "char": "m056_01",
-      "speaker": "same",
-      "after_effect": "shake"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "あら、残念。\\破格の待遇で迎えてあげようと思ったのに…",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "どっかで聞いたな、そのセリフ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "まあ、まだ時間はあるわ。\\その小さなオツムでゆっくり考えなさい。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "この生意気な女め、額に風穴を開けてやる！",
-      "char": "m056_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ちょちょちょ！銃を下ろせって！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "お前も…俺のチャイルドの契約者だから\\今回は見逃してやるよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "だがもし下手なことをしたら、\\さすがの俺も黙ってられないぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "angry"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "悪魔の呪いでもかけられるのかしら？\\それは怖いわね。\\こう見えて臆病なのよ、私？",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "……真生田真希子。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "superangry"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "そんな目で睨まないで、約束は守るわ。\\じゃあまたね、悪魔さん。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

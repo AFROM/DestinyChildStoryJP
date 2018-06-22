@@ -2,280 +2,302 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "こんにちは、助手君！\\今日も難事件に巻き込まれてる？",
-      "background": "bg090_f",
-      "bgm": "14",
-      "char": "c030_01",
+      "dialogue": "あっ、ご主人来た！",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "joy"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お、久しぶり。どこ行ってたんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "いつも通り。\\ボクを呼ぶ難事件…その声に導かれるまま、\\昨日はロンドン、明日は中国、そして今日は日本\\…ってね！",
-      "char": "c030_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "こいつの名前は「少女探偵」。\\嘘でもジョークでもない。自分でそう名付けたのだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "他のやつらみたいな名前が\\いいんじゃないかとは言ったけど、\\本人がこれがいいと譲らなかったので、\\結局この名前に落ち着いた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "で、少女探偵殿。\\捜査の進展はいかがでしょうか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "それがねぇー…\\まったくもって、思わしくない。",
-      "char": "c030_01",
+      "dialogue": "ご主人、ちゃんとあれ買ってきてくれた？\\忘れてないよね！？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "8": {
+    "3": {
       "type": "talk",
-      "dialogue": "それは困りましたねえ。",
+      "dialogue": "うわ、な、何だ！？お、押すなよ！\\くそ…給料日だけはしっかりチェックしてるよなあ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ほら、これだろ？欲しがってたシールブック。\\ったく、こういう時だけ調子いいよな、お前…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…あの、御主人様…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "はいはい。\\頼まれていた辞書ですよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うふふっ…♥\\モナのもちゃーんとありますよね～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "あるよ…ほら、マニキュア！\\…お前な、何だってこんなもん欲しがるんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "9": {
       "type": "talk",
-      "dialogue": "犯人の印象が定まらなくて、ひとりの人物って感じがしないんだよねぇ。\\まるで「オリエント急行殺人事件」みたいに！",
-      "char": "c030_01",
+      "dialogue": "さすが、ご主人さま♥\\あ、ちなみにこれはジェルネイルっていうんですよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "pretense"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ちなみにこいつは今、\\家で暮らさず、ひとりであちこち動き回っている。\\探偵には機動力が必要だとか何とか…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どうでもいいって！それ買うために\\どんだけ恥ずかしい思いをしたことか…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake_weak"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ホントにもう。悪魔が関わっているってところまで\\仮説を組み立てて、\\それが当たっていたのはよかったけど。",
-      "char": "c030_01",
+      "dialogue": "女の子ばっかりの店に入って…\\店員にからかわれるような接客されて…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ボクとしたことが、\\契約してから「しまった！」って思ったよね。",
-      "char": "keep",
+      "dialogue": "うふふ、なら、次からはそういうことがないように\\事前に手を打っておきましょうか♥\\それでしたら問題ないでしょう？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "「交差点の悪魔事件」の犯人が\\本当に悪魔ならどうやって捕まえるんだ！\\いざとなったら魔界に逃げられちゃう！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "その明晰な頭脳を、\\なんで契約する前に使わなかったんだ！",
+      "dialogue": "い、いや、ケッコウデス…嫌な予感しかしないし。\\あとは…アルテミス！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "facial": "sulky"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…はい。\\お呼びでしょうか、旦那様。",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "それは…ちょっと興奮してたから。\\だって、ボクの推理があたってたんだよ？",
-      "char": "c030_01",
+      "dialogue": "これ、やるよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "angry"
     },
     "16": {
       "type": "talk",
-      "dialogue": "証拠をひとつずつ組み立てていって、\\真相にたどり着いたときに\\体中の血がぶわって沸騰して\\生きてる喜びを感じるの！",
-      "char": "keep",
+      "dialogue": "え？ですが、私は特に何もお願いして…\\これは…頭痛薬、ですか？",
+      "char": "c013_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…あ、そういえば、\\そっちの世界から依頼が来たんだ。\\えっと…依頼人は幼い男の子なんだけど…",
+      "dialogue": "そう。\\お前、頭痛もちで苦労してんだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "頭がよすぎても大変なんだな。",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…これを、私のために…？",
+      "char": "c013_01",
       "speaker": "same",
       "pos": "right"
     },
-    "18": {
+    "20": {
+      "type": "talk",
+      "dialogue": "他に誰が飲むんだよ。\\この家、脳天気なのはたくさんいるけど、\\頭痛持ちはお前だけだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あらあら、\\またそんなツンツンした言い方しちゃって～\\それ、ご主人さまがあちこち探しまわって\\見つけた物ですよね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "うふふ♥\\ちょっと頼りないけど、優しいご主人さまでしょう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "けれど、チャイルドに人間の薬が効くはずは…",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "19": {
-      "type": "talk",
-      "dialogue": "…",
-      "background": "bg008_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "少女探偵は、俺と契約した直後から放浪を始めた、\\名実ともに流浪の少女探偵だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "元が探偵だから仕方ないのかもしれないが、\\ハードボイルド小説や、古典推理小説の主人公のように暮らしている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "なので、話題も自然と…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "今回の事件の核心はそれよ。\\痴情のもつれによる、心中に見せかけた殺人事件！",
-      "char": "c030_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "普通の絞殺だと、首の回りに引っかいたような傷痕が残るけど、今回は残ってなかった。\\…それに加えて被害者の日記に犯人のイニシャルが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
     "25": {
       "type": "talk",
-      "dialogue": "ちなみに今回の事件の凶器として使われた紐が…",
-      "char": "keep",
+      "dialogue": "あ、ご主人！ダビのシール触らないでよ！",
+      "background": "bg089_f",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "idle",
+      "before_effect": "shake",
+      "after_effect": "go_to_right_fast"
     },
     "26": {
       "type": "talk",
-      "dialogue": "あ、あの…もういいよ。\\うう…ちょっと気分が悪くなってきた…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "こらあ、助手君！\\たるんでるぞ！",
-      "char": "c030_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ボクみたいな優秀な探偵の助手が\\こんな情けないやつだなんて…\\ワトソン教授とまではいかなくても、\\ボクの記録を残すためにももう少し勉強をだね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "いっそ契約なんてしないで\\犯人をさっさと追いつめればよかったかな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そう、まるで「ミス・マープル」みたいに！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "マーブル？\\ふう、お前と話してると頭が痛くなるよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "「マープル」だってば！ちょっと、キミ…\\もしかして、アガサ・クリスティの本、\\読んでないの？",
-      "char": "c030_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "うん。1冊も読んでない。",
+      "dialogue": "そんなに面白いなら俺もやってみたいんだよ。\\いいじゃん、買ってきてやったんだから！ケチ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "34": {
+    "27": {
       "type": "talk",
-      "dialogue": "えー…一般教養だよ？\\探偵の助手だったら当たり前だよ？\\はあ、ボクの探偵人生の中で\\キミとの契約は唯一の失敗だ。",
-      "char": "c030_01",
+      "dialogue": "これは保管用なの！\\剥がしちゃったら意味ないの！うわーん！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "facial": "cry"
     },
-    "35": {
+    "28": {
       "type": "talk",
-      "dialogue": "すみませんねえ…\\ところで俺、今マジで気持ち悪いんだけど。",
+      "dialogue": "はあっ！？使わないなら買う必要ないだろ～！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "pretense"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "御主人様、この辞書、改訂版ではないのですが…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "大した違いなんてないだろ？文句言うな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…\\ですが、敢えて薬など飲まなくても…",
+      "char": "c013_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "angry"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "まあ、ご主人さまったら～！\\これ、トップコートじゃないですか！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "え、マジで！？\\いや、んなこと言われても俺わかんないし！\\キラキラしたの買って来て…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "容器がキラキラしてるんじゃなくて\\パールが入った物だと何度も言ったじゃないですか…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "あ…\\マジヤバイ…\\※※※",
-      "char": "keep",
+      "dialogue": "この騒ぎの中では、頭痛に悩まされている暇も\\ありません。\\強引な解決法ですが…効果はありますね。",
+      "background": "dungeon_bg",
+      "char": "c013_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "center",
+      "distance": "near"
     },
     "37": {
       "type": "talk",
-      "dialogue": "えっ！ちょ、ちょっと！！ほら、ゴミ箱ここ！\\あらら……\\ちょっとレベルを下げてあげないとダメだなあ。",
-      "char": "c030_01",
+      "dialogue": "オード様の言った通りです…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
     "38": {
       "type": "curtain",

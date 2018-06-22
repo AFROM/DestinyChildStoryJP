@@ -2,17 +2,16 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "う…うう…\\へ、平気かな？ぶつぶつ…きゃあ！",
-      "background": "bg015_f",
-      "bgm": "17",
-      "char": "c026_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "after_effect": "shake_weak"
+      "dialogue": "本当に見苦しいな。",
+      "background": "bg086_f",
+      "bgm": "31",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "わ、悪い。大丈夫か？",
+      "dialogue": "人の部屋に入って来ていきなり何だよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -20,162 +19,178 @@
     },
     "3": {
       "type": "talk",
-      "dialogue": "あら～♥\\学校で女の子とぶつかるということは…！\\これはまさに、特定ジャンルにおけるフラグ…",
-      "char": "c001_01",
+      "dialogue": "言葉通りの意味だ。\\この部屋の散らかりようといったら…",
+      "char": "c009_01",
       "speaker": "same",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あのな～、特定ジャンルってなんだよ…",
+      "dialogue": "それに何だ、この傘は！\\拾ってきたものばかりじゃねぇか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "触るなよ！\\人が趣味で集めた物に文句つけるな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "あ、あの…ご、ごめんなさい。ええと、その…\\手、洗ったほうが…き、菌が…いる…かも…",
-      "char": "c026_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "facial": "fury",
+      "before_effect": "shake_weak"
     },
     "6": {
       "type": "talk",
-      "dialogue": "手に付いた菌が、間違って目に入ると…\\脳まで入って、目が見えなくなって…\\それで、えっと…",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "悪趣味にも程があるぜ。\\人が捨てたゴミを拾って集めるなんてな…",
+      "char": "c009_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "この子、鏡野有紗(かがみのありさ)はオーロラの契約者だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "言い過ぎですよ、ヘクトル。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "angry"
     },
     "8": {
       "type": "talk",
-      "dialogue": "文字通りの箱入り娘だった彼女は、\\ほとんど家から出たことがないという生活を\\送っていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "可愛いお嬢ちゃん、怒るとシワが増えるぜ。",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "だが、自由になりたいと強く願い、\\様々な困難を乗り越えて、\\外に出られるようになった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "心配は御無用です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "10": {
       "type": "talk",
-      "dialogue": "極度に健康に気遣ったり気弱なのは、\\相変わらずのようだけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "聞いたところによると有能なサキュバスらしいが、\\何もこんなガキに仕えることはないだろ。",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "あっ…え、えっと、あの、わたし…\\別に、め、目立とうとしたわけじゃ…うう…\\つい、あれこれ喋ってしまって…ご、ごめんなさい…",
-      "char": "c026_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "貴方には関係のないことです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
       "distance": "normal",
-      "before_effect": "shake_weak"
+      "facial": "serious"
     },
     "12": {
       "type": "talk",
-      "dialogue": "いや、いいよ。\\それより、どこかに行く途中だったんじゃないの？",
-      "char": "c000_01",
+      "dialogue": "こんな狭い家に四人が雑魚寝とは…\\見てらんねぇぜ。",
+      "char": "c009_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "は、はい…や、やっとまた学校に来れるように\\なったんですけど…や、やっぱり",
-      "char": "c026_00",
-      "speaker": "same_full",
+      "dialogue": "オマケにこんな貧乏人が俺のボスとは…\\まったく気に入らねぇ。",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "before_effect": "shake_weak"
     },
     "14": {
       "type": "talk",
-      "dialogue": "外の世界は寒くて、怖くて、あと…で、でも…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "オマエに気に入ってもらえなくても結構だ！\\俺がオマエの主人であることに変わりはないからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "15": {
       "type": "talk",
-      "dialogue": "でも…頑張って、勇気を出して…気合いを…",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "おっと、ボス。\\ご機嫌がすぐれないようで。",
+      "char": "c009_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "有紗の声が全く聞こえなくなってしまった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "でもな、どんなに大人しい飼い犬でも\\きちんと世話しなきゃ",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あー…じゃあ、俺もう行くわ。",
+      "dialogue": "飼い主に噛みつくってもんだぜ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "どういう意味だよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "18": {
-      "type": "talk",
-      "dialogue": "あの！",
-      "char": "c026_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
     "19": {
       "type": "talk",
-      "dialogue": "…？",
-      "char": "c000_01",
+      "dialogue": "物分かりの悪いヤツだな。\\俺をチャイルドにしたいなら、\\それなりの待遇をしろってことだよ。",
+      "char": "c009_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あの…きゅ、急に空から植木鉢が落ちて来たら、\\どうすればいいですか…？",
-      "char": "c026_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "チャイルドが自分の主人のために戦うのは\\当然のこと。見返りを求めるなど以ての外です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "teach"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あの角を曲がったら、別の世界に飛ばされる…とか…それに道で悪魔に捕まったりしたら…\\う、うう…私、対処できるかな…",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "まったく…有能なサキュバスがそんな考えとはな。\\世の中、タダなんてもんは何処にもないんだよ！",
+      "char": "c009_01",
+      "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "before_effect": "shake_weak"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いや、どっちかって言うと、\\捕まってんのは俺なんだけどな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "仕事したら当然、対価をもらわないと。\\それが資本主義ってもんだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "23": {
       "type": "talk",
-      "dialogue": "はあ…",
+      "dialogue": "一体、いくらもらうつもりなんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -184,30 +199,31 @@
     },
     "24": {
       "type": "talk",
-      "dialogue": "どうしよう…どうしましょう…うう？\\うううん…",
-      "char": "c026_00",
-      "speaker": "same_full",
+      "dialogue": "まあ、俺のボスだから特別安くしとくぜ。",
+      "char": "c009_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "うふふ♥\\どうやらまたすぐに契約してくれそうな感じですね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "normal"
+      "dialogue": "ヘクトル特有の笑いと共に、\\金額の表示された電卓が差し出された。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
       "type": "talk",
-      "dialogue": "やはり一度ご主人さまと欲望の海を泳いだ人たちは\\もう一度ご主人さまを求めるんですね♥",
-      "char": "keep",
+      "dialogue": "こ、こんなにたくさん…！",
+      "char": "c002_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "center",
+      "distance": "normal",
+      "facial": "nonsense"
     },
     "27": {
       "type": "talk",
-      "dialogue": "変に誤解を招く言い回しはやめろ！！",
+      "dialogue": "一、十、百、千、万、十万、百万、千万…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -216,6 +232,91 @@
       "before_effect": "shake"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "これでも安くしてやった方だぜ。",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "絶対ダメだ！てか、ムリ、ムリ！絶対無理だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "何だと？このガキ…",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake",
+      "one_ani": "attack"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "分割でどうでしょう？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "いや、だから払えないってば！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "やっぱり賢い嬢ちゃんは呑み込みが早いな。\\いいだろう。きっちり1年でどうだ。",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "2年。それ以下はダメです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "おいおい、冗談だろー？",
+      "char": "c009_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious",
+      "one_ani": "none"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ちょっと待て！\\二人で何勝手に交渉してるんだよー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,305 +2,86 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あれ？アイツら…",
-      "background": "bg095_f",
-      "bgm": "31",
-      "char": "c000_01",
+      "dialogue": "これからは、\\今まで以上に気を引き締めないと命取りになります。",
+      "background": "back_dim50",
+      "bgm": "keep",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "teach",
+      "voiceid": "300501001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "知り合いですか？",
-      "char": "c014_01",
+      "dialogue": "何だよ、急にマジメな顔して。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "300501002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いや、知り合いってわけじゃないけど…\\でも、あの高校生、どう見ても不良だよな。",
-      "char": "c000_01",
+      "dialogue": "今回は正直、運の要素に助けられた事は否めません。はっきり言いますが、フレイ様は今のご主人さまではとても太刀打ちできないほど強いんです。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "300501003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そうですね。態度も服装もだらしないです。\\彼らが気になるのですか？",
-      "char": "c014_01",
+      "dialogue": "他の候補生も魔王争奪戦のルールに習熟しつつ\\ありますし、戦いの激化は必至です。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "voiceid": "300501004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あ～それは…\\こないだコンビニでアルバイトしている時、アイツらとちょっとな。",
+      "dialogue": "はあぁ～…\\ため息がとまんねーな…\\またひとつ、重たい枷が俺の人生を縛りやがったか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
+      "facial": "sad",
+      "voiceid": "300501005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どう見ても未成年なのに、酒もタバコも買わせろってうるさかったんだよ…\\店長に追い出してもらったけどヒヤヒヤしたよ。",
-      "char": "keep",
+      "dialogue": "重い枷…ですか？\\例えば、他には？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "voiceid": "300501006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "高校生がお酒とタバコを買うだなんて、とんでもないです。",
-      "char": "c014_01",
+      "dialogue": "まずは何をおいても…家賃だ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "300501007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あっ！",
-      "char": "keep",
+      "dialogue": "……\\  ",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "300501008"
     },
     "9": {
       "type": "talk",
-      "dialogue": "え？どうした？",
+      "dialogue": "水道代、電気代、ガス代…\\気づけば悪友ばっかの交友関係！\\はぁ、厳しい人生だ…",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "公道に唾を吐くなんて…！\\ご主人様、ちょっと失礼します。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "えっ！？どこに行くんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "shock",
-      "before_effect": "shake_weak",
-      "after_effect": "go_to_right_point"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あの高校生たちに、道徳とマナーを教えて…",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "enter_from_right_fast"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ちょっと待てって！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "enter_from_left_fast"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "なぜですか？",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "なぜって…アイツらが、かわいそうだからだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "アイツらがかわいそう？\\ご主人様、悪党に情けは無用ですよ。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "正義を守るためには時に厳しい決断が必要なのです。さあ、彼らに裁きの鉄槌を…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "こんな事で、厳しい決断するなよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "アイツらをよく見てみろ、アストレア。\\あの高校生たちは道に迷った憐れな子羊なんだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "道に迷った憐れな子羊…？",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "そう、アイツらは人生に迷っている。\\だからアイツらに必要なのは…えーと…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "そうだ。愛の手だ！\\青少年を正しく導く《愛の手》が必要なんだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "shake"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "愛の手…よくわかりません…\\しかし、ご主人様の言葉なら…",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "かしこまりました。初めてなのでうまくできるか分かりませんが…\\彼らに《愛の手》を差し伸べるようにします。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "よし、分かってくれれば、それでいいんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "それでは行ってきます。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "あ、ああ…\\大丈夫かな…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "28": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "fade_in": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "なんだぁ！？ねーちゃん？\\俺たちと遊びたいのか？\\ヘヘッ、かわいがってやるよ？",
-      "background": "bg041_f",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "あなた方は迷える子羊。この私が導きましょう。",
-      "char": "c014_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "くらえ、《愛の手》！！",
-      "char": "keep",
       "speaker": "same",
       "pos": "center",
       "distance": "near",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "グハッ！！",
-      "char": "none",
-      "speaker": "unknown1",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ビンタ！？\\それは愛のムチだろ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "全然わかってないじゃん！！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "confused",
-      "screen_effect": "dialog_shake"
-    },
-    "35": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "facial": "sigh",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "300501009"
     }
   }
 }

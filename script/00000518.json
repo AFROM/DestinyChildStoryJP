@@ -2,177 +2,348 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うーん…",
-      "background": "bg089_f",
-      "bgm": "9",
-      "char": "c003_01",
+      "dialogue": "おい、小僧。\\魔王はどれくらい強い？",
+      "background": "dungeon_bg",
+      "bgm": "31",
+      "char": "c191_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうかしたのか？",
+      "dialogue": "そうだな。\\魔王争奪戦で勝った者だけが\\魔王になれるから、",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "これ…飲まない。",
-      "char": "c003_01",
+      "dialogue": "悪魔の中では一番強いだろうな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "氷まで入れて冷やしてやったのに…\\コーラが飲みたいって言ってたろ？",
-      "char": "c000_01",
+      "dialogue": "そうか…",
+      "char": "c191_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "さっきは飲みたいってダダまでこねといて…",
-      "char": "keep",
+      "dialogue": "まさか、魔王と戦って勝とうとでも思ってるのか。そんなこと考えてないよな？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ご主人が、カァー！ペッ！って…",
-      "char": "c003_01",
+      "dialogue": "ダメなのか？",
+      "char": "c191_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "俺が唾でも吐いて入れたと思ってるのか？\\お前じゃあるまいし！安心して飲め！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "dialogue": "ダメでもない。\\こいつなら拳一つで勝てるかもしれない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "へぇ～ダビがイタズラしたの\\なんで分かったの？",
-      "char": "c003_01",
+      "dialogue": "もしさ、魔王と戦って勝ったら\\その時はどうするつもりだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ダビお前…正直に言え。\\いつだ？水持って来いって言った時か？\\スープ持って来いって言った時か？",
-      "char": "c000_01",
+      "dialogue": "もっと強い奴を探す。",
+      "char": "c191_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "へへ、コーラありがと、ご主人！",
-      "char": "c003_01",
+      "dialogue": "また勝ったら？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "after_effect": "go_to_right_point"
+      "pos": "left",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "おい、待てダビ！ちゃんと答えろ！",
-      "char": "c000_01",
+      "dialogue": "もっともっと強い奴を探す。",
+      "char": "c191_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "見たぞ…ふふ…",
-      "char": "m036_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ふぎゃっ！",
+      "dialogue": "人生、戦いの連続だな。\\疲れないのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "疲れる？むしろ力が湧いてくる。",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "全部見たぞ…\\元々、悪魔とは嘘がうまいものだ。ふふ…",
-      "char": "m036_01",
-      "speaker": "same"
+      "dialogue": "戦えば戦うほど力が湧いてくる、か…\\俺より兄貴の方が魔王に相応しいかもしれないな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "15": {
       "type": "talk",
-      "dialogue": "な、何を見たんだ？",
-      "char": "c000_01",
+      "dialogue": "ハハハ！\\悪いが、魔王になるのはお断りだ。",
+      "char": "c191_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "やっぱりダビの奴、イタズラしてたのか？\\あいつ食べ物で遊んだらバチが当たるって\\言ったのに！",
-      "char": "keep",
+      "dialogue": "え？\\さっきは魔王と戦いたいって言ってたじゃないか。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
     },
     "17": {
       "type": "talk",
-      "dialogue": "バチが当たるだと？悪魔が？\\ふふ…面白い悪魔だな…",
-      "char": "m036_01",
-      "speaker": "same"
+      "dialogue": "戦いたいだけだ。\\魔王になるとは言ってない。",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "悪魔だって悪いことしたらバチが当たるんだよ…",
-      "char": "c000_01",
+      "dialogue": "私には王冠など似合わないからな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "だからお前は…そうやって生きているのか？",
-      "char": "m036_01",
-      "speaker": "same"
+      "dialogue": "どうして？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "…俺の何がいけないんだ？一体何が言いたい？",
-      "char": "c000_01",
+      "dialogue": "私の趣味は何だ？\\殴り、戦って、破壊することだろ？",
+      "char": "c191_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "悪魔らしくないとか、なれとか、\\そんなことを言いたいならやめてくれ。",
+      "dialogue": "そんな奴が魔王になってみろ。\\平和どころか地獄になる。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "モナとリザにしょっちゅう言われてるからな。",
-      "char": "keep",
+      "dialogue": "むしろ悪魔たちは喜ぶかも。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "23": {
       "type": "talk",
-      "dialogue": "…見ているぞ。\\オマエがどれだけ…オモシロいものを…見せてくれるか…",
-      "char": "m036_01",
-      "speaker": "same"
+      "dialogue": "何よりも私には責任感というか、\\とにかくそういうものが全くない。",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "陰気臭い奴だな…\\関わらない方がよさそうだ…",
-      "char": "c000_01",
+      "dialogue": "飽きやすい性格だしな。\\お前は私みたいな奴に魔王になってもらいたいか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "25": {
+      "type": "talk",
+      "dialogue": "…責任感なくてすぐに飽きるのは俺も同じだ。\\そういう意味で俺にも資格はないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "悪魔の中で一番強い奴が魔王になると言ったな？\\なら、間違いなくお前は魔王に相応しくない。",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "うっ…客観的な評価感謝します…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "cry"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "だが！責任感は立派な方だ！",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺が？誰かと勘違いしてるんじゃないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "チャイルドへの態度を見てれば分かる。\\私のように単純な奴でも、そのくらい理解できる。",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "お前は魔王になる資格が十分にある。\\この私が保証しよう！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "お前が魔王になれば、\\その時はもう小僧とは呼ばない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "面倒だが…可愛い子分ができたと思えばいい。\\主人じゃなくてな…分かったか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "セクメト…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "魔王になったら、魔王らしくしないとな！",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…待て。もし俺が本当に魔王になったら、\\それじゃお前は…魔王になった俺と戦って…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ハハハハ！当然だろ。",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "魔王になった主人に勝つ…\\考えただけでもワクワクするだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "いや…主人になった魔王に勝つのか？\\ま、とにかく…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ならない。無理だ。絶対に魔王になんてならない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "何だと？私がここまで言ったのに\\そんなこと言えるのか？",
+      "char": "c191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "悪魔と戦うより\\お前と戦う方が怖いよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

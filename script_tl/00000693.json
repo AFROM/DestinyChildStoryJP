@@ -2,333 +2,289 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "こんにちは。メブはいる？",
-      "background": "bg089_f",
+      "dialogue": "ボス。\\チャイルドたちがあんたのことを褒めていたぞ。",
+      "background": "bg086_f",
       "bgm": "9",
-      "char": "c242_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "いえ、今日はまだ来てないみたいですけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "一体どこに行ったのかしら。\\目もしょぼしょぼで、足もおぼつかないのに。",
-      "char": "c242_00",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right"
     },
-    "4": {
+    "2": {
       "type": "talk",
-      "dialogue": "ぷぷっ…って！",
+      "dialogue": "ありえません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "えっ、嘘！？\\って、返事早っ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy",
+      "facial": "nonsense",
       "before_effect": "shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "申し訳ありません、御主人様。\\つい反射的に思ってもいない\\否定をしてしまいました。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あまりからかわないでくださいよ。\\メブ様が聞いたら怒り狂って、そのしわ寄せが\\全部俺に…",
-      "char": "keep",
+      "dialogue": "「思ってもない否定」！？…\\本当かな…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "sigh"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ふふふ。 メブはそういう時が一番可愛いのよ。",
-      "char": "c242_00",
+      "dialogue": "ふうむ…どうやら、ボスは\\サキュバスたちとはうまくいっていないようだな。",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…はい？",
+      "dialogue": "いいえ、私たち御主人様にお仕え出来て\\とっても、とーっても幸せですわ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "リザってそんなに棒読みみたいな話し方だっけ…？\\っていうか、なーんか気になる言い方だな…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "none"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "精進します。\\思ってないことを言う時も\\笑顔で滑らかに言えるように。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "「思ってないこと」って言っちゃったじゃん！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "冗談はさておき。\\正直、少し違和感がありますね。\\チャイルドたちが御主人様を褒めるなんて…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "before_effect": "none"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "御主人様はいつもチャイルドに\\振り回されているだけなのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "before_effect": "none"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "否定できないのが悔しい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "振り回す、それだ。\\どうやら扱いやすい主人だと\\気に入っているようだな。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "えーと、褒められてるって思っていい？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "8": {
-      "type": "talk",
-      "dialogue": "ううん、なんでもないわ。\\それにしてもどこ行ったのかしら。\\ここに来るって言ったのに…",
-      "char": "c242_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ただいまあ。\\あっ！ 誘拐犯…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "screen_effect": "shake_weak"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "あらあ？ 失礼しちゃうわあ。",
-      "char": "c242_00",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "うわあん！殴られた！？\\ご主人、サポーターのことちゃんと守ってよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "何で俺のせいになるんだよ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "nonsense",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "うーん、やっぱりこっちじゃないわね～？",
-      "background": "bg147_f",
-      "char": "c238_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "いつも通ってる道だから大丈夫だと思ったのに…\\迷子になっちゃったみた～い。メブ、困っちゃう～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
     "16": {
       "type": "talk",
-      "dialogue": "それに…\\さっきからチョロチョロ尾行してるやつもいるし。\\はぁ～気付いてんのよ。姿をお見せ！",
-      "char": "keep",
+      "dialogue": "何にせよ、好意的に受け入れられていることは\\間違いないんだ。誇りに思っていいのでは？",
+      "char": "c227_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ちぇっ。ただの可愛いお嬢さんと思って油断したか…はいはい、つけてたのは俺ですよ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "そりゃありがたいけど。\\その好意的なチャイルドたちの中に\\お前って入ってるの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あら…可愛いお嬢さんだなんて…♥\\貴方の尾行も悪くなかったわよ。",
-      "char": "c238_00",
+      "dialogue": "いいや、今のところは入っていない。",
+      "char": "c227_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak",
-      "sound": "se_summon",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ただ、あたしのほうが上手ってだけね。\\…で、用件は何？",
-      "char": "keep",
+      "dialogue": "今のところは、ってことは、\\これからそうなる可能性があるってことだよな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "20": {
       "type": "talk",
-      "dialogue": "お姉さんが聞いてあ・げ・る♥",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "特にこれと言った理由なんてないさ。\\ただ、ちょっとむしゃくしゃしてたんでね。\\チョロそうな子と遊びたかっただけで…",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ふうん、チョロそう、ねぇ…\\可愛い女の子って思ってくれたのは嬉しいけど～",
-      "char": "c238_00",
+      "dialogue": "まあな。\\まだ背を預けるには互いを知らなすぎるだろう。\\オレはこう見えても堅実なタイプでね。",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "そうですね。\\御主人様がいつ逃げ出すかわからないですから…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "どういう目で見られてるんだよ、俺は！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "こう見えても大先輩なのよね～あたし。\\ちょっと甘く見すぎたようね？",
-      "char": "keep",
+      "dialogue": "おお、そう言われて怒るってことは…\\いざって時、逃げ出さない男だっていうのかい？",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だ、大先輩…！？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "確かに、御主人様は普段はいつでも逃げ腰ですが。\\いざっていう時に尻尾を巻いて逃げ出す姿は見たことありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
     },
     "25": {
       "type": "talk",
-      "dialogue": "そ、こんなに可愛いのに、魔界に何千年といて…\\って、それはいいか♥\\小僧の世話もたまには楽しいし、\\威張り散らすわけにはいかないって自制してるけど♥",
-      "char": "c238_00",
+      "dialogue": "ただ、そのいざっていう時が中々訪れないので\\そのいい面が中々見せられないのは事実です。\\それに…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "pretense"
     },
     "26": {
       "type": "talk",
-      "dialogue": "たまにはあたしも息抜きしていいわよね～♥",
-      "char": "c238_01",
+      "dialogue": "戦闘能力、人心掌握能力、帝王学…\\あらゆる面で他の魔王候補より劣っているのも事実。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "after_effect": "shake_weak",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "right",
+      "facial": "pretense"
     },
     "27": {
       "type": "talk",
-      "dialogue": "さあ、お姉さんのことた～っぷり楽しませてね♥\\可愛い悪魔さん♥",
+      "dialogue": "ふむ、的確な分析だ。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "俺の目の前で好き勝手言っちゃってさあ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "これ以上怒らせたくないなら、\\さっさとこの部屋から出ていけ！",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ふむ、それで怒る矜持は持ち合わせている。\\なるほど、なるほど…悪魔と言うよりも\\人間に近いのだな。",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "28": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "結局、メブ姐さんを探しに来てしまった。",
-      "background": "bg109_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "いくら大先輩っていっても、俺よりずっと年上でも\\見た目は未成年で…しかも可愛い女の子だし…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
     "31": {
       "type": "talk",
-      "dialogue": "何か犯罪に巻き込まれてるんじゃないかと\\念のため近くの交番や警察署にも行ってみたけど。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "迷子の荒ぶる少女または\\奇跡の童顔老婆の痕跡は見当たらなかった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "33": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "うわああん！\\ごめんなさい、もう勘弁してください～！",
-      "background": "bg111_f",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "悲鳴…？\\まだ明るいのに、こんなところで…\\しかも、おっさん…？",
+      "dialogue": "な、何だよ？もういいだろ。\\出ていけってば！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
-      "before_effect": "enter_from_left_fast"
+      "before_effect": "shake"
     },
-    "36": {
+    "32": {
       "type": "talk",
-      "dialogue": "うふふ、まだまだ終わらないわよ～♥",
-      "char": "c238_01",
+      "dialogue": "ボスのいい面、悪い面が何となくわかって来たぞ。\\なあボス、美味しい話があるんだが\\ひとつ乗らないか？",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right"
     },
-    "37": {
+    "33": {
       "type": "talk",
-      "dialogue": "ちょっ！メブ姐さん！\\つ、ついにやらかしました！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "nonsense",
-      "screen_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "あら、迎えに来てくれたの？\\イイコイイコしてあげる♥\\生意気な小僧だと思ってたけどなつかれると\\可愛いものね♥",
-      "char": "c238_00",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "って、今、\\スイカが割れるような音がしたんですが…？",
+      "dialogue": "は？\\お、俺は余計なことはしないぞ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "facial": "haah"
     },
-    "40": {
+    "34": {
       "type": "talk",
-      "dialogue": "あはは、確かに音は似てるわね。\\礼儀を知らない青二才がいたから、\\ちょっとお尻ぺんぺんしてただけ！",
-      "char": "c238_00",
+      "dialogue": "何、たぶんあんたに向いてる仕事だ。\\オレの契約者の件だが…どうも臆病すぎて、\\友達ができないようでな。",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right"
     },
-    "41": {
+    "35": {
       "type": "talk",
-      "dialogue": "最近の若いもんは、新聞も読まないし、\\敬語も使えないし。\\まったく、生意気なんだから…",
+      "dialogue": "事情を知っているあんたが、\\友達として少し付き合ってやってくれ。\\…簡単で、あんたに向いてるヤマだろ？",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "42": {
+    "36": {
       "type": "talk",
-      "dialogue": "って、今の完全に年寄りの言葉よね…\\とほほ、あたしもそろそろ隠居しなくちゃ\\ダメかしら…",
-      "char": "keep",
+      "dialogue": "一体主人を何だと思ってるんだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "center",
-      "distance": "near"
+      "distance": "near",
+      "facial": "sigh",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "43": {
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

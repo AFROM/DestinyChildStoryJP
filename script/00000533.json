@@ -2,288 +2,358 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハイ！親切に道を教えてあげる。",
-      "background": "bg086_f",
+      "dialogue": "だから、会わせなさいよ！\\本当に重要なことなの！",
+      "background": "bg002_f",
       "bgm": "31",
-      "char": "c000_01",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いいえ、間違いです。",
-      "char": "c002_01",
+      "dialogue": "だから、ダメだって言ってるだろ！\\ ",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何っ！？",
-      "char": "c000_01",
+      "dialogue": "本当に悪いけど、\\フレイとは連絡したくないんだよ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ハイハイ！道案内をするフリをして\\家に連れて来て契約させる！",
-      "char": "c003_01",
+      "dialogue": "どうしても会いたいんだったら、\\あそこにいる真面目そうな女性に聞くとか！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "正解です。",
+      "dialogue": "嫌です。",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "shy"
     },
     "6": {
       "type": "talk",
-      "dialogue": "何が正解だよ！\\道に迷ったおばあさんをさらうってことか？",
+      "dialogue": "お前って奴は…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "serious"
     },
     "7": {
       "type": "talk",
-      "dialogue": "それじゃ犯罪だろ！？",
-      "char": "keep",
+      "dialogue": "なるほど。\\悪魔らしく、いとも簡単に私に汚名を\\着せるのですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "facial": "irritation"
     },
     "8": {
       "type": "talk",
-      "dialogue": "平気平気。契約したことなんて忘れちゃうし、\\バレなきゃいいんじゃん。",
-      "char": "c003_01",
+      "dialogue": "ですが嫌です。\\とにかくフレイ様に会えば…\\《リザ、お前》から始まって…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "serious"
     },
     "9": {
       "type": "talk",
-      "dialogue": "思っていたより随分深刻ですね、御主人様。\\こんなにまで人間に染まっているとは。",
-      "char": "c002_01",
+      "dialogue": "考えただけでも寒気が…\\なので、絶対嫌です。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "irritation"
+      "facial": "idle"
     },
     "10": {
       "type": "talk",
-      "dialogue": "これまで人間界で暮らしながら起こした\\一番大きな犯罪は何ですか？",
-      "char": "keep",
+      "dialogue": "リザ！お前！\\いつまで俺を避けるつもりだ…",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
     },
     "11": {
       "type": "talk",
-      "dialogue": "い、一番大きい犯罪？",
-      "char": "c000_01",
+      "dialogue": "…丁度あんな感じですね。\\本当に頭に来ます。\\わざと私の名前をあげてまで…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "shy"
     },
     "12": {
       "type": "talk",
-      "dialogue": "臆病者のバカご主人に\\悪いことできるわけないじゃん。\\心臓バクバクして息もできないはず。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ふ、ふざけるな！\\こう見えても窃盗経験のある悪魔だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "おお！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "腹が空いて\\バイト先のコンビニでおにぎりを盗んだことが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ま、そうなるよね。リザ、期待しすぎ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "最後にもう一問だけお出しします。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ダビみたいにいっそ諦めてくれないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "《ブーケが隠れてこちらを見ていることに\\気づいたアナタ。どう対処しますか？》",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "え？ブーケが俺を見てる？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "《1番、無視する。2番、許可なく主人を\\盗み見た罰として叱る。》",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "《3番、喜んで迎える。4番…》",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "これ以上聞くまでもない！正解は3番だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "会えて嬉しいよ、ブーケ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "わ…わ…私に…今気づくなんて…ひどい！",
-      "char": "m045_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "え？",
+      "dialogue": "うわ、噂をすれば来やがった…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "nonsense"
     },
-    "28": {
+    "13": {
       "type": "talk",
-      "dialogue": "私のことを忘れないように一生そばにいるわ！",
-      "char": "m045_01",
+      "dialogue": "現れたわね、女の敵！ \\私を捨てておいて堂々と姿を現すなんて！",
+      "char": "c209_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "おい、待て！何でそうなるんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
       "before_effect": "shake"
     },
-    "30": {
+    "14": {
       "type": "talk",
-      "dialogue": "はあ…正解は4番です。\\まだ自分のチャイルドの性格を\\把握できていないのですか？",
-      "char": "c002_01",
+      "dialogue": "なんだ？\\誰だ、お前",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "pos": "left",
+      "before_effect": "shake"
     },
-    "31": {
+    "15": {
       "type": "talk",
-      "dialogue": "4番は何なの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "《ブーケにピッタリの\\彼氏を紹介してあげる》です。",
-      "char": "c002_01",
+      "dialogue": "だ…誰って…",
+      "char": "c209_01",
       "speaker": "same",
       "pos": "right"
     },
-    "33": {
+    "16": {
       "type": "talk",
-      "dialogue": "ダビが思うに、ご主人が正解だと思うけど？\\見て、二人ともお似合いじゃん？",
-      "char": "c003_01",
+      "dialogue": "はあ…\\困りましたね。",
+      "char": "c002_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "right",
+      "facial": "pretense"
     },
-    "34": {
+    "17": {
       "type": "talk",
-      "dialogue": "ブーケ！離れろ！離れろってば！",
+      "dialogue": "そうだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "irritation"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "誰って…\\女を口説いておいて\\誰とは何よ！どうしたらそんなことが言えるの！？",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "one_ani": "attack"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "まあ、落ち着け…\\あいつはいつもああなんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そんな風にうやむやにしようとしても…\\無駄よ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "まさか…本当に名前を忘れてるの…\\ちょっと、聞いてるの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "おい、補欠。\\この女をなんとかしろ。",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_point"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "お前が引き起こしたことだろ。\\なのに急に現れたと思ったら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "御主人様、スムージーを頼んでもいいでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "after_effect": "go_to_right_slow"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ダメだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…ってもう頼んでるし。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "アナタ…夜ごと口説いた女性たちから\\痛い目にあってる顔してる…",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "くっ、どうしてそれを…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そんなのわかるわ。\\それに近頃、とっても性格のきつい女と\\暮らしてるわね？",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "なんだと、そんなことまで…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "見なくても分かるわ。\\ホントに最低ね。\\可哀想に、アナタのような男に踊らされるなんて！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "うっ…\\記憶にない女にこうまで言われるとは…\\ふん！俺はお前に会いに来たわけじゃないぞ！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "このスムージー、不味いですね。\\御主人様、どうぞ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ハハ、やっぱり俺のサキュバスだな。\\美味しいものは一生譲ってくれないだろうな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
     },
     "35": {
       "type": "talk",
-      "dialogue": "永遠に離さないわ！貴方は私のものよ！",
-      "char": "m045_01",
+      "dialogue": "私だって今後一切、アナタに会うつもりはないわ！\\もう二度とアナタのことなんて考えない！",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "お似合いといえばお似合いのような…",
-      "char": "c002_01",
+      "dialogue": "私の主人はバカで、魔力も体力もない…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "ブーケとバカご主人が付き合ったら\\その次はダビとモナ姉さまだねー、へへへ。",
-      "char": "c003_01",
+      "dialogue": "…なんで急に俺を引っ張り込むんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "38": {
+      "type": "talk",
+      "dialogue": "甲斐性なしで、引きこもりで…",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "どういう風に思われてるのかがよくわかるよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "でも、そんな主人を私が！\\アナタよりももっと強い悪魔にしてみせるわ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "あいつ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "この浮気者！スケベ野郎！不良め！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "…気は済んだか？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "遊び人、女たらし、嘘つき野郎、バカ野郎…",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "今日は来るんじゃなかった…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

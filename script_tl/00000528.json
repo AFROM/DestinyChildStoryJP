@@ -2,301 +2,294 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ねぇねぇ、お小遣い！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c003_01",
+      "dialogue": "私でお役に立てるでしょうか…？",
+      "background": "bg095_f",
+      "bgm": "9",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "俺に金でも預けたか？そんなものはない。",
+      "dialogue": "なんだよ、リザ。\\珍しく弱気じゃないか。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "うえーん！\\お小遣い、お小遣いちょうだい！",
-      "char": "c003_01",
+      "dialogue": "ええ…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "cry"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ないものはない！\\それになんで小遣いが必要なんだ？",
+      "dialogue": "頼れるのはお前だけなんだ\\しっかりしてくれよ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "pretense"
     },
     "5": {
       "type": "talk",
-      "dialogue": "必要なの。買いたいものがあるの。",
-      "char": "c003_01",
+      "dialogue": "むぅ…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "無駄遣いだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ダビをバカにするな！\\ダビは可愛いヒヨコを買うの！",
-      "char": "c003_01",
+      "dialogue": "ファイロ！\\ぶっ殺してやるぜ！",
+      "background": "bg095_f",
+      "bgm": "12",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "8": {
       "type": "talk",
-      "dialogue": "やっぱり無駄遣い…",
-      "char": "c000_01",
+      "dialogue": "来たようですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "sigh"
     },
     "9": {
       "type": "talk",
-      "dialogue": "バカご主人には分からないでしょ！\\賢いダビが、すっごい計画を立てたんだから！",
-      "char": "c003_01",
+      "dialogue": "フェニックス…すみませんが、\\ここにファイロはいませんよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "idle"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ヒヨコをいっぱい買って、農場を作るの。\\そしたらヒヨコがもっといっぱいになるでしょ？",
-      "char": "keep",
+      "dialogue": "ファイロ！\\ぶっ殺してやるぜ！",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "screen_effect": "dialog_shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そしたらダビもヒヨコ売りみたいに小学校の前で\\高い値段で売るの。",
-      "char": "keep",
+      "dialogue": "…フェニックス。\\冷静な話し合いで解決してはどうですか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "フフフ…1羽50円で売れば…",
-      "char": "keep",
+      "dialogue": "話し…合い…？",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そうか、そうか…\\大金持ちになったら俺の面倒みてくれよ。",
-      "char": "c000_01",
+      "dialogue": "ええ、既にあなたは御主人様のもの。\\そして、それはファイロも同じ…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "考えておく。",
-      "char": "c003_01",
+      "dialogue": "ふたりとも、御主人様の大切な戦力なのです。\\それなのに相争っては…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "right"
     },
     "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "この野郎！",
+      "char": "c208_01",
+      "speaker": "same",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ピヨピヨ…",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ぐわっ！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "はあ…ヒヨコ、ヒヨコってうるさいから\\買ってあげたのに\\当の本人は見向きもしないじゃないか。",
-      "char": "c000_01",
+      "dialogue": "…なぜ、あなたがここに…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "facial": "sigh"
     },
     "18": {
       "type": "talk",
-      "dialogue": "心配しないでください。\\ご主人さまがたまにトイレを掃除して\\餌をあげればいいだけですから♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "大丈夫ですか、リザさん！",
+      "char": "c208_01",
+      "speaker": "same"
     },
     "19": {
       "type": "talk",
-      "dialogue": "モナがご主人さまのお世話をするより遥かに\\楽ですよ♥",
-      "char": "keep",
+      "dialogue": "はぁ…\\私より、彼に聞くべきではありませんか。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "言われなくてもやってるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "何言ってるんだ！\\あいつがお前を攻撃したんじゃ…",
+      "char": "c208_01",
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "リユガー、怒る！怒っ…",
-      "char": "m039_01",
+      "dialogue": "こうなるんじゃないかと、思っていましたが…",
+      "char": "c002_01",
       "speaker": "same",
-      "distance": "near",
-      "before_effect": "enter_from_right_fast",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right",
+      "facial": "irritation"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ピヨピヨ…",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "え？\\今、なんて…",
+      "char": "c208_01",
+      "speaker": "same"
     },
     "23": {
       "type": "talk",
-      "dialogue": "おい、リユガー。\\いくら怒っててもヒヨコはダメだ！",
-      "char": "c000_01",
+      "dialogue": "フェニックスは、\\私を攻撃するつもりなどありませんよ。\\私はあなたじゃないのですから。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "リユガー…怒って…",
-      "char": "m039_01",
-      "speaker": "same"
+      "dialogue": "ファイロを探しては殺すと騒ぐから、\\うるさくてかないません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ピヨ、ピヨ",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "だからこそ、御主人様は\\私をガードマンとしてここに立たせたんです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "リユガー…",
-      "char": "m039_01",
-      "speaker": "same"
+      "dialogue": "それなのに…あなたが急に現れるから…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ダメだって！",
-      "char": "c000_01",
+      "dialogue": "どうしてここにいるんです？\\御主人様は、あなたを預かると言っていたでしょう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "serious",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ヒヨコ、いい…",
-      "char": "m039_01",
-      "speaker": "same"
+      "dialogue": "こざかしい！\\だから俺が出て行くのを邪魔したんだな！！",
+      "char": "c208_01",
+      "speaker": "same",
+      "before_effect": "shake"
     },
     "29": {
       "type": "talk",
-      "dialogue": "殺しちゃ…え？",
-      "char": "c000_01",
+      "dialogue": "…こっちも愚か者でしたか。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "リユガー… ヒヨコ、好き…ヒヨコ…飼う…",
-      "char": "m039_01",
+      "dialogue": "かかってきやがれ、ファイロ！\\ぶちのめしてやるからよ！\\オマエを殺して、俺が《ファイロ》になってやる！",
+      "char": "c007_01",
       "speaker": "same",
-      "before_effect": "go_to_right_point"
+      "pos": "center",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "distance": "near"
     },
     "31": {
       "type": "talk",
-      "dialogue": "え、お、おい…リユガー！",
-      "char": "c000_01",
+      "dialogue": "ふん！\\お前に俺が倒せると思っているのか！！",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "one_ani": "attack"
     },
     "32": {
       "type": "talk",
-      "dialogue": "本当に…持っていきやがった…ヒヨコ…",
-      "char": "keep",
+      "dialogue": "ひとりでもうるさいのに、さらに増えるだなんて…\\頭が痛くなりそうです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "right",
+      "facial": "irritation"
     },
     "33": {
       "type": "talk",
-      "dialogue": "意外な好みがあるのね、リユガーは。",
-      "char": "c001_01",
+      "dialogue": "<b>とりゃあ！</b>",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "34": {
       "type": "talk",
-      "dialogue": "だ、大丈夫かな…",
-      "char": "c000_01",
+      "dialogue": "<b>行くぞっ！</b>",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "35": {
       "type": "talk",
-      "dialogue": "生きたまま食べたり\\丸ごと飲み込んだり…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ゆっくり…見守りましょう。",
-      "char": "c001_01",
+      "dialogue": "人間界には、こういう言葉があります。\\「馬鹿につける薬なし」",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "36": {
+      "type": "talk",
+      "dialogue": "申し訳ありません、御主人様。\\やはり私では力不足のようです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
     "37": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "うりゃっ！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "38": {
       "type": "talk",
-      "dialogue": "ピヨ、ピヨ",
-      "background": "dungeon_bg",
-      "bgm": "14",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "くっ！",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "リユガー…小さくて可愛いもの…好き…",
-      "char": "m039_01",
-      "speaker": "same"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "リユガーが…守る…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

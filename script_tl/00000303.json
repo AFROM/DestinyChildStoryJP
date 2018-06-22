@@ -2,304 +2,383 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "違法ってわけ？",
+      "dialogue": "…ん？\\何かヘンじゃないか？",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "c040_01",
+      "bgm": "4",
+      "char": "c000_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "法の問題じゃないだろ。",
-      "char": "c018_00",
+      "dialogue": "そうだよ！その通り！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "それじゃ、一体何が問題？",
-      "char": "c040_01",
+      "dialogue": "おっ、珍しいな。\\お前が俺の言うことに同意してくれるなんて。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "その考え方が問題だ！\\法にさえ従えば何してもいいっていうのかよ…",
-      "char": "c000_01",
+      "dialogue": "ベー、だ！ダビは同意してるんじゃないよ。\\バカご主人がついに悟ったんだなって\\思っただけだもん！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どんな価値観してるんだよ！",
+      "dialogue": "ダビはいつもヘンだって思ってた…\\モナ姉さまが、どうしてこんなウスラトンカチの\\サポーターになったのかなって…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal",
-      "facial": "confused"
+      "facial": "cry"
     },
     "6": {
       "type": "talk",
-      "dialogue": "悪魔の口から価値観なんて言葉が出てくるとは\\夢にも思わなかった。",
-      "char": "c040_01",
+      "dialogue": "ウスラトンカチ…っておい、いつまで主人を\\そうやってバカにすれば気が済むんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "勝手に言ってろ！\\けどな、これだけは言わせてもらう。\\他でもない自分の契約者を処罰するなんて…",
+      "dialogue": "べー、っだ！こっちはまだアンタがご主人なんて\\認めてないからね！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "はいはい、わかったから…\\そうやってつっかかってくるなよ。\\これ以上悩みを抱えたら俺の繊細な心は保たない…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "8": {
-      "type": "talk",
-      "dialogue": "そりゃあ、契約者のことが気に入らない\\チャイルドなら他にもいるけど\\オマエみたいに殺そうとするヤツは初めてだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
-    },
     "9": {
       "type": "talk",
-      "dialogue": "良くも悪くも、\\オマエは契約者から生まれたチャイルドなんだ。\\どんなに嫌いでも認めるべきだ！",
-      "char": "keep",
+      "dialogue": "あら、大変。\\悩みとは、どのような？",
+      "char": "c029_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "問題なのはそんなことじゃない。\\彼女が誰だろうと、",
-      "char": "c040_01",
+      "dialogue": "最近、近所の人たちの間で\\俺の良くない噂でもちきりみたいなんだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "彼女のせいで人ひとりの人生を\\台無しにしたことは事実。",
+      "dialogue": "このトサカ野郎！\\どうせ悪魔ってのがバレたんでしょ！\\ウスラトンカチはウスラトンカチだ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "いえ。ご主人様はウスラトンカチではありません。\\悪魔だと知られてしまったわけではないと思います。",
+      "char": "c029_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "根拠として…まず、人間が想像する悪魔と\\ご主人様の姿にはギャップがありますし。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "12": {
+    "14": {
       "type": "talk",
-      "dialogue": "それに対する罰は受けて当然。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "全く話が通じないな…\\もういい、オマエの好きにしろ。",
+      "dialogue": "なんだと！？\\こんな立派な悪魔を捕まえて…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "haah"
-    },
-    "14": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "麗花、こんな時間まで一体何をしているの？",
-      "background": "bg043_f",
-      "char": "c040_00",
-      "speaker": "same_full",
-      "pos": "left",
+      "dialogue": "はいはい、ウスラトンカチは黙ってて。\\それよりセレーネの言うとおりだよ！\\ご主人は実際に、一般的な悪魔とは全然違うもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "何よ、今さら。",
-      "char": "c173_00",
-      "speaker": "same_full",
+      "dialogue": "ダビも初めてご主人を見た時は…",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "早く家に帰るように言ったじゃない。",
-      "char": "c040_00",
-      "speaker": "same_full",
-      "pos": "left",
+      "dialogue": "「こんな情けなさそうで不運そうなやつが悪魔？」\\って思ったもん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "母親にでもなったつもり？\\イライラさせないで！",
-      "char": "c173_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あなたって子は…！",
-      "char": "c040_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "うるさいな！\\私の勝手なんだから放っておいてよ！",
-      "char": "c173_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "麗花！まったく…\\どうしたら分かってくれるのかしら…\\あなたもあの子のように…怪我でもしたら…",
-      "char": "c040_00",
-      "speaker": "same_full",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "あなたが心配なだけなのに…",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "…酌量の…余地があれば…\\処罰は…次の機会にしても構わない。",
-      "char": "c040_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "はあ…",
-      "background": "bg043_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ご主人さま？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "うわ！ビックリした！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どうして野良猫みたいに、こっそりシャマシュを\\見てるのかしらぁ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "勝手にしろと言っておいて本当は彼女のことが\\心配なんですねー？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…知ってるならいちいち聞くな。",
+      "dialogue": "どうせ俺は情けなくていつも金に困ってて\\悩みも抱えてますよーだ…\\でもどうしろって言うんだよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sulky"
     },
-    "31": {
+    "19": {
       "type": "talk",
-      "dialogue": "ご主人さまの望み通り何事もなくて、\\よかったですねぇ。",
-      "char": "c001_01",
+      "dialogue": "ええー？ご主人、逆ギレ？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
-      "facial": "pretense"
+      "facial": "smile"
     },
-    "32": {
+    "20": {
       "type": "talk",
-      "dialogue": "オマエは何か起きてほしかったのか？",
+      "dialogue": "うるさい。近所の人たちのヒソヒソ話のせいで\\そうじゃなくても針のむしろなのにさ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "針のむしろ…\\居心地が悪い、と言うことですか？",
+      "char": "c029_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "そうさ。これまで目立たないように近所づきあいも\\無難にこなして静かに生きてきたのに。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "なんとか守ってきた俺の平穏な日常に\\不穏な足音が…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "そんなに思い悩んでいたのですね。\\…わかりました。ならば、わたくしがその不安、\\取り除いて差し上げます。",
+      "char": "c029_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "えっ、ホントに？セレーネは近所の人たちが\\なんて言ってるのか知ってるのか？\\お、教えてくれ…！近所の人たちは俺を見て\\何をヒソヒソ話してるんだ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "それは、今、わたくしから言うよりも\\ご自分で確認したほうが安心できるでしょう。",
+      "char": "c029_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "今晩、外に出てみてください。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "「ご主人様の家の屋根が\\良く見える場所に行くとなお良いでしょう」",
+      "background": "bg050_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "っていうから高い場所に来たけど。\\ここまで来て、何もわからなかったら怒るぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "はいはい、文句はそれぐらいにして♥\\前をご覧になってくださいませ、ご主人さま。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "一体何があるって…ええっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
     "33": {
       "type": "talk",
-      "dialogue": "モナはご主人さまのおせっかいが心配なだけですよ♥",
+      "dialogue": "…",
+      "char": "c029_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "far",
+      "mvd": "ux/efx/efx_awaken_bg.mvd"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "キレイでしょう？キラキラ光って…\\まるで地上に降りてきた月のよう。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "いやいや、もしかして…\\うちの屋根の上で光ってるアレ…\\月じゃなくて…セレーネなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "そうですよぉ～",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
       "facial": "pretense"
     },
-    "34": {
+    "37": {
       "type": "talk",
-      "dialogue": "これはあくまでチャイルドを扱う\\俺独自のやり方なんだ！",
+      "dialogue": "毎晩こんなことを？もしかして…\\この近所を照らす街路灯にでもなろうとしてるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "sulky",
-      "before_effect": "shake"
+      "facial": "confused"
     },
-    "35": {
+    "38": {
       "type": "talk",
-      "dialogue": "本当に面倒なやり方ですねぇ。",
+      "dialogue": "闇の中で誰かを導く月の光になりたい、\\というのがセレーネの思いみたいですよ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "俺の静かに暮らしたいという思いも\\叶えてくれると嬉しかったんだけどな…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "まあ、でも人間の目にはチャイルドの姿は\\見えてませんからね。\\ただ、ご主人さまの家の屋根がぼんやり\\光ってるようにしか見えてないはずなので…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "そのことを噂しているのかもしれないですね～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "まぁ、確かにこれだけ光ってれば\\気になるよなぁ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "「ここが噂のお宅かしら？」\\「そうみたい。キラキラ光ってるのは悪魔かしら？」",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
-      "facial": "sigh"
+      "facial": "pretense",
+      "one_ani": "attack"
     },
-    "36": {
+    "44": {
+      "type": "talk",
+      "dialogue": "やめてくれ…俺は静かに暮らしたいんだ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "45": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

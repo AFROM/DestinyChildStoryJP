@@ -2,225 +2,365 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "コンビニのバイトはただでさえ楽な仕事では\\ないけど、その中でも一番つらいのが\\深夜のシフトだ。",
-      "background": "bg097_f",
-      "bgm": "12",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ご苦労様、アタランテ。",
+      "background": "bg058_f",
+      "bgm": "24",
+      "char": "c200_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "正気でない客たちが一番たくさん来る\\時間帯だからだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ふん、あんたはもうおしまいよ、悪魔め！",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "決闘だ！キャハハッ！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "お前たちさ、人さらいは重罪だぞ？\\犯罪だってこと、自覚してる？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "バイトに決闘を申し込む客なんて、正気なはずない！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それはこっちのセリフ！\\さあ、洗いざらい話してもらいましょうか。",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "お客様、《決闘》という商品は\\うちには置いてませんが。",
+      "dialogue": "それこそ俺のセリフだ。\\眠れる悪魔をつつくなんて、\\どんだけ意地が悪いんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "fury"
     },
     "6": {
       "type": "talk",
-      "dialogue": "じゃあ、オマエの時給の2倍でどうだ！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "あなたが私たちの契約者の\\邪魔をする理由を教えてください。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そんなのは売ってないってば！チャイルド！",
+      "dialogue": "そ、それは……",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
       "facial": "confused"
     },
     "8": {
       "type": "talk",
-      "dialogue": "何だ、オマエもチャイルドか？",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "言えないのを見ると、やっぱりあんたが\\拉致事件の真犯人なんでしょ？",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "どこ見て言ってんだ！悪魔だよ、悪魔。\\俺が誰かも知らないで\\決闘だの何だのってほざいてたのか？",
+      "dialogue": "だから、違うってば！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "10": {
       "type": "talk",
-      "dialogue": "知らん！そんなの！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "あれはただのコソ泥だって！\\ニュースでもやってただろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "悪魔だって？ついてるな！\\悪魔と戦える日を待ち望んでいた！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "見えているものがすべてではありません。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "仕事の邪魔しないでさっさと出てってくれ。\\俺が他の悪魔でも紹介してやろうか？",
+      "dialogue": "お前も知ってるだろ？ 俺はあの女をさらった覚えはない。\\むしろ、あっちから俺を呼んだんだ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "今なにか言ったかしら？",
-      "char": "c001_01",
+      "dialogue": "俺は願いを告げた人間と\\契約をした罪しかないよ。",
+      "char": "keep",
       "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "left",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…いえ、なんでもありません。",
-      "char": "c000_01",
+      "dialogue": "願いを告げた人間……ですか。\\しかし私たちの契約者は願いすら\\聞いてもらえなかった。",
+      "char": "c200_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "新しい悪魔を紹介する？\\その優しさは誰に似たのかしら。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "あなたのその、自分勝手な欲望のために……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "悪魔らしくない♥",
+      "dialogue": "彼らは、悪魔が自分たちの邪魔をしているとも\\知らずに一生懸命事件を追っているんですよ？",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…モナ専用の防犯カメラでもあるのか…",
+      "dialogue": "それは申し訳ないと思ってる。\\でも、俺の存在を明かすことはできなかったんだ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "道に迷ったかわいそうなチャイルドね。\\うちのご主人さまを甘く見ない方がいいわよ。",
-      "char": "c001_01",
+      "dialogue": "なぜです？",
+      "char": "c200_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "このご主人さま、こう見えても魔界から来た\\ファイターなの。",
-      "char": "keep",
+      "dialogue": "人間が悪魔の存在を知って、良い事なんてないから。",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ご主人さまに勝負を挑んだ悪魔はここ数千年で\\五本の指に入るくらいの強者たちよ。",
-      "char": "keep",
+      "dialogue": "それはあなたが決めることではありません。\\真実を知るには、その対価が必要です。",
+      "char": "c200_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "キャハハッ！すげーな！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "知らぬが仏って言葉もあるぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "モナ、今の嘘…うっ！",
-      "char": "c000_01",
+      "dialogue": "知識は力なり、という言葉もあります。",
+      "char": "c200_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "もう、腰の低いご主人さまなんだから～",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "ああ言えばこう言う！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "24": {
       "type": "talk",
-      "dialogue": "悪魔らしくないご主人さまは\\このモナにお任せください。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "アナタがどれだけ邪魔をしても\\彼女たちは自分たちの仕事をやり遂げます。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "久々に素敵な試合を準備しますわ。",
-      "char": "keep",
+      "dialogue": "それは困るよ…… 俺は誠実じゃない悪魔だから……",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "left",
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "うううっ！",
-      "char": "c000_01",
+      "dialogue": "でも、ダメなもんはダメなんだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "いいだろう！俺と戦って勝ったら\\オマエのチャイルドになってやる！\\その代わり俺が勝ったら…",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "不公平ですね。\\ダナの契約者には堂々と姿を見せたくせに。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "勝ったら？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "オマエが俺の悪魔になるんだ！キャハハッ！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…ん？",
+      "dialogue": "それは……あの子が俺に会いたがってたから……",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense"
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あの子は、お前が大嫌いな犯罪者に\\監禁されてたんだぞ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "助けるのは当然だろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "31": {
+      "type": "talk",
+      "dialogue": "私の契約者には協力できない、のに？",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "これが協力だよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "……私の契約者のことを、心配しているのですか？",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "もちろん。何の罪もない人間が\\妙な悪魔のせいで被害を受けちゃいけないだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "正直……おかしいと思いました。\\契約だなんて……\\もっと簡単で確実な方法もあるのに。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "そんなのあるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "始末すればいいのです。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "自分の契約者を殺せとか、よく言えるな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "私があなたなら、そうしたでしょう。\\でもあなたは、しなかった。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "消すなんて、全然俺のやり方じゃないよ。\\かえって後味悪いや。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "……もしかすると、私はあなたを\\誤解していたのかもしれません。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "やっとわかってくれたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "ですが、真実は明らかにすべきです。\\やはりあなたは、憎い邪魔者でしかありません。",
+      "char": "c200_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "ったく、結局そこは変わらないのかよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "45": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

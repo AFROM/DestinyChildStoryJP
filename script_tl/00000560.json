@@ -2,7 +2,7 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "最近変な噂を聞くんだ。\\で、その噂に出てくる張本人に直接確認したいんだけど…",
+      "dialogue": "リユガーにも優しい心があるのかもしれない。",
       "background": "bg086_f",
       "bgm": "9",
       "char": "c000_01",
@@ -11,241 +11,247 @@
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうぞどうぞ、いくらでも。\\ご主人様になら、包み隠さず全てお話しします。",
-      "char": "m077_01",
+      "dialogue": "ご主人さま、少年マンガと現実を\\ごちゃ混ぜにしては困ります。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あのさ…もちろん根拠のない噂だとは思うけど\\はっきりさせた方がいいと思って。",
+      "dialogue": "ちがう！俺なりにリユガーを観察して\\下した結論だ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前が万引きしてるのを見たって言う\\情報があったんだ。",
+      "dialogue": "毎日怒ってばかりで、何かにつけてぶっ壊すだの…\\実際にあれこれ壊したりもしたし。",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そ、そんな…やってません！濡れ衣です！\\本当に…誓ってそんなことは！",
-      "char": "m077_01",
+      "dialogue": "でも、ダビと仲良くしたり\\ヒヨコみたいなのが好きだったり…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "うん、やっぱりそうだよな？\\見間違えたんだ、きっと。",
-      "char": "c000_01",
+      "dialogue": "そういうのを見ると悪いところばかりじゃ\\ない気がするんだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ああ…信じてくれてありがとうございます、\\ご主人様。",
-      "char": "m077_01",
+      "dialogue": "よかったと言うべきですかね？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "いいよいいよ、こんなに素直でイイ奴が万引きなんてするはずない。変なこと聞いてごめんな。",
+      "dialogue": "もちろんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "自分のチャイルドへの情が多いほどいいですが…\\それを上手く使えればいいですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "お前、俺がリユガーと上手くやっていけないと\\思ってるだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ご主人さまの言う通りなら\\リユガーは小さくて可愛いものが\\好きってことだけど…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そ、それは…\\俺が小さくて可愛いって意味じゃなくて…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "sulky"
     },
-    "9": {
+    "13": {
+      "type": "talk",
+      "dialogue": "モナの目にはいつも小さくて可愛いご主人さまだから可能性はなくはないですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ひいっ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "15": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "10": {
-      "type": "talk",
-      "dialogue": "うーん、お腹が空いて眠れないな。\\夜食べるのは体に悪いってリザに怒られそうだけど…",
-      "background": "bg089_f",
-      "bgm": "20",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "内緒で食べちゃえ～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "パクパク、モグモグ…",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "な、何の音だ？まさか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ダビ！またお前か！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…ゴクン。",
-      "char": "m077_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
     "16": {
       "type": "talk",
-      "dialogue": "えっ？",
+      "dialogue": "リ、リユガー…",
+      "background": "bg067_f",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ムシャムシャ…なんだ、お前は？",
-      "char": "m077_01",
+      "dialogue": "<b>殺す！</b>",
+      "char": "m039_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "18": {
       "type": "talk",
-      "dialogue": "も、モア？い、一体何を…",
+      "dialogue": "ぎゃあ！すみません！\\殺さないでくだ…、じゃなくて…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "飯食ってんだから邪魔すんな！",
-      "char": "m077_01",
+      "dialogue": "お、お前にあげたい物があって来たんだ！\\プレゼントだ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "モア…急にどうしたんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "ガルル…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "うるさい！つーか、誰だよお前！",
-      "char": "m077_01",
+      "dialogue": "こ、これ…ヒヨコの…人形…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お前の主人だよ。俺の顔も忘れたのか？\\まさか…あの噂は…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "ヒ…ヨコ…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あ？噂？知るかそんなもん！\\誰が流したか知らねえが、チクったらタダじゃおかねえぞ！",
-      "char": "m077_01",
+      "dialogue": "この前ダビが持ってきたヒヨコは\\ニワトリになって飛んで行っちゃっただろ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "こ、これが…あの素直でイイ奴なのか…？",
-      "char": "c000_01",
+      "dialogue": "お前が愛情込めて育てたのに…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "なんだ。お前、\\「イイ子ぶってるモア」に会ったのか？",
-      "char": "m077_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ガルゥゥ…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "26": {
       "type": "talk",
-      "dialogue": "じゃあ、お前はモアじゃないのか？",
+      "dialogue": "い、いや、お前のせいってわけじゃなくて！\\こ、今回は絶対に逃げない友達を連れて来た\\ってわけで…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "バーカ。俺は「怒りモードのモア」だよ！\\今は俺がこの体の主なんだ！",
-      "char": "m077_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ヒヨコ…人形…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "28": {
       "type": "talk",
-      "dialogue": "…に、二重人格？",
+      "dialogue": "うん、うん…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "pos": "left"
     },
     "29": {
       "type": "talk",
-      "dialogue": "他の奴らは全部ニセモノだ！\\俺がホンモノだっつーの！",
-      "char": "m077_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "かわい…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ガツガツ…つーか、この家の冷蔵庫、何もないな？\\もっと美味いモンたくさん買っとけよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "他の奴ら、って…他にどんだけいるんだよ？",
+      "dialogue": "はあ…よかった…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
+      "facial": "haah"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ヒヨコの…人形…バカ主人から奪う…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "32": {
+      "type": "talk",
+      "dialogue": "え？い、いや、あげるんだってば！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "<b>奪う！</b>",
+      "char": "m039_01",
+      "speaker": "same",
+      "screen_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "助けてくれ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "35": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

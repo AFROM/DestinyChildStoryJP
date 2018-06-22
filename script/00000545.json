@@ -2,175 +2,159 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "やっぱり人間界は退屈だなぁ…\\魔王候補って言っても大したヤツもいないし…",
-      "background": "bg055_f",
-      "bgm": "9",
-      "char": "c051_02",
-      "speaker": "same"
+      "dialogue": "まったく、あのトカゲめ！\\またタオルを汚しやがった！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "confused"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あれ、バシリ。また寝てるのか？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "タオルひとつで何騒いでるの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m052_01",
-      "speaker": "same"
+      "dialogue": "タオルひとつだからってバカにするな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "天気がいいとすぐ寝る癖なんとかしろよ。\\そんなんじゃ、オマエに背中を預けることも\\できない。",
-      "char": "c051_02",
+      "dialogue": "でも、近所のイベントでもらった\\安物じゃないですか～♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m052_01",
-      "speaker": "same"
+      "dialogue": "タダで貰えることなんて、そう滅多にないんだ。\\世の中そんなに甘くない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "返事くらいしろよ。あ、そういやオマエ、\\しゃべれないんだっけ…",
-      "char": "c051_02",
+      "dialogue": "とにかく、もう限界だ！\\今すぐトイレから追い出し…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はあ…リザがいたらこんな細かいことに気を\\使わなくてもいいのに…",
-      "char": "keep",
+      "dialogue": "な～ん～だ～と～！？",
+      "char": "m004_01",
       "speaker": "same",
-      "pos": "right"
+      "before_effect": "enter_from_right_fast"
     },
     "8": {
       "type": "talk",
-      "dialogue": "シャア！",
-      "char": "m052_01",
+      "dialogue": "ト、ト、トカゲさんを…お、おいだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "おい！今俺に向かって攻撃しようとしたのか？\\相手を間違ってるぞ、相手を！",
-      "char": "c051_02",
+      "dialogue": "<b>誰を追い出すってぇぇぇ！？",
+      "char": "m004_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "10": {
       "type": "talk",
-      "dialogue": "シャアアア！",
-      "char": "m052_01",
+      "dialogue": "ひえぇぇぇ！",
+      "char": "c000_01",
       "speaker": "same",
-      "after_effect": "go_to_left_point"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "おい！俺はオマエの主人…どこ行く！\\怒られるのがそんなに嫌なのか？",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "《ピーちゃん》に手を出したら容赦しない！",
+      "char": "m004_01",
+      "speaker": "same"
     },
     "12": {
       "type": "talk",
-      "dialogue": "怒られるようなことをするからいけないんだろ！\\おい！バシリ！戻って来い！",
+      "dialogue": "ズタズタに引き裂いてやる！",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
     "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "申し訳ございませんでした…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "14": {
       "type": "talk",
-      "dialogue": "で…家出をしたと？",
-      "background": "bg077_f",
-      "bgm": "9",
-      "char": "c002_01",
+      "dialogue": "いつもと同じ展開！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m052_01",
+      "dialogue": "もう少し仲良くなる必要があるわね。",
+      "char": "c001_01",
       "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "少し理解しがたいですね。\\私に関する情報なんてフレイ様が愚痴をこぼした\\信憑性のない言葉だけだと思いますが…",
-      "char": "c002_01",
+      "dialogue": "でもでも、悪魔がチャイルドと友達になるのは、\\悪魔らしくないんじゃない？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "まあ…フレイ様の世話をするより\\私のところに来る方が合理的な選択ですが。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "そうね～でもご主人さまには\\それが一番じゃないかしら？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "それに、時期は違えど\\同じ御主人様に仕えたという縁もありますし…",
-      "char": "keep",
+      "dialogue": "命狙われてんだぞ…\\どうやって友達になるんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "何よりもアナタは貴重な戦力ですし、\\御主人様に紹介しましょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "友達になる以外、ご主人さまに\\他の方法はないと思いますが♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "20": {
       "type": "talk",
-      "dialogue": "まったくフレイ様は…実力はあるのに、\\部下を従える器がないのですから…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "《ピーちゃん》に何かしたら、\\いつでもお前を喰ってやる！",
+      "char": "m004_01",
+      "speaker": "same"
     },
     "21": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ほら、聞いたろ！？\\あいつにそんな気なんてサラサラないんだよー！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "《バシリの日記》",
-      "background": "dungeon_bg",
-      "bgm": "24",
-      "char": "m052_01",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "《ついにうるさい野郎から解放された》",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "《リザのところに来たから\\少しは平和になるだろう…》",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "25": {
       "type": "curtain",
-      "background": "back",
+      "background": "keep",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"

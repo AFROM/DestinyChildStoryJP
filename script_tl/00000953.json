@@ -2,10 +2,181 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "チャイルドの成長にはスキルも大事です。\\<color=\"ff9900\"><b>スキルレベルアップ</b></color>を行ってみてください。",
-      "background": "back_dim50",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "はあ、はあ…ううっ…！",
+      "background": "bg203_f",
+      "bgm": "39",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "shake",
+      "voiceid": "200106001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ご主人、グズグズしないで！\\ダビ、クリスマスの妖精が欲しいのー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "after_effect": "shake",
+      "voiceid": "200106002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "御主人様…？それに、ダビまで…\\どうしてここに？\\大人しく待ってなさいと言ったのに…",
+      "char": "c002_01",
+      "speaker": "same",
+      "voiceid": "200106003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あらあら、ご主人さま♥\\そこまでモナと聖夜を過ごしたかったのですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "voiceid": "200106004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "何で、そうなるんだよ…\\ダビが俺の話を聞かずに突っ走るから。\\ところで誰だ、そいつ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "200106005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ルドルフの姿をした…\\何だ、このオーラは…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake_weak",
+      "voiceid": "200106006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そうか、アイツもチャイルドだな？\\とうとうクランプスを見つけたのか！\\ふぅ～、これでやっと家に帰れるな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "voiceid": "200106007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "御主人様、残念ですが彼はクランプスではなく、\\クランプスになりすましたチャイルドです。\\幸いにもあのチャイルドも主人がいませんでした。",
+      "char": "c002_01",
+      "speaker": "same",
+      "voiceid": "200106008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "なりすましだなんて…\\ひどいこと言うねーお姉さんってば。",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200106009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "それじゃ、あのサンタは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200106010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "アハハハハ！",
+      "char": "c299_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "200106011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あいつが本物のサンタなはずないだろ？\\つくづく間抜けだね！",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200106012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "はい、あのサンタは悪魔です♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200106013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "悪魔だとぉ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "200106014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "悪魔だったのか！？",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "200106015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "2人とも、こんな強力なオーラが漂っているのに、\\今まで気づかなかったんですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "voiceid": "200106016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あんな外見で、中身は悪魔なんて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "200106017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "へー、なるほどなるほど。\\ねえ、サンタのお兄さん、助けてくれないかな？\\あの人たち、僕にヒドイことしようとして、\\困ってるんだ。",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200106018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ほお…\\私のルドルフにそんなことをしようとしたのか…？",
+      "char": "c299_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200106019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "お前たち、悪い子だな？\\どれ、悪い子にはお仕置きしなければいかん…！",
+      "char": "c299_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
+      "voiceid": "200106020"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

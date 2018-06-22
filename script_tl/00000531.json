@@ -2,257 +2,313 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "結局、老いぼれの無駄な欲ということか？ハハハ…",
-      "background": "bg029_f",
-      "bgm": "15",
-      "char": "m040_00",
-      "speaker": "same_full"
+      "dialogue": "あら…あの男性、イケメンね。\\きっと…あっちのタイプね…夜になると…",
+      "background": "bg003_f",
+      "bgm": "31",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "2": {
       "type": "talk",
-      "dialogue": "爺さんたちがつく嘘のひとつにこんな言葉がある。",
+      "dialogue": "うお…いきなり何だよ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "《老いたら死ぬしかない》",
-      "char": "keep",
+      "dialogue": "何とはなによっ！\\ああ、きっと夜ごと洗濯機を回すタイプに\\違いないわっ！",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "若造がこの老いぼれに何の用だ？",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "さっきまでイケメンだって\\褒めてたんじゃないのか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "用なんかないよ。ただ気分転換しに来ただけさ。",
-      "char": "c000_01",
+      "dialogue": "人は見かけじゃないわっ！\\私には全て分かるの…あ、あの男！",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうか。\\それじゃあ、この老いぼれはそろそろ帰るとしよう。",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "今度はあの男がどうしたって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "7": {
       "type": "talk",
-      "dialogue": "別に帰らなくても…\\爺さんの方が先に来たんだし。",
-      "char": "c000_01",
+      "dialogue": "きっと他の男がいるに違いないわっ！",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "今時、珍しく親切な若造だな。",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "はぁ？\\男にほかの男って…\\お前って何を言ってるんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ああ、この老いぼれにも\\お前のように若くて親切な友人が一人いた。",
+      "dialogue": "現にほら、女性と腕組んで歩いてるじゃないか。",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "その友達は？",
-      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "10": {
+      "type": "curtain",
+      "background": "bg091_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
     "11": {
-      "type": "talk",
-      "dialogue": "そいつは家を守っている。\\わしが出てくるなと言ったんだ。",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "type": "curtain",
+      "background": "bg018_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "親切な友人がいても…\\一人でいたい時もある。",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "フフッ、ちゃんと見なさい…\\あの女は恐らく妹…",
+      "background": "bg018_f",
+      "char": "c209_01",
+      "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "その友達、一人でかわいそうだな。",
+      "dialogue": "だからって追いかける必要はなかっただろ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そんなはずはない。あぁ…そんなはずはな。",
-      "char": "m040_00",
-      "speaker": "same_full",
+      "dialogue": "腕を組んで歩く兄妹なんていないって言うけど、\\全くいないわけじゃないわ…あっ！ホラ！",
+      "char": "c209_01",
+      "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "この老人はチェインキラーの契約者だ。\\この国ではそれなりに有名な地主らしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "契約者のいう若い友人というのは、\\契約者が養っている後継者のことだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "そういえば…若造。\\わしらは以前、どこかで会わなかったか？",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…そうかな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ボケてきたかのう…気のせいみたいだ。",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "いや、やはりどこかで会っている。そうだろう？\\老いぼれではあるが、そこまで落ちぶれてはおらん。",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "若造、わしはお前を訪ねたことはなかったか？\\わしが…何か頼み事をしたような…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そ、そんなことはない！",
+      "dialogue": "だからそんなはずないだろ。\\さっさと戻って…あっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "24": {
+    "16": {
       "type": "talk",
-      "dialogue": "いや、違う！わしは確かに重要な頼み事をした！\\そうだろう？",
-      "char": "m040_00",
-      "speaker": "same_full",
+      "dialogue": "ホラ！見て！\\女を見送った後、他の男と！",
+      "char": "c209_01",
+      "speaker": "same",
       "pos": "right",
-      "screen_effect": "dialog_shake"
+      "distance": "near",
+      "before_effect": "shake"
     },
-    "25": {
+    "17": {
       "type": "talk",
-      "dialogue": "俺には関係ないことだ。そろそろ行かないと。\\じゃ、じゃあな。",
+      "dialogue": "いや待てよ、友達かもしれないだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "after_effect": "go_to_right_point"
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ハズレ！\\わからない？\\友達同士で同じ香水は使わないでしょ。",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "なんでわかるんだよ、お前…\\それにしてもすごい観察力だな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "まあ…このご時世だから珍しくもないけどね。\\はぁ～…",
+      "background": "bg002_f",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "彼氏？彼女？みんな呪われてしまえっ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そんな横暴な…\\というか、なんでいきなり呪いが出てくるんだよ",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それは私がと～っても怖くて邪悪な…\\魔女だからよっ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "機嫌を直せよ…\\魔女がチャイルドになったからって\\何も変わらないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "待て！若造！\\お前までわしを騙そうと…！",
-      "char": "m040_00",
-      "speaker": "same_full"
+      "dialogue": "そうね、何も変わらないわ。\\乱暴な悪魔や魔女の子孫でもね！\\何も変わりゃしないわよ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "大正解！",
-      "char": "c001_01",
+      "dialogue": "いつまで昔のことを根に持ってるんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "pos": "left",
+      "facial": "serious"
     },
     "28": {
       "type": "talk",
-      "dialogue": "誰じゃ…？お嬢さんもどこかで…\\さっきあの若造と一緒にいただろう？",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "お前、他人の日記帳見て\\書かれてるのが自分のことだと思うタイプだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そうですよ。私たちにとーっても大事な\\頼み事をしたじゃないですか。",
-      "char": "c001_01",
+      "dialogue": "えぇそうよ、ごめんなさいね。\\妄想オタクな上に夢みてるって、毎日怒られてるわ！",
+      "char": "c209_01",
       "speaker": "same",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "頼み事…ああ。思い出したぞ！\\わしの後継者の調査をお願いした。",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "文学少女が夢見る妄想家って当然の事でしょう？\\それがそんなに悪いことなの…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "31": {
       "type": "talk",
-      "dialogue": "おじい様、いえ、お客様に内緒で\\何かを企んでないかの調査でしたよね。",
-      "char": "c001_01",
+      "dialogue": "うん…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "smile"
     },
     "32": {
       "type": "talk",
-      "dialogue": "あ、ああ、そうだったな。\\どうしてそれをすっかり忘れていたのか。",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "夢みて何が悪いのよ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "33": {
       "type": "talk",
-      "dialogue": "一緒に行ってみますか？お客様の依頼を\\もう一度お受けすることも可能ですが…",
-      "char": "c001_01",
+      "dialogue": "感性ってのは、\\廃れちゃいけないものなのよ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "そ、そうだな。行こう。わしの財産を守らねば！",
-      "char": "m040_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "そんな感性の廃れた人たちが\\社会に溢れたらどうなることか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "フフ…あとはご主人さまを説得すればいいだけね。\\ま、契約者が思い出した以上どうにもできないけど。",
-      "char": "c001_01",
+      "dialogue": "はいはい…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "haah"
     },
     "36": {
+      "type": "talk",
+      "dialogue": "ヘカテーは魔女の末裔。\\そのせいか、人間の時とさほど違いはない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "既に悪魔に近い状態だったからではないかと\\思っているが…それが全てではないだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "恐らく、欲望と向かい合って正直に生きてきたのだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "あれこれ口数も多いし、無責任な想像もするが。\\友人としては悪くないと思っている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

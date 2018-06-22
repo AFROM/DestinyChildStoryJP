@@ -2,90 +2,117 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "犬や猫とも契約したわけだから…",
-      "background": "back_dim50",
-      "bgm": "keep",
-      "char": "c000_01",
+      "dialogue": "フレイ様が戻って来たら事情を確認できるのですが、いつ戻ってくるか定かではありません。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "300301001"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108101001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "次は意表を突いて、昆虫と契約してみるか？\\話題騒然間違いなしで、あっという間に、\\俺は魔王に祭り上げられちまうって！\\ははははははっ！…はぁ…",
-      "char": "keep",
+      "dialogue": "さらに言えば戻ってくるかどうかも定かではないと…",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy",
-      "voiceid": "300301002"
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "108101002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ナイスアイディアです、ご主人さま♥\\じゃ～あ、アリの巣に行ってみます？\\それとも蜘蛛の巣にしましょうか？",
-      "char": "c001_01",
+      "dialogue": "そうですね。\\モナ、ネヴァンに襲撃時の話を聞けましたか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense",
-      "voiceid": "300301003"
+      "voiceid": "108101003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お、おいおい、\\モナ。冗談だってば…",
-      "char": "c000_01",
+      "dialogue": "そうねぇ、聞くには聞けたけど…",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair",
-      "voiceid": "300301004"
+      "facial": "sigh",
+      "voiceid": "108101004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "承知済みですので、ご心配なく～♥\\あと、一応までに、蜘蛛は種目上は動物です。",
-      "char": "c001_01",
+      "dialogue": "ネヴァンの話だと《シュッ》として《バン！》となって《避けろ！》と聞こえてから、その後はマニュアル通りの流れだったそうよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "voiceid": "300301005"
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "108101005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "残念ながら、ある程度の知性と感情が無いと、\\意志の疎通が出来ず、契約自体が\\不可能ですので～",
-      "char": "keep",
+      "dialogue": "何だよ、マニュアルって？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "300301006"
+      "pos": "center",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "108101006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "魔王争奪戦の度、奇をてらって昆虫や微生物と\\契約しようとする困ったちゃんが\\出てくるんですけど…",
-      "char": "keep",
+      "dialogue": "《緊急時、各自の判断で最も理想的な逃走路を確保し速やかに離脱する方法》",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense",
-      "voiceid": "300301007"
+      "facial": "idle",
+      "voiceid": "108101007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ご主人さまに限って、モナの知らない所で\\そんなことを企んでいた\\なんて、ありませんよね～？",
+      "dialogue": "フレイ様の性格を見越した上で、私が作りました。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "before_effect": "none",
-      "voiceid": "300301008"
+      "facial": "serious",
+      "voiceid": "108101008"
     },
     "9": {
       "type": "talk",
-      "dialogue": "お、おう！そんな事あるわけねぇって？\\あは、あははは…ははは…",
-      "char": "c000_01",
+      "dialogue": "パニック寸前だったと思うけど、よく無事に脱出できたわね、ネヴァン。\\少し見直しました。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "none",
-      "voiceid": "300301009"
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "108101009"
     },
     "10": {
-      "type": "talk"
+      "type": "talk",
+      "dialogue": "いつかこういう事態になるかもしれないと感じていましたので…",
+      "char": "c048_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "108101010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あの方が守ってくれるなんて思うほど夢見がちではありません。\\自分の命は自分で守ります。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "voiceid": "108101011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "どんだけアイツ、信用ないんだよ…\\でもまあ、自業自得だな。同情する気にはなれん。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "108101012"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

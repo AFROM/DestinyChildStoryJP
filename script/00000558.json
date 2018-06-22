@@ -2,273 +2,250 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "モナ！勝手に人間に会うなって言っただろ？",
+      "dialogue": "<b>バカご主人！殺すよ！</b>",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "bgm": "4",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "怒られてモナは悲しいです。\\ご主人さまの仕事を減らしてあげようと\\思っただけなのに…",
-      "char": "c001_01",
+      "dialogue": "そんなに怒ってほしいのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "angry"
     },
     "3": {
       "type": "talk",
-      "dialogue": "お前さ、毎日主人、主人ばかりで\\俺のやりたいように\\させてくれたことないじゃないか。",
+      "dialogue": "痛っ！またダビの頭にデコピンした！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "お前、殺すなんて言葉、どこで習った？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "4": {
-      "type": "talk",
-      "dialogue": "じゃあ、これからはずーっと、\\ご主人さまがやりたいようにしてください♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "5": {
       "type": "talk",
-      "dialogue": "それも口だけだろ？",
-      "char": "c000_01",
+      "dialogue": "また遅くまで起きて\\大人のドラマを見てたんだろ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら、そんなに信じられないですか？\\なら、これからモナは\\ご主人さまのことに一切関与しません。",
-      "char": "c001_01",
+      "dialogue": "ダビはドラマなんて見ないよ！\\ダビはバカご主人に怒ってるの！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "だから、ご主人さまがやりたいように\\やってくれてかまいません。",
-      "char": "keep",
+      "dialogue": "お前はいつも俺に怒ってばかりだな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "んー…",
-      "char": "c000_01",
+      "dialogue": "これからもっと、もーっと怒るから。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "その代わり！モナがいない一週間で、\\チャイルドを10人集めること！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "じゅ、10人…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "11": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "どう考えてもいいアイディアだ。\\そうだろ？アンプル。",
-      "background": "bg054_f",
-      "bgm": "20",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "果たして…いいアイディアでしょうか？",
-      "char": "m063_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "アンプルの樹液は万病に効く薬だから\\大人気になるはずだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "これで悪魔信者をかき集めて\\平和に契約を結べば万事解決！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そうだろう？モナもここまでは考えなかったはずだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "…悪魔信者なら問題ないかもしれません…",
-      "char": "m063_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "え？副作用のない栄養ドリンク無料体験サービス？\\悪魔様がここで何をしているのですか？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "これ、この契約者にサインさえすれば万病に効く薬\\アンプルの栄養ドリンク無料サービス！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "何だ、タダじゃないのか！\\魂を売って栄養ドリンクを買えって？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "え…で、でも損はしないし…",
+      "dialogue": "はぁ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "22": {
-      "type": "talk",
-      "dialogue": "当然、サインしなきゃ！\\悪魔様のチャイルドになるのは\\名誉なことです！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "おお！本当か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ささ、早く片づけましょうよ！\\ここにサインすればいいんですよね？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "それから栄養ドリンク！この瓶に入っている\\緑色の液体を飲めばいいんですか？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "そうそう。\\なんだかスムーズに行き過ぎな気が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "これなら10人じゃなくて20人は契約できそうだ！\\だろ？アンプル。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "あ、栄養ドリンクとの併用は副作用にご注意ください。",
-      "char": "m063_01",
-      "speaker": "same"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "何だって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "え、もう飲んじゃったけど…",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "そんな…",
-      "char": "m063_01",
-      "speaker": "same"
-    },
-    "32": {
+    "10": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "33": {
+    "11": {
       "type": "talk",
-      "dialogue": "すごいわ、ご主人さま！チャイルドを集めに出て\\被害補償請求書を持ってくるなんて…",
-      "background": "bg086_f",
+      "dialogue": "思春期の女の子ですから。\\一日に何十回も感情の起伏があるのは当然ですよ♥",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "こういう時に必要なのは父親の感性じゃないですか。許してあげてください♥",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "父親に向かって殺してやるなんて言う娘は\\涙が枯れるまで叱らないとダメだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あら、怖い。",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "どうして副作用があるって言わなかったんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "悪魔には特効薬ですが\\人間にとっては致命的な毒なのです。",
-      "char": "m063_01",
-      "speaker": "same",
       "pos": "right"
     },
-    "36": {
+    "15": {
       "type": "talk",
-      "dialogue": "でも悪魔信者は少し紛らわしくて…",
+      "dialogue": "ふん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "バカご主人発見！私のモナ姉さまと\\一緒にいるなんて、許さない！",
+      "bgm": "4",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ご主人を消しちゃおう！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "fury",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "37": {
+    "18": {
       "type": "talk",
-      "dialogue": "そういうのは先に言ってくれ…",
+      "dialogue": "またか？今回は絶対に…え？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "confused"
     },
-    "38": {
+    "19": {
+      "type": "talk",
+      "dialogue": "<b>殺す！</b>",
+      "char": "m039_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うわああああっ！？殺される！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ダビったら、騒がしい子と友達になったのねぇ。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "お、俺…リユガーに何かしたか？\\あ、謝ったら機嫌直るよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ところで…何を謝るんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "怒る！壊す！殺す！",
+      "char": "m039_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ダビ、リユガーに何を教わったか\\モナにだけ教えてくれないかしら？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "うん、リユガーが言ってたよ。\\怒ったら気分が良くなるって。\\怒れないなら怒ればいいんだって！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "何だよ、その論理！\\それじゃ、怒ることもないのに\\わざと怒るってことか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "しかもよりによって俺に怒りをぶつけるのかよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ダビはご主人が嫌いだから！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "リユガー、怒る！壊す！",
+      "char": "m039_01",
+      "speaker": "same"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ダビも怒る！全部壊す！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "壊すのも殺すのも我慢してくれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

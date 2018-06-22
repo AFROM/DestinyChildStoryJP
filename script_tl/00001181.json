@@ -1,0 +1,188 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あれ？モナ～、どこにいるんだ？\\モナ～？",
+      "background": "bg099_f",
+      "bgm": "2",
+      "char": "c000_01",
+      "speaker": "same",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "400301001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "はぁ～い！\\<color=CC66FF>チャンネルEvil</color>の時間がやってまいりました！\\退屈な人生に飽き飽きしている？",
+      "char": "c174_01",
+      "speaker": "same",
+      "distance": "near",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "400301002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そんなあなたに、<color=CC66FF>チャンネルEvil</color>！\\魔王候補生たちの<color=ff9900>ガチンコバトルを生中継</color>でお届け！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "400301003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "参加者にはなんと！\\チャンネルEvilが用意した<color=ff9900>豪華報酬</color>をプレゼント！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "400301004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "司会は！貴方のお耳にお口でサービス♥\\深夜のパートナーA.Iがつとめさせていただきます！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "toonear",
+      "before_effect": "shake",
+      "voiceid": "400301005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "他では見ることのできない\\本当の地獄が見れるのは<color=CC66FF>チャンネルEvil</color>だけ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "400301006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "さぁ～ご注目！\\今日のスーパールーキーは～\\…こちら！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_left_point",
+      "voiceid": "400301007"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "e048_01_f",
+      "fade_out": "shortest",
+      "wait": "normal",
+      "fade_in": "shortest"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "……え？",
+      "background": "e048_01_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "joy",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "400301008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "な、何だ？！",
+      "background": "keep",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "nonsense",
+      "voiceid": "400301009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "それでは、自己紹介をどうぞ！",
+      "background": "bg099_f",
+      "char": "c174_01",
+      "speaker": "same",
+      "one_ani": "attack",
+      "voiceid": "400301010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "え？カメラ？勝手に撮るなって！\\突然何なんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "fury",
+      "before_effect": "shake",
+      "voiceid": "400301011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…それでは、自己紹介をどうぞ！",
+      "char": "c174_01",
+      "voiceid": "400301012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "はっ……？",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "confused",
+      "voiceid": "400301013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "<b>…おい、コラ。</b>",
+      "char": "c174_01",
+      "speaker": "same",
+      "distance": "toonear",
+      "screen_effect": "dark",
+      "voiceid": "400301014"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "はいっ！なんですか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "screen_effect": "dark",
+      "voiceid": "400301015"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>カメラ</color>回ってるつーの！コイツは！！\\<color=ff9900>全世界</color>を相手に放送事故を起こすつもりかっ！",
+      "char": "c174_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "voiceid": "400301016"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ゴホンッ！魔王候補生たちの命をかけた悪の祭典！\\それではどうぞ、お楽しみ下さ～い！！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "normal",
+      "voiceid": "400301017"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>魔王候補生たちのガチンコバトルを生中継</color>だって…？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "400301018"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ものすごく厄介なことに巻き込まれたみたいだ。\\…一応、言われた通りにやってみるか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "voiceid": "400301019"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

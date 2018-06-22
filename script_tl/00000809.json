@@ -2,196 +2,475 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…おい、ピクシー。\\これはどういう状況なんだ？",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same"
+      "dialogue": "さあ、魔王ダビのかわいい部下たちよ！",
+      "background": "bg006_f",
+      "bgm": "4",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "facial": "joy"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何って～？\\ちょっと遊んでただけだよ～？",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "enter_from_right_fast"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ちょっと？\\これだけ散らかしといてよく言えるな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "…",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "enter_from_left_fast"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ほんとにちょっとだけだもん！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ところで、今何時かしら？",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "嘘つけ！\\散らかそうと思っても、\\ここまで散らかせないだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "dialogue": "午前11時です…",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "全く、イタズラばっかりして…\\ここでは遊ぶなって、いつも言ってるだろ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "fury"
+      "dialogue": "ゴホン！それでは、これより…",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ふああああ～ん！\\お兄ちゃんが怒ったー！！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "dialogue": "第1回魔王《午前会議》を始める！",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "8": {
       "type": "talk",
-      "dialogue": "はあ…俺には子育てなんて無理だ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "ご、《午前会議》…？\\御前会議と間違えてるのかな…？",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…この部屋の惨状は何ですか？",
-      "char": "c002_01",
-      "speaker": "same",
+      "dialogue": "会議って何なの～！\\せっかくの休日なのに、ゲームができなくなっちゃうよ～！",
+      "char": "c205_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "irritation",
-      "before_effect": "enter_from_right_fast"
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "リザ！\\怒る前に俺の話を聞いてくれ！\\これはピクシーの仕業で…",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "フッフッフッ、愚かなる人間どもよ！\\お前達がどれだけの権力を手に入れたのか教えてあげるわ！",
+      "char": "c367_01",
+      "speaker": "same_full",
       "pos": "left",
-      "facial": "cry",
-      "before_effect": "shake"
+      "facial": "joy"
     },
     "11": {
       "type": "talk",
-      "dialogue": "洋服はすべて床に散らかされ、\\壁には落書きがいっぱいですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "権力？",
+      "char": "c139_00",
+      "speaker": "same_full"
     },
     "12": {
       "type": "talk",
-      "dialogue": "その上カーテンは引き裂かれ、本は破かれ…\\これをピクシーがひとりでやったと？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "その1！\\リザの背中にいつでも乗り放題。",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あの小さなチャイルドに、\\本当にそんなことができると思っているのですか？\\嘘をつくにしても、もう少しまともな嘘を\\ついてはいかがです？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "リ、リザ…？それって、誰？\\知らない人の背中に乗り放題って言われても…",
+      "char": "c139_00",
+      "speaker": "same_full"
     },
     "14": {
       "type": "talk",
-      "dialogue": "嘘じゃないって！\\ピクシーからも言ってくれ。\\早くほんとのことを話さないと\\リザに誤解されるだろ！",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "くっ…\\人間にはこの喜びが理解できないの…？！",
+      "char": "c367_01",
+      "speaker": "same_full",
       "pos": "left",
-      "facial": "cry"
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ふえええ～ん！\\また怒った！お兄ちゃんが怖いよー！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "dialogue": "では、その2！\\愚かなトサカ野郎の冷蔵庫から勝手にバナナミルクが飲み放題！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "お、おい。\\ここで泣かれたら…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "dialogue": "そ、それだけ…？\\魔王の部下って言ったら、もっともっとスゴイことできるんじゃないの？",
+      "char": "c139_00",
+      "speaker": "same_full"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ピクシーに罪を押し付けるだけでは飽き足らず、\\脅すとは…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "どんな扉でも開けちゃう魔王の鍵とか、魔王の呪いで何でも斬れる剣とかさ！\\グリフォンみたいな強そうなモンスターとかくれないの！？",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "18": {
       "type": "talk",
-      "dialogue": "恥ずかしくないのですか？\\御主人様。",
+      "dialogue": "…",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "フッフッフッ！\\かわいい部下たちよ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "これより第1回魔王《午後会議》を始める！",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "最初に戻った…いえ違う《午後会議》？\\まさか、午前と午後の2部制だったなんて。\\私、早とちりしちゃったみたい…",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "after_effect": "shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "しほちゃん…\\1回目の掛け声からまだ5分もたってないよ？",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "今回の会議のテーマはこれよ！\\《絶対、恐怖の魔王になれる計画》！\\これがスゴいのよ。",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "恐ろしすぎて気絶しても知らないからね？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ど、どんな計画なの…？",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "愚かなトサカ野郎がバイトしてるコンビニを占領し、お菓子コーナーを独占するの！\\ダビたち以外、誰も入れないように…\\そうすればお菓子が食べ放題よ！",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ど、どうして、そんな酷いことするの…？",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "お～ほっほっほっ！\\酷いことするのが悪魔なんだから、当然でしょう？\\その究極の姿が魔王なのよ！\\これこそ、魔王ダビの振舞いに相応しいでしょう？",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "お菓子が食べれず、絶望する子供達…\\そこに、甘いお菓子を餌に、契約させるのよ！！\\なんて完璧な計画！フッフッフッ…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "う～ん…でもさ普通ゲームだと、魔王が住んでる世界にコンビニなんてないんじゃないの？",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…っ！",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "それに…魔王ってお菓子を食べるのかな～？",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ま、ま、魔王がお菓子を食べて何がおかしいの！？\\魔王だっておいしい物なら何でも食べるわよ！",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "い、いいわ！それじゃ…計画その2！\\これはホントにスゴいわよ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "《絶対、恐怖の魔王になれる計画パート2》！！\\テレビ局を占拠して《わくわく！どうぶつフレンズ》の放送中に《Devil'sキッチン》を放送するのよ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "どう？！酷くない？！\\かわいい動物番組を楽しみにしていた全国のフレンズ達が、オリーブオイルに塗れて料理される動物を目撃して、テレビの前でガン泣きするのよ！？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "料理…番…組…",
+      "char": "c139_00",
+      "speaker": "same_full"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ちがう…こんなの絶対ちがう…",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ダビって本気で魔王になりたいの？\\僕はそんなことして魔王になれるなんて話、聞いたこともないよ…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "本気で魔王になるつもりなら、訳もなく魔法で街1つ壊滅させるとか、いきなりお姫様をさらって塔の中に閉じ込めちゃうとか…そういうことするもんじゃ…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "作戦決定ね！決まったからには即出撃よ！\\目標は《チャンネルEvil》よ！",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "はいはい、ダビは僕の話、全然きかないよね！\\じゃ、ゲームやるから帰るね…",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "私を置いてっちゃうの？1人じゃ絶対に嫌…！",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "うえ～～～ん！！\\本物の魔王を倒すゲームがやりたいのに～！",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "46": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "休憩しま～す。",
+      "background": "bg100_f",
+      "bgm": "29",
+      "char": "c174_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "あれ…？\\どこかで会ったような…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "19": {
+    "49": {
       "type": "talk",
-      "dialogue": "だから、誤解です…",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "おい、チャンネルEvilのリポーター！\\おとなしく魔王ダビの捕虜になりなさい！",
+      "char": "c367_01",
+      "speaker": "same_full",
       "pos": "left",
-      "facial": "nonsense"
+      "before_effect": "enter_from_left_fast"
     },
-    "20": {
+    "50": {
       "type": "talk",
-      "dialogue": "教育的指導です。\\こっちに来てください。\\その根性を叩き直して差し上げます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "dialogue": "ホ、ホントにやっちゃった！？",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "before_effect": "enter_from_left_fast"
     },
-    "21": {
+    "51": {
       "type": "talk",
-      "dialogue": "違うって言ってるだろ～！",
-      "char": "c000_01",
+      "dialogue": "うわわわわ…",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "before_effect": "enter_from_left_fast"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "おや…？\\ここは子供の見学コースじゃなかったはずだけど…\\はぁ…その上、魔王ごっこですか…",
+      "char": "c174_02",
       "speaker": "same",
+      "pos": "right"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "魔王ごっこじゃないわ！\\あなたを拉致して《わくわく！どうぶつフレンズ》の放送中に《Devil'sキッチン》を放送するんだから！",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "distance": "near",
+      "facial": "idle"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "それなら私を拉致しても意味ないと思いますけど…\\チャンネルEvilはケーブルで《わくわく！どうぶつフレンズ》は地上波ですよ～？",
+      "char": "c174_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "ケーブル…？\\地上波…？\\何を言ってるの！？",
+      "char": "c367_01",
+      "speaker": "same_full",
       "pos": "left",
-      "facial": "unfair",
-      "after_effect": "go_to_right_point"
+      "before_effect": "shake"
     },
-    "22": {
+    "56": {
       "type": "talk",
-      "dialogue": "ふああああ～ん！",
-      "char": "c272_01",
+      "dialogue": "そもそも放送局がちがうってことですよ～",
+      "char": "c174_02",
       "speaker": "same",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
-    "23": {
+    "57": {
       "type": "talk",
-      "dialogue": "あ、あれ？お兄ちゃん？\\私をおいて遊びに行っちゃったの？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "何で誰もいないの？\\お兄ちゃ～ん！ピクシーも連れて行ってよー！",
+      "dialogue": "それに～私みたいなリポーターがいなくても放送が止まったり番組が差し替えられたりすることなんて、ありえませんからね？",
       "char": "keep",
       "speaker": "same",
-      "after_effect": "go_to_right_point"
+      "pos": "right"
     },
-    "25": {
-      "type": "curtain",
-      "background": "back",
-      "wait": "normal",
-      "fade_in": "normal"
+    "58": {
+      "type": "talk",
+      "dialogue": "なん…ですって…",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "shake"
     },
-    "26": {
+    "59": {
+      "type": "talk",
+      "dialogue": "やっぱり…\\ダメそうだね…",
+      "char": "c139_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "もう帰ろうよ～",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "うふふ、カワイイいたずらっ子ですね～\\さあ、せっかくチャンネルEvilに来たんだから、記念にお菓子をどうぞ～！",
+      "char": "c174_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "コラー！子供がこんなところで何をしている！？",
+      "char": "none",
+      "speaker": "staff",
+      "screen_effect": "shake"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "撤退！！\\魔王軍、お菓子もらって撤退！",
+      "char": "c367_01",
+      "speaker": "same_full",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "64": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

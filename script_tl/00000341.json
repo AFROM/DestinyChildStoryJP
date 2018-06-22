@@ -2,298 +2,298 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "……",
-      "background": "bg093_f",
-      "bgm": "24",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "gray"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "ニルティ様、\\これで本当に…お別れです。",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "gray"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "別れ…",
-      "char": "c058_00",
-      "speaker": "same",
-      "screen_effect": "gray"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "今生では、もうお会いすることはないでしょう。\\それでは…また、来世で。",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "gray"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ニルティ様の旅立ちに立ち会うことができ、\\光栄でした。",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "gray"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "光栄…か。",
-      "char": "c058_00",
-      "speaker": "same",
-      "screen_effect": "gray"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "これを光栄なことと言えるのかはわからぬが…な。",
-      "char": "keep",
-      "speaker": "same",
-      "screen_effect": "gray"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "《高潔たるその御霊は揺らぎなく、息遣いは\\消えゆく…》",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "gray"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "《争いは終わり、平穏の中で…炎が消えるように…\\聖者の心は…》",
-      "char": "c058_00",
-      "speaker": "same",
-      "screen_effect": "gray"
-    },
-    "10": {
-      "type": "curtain",
-      "fade_out": "normal",
-      "wait": "shortest",
-      "fade_in": "normal"
-    },
-    "11": {
-      "type": "curtain",
-      "fade_out": "longer",
-      "wait": "shortest",
-      "fade_in": "normal"
-    },
-    "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "wait": "shorter",
-      "fade_in": "longer"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ニルティ！",
-      "background": "bg129_f",
+      "dialogue": "ちょっとだけでいいから！",
+      "background": "bg086_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
+      "facial": "sulky",
+      "after_effect": "shake_weak",
+      "pos": "left"
     },
-    "14": {
+    "2": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c058_01",
+      "dialogue": "だーめー。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "angry",
+      "before_effect": "shake_weak"
     },
-    "15": {
+    "3": {
       "type": "talk",
-      "dialogue": "お前、これはやりすぎだろ！",
+      "dialogue": "このケチ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry",
+      "before_effect": "shake_weak"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "フーンだ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "facial": "fury"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "良心のかけらもないヤツだな！\\今まで俺がどんだけ食わせてやったと\\思ってるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あーあー、聞こえなーい。\\ダビは何にも聞こえないもーん。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "何ですか？\\きみの部屋から、何やら美味しそうな匂いがします。",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "パンテオン！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "16": {
+    "9": {
       "type": "talk",
-      "dialogue": "やりすぎとは…\\何がだ？",
-      "char": "c058_01",
+      "dialogue": "あげないよ！全部ダビのなんだから！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "17": {
+    "10": {
       "type": "talk",
-      "dialogue": "はぁ…しらばっくれるな。\\これを見ろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "全部ぶっ壊してどうする！？\\こんなに騒いだら、他の奴らに襲われるだろ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "よいか、小僧。\\<color=ff9900>破壊は誕生に結び付く道。</color>\\永遠など、どこにもない。",
-      "char": "c058_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "すべては生まれ、作られ、そして壊れる。\\壊れぬものは、理の外にあるのだと知れ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "だからって、全部壊しちゃ駄目だろう…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "「小さき善が積もり、大きな器を満たすように…」",
-      "char": "c058_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "「小さき悪をないがしろにし、罪がないと言うべからず」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "なんだそりゃ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "25": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "あら～ご主人さまじゃないですか♥\\ニルティとお話してたのでは？\\それとも手合わせだったのかしら～？",
-      "background": "bg116_f",
-      "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ほっとけよ…",
+      "dialogue": "お前な…これを全部ひとりで食うってのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "だって、ひとり1羽ずつって、\\モナ姉さまも言ってたもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "アイツはまた余計なことを…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "モナ姉さまが大事に集めたクーポンで\\注文したフライドチキンなんだから！\\ナマケモノたちには絶対にあげないもんねー。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "モナのやつ、いつの間にクーポンなんて集めたんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "あら、フライドチキン？\\ワタシ、大好物なんだよね。",
+      "char": "c020_01",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "んもーっ！\\なんでみんな寄ってくるの！？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あ、じゃあこれならどう？\\サイコロを振って、幸運の数字が出た人だけが\\食べられるの！",
+      "char": "c020_01",
+      "speaker": "same"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ダビひとりで食べるんだってば！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "食べられるわけないだろ。\\フォルトゥナのサイコロは、7しか出ないんだから！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "何言ってるの？\\ワタシのサイコロは至って普通よ。\\ね、パンテオン？",
+      "char": "c020_01",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "さあさあ、チキンが冷めないうちに\\さっさとサイコロを振るわよ！",
+      "char": "c020_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "フォルトゥナがサイコロを床に転がした。\\投げられたサイコロは、パンテオンの足元で止まる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "さぁ、パンテオンの数字は何かしら？",
+      "char": "c020_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "出たってどうせ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ラッキーセブンでーす！",
+      "char": "c020_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "…やっぱり、7しか出ない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "28": {
       "type": "talk",
-      "dialogue": "うふふ♥だから、申し上げたんですよ～？\\ニルティは一筋縄じゃいかないって♥",
-      "char": "c001_01",
+      "dialogue": "あの…急に具合が…\\ぼくはこの辺で失礼します。",
+      "char": "c044_01",
       "speaker": "same",
       "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "モナのおススメは～\\そのまま涅槃にお送りすること、だったのに♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "あら…？\\こんなチャンスを逃しちゃっていいの？",
+      "char": "c020_01",
+      "speaker": "same"
     },
     "30": {
       "type": "talk",
-      "dialogue": "死にそうな人を放っておけないだろ！",
-      "char": "c000_01",
+      "dialogue": "全然いいよ！早く行っちゃえー！戻ってくんなー！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "right",
+      "facial": "smile"
     },
     "31": {
       "type": "talk",
-      "dialogue": "それ、れっきとした犯罪だからな！",
-      "char": "keep",
+      "dialogue": "まあ…ライバルがひとり減るし俺は構わないけど。\\でも、本当にいいのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "あらあら。\\山奥で、死に装束を着て横たわるやせ細った女性…\\そんな人が、まともだと思います～？",
-      "char": "c001_01",
+      "dialogue": "大丈夫です。",
+      "char": "c044_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "33": {
       "type": "talk",
-      "dialogue": "明らかに<color=ff9900>《祓魔師》</color>です。\\それも、とても強い力を持った、ね。",
-      "char": "keep",
+      "dialogue": "そうか…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "34": {
       "type": "talk",
-      "dialogue": "もちろん、完璧にご自分のチャイルドにできるなら…とっても心強いでしょうけど♥",
-      "char": "keep",
+      "dialogue": "あらら、本当に行っちゃった。\\パンテオンの運を試す、いいチャンスだったのに…",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center"
     },
     "35": {
       "type": "talk",
-      "dialogue": "でも、ご主人さまの手には余りますよね？\\どうします～？",
+      "dialogue": "恥ずかしがり屋なのかしら。\\ワタシを見るとすぐ逃げちゃうのよね。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
     "36": {
       "type": "talk",
-      "dialogue": "どうするって…",
+      "dialogue": "そうなのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "37": {
       "type": "talk",
-      "dialogue": "魔力を回収して契約を打ち切りますか？\\そうですね～…どうせなら、\\今後のためにも契約者はまた山奥に…",
-      "char": "c001_01",
+      "dialogue": "そうよ。\\前にもサイコロ占いをしてあげたんだけど、\\それ以来あんな感じ。\\結果が気に入らなかったのかしら？",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center"
     },
     "38": {
       "type": "talk",
-      "dialogue": "駄目だって！それはできない！",
+      "dialogue": "その結果って…\\当然ラッキーセブン、だよな？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "left"
     },
     "39": {
       "type": "talk",
-      "dialogue": "絶対説得して、戦力にしてみせるから！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "当然って…\\ワタシのサイコロは誰にでも平等なだけよ。\\まあ、実際ラッキーセブンはパンテオン本人の\\運なんだけどね。",
+      "char": "c020_01",
+      "speaker": "same"
     },
     "40": {
       "type": "talk",
-      "dialogue": "うふふ、ご主人さまったら♥\\時々ああして、いばらの道を選ぶんだから～\\…もう♥",
-      "char": "c001_01",
+      "dialogue": "怠け者の悲観主義者には、嬉しくなかったのかもな…",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "tempt"
+      "pos": "left",
+      "facial": "sigh"
     },
     "41": {
       "type": "curtain",

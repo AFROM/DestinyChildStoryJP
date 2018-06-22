@@ -2,320 +2,153 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よ、マルス。\\チャイルドとしての暮らしはどうだ？",
+      "dialogue": "やはり、あの補欠とは相性が合わん！",
       "background": "bg175_f",
-      "bgm": "20",
-      "char": "c000_01",
-      "speaker": "same"
+      "bgm": "18",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "108504001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "やだ、変な奴がいる…\\何ひとりでブツブツ言ってるのかしら…？",
-      "char": "c005_01",
+      "dialogue": "が、イブと事を構えるのは得策じゃない。\\それに、補欠自身はともかく、あいつが連れている\\チャイルドどもは決して侮れないしな…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "voiceid": "108504002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "お前に話しかけてるんですけど！？",
-      "char": "c000_01",
+      "dialogue": "しかし…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "center",
+      "voiceid": "108504003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ええ？アンタ、アタシに話しかけてたの？",
-      "char": "c005_01",
+      "dialogue": "爬虫類と契約するのは初めてだったが、思ったより出来が良さそうなチャイルドが生まれたな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "voiceid": "108504004"
     },
     "5": {
       "type": "talk",
-      "dialogue": "な、なんか問題でもあるのか？",
-      "char": "c000_01",
+      "dialogue": "お前がちゃんとチャイルドらしくしていれば、例の悪魔はお前を狙うはずだ。\\せいぜい俺の役に立て。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "voiceid": "108504005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "問題があるかって？当然でしょ！\\アタシに話しかけるなら、\\ちゃんとした手続きを踏んできなさいよ！",
-      "char": "c005_01",
+      "dialogue": "シャーッ…！",
+      "char": "m052_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "center",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "loop_ani": "attack",
+      "voiceid": "108504006"
     },
     "7": {
       "type": "talk",
-      "dialogue": "こいつ、俺のことバカにしてるだろ！？",
-      "char": "c000_01",
+      "dialogue": "ってて、噛み付くな！\\ちっ…さてはこいつ、メスだな！",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "voiceid": "108504007"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そのようですね。",
-      "char": "c002_01",
+      "dialogue": "最近なぜか女どもが俺に荒っぽいし、間違いないっ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
+      "pos": "right",
+      "voiceid": "108504008"
     },
     "9": {
       "type": "talk",
-      "dialogue": "はぁ…サキュバスも苦労してるのね。\\こんな情けない悪魔の面倒を\\見なきゃならないなんて。",
-      "char": "c005_01",
+      "dialogue": "スーパールーキーだか何だか知らないが、このフレイにケンカを売ったこと、後悔させてやるぞ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108504009"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ありがとうございます。\\貴方のように理解してくださる方がいるだけで\\これからも耐えられそうな気がします。",
-      "char": "c002_01",
+      "dialogue": "誰の手助けもいらん、俺ひとりで片づけてやる…！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "voiceid": "108504010"
     },
     "11": {
       "type": "talk",
-      "dialogue": "言葉の暴力は恐ろしいな…\\何気ないやりとりだってのに\\心も体もボロボロだ…",
-      "char": "c000_01",
+      "dialogue": "シャーッ！",
+      "char": "m052_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "center",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "loop_ani": "attack",
+      "voiceid": "108504011"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ねえ、聞いてもいいかしら？",
-      "char": "c005_01",
+      "dialogue": "ってて、だから噛みつくなっ！",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108504012"
     },
     "13": {
       "type": "talk",
-      "dialogue": "アタシの契約者は、\\なんだってこんなのと契約したの？",
+      "dialogue": "それにしてもネヴァンの奴、囮になるのをあんなに嫌がるとは…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108504013"
     },
     "14": {
       "type": "talk",
-      "dialogue": "特に強くもないし、頭もよくない。\\一目惚れするほどのイケメンならまだわかるけど、\\そういうわけでもないし。",
+      "dialogue": "俺が隣で見張ってて、例の悪魔が現れたらぶっ倒す。それで済む話だろうが！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "voiceid": "108504014"
     },
     "15": {
       "type": "talk",
-      "dialogue": "それは…運が良かった、と言いますか。",
-      "char": "c002_01",
+      "dialogue": "ふん、ま、どうでもいい。\\今回はこのトカゲのチャイルドと組むことに決めたからな！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "voiceid": "108504015"
     },
     "16": {
       "type": "talk",
-      "dialogue": "運ねぇ…ま、あの子が住んでるマンションで\\ポスティングのバイトをしてなきゃ\\会うこともなかったわね。",
-      "char": "c005_01",
+      "dialogue": "シャア！！",
+      "char": "m052_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "loop_ani": "attack",
+      "voiceid": "108504016"
     },
     "17": {
       "type": "talk",
-      "dialogue": "良かったわね、アンタ。\\運だけはいいみたいよ。",
-      "char": "keep",
+      "dialogue": "いっでぇーーーっ！！",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "before_effect": "shake",
+      "voiceid": "108504017"
     },
     "18": {
-      "type": "talk",
-      "dialogue": "そうでもないと思います。\\宝くじでは、せいぜい300円当たる程度の\\運の良さですし。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "それはちょっと言い方悪くないか？\\マルスに出会ったのが300円の\\価値しかないみたいに聞こえるだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "いえ、むしろ…あの日、御主人様の1年分の\\運を使い果たしたのではないでしょうか。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ばっ…冗談にしてはタチが悪いぞ！\\ご主人様の怖さを見せてやろうか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "あら？そういうこと言うんだ？\\ちょうどいいわ、かかってきなさいよ。\\どっちが強いか、はっきりさせてあげる。",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "じゅ、銃はしまえって…！\\銃刀法違反で捕まりたいのか…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "何故でしょう…理性は止めようとしているのに\\放置してしまいたい気もします…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "あらぁ？何してるの、リザ？\\もしかしてぇ、この世で一番楽しい、\\ケンカの見物～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_slow"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "うふふっ♥リザのこと見直しちゃったわ。\\こういうのは嫌いだと思ったのに♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "い、今、止めようとしていたところです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "shy"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "駄目よ？こういうのは独り占めしないで、\\みんなに知らせないと♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "…誤解です。\\いえ、少し考え込んではいましたが…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "わ、わかったよ…お前らがそこまで言うなら…\\よし！マルスかかって来い！相手になってやるから！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ご主人さま♥下剋上に付き合うのもいいですけど～\\中途半端に構うと、痛い目に遭いますよぉ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "余計なお世話だ！\\…ったく、うるさいのが集まってきたなぁ…\\ああもう、仕方ない…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "go_to_right_jump"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "あれ？なんだ、マルスの奴…\\急に大人しくになったぞ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "どうした、マルス？\\遠慮なんかいいから、かかってこいって。\\あ、かかってくる前に3秒くれ。まだ心の準備が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…考えてみたら、アンタみたいな、\\つまらない悪魔と戦ったって\\アタシに何のメリットもないわ。",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "やめた！勝手にすれば？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ふう…助かった。\\下手したらサキュバスたちの前で、\\みじめな姿を晒すところだった…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "あらあら、残念。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "モナ自ら、ボコボコにされたご主人さまを\\手当てしてあげようと思ったのに♥\\なーんて、ふふ、冗談ですよぉ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "あのモナってサキュバスは苦手かも…\\もしかすると、この中で最強なんじゃない…？",
-      "background": "dungeon_bg",
-      "char": "c005_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

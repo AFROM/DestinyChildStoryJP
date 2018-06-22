@@ -2,222 +2,533 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "見てしまった！\\ご主人様が猫の妖怪に拉致されるのを…",
-      "background": "bg182_f",
-      "bgm": "18",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "200202022"
+      "dialogue": "部下の管理もまともにできんのか！！\\喧嘩も止められんとは、それでも貴様、小隊長か！",
+      "background": "bg115_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "COMMANDER",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうしよう！どうする？\\ひょっとするとこれって大チャンス！？\\このまま放っとけばモナ姉さまはダビのものになるってことだよね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy",
-      "voiceid": "200202023"
+      "dialogue": "申し訳ありません！全ては私の責任です！",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "こんなに突然…\\まだ心の準備ができてないのに♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory",
-      "voiceid": "200202024"
+      "dialogue": "当たり前だ！まったく…\\お前がそんな無能だとは思わなかったぞ！\\躾もろくにできんのか？",
+      "char": "none",
+      "speaker": "COMMANDER"
     },
     "4": {
       "type": "talk",
-      "dialogue": "誰にでも初めてはあるものさ、準備もいいけど、決心が重要だろ？",
-      "bgm": "25",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast",
-      "voiceid": "200202025"
+      "dialogue": "父親の顔に泥を塗るような真似は慎め！！",
+      "char": "none",
+      "speaker": "COMMANDER"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そ、そうよね！\\まずは、モナ姉さまとの愛の巣を探すところから始めないと…♥",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory",
-      "voiceid": "200202026"
+      "dialogue": "くっ…",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…って、だ、誰っ！？ダビの秘密の話を盗み聞きするなんて！",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "中隊長、外まで声が聞こえているわよ。",
+      "char": "m056_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "idle",
-      "before_effect": "shake_weak",
-      "after_effect": "none",
-      "screen_effect": "dialog_shake",
-      "voiceid": "200202027"
+      "before_effect": "enter_from_right_slow"
     },
     "7": {
       "type": "talk",
-      "dialogue": "君は、大声で秘密の話をベラベラと喋ってしまうんだね。少し不用心じゃないかい？",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202028"
+      "dialogue": "こ、これは、真生田(まにゅうだ)議員！\\ようこそおいでくださいました。",
+      "char": "none",
+      "speaker": "COMMANDER",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そんなことより、さっき《猫の妖怪》って言ってた\\ね？君の主人を拉致したって。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202029"
+      "dialogue": "近くまで来たから。\\それに少し聞きたい事があってね。",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そ、それがどうしたの？\\たぶんご主人、今ごろひっどい拷問を受けてるよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200202030"
+      "dialogue": "そ、そうですか…\\さぁ、お座りください。",
+      "char": "none",
+      "speaker": "COMMANDER"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ふむ、拷問か。\\試しに聞くけど《ひっどい拷問》って、どんな感じの拷問？",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202031"
+      "dialogue": "ところで議員…\\例の計画の進捗はいかがですか？",
+      "char": "none",
+      "speaker": "COMMANDER"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そ、それはもちろん、全身をがんじがらめに\\縛られて…",
-      "char": "c003_01",
-      "speaker": "same",
+      "dialogue": "中隊長…",
+      "char": "m056_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "sulky",
-      "voiceid": "200202032"
+      "facial": "sigh"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ふんふん？",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202033"
+      "dialogue": "はい…？",
+      "char": "none",
+      "speaker": "COMMANDER"
     },
     "13": {
       "type": "talk",
-      "dialogue": "脇腹をコチョコチョくすぐられること！\\あれ、本当にこの世の地獄なんだから！",
-      "bgm": "9",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation",
-      "voiceid": "200202034"
+      "dialogue": "…",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "モナ姉さまだって、ダビが言うこと聞かないと、たまにやるんだよ！も～あれは本当に腹わたがよじれて、死にそうになるし！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "voiceid": "200202035"
+      "dialogue": "…\\……！！",
+      "char": "none",
+      "speaker": "COMMANDER"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ハッハッハッハッ！\\なるほど。確かにそれは《ひっどい拷問》だ。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202036"
+      "dialogue": "追って処分を言い渡す！\\さっさと出ていけ！！",
+      "char": "none",
+      "speaker": "COMMANDER",
+      "screen_effect": "dialog_shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ところでその《モナ姉さま》だけど、君のご主人様が誘拐されたと知ったらどうするかな？",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "ハッ！",
+      "char": "c014_00",
+      "speaker": "same_full",
       "pos": "left",
-      "voiceid": "200202037"
+      "before_effect": "shake"
     },
     "17": {
-      "type": "talk",
-      "dialogue": "まあ、心配ぐらいはするんじゃない？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "voiceid": "200202038"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そうだよね？\\ご主人様を救うために必死で奔走し、その挙げ句に捕まってしまったとしよう…",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202039"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "そして、《モナ姉さま》は猫の妖怪にがんじがらめに縛られて、脇腹をくすぐられて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202040"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "え、えええっ…！？モ、モナ姉さまに、そんなピンチが訪れちゃうの…！？",
-      "char": "c003_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "cry",
-      "one_ani": "attack",
-      "voiceid": "200202041"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "そ、それはダメっ！それだけはダメ～っ！！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "cry",
-      "voiceid": "200202042",
-      "screen_effect": "dialog_shake"
-    },
-    "22": {
       "type": "curtain",
       "background": "back",
-      "bgm": "25",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "23": {
+    "18": {
       "type": "talk",
-      "dialogue": "脇腹をくすぐられる程度が拷問だって…？\\まったく、ふざけたサポーターもいたものだね。",
-      "background": "e048_01_f",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "200202043"
+      "dialogue": "まったく、彼らのせいでこんな事になるなんて。",
+      "background": "bg160_f",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "enter_from_left_slow"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "でも、仕方ありません…\\この部隊は古参が多いのです。新米士官の私に指示されるのは、癪に障るのでしょう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "いいえ、私の力が足りないだけですね…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "今の私が彼らにしてあげられる事は、庇ってやることぐらいです。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ん？あれは…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "keep",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "一度、主人の顔を拝んでみたいものだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "voiceid": "200202044"
+      "dialogue": "はっはっはっはっ！\\見ものだったな、あの小娘の顔！",
+      "char": "none",
+      "speaker": "SOLDIERA",
+      "pos": "left",
+      "facial": "cry"
     },
     "25": {
+      "type": "talk",
+      "dialogue": "そうだな。\\俺たちがワザと騒いでいたとは知らずにな！\\しかし、中隊長が出てきた時は焦ったぞ？",
+      "char": "none",
+      "speaker": "SOLDIERB",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そうか？あの中隊長も小隊長には失望してるだろ？\\なんてったって、あの伝説の連隊長の娘が、アレじゃあなぁ。",
+      "char": "none",
+      "speaker": "SOLDIERC",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "どれだけすごいのかと思いきや、実力もないくせに、言う事は一人前。\\人の話を全く聞かない頑固者。\\ああいうヤツは部下を無駄死にさせるぞ？",
+      "char": "none",
+      "speaker": "SOLDIERA",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "まったくだ。さっさと軍隊を辞めてくれたらいいのにな！",
+      "char": "none",
+      "speaker": "SOLDIERB"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "違いない！ハハハハハッ！",
+      "char": "none",
+      "speaker": "SOLDIERC",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "………",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "まさか、あの騒ぎが仕組まれたものだったなんて…",
+      "background": "bg133_f",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "enter_from_left_slow"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "確かに私は実力が足りない。\\でも、私なりに最善を尽くし頑張っているのに！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "…信頼されてないんですね。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "部下を無駄死にか…\\でも、そうなのかもしれない…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "理想を追うあまり、人の話に耳を傾けなかった…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "部下をちゃんと見ていなかった。\\それが部下に伝わってしまった。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "意見を聞かない上司に誰が付いていく？\\フフッ、この結果は当然ですね…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…私は、何で軍人になろうと思ったんだろう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "父上…",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ガルルル…ワンワン！",
+      "char": "none",
+      "speaker": "none"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "何の騒ぎ？",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "このクソ犬！おとなしくしろ！",
+      "char": "none",
+      "speaker": "PUNKA"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ガルル…ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "何やってる！さっさと捕まえろ。",
+      "char": "none",
+      "speaker": "PUNKB"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "任せろって…\\ギャ～！噛まれたぁ～！",
+      "char": "none",
+      "speaker": "PUNKA"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "す、すごい…\\人間3人を相手にあんな小さな犬が、果敢にも立ち向かっている…",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "くそっ！これならどうだ？",
+      "char": "none",
+      "speaker": "PUNKC"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "キャンッ！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "止めなさい！\\犬をイジメて何が楽しいのですか！？",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "なんだ？お前は…\\部外者は黙ってろ。それにこっちは仕事だ！",
+      "char": "none",
+      "speaker": "PUNKA"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そんな仕事はありません！",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "なんだぁ？痛い目見たいようだな？",
+      "char": "none",
+      "speaker": "PUNKB",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "へっへっへ…\\首を突っ込んだ事を後悔させてやるよ？",
+      "char": "none",
+      "speaker": "PUNKC"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "逃げ道は…\\クッ！囲まれたか…",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "…やるしかありませんか！",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    }
+  },
+  "phase3": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "longer",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "はぁ～\\今日はお客さんが多くて、ホントつかれたな…\\近くでイベントでもあったのか？",
+      "background": "bg133_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そういや、最近バイト三昧で全然遊んでない。\\何か楽しいことがしたいよ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "いっそのこと、モナたちを誘えば遊びに出られるか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "しかし、アイツらの趣味と俺の趣味は全く合わない…荷物持ちにさせられるのがオチか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ガルル…ワンワン！",
+      "char": "none",
+      "speaker": "none"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ん？あれは…コムギ？\\何してるんだ？\\それにチンピラっぽい男たちに女性？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "コムギとは、かつてプライドをかけて激闘を繰り広げたお犬様だ。\\かろうじて、勝利を収める事ができたが、危ない戦いだった…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あれ？コムギが襲われてる…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "大丈夫だ。俺はコムギの事を信じている…\\こんなところでやられるヤツじゃない！\\なぜなら、アイツは俺のライバルだから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "さっさと家に帰って、ゆっくり休むか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "きゃ～！",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ちょっ！？女の人も襲われてるのか？\\コムギは何やってんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "あっ、危ない！\\さっさと逃げろよ！なんで逃げないんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ああ、もう！\\ほんとウンザリなんだよ！こんなイベント！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "unfair"
+    },
+    "17": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

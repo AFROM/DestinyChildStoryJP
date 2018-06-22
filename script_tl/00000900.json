@@ -2,139 +2,246 @@
   "phase1": {
     "1": {
       "type": "curtain",
-      "background": "back",
-      "bgm": "66",
-      "wait": "normal",
-      "fade_in": "normal"
+      "background": "bg217_f",
+      "bgm": "10",
+      "fade_in": "normal",
+      "hold": "shorter"
     },
     "2": {
       "type": "talk",
-      "dialogue": "激化の一途を辿る魔王争奪戦…\\今日もまた、\\各地で激しい戦いが繰り広げられていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "強大な亀裂ですね。確実に、今回の契約がロゼッタの受け入れられる最後の契約でしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "3": {
-      "type": "curtain",
-      "background": "bg119_f",
-      "bgm": "66",
-      "fade_out": "shortest",
-      "wait": "shorter",
-      "fade_in": "shorter"
+      "type": "talk",
+      "dialogue": "マアト。本当に大丈夫か？\\なんなら、契約を辞めたって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ぐあっ！",
-      "char": "c000_01",
+      "dialogue": "大丈夫です。覚悟したことです。",
+      "char": "c049_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "go_to_left_jump",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ご主人さま、さがってください…！",
-      "char": "c001_01",
+      "dialogue": "冷静なフリをしなくてもいいんだぞ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "teach",
-      "before_effect": "enter_from_right_fast",
-      "after_effect": "go_to_left_fast"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "終わりの見えない戦いに、チャイルドたちは\\疲弊していた。\\それは、チャイルドを使役する悪魔も同じ事。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "悪魔。私の決心を揺さぶらないでください。\\救済への道は狭くて険しいはず…",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "だからこそ、より価値があるのです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
-      "type": "curtain",
-      "background": "bg178_f",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "<color=808080>救済ですって？私を殺そうとしているのでしょう？</color>",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "9": {
       "type": "talk",
-      "dialogue": "い、いやだ！もう、やめてくれ！",
-      "char": "none",
-      "speaker": "DemonA",
-      "screen_effect": "shake",
-      "mvd": "effect/battle/sfx_story_sword_003.mvd"
+      "dialogue": "だ、誰…？",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "はっ！どいつもこいつも不甲斐ない。\\もっと骨のあるヤツはいないのか！",
-      "char": "c051_02",
+      "dialogue": "マアト、どうした？",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "enter_from_right_slow"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "朝から晩まで戦いばかり…髪もお肌もボロボロ…\\もういやっ！！",
-      "char": "c048_01",
+      "dialogue": "い、いえ…\\私の聞き間違い？",
+      "char": "c049_01",
       "speaker": "same",
-      "distance": "near",
-      "after_effect": "shake"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "彼らは求めていた。\\休息を、そして安らぎを…",
+      "dialogue": "<color=808080>傲慢な者よ、悔い改めなさい。</color>\\<color=808080>あなたは誰も救うことはできない。</color>\\<color=808080>私も、あなた自身さえも…</color>",
       "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "speaker": "unknown1"
     },
     "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "誰っ！？\\ロゼッタ、あなたですか？\\隠れていないで姿を見せて！",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "14": {
-      "type": "curtain",
-      "background": "bg075_f",
-      "fade_out": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "ロゼッタって、何を言ってるんだマアト？\\ここには俺たちしかいないだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ここは何処？また迷ってしまったのかしら…\\はぁ、もう、疲れたわ…",
-      "char": "c124_00",
-      "speaker": "same"
+      "dialogue": "<color=808080>マアト。あなたは嘘つき。</color>\\<color=808080>信頼を得ようとする癖に、</color>\\<color=808080>本当は信頼を裏切るとんだ偽善者。</color>",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "16": {
       "type": "talk",
-      "dialogue": "積もり積もった思いは、スポットの許容限界を\\超えようとしていた。",
-      "background": "back",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "ちがう！私は偽善者なんかじゃない！",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そして…",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "マアト、どうしたの？\\変だよ。怖い…",
+      "char": "c003_01",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "この奇跡は起きたのである。",
-      "char": "none",
-      "speaker": "same",
-      "mvd": "effect/battle/sfx_special_skill_rebirth_max.mvd",
-      "mvd_pos": "bottom"
+      "dialogue": "幻聴が聞こえる…？\\危険です、御主人様。下がってください！",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "19": {
+      "type": "talk",
+      "dialogue": "しかし！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うっ！くっ！",
+      "bgm": "6",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "マアト、大丈夫か？マアト！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "shock"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "マアトから離れてください！\\彼女から強い力を感じます！",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "angry",
+      "before_effect": "shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "いったい、マアトに何が起きてる！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "注意すべきでした…",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "契約者の不完全な魂が影響を与えているのです。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ロゼッタの魂が？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "魂のダンジョンは、その契約者の影響を強く反映しますからね。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "それじゃ、マアトはどうなっちゃうの？",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ううく…くあ…！\\苦、苦しい…息が…息ができない…！\\くう！",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "マアト、しっかりして！\\ここで諦めてはダメ！ロゼッタの魂を救わないと！！",
+      "char": "c056_01",
+      "speaker": "same"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "……！",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "きゃあ！",
+      "char": "c056_01",
+      "speaker": "same",
+      "before_effect": "go_to_left_jump",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ジャンヌ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

@@ -2,85 +2,13 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "噂のアンダーグラウンドをこんな風に\\歩き回れるなんて、なんだか不思議ですね♥",
-      "background": "bg159_f",
-      "bgm": "23",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "voiceid": "400602001"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "えっ、ここって、そんなに有名なの？\\俺は初耳なんだけど… ",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle",
-      "voiceid": "400602002"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "フフッ。\\ご主人さまがそう思うのも仕方ありません。\\これは、サキュバスの間での噂でしたから。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "voiceid": "400602003"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "魔王争奪戦の負け犬たちが\\集まって暮らしていると…\\まぁ、その程度の噂ですが。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400602004"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "魔王争奪戦の負け犬たちって…\\あっ...\\もしかしたら俺もここに住むことになるかもな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "400602005"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ご主人さま！",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "teach",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "400602006"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "まだ、戦ってもいないのに、\\そんな弱気でどうするんですか！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "angry",
-      "voiceid": "400602007"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "わかった！わかったよ～\\その大声、耳が潰れるかと思ったよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "voiceid": "400602008"
-    },
-    "9": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "dialogue": "ここまで頑張ってくださった\\可愛いご主人さまの為に、\\モナが<color=\"ff9900\">スペシャルプレゼント</color>を用意しました～♥",
+      "background": "back_dim50",
+      "char": "c255_01",
+      "speaker": "none",
+      "pos": "center",
+      "one_ani": "attack",
+      "voiceid": "900105001"
     }
   }
 }

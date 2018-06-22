@@ -2,325 +2,326 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "このままじゃ過労で死んじゃうよ……\\ホント死にそう……",
-      "background": "bg057_f",
+      "dialogue": "きゃあ！！",
+      "background": "bg005_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "char": "c060_00",
+      "speaker": "same_full",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そうだ！おい、カルカス！\\今どこにいる？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "ひ、悲鳴！？\\…あら、まあ、隣のお嬢さんじゃない。\\いきなり叫んだりして、どうしたの？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ふふ、いつもおそばに。\\どうしました？",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "dialogue": "お、おばさん、びっくりさせてごめんなさい。\\それが…",
+      "char": "c060_00",
+      "speaker": "same_full"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前、占い師だったって言ってたよな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "あら！鳥の死骸じゃないの。\\ここで死んだってわけじゃないようだけど…",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そうです。\\正確には、予言者に近いと思います。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "……",
+      "char": "c060_00",
+      "speaker": "same_full"
     },
     "6": {
       "type": "talk",
-      "dialogue": "うわ、ちょっとすごいかも。\\そう見えなかったけど……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "dialogue": "…そういえば最近、\\変な男がお嬢さんの家の前をうろついてたわね。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "7": {
       "type": "talk",
-      "dialogue": "とにかく、それなら魔王争奪戦がいつ終わるか\\わかるんだろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "ご、ごめんなさい…\\わたしのせいでご迷惑を…",
+      "char": "c060_00",
+      "speaker": "same_full"
     },
     "8": {
       "type": "talk",
-      "dialogue": "いつ終わるか……ですか？\\ふふ、誰が勝つかではなく？",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "お嬢さんが謝ることじゃないわよ。\\大変ねえ。ストーカーってやつかしら？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "9": {
       "type": "talk",
-      "dialogue": "それもわかるの！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "dialogue": "もしそうなら、早く警察に相談した方がいいわよ。\\何かあってからじゃ遅いんだから。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "10": {
       "type": "talk",
-      "dialogue": "いいえ。たぶんもう見えないと思います。\\そっち系の能力は全部失ってしまいましたから。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…はい。\\お気遣いありがとうございます。",
+      "char": "c060_00",
+      "speaker": "same_full"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "…そっち系の能力ね～。\\それじゃあもう占いはできないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そうですね。\\契約者の方も、\\僕が現れてからはさっぱりのようですし。",
-      "char": "c082_01",
+      "dialogue": "…御主人様。\\チャイルドの管理は徹底していただきたいと、\\何度も申し上げましたよね？",
+      "background": "bg086_f",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "僕に残されたのは、直感だけです。",
-      "char": "keep",
+      "dialogue": "いきなり、なんだよ。\\何かあったのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "直感……か。何が違うんだ？",
-      "char": "c000_01",
+      "dialogue": "…はあ、そこからですか…\\数日前に起きた出来事は、\\もちろん御存知ですよね？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "sigh"
     },
     "15": {
       "type": "talk",
-      "dialogue": "えっと……\\限りなく分かれる2つの道があるとします。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "どっちの道に何があるかわかるのが占い。\\感じのいい方に従うのが直感。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "同じように聞こえるけど……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "知ってる上で行くのと、\\知らないけど行く、の違いですね。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "はあ、そういう…それにしても、\\契約後に能力を失うなんて……\\こういうケースは初めてだなー。",
+      "dialogue": "いや、御存知じゃないです。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "16": {
+      "type": "talk",
+      "dialogue": "……\\わかりました、初めから説明いたします。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "先日、とある男性が激しい暴行を加えられた後、\\路地裏に放置されました。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "その男性とは他でもなく、\\ティシフォネの契約者に付きまとっていた人物です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うへえ…\\それって、やっぱり…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "20": {
       "type": "talk",
-      "dialogue": "そうですか。\\僕はかえってありがたいです。",
-      "char": "c082_01",
+      "dialogue": "ティシフォネの仕業でしょうね。\\彼女にはこんな危険な悪戯はもう止めるように、\\きちんと言い聞かせてください。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "怖かったんです。\\こう言うとなんですけど、\\人間の時は不幸な部類でした。",
-      "char": "keep",
+      "dialogue": "えー…\\リザが言ってきてくれよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "cry"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いくら未来を見ることができても\\運にいつも見放されていたので。",
-      "char": "keep",
+      "dialogue": "…御主人様。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "facial": "serious"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あ、俺と同じだ……\\俺も運の悪さなら負けないぞ！",
+      "dialogue": "うっ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy"
+      "facial": "cry"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "はは、思い返してみると、苦難の日々でしたね。\\事故に遭いそうだったから家に閉じこもってたら、\\家が倒れるし。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "家が！？",
+      "dialogue": "あ、あの…レディ・ティシフォネ。",
+      "background": "dungeon_bg",
+      "bgm": "19",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "facial": "haah"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そう、家が。\\厄払いしようとして大ケガしたこともあります。",
-      "char": "c082_01",
+      "dialogue": "あら、ベイビーじゃない。\\何か用かしら。",
+      "char": "c060_01",
       "speaker": "same",
       "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "道でばったり悪魔に出会うとか？",
+      "dialogue": "その…リザからですね、\\とある話を聞きましてですね…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "haah"
     },
     "28": {
       "type": "talk",
-      "dialogue": "そう、その悪魔に無理やり契約させられて\\しまったりとか。",
-      "char": "c082_01",
+      "dialogue": "ベイビー、言いたいことはハッキリ言ってくれない？",
+      "char": "c060_01",
       "speaker": "same",
       "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "何が起こるかはわかるんですけど\\防ぐこともできず、避けることもできないんです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "言えるわけないっての…\\下手したら、俺も路地裏行きだからな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "だから今はかえって気が楽です。\\ただ……",
-      "char": "keep",
+      "dialogue": "…もういいわ。\\何が言いたいのか、何となくわかったから。",
+      "char": "c060_01",
       "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ただ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "この名前はちょっと恥ずかしいですね。",
-      "char": "c082_01",
+      "dialogue": "…けど、そんなに怯えなくてもいいでしょ？\\しょうもない男を、\\ほんのちょっと懲らしめてやっただけだもの。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
+    "32": {
+      "type": "talk",
+      "dialogue": "ほんのちょっとって…\\その男、未だに食事も喉を通らないって話だぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "33": {
       "type": "talk",
-      "dialogue": "もう予言もできないのに、予言者の名前だなんて。",
-      "char": "keep",
+      "dialogue": "まったく、男ってのは大げさね。",
+      "char": "c060_01",
       "speaker": "same",
       "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "僕には似合わないんじゃないかなって。\\……気にしすぎですかね？",
+      "dialogue": "ベイビーはそんな男になっちゃダメよ？",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "似合わないのはその名前じゃなくて俺の立場だよ。\\あーあ、なんでこんなに肩の荷が重い状況に\\なってるんだか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "dialogue": "ダメだ、逆らえない…！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "36": {
       "type": "talk",
-      "dialogue": "立派にこなしていますよ。\\僕は、ご主人様を心から信じていますし。",
-      "char": "c082_01",
+      "dialogue": "…ところで、その…できれば…これからは、\\そういう目立つことはやめてもらいたいなー、\\なんて…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "37": {
       "type": "talk",
-      "dialogue": "このままご主人様について行けばいいんだって……\\そう思える人ですから。",
-      "char": "keep",
+      "dialogue": "それで？",
+      "char": "c060_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "38": {
       "type": "talk",
-      "dialogue": "気のせいかもしれないぞ？",
+      "dialogue": "え…？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "39": {
       "type": "talk",
-      "dialogue": "ふふ、そう。気のせいでしょうけど。",
-      "char": "c082_01",
+      "dialogue": "女性にものを頼む時は、\\誠意を見せるべきじゃない？",
+      "char": "c060_01",
       "speaker": "same",
       "pos": "right"
     },
     "40": {
       "type": "talk",
-      "dialogue": "みんな期待しすぎじゃないか？",
+      "dialogue": "え、えっと、誠意ってのは…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "confused"
     },
     "41": {
       "type": "talk",
-      "dialogue": "期待されるのは嫌いですか？\\そういうところも変わってますね。",
-      "char": "c082_01",
+      "dialogue": "ふふ、そうね…\\一生忘れられないような、濃厚なキスなんてどう？",
+      "char": "c060_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
     "42": {
       "type": "talk",
-      "dialogue": "僕は、ご主人様が思っているより、\\この暮らしが気に入ってます。",
-      "char": "keep",
+      "dialogue": "き、キス？\\…あっ、り、リザが呼んでるみたいだ！\\じゃあ、俺はこれで！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_left_point"
     },
     "43": {
       "type": "talk",
-      "dialogue": "本当ですよ。これは気のせいじゃないです。",
-      "char": "keep",
+      "dialogue": "ふふ、まるでひな鳥みたいな子ね。",
+      "char": "c060_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "one_ani": "attack"
     },
     "44": {
+      "type": "talk",
+      "dialogue": "あの子が鶏になるか鷹になるか…\\これからが見物だわ。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "45": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

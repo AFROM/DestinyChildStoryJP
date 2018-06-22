@@ -2,433 +2,208 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "使用人よ。\\あたしの朝食を用意する栄誉を与えてあげる！\\今日は白米に焼き魚がいいわ。",
-      "background": "bg089_f",
-      "bgm": "4",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "はいはい…百歩譲ってご飯の用意は構わんけど…\\せめて、その露骨な呼び名、なんとかしない？",
+      "dialogue": "おはよう、デメテル。",
+      "background": "bg086_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "smile"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "おはよう～ダーリン！\\今日はどうしたの？",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あはは、だってあたしは姫だもの。\\姫の身の回りを世話するのは使用人でしょ？",
-      "char": "c028_01",
+      "dialogue": "戦いのお供をしろ…\\って感じでもなさそうだけど。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "まったく誰に似たんだか…",
+      "dialogue": "いつもそういう時だけ呼んでたか？\\ただ元気かなって。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "sulky"
     },
     "5": {
       "type": "talk",
-      "dialogue": "悪い？契約者だってああなんだから。\\あたしがこうなるのはある意味、当然でしょ。",
-      "char": "c028_01",
+      "dialogue": "きゃははっ、\\なにそれ？お爺ちゃん？\\あのね、ダーリン！",
+      "char": "c010_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "開き直った！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "この通り、力をもらってチャイルドになってからは、気ままに過ごしてるからさ。大丈夫よ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "とにかく、早くご飯を用意して！\\あたし、これ以上は1秒だって待てないわ！",
-      "char": "c028_01",
+      "dialogue": "だったらいいんだけどさ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "smile"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ほれ、レトルトカレー。チンして食うんだぞ。\\あ、時間は3分59秒な。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "実は、デメテルが契約者のいる病院に行き、\\こっそり様子を見ているという噂を小耳に挟んだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "何その中途半端な時間。\\あと、聞いてた？焼き魚が食べたいって言ったのよ？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "他のチャイルドだって好きにやってるし、\\それでいいって俺は思ってるけど…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "お前こそ聞いてたか？ご飯の準備はしたぞ、準備は。そこまでしてほしいなら、それなりの頼み方が\\あるだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "初めてのチャイルドだからか、\\妙に気になってしまう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "くっ…\\これから毎日タダ飯にありつける、ラッキー！\\って思ったのに自分で作らされることになるなんて…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "こいつの契約者は、通帳の残高が100円で\\困っていたのに、働いて稼ぐのは嫌という\\高飛車な女の子だった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "何か心配なことでもあるのかしら～？",
+      "background": "bg045_f",
+      "char": "c010_01",
+      "speaker": "same"
     },
     "13": {
       "type": "talk",
-      "dialogue": "福沢諭吉1枚で生まれた我がチャイルドよ。",
+      "dialogue": "さ、さあな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "sad"
     },
     "14": {
       "type": "talk",
-      "dialogue": "うっ…",
-      "char": "c028_01",
+      "dialogue": "ほら、また目を逸らしたでしょ！\\ご主人様がチャイルドの顔色を窺ってどうするのよ！",
+      "char": "c010_01",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "レダは、1万円が欲しいという契約者の願いから\\生まれたのだ。願いを叶えて契約者の残高は\\1万100円…ぷぷっ",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そ、それは言わないでよ！\\あたしの価値が1万円って聞こえるでしょ！\\まったく、みじめったらありゃしない…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "まあ、でも俺にとって1万円は大金だ…\\しがないアルバイターにとっては、\\稼ぐのに何時間働くか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…もしかして、契約者があの時拾ったお金は、\\あんたが用意したの？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "願いが1万円でギリギリ助かったかな。\\給料日直後だったし。\\そうじゃなければ諦めてたかも…\\ふふふ、ささやかな願いでよかった。",
+      "dialogue": "い、いや、逸らしてないって…\\誰にでも初めてってのはあるもんだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "idle"
     },
-    "20": {
+    "16": {
       "type": "talk",
-      "dialogue": "だーかーらー、\\あたしの価値がささやかみたいに言わないでよ！\\使用人のくせに偉そうに！",
-      "char": "c028_01",
+      "dialogue": "初めて誰かの主人になって戸惑ったのは認めるさ。\\でも今じゃ、全然普通にしてるだろ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "left"
     },
-    "21": {
+    "17": {
       "type": "talk",
-      "dialogue": "そっか、そんな使用人から与えてもらったご飯なんてプライドが許さないよな…\\そのカレー、俺が食う。",
+      "dialogue": "ふ～ん…どうかしらね～",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "自分の主人を信じろって。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "19": {
+      "type": "talk",
+      "dialogue": "ま、別にいっか。",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ふんっ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ところで、痛いとこはない？\\チャイルドは順調に集まってる？\\彼女はできたかしら？",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "ま、待ちなさい！\\仕方ないわね…\\どうしても食べてほしそうだから食べるわよ…",
-      "char": "c028_01",
+      "dialogue": "ってご主人様には彼女は無理かな！\\これは一生ついてって世話を焼くしかなさそうね～♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "はいはい、召し上がれ。\\あ、チンするなら俺のもついでにお願いしていい？",
+      "dialogue": "俺を惚れさせるんじゃなかったのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "このあたしをこき使うつもり！？\\使用人の分際で生意気よ！",
-      "char": "c028_01",
+      "dialogue": "それはそれ、これはこれよ！\\わたし、こう見えても本職は看護師だもの♥",
+      "char": "c010_01",
       "speaker": "same",
       "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "だから、俺は使用人じゃないって。\\なぁ、そのお姫様ごっこ、いつまでやるつもりだ？",
-      "char": "c000_01",
+      "dialogue": "揺り籠からお墓まで！\\一生、お世話する専属看護師になってあげるわ～♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…？\\どうした？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…ち、チンしてよ。",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "は？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "で、電子レンジの使い方…\\わ、わからないのよ…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "マジか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "時間を設定してボタンを押すだけだぞ？\\契約者はどれだけ世間知らずなんだ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ちゃんと頼んでくれたら、\\チンでもなんでも手伝うけど？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "くっ…仕方ないわね…\\誰にでもいうわけじゃないんだからね！\\ちゃんと聞きなさいよっ！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "はいはい。どうぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ふん、使用人のくせにご主人様に何かしてもらおうとするなんて…\\見上げた根性だわ！褒めてあげる！",
-      "char": "c028_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "…え？今のお願い？\\どう聞いても頼む側のセリフじゃないだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "な、なによ…！あんたなんかが出した食べ物を\\このあたしが食べてあげるのよ！？\\涙を流して喜ぶべきよ！それを…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "わかった、わかった、このご飯はいらないんだな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "そんなことは言ってないじゃない！\\食べ物を使うのは卑怯よ！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "そう言ってもな…\\人に物を頼む態度がなってないんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "何それ。あたしがあんたにお願い？\\どうしてそんなことしなきゃいけないわけ。",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "それが常識だから。\\まあ、さっきの俺の頼み方も悪かったからけどさー\\一言「お願いします」って言えば、こっちも気持ちよくやってやるのに。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "カレーを！温めさせてあげる！\\このあたしに感謝しなさい！お願い！",
-      "char": "c028_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "なんか、わけわかんないことになってるんだけど！",
+      "dialogue": "ああ、よろしく頼む。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "46": {
+    "27": {
       "type": "talk",
-      "dialogue": "くっ…わがままな使用人ね…\\わかったわ。ちゃんとやってあげるわよ！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "できるなら早くやれよ…\\いつまでこの話続けるんだよ！\\さん、はい！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "カレーを…あ、温めて…ください…お願い…します…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "はいよ。最初からそう言えば俺だけじゃなくて、\\みんな手伝ってくれるんだぞ？\\…じゃあレンジの使い方教えるから。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "最初からそう言えばいいのよ…\\って、次から自分でレンジ使わなきゃいけないわけ？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "当たり前だろ。こんな問答を毎朝したくない。",
-      "char": "c000_01",
+      "dialogue": "あとさ、もうちょっと離れてくれよ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "52": {
-      "type": "talk",
-      "dialogue": "何もできないし、世間知らずだけど、\\教えようとすれば頑張って覚えようとする。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "わがままばかりのお姫様ってわけではなさそうだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "レンジの使い方覚えたら、明日はもっと美味しい\\レトルト食品買ってきてやるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "ホントに？あたし、安い食べ物は嫌よ。\\それなら次は…\\す、酢豚とチャーハンを用意することね！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "56": {
-      "type": "talk",
-      "dialogue": "…もしかして、それがこいつにとっての\\贅沢な食事…？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "57": {
-      "type": "talk",
-      "dialogue": "それじゃあ、使い方を教えなさい！\\使用人よ、早く！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "58": {
-      "type": "talk",
-      "dialogue": "はいはい、わかった。\\さすがに俺も腹減ったし、さっさと食べよう。",
-      "char": "c000_01",
-      "speaker": "none",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "59": {
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

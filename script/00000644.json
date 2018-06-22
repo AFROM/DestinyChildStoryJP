@@ -2,278 +2,175 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "けしからん！",
-      "background": "bg097_f",
-      "bgm": "31",
-      "char": "c210_01",
+      "dialogue": "ん？なんだ、この花。\\誰がこんなものを…",
+      "background": "bg086_f",
+      "bgm": "17",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…いらっしゃませ。",
-      "char": "c000_01",
+      "dialogue": "あら、いい香りね。\\私にも一輪いただけない？\\これ、私の大好きな花なの。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "すぐに頭を下げないか！\\私は閣下だぞ、閣下！",
-      "char": "c210_01",
+      "dialogue": "どうぞ…と言いたいとこだけど、\\これ、俺のじゃないんだよな。\\気づいたら、ここに置いてあって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "何しに俺のバイト先まで来たんだ？",
-      "char": "c000_01",
+      "dialogue": "あら、誰かからの贈り物かしら。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "10回以上も呼んだのだぞ…！\\結局、この私が出向かないといけないのか！",
-      "char": "c210_01",
+      "dialogue": "おっ、ビンゴ！\\よく見たら、手紙が添えてあったぞ。\\なになに…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "俺を呼んだ？一度も聞こえなかったけど…\\どこで呼んだんだ？",
-      "char": "c000_01",
+      "dialogue": "「親愛なるレディ・ユーナ。\\花園を歩いていたら、\\偶然、あなたに似た花を見つけました」",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前のむさ苦しくてちっぽけな家からだ。",
-      "char": "c210_01",
+      "dialogue": "「よろしければ、受け取ってください」",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "喉が張り裂けるくらい叫んだって、\\そこから呼んで聞こえるわけがないだろ！",
-      "char": "c000_01",
+      "dialogue": "「気に入っていただけると嬉しいです。\\R.C.より」",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "お前がずっと家にいればいいだけの話だろう。",
-      "char": "c210_01",
+      "dialogue": "……",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "何言ってるんだ！\\働かないと食っていけないだろ！",
+      "dialogue": "「R.C.」…といえば、レッドクロス…だよな？\\わざわざユーナの好きな花まで調べるなんて…\\モテモテでよかったな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
       "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "仕事なのか？",
-      "char": "c210_01",
+      "dialogue": "……",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "お前、これが仕事じゃなかったら、\\いったい何に見えるんだよ！",
+      "dialogue": "…って、どうした？\\なんか、機嫌が悪そうだけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "distance": "normal",
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "閣下と呼べ！",
-      "char": "c210_01",
+      "dialogue": "い、いいえ。\\お花、とっても綺麗ね。",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "わ、分かったからその剣、しまってくれ。",
+      "dialogue": "…その割には、全然嬉しそうじゃないけど…\\えっと、まさか、レッドクロスのこと、嫌いなのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "とにかく、仕事をしているのだろう？\\それなら今回のことは大目に見るとしよう。",
-      "char": "c210_01",
+      "dialogue": "…そんなことないわ。\\けど…ちょっと、重いかな…って。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "光栄でございます、閣下～",
+      "dialogue": "重いって、\\レッドクロスの好意が…ってことだよな。\\気持ちはわかるけど、\\ユーナがそんなこと言うなんてな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "で、どうして俺を呼んだんだ？",
-      "char": "keep",
+      "dialogue": "…そうね、私らしくないわね。\\だけど、自分でもどうしてそんな風に\\思ってしまうのか、\\よくわからないの。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "モナから非常におもしろいことを聞いた。\\補欠出身らしいな。",
-      "char": "c210_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "まさか、契約者の影響か？\\確か、ユーナの契約者も、\\レッドクロスの契約者に遠慮してるみたいだったし…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "19": {
       "type": "talk",
-      "dialogue": "…モナの奴、また余計なことを…",
+      "dialogue": "…言ってどうにかなることじゃないだろうけど、\\できれば、少しは心を開いてやってくれよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "どうしてお前のような悪魔まで魔王争奪戦に\\参加するようになったのか気になってな…",
-      "char": "c210_01",
+      "dialogue": "見た目は怖いけど、\\あいつは純粋な気持ちで、\\お前のことが好きなんだろうからな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "本当に変わってしまった。\\昔の戦はこんなものではなかったのに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "実際に見てきたみたいに言うな。\\前にも言ったがお前は先代魔王なんかじゃない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "俺のチャイルドだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "口を慎め！\\この私を下僕扱いするつもりか！",
-      "char": "c210_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "下僕？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "お前こそ俺のチャイルドたちを\\下僕扱いするつもりか！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…いいだろう。かかってこい。\\魔王の真の力を見せてやろう。",
-      "char": "c210_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "じゃじゃーん。",
-      "char": "c001_01",
-      "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "うわ！ビックリしたじゃないか、モナ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "モナもびっくりですよ。\\大事なアルバイトをこんな簡単に棒に振るなんて。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "は？い、いや、待て。タルタロス！\\外でやろう！外で！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "今さら自分の無力さに気づいたのか？\\だがもう遅い。",
-      "char": "c210_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "生意気な奴は当然、その代価を支払うべきだ！\\ハァッ！",
-      "char": "keep",
+      "dialogue": "…そうね。きっと、あなたの言う通りよ。\\ありがとう。感謝してるのよ？",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "distance": "normal"
     },
-    "35": {
-      "type": "talk",
-      "dialogue": "うわ！タルタロス、やめろ！俺が悪かった！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "タルタロスの言う通り、既に遅かったみたいね…\\どうせなら、戦いの見物でもしていこうかしら♥",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "37": {
+    "22": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,304 +2,537 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔！悪魔！！",
-      "background": "bg086_f",
+      "dialogue": "助けて、悪魔く～ん！",
+      "background": "bg012_f",
       "bgm": "4",
-      "char": "c189_01",
-      "speaker": "same"
+      "char": "c158_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何だ、朝から騒がしいな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "モナにいいこと教わった！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "…よくないことを教わったみたいだな。\\じゃあな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ちょっ！どこに行くの！\\",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "何かは知らないけど、よくないことが\\起こりそうな気がするんだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "違うよ！いいことだよ！\\だから大人しくして！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "不安すぎる…\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "モナが教えてくれたの！\\とにかく何事も初めはコミュニケーションだって！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "何を始めようっていうんだよ。\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ちょっとだけ話を聞いてよ。\\私の過去の話をしてあげるから！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "チャイルドになってそんな経ってないのに\\もう過去の話か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "あちゃ！言い間違い！\\えっと、契約者の過去！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "契約者も教えてくれなかったことを\\お前が教えてくれるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "えっへん！\\私と契約者は、全く同じ性格なの！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "やっぱり無視か…\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "高校一年の風紀委員だった契約者は、\\自分の言うことを聞かない\\生意気な二年生が気に喰わなかった！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "クラトスの契約者は\\高校一年生だ…",
+      "dialogue": "昼寝をするには鋭すぎる日差しの中、\\俺に助けを求める声が聞こえてくる。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "面倒ごとに巻き込まれるのはごめんだし…\\よし、聞こえなかったことにしよう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ちょっと～！聞こえないふりしないでよ～！\\助けてってば、悪魔く～ん！",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…はあ。\\そんなに叫ばなくっても聞こえるって…\\この暑い中、どうしたの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あのね、練習したいの～",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "練習？\\悪いけど、体力使うことならお断りだぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "体力、使うかも～",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "なら却下だ。\\それじゃ、俺は約束があるから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "え～約束って誰と～？\\モナは悪魔くんは暇だ～って言ってたのに～",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…モナの奴、余計なことを…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "その様子、やっぱり暇なんでしょ～？\\だったら助けてよ～",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…仕方ない。\\面倒だけど、ここで断るのも後味が悪いし…\\少しなら助けてやるか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…で？一体、何の練習がしたいの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "えへへ、あのね、イケメンを釣る練習～！",
+      "char": "c158_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "…は？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "nonsense"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "イ、イケメンを釣る？何かの聞き間違えか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "え、えっと…釣りの練習を手伝えってことか？\\川も海も遠いし、できれば行きたくな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
     "19": {
       "type": "talk",
-      "dialogue": "しょっちゅう規則を破る三年生も嫌いだったし、\\そんな規則を覚えてすらいない\\教師のことも嫌いだった！",
-      "char": "c189_01",
+      "dialogue": "大丈夫、大丈夫！\\海も捨てがたいけど、\\今日はプールにするつもりだから！\\イケメン、いっぱいいるといいな～",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "厄介だな…\\",
+      "dialogue": "イケメンって、聞き間違いじゃなかったのか…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "21": {
       "type": "talk",
-      "dialogue": "だから契約者は決心したの！\\自分で全てを変えようと！\\最終目的の校長を倒し、政権を手に入れようと！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "けど、釣るってどうするつもりなんだ？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "学生が校長を倒してどうするんだよ！\\風紀委員のヤツが一番ヤバいこと考えてるじゃないか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "でも残念なことに、校長の脂肪が厚くて失敗した。",
-      "char": "c189_01",
+      "dialogue": "わ～人がたくさ～ん！\\あっ、イケメン発見！",
+      "background": "bg061_f",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "しかももう試したのか！？\\校長の脂肪に何かしたのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "ナイアスは好みのイケメンを見つけるたびに、\\目を輝かせている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "25": {
       "type": "talk",
-      "dialogue": "全力で体当たりしたんだけど、\\脂肪に跳ね返されたの。",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "校長の脂肪ってすごいんだな。\\それより風紀委員だって言ったよな、オマエの契約者！",
+      "dialogue": "プールまで来たのはいいけど、\\俺は何をすればいいんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "イケメンと仲良くなるなら、\\俺はいない方がいいと思うけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
       "facial": "confused"
     },
     "27": {
       "type": "talk",
-      "dialogue": "勝利に小さな犠牲はつきものだよ、悪魔。\\",
-      "char": "c189_01",
+      "dialogue": "悪魔くんがいないと無理だよ～\\あたし、男の人とお話なんてできないも～ん。",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "何が勝利だ！\\ただの通り魔暴行だろうが！\\脂肪がなかったらどうする！",
+      "dialogue": "一応、俺も男なんですけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "distance": "normal",
+      "facial": "confused"
     },
     "29": {
       "type": "talk",
-      "dialogue": "話はここまで！\\どう？私との親密度はちょっと上がった？",
-      "char": "c189_01",
+      "dialogue": "男は男でも、悪魔くんは男の「子」でしょ？\\まだまだ子供だし～10年後に期待！かな～",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "何だよ、親密度って！\\それよりその次の話が気になる。\\契約者はその後どうなったんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "子供で悪かったな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "31": {
       "type": "talk",
-      "dialogue": "独りぼっちの自分と遊んでくれる\\ありがたい学生だって言って\\感謝状をもらったみたい。",
-      "char": "c189_01",
+      "dialogue": "はは、拗ねないでよ～\\悪魔くんには重要なお仕事をお願いするんだから。",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "暴行犯に感謝状を渡すなんて\\どんな学校だよ！",
+      "dialogue": "重要な仕事？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense"
+      "distance": "normal",
+      "facial": "haah"
     },
     "33": {
       "type": "talk",
-      "dialogue": "どう！？\\これで私との親密度がぐいぐい上昇したでしょ？\\ドキドキしてる？",
-      "char": "c189_01",
+      "dialogue": "うん！とりあえず、そこに立っててくれる～？",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
     "34": {
       "type": "talk",
-      "dialogue": "お前の契約者の行動にひやひやして\\胸が張り裂けそうだ！\\何が規則だ！自分が破ってるじゃないか！",
+      "dialogue": "ここ…でいいのか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "35": {
       "type": "talk",
-      "dialogue": "契約者にドキドキしないで！\\私に罪を犯したんだから、私に自白してよ！",
-      "char": "c189_01",
+      "dialogue": "うん、完璧～",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "ありもしない罪を自白できるわけないだろ！\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ナイアスは頷くと、見事な放物線を描きながら、\\プールに飛び込んでいった。\\一体、何を…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "37": {
       "type": "talk",
-      "dialogue": "そんなことでアンタの罪がなくなるとでも\\思ってるの？\\",
-      "char": "c189_01",
+      "dialogue": "うわあっ！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "38": {
       "type": "talk",
-      "dialogue": "俺が何を言おうと汚名を着せる\\魂胆だろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "突然、プールの中から伸びてきた手に、\\足首を掴まれたかと思うと、\\次の瞬間には、俺はプールに引きずり込まれていた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "39": {
       "type": "talk",
-      "dialogue": "ちっ、まだ早かったか。\\でも！次こそは必ず親密度をぐいぐい上げて\\エンディングを見てやる！",
-      "char": "c189_01",
+      "dialogue": "よ～し！釣り成功～！\\やった～！",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "40": {
       "type": "talk",
-      "dialogue": "次もあるのかよ！\\それより今までのはゲームに例えてたのか！",
+      "dialogue": "これのどこが釣りだよ！どーしてくれるんだ。\\お前のせいで服がびしょ濡れじゃないか！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "41": {
       "type": "talk",
-      "dialogue": "楽しみにしてて！アディオス！\\",
-      "char": "c189_01",
+      "dialogue": "悪魔くんが水着に着替えないから悪いんでしょ～\\あたしのせいじゃないも～ん。",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
     "42": {
+      "type": "talk",
+      "dialogue": "ねえ、ねえ、それより、どうだった？\\ドキドキした？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "びっくりしてな！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "付き合ってられるか…\\これ以上、巻き込まれる前に、帰ってやる！\\俺はそう決意すると、\\こっそりとプールサイドに上がった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "おっかしいな～\\こうすれば、どんなイケメンでも、\\あたしにときめくと思ったのに…",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "こんなことされてときめく奴が、\\どこの世界にいるんだよ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "よ～し！\\こうなったら、今度はもっと激しくいってみよ～！",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "うわあ～っ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "serious",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "ど～お？悪魔くん、今度こそときめいた～？",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "ときめくわけないだろ！\\一体、何がしたいんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "イケメンを水の中に引きずり込む練習に、\\決まってるでしょ～？",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "いやいやいや、そんな怖い練習すんなよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "俺はこんなことのために、\\プールまで連れてこられたのか…",
+      "char": "none",
+      "speaker": "same",
+      "screen_effect": "dark"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "…はあ。\\とりあえず、水着に着替えてくるから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "じゃあ、\\今度はサメが獲物を狙うようにいってみよ～！",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "うわあぁぁ～！！\\コボゴボゴボゴボ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "toonear",
+      "facial": "serious",
+      "screen_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "プールから出た直後、\\俺はまた水の中に引きずり込まれた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "だ、ダメだ…\\さっきまでは我慢できたけど、これじゃあ、息が…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "ああ、これよ、悪魔くん。\\ぎゅ～っと抱き締めて水の深いところまで行くと、\\まるで世界にふたりっきりになったみたい～",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "ありがと～悪魔くん！\\あっ、悪魔くんは水の中で話せないんだっけ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "あれ～？\\ど～したの～？ぐったりしちゃって～",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "64": {
+      "type": "talk",
+      "dialogue": "あっ、\\水の中があんまり静かだから寝ちゃったとか～？",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "65": {
+      "type": "talk",
+      "dialogue": "もう、仕方ないな～\\悪魔くんってば、やっぱりお子様なんだから～\\けど、練習に付き合ってもらっちゃったし、\\今日はゆっくり寝かせてあげるね～？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "66": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

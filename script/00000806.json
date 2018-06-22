@@ -2,196 +2,306 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…おい、ピクシー。\\これはどういう状況なんだ？",
-      "background": "bg086_f",
+      "dialogue": "　　　",
+      "background": "bg021_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same"
+      "char": "c365_01",
+      "speaker": "none",
+      "before_effect": "go_to_right_slow",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何って～？\\ちょっと遊んでただけだよ～？",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "　　　",
+      "char": "c365_01",
+      "speaker": "none",
+      "before_effect": "go_to_left_slow",
+      "loop_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ちょっと？\\これだけ散らかしといてよく言えるな…",
+      "dialogue": "だ、だいじょうぶなのか…？\\あのロボリザが堂々と歩き回っても？\\現代科学では誰もリザを理解できないだろ！",
+      "background": "bg021_f",
+      "bgm": "4",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "shock"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ほんとにちょっとだけだもん！",
-      "char": "c258_01",
+      "dialogue": "光学迷彩機能も搭載されていますので、心配しないでください。一般人にはきっとわかりません♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "嘘つけ！\\散らかそうと思っても、\\ここまで散らかせないだろ！",
+      "dialogue": "こ、こうがく…何だって？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "nonsense"
     },
     "6": {
       "type": "talk",
-      "dialogue": "全く、イタズラばっかりして…\\ここでは遊ぶなって、いつも言ってるだろ！",
+      "dialogue": "とにかく、そういう問題じゃないだろ？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "fury"
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ふああああ～ん！\\お兄ちゃんが怒ったー！！",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "はあ…俺には子育てなんて無理だ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "…この部屋の惨状は何ですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation",
-      "before_effect": "enter_from_right_fast"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "リザ！\\怒る前に俺の話を聞いてくれ！\\これはピクシーの仕業で…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "洋服はすべて床に散らかされ、\\壁には落書きがいっぱいですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "その上カーテンは引き裂かれ、本は破かれ…\\これをピクシーがひとりでやったと？",
+      "dialogue": "あんな、ガシャコンガシャコンしてるんだぞ？\\どっかにドカ～ンってぶつかったり、力の調節ができなくてコップを壊したりしたら…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "あの小さなチャイルドに、\\本当にそんなことができると思っているのですか？\\嘘をつくにしても、もう少しまともな嘘を\\ついてはいかがです？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "嘘じゃないって！\\ピクシーからも言ってくれ。\\早くほんとのことを話さないと\\リザに誤解されるだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ふえええ～ん！\\また怒った！お兄ちゃんが怖いよー！",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "お、おい。\\ここで泣かれたら…",
-      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "そしたら～大変なことになりますね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "もう少し真面目に考えろよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ふふ…確かにそうですね。日常生活でも戦闘モードだと困りますね。\\ロボットのアイデンティティとサキュバスのアイデンティティは違うでしょうし。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そろそろ…\\リザには言っておいたほうが良さそうですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "before_effect": "go_to_left_point"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "　　",
+      "char": "none",
+      "speaker": "none"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "リザ？なんだかぼーっとしてるけど、だいじょうぶ？",
+      "background": "bg018_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "しばらくメンテナンスしていなかったので、システムコンディションがよくありません。\\帰ったらメンテナンスしないといけませんね。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ふ～ん…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "17": {
       "type": "talk",
-      "dialogue": "ピクシーに罪を押し付けるだけでは飽き足らず、\\脅すとは…",
-      "char": "c002_01",
+      "dialogue": "モナの方こそ何か用ですか？\\顔色がよくないですよ。荷物が重たいのですか？",
+      "char": "c365_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "恥ずかしくないのですか？\\御主人様。",
+      "dialogue": "しかし、よかったです。少しではありますが、エネルギーが補充できたのでお手伝いいたします。さあ、どうぞ荷物を渡してください。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "だから、誤解です…",
-      "char": "c000_01",
+      "dialogue": "さすがリザ！頼りになるわね～\\ところでリザ。普段はサキュバスのリザに戻ったほうがいいんじゃないの？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense"
+      "facial": "pretense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "教育的指導です。\\こっちに来てください。\\その根性を叩き直して差し上げます。",
-      "char": "c002_01",
+      "dialogue": "フッ。何を言い出すのですか、モナ。\\私はこの体が気に入っているのです。効率的で直感的ではありませんか。多分これからも…",
+      "char": "c365_01",
       "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "違うって言ってるだろ～！",
-      "char": "c000_01",
+      "dialogue": "これからも、ずっと戦闘モードでいるつもり？\\普段からそんなに戦闘に備えている方が、かえって非効率じゃないかしら？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "after_effect": "go_to_right_point"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ふああああ～ん！",
-      "char": "c258_01",
+      "dialogue": "それに…そもそもリザはロボットじゃないでしょ？\\そんなにロボットの真似ばっかりしてると、自分がサキュバスだってこと忘れちゃうわよ？",
+      "char": "keep",
       "speaker": "same",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "sad"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あ、あれ？お兄ちゃん？\\私をおいて遊びに行っちゃったの？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "関係ありません。\\今も昔も完全なサキュバスではありませんでしたから…それに全身でも身体の一部でも、私には同じこと。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "何で誰もいないの？\\お兄ちゃ～ん！ピクシーも連れて行ってよー！",
-      "char": "keep",
+      "dialogue": "リザ！",
+      "char": "c001_01",
       "speaker": "same",
-      "after_effect": "go_to_right_point"
+      "pos": "center",
+      "distance": "near",
+      "facial": "teach",
+      "screen_effect": "dialog_shake"
     },
     "25": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "すいません、モナ。\\そんなつもりで言ったのではありませんが、私のミスのようです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "やはりシステムコンディションが良くありませんね。早く帰りましょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
+      "bgm": "keep",
+      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "26": {
+    "29": {
+      "type": "talk",
+      "dialogue": "リザ。少し話さない？",
+      "background": "bg089_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…ええ、話をしましょう。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ごめんなさい！",
+      "background": "bg164_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "さっきは怒りすぎたわ。\\リザのことが心配で…\\ホントごめんなさいね。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "shy",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "仲直りしたいけど、あなたの気持ちが分からないの。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "やはり、モナには勝てませんね。\\あなたは…おかしなサキュバスです。\\昔から、独りよがりの私の面倒ばかり。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "大人ぶった年長者は、自分よりちょっと若い子を見ると、すぐに出しゃばりたくなっちゃうのよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "カリスマサキュバスらしい貫禄のあるお言葉ですね。ケンカしたわけではありませんが、これで仲直りとしましょう。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

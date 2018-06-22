@@ -2,386 +2,284 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あく…ま…さん。",
-      "background": "bg086_f",
+      "dialogue": "誰だ！？",
+      "background": "bg095_f",
       "bgm": "9",
-      "char": "c149_01",
-      "speaker": "same"
+      "char": "c121_00",
+      "speaker": "same_full",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…ん？お、ルサルカ！いらっしゃい。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
+      "dialogue": "…どうも。",
+      "char": "c099_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "まさか、ルサルカが自分から訪ねてくるなんて、\\すごい進歩だ。ちょっと嬉しいな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "これはこれは。\\人気絶頂のロックアイドルじゃないか。",
+      "char": "c121_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お話…したくて来たの。",
-      "char": "c149_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "……",
+      "char": "c099_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "うんうん。せっかく来てくれたんだし、いくらでも話してくれよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "dialogue": "はっ、オレの言葉には返事をする価値もないってか？そんなにオレがお気に召さないってのかよ？",
+      "char": "c121_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "実は昨日…",
-      "char": "c149_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "そうじゃなくって…",
+      "char": "c099_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "どうだかな。\\…で、お前がこんなとこにいるなんて、\\まさか、またあの悪魔に会いに来たのか？",
+      "char": "c121_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…ルサルカ。",
-      "background": "bg077_f",
-      "char": "c125_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "dialogue": "それだけ成功してるくせに、\\まだ頼み事があるたあ、欲ってのは恐ろしいわ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…アルティス？",
-      "char": "c149_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "dialogue": "……",
+      "char": "c099_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あなたに話したいことが…",
-      "char": "c125_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "dialogue": "このことを知ったら、\\みんなびっくりするだろうなあ？\\大人気アイドルが悪魔と契約してるなんて…",
+      "char": "c121_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "あ、あの…",
-      "char": "c149_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "dialogue": "お前、本当は音痴なんだってな。\\音楽のことなんて知らない、ド素人なんだろ？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "実は…前からずっと、あなたのことが…",
-      "char": "c125_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "dialogue": "知らなくない…ウチは昔から、音楽が大好きよ。",
+      "char": "c099_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ま、待って…！",
-      "char": "c149_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "dialogue": "ハハハ！笑わせるな！\\知らないからあんなロックらしくもない音楽で、\\ロッカーなんて名乗れるんだよ！",
+      "char": "c121_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "何です？",
-      "char": "c125_01",
+      "dialogue": "…あー、怖い怖い。音楽性の違いってやつか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "pos": "left",
+      "facial": "serious"
     },
     "15": {
       "type": "talk",
-      "dialogue": "きゅ、急用を、思い出して！…さようなら！",
-      "char": "c149_01",
+      "dialogue": "狩人が獲物を怖がってどうするんです～？\\ご主人さま♥\\あ、彼らは契約者ですから既に捕らえた\\エサのようなものでしたね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "after_effect": "go_to_left_point",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "待ってください、ルサルカ！",
-      "char": "c125_01",
+      "dialogue": "…こっちにも怖いのがいた。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "pos": "left",
+      "facial": "tempt"
     },
     "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "うふふ、これくらいで怖がられては困りますよ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…ということがあったの。\\アルティス、何を言おうとしてたのかしら？\\私のことが嫌い…とか？私、何か失礼なことでも…",
-      "background": "bg086_f",
-      "char": "c149_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "none"
+      "dialogue": "…オレの契約者が来たか。",
+      "char": "c121_01",
+      "speaker": "same"
     },
     "19": {
       "type": "talk",
-      "dialogue": "いくら、こういうことに疎い俺でも、\\アルティスが何を言おうとしていたのか\\すぐに予想がついた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あれ？昼寝してたんじゃないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ルサルカのことを悪く言うつもりは\\なかったと思うぞ？",
-      "char": "c000_01",
+      "dialogue": "…騒がしいので目が覚めてしまった。\\悪魔に会いに来たようだな。",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
+      "pos": "center"
     },
     "21": {
       "type": "talk",
-      "dialogue": "どうして、そう思うの？",
-      "char": "c149_01",
+      "dialogue": "望みのものは得られなかったみたいだけど、\\できれば、もうあんな怖い奴らに関わりたくねーな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "それはその…悪魔の勘、かな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "dialogue": "オレの契約者があのようになった責任は、\\悪魔にもある。",
+      "char": "c121_01",
+      "speaker": "same"
     },
     "23": {
       "type": "talk",
-      "dialogue": "勘…",
-      "char": "c149_01",
+      "dialogue": "はあ？俺に何の責任があるっていうんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "24": {
       "type": "talk",
-      "dialogue": "えっと、だから…\\根拠とかはないけど意外と当たるんだぞ？\\悪魔の勘って。",
-      "char": "c000_01",
+      "dialogue": "契約を交わしてからというもの、更に狂い始めた。\\あそこまでおかしくなったのは、悪魔のせいだろう？",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
+      "pos": "center"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ふふ、面白いのね、悪魔さんは。\\本当に当たるといいんだけど…",
-      "char": "c149_01",
+      "dialogue": "そー言われてもな…\\俺は元々契約する気なんてなかったんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "26": {
       "type": "talk",
-      "dialogue": "笑わせようと思ったわけじゃないんだけどな…\\まあ、とにかく俺を信じろよ。\\きっと、いい話をしようとしてたんだろうからな。",
-      "char": "c000_01",
+      "dialogue": "どこで聞いたのか知らないけど、\\「お前の正体を知ってる」だのなんだのって\\脅されたから、\\仕方なく契約してやっただけだからな。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "facial": "confused"
     },
     "27": {
       "type": "talk",
-      "dialogue": "でも私…小心者だし、話すのも苦手だし…\\アルティスにも、きっとすぐに失望されてしまうと\\思うの。",
-      "char": "c149_01",
+      "dialogue": "…それにあいつがおかしいのは、\\初めて会った時からだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "28": {
       "type": "talk",
-      "dialogue": "なんだ。\\恋煩いをしてるのは、アルティスだけじゃないのか。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おかしい？\\悪魔には、契約者がどのようにおかしく見えた？",
+      "char": "c121_01",
+      "speaker": "same"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そんなことないって。もっと自信を持てよ。\\ルサルカは可愛いし、歌も上手いんだからさ。",
+      "dialogue": "人気と名声に目がくらんでるって感じだったな。\\初対面だったってのに、食って掛かる勢いだった。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "アルティスに失望されたりしないって、\\この俺が保証する！",
-      "char": "keep",
+      "dialogue": "…そうか。\\悪魔にはそう見えたか。",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
+      "pos": "center"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ふふ、ありがとう、悪魔さん。\\がんばって、告白します。アルティスに…",
-      "char": "c149_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "す…好き…って。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "好き…なんですか？",
-      "char": "c125_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "うわっ！あ、アルティス！？",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "おい、悪魔！さっさと出てこい！\\ここにいるのはわかってんだぞ！\\今すぐ、オレともう一回契約しろ！",
+      "char": "c121_00",
+      "speaker": "same_full",
       "pos": "left",
-      "distance": "normal",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "おお、最高のタイミングだ！ルサルカ、がんばれ！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…は、い。あの…す、好いて、おります。",
-      "char": "c149_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "そう、ですか。\\あなたはご主人様のことが好きだったのですね…",
-      "char": "c125_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "そうそう、俺のことが…って。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "after_effect": "shake_weak"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "僕はそんなことも知らず…し、失礼しました！",
-      "char": "c125_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "え、ええっ？\\ちょ、ちょっと待てよ、アルティス！今のは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
       "screen_effect": "dialog_shake",
       "before_effect": "shake"
     },
-    "41": {
+    "32": {
       "type": "talk",
-      "dialogue": "ああ…気持ちを伝えられなかった…",
-      "char": "c149_01",
+      "dialogue": "せ、先輩。人に聞かれますよ？",
+      "char": "c099_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "知るか！お前はさっさと失せろ！\\悪魔と契約するのはオレだからな！",
+      "char": "c121_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…だそうですけど、どうします～？ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "このまま騒がれ続けたら、\\あの契約者よりもご主人さまの方が\\有名になっちゃいますよ～？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "one_ani": "attack"
     },
-    "42": {
+    "36": {
       "type": "talk",
-      "dialogue": "いや、伝えた！アイツが勘違いしただけだ！",
+      "dialogue": "うう…人間って怖い…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "sigh",
+      "after_effect": "go_to_left_point"
     },
-    "43": {
+    "37": {
       "type": "talk",
-      "dialogue": "うう…やっぱり、私の気持ちなんて…",
-      "char": "c149_01",
+      "dialogue": "…初めからおかしかった、か。\\この歌を思い出すな。",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "bgm": "32"
     },
-    "44": {
+    "38": {
       "type": "talk",
-      "dialogue": "うわあ…どうしてこうなった！？\\メチャクチャややこしくなった…",
-      "char": "c000_01",
+      "dialogue": "But when I try to shut my mouth\\they come out anyway♪",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "serious",
-      "before_effect": "none",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "loop_ani": "attack"
     },
-    "45": {
+    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

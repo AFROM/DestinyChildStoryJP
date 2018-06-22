@@ -2,226 +2,217 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人さまぁ～。",
+      "dialogue": "ちょっと前のホウキ事件があった後、\\なんとリザが気前よく掃除機を買ってくれていた。",
       "background": "bg086_f",
       "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
+      "dialogue": "高価で高性能な物を選びました。\\これからは御主人様ご自身で、\\お掃除なさって下さい。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ご・主・人・さ・ま。",
-      "char": "c001_01",
+      "dialogue": "ここまでしたにも関わらず片付かないようなら、\\その時は御主人様に、またヤーガのホウキを\\握ってもらいますからね。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "……",
+      "dialogue": "なんだよー、\\それって俺の面倒が増えただけじゃんかー。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あら、どうしてそんなに元気がないのですか？",
-      "char": "c001_01",
+      "dialogue": "それは私のセリフです。\\御主人様のせいで、来る日も来る日も\\掃除、洗濯、食事の支度まで…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "irritation"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あ、モナか。",
+      "dialogue": "私は家政婦ではなく、\\あくまで御主人様のサポーターなんですよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "はいはい、わかってますよー。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "7": {
-      "type": "talk",
-      "dialogue": "モナが来たことにも気づかないなんて\\がっかりです。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
     "8": {
       "type": "talk",
-      "dialogue": "だよな？\\声をかけたのに相手が無視すると、\\がっかりするよな？",
-      "char": "c000_01",
+      "dialogue": "それはそうと、\\ヤーガはどこに行ったんだ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "誰かがご主人さまをがっかりさせたのですか？",
-      "char": "c001_01",
+      "dialogue": "さあ？ホウキを取られないように、\\どこかに隠れているのでは？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "right"
     },
     "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "11": {
       "type": "talk",
-      "dialogue": "そうなんだよ。\\この前、ヒュプノスがボーっと立っていたから\\近寄って声をかけたんだ。",
+      "dialogue": "もしかしてあいつ…まだエリオスのことで、\\怒ってんのかね？",
+      "background": "dungeon_bg",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "11": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
     "12": {
       "type": "talk",
-      "dialogue": "ヒュプノス、ここで何してるんだ？",
-      "background": "bg178_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "gray"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "gray"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "おい、何かあったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "gray"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point",
-      "screen_effect": "gray"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ヒュプノス？あれ？おい、どこに行くんだよ。\\ヒュプノス！ヒュプノス！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "screen_effect": "gray"
-    },
-    "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "確かに俺を見たはずなんだけど…\\いや、目が合ったし間違いなく見たはずだ！",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "それなのにまるで俺なんか存在しないみたいに\\返事もしないで行っちゃったんだよ。",
+      "dialogue": "あ、ヤーガ、こんなトコにいたのか。\\気分はどうだ？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "悪くはありません。\\わざわざ、それを訊きに来たんですか？",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "いや、まあ、そのだな…\\とにかく、元気ならいいんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ところで、他に何かご用ですか？\\命令などあれば…",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あー、だから別に用ってほどじゃないんだ。\\お前の姿が見えなかったからだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…私を心配して見に来たと？",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "まあ、そんなトコだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "面白いですね。\\ご主人様は、悪魔らしくない顔もお持ちで。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "たまに俺を好かないチャイルドもいるけど、\\あんな、あからさまに無視するヤツは初めてだ…",
+      "dialogue": "まさか悪魔がチャイルドの心配をするとは…\\悪魔にとってチャイルドは\\道具に過ぎないと思っていましたが…",
       "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "どうだろうな…他の悪魔はそんな感じみたいだけど、俺はそういうの、ちょっとなあ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "21": {
+    "22": {
       "type": "talk",
-      "dialogue": "はあ…ヒュプノスの心を開くのは\\簡単じゃなさそうだな。",
+      "dialogue": "別に魔王になりたい訳でもねーし…\\何だよ、そんな怪訝そうなツラして？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "そんなこともないですよ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
       "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ん？モナはアイツの心を開く方法を知ってるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "はい、知ってるかもです。",
-      "char": "c001_01",
+      "dialogue": "私の契約者は、悪魔が願いを叶えてくれると\\本気で思っていました。",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "25": {
+    "24": {
       "type": "talk",
-      "dialogue": "知ってるかもぉ？で、それは何だ？",
+      "dialogue": "お前はそう思ってないのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "25": {
+      "type": "talk",
+      "dialogue": "さあ…私の契約者が願いを叶えるために\\ご主人様を呼んだのは事実ですが。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
     "26": {
       "type": "talk",
-      "dialogue": "それはですね～",
-      "char": "c001_01",
+      "dialogue": "結局ご主人様が彼女と契約を結んだのは、\\ご主人様の目論見通りだったのではないですか？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "それは…",
+      "dialogue": "俺を自分勝手な奴だって、\\言いたいのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -229,34 +220,29 @@
     },
     "28": {
       "type": "talk",
-      "dialogue": "それは、秘密です♥",
-      "char": "c001_01",
+      "dialogue": "まさか。\\かえってご主人様が悪魔らしい行動をしたと\\感心しております。",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "オマエ、本当に人を上げて落とす才能あるよな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "dialogue": "バカにされてるのか、本気でそう思ってるのか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "あら、ありがとうございます♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "dialogue": "どーも無表情だから、よくわからん。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "31": {
       "type": "talk",
-      "dialogue": "褒めてない！\\とにかく、俺に自分で調べろってことだろ？",
+      "dialogue": "…悪魔らしい行動、ねえ。それじゃお前は、\\どうしてそんな自己中なヤツの力を借りたいんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -264,106 +250,74 @@
     },
     "32": {
       "type": "talk",
-      "dialogue": "ご主人さま、随分成長しましたね～",
-      "char": "c001_01",
+      "dialogue": "理由は簡単です。\\悪魔が私より強いからです。",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ちっ。\\手を貸してるつもりなのかそうじゃないのか…",
+      "dialogue": "はあ…何かよくわからんけど、\\これだけはハッキリしたな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "sulky"
+      "facial": "haah"
     },
     "34": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "35": {
       "type": "talk",
-      "dialogue": "ヒュプノス、今誰と話していたの？",
-      "background": "dungeon_bg",
-      "char": "c001_01",
+      "dialogue": "今、誰よりも悪魔っぽいのは俺じゃなくて、\\お前だろーな。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "idle"
     },
-    "36": {
+    "35": {
       "type": "talk",
-      "dialogue": "ハーイ、キレイなお姉さん。新しい友達のロバよ。",
-      "char": "c142_01",
+      "dialogue": "私が…悪魔らしい、ですか？",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ホントの所、\\とっくにお前も分かってるんじゃないか？\\俺が人間の真似してる悪魔だってさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
     },
     "37": {
       "type": "talk",
-      "dialogue": "ロバと遊ぶ夢をみていたようね。",
-      "char": "c001_01",
+      "dialogue": "もしかして…怒っていますか？",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "normal"
     },
     "38": {
       "type": "talk",
-      "dialogue": "夢じゃないわ。あ…夢かしら？",
-      "char": "c142_01",
+      "dialogue": "そーだな。\\お前と話していると、腹が立って仕方ないよ。\\俺、もう帰るわ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry",
+      "before_effect": "go_to_left_point"
     },
     "39": {
       "type": "talk",
-      "dialogue": "それじゃ、私は眠りから覚めてるの？\\それとも…眠っているの？",
-      "char": "keep",
+      "dialogue": "強いと言われて…怒ったの？\\本当に、悪魔らしくない悪魔ね。",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "40": {
-      "type": "talk",
-      "dialogue": "そうねぇ…\\ヒュプノスは答えを知ってるんじゃないかしら？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "私には分からないわ。",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "すぐに分かるわ。永遠の夢なんてないから。\\だから今は思う存分、夢を楽しんで。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "うん、永遠に幸せな世界で暮らすわ。",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

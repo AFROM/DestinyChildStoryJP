@@ -2,86 +2,93 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "《ナマエキライ！》《ケダマ！ヒドイ！》\\《カワイイナマエガイイ》",
-      "background": "bg122_f",
-      "bgm": "31",
-      "char": "m193_01",
+      "dialogue": "た、助けてくれ…！",
+      "background": "bg086_f",
+      "bgm": "12",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "と、言ってますが。",
-      "char": "c000_01",
+      "dialogue": "断る！",
+      "char": "c234_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "わがまま言うと\\かえって疲れますよ～？",
-      "char": "c001_01",
+      "dialogue": "ひどいな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "4": {
       "type": "talk",
-      "dialogue": "疲れるのは自分だろ？",
-      "char": "c000_01",
+      "dialogue": "お前の挑戦だ。俺が介入するものではない。",
+      "char": "c234_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "仕方ないですね～私は心の広い\\有能なサポーターですから。",
-      "char": "c001_01",
+      "dialogue": "とりゃ！とりゃ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "joy",
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どんな名前がいいか意見を聞いてみましょう。",
-      "char": "keep",
+      "dialogue": "揺らすな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "《ワイワイケダマ！》\\《チガウ！ゴチャゴチャケダマ》\\《ワンサカケダマ！》",
-      "char": "m193_01",
-      "speaker": "same"
+      "dialogue": "うるさい！\\ダビが行けって言ったら行くの！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ステキな名前ばかりで\\悩みますね♥",
-      "char": "c001_01",
+      "dialogue": "いたっ！ケツを叩くな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ご主人さまのご意見は？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "dialogue": "見ていられんな。",
+      "char": "c234_01",
+      "speaker": "same"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ざ、ざわざわ…知らん！モフモフでいいだろ！",
+      "dialogue": "ならさっさとこの重いサキュバスを\\俺の背中から下してくれ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "《ヤダ！モフモフキライ！》\\《ゴチャゴチャガイイ…》\\《ヤッサイモッサイ！》《ワンサカ！》",
-      "char": "m193_01",
-      "speaker": "same"
+      "dialogue": "ヤダ！絶対に下りないから！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "うるさい！お前たちはモフモフが一番ピッタリだ！",
+      "dialogue": "揺らすなっての！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -89,28 +96,222 @@
     },
     "13": {
       "type": "talk",
-      "dialogue": "この前は確か、\\モナに向かってネーミングセンスはないって\\言ってませんでした？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "dialogue": "心配するな。まだ下すつもりはない。",
+      "char": "c234_01",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お前は天才だ…",
+      "dialogue": "ううっ…ジャンケンなんてしたばっかりに…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "sigh"
     },
     "15": {
       "type": "talk",
-      "dialogue": "うふふっ♥",
-      "char": "c001_01",
+      "dialogue": "よし、時間だ。下りろ、サキュバス。",
+      "char": "c234_01",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ヤダ！もっと乗る！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "16": {
+    "17": {
+      "type": "talk",
+      "dialogue": "いい加減、下りろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "イヤ！一生、この上で暮らす！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "このガキ、言わせておけば…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "仕方ない。",
+      "char": "c234_01",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "きゃっ！放せ！この筋肉野郎！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ヘラクレスに持ち上げられたダビは\\大声を出して暴れていたが",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ヘラクレスは楽々とダビを俺の背中から下した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それも片手で…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いてて…やっと腰が軽くなった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "もっと乗る！もう一回、ジャンケンして！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "もう二度とするか、こんなゲーム！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "もう一回、もう一回！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "cry"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "くだらない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "それじゃ、筋肉のおじさん！ダビとジャンケンしよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "いいだろう。",
+      "char": "c234_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ジャーンケーン、ポンッ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ほお…",
+      "char": "c234_01",
+      "speaker": "same"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "大丈夫かー？ヘラクレスが勝っちゃったけどー",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ヘラクレスのお兄さん、\\まさかダビの背中に乗るわけじゃ…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "屈め、サキュバス。",
+      "char": "c234_01",
+      "speaker": "same"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ひいっ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ダビの背中に筋肉のおじさんが乗ったら\\ひ弱なダビの体が潰れちゃうよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "それなら勝つべきだろう。",
+      "char": "c234_01",
+      "speaker": "same"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "さぁ、早くしろ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ひいっ！ごめんなさい！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

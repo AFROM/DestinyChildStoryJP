@@ -1,138 +1,48 @@
-{
+﻿{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あぁ、頭が…\\なんでクリスマスにバトルなんて…",
-      "background": "bg204_f",
-      "bgm": "39",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200102059"
+      "dialogue": "欲しい物は、なんでも手に入れてきた。",
+      "background": "e048_01_f",
+      "bgm": "15",
+      "char": "c194_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ちぇー。ご主人、ギリギリ勝っちゃったね。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "voiceid": "200102060"
+      "dialogue": "可愛い物、美しい物、キラキラした物…\\人の心でさえも。",
+      "bgm": "keep",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "3": {
       "type": "talk",
-      "dialogue": "《勝っちゃった》？\\ダビさんや、何を言っているのかね？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "voiceid": "200102061"
+      "dialogue": "つまり、何が言いたいのかというと…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "4": {
       "type": "talk",
-      "dialogue": "って、こんなことしてる場合じゃ…\\オマエ、まさか…",
+      "dialogue": "私が手に出来ない物はないということ。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry",
-      "before_effect": "shake",
-      "voiceid": "200102062"
+      "speaker": "same_full"
     },
     "5": {
       "type": "talk",
-      "dialogue": "その通り！\\私こそが《神秘のクリスマスの妖精》でーす★",
-      "char": "c246_00",
-      "speaker": "unknown1",
-      "pos": "right",
-      "voiceid": "200102063"
+      "dialogue": "だから、私の手から逃げるものは許さない。\\それが誰であっても…",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
     },
     "6": {
       "type": "talk",
-      "dialogue": "騙されるか！\\オマエ、チャイルドだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry",
-      "voiceid": "200102064",
-      "before_effect": "shake"
+      "dialogue": "　　　　",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_atk_skill_drive_light_c194.mvd",
+      "background": "back_red"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "あら～♥\\アナタ、思ったより賢いのね。\\ご褒美にもうひとつ、いいことを教えてあげるわ。",
-      "char": "c246_01",
-      "speaker": "unknown1",
-      "pos": "right",
-      "one_ani": "attack",
-      "sound": "se_summon",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "200102065"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "実は、私、迷えるチャイルドなんですよ！\\どう？チャイルドを手に入れる絶好の機会！",
-      "char": "keep",
-      "speaker": "unknown1",
-      "pos": "right",
-      "voiceid": "200102066"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "このチャンスを逃したら、\\あとあと後悔することになるかも？\\さあさあ、私が欲しかったら、\\捕まえてごらんなさ～い♪",
-      "char": "keep",
-      "speaker": "unknown1",
-      "pos": "right",
-      "after_effect": "go_to_right_point",
-      "voiceid": "200102067"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "おい、待て！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake",
-      "voiceid": "200102068"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ね、ねえバカご主人、\\今のって、クリスマスの妖精だよねっ！？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy",
-      "voiceid": "200102069",
-      "one_ani": "attack"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "このバカ、ちゃんと話を聞いてなかったのか？\\ヤツは妖精なんかじゃない、チャイルドだっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry",
-      "voiceid": "200102070"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "むーっ、ダビ、バカじゃないもん！\\ダビのことをバカっていうなら、\\ご主人はウルトラスーパー大バカだよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "fury",
-      "voiceid": "200102071"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "こいつと口ゲンカしたって時間とカロリーのムダだ…それより、あのはぐれチャイルドを何とかするぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200102072"
-    },
-    "15": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

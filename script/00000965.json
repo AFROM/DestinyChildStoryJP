@@ -1,10 +1,371 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "bg101_f",
+      "bgm": "31",
+      "fade_in": "shorter",
+      "hold": "shortest"
+    },
+    "2": {
       "type": "talk",
-      "dialogue": "<color=\"ff6600\">進化</color>は<color=\"ff6600\">★</color>を上げる成長方法です。\\<color=\"ff6600\">最高レベルのチャイルド</color>と<color=\"ff6600\">進化素材</color>が必要です。",
+      "dialogue": "いらっしゃいませ～この度オープンしました\\メイドカフェ《Café de Petit》で～すっ♥",
+      "char": "c296_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200600001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "いらっしゃいませ…",
+      "char": "c283_00",
+      "speaker": "Morgan",
+      "pos": "left",
+      "voiceid": "200600002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あん、モーガンったら！\\そんな顔じゃ、お客さんが逃げちゃうわよ？\\ほーら、笑って笑って～？",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "200600003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "いえ、客足を遠ざけているのは、あなたのその対物\\ライフルの方だと思いますが…",
+      "char": "c283_00",
+      "speaker": "Morgan",
+      "pos": "left",
+      "voiceid": "200600004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "や～ん、うっかり持ってきちゃった！\\お客様～驚かせちゃってごめんなさ～い！",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "voiceid": "200600005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ハァ…客引きはアナタに任せます…\\私はご主人様の元へ戻ります。",
+      "char": "c283_00",
+      "speaker": "Morgan",
+      "pos": "left",
+      "voiceid": "200600006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "あら～？\\まだ社長のこと、ご主人様って呼んでるの？",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200600007"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c283_00",
+      "speaker": "Morgan",
+      "pos": "left",
+      "voiceid": "200600008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ご主人様から社長と呼べと言われたのに。\\ふふっ、モーガンったら、賢いように見えて私以上に抜けてるわよね～？",
+      "char": "c296_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200600009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…あ、お客様がお見えですよ。",
+      "char": "c283_00",
+      "speaker": "Morgan",
+      "pos": "left",
+      "voiceid": "200600010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あら～いらっしゃいませ、お客様～！\\本日はオープン記念でサービスたっぷりですよ～♥",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "200600011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "いや、遠慮しとく…\\カフェでのんびりしている暇なんて無いんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "200600012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あら、ひどい…\\そんな風に言わなくても…\\ヒルド超ショックです～…",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "200600013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "い、いや…\\そんなつもりじゃなかったんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "voiceid": "200600014"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "なら、来てくださるんですね！\\ヒルドと一緒に、温かい紅茶を飲みましょう！",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200600015"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "可愛い、可愛いヒルドが、お客様の御相手になって\\あげますよ～♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200600016"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ちょ、ちょっと引っ張るな！\\ど、どわっ、なんちゅーバカ力っ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake",
+      "voiceid": "200600017"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うわあっ、ああ…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "go_to_left_slow",
+      "voiceid": "200600999"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "…",
       "char": "none",
       "speaker": "none"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あれは…御主人様？",
+      "char": "c002_01",
+      "speaker": "same",
+      "before_effect": "enter_from_right_slow",
+      "voiceid": "200600018"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "bg223_f",
+      "bgm": "9",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ちょっと待ってくださいね。\\すぐに、世界一おいしい紅茶を持ってきますから～♥",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point",
+      "voiceid": "200600019"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いや、だから紅茶なんていらないって！\\お～い、ちょっとは客の話を聞けよ～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake",
+      "voiceid": "200600020"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "御主人様…\\バイト先を探しに行くと聞いていましたが、\\このカフェでバイトをするのですか…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200600021"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "え、なんでリザがここに…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "voiceid": "200600022"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "偶然姿を見かけたもので。\\それより、こちらの時給はいくらでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200600023"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "勤務時間は？カフェでバイトされた経験は？\\能力不足でクビにはなりませんか？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200600024"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ちょ、ちょっと質問攻めしてるとこ悪いけど、\\俺は無理矢理連れ込まれただけだから。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "voiceid": "200600025"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "それに、どんだけ時給が良くても、ここで働くつもりはないからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200600026"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "なんか怖いんだよ…\\あのメイドさん…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "200600027"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "お待たせしましたお客様。\\こちら、ご注文頂きました紅茶になります。",
+      "char": "c300_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200600028"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "だから、紅茶なんか注文してないって…\\そんな余裕もないし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "200600029"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ふふ…今更そんなこと言っても、キャンセルは\\できませんよ？",
+      "char": "c312_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200600030"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "お金がないなら、体で払ってもらいましょうか？\\ね～お客様？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200600031"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ひっ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "200600032"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "好都合ですね。\\ちょうどバイト先を探していた所です。\\御主人様、こちらで働いてみてはいかがですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200600033"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "絶対イヤ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "200600034"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "shy",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "う、分かった、分かったから、\\そんなニラむなって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake",
+      "voiceid": "200600998"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "ご納得頂けたようで何よりです。\\それでは、まず履歴書を作りましょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "200600035"
+    },
+    "43": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

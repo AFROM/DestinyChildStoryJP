@@ -2,420 +2,233 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ひさしぶりね、メイ。\\元気にしていたかしら？",
-      "background": "bg087_f",
-      "bgm": "24",
-      "char": "c057_01",
-      "speaker": "same"
+      "dialogue": "めっちゃ殴られた…",
+      "background": "bg086_f",
+      "bgm": "31",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はい！ランフェイさんも元気そうで安心しました。",
-      "char": "c167_00",
+      "dialogue": "そんな恥ずかしいこと、わざわざ口にしないで\\ください。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そう…ところで、何かあったのかしら？\\メイが私に会いにくるなんて。",
-      "char": "c057_01",
+      "dialogue": "一人では契約もできない悪魔だという噂でも流す\\おつもりですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "くそ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ですから一緒に行くと…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そんな事、口が裂けてもお願いできない…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "left",
+      "screen_effect": "dark"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "なんて情けない悪魔なの…傑作だね！",
+      "char": "m223_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "主人を見くびるのはサキュバスたちだけで十分だ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "unfair"
     },
-    "4": {
-      "type": "talk",
-      "dialogue": "あはは…\\特に何かがあったわけじゃないんですけど。昔の事を考えてたら、ランフェイさんの顔が見たくなって…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "あら、一人暮らしで寂しくなったの？",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "いや、そんなことは…\\バイトのみんなとも仲良くやっているし、\\毎日充実した日々で。\\でも、そうなのかな…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
-    },
     "9": {
       "type": "talk",
-      "dialogue": "好きな男でも出来た？",
-      "char": "c057_01",
+      "dialogue": "バカ悪魔が本当にバカみたいだから\\みんな見くびるんだよ。",
+      "char": "m223_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ギフトパッケージ、言い過ぎですよ。\\本当のことをそのまま言ってしまってはご主人様の\\プライドが傷つきます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ウフフフ～！なんて哀れな、情けない悪魔。\\かわいそうだ、残念だよ～！",
+      "char": "m223_01",
       "speaker": "same",
       "pos": "center",
+      "one_ani": "attack",
       "distance": "near"
     },
-    "10": {
-      "type": "talk",
-      "dialogue": "えぇぇぇー！\\な、なに、何言ってるんですかっ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "あら、図星だったみたいね。",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
-    },
     "12": {
       "type": "talk",
-      "dialogue": "あ、あの人はそんなんじゃ…",
-      "char": "c167_00",
+      "dialogue": "しかし、プライドなんてそもそもあるの？\\魔王になりたくないみたいだし。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "いい、メイ？\\よく聞きなさい。本当に好きになったのなら…",
-      "char": "c057_01",
+      "dialogue": "ギフトパッケージにもそんなこと言ったのですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "irritation"
     },
     "14": {
       "type": "talk",
-      "dialogue": "例え、相手が死んでしまおうとも、離しちゃダメよ？",
-      "char": "keep",
+      "dialogue": "俺が？そんなこと一言も…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ら、ランフェイさん怖い…",
-      "char": "c167_00",
+      "dialogue": "魔王にもなりたくない、他の悪魔と戦いたくもない。チャイルドを増やすのも面倒って…",
+      "char": "m223_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    }
-  },
-  "phase2": {
-    "1": {
-      "type": "curtain",
-      "background": "back",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "2": {
       "type": "talk",
-      "dialogue": "ランフェイさんは相変わらずだったな。\\でも会えてよかった。\\物騒だからあんまり来ちゃダメって言われたけど、\\また遊びに…",
-      "background": "bg178_f",
-      "bgm": "9",
-      "char": "c167_00",
-      "speaker": "same"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "テローン！どこ、いるー？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "…？\\あんなところに子供？",
-      "char": "c167_00",
-      "speaker": "same"
-    },
-    "5": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "テローン！どこー？",
-      "background": "bg058_f",
-      "char": "c195_20",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "何か探してるの？\\この辺りは、ひとりだと危ないよ？",
-      "char": "c167_00",
+      "dialogue": "サキュバスが自分の家に居候するのも…うっ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_right_slow"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "テロン、探してる！トモダチ！\\とっても、大切！ユー、知ってる？",
-      "char": "c195_20",
-      "speaker": "same_full",
       "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "テロン？知らないけど…\\大切な友達なんだね。",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "よし！あたしも友達探し手伝うよ！\\大切な友達が見つからない時の気持ちは、\\あたしにもよくわかるもん。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ねぇ、ウコン？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ウキャッ！",
-      "char": "keep",
-      "speaker": "monkey",
-      "distance": "toonear"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…それに、あの人なら、きっと手伝うだろうし…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "アリガト！イッショ、テロン、探す！",
-      "char": "c195_20",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    }
-  },
-  "phase3": {
-    "1": {
-      "type": "curtain",
-      "background": "back",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "へぇ、クレアの両親ももう亡くなってるんだ。\\じゃあ、あたしと一緒だね。",
-      "background": "bg058_f",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "オゥ、イッショ！トモダチモ、イッショ！",
-      "char": "c195_20",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ウキーッ！",
-      "char": "c167_00",
-      "speaker": "monkey",
-      "distance": "toonear"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "うふふ、ウコンったら！\\あれ？あそこに誰か…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "何だ、こいつ。でかい猫か？",
-      "background": "bg058_f",
-      "char": "none",
-      "speaker": "DemonA"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "知らね。けど、珍しいし、高く売れるんじゃねーか？",
-      "char": "none",
-      "speaker": "DemonB"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "あっ！テロン！テロン、返す！",
-      "char": "c195_20",
-      "speaker": "same_full",
-      "before_effect": "enter_from_right_slow"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "うるせー！\\こいつは俺のモンだ！",
-      "char": "none",
-      "speaker": "DemonA"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "クレア！危ない！！\\きゃぁ~！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_right_fast",
       "after_effect": "shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "テロン！返ってきた！\\メイ、いじめる、ダメ！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "てめぇ、そいつを寄こせ！殴られてーのか！？",
-      "char": "none",
-      "speaker": "DemonC"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "イヤッ！テロン、クレアと一緒！渡さない！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "クレアを助けないと…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あたしが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あたしが何とかするから！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そこまでだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "え？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "お前ら、子供に手を出して恥ずかしくないのかよ？",
-      "char": "c000_01",
-      "speaker": "same"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "あ、あなたは…あの時のっ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "怪我はないですか？\\御主人様が来たからにはもう大丈夫です。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "…いや、そう言われても困るけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "何を弱気な…\\しっかりしてください。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…はいはい。じゃ、頑張るとしますか！",
+      "dialogue": "そ、そこまでだ！その口を閉じろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "fury"
     },
+    "18": {
+      "type": "talk",
+      "dialogue": "うわーん！がぶり。",
+      "char": "m223_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うわっ！俺の手！食われる！リザ、助けてくれ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "shake"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "次の言葉が気になりますね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ご心配なさらずに。\\まさか、本当に食べられるとでも？\\少しの痛みとぬるっとした気色悪さだけです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "もぐもぐ。",
+      "char": "m223_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "食べてる！めっちゃ食べてるって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ギフトパッケージ、そのまま続けてください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "26": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c167_01",
-      "speaker": "same"
+      "dialogue": "御主人様がなんと言ったのか気になって\\我慢できません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "27": {
+      "type": "talk",
+      "dialogue": "ガブガブ。",
+      "char": "m223_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "わああ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "本当にいい食べっぷりですね、ギフトパッケージ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

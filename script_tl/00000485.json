@@ -2,329 +2,409 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はあ、はあ、はあ！",
-      "background": "bg082_f",
-      "bgm": "12",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "もうお疲れですか、御主人様。",
-      "char": "c002_01",
+      "dialogue": "…",
+      "background": "bg086_f",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "…何なんだ？今日はやたらと、\\ナイアスが俺の顔を見つめてくる。\\何というか…果たし状でも叩きつけてきそうな顔だ。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
     "3": {
       "type": "talk",
-      "dialogue": "最初からだ…\\はあ、はあ！",
+      "dialogue": "…あーわかったわかった！\\果たし状は受けてやるから、\\あんまり見るなって…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "少し走っただけで、これですか…\\目標まであと少しです！頑張ってください！",
-      "char": "c002_01",
+      "dialogue": "…果たし状？\\悪魔くんってば、何言ってるの～？",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "もう、無理だ！もう、動かないぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "dialogue": "俺の「果たし状」という言葉に、\\ナイアスは呆れたような顔をした。\\なんか、恥ずかしいかも…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "御主人様！",
-      "char": "c002_01",
+      "dialogue": "…違うの？\\じゃあ、なんでそんなに見つめるんだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal",
-      "facial": "angry"
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "行くなら俺を踏みつけて行け！",
-      "char": "c000_01",
+      "dialogue": "…実は、\\悪魔くんのことがちょ～っと気になってて…\\だから、確認させてくれないかな～？",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…ぐあっ！本当に踏みやがったっ！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "補欠の最弱悪魔が\\魔王になるという噂が広まっています。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ただの噂だ！信じるな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "99%が事実に基づいた噂だと思いますが。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "どこがだ？俺は魔王になるなんて\\一言も言ってないぞ。",
+      "dialogue": "確認って何を…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "それは、実際に確認してからのお楽しみ！\\じゃあ、とりあえずプールまで行ってみよ～！",
+      "char": "c158_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ぷ、プール？それはちょっと…\\あっ、ひ、引っ張るなって！うわっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "after_effect": "go_to_left_slow"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
     "13": {
       "type": "talk",
-      "dialogue": "魔王争奪戦に参加した以上、\\魔王になると宣言したことに変わりはありません。",
-      "char": "c002_01",
+      "dialogue": "ほら、悪魔くん。\\逃げないで、そこにちゃんと立っててね？",
+      "background": "bg061_f",
+      "bgm": "4",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お前も俺を責めるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "抵抗も虚しく、\\俺は結局プールまで連れてこられてしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "15": {
       "type": "talk",
-      "dialogue": "誰が何をするって？",
-      "char": "c191_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "セクメト？なんでお前がここにいるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ここは私の訓練場だ。お前こそ何してる。",
-      "char": "c191_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "お前の訓練場？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "《お前》とは何だ、《お前》とは！\\《兄貴》と呼べ、小僧…",
-      "char": "c191_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "笑わせてくれるわ！ハハハハ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "リザ…あいつ、怖い。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "目を見開いてちゃんと見てください。\\これから御主人様のロールモデルとなる\\チャイルドですから。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "何だって？\\俺に、あんな筋肉ムキムキの女になれと？",
+      "dialogue": "またこれかよ…\\こないだの練習で充分だろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "24": {
+    "16": {
       "type": "talk",
-      "dialogue": "…迫力を身につけろという意味です。",
-      "char": "c002_01",
+      "dialogue": "必殺！スペクタクル・イケメン・フィッシング！！",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
-    "25": {
+    "17": {
       "type": "talk",
-      "dialogue": "まだガキのくせに魔王になるため\\それでも努力してるつもりか？",
-      "char": "c191_01",
+      "dialogue": "話聞いてよ！\\てか、どんなネーミングセンスして…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "after_effect": "shake"
     },
-    "26": {
+    "18": {
       "type": "talk",
-      "dialogue": "無理だ、無理。そんなガキに迫力なんて物…\\小僧、魔王じゃなく私の子分になれ。",
+      "dialogue": "うわぁ～っ！！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "27": {
+    "19": {
       "type": "talk",
-      "dialogue": "可愛がってやろう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "と言い、セクメトは俺に向かってウィンクした。",
+      "dialogue": "すべてツッコミ切る前に、\\俺はいつかと同じようにプールに引きずり込まれた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "29": {
+    "20": {
       "type": "talk",
-      "dialogue": "風邪ですか？\\体が震えていますが。",
-      "char": "c002_01",
+      "dialogue": "う～ん、やっぱりなんか違う～？",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "30": {
+    "21": {
       "type": "talk",
-      "dialogue": "急に寒気が…",
+      "dialogue": "「やっぱり」って…\\わかってたなら、最初からするなよな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "sigh",
-      "before_effect": "shake"
+      "facial": "confused"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…こうなるのは予想できてたんだし、\\さっさと着替えとくんだった…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…はあ。\\やっぱり、勘違いだったのかな～…",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…？\\何が？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "えっ！？ば、バカ！そんなこと聞かないでよ～！",
+      "char": "c158_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ナイアスは顔を真っ赤にしながら怒り出す。\\そんなに聞かれたくないことだったのか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "…もうっ、こうなったら、第2段階よ！",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "第2段階？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "もちろん、遊園地に決まってるでしょ！",
+      "char": "c158_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "30": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "さ！どこまで行くつもりだ？あの上か？",
-      "char": "c191_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "背中にのれ、小僧。私が連れて行ってやる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "い、嫌だ！",
+      "dialogue": "つ、疲れた…まさか、\\プールと遊園地をはしごする羽目になるなんて…",
+      "background": "bg072_f",
+      "bgm": "14",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "shock",
-      "after_effect": "go_to_right_point"
+      "facial": "sigh"
     },
-    "34": {
+    "32": {
       "type": "talk",
-      "dialogue": "恥ずかしがるな…\\ん？もうあんな所まで行ったのか。",
-      "char": "c191_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "御主人様！\\初めからそうやって走ればいいものを…",
-      "char": "c002_01",
+      "dialogue": "ちょっと～！悪魔くんってば、体力なさすぎ！",
+      "char": "c158_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "33": {
+      "type": "talk",
+      "dialogue": "あと2時間ぐらいだから、頑張って～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "2時間って、何かあるのか？\\…まあ、ここまで来たら、\\最後まで付き合うしかないか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
     "36": {
       "type": "talk",
-      "dialogue": "ふん、男であることを見せつけたいのか？\\可愛いもんだ。",
-      "char": "c191_01",
+      "dialogue": "あらあら♥\\プールに遊園地…最後は観覧車だなんて、\\素敵なデートですね♥",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
     },
     "37": {
       "type": "talk",
-      "dialogue": "おい、そこの女。私の背中にのれ。\\上まで連れて行こう。",
-      "char": "keep",
+      "dialogue": "デートの「練習」！\\結局、何がしたかったのか分からなかったけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "38": {
       "type": "talk",
-      "dialogue": "よろしくお願いします。",
-      "char": "c002_01",
+      "dialogue": "ご主人さまは相変わらずですね～\\それで、ナイアス。\\結局、あなたの気持ちはどうだったの？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "39": {
       "type": "talk",
-      "dialogue": "よし！久しぶりに体を動かしてみるか！",
-      "char": "c191_01",
+      "dialogue": "う～ん…微妙だけど、やっぱり勘違いだったかも！\\悪魔くんは、イケメンじゃなかったみたい！",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "うふふ♥フラれちゃいましたね、ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "うるさい。\\俺達は別に、そーゆー関係じゃないっての。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "40": {
+    "42": {
+      "type": "talk",
+      "dialogue": "…てか、俺がイケメンかどうか確認するだけなら、\\わざわざ出かけなくてもよかったんじゃないの…？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "まあ、そうなんだけど…\\悪魔くんも悪くないかな～\\なんて思ったり思わなかったり…",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "あら♥よかったですね、ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "ま、まあ、\\イケメンじゃないって即答されるよりはマシ、か？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "ねえ、悪魔くん。\\もっと正確に判断するためにも、\\今度またプールに…",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "だが、断る！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "fury",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "ああ～ん、もう、即答しないでってば～！！",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "今度こそ、本気で溺れ死にかねない…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "50": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

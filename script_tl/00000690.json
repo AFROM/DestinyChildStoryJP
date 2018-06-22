@@ -2,354 +2,249 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いたっ！\\何だよ、急に！？",
-      "background": "bg101_f",
-      "bgm": "4",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "serious",
-      "before_effect": "shake"
+      "dialogue": "常識的に考えて真夜中に\\どこからともなく音が聞こえたら、",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "よし！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
+      "dialogue": "誰かがいると考えるのが普通だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何がよし、だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "one_ani": "attack"
+      "dialogue": "しかし、その何者かが泥棒だとは考えにくい。\\少なくてもこの家では。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "いたっ！なんで叩くの！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
+      "dialogue": "175円？これで全部？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "5": {
       "type": "talk",
-      "dialogue": "オマエこそ急に人の目を突きやがって！",
+      "dialogue": "なぜなら、盗める物がないといけないからだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "おい、オマエ！俺の部屋で何してる！",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "fury"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "心配しなくてもいいよ、お兄さん。\\盗みたくても盗むものがないんだからー",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "泥棒のくせに堂々としすぎだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ブタの貯金箱に入ってたお金がたったの\\175円だなんてー",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "175円でも泥棒にやる金はない。\\さっさと出てけ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "出てく？逃がしてくれるなんて嬉しいねー。",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_point"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "おい、待て待て。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "6": {
-      "type": "talk",
-      "dialogue": "痛かった？ご主人？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "smile"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "当たり前だろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "うっ…涙が出る…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ヘヘ…ダヌの言う通りだ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ダヌがね、嫌いなヤツを見かけたら\\目玉を突けって。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "…アイツ、俺に恨みでもあるのか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ねえ！アンタたち。ここで何してるの？",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
     "13": {
       "type": "talk",
-      "dialogue": "噂をしたけりゃ日陰ってこのことだね。",
-      "char": "c003_01",
-      "speaker": "same"
+      "dialogue": "窓を開けて何する気だ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "14": {
       "type": "talk",
-      "dialogue": "噂をすれば影、だろ…",
-      "char": "c000_01",
+      "dialogue": "出てけって言ったじゃん？",
+      "char": "c225_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "far"
     },
     "15": {
       "type": "talk",
-      "dialogue": "アンタたち、今、私の悪口言ったでしょ？",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ち、違います！刑事さん…",
+      "dialogue": "部屋のドアから出てけって意味だ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "facial": "confused"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "面倒だけど、仕方ないか。",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "なんで目を反らすのよ。怪しいわね。",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "刑事さんに似た子の話をしてたんだよ。",
-      "char": "c003_01",
-      "speaker": "same"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "私に似た子？\\誰かは知らないけど、きっと可愛いんでしょうね。",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "よくもまぁ、そんなことが言えるな…\\と思ったけど、確かにすごい童顔だ、\\この刑事さん。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "この顔で飲兵衛だなんて信じられないけど…\\この人がダヌの契約者、富樫智佳(とがし ともか)だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "と、ところで刑事さんはここで何を…？",
+      "dialogue": "玄関もダメだぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "18": {
+      "type": "talk",
+      "dialogue": "ハ？窓もダメ、玄関もダメって。\\どうやって出てけって？",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "家出禁止だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "出てけって行ったのはお兄さんでしょー?",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "図々しいヤツ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "分かったよ。家出がダメなら\\散歩でもしてくるよー",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "見たら分かるでしょ、勤務中よ。",
-      "char": "c235_00",
-      "speaker": "same_full",
+      "dialogue": "そのくらいいいでしょー？",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ダビ、知ってる！潜入入試でしょ！",
-      "char": "c003_01",
-      "speaker": "same"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "それを言うなら潜入調査だろ…\\でもこんな大通りを堂々と歩いてていいんですか？",
+      "dialogue": "そのくらいは許してやる…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "smile"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "とでも言うと思ったか！\\またどこかで盗みを働く気だろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "26": {
       "type": "talk",
-      "dialogue": "まぁ、子供と話してたら犯人もまさか私が\\刑事だとは思わないでしょ。",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "夜空の星のように輝く瞳をした女性の～",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "27": {
       "type": "talk",
-      "dialogue": "あ、そうだ。あの巨乳のお姉さんは元気？",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "財布だろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "28": {
       "type": "talk",
-      "dialogue": "アイツならいつも通りですよ。\\ふてぶてしく、いつもニコニコ笑ってます…",
+      "dialogue": "ふふ。",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺の家に来た以上、犯罪行為は絶対許さない。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "29": {
-      "type": "talk",
-      "dialogue": "モナ姉さまの悪口言うな！",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "fury",
-      "one_ani": "attack"
-    },
     "30": {
       "type": "talk",
-      "dialogue": "後でまた相談所に行くからって伝えてくれる？",
-      "char": "c235_00",
-      "speaker": "same_full",
+      "dialogue": "お兄さん、ホントに悪魔？",
+      "char": "c225_01",
+      "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "また？",
+      "dialogue": "オマエ今、俺のこと悪魔らしくないって思ったろ？\\ダメなものはダメだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ここでいう相談所とは《モナの相談所》のことだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "しつこいご主人様だねー\\分かったよ。今日はここまでにするよ。",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "訪ねて来た生贄…もとい、客と契約を結ぼうという\\真っ黒な下心が感じられる…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それって…明日は盗みをするってことか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "34": {
-      "type": "talk",
-      "dialogue": "行っちゃ悪い？",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "あ、いえ…まさか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "よかったじゃん！ダヌと再契約を…",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "smile"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "う、うるさい！この空気の読めないガキめ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "再契約が何だって…？",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "いや、最近相談所にお客さんが\\めっきり来なくなって…\\また来てくれたら嬉しいなって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "怪しいわね…",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "そ、それより悩みでもあるんですか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "班長がさ…見れば見るほど腹立たしくって！\\だからって一発殴るわけにもいかないし。",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "例の上司ですか？\\結局、告発しないんですか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "もう少しタイミングを見計らって…\\今はまだその時じゃないわ。",
-      "char": "c235_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "none"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "うう…イライラする！仕事が終わったら酒よ、酒！\\今日はとことん飲んでやる！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "極端な人だな…\\ダヌがどうして、ああなのか分かる気がする…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "47": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

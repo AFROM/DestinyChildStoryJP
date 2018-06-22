@@ -2,311 +2,461 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "嫌なら嫌とおっしゃってください。\\子供じみてはいませんか？",
-      "background": "bg086_f",
-      "bgm": "20",
-      "char": "c002_01",
+      "dialogue": "この前会った人、よね？",
+      "background": "bg012_f",
+      "bgm": "14",
+      "char": "c004_00",
       "speaker": "same",
       "pos": "right",
-      "facial": "irritation"
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうせ言っても聞かないだろ！",
+      "dialogue": "そうそう、この前会ったイケメンなお兄さん！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal",
+      "facial": "joy"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いや、そうじゃなくて…これは俺のせいじゃない！",
-      "char": "keep",
+      "dialogue": "バカお兄さんと可愛い保護者だよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "他でもない御主人様に契約書をお渡ししたのに\\自分のせいじゃないですって？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "よかった！またお話し出来たね！\\あのね、私、友達と仲が良くって…ん…\\仲良く…？そ、そうなの、とにかく仲いいの！",
+      "char": "c004_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "確かにもらったけど、落書きしたのは俺じゃない！\\それに、俺がこんな小学生みたいな絵を描くと\\思ってるのか？",
+      "dialogue": "…あ、仲がいいのか。それはよかった。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そのくらい私にも分かります。これはオーロラの\\仕業です。もう彼女は自白してます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "でしょ？\\ちょっと見ててね、もっと仲良くするから！",
+      "char": "c004_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ひどいわ、リザ！",
-      "char": "c026_01",
-      "speaker": "same"
+      "dialogue": "興奮してるのか、\\ちんぷんかんぷんなことを言うジェニファーは、\\子供らしくない力で俺を日陰の壁に追いやった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ならオーロラにだけ怒ればいいだろ。\\なんで俺が怒られるの！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "shake"
+      "dialogue": "そしてどこかへ駆けて行った。\\いや、正確には、駆けて行こうとした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "契約書を受け取ったのはご主人様です。\\最後まで責任を取ってください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ジェニファーはどうして来ないの？\\ねえ、何か知ってる？",
+      "bgm": "15",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "left",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "責任なんて！ちょっとトイレに行ってる間に…\\どう食い止めろって言うんだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "dialogue": "アイスクリーム買って来いって言っただけぜ。\\そんなこともできないのかね？\\あいつ、正真正銘のバカなのか？",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もっと絵を描きたいの！",
-      "char": "c026_01",
-      "speaker": "same"
+      "dialogue": "アイスクリーム買うお金がないんじゃない？",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ダメです、オーロラ。\\さっきも言ったでしょう？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "その時は自分でなんとかするだろ。",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それともまだ理解できていないのですか？\\やはり最初からお話ししないと…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "まあね。あの子、こき使っても言うこと聞くもん。\\すっごい金持ちなんじゃない？\\見たカンジ、全然そうは思えないけど。",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "left",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "嫌よ！文句言われたくないわ！",
-      "char": "c026_01",
-      "speaker": "same",
-      "before_effect": "shake_weak"
+      "dialogue": "それより、アイツの母親見たことあるか？\\そっくりだぜ。",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "一体いつまで説教するんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "壁際で彼らの話し声を聞いていたジェニファーは、\\慌てたように顔を上げ、俺の目を見つめた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "オーロラ、お前はもう帰れ。\\紙はもうない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ぐすん…お絵かき…",
-      "char": "c026_01",
-      "speaker": "same"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "さっさと行けって…\\こっちが迷惑なんだよ。",
+      "dialogue": "あいつら…友達、じゃないのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ジェニファーの両手に握られたビニール袋から\\溶けたアイスの滴がしたたり落ちていた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "私は…仲良くしてたよ。\\友達って…思ってた…",
+      "char": "c004_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ご主人ってば、相変わらずマヌケだね。\\何ボーっとしてるの？今が契約のチャンスじゃん。",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "オーロラの執着は予想を遥かに超え、\\俺の横にセミのようにくっついて…",
-      "background": "bg041_f",
+      "dialogue": "ダビが契約書を差し出した、冷たいヤツだ。\\慰める時間もくれないらしい。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…紙をくれとせがんだ。\\しかもただの紙じゃなく、契約書を、だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…友達だと思ってたのに！",
+      "char": "c004_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "none"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "それがいいの！",
-      "char": "c026_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "これはダメだ…\\一体いつまでついて来るつもりだ？",
-      "char": "c000_01",
+      "dialogue": "遊んでくれなかった…\\友達だと思ってたのに…寂しいよ…\\どうして遊んでくれないの…\\仲良く、してくれないの…？",
+      "background": "dungeon_bg",
+      "bgm": "6",
+      "char": "c004_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "24": {
       "type": "talk",
-      "dialogue": "俺が何とかしよう。",
-      "char": "m050_01",
+      "dialogue": "それなら絶交なんだから！！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "after_effect": "go_to_right_point",
+      "screen_effect": "dialog_shake"
     },
     "25": {
       "type": "talk",
-      "dialogue": "うわっ、ビックリした！？\\どこから現れたんだよ！",
+      "dialogue": "ちょっと待て！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
       "facial": "confused",
-      "before_effect": "shake_weak"
+      "after_effect": "go_to_right_point"
     },
     "26": {
       "type": "talk",
-      "dialogue": "キャア！怖い！イヤ！",
-      "char": "c026_01",
+      "dialogue": "絶交よ！うわあああああ！",
+      "char": "c004_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_point",
+      "screen_effect": "dialog_shake"
     },
     "27": {
       "type": "talk",
-      "dialogue": "いい加減、飛び跳ねるな…\\あっ！ズボンがちぎれる！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "dialogue": "処容はとてつもないスピードで走り出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "厄介なものが離れないんだって？\\俺が片づけてやろう。",
-      "char": "m050_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "dungeon_bg",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "オーロラのことか？どこ情報だ？",
-      "char": "c000_01",
+      "dialogue": "私に構わないで！",
+      "background": "dungeon_bg",
+      "bgm": "9",
+      "char": "c004_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "リザから聞いた。",
-      "char": "m050_01",
+      "dialogue": "危険な目に遭うかもしれないのに…\\置いてきぼりにはできないだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "31": {
       "type": "talk",
-      "dialogue": "自分は面倒だからって、遣いを送ったのか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "で、どうやって解決するつもりだ？\\言っておくが、こいつはただ者じゃないぞ。",
+      "dialogue": "はあ、はあ…\\見て見ぬフリをするわけには…いかないだろ！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…隊長、息、切れてるね。",
+      "char": "c004_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "こ、来ないで！",
-      "char": "c026_01",
+      "dialogue": "はあ…はあ…\\そりゃ、ここまで必死になって走って来たからな。",
+      "char": "c000_01",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "34": {
       "type": "talk",
-      "dialogue": "オーロラは怯えた表情で\\《凶殺》と書かれた名札を突き出した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あ、足腰が…軟弱…！はあ…はあ…",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "normal"
     },
     "35": {
       "type": "talk",
-      "dialogue": "気に入らないヤツに付ける名札…\\お守りのようにも見えるが、相手がギロチンでも特に効果はない。",
+      "dialogue": "ダビ、お前の脚もガクガク震えてるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "むー！レディの脚についてゲンキューするなんて、\\無神経にも程があるよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "はあはあ…もうやだ！動けないー！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "隊長はかけっこが嫌い…違う？\\走ったから苦しいんだよね？",
+      "char": "c004_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "でも走った。嫌だけど我慢した。どうして？\\…苦しいのに、なんで我慢するの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "別に、\\そんな我慢できないほど辛い思いはしてないけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ねえ、どうして？\\辛いのに我慢するのは、仲がいいから？\\仲良くなりたいから、我慢してるの？",
+      "char": "c004_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "ずっと我慢して走り続けたら、\\そうしたら仲良くなれる？\\…いつまで、我慢すればいい？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "そんなの、俺もしらないよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "知らない…？",
+      "char": "c004_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "仲がいいっていうのがどういうことかなんて、\\そんなの俺にはわからない。\\悪魔だろうと人間だろうと、\\他人の気持ちなんてわかるかよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "この心のダンジョンの果てまで走ったって\\その中にあるものなんてわからない。\\それに、知ってどうするってんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "そうなんだ…隊長にもわからないんだね。\\わからないけど、走ってくれた。",
+      "char": "c004_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "…そっかぁ、仲良くっていうのは、\\ひとりじゃできないことだったんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "ひとりでは友達になれないんだ！やっとわかった！\\じゃあ、私、もっと勉強する。\\隊長も知らないなら、習う！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "何のことだかさっぱりだけど、\\機嫌はよくなったみたいだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "また走り出したら大変だから、さっさと捕まえてよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "俺の手で捕まえられるなら、とっくにそうしてるさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "勉強する！勉強するよ！\\もっと仲良くなる方法！友達になる方法！\\私、一生懸命勉強する！",
+      "char": "c004_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "処容はそう言って、また走り出した。\\あいつ、いつまで走り続けるつもりだ？",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "36": {
+    "55": {
       "type": "talk",
-      "dialogue": "頭をちょん切ってやる…",
-      "char": "m050_01",
+      "dialogue": "隊長！頑張って、隊長の友達になる！\\一生懸命、頑張る！",
+      "char": "c004_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
-    "37": {
+    "56": {
       "type": "talk",
-      "dialogue": "頭を？",
+      "dialogue": "おぉ…そっか。\\でも走るのはそのくらいにしてくれよな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "haah"
     },
-    "38": {
-      "type": "talk",
-      "dialogue": "キャア！キャアアア！",
-      "char": "c026_01",
-      "speaker": "same",
-      "before_effect": "shake",
-      "one_ani": "attack"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "さあ、頭を差し出せ。",
-      "char": "m050_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "これじゃ「遣い」じゃなくて「刺客」だな…\\やり方が極端すぎる…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "41": {
+    "57": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

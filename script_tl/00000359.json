@@ -2,201 +2,294 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うーん…おかしいな。\\タナトスとはどういう経緯で契約したんだっけ？\\こんなに記憶に残ってないのは初めてかもだ……",
-      "background": "bg086_f",
+      "dialogue": "ほ、本社の方針なので…勝手に変えられません…\\ご期待に添えず申し訳ありません…",
+      "background": "bg011_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "char": "c052_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "契約のとき、居眠りでもしてたってのか…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "毎回謝られても、こちらも困ってるんですよ？\\原子内美喜男(はらしないみきお)さん。\\発注数を減らしてくれないとやっていけません。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "3": {
       "type": "talk",
-      "dialogue": "うふふっ～きっとそういうことだと思いますよ～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense",
-      "after_effect": "go_to_right_slow"
+      "dialogue": "も、もちろん減らすことは\\すぐに私の権限でできるのですが…\\わかりました、特別に貴方だけ、なんとかします…",
+      "char": "c052_00",
+      "speaker": "same_full"
     },
     "4": {
       "type": "talk",
-      "dialogue": "モナは、なんでいつもタナトスの話を避けるんだ？",
+      "dialogue": "ですが、ここまでは承認して\\サインをしていただかないと…\\実際の発注数は、必ずなんとかしますから…！\\書面だけでも…！",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shortest",
+      "wait": "shortest",
+      "fade_in": "shortest"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あーあ、また嘘吐いちゃったな…",
+      "background": "bg177_f",
+      "char": "c052_00",
+      "speaker": "same_full"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "どうやって発注数を減らすんだ…？\\書面と違う数を納品なんて、\\そんなこと出来るのか…？？",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "僕はサインが欲しかっただけなのに…\\また口から出まかせを言ってしまった…\\明日、どうやって本社に報告すればいいんだ！",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…どうやらまた嘘を吐いてしまったようだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "5": {
+    "10": {
+      "type": "talk",
+      "dialogue": "今なら、この窮地をどうにか出来る、と言えば\\たとえそれが嘘でも、どんな契約書にも\\サインしてしまいそうですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "弱ってる時にそういう契約は持ち掛けたくない。\\…そんなことまでするほど戦力に困ってる\\わけじゃないだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "人間界には、《若い時の苦労は買ってでもしろ》\\という言葉がありますよね？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "まあ、あるにはあるけどさ。\\でも、その苦労が本当にすべき苦労なのか\\どうかは誰にもわかんないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "お優しい御主人様が偉大な魔王になるには\\もっと考えて行動すべきでは？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "はぁい、もっと努力しまぁす。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "16": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "6": {
-      "type": "talk",
-      "dialogue": "タナトスはとにかく変わってる。\\どうやら自分と死んでくれるっていう\\奇特な相手を探してるらしい。",
-      "background": "dungeon_bg",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "初めて会った時なんかも……",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "死にたい…",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "は～、そうですか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…と答えたら、ちょっと拗ねてしまったようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "我と共にあの世に行かぬか…？",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あの世っていうと少し違うけど、\\俺は魔界が嫌で飛び出してきたんだ。\\家出少年なんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…と答えたら、さらに拗ねたようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "14": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shortest",
-      "fade_in": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "答えろ。",
-      "background": "bg086_f",
-      "bgm": "keep",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "何を？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
     "17": {
       "type": "talk",
-      "dialogue": "我が人生にどんな意味があるのか…",
-      "char": "c067_01",
+      "dialogue": "僕のせいでもあるからとりあえずついてきたけど\\本当に君たちって暴力以外の解決方法を知らないの？",
+      "background": "dungeon_bg",
+      "bgm": "2",
+      "char": "c052_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "命ある限り、人生は永遠に未完成…\\描き続ける絵の如し…",
-      "char": "c000_01",
+      "dialogue": "話せばわかる…だから戦うのは遠慮したい。\\そもそも僕は頭脳派なんだよ…？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "我は何者だ…？",
-      "char": "c067_01",
+      "dialogue": "頭脳派っていうか、\\口先だけのダメ営業マンって感じだけどな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "今日のコンディションは最悪。\\だから足を引っ張るより、援護に回ったほうが…",
+      "char": "c052_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "つべこべ言ってないで前線に出てください。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ほら、お前の信者たちがキラキラした目で\\お前を見てるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "嘘を吐いてきた代償です。\\あの子たちの期待に応えるんですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "最善を尽くして、あの子たちが感動して\\全財産をなげうつくらいの\\素敵な姿を見せてください。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "くっ…わかったよ。僕が口先だけではないことを\\僕の信者たちにも見せてあげるよ…♪",
+      "char": "c052_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "後悔しないように。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "20": {
+    "27": {
       "type": "talk",
-      "dialogue": "そうとも、俺は炎の男。\\あきらめの悪い男さ…ハハハ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "dialogue": "…ああ、誰かになすりつけてこの場を逃げたい…",
+      "background": "back",
+      "char": "keep",
+      "speaker": "same"
     },
-    "21": {
-      "type": "talk",
-      "dialogue": "……話にならんな、若造。",
-      "char": "c067_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "また拗ねてしまったようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "23": {
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "24": {
+    "29": {
       "type": "talk",
-      "dialogue": "約束は忘れてないだろうな、サキュバスよ。",
-      "background": "dungeon_bg",
-      "char": "c067_01",
+      "dialogue": "いいからさっさと行けって。\\これを機に、自分の言葉に責任を持つようにしろ。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "どういう意味…？僕が口八丁手八丁なのは\\生まれつきだから仕方ないんだけど…？",
+      "char": "c052_01",
       "speaker": "same",
       "pos": "right"
     },
-    "25": {
+    "31": {
       "type": "talk",
-      "dialogue": "んもう、急かしちゃイヤです♥\\時間が必要なんですってば。",
-      "char": "c001_01",
+      "dialogue": "はぁ…でも、これからはなるべく嘘は吐かない。\\出来ないことを出来ないってわかってもらうために\\この口を使おう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…反省してるんだか、してないんだか。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense",
-      "one_ani": "attack"
+      "facial": "sigh"
     },
-    "26": {
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "今日は僕が前線に立って\\雑魚どもを蹴散らしてきたんだけど…",
+      "background": "e048_01_f",
+      "char": "c052_01"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "魔王候補の中でも最強と言われている悪魔が\\三段合体したせいで…",
+      "char": "keep"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "僕はちっとも歯が立たなかった…力不足ですまない…",
+      "char": "keep",
+      "distance": "near"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "確かに出来ないことを出来ない、とは認めてるけど…",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "へー、ベリトはやっぱり頭脳派なんだね。\\このウスラトンカチの戦略を考えてあげてよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "…考えてあげたいことはやまやまなんだけど。\\そのためには8615465320通りのやり方が合って…",
+      "background": "e048_01_f",
+      "char": "c052_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "前よりややこしくなっているような気がしますね。",
+      "background": "bg086_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "はあ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

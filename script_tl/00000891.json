@@ -2,259 +2,211 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ふぅ…大丈夫だったか？",
-      "background": "bg077_f",
-      "bgm": "8",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "…だが、現実は想像以上に残酷だ。",
+      "background": "bg237_f",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "bgm": "20",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "う、うん、ありがとう。それで、コウガは…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ふふ、参りました。よく頑張りましたね、メイ。\\今度こそ、あなたの力で守れたではありませんか。",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "…！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "コウガ、お前、まさか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "どうやら、暴走したふりをして、\\契約者の力を引き出そうとしたようですね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "そういうことだったのか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "そうならそうと、先に言ってくれ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ねぇ、どうして、あたしにそこまでしてくれるの？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "私は元々、あなたの寂しいという思いから、\\生まれた存在だからです。",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "えっ！？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "そして、誰かを守りたいという思いも…",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "コウガは自分の正体をメイに明かすと、\\俺に向き直った。",
+      "dialogue": "旅館に向かう道中、ダビが何かに気を取られ、\\横道にそれたのを追いかけてきたら、俺自身が\\迷子になってしまった…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "吹雪いてきてるし…前が見えない…\\俺、このまま死ぬんじゃないの…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sad",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "いやだー！死ぬならあったかい布団の中で\\だらだらと眠るように死にたいー！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair",
+      "before_effect": "shake",
+      "after_effect": "none"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "もぞもぞ…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "んん？今、何か動いたような…\\おーい！誰かいるのかー！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah",
+      "before_effect": "shake_weak",
+      "after_effect": "none"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "きゅう…",
+      "char": "m253_01",
+      "speaker": "unknown1",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "何だお前、うさぎ…？\\罠に引っかかったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "みゅ…",
+      "char": "m253_01",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "うっ…そんなすがるような目で見るなよ…\\わかった、助けてやるって。\\ほら…これで動けるだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah",
+      "before_effect": "shake",
+      "after_effect": "none"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "きゅうっ<b>♪</b>",
+      "char": "m253_01",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "はは、良かったな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…！きゅうっ！きゅうっ！",
+      "char": "m253_01",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake_weak",
+      "after_effect": "none"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "生まれ落ちてからも、貴女の寂しさは私に\\伝わってきました。",
-      "char": "c355_01",
+      "dialogue": "ん？どうした、急に騒ぎ出して？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ご主人様、お願いがあります。\\あなたは、メイが心から守りたいと思った方…\\どうか、これからもメイの傍にいてあげてください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "グウウウウウゥ…！",
+      "char": "none",
+      "speaker": "MONSTER",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake",
+      "after_effect": "none",
+      "screen_effect": "dialog_shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "こ、コウガってば、何言って…",
-      "char": "c167_00",
+      "dialogue": "も、モンスター？\\ああ、コイツらに怯えてたのか…\\しかし、なんでこんな所に？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
       "before_effect": "shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あら？傍にいてほしくないのですか？",
-      "char": "c355_01",
+      "dialogue": "…って、考えてる場合じゃない！\\ヤバいぞコレ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "after_effect": "none"
     },
     "18": {
       "type": "talk",
-      "dialogue": "それは…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "きゅうっ～きゅきゅうっ！",
+      "char": "m253_01",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake",
+      "after_effect": "none"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あー…\\よくわからないけど、そんな約束できないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "！？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "そ、そうだよね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "でもさ、バイトが休みで暇な時なら、話し相手ぐらいにはなってもいいよ。それでいいか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "う、うん！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ふふ。では、私はこれで…",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "あっ、待って、コウガ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "どうしました？",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "さっき、力を貸してくれるって言ってたでしょ？\\あなたがそう言ってくれるなら、\\あたしもあなたの力になりたい。",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…だから、友達になってくれないかな？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "私が、メイの友達に…ですか？",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "うん。…ダメ？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…いえ、嬉しいです。\\ご主人様とともども、\\よろしくお願いしますね。",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ふたりは笑顔で握手を交わす。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "一時はどうなることかと思ったけど、二人のキズナが深まったようだし、結果オーライさ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "これで一件落着…だな。",
+      "dialogue": "こりゃ、やるしかないな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "center",
       "distance": "near",
-      "facial": "smile"
+      "facial": "superangry",
+      "before_effect": "none",
+      "after_effect": "none",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "35": {
+    "20": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

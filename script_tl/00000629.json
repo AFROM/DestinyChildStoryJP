@@ -2,348 +2,363 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "今日もよろしくお願いしますね。",
+      "dialogue": "この間、私の契約者に会ったのだろう？",
       "background": "bg086_f",
-      "bgm": "14",
-      "char": "c195_01",
+      "bgm": "19",
+      "char": "c132_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ああ、すまん。\\行きたかったんだけどなぁ。\\ホントごめん！今日はムリ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "酷いわ、ご主人様…\\テロンのことを可愛がってくれてると思ったのに…",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "えっ！何で急に泣き出した！？\\これって俺のせい！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "残念だわ…\\テロンも楽しみにしてたのに。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "楽しみ…\\それって俺を食べようとしてたんじゃ…？",
+      "dialogue": "あれ？知ってたんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "haah"
     },
-    "7": {
+    "3": {
       "type": "talk",
-      "dialogue": "失礼ですね！\\テロンに全部聞こえてるわよ？",
-      "char": "c195_01",
+      "dialogue": "リザというサキュバスが教えてくれた。\\私にひたすら愚痴をこぼしていたよ。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
-    "8": {
+    "4": {
       "type": "talk",
-      "dialogue": "テロンは、お友達は食べないわ。\\そうよね、テロン？ふふふ",
+      "dialogue": "御主人様がまた人間の真似事をしただの…\\貴重な再契約のチャンスを逃しただの…",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
-    "9": {
+    "5": {
       "type": "talk",
-      "dialogue": "友達ね…\\だけどさ、異種間だと、言葉も通じないし\\うまくいく気がしないんだけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そもそも猛獣と仲良く遊ぶなんて。\\真面目な話、無理だろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "パンチ一発で首の骨が折れるって聞いたぞ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "テロンはとっても大人しい子よ？\\獰猛なだけの野獣とは思わないで。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "な、泣くなよ。泣くなってば！\\お前が泣くと、\\テロンが俺に対して怒るんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "案の定、キュベレーの目から、\\大粒の涙がこぼれた瞬間、\\テロンの目がこちらをロックオンした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "じゃあ、テロンに謝ってください。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あ、謝る？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "そう。優しいテロンを傷つけたから。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ライオンに詫びを入れる日が来るとは…\\そもそも、言葉は、わかるんだろうか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "早く。\\それとも、テロンのことやっぱり…",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あー、泣かないでくれ。\\今謝るから！",
+      "dialogue": "…全部見られてたのか。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sigh"
     },
-    "21": {
+    "6": {
       "type": "talk",
-      "dialogue": "俺はテロンから出来るだけ距離を取り、\\素早く頭を下げた。",
+      "dialogue": "人間を相手に悪魔が説教するとはね…\\ただの怠け者かと思いきや、違ったのかな？",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "俺は褒めてやりたいけどな～",
+      "char": "c131_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "俺を…褒める？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "だって、あんたの言ってることは正しいよ。\\命は貴重なものだ。粗末に扱っちゃダメだよ。",
+      "char": "c131_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "いや、真っ青な顔で、\\笑いながらそんな教訓じみたこと言われても…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "22": {
+    "11": {
       "type": "talk",
-      "dialogue": "ごめん！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "far"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "う…\\ぐすっ…",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "なんだよ！お望み通り謝っただろ！",
+      "dialogue": "オシリス、お前さ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
+    "12": {
+      "type": "talk",
+      "dialogue": "ん？\\俺、なんか間違ったこと言った？",
+      "char": "c131_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…あ、いや…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ミダスとオシリスは結構仲が良い。\\問題は、ふたりの契約者はそうじゃないってことだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ミダスの契約者は、\\死の淵をさまよっていた弟を、\\呪術で生き返らせた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "しかし不完全な状態で復活した弟は、\\俺に死にたいと願った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "そうして生まれたのがオシリスだ。\\幸か不幸か、オシリスは生に対して、\\凄まじい執着を持っている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "間違ってないよね。\\んじゃ、これからも、そんな感じでよろしく。",
+      "char": "c131_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "いいけど…お前たちさ…\\ホント変な関係だってこと、知ってるか？\\まったく共通点がないんだよね。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "片方は「成るように成れ」って自由気ままに生きてるし、もう片方は「絶対死にたくない」って、必死で生きてるし。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "一体、お互いのどこが気に入ってるんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "いわゆる凸凹コンビってヤツ？\\理由が必要なのかい？",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "別に、そんなのいらないよね。",
+      "char": "c131_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
     "25": {
       "type": "talk",
-      "dialogue": "そんな誠意のない謝り方をするなんて、テロンが、\\余計に悲しい気持ちになってしまいます…",
-      "char": "c195_01",
+      "dialogue": "自分の気持ちに素直に生きるのが一番だ。\\気が合ったから、オシリスとは友達になれた。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ああー…もうわかった！わかったよ！\\ちゃんとやればいいんだろ？",
-      "char": "c000_01",
+      "dialogue": "…だってさ。",
+      "char": "c131_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…ったく。テロンが俺の謝罪を、\\ちゃんと理解してくれるといいけど！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "え～…テロンさん…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ほら、目を見て。\\優しく、心を込めた眼差しで…",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "俺はキュベレーの言う通り、\\テロンの目を見……れない！\\うう、怖すぎる！",
-      "char": "none",
-      "speaker": "none",
-      "after_effect": "shake",
-      "screen_effect": "dark"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "テロンが待ちくたびれてあくびしてますよ？",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "テロンの目がヤバイ！\\これ、かぶりつこうとしてない！？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "て、テロン？\\ほほ、本当に、本当にごめん！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "こ、これでいいだろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "cry"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "それはテロンに聞かないと。\\テロン、ご主人様が謝ってるけど、\\どうする？",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "うふふ、気に入らなかったみたい。\\何も言わないわ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ライオンが話せるわけないだろ！？",
+      "dialogue": "だってさって…\\オシリス、お前はどう思ってるんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "40": {
+    "28": {
       "type": "talk",
-      "dialogue": "テロンは賢いから、\\ちゃんと意志を示してくれます！\\ああ、可哀想なテロン…",
-      "char": "c195_01",
+      "dialogue": "んー、俺もあんまり深く考えたことないや。\\なんなら、お前が代わりに考えてくれてもいいぞ。",
+      "char": "c131_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
+      "pos": "right",
+      "distance": "normal"
     },
-    "41": {
+    "29": {
       "type": "talk",
-      "dialogue": "泣くなよ、お願いだから！\\て、テロン俺が悪かった…だから…\\襲い掛かるのはやめてくれー！",
+      "dialogue": "いいな、それ。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "いや、おかしいだろ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "そうかね？君なら余計なお節介をして、\\下しかねない結論だと思うんだが。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "私としては、どうにも理解できない言葉だがね。\\お節介だなんて、うん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "別にそんなつもりはないよ。\\当然の反応じゃないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "superangry"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "兄が弟をまた殺したいって言ってるんだ！\\怒るのは当然だろ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "shake_weak"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "それにお前たちは、どっちも俺のチャイルドだ！\\気にするに決まってんじゃん！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…お節介だなぁ。",
+      "char": "c131_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "だから、違うって！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
       "facial": "shock",
-      "before_effect": "shake",
-      "after_effect": "go_to_right_point"
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "まあ、でも…\\こういう類のお節介は悪くないと思うよ。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "こういう類のお節介って！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "nonsense"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あれあれ、ミダスがご主人の優しさに\\心打たれたみたいだね。",
+      "char": "c131_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "うむ、優しさか。表現としては、\\そちらがふさわしいのかもしれないな。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "42": {
+      "type": "talk",
+      "dialogue": "まあ、俺は同意できないけど。",
+      "char": "c131_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "…片方だけでもわかってくれたなら、もういいや…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

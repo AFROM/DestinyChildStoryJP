@@ -2,198 +2,264 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハ、ハ、ハクション！ぐすん。",
-      "background": "bg086_f",
-      "bgm": "31",
-      "char": "c003_01",
+      "dialogue": "お腹いっぱいだ！",
+      "background": "bg034_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "モナ、ダビが風邪ひいたみたいだ。",
-      "char": "c000_01",
+      "dialogue": "よく食べるな。どれだけ飢えていたんだ？",
+      "char": "c234_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "はいはーい。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "《美味そうによく食べる》って言ってくれないか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ダビ、風邪かな？",
-      "char": "c003_01",
+      "dialogue": "ハハ！",
+      "char": "c234_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "大変だー人間界の風邪は魔界のヤツらには\\致命的なのになー",
+      "dialogue": "まったく…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "sulky"
     },
     "6": {
       "type": "talk",
-      "dialogue": "人間界には薬もないのにー",
-      "char": "keep",
+      "dialogue": "俺の契約者がお前のことをたいそう\\気に入ってるようだな。",
+      "char": "c234_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はいはーい。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "オマエこそ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "モナ姉さま！ダビ死んじゃうの？\\ふえーん。トサカ野郎が嘘ついてるだけでしょ？",
-      "char": "c003_01",
+      "dialogue": "お前のおかげで俺もたくさん食べさせてもらった。\\ハハ！",
+      "char": "c234_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "はいはーい。あら、ダビだったのね。\\ちょっと忙しくてボーっとしてたわ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "どこまで調子を合わせたらいいものか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ダビ、また泣いてるの？\\ご主人さまがまた意地悪したのかしら。\\なに言われようが信じちゃダメよ？",
-      "char": "keep",
+      "dialogue": "今のままでいい。悪魔と契約者の関係を\\維持できるくらいにな。",
+      "char": "c234_01",
       "speaker": "same",
-      "after_effect": "go_to_right_point"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "悪いトサカ野郎！またダビをいじめた！",
-      "char": "c003_01",
+      "dialogue": "いいのか？お前の契約者。どうしても\\悪魔の存在を証明したがってるようだけど。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "おっと、俺の勘違いだったのか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "dialogue": "ヘラクレスの契約者は\\悪魔の存在を追っている若き考古学者だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "13": {
       "type": "talk",
-      "dialogue": "風邪じゃないもん！ハクション！あれ？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "shake"
+      "dialogue": "人類の歴史に残っている悪魔の痕跡を\\追っている途中俺に出会い、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "わかった！ご主人が風邪ひいたんだ！\\ご主人が悪い病原菌をもってるんだよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "悪魔の情報を渡す条件で\\大人しく契約に応じた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "15": {
       "type": "talk",
-      "dialogue": "だからご主人の隣にいると\\ダビがくしゃみしちゃうんだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…というのは契約者の勘違い。初めからこっちは\\悪魔に関する情報を渡すつもりはない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "それからトサカ野郎は死んでしまうのでしたー\\へへへ！",
-      "char": "keep",
+      "dialogue": "契約者の望み通りにしたら、あの文句の多い\\サキュバスがじっとしているはずがない。",
+      "char": "c234_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "風邪じゃなくて毛玉のせいだ。\\毛玉が俺のしっぽにひっついてるから。",
+      "dialogue": "だろうな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "《ハクション！》《クシャミ！カゼ！》\\《シヌ！》《ダビ、シナナイ！》《ネコ、シヌ？》",
-      "char": "m193_01",
+      "dialogue": "それに、簡単にことが進んだら\\それは挑戦とは言えないだろ？",
+      "char": "c234_01",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ハクション！あっち行って！\\トサカ野郎のせいで鼻水が…\\毛玉たちとずっと一緒に暮らせばいいじゃん！",
-      "char": "c003_01",
+      "dialogue": "他人が聞いたらただのお節介だ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ダビはモナお姉さまと一緒に遊ぶから！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "まったく…しっぽが重い…\\人生の重さはこんなものか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "《ネコスキ！》《ネコノニオイ！》\\《コキョウノニオイ…》《ネコノケ？》",
-      "char": "m193_01",
+      "dialogue": "皆、それぞれ課業はある。",
+      "char": "c234_01",
       "speaker": "same",
       "pos": "right"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "自分の道を歩んでいるが結局は\\互いにぶつかってしまうのが挑戦というものだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "そうは言ってもメチャクチャ食べたぜ、\\俺たち…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "ハイハイ、猫ね…猫が好きで\\ずっとしっぽにくっ付いているのか？",
-      "char": "c000_01",
+      "dialogue": "悪魔に関する手がかりなら何でも教えてくれって\\高価な料理をごちそうしてくれたけど、",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "猫？お前たち、ひょっとして…\\猫の毛から生まれたのか？",
+      "dialogue": "その手前、知らんぷりするのもちょっとな…",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "《ネコ？》《ネコカラウマレタ！》\\《ママ！》《アイタイ！》",
-      "char": "m193_01",
+      "dialogue": "お前の好きにしろ。\\サキュバスたちの文句に付き合えるならな。",
+      "char": "c234_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "1匹ずつ話してくれ！",
+      "dialogue": "うっ、それだけはごめんだ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "serious"
     },
     "27": {
+      "type": "talk",
+      "dialogue": "障害物がなければ切実さもなくなる。\\切実さがなければ絶対に課業をこなすことは\\できない。",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "切実でない者は課業をこなす資格もないな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "それ、俺のことを言ってるだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "分かってくれて何よりだ。",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "なんだか面倒事を全て俺に押し付けようと\\してないか？嫌な感じだぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "悪魔の口から出る言葉じゃないな。\\ま、人間らしさも長所といえば長所か。",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "だが、簡単には信用するなよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "お前は悪魔、そして契約者は人間だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "なんだか風が強くなってきたな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ハハ！挑戦する者の宿命なんてそんなものだ。",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

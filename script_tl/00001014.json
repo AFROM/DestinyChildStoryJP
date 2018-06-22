@@ -2,9 +2,15 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "進化に成功しました！\\さあ、強力になったチャイルドと戦闘に行ってみてください～！",
+      "dialogue": "<color=\"ff9900\">同じチャイルドを合成</color>して<color=\"ff9900\">最大レベル</color>を上げられます。",
       "background": "back_dim50",
-      "char": "c255_01",
+      "char": "none",
+      "speaker": "none"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">合成に使用されたチャイルドは消えてしまうので</color>注意してください。",
+      "char": "none",
       "speaker": "none"
     }
   }

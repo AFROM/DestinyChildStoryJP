@@ -2,346 +2,259 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うわあ…",
-      "background": "dungeon_bg",
-      "bgm": "19",
+      "dialogue": "さっきから黙って聞いてたら…",
+      "background": "bg089_f",
+      "bgm": "20",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "angry"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…紙くずだらけですね。",
-      "char": "c002_01",
+      "dialogue": "…だから、今快楽に負けて\\この菓子パンを食べたとする。\\そしたら糖質を過剰に取っていることになるから\\将来の健康は約束できないよ？",
+      "char": "c052_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "nonsense"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "紙くずって…さすがに酷くないか？",
-      "char": "c000_01",
+      "dialogue": "将来の健康…？？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "リザは呆れたように、\\部屋を埋め尽くしているラブレターを見渡した。",
+      "dialogue": "そう、つまりこのパンを食べることによって\\病にかかる可能性があるってこと。\\糖尿病とかね。体重だって維持できないかも。",
+      "char": "c052_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "だから僕たちが片付けてあげるね。\\君の健康のためなら、\\僕たちの体の健康なんてどうでもいいからさ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "なんて優しいの！？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あいつ…ダビを騙して\\人の分も菓子パンを食べてるじゃないか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "おや、ご主人。",
+      "char": "c052_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "バカご主人！トーシツが少ない食事を\\今すぐ用意しろ！！",
+      "background": "bg089_f",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "御主人様、この本を読むようにといただきました。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "来年の今くらいに、\\世界が滅亡するんだって。僕がこの耳で聞いたんだ。",
+      "char": "c052_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ウスラトンカチ！今すぐ食べ物用意しろ！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "わかったわかった、今サラダを用意するから…って？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "悪魔が用意したご飯を食べる子は\\僕はあまり好きじゃないなぁ。",
+      "char": "c052_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "俺が現実とサキュバスに追いかけ回されて\\ヘトヘトになっている間、",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "5": {
-      "type": "talk",
-      "dialogue": "とりあえず、このラブレターの主を…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "呼んだかしら、坊や。",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "いや、ちょうど呼ぼうとしてたとこ。\\さすがだな、このラブレター。\\お前の契約者が見たら、喜ぶんじゃないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "どうだっていいわ。\\契約者は契約者。\\あたしはあたしだもの。",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…それはいいとして、よく来てくれたわね。\\このゴミの量に、参ってたところなの。",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "idle"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "おいおい、お前までゴミ扱いかよ…\\あんなに愛されたがってたのに、\\愛されたらポイッか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "それはあたしの契約者の話でしょ？",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "何度も言わせないで。あたしには関係ないわ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "one_ani": "attack"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そう言うなよ。\\…しかし、ホントにいっぱいあるよな。\\全部読むの、大変だったろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ふふ、まさか。読むわけないでしょ？",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
     "17": {
       "type": "talk",
-      "dialogue": "はあ？\\それなのに捨てるつもりなのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "sigh"
+      "dialogue": "ベリトはチャイルドたちをそそのかして自分の仕事を代わりにやらせたり、騙したり、それに…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ええ、どうせ「愛してる」だの「美しい」だの、\\薄っぺらい、お決まりの言葉が連ねられてるだけだもの。",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "dialogue": "おかしな宗教を作って菓子や菓子パンといった\\甘い食べ物を納めさせたりしていた。\\…本当に大丈夫なんだろうか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "19": {
       "type": "talk",
-      "dialogue": "お前な…\\たとえそうだとしても、もらったからには読めよ。\\片付けるのはそれからだ。",
-      "char": "c000_01",
+      "dialogue": "あっ、モナ姉さまぁ♥\\ダビ、迷子になってたチャイルドを捕まえてきたよ！あと何匹捕まえれば魔王争奪戦終わるかな？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "嫌よ。\\時間の無駄でしょ？",
-      "char": "c065_01",
+      "dialogue": "フフ、ダビは可愛いわねぇ。\\チャイルドを魅了する才能はピカイチなんだから♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…リザ、読み上げてやってくれ。",
-      "char": "c000_01",
+      "dialogue": "え！？魅了？…私は新しい靴を見てただけ！\\グレーと灰色とネズミ色で迷ってただけなのに…！？",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "pos": "center",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "かしこまりました。\\…ですが、まさか、ここにある手紙を、\\全て読め…とはおっしゃいませんよね？",
-      "char": "c002_01",
+      "dialogue": "へえ、そんな時はネズミ色がいいんじゃない。\\シンデレラもネズミと仲良しだったし。\\君ってシンデレラみたいに綺麗だからさ。",
+      "char": "c052_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "いいから早く。",
-      "char": "c000_01",
+      "dialogue": "そ、そうかな…？\\そうかも……",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "pos": "center"
     },
     "24": {
       "type": "talk",
-      "dialogue": "…はあ。\\「初めまして。これまで、あなたを見守って…」",
-      "char": "c002_01",
+      "dialogue": "グレー、灰色、ネズミ色って違うのか…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "sigh"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…やめて。\\どういうつもりなの、坊や。",
-      "char": "c065_01",
+      "dialogue": "うーん、わかる人にはわかる…のかも。\\それよりご主人…",
+      "char": "c052_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "facial": "idle"
     },
     "26": {
       "type": "talk",
-      "dialogue": "それはこっちのセリフだ。\\お前こそどういうつもりなんだ？\\お前にラブレターを出したやつらの気持ち、\\少しは考えたことあるのかよ。",
-      "char": "c000_01",
+      "dialogue": "芯がなくフニャフニャしている君も\\僕を信れば明日には超マッスルになってるかも…？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "どうしてあたしがそんなこと考えなきゃいけないの？相手が勝手に書いただけでしょ？",
-      "char": "c065_01",
+      "dialogue": "え？今度は俺か？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "なら、その言葉、\\手紙を寄越したやつらに直接言ってみろよ。\\「手紙なんていらない。\\こんな無駄なこと、二度とするな」…ってな。",
-      "char": "c000_01",
+      "dialogue": "彷徨える悪魔よ。ベリト教に献金すれば明日には\\ライバルたちが呪いで命を落とす…\\かもしれないよぉ？",
+      "char": "c052_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "それは…",
-      "char": "c065_01",
+      "dialogue": "信じないぞ。\\そんな雑誌の裏にあるようなインチキ広告、\\誰が金なんか払うか。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "できないんだろ？\\嫌われるのが怖いから。",
-      "char": "c000_01",
+      "dialogue": "はぁ、夢も希望もないんだなぁ。\\君、つまらないやつだって言われない？\\信じる気持ちがないと、何事もうまくいかないよ～？",
+      "char": "c052_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "angry"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "そ、そんなわけ…",
-      "char": "c065_01",
+      "dialogue": "何も聞こえない…聞こえないったら聞こえない…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "pretense"
     },
     "32": {
       "type": "talk",
-      "dialogue": "お前は自分の契約者が情けないって言ってたけど、\\俺はそうは思わない。",
-      "char": "c000_01",
+      "dialogue": "迷える幼いチャイルドたちよ！\\僕を信じて、お菓子を捧げろ！\\歌え、踊れ、あはははは！",
+      "char": "c052_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
+      "pos": "right",
+      "distance": "near"
     },
     "33": {
       "type": "talk",
-      "dialogue": "自分に向けられた愛情を弄ぶようなやつなんかより、ずっとマシだからな。",
-      "char": "keep",
+      "dialogue": "こうなった以上、インチキ宗教でも作って、\\集まった信者と契約していった方が\\いいかもしれませんね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
+      "pos": "left"
     },
     "34": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c065_01",
+      "dialogue": "それはさすがに犯罪だ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "left",
+      "facial": "confused"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "帰ろう、リザ。\\こいつが手紙を全部読み終わるまで、\\まだまだかかるだろうからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…また、悪魔らしくないことを。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "うるさい！\\じゃあな、エラト。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "go_to_left_point"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…まさか、坊やにあんなことを言われるなんて。\\いつまでも子供じゃないのね…",
-      "char": "c065_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

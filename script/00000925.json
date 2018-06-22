@@ -1,366 +1,353 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg101_f",
-      "bgm": "31",
-      "fade_in": "shorter",
-      "hold": "shortest"
+      "type": "talk",
+      "dialogue": "さぁ、コムギ！いってらっしゃい！",
+      "background": "bg136_f",
+      "bgm": "9",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いらっしゃいませ～この度オープンしました\\メイドカフェ《Café de Petit》で～すっ♥",
-      "char": "c296_01",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200600001"
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いらっしゃいませ…",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "left",
-      "voiceid": "200600002"
+      "dialogue": "コムギは元気だな。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あん、モーガンったら！\\そんな顔じゃ、お客さんが逃げちゃうわよ？\\ほーら、笑って笑って～？",
-      "char": "c296_01",
+      "dialogue": "遊びに来たんじゃないんだけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "voiceid": "200600003"
+      "pos": "left",
+      "facial": "irritation"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いえ、客足を遠ざけているのは、あなたのその対物\\ライフルの方だと思いますが…",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "left",
-      "voiceid": "200600004"
+      "dialogue": "あら、さっそくコムギが何か持ってきましたよ。\\ご主人さま。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "6": {
       "type": "talk",
-      "dialogue": "や～ん、うっかり持ってきちゃった！\\お客様～驚かせちゃってごめんなさ～い！",
-      "char": "c296_01",
+      "dialogue": "ああ。ずいぶん汚れてるな…\\土を払ってっと…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak",
-      "voiceid": "200600005"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ハァ…客引きはアナタに任せます…\\私はご主人様の元へ戻ります。",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "left",
-      "voiceid": "200600006"
+      "dialogue": "ん？これペンか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あら～？\\まだ社長のこと、ご主人様って呼んでるの？",
-      "char": "c296_01",
+      "dialogue": "それは、骨ですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200600007"
+      "pos": "center"
     },
     "9": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c283_00",
-      "speaker": "Morgan",
+      "dialogue": "うわっ！こんなもん持ってくるな！",
+      "char": "c000_01",
+      "speaker": "same",
       "pos": "left",
-      "voiceid": "200600008"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ご主人様から社長と呼べと言われたのに。\\ふふっ、モーガンったら、賢いように見えて私以上に抜けてるわよね～？",
-      "char": "c296_01",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200600009"
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…あ、お客様がお見えですよ。",
-      "char": "c283_00",
-      "speaker": "Morgan",
+      "dialogue": "本当にペンなんて見つかるのか…\\大丈夫かなぁ？",
+      "char": "c000_01",
+      "speaker": "same",
       "pos": "left",
-      "voiceid": "200600010"
+      "facial": "haah"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あら～いらっしゃいませ、お客様～！\\本日はオープン記念でサービスたっぷりですよ～♥",
-      "char": "c296_01",
+      "dialogue": "大丈夫ですよ。ご主人さま。\\あれはコムギの感謝の気持ちです。\\すぐにペンを持ってきますよ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "voiceid": "200600011"
+      "pos": "center"
     },
     "13": {
       "type": "talk",
-      "dialogue": "いや、遠慮しとく…\\カフェでのんびりしている暇なんて無いんだよ…",
+      "dialogue": "感謝の気持ちで骨か…\\犬らしいと言えば犬らしいけど、俺の先祖は猫なんだよな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation",
-      "voiceid": "200600012"
+      "facial": "sigh"
     },
     "14": {
       "type": "talk",
-      "dialogue": "あら、ひどい…\\そんな風に言わなくても…\\ヒルド超ショックです～…",
-      "char": "c296_01",
+      "dialogue": "ご主人さま。コムギがペンを持ってきましたよ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "voiceid": "200600013"
+      "pos": "center"
     },
     "15": {
       "type": "talk",
-      "dialogue": "い、いや…\\そんなつもりじゃなかったんだけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "voiceid": "200600014"
+      "dialogue": "ワンワン！",
+      "char": "c017_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "one_ani": "attack"
     },
     "16": {
       "type": "talk",
-      "dialogue": "なら、来てくださるんですね！\\ヒルドと一緒に、温かい紅茶を飲みましょう！",
-      "char": "c296_01",
+      "dialogue": "これか。これもずいぶん汚れてるな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200600015"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "可愛い、可愛いヒルドが、お客様の御相手になって\\あげますよ～♥",
+      "dialogue": "結構、高そうなペンだけど…これイニシャルか？",
       "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "voiceid": "200600016"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ちょ、ちょっと引っ張るな！\\ど、どわっ、なんちゅーバカ力っ…！",
-      "char": "c000_01",
+      "dialogue": "M・Mと書いてありますね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "shake",
-      "voiceid": "200600017"
+      "pos": "center"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うわあっ、ああ…！",
-      "char": "keep",
+      "dialogue": "誰かの名前かな？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "go_to_left_slow",
-      "voiceid": "200600999"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "うわっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "go_to_left_jump",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あれは…御主人様？",
-      "char": "c002_01",
+      "dialogue": "久しぶりだな、小僧！",
+      "bgm": "6",
+      "char": "c037_01",
       "speaker": "same",
-      "before_effect": "enter_from_right_slow",
-      "voiceid": "200600018"
+      "pos": "center",
+      "before_effect": "enter_from_right_slow"
     },
     "22": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "23": {
-      "type": "curtain",
-      "background": "bg223_f",
-      "bgm": "9",
-      "fade_in": "normal",
-      "hold": "shorter"
-    },
-    "24": {
       "type": "talk",
-      "dialogue": "ちょっと待ってくださいね。\\すぐに、世界一おいしい紅茶を持ってきますから～♥",
-      "char": "c296_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point",
-      "voiceid": "200600019"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "いや、だから紅茶なんていらないって！\\お～い、ちょっとは客の話を聞けよ～！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "shake",
-      "voiceid": "200600020"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "御主人様…\\バイト先を探しに行くと聞いていましたが、\\このカフェでバイトをするのですか…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "200600021"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "え、なんでリザがここに…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "voiceid": "200600022"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "偶然姿を見かけたもので。\\それより、こちらの時給はいくらでしょうか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200600023"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "勤務時間は？カフェでバイトされた経験は？\\能力不足でクビにはなりませんか？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200600024"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ちょ、ちょっと質問攻めしてるとこ悪いけど、\\俺は無理矢理連れ込まれただけだから。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "voiceid": "200600025"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それに、どんだけ時給が良くても、ここで働くつもりはないからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200600026"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "なんか怖いんだよ…\\あのメイドさん…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "voiceid": "200600027"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "お待たせしましたお客様。\\こちら、ご注文頂きました紅茶になります。",
-      "char": "c300_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "200600028"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "だから、紅茶なんか注文してないって…\\そんな余裕もないし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "200600029"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ふふ…今更そんなこと言っても、キャンセルは\\できませんよ？",
-      "char": "c312_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "200600030"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "お金がないなら、体で払ってもらいましょうか？\\ね～お客様？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200600031"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ひっ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "voiceid": "200600032"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "好都合ですね。\\ちょうどバイト先を探していた所です。\\御主人様、こちらで働いてみてはいかがですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200600033"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "絶対イヤ…",
+      "dialogue": "お前はユダか！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "fury",
-      "voiceid": "200600034"
+      "before_effect": "shake"
     },
-    "40": {
+    "23": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c002_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "shy",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "こいつはユダ。\\魔王争奪戦に参加している悪魔の1人だ。\\そして、人間界に紛れ込み犯罪集団を影で操る暗黒街の帝王でもある。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "dark"
     },
-    "41": {
+    "24": {
       "type": "talk",
-      "dialogue": "う、分かった、分かったから、\\そんなニラむなって…",
+      "dialogue": "こいつの部下を契約者にしたため、俺は目を付けられてしまった。正直関わりたくないヤツの1人だ。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いきなり攻撃して、俺を殺す気か！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake",
-      "voiceid": "200600998"
+      "facial": "angry"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "すまん、すまん。\\久しぶりに会えて、嬉しくなっちまってな。\\ところで俺の部下になる決心はついたか？",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "お前もしつこいな…その話は断っただろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "まぁいいさ、気長に待つとしよう。\\しかし、お前のおかげで助かったぜ。\\こんなに早くペンが見つかるなんてな。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "…なんで、お前がこのペンを探してるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ちょっとした仕事でな。\\犬が持ち去ったと聞かされた時は途方にくれたぜ。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "仕方ないから、犬を追いかけていたが、ちょうどお前を見つけてな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "おかげで、こうして見つける事ができた。\\ありがとよ。\\そんじゃ、おしゃべりはこれぐらいにして…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "さぁ、そのペンを渡してもらおうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "クッ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ご主人さま。\\そのペンを渡して、ここは退きましょう。\\相手は、かなりの戦力を用意している様子。\\ペンを渡しても私たちにはデメリットはありません。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "見つけた物を奪われるのは釈然としないんだよ…\\でも、無用な戦闘は回避したいのが本音。\\さて、どうするか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "う～ん…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "よし！取引をして小銭を稼ごう！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "アナタのような者に、このペンは渡せません！\\さっさと立ち去りなさい！！",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "ちょっと！何言ってんの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "キャプテン！\\キャプテンの気持ちはわかった！俺に任せてくれ！",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "42": {
       "type": "talk",
-      "dialogue": "ご納得頂けたようで何よりです。\\それでは、まず履歴書を作りましょうか？",
-      "char": "c002_01",
+      "dialogue": "それって、どんな気持ち！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "200600035"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "43": {
+      "type": "talk",
+      "dialogue": "はっはっは！やはり、こうなったか…\\それじゃ、小僧の実力を見てやろうじゃないか。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "いくぜっ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "45": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -1,375 +1,360 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg223_f",
-      "bgm": "64",
-      "fade_in": "longer",
-      "hold": "shorter"
+      "type": "talk",
+      "dialogue": "魂のダンジョンに到着～♥",
+      "background": "bg199_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "私に屈辱を与えたかったようですが…\\惜しかったですね、ヴェルデレト。",
-      "char": "c002_01",
+      "dialogue": "さぁさぁ、奥に進みましょうか？\\ご主人さま♥",
+      "char": "keep",
       "speaker": "same",
-      "facial": "pretense",
-      "voiceid": "200608021"
+      "pos": "center",
+      "facial": "pretense"
     },
     "3": {
       "type": "talk",
-      "dialogue": "くそっ…！",
-      "char": "c286_01",
+      "dialogue": "あぁ、ってあれ？コウガ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "voiceid": "200608022"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "もうやめよう？リザ…\\作戦は成功したからね？",
-      "char": "c000_01",
+      "dialogue": "…お待ちしておりました、ご主人様。",
+      "char": "c355_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "200608023"
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あっ…すいません。\\いつの間にか、役になりきっていたようですね。",
-      "char": "c002_01",
+      "dialogue": "こ、コウガ？どうしたんだよ、その恰好…\\新しく契約したのに、またコウガが出てくるなんて…",
+      "char": "c000_01",
       "speaker": "same",
-      "voiceid": "200608024"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "<b>作戦？</b>一体どういうことだ？",
-      "char": "c286_01",
+      "dialogue": "あらあら、これはこれは…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608025"
+      "pos": "center",
+      "facial": "smile"
     },
     "7": {
       "type": "talk",
-      "dialogue": "言葉通りの意味です。\\一連のすべてが私の作戦でした。",
-      "char": "c002_01",
+      "dialogue": "モナ、どういうことなんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "voiceid": "200608026"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "御主人様がこちらに来たのも、\\私があなたを挑発したのも…",
-      "char": "keep",
+      "dialogue": "これは、大変珍しい現象ですね♥\\ウワサには聞いていましたが、モナも見るのは初めてです。",
+      "char": "c001_01",
       "speaker": "same",
-      "voiceid": "200608027"
+      "pos": "center"
     },
     "9": {
       "type": "talk",
-      "dialogue": "最近、この都市であなたの目撃情報を耳にしました。",
-      "char": "keep",
+      "dialogue": "そうなのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "voiceid": "200608028"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そして間もなく《Café de Petit》という\\奇妙なカフェが出来たのです。",
-      "char": "keep",
+      "dialogue": "はい♥契約者とチャイルドが同じ願いを持って、\\再契約を行った場合、稀に元々いたチャイルドに、\\新たな力が宿ることがあるんですよ～",
+      "char": "c001_01",
       "speaker": "same",
-      "voiceid": "200608029"
+      "pos": "center"
     },
     "11": {
       "type": "talk",
-      "dialogue": "店を見てすぐに分かりました。\\これはあなたの趣向であると…",
+      "dialogue": "つまり、パワーアップですね♥",
       "char": "keep",
       "speaker": "same",
-      "voiceid": "200608030"
+      "pos": "center"
     },
     "12": {
       "type": "talk",
-      "dialogue": "だからここに《御主人様》を送ったと？\\俺を探るためだけに？",
-      "char": "c286_01",
+      "dialogue": "マジかっ！？\\しかし、俺の立場が…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608031"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "いいえ、サポーターが御主人様に命令など…\\これは御主人様たってのご希望でした。",
-      "char": "c002_01",
+      "dialogue": "パワーアップは主人公の専売特許だろ？",
+      "char": "keep",
       "speaker": "same",
-      "voiceid": "200608032"
+      "pos": "left",
+      "facial": "unfair"
     },
     "14": {
       "type": "talk",
-      "dialogue": "なに言ってんの？\\イヤがってる俺に無理矢理やらせたんだろう！\\…ウウブ！",
+      "dialogue": "ご主人さま…\\主人公を語るなら、もっと存在感を出してください。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "そ、それはまぁいい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "で、どうだ、コウガ。実感とかあるのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はい。身体が芯から熱くて…\\今なら、どのようなことでも出来そうです。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そうか。よかったな、コウガ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…それは、どうでしょうか。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "コウガ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "な、何か、怒ってる…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "何なの？ここ…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "うわっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "なんでメイまで魂のダンジョンに来てるんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "私がここまで導きました。\\またメイを危険にさらされては困りますので。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "また？\\それってどういうことだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "さて、どういうことでしょうね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…その言い方、何か知ってるだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "隠しても無駄ですよ。\\先ほどの男性達にメイ達の居場所を教えたのは、\\あなたでしょう？",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "コウガ、それは誤解よ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "モナがご主人さまの悲しむようなことをすると思う？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "白々しい…\\メイを傷つける相手は、誰であろうと許しませんよ。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "お、おい！二人ともやめろって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ご主人様は、この者を庇うのですか…\\ならば貴方もメイにとって害でしかありません。",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "コウガはそう言うと、俺達を睨みつけ、刀を抜いた…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ご主人様、お覚悟！！",
+      "char": "c355_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ま、待て、落ち着け、コウガ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "shock",
-      "after_effect": "shake",
-      "voiceid": "200608033"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ご主人さま～♥\\友達同士のお話を邪魔しちゃダメですよ！",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "pretense",
-      "voiceid": "200608034"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "モナ、そんなに力を込めて口を塞ぐな…\\う、息が…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "toonear",
-      "facial": "nonsense",
-      "voiceid": "200608035"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ヴェルデレト…\\あなたが私に劣等感を抱いていた事は知っています。",
-      "char": "c002_01",
-      "speaker": "same",
-      "voiceid": "200608036"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "だからこそ、このリザの御主人様に、大きな関心を\\持つと予想しました。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "200608037"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "劣等感だと…！ふざけるなっ！",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "voiceid": "200608038"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "俺が《御主人様》を奪うと予想しただと？\\お前のご主人様を見かけた時はチャンスだと\\思ったが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608039"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "それも全て、お前の作戦だったなんて…\\くそっ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608040"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "さすがに、ここまで上手くいくとは思いませんで\\した。昔から進歩がありませんね、あなたは…",
-      "char": "c002_01",
-      "speaker": "same",
-      "voiceid": "200608041"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ケンカはもうやめて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200608042"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "リザ…ホント怖い…",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "cry",
-      "voiceid": "200608043"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "う～ん…\\完全に役になりきっちゃってるみたいですね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "voiceid": "200608044"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "…ああ、分かった。\\悔しいですが、敗者は勝者に従いましょう。",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608045"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "しかし、気を付けてください。\\いつまでそのポジションを守れるか、見物させて\\もらいます。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608046"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "あなたの思惑通りで気に入りませんが、\\新しいご主人様に正式に御挨拶いたしましょう。\\私はインキュバスのヴェルデレトと申します。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608047"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "あなたが魔王になれるよう、このヴェルデレト。\\全身全霊を持って尽くしましょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608048"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ねえねえ、バカインキュバス～\\リザが前に言ってたよ～",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "victory",
-      "voiceid": "200608049"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "バカご主人は難しい話は分からない、体力もない、\\ナマケモノでサポーターを一生苦しめるだろうって～",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "victory",
-      "voiceid": "200608050"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ダビ、シーッ。\\そんなすぐ分かること、言っちゃダメよ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "voiceid": "200608051"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608052"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "リザっ！\\このチンチクリンに変なこと吹き込むのやめて！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake",
-      "voiceid": "200608053"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "いえ、まったく身に覚えがありません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "voiceid": "200608054"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "まあ、たしかに簡単なことではないでしょうね、\\魔王争奪戦…しかし…",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608055"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "問題ありません。ご主人様の能力に関わらず、\\魔王へとお導きするのが私の役目。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608056"
+      "before_effect": "shake"
     },
     "38": {
       "type": "talk",
-      "dialogue": "それこそがサポーターの役目だと、\\自負しておりますので。",
+      "dialogue": "うわわわ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608057"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "go_to_left_jump",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "39": {
       "type": "talk",
-      "dialogue": "そういう意味では、あなたたちは職務放棄したと\\言えるでしょう。サポーターを名乗る資格もない。",
-      "char": "keep",
+      "dialogue": "コウガ…？何して…",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608058"
+      "pos": "center",
+      "distance": "normal"
     },
     "40": {
       "type": "talk",
-      "dialogue": "おお、そうだそうだー！\\俺、コイツのことちょっと見直したかも！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "voiceid": "200608059"
+      "dialogue": "コウガは普段の落ち着いた様子が嘘のような勢いで、俺達に攻撃を仕掛けてくる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "41": {
       "type": "talk",
-      "dialogue": "わ～それじゃあ、ヒルドにも新しいご主人様が\\出来たってこと？いいね～\\ヒルドも魔王争奪戦に出られるんだよね？",
-      "char": "c296_01",
+      "dialogue": "危ない！やめて、コウガ！",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608060"
+      "pos": "center",
+      "before_effect": "shake"
     },
     "42": {
       "type": "talk",
-      "dialogue": "いっぱい戦えると思うと…う～ん！\\今から興奮しちゃうかも～♥",
-      "char": "keep",
+      "dialogue": "つっ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608061"
+      "pos": "left",
+      "facial": "confused"
     },
     "43": {
       "type": "talk",
-      "dialogue": "ありえません…私にとってのご主人様は、\\ヴェルデレト様ただおひとり。",
-      "char": "c283_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608062"
+      "dialogue": "もう、誰かが傷付くのを見てるのはイヤ…",
+      "char": "c167_00",
+      "speaker": "same"
     },
     "44": {
       "type": "talk",
-      "dialogue": "フフフ…それでは、よろしくお願いいたします。",
-      "char": "c286_01",
+      "dialogue": "今度は、守る！！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608063"
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "45": {
       "type": "talk",
-      "dialogue": "何か企んでいるのでしょうが、まあお好きに。\\ただ、私の寝首を掻く気だとしても、\\サポーター業務だけは抜かりなくお願いします。",
-      "char": "c002_01",
-      "speaker": "same",
-      "voiceid": "200608064"
+      "dialogue": "メイは俺を庇うように、\\コウガの前に立ちはだかった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "46": {
-      "type": "talk",
-      "dialogue": "それが問題なくこなせているうちは\\過去のあなたの過ちについて、\\出来る限り黙っていてあげましょう…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200608065"
-    },
-    "47": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

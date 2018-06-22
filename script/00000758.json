@@ -2,347 +2,245 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "風邪。もうすっかり良くなりましたね、ご主人さま♥",
-      "background": "bg089_f",
-      "bgm": "8",
-      "char": "c001_01",
+      "dialogue": "お手！",
+      "background": "bg070_f",
+      "bgm": "4",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "center",
+      "facial": "joy"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ああ、雪のおかげだな。",
-      "char": "c000_01",
+      "dialogue": "ニャン！",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
+      "one_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あれから数日後。俺はちょくちょく遊びに来てくれた雪の歌のおかげでぐっすり安眠。\\風邪は完治していた。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "痛っ！\\また引っかかれた！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "礼をしたいんだけど、雪って今どこにいるんだ？",
-      "char": "c000_01",
+      "dialogue": "私は猫のおばあちゃんだよ！\\子猫ちゃんがおばあちゃんに命令しちゃダメでしょ！",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "残念ですけど、それはちょっと分かりませんね。\\いま忙しいみたいですから、彼女♥",
-      "char": "c001_01",
+      "dialogue": "おばあちゃん以前に、俺はお前の主人だぞ！\\うわ、血が…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left",
+      "facial": "confused"
     },
     "6": {
       "type": "talk",
-      "dialogue": "様々な場所で、歌を届けているようです。",
-      "char": "c002_01",
+      "dialogue": "あらま～",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "facial": "pretense"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ああ、そっか。それがあの子の夢なんだもんな。\\雪もがんばってんだなあ。",
+      "dialogue": "モナ！血が止まらない！\\手が…うっ…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "serious"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ええ。御主人様も見習って、チャイルドとの契約に\\励んでください。",
-      "char": "c002_01",
+      "dialogue": "私、そこまでしちゃった…？",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "へいへい…\\それにしても、ふっと現れたり不思議な子だったな。",
+      "dialogue": "し、死ぬー！もうこの手は使えないかも…\\切断しないといけないかも…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "serious"
     },
     "10": {
       "type": "talk",
-      "dialogue": "礼のひとつも言いたかったんだが、いつ会えるやら…案外、呼べば来たりして。",
-      "char": "keep",
+      "dialogue": "そうですね～\\これからは片手の生活になりそうですね～\\本当にかわいそうに～",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "sad"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ねえご主人～ポストに手紙入ってたよ。\\雪からだってさ！",
-      "char": "c003_01",
+      "dialogue": "おかしいな～\\ホルルはそんなに痛がらなかったのに…",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "手紙？\\えっと、なになに…？",
+      "dialogue": "…\\リザ、ちょっとやり過ぎじゃないか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "irritation"
     },
     "13": {
       "type": "talk",
-      "dialogue": "悪魔さん、あれから体調はいかがですか？",
-      "background": "back",
-      "char": "c359_01",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
+      "dialogue": "いえ、御主人様。もう少し派手に騒いでください。\\二度と忘れられないように。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "私は今、大好きな歌を沢山の人に届けています。",
-      "char": "keep",
+      "dialogue": "大丈夫か…？\\…えーい！",
+      "char": "none",
       "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
       "screen_effect": "dark"
     },
     "15": {
       "type": "talk",
-      "dialogue": "とても素直な気持ちで歌えているのは、あの時あなたに背中を押して貰えたおかげなのかもしれません。",
-      "char": "keep",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "ぐわぁ～！\\なんて酷い猫のおばあちゃんなんだっ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ありがとうございます。\\あなたに会えて…良かった。",
+      "dialogue": "もはやこれは体罰！幼児虐待だぁ～！\\未来ある子猫の手に傷を負わせて使えなくさせるなんて！",
       "char": "keep",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "17": {
       "type": "talk",
-      "dialogue": "悪魔さんのお仕事は、とても危険で大変なものだと\\モナさんからお聞きしました。",
-      "char": "keep",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "ちょ、ちょっと待って！\\手が使えなくなったって…\\どうしよう！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ですが、悪魔さんならきっと出来ると。\\そう、信じています。どうかがんばってください。",
+      "dialogue": "ニャニャ…？\\まだ手は動いてるみたいだけど？",
       "char": "keep",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "speaker": "same",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "私も、がんばります。\\かしこ",
-      "char": "keep",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "near",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "表皮に長い傷がありますね。\\真皮まで到達していませんが、このままだと…",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "serious"
     },
     "20": {
       "type": "talk",
-      "dialogue": "う～ん、マズいなこりゃ。\\なんだかちょっとやる気が出ちゃったぞ。\\これから、二度寝するつもりだったのに…",
-      "background": "bg089_f",
-      "char": "c000_01",
+      "dialogue": "どうなるの！？",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "御主人様がやる気を出すなんて、病気ですか？",
+      "dialogue": "…血が大量に出ます。\\そして、手を切断することに…",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
+      "facial": "irritation"
     },
     "22": {
       "type": "talk",
-      "dialogue": "おい！病気は治ったっての！",
-      "char": "c000_01",
+      "dialogue": "ニャニャ～ン！ごめん、ごめんね、子猫ちゃん！\\こんなになるとは思わなかったの！",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake",
-      "after_effect": "none"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "たしかに、これは気になっちゃいますね♥\\その手紙、奪っちゃいましょうか♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
+      "dialogue": "アッハッハッハッ！間抜けな猫だな！",
+      "char": "c266_01",
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "手紙独り占めなんて、ズルいよ～\\ご主人～♪",
-      "char": "c003_01",
+      "dialogue": "…いいのか、ほっといても？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "え…！？ちょ、ちょっとよせ、やめろ！\\こっちは病み上がりで…！\\ギャーーー！？",
-      "char": "c000_01",
+      "dialogue": "バストはお前の仲間だろ…？\\このままだと本当に俺のチャイルドになるぞ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "shock",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "facial": "pretense"
     },
     "26": {
       "type": "talk",
-      "dialogue": "こいつらといると、心休まるヒマもありゃしない。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "おっと、笑いすぎたな。\\別にかまわないさ。",
+      "char": "c266_01",
+      "speaker": "same",
+      "before_effect": "shake"
     },
     "27": {
       "type": "talk",
-      "dialogue": "早くも雪の歌声が恋しくなってしまった…",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "あのバカ猫に期待なんかしていない…",
+      "char": "keep",
+      "speaker": "same"
     },
     "28": {
       "type": "talk",
-      "dialogue": "そう言えば、雪も止んでしまったな。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "…ホルス。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry"
     },
     "29": {
       "type": "talk",
-      "dialogue": "また雪が降れば、あいつに会えるかな？",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dark"
+      "dialogue": "子猫ちゃん…\\手が使えなくなったら、私が代わりに狩りをする…",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "30": {
+      "type": "talk",
+      "dialogue": "私の責任だよね…\\本当に手を切らなくちゃいけなくなったら、\\私がバッサリやってあげる！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "そ、それは助かるな…\\ハハハ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

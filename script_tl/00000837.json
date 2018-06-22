@@ -2,209 +2,223 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よく見てみろ、間抜けな猫。\\ペットというのは本来このように行動すべきなんだ。",
-      "background": "bg068_f",
-      "bgm": "4",
-      "char": "c266_01",
-      "speaker": "same"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "間抜け？ホルル～！バストに悪口言うな！\\ご主人様に言いつけてやるから～！",
-      "char": "c274_01",
+      "dialogue": "リベンジガールの契約者の願いですか？\\まさか、忘れてしまったのですか？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "念のため、確認だ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
     "3": {
       "type": "talk",
-      "dialogue": "ハッ、すまないな。失言だった。\\お前も知ってるだろう？\\俺は興奮すると自分も知らない内に《悪口》が出てしまうことを…",
-      "char": "c266_01",
-      "speaker": "same"
+      "dialogue": "そうですか。願いを忘れる程、\\たくさんのチャイルドを集めたということですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ま、正確には悪口じゃなく《事実》だけど…",
+      "dialogue": "しかし、おかしいですね…\\御主人様の契約件数では、忘れてしまうことの方が\\不思議です。",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "とにかく、俺が言いたい事は以上だよ。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "正直にバカだと言ってくれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なぁ、ルーン？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "御主人様にそんな無礼なことは言えません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "こんにちは～猫の悪魔。\\私の名前はルーンと申しま～す。",
-      "char": "m212_01",
+      "dialogue": "よく言うよ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "one_ani": "attack"
+      "facial": "sulky"
     },
     "8": {
       "type": "talk",
-      "dialogue": "知ってるだろう？女王様の可愛いペットのことだ。\\誰かさんみたいに間抜けでも、うるさくもない。",
-      "char": "c266_01",
-      "speaker": "same"
+      "dialogue": "リベンジガールの契約者が銀行強盗だ、ということはご存知ですよね？\\指名手配されたということも…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "女王様の後に付き従い、問題は一切起こしてない。",
+      "dialogue": "それも全て、仲間であり恋人だった人間のせいです。契約者を裏切り、警察と手を組みました。",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ルーンだってバストと変わらないニャン。\\会う度に同じあいさつしているじゃん。\\ルーンはバカだニャン！",
-      "char": "c274_01",
+      "dialogue": "契約者の願いは単純です。\\裏切った男に復讐すること。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ちょっと足りないのは事実だが…\\いい意味で捉えようじゃないか。\\うん、大丈夫だ。",
-      "char": "c266_01",
-      "speaker": "same"
+      "dialogue": "もう忘れないでくださいね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "それはともかく見直したよ、バスト。\\そんな嫌味が言える猫だなんて。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "ああ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "13": {
-      "type": "talk",
-      "dialogue": "しかし女王様は知っているのかな？\\バストがこんな悪口を言う猫だなんて…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "バ、バストは悪口は言わない！",
-      "char": "c274_01",
+      "dialogue": "お前の企みは全て把握している！\\契約者と復讐する気だろ？",
+      "background": "dungeon_bg",
+      "bgm": "24",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "distance": "near",
+      "facial": "fury",
+      "mvd_post_effect": "none"
     },
     "15": {
       "type": "talk",
-      "dialogue": "嫌味が言える猫と言いました～",
-      "char": "m212_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "今頃、思い出したのか？\\お前というヤツは本当に…",
+      "char": "m145_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "違う！悪口をいうネコだニャン！\\…いや、あれ？",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "shake"
+      "dialogue": "それで、私を邪魔しに来たのか？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "プププ…ハッハッハ！\\そうそう、君は間抜けな猫なんだよ。",
-      "char": "c266_01",
+      "dialogue": "当然だ！",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "angry"
     },
     "18": {
       "type": "talk",
-      "dialogue": "違う～！このバカホルル！",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "警告を忘れたようだな…",
+      "char": "m145_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ハハッ！\\猫に叩かれて死にそうだ～",
-      "char": "c266_01",
-      "speaker": "same"
+      "dialogue": "その指以外、全て使えなくしてやると言ったはずだ…",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ケンカはヤメテください～\\ご主人様はうるさいことが嫌いと言ってましたよ～",
-      "char": "m212_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "あ…モナと一緒に来るの忘れてた…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そうだな。女王様が見たらまた小言を言われるから、この辺にしておこうか。",
-      "char": "c266_01",
-      "speaker": "same"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "お前たちの相手をしていたら、なんだか気が抜けてしまったよ。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "それではルーン。バストをよろしく。\\物覚えが悪くても、親切に教えてあげれば10の内1つくらいは覚えられるはずさ。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "そんなことない！\\3つぐらいは覚えられるニャン！",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "あとは2人で楽しんでおくれ。\\俺は昼寝でもしてこよう。",
-      "char": "c266_01",
-      "speaker": "same"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "暇さえあれば、爪を立てて飛びついてくる猫のせいで疲れが溜まっているんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "after_effect": "go_to_right_point"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "さようなら～ホルス～",
-      "char": "m212_01",
+      "dialogue": "お、落ち着け。指だけじゃお前を助けてやれない。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "22": {
+      "type": "talk",
+      "dialogue": "そして、俺はお前の助けが必要なんだ。\\魔王になるために…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "私の契約者もそう言った。私の助けが必要だと。\\復讐のために。",
+      "char": "m145_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "私は契約者の怨念から生まれた存在。\\無理やり引き留めても、その欲望を消すことは\\できない。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "だが私の邪魔をしないのであれば\\お前の目的のために私も最善を尽くしてやろう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "いや、本当は魔王なんかになりたくは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "だからもう邪魔はするな。\\これ以上邪魔をしたら、その時は…",
+      "char": "m145_01",
+      "speaker": "same_full",
+      "distance": "near"
+    },
     "28": {
       "type": "talk",
-      "dialogue": "フン！ホルルって本当に意地悪で嫌な奴！\\大嫌いだニャン！",
-      "char": "c274_01",
+      "dialogue": "わ、分かった、分かったよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "nonsense"
     },
     "29": {
       "type": "talk",
-      "dialogue": "おお～\\こんにちは～猫の悪魔。\\私の名前はルーンと申しま～す。",
-      "char": "m212_01",
+      "dialogue": "分かったからどうか命だけは…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "one_ani": "attack"
+      "facial": "unfair"
     },
     "30": {
-      "type": "talk",
-      "dialogue": "ルーンも嫌いニャン…",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

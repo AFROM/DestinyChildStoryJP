@@ -2,183 +2,277 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "エルメスは今日も俺のスマホを強奪して\\何やらポチポチやっている。\\貸すのは別に構わないんだが…",
+      "dialogue": "ご主人サマ、どうかご慈悲を…",
       "background": "bg086_f",
       "bgm": "4",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "char": "c022_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…ポチッとな。\\うっし、購入かんりょ～",
-      "char": "c036_01",
+      "dialogue": "うわあ…モナ、聞いたか？\\こいつ、俺のこと「ご主人様」って言ったぞ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "joy"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうか、ポチったか。\\最近のネットは便利だよな～…",
-      "char": "c000_01",
+      "dialogue": "よかったじゃないですか～\\おめでとうございます。ご主人さま♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "pretense"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…って！\\何、買っちゃったの！？",
-      "char": "keep",
+      "dialogue": "へへ…\\ついにマヤウェルにも俺のすごさがわかったんだな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "confused",
-      "before_effect": "none",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何って、新しく出たスニーカーとTシャツに…\\それに、限定コラボタンブラーに、ヘッドフォン。\\見てみろ、いい感じだぞ。",
-      "char": "c036_01",
+      "dialogue": "そうでもありません、ご主人サマ。\\ですが、わたくしめの忠誠心と尊敬を込めて、\\心から…",
+      "char": "c022_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "使えるデータ量も、カードの上限額も少ないのに、\\いくらなんでも買いすぎだろ！？",
+      "dialogue": "…悲しくなるからもういいよ。寸劇はもう十分だ。\\どうせゲーム機が壊れたから直してほしいとかだろ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "俺は注文を取り消すべく、エルメスから\\スマホを取り返したが…時すでに遅く、\\すでに商品は発送済みになっていた…\\最近のネットショッピングって早い、早すぎる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…ったく、どいつもこいつも…\\都合のいい時だけご主人様だよな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "その上、目を疑いたくなる通知が表示されている…\\「今月のデータ使用量が上限を超えました。」",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "で、直してくれないってことすか？",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "と、まあ、実はこれぐらいはいつものことなので、\\今更驚かない。それよりも問題は…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "エルメス、今日こそはっきり言おう。\\俺は…",
+      "dialogue": "うーん…\\まあ、お前のたったひとつの楽しみだろうし。\\まあ直してやっても…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "facial": "pretense"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "おお！ありがとうございます！\\慈愛に満ちたご主人サマ！",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…って、おい、どこに行くんだ？",
-      "char": "keep",
+      "dialogue": "…いいかなって思ったんだけど\\お前のためを思うと、壊れたままのほうがいいかな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "おい、その話は本当だろうな？",
-      "char": "c036_01",
+      "dialogue": "うっは、超絶肩透かし！\\悪魔氏に期待したボクがバカだったっす！",
+      "char": "c022_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ホントだってば、このピーナッツの袋は限定だよ。\\ここまでキレイに開封してあるの見たことある？\\限定品ならではだよ。",
-      "char": "c052_01",
+      "dialogue": "そんなに怒んなよ。\\一応、全部お前のためなんだぞ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふむ、確かに…\\よし、言い値で買うよ。",
-      "char": "c036_01",
+      "dialogue": "フン！どうすかねー？\\どうせ、ボクを懲らしめたいだけじゃないんすか！",
+      "char": "c022_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake_weak"
     },
     "15": {
       "type": "talk",
-      "dialogue": "いつの間にか、他のチャイルドに\\ゴミやガラクタを高値で売りつけられている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "違うって。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "エルメスはそうして買ったものを全て、\\持ち歩いているテディベアの中に突っ込んで\\そのまま、それ以降出しているのを見たことがない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そうじゃなくて、お前、ゲームばっかりしてるから\\他のチャイルドたちと全然仲良くならないだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "結局使わないくせに、\\何であんなに色々買い漁るんだ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "他の奴らが、どれだけ残念がってるか知ってんのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そのキャンディ、見たことないけど…\\限定モノかい？なら、ボクに売ってくれ…！",
-      "char": "c036_01",
+      "dialogue": "う、ウソだッ！\\…誰がボクと…仲良くなりたいなんて…",
+      "char": "c022_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うん、限定モノ？\\どういうことだ、それは？",
-      "char": "c072_01",
+      "dialogue": "…つーか、誰よりも、俺がお前と\\仲良くなりたいんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "いいから、売ってよ！\\それとも独り占めするつもりか！？",
-      "char": "c036_01",
+      "dialogue": "あらあら～♥どさくさに紛れて告白ですか～？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "tempt"
     },
     "21": {
       "type": "talk",
-      "dialogue": "わ、わかった…これが欲しいんだな。\\そうだな…2,000円でどうだ！？",
-      "char": "c072_01",
+      "dialogue": "くそ、言うと思った…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "sigh"
     },
     "22": {
       "type": "talk",
-      "dialogue": "エルメスの買い物は、そうやって続いている。\\まるで、この世の物を全て買い占めようと\\しているみたいだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "悪魔氏…それ…ほ、本当っすか？",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "23": {
+      "type": "talk",
+      "dialogue": "そうだよ。だから、これを機にゲームは卒業して…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "よお、元気してるか？…ん？なんだ、それ？",
+      "char": "c069_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "プタハ？\\闇市場にいるはずのお前が、なんでここに？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "どうしてるかなと思ってね。\\ところで…何だ？その面白そうなおもちゃは。",
+      "char": "c069_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "おもちゃ？ああ、マヤウェルのゲーム機か。\\お前、ゲームするんだっけ…あ、やべ、まさかお前…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "これ、壊れてるんだな。\\俺が直してやるよ。",
+      "char": "c069_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "おおー！慈悲深いプタハ様ー！",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ああー！おい、やめろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ほい、これで完了！",
+      "char": "c069_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "あらあらぁ♥ご主人さまの薄っぺらい計略は、\\阻止されちゃったみたいですね～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "薄っぺらい計略って…\\俺はマヤウェルと仲良くなりたかっただけで…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "よーし、じゃあ始めようか。",
+      "char": "c069_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "one_ani": "attack"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "プタハ様っ！今日からご主人様と呼ばせてください！",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "right",
+      "loop_ani": "attack"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…まあ、主人なんて、\\そんな大したものでもないし…は、ははは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

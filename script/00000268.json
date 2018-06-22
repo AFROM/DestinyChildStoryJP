@@ -2,359 +2,349 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ヘルモッド！\\美しい女性の好意を踏みにじるなんて！\\それでも男か！？",
+      "dialogue": "ご主人さま♥\\今日は誰をお供にしますか？",
       "background": "bg086_f",
-      "bgm": "12",
-      "char": "c208_01",
+      "bgm": "9",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はあ…\\面倒な女が傷を癒してくれるっていうから\\そんなの必要ないって言っただけだ。",
-      "char": "c185_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "め、面倒な女って！\\じょ、女性に向かってそんな無礼なことを！",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "one_ani": "attack"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "許さん！\\男の名誉に懸けて謝罪してもらう！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ウザイやつだな…\\いい加減、そこをどけ！",
-      "char": "c185_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "one_ani": "attack"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "治療薬は必要ないということですね。\\後のことを考えて保管しておきます。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "今日も元気ね！\\友情を確かめ合う姿、ステキよ～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "あれのどこに友情が…\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "魔界基準で言ったらあのくらい友情ですよ♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "あら。<color=ff7480>クロスカウンター♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "<color=ff7480>跳び蹴り♥逆十字固め♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "tempt"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "<color=ff7480>噛みついた♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "あれで無駄死にしないといいけど。",
+      "dialogue": "そうだな、今日はデメテルが…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "15": {
+    "3": {
       "type": "talk",
-      "dialogue": "フローラが止めてみようか…？",
-      "char": "c120_01",
+      "dialogue": "やっぱり、やめた。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あら…",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "16": {
+    "5": {
       "type": "talk",
-      "dialogue": "放っておきましょう。\\おバカな人たちには無駄だと思いますから。",
-      "char": "c002_01",
+      "dialogue": "ど、どうしてそんな目で見るんだよ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "本気で怒ったぞ！\\歯を使うなんて武闘家の誇りは無いのか！？",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そんなもんあるか！",
-      "char": "c185_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "before_effect": "shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "こら…ガキ、どけ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ん？",
-      "char": "c120_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "フローラ！",
-      "char": "c027_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast",
-      "screen_effect": "dialog_shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "美しい花の女神！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ボクが救ってみせる！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…どうしてみんな重なってるの？",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "sigh"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ご主人の上にキンティア、\\フローラの上にヘルモッドとファイロ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
       "facial": "idle"
     },
-    "27": {
+    "6": {
       "type": "talk",
-      "dialogue": "フローラがファイロの攻撃を受けそうだったところをキンティアが止めにかかり…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "それを受け止めようとしたご主人さまが下敷きに♥",
+      "dialogue": "《優しくしてあげる》と言ったはずでは？",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "facial": "pretense"
     },
-    "29": {
+    "7": {
       "type": "talk",
-      "dialogue": "ヘルモッドがまたその前を塞ぎ、\\走って来たファイロが上にかぶさったせいで…",
-      "char": "c002_01",
+      "dialogue": "まるで、噛み終えたガムみたいに捨てるんですね…\\素晴らしいです！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "今日はご主人さまが最高に悪魔らしい日です♥\\魔王の座も遠くないみたいですね？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…人聞きの悪い事を言うなっての！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "serious",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake"
     },
-    "30": {
+    "10": {
       "type": "talk",
-      "dialogue": "まったく、治療薬を持ってきますね。\\バカが多いと事故も多いのですから。",
+      "dialogue": "別に、悪気があって取り消したわけじゃないさ。\\ただ…",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ただ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あんまり、ベタベタされると、\\やりずらいっていうか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ベタベタといいますと、こんな感じですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ああ、そんな感じかな…\\",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "って、モナが近づいてどうするんだよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "うふふっ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "toonear"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "本当、どいつもこいつも…\\どうしてみんな俺をいじるのが好きなんだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "31": {
+    "18": {
+      "type": "talk",
+      "dialogue": "デメテルはただ、\\ご主人さまの力になりたいだけですよ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "一緒に見たじゃないですか、デメテルの過去を…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "人を助けたくて看護師になったんだろ？\\子供の頃やってたオママゴトだって…",
+      "background": "dungeon_bg",
+      "char": "m062_01",
+      "speaker": "same_full"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "こんなの私が思ってた看護師じゃない！毎日毎日、くだらない話ばっかり聞かされて、\\雑用ばっかり！もう、うんざりよ！",
+      "char": "m061_01",
+      "speaker": "same_full"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "うーん、確かに…",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "昔の事はともかく、今デメテルが\\一番力になりたいのはご主人さまなんです。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そんなこと、言われても…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "はぁ～これでは、デメテルも苦労しますね…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ううっ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "それでは～\\今回は誰をお供に連れて行きますか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…デメテルさんでお願いします。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "やったわ♥",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_right_slow"
     },
     "32": {
       "type": "talk",
-      "dialogue": "お嬢さん。\\怪我はないかな…",
-      "background": "bg086_f",
-      "char": "c027_01",
+      "dialogue": "良かったわね、デメテル♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "facial": "smile"
     },
     "33": {
       "type": "talk",
-      "dialogue": "キンティアこそ怪我しなかった？",
-      "char": "c120_01",
+      "dialogue": "お前ら…グルだったのか！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "34": {
       "type": "talk",
-      "dialogue": "君が無事で嬉しいばかりだよ。",
-      "char": "c027_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "君の白玉のような肌が傷つくのを見るくらいなら、\\ボクが、いくらでも怪我をしてあげよう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "36": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "本物のヒーローみたいだったぞ。",
-      "background": "bg012_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "キミにも驚いた。\\チャイルド4人のために身を投げ出すとは。",
-      "char": "c027_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "俺が倒れているところに\\お前たちが勝手にかぶさってきたんだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "ふふふ、謙遜を…\\このキンティア、1人の女として見直したよ。\\ボクの未来、預けてもよさそうだ。",
-      "char": "c027_01",
+      "dialogue": "うふっ、ムキになっちゃって可愛い～♥",
+      "char": "c010_01",
       "speaker": "same",
       "pos": "right"
     },
-    "41": {
+    "35": {
       "type": "talk",
-      "dialogue": "は？\\おい、お前、<color=ff9900>女</color>だったのか！",
+      "dialogue": "わたしがお世話してあげちゃうわね、ダーリン♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "く、くそっ…\\動揺した俺がバカだった！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "あはは！\\わたしを生み落とした責任、ちゃんと取ってよね♥",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "な、なんだこれは…\\この外堀が埋められていく感じは…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious"
     },
+    "39": {
+      "type": "talk",
+      "dialogue": "ふふふ…\\逃がさないわよ♥",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "40": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "あ、ひとつ言っておくけど～",
+      "background": "dungeon_bg",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "42": {
       "type": "talk",
-      "dialogue": "あれ、知らなかったのかい？",
-      "char": "c027_01",
+      "dialogue": "わたしがダーリンの呼び出しに応じてるのは、\\単なる気まぐれよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "43": {
       "type": "talk",
-      "dialogue": "で、でもお前！\\自分が女だったら告白してたって！",
-      "char": "c000_01",
+      "dialogue": "そういうわけで、いちいち悩む必要ないからね！\\それにこの生活。結構お気に入りだし～♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right"
     },
     "44": {
       "type": "talk",
-      "dialogue": "事実だよ。\\何か間違ってる？",
-      "char": "c027_01",
+      "dialogue": "ただ、気に入らないのは…\\ダーリンがわたしをこそこそ避けることかしら～？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "45": {
       "type": "talk",
-      "dialogue": "え、えぇ…お前まさか…",
+      "dialogue": "な、何の話だよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -362,69 +352,79 @@
     },
     "46": {
       "type": "talk",
-      "dialogue": "ま、まぁ、そういうこともあるだろ。",
-      "char": "keep",
+      "dialogue": "だって、目が合うとそっぽを向くし。",
+      "char": "c010_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right"
     },
     "47": {
       "type": "talk",
-      "dialogue": "ボクも残念だ。\\でも好みなんだから仕方ない…",
-      "char": "c027_01",
+      "dialogue": "…ふふ～ん\\そうだったかな～",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "pretense"
     },
     "48": {
       "type": "talk",
-      "dialogue": "好みは俺にだってあるさ。",
-      "char": "c000_01",
+      "dialogue": "近づいたらにげるし～",
+      "char": "c010_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "distance": "near"
     },
     "49": {
       "type": "talk",
-      "dialogue": "運命は残酷なもの…\\でも友達にはなれるよね？",
-      "char": "c027_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "あ、ああ。友達なら…いいかな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "うん、これからもよろしく。",
-      "char": "c027_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "キミはいつも美しい。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "……",
+      "dialogue": "うっ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "far"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "話しかければ気まずそうにするでしょ！",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "toonear"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "そ、そんなことはないよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "次もそうやってビクビクして\\わたしの顔色うかがうような事したら、怒るわよ！",
+      "char": "c010_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "デメテルが怒るのも仕方ないかもしれない。\\だが、俺は元々人見知りで…って言おうとしたが",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "54": {
+      "type": "talk",
+      "dialogue": "空気を読んで、この話はうやむやにした…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "55": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
-      "fade_in": "normal"
+      "fade_in": "longest"
     }
   }
 }

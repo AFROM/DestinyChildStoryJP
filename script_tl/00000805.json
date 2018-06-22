@@ -2,256 +2,243 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お兄ちゃーん♥",
-      "background": "bg086_f",
+      "dialogue": "《エネルギー減少。残り50%…》\\殲滅モード終了…\\これより節電モードに移行します。",
+      "background": "bg057_f",
       "bgm": "9",
-      "char": "c258_01",
+      "char": "c365_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "center"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何だ？急に甘えてくるなんて。\\お前何かたくらんでるだろ…",
+      "dialogue": "うわ～…\\本当にすさまじい威力だな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そ、そんなことないよ！\\ただ、お兄ちゃんに聞いてほしいお願いがあるだけ！",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "お願い？…ってどんなお願いだよ…",
-      "char": "c000_01",
+      "dialogue": "リザは元々強かったけど、もはや次元が違うっていうか…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "5": {
+    "4": {
       "type": "talk",
-      "dialogue": "ピクシーのお願い聞いてくれるの！？",
-      "char": "c258_01",
+      "dialogue": "そうですね。\\おっしゃる通り、ロボットの状態なら戦闘力は劇的に上昇します。どこかの補欠魔王候補生より遥かに強いかもしれません。",
+      "char": "c365_01",
       "speaker": "same",
       "pos": "right"
     },
-    "6": {
+    "5": {
       "type": "talk",
-      "dialogue": "いや、だからまず、どんな願いなのか聞いてから…",
+      "dialogue": "どこかの補欠だと！？\\リザ、お前までそういうこと言うのか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "distance": "near",
+      "facial": "unfair"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…そもそも御主人様が弱すぎるのが問題です。\\御主人様より強いサポーター…\\なんと肩身が狭いことか。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ふわああん！\\お願い聞いてくれないの！？",
-      "char": "c258_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "うわっ！わ、わかった！\\聞く！聞くから泣くなって…",
+      "dialogue": "その、血も涙もない表現…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "nonsense"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "この悪魔！いや、ロボット！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
     "9": {
       "type": "talk",
-      "dialogue": "ほんと！？\\へへへ。じゃあ、これ受け取って。",
-      "char": "c258_01",
+      "dialogue": "でも少々困りましたね。\\強さに比例してエネルギーも大量に消費します。",
+      "char": "c365_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "これ…手紙か？",
+      "dialogue": "エネルギー消費が多いのか？\\それなら、やっぱり食事でチャージするんだろ？\\まさか…電力？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "idle"
     },
     "11": {
       "type": "talk",
-      "dialogue": "うん！\\ママに渡しておいて！",
-      "char": "c258_01",
+      "dialogue": "はい。コネクターの規格は《USB type-C》で\\急速充電も可能です。\\別オプションでワイヤレス充電も可能です。",
+      "char": "c365_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ママに…か。\\何が書いてあるんだ？",
+      "dialogue": "マジか！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ナイショ！\\ママに書いた手紙なんだから、\\お兄ちゃんは読んじゃダメだからね！",
-      "char": "c258_01",
+      "dialogue": "嘘です。\\私も食事でエネルギーをチャージしますよ。",
+      "char": "c365_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "わ、わかってるよ。",
+      "dialogue": "お前さ…\\ロボットになっても、そういうの変わらないんだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
     "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "そうです。御主人様への忠誠は変わりません。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…「わかってる」とは言ったものの、\\ダメと言われると余計に見たくなるんだよな。\\ちょっとくらいなら…",
-      "background": "bg086_f",
+      "dialogue": "ああ、もういいや。\\最先端か何なのか、ホントよく分からないヤツだな…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "irritation"
     },
     "17": {
       "type": "talk",
-      "dialogue": "外道ですね。\\子供相手に嘘をつくなんて…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "うわっ！\\お、驚かすなよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "俺はてっきり、\\悪魔らしいって\\褒めてくれると思ったんだけどな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "褒めるに値しない、幼稚な行為です。",
-      "char": "c002_01",
+      "dialogue": "私は常に最先端です。\\今の私は熱力学第2法則を克服した夢の存在。\\御主人様が使用するには、明らかにオーバースペックです。",
+      "char": "c365_01",
       "speaker": "same",
       "pos": "right"
     },
-    "21": {
+    "18": {
       "type": "talk",
-      "dialogue": "ま、まあ、確かに、\\子供の手紙を覗き見するなんて\\情けないかもしれないけど…",
+      "dialogue": "しかしリザ。その恰好ちょっと面倒くさくないか？\\なんだか背も高くなって生活しにくくないか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…そうですね。悩みどころです。\\戦闘には申し分ありませんが、日常生活には少し不便です。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そのままでいるつもりか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "はい。少し不便ですが、なかなかいい身体ではありませんか？丈夫ですし、力も強い。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "でも、これはピクシーがママに書いた手紙だろう？\\どんな内容かぐらい知っておかないと、\\主人としてはいけないだろう？",
+      "dialogue": "少し費用面で心配がありますが、生体ボディに比べれば、運用はかなり効率的です。\\修復もパーツの交換で済みますからね。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "はいはい。\\お好きになさってください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "な、なんだよ？\\とりあえず、さっそく読んでみるぞ。",
+      "dialogue": "そ、そうなのか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "25": {
+    "24": {
       "type": "talk",
-      "dialogue": "ママ、お元気ですか？\\嘘つきなおじさん悪魔に捕まって、毎日怖くて大変だけど、ピクシーは元気です。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "おいおい。\\まさか、嘘つきなおじさん悪魔って…",
+      "dialogue": "何と言うか、まぁ…\\本当にロボットになったみたいだな。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "27": {
+    "25": {
       "type": "talk",
-      "dialogue": "状況から察するに、\\御主人様を指しているようですね。",
-      "char": "c002_01",
+      "dialogue": "…ん？今、何かおっしゃいましたか？",
+      "char": "c365_01",
       "speaker": "same",
       "pos": "right"
     },
-    "28": {
+    "26": {
       "type": "talk",
-      "dialogue": "子供ってさ、想像力豊かだよね…\\さ、続き続き。",
+      "dialogue": "いや…なんでもないよ。\\リザの意見はよく分かった。",
+      "bgm": "4",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
+    "27": {
+      "type": "talk",
+      "dialogue": "ハハ…実はさっぱり分からん。\\リザの気持ち…いつかきっと理解してみせる！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "今は無理だけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
     "29": {
       "type": "talk",
-      "dialogue": "毎日怖くて大変だけど、ピクシーは元気です。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "特に大変なのは、\\嘘つきなおじさんが毒の入った食べ物を\\無理やり食べさせようとすることです。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "こちらは、御主人様が偏食するピクシーに、\\無理やりピーマンを食べさせようとしたことを示しているようです。",
-      "char": "c002_01",
+      "dialogue": "…はい？\\どうかしましたか、御主人様？",
+      "char": "c365_01",
       "speaker": "same",
       "pos": "right"
     },
+    "30": {
+      "type": "talk",
+      "dialogue": "………",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "定期的にメンテナンスの時間を設けたほうが良さそうですね。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
     "32": {
-      "type": "talk",
-      "dialogue": "毒って…\\俺はただピクシーが元気に大きく育つようにと思ってやってたのに…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "親の心子知らずとはよく言ったものですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

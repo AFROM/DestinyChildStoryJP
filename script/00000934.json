@@ -2,218 +2,75 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "この商品はこっちで…えーと、この商品はこっちの棚…ああっ、あっちでまた雪崩…！\\ちょっと片付けないと！",
-      "background": "bg206_f",
-      "bgm": "37",
-      "char": "c229_02",
+      "dialogue": "ち、ちくしょ～！トリ友に言いつけてやるトリ～！",
+      "background": "bg102_f",
+      "bgm": "9",
+      "char": "m246_01",
       "speaker": "same",
       "pos": "center",
-      "voiceid": "400801001"
+      "before_effect": "shake",
+      "after_effect": "go_to_left_jump"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ふう。毎月毎月入荷するものが変わってるから、在庫管理が本当に大変！　",
-      "char": "keep",
+      "dialogue": "あ、まてっ！",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "center",
-      "voiceid": "400801002"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "なーんて文句言ってないで、ランフェイにお願いしてもっと広いお店を…",
-      "char": "keep",
+      "dialogue": "トリ友って…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "voiceid": "400801003"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あの…",
-      "char": "c000_01",
+      "dialogue": "アトレ秋葉原の中に逃げてしまいましたね。\\トリ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "400801004"
+      "pos": "right",
+      "facial": "pretense"
     },
     "5": {
       "type": "talk",
-      "dialogue": "チュー！",
-      "char": "c229_00",
+      "dialogue": "まあいいさ。\\そもそもチャイルドかどうかもよく分からんし。\\放っておこう。",
+      "char": "c000_01",
       "speaker": "same",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "400801005"
+      "pos": "left",
+      "facial": "sigh"
     },
     "6": {
       "type": "talk",
-      "dialogue": "えっ、ネズミ？　",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "400801006"
+      "dialogue": "ええ。気にはなりますが、\\今は契約者探しを優先しましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "違います！チンチラです！\\大きなお耳が特徴の可愛いげっ歯類ですよ！\\…そこらへんのドブネズミと、二度と一緒にしないでくださいね！　",
-      "char": "c229_02",
+      "dialogue": "やだ！絶対、諦めないから！",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "400801007"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そこまで言ってないぞ！",
-      "char": "c000_01",
+      "dialogue": "あのおっきなトリを、\\ボクのコレクションに加えるんだ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "screen_effect": "dialog_shake",
-      "voiceid": "400801008"
+      "pos": "center",
+      "distance": "near"
     },
     "9": {
-      "type": "talk",
-      "dialogue": "あら、そうでしたか？\\ネズミなんていうからてっきり…\\ところでお客様、来店は初めてですよね？",
-      "char": "c229_02",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801009"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "いらっしゃいませ！ここは新しくオープンした\\<color=ff9900>《レイドショップ》</color>です！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801010"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ブラウニーの情報収集能力を遺憾なく発揮して、\\お客様が思わず「欲しい…」とうなる商品を、\\揃えてま～す！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801011"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "って、あああ！腕が当たってまた雪崩が…！\\くう…お店が狭すぎて、動きづらい…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake",
-      "voiceid": "400801012"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "それで、何か気になる商品はありますか？　",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801013"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "商品は、他の悪魔やチャイルドと戦って手に入れた\\<color=ff9900>《ラグナコイン》</color>と交換で～す！　",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801014"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "開店セール…はないけど、並んでいる商品を全て買っていただいたら、<color=ff9900>スペシャルなプレゼント</color>をお付けしますよ！　",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801015"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "なるほど、つまり《ラグナコイン》で、買うことが\\出来るってわけだろ？覚えとくよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile",
-      "voiceid": "400801016"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "お客様、飲み込みが早い！\\それじゃあ、これからブラウニーのお店を\\どうぞご贔屓に！　",
-      "char": "c229_02",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake",
-      "voiceid": "400801017"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "あ！それから…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801018"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "「壁に耳あり、障子にも耳あり」って言葉は、\\ご存知ですか？　",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "400801019"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "それを言うなら、「壁に耳あり障子に目あり」だろ！　",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "one_ani": "attack",
-      "voiceid": "400801020"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ぶぶー！チンチラ界ではちょっと違うんですね～",
-      "char": "c229_02",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801021"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ここだけの話、裏社会の情報も取り扱ってます。\\お客様に損はさせませんよぉ～\\何か聞きたいことがあったらぜひこのブラウニーに\\お任せあれ！手数料はお安くしておきます！　",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801022"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "小回りが利くヤツだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "400801023"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "とびっきりの褒め言葉として受け取っておきます、\\お客様。",
-      "char": "c229_02",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400801024"
-    },
-    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

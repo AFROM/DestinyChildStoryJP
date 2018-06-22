@@ -2,303 +2,241 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "さあ、もういいよな？\\それじゃあ、もう帰ろう。",
-      "background": "bg062_f",
-      "bgm": "14",
-      "char": "c000_01",
+      "dialogue": "ヴィーナスのように美しい女神、モナ。\\今日もあなたの瞳は夜空の星のように輝いてる。",
+      "background": "bg086_f",
+      "bgm": "8",
+      "char": "c027_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ひどいです、ご主人様。\\今来たばかりじゃないですか？\\もう帰るって言うんですか？",
-      "char": "c038_01",
+      "dialogue": "あら♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "俺は海が大ッ嫌いなんだ！\\ベトッとしてるし、しょっぱいし…\\海風って、なんでこんなに生温いんだ？",
-      "char": "c000_01",
+      "dialogue": "君への想いは今日も\\火山のように燃え上がっている。",
+      "char": "c027_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "さぁ～ご主人様！\\私をつかまえてごらんなさ～い！",
-      "char": "c038_01",
+      "dialogue": "リザ、ボクも\\君のように白い雪のような肌になりたい。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "near"
     },
     "5": {
       "type": "talk",
-      "dialogue": "うふふ、あはは～",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "normal",
-      "before_effect": "go_to_right_point"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "俺の話を全く聞いていない…",
-      "char": "c000_01",
+      "dialogue": "そんなこと言うのはフレイ様だけで十分です…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "モナ、このしつこ…いや、この方は\\どこから連れて来たのですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
     "7": {
-      "type": "talk",
-      "dialogue": "1人でやってろ！俺は絶対にやらんぞ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "冷たいご主人様…\\ううっ…フン…\\ロマンとは程遠い、つまらない男なのですね。",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_slow"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "はっは～今頃、気が付いたか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "あ、あの…",
-      "char": "c038_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ん、あれ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "カリプソの契約者、アレシャ・ブラッドリーだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "契約の時、俺がゆるキャラの着ぐるみを着ていたせいか、俺のことは覚えてないようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "道、忘れてしまいました。ここ、どこですか？",
-      "char": "c038_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "道なら私が教えてあげましょう。",
-      "char": "c038_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "おい、カリプソ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "大丈夫ですよ。\\私の契約者は、私が誰なのか知らないんです。",
-      "char": "c038_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "それに他の女がご主人様に近づくのはイヤなんです。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "結局、それが本音か。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ありがとう、綺麗な方ね。",
-      "char": "c038_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ところで、1人ですか？\\お連れの方はいないのですか？",
-      "char": "c038_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "カリプソはそう言って、堂々と俺の腕に自分の腕を絡めた。\\…意地悪なヤツだな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "当然、アレシャが不機嫌な表情を浮かべる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "彼氏はいたの…でも、今ここにいないだけ。\\ここは、彼氏と一緒にデートしたところなの。",
-      "char": "c038_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ふう～ん。思い出を振り返っているの？\\バカげてるわね、本当に。",
-      "char": "c038_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "カリプソ、言いすぎだぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "だって、本当のことじゃないですか。\\私、別れたのに忘れずにズルズル引きずる女って一番情けないと思うわ。",
-      "char": "c038_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ねぇ、あなた？\\見たところまだその彼を忘れられないみたいだけど…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "悩んでる暇があったら、すぐにその男の所に行って、ほっぺたを引っ叩いて、首に縄でも掛けてやりなさいよ。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "………",
-      "char": "c038_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "うん、そうする！私、ちょっと勇気が出てきたわ。\\私、もう一度彼と会います！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ありがとう！",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "34": {
+    "8": {
       "type": "talk",
-      "dialogue": "案外優しいんだな。契約者の応援をしてやるなんて。",
-      "background": "bg062_f",
+      "dialogue": "蝙蝠の人！ああ、本当に素敵！\\世界を背負う、孤独な姿…",
+      "background": "bg070_f",
+      "char": "c027_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>蝙蝠の人</color>って何？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "あ、それマンガの登場人物で…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "facial": "idle"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "蝙蝠の人は、とっても強くてカッコいい人よ！\\危機に陥った女性を助け出すヒーローなの！",
+      "char": "c027_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "コウモリに変身するの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
       "facial": "smile"
     },
-    "35": {
+    "13": {
       "type": "talk",
-      "dialogue": "これが私の応援のやり方です。\\勇気ある者だけが恋を勝ち取るんですよ！",
-      "char": "c038_01",
+      "dialogue": "このサキュバス、主人の話を聞け…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "irritation"
     },
-    "36": {
+    "14": {
       "type": "talk",
-      "dialogue": "だ～か～ら～私も勇気をもって、ご主人様に…",
+      "dialogue": "うーん…できるはず。だって蝙蝠の人だもん！",
+      "char": "c027_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "はあ、ヒーローへの道は長く険しい。",
+      "background": "bg089_f",
+      "char": "c027_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "蝙蝠の人になれると思ったのに、\\チャイルド…だっけ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "こんな存在にするなんて！",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "37": {
+    "19": {
       "type": "talk",
-      "dialogue": "う～ん♥",
-      "char": "keep",
+      "dialogue": "そんなうまい話があるわけないだろう？\\悪魔の契約を何だとおもってるんだよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "toonear"
+      "pos": "left",
+      "facial": "haah"
     },
-    "38": {
+    "20": {
       "type": "talk",
-      "dialogue": "な、なんで急に唇を突き出してくるんだよ！？",
+      "dialogue": "…んー。",
+      "char": "c027_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "何だよ。\\そんな目で見るなよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…キミは、本当に美しい。",
+      "char": "c027_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "はぁっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "shake_weak"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "その尖った頭、無神経そうな表情、\\何よりも魅力的なそのしっぽ…",
+      "char": "c027_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "うえっ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "nonsense",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "漆黒よりも深い闇を持つキミが<b>女性</b>なら\\ボクはもう告白していたところだ。",
+      "char": "c027_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "う…うわ…\\何言ってるんだ、こいつ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
       "before_effect": "shake"
     },
-    "39": {
+    "28": {
+      "type": "talk",
+      "dialogue": "あ、しっぽが伸びましたね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "床掃除できそうだね。\\ちょっと試してみようか？",
+      "char": "c003_01",
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ダメよ♥\\それは掃除道具じゃありません～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

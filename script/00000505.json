@@ -2,322 +2,287 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "呆れたヤツだ。勝算が見えない状況だというのに、\\いつまで無駄な足掻きをするつもりだ？",
-      "background": "dungeon_bg",
-      "bgm": "2",
-      "char": "c214_01",
+      "dialogue": "ああ、モナさん、麗しの女神…\\この切ない気持ちを聞き届け\\どうかその美しい姿をお見せください。",
+      "background": "bg095_f",
+      "bgm": "20",
+      "char": "c180_01",
       "speaker": "same",
-      "after_effect": "shake"
+      "screen_effect": "dialog_shake",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "めっちゃ手強い奴なんだってば！\\…でも、あとちょっとで倒せるんだ！",
-      "char": "c000_01",
+      "dialogue": "うえぇ…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…なるほど、戦況を顧みることも出来ず、退くつもりもない、と。",
-      "char": "c214_01",
+      "dialogue": "なんたる下品な。乙女の口からそんな音を出すとは。",
+      "char": "c180_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "仕方ない、この戦いに勝つためだ。\\私の真の力、見せてやろう。",
-      "char": "c214_01",
+      "dialogue": "あんたの顔のほうが下品。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "おい、戦闘中に何を…って、そのバッグは…",
-      "char": "c000_01",
+      "dialogue": "い、今何と…！",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock"
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ジュピターは自分のバッグを開いた。\\ついにバッグの中身が明らかに…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そんなタラコ唇で\\愛するモナ姉さまの名前を呼ばないでくれる？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c214_01",
+      "dialogue": "なんと生意気な…！おい！誰か！\\今すぐこの無礼な小娘を…！",
+      "char": "c180_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "へーん！誰もいないよーっ！べーっだ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…あれっ？",
-      "background": "dungeon_bg",
-      "bgm": "19",
-      "char": "c000_01",
+      "dialogue": "ああ…愛とは、とても遠く険しい道のり。\\どうすればモナさんに我の気持ちを…む？美女！",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense"
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "敵がいない…えっと…もしかして戦闘終わった？",
-      "char": "keep",
+      "dialogue": "お？\\今きれいなお姉さんをチラ見したでしょ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "気を失うとは…\\覚悟はしていたが、ここまで情けないとは…",
-      "char": "c214_01",
+      "dialogue": "ええい、許さん！謀ったな！",
+      "char": "c180_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "気を失った？俺が？",
-      "char": "c000_01",
+      "dialogue": "バッカじゃない？ヨダレ出てるよー！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ちょっと待て、一体何が起きたんだ？\\お前がバッグを開けて…それで…？",
-      "char": "keep",
+      "dialogue": "何を言う！貴様の見間違えだ！\\俺様は美しきモナさん一筋…チラッ",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "戦いには勝利したのだから、\\ここに長居する理由はない。",
-      "char": "c214_01",
+      "dialogue": "あ、また！\\見間違えてなんかないもん！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そのバッグ、やっぱヤバいもんが入ってるんだろ？",
-      "char": "c000_01",
+      "dialogue": "う、うるさい！\\我は我の女神、モナさんを探しに行く。",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…バッグの中身は重要ではない。\\どう使い、勝つか。それが重要なのだ。",
-      "char": "c214_01",
+      "dialogue": "悪いけど、\\オジさんはぜーんぜんモナ姉さまの好みじゃないよ。モナ姉さまは、ダビみたいな\\可愛いサキュバスが大好きなんだよね～",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それ前も聞いたし。",
-      "char": "c000_01",
+      "dialogue": "バカを言うな。男児たるもの、俺様のように\\恰幅が良く、頼もしくないといけないのだ。",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "はあ、とにかくなんか危ない武器を使うなら\\前もって言ってくれよな。",
-      "char": "keep",
+      "dialogue": "かっぷく？脂肪のこと？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "他のチャイルドをケガさせちゃいけないだろ？",
-      "char": "keep",
+      "dialogue": "し、脂肪…ぐぬぬ…そうだ！俺様には富がある！",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ダビのやつ、隙あらばジュピターのバッグの中身を\\見ようとしてたけど…\\絶対触らせないようにしなきゃ。",
-      "char": "keep",
+      "dialogue": "とみ？お金持ちってこと？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…お前は、本当に魔王になるつもりがあるのか？",
-      "char": "c214_01",
+      "dialogue": "そ、そうだ！\\それでモナさんを一生幸せにできるのだ！",
+      "char": "c180_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "えっ、いきなり何？",
-      "char": "c000_01",
+      "dialogue": "お、お金…それは確かに魅力的…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake_weak",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "本当にそのつもりなら、ひとつ忠告しよう。\\今後は勝利に貪欲になるべきだ。",
-      "char": "c214_01",
+      "dialogue": "わはは！うはははは！\\どうだ！思い知ったか！",
+      "char": "c180_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "正直魔王にはなりたくないけど…\\言われるまでもなく、\\戦闘ではベストを尽くしているつもりなんだけどな。",
-      "char": "c000_01",
+      "dialogue": "う、うぎぎぎ…！\\ずるいぞ、横暴だ！権力反対！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake_weak"
     },
     "25": {
       "type": "talk",
-      "dialogue": "そうは見えぬから、言っているんだ。\\ならば、この戦闘でも苦戦したのは、\\なぜだか理解しているのか？",
-      "char": "c214_01",
+      "dialogue": "あら？ふたりとも、すっかり仲良しさんなのね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "26": {
       "type": "talk",
-      "dialogue": "チャイルドたちを心配して、迷っている間に\\戦況が変化し続けていた。それに気づかず\\引き際も見落とした。",
-      "char": "keep",
+      "dialogue": "モナさん！",
+      "char": "c180_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
     },
     "27": {
       "type": "talk",
-      "dialogue": "それで事前に予告もなく\\そんな危ないモノを使ったってことか？勝つために？",
-      "char": "c000_01",
+      "dialogue": "違うもん！あんなギトギトのオジさんと\\仲良しなんかじゃないもん！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "だったら、あー、もういいや。\\やーめた、魔王やーめた。",
-      "char": "keep",
+      "dialogue": "モナさん、どこにいらしたのですか。\\あなた恋しさに、どれだけ探したことか。",
+      "char": "c180_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "だから、おまえも二度とそいつを使うなよ？\\戦闘で負けたからってこの世が終わるわけでも\\ないし…",
+      "dialogue": "でも、もう大丈夫です。\\やっとあなたの麗しいおっぱ…\\いや、お顔を拝見できたのですから。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "勝つつもりはない、と？",
-      "char": "c214_01",
+      "dialogue": "モナ姉さま～どこ行ってたの～？\\いつもダビの傍にいてくれなくちゃいやだよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile"
     },
     "31": {
       "type": "talk",
-      "dialogue": "違うよ。\\危ないモノ使ってまで勝つ必要ないってこと。\\戦いに勝っても誰かが倒れてたら意味ないだろ。",
-      "char": "c000_01",
+      "dialogue": "今、あの口の臭いオジさんから\\姉さまを守ろうって頑張ってたんだからぁ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "32": {
       "type": "talk",
-      "dialogue": "勝つつもりもないのに、ベストを尽くしている、\\なんて言葉を口にしたのか？",
-      "char": "c214_01",
+      "dialogue": "そうなの？\\わたしはご主人さまとご一緒してたのよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "勝つっていうか…一生懸命戦わないと…\\チャイルドたちが危ないだろ？\\主人になった以上、あいつらは守ってやらないと。",
-      "char": "c000_01",
+      "dialogue": "あーっ！\\あのウスラトンカチ！\\またモナ姉さまを独り占めした！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "34": {
       "type": "talk",
-      "dialogue": "チャイルドを守る…\\それが、あなたが言うベストを尽くす戦い方、\\ということか…ふむ、なるほど。よくわかった。",
-      "char": "c214_01",
+      "dialogue": "ふむ…どうやら恋敵は他にもいるようだな…",
+      "char": "c180_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "え？今の話で何がわかったの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "あなたの、チャイルドたちへの気持ち、\\とでも言うべきか。\\…とにかく、あなたが必要とするまでは\\このバッグは決して使わない。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "…マジで？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "あなたと私の目的や、やり方は少し違う気がするが…あなたのやり方に興味が湧いた。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "それに、その情けない方法で魔王なれるなら\\私にとっては後世までネタにできるような話に\\なるだろうから。せいぜい頑張ってくれ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "その嫌味な言い方どうにかならない？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
-    },
-    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

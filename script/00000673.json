@@ -2,130 +2,216 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "キャハハッ！すっげー！",
-      "background": "bg086_f",
-      "bgm": "12",
-      "char": "m152_01",
-      "speaker": "same_full"
+      "dialogue": "ひどい。ゲームの何が悪いっていうんだ…\\宿題終わってないのは確かだけど…",
+      "background": "bg041_f",
+      "bgm": "9",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "格闘技の実況とは、お前らしいな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "でもゲームの方が面白いんだから\\しょうがないじゃん！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あれ、あの選手…お前の契約者じゃないか？\\そういえば格闘技選手だって言ってたよな？",
-      "char": "keep",
+      "dialogue": "うわっ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "shock"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うう…\\あんなに血を流してまで戦う必要ないじゃないか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "あっ！",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "お前、この前もゲームしながら歩いてて\\危ない目に遭っただろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なんでそんな目で俺を見るんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "あの時のお兄ちゃんだ。",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "本当に俺に勝ったヤツとは思えないセリフだな。",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "ああ、あの時のお兄さんだ。\\ゲーム好きにも、ほどがあるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "アイツは命を懸けて戦ってるんだ！\\神聖なる戦いだ。",
+      "dialogue": "前を見て歩かないとダメだろ？\\前みたいに悪いお兄さんたちに\\ぶつかったらどうするんだ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "神聖でもなんでも…俺は平和主義なんだ。\\戦いは性に合わない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "うっ…お兄ちゃんもゲームって悪いものだと思う？",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "俺に勝っておいてそんなことを言うなんて…",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "おお！勝った！やっぱり俺の契約者！\\俺と拳を交わした男！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あんな人間と戦って引き分けだなんて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "俺が勝ったと言ってるだろ！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ハイハイ…",
+      "dialogue": "ゲームのことで怒られたのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "15": {
+    "11": {
       "type": "talk",
-      "dialogue": "うわああ！我慢できない！ファイターの血が騒いでる！",
-      "char": "m152_01",
+      "dialogue": "ゲームのせいで宿題をしてこなかったって、\\先生に怒られたんだ。",
+      "char": "c205_00",
       "speaker": "same_full",
       "pos": "right"
     },
-    "16": {
+    "12": {
       "type": "talk",
-      "dialogue": "今すぐにでも戦いたい！",
+      "dialogue": "自業自得だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "でも…でもゲームってすっごい面白いんだよ。",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "だんだん面白くなってきてるし…\\本当にゲームの中に入り込んだ気分になるんだ…",
       "char": "keep",
       "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
-    "17": {
+    "15": {
       "type": "talk",
-      "dialogue": "はあ、誰かコイツを止めてくれ…",
+      "dialogue": "…え？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そう！お兄ちゃんに会った時からそんな感じがする。",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "コイツは結城遊(ゆうき ゆう)。マーリンの契約者だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "18": {
+      "type": "talk",
+      "dialogue": "今日みたいにゲームしながら歩いていて\\近所の不良たちにからまれていた所を",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "偶然通りかかった俺とモナに助けられ、\\それをきっかけに契約を交わした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ねぇ、知ってる？\\どうしてゲームが面白くなったのか。",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "俺にそんなこと分かるわけないだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "口ではこう言ってるけど、\\明らかにマーリンの影響を受けている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "マーリンは自分がゲームの中から出てきた\\魔法使いだと信じているから…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ゲームをしている時だけは、現実とゲームの区別が\\つかないようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "お兄ちゃんにも分からないのか。\\ま、面白いからいっか。",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そんなにゲームが好きなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "うん！楽しいじゃん！\\ゲームの中では魔法も使えるし\\悪い怪物も倒せるんだから。",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "でもちゃんと前を見て歩かなくちゃダメだぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "…文句ばっかだね。",
+      "char": "c205_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,245 +2,332 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…",
-      "background": "bg057_f",
-      "bgm": "9",
-      "char": "c030_01",
+      "dialogue": "よ～く見てください、ご主人さま♥\\あの女性の表情。どうですか？",
+      "background": "bg040_f",
+      "bgm": "31",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "おーい、少女探偵殿！",
+      "dialogue": "う～ん…無表情？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c030_01",
+      "dialogue": "まぁ、ご主人さま。かなり視力が落ちてますね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…あっ！",
-      "char": "keep",
+      "dialogue": "視力のせいじゃないだろう？！\\どう見ても無表情だ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "5": {
       "type": "talk",
-      "dialogue": "こんにちは、助手君。\\ごめん、ちょっと考え事してた。",
-      "char": "keep",
+      "dialogue": "私の目には感じられます。彼女の悲しみや絶望、裏切られた悔しさと、自責の念と…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sad"
     },
     "6": {
       "type": "talk",
-      "dialogue": "何かあったのか？\\最近あまり顔を見せなかったけど…",
+      "dialogue": "もう、いい！やめろ！やめてくれっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "いつも聞こえてた噂すら聞こえてこなかったぞ？",
+      "dialogue": "顔だけで、あの女の何が分かるんだよ？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "うーん…\\助手君には知っておいてほしいから言うけど、\\最近ちょっとスランプで…",
-      "char": "c030_01",
+      "dialogue": "ご主人さま～？\\私たちがすべきことは、いったい何でしょうか？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "「交差点の悪魔事件」も進展がないし。\\解決がこんなに長引いたことはなかった…",
-      "char": "keep",
+      "dialogue": "不安を抱えて苦しんでる人に、ご利益のある壺を売ってあげること？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ああ、あの事件か…",
-      "char": "c000_01",
+      "dialogue": "まぁ…間違い、というわけではないですね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "少女探偵は、いまだに「交差点の悪魔事件」を\\解決できずにいた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あ！もう1つ！かなり高～く売るってことも追加！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
     },
     "12": {
       "type": "talk",
-      "dialogue": "俺のチャイルドでありながら、\\好き勝手させている理由は",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "まぁ！よくできました！！\\かわいいからガブッ！と噛んであげたいです♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
     },
     "13": {
       "type": "talk",
-      "dialogue": "こいつがその事件を解決するために\\どれだけたくさんのことを\\犠牲にしてきたかを知っているからだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "何なんですか！そのくだらない茶番は？\\もう我慢できません。",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ボク、ちょっと弱気になりすぎてるかな…？\\えへへ、今までこんなに焦ったことなかったのに。\\…バカみたい。",
-      "char": "c030_01",
+      "dialogue": "うわぁっ！びっくりした。\\いつからそこにいたんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そうだな。お前はバカだ。",
-      "char": "c000_01",
+      "dialogue": "最初からずっといました。\\気づいてなかったのですか？",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "えっ？",
-      "char": "c030_01",
+      "dialogue": "アストレア～そんな怖い顔しちゃダメよ？\\きれいな顔にシワができちゃうわ。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "皮肉も言えるんだね？これは新しい発見だ！\\まるで「死に至る病」に出てくる登場人物みたい。",
-      "char": "keep",
+      "dialogue": "いつもこのような形でチャイルドたちを集めてたんですか？卑怯極まりないですね。",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…はあ、もともと約束はあまりしないほうだけど。\\お前のことは手伝ってやる。\\一度決めたことは、一応、守るようにしてる。",
+      "dialogue": "卑怯！？\\うぅ、なんで心が痛むんだ…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "…それは、「交差点の悪魔事件」の犯人を\\捕まえるのを協力するってことだけど…",
-      "char": "keep",
+      "dialogue": "ほんと、これだから正義系チャイルドは…\\ま～いいです。それでは、ご主人さま。アストレアの小言は気にしないで早くあの女性を…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "魔王になってから手伝うとは言えない。\\どれだけ待たせちゃうかもわからないし。",
-      "char": "keep",
+      "dialogue": "小言ですって？！\\ダメです、ご主人様！\\これ以上卑劣なサキュバスの口車に乗っては！",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "distance": "normal",
+      "after_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "だから、俺が出来る範囲のサポートをしてやる。\\とりあえず今は、名探偵殿を元気づける事かな！",
-      "char": "keep",
+      "dialogue": "あ～！うるさい！もうやめた！\\契約も何も全部やめるっ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal",
+      "facial": "irritation",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c030_01",
+      "dialogue": "あなたはサキュバスたちの主人です。\\断固とした態度をとらないと…",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ボクは洗礼名も授かってないじゃない？\\もしかしたらそのうちキミを裏切っちゃうかも…",
-      "char": "keep",
+      "dialogue": "俺もそうしたいけど…\\アイツには色々と弱みを握られてて…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "24": {
       "type": "talk",
-      "dialogue": "もしもキミが犯人側なら迷わず対峙する。\\それでもいいの？",
-      "char": "keep",
+      "dialogue": "あら～そんなふうに言われたら悲しいです～\\モナはご主人さまのことをと～っても大切に思っているのに！",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "facial": "tempt"
     },
     "25": {
       "type": "talk",
-      "dialogue": "いや、それって今と何も変わらないじゃん。\\だから脅しにしては弱いなあ。",
+      "dialogue": "ほらな！\\いっつも俺のこと冷やかしてさっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "normal",
+      "facial": "sulky"
     },
     "26": {
       "type": "talk",
-      "dialogue": "まったく、ウチのご主人様は\\とってもお優しいんだね！",
-      "char": "c030_01",
+      "dialogue": "とにかくモナ。\\あなたのことはよ～く見てますからね。\\ご主人様を悪の道に引きずりこもうとするなら…",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
     "27": {
       "type": "talk",
-      "dialogue": "あれっ…！？\\今、ご主人様って呼んでくれた？",
+      "dialogue": "悪の道って…俺は悪魔だぞ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy"
+      "facial": "haah",
+      "before_effect": "shake_weak"
     },
     "28": {
       "type": "talk",
-      "dialogue": "そうだよ、ご主人様！",
-      "char": "c030_01",
+      "dialogue": "ご主人さま！",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "teach",
+      "before_effect": "shake"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そんな頼もしいこと言われちゃうと\\勝手に焦って落ち込んでたのがバカみたい！",
-      "char": "keep",
+      "dialogue": "わかった！わかったって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "30": {
       "type": "talk",
-      "dialogue": "これからはキミの助手として、\\魔王になるのをサポートするよ。\\その方が解決に近い気もするし。",
+      "dialogue": "アストレア、よく聞いてくれ…\\もし俺が悪の道に進むとしたら、それは俺自身の責任だ。誰のせいでもない。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "31": {
       "type": "talk",
-      "dialogue": "新たな《魔王の右腕》、誕生みたいな？",
-      "char": "keep",
+      "dialogue": "ご主人様…\\分かりました。くれぐれもご注意ください。",
+      "char": "c014_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "center",
+      "distance": "normal"
     },
     "32": {
-      "type": "talk",
-      "dialogue": "こんな風に人間が悪魔に踊らされるなんて、\\まるで「神曲」のダンテみたい…\\たまには探偵小説以外も、悪くないかな！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "33": {
+      "type": "talk",
+      "dialogue": "アストレアはどうも、ご主人さまの姿に自分の契約者の姿を重ねて見ているようですね。",
+      "background": "dungeon_bg",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ああ。\\そういえばその契約者も俺みたいに部下に振り回される、かわいそうな軍人だったな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "cry"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "あの辛さ！\\あのストレス！\\よく分かるよ、ホント！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "モナは、聞かなかったことにしますね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "none"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ああ、そうしてくれ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

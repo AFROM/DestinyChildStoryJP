@@ -2,113 +2,114 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "モゴモゴ…ぷはぁっ。\\我は、清らかな神より選ばれた唯一の敬虔な信者…\\もう少し丁重に扱っていただけませんか！",
-      "background": "bg086_f",
+      "dialogue": "久しぶりね、今戻ったわ。",
+      "background": "bg089_f",
       "bgm": "9",
-      "char": "c049_01",
-      "speaker": "same"
+      "char": "c035_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あらら、残念ながらあなた、\\悪魔に選ばれちゃったんですよ～",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "pretense"
+      "dialogue": "ベルセポネが所かまわず床から現れるのにも\\そろそろ慣れてきた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "まぁ、正確にはあなたが、\\ご主人さまを選んだってことになるんですけどね～♥",
-      "char": "c001_01",
+      "dialogue": "ああ、契約者の父親には会ってきたのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "え、俺が選ばれたのか？",
-      "char": "c000_01",
+      "dialogue": "今は<color=ff9900>魔界</color>にいるから\\面会できないの。",
+      "char": "c035_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そうなるんじゃないですか？\\先に近づいてきたのは\\マアトの契約者でしたからねぇ～♥",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "来月<color=ff9900>審判</color>を受けるようだけど\\早めに書類の準備はしないといけないわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なるほど、つまり我は…悪魔の神を自ら選んだ、\\唯一の極めて信心深い信者…\\それなら魔神の復活祭をいたしましょう。\\この街を巻き込んで、盛大に！！",
-      "char": "c049_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "落ち着きすぎだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "復活祭でもなんでも好きにすればいいけどさ…\\もうどっちでもいいよ。\\選ぼうが選ばれようが、あまり関係ないだろうし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "dialogue": "元々、契約者の願いは素朴なものだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "どちらも、運が良かったってことにしときましょ～\\はい、このお話終わり！",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "sigh"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そうはいきません。\\白黒はっきりつけないと真理に辿りつけません。\\しっかり決めていただけませんか、\\選んだのか、選ばれたのか！",
-      "char": "c049_01",
-      "speaker": "same",
+      "dialogue": "私、願い事なんてないけど…",
+      "background": "bg019_f",
+      "char": "c035_00",
+      "speaker": "same_full",
       "pos": "right",
-      "one_ani": "attack"
+      "screen_effect": "gray"
     },
     "10": {
       "type": "talk",
-      "dialogue": "さっきからよくわからないことばかり…\\あのさ、本当に少し黙っててくれないかな！？",
-      "char": "c000_01",
+      "dialogue": "願い事がないなんて！考えてみて！\\ナイスバディーになりたいとか、\\いい成績をとりたいとか。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "center",
       "distance": "near",
-      "facial": "confused"
+      "before_effect": "shake",
+      "screen_effect": "gray"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ひっ、神の使いがお怒りになられた…\\うぅ、役立たずのマアトは、この大したことのない\\人生の幕を下ろす時が来たようです…",
-      "char": "c049_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "人生の幕を下ろす？\\誰がそんなことしろって言った！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "もう一度そんなこと言ったら、本当に怒るぞ！",
+      "dialogue": "世界一周したいとか、お金持ちになりたいとか！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "fury",
-      "before_effect": "shake"
+      "screen_effect": "gray"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "これって…アンケートとか何かかしら？",
+      "char": "c035_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "私は…\\少し前にお父さんが亡くなったんだけど…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c049_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "お父さんが<color=ff9900>素敵な場所</color>に行ってくれたらいいな…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "screen_effect": "gray"
     },
     "15": {
       "type": "curtain",
@@ -119,104 +120,135 @@
     },
     "16": {
       "type": "talk",
-      "dialogue": "ぐすっ、我は…安らぎを得るために神を探し求めたのに、神は応えてくれず…あげくの果てに焦り、悪魔にこの身を捧げてしまった…",
-      "background": "bg059_f",
-      "bgm": "16",
-      "char": "c049_01",
-      "speaker": "same"
+      "dialogue": "人間ってホント欲張りだよね！\\",
+      "background": "bg105_f",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ああ、認めよう。悪魔に出会い我が魂を捧げたが、\\もちろん何も叶えられず、神の元にも戻れず、\\我の心は吹きすさぶ風の音だけが響くだけ…",
+      "dialogue": "素敵な所に送ってほしいって。\\そんなすっごい願い、どうやって叶えるわけ？",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "吹かれてたゆたう霧のように虚しいこの人生……\\私はどこへ向かえば……",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "それがそんなにすごい願いか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "19": {
       "type": "talk",
-      "dialogue": "また逃げるの？",
-      "char": "c000_01",
+      "dialogue": "<color=ff9900>《素敵な場所》</color>って、\\どれだけ競争率高いか知ってる？\\<color=ff9900>《最悪な場所》</color>に行く方が何百倍も簡単だよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c049_01",
+      "dialogue": "少しはこっちの身も考えて欲しいよね！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "はぁ、他にもいろんな場所があるのに、\\なんでよりによって悪魔が棲む聖堂にいたのか…\\まあ、その格好に一番似合う場所ではあるけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "でもさぁ、そういうところで修道女のアンタと\\悪魔の俺が出会うっていうのは、\\やっぱちょっと気まずいじゃん？\\もっとちゃんとしたところでさ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "はっ、もしかして！？\\…全能の神が我に試練を与えるために\\この者をつかわしたのでは…\\そのために我を探して舞い降りたと！？",
-      "char": "c049_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "…舞い降りるって…\\ジャージ姿で駆け込んだだけじゃん？",
+      "dialogue": "誰がそんな願いを…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake_weak"
+      "facial": "idle"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "調べたところ、父親は既に\\<color=ff9900>《素敵な場所》</color>には行けず",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "結局探し出したチャイルドは、\\魔界とあの世を行き来する\\自称、魔界ネゴシエーターだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "まあ…本人は一生懸命なようだけど。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "いや、それより言い合いしてても仕方ないか。\\わがままはこれぐらいにして、さっさとついてこい。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "家に帰ろう。",
-      "char": "keep",
+      "dialogue": "そういえば初めてみるネックレスだな、それ。",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "idle"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c049_01",
+      "dialogue": "あ、魔界で会った悪魔からもらったの。",
+      "char": "c035_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "none"
     },
     "28": {
       "type": "talk",
-      "dialogue": "我の心が安らぐ場所は、まだ見つかっていない…",
+      "dialogue": "あっちの物を身につければ\\好感をもってもらえるからって。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "けれども、貴方と共に探すのが\\全てを見通す神の思し召しなら、従うのみです！",
+      "dialogue": "次はコウモリの羽でも付けてみようかしら。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "30": {
+      "type": "talk",
+      "dialogue": "それで、父親を《素敵な場所》に\\送ることはできそうか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "まあ…1万年くらいかかるかな…\\1万年なんてすぐよ。",
+      "char": "c035_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "すぐなのか、それって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,243 +2,155 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様、本当にひどいです…",
-      "background": "dungeon_bg",
-      "bgm": "14",
-      "char": "c038_01",
-      "speaker": "same",
+      "dialogue": "蝙蝠の人…",
+      "background": "bg030_f",
+      "bgm": "9",
+      "char": "c027_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あー…また、始まった…\\すぐにこうやって、ダダをこねる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "悪党は全部かかってこい！\\ボクが世界の平和を守る！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "カリプソの泣き出しそうな声を聴いてると、本当に\\アイツと恋愛してるのかも？って気になってくる…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…みたいな感じ、すっごくカッコいいのに。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "今度はどうしたんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "あれ、どうしたんだろ？\\あの人、ちょっと変…",
+      "char": "none",
+      "speaker": "kid1"
     },
     "5": {
       "type": "talk",
-      "dialogue": "今日の戦闘のことです！\\他のチャイルドたちには優しく接しているのに…",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "うん、変だね…\\あっち行こう。",
+      "char": "none",
+      "speaker": "kid2"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どうして、私には声をかけたり、ねぎらったり、抱きしめたり、愛をささやいたりしてくれないんですか！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ちょっとそこの子！\\ボクをからかってるの？",
+      "char": "c027_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "なんで俺がそんなことしないといけないんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "ふん、ヒーローのこと何にも知らないくせに…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "ご主人様なら当たり前じゃないですか！\\私に何かあったら、慌てて駆け寄ってきて\\《どうした、大丈夫か？》って軽く抱きしめるのが\\普通ですよね！",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "それが正しいご主人様のあり方です！",
-      "char": "keep",
+      "dialogue": "ボクは蝙蝠の人だ！とお！しゅーん！",
+      "background": "bg058_f",
+      "char": "c027_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "go_to_right_point"
     },
     "10": {
       "type": "talk",
-      "dialogue": "俺のために戦ってくれたカリプソには感謝してるさ。",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "それだけですか？ご主人様…\\うわあぁ～ん！",
-      "char": "c038_01",
+      "dialogue": "1人で何してるのかしら♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "before_effect": "enter_from_left_slow"
     },
     "12": {
       "type": "talk",
-      "dialogue": "他のヤツらは、傷を負ってたじゃないか。\\お前は大丈夫だったろう？\\俺にどうしろっていうんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "俺のために戦ってくれてありがとうって、言えばいいのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ご主人様…\\他のチャイルドに優しくしないでください。\\いつか後悔することになりますよ。",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "なんだよ…\\思い通りにならないからって、俺を脅すのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ご主人様との愛が成就できないのなら、私はご主人様を裏切ってしまうかもしれません。",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "おい！冗談は、ほどほどにしろよ？\\少なくともお前は俺にとって大事なチャイルドだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "私が一番じゃなきゃ意味ありません！\\私は絶対に、ご主人様から離れませんから！",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "わ、私は…私は、ご主人様の妻になるんです！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "…え？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "screen_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "キャーッ！言っちゃったよ～話しちゃった！\\どうしよ～！どうしましょ～！！",
-      "char": "c038_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ご主人様が魔王になってから、ロマンチックに告白しようと思ってたのに…！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "俺が魔王になってからなんて…\\もし、本当なら一生かかってもお前からプロポーズされることはなかったはずだ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "伝えたのなら返事を聞かなければなりません。\\ご主人様！私のプロポーズを受け入れてくれますか？",
-      "char": "c038_01",
+      "dialogue": "…あなたの瞳よりも深い\\悲しみに浸っていたところ。",
+      "char": "c027_01",
       "speaker": "same",
       "pos": "right"
     },
-    "25": {
+    "13": {
       "type": "talk",
-      "dialogue": "あ、えーっと。俺は…うん…！\\行っちゃう、船が行ってしまう！",
-      "char": "c000_01",
+      "dialogue": "どうして深～い悲しみに浸っているのかしら？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
+      "distance": "near",
+      "before_effect": "shake_weak"
     },
-    "26": {
+    "14": {
       "type": "talk",
-      "dialogue": "ご主人様？どうしたんですか？ご主人様～！？",
-      "char": "c038_01",
+      "dialogue": "美しいメティスが\\ボクの契約者の心を読んでくれた。",
+      "char": "c027_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
-    "27": {
+    "15": {
       "type": "talk",
-      "dialogue": "ご、ごめん、カリプソ。俺は行かなきゃ。\\あの船に乗らなきゃいけないんだ！！\\待ってくれ～！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "far",
-      "facial": "confused",
-      "after_effect": "go_to_left_point"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ご主人様…ホントにもう！\\掴みどころがないんだから！",
-      "char": "c038_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "でも、だからこそ、絶対に私のモノになってもらいますからね…",
+      "dialogue": "その子は困っている人を助けたくて\\ヒーローになりたいわけじゃないって。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
-    "30": {
+    "16": {
+      "type": "talk",
+      "dialogue": "ボクの契約者はヒーローになったら…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>友達</color>ができるって思ったのかしら？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "…そんな願い、叶うはずないのに。",
+      "char": "c027_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "フフ、可愛い子。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "モナにはよく分からないけど、\\人類の歴史上、友達が欲しいっていう願いはとっても重要なお願い事なのよ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "21": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

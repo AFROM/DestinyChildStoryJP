@@ -2,223 +2,373 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リベンジガールの契約者の願いですか？\\まさか、忘れてしまったのですか？",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c002_01",
+      "dialogue": "あけまして、おめでとうございます！\\これからみんなで初詣に行きませんか？",
+      "background": "bg077_f",
+      "bgm": "8",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "念のため、確認だ…",
-      "char": "c000_01",
+      "dialogue": "いくいくー！\\ぐふふ、どんなお願いしようかな！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "center",
+      "facial": "joy"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうですか。願いを忘れる程、\\たくさんのチャイルドを集めたということですね。",
+      "dialogue": "そうですね。ぜひ、魔王の座を祈願しましょう。",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "pretense"
     },
     "4": {
       "type": "talk",
-      "dialogue": "しかし、おかしいですね…\\御主人様の契約件数では、忘れてしまうことの方が\\不思議です。",
-      "char": "keep",
+      "dialogue": "だけど、この近くに神社なんてあったかしら～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "pretense"
     },
     "5": {
       "type": "talk",
-      "dialogue": "正直にバカだと言ってくれ…",
-      "char": "c000_01",
+      "dialogue": "はい。小さいですが、ご利益がある神社が\\ありますよ。温泉街で働く者しか知らない穴場です。",
+      "char": "c355_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "facial": "cry"
     },
     "6": {
       "type": "talk",
-      "dialogue": "御主人様にそんな無礼なことは言えません。",
-      "char": "c002_01",
+      "dialogue": "おい、おい。悪魔が神頼みって…\\それに俺はもっと寝ていたいんだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "7": {
       "type": "talk",
-      "dialogue": "よく言うよ！",
-      "char": "c000_01",
+      "dialogue": "だ、ダメですか…？",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right",
+      "facial": "sigh"
     },
     "8": {
       "type": "talk",
-      "dialogue": "リベンジガールの契約者が銀行強盗だ、ということはご存知ですよね？\\指名手配されたということも…",
-      "char": "c002_01",
+      "dialogue": "ご主人さま♥\\人間界のルールを守るのであれば、初詣くらい、\\きちんと行かなくてはダメですよ！",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "sulky"
     },
     "9": {
       "type": "talk",
-      "dialogue": "それも全て、仲間であり恋人だった人間のせいです。契約者を裏切り、警察と手を組みました。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "契約者の願いは単純です。\\裏切った男に復讐すること。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "もう忘れないでくださいね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ああ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "お前の企みは全て把握している！\\契約者と復讐する気だろ？",
-      "background": "dungeon_bg",
-      "bgm": "24",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "fury",
-      "mvd_post_effect": "none"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "今頃、思い出したのか？\\お前というヤツは本当に…",
-      "char": "m143_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "それで、私を邪魔しに来たのか？",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "当然だ！",
+      "dialogue": "人間界のルールってスケールでかいよ！\\はぁ、しょうがない…帰りに甘酒おごれよな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "confused",
+      "before_effect": "shake"
     },
-    "18": {
-      "type": "talk",
-      "dialogue": "警告を忘れたようだな…",
-      "char": "m143_01",
-      "speaker": "same_full",
-      "pos": "right"
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
     },
-    "19": {
+    "11": {
       "type": "talk",
-      "dialogue": "その指以外、全て使えなくしてやると言ったはずだ…",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あ…モナと一緒に来るの忘れてた…",
+      "dialogue": "たどり着いた先には、凛と佇む神社があった…\\ボロいけど。",
+      "background": "bg230_f",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "21": {
+    "12": {
       "type": "talk",
-      "dialogue": "お、落ち着け。指だけじゃお前を助けてやれない。",
-      "char": "c000_01",
+      "dialogue": "モナ姉さまがダビの事をもっと、もっと好きになりますように！モナ姉さまとダビが結婚できますように！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "そして、俺はお前の助けが必要なんだ。\\魔王になるために…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "私の契約者もそう言った。私の助けが必要だと。\\復讐のために。",
-      "char": "m143_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "私は契約者の怨念から生まれた存在。\\無理やり引き留めても、その欲望を消すことは\\できない。",
-      "char": "keep",
-      "speaker": "same_full",
       "pos": "center",
-      "distance": "near"
+      "distance": "normal",
+      "facial": "smile"
     },
-    "25": {
+    "13": {
       "type": "talk",
-      "dialogue": "だが私の邪魔をしないのであれば\\お前の目的のために私も最善を尽くしてやろう。",
+      "dialogue": "それからそれから…\\ご主人がモナ姉さまの前から消えますように！",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "smile",
+      "one_ani": "attack"
     },
-    "26": {
+    "14": {
       "type": "talk",
-      "dialogue": "いや、本当は魔王なんかになりたくは…",
+      "dialogue": "ダビ…\\願い事は別に、他人に聞かせる必要はないんだぞ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "irritation"
     },
-    "27": {
+    "15": {
       "type": "talk",
-      "dialogue": "だからもう邪魔はするな。\\これ以上邪魔をしたら、その時は…",
-      "char": "m143_01",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "どうですか、この神社は？なかなかいい所でしょ？",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile"
     },
-    "28": {
+    "16": {
       "type": "talk",
-      "dialogue": "わ、分かった、分かったよ…",
+      "dialogue": "そうですね。小さいですが、澄んだ気が満ち満ちています。これはご利益がありそうですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "さぁ、次はメイの番ですよ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あっ、はい！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "最後のメイのお祈りが始まった。みんなが見守る中、メイは手を合わせ真剣に願い事をしていた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ガウガウ！",
+      "char": "none",
+      "speaker": "none",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "うわっ！なんだっ！？でかっ！！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake",
-      "facial": "nonsense"
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ガウガウ！",
+      "char": "none",
+      "speaker": "none",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あらあら、あけましておめでとうございます。\\挨拶に来て下さったんですか？",
+      "char": "c355_02",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "far"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "うわ～！可愛いイヌだ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ふふ、この神社を守護している狛犬ですよ。\\私に懐いてくれているんです。",
+      "char": "c355_02",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ご主人さまも、ホント動物によく懐かれますね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "sulky"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "さぁ、こっちにいらっしゃい。",
+      "char": "c355_02",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "far"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "べ、別に懐かれたくなんかない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake"
     },
     "29": {
       "type": "talk",
-      "dialogue": "分かったからどうか命だけは…",
-      "char": "keep",
+      "dialogue": "あははっ！",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "right"
     },
     "30": {
+      "type": "talk",
+      "dialogue": "あ、メイ。お祈りは終わったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "はいっ！沢山願い事しちゃいました！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "そうか…メイはどんな願い事をしたんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "えっとですね、みんなの幸せと、\\この温泉街の繁栄と、そして…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "メイは話の途中で俺の顔を見つめて来た。ま、まさか…さっき食べたヤキソバの青のりがついてるのか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "メイ、あなた…",
+      "char": "c355_02",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "cry"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "きゃっ！こ、コウガ！？急に後ろから\\話しかけないでよ！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ふふふ、ごめんなさい。\\でも、もうすぐお仕事の時間ですよ？",
+      "char": "c355_02",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "あっ、もうこんな時間！\\楽しい時間ってすぐに終わっちゃうね！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "それじゃ、お仕事に行ってきま～す！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "go_to_right_slow"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "いってらっしゃ～い！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "one_ani": "attack"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "メイは手を振りながら仕事場へと走り出した。\\メイの願いが叶うといいな。\\……甘酒はまた今度にしよう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "コウガ、お前は行かなくていいのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "はい。私は今日はお休みです。\\それにやる事ができましたから…",
+      "char": "c355_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "ウ～ワオ～ン！",
+      "char": "c355_02",
+      "speaker": "none",
+      "pos": "right",
+      "distance": "far"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "あなたの願い、聞き届けました…\\その願い、私が守って見せましょう。",
+      "char": "c355_02",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "sigh"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

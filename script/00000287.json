@@ -2,160 +2,265 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様、悪魔に騙され召喚されてしまった\\大魔法使い、ムネモシネがまた脱出しようと\\しています。",
-      "background": "bg086_f",
+      "dialogue": "お疲れ様です、ご主人さま♥",
+      "background": "dungeon_bg",
       "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
+      "char": "c001_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "俺は昨日、遅くまでバイトしてて疲れてるんだよ…\\勝手にやってくれ。つか、その妙に細かい設定は\\なんなんだ。",
+      "dialogue": "お前もな、モナ。\\エリスもよくやった。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "もっと細かく言いますと\\「魔法使いを束ねし名誉指揮官、ムネモシネが、",
-      "char": "c002_01",
+      "dialogue": "ん…",
+      "char": "c019_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "聖魔戦争の最中、どうしようもない\\未熟な悪魔に騙され召喚された後、\\屈辱的な捕虜生活中」となっていますが。",
-      "char": "keep",
+      "dialogue": "…ど、どうした？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…御主人様、人が話してる途中です。\\布団をかぶらないでください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "dialogue": "何か気に食わないみたいですねぇ。\\いつもより眉間にシワが多いみたいですし",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いーやーだー。俺は疲れてるんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "離せ！私は国へ帰る！お前達ごときが私を\\止められるとでも思っているのか！",
-      "background": "bg089_f",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "after_effect": "shake_weak"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "もう！力だけは強いんだから！\\じっとしててよー！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "国でもどこへでも帰らせてやればいいだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "「クン」よ、飛べ！私を国に連れて行くのだ！",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あのムネモシネの尻にしかれている生命体が\\クンのようだ。",
-      "char": "none",
-      "speaker": "none"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "行くなら自分の足で行けよ。\\そいつ、辛そうだぞ…",
+      "dialogue": "う…あいつは黙っている時の方が恐ろしいからな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "serious"
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あら、うるさい方がいいんですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "いや…それも怖いけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "何だ。\\私の後ろで何こそこそ話してる？",
+      "char": "c019_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "あ、いや…それは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "はっきりしろ！\\口ごもっていないで、男らしくはっきりものを言え！",
+      "char": "c019_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "はい！エリス様に悩みがあるような気がして\\話していました！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ここまで来るとかわいそうですねぇ…",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "normal",
+      "facial": "sad"
     },
     "14": {
       "type": "talk",
-      "dialogue": "「名誉ある大魔法使いは、異界の荒れた大地に\\足を下ろすことはない」と言われています。",
-      "char": "c002_01",
+      "dialogue": "そうか、よく気づいたな。",
+      "char": "c019_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そりゃ、逃げてもすぐに捕まえられそうだな…",
+      "dialogue": "ふう…なんとかやり過ごしたみたいだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "16": {
       "type": "talk",
-      "dialogue": "行くぞ、クン！",
-      "char": "c034_01",
+      "dialogue": "ところで、エリスの悩みって何かしら？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak",
-      "after_effect": "go_to_right_jump"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…クンクン鳴きながらピョンピョン飛び跳ねて\\行きましたね。あれだと、部屋を出るまでに\\1分はかかりそうです。",
-      "char": "c002_01",
+      "dialogue": "戦っている間、ずっと考えていた。\\お前の問題について。",
+      "char": "c019_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あっそ…\\んじゃ、玄関辺りまで着いたら教えてくれ。\\俺は寝る。",
+      "dialogue": "上手くやり過ごしたと思ったのに。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "マイペースなところはそっくりな主従ですね…",
-      "char": "c002_01",
+      "dialogue": "ご主人さまの問題？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "20": {
+      "type": "talk",
+      "dialogue": "ああ、そいつが魔王になれない理由。",
+      "char": "c019_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "魔王になれない理由って…\\なりたいって思ったこともないけど。\\改めてそう言われるとなんか傷つくな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "それが問題だ！",
+      "char": "c019_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ひいっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "お前のその意志の弱さ！その弱さを直せば\\お前は十分、魔王になる素質がある！",
+      "char": "c019_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あら、核心をつくそのカリスマ性♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "お前に一番必要なのは\\自分自身を信じる心だ！",
+      "char": "c019_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "もう少し自信を持て、小僧。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "これからは私が手助けしよう。\\オマエのか弱い精神を叩き直してやる！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "おめでとうございます、ご主人さま。\\これでもう安心ですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "水を差す言い方するな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "返事がないぞ、小僧！",
+      "char": "c019_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "は、はい！分かりました！\\なんで俺にばっか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

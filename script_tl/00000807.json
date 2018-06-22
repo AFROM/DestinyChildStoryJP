@@ -2,268 +2,490 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "なあ、俺のこと信じてくれよ。\\俺、嘘ついたことないし。",
-      "background": "bg086_f",
+      "dialogue": "<color=ff6600>《システムリブート》\\<color=ff6600>《デビルバスター初号機リザ、</color><color=ff6600>再起動します》</color>",
+      "background": "back",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
-      "type": "talk",
-      "dialogue": "イヤ～！\\ママが変なおじさんとは話しちゃダメって\\言ってたもん！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "bg086_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "longer"
     },
     "3": {
       "type": "talk",
-      "dialogue": "俺、変なおじさんなの？",
+      "dialogue": "あっ、リザ。起きたのか。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "serious",
-      "sound": "none",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "facial": "smile"
     },
     "4": {
       "type": "talk",
-      "dialogue": "なんで俺が変なおじさんなんだよ！\\せめてお兄さんと呼べ！",
-      "char": "keep",
+      "dialogue": "おはようございます、御主人様。\\今回のメンテナンスは少々時間がかかりましたね。\\予定終了時間より35.5秒オーバーです。",
+      "char": "c365_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どうしてお兄ちゃんが私のご主人さまなの？\\ピクシーはご主人さまなんていらないもん！\\早くママのところに帰して！",
-      "char": "c272_01",
+      "dialogue": "これを挽回するために、約3分ほどスケジュールを前倒します。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そんな言い方するなよ。誘拐犯みたいだろ…",
+      "dialogue": "なんで3分！？\\たったの35秒遅れただけだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ピクシーは他のチャイルドと同様、\\人間と契約することで得たチャイルドだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "遅延は35.5秒だけですが、すべてのスケジュールには前後にバッファを設けて計算しています。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "だから、ピクシーにも他のチャイルド達にも\\母親なんているはずがない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "…となると、たぶん、\\ピクシーが言う《ママ》ってのは、\\ピクシーの契約者のことだろうな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ピクシー、\\お前達チャイルドには《ママ》なんていないんだ。\\お前が母親だと思ってるのは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "聞きたくない！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ママがいないなんて、どうしてそんな嘘つくの！？\\そんなこと、絶対信じないから！",
+      "dialogue": "特に、御主人様のように怠けた方と行動をする場合は余裕をもって計算するべきでしょう。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
+      "before_effect": "go_to_right_point"
     },
-    "13": {
+    "9": {
       "type": "talk",
-      "dialogue": "おいっ！どこいくんだよ！",
+      "dialogue": "まったく…血も涙もないサイボーグめ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "unfair",
+      "before_effect": "go_to_right_point"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "最高の誉め言葉ですね。",
+      "background": "bg105_f",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "はいは～い。偉大なデビルバスターリザ様。",
+      "background": "bg103_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "before_effect": "enter_from_right_fast"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "…あっ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "つい、思ったことを口にしてしまったが、考えてみると俺は以前からリザにこんなことばかり言っていた…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ピクシーは背を向けると、\\一瞬で消えて行ってしまった。",
+      "dialogue": "サイボーグ、ロボット、機械…リザがこんなに歪んでしまったのは、ひょっとしたら俺のせいかも！",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "…きっとそうだ！俺が毎日リザに鋼鉄サキュバスとか血も涙もないヤツだとか…",
+      "bgm": "4",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ピクシー、ピクシー！",
-      "background": "bg001_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "そんなことばかり2日に1回は言ってたじゃないか！\\俺はなんてヒドい主人なんだ！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ダビみたいにもっと大きな声で呼びなよっ、\\バカご主人！\\ピクシー！ピクシー！！",
-      "char": "c003_01",
+      "dialogue": "だ、だとすると、リザがあんなふうに本物のロボットになってしまったのは…\\俺の言葉に傷ついたからなのか！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "わかってるよ…\\ピクシ~！どこにいるんだー！",
+      "dialogue": "俺はなんてバカなんだ…俺が傷つけたせいで、リザが本物のロボットになってしまった…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "御主人様？今日は素直について来ますね。いつものように邪魔したり、家に帰ろうと言いませんし…",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "俺いつも、そんなことしてた？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "19": {
+    "21": {
       "type": "talk",
-      "dialogue": "あっ、いた！\\ピクシーだ！！",
-      "char": "c003_01",
+      "dialogue": "ええ。",
+      "char": "c365_01",
       "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "pos": "right"
     },
-    "20": {
+    "22": {
       "type": "talk",
-      "dialogue": "ピクシー？どこに…",
+      "dialogue": "本当に…救いようがないな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あのさ、リザ。ひょっとしてロボットになったのは…俺がいつもリザにヒドいことを言ってたからなのか？",
+      "bgm": "9",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はい？",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "えーと、その…いつも…ロボットみたいだとか…\\血も涙もないとか…\\そんなことばかり言ってたじゃないか…\\俺が…ハハハ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "御主人様。",
+      "char": "c365_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "本当にすまん！\\そんなつもりじゃなかったんだ！\\俺はただ…リザが俺の言葉を真に受けるとは！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "screen_effect": "dialog_shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ふむ…何か誤解してるようですね。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "モナも御主人様もどうしたのですか。\\私に気を使いすぎです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "当たり前だろ。\\俺たちは家族同然なんだから…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "21": {
-      "type": "talk",
-      "dialogue": "捕まえちゃうぞ～",
-      "background": "bg012_f",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "イヤ！来ないで！\\ダビもお兄ちゃんも嫌い！大っ嫌い！！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ピクシー…\\頼むから、俺の話を聞いてくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "イヤ！\\だってお兄ちゃん、変なことばっかり言うもん！\\ピクシーはママに…",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ピクシー！\\ピクシーのママはここにいるよ。\\ピクシーを生んだのはご主人なんだから！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "…お兄ちゃんが、ママ？",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ママっ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "shock",
-      "screen_effect": "shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "その言い方は抵抗があるけど、\\まあ、間違っちゃいない…か？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ふああああん～！！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "わっ！な、なんで泣くの？\\…あっ、わかった！\\ご主人がママなのが嫌なんでしょ？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "31": {
       "type": "talk",
-      "dialogue": "ふああああん～！！",
-      "char": "c272_01",
+      "dialogue": "…別に悩みや不安の為に、この姿を選択したわけではありません。ただ効率を重視した結果です。",
+      "char": "c365_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "shake"
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "当たり？\\そりゃ嫌だよね～。\\こんなウスラトンカチがママなんて。\\ダビもご主人がママだったらグレてるもん！",
-      "char": "c003_01",
+      "dialogue": "それに、まだうまく《スーツ》の力をコントロールできないので慣れるために着ていただけです。",
+      "char": "keep",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "うう…俺だって、ダビの母親なんてごめんだ！",
+      "dialogue": "《スーツ》！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "nonsense"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "はい…ですが、どう考えても戦闘時にだけ着用したほうが良さそうです。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "しかし…自分で言うのも何ですが、私は極端に効率を重視する傾向にありますね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "その選択は私が選んだというより、選ぶしかなかったと言う方が正しいのかもしれません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "私には他に選択の余地がなかったのです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "なんだよ急に…哲学か？\\難しい話はあまりわからないぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そうですね…\\簡単に言うと幼少期の影響という事です。\\大体の問題は、その頃から始まったわけですから。",
+      "bgm": "17",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "魔界は未だ弱肉強食の厳しい世界…\\補欠で最弱の魔王候補生よりも\\ハーフサキュバスにとっては、さらに過酷な世界だったということです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "生き残るため、極端な効率を追求するしかなかったわけです。\\モナに会うことがなかったら、私はとっくの昔に心を無くしていたかもしれませんね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "何だか…思ったより、真面目な話だな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "効率に執着しすぎると、かえって重要なことを見過ごすということは、頭では理解しているつもりですが。気づかないうちに、そのような罠にはまってしまうようですね。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "本当の自分のあり方を理解するのは、難しいことですね。むしろモナの方が私より私のことを、よく知っているかもしれません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "モナなら、そうかもしれないけど…\\結局、お前が思う自分がぴったりだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "sigh"
+      "facial": "smile"
     },
-    "34": {
+    "46": {
+      "type": "talk",
+      "dialogue": "俺は…\\本来の姿のリザのほうが良いと思うけどな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "ま～俺がえらそうに言えることじゃないな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "お前がその方が楽で、これからもそうやって過ごすなら、俺も慣れるようにするよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "フフフッ。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "な、なんだよ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "本当に、いつも意外なことを言いますね。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "私は御主人様とモナが思うほど慎重ではありません。この姿も、ただ単に戦闘に効率的だと思ったので選びました。",
+      "bgm": "9",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "でも、どういうわけか…\\この姿だとみな私に気を使いますね。\\本来の姿に戻ったほうがいいかもしれません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "そ、そうか…\\あっ！でも、本当は戻りたくないなら、今のままでもいいんだぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "いえ。私はこの姿もかなり気に入っていますが、日常生活ではやはり不便ですから。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "何より、私の大切な仲間たちにこれ以上、心配をかけるわけにはいきません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "えっ…ちょっ…たたた、大切な…大切な…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "この体は生命体としての思考が鈍くなるよう、設定されています。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "生命体として生きるためには、論理的な計算や判断ではなく、感性に頼らざるを得ない部分があります。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "適切な時、適切に判断して使い分けるつもりです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "え～と…何だか難しい話だけど。\\お前がそう言うなら、そうなんだろうな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "…フフ。",
+      "char": "c365_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "64": {
+      "type": "talk",
+      "dialogue": "帰りましょうか。\\今日はサキュバスサポーターとして、やる事が沢山あります。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "65": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

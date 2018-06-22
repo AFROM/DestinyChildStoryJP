@@ -2,201 +2,266 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あら…\\どうされましたか、お客様…\\こんな夜更けに叩き起こすなんて…\\それに、かなり焦っていらっしゃるご様子…",
-      "background": "bg087_f",
-      "bgm": "10",
-      "char": "c057_01",
-      "speaker": "same"
+      "dialogue": "はあ…",
+      "background": "bg098_f",
+      "bgm": "9",
+      "char": "c044_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "戦争でも始まったのでしょうか…？",
+      "dialogue": "特に行くあてがあるわけでもないのに、\\なんでバス停にいるんだろ…",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same_full"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ランフェイ、武器を出してくれ！急いで頼む！\\ああ、くそっ、ふいを突かれて、奇襲をくらった…！",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "…",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "武器、と申されましても、種類は様々ございます…\\ああ、ちなみに申し上げておきますが…",
-      "char": "c057_01",
-      "speaker": "same"
+      "dialogue": "あの人もおれと同じなのかな。\\1時間ぐらいここにいるし…",
+      "char": "c044_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "わかってるよ！\\人間には使わない、狙うのは悪魔だ！",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "風は西に吹いている…ならば、西に行ってみましょうか。",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…？",
-      "char": "c057_01",
-      "speaker": "same"
+      "dialogue": "ちょっと待て！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
     },
     "7": {
       "type": "talk",
-      "dialogue": "人間に使ってはいけない、など…\\一言も申していませんが…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "きみが…なぜここに…？",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "8": {
       "type": "talk",
-      "dialogue": "とにかく…\\ご希望の武器をお持ちしましょう…\\営業時間外なので、追加の手数料を頂きますが…\\よろしいですか…？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "お前こそ、こんなとこで何してるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ランフェイ、俺たちは長い付き合いじゃないか。\\とにかく今は急いでるんだ！\\金なんて後にしてくれよ！！",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "あれ、あの人…どっかで見た気がするぞ…\\どこでだっけ？",
+      "char": "c044_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "長いお付き合いだからこそ、\\支払いはきっちりお願いしたいのですが…\\アナタは、信頼に足るお客様ではなかった、\\ということでしょうか…\\",
-      "char": "c057_01",
-      "speaker": "same"
+      "dialogue": "パンテオンの契約者がこっちを見ている。\\ということは、今までこいつは自分の契約者と\\一緒だったのか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "く…っ！",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "おい、パンテオン…あの人と何話してたんだ？\\契約者との無駄な接触は控えろって言っただろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あら…すごい目で睨まれてしまいましたね…\\悪魔にも劣る人間、とでも仰りたいのでしょうけど…残念ながら、その言葉は聞きなれています…\\ふふ…",
-      "char": "c057_01",
+      "dialogue": "ああ、あの青年がぼくの契約者なんですか？",
+      "char": "c044_01",
       "speaker": "same"
     },
     "13": {
       "type": "talk",
-      "dialogue": "さぁ、どうされますか、お客様…？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "とぼけんな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "取引をする気がないのなら、\\どうぞお引き取りください…",
-      "char": "keep",
+      "dialogue": "本当に知らなかったんです。\\それに、心配はご無用です。\\ぼくとあの青年は、何も話してませんよ。",
+      "char": "c044_01",
       "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "こんな夜更けに女の部屋へ押し入るなんて…\\よからぬ噂が立ってしまいますよ…？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "それならいいけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…わかった！お前の言い値を払うから、\\使えそうな武器をいくつか見繕ってくれ。",
+      "dialogue": "けど…それはそれで、おかしくないか？\\自分の契約者を目の前にして、\\何も話さないなんて…",
       "char": "none",
-      "speaker": "unknown1"
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "17": {
       "type": "talk",
-      "dialogue": "期限は月曜だ。頼んだぞ！",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "…絶対どこかで見かけたような…",
+      "char": "c044_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "承知しました…",
-      "char": "c057_01",
-      "speaker": "same"
+      "dialogue": "うう…見てる、俺のことめっちゃ見てる。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "この際、再契約を結んでみるのはいかがでしょうか？",
+      "char": "c044_01",
+      "speaker": "same"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ひゃ～！\\急に寝たふりをしたと思ったら\\ぼったくろうって魂胆だったんだな？",
-      "background": "bg087_f",
-      "char": "c069_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "再契約？うーん…やっぱりチャイルドとしては\\再契約を結んだほうがいいのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あら、人聞きの悪いことを仰いますね…\\これはただの<color=ff9900>《ビジネス》</color>ですよ…",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "まあ、ぼくはどっちでも構いませんけど…ぼくが強くなるのも弱くなるのも、きみ次第…。",
+      "char": "c044_01",
+      "speaker": "same"
     },
     "22": {
       "type": "talk",
-      "dialogue": "常連だからと無理を言ってくるお客様には…\\それ相応の対処が必要ですから…",
-      "char": "keep",
+      "dialogue": "…そう言うと思った。この悲観主義者め。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "23": {
       "type": "talk",
-      "dialogue": "で、どうすんの？\\月曜日まであまり時間がないぞ。",
-      "char": "c069_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "それは、ぼくの契約者も同じだと思いますよ。\\試してみましょうか？",
+      "char": "c044_01",
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ふふ…時間も人手も足りないのなら…\\ワタシが直接動けばいい話です…",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "そう言うとパンテオンはいきなり契約者に向かって\\スタスタと歩き出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "25": {
       "type": "talk",
-      "dialogue": "この世界は、お金と信頼で成り立っています…\\そして結果が全て…",
-      "char": "keep",
+      "dialogue": "きみの願いは何ですか？",
+      "char": "c044_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center"
     },
     "26": {
       "type": "talk",
-      "dialogue": "アナタも、この世界で生きていくなら…\\覚えておくといいでしょう…\\一つの価値観が、\\必ずしも成功につながるわけではない…",
-      "char": "keep",
+      "dialogue": "おい、いきなりそんなこと聞いたら…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "before_effect": "shake_weak",
+      "facial": "confused"
     },
     "27": {
       "type": "talk",
-      "dialogue": "少なくとも、悪魔の相手までしなくてはならない\\<color=ff9900>《夜の世界》</color>では、ね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ぼくの願い…？うーん…",
+      "char": "c044_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "困難なことを避けてはいけません…\\例え、腕が折れ、頭が割れても…\\耐え抜いた者だけが、生き残れるのです…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "dialogue": "あるでしょう？宝くじを当てたいとか、\\大企業に就職したいとか…",
+      "char": "c044_01",
+      "speaker": "same"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ふん、口だけは達者だな。\\パソコンに水をこぼして慌ててたとは思えない。",
-      "char": "c069_00",
+      "dialogue": "願い…願い、ね…",
+      "char": "c044_00",
       "speaker": "same_full",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ふふ…\\このランフェイにも、\\人間らしいところはあるんですよ…",
-      "char": "c057_01",
+      "dialogue": "…特に、ないかも…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "はあ…やっぱ似たモノ同士なんだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "はは、そうですか？ぼくだったら、\\こんなチャンスは無駄にはしませんけどね。",
+      "char": "c044_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…ぼくだって、出来るものならそうするさ。\\でも、ぼくはものすごい不運な星のもとに\\生まれたんだ…ちょっと前にも同じような\\チャンスがあったような気がするけど…",
+      "char": "c044_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "結局ふいにしてしまった。\\まあ、悪い夢でも見ただけなんだろうけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…何だ？契約した時のことを言っているのか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…だそうです。どうしますか？",
+      "char": "c044_01",
+      "speaker": "same"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "どうするも何も…\\俺も絶好のチャンスを逃したってだけさ。\\こりゃ、サキュバスたちには内緒にしないとな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "31": {
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

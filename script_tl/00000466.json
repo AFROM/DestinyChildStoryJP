@@ -2,304 +2,240 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
-      "background": "bg099_f",
-      "bgm": "29",
-      "char": "c174_01",
-      "speaker": "same",
-      "distance": "near",
-      "before_effect": "enter_from_right_fast"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "あれー？なんでこの時間にA.Iが？\\と思ったそこのあなた！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "退屈しているあなたのために、\\今日は特別番組をご用意しました★",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "カメラに映さないでくれ…\\俺、こういうふうに目立つと、\\ぐ、具合が悪くなるんだ…",
+      "dialogue": "あれ？おかしいな。\\どこに行ったんだろう…",
+      "background": "bg086_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
+      "pos": "left"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ご主人さま、どうかされました？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "うーん…アモールの契約者が書いた手紙が、\\なくなってるんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "distance": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ヒドいですわ、ご主人さま。\\少女の切実な思いが綴られた\\甘酸っぱい恋文を粗末に扱うなんて。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "急にスタジオに呼んでテレビに出ろって\\一体どういう…",
-      "char": "keep",
+      "dialogue": "わかってるって。\\だから、その甘酸っぱい手紙が、\\汚染されないように指ひとつ触れてませんけど？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal",
+      "facial": "confused"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら～魔王争奪戦の有力優勝候補のあなたが\\今日はずいぶん弱気なのね？",
-      "char": "c174_01",
+      "dialogue": "しかし、なくしたなんて…\\アモールが知ったら大変ですね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "7": {
       "type": "talk",
-      "dialogue": "からかうつもりなら、帰るぞ！",
+      "dialogue": "うう…そもそも、そんな手紙を受け取るべきじゃ、\\なかったんだよな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky",
-      "before_effect": "shake_weak"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ふふ、そんなに怒っちゃって…\\もっと遊びたいけど、\\今日はそのために呼んだわけじゃないの。",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "アモールの契約者、\\射手矢弓美(いてや ゆみ)が書き綴ったはいいが、\\片思いの相手に届くことのなかったその手紙を…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あなたが誤解している、\\我がチャンネルEvilの本当の姿を見せたくて★",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "俺なんかの手に余るからって、\\机の引き出しのどこかで眠っていたはずなのに…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "なんとなくチャンネルを合わせて、\\肘をついてダラダラながめていたあの番組が\\どうやって放送されているのかを！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "昨日までちゃんと置いてあるのを確認したのに、\\なぜ失くなってしまったかは分からない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "リポーターはどこですか？\\台本上がりました！",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "その手紙のおかげで、アモールに出会えた、\\大切な手紙ですのに。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ここでーす！あなたのそばに★\\あら、初稿のままじゃない？",
-      "char": "c174_01",
+      "dialogue": "まったく、酷いご主人さま…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake_weak"
+      "facial": "pretense"
     },
     "13": {
       "type": "talk",
-      "dialogue": "いえ、それで完成してますよ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "うう…俺は何にもしてないってば！\\本当に分からないんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "14": {
       "type": "talk",
-      "dialogue": "えー、ペライチ？\\それとここ、「ゲストあり。未定」って…",
-      "char": "c174_01",
+      "dialogue": "ふぅ…アモールがその言い訳を、\\信じてくれるといいのですが。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ああ、本当にゲストが決まってないそうです。\\適当に盛り上げてくれるゲストを今…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "そんな言い方しないで、\\助けてくれてもいいだろ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "おい、お前。バイトか？\\ぼんやりしてないで、\\お菓子の箱をセッティングしてくれ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "モナがですか？私は手紙の重要性を、\\ご主人さまに気づいてもらおうとしましたのに。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "え？あ、はい…\\これをテーブルの上に置けばいいのかな？\\まあ、俺はバイトじゃないんだけどな。\\無報酬でここまで来てるし…",
-      "char": "c000_01",
+      "dialogue": "おかげで、手紙を探す意欲が、\\心の奥から湧き上がって来ませんか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "報酬が欲しいの？ナマイキなことを言うのね～\\テレビに出れるだけありがたく思いなさいよ。",
-      "char": "c174_01",
+      "dialogue": "うう…どっちかっていうとお前に、\\デコピンでもしてやりたい意欲が湧き上がるよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "19": {
       "type": "talk",
-      "dialogue": "どれだけの人間がテレビに出たくても出れなくて\\夢をあきらめてると思ってるの？\\それに、この仕事はそんな簡単な仕事じゃないのよ！",
-      "char": "keep",
+      "dialogue": "まあ、本当にひどいご主人さま。\\今すぐ手紙を探しましょう♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "20": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "shorter",
-      "wait": "shorter",
-      "fade_in": "shorter"
+      "type": "talk",
+      "dialogue": "くそぅ、からかっただけだな。\\にくらしいヤツ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "21": {
-      "type": "talk",
-      "dialogue": "ここはいっそのこと歌えるチャイルドを\\呼んだ方がいいわね。\\その方がお客さんも集まってくれるでしょうし。",
-      "background": "bg099_f",
-      "bgm": "29",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "あ、歌で適当にやろうってことですか？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "今日も渡せなかった。\\ううん、これでよかったんだ。どうせ受け取ってもらえないだろうし…",
+      "background": "bg070_f",
+      "bgm": "17",
+      "char": "c141_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "適当？そんなわけないでしょ、このバカ！\\番組ってのはね、盛り上がる流れっていうのが\\あるのよ。",
-      "char": "c174_01",
+      "dialogue": "ねぇ…なんでそう思うの？",
+      "char": "c141_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "はあ、なにこの台本？喋りづらいじゃない。\\誰が今時こんな口調でしゃべるのよ。\\そこのバイト、飲み物はこっちに置いて。",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "あなたに手が届かない以上、\\こんな手紙、書いたって無駄なのよ。",
+      "char": "c141_00",
+      "speaker": "same_full",
       "pos": "right",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "いいんだけどね、バイト扱いで。\\それならそれで時給が欲しいだけで。\\飲み物2種類あるんですけど、どっちですか！",
-      "char": "c000_01",
+      "dialogue": "そんなことないわ。大事なのは気持ちよ。",
+      "char": "c141_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "青いボトルの方でお願い。\\ちょっと、フタは開けてストローを\\差してちょうだい！気が利かないわね！",
-      "char": "c174_01",
-      "speaker": "same",
+      "dialogue": "もう少し待ってて。もっと強くなるから。\\あなたに釣り合うぐらい強くなるから…",
+      "char": "c141_00",
+      "speaker": "same_full",
       "pos": "right",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "A.Iはビタミンウォーターしか飲まないって\\設定だからちゃんと覚えといてね★",
-      "char": "keep",
+      "dialogue": "そう、それがあなたの気持ちなのよね。\\わかったわ…",
+      "char": "c141_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "そんな設定知るか！絶対覚えない！\\いいから、さっさと台本に目を通せよ。",
-      "char": "c000_01",
+      "dialogue": "この手紙は勇気を出せるまで、私が預かっておくね。その時まで、絶対あきらめないで。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "っていうか、そんな忙しいなら\\今日はもう帰…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "A.Iさん、台本OKですか？\\入ったらスタンバイお願いします！\\今日中に午後の分の収録もしとかないと！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "なにそれ、ありえないでしょ！\\そんな詰め詰めで…\\こんなのプロフェッショナルじゃないわ！",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "あと、台本に「雰囲気に合わせて適当に」とか\\「この辺で面白く」って書いてあるんだけど！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "shake"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "はい、はい！すみません、すみません！\\おい、バイト！テキパキ動けって！鈍いな！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "は、はい！行きます！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "after_effect": "go_to_left_slow"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "はあ、はあ… 見せたいって言ってた\\「チャンネルEvilの本当の姿」ってこれか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "enter_from_left_fast"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "本当はもっとスマートでカッコイイところを\\見せたかったんだけどね…",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "A.Iさん！スタンバイしてくださーい！",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ふん…話は後にしましょ！",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_left_point"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

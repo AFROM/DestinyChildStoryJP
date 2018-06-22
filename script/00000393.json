@@ -2,268 +2,449 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はあ…\\モナさん、私の悩み聞いてくれませんか？",
-      "background": "bg101_f",
-      "bgm": "31",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "あら、どうしたの～？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "欲しいものがあるんですけど\\悪魔さんがお金を持っていないせいで\\買えないんです…",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ツッコミどころ満載な悩みね…",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ああ、どうして悪魔さんは\\お金持ちじゃないんでしょう？",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "NO金持ち！\\NO金持ち！金なし！サル！",
-      "char": "keep",
-      "speaker": " watson",
-      "distance": "far"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "そうね～\\誰でもお金持ちになれるわけじゃないし…",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "お金持ちの悪魔に交換したいです。\\…交換…悪くないかも！",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "おい、俺は物じゃないぞ…\\そもそも、誰と交換するつもりだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "やだ！盗み聞きしてたんですか？\\悪趣味な悪魔さんですね！",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "出た！サル！しゃべるサル！",
-      "char": "keep",
-      "speaker": " watson",
-      "distance": "far"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "サルって言うな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "mvd": "ux/talk/efx_script_angry_set.mvd",
-      "mvd_pos": "left_top"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "金なし！モンキー！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "サルもモンキーも同じだろ！\\そうやって悪口言いまくるのは、\\悪趣味じゃないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "盗み聞きする方がもっと悪趣味です！\\許してほしければ、この限定人形を買ってください。",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "なんで俺が許しを乞わなきゃいけないんだ…\\…まあ、そんなに高くなければ\\買ってやらないこともないけど…",
+      "dialogue": "お、何の匂いだろう…\\誰か料理でもしてるのか？",
+      "background": "bg089_f",
+      "bgm": "14",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "あ！悪魔くん、いらっしゃーい。",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "アムブロシア！\\久しぶりじゃん。何してるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "えっへん！\\悪魔くんのために、お菓子を作ったのだー！",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "おー、やった！\\ちょうど小腹が空いてたんだよね。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "shake_weak"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あら、ご主人さまいらっしゃい♥\\この子、なかなかの腕前なんですよ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うわ、でかっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "この量は…正直太りそうな気が。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "うふふ、ご主人さま～♥\\何か変なこと考えてません？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "いいえ、まったく。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "悪魔くん、早く食べてみて！\\悪魔くんが帰って来るの、待ってたんだよ？",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "じゃあ遠慮なく……甘くて美味しい！\\すごいじゃん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あれ、なんだ？何か固いものが…\\これ、何が入ってるんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あらあら、ご主人さまもひっかかりましたね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "引っかかるってなんだよ？\\イタズラでもしたのか？\\食べ物で遊ぶなよな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "これは…紙？\\なんか書いてあるな…\\今日のラッキーアイテム…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
     "17": {
       "type": "talk",
-      "dialogue": "今ならお買い得ですよ！\\限定版なのに、55人で買えちゃいます♥",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "細長い紙切れに、何やら文字が書かれている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "18": {
       "type": "talk",
-      "dialogue": "55人…って樋口一葉がか？\\どこがお買い得だよ…俺には1人でも大金だ！",
+      "dialogue": "ええと…ラッキーアイテムは…\\紫色の髪の少女…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense"
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ちぇっ……せっかく高い人形を\\手に入れられると思ったのに。\\サルに期待したのが間違いでした。",
-      "char": "c106_01",
+      "dialogue": "はい！はい！！\\わたしです！紫色の髪でーす！\\悪魔くん、それわたしのコトだよ！",
+      "char": "c068_01",
       "speaker": "same",
-      "distance": "far"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "20": {
       "type": "talk",
-      "dialogue": "金なしサル！モンキー！ゴリラ！キングコング！",
-      "char": "keep",
-      "speaker": " watson",
-      "distance": "far"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "サルじゃないって言ってるだろ！",
+      "dialogue": "…？？？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
       "before_effect": "shake"
     },
-    "22": {
+    "21": {
       "type": "talk",
-      "dialogue": "アウストラロピテクス！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "pos": "center",
-      "distance": "far",
-      "before_effect": "none",
-      "one_ani": "attack"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "だから俺はサルじゃ…\\あ？アウス…？",
-      "char": "c000_01",
+      "dialogue": "意味がわからないんだけど。\\どういうこと？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "24": {
+    "22": {
       "type": "talk",
-      "dialogue": "うふふ、そんな困った顔しなくても\\検索すれば出てきますよ～♥",
+      "dialogue": "あらあら♥\\ご主人さまったら、ご存じないですか？\\これは、フォーチュンクッキーを真似てるんですよ。",
       "char": "c001_01",
-      "speaker": "same"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "褒め言葉だから調べなくてもいいですよ。\\ね？アウストラロピテクスさん。",
-      "char": "c106_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "right",
+      "distance": "normal"
     },
-    "26": {
+    "23": {
       "type": "talk",
-      "dialogue": "ほんとに褒め言葉なのか？一体、どんな意味が…\\あ、これか。「アウストラロピテクス」とは…",
+      "dialogue": "フォーチュンクッキー？\\ああ、中に占いの紙が入った…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "normal"
     },
-    "27": {
+    "24": {
       "type": "talk",
-      "dialogue": "って、全然褒め言葉じゃないじゃん。",
+      "dialogue": "ってことは、このたくさんのお菓子全部に、\\紙切れが入ってるってことか。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "screen_effect": "dialog_shake",
-      "before_effect": "shake"
+      "distance": "normal"
     },
-    "28": {
+    "25": {
       "type": "talk",
-      "dialogue": "バカザル！アホザル！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "そうだよ、悪魔くん！\\ねえねえ！これも、あれも食べてみて！",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
-    "29": {
+    "26": {
       "type": "talk",
-      "dialogue": "サルじゃないっつーの。\\いい加減にしろ！",
+      "dialogue": "やたら勧めて来ると思ったら…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "まあでも、うん、美味しい。\\ちゃんと紙切れも入ってるし。\\内容は、っと…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ラッキーアイテムは…\\「料理する少女」、「目の前のチャイルド」…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "…なんで「アイテム」なのに、\\「少女」や「チャイルド」が出るんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
       "before_effect": "shake"
     },
     "30": {
       "type": "talk",
-      "dialogue": "そんなに怒らなくても～♥\\好きな子ほどいじめたくなっちゃうんですよ♥",
-      "char": "c001_01",
+      "dialogue": "えへへ…どう、悪魔くん？\\ラッキーアイテムは、\\キープしなきゃって思わない？",
+      "char": "c068_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "そんなわけないだろ…\\好きなら何でいじめるんだ。",
-      "char": "c000_01",
+      "dialogue": "あら、積極的ね～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "32": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c106_01",
+      "dialogue": "…もう一度契約しようってことか？\\契約なら、もう一度済ませただろ…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "far",
-      "before_effect": "go_to_right_slow"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "33": {
       "type": "talk",
-      "dialogue": "…あら～？図星だったのかしら～♥",
-      "char": "c001_01",
+      "dialogue": "…",
+      "char": "c068_01",
       "speaker": "same",
-      "facial": "tempt"
+      "pos": "right",
+      "distance": "normal"
     },
     "34": {
       "type": "talk",
-      "dialogue": "な、なんだよ。何で急に黙るんだ？\\おい、メーデイア？どこ行くんだよ！",
-      "char": "c000_01",
+      "dialogue": "あらあら♥\\そう来ましたか～…うふふ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "facial": "tempt"
     },
     "35": {
       "type": "talk",
-      "dialogue": "ご主人さまってば♥\\ほんと、罪な男ですね～♥",
-      "char": "c001_01",
+      "dialogue": "…悪魔くん、あのね、もっと食べて！\\はい！はい！！",
+      "char": "c068_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "36": {
+      "type": "talk",
+      "dialogue": "えっ、なんで…\\うっ…押し込むな！もう入らないよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "うわっ、やめろって！\\多すぎる…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "まあ…\\アムブロシアの愛がたっぷりですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "愛ってか…拷問だろ、これ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "もういいから！\\紙切れの内容も、どれも同じだし！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "紫の髪！可愛い少女シェフ！\\ボブスタイルの可愛い少女！\\カッコ、サキュバスではない！\\カッコ閉じ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "悪魔くん、どうかな？\\ラッキーアイテムだよ！欲しいでしょ？\\わたし、ずっとお菓子を作ってあげられるのだ！",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "俺…ずっと紙切れを食わされるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "アムブロシア、\\これはちょっとダメな気がするわ。\\ご主人さまは、顔に全部出ちゃうから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "うう、そうなの…？\\おかしいな…こんなはずじゃなかったのに。",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "あのね、悪魔くん！\\お菓子、まだまだあるから！\\もっともーっと、\\ラッキーアイテムをチェックしてみるのだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "待て、アムブロシア！\\もういらないって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "何なんだよ一体！何のイジメだよ！\\どうせラッキーアイテムって、\\全部お前のことなんだろ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "あらあら♥\\ご主人さまったら、全然わかってないですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "ねえ、もっと！\\もっと食べて！悪魔くん！\\ううっ…",
+      "char": "c068_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "何で泣くんだよ！？\\わ、わかったよ…これもらうから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "アムブロシアの奴、一体何がしたいんだ…？\\まったくわからん！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "53": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

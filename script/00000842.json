@@ -2,299 +2,256 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ルドルフがいなくなった！",
+      "dialogue": "お兄ちゃーん♥",
       "background": "bg086_f",
       "bgm": "9",
-      "char": "c253_01",
-      "speaker": "same"
+      "char": "c271_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "また家出か？",
+      "dialogue": "何だ？急に甘えてくるなんて。\\お前何かたくらんでるだろ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…そうなのかしら？",
-      "char": "c253_01",
+      "dialogue": "そ、そんなことないよ！\\ただ、お兄ちゃんに聞いてほしいお願いがあるだけ！",
+      "char": "c271_01",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "いいえ。今回は強制的に連れて行かれた痕跡を見つけました。",
-      "char": "c002_01",
+      "dialogue": "お願い？…ってどんなお願いだよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "まさか、さらわれたのか！？",
-      "char": "c000_01",
+      "dialogue": "ピクシーのお願い聞いてくれるの！？",
+      "char": "c271_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "生意気な！よくも私のソリ引きを拉致したわね！\\一生後悔させてあげる。",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "貴女のソリ引きではありません。\\御主人様のチャイルドです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "irritation"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "そういうのは後回しにして、まずはルドルフを助け出そう！",
+      "dialogue": "いや、だからまず、どんな願いなのか聞いてから…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "confused"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ふわああん！\\お願い聞いてくれないの！？",
+      "char": "c271_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "うわっ！わ、わかった！\\聞く！聞くから泣くなって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
     },
     "9": {
+      "type": "talk",
+      "dialogue": "ほんと！？\\へへへ。じゃあ、これ受け取って。",
+      "char": "c271_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "これ…手紙か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "うん！\\ママに渡しておいて！",
+      "char": "c271_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ママに…か。\\何が書いてあるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ナイショ！\\ママに書いた手紙なんだから、\\お兄ちゃんは読んじゃダメだからね！",
+      "char": "c271_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "わ、わかってるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "15": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "10": {
-      "type": "talk",
-      "dialogue": "うう…一体何だよ…\\昼寝中のソリ引きをさらうなんて…",
-      "background": "bg129_f",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "おじさん、バチ当たるよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ふん！人質のくせにやかましい！",
-      "char": "m216_01",
-      "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "人質？どうして俺を人質なんかに？",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "あー、分かった。ニコルだな？\\おじさん、あの女のこと嫌いだもんね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "でも思い通りにならないと思うよ。\\あの女、すっごいズボラだから。\\なかなか動こうとしないんだから…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
     "16": {
       "type": "talk",
-      "dialogue": "ここね、泥棒！",
-      "char": "c253_01",
+      "dialogue": "…「わかってる」とは言ったものの、\\ダメと言われると余計に見たくなるんだよな。\\ちょっとくらいなら…",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あれ？…ウワサをすればホントに来た！",
-      "char": "c225_01",
-      "speaker": "same"
+      "dialogue": "外道ですね。\\子供相手に嘘をつくなんて…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ふん！引っかかったな、ニコル！",
-      "char": "m216_01",
+      "dialogue": "うわっ！\\お、驚かすなよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
     },
     "19": {
       "type": "talk",
-      "dialogue": "もう、誰にもついて行くなって言ったでしょ？",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ぎゃ！何で俺を叩くんだよ！",
-      "char": "c225_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "まったく…\\恥ずかしくて外も歩けないわ！",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "こんなことするくらいならさっさと消えろ！\\今日から偽サンタのソリ引きになってやる！",
-      "char": "c225_01",
-      "speaker": "same",
-      "before_effect": "shake_weak"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "殺してやる！",
-      "char": "m216_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "うるさいわね！今、喧嘩してるのが見えないの？",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "こ、ころ…",
-      "char": "m216_01",
-      "speaker": "same"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "勝手に入ってくるな、おじさん！",
-      "char": "c225_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "生意気な女に生意気なソリ引き！二人とも容赦は…",
-      "char": "m216_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どいてっ！",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ぐわっ！",
-      "char": "m216_01",
-      "speaker": "same",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "はあ、はあ…\\ニコル、1人で出て行くなってあれほど…\\ん？もうルドルフを救出したのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それより…\\なんでフェアリーのヤツ、地面に伏せてるんだ？",
+      "dialogue": "俺はてっきり、\\悪魔らしいって\\褒めてくれると思ったんだけどな…",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
+      "facial": "pretense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "褒めるに値しない、幼稚な行為です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ま、まあ、確かに、\\子供の手紙を覗き見するなんて\\情けないかもしれないけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "でも、これはピクシーがママに書いた手紙だろう？\\どんな内容かぐらい知っておかないと、\\主人としてはいけないだろう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "はいはい。\\お好きになさってください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "な、なんだよ？\\とりあえず、さっそく読んでみるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ママ、お元気ですか？\\嘘つきなおじさん悪魔に捕まって、毎日怖くて大変だけど、ピクシーは元気です。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "おいおい。\\まさか、嘘つきなおじさん悪魔って…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "状況から察するに、\\御主人様を指しているようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "子供ってさ、想像力豊かだよね…\\さ、続き続き。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "facial": "haah"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "毎日怖くて大変だけど、ピクシーは元気です。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "特に大変なのは、\\嘘つきなおじさんが毒の入った食べ物を\\無理やり食べさせようとすることです。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "こちらは、御主人様が偏食するピクシーに、\\無理やりピーマンを食べさせようとしたことを示しているようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "犯人はニコルのようですね。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "毒って…\\俺はただピクシーが元気に大きく育つようにと思ってやってたのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
     },
     "33": {
       "type": "talk",
-      "dialogue": "そうかニコルにやられたのか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "くうっ…",
-      "char": "m216_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ソリ引きが家出した理由\\何か思い当たる節があるだろ。",
-      "char": "c225_01",
-      "speaker": "same"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "私のせいでアナタが逃げたとでも言いたいの？\\いつまで言い訳するつもり？",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "一件落着したようなので、フェアリーを連れて帰りましょう。",
+      "dialogue": "親の心子知らずとはよく言ったものですね。",
       "char": "c002_01",
       "speaker": "same",
-      "facial": "smile",
-      "one_ani": "attack"
+      "pos": "right",
+      "facial": "smile"
     },
-    "38": {
-      "type": "talk",
-      "dialogue": "はぁ…ほんとお騒がせなヤツらだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "許さん…生意気な女め…ぐおっ…",
-      "char": "m216_01",
-      "speaker": "same",
-      "distance": "near",
-      "after_effect": "shake"
-    },
-    "40": {
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

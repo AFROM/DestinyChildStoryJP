@@ -2,510 +2,284 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ダーリン♥あ、あら！？",
-      "background": "dungeon_bg",
-      "bgm": "6",
-      "char": "c010_01",
+      "dialogue": "どうした？俺になんか用？",
+      "background": "bg097_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あっ！倒れた！悪魔様！悪魔様！",
-      "char": "c061_01",
+      "dialogue": "ここで働いてるって聞いたからね。\\ちょっと様子を見に来てあげたのよ。",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "くっ…いつの間に怪我なんて…！",
-      "char": "c010_01",
+      "dialogue": "ただの見物かよ…\\別に、普通のコンビニなんだけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "私たちだけでも戦わないと！\\起きてるチャイルドはみんな呼んで！",
-      "char": "c061_01",
+      "dialogue": "そうね。ホントにただのコンビニだわ。\\どこにでもありふれたコンビニ。",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ムネモシネ、起きて！\\あなたの力が必要よ！",
-      "char": "c010_01",
+      "dialogue": "…馬鹿にしてるのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いや、私は…",
-      "char": "c034_01",
+      "dialogue": "ワタシは事実を言っただけよ？\\フツーのコンビニだってね。",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "far"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…めんどくさい。",
-      "char": "keep",
+      "dialogue": "ああ、そう。何を企んでるのかは知らないけど\\邪魔するだけならさっさと帰れよ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "far"
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "面倒くさい？",
-      "char": "c010_01",
+      "dialogue": "あらー？ここの店員さん、不親切だわー。\\客にそんな態度をとるなんてひどーい。",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ああ、めんどくさいから後で行く。\\先に行っていろ。",
-      "char": "c034_01",
+      "dialogue": "はいはい、何をお求めですか？\\お・きゃ・く・さ・ま。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "mvd": "ux/talk/efx_sigh.mvd"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ちょっと…こんな時まで…",
-      "char": "c010_01",
+      "dialogue": "別に何もいらないわ。\\それより、ワタシと一緒に来てくれない？",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…もういいわよ！寝てれば！\\恐れ知らずの大魔法使い様！",
-      "char": "keep",
+      "dialogue": "お前…外に出たら覚えてろよ。\\そしたら客と店員じゃなく、\\主人と下僕らしい扱いをしてやるから。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "はいはい、わかったから、早く出て。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "悪魔様、大丈夫ですか？",
-      "background": "bg056_f",
-      "bgm": "9",
-      "char": "c061_01",
+      "dialogue": "上等だ、覚悟しろよ…って出れるわけないだろ！\\俺は仕事中なんだっつーの！生活費稼いでんの！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
     },
     "14": {
       "type": "talk",
-      "dialogue": "あぁ、大丈夫だ。\\みんな…ありがとう。おかげで助かった。\\ムネモシネがもう少し遅れてたら俺は…",
+      "dialogue": "仕事だの生活費だの…所帯じみてるわねえ。\\1日ぐらいサボったって\\飢え死にするわけじゃないでしょ？",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "1日ぐらいだと？俺の苦労も知らないで…\\どんだけ大変な思いをしてると思ってんだよ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
-    },
-    "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "distance": "normal",
+      "facial": "confused"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ちょっといいかしら？",
-      "background": "bg089_f",
-      "char": "c010_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "dialogue": "面倒みなきゃならないのが、\\最低4人いるんだぞ、4人！",
+      "char": "keep",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "17": {
       "type": "talk",
-      "dialogue": "デメテルが突然、ムネモシネを攻撃した。",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "そのうちの3人は「人間界はよくわからない」\\とか抜かして遊び呆けてるし！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…\\",
-      "char": "c034_01",
+      "dialogue": "おチビさん、なんか妙に難しく考えてない？\\大丈夫よ、サイコロ占いでもピンゾロが\\出たじゃない。",
+      "char": "c020_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "何をする！",
-      "char": "keep",
+      "dialogue": "あんなデタラメ占い、慰めにもならないよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "や、やばい…もう終わりだ！\\この乱闘に巻き込まれて死ぬのか…",
-      "char": "c000_01",
+      "dialogue": "はあ…こんな狭い店の中で\\1日中何してるっていうの？",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "わたしたちは仲間でしょ！？\\今まで一緒に戦ってきたじゃない！",
-      "char": "c010_01",
+      "dialogue": "お前みたいに偉そうな客の相手をするのが\\俺の仕事だよ。文句あるか。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c034_01",
+      "dialogue": "…ワタシの契約者の気持ちが少しわかるわ。\\こんな窮屈な思いをするなら辞めたほうがマシね。",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "それなのに、あんたは…\\わたしたちがどうなってもいいって言うの？\\今までの時間に意味なんてなかったってこと？",
-      "char": "c010_01",
+      "dialogue": "いや、お前の契約者は変わってると思うぞ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "お、おい…もう、いいよ。\\みんな生きてるだけで十分だろ！\\仲間割れなんて、これが初めてじゃないんだしさ…",
-      "char": "c000_01",
+      "dialogue": "半年も続かないで辞めた仕事が\\いくつもあるじゃないか。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ムネモシネにはムネモシネの個性がある。\\あの性格に下手に口出しするのは得策だとは\\思えなかった。",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "半年も続いたんだからすごいじゃない。\\同じ会社にそれだけいたのよ？",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "悪かった。",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "え？",
+      "dialogue": "どう考えたって短いだろ！忍耐力がなさすぎだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "決断力があるのよ。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "私のせいだ。私のせいで、皆を危険に陥れた。\\そんな私に、仲間としての資格はない。",
-      "char": "c034_01",
+      "dialogue": "…契約者と同じこと言うんだな。\\普通はもっと続けるんだよ。\\根性が足りないんだ、根性が！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ムネモシネ…",
+      "dialogue": "アンタだって、魔王争奪戦には興味ないくせに。",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "人間みたいにコンビニのバイトに\\精を出してるような悪魔が、そんな事言える\\資格なんてないと思うけど？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "そんなの、誠実なんじゃなくて、\\臆病なだけじゃない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "うっ！\\魔王争奪戦の話をされると反論できない…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "30": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "なあ、ムネモシネ。あんま気にするなよ。\\みんなまだ、お前が歩くのが嫌いだってこと、\\よくわかってないんだ。",
-      "background": "bg006_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "なんだと？",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "33": {
       "type": "talk",
-      "dialogue": "いやさ…俺は、\\お前が歩くのが嫌いなんじゃないか、って\\なんとなくそう思ってるんだ。",
-      "char": "c000_01",
+      "dialogue": "ま、だからおチビさんなんだけどね。\\じゃあ、ワタシは失礼するわ。お疲れ、バイトさん。",
+      "char": "c020_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
     },
     "34": {
       "type": "talk",
-      "dialogue": "俺も朝、早起きするのは嫌いだし…",
-      "char": "keep",
+      "dialogue": "あう…ありがとうございましたぁ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "お前も嫌いなものは嫌いだろ？\\俺はお前の親でもないし、\\嫌なことはしなくてもいい。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "お前は…つくづくバカだな。\\だが、だからこそ…わかることもあるのか。",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "お前だけには話しておく。\\「この私を騙し召喚した未熟な悪魔よ」。",
-      "background": "bg068_f",
-      "bgm": "17",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "私は足が使えない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "…あ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "恐らくは、私の契約者たる司書のせいだろう。\\彼女の足にあった病が私にも影響している。",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "それならそうと言えばいいじゃないか。\\って、痛ぁっ！？なんで叩くんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky",
-      "after_effect": "shake_weak"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "馬鹿者！私は大魔法使いのムネモシネだ！\\そ、そんなこと言えるはずがないだろう！",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "これは私たちだけの秘密だ！\\名誉ある約束だ！いいな！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "あーはいはい、かしこまりました…\\ってぇ！？なんでまた叩くんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "after_effect": "shake_weak"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "本当に愚か者だな！お前にこんなことを話すのは、\\お前が私の指揮官だからだ！\\戦闘において部下の弱点を知らないということは、\\一歩間違えれば敗北につながる！",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "私は、お前に命を預けているんだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "私だけじゃない。お前が従えるチャイルド全員が、\\お前に命を預けているではないか！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "え…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "お前は我々の指揮官なのだぞ、その自覚を持て！",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "toonear"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "…か、顔が近い、近い！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "敵を知り己を知れば、いかなる戦いでも勝利を\\掴み取れる。力の強い者が勝つのではない。",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "己の部下を知る者こそが勝つのだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "その者にどんな弱点があり、何ができず、\\何に耐えられないのか、そして、\\何ができるかを知ることこそがお前の力になる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "56": {
-      "type": "talk",
-      "dialogue": "今までのようにな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "57": {
-      "type": "talk",
-      "dialogue": "これから宜しく頼む。\\ここでの戦いも、私が勝利へと導く。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "58": {
-      "type": "talk",
-      "dialogue": "私は、お前と共に戦おう！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "59": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "60": {
-      "type": "talk",
-      "dialogue": "なあ。本当に、俺のミスで異界の大魔法使いを\\召喚したってわけじゃ…ないよな？",
-      "background": "bg070_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "61": {
-      "type": "talk",
-      "dialogue": "ありえませんよ。\\作り話にしても、斬新な設定すぎます。\\「異界の大魔法使いを召喚できる\\偉大な悪魔だった」なんて。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "62": {
-      "type": "talk",
-      "dialogue": "でもあれを見て？\\なんだか、みんな本当に信じはじめてるみたいよ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "confused"
-    },
-    "63": {
-      "type": "talk",
-      "dialogue": "ムニャ！話の続きを聞かせてほしいニャン！",
-      "char": "c031_02",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "64": {
-      "type": "talk",
-      "dialogue": "うん、もっともっとー！\\それで、悪い魔法使いの手下になった\\王子はどうなったの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "joy"
-    },
-    "65": {
-      "type": "talk",
-      "dialogue": "ああ、いいだろう。\\王子は悪の魔法使いの下で、\\こっそり魔法書を読み勉強した…",
-      "char": "c034_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "66": {
-      "type": "talk",
-      "dialogue": "…ま、どうでもいっか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "67": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

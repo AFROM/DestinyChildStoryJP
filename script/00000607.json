@@ -2,155 +2,177 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "今日の戦いぶり、なかなかでしたよ♥\\ふふ、成長したわね～",
-      "background": "dungeon_bg",
-      "bgm": "9",
-      "char": "c001_01",
+      "dialogue": "勝ったー！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right",
+      "facial": "joy",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "言った通りだろ？\\アタイは、実は凄いんだ！",
-      "char": "c148_01",
+      "dialogue": "そんな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ホントに、もしかするとご主人さまより、\\魔王にふさわしいかもしれないわね♥",
-      "char": "c001_01",
+      "dialogue": "本当に残念です。\\腕相撲でダビに負けるなんて…恥ずかしい。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…アタイ、もう魔王はやめた！",
-      "char": "c148_01",
+      "dialogue": "俺だって今、精一杯恥じらっているところだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "残念だけど…\\アタイは魔王の器じゃなかったみたい。",
-      "char": "keep",
+      "dialogue": "がっかりしないで～♪\\君の未来は～明るく輝いて～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "left"
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あらそう？\\どうしてそう思うようになったのかしら？",
-      "char": "c001_01",
+      "dialogue": "勝ったのはダビだよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "世界は広くて、\\アタイより強い奴なんて、たくさんいてさ。",
-      "char": "c148_01",
+      "dialogue": "トサカ野郎を慰めないで\\ダビのお祝いソング歌ってよ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "悪魔だって、思ってたほど馬鹿じゃなかったし。\\あんたたちが仕えてる理由もわかった気もするし…",
-      "char": "keep",
+      "dialogue": "ノー、僕はね～悪魔のための歌をうたう～♪\\フォー・マイ・デビル～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "left"
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "悪魔だからとか、チャイルドだからとか、\\それだけの問題じゃなくて…",
-      "char": "keep",
+      "dialogue": "この泥棒！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "10": {
       "type": "talk",
-      "dialogue": "アタイはまだ…\\ただヤル気だけで先走る、子供なんだよ。",
-      "char": "keep",
+      "dialogue": "痛っ！なんで叩くんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "あらあら、そこまで考えられるなんて、\\やっぱりご主人さまより、全然マシかも♥",
-      "char": "c001_01",
+      "dialogue": "モナ姉さまも、チャイルドも手に入れて！\\ダビも歌うチャイルドが欲しい！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "アンタのそういう所…\\ご主人が憎たらしく思うワケがわかるわ…",
-      "char": "c148_01",
+      "dialogue": "何言ってるんだよ…\\俺は悪魔でお前はサキュバスだろ？\\交換できるなら大歓迎だ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あら～やっぱりちょっと、成長したんじゃない？",
-      "char": "c001_01",
+      "dialogue": "聞いてはいけないことを聞いてしまった気がします。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "とにかく、魔王になるのは諦めたのさ！",
-      "char": "c148_01",
+      "dialogue": "…聞かなかったことにしてくれ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "うふふ～\\ご主人さまには、いい知らせね♥",
-      "char": "c001_01",
+      "dialogue": "ダビも歌をうたうチャイルド手に入れる！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "魔王は諦めたけど！大悪党になるって、\\目標は諦めたわけじゃないからね！",
-      "char": "c148_01",
+      "dialogue": "そんなに言うならヘルツをくれてやってもいいけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "この世に、アタイの名を知らしめてやるんだ！",
-      "char": "keep",
+      "dialogue": "御主人様…？",
+      "char": "c002_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…チャイルドが魔王になろうなんて、\\アタイも大それたことを言ったもんだよね！",
-      "char": "keep",
+      "dialogue": "無視だ、無視。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "今思うと、恥ずかしくて仕方ないかも…",
-      "char": "keep",
+      "dialogue": "オオ～聞いてしまった～君の本心～♪\\悲しみのセレナーデ～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "left"
+      "before_effect": "shake"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あら～イナンナったら！\\ご主人さまに匹敵する可愛さだわ♥",
-      "char": "c001_01",
+      "dialogue": "でも～！僕は諦めない～♪\\君のための歌を～♪\\フォーエバー♪",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "tempt"
+      "one_ani": "attack"
     },
     "21": {
+      "type": "talk",
+      "dialogue": "それは僕のデスティニー、イエーイ♪",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "御主人様にはもったいないチャイルドですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "間違ってはないな…\\俺みたいな悪魔には手に負えないから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "24": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

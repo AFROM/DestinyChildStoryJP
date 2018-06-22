@@ -2,465 +2,294 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様！\\ここで何をなさっているのですか？",
-      "background": "bg030_f",
-      "bgm": "9",
-      "char": "c002_01",
+      "dialogue": "悪魔さん！悪魔さん！\\新しい人形、買ってくれますよね！？ね！？",
+      "background": "bg070_f",
+      "bgm": "14",
+      "char": "c106_01",
       "speaker": "same",
-      "distance": "near"
+      "distance": "far"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あ、リザ。",
+      "dialogue": "…朝から元気だな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "sigh"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あ、って。\\どれだけ探し回ったことか…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "買って！買って！サル！アウストラロピテクス！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "4": {
       "type": "talk",
-      "dialogue": "働きたくないからって\\こっそり逃げ出すのはやめてください。",
-      "char": "keep",
+      "dialogue": "悪口やめろ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何言ってんだ。\\逃げたわけじゃない、追い出されたんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "dialogue": "ホモサピエンス！！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "6": {
       "type": "talk",
-      "dialogue": "追い出された？\\まさか、またダビにやられたのですか？",
-      "char": "c002_01",
+      "dialogue": "もう騙されないぞ…どうせ、それも悪口だろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused",
+      "mvd": "ux/talk/efx_script_angry_set.mvd",
+      "mvd_pos": "left_top"
     },
     "7": {
       "type": "talk",
-      "dialogue": "誰があんなガキに…！\\ダビじゃなくて、ゲニウスだよ。",
-      "char": "c000_01",
+      "dialogue": "…悪魔さんってバカですね。",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "far"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ゲニウスですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "バカ！バカ！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ああ。\\アイツが俺に、邪魔になるから消えろって。",
+      "dialogue": "くっ…知らなくても、\\検索したら全部出てくるんだよ！\\ホ…モサピエン…スとは…ん？悪口じゃ、ない？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
     "10": {
       "type": "talk",
-      "dialogue": "しかも俺の部屋からな。ハハ…ハハハハ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "やっぱりサル！やっぱりサル！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "11": {
       "type": "talk",
-      "dialogue": "意気消沈、という感じですか。",
-      "char": "c002_01",
+      "dialogue": "うっ…今度は何も言い返せない…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
+      "pos": "left",
       "facial": "sigh"
     },
     "12": {
       "type": "talk",
-      "dialogue": "何だって？",
-      "char": "c000_01",
+      "dialogue": "それで、買ってくれるんですよね？人形。",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "far"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ゴホン！それで、出て行けと言われたから\\本当に出て来たのですか？\\チャイルドのせいで？",
-      "char": "c002_01",
+      "dialogue": "まあ、安ければな。\\けど、この近くに人形屋なんてないだろ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そんな哀れな目で俺を見るな。\\芸術家は初めてなんだ。",
-      "char": "c000_01",
+      "dialogue": "ありますよ！\\とっても近くに！",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "far"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あんな自分勝手で気難しい奴、\\どうやって手なずけろっていうんだよ。",
-      "char": "keep",
+      "dialogue": "…そんなとこあったか？\\で、どんな人形が欲しいんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "まったく、御主人様は私がいないと\\箸ひとつ持てないんですから。",
-      "char": "c002_01",
+      "dialogue": "すっごく高性能なんです！\\動くし言葉までしゃべるんですよ！？",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "sigh"
+      "distance": "far"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…箸は持てるぞ。",
+      "dialogue": "…ワトソンのことか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ついて来てください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ワタシ？ワタシ？",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ぶっぶー！もっと高性能です！\\あったかくて、サイズは1分の1！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "far"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ゲニウス！",
-      "background": "bg086_f",
-      "char": "c002_01",
+      "dialogue": "サイズが1分の1って、絶対高いヤツだろ…\\却下！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "angry"
+      "pos": "left",
+      "before_effect": "shake_weak",
+      "facial": "fury"
     },
     "21": {
       "type": "talk",
-      "dialogue": "何！",
-      "char": "c130_01",
+      "dialogue": "高くなんてないです！\\お金で買えないだけ！",
+      "char": "c106_01",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "distance": "far"
     },
     "22": {
       "type": "talk",
-      "dialogue": "キャッ…じゃなくて…\\雰囲気にやられてる場合ではありません。\\今すぐ御主人様の部屋から出て行ってください。",
-      "char": "c002_01",
+      "dialogue": "お金で買えないって、ますます無理だろ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "sigh"
     },
     "23": {
       "type": "talk",
-      "dialogue": "チャイルドはチャイルドらしく従いなさい。",
-      "char": "keep",
+      "dialogue": "無理じゃありません！\\悪魔さんの気持ち次第ですから！",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "distance": "far"
     },
     "24": {
       "type": "talk",
-      "dialogue": "何、このニボシみたいなヤツ…",
-      "bgm": "12",
-      "char": "c130_01",
+      "dialogue": "気持ちでどうにかなるなら\\世の中、誰も困らないっての。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "に、ニボシ…",
-      "char": "c002_01",
+      "dialogue": "…うう、やっぱりバカです。\\悪魔さんの勘さえよければ、すぐに手に入るのに…",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "shy"
+      "distance": "far"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ぷはっ！あ、ごめん。",
+      "dialogue": "バカって言うな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "facial": "fury",
+      "before_effect": "shake_weak"
     },
     "27": {
       "type": "talk",
-      "dialogue": "とにかく、ここは御主人様の部屋ですから\\出て行ってください。",
-      "char": "c002_01",
+      "dialogue": "…そもそも、そんなでかい人形どこにあるんだ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "fury"
     },
     "28": {
       "type": "talk",
-      "dialogue": "騒がしくするくらいなら2人とも\\出てってちょうだい。\\今の私はとーっても敏感なの！",
-      "char": "c130_01",
+      "dialogue": "…バカ！鈍感！サル！",
+      "char": "c106_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "one_ani": "attack"
     },
     "29": {
       "type": "talk",
-      "dialogue": "一体何をして…楽譜ですか？",
-      "char": "c002_01",
+      "dialogue": "おい、本音が出てるぞ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "30": {
       "type": "talk",
-      "dialogue": "触らないで！この野蛮人！",
-      "char": "c130_01",
+      "dialogue": "あら～楽しそうですね～♥\\一体、何のお話ですか～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "31": {
       "type": "talk",
-      "dialogue": "やばん…ニボシな上に野蛮人…！\\今、私に野蛮人と言ったのですか？",
-      "char": "c002_01",
+      "dialogue": "メーデイアが人形を買ってくれってうるさいんだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "shy"
+      "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "私の神聖な楽譜をその汚らわしい手で\\触れようとするなんて野蛮人極まりないわ！",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "どんな人形なんですか～？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "33": {
       "type": "talk",
-      "dialogue": "汚らわ…そこまで言われる筋合いはありません。",
-      "char": "c002_01",
+      "dialogue": "すぐ近くにある、\\高性能で1分の1サイズの人形らしい。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "shy"
+      "pos": "left"
     },
     "34": {
       "type": "talk",
-      "dialogue": "申し訳ないですが、\\私は立派な教育を受けた知性ある者です。\\野蛮人の「や」の字も知りません！",
+      "dialogue": "金では買えないけど、\\俺の気持ち次第で手に入るとか何とか…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
+      "pos": "left"
     },
     "35": {
       "type": "talk",
-      "dialogue": "うるさい！アンタの声、聞き飽きた！\\騒音よ！迷惑よ！",
-      "char": "c130_01",
+      "dialogue": "あらあら…\\メーデイア、ご主人さまには、\\はっきり言った方がいいんじゃない～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "facial": "pretense"
     },
     "36": {
       "type": "talk",
-      "dialogue": "悪魔！今すぐそのやかましい女を引っ張り出して！\\作業に集中できないでしょ。",
-      "char": "keep",
+      "dialogue": "無理です！気づかない方がバカなんです！\\この、鈍感サル！",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "far",
+      "after_effect": "go_to_right_point"
     },
     "37": {
       "type": "talk",
-      "dialogue": "リザ、どう見てもお前の負けだ。\\諦めてもう行こう。あいつは誰にも止められない。",
+      "dialogue": "だから、俺はサルじゃないっての。\\モナ、分かったなら教えてくれよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "38": {
       "type": "talk",
-      "dialogue": "そういう訳にはいきません。\\サキュバスの面目も…ん？",
-      "char": "c002_01",
+      "dialogue": "うふふ、それは自分で気づいた方がいいですよ～♥\\ご主人さま♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "smile"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "お、お前何をして…その汚らわしい足をどかせ！",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "shake"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "あ、これはミスで…\\楽譜を踏んだのはわざとではありま…\\きゃっ！私の頭！頭が！きゃあ！",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake",
-      "after_effect": "shake"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "ゲニウスは怒りを抑えきれず、リザの頭を引っ張り",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "リザも負けじとゲニウスの頭を掴んだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "わっ！離せ！",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "…なんだよ、コレ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "あら、ご主人さまの部屋から声がすると思ったら",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "こんな面白いことが起こっていたなんて♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "面白い？女同士で頭を掴み合って\\ケンカしてるのが面白いってのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "わかりませんか？\\どこに行っても一番面白いのは、\\他人の不幸とケンカ見物ですよ♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "しかもリザが頭を掴んでのケンカなんて。\\こんなのもう一生見られないかもしれませんよ♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "そ、それもそうだな。\\それじゃ…止めないでおこうか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "うふふ♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "手を離せ、サキュバス！！",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "loop_ani": "attack"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "あなたこそ離しなさい！ニボシ女！！",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry",
-      "loop_ani": "attack"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "なんですってー！こうなったらアナタを殺して\\私も死んでやるわ！うわあああっ！",
-      "char": "c130_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "shy",
-      "screen_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "55": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "longest",
+      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     }

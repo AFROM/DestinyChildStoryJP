@@ -3,132 +3,339 @@
     "1": {
       "type": "talk",
       "dialogue": "……",
-      "background": "bg050_f",
-      "bgm": "17",
-      "char": "m125_01",
+      "background": "bg012_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何を考えてるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "……",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…前の主人のことを考えていた。",
-      "char": "m125_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ルインの視線が、俺に突き刺さる。\\正直言って痛い…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ウォッチャーの主人って…どんな悪魔だったんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ルイン。まだ怒っているのか？",
+      "char": "c289_00",
+      "speaker": "same_full"
     },
     "5": {
       "type": "talk",
-      "dialogue": "賢くて、公平な悪魔だった。\\自分の仕事を大切に考える者だった。",
-      "char": "m125_01",
-      "speaker": "same",
+      "dialogue": "いいえ、怒ってなどいません。",
+      "char": "c292_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "自分の仕事？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "そうは見えないがな。\\ふくれっ面をしているじゃないか。",
+      "char": "c289_00",
+      "speaker": "same_full"
     },
     "7": {
       "type": "talk",
-      "dialogue": "魔界を脅かす者たちを審判する仕事だ。",
-      "char": "m125_01",
-      "speaker": "same",
+      "dialogue": "そんなことはありません。\\…デュランダル、あなたは何も思わないのですか？",
+      "char": "c292_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "今のお前の仕事じゃないか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ああ。私はただ、彼に協力しろというルーファス様の命令に従うだけだ。",
+      "char": "c289_00",
+      "speaker": "same_full"
     },
     "9": {
       "type": "talk",
-      "dialogue": "その方から引き継いだ。",
-      "char": "m125_01",
-      "speaker": "same",
+      "dialogue": "…私には理解できません。\\ルーファス様は何故、あんなチビ猫を放っておくのでしょう。",
+      "char": "c292_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "へえ…それじゃ、その主人は？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "倒せと、ご命令をいただければ、今すぐにでも…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "遠い昔のことだ。今は覚えていない。",
-      "char": "m125_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ルイン。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "…わかっています。\\ルーファス様の御心に逆らうことなど、絶対にありません。",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ひとつだけ…覚えていることがある。",
-      "char": "m125_01",
-      "speaker": "same",
+      "dialogue": "ただ、魔王候補生とは名ばかりの魔力も体力もない、ただのチビ猫なんて目障りだと思っただけです。",
+      "char": "keep",
+      "speaker": "same_full",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ご主人様が最後に言った言葉だ。",
-      "char": "keep",
+      "dialogue": "…あのさ、全部聞こえてるんだけど！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "Tiqyemeniu ketabka. Ze qitson ketabi.",
+      "dialogue": "悪口なら、聞こえないところで言ってくれよ！",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ん…古代語はちょっと…さっぱりだな。",
+      "dialogue": "魔力がないだの、体力がないだの、チビ猫だの、\\勝手に言いたい放題…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "こっちはギスギスしたくないんだよ。\\もうちょっとユルくやらせてくんない？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そういういい加減さが災いして、デュランダルに尾行が気付かれたんでしょう？\\そうやって今後も同じ過ちを繰り返すのですか？",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…返す言葉がない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あ、あの時は、お前たちが裏切るんじゃないかって、思ったから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "バイト中に攻撃されてエプロンしたまま魔界に帰るのかって焦ったし。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "死ぬとは思わなかったのですか？\\魔界に帰るだなんて随分と楽天的なのですね。",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "こ、殺すつもりだったのか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…あなたは、この期に及んでも、魔王争奪戦を理解していないのですね。",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "はぁ…あなたといても時間の無駄です。\\さよなら。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "go_to_right_slow"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あっ…\\行っちゃった。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ちくしょう…\\好き勝手、言っといて《さよなら》はないだろ！？\\ちょっとは俺の苦労も分かれっての…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ルインは、少し疲れているみたいだ。\\大目に見てやってほしい。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺たちが、君に危害を加えることは決してないから、安心してくれ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "もし、その身に危険が迫れば必ず俺たちが手を貸す。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ルーファスの命令だからか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "17": {
+    "32": {
       "type": "talk",
-      "dialogue": "そうなのか？残念だ。",
-      "char": "m125_01",
+      "dialogue": "そうだ。ルインも俺も、ルーファス様の命令に逆らうような愚かな真似はしない。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…例えそれが、助ける価値のないチビ猫でもな。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "チビ猫で悪かったな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "あの…",
+      "background": "bg095_f",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "な、なんだよ…\\今日はどんな嫌味を言いに来たんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "昨日は失礼なことを言ってしまい、申し訳ありませんでした。少しイライラしていたようです。",
+      "char": "c292_01",
       "speaker": "same",
       "pos": "right"
     },
-    "18": {
+    "39": {
       "type": "talk",
-      "dialogue": "もうこの言葉を記憶しているのは、\\俺しかいないようだな。",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "急にどうしたんだよ？俺に謝るなんて。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "あなたに《協力しろ》というルーファス様の命令に\\従ったまでです。命令には、あなたと友好的な関係を築くということも含まれていますので。",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "それでは、失礼します。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "after_effect": "go_to_right_jump"
     },
-    "19": {
+    "43": {
+      "type": "talk",
+      "dialogue": "…友好的な関係って。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "あんな、ふくれっ面で謝られてもなぁ…\\ま、いっか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "45": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

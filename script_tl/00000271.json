@@ -2,367 +2,327 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "使用人！夕食の時間よ！\\さあ、今日は何を食べさせてくれるのかしら！？",
+      "dialogue": "こんにちは、ディーノです。\\今日は悪魔様のために努力してみたいと思います。",
       "background": "bg086_f",
-      "bgm": "12",
-      "char": "c028_01",
+      "bgm": "20",
+      "char": "c011_01",
       "speaker": "same",
-      "distance": "near"
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あれ？レダさん、約束は？",
+      "dialogue": "全部聞こえてるのに、何呟いてるんだ？\\",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…あ…悪魔！夕食の時間よ！\\さあ、今日は何を食べさせてくれるのかしら！？",
-      "char": "c028_01",
+      "dialogue": "ホントね♥\\",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "呼び方変えただけじゃん…",
-      "char": "none",
-      "speaker": "none",
+      "dialogue": "悪魔様をお助けするのに一番必要なのは何でしょう？それは、生活環境の改善だと思います。",
+      "char": "c011_01",
+      "speaker": "same",
       "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "しかし、本当に食べるのが好きなんだな。\\時間きっかりに飯の催促に来るし。",
+      "dialogue": "間違ってはいないな。\\",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "それは、残金100円でお金も引き落とせず、\\飢えをしのいだ契約者の心理状態が、あたしに大きな影響を与えたからよ。",
-      "char": "c028_01",
+      "dialogue": "それでは、生活環境の改善とは一体何なのか。\\私が思うに、掃除だと思います。",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "right"
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "悪魔にすがるほどの飢えの記憶が、お前の\\食い意地の元になっているのか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "それだけじゃなくて、\\あたしが願うのは《姫》よ。\\食べ物を持ってくるのはあたしに魅了された\\男性たちや、あんたみたいな使用人。",
-      "char": "c028_01",
+      "dialogue": "これからはディーノが掃除をしてくれるのかしら？\\そういえば、今朝何かしてたわね。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "はい！今朝悪魔様のお部屋をお掃除しました。\\ゴミのようなオモチャがたくさんあったので\\全部捨てておきました。",
+      "char": "c011_01",
+      "speaker": "same",
+      "screen_effect": "dark"
+    },
     "9": {
       "type": "talk",
-      "dialogue": "俺は使用人じゃない。\\自分のことは自分でやるって約束しただろ？",
+      "dialogue": "え？部屋のオモチャ？\\それってプラモデルのことか！？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あたしの理想の生活が…\\使用人じゃなくていいから、\\とにかく今は美味しい夕飯が食べたい！",
-      "char": "c028_01",
+      "dialogue": "ディーノったら、大胆なことをしたわね♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "結局食べ物か…\\だけど今日は出前じゃないぞ。",
+      "dialogue": "なんで人の物を勝手に捨てるんだよ！\\さっさと回収してこないと！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "shock",
+      "after_effect": "go_to_left_fast",
+      "screen_effect": "dialog_shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "うぇ…",
-      "char": "c028_01",
+      "dialogue": "あらら…\\",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "金は湧いてくるわけでもないし、\\湯水のように使えるわけじゃないぞ。\\今日の夕飯はありあわせで済ませる。",
-      "char": "c000_01",
+      "dialogue": "あれ、悪魔様が外に走って行きましたね。\\まぁ、心配することはないでしょう。\\大したことではないので。",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "left"
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "この間の3分59秒のカレー？",
-      "char": "c028_01",
+      "dialogue": "ディーノったら、相変わらずマイペースね♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "いや、今日は4分1秒温めるハヤシライス。",
-      "char": "c000_01",
+      "dialogue": "それから、2つ目の生活環境の改善案は\\何だと思いますか？それは料理です！\\だから…準備しておきました。",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "left"
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "なんでいつもそんな微妙な時間なの…？",
-      "char": "c028_01",
+      "dialogue": "はあ…はあ…やっと回収した。\\全部そのまま残っててよかったよ。\\で、…次は何の話だ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "enter_from_left_fast"
     },
     "17": {
       "type": "talk",
-      "dialogue": "その絶妙な時間が美味さを作る！\\そういえば、ご飯も炊かないと…",
-      "char": "c000_01",
+      "dialogue": "今度は料理をするみたいですよ。\\",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "わかった。今日はご飯の炊き方を習わされるのね。\\…どうすればいいか教えてください。",
-      "char": "c028_01",
+      "dialogue": "でも私、料理には自信がありません。\\だから料理はやめることにしました！",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "right"
+      "screen_effect": "dark"
     },
     "19": {
       "type": "talk",
-      "dialogue": "おお！学習の効果が現れてる…！\\自分からちゃんとお願いできたじゃないか！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "何だ、一番やってほしいことをしてくれないのかよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "うむ、よろしい。今回は俺がやるよ。\\ちょっと進歩したからささやかなご褒美だ。",
-      "char": "c000_01",
+      "dialogue": "その代わり、ピザを10枚注文しておきました。\\悪魔様、いつもカード決済ですよね？",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "screen_effect": "dark"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…ホントに！？",
-      "char": "c028_01",
+      "dialogue": "ピザ10枚！？金は俺が払うのか！？\\何してくれてるんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ホントに。",
-      "char": "c000_01",
+      "dialogue": "あら、今日はピザパーティーですね～",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ついに使用人という本業に戻るのね。\\お姫様生活、復活かしら？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "そこまで言ってない！\\っていうかそもそも俺の本業は使用人じゃない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…そこまで怒らないでよ、ただの冗談よ！\\でもまあ、ありがと。悪魔。",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "こいつがちゃんと、しかも自分から\\礼を言ったのは初めてじゃないか！？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ご飯炊けるまでちょっと待ってろ。\\米は…ここだっけ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "あのね、悪魔…",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ん？どうした？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "悪魔は…いい悪魔なのね。\\あたしに色々教えてくれるのって\\あたしのためを思って、なんでしょ…？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "いや、単に俺が楽をしたいだけなんだけど。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "いつもあたしのことを考えてくれて…叱ってくれて。悪魔は…優しいのね？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "いや、だから、俺が楽をしたいだけなんだけど。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "そんな悪魔にお返しできることが何もないわ…\\せめて、これから頑張って戦ってあげる！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "そりゃ何よりありがたい。\\よろしく頼むよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "うん。頼まれたわ！\\それに、あんたの指示なら聞いてあげてもいいわ。",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "おお、ついにレダからそんな言葉が…！？\\ふふふ、俺の努力は無駄じゃなかった！作戦通り！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…って、さっきから探してるんだけど\\米が見当たらない…",
+      "dialogue": "んなわけないだろ！今すぐキャンセルだ！\\もしもし？さっきの注文をキャンセ…\\え、もう3枚作った？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "39": {
+    "24": {
       "type": "talk",
-      "dialogue": "…はぁ？",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "くそ、ちょうど持ち合わせもないし…預金も寂しい…ごめん、レダ。今日の夕飯は菓子とかで適当に…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "このあたしに、\\夕飯の代わりにお菓子を食べろって言うの！？\\さっき言ったことぜーんぶ取り消しよ！\\この下級使用人！！",
-      "char": "c028_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "うわぁ…\\なんかランク下がってない…？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "ただ面倒なだけでしょ！？\\さっさとATMに行きなさい！",
-      "char": "c028_01",
+      "dialogue": "うふふ。ピザパーティー確定ですね♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "44": {
+    "25": {
       "type": "talk",
-      "dialogue": "…はい。",
+      "dialogue": "くっ…そ、それじゃ…\\その3枚だけお願い…します…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "cry"
     },
-    "45": {
+    "26": {
       "type": "talk",
-      "dialogue": "それと、\\大事な夕食をお菓子で済ませようとした罰として、\\フライドチキンを買って来なさい！",
-      "char": "c028_01",
+      "dialogue": "3枚くらいなら\\月末まで乗り切れますね♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "46": {
+    "27": {
       "type": "talk",
-      "dialogue": "買ってこなかったら、これからずっと「使用人」\\なんだからねっ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "わかったわかった。買ってくるから！",
+      "dialogue": "くっ…これで当分は節約か…\\ディーノ、お前な！",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "どうしてそんなに睨むんですか？",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "よく、そんなことが言えるな！\\説教だ！そこに座れ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "タンドリーキチン、お待たせしました！\\",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "アッ！届きましたね！\\",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…チ、チキン？\\  ",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "あら？この流れはもしかして♥\\ピザよりも先にチキンを頼んでいたのね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "偏った食生活はよくありませんからね！\\",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "くっ…。キャンセルするにはもう手遅れか…\\ディーノ…俺に何か恨みでもあるのか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "お前のおかげで暴食だよ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "unfair"
     },
-    "48": {
+    "37": {
       "type": "talk",
-      "dialogue": "フン、さっさと行きなさい！！\\この悪魔！",
-      "char": "c028_01",
+      "dialogue": "私みたいに努力するチャイルドは、\\他にいませんよね？\\そろそろ有名店のラーメンも来るはずです！",
+      "char": "c011_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "right"
     },
-    "49": {
+    "38": {
       "type": "talk",
-      "dialogue": "やれやれ、結局このパターンか…\\さぁ、さっさと美味しい夕飯とフライドチキンを\\買いに行こう…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ラ、ラーメン！？\\",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
-    "50": {
+    "39": {
+      "type": "talk",
+      "dialogue": "これじゃあ、大食い大会ですね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "か、金が…今月の生活費が！\\ディーノォォォォ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "screen_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "そんな感情込めて私を呼んでくださるなんて…\\幸せ！これからも一生懸命、努力します！",
+      "char": "c011_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "うわあぁぁぁぁ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "shake"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "あら、ジリ貧のご主人さま、倒れちゃいましたね♥\\ディーノもまあまあ困った子ね。ふふふ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

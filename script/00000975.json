@@ -1,12 +1,34 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">最大レベル</color>が上がりました。\\おめでとうございます♥",
+      "dialogue": "ご主人さま！大丈夫ですか？",
       "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none",
-      "one_ani": "attack"
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "teach",
+      "screen_effect": "dialog_shake",
+      "voiceid": "900201011"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "しっかりしてください！\\早くここから逃げないと！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "teach",
+      "voiceid": "900201012"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "モナの言う通りです。急ぎましょう！\\早くご指示を！！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "900201013"
     }
   }
 }

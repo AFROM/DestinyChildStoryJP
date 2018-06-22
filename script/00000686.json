@@ -2,268 +2,260 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ねぇ、バカご主人ーあれ知ってる？",
-      "background": "bg086_f",
-      "bgm": "12",
-      "char": "c003_01",
+      "dialogue": "よう、《闇を切り裂く黒き蝶》さん！",
+      "background": "bg056_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "pretense"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご主人は誰かさんの言う通り<b>バカ</b>だからな。\\<b>あれ</b>だけじゃ何のことか分からない。",
-      "char": "c000_01",
+      "dialogue": "お前は相変わらず意地悪だな。",
+      "char": "c221_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "それじゃ、ダビちゃんがバカご主人に\\優しく教えてあげるよ。",
-      "char": "c003_01",
+      "dialogue": "なにっ！効いていない？\\もうこの攻撃は通じないのか…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あのね、\\キツネって酸っぱいブドウが嫌いなんだって！",
-      "char": "keep",
+      "dialogue": "休む暇もなくからかっていましたからね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "facial": "serious"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何だよ、急に…",
+      "dialogue": "そんなにからかったかな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "pretense"
     },
     "6": {
       "type": "talk",
-      "dialogue": "モナ姉さまが読んでくれた本にあったんだよ。",
-      "char": "c003_01",
+      "dialogue": "正直、私なら耐えられません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "shy"
     },
     "7": {
       "type": "talk",
-      "dialogue": "《キツネは言いました。あのブドウは\\まだ熟してないからどうせ食べられない》",
-      "char": "keep",
+      "dialogue": "モナなら、どんな手を使ってでも復讐していますね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "tempt"
     },
     "8": {
       "type": "talk",
-      "dialogue": "何だ、イソップ物語か？",
-      "char": "c000_01",
+      "dialogue": "暗殺したいくらいに…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "idle",
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "バカにも分かる話なの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "バカを連呼するな！",
+      "dialogue": "正直に言いすぎだ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
+      "facial": "irritation",
+      "before_effect": "shake_weak"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "うわーん、モナ姉さまー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "go_to_right_slow"
     },
     "11": {
       "type": "talk",
-      "dialogue": "それにその話の教訓は\\《キツネは酸っぱいブドウが嫌い》じゃないぞ。",
-      "char": "keep",
+      "dialogue": "もっと仲良くしなきゃだめですよ。\\また小さい子を泣かせて。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "before_effect": "go_to_right_point"
     },
     "12": {
       "type": "talk",
-      "dialogue": "自分に能力がないことを棚に上げて物事を\\環境などのせいにする怠け者の話だ。",
-      "char": "keep",
+      "dialogue": "身内を攻撃する御主人様に未来などありません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "go_to_right_point"
     },
     "13": {
       "type": "talk",
-      "dialogue": "俺が知ってるヤツの話か。",
-      "char": "c234_01",
+      "dialogue": "今日も意地悪されてばかりだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "unfair"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ダビも！そういうヤツ知ってるよ。",
-      "char": "c003_01",
+      "dialogue": "なぜ怒らない？\\彼女たちはただの使い魔ではないのか？",
+      "char": "c221_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "オマエらの言う知ってるヤツって、\\まさか俺じゃないよな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "他に誰がいるの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "誰が怠け者のキツネだって？\\慎重で我慢強いタイプなんだ、俺は。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "屁理屈までそっくりだな。",
-      "char": "c234_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "そもそも採って食べたいブドウなんて\\俺にはないよ。勘違いしないでくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "魔王に興味がないのか？まったく…",
-      "char": "c234_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "バカかお前は！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "やっぱバカだって！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "うるさい！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "まあ、お前が怠け者のキツネであろうが\\俺にはどうでもいい。",
-      "char": "c234_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "だが！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "そんなに近寄るな。",
+      "dialogue": "性格が違うのに、いちいち怒ってどうすんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "27": {
+    "16": {
       "type": "talk",
-      "dialogue": "優柔不断な子狐のせいで\\俺の課業を邪魔されるわけにはいかない。",
-      "char": "c234_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "初めの頃はいちいち怒っていたけどね…\\これ、ナイショ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "28": {
+    "17": {
       "type": "talk",
-      "dialogue": "何だよ、オマエの課業って。",
+      "dialogue": "俺のせいで死ぬ思いもしてきたのに\\ちょっとのことで怒るわけにもいかないだろ？",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "言い返されるたびに怒るわけにもいかないし…\\俺の物を勝手に捨てるからって\\出て行けとも言えないし…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "29": {
+    "19": {
       "type": "talk",
-      "dialogue": "己の力を試すことだ。\\だから大人しく魔王争奪戦に\\協力してやっているのに…",
-      "char": "c234_01",
+      "dialogue": "てか、結構イライラするな！\\俺がちょっと怠けたからって毎日説教ばかりで…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "怠けすぎだ。\\目覚ましの音でサキュバスが先に起きたら面倒だと",
+      "char": "c221_01",
       "speaker": "same",
       "pos": "right"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "一番先に起きて止めてからまた寝て、\\やっと契約者を見つけたのに目が気に喰わないとか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "まだ悪魔の世界をよく知らないみたいだけど、\\第一印象って大事なんだぜ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "自分の妄想にハマった\\中学2年の女子生徒は好印象だったのか？",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "非効率だとサキュバスたちが引き留めていたのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ここだけの話、\\私は彼女が嫌いだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "誰かが撮った映像を\\そのまま見ているような気分だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ヤナ…\\俺もそういう時期を過ごしてきたから分かるけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "成長痛というものだろう？誰でも経験する。\\リザもそう言っていた。",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "重要なのは、私が嫌いな私の過去の姿を\\全く関係のないお前が相手にしているという事だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
     "30": {
       "type": "talk",
-      "dialogue": "よりによって魔王争奪戦の参加者が\\こんなバカなヤツだなんて。",
+      "dialogue": "最も醜い姿を見せているから\\…本人の立場ではむしろ気持ちが\\楽になったというか…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "やっぱりバカなんだ！",
-      "char": "c003_01",
+      "dialogue": "まとめると…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "バカを連呼するな…",
-      "char": "c000_01",
+      "dialogue": "魔王争奪戦が終わる頃までには\\《黒き蝶》ではないご主人様の魔剣として",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "わざと強いヤツを避けてるだろう？\\なあ、子狐よ。",
-      "char": "c234_01",
+      "dialogue": "同行するかもしれないという話を、\\…遠回りな言い方で話しただけだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "34": {
-      "type": "talk",
-      "dialogue": "即脱落を避けるための有効な手段だろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "そうやって言い訳ばかりだと後で後悔するぞ。\\意外に熟した甘いブドウかもしれん。",
-      "char": "c234_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

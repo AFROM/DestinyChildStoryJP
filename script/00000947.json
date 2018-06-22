@@ -1,12 +1,215 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よくできました！\\<color=\"ff9900\">限界突破は+6</color>まで行えます！",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none",
-      "one_ani": "attack"
+      "dialogue": "しっかりして下さい。御主人様。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c002_01",
+      "speaker": "same",
+      "voiceid": "200100001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ははは…知ってるかリザ、今日はクリスマスだ。\\悪魔にとって最悪な日なんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200100002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "はあ…そうは言いますが、\\別に、聖なる力が地上に満ちたりはしませんよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200100003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "いや…そういうんじゃなくて、気分の問題だよ。\\優等生のリザ先生は気にならないんだろうな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200100004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "こんな日までチャイルド探しに明け暮れる自分に\\嫌気がさすって言うか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "200100005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "人間たちは楽しく遊んでるんだ、\\俺たちも休もう、な？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "200100006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>《クリスマスこそ悪魔たちの祭典》</color>\\という言葉を知りませんか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200100007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "はあ？\\誰がそんなことを言ってるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200100008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…もしかしたらとは思っていましたが、\\まさか<color=ff9900>《クランプス》</color>を知らないのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200100009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "クリンプス？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200100010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…クランプスです。\\クリスマスに人間の魂を略奪する\\伝説のチャイルドです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200100011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "伝説の…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200100012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "伝説と言われていますが、\\実際に存在していたチャイルドです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200100013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "主人である悪魔は人化サンタクロース。\\クランプスは《トナカイのルドルフ》に化けて\\人間たちを騙します。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200100014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "人化サンタクロースって悪魔だったのかっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "200100015"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "実際の人化サンタクロースとは別人です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200100016"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "人化サンタクロースの話しを上手く利用して、\\人間の魂を効率よく集めていた為、人化サンタクロースと呼ばれるようになっただけです。",
+      "char": "keep",
+      "pos": "right",
+      "voiceid": "200100017"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そ、そうか…\\子供の夢を壊さなくてよかったよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200100018"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "しかし、クリスマスに仕事かよ？\\すごい先輩たちだな…",
+      "char": "keep",
+      "pos": "left",
+      "voiceid": "200100019"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "数百年前、クランプスの主人が\\行方不明になってからは\\チャイルド1人で活動しているようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "200100020"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "数百年もの間ずっと1人だなんて…\\そのチャイルドも苦労してるな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200100021"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "そうですね。ですが、心配は無用です。\\すぐに新しい御主人様ができますから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200100022"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そうか、それはよかった…\\って、おい！まさか？\\その<color=ff9900>《新しい御主人様》</color>って言うのは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "200100023"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "はい、お察しの通りです。\\クランプスが東京で目撃されたと情報が入りました。それでは、行ってみましょう。",
+      "char": "c002_01",
+      "voiceid": "200100024"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "はぁ～…\\苦労者同士、最高のパートナーになれそうだな。",
+      "char": "c000_01",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "200100025"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

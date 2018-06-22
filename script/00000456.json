@@ -2,257 +2,465 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悩みは尽きないが、最近俺の頭を\\特に悩ませているのは、イシュタルの態度が\\いつまでも冷たいっていうことだ。",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "御主人様！\\ここで何をなさっているのですか？",
+      "background": "bg030_f",
+      "bgm": "9",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あら、元気がないですねご主人さま。\\何か悩み事ですかぁ？",
-      "char": "c001_01",
+      "dialogue": "あ、リザ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ああ、モナか…いや、実は\\イシュタルの態度が冷たくてなぁ…",
-      "char": "c000_01",
+      "dialogue": "あ、って。\\どれだけ探し回ったことか…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "モナには色々話してくれますよ？",
-      "char": "c001_01",
+      "dialogue": "働きたくないからって\\こっそり逃げ出すのはやめてください。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そうなのか！？\\…じゃあ俺だけにあんな風に冷たいのか…",
+      "dialogue": "何言ってんだ。\\逃げたわけじゃない、追い出されたんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら♥\\イシュタルに何かイケナイ悪戯でも\\しちゃったんですか？",
-      "char": "c001_01",
+      "dialogue": "追い出された？\\まさか、またダビにやられたのですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "近付くことも許されないのに！？\\それより「イケないこと」って何だよ！\\いきなり変なこと言うな！",
+      "dialogue": "誰があんなガキに…！\\ダビじゃなくて、ゲニウスだよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
       "facial": "confused"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ご主人さまったら顔が赤いですよ♥\\どんなことを考えたんですか？",
-      "char": "c001_01",
+      "dialogue": "ゲニウスですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…フン。私がいないとでも思ったのか？\\コソコソ陰口とはいい身分だ。",
-      "char": "c164_01",
+      "dialogue": "ああ。\\アイツが俺に、邪魔になるから消えろって。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "イシュタル！？モナと一緒だったのか。\\いや、今のは陰口とかじゃなくて…",
-      "char": "c000_01",
+      "dialogue": "しかも俺の部屋からな。ハハ…ハハハハ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "haah"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…フン、そんなものどっちでもいい。\\お前が他人に私のことを相談するくらい悩んでるのは事実だろう。",
-      "char": "c164_01",
+      "dialogue": "意気消沈、という感じですか。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "12": {
       "type": "talk",
-      "dialogue": "なんだか、いつも以上に\\冷たいような…",
+      "dialogue": "何だって？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あら、なるほど♥\\それじゃあ、邪魔者は消えますね♥\\あとは若い者同士で♥",
-      "char": "c001_01",
+      "dialogue": "ゴホン！それで、出て行けと言われたから\\本当に出て来たのですか？\\チャイルドのせいで？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "おい、モナ！どこ行くんだ！？",
+      "dialogue": "そんな哀れな目で俺を見るな。\\芸術家は初めてなんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…邪魔者、なんて…\\そ、そんなんじゃない…",
-      "char": "c164_01",
+      "dialogue": "あんな自分勝手で気難しい奴、\\どうやって手なずけろっていうんだよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "なぜかイシュタルの方が、\\モナの言葉に動揺しているようだった。",
+      "dialogue": "まったく、御主人様は私がいないと\\箸ひとつ持てないんですから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…箸は持てるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ついて来てください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ゲニウス！",
+      "background": "bg086_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "angry"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "何！",
+      "char": "c130_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "キャッ…じゃなくて…\\雰囲気にやられてる場合ではありません。\\今すぐ御主人様の部屋から出て行ってください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "チャイルドはチャイルドらしく従いなさい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "何、このニボシみたいなヤツ…",
+      "bgm": "12",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "に、ニボシ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ぷはっ！あ、ごめん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "とにかく、ここは御主人様の部屋ですから\\出て行ってください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "騒がしくするくらいなら2人とも\\出てってちょうだい。\\今の私はとーっても敏感なの！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "一体何をして…楽譜ですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "触らないで！この野蛮人！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "やばん…ニボシな上に野蛮人…！\\今、私に野蛮人と言ったのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "私の神聖な楽譜をその汚らわしい手で\\触れようとするなんて野蛮人極まりないわ！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "汚らわ…そこまで言われる筋合いはありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "申し訳ないですが、\\私は立派な教育を受けた知性ある者です。\\野蛮人の「や」の字も知りません！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "うるさい！アンタの声、聞き飽きた！\\騒音よ！迷惑よ！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "悪魔！今すぐそのやかましい女を引っ張り出して！\\作業に集中できないでしょ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "リザ、どう見てもお前の負けだ。\\諦めてもう行こう。あいつは誰にも止められない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "そういう訳にはいきません。\\サキュバスの面目も…ん？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "お、お前何をして…その汚らわしい足をどかせ！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "shake"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あ、これはミスで…\\楽譜を踏んだのはわざとではありま…\\きゃっ！私の頭！頭が！きゃあ！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake",
+      "after_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ゲニウスは怒りを抑えきれず、リザの頭を引っ張り",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "17": {
+    "42": {
       "type": "talk",
-      "dialogue": "ったく、モナのヤツ…\\それより、ここに何しに来たんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…フン。お前に言う必要はない。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あー…やっぱりそうか…\\わかった、じゃあ俺は新しい契約者を\\探しに行くから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "待て、仕方ないから私が遊んでやる。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…え？遊ぶ…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "お前が弱いから、仕方ないから私が鍛えてやる\\ということだ！は、反省しろ！",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ご、ごめんなさい…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "あと、近すぎる。\\お前が近くにいると体温が上昇する。\\特に頬が熱く、頭がぼーっとし、動悸が早くなる。\\可及的速やかに離れろ。50メートル以上。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "俺が傍にいるだけでそんな異常が！？\\それより、50メートル以上離れてなくちゃ\\いけないのに鍛えるって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "…フン、うるさい。とにかく離れろ。\\活動に支障をきたす…熱い…早く！息が、苦しいの…",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "息まで苦しいらしい。よく見ると、目も潤んでいる。とにかく、離れればよくなるっていうなら\\離れてやろう。",
+      "dialogue": "リザも負けじとゲニウスの頭を掴んだ。",
       "char": "none",
-      "speaker": "none"
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "28": {
+    "43": {
       "type": "talk",
-      "dialogue": "はあ…しかし50メートルも離れろなんて無茶だよ。\\そんなにこの家はスペースがない…",
+      "dialogue": "わっ！離せ！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "…なんだよ、コレ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "serious"
     },
-    "29": {
+    "45": {
       "type": "talk",
-      "dialogue": "よし、離れてくれたおかげで少し落ち着いた…\\念のため3メートルをキープするように。",
-      "char": "c164_01",
+      "dialogue": "あら、ご主人さまの部屋から声がすると思ったら",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
-    "30": {
+    "46": {
       "type": "talk",
-      "dialogue": "前は1メートルだったのに…\\俺のことがもっと嫌いになった？\\理由さえ言ってくれれば改善するぞ…？",
-      "char": "c000_01",
+      "dialogue": "こんな面白いことが起こっていたなんて♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near"
     },
-    "31": {
+    "47": {
       "type": "talk",
-      "dialogue": "…フン。うるさい。\\…お前のせいではない。\\だから、距離は保持しつづけてくれ。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ん？俺のせいじゃないって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "…そう。いいから、もう話しかけるな。\\また熱くなるから…",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "やっぱり前より冷たくなったよな…\\ああ、訳がわからないよ！\\これが思春期ってやつなのか…！？",
+      "dialogue": "面白い？女同士で頭を掴み合って\\ケンカしてるのが面白いってのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "confused"
     },
-    "35": {
+    "48": {
+      "type": "talk",
+      "dialogue": "わかりませんか？\\どこに行っても一番面白いのは、\\他人の不幸とケンカ見物ですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "しかもリザが頭を掴んでのケンカなんて。\\こんなのもう一生見られないかもしれませんよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "そ、それもそうだな。\\それじゃ…止めないでおこうか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "うふふ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "手を離せ、サキュバス！！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "loop_ani": "attack"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "あなたこそ離しなさい！ニボシ女！！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry",
+      "loop_ani": "attack"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "なんですってー！こうなったらアナタを殺して\\私も死んでやるわ！うわあああっ！",
+      "char": "c130_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "shy",
+      "screen_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "55": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "normal",
+      "fade_out": "longest",
       "wait": "normal",
       "fade_in": "normal"
     }

@@ -2,12 +2,117 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "やっと外に出てくれましたね♥\\さっそく<color=ff9900>ストーリー</color>へ行ってみましょう！",
-      "background": "back_dim50",
-      "char": "c255_01",
+      "dialogue": "ねぇ！\\お願いだから、トリを捕まえるの、手伝ってよ！！",
+      "background": "bg036_f",
+      "bgm": "20",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ダダをこねるなって…\\さっきだって、俺達が手を貸さなきゃ危なかったろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "それに、トリも迷惑してたぞ？もう、諦めろって…\\ホラ、行くぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "うううぅ…っ！待って！",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ボクのコレクションを、何でもいいからあげる！\\だから、トリを捕まえるのを手伝ってよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "正直、ちょっと驚いた。\\エルメスが心底大事にしてるコレクションを譲るなんてこと、まず考えられないからだ。",
+      "char": "none",
       "speaker": "none",
-      "one_ani": "attack",
-      "voiceid": "900101001"
+      "screen_effect": "dark"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "おまけに「何でもいいから」と来た。\\つまりそれぐらい本気であのトリを欲しがってるということだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…はぁ、分かった。手伝ってやるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ホント！？",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ああ。その代わり、\\さっきみたいな勝手な行動はなしだ。\\わかったな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "うんっ！うんっ！\\ありがとう！",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "はぁ…\\本当に、御主人様はチャイルドに甘すぎます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "irritation"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "なんか、いい話っぽくなってるけど、\\やろうとしてることは誘拐と大差ないって思うのは\\ダビだけなの～？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふふ、それで全然かまわないんじゃない？\\とっても悪魔的だし♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
     }
   }
 }

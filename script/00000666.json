@@ -2,305 +2,204 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "男なんてみんな同じ。\\今度は人妻に手をかけたのよ。",
-      "background": "bg036_f",
-      "bgm": "9",
-      "char": "c008_00",
+      "dialogue": "こんにちは…ご主人サマ。\\この前のこと、考えておいてくれた？",
+      "background": "bg092_f",
+      "bgm": "19",
+      "char": "c198_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "サイテーね。\\そんな奴らは骨の髄まで苦しめばいいわ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "……",
+      "dialogue": "この前のこと？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious"
     },
-    "4": {
+    "3": {
       "type": "talk",
-      "dialogue": "あなたも気を付けてね。\\《女の恨みを買ったら\\一生もの》\\って言葉あるでしょ。",
-      "char": "c008_00",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "は、はいっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake_weak"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "と、ところで、こんな話をするために\\俺を呼んだのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "あいつ、どこにいるの？",
-      "char": "c008_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "何だよ、急に。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "全部聞いたわ。元カレに会ったんでしょ！",
-      "char": "c008_00",
+      "dialogue": "ふふ…とぼけちゃって…\\呼び方の話よ。",
+      "char": "c198_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near",
-      "one_ani": "attack"
+      "before_effect": "shake_weak"
     },
-    "10": {
+    "4": {
       "type": "talk",
-      "dialogue": "お前の元カレに会うわけないだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "何慌ててるの？会ったんでしょ？",
-      "char": "c008_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あ、会ってない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ごまかさないで！\\信頼できる情報通から聞いた話だから。",
-      "char": "c008_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "信頼できる情報通？何だ、それ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "あるのよ。あいつを捕まえるには\\情報通くらいはいないとね。",
-      "char": "c008_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "この女はフリーガの契約者だ。\\詐欺師である元カレが夜逃げしたせいで",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "元カレが残した借金取りに\\追われている悲運の女性だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "元カレを捕まえるため全国を駆け巡り\\この街に流れ込んできた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "お、俺には分からない。\\虎みたいな目をしたお前が監視してるのに。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "恐ろしくて出てこれやしない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "分かったわ…今回は見逃してあげる。",
-      "char": "c008_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "でも次も騙したら、二人とも命はないからね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "騙すも何も、隠し事なんてしてない！",
+      "dialogue": "…ああ、他の奴らはチャイルドって呼んで、\\お前だけ名前で呼べって話か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "24": {
+    "5": {
       "type": "talk",
-      "dialogue": "ふん！",
-      "char": "c008_00",
+      "dialogue": "ご名答。\\いい考えでしょう？ ご主人サマ。",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "どーだろうな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "mvd_post_effect": "none"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "はあ…またはぐらかすの？\\…酷いわ。",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "絶対に苦労させないよ…って、\\囁いてくれたあの言葉は、\\やっぱりウソだったのね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ウソも何も、そこまで言った覚えないんだけど…\\それに、そもそも名前を呼ぶのは\\お前だけにしろって、どんな頼みだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "そんなことしたら、不便だろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "じゃあ、みんなにはあだ名でもつけましょうよ。\\そうすれば、不便じゃないでしょう？",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "メス豚、ゴミ、廃棄物、クズ…等々。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "明確でわかりやすい言葉って、\\たくさんあるじゃない？\\名前より、きっとそっちの方が便利よ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "悪魔よりも恐ろしい女だ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "<b>ご主人様！</b>",
-      "char": "m150_01",
-      "speaker": "same",
-      "pos": "left",
       "distance": "near"
     },
-    "27": {
+    "14": {
       "type": "talk",
-      "dialogue": "うわっ！",
-      "char": "c000_01",
+      "dialogue": "あだ名の内容が問題だけどな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "あら、どこか問題だった？\\残念だわあ…",
+      "char": "c198_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right"
     },
-    "28": {
+    "16": {
       "type": "talk",
-      "dialogue": "踏みつぶされるところだった！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "へへ、ご主人様！僕、退屈！遊んで！",
-      "char": "m150_01",
-      "speaker": "same"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "分かったから…俺の上から降りてくれ…",
+      "dialogue": "残念だと思ってるのは、たぶんお前だけだ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "31": {
+    "17": {
       "type": "talk",
-      "dialogue": "フリーガの契約者…自分の元カレが俺と契約して",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "しかもその結果がこの可愛らしい\\モンスターだなんて、夢にも思ってないだろうな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "さっきの怖い女の人…\\僕の契約者のこと嫌いなんでしょう？",
-      "char": "m150_01",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "あ、全部見てたのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "うん…どうしてかな。\\契約者はあの人のこと、好きなのに…",
-      "char": "m150_01",
+      "dialogue": "ふふ、ご主人サマってば、素直じゃないんだから。\\私ほど、ご主人サマに忠実な存在はいないのよ？",
+      "char": "c198_01",
       "speaker": "same",
       "pos": "right"
     },
-    "36": {
+    "18": {
       "type": "talk",
-      "dialogue": "詐欺師を好きになる女なんているもんか。\\自分に借金残して逃げた男なんて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "今は自分の過ちを後悔してるよ！\\それに、あそこで女の人をずっと見てたんだ。",
-      "char": "m150_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ヘヘ、なんかロマンチックじゃない？",
+      "dialogue": "当然、特別扱いしてもらわないと。\\私はご主人サマの、大事な懐刀なんだから…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
-    "39": {
+    "19": {
       "type": "talk",
-      "dialogue": "契約者がこの街に？\\はあ…しばらく騒がしくなりそうだ。",
+      "dialogue": "ぶ、物騒だな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "haah"
     },
-    "40": {
+    "20": {
       "type": "talk",
-      "dialogue": "ま、それも愛の証ってやつか…",
+      "dialogue": "ゼロス、お前の気持ちは嬉しいけど、\\だからって、お前だけを特別扱いするわけには\\いかないんだ。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "41": {
+    "21": {
+      "type": "talk",
+      "dialogue": "わかってくれないか？\\お前にだけ、危険な役目を押し付けられないしな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…ふふ。ご主人サマにそう言われたら、\\わからないとは言えないわ…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "惚れ直しちゃった…\\私の契約者も、\\きっと同じ気持ちだったんでしょうね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ん？何か言ったか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "…何でもないわ。\\今晩のお散歩は、\\この辺りで終わりにしましょう…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…惚れ直しはしたけど、特に収穫はなかったし…\\少しがっかりね。\\帰ったら、みんなをいじめようかしら…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

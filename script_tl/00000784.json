@@ -1,134 +1,421 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "……",
-      "background": "bg050_f",
-      "bgm": "17",
-      "char": "m126_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "bg188_f",
+      "bgm": "26",
+      "fade_in": "shorter",
+      "hold": "shortest"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何を考えてるんだ？",
-      "char": "c000_01",
+      "dialogue": "ふふ…ふふふ…うふふふ！\\悪魔たちがいっぱいね～\\本当にこれから魔王争奪戦が始まるのね！\\うふふふ～",
+      "bgm": "26",
+      "char": "c324_01",
       "speaker": "same",
-      "pos": "left"
+      "before_effect": "enter_from_left_fast"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…前の主人のことを考えていた。",
-      "char": "m126_01",
+      "dialogue": "あら、勝手に笑いが出てきちゃう…\\だめよ、モナ。気を引き締めていかないと！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "before_effect": "shake_weak"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ウォッチャーの主人って…どんな悪魔だったんだ？",
-      "char": "c000_01",
+      "dialogue": "おい！",
+      "char": "c215_00",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near"
     },
     "5": {
       "type": "talk",
-      "dialogue": "賢くて、公平な悪魔だった。\\自分の仕事を大切に考える者だった。",
-      "char": "m126_01",
+      "dialogue": "きゃあ！",
+      "char": "c324_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "before_effect": "shake",
+      "screen_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "自分の仕事？",
-      "char": "c000_01",
+      "dialogue": "お前、ボケっと突っ立って何してる？\\通行の邪魔……\\何だ、お前…サポーター？",
+      "char": "c215_00",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "魔界を脅かす者たちを審判する仕事だ。",
-      "char": "m126_01",
+      "dialogue": "<color=999999>悪魔…？</color>\\<color=999999>侮られちゃダメ！自分を売り込まなきゃ…</color>",
+      "char": "c324_01",
       "speaker": "same",
-      "pos": "right"
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "今のお前の仕事じゃないか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "その方から引き継いだ。",
-      "char": "m126_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "へえ…それじゃ、その主人は？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "遠い昔のことだ。今は覚えていない。",
-      "char": "m126_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ひとつだけ…覚えていることがある。",
-      "char": "m126_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ご主人様が最後に言った言葉だ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "Tiqyemeniu ketabka. Ze qitson ketabi.",
+      "dialogue": "こんにちは、サポーターのモナと言いま～す！",
       "char": "keep",
       "speaker": "same",
       "distance": "near"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "サポーターのモナ？聞いた事ない。\\見たところ素人か？",
+      "char": "c215_00",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "し、素人じゃありません！\\れっきとしたサポーターです！",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そんな名前、聞いたことない。",
+      "char": "c215_00",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "お前、悪魔に仕えたこと、1回もないだろ？\\魔王争奪戦には参加したことあるか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そ、それは…\\でも、誰にでも初めてはありますよね？\\それにモナは優秀ですよ！だからモナを信じて一度…",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "面倒くさい…\\邪魔だから、どいて。",
+      "char": "c215_00",
+      "speaker": "same",
+      "pos": "center",
+      "after_effect": "go_to_left_point"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "あっ………",
+      "char": "c324_01",
+      "speaker": "same"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "ん…古代語はちょっと…さっぱりだな。",
-      "char": "c000_01",
+      "dialogue": "ふん！モナの実力に気が付かないなんて！！\\見た目でしか判断できない悪魔なんて、たかが知れてるわ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "before_effect": "shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そうなのか？残念だ。",
-      "char": "m126_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "私もアナタみたいな悪魔は願い下げよ！",
+      "char": "keep",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "もうこの言葉を記憶しているのは、\\俺しかいないようだな。",
+      "dialogue": "いけない…また冷静さを失っちゃった。\\う～ん…この性格は少し問題ね。",
       "char": "keep",
+      "speaker": "same",
+      "before_effect": "shake_weak"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "さあ～！\\それではモナのために魔王様になってくれる、格好いい悪魔を探しに行きましょうか！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "hold": "normal"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "bg188_f",
+      "bgm": "24",
+      "fade_in": "longer",
+      "hold": "shortest",
+      "char": "c050_02"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "サポーターのモナか…\\初耳だな。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "主人がまだ見つかってないのか？\\俺もサポーターが必要な立場だが…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "あれぐらいのサポーターなら腐るほどいるからな…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "bg218_f",
+      "bgm": "14",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "よっと…",
+      "char": "c324_01",
+      "speaker": "same",
+      "one_ani": "attack",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "う～ん…\\やっぱり、先に魔界でご主人さまを探して来た方がよかったかな？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そ、それにしても、人間界も大したことないわね。\\悪魔の代わりに人間達が住んでるだけでしょ？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "初めて来たけど、きっとすぐ慣れるはずだわ！\\はは！はは…は…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ところで…ここはどこ？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "う～ん…\\ここから東へ行くと悪魔たちが集まってるとレーダーに…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…東ってどっちかな？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "しょうがないわね。魅了術を使いましょうか…\\人間たちは弱いから、簡単に術にかかると思うし？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "道もわかって、契約用の人間も確保できて…\\ふふっ！一石二鳥ね♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "36": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "37": {
+      "type": "curtain",
+      "background": "bg218_f",
+      "fade_in": "normal",
+      "hold": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "こんにちは。そこの坊や♥\\よかったらモナに道を教えてくれないかな？",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "お前は…",
+      "char": "c050_02",
       "speaker": "same",
       "pos": "right"
     },
-    "19": {
+    "40": {
+      "type": "talk",
+      "dialogue": "モナに道をちょっと…",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "俺も初めての道だ。",
+      "char": "c050_02",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "だ、だからモナに道を…",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "道だけじゃなく、俺の言う事もわからないようだな。",
+      "char": "c050_02",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "な、何？どうして魅了術が…\\ええ？人間じゃなくて、もしかして…悪魔？",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dark"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "サポーターを名乗るものが気が付かないなんてな…",
+      "char": "c050_02",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "ち、違います！\\調子を合わせただけですよ、悪魔様！",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "まったく、何の調子だ…",
+      "char": "c050_02",
+      "speaker": "same"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "<color=999999>思い出した！</color>\\<color=999999>あの悪魔、《暴君オード》じゃない？</color>\\<color=999999>なんて幸運！</color>",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "<color=999999>有力な魔王候補生に出会えるなんて！</color>\\<color=999999>この機会を逃すわけにはいかない…</color>",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dark"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "こんにちは、オード様！\\私はサポーターのモナと言いま～す！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "それで？",
+      "char": "c050_02",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "え、え～と…\\私がオード様の魔王争奪戦をお手伝いして差し上げます！！",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "オード様を魔界史上、最も偉大な魔王にして…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "お前の手は必要ない。",
+      "char": "c050_02",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "…はい？",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "どいてくれるか？俺は忙しいんだ。",
+      "char": "c050_02",
+      "speaker": "same",
+      "pos": "center",
+      "after_effect": "go_to_left_point"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "あっ………",
+      "char": "c324_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "もうっ、何なのよ～！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "59": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

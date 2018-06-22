@@ -2,250 +2,171 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "<b>バカご主人！殺すよ！</b>",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c003_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "驚きです！今年1年生の加賀京介(かが きょうすけ)くん！",
+      "background": "bg090_f",
+      "bgm": "30",
+      "char": "none",
+      "speaker": "anchor"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そんなに怒ってほしいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "dialogue": "先輩たちを抜き中等部優勝を飾りました！",
+      "char": "none",
+      "speaker": "anchor"
     },
     "3": {
       "type": "talk",
-      "dialogue": "痛っ！またダビの頭にデコピンした！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
+      "dialogue": "俺が勝った…！俺が兄さんに勝った！",
+      "char": "c208_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前、殺すなんて言葉、どこで習った？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "全国大会で優勝した兄さんに…！\\いつも俺を苦しめていた兄さんに！",
+      "char": "c208_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "また遅くまで起きて\\大人のドラマを見てたんだろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "一発も当てる事が出来なかったヤツが…\\一体どこで訓練したんだ？",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ダビはドラマなんて見ないよ！\\ダビはバカご主人に怒ってるの！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "悪魔と契約でもしたのか？",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前はいつも俺に怒ってばかりだな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "まるで映画の主人公だ…！\\苦悩を乗り越え立ち上がったウッキーのように！",
+      "char": "c208_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "これからもっと、もーっと怒るから。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "はぁ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "10": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "あーっはっはっはっはー",
+      "background": "e048_01_f",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "loop_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "アイツ、さっきから何してんだ？",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "思春期の女の子ですから。\\一日に何十回も感情の起伏があるのは当然ですよ♥",
-      "background": "bg089_f",
-      "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "笑いながらさ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "12": {
       "type": "talk",
-      "dialogue": "こういう時に必要なのは父親の感性じゃないですか。許してあげてください♥",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "どうやら、ファイロの契約者だったあの少年が今日、全国大会で優勝したみたいですね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "13": {
       "type": "talk",
-      "dialogue": "父親に向かって殺してやるなんて言う娘は\\涙が枯れるまで叱らないとダメだ。",
-      "char": "c000_01",
+      "dialogue": "もう、朝から気合を入れるんだってうりゃ！おおお！って大変だったんですから…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "14": {
       "type": "talk",
-      "dialogue": "あら、怖い。",
-      "char": "c001_01",
+      "dialogue": "どうやら、ファイロの成長が\\契約者も成長させたみたいですね～♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ふん。",
-      "char": "c000_01",
+      "dialogue": "そうだ、これこそ俺の真の姿！\\もっと称えろ！この身に相応しい賛辞を！",
+      "background": "e048_01_f",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "normal",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "16": {
       "type": "talk",
-      "dialogue": "バカご主人発見！私のモナ姉さまと\\一緒にいるなんて、許さない！",
-      "bgm": "4",
-      "char": "c003_01",
+      "dialogue": "あの言葉遣いまでうつらないといいけど…",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "17": {
-      "type": "talk",
-      "dialogue": "ご主人を消しちゃおう！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "fury",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "またか？今回は絶対に…え？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "加賀京介君に受賞の心境を聞いてみたいと思います。",
+      "background": "bg090_f",
+      "char": "none",
+      "speaker": "anchor"
     },
     "19": {
       "type": "talk",
-      "dialogue": "<b>殺す！</b>",
-      "char": "m039_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "え？「あーっはっはっはっはー」ですか？ 「もっと称えろ！」ですか？",
+      "char": "none",
+      "speaker": "anchor"
     },
     "20": {
       "type": "talk",
-      "dialogue": "うわああああっ！？殺される！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "dialogue": "ハハ、すこし興奮しているようですね。\\なんと言いますか、無意識？とでも言いましょうか。心に響きます…",
+      "char": "none",
+      "speaker": "anchor"
     },
     "21": {
-      "type": "talk",
-      "dialogue": "ダビったら、騒がしい子と友達になったのねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "お、俺…リユガーに何かしたか？\\あ、謝ったら機嫌直るよな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ところで…何を謝るんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "怒る！壊す！殺す！",
-      "char": "m039_01",
-      "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ダビ、リユガーに何を教わったか\\モナにだけ教えてくれないかしら？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "うん、リユガーが言ってたよ。\\怒ったら気分が良くなるって。\\怒れないなら怒ればいいんだって！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "何だよ、その論理！\\それじゃ、怒ることもないのに\\わざと怒るってことか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "しかもよりによって俺に怒りをぶつけるのかよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ダビはご主人が嫌いだから！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "リユガー、怒る！壊す！",
-      "char": "m039_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ダビも怒る！全部壊す！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "壊すのも殺すのも我慢してくれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

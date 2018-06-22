@@ -2,234 +2,259 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "やはり、何も思い出せぬか…",
-      "background": "bg055_f",
-      "bgm": "25",
-      "char": "c267_01",
+      "dialogue": "このマヌケー！\\すっとこどっこい！",
+      "background": "bg113_f",
+      "bgm": "9",
+      "char": "c238_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "え～と…\\何が思い出せないのでしょうか…？",
+      "dialogue": "うわっ！？また始まった！\\今度は何だ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "フフッ、よそよそしいのぅ。\\初めて会った時のように楽に話せばよいではないか。",
-      "char": "c267_01",
+      "dialogue": "脳みそないの？その頭は飾りなの？\\マヌケにもほどがあるわ！プンスカ！",
+      "char": "c238_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "4": {
       "type": "talk",
-      "dialogue": "いや～そうおっしゃいましても、軽々しく話すのもどうかと…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "まあ、わらわにそう気を使うな。\\今更、王のような待遇など望んでおらぬ。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "あ～分かった。じゃあもう一度聞くけど、何を思い出そうとしていたんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "生前の記憶を思い出そうとしていた。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "わらわがファラオであり、遥か遠くのいにしえの砂漠から来たことは、はっきりと覚えている…\\だが、他のことはさっぱり思い出せんのだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "何が好きだったのか、どんな出来事があったのか…\\<b>悪魔</b>になる前は、どう暮らしていたのか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "紆余曲折の末、俺はクレオパトラと契約を結んだ。",
-      "char": "none",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "けど、長い間封印されていたせいか、クレオパトラの記憶の一部は消えてしまったらしい。",
-      "char": "none",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "それからというもの、毎日のように自分のことを思い出そうとしている。",
-      "char": "none",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ホントに何も思い出せないのか？なんで封印されることになったのか、いつ封印されたのか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "さてな…わらわを狙っていた曲者どもは数知れず。\\だから誰の仕業とは断定できぬ。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "わらわを恨む者も数えきれぬほどいた。\\きっとそのうちのひとりが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ま、そうだろうな。\\ファラオも楽じゃないってことか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ファラオ、か…\\そのファラオも名ばかり…",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "所詮は女にすぎぬと見下す輩の多いこと。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "目に見えるものすべてが敵と言っても、過言では\\なかった。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "それは…さすがに考えすぎじゃないか？\\あの時代のファラオって、神様みたいなもんだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "フフッ…そうだな。\\わらわが言うべきことではなかったな。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "そなたの言った通り、わらわはかつて神として崇められ君臨した。だがな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "このように変わった世の中を目のあたりにしてそう\\確言できる者がどれほどいるか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "今となっては笑い話も同然だ…フフッ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "すまぬ。単なる愚痴だ。\\そなたの慰めは要らぬ故、この辺にしておこう。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "とはいえ、\\そなたには緊張感というものがなさすぎる…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "緊張感！？今度は何を言い出すんだ？",
+      "dialogue": "お、俺が何をしたって言うんですか、先輩！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "nonsense",
       "before_effect": "shake"
     },
-    "29": {
+    "5": {
       "type": "talk",
-      "dialogue": "わらわは、いつかそなたを裏切り、魔王候補になるつもりでおるのだぞ？",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…あ、いたの？ごめん～\\特に何もないんだけどね。\\ただちょっとイライラして…\\思い出し怒りみたいなもん？",
+      "char": "c238_01",
+      "speaker": "same"
     },
-    "30": {
+    "6": {
       "type": "talk",
-      "dialogue": "少しは警戒するべきではないのか？",
+      "dialogue": "それにしても、あんたの顔見てると、\\こうモヤモヤっとしてきて、イライラっと…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
-    "31": {
+    "7": {
       "type": "talk",
-      "dialogue": "だから、こないだも言っただろ！\\俺は魔王を目指してるわけじゃないからな！",
+      "dialogue": "はあ。そういう顔ですいませんね…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair",
+      "facial": "unfair"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それに、何かにつけてすぐ謝る態度！\\それも気に入らないわ。",
+      "char": "c238_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "生まれてきてスミマセンでしたっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "メブ姐さんは、《ハロウィン応援団》として\\人間界にやってきた悪魔の大先輩だ。",
+      "background": "bg109_f",
+      "char": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "本人曰く、\\諸事情につき魔王争奪戦に参加しなかったそうだ。",
+      "char": "none",
+      "screen_effect": "dark"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あのね。ルシフェロの奴が千年早く引退してたら\\あんたみたいな半端な悪魔はとっくに脱落してたわ。",
+      "char": "c238_01",
+      "speaker": "same"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "このメブ様の手によってね！\\おほほっ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "は、はいいっ！多分、そうでしょうね！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
       "before_effect": "shake"
     },
+    "16": {
+      "type": "talk",
+      "dialogue": "魔界の女性で一番腕っぷしが強いメブ姐さんに\\かかったら、まったく大げさな話ではない。\\俺なんか豆腐みたいに握りつぶされてしまうだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "しかし腕っぷしの話はタブーだ。\\どうやら姐さんは可愛い女の子として扱われたいみたいだからな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "このドアホウが～！",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "わっ！お、俺は何も言ってないっすよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "shake_weak"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "私の腕っぷしが強いって顔してたわよ！\\それよりねえ、これくらいでそんな驚いていたら…",
+      "char": "c238_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦なんて途中で弾き飛ばされるわよ！\\…もしかして、このメブ様の《教育》が足りないとでも言うんじゃないでしょうね？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "きょ、教育…？\\そんなの、いつ受けましたっけ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "なぁにぃ？\\何か言ったかしら～？",
+      "char": "c238_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ひええっ…\\な、何も言ってません！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ふん！\\流行りのスイーツショップに行った帰りに\\ちょっと寄っただけなのに。\\そんなじゃ放っておけなくなるわね。",
+      "char": "c238_01",
+      "speaker": "same"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "さて、どこから鍛えようかなぁ～っと。\\腕も細いし、度胸もないし、頭も…\\ふう、気が遠くなりそうねぇ…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "サポーターの苦労が目に浮かぶわ…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "何か言うことは？",
+      "char": "c238_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "は、はいっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake_weak",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あら。いいわね、その返事。一番気に入ったわ♥\\これからも、気合入れてついて来なさいよぉ！",
+      "char": "c238_01",
+      "speaker": "same"
+    },
     "32": {
+      "type": "talk",
+      "dialogue": "これからも…？\\あ、あのいつまでいらっしゃるつもりです…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "さあ。少なくともあんたが自立して\\自分で歩けるようになるまでかしら？",
+      "char": "c238_01",
+      "speaker": "same"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

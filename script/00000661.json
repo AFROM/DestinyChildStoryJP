@@ -2,298 +2,349 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "何だよ、コレ！",
-      "background": "bg086_f",
-      "bgm": "9",
+      "dialogue": "ん？なんか足元で何かが、\\俺の足の匂いを嗅いでいるような…",
+      "background": "bg068_f",
+      "bgm": "17",
       "char": "c000_01",
       "speaker": "same",
-      "facial": "confused"
+      "facial": "idle"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ささ、お兄さん！ずっと待ってたよー",
-      "char": "c225_01",
+      "dialogue": "「ような」ではなく、\\実際に匂いを嗅がれています。\\…ライオンのようですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "な、なんだこれ？",
+      "dialogue": "ライオンって言うと…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "《ルドルフ、オマエの仕業か？》って言いたいん\\でしょー？",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "テロン！テロン！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "far"
     },
     "5": {
       "type": "talk",
-      "dialogue": "はあ…名前がルドルフだからって\\自分のことを本物のルドルフだって勘違いしてるみたいだけど、",
+      "dialogue": "やっぱり…\\あの子のライオンか。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "オマエはチャイルドだ。悪魔に従う存在なんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "俺は、遠くから駆け寄ってくる、\\キュベレーの契約者を見つけ呟いた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "悪魔の部屋に\\クリスマスの飾りつけなんて、\\一体何を考えてるんだ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ソーリー！ごめん！\\ビックリ？\\でも、テロン、ヒト、噛まない！安心、する！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "クリスマスツリーはもちろん、壁と天井は\\可愛らしい飾りでいっぱいだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "知ってるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そんな神経質にならないでよー\\お兄さんの言う通り、僕はチャイルドだけど、\\これ見て。",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "俺の足を丹念に舐めている様は、\\まるで味見をしているように見えるけど、\\気が付かないフリをする。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "こうやってルドルフの真似もできるしー",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "テロン、知ってる？\\あれ？どこか、会った？",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "《クリスマスこそ悪魔たちの祭典》知らない？",
-      "char": "keep",
+      "dialogue": "会ったことがあるかと聞いているようですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "知らない、そんなの。",
+      "dialogue": "いや、初めてだけど？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "じゃじゃーん！頼まれたの持ってきたよ！",
-      "char": "c246_01",
-      "speaker": "same",
+      "dialogue": "でも、テロン、噛まない。\\ユー、知ってる。\\なんで？",
+      "char": "c195_00",
+      "speaker": "same_full",
       "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "one_ani": "attack"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "サンキュー！",
-      "char": "c225_01",
+      "dialogue": "自分のライオンが人を噛まないことを、\\なぜ知っているのかと聞いています。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "クランプスまで…",
+      "dialogue": "…通訳ありがとう。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "クランプスはクリスマスの装飾がいっぱい詰まった\\箱を持ってニコニコ笑っている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "なんとなく、かな…\\俺、昔からネコ科の動物とは、仲がいいんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "この星はどこにつけようか？",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "当然、クリスマスツリーのてっぺんだよ。\\あ、お兄さんがつけてくれる？",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "俺を巻き込むな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "どうしたの？",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "悪魔とクリスマスって矛盾してる？",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "想像力が足りないよ。\\クリスマスこそ悪魔の…",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "さっきルドルフが言った！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "いい方に考えてよ。クリスマスのおかげで\\こうして食べていける悪魔もいるんだから♥",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ニセルドルフに、ニセクリスマスの妖精のことだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ニセサンタがいれば完璧だねー！",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ここに有力候補が一人いるけどね♥",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "それならオマエの前の主人に頼め！\\俺は正真正銘ただの悪魔だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "私の前のご主人様は既に正気よ。",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "今も外でサンタの格好して\\純粋な子供たちを驚かせているみたいだけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それより…\\お兄さんは正真正銘ただの悪魔じゃないでしょー？\\噂によると、人間っぽい悪魔だって聞いたけど。",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "俺をいじめたいだけだろ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "あ、アレも持ってきた？",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "もちろんっ！",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "と言い、クランプスが取り出したのは\\真っ赤なサンタクロースの服とヒゲだった…",
+      "dialogue": "この子に初めて会った時も、\\こんな話をした。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "36": {
+    "18": {
       "type": "talk",
-      "dialogue": "絶対に着ないぞ！死んでも着るもんか！",
+      "dialogue": "ライオンが俺の匂いをたどって、\\擦り寄ってきたところで、\\追いかけてきたこの子と出会った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "友達と遊んでいたのかい？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "イエス！テロン、トモダチ！\\オニーサン、いっしょ、あそぼ！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "テロンが友達だと言っています。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…そ、それぐらいわかるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "テロン、怖い？",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "怖いかって？\\いや、こんな小さかったら、\\怖くはないけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "成長しきったキュベレーのテロンに比べれば、\\こんなちっこいのは子猫みたいなもんだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "サンキュー！\\…マイアンクル、怖がる。\\テロン、こんなに、優しいのに…",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "彼女のおじさんは、\\テロンを怖がっているようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "その反対かもな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "はい？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "お前が、おじさんを怖がっている。\\それがテロンに伝わってるのかもしれないな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "うーん…怖く、ない。\\でも、アフリカ、帰りたい。\\だけど、トモダチできたから、へいき。",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "テロン以外の友達ができたってこと？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "うん。そのヒト、\\インマイドリーム…夜、寝る。\\夢、会いに来てくれる…",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "夢の中で出会った友達？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "She has a big lion！\\カワイイ。カッコイイ！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "はは、そうか。\\あいつら、\\この子の夢にお邪魔してるってわけか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "37": {
       "type": "talk",
-      "dialogue": "はあ、久々に力を使ってみよっかな。",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "こちょこちょこちょ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ひっ！うわっ！や、やめっ！くすぐったいだろ！！",
+      "dialogue": "それじゃ、今は寂しくない？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "うん。ダイジョーブ！\\オジサンとも、仲良くなれるように、\\がんばる！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そっか、頑張れ。\\お前の友達もきっと頑張ってるからさ。\\負けないようにしないとな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "40": {
       "type": "talk",
-      "dialogue": "もっとポジティブに考えよー\\サンタの格好さえすれば、それっぽくなるって。",
-      "char": "c225_01",
+      "dialogue": "誠に言い難いのですが…\\テロンが思いっきり御主人様の、\\お尻に噛みついてます。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "41": {
+      "type": "talk",
+      "dialogue": "う、ううう、うん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "きゃあ！テロン！\\ノー！ダメ！ストップ！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "ある意味、頑張るのは俺の方か…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

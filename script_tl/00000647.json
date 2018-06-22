@@ -2,354 +2,326 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あれ？おかしいな。扉が…",
-      "background": "bg095_f",
+      "dialogue": "ユーナ、俺に話すことないか？",
+      "background": "bg086_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "confused"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "どうかされましたか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "鍵が開いてるんだよ。っと…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "idle"
     },
-    "4": {
+    "2": {
       "type": "talk",
-      "dialogue": "うわっ！なんだ、この部屋のありさまは…！",
-      "char": "keep",
+      "dialogue": "…それ、どういう意味？",
+      "char": "c172_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "俺に言いたいことがあるんじゃないかと思って。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "distance": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "最近、コイツはよく\\不審な行動をする。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "これはひどい…\\本当に鍵はかけていたんですよね？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "穴が空くくらい俺を見つめたと思ったら\\首をかしげたりもする。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ああ、もちろん。\\それにワーウルフが留守番してたはずだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "まるで、不思議な動物でも観察しているかのような\\眼差しで気分がすぐれない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "でも、ワーウルフはいませんね。",
-      "char": "c002_01",
+      "dialogue": "言いたいことがあるなら言ってくれ。\\変な目で俺を見るな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "モナは契約者を連れてくると言って出かけましたし、ダビはモナについて行きましたし…",
-      "char": "keep",
+      "dialogue": "あ…そのこと。\\それ、坊やの勘違いよ。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "誰もいなかったってことか？！",
+      "dialogue": "どういう意味だ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そのようですね。",
-      "char": "c002_01",
+      "dialogue": "言いたいことがあるのは確かだけど\\坊やに言いたいわけじゃないの。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "それで泥棒に入られたのか…\\おかげで部屋がグチャグチャだ！",
+      "dialogue": "じゃあ、誰に…？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "unfair",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "怪訝な表情をすると、ユーナは静かに笑い\\俺の後ろを指さした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "13": {
       "type": "talk",
-      "dialogue": "片づけるのが大変ですね。",
-      "background": "bg086_f",
-      "char": "c002_01",
+      "dialogue": "俺の後ろに何が…ひいっ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "14": {
       "type": "talk",
-      "dialogue": "のんきなこと言ってないで、何か盗られた物がないか確認してくれよ…",
-      "char": "c000_01",
+      "dialogue": "モルガナよ。ハロー。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "center",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ご心配なく。プロの泥棒でも、この家から金目の物を探し出せるはずはありません。",
-      "char": "c002_01",
+      "dialogue": "……",
+      "char": "c178_01",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "none"
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "確かにうちに金目の物はないけど…",
+      "dialogue": "じゃあ、今の今までモルガナが\\俺の後ろをぞろぞろついて来たってわけか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "何が盗られるか分からないだろ！？",
+      "dialogue": "ユーナ、ひょっとしてお前、\\モルガナを見てたのか？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "大事な物が何かなんて、人それぞれなんだからな。",
-      "char": "keep",
+      "dialogue": "そうよ。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "center",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "そうかもしれませんが、これだけ何もなかったら、\\むしろ泥棒のほうがかわいそうです。",
-      "char": "c002_01",
+      "dialogue": "全然気づかなかった。蜃気楼だからか…\\何があったか知らないけど、\\用があるなら声をかけてくれ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "代わりに良い物を置いていこうと思うレベルです。",
+      "dialogue": "幽霊じゃあるまいし。ユーナがいなかったら\\ずっと気づかないままだった。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "悪かったな！こんな貧乏な家に住ませて…",
-      "char": "c000_01",
+      "dialogue": "そうね、ユーナがいなかったら…",
+      "char": "c178_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "問題ありません。食べては行けますので。\\それでは、ワーウルフを探しに行きましょう。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "あ、そういえば…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うう…ワーウルフを探して文句言ってやる！",
+      "dialogue": "お前、どうやってモルガナを見つけたんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair"
+      "distance": "normal"
     },
     "24": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "え？ただ…見えただけだけど…",
+      "char": "c172_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "今日は、月が綺麗だ。\\だから、ワーウルフは絶対この近くにいる！",
-      "background": "bg024_f",
+      "dialogue": "お前さ、それがどれだけすごい能力か知ってるか？\\こいつを見つけられるなんて。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "確かに綺麗な月夜ですね…\\これは、ワーウルフが好みそうです。",
-      "char": "c002_01",
+      "dialogue": "チャイルドの中にはモルガナの存在すら\\知らないヤツもいるのに。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "安易な発想ですが…",
-      "char": "keep",
+      "dialogue": "まさか。こんなによく目につくのに。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
+      "pos": "center",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ハハハッ、正解で～す。ここだよ～",
-      "char": "c216_01",
+      "dialogue": "目につく…？",
+      "char": "c178_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "あ、ワーウルフ！おまえな～探したんだぞ！\\留守番してたんじゃないのかよ！？",
-      "char": "c000_01",
+      "dialogue": "こんなにキラキラして笑顔の美しいチャイルドが\\目につかないわけないじゃない。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "center",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "御主人様の安易な発想でも、見つかるものですね。",
-      "char": "c002_01",
+      "dialogue": "そんな簡単に言われても…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "31": {
       "type": "talk",
-      "dialogue": "リザ、バカにしてるのか？",
-      "char": "c000_01",
+      "dialogue": "ま、いいだろ。モルガナ、\\なんで俺の後をついてくるんだ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal",
+      "facial": "idle"
     },
     "32": {
       "type": "talk",
-      "dialogue": "探しに来てくれてありがと～\\ニャンコちゃんに、ごほうびあげなくっちゃね～",
-      "char": "c216_01",
+      "dialogue": "あら？《モルガナを従わせてやるー》\\なんて近所中に言いまわってたくせに…",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "お前が留守番をサボったから、家に泥棒が入ったんだぞ！",
+      "dialogue": "う、うるさい。俺の味方だろ？\\とにかく、どうして俺の後をつけるんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "distance": "normal"
     },
     "34": {
       "type": "talk",
-      "dialogue": "どうしてくれるんだよ！番犬もできない狼め！",
-      "char": "keep",
+      "dialogue": "それは…秘密。",
+      "char": "c178_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "35": {
       "type": "talk",
-      "dialogue": "あんな家、泥棒に入ったって盗む物ないよ～？",
-      "char": "c216_01",
+      "dialogue": "うう…お前、芸能人にでもなったつもりか？\\あれ？また消えやがった。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "36": {
       "type": "talk",
-      "dialogue": "それに、そんなの盗みに入られるヤツが悪いんだよ～",
-      "char": "keep",
+      "dialogue": "私…分かる気がする。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "37": {
       "type": "talk",
-      "dialogue": "俺のせいか！？",
+      "dialogue": "？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "distance": "normal"
     },
     "38": {
       "type": "talk",
-      "dialogue": "盗みに入るヤツの方が絶対悪いだろ！",
-      "char": "keep",
+      "dialogue": "坊やの目には見えないかもしれないけど\\アナタを見るモルガナの目はキラキラ輝いてたわ。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "center",
+      "distance": "normal"
     },
     "39": {
       "type": "talk",
-      "dialogue": "自分の身は自分で守るしかないということですね。",
-      "char": "c002_01",
+      "dialogue": "生まれて初めて花を見た子供のような眼差し？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "40": {
       "type": "talk",
-      "dialogue": "そんな理屈で済むかよ？世知辛い世の中だな…",
+      "dialogue": "…何だそれ。結局は俺を監視してたってことだろ？\\ホント、分かるようで分からないヤツだ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "41": {
-      "type": "talk",
-      "dialogue": "仕方ないよ～だって悪いことって楽しいもん！",
-      "char": "c216_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "ついつい、やってみたくなっちゃうからね～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "楽しそうに言うなっ！\\はぁ…こういうヤツがいるから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "世の中、強くなければ生き残れません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "そんな世界、生き残れる気がしないよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

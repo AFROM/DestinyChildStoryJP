@@ -2,9 +2,71 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "基本的にメンバーは<color=\"ff9900\">画面中央</color>の敵を攻撃します。\\攻撃対象は<color=\"ff9900\">モンスター側の攻撃時</color>か<color=\"ff9900\">スキルの効果</color>よって変更されます。",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "はぁ～あてもなく彷徨う人生！\\そろそろ定住した~い！\\こんなに一生懸命に生きてるんだから、\\幸せになってもいいでしょ？",
+      "background": "bg061_f",
+      "bgm": "none",
+      "char": "c153_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400401001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "どう思う？悪魔さん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "400401002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "案外楽しそうに見えるけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile",
+      "voiceid": "400401003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "はっはっはっ！\\それは、ボクが根っからの<color=CC66FF>冒険家</color>だからだね！",
+      "char": "c153_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400401004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そうだ！\\暇そうなチャイルドがいたら、\\遠くに送ってみるといい。\\可愛い子には旅をさせろって言うだろう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400401005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "それに、運が良ければ\\<color=CC66FF>特別な宝物</color>が見つかるかもしれない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "voiceid": "400401006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "今、行ける場所は…この地図の1番のところだね。\\見どころの多いところだから、\\一度行ってみるといい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400401007"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

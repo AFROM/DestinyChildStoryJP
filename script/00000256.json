@@ -2,265 +2,256 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お疲れ様です、ご主人さま♥",
-      "background": "dungeon_bg",
+      "dialogue": "ご主人さま！",
+      "background": "bg089_f",
       "bgm": "9",
       "char": "c001_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "teach",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お前もな、モナ。\\エリスもよくやった。",
+      "dialogue": "え…なに？\\なんで怒ってんの？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "nonsense",
+      "before_effect": "enter_from_left_fast",
+      "after_effect": "shake_weak"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ん…",
-      "char": "c019_01",
+      "dialogue": "いつまで、のんびりしているつもりですか？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "teach",
+      "screen_effect": "dialog_shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…ど、どうした？",
-      "char": "c000_01",
+      "dialogue": "契約をしに行く準備に、\\どうしてこんなに時間がかかるんですか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "teach"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何か気に食わないみたいですねぇ。\\いつもより眉間にシワが多いみたいですし",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "俺だって早く行きたいよ。\\だけど、こいつが邪魔するからさー…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "6": {
       "type": "talk",
-      "dialogue": "う…あいつは黙っている時の方が恐ろしいからな。",
-      "char": "c000_01",
+      "dialogue": "おい、チビ！\\俺の鞄を勝手に漁んなよ！",
+      "background": "bg086_f",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "irritation",
+      "before_effect": "go_to_right_fast"
     },
     "7": {
       "type": "talk",
-      "dialogue": "あら、うるさい方がいいんですか？",
-      "char": "c001_01",
+      "dialogue": "フン！契約しに行くんなら、\\ゲーム機とかバッテリーなんて\\いらないよね？",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "idle",
+      "before_effect": "enter_from_right_fast"
     },
     "8": {
       "type": "talk",
-      "dialogue": "いや…それも怖いけど。",
-      "char": "c000_01",
+      "dialogue": "本当は、モナ姉さまとふたりっきりで\\遊びに行く気でしょ！？\\そんなの、絶対に許さないんだから！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "facial": "angry",
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "何だ。\\私の後ろで何こそこそ話してる？",
-      "char": "c019_01",
+      "dialogue": "だから違うっつーの…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "nonsense",
+      "after_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あ、いや…それは…",
-      "char": "c000_01",
+      "dialogue": "契約をしに行くって言ったって、\\めぼしい奴が現れるまで待ち続けなきゃならねーの。だから、ゲームで時間を潰すんだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "nonsense"
     },
     "11": {
       "type": "talk",
-      "dialogue": "はっきりしろ！\\口ごもっていないで、男らしくはっきりものを言え！",
-      "char": "c019_01",
+      "dialogue": "他の悪魔たちは、\\そこらへんのヤツを捕まえて契約してるじゃん。\\なんでそんなに待たなきゃならないのよ？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "facial": "idle"
     },
     "12": {
       "type": "talk",
-      "dialogue": "はい！エリス様に悩みがあるような気がして\\話していました！",
+      "dialogue": "そりゃあ…いい感じに弱気で、欲張りで、\\素直で、強いチャイルドが欲しいからだよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ここまで来るとかわいそうですねぇ…",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "normal",
-      "facial": "sad"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "そうか、よく気づいたな。",
-      "char": "c019_01",
+      "dialogue": "はぁ？\\そんな調子じゃ、魔王争奪戦なんて\\いつまで経っても終わらないじゃん！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "sulky"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ふう…なんとかやり過ごしたみたいだ。",
-      "char": "c000_01",
+      "dialogue": "いつまで、モナ姉さまに甘えるつもり！？",
+      "background": "bg104_f",
+      "bgm": "20",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "facial": "fury"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ところで、エリスの悩みって何かしら？",
-      "char": "c001_01",
+      "dialogue": "今のところはモナに頼りっぱなしだけど…\\別にいいだろ？\\モナは俺のサキュバスなんだから。",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "pretense"
     },
     "17": {
       "type": "talk",
-      "dialogue": "戦っている間、ずっと考えていた。\\お前の問題について。",
-      "char": "c019_01",
+      "dialogue": "違うもん！モナ姉さまは、ダビのモナ姉さまだもん！あんたなんかより、ずーっと前から一緒にいるんだからね！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "cry"
     },
     "18": {
       "type": "talk",
-      "dialogue": "上手くやり過ごしたと思ったのに。",
+      "dialogue": "でも、ご主人様は俺だしー",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "pretense"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人さまの問題？",
-      "char": "c001_01",
+      "dialogue": "ご主人様の俺が、\\サキュバスのモナに頼るのは当然じゃん？\\まぁとりあえずは、\\お前の分までべーったり甘えさせてもらうさ。\\ふふん。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "pretense",
+      "before_effect": "none"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ああ、そいつが魔王になれない理由。",
-      "char": "c019_01",
+      "dialogue": "くうううっ…！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "cry",
+      "before_effect": "shake_weak"
     },
     "21": {
       "type": "talk",
-      "dialogue": "魔王になれない理由って…\\なりたいって思ったこともないけど。\\改めてそう言われるとなんか傷つくな。",
-      "char": "c000_01",
+      "dialogue": "フーン、だっ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right",
+      "facial": "sulky"
     },
     "22": {
       "type": "talk",
-      "dialogue": "それが問題だ！",
-      "char": "c019_01",
+      "dialogue": "こっちこそ、《フーン》だ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "joy"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ひいっ！",
-      "char": "c000_01",
+      "dialogue": "マネしないでよ、バカ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "facial": "sulky",
+      "screen_effect": "dialog_shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "お前のその意志の弱さ！その弱さを直せば\\お前は十分、魔王になる素質がある！",
-      "char": "c019_01",
+      "dialogue": "《マネちないでよ、ばか！》",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "25": {
       "type": "talk",
-      "dialogue": "あら、核心をつくそのカリスマ性♥",
-      "char": "c001_01",
+      "dialogue": "ダビのマネしないでったら！",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "お前に一番必要なのは\\自分自身を信じる心だ！",
-      "char": "c019_01",
+      "dialogue": "《ダビィのマネちないでったらぁ！》",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "pretense"
     },
     "27": {
       "type": "talk",
-      "dialogue": "もう少し自信を持て、小僧。",
-      "char": "keep",
+      "dialogue": "ううう…うわあん！モナ姉さまー！！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "cry"
     },
     "28": {
       "type": "talk",
-      "dialogue": "これからは私が手助けしよう。\\オマエのか弱い精神を叩き直してやる！",
-      "char": "keep",
+      "dialogue": "……",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "facial": "sigh",
+      "before_effect": "enter_from_right_fast"
     },
     "29": {
       "type": "talk",
-      "dialogue": "おめでとうございます、ご主人さま。\\これでもう安心ですね♥",
-      "char": "c001_01",
+      "dialogue": "はぁ…\\子供のケンカですね～",
+      "char": "keep",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near",
+      "facial": "smile"
     },
     "30": {
-      "type": "talk",
-      "dialogue": "水を差す言い方するな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "返事がないぞ、小僧！",
-      "char": "c019_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "は、はい！分かりました！\\なんで俺にばっか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

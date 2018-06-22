@@ -2,118 +2,196 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様。どこに居るのですか、御主人様？\\…御主人様？",
+      "dialogue": "助けてくれ。",
       "background": "bg086_f",
       "bgm": "24",
-      "char": "c002_01",
-      "speaker": "same"
+      "char": "m144_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "このっ…早く出てきなさい、御主人様！",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…はぁ。また、逃げられてしまいましたか。\\一体どこに行ったんでしょう…？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "珍しいな。\\リベンジガールが助けを求めてくるなんて…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "君の主人なら\\そこからコソコソと抜け出していったな。",
-      "char": "m199_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "助けてくれと言ったんだ。行くところがある。\\私を連れて行ってくれ。",
+      "char": "m144_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "は、はい…？蒼龍。\\なぜそれをもっと早く、言わなかったのですか…？",
-      "char": "c002_01",
+      "dialogue": "はいはい…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "なぜ我がそんなことをしなければならない。\\そういうことは、下僕共の仕事だろう？",
-      "char": "m199_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はぁ…あなたに聞いた、私が間違いでしたね。",
-      "char": "c002_01",
+      "dialogue": "さ、着いたぞ。どうすればいい？",
+      "background": "bg119_f",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "それよりだ、リザ。あの悪魔の代わりに\\我に仕える気はないか？",
-      "char": "m199_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "もうお前は必要ない。帰れ。",
+      "char": "m144_01",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "9": {
       "type": "talk",
-      "dialogue": "いい取引だと思うぞ。\\魔王になるのは、我に決まっているからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "なっ！\\",
+      "char": "c000_01",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "distance": "normal",
+      "speaker": "same"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そうですか。それはとても魅力的な提案ですね。",
-      "char": "c002_01",
+      "dialogue": "おいおい、何しに来たか知らないまま帰れだと？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "angry"
     },
     "11": {
       "type": "talk",
-      "dialogue": "しかし生憎ですが、私はハズレると分かっている\\賭けには乗らない主義ですので。",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "大事なことだ。",
+      "char": "m144_01",
+      "speaker": "same_full",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ただ…そのあふれる自信の半分程度は、\\御主人様にも分けて欲しいぐらいですね…",
-      "char": "keep",
+      "dialogue": "何だよ、大事なことって。\\話してくれるまで絶対帰らないからな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そんなこと、ほぼ不可能だと思いますけど…はぁ",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "しつこいな。",
+      "char": "m144_01",
+      "speaker": "same_full",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そのクールな知性と、実直さ…素晴らしい。\\君がますます欲しくなってきたぞ。",
-      "char": "m199_01",
+      "dialogue": "俺はお前の主人だからな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そのようなご評価は、光栄ですが…",
-      "char": "c002_01",
+      "dialogue": "俺のチャイルドが何か企んでいるかもしれないのに、大人しく引き返せるとでも思ってるのか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "今回はご縁がなかったということで。\\ふふ、まあそれでも…少々嬉しかったとは\\言っておきます。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "dialogue": "私の邪魔をする気なら容赦はしない。",
+      "char": "m144_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "17": {
+      "type": "talk",
+      "dialogue": "最近は下剋上が流行ってるのか？\\そんな風に脅しても絶対に帰らないからな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "本当は今すぐ帰りたい。\\こんなことになるならモナと一緒に来ればよかった…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "…いいだろう。話してやろう。",
+      "char": "m144_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "は、はは！やっぱり俺が怖いだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "お前がいなければ私も困るからな。",
+      "char": "m144_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "お前のそのか細い指も\\私の契約者が再契約するには必要だろう？",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ひい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "最後の警告だ。",
+      "char": "m144_01",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "また私の邪魔をした時は、その口以外使い物にならないようにしてやる。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "26": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

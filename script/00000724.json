@@ -2,252 +2,333 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リザめ、今日こそは…",
-      "background": "bg086_f",
+      "dialogue": "こんにちは。メブはいる？",
+      "background": "bg089_f",
       "bgm": "9",
-      "char": "c267_01",
+      "char": "c242_00",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "2": {
       "type": "talk",
-      "dialogue": "リザなら急用があるって出かけたぞ。\\ムチャなスケジュールを俺に託してな…",
+      "dialogue": "いえ、今日はまだ来てないみたいですけど…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ふん、また逃げられたか。",
-      "char": "c267_01",
+      "dialogue": "一体どこに行ったのかしら。\\目もしょぼしょぼで、足もおぼつかないのに。",
+      "char": "c242_00",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "逃げられた？何かあったのか？\\おい、ダビ！リザがどこに行ったか知ってるか？",
+      "dialogue": "ぷぷっ…って！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "joy",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "リザはトサカ野郎がイヤになって、家出しちゃったんじゃない？",
-      "char": "c003_01",
+      "dialogue": "あまりからかわないでくださいよ。\\メブ様が聞いたら怒り狂って、そのしわ寄せが\\全部俺に…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
+      "pos": "left",
+      "facial": "irritation"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…もういい。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ふむ、モナというサキュバスもそうだが、そなたと\\違って賢いではないか。",
-      "char": "c267_01",
+      "dialogue": "ふふふ。 メブはそういう時が一番可愛いのよ。",
+      "char": "c242_00",
       "speaker": "same",
       "pos": "right"
     },
-    "8": {
+    "7": {
       "type": "talk",
-      "dialogue": "俺と違うってどういう意味だよ、それ…？",
+      "dialogue": "…はい？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "ううん、なんでもないわ。\\それにしてもどこ行ったのかしら。\\ここに来るって言ったのに…",
+      "char": "c242_00",
+      "speaker": "same",
+      "pos": "right"
+    },
     "9": {
       "type": "talk",
-      "dialogue": "さあな…\\あとでサキュバスたちに教えてもらうがよい。",
-      "char": "c267_01",
+      "dialogue": "ただいまあ。\\あっ！ 誘拐犯…",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "go_to_right_slow"
+      "before_effect": "enter_from_right_fast",
+      "screen_effect": "shake_weak"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ま、待てよ！",
-      "char": "c000_01",
+      "dialogue": "あらあ？ 失礼しちゃうわあ。",
+      "char": "c242_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
     "11": {
+      "type": "talk",
+      "dialogue": "うわあん！殴られた！？\\ご主人、サポーターのことちゃんと守ってよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "何で俺のせいになるんだよ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "nonsense",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "13": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "12": {
-      "type": "talk",
-      "dialogue": "近う寄れ、バスト。",
-      "background": "bg048_f",
-      "bgm": "19",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ニャハハハ～♪",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
     "14": {
       "type": "talk",
-      "dialogue": "わらわに懐いてくれるのは、そなただけだな。\\フフッ、寂しいものだ。",
-      "char": "c267_01",
+      "dialogue": "うーん、やっぱりこっちじゃないわね～？",
+      "background": "bg147_f",
+      "char": "c238_00",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ご主人様、今日もサキュバスに会えなかったの？\\悪いサキュバス！バストが懲らしめてあげよっか？",
-      "char": "c274_01",
+      "dialogue": "いつも通ってる道だから大丈夫だと思ったのに…\\迷子になっちゃったみた～い。メブ、困っちゃう～",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "モナもリザも逃げ回っちゃってさー！\\サキュバスって悪い子ばっかりだね！",
+      "dialogue": "それに…\\さっきからチョロチョロ尾行してるやつもいるし。\\はぁ～気付いてんのよ。姿をお見せ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "17": {
       "type": "talk",
-      "dialogue": "2人とも、わらわのことを信じ切れていないのだ。\\それは賢明な判断だと思うぞ。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ちぇっ。ただの可愛いお嬢さんと思って油断したか…はいはい、つけてたのは俺ですよ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "18": {
       "type": "talk",
-      "dialogue": "だが、困ったものだな…\\これでは、わらわの計画に支障が…",
-      "char": "keep",
+      "dialogue": "あら…可愛いお嬢さんだなんて…♥\\貴方の尾行も悪くなかったわよ。",
+      "char": "c238_00",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "19": {
       "type": "talk",
-      "dialogue": "計画通りなら既に情報を集め、ここを後にするつもりだったのだが…",
+      "dialogue": "ただ、あたしのほうが上手ってだけね。\\…で、用件は何？",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ニャン！バストもお供するの！\\ホルルやサキュバスがいない遠いところに行こうね！",
-      "char": "c274_01",
       "speaker": "same",
       "pos": "right"
     },
+    "20": {
+      "type": "talk",
+      "dialogue": "お姉さんが聞いてあ・げ・る♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "そなたはわらわによく従ってくれている…\\猫の頃も、チャイルドになった今も、変わらず…",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "特にこれと言った理由なんてないさ。\\ただ、ちょっとむしゃくしゃしてたんでね。\\チョロそうな子と遊びたかっただけで…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ニャ？だって、ご主人様はバストの主だから！\\これからもずーっとご一緒するの！",
-      "char": "c274_01",
+      "dialogue": "ふうん、チョロそう、ねぇ…\\可愛い女の子って思ってくれたのは嬉しいけど～",
+      "char": "c238_00",
       "speaker": "same",
       "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ふっ…猫の言うことではないな。\\まあよい、時間はたっぷりある。",
-      "char": "c267_01",
+      "dialogue": "こう見えても大先輩なのよね～あたし。\\ちょっと甘く見すぎたようね？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "いくらサキュバスが逃げ回ろうとも、\\わらわがあの小僧の下にいれば、\\いつか顔を合わせる時が来よう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "だ、大先輩…！？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "25": {
       "type": "talk",
-      "dialogue": "さあ、どちらが先に根をあげるか…\\根競べと行こうではないか。",
-      "char": "keep",
+      "dialogue": "そ、こんなに可愛いのに、魔界に何千年といて…\\って、それはいいか♥\\小僧の世話もたまには楽しいし、\\威張り散らすわけにはいかないって自制してるけど♥",
+      "char": "c238_00",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ご主人様は悪いサキュバスが嫌いなの～？\\モナとリザ、ご主人様を避けてるもんね？",
-      "char": "c274_01",
+      "dialogue": "たまにはあたしも息抜きしていいわよね～♥",
+      "char": "c238_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "after_effect": "shake_weak",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "27": {
       "type": "talk",
-      "dialogue": "いいや。\\わらわは、あのような意思の強い者とは相性がいい。むしろ、そばに置いておきたいくらいだ。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "あの者たちなら、わらわを理解できようぞ。\\もちろん、理解できなくとも問題ない。",
+      "dialogue": "さあ、お姉さんのことた～っぷり楽しませてね♥\\可愛い悪魔さん♥",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
+    },
+    "28": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "わらわを拒むというのなら、徹底的に支配するまで。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "結局、メブ姐さんを探しに来てしまった。",
+      "background": "bg109_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "そうなれば、おとなしくわらわに従うであろう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "dialogue": "いくら大先輩っていっても、俺よりずっと年上でも\\見た目は未成年で…しかも可愛い女の子だし…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "31": {
       "type": "talk",
-      "dialogue": "楽しみにしているがいい、バスト。\\面白いことになりそうだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "何か犯罪に巻き込まれてるんじゃないかと\\念のため近くの交番や警察署にも行ってみたけど。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "32": {
       "type": "talk",
-      "dialogue": "従うってなーに？",
-      "char": "c274_01",
+      "dialogue": "迷子の荒ぶる少女または\\奇跡の童顔老婆の痕跡は見当たらなかった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "うわああん！\\ごめんなさい、もう勘弁してください～！",
+      "background": "bg111_f",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "悲鳴…？\\まだ明るいのに、こんなところで…\\しかも、おっさん…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "enter_from_left_fast"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "うふふ、まだまだ終わらないわよ～♥",
+      "char": "c238_01",
       "speaker": "same",
       "pos": "right"
     },
-    "33": {
+    "37": {
       "type": "talk",
-      "dialogue": "ご主人様は王さまだもん！\\いつだって好きにしていいんだよ！",
+      "dialogue": "ちょっ！メブ姐さん！\\つ、ついにやらかしました！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "nonsense",
+      "screen_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "あら、迎えに来てくれたの？\\イイコイイコしてあげる♥\\生意気な小僧だと思ってたけどなつかれると\\可愛いものね♥",
+      "char": "c238_00",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "って、今、\\スイカが割れるような音がしたんですが…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あはは、確かに音は似てるわね。\\礼儀を知らない青二才がいたから、\\ちょっとお尻ぺんぺんしてただけ！",
+      "char": "c238_00",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "最近の若いもんは、新聞も読まないし、\\敬語も使えないし。\\まったく、生意気なんだから…",
       "char": "keep",
       "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "って、今の完全に年寄りの言葉よね…\\とほほ、あたしもそろそろ隠居しなくちゃ\\ダメかしら…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
       "distance": "near"
     },
-    "34": {
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
