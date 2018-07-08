@@ -2,287 +2,313 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あ～ん！離してよ！離してってば！",
-      "background": "bg036_f",
-      "bgm": "20",
-      "char": "c003_01",
+      "dialogue": "あら…あの男性、イケメンね。\\きっと…あっちのタイプね…夜になると…",
+      "background": "bg003_f",
+      "bgm": "31",
+      "char": "c209_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "fury",
-      "one_ani": "attack"
+      "before_effect": "shake_weak"
     },
     "2": {
       "type": "talk",
-      "dialogue": "まったく、騒がしい小娘だ。\\鈴でも鳴らすみたいなそのキンキン声、頭痛がする。",
-      "char": "c214_01",
+      "dialogue": "うお…いきなり何だよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ダビは鈴なんかじゃないも～ん！離してよ～っ！",
-      "char": "c003_01",
+      "dialogue": "何とはなによっ！\\ああ、きっと夜ごと洗濯機を回すタイプに\\違いないわっ！",
+      "char": "c209_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "fury",
+      "distance": "near",
       "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "もし私がこの手を離したらどうするつもりだ？",
-      "char": "c214_01",
+      "dialogue": "さっきまでイケメンだって\\褒めてたんじゃないのか…？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ふーんだっ、教えない！\\モナ姉さまに言いつけてやるなんてこと、あんたに絶対言わないし！",
-      "char": "c003_01",
+      "dialogue": "人は見かけじゃないわっ！\\私には全て分かるの…あ、あの男！",
+      "char": "c209_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "fury",
       "before_effect": "shake_weak"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なるほど、それなら尚更この手は離せないな。\\彼女が出て来たら…何かと面倒なことになる。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "あっ、つい口が滑った…\\モナ姉さまぁ～！モナ姉さまぁ～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "fury",
-      "after_effect": "shake",
-      "screen_effect": "dialog_shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "また騒ぎ出したか。\\仕方ない。猿ぐつわをご希望なら期待には応えよう。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "うるさいな～\\一体どうしたんだ？近所迷惑だろ？",
+      "dialogue": "今度はあの男がどうしたって？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "きっと他の男がいるに違いないわっ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "はぁ？\\男にほかの男って…\\お前って何を言ってるんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "現にほら、女性と腕組んで歩いてるじゃないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "10": {
+      "type": "curtain",
+      "background": "bg091_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "bg018_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "12": {
       "type": "talk",
-      "dialogue": "えっ？\\なんでダビ、首根っこを掴まれてるんだ？",
-      "char": "keep",
+      "dialogue": "フフッ、ちゃんと見なさい…\\あの女は恐らく妹…",
+      "background": "bg018_f",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "だからって追いかける必要はなかっただろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "腕を組んで歩く兄妹なんていないって言うけど、\\全くいないわけじゃないわ…あっ！ホラ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "だからそんなはずないだろ。\\さっさと戻って…あっ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "11": {
-      "type": "talk",
-      "dialogue": "えー、やだぁ！\\なんでウスラトンカチが出てくるの～？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "haah"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "…こんなところで何やってるの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ご覧の通り…\\鳴り続ける鈴の音を止めようとしていた。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "鈴、ね…うまいこというな、あんた…プププ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "after_effect": "shake_weak"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ダビは鈴じゃないってば～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "fury",
-      "before_effect": "shake",
-      "one_ani": "attack"
-    },
     "16": {
       "type": "talk",
-      "dialogue": "そうはいっても、\\ジュピターに掴まれて持ち上げられている姿は、\\紛れもなく鈴そのものだ。",
+      "dialogue": "ホラ！見て！\\女を見送った後、他の男と！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "いや待てよ、友達かもしれないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ハズレ！\\わからない？\\友達同士で同じ香水は使わないでしょ。",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "なんでわかるんだよ、お前…\\それにしてもすごい観察力だな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "まあ…このご時世だから珍しくもないけどね。\\はぁ～…",
+      "background": "bg002_f",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "彼氏？彼女？みんな呪われてしまえっ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そんな横暴な…\\というか、なんでいきなり呪いが出てくるんだよ",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それは私がと～っても怖くて邪悪な…\\魔女だからよっ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "機嫌を直せよ…\\魔女がチャイルドになったからって\\何も変わらないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そうね、何も変わらないわ。\\乱暴な悪魔や魔女の子孫でもね！\\何も変わりゃしないわよ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "いつまで昔のことを根に持ってるんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "お前、他人の日記帳見て\\書かれてるのが自分のことだと思うタイプだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "えぇそうよ、ごめんなさいね。\\妄想オタクな上に夢みてるって、毎日怒られてるわ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "文学少女が夢見る妄想家って当然の事でしょう？\\それがそんなに悪いことなの…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "うん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "夢みて何が悪いのよ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "感性ってのは、\\廃れちゃいけないものなのよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "そんな感性の廃れた人たちが\\社会に溢れたらどうなることか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "はいはい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ヘカテーは魔女の末裔。\\そのせいか、人間の時とさほど違いはない。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "17": {
-      "type": "talk",
-      "dialogue": "…と、詳しい事情は知らないけど、\\降ろしてやってよ。\\ダビのせいで近所から苦情が来ても困る。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "それは出来かねんな。\\私の目の黒いうちは、このイタズラ娘を\\野放しにしておくわけにはいかない。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…正直に言うんだ。\\ダビ、おまえなんかまたやらかしただろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "うわあ、ご主人ひどーい！\\いっつもダビのせいばかりにするー！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sad",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "日頃の行いを改めてから言ってよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "…ダビ、何もしてないもん。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "確かに、彼女は嘘をついていない。\\ただ、それは「まだ」という時間的な装飾語が\\つくだけの脆弱なものだが。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "な、何よ～\\そ、そんな目で見たって、ダビは…\\こ、怖くないもん。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c214_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "もう…わかったわよっ！\\このおじさんのバッグを、ダビが…\\触ったの。でも、ほんと、ちょっとだけだよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sulky",
-      "one_ani": "none"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "そんなことだろうと思ったよ。\\なんでそんなことしたんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "だってえ、何が入ってるのか知りたいもん…\\こないだもお願いしたのに、見せてくれなかったし。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そんなに見たいなら、いくらでもお見せしよう。\\ただし、それは主人が私に命令すれば、な。",
-      "char": "c214_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "いくら情けない悪魔といえ、\\今は私の主人、ということになる。\\命令は断れない。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "はは、情けない、か…\\いや、んなことはどうでもいいや。\\そのバッグ、何かヤバいものが入ってるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "使い方によっては。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "あなたのような情けない悪魔には、使いこなせない\\と思うが。このサキュバスもしっかり、\\しつけられないような半人前には、な。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "まあ、愚鈍な主に仕えてしまった\\このサキュバスにも同情の余地はあるが。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "デカい面するチャイルドよりはマシだと思うけどね。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
     "37": {
+      "type": "talk",
+      "dialogue": "既に悪魔に近い状態だったからではないかと\\思っているが…それが全てではないだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "恐らく、欲望と向かい合って正直に生きてきたのだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "あれこれ口数も多いし、無責任な想像もするが。\\友人としては悪くないと思っている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

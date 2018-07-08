@@ -2,219 +2,140 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よっしゃー！《トリ》ゲットだぜー！\\なーんつって♪",
-      "background": "bg145_r",
+      "dialogue": "そういえば…\\悪魔は人間の最も弱い部分につけ込むそうですね？",
+      "background": "bg245_f",
       "bgm": "9",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "トリー…",
-      "char": "m246_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "…何やってんだ、マヤウェル？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_slow"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "現場に駆けつけてみると、そこにはなぜか\\マヤウェルがいて、その手にトリを\\掴まえていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "あっ、奇遇っすね悪魔氏。\\ウチはゲーセンの帰りに、\\限定の《トリぐるみ》を買いに来たんっすよ。",
-      "char": "c022_01",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "right"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "恐怖や嫉妬、不安のような物を糧として、力を得ると聞きました。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "…まあな。ほとんどの悪魔はそうだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "フフフッ、やっと分かりました。\\私たちを狙った悪魔は、ず～っと前から私の近くで<b>友達</b>を狙っていたのですね。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "どういうことだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "まーさか、ぬいぐるみとバトルするとは、\\思わなかったっすけどねー\\ゲーセンで、テンション上がったウチの敵じゃなかったっすけど！",
-      "char": "keep",
+      "dialogue": "去年の今ごろのことです。\\私は学校に漂う<b>怪しい気配</b>を感じました。\\ゾッとする、しかし、どこか親しみのある気配を…",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "それ、ボクの《トリぐるみ》だよ！\\返してっ！",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_slow"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "なっ！？\\勝手に人のもん取ろうとしないで欲しいっす！\\これはウチが討ち取ったんですよ！",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "confused"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "いいから、返してっ！",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "あれれ～？\\エルメスさん、ウチよりレアリティー高いからって\\調子にのってます？",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "レアリティーの差が戦力の決定的差でない事を教えてあげましょうか～？\\シュ、シュッ！",
-      "char": "c022_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "マヤウェル…\\お前は何を言ってるんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ケンカはやめてトリ！\\トリは誰のものでもないトリーっ！",
-      "char": "m246_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake",
-      "one_ani": "attack"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "まずいな…\\エルメスとマヤウェルで、取り合いが発生してる…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "トリだけに！",
+      "dialogue": "すると、どうでしょう。\\まわりで不可解な事が起こり始めました。",
       "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "joy",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "何それ？さむ～…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "今はそんなくだらない冗談を、\\言ってる場合ではありません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "くだらないってヒドイ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "とはいえ、ふだんやる気の無いマヤウェルも珍しくムキになっていて、簡単には手放しそうにない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "マヤウェルには悪いが、今の俺はエルメスの味方だ。というわけで、俺はこの場を収拾するために、\\ちょっとしたウソをつく。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "すまん。マヤウェル。\\そのトリはぬいぐるみじゃなくて俺のペットなんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "え、ペット…？",
-      "char": "c022_01",
       "speaker": "same",
       "pos": "right"
     },
-    "23": {
+    "8": {
       "type": "talk",
-      "dialogue": "そうだ。\\当然だが、そもそもぬいぐるみは喋らないからな？\\魔界から取り寄せたペットで…",
+      "dialogue": "昨日まで親しかった友達同士が急にケンカをはじめたり。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "わけもなく突然イジメが流行り始めたり…\\そんな感じですわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "これは、典型的な悪魔の手口だな…\\人間の弱い部分につけ込んでお互いを引き離し、最後は孤立させて魂を丸ごと奪い取るんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "24": {
+    "11": {
       "type": "talk",
-      "dialogue": "い、いい加減にするトリー！",
-      "char": "m246_01",
+      "dialogue": "やはりそうでしたか。フフフッ。\\妙な存在が介入してきたことは気づきましたが、まさかそれが悪魔だったなんて。",
+      "char": "c194_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "right"
     },
-    "25": {
+    "12": {
       "type": "talk",
-      "dialogue": "え？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ぬいぐるみ扱いならまだしも、\\ペットなんて…酷すぎるトリー！",
-      "char": "m246_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "もう許さんトリー！",
+      "dialogue": "冷たく凍りついた空気と緊張感…\\小さな火種で爆発しそうな怒りが学校中に渦巻いていました。本当に楽しかったですわ。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right"
     },
-    "28": {
+    "13": {
+      "type": "talk",
+      "dialogue": "アシュトレスは夢を見るような目つきで、俺でもダビでもなく虚空を見つめた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "じゃあなにか？\\お前のその歪んだ性格は、その悪魔の影響なのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "フフフッ…どうでしょう？\\そうかもしれませんし、そうでないかもしれません。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ご主人様が感じたことがきっと答えでしょう。\\私はご主人様の従順なチャイルドです。これで、少しは私のこと気に入っていただけましたか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それでは、私の良さをもっと知っていただくために、悪魔同士でできる楽しいことをしてみましょうか。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "19": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
+      "bgm": "9",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

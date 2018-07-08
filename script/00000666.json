@@ -2,204 +2,351 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "こんにちは…ご主人サマ。\\この前のこと、考えておいてくれた？",
-      "background": "bg092_f",
+      "dialogue": "トサカ頭のボンクラ悪魔！どこ！",
+      "background": "bg086_f",
       "bgm": "19",
-      "char": "c198_01",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake"
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "この前のこと？",
-      "char": "c000_01",
+      "dialogue": "騒々しいおなごじゃな。",
+      "char": "c196_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ふふ…とぼけちゃって…\\呼び方の話よ。",
-      "char": "c198_01",
+      "dialogue": "何？アンタがどうしてここにいるの？\\トサカ野郎はどこ？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…ああ、他の奴らはチャイルドって呼んで、\\お前だけ名前で呼べって話か？",
-      "char": "c000_01",
+      "dialogue": "…まったく、態度の大きな娘じゃ。",
+      "char": "c196_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ご名答。\\いい考えでしょう？ ご主人サマ。",
-      "char": "c198_01",
+      "dialogue": "まーた変なチャイルドが入ってきたね。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どーだろうな。",
-      "char": "c000_01",
+      "dialogue": "ここの主人は誰だ？",
+      "char": "c196_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense",
-      "mvd_post_effect": "none"
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はあ…またはぐらかすの？\\…酷いわ。",
-      "char": "c198_01",
+      "dialogue": "知らない。アイツの家だからアイツでしょ。\\もう！ホントにどこ行ったの、トサカ野郎は！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "絶対に苦労させないよ…って、\\囁いてくれたあの言葉は、\\やっぱりウソだったのね…",
+      "dialogue": "暇だからイジメに来てやったのに。\\ホント、こういう時だけは勘がいいんだから。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ウソも何も、そこまで言った覚えないんだけど…\\それに、そもそも名前を呼ぶのは\\お前だけにしろって、どんな頼みだよ…",
-      "char": "c000_01",
+      "dialogue": "私の家来をイジメるだと？",
+      "char": "c196_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "near"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そんなことしたら、不便だろ？",
-      "char": "keep",
+      "dialogue": "家来？誰が？\\バカご主人はダビの家来だよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "じゃあ、みんなにはあだ名でもつけましょうよ。\\そうすれば、不便じゃないでしょう？",
-      "char": "c198_01",
+      "dialogue": "子供のワガママか、自分勝手にも程がある。\\よく聞け。ここの主人は私だ。",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "メス豚、ゴミ、廃棄物、クズ…等々。",
+      "dialogue": "お主らが互いにどんな言葉で話そうが、かまわんが\\それはあくまで家来同士の話…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "明確でわかりやすい言葉って、\\たくさんあるじゃない？\\名前より、きっとそっちの方が便利よ…",
+      "dialogue": "私を敬い、入室の際には、挨拶するのが\\妥当であろう？",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "何、このオバさん？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "お主に礼儀というものを教えてやっているのだ。\\有り難く思え。",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ムカつく！トサカ野郎はいないし、\\変なオバさんに怒られるし！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "まあ…\\お主の立場が理解できないわけでもないが…",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ダビの立場が何よ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "それは外見…いや、いい。\\私がお主のような娘にこんな話をしても…",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "はぁ！？だ、ダビの見た目が何だっていうの！\\モナ姉さまが可愛いって言ってくれる顔なのに！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "可愛い、か。\\配慮を知る者はそういう言葉も使えるということか。",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "違うもん！モナ姉さまは…\\モナ姉さまは本心で可愛いって\\言ってくれてるもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ん、どうした？\\お主は可愛い…外見をした娘だ。",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "そうだ。外を歩く野良犬も、\\顔に泥をつけた子供も私の目には可愛いく映る。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "可愛いと言われて嬉しいか。",
+      "bgm": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "この…この…うわああああん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "cry",
+      "screen_effect": "dialog_shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "何だなんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "知らない、バカご主人！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "cry",
+      "after_effect": "go_to_right_point"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "行っちゃった。\\アイツ、どうしたんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "言葉使いは直らないようだな…",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…なんだ、ダビのやつ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ところで、アイツなんで泣いてたんだ？\\いや、泣いていたのでしょうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "少し厳しく言ったら\\泣いてしまったわ。",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "厳しく？あのワガママサキュバスに？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "少し手のかかる娘だが、\\すぐに自分の立場が分かるだろう。",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "立場って…\\お前が自分の立場を知る方がいいんじゃないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "今なんと…",
+      "char": "c196_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "14": {
+    "38": {
       "type": "talk",
-      "dialogue": "あだ名の内容が問題だけどな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "あら、どこか問題だった？\\残念だわあ…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "残念だと思ってるのは、たぶんお前だけだ…",
+      "dialogue": "いえ！\\お美しいイズン様のために、おっしゃっていた\\香水を用意致しました！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
     },
-    "17": {
+    "39": {
       "type": "talk",
-      "dialogue": "ふふ、ご主人サマってば、素直じゃないんだから。\\私ほど、ご主人サマに忠実な存在はいないのよ？",
-      "char": "c198_01",
+      "dialogue": "美人…ですって？\\今更分かりきったことを言うでない。",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
-    "18": {
+    "40": {
       "type": "talk",
-      "dialogue": "当然、特別扱いしてもらわないと。\\私はご主人サマの、大事な懐刀なんだから…",
+      "dialogue": "そしてなんだ、この安物の香水は…\\私の品には全く釣り合わないブランドだ。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
+      "distance": "normal",
       "one_ani": "attack"
     },
-    "19": {
+    "41": {
       "type": "talk",
-      "dialogue": "ぶ、物騒だな…",
+      "dialogue": "俺の経済力も少しは考えてくれよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal",
+      "facial": "unfair"
     },
-    "20": {
-      "type": "talk",
-      "dialogue": "ゼロス、お前の気持ちは嬉しいけど、\\だからって、お前だけを特別扱いするわけには\\いかないんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "わかってくれないか？\\お前にだけ、危険な役目を押し付けられないしな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "…ふふ。ご主人サマにそう言われたら、\\わからないとは言えないわ…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "惚れ直しちゃった…\\私の契約者も、\\きっと同じ気持ちだったんでしょうね…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ん？何か言ったか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…何でもないわ。\\今晩のお散歩は、\\この辺りで終わりにしましょう…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "…惚れ直しはしたけど、特に収穫はなかったし…\\少しがっかりね。\\帰ったら、みんなをいじめようかしら…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

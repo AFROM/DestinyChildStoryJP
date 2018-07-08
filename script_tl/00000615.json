@@ -2,257 +2,285 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "コラ、ダビ！\\1人で夜遅くに出かけるなって言ったろ！",
-      "background": "bg177_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "うう、母親みたいなこと言わないでよ！\\ウスラトンカチ！",
-      "char": "c003_01",
+      "dialogue": "なぁ、キャプテン。話があるんだが…",
+      "background": "bg086_f",
+      "bgm": "31",
+      "char": "c012_01",
       "speaker": "same",
       "pos": "right"
     },
-    "3": {
+    "2": {
       "type": "talk",
-      "dialogue": "主人としての命令だっつーの！\\まったく…ニュースを見てないのか？",
+      "dialogue": "ん？なんだよ？",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "最近、この辺りじゃ\\暴力団同士のケンカが絶えないんだとよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "人間がたくさん死んじまったんだと…\\巻き込まれたらシャレにならない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "夜出歩くなんて自殺も同じだ。\\ホラ、大人しく家に帰るぞ。",
-      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "お前は、このままでいいと思っているのか？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "な、何のことだよ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "お前を《キャプテン》と呼ぶことだ。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "なんだ、そんなことか…\\そんな聞き方されたら不安になるだろ？\\キャプテンって呼びたくないなら、他のチャイルドと同じようにご主人様って…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
     "7": {
       "type": "talk",
-      "dialogue": "バカご主人。\\悪魔が人間を怖がってどうするのよ？",
-      "char": "c003_01",
+      "dialogue": "いや、俺が言いたいのはそういうことじゃない。",
+      "char": "c012_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そりゃあ、悪魔より人間の方がずっと恐いからな。\\長い間ここに住んで得た教訓だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "そんな腰抜け悪魔はご主人だけよ。\\バカでマヌケで、臆病者な悪魔だもん。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…マジで置いてこうかな、こいつ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ふん！腰抜けご主人の言うことなんか、\\聞かないもんっ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "おいガキ、ご主人様の言うことはよく聞けよな。",
-      "char": "c037_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ひぃ！ち、近寄らないでーっ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "何だよ、さっきまで威張ってたくせに、\\ビクビクして…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "に、人間なんか怖くないけど、\\あの悪魔のおじさんは怖いのー！",
-      "char": "c003_01",
-      "speaker": "same"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "おう、よく分かってるじゃねえかガキ。\\…命が惜しけりゃ無駄口叩くんじゃねぞ。",
-      "char": "c037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ひいい！",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "やめろよ。ガキをいじめて楽しいか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "クハハハ！\\俺様にとっちゃ、お前ら2人ともガキだガキ。",
-      "char": "c037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "おいおい、そのガキに\\右腕になれって言った悪魔は誰だよ…",
+      "dialogue": "じゃあ、何だよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "21": {
+    "9": {
       "type": "talk",
-      "dialogue": "ガキはそのうちデカくなるからな。\\先行投資ってヤツだ。\\で、考えは変わったか？",
-      "char": "c037_01",
+      "dialogue": "お前は自分がキャプテンに相応しいと\\思っているのか！？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "は！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そもそも俺のこと、《キャプテン》って呼び始めたのはお前の方だろ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "どう考えても、その呼び名が似合うのはお前じゃなくあの女の方だろう。",
+      "char": "c012_01",
       "speaker": "same",
       "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あの…女？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そう、あの…あ～\\名前を度忘れした。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "とにかく、あの女だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あの女ってモナのことか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あら、お呼びでしょうか、ご主人さま～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そうだ、この女だ。\\やっぱり、お前ではなく、この女がキャプテンに相応しい。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あら～\\モナのこと、キャプテンだなんて♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "affair"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "優れたリーダーシップ、あふれんばかりのオーラ、サキュバスとしてのカリスマ…",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ただ気が強いだけだろ？\\逆らったら何されるか分からないぞ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "22": {
       "type": "talk",
-      "dialogue": "変わらないよ。\\お前の手下になるつもりは全くない。",
-      "char": "c000_01",
+      "dialogue": "やはり気付いていたか。お前もこの女の能力に。",
+      "char": "c012_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "可愛げねえガキだなあ。\\よーく考えてみろ。",
-      "char": "c037_01",
+      "dialogue": "うん、ま～なんとなく、だけどな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "24": {
       "type": "talk",
-      "dialogue": "お前1人で魔王になれると本気で思っているのか？\\大人しく俺様につけよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "うふふ♥でも残念。\\モナはみんなを仕切るタイプではありません。",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "俺様が魔王になるのを見守るのも悪くないだろう？\\歓迎するぜ？",
+      "dialogue": "キャプテンというより、ご主人さまを後方から献身的にサポートする淑女タイプですわ♥",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "facial": "smile"
     },
     "26": {
       "type": "talk",
-      "dialogue": "何と言われてもイヤだね。\\第一、暴力団のケンカもお前の仕業だろ？",
+      "dialogue": "淑女って、自分で言うか…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "irritation"
     },
     "27": {
       "type": "talk",
-      "dialogue": "裏社会の一員だなんて真っ平だ。\\サキュバス達の面倒みてた方がまだマシだな。",
-      "char": "keep",
+      "dialogue": "モナ、何をそんなに謙遜しているんだ？\\お前は、この家の主人だろ？",
+      "char": "c012_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "暴力こそが人間の本質だ。\\それはお天道様の下にいたって、変わらねえぞ。",
-      "char": "c037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "いいや、違うね。お前が何もしなかったら\\みんな肩組んでニコニコ笑ってたはずだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "クハハハ！生意気なガキだ！\\男ならそうでなくちゃな！",
-      "char": "c037_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "だが…あんま調子に乗るんじゃねえぞ。\\俺様は全てにおいて完璧だが、\\我慢だけは知らねえからな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ひい！！",
+      "dialogue": "ここは俺んちだ！主人はこの俺だ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "shock",
       "before_effect": "shake"
     },
-    "33": {
+    "29": {
       "type": "talk",
-      "dialogue": "ご主人…格好悪い。",
-      "char": "c003_01",
+      "dialogue": "あらあら、ご主人さまったら…\\でも、アガメムノン。そんなにモナを《キャプテン》と呼びたいのなら、こう呼んでほしいわ。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "<b>お・ね・え・さ・ま♥</b>って。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "お…おねえ…さま…だと…！？",
+      "char": "c012_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "sigh"
+      "before_effect": "shake_weak"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "フフッ♥もちろん、《お姉さま》と呼ぶのに抵抗があるなら、別な呼び方でもかまわないわよ？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "例えば…そうね～",
+      "char": "keep",
+      "speaker": "same"
     },
     "34": {
       "type": "talk",
-      "dialogue": "クハハハ！また誘いに来るからな！\\そん時は、いい返事を待ってるぜ！",
-      "char": "c037_01",
+      "dialogue": "<b>女王様</b>とか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "モナが…女王様…！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "やはり…すごい女だ…\\さらにハードルを上げて来やがった…",
+      "char": "c012_01",
       "speaker": "same",
       "pos": "right"
     },
-    "35": {
+    "37": {
+      "type": "talk",
+      "dialogue": "すごくない！ぜんぜんすごくない！\\ただのこわ～い女だよ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

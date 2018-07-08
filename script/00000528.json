@@ -2,294 +2,268 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "私でお役に立てるでしょうか…？",
-      "background": "bg095_f",
-      "bgm": "9",
-      "char": "c002_01",
+      "dialogue": "ちがう！もう少し肩を上げろ！",
+      "background": "bg086_f",
+      "bgm": "12",
+      "char": "c072_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "なんだよ、リザ。\\珍しく弱気じゃないか。",
-      "char": "c000_01",
+      "dialogue": "バカにしてるのか！俺に不可能なんてない！",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ええ…",
-      "char": "c002_01",
+      "dialogue": "ただもう少し肩を上げろと言っただけだ。",
+      "char": "c072_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "頼れるのはお前だけなんだ\\しっかりしてくれよ。",
+      "dialogue": "こんな夜中に何してるんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "distance": "normal",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "むぅ…",
-      "char": "c002_01",
+      "dialogue": "ファイロなんですが、\\ちょっと強そうなチャイルドを見かけると、\\武術を習うと聞かないんです。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
     },
     "6": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ほんと、元気ですね～。\\誰かさんとは大違いです♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ファイロ！\\ぶっ殺してやるぜ！",
-      "background": "bg095_f",
-      "bgm": "12",
-      "char": "c007_01",
+      "dialogue": "はっ、モナ。\\お前エネルギー保存の法則も知らないのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "来たようですね。",
-      "char": "c002_01",
+      "dialogue": "エネルギー保存の法則ですか？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "フェニックス…すみませんが、\\ここにファイロはいませんよ。",
-      "char": "keep",
+      "dialogue": "そうだ。\\宇宙のエネルギーの総量は一定だっていう法則だ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ファイロ！\\ぶっ殺してやるぜ！",
-      "char": "c007_01",
+      "dialogue": "あんなにエネルギーを使ったらなくなっちゃうよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "screen_effect": "dialog_shake"
+      "distance": "normal",
+      "facial": "pretense"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…フェニックス。\\冷静な話し合いで解決してはどうですか？",
-      "char": "c002_01",
+      "dialogue": "だから、俺がエネルギーを\\節約しなきゃいけないってことさ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
     },
     "12": {
       "type": "talk",
-      "dialogue": "話し…合い…？",
-      "char": "c007_01",
+      "dialogue": "ふーん…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ええ、既にあなたは御主人様のもの。\\そして、それはファイロも同じ…",
-      "char": "c002_01",
+      "dialogue": "ぐはあっああ！",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふたりとも、御主人様の大切な戦力なのです。\\それなのに相争っては…",
-      "char": "keep",
+      "dialogue": "大丈夫か、ファイロ！？",
+      "char": "c072_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "この野郎！",
+      "dialogue": "だ、大丈夫だ！このくらい、なんともない！\\俺がこの程度の傷でやられると思ってるのか！",
       "char": "c208_01",
       "speaker": "same",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "pos": "left",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ぐわっ！",
-      "char": "c007_01",
+      "dialogue": "何をしているのですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…なぜ、あなたがここに…",
-      "char": "c002_01",
+      "dialogue": "チャイルドは貴重な戦力。\\ケガをさせるようなことはお止め下さい。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "大丈夫ですか、リザさん！",
-      "char": "c208_01",
-      "speaker": "same"
+      "dialogue": "ファイロ、こっちに来なさい。\\傷の手当をします。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "はぁ…\\私より、彼に聞くべきではありませんか。",
-      "char": "c002_01",
+      "dialogue": "うっ…\\フェンリル、俺は大丈夫だ！もっと訓練しよう！",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake_weak"
     },
     "20": {
       "type": "talk",
-      "dialogue": "何言ってるんだ！\\あいつがお前を攻撃したんじゃ…",
-      "char": "c208_01",
-      "speaker": "same"
+      "dialogue": "誰と話してるのですか、ファイロ！私を見なさい！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "sigh"
     },
     "21": {
       "type": "talk",
-      "dialogue": "こうなるんじゃないかと、思っていましたが…",
-      "char": "c002_01",
+      "dialogue": "フェンリル！さっき、何かに気づきそうだった！\\一緒に戦地に行って訓練した方が…うわっ！",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
+      "pos": "center",
+      "distance": "normal",
+      "after_effect": "shake"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "え？\\今、なんて…",
-      "char": "c208_01",
-      "speaker": "same"
+      "type": "curtain",
+      "fade_in": "normal"
     },
     "23": {
-      "type": "talk",
-      "dialogue": "フェニックスは、\\私を攻撃するつもりなどありませんよ。\\私はあなたじゃないのですから。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "fade_out": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ファイロを探しては殺すと騒ぐから、\\うるさくてかないません。",
-      "char": "keep",
+      "dialogue": "おお、完璧な柔術だな。\\ 背負い投げからの縦四方固め。さすがだな、リザ。",
+      "char": "c072_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "だからこそ、御主人様は\\私をガードマンとしてここに立たせたんです。",
-      "char": "keep",
+      "dialogue": "グッジョブ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
     },
     "26": {
       "type": "talk",
-      "dialogue": "それなのに…あなたが急に現れるから…",
-      "char": "keep",
+      "dialogue": "じっとしてなさい！薬を塗らないと！",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "27": {
       "type": "talk",
-      "dialogue": "どうしてここにいるんです？\\御主人様は、あなたを預かると言っていたでしょう。",
-      "char": "keep",
+      "dialogue": "俺、怪我しないようにしよっと…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "28": {
       "type": "talk",
-      "dialogue": "こざかしい！\\だから俺が出て行くのを邪魔したんだな！！",
-      "char": "c208_01",
+      "dialogue": "ん？\\御主人様、やはりファイロの傷は深刻です。",
+      "char": "c002_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "…こっちも愚か者でしたか。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "かかってきやがれ、ファイロ！\\ぶちのめしてやるからよ！\\オマエを殺して、俺が《ファイロ》になってやる！",
-      "char": "c007_01",
-      "speaker": "same",
-      "pos": "center",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "distance": "near"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ふん！\\お前に俺が倒せると思っているのか！！",
-      "char": "c208_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ひとりでもうるさいのに、さらに増えるだなんて…\\頭が痛くなりそうです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "<b>とりゃあ！</b>",
-      "char": "c007_01",
-      "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "<b>行くぞっ！</b>",
-      "char": "c208_01",
-      "speaker": "same",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "人間界には、こういう言葉があります。\\「馬鹿につける薬なし」",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "申し訳ありません、御主人様。\\やはり私では力不足のようです。",
+      "dialogue": "顔は赤く、熱もあります。\\鼻血まで…止血しないと。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
+      "distance": "normal"
     },
-    "37": {
+    "30": {
       "type": "talk",
-      "dialogue": "うりゃっ！",
-      "char": "c007_01",
+      "dialogue": "いや、たぶんそれは…お前の胸とかお尻が…\\しっかり治療してくれ…ゆっくりな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "distance": "normal",
+      "facial": "haah"
     },
-    "38": {
+    "31": {
       "type": "talk",
-      "dialogue": "くっ！",
+      "dialogue": "た…助け…てくれ…",
       "char": "c208_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "pos": "center",
+      "distance": "near",
+      "one_ani": "attack"
     },
-    "39": {
+    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,319 +2,279 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はぁ、はぁ…おーい、ポモナ…\\まだ見つからないのか？",
-      "background": "bg067_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "バカトサカ野郎！ただじゃおかないよ！",
+      "background": "bg086_f",
+      "bgm": "12",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "screen_effect": "dialog_shake",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どこにもないわ。",
-      "char": "c139_01",
+      "dialogue": "何だよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "一体何を探してるんだ？\\教えてくれたら、一緒に探すけど？",
-      "char": "c000_01",
+      "dialogue": "ダビの、ダビの…宝物の写真集を捨てたー！！！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "cry"
     },
     "4": {
       "type": "talk",
-      "dialogue": "まさか失った夢とか…希望とか…\\そういう抽象的なモノじゃないよな？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "バカなの…？",
-      "char": "c139_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "バカで悪かったな…！",
+      "dialogue": "は？…まさかあのカラフルな\\スケッチブックみたいなやつのことか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair"
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ダビが心を込めてつくった宝物なのに！\\モナ姉さまの写真を集めたアルバムなんだよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "angry"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "盗み撮りかよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ポモナはどちらかと言うと不思議系のチャイルドだ。言葉数が少ないチャイルドなら他にもいるけど、",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "このトサカ野郎！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
     "8": {
       "type": "talk",
-      "dialogue": "こいつほど掴みどころのないチャイルドは、\\そういない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おい！や、やめろ！あっち行け！やめろって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "今日は珍しく出かけるというから\\付き合ってやることにしたんだが…",
+      "dialogue": "ダビは爪を立てて俺に向かって走ってきた。\\こんなちっちゃなヤツにこれ程の力があるとは。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あのさ、さらに深い所に向かってるみたいだけど、\\お前、道わかってるのか？",
+      "dialogue": "おい！やめろ！痛いってば！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…ううん。",
-      "char": "c139_01",
+      "dialogue": "バカ！アホ！絶対に許さない！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "すでに迷子なのかよ！？\\あてもなく、さすらってるってこと？",
+      "dialogue": "うわっ！誰でもいいから助けてくれ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c139_01",
+      "dialogue": "きゃっ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…うん。",
-      "char": "keep",
+      "dialogue": "ヴァルキリー！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "今の返事に、間は必要だったのか…？\\考える必要もないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "俺の呼びかけに答えたようだ。\\ヴァルキリーは無心にダビを遠くに放り投げた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "出かけるって言うからついてきたのに…\\この有様かよー。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "こいつの力も普通じゃない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…ごめん。",
-      "char": "c139_01",
+      "dialogue": "何よ！みんなひどい！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury",
+      "after_effect": "go_to_right_point"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あ、いや、怒ってるわけじゃないぞ。\\でも、ちょっと不安だから、俺が先を歩くよ。",
+      "dialogue": "はあ、死ぬとこだった…ありがとな、ヴァルキリー。おかげで助かったよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal",
+      "facial": "smile"
     },
     "19": {
       "type": "talk",
-      "dialogue": "何を探してるのかだけは、\\正直に話してくれないか？",
-      "char": "keep",
+      "dialogue": "戦士として当然のことをしたまでだよ、\\悪魔っ子。",
+      "char": "c135_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "場所。\\記憶の中の…場所。",
-      "char": "c139_01",
+      "dialogue": "悪魔…っ子。誰が子供だよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "21": {
       "type": "talk",
-      "dialogue": "記憶の中の場所！？\\そりゃ、ずいぶん難しいものを探してるんだな。",
+      "dialogue": "考えてみたんだけど、悪魔って名目持ってる人が\\どうして自分のサキュバスにあんな惨めに\\やられるわけ？",
+      "char": "c135_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "惨めって言葉はやめてくれ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
-    },
-    "22": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "えっと…？\\「植物があって」「そばに水」…\\そして「静かな場所」！ここだ！！",
-      "background": "bg065_f",
-      "bgm": "17",
-      "char": "c000_01",
+      "dialogue": "顔のその傷を見て言ってくれないかな。",
+      "char": "c135_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "near"
     },
     "24": {
       "type": "talk",
-      "dialogue": "私の契約者は幼い少女だった…\\ここにはひとりでは来られない。",
-      "char": "c139_01",
+      "dialogue": "これはまあ…だ、だから、理由は何だ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "25": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "簡単だよ。\\アナタはまだ成長しきれてない子供だから。",
+      "char": "c135_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "うーん…\\それじゃ、ここは？",
-      "background": "bg061_f",
+      "dialogue": "誰が誰に向かって成長うんぬん言える立場なんだよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "近いけど、ちょっと違う…\\ここまで静かな場所じゃなかった…",
-      "char": "c139_01",
+      "dialogue": "悪魔っ子。\\今からでも好き嫌いしないで何でも食べて。\\運動もちゃんとしてさ。",
+      "char": "c135_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "そんな体でどうやって魔王になる気？\\はあー。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "よし、次はここ！\\これでどうだ！",
-      "background": "bg062_f",
+      "dialogue": "ここのガキたちは…そろいもそろって\\俺をからかうのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "distance": "normal",
+      "facial": "confused"
     },
     "30": {
       "type": "talk",
-      "dialogue": "…\\ここでもない。ごめん。",
-      "char": "c139_01",
+      "dialogue": "それじゃ、私は行くわ。\\それと、これからは夜に呼んでくれない？",
+      "char": "c135_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "31": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "昼は行動しない主義で…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "だったら、きっとここだろ！",
-      "background": "bg077_f",
+      "dialogue": "心配するな。\\もう二度と呼ぶもんか！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "33": {
-      "type": "talk",
-      "dialogue": "…\\ここもちがう…",
-      "char": "c139_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ちぇっ、そうか。\\あー…いつまでも、\\探してばかりはいられないし…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "時間の無駄だったか…\\むしろ他のことをしたほうが、\\もうちょいマシだったかもな。時間よ戻れ～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c139_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ごめんな。\\もっと俺の頭が良ければ、\\他の場所から探せたのにな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…え？",
-      "char": "c139_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "もう1日が終わるって時に、\\こんなこと言っても意味ないんだけどさ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "今日はここまでにしよう。\\明日もあるし、明後日もあるじゃん。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "いつかは探せるさ。\\「記憶の中の場所」を。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

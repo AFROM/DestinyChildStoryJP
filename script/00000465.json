@@ -2,227 +2,319 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ぐすっ、ぐすっ…んんん…ずずっ…チーン！",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c141_01",
-      "speaker": "same"
+      "dialogue": "はぁ、はぁ…おーい、ポモナ…\\まだ見つからないのか？",
+      "background": "bg067_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お、おい。ええっ？\\今のドラマを観て泣いてるの！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ぐすっ。あっ、当たり前じゃない。\\だって、こんな…悲しすぎて…うああん！",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake_weak",
-      "after_effect": "shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ドラマだろ？こんなの作り話じゃないか。\\実話じゃないのに、何がそんなに悲しいんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "やっぱり悪魔は悪魔なのね。",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "こんなに悲しい、恋物語に涙も出ないなんて。",
-      "char": "keep",
+      "dialogue": "どこにもないわ。",
+      "char": "c139_01",
       "speaker": "same",
       "pos": "right"
     },
-    "7": {
+    "3": {
       "type": "talk",
-      "dialogue": "本当、血も涙もない！\\あー、冷たいなあ、冷たいー！",
+      "dialogue": "一体何を探してるんだ？\\教えてくれたら、一緒に探すけど？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "idle"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "まさか失った夢とか…希望とか…\\そういう抽象的なモノじゃないよな？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "バカなの…？",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "バカで悪かったな…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ポモナはどちらかと言うと不思議系のチャイルドだ。言葉数が少ないチャイルドなら他にもいるけど、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "失礼だな。お前は知らないだろうけど、俺って結構、悪魔の間では優しいって有名なんだからな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "こいつほど掴みどころのないチャイルドは、\\そういない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ふーん、全然そう思わなーい。\\悪魔の評判なんて当てにならないわ。",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "今日は珍しく出かけるというから\\付き合ってやることにしたんだが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "まあ、そうかもしれないけど。\\で、このドラマのどこがそんなに悲しいんだ？",
+      "dialogue": "あのさ、さらに深い所に向かってるみたいだけど、\\お前、道わかってるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "聞いて、聞いて。あの男はね、\\一度も人に恋をしたことがないんだけど。",
-      "char": "c141_01",
+      "dialogue": "…ううん。",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ある日隣に引っ越してきた女に、\\一目惚れしちゃうのね。",
-      "char": "keep",
+      "dialogue": "すでに迷子なのかよ！？\\あてもなく、さすらってるってこと？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "serious"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それで、勇気を出して女に告白するんだけど、",
-      "char": "keep",
+      "dialogue": "…",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "その女のお兄さんが、男の生き別れた兄弟なの。",
+      "dialogue": "…うん。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "はぁ…？なんだその人間関係は…",
+      "dialogue": "今の返事に、間は必要だったのか…？\\考える必要もないだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "sigh"
     },
     "16": {
       "type": "talk",
-      "dialogue": "待って、まだ続きがあるの。\\男は女を諦めきれず、\\女と遠くに逃げようと決心するのよ。",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "そんなの駄目じゃん、兄弟の妹なんだろ？\\まさか、兄弟のほうが養子だとか…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "正解。興味ないかと思ったのに、よく知ってるのね。もしかして、こっそり観てた？",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ベタな話だな、そんなの観なくたってわかるさ。\\で、一体どの辺が悲しいんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "え、もしかして…\\生き別れの兄弟に出会った所か？",
+      "dialogue": "出かけるって言うからついてきたのに…\\この有様かよー。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "sigh"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…ごめん。",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あ、いや、怒ってるわけじゃないぞ。\\でも、ちょっと不安だから、俺が先を歩くよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "何を探してるのかだけは、\\正直に話してくれないか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "場所。\\記憶の中の…場所。",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そんなわけないじゃない。男の人ってダメね。\\そんなことじゃ、美しい恋なんてできないわよ？",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "…う、美しい恋？",
+      "dialogue": "記憶の中の場所！？\\そりゃ、ずいぶん難しいものを探してるんだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "confused"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "そうよ、こんな言葉もあるでしょ？\\「愛を知らずに生きていくことなんてできない」。",
-      "char": "c141_01",
+      "dialogue": "えっと…？\\「植物があって」「そばに水」…\\そして「静かな場所」！ここだ！！",
+      "background": "bg065_f",
+      "bgm": "17",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "smile"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ああ…聞いたことあるな。\\天使が悪魔に言い放ったっていう言葉か…",
-      "char": "c000_01",
+      "dialogue": "私の契約者は幼い少女だった…\\ここにはひとりでは来られない。",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "あら、ご主人様もあの映画観たのね！",
-      "char": "c141_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "まあな。俺は悪魔だから愛を知らなくても、\\生きていけるっていうことじゃないか？",
+      "dialogue": "うーん…\\それじゃ、ここは？",
+      "background": "bg061_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "idle"
     },
     "27": {
       "type": "talk",
-      "dialogue": "心配しないで。いつかはご主人様も、\\愛の素晴らしさがわかるはずだから！",
-      "char": "c141_01",
+      "dialogue": "近いけど、ちょっと違う…\\ここまで静かな場所じゃなかった…",
+      "char": "c139_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "28": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "よし、次はここ！\\これでどうだ！",
+      "background": "bg062_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…\\ここでもない。ごめん。",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "だったら、きっとここだろ！",
+      "background": "bg077_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…\\ここもちがう…",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ちぇっ、そうか。\\あー…いつまでも、\\探してばかりはいられないし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "時間の無駄だったか…\\むしろ他のことをしたほうが、\\もうちょいマシだったかもな。時間よ戻れ～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ごめんな。\\もっと俺の頭が良ければ、\\他の場所から探せたのにな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "…え？",
+      "char": "c139_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "もう1日が終わるって時に、\\こんなこと言っても意味ないんだけどさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "今日はここまでにしよう。\\明日もあるし、明後日もあるじゃん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "いつかは探せるさ。\\「記憶の中の場所」を。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,333 +2,204 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "モナ……あの建物、うちと似てるよな？",
-      "background": "bg086_f",
-      "bgm": "31",
-      "char": "c000_01",
+      "dialogue": "こんにちは…ご主人サマ。\\この前のこと、考えておいてくれた？",
+      "background": "bg092_f",
+      "bgm": "19",
+      "char": "c198_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご主人さまったら、ついに本性を現しましたね？\\でも、ニュースに出るなんて、\\スケールが大きいですよ？",
-      "char": "c001_01",
+      "dialogue": "この前のこと？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "left",
+      "facial": "serious"
     },
     "3": {
       "type": "talk",
-      "dialogue": "正直に言ってください。\\引きこもりぼっちというのは、ウソですね？",
-      "char": "keep",
+      "dialogue": "ふふ…とぼけちゃって…\\呼び方の話よ。",
+      "char": "c198_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "before_effect": "shake_weak"
     },
     "4": {
       "type": "talk",
-      "dialogue": "やっぱりうちだったな……",
+      "dialogue": "…ああ、他の奴らはチャイルドって呼んで、\\お前だけ名前で呼べって話か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
     "5": {
       "type": "talk",
-      "dialogue": "一体何をやらかしたのかしら？\\うちのどうしようもないご主人さまは？",
-      "char": "c001_01",
+      "dialogue": "ご名答。\\いい考えでしょう？ ご主人サマ。",
+      "char": "c198_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "と、微笑みながら言うモナの目は\\決して笑っていなかった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どーだろうな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "mvd_post_effect": "none"
     },
     "7": {
       "type": "talk",
-      "dialogue": "とりあえず言っておくけど\\俺はニュースに出るようなことはしてないよ。",
-      "char": "c000_01",
+      "dialogue": "はあ…またはぐらかすの？\\…酷いわ。",
+      "char": "c198_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そもそも、これは俺が起こした事件じゃないっての。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "掌を、空にかざしてください。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "何だって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "天才少女探偵のチャイルドであるセシャト。\\俺を見るたび同じことを言いながら",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "物凄い目つきで俺を睨んでくる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "数日前、この近所で起きた「兄弟殺害事件」。\\容疑者はまだ明らかになっていませんが……",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "まさか、俺が犯人だって言うんじゃないだろうな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "私を何だと思ってるのですか？ 当然、犯人は被害者の兄です。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そのぐらいはニュースからの情報だけでも\\わかります。",
+      "dialogue": "絶対に苦労させないよ…って、\\囁いてくれたあの言葉は、\\やっぱりウソだったのね…",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "17": {
+    "9": {
       "type": "talk",
-      "dialogue": "掌を空にかざすってのは、何の意味があるんだ？\\俺のことを犯人だと思ってるんじゃなくて？",
+      "dialogue": "ウソも何も、そこまで言った覚えないんだけど…\\それに、そもそも名前を呼ぶのは\\お前だけにしろって、どんな頼みだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "多分、今回の事件の動機は\\弟に対する兄の嫉妬だと思われます。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "しかし通常は、嫉妬を感じたからと言って\\実の弟に手をかけることはありません。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "普通の人じゃないんだろうな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "もし、とある存在が彼の怒りを煽ったのであれば\\殺人という最悪の結末になることもあります。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "で、その存在が「悪魔」だって言いたいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "と、答えておきながら少し胸が痛んだ。\\悪魔たちがやらかしたことは、\\ひとつやふたつじゃない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "でも、俺じゃない！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "あのさ、見てればわかると思うけど、\\俺は平和な悪魔なんだぜ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "殺人事件みたいな複雑な事には\\これっぽっちも関わりたくない悪魔なんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "掌を空に……",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "かざせって？\\何なんだよ、それ……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
       "facial": "sigh"
     },
-    "29": {
+    "10": {
       "type": "talk",
-      "dialogue": "そんなに頭がいいのに\\なんで俺が犯人じゃないってことはわかんないんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そうだ、モナ。\\お前が言ってやれよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "サポーターなら主人がピンチの時\\助け船を出してくれてもいいだろ？",
+      "dialogue": "そんなことしたら、不便だろ？",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "32": {
+    "11": {
       "type": "talk",
-      "dialogue": "うーん、ご主人さまに助け船ですかあ？",
-      "char": "c001_01",
+      "dialogue": "じゃあ、みんなにはあだ名でもつけましょうよ。\\そうすれば、不便じゃないでしょう？",
+      "char": "c198_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
-    "33": {
+    "12": {
       "type": "talk",
-      "dialogue": "モナは、どうせならご主人さまが犯人だったら\\いいのにって思ってますけど～？",
+      "dialogue": "メス豚、ゴミ、廃棄物、クズ…等々。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "明確でわかりやすい言葉って、\\たくさんあるじゃない？\\名前より、きっとそっちの方が便利よ…",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
-    "34": {
+    "14": {
       "type": "talk",
-      "dialogue": "おい、人聞きの悪いこと言うなよ！\\さっきはニュースに出ただのって文句言ったくせに！",
+      "dialogue": "あだ名の内容が問題だけどな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "あら、どこか問題だった？\\残念だわあ…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "残念だと思ってるのは、たぶんお前だけだ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "sigh"
     },
-    "35": {
+    "17": {
       "type": "talk",
-      "dialogue": "正体がバレるのは困りますけど……\\でも、このほうが悪魔らしいじゃないですか？",
-      "char": "c001_01",
+      "dialogue": "ふふ、ご主人サマってば、素直じゃないんだから。\\私ほど、ご主人サマに忠実な存在はいないのよ？",
+      "char": "c198_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
-    "36": {
+    "18": {
       "type": "talk",
-      "dialogue": "それに、モナが本気を出せばそういう面倒なことは\\すぐに片付けられますから。",
+      "dialogue": "当然、特別扱いしてもらわないと。\\私はご主人サマの、大事な懐刀なんだから…",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "one_ani": "attack"
     },
-    "37": {
+    "19": {
       "type": "talk",
-      "dialogue": "やっぱり……あなた方の仕業だったのですね。",
-      "char": "c200_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "セシャト！違うって！誤解だよ！\\モナ！お前のせいで！",
+      "dialogue": "ぶ、物騒だな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "haah"
     },
-    "39": {
+    "20": {
       "type": "talk",
-      "dialogue": "うふふ♥",
-      "char": "c001_01",
+      "dialogue": "ゼロス、お前の気持ちは嬉しいけど、\\だからって、お前だけを特別扱いするわけには\\いかないんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "haah"
     },
-    "40": {
+    "21": {
       "type": "talk",
-      "dialogue": "真実は必ず明らかになる。\\もうアナタの時代は終わりです。",
-      "char": "c200_01",
+      "dialogue": "わかってくれないか？\\お前にだけ、危険な役目を押し付けられないしな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "haah"
     },
-    "41": {
+    "22": {
       "type": "talk",
-      "dialogue": "真実なんてクソくらえ！ ",
+      "dialogue": "…ふふ。ご主人サマにそう言われたら、\\わからないとは言えないわ…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "惚れ直しちゃった…\\私の契約者も、\\きっと同じ気持ちだったんでしょうね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ん？何か言ったか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "confused"
     },
-    "42": {
+    "25": {
+      "type": "talk",
+      "dialogue": "…何でもないわ。\\今晩のお散歩は、\\この辺りで終わりにしましょう…",
+      "char": "c198_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…惚れ直しはしたけど、特に収穫はなかったし…\\少しがっかりね。\\帰ったら、みんなをいじめようかしら…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

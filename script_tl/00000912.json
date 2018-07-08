@@ -2,95 +2,299 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "本当に楽しいですわ。\\悪魔って、こんなに楽しく暮らしていたのですね。\\ズルいです！",
-      "background": "bg245_f",
-      "bgm": "6",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ルドルフがいなくなった！",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c253_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何やってるんだよ、お前…ホント性格悪いな。\\無駄にモンスターをイジメたり、捕まえて逃したりして…",
+      "dialogue": "また家出か？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "3": {
       "type": "talk",
-      "dialogue": "モンスターと戯れるアシュトレス。\\それは遊びと言うべきか、暴走と言うべきか…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…そうなのかしら？",
+      "char": "c253_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ここまでやることないだろ？\\相手はとっくに戦意を失ってるみたいだし。",
-      "char": "c000_01",
+      "dialogue": "いいえ。今回は強制的に連れて行かれた痕跡を見つけました。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "勝つためには、徹底的にやるのが常識ではありませんか？しかもこちらは私のみ、相手は多数ですよ。",
-      "char": "c194_01",
+      "dialogue": "まさか、さらわれたのか！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "しかし、心外ですわね。\\中途半端なチャイルドと陰で噂でも立てば、ご主人様の名誉に傷がつくというのに…",
-      "char": "keep",
+      "dialogue": "生意気な！よくも私のソリ引きを拉致したわね！\\一生後悔させてあげる。",
+      "char": "c253_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "7": {
       "type": "talk",
-      "dialogue": "正論だ。こんなこと言われたら、主人としては反論できない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "貴女のソリ引きではありません。\\御主人様のチャイルドです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "irritation"
     },
     "8": {
       "type": "talk",
-      "dialogue": "気持ちはありがたいが、こんなやり方で暴れたら危なくなるのはこっちだぞ。\\命をかけたチームプレイなんだし、少しは協調しろって…",
+      "dialogue": "そういうのは後回しにして、まずはルドルフを助け出そう！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "fury"
     },
     "9": {
-      "type": "talk",
-      "dialogue": "申し訳ございませんでした。ご主人様。\\少し浮かれて、暴れてしまったようです。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ご主人様に歯向かうつもりはありません。\\許していただけますか？",
+      "dialogue": "うう…一体何だよ…\\昼寝中のソリ引きをさらうなんて…",
+      "background": "bg129_f",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "おじさん、バチ当たるよ！",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "11": {
+    "12": {
       "type": "talk",
-      "dialogue": "ウソつきめ…\\そんなこと、これっぽっちも思ってないだろ？",
+      "dialogue": "ふん！人質のくせにやかましい！",
+      "char": "m216_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "人質？どうして俺を人質なんかに？",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あー、分かった。ニコルだな？\\おじさん、あの女のこと嫌いだもんね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "でも思い通りにならないと思うよ。\\あの女、すっごいズボラだから。\\なかなか動こうとしないんだから…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ここね、泥棒！",
+      "char": "c253_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あれ？…ウワサをすればホントに来た！",
+      "char": "c225_01",
+      "speaker": "same"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ふん！引っかかったな、ニコル！",
+      "char": "m216_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "もう、誰にもついて行くなって言ったでしょ？",
+      "char": "c253_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ぎゃ！何で俺を叩くんだよ！",
+      "char": "c225_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "まったく…\\恥ずかしくて外も歩けないわ！",
+      "char": "c253_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "こんなことするくらいならさっさと消えろ！\\今日から偽サンタのソリ引きになってやる！",
+      "char": "c225_01",
+      "speaker": "same",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "殺してやる！",
+      "char": "m216_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "うるさいわね！今、喧嘩してるのが見えないの？",
+      "char": "c253_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "こ、ころ…",
+      "char": "m216_01",
+      "speaker": "same"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "勝手に入ってくるな、おじさん！",
+      "char": "c225_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "生意気な女に生意気なソリ引き！二人とも容赦は…",
+      "char": "m216_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "どいてっ！",
+      "char": "c253_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ぐわっ！",
+      "char": "m216_01",
+      "speaker": "same",
+      "before_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "はあ、はあ…\\ニコル、1人で出て行くなってあれほど…\\ん？もうルドルフを救出したのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "sigh"
     },
-    "12": {
+    "31": {
       "type": "talk",
-      "dialogue": "アハッ。",
-      "char": "c194_01",
+      "dialogue": "それより…\\なんでフェアリーのヤツ、地面に伏せてるんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "犯人はニコルのようですね。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "そうかニコルにやられたのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "くうっ…",
+      "char": "m216_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ソリ引きが家出した理由\\何か思い当たる節があるだろ。",
+      "char": "c225_01",
+      "speaker": "same"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "私のせいでアナタが逃げたとでも言いたいの？\\いつまで言い訳するつもり？",
+      "char": "c253_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "before_effect": "shake_weak"
     },
-    "13": {
+    "37": {
+      "type": "talk",
+      "dialogue": "一件落着したようなので、フェアリーを連れて帰りましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "smile",
+      "one_ani": "attack"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "はぁ…ほんとお騒がせなヤツらだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "許さん…生意気な女め…ぐおっ…",
+      "char": "m216_01",
+      "speaker": "same",
+      "distance": "near",
+      "after_effect": "shake"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

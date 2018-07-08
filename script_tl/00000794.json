@@ -1,307 +1,222 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg114_f",
-      "bgm": "8",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "よろしいですか？\\霊に接する際は、相手を尊重する心が大切なのです。",
+      "background": "bg106_f",
+      "bgm": "42",
+      "char": "c318_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "君は、また舞台に立ちたいのか。",
-      "char": "c121_01",
+      "dialogue": "む、無茶言うなよ…\\お化けを尊重する悪魔なんて聞いたことないし…\\大体俺は、一切関わりたくない！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "irritation"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ごめんなさい、現状が不満なわけじゃないんです。\\ただ…少しだけ、恋しくて。",
-      "char": "c358_01",
+      "dialogue": "しーっ、そのような事…\\どこで誰が聞いているかわかりませんよ？",
+      "char": "c318_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near"
     },
     "4": {
       "type": "talk",
-      "dialogue": "アイドルですものね…\\閉じこもっているのが嫌な気持ちはわかります。",
-      "char": "c045_01",
+      "dialogue": "魂魄は昼夜場所を問わず彷徨っているもの。\\お言葉に気を付けなければ、不要な災いを被ることになりますよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "distance": "near"
     },
     "5": {
       "type": "talk",
-      "dialogue": "でも…ミクちゃんが外に出たら、またこの前の\\二の舞じゃないかな。",
-      "char": "c061_01",
+      "dialogue": "わ、災い…！？\\なんで俺がそんな目に…\\っていうか、お前に会ってから未知の厄介事が増えたのは気のせいか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうだな。\\単独ライブなど開いたらチケットの奪い合いに…\\それこそ、魔王争奪戦並みの騒ぎになりそうだ。",
-      "char": "c121_01",
+      "dialogue": "魔王争奪戦だけでも手一杯なのに、巫女だのお化けだの…お手上げだよ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "smile",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "sigh"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…だったら、飛び入り参加しちゃえばどうです？",
-      "char": "c045_01",
+      "dialogue": "そのようにお考えとは存じ上げませんでした…\\わたくしは良かれと思って…\\でも、貴方様には重荷になっていたのですね…",
+      "char": "c318_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "誰かのライブに突撃するってこと？",
-      "char": "c061_01",
+      "dialogue": "そ、そこまでは言ってないよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "joy"
+      "pos": "left",
+      "facial": "confused"
     },
     "9": {
       "type": "talk",
-      "dialogue": "その通りです！\\今度セイレーンとミューズさんでライブセッション\\するじゃないですか！",
-      "char": "c045_01",
+      "dialogue": "ごめん…\\お前の気持ちも考えず、好き勝手言って悪かったよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sulky"
     },
     "10": {
       "type": "talk",
-      "dialogue": "規模もそこまで大きくないから、そこならミクさんが参加しても問題にならないはず！",
+      "dialogue": "それはそうと、お前も大変だな。\\お化け…じゃなくて霊が見えちゃう体質なんて。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "で、でも…\\それだと、ご迷惑をお掛けしてしまうんじゃ…",
-      "char": "c358_01",
+      "dialogue": "これからも、霊たちと共存していかないといけないんだろう？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "二人とも、全然迷惑なんかじゃありませんよね！？",
-      "char": "c045_01",
+      "dialogue": "わたくしの心配をしてくださるのですか？",
+      "char": "c318_01",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "うん、構わないよ。むしろ楽しみだよ。",
-      "char": "c061_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "私もかまわない。\\軽い暇つぶし程度の小規模なものだしな。",
-      "char": "c121_01",
+      "dialogue": "ふふ…ご心配なさらずに。わたくしは、このような体で良かったと思っています。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "そうなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "15": {
       "type": "talk",
-      "dialogue": "君が参加してくれれば新しい可能性が開けるかもしれない。ぜひ参加してみないか？",
-      "char": "keep",
+      "dialogue": "ええ。",
+      "char": "c318_01",
       "speaker": "same",
       "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c358_01",
+      "dialogue": "貴方様は何故、命ある者が亡者を見る目を与えられたのだと思いますか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "はいっ！",
-      "char": "c358_01",
+      "dialogue": "さあ？考えたこともないな。",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "じゃあ、早速練習しましょう！\\本番まで、あんまり時間はないですから！",
-      "char": "c045_01",
+      "dialogue": "天から授かった力…\\力を持つものは、その力を使う義務があるのです。",
+      "char": "c318_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "shorter",
-      "wait": "shorter"
+      "type": "talk",
+      "dialogue": "わたくしに与えられた義務は…\\生きとし生ける者と亡者の関係を繋ぐ事と思っております。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
-      "type": "curtain",
-      "background": "bg110_f",
-      "wait": "shorter",
-      "fade_in": "shorter"
+      "type": "talk",
+      "dialogue": "取るに足らない存在と思っていたわたくしに、このような重要な役目が与えられるとは…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あいつら、何時まで経っても帰ってこないし…\\様子見にきちまったよ…",
-      "char": "c099_01",
+      "dialogue": "義務は出来る者に与えられる。\\わたくしなら出来ると神様はお考えなのでしょう。\\誠に光栄な事ではございませんか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "enter_from_right_fast"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "べ、別に心配とかはしてないけど！\\ミューズ先生に迷惑かけてないか気になるだけ\\だから！",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "え～っと…\\何言ってるか全然わかんないっす…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "23": {
       "type": "talk",
-      "dialogue": "<b>～♪～♪</b>",
-      "char": "none",
-      "speaker": "none",
+      "dialogue": "ふふ、立場が違えば考えも異なります。わたくしの考えを理解していただきたいとは申しません。",
+      "char": "c318_01",
+      "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "…ん？音楽…？",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "shorter",
-      "wait": "shorter"
-    },
-    "26": {
-      "type": "curtain",
-      "background": "bg114_f",
-      "wait": "shorter",
-      "fade_in": "shorter"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ララ～ララララ～♪",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ん？メルポメネも来たのか。",
-      "char": "c121_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "先生！なんで先生とミクが一緒に練習してんの？",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "今度やるセイレーンとの特別セッションにミクも参加する計画を立てたんだ。",
-      "char": "c121_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…はぁ？",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ふぅ…イイカンジですねっ！\\あれ、メルポメネさん？",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "興味ないとか言ってたのに、来たんですー？",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "なんだかんだで、ミクさんが気になるんだね。",
+      "dialogue": "ただ、わたくしは、自分に与えられた義務をこなすだけ。亡者の話に耳を傾けるまでです。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "35": {
+    "25": {
       "type": "talk",
-      "dialogue": "ミューズ先生が気になって来ただけだっつの！\\アイドルなんてロックじゃないもの、ウチは音楽って認めないから。",
-      "char": "c099_01",
+      "dialogue": "貴方様も、どうか彼らを憐れんでやってください。\\そうすれば通じ合う事もいつかできましょう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
-    "36": {
+    "26": {
       "type": "talk",
-      "dialogue": "何ですかそれー！",
-      "char": "c045_01",
+      "dialogue": "それは、遠慮したいかな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "うう…なんかこんな話してたら、背筋が寒くなってきたような…肩も重くなってきた気がするし…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
       "before_effect": "shake"
     },
-    "37": {
+    "28": {
       "type": "talk",
-      "dialogue": "私は、ロックも好きですけど…",
-      "char": "c358_01",
+      "dialogue": "ごめん、もう行くわ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "irritation",
+      "after_effect": "go_to_left_point"
     },
-    "38": {
+    "29": {
       "type": "talk",
-      "dialogue": "可愛くて天使な歌姫がロックのソウルわかるわけ\\ないし。",
-      "char": "c099_01",
+      "dialogue": "ふふ、そんなに怯えなくとも…\\亡者たちにからかわれてしまいますよ…",
+      "char": "c318_01",
       "speaker": "same",
-      "pos": "center",
-      "one_ani": "attack"
+      "distance": "near"
     },
-    "39": {
-      "type": "talk",
-      "dialogue": "そんなこと…\\私だって、歌に魂を込めてます！\\歌を届けたい気持ちは同じはずですっ！",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "どうだか…\\ま、あんたらはあんたらで勝手にやれば\\ウチには関係ないけど。",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "メルポメネさん…",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "…やれやれ。素直じゃないな。",
-      "char": "c121_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "43": {
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

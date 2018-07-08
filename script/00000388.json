@@ -2,253 +2,296 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "「おはよう、元気？」…これじゃあ、いつも通りか。",
-      "background": "bg098_f",
-      "bgm": "4",
-      "char": "c065_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "はぁい♥\\今日はホントいいお天気。まるでデート日和ね。",
+      "background": "bg011_f",
+      "bgm": "19",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "「そのネクタイ素敵ね」…って声をかけられる\\ほど、特別なネクタイはしてこないだろうし…",
-      "char": "keep",
+      "dialogue": "もしかして、デートの約束でもありましたか？",
+      "char": "c064_00",
       "speaker": "same_full",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あ、あの…お客様？\\うちの店の前で、何をしてるんですか？",
-      "char": "c000_01",
+      "dialogue": "あらあら、私はアナタとのデートのことを言っているのよ？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right",
+      "facial": "tempt"
     },
     "4": {
       "type": "talk",
-      "dialogue": "きゃっ！\\…なんだ、君か。びっくりしたあ。\\朝からお仕事、大変ね。",
-      "char": "c065_00",
+      "dialogue": "…そうですか。\\では、今度こそ私の提案を受け入れて貰える、ということでしょうか？",
+      "char": "c064_00",
       "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake_weak"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そういうあんたこそ、\\朝から考え込んで、大変そうだな。\\何をそんなに悩んでたんだ？",
-      "char": "c000_01",
+      "dialogue": "そうね。実は私ね、反省しているの。\\今まで、ちょっとアナタに冷たすぎたかなって。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "pretense"
     },
     "6": {
       "type": "talk",
-      "dialogue": "べ、別に何も悩んでなんてないわよ。",
-      "char": "c065_00",
+      "dialogue": "はあ…それで？",
+      "char": "c064_00",
       "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "その割には、さっきから店の前で、\\ぶつぶつ言ってたみたいだけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "それでね…\\アナタともっとお話ししてみようと思ったの。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "今日のあたし、どう思う？",
-      "char": "c065_00",
+      "dialogue": "回りくどい話は苦手です。\\結論を話していただけますか？",
+      "char": "c064_00",
       "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "どうって…何が聞きたいんだ？",
-      "char": "c000_01",
+      "dialogue": "ふふ、せっかちなのね、お嬢さん♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah",
-      "before_effect": "shake_weak"
+      "pos": "right",
+      "facial": "smile"
     },
     "10": {
       "type": "talk",
-      "dialogue": "もうっ、あたしの見た目のことよ！\\服は似合ってると思う？",
-      "char": "c065_00",
+      "dialogue": "……\\しかし、まさか検討頂けるとは思いませんでした。",
+      "char": "c064_00",
       "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "靴やメイクは？\\どこもおかしくない？",
+      "dialogue": "でも、貴方のその表情…\\何を考えているのか分かりません。",
       "char": "keep",
       "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "立て続けに聞かれ、思わず後ずさりしてしまう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "正直に言ってしまうと、気に入りませんね。\\考えを見せない相手は油断なりません。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ど、どうかな。\\俺、女の子の服とか化粧とか、\\全然わかんないし…",
-      "char": "c000_01",
+      "dialogue": "ふふふ、褒め言葉として受け取っておくわ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "はあ…そうよね。\\お子様に聞いたあたしがバカだったわ。",
-      "char": "c065_00",
+      "dialogue": "あなたの心、当ててみせましょうか？\\今回も断るつもりですよね？",
+      "char": "c064_00",
       "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "見た目より、\\そういう失礼なこと言う性格を直せよ。",
-      "char": "c000_01",
+      "dialogue": "あら、もっとお利口さんだと思ったけど…？\\よかったわね、ハズレよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
+      "pos": "right"
     },
     "16": {
+      "type": "talk",
+      "dialogue": "では、引き受けていただけるのですか？",
+      "char": "c064_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ええ、あなたの雑誌のモデル…\\やらせてもらうわ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "まぁ、昔から知り合いに薦められてたしね？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "やっぱり…",
+      "char": "c064_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "それじゃ、早速契約しましょ？\\書類は、私の方で用意してきたけど…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "確認してもらえる？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "いいでしょう。",
+      "char": "c064_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "23": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "17": {
-      "type": "talk",
-      "dialogue": "ひっく、ひっく…ふええん！\\子供に何がわかるのよお～！",
-      "background": "bg034_f",
-      "bgm": "19",
-      "char": "c065_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "あたしがあ～好きだってえ～言ってるのにぃい！\\なぁんでわかってくれないのよぉ～！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "みっともないわね。",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ひっく…な、何ですって？",
-      "char": "c065_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "似合いもしないセクシーな服を着て、\\ヘタクソな化粧をしたからって、",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "男はなびいてこないわ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "男を誘うにはね、香りが必要なの。\\一度嗅いだら忘れられない、極上の香り。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
     "24": {
       "type": "talk",
-      "dialogue": "香りぃ？\\あ、あんた、まさか、高級な香水でも売りつける\\気じゃないでしょうね！？",
-      "char": "c065_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "しっかりしてるように見えて…",
+      "background": "bg011_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…はあ。\\あんたみたいな女にアドバイスしたって、\\時間の無駄みたいね。",
-      "char": "c065_01",
+      "dialogue": "よく騙されるよなぁ。お前の契約者。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "irritation"
     },
     "26": {
       "type": "talk",
-      "dialogue": "でも、契約者のよしみで、もうひとつだけ。\\愛されたければ、もっと自分を知りなさい。",
-      "char": "keep",
+      "dialogue": "聞こえないわ。何か言ったかしら？",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…自分を知る？",
-      "char": "c065_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "…なんでもありません。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "28": {
       "type": "talk",
-      "dialogue": "それじゃあ、これからも、もがきなさいな。",
-      "char": "c065_01",
+      "dialogue": "はぁ…仕方ないわよ。\\サキュバスが本気を出せば、いくら強い意志の持ち主でも騙される。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "……\\…あれ？\\さっき、ものすごくキレイなお姉さんがいたような…",
-      "char": "c065_00",
-      "speaker": "same_full",
-      "distance": "normal"
+      "dialogue": "私の契約者は、モナに《また》断られたと思ってる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "それに、この香り、何だろ…\\一度嗅いだら、忘れられないような…",
+      "dialogue": "そして…\\しばらくしたら《また》モナのところを訪れるわ。",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "pos": "right"
     },
     "31": {
+      "type": "talk",
+      "dialogue": "モナがそんなに魅力的だなんて知らなかったよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ええ、ホント魅力的な人ね。美人だし。\\人間にはない蠱惑的な雰囲気もあるし……",
+      "char": "c064_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "でも、単純にそんな理由だけじゃないわ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "隙を見せて、自分の有利な状況に引きずり込む。\\本人は、うまく行ってると思い込み、結果彼女に振り回される。\\ホント、悪い女ね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "振り回すのはモナの特技だからなぁ。\\人間だけじゃなく、悪魔にもそうだし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "サキュバスに振り回される悪魔なんて貴方ぐらいよ。私は違う。あんな女に振り回されないわ。",
+      "char": "c064_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "自信満々だな。\\モナを甘くみると痛い目を見るぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "それは、貴方の経験からの言葉かしら？",
+      "char": "c064_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "聞こえな～い。何か言ったかな～？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "joy"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

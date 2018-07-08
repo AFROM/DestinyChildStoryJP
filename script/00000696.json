@@ -2,243 +2,289 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "キャハハ！",
+      "dialogue": "ボス。\\チャイルドたちがあんたのことを褒めていたぞ。",
       "background": "bg086_f",
-      "bgm": "4",
-      "char": "c003_01",
+      "bgm": "9",
+      "char": "c227_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "joy"
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "笑うな！",
-      "char": "c000_01",
+      "dialogue": "ありえません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "distance": "near"
     },
     "3": {
       "type": "talk",
-      "dialogue": "笑いすぎてお腹痛いよ！\\ダビ死んじゃうー！キャハハ！",
-      "char": "c003_01",
+      "dialogue": "えっ、嘘！？\\って、返事早っ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ご主人様も笑って！",
-      "char": "m150_01",
-      "speaker": "same"
+      "dialogue": "申し訳ありません、御主人様。\\つい反射的に思ってもいない\\否定をしてしまいました。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "やかましい！",
+      "dialogue": "「思ってもない否定」！？…\\本当かな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ふうむ…どうやら、ボスは\\サキュバスたちとはうまくいっていないようだな。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "いいえ、私たち御主人様にお仕え出来て\\とっても、とーっても幸せですわ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "リザってそんなに棒読みみたいな話し方だっけ…？\\っていうか、なーんか気になる言い方だな…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "none"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "精進します。\\思ってないことを言う時も\\笑顔で滑らかに言えるように。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "「思ってないこと」って言っちゃったじゃん！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "冗談はさておき。\\正直、少し違和感がありますね。\\チャイルドたちが御主人様を褒めるなんて…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "before_effect": "none"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "御主人様はいつもチャイルドに\\振り回されているだけなのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "before_effect": "none"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "否定できないのが悔しい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "振り回す、それだ。\\どうやら扱いやすい主人だと\\気に入っているようだな。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "えーと、褒められてるって思っていい？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "6": {
-      "type": "talk",
-      "dialogue": "笑う門には福来る、ってね！",
-      "char": "m150_01",
-      "speaker": "same"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "まったく…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "いいなー！こんなに大きな\\飼い犬ができて！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "いつまで俺をからかう気だ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "犬！ハットトリックはご主人様の犬！",
-      "char": "m150_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "違う！なんでお前が俺の飼い犬なんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ぐすん…",
-      "char": "m150_01",
-      "speaker": "same"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "お前は俺のモンスターで、飼い犬じゃない。\\こんなに大きなペットはいらないよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "でもさ、ご主人様。モンスターって怖いじゃん？\\僕はご主人様の飼い犬になりたいの！",
-      "char": "m150_01",
-      "speaker": "same"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そういうことは鏡を見てから\\言ってくれないか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
     "16": {
       "type": "talk",
-      "dialogue": "ご主人様、一緒に遊ぼう！",
-      "char": "m150_01",
-      "speaker": "same"
+      "dialogue": "何にせよ、好意的に受け入れられていることは\\間違いないんだ。誇りに思っていいのでは？",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "こいつが拗ねたら何をしでかすか分からない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そりゃありがたいけど。\\その好意的なチャイルドたちの中に\\お前って入ってるの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "はあ…",
+      "dialogue": "いいや、今のところは入っていない。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "今のところは、ってことは、\\これからそうなる可能性があるってことだよな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
-    },
-    "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "facial": "haah"
     },
     "20": {
       "type": "talk",
-      "dialogue": "好感度を上げるための彼なりのやり方です。",
-      "background": "bg086_f",
-      "char": "c002_01",
+      "dialogue": "まあな。\\まだ背を預けるには互いを知らなすぎるだろう。\\オレはこう見えても堅実なタイプでね。",
+      "char": "c227_01",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そんな風に言ったらすごいみたいに聞こえる。",
-      "char": "c000_01",
+      "dialogue": "そうですね。\\御主人様がいつ逃げ出すかわからないですから…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "私はそうは思いませんが…",
-      "char": "c002_01",
+      "dialogue": "どういう目で見られてるんだよ、俺は！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "だろうな。",
-      "char": "c000_01",
+      "dialogue": "おお、そう言われて怒るってことは…\\いざって時、逃げ出さない男だっていうのかい？",
+      "char": "c227_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "適当に合わせてあげてください。\\体格に見合わない心の持ち主なだけです。",
+      "dialogue": "確かに、御主人様は普段はいつでも逃げ腰ですが。\\いざっていう時に尻尾を巻いて逃げ出す姿は見たことありません。",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "pretense"
     },
     "25": {
       "type": "talk",
-      "dialogue": "一緒に遊んであげてください。",
+      "dialogue": "ただ、そのいざっていう時が中々訪れないので\\そのいい面が中々見せられないのは事実です。\\それに…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "pretense"
     },
     "26": {
       "type": "talk",
-      "dialogue": "あんなにでっかい奴とどうやって？",
+      "dialogue": "戦闘能力、人心掌握能力、帝王学…\\あらゆる面で他の魔王候補より劣っているのも事実。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ふむ、的確な分析だ。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "俺の目の前で好き勝手言っちゃってさあ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "27": {
-      "type": "talk",
-      "dialogue": "<b>ご主人様！</b>",
-      "char": "m150_01",
-      "speaker": "same",
-      "before_effect": "enter_from_right_fast",
-      "screen_effect": "dialog_shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "うわっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
-    },
     "29": {
       "type": "talk",
-      "dialogue": "遊ぼうよー、ご主人様！",
-      "char": "m150_01",
+      "dialogue": "これ以上怒らせたくないなら、\\さっさとこの部屋から出ていけ！",
+      "char": "keep",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "30": {
       "type": "talk",
-      "dialogue": "一緒に…遊ぶ…？",
-      "char": "c000_01",
+      "dialogue": "ふむ、それで怒る矜持は持ち合わせている。\\なるほど、なるほど…悪魔と言うよりも\\人間に近いのだな。",
+      "char": "c227_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "right",
+      "distance": "near"
     },
     "31": {
       "type": "talk",
-      "dialogue": "普段通り適当に…\\いつもそうやって仕事してきたじゃないですか。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…俺が悪かった。",
+      "dialogue": "な、何だよ？もういいだろ。\\出ていけってば！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "cry"
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ボスのいい面、悪い面が何となくわかって来たぞ。\\なあボス、美味しい話があるんだが\\ひとつ乗らないか？",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "33": {
+      "type": "talk",
+      "dialogue": "は？\\お、俺は余計なことはしないぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "何、たぶんあんたに向いてる仕事だ。\\オレの契約者の件だが…どうも臆病すぎて、\\友達ができないようでな。",
+      "char": "c227_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "事情を知っているあんたが、\\友達として少し付き合ってやってくれ。\\…簡単で、あんたに向いてるヤマだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "一体主人を何だと思ってるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "sigh",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

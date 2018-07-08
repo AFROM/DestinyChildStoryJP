@@ -2,327 +2,43 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あれれ…<color=ff9900>魔界の獣</color>？\\どうしてこんなところに<color=ff9900>魔界の獣</color>がいるのかしら？",
-      "background": "bg159_f",
-      "bgm": "21",
+      "dialogue": "いよいよ時が来ましたね…",
+      "background": "back_dim50",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "400623001"
+      "distance": "near",
+      "facial": "pretense"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ゲホッ…奴ら、こちら側に来たようじゃな。\\すまない。しくじったわ。\\ケガはなかったか？闇の種よ…",
-      "char": "c257_01",
+      "dialogue": "ん？何の時…？",
+      "char": "c000_01",
       "speaker": "same",
-      "screen_effect": "dark",
-      "voiceid": "400623002"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "3": {
       "type": "talk",
-      "dialogue": "カールホースの気配をたどって、やってきたのはアンダーグラウンドの一番深いところだった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "400623003"
+      "dialogue": "フフ、ご主人さまはチャイルドが60レベルになると、これ以上成長できないと思ってらっしゃるようですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そこで俺たちは魔界の獣と出会った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "400623004"
+      "dialogue": "…そうだけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "5": {
       "type": "talk",
-      "dialogue": "これって一体どういうこと！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake",
-      "voiceid": "400623005"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "わしと戦っていた獣がそちらに逃げたようじゃ。",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "confused",
-      "voiceid": "400623006"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "魔界の獣って、まさかそんなはず…\\魔界生まれの生物は人間界で生きるのは難しいはずだろ？チャイルドやモンスターみたいに、ここで生まれたわけでもなさそうだし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "confused",
-      "voiceid": "400623007"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "どうなんですか？カールホース様？",
+      "dialogue": "<b>同じチャイルド同士を合成<b>すると、最大レベルが上がるということを知らなかったんですね♥",
       "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "400623008"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "そうじゃな、何から話したものか…\\しかし、わしも衰えたものよ。\\安寧を望んだ結果がこの様とは。ゲホッ…",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400623009"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "爺さん、大丈夫か？\\結構、怪我してるだろ？あまり動くなよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "400623010"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ゲホッ、ゲホッ…\\これは気を使わせてすまんのぅ。",
-      "char": "c257_01",
-      "speaker": "same",
-      "one_ani": "attack",
-      "voiceid": "400623011"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "いいえ、私達のことは気にしないでください。\\ところで…今のは本当に魔界の獣ですか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "400623012"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ああ、説明しよう。一旦場所を移すかのう。",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400623013"
-    },
-    "14": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "めちゃくちゃになったコロニーから離れ、落ち着ける場所についたカールホースは深い溜め息をついた後、ゆっくり話を始めた。",
-      "background": "bg158_f",
-      "bgm": "23",
-      "char": "none",
-      "speaker": "none",
-      "pos": "right",
-      "screen_effect": "dark",
-      "voiceid": "400623014"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "先日、わしらはコロニーの収容人数を増やすために増築工事を行なったんじゃ。",
-      "char": "c257_01",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "400623015"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "しかし、そこで問題が発生した。\\地盤の片方が崩れ落ちた状態で増築を重ねた結果、\\<color=ff9900>魔界の角</color>に触れてしまったようなのじゃ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400623016"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "<b>魔界の角</b>…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "400623017"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "そうじゃ。\\アンダーグラウンドは、人間界でも魔界の影響を最も多く受けるところに建てられた地下拠点じゃ。",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400623018"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "魔界からの逃亡者、負け犬の巣窟と言っても扉は開けておかなければならないからのう。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400623019"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "確かに、こんなに魔界の影響を強く受ける場所なら、足りない魔力を補充しやすいですね。\\ある意味、理想の要塞と言えますね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "400623020"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "はっはっはっ！面白い例えじゃの。",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400623021"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "わしは崩れ落ちた地盤から尋常ではない気配を感じてのう。1人で調査に来たら、あれとばったり会ったというわけじゃ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle",
-      "voiceid": "400623022"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "それじゃ、崩れ落ちた地盤を埋めないと、あいつらがまた現れるってことか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "400623023"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "そうじゃのう。\\しかし、だからと言ってむやみにアンダーグラウンドを埋めてしまうと、わしらの生活が困ってしまう。",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400623024"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "そりゃそうだよな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "voiceid": "400623025"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ああ～本当に困ったのう…\\どこかに、老い先短いわしを助けてくれる、心優しい魔王候補生はおらんかのう…",
-      "char": "c257_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "400623026"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "voiceid": "400623027"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "このままだと、アンダーグラウンドの皆は干からびて死んでしまう。弱い負け犬たちは、歴史の裏に消えてしまうのかのう～",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400623028"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "あらまあ、そんなの悲しすぎます！\\涙なしでは聞いてられません。ねぇ、ご主人さま？\\オヨヨヨヨ…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh",
-      "voiceid": "400623029"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "モナが涙を自由自在に操れることを俺は知っている…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "400623030"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "この話を断ってしまうと、もっと大変なことになることも…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "400623031"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "……\\この俺でよければ、何かお手伝いしましょうか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "voiceid": "400623032"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "おお、手伝ってくれるのか？！\\すばらしい！さすが現役魔王候補生じゃ！！",
-      "char": "c257_01",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "400623033"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ははは…\\役に立てそうで…本当に嬉しいです…\\はい…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry",
-      "voiceid": "400623034"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "地盤が崩れ落ちた以上、魔界からの襲撃はこれからも起こるじゃろう。",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400623035"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "しかし、おぬしが手伝ってくれれば《変化の風》は止まることはないだろう。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "400623036"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "おぬしさえ良ければ、是非とも我らを助けてほしい。おぬしが我らの為に命を賭けてくれた分、我らもそれに相応しい報酬を用意しよう！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "400623037"
-    },
-    "39": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "speaker": "same_full",
+      "distance": "near"
     }
   }
 }

@@ -2,204 +2,222 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "何をしているんですか、リザ？",
+      "dialogue": "ソネットを仲間に加えてからというもの、\\俺は毎晩のように悪夢にうなされていた。",
       "background": "bg086_f",
       "bgm": "9",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "left"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご覧の通り、お掃除ですが。ふむ…そうですね。\\ヤーガ、これからはあなたに掃除を任せましょう。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "夜中にキィと音を立てて開く扉。足音…\\そして枕元から聞こえてくる、奇妙な音楽…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…私が、ですか？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ええ。あなたは御主人様のチャイルドの中でも、\\数少ない真面目なチャイルドですから。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "御主人様のお部屋の掃除は、\\チャイルドにとって当然の勤めなのです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "わあ、今のリザの口ぶり、\\シンデレラの意地悪なお姉さんみたいだったぞー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "…私はチャイルドの仕事について、\\教えていただけですが。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "いや、小姑みたいだったのが、\\おかしくなってついな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "小姑ですか…\\それは御主人様のような方に仕えている以上、\\どうしようもないことかと。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ん、どういう意味だよそれ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "御主人様は自己管理がなっていません。\\ですので、私が小姑のフリをせざるをえないのです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "似合わないなあ～、ぷぷ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…私をバカにしているんですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "そういうワケじゃないけど、\\似合わないのは事実じゃん。\\説教の鬼、リザさんがさー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "まあでも考えてみたら、リザは小姑っていうより\\どっちかって言うと、姑かなー",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "御主人様…お望みでしたら、\\姑のようにいびって差し上げましょうか？",
-      "char": "c002_01",
+      "dialogue": "ああ…アクマ…悪魔ぁ…",
+      "char": "c115_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near",
-      "facial": "serious"
+      "screen_effect": "dark"
     },
-    "17": {
+    "4": {
       "type": "talk",
-      "dialogue": "うおっ！ごめんごめん。それはカンベンしてくれ。\\ヤーガ、ホウキ貸して。俺が自分でやるよ。",
+      "dialogue": "うわぁ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "serious",
+      "before_effect": "shake"
     },
-    "18": {
+    "5": {
       "type": "talk",
-      "dialogue": "こうでもしないと、リザ様のお怒りが…\\って、ヤーガ？",
+      "dialogue": "やめろよ！\\寝てる時は枕元に立つなって、言っただろ！\\この幽霊！",
+      "bgm": "12",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "none"
     },
-    "19": {
+    "6": {
       "type": "talk",
-      "dialogue": "リザが渡したホウキを手に、\\なぜかヤーガはぼう然と無言で立ち尽くしていた。",
-      "char": "none",
-      "speaker": "none"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あ…そういや、こんなホウキなんて、\\うちにあったっけ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "いえ…その辺に転がっていたので、\\拝借しただけですが…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c117_01",
+      "dialogue": "悲しみを止めて欲しいと願ったはずなのに…\\悲しい演奏をしろと命じられた、\\私の気持ちが分かって…？",
+      "char": "c115_01",
       "speaker": "same",
       "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "意味が分からないっ！\\こんなことで慰めになるワケがないでしょうっ？\\バカぁっ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ああ、恨めしい人生…♬辛いばかりの世の中…♬",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "怒りのまま演奏を始めるソネット。\\き…聞いてるだけで精神がゴリゴリと削られていく。",
+      "char": "none",
+      "speaker": "none",
       "screen_effect": "dark"
     },
-    "23": {
+    "10": {
       "type": "talk",
-      "dialogue": "おい、ヤーガの様子が変だぞ？\\体からオーラみたいなのが…",
+      "dialogue": "こんなのが敵だったらと思うとゾッとするけど、\\こうも夜中にうるさくされたら、\\敵と大差ないかもしれないな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "俺に文句つけられても困る。\\こっちだって、幽霊との契約なんて\\ほとんど専門外なんだよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "24": {
+    "12": {
       "type": "talk",
-      "dialogue": "私の…ホウキに触れるとは…！",
-      "char": "c117_01",
+      "dialogue": "それに歌に関しちゃ、ダビのせいだ！\\あいつが歌えば気分が晴れるって言ったから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "せめて賑やかな鼓笛隊に生まれれば、\\いい気分になれたのに♬\\どうしてレクイエムなのよ♬悪魔♪悪魔♪悪魔♪",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ワザとじゃないし！\\レクイエムが得意なお前が出てきちまったんだから、もう仕方ないだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ふふ、そっか。やっぱりままならない世の中…\\私の人生に、幸せなんて訪れないのよね。",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "早死にした上に、悪魔と出会ってこんな目に…\\そう♬あなたもご一緒に♪あの世へ♬",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "screen_effect": "dark"
+      "distance": "near"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "変な歌はやめろよ…\\あと厳密に言うとお前は幽霊じゃなくて、\\幽霊から生まれたチャイル…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "と、とにかくだっ！\\お前は幽霊じゃないんだから、\\もう幽霊の真似はやめろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ああっ！もう私をかき乱さないで！\\私は永遠に、この絶望を歌い続けていたいのっ！",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うわああ！セイレーン、助けてくれ！\\このままじゃ歌で呪い殺されちまう！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あら、素敵なメロディではありませんか。\\悪魔様。",
+      "char": "c061_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "死から始まる音の奥ゆかしさ。\\言葉を乗せるだけで詩になりますね♪",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そーかい…波長が合って何よりだよ。\\早いトコどっか別の場所で演奏してくれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "うふ、ご主人さま、真夜中の演奏会ですか？\\ひとりで独占しちゃダメですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ちょ、ヤーガ、落ち着け！\\俺だよ、俺！お前の主人！",
+      "dialogue": "グロテスクな音楽がお好みのようですね。\\これは中々、興味深いです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "もう好きにしてくれ…\\俺は台所で寝るよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "悪魔だろうがなんだろうが、絶対に許さない！！！",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dark",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+      "after_effect": "go_to_right_point"
     },
     "27": {
+      "type": "talk",
+      "dialogue": "死せる亡者の歌の集い♬今宵は悪魔も眠らせない♬",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "loop_ani": "attack"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

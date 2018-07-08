@@ -2,246 +2,204 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "モナ、最近家の中でおかしなことが頻発しています。",
-      "background": "bg089_f",
+      "dialogue": "何をしているんですか、リザ？",
+      "background": "bg086_f",
       "bgm": "9",
-      "char": "c002_01",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "おかしなこと？",
-      "char": "c001_01",
+      "dialogue": "ご覧の通り、お掃除ですが。ふむ…そうですね。\\ヤーガ、これからはあなたに掃除を任せましょう。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "はい。\\炊飯器の中でキノコが育ったという都市伝説は聞いたことがありますが、御主人様の炊飯器はひと味違うようです。",
-      "char": "c002_01",
+      "dialogue": "…私が、ですか？",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "まさか、タケノコでも生えていたのかしら？",
-      "char": "c001_01",
+      "dialogue": "ええ。あなたは御主人様のチャイルドの中でも、\\数少ない真面目なチャイルドですから。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いいえ。\\それならば、タケノコ御飯にでもするだけです。\\…ですが炊飯器に入っていたのは食用には適さない、つつじの花でした。",
-      "char": "c002_01",
+      "dialogue": "御主人様のお部屋の掃除は、\\チャイルドにとって当然の勤めなのです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "……\\それは…確かにおかしいわね。",
-      "char": "c001_01",
+      "dialogue": "わあ、今のリザの口ぶり、\\シンデレラの意地悪なお姉さんみたいだったぞー。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "confused"
+      "pos": "left",
+      "facial": "pretense"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ええ。\\その上、洗面台には菜の花が散りばめられ…",
+      "dialogue": "…私はチャイルドの仕事について、\\教えていただけですが。",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "え…？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "confused"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "便器はバラの花びらで詰まっていました。",
-      "char": "c002_01",
+      "dialogue": "いや、小姑みたいだったのが、\\おかしくなってついな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "小姑ですか…\\それは御主人様のような方に仕えている以上、\\どうしようもないことかと。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "10": {
       "type": "talk",
-      "dialogue": "何ですって！",
-      "char": "c001_01",
+      "dialogue": "ん、どういう意味だよそれ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "これは、御主人様に想いを寄せた\\誰かからのプレゼント…",
+      "dialogue": "御主人様は自己管理がなっていません。\\ですので、私が小姑のフリをせざるをえないのです。",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "さすがに、それはないんじゃないかしら。",
-      "char": "c001_01",
+      "dialogue": "似合わないなあ～、ぷぷ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "confused"
+      "pos": "left",
+      "facial": "haah"
     },
     "13": {
       "type": "talk",
-      "dialogue": "…同感です。御主人様を狙った、他の悪魔達の仕業と考えた方が妥当でしょうね。",
+      "dialogue": "…私をバカにしているんですか？",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "right",
+      "facial": "serious"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふふ、そうね。\\ちょっとご主人さまが可哀想だけど♥",
-      "char": "c001_01",
+      "dialogue": "そういうワケじゃないけど、\\似合わないのは事実じゃん。\\説教の鬼、リザさんがさー。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left"
     },
     "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "まあでも考えてみたら、リザは小姑っていうより\\どっちかって言うと、姑かなー",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "フローラ、またお花咲かせてー！",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c018_01",
+      "dialogue": "御主人様…お望みでしたら、\\姑のようにいびって差し上げましょうか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "facial": "serious"
     },
     "17": {
       "type": "talk",
-      "dialogue": "いいよぉ。",
-      "char": "c120_01",
+      "dialogue": "うおっ！ごめんごめん。それはカンベンしてくれ。\\ヤーガ、ホウキ貸して。俺が自分でやるよ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "one_ani": "attack"
+      "facial": "haah"
     },
     "18": {
       "type": "talk",
-      "dialogue": "フローラが来てからというもの、\\家中が花の香りでいっぱいだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "こうでもしないと、リザ様のお怒りが…\\って、ヤーガ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "顔を合わせるたびに稽古だ特訓だって\\飛びかかってくるファイロや、\\妙なことばかり言うアポロンとは全く違う。",
+      "dialogue": "リザが渡したホウキを手に、\\なぜかヤーガはぼう然と無言で立ち尽くしていた。",
       "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "speaker": "none"
     },
     "20": {
       "type": "talk",
-      "dialogue": "この癒し…\\これこそ、チャイルドを得る喜びってやつだな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あ…そういや、こんなホウキなんて、\\うちにあったっけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "フレイヤ、しっぽに花輪をつけてあげるねぇ。",
-      "char": "c120_01",
+      "dialogue": "いえ…その辺に転がっていたので、\\拝借しただけですが…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ニャンニャン！つけてニャ！",
-      "char": "c031_02",
+      "dialogue": "…",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うひゃ！",
+      "dialogue": "おい、ヤーガの様子が変だぞ？\\体からオーラみたいなのが…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "facial": "confused"
     },
     "24": {
       "type": "talk",
-      "char": "c120_01",
-      "dialogue": "あれ？",
+      "dialogue": "私の…ホウキに触れるとは…！",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "before_effect": "none",
-      "one_ani": "none"
+      "screen_effect": "dark"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ちょ、ちょっと待て、フローラ。\\それはフレイヤの尻尾じゃ…うひゃひゃっ。",
+      "dialogue": "ちょ、ヤーガ、落ち着け！\\俺だよ、俺！お前の主人！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake"
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "じっとしててぇ。",
-      "char": "c120_01",
+      "dialogue": "悪魔だろうがなんだろうが、絶対に許さない！！！",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dark",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
     },
     "27": {
-      "type": "talk",
-      "dialogue": "く、くすぐったいんだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "うごいちゃメ！よぉ。",
-      "char": "c120_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "御主人様はあんな場所が弱いのですか…",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "あら♥\\リザがご主人さまの弱いところに興味があるなんて\\知らなかったわ～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "tempt"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…ちがいます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "sigh"
-    },
-    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

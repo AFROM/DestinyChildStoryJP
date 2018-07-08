@@ -2,175 +2,304 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うわああああん！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "うるさい…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ダビのだもん！ダ・ビ・の！\\うえーん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "コイツ、どうしたんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ベルボーイが欲しいそうです。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "あー、《自分だけのベルボーイ》が\\欲しいってことだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ぐすん…！ダビにもベルボーイ買って！\\ダビもベルボーイ！ほしいの！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "fury",
-      "screen_effect": "dialog_shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "うわ…耐えられない。逃げよっと。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "after_effect": "go_to_right_point"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "…こういう時はちゃっかりしてますね。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "フフ…だからダビに言ったんだ。\\《俺のベルボーイ》だってな。",
-      "background": "bg070_f",
+      "dialogue": "何だ、これ…？",
+      "background": "bg089_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "left"
     },
-    "12": {
+    "2": {
       "type": "talk",
-      "dialogue": "ダビのヤツ、俺がひとつでもいいもの持ってると\\羨ましがってダダをこねるから。",
+      "dialogue": "家の冷蔵庫、いつからこんなに\\食べ物がいっぱいだったっけ？\\おかずというおかずは全てそろってる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "リザの奴…面倒くさいだの\\自分は家政婦じゃないだの文句言ってたくせに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "リザの配慮を無駄にしないためにも\\遠慮なくいただこうかな。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "smile"
     },
-    "13": {
+    "5": {
       "type": "talk",
-      "dialogue": "あ、だからってお前を\\物扱いしてるわけじゃないぞ。\\ダビはお前を買ってくれって騒いでるけど…",
+      "dialogue": "御主人様、ご食事中でしたか。\\おかずが食卓いっぱいに…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ちょうどよかった。\\おかげで今日は腹いっぱい食べさせてもらったよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "褒めていただき恐縮ですが\\何か勘違いされているようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それは私が作ったおかずではありません。",
       "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "え？そうなのか？じゃあ、誰が…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "10": {
+      "type": "talk",
+      "dialogue": "それは…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "気に入ったか…？",
+      "char": "m136_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うわっ！？\\び、びっくりした…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "口に合って何より…",
+      "char": "m136_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "オマエは俺の《チャイルド》だからな。\\チャイルドは売り買いするものじゃない。",
-      "char": "keep",
+      "dialogue": "まさかレディ…お前が作ったのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ベルボーイはご主人様のものです。\\ご主人様はベルボーイの《ご主人様》です。",
-      "char": "m137_01",
+      "dialogue": "冷蔵庫、空っぽだった…",
+      "char": "m136_01",
       "speaker": "same",
       "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そうだけど…変こと言っちゃったかな…\\俺はただ、ダビが羨ましがってるのを見て…",
+      "dialogue": "お、驚いたよ！こんなに料理が上手だなんて…\\遠慮せずいただくよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "つい、からかってしまった…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "オマエは《私をお呼びですか？》って言って\\いつでも来てくれるな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ベルボーイはご主人様のために働くことが好きです。",
-      "char": "m137_01",
+      "dialogue": "……",
+      "char": "m136_01",
       "speaker": "same",
       "pos": "right"
     },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "リザ、リザ！",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "20": {
       "type": "talk",
-      "dialogue": "ありがとな、ベルボーイ。",
+      "dialogue": "どうかしましたか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "タンスにしまってあった服が全部消えたんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "マヌケな泥棒だって\\あんな服は盗んでいきません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…知ってるよ。でも消えたのは確かなんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "21": {
+    "24": {
       "type": "talk",
-      "dialogue": "こちらこそ。\\私はご主人様のおかげでここにいるのです。",
-      "char": "m137_01",
+      "dialogue": "それは…",
+      "char": "m136_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ひいっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "私が全部…洗濯した…",
+      "char": "m136_01",
       "speaker": "same",
       "pos": "right"
     },
-    "22": {
+    "27": {
       "type": "talk",
-      "dialogue": "ベルボーイはご主人様のものです。\\いつでも私をお呼びください…",
-      "char": "keep",
+      "dialogue": "全部？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "カビが生えてた…",
+      "char": "m136_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "素晴らしい行いですわ、レディ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "大げさに言いすぎだ。だからって\\レディが苦労してないって意味じゃない…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "でもレディ、無理な仕事を引き受ける必要は\\ありませんよ。\\御主人様が甘えるだけです。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "自分が好きでやってるんだろ。\\止める必要もない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "この怠け者…",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "serious"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "恩を返しただけ…\\この子のおかげで私は…生まれたから…",
+      "char": "m136_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ちょっと怖い顔だけど\\意外といい奴なのかもしれない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "だから…",
+      "char": "m136_01",
+      "speaker": "same",
       "distance": "near"
     },
-    "23": {
+    "37": {
+      "type": "talk",
+      "dialogue": "ひっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "遠慮しないで。",
+      "char": "m136_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "あ、ああ。ありがと、レディ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "でも…\\あんな縛られた状態でどうやって…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

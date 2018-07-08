@@ -2,200 +2,231 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "夜中の2時になると夜道を徘徊し\\戦う相手を探すファイター。",
-      "background": "bg177_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あれ…なんだ、このノート。初めて見るな。\\なんて書いてあるんだ…？",
+      "background": "bg086_f",
+      "bgm": "20",
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ファイターの契約者はそれなりに有名な\\格闘技選手だが、悪魔との闘いで\\負けたせいで無理やり契約を結んだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "《間抜けなトサカ野郎のサポーターとなって早…》",
+      "char": "keep",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうやって生まれたせいなのか、\\ファイターもやはり自分は悪魔に\\負けたと思っている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "《はや…はや…》",
+      "char": "keep",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "夜中の2時はその悪魔に出会った時間だ。\\だからファイターは夜中の2時に夜道を徘徊する。",
+      "dialogue": "《あれ、何年だっけ？》",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ダビの日記帳か。何年って…\\そんなに経ってないだろ…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "盗み見するなって？\\盗み見するなってことはそうしろって意味なんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "じゃ、最初のページからゆっくりと…え？",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "《今日もアイツにお小遣いを取られた。\\両親は私が無駄遣いするって文句ばかり。》",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "5": {
-      "type": "talk",
-      "dialogue": "どうして夜中の2時なんだ？\\昼の2時でもいいじゃないか！\\もしくは夕方6時とか…",
-      "bgm": "12",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "悪魔は夜中に現れるでしょ。\\そんなことも知らないの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "夜は家で大人しくゲームしたり\\テレビみたりゆっくりする時間なんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "見つけた！ウサギ頭！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "9": {
       "type": "talk",
-      "dialogue": "お！俺と戦いに来たのか？",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "《誰も僕のこと分かってない。\\家族も、先生も。》",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "同じ相手とは二度戦わない主義で…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "《知ってる子もいるけど、みんな知らないフリ。\\世界には自分しかいない。》",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ねぇ、なんで汗かいてるの？",
-      "char": "c003_01",
+      "dialogue": "これ、ダビの日記帳じゃないじゃないか。\\あいつ…他人の日記帳に自分の日記を書いてるのか？",
+      "char": "c000_01",
       "speaker": "same"
     },
     "12": {
       "type": "talk",
-      "dialogue": "見なかったことにしてくれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "それじゃ、本当の持ち主は…",
+      "char": "keep",
+      "speaker": "same"
     },
     "13": {
       "type": "talk",
-      "dialogue": "キャハハッ！さっき誰と戦ったか知ってるか？",
-      "char": "m152_01",
+      "dialogue": "俺の契約者の日記だ！",
+      "char": "m151_01",
       "speaker": "same_full",
-      "pos": "right"
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ここで！俺の契約者に会ったんだ！",
+      "dialogue": "バカが書いた！\\悪魔を殺すデスノート！",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
+      "speaker": "same_full"
     },
     "15": {
       "type": "talk",
-      "dialogue": "契約者と戦ったのか？お前、正気かよ！",
+      "dialogue": "何だって？バカなヤツ？\\いや…お前の契約者が書いたって？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "戦ってなかったら契約者だって気付かずに、\\すれ違ってたさ。",
-      "char": "m152_01",
+      "dialogue": "悪魔のデスノート！破ってやる！",
+      "char": "m151_01",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "17": {
       "type": "talk",
-      "dialogue": "やっぱり俺の契約者だ。腕前は相変わらずだった。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "最初に契約者だって気が付かなかったのか？",
+      "dialogue": "おい、待て…！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shortest",
+      "fade_in": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "仕方ないだろ。随分会ってない。",
-      "char": "m152_01",
+      "dialogue": "空から雪が降ってくる…うわあああ…",
+      "background": "bg086_f",
+      "char": "m151_01",
       "speaker": "same_full",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "で、勝ったの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "当然、俺が勝った！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "まったく…",
+      "dialogue": "ああ…破った日記帳が雪のように降ってるな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "cry"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "真面目なダビは毎日日記を書くよー\\真面目なダビはモナ姉さまが大好き！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "before_effect": "enter_from_right_fast"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "今日もダビは日記を書くよ！…あれ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
     },
     "23": {
       "type": "talk",
-      "dialogue": "契約者の方も勝ったけどな！キャハハッ！",
-      "char": "m152_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "やばい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "24": {
       "type": "talk",
-      "dialogue": "おかしいよ…\\二人で戦ってどっちも勝つなんてことあるの？",
+      "dialogue": "ダビの日記帳が…<b>日記帳がぁぁ！！</b>",
       "char": "c003_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…引き分けって言いたいんじゃないのか。",
+      "dialogue": "ああああ！腹が痛いな！いたたたっ！\\ト、トイレに行かなくちゃ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "cry",
+      "before_effect": "go_to_left_slow"
     },
     "26": {
       "type": "talk",
-      "dialogue": "うるさい！\\この俺に引き分けなんてものは存在しない！\\勝つか負けるか、ふたつにひとつだ！",
-      "char": "m152_01",
-      "speaker": "same_full",
+      "dialogue": "トサカ野郎！！！！",
+      "char": "c003_01",
+      "speaker": "same",
       "pos": "right",
+      "facial": "fury",
       "one_ani": "attack"
     },
     "27": {
       "type": "talk",
-      "dialogue": "それこそが戦いの世界！キャハハッ！",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "いや、これは俺じゃなくて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "雪だ…うわあああ…",
+      "char": "m151_01",
+      "speaker": "same_full"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "と～さ～か～や～ろ～！！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "今日はもうおしまいだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,371 +2,250 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "どうやらあなたは魔王争奪戦よりも、お金を稼ぐことの方が大事なようですね。",
-      "background": "bg056_f",
-      "bgm": "9",
-      "char": "c292_01",
-      "speaker": "same"
+      "dialogue": "はぁはぁ…チビっ子お客様～？\\もう決心はつきましたか？",
+      "background": "bg223_f",
+      "bgm": "20",
+      "char": "c296_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "なぁ、ルイン…\\その大事なことについて話を聞いてほしいんだ…",
+      "dialogue": "い、いやいや！ま、まだだけど？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "俺のチャイルド達は、3日に1回は事故るし、家の食糧は2日で食い尽くすんだ。",
-      "char": "keep",
+      "dialogue": "あれれ～私が助けてあげたじゃないですか～",
+      "char": "c296_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
+      "pos": "right",
+      "distance": "near"
     },
     "4": {
       "type": "talk",
-      "dialogue": "サキュバスたちは情報収集が忙しくてアルバイトなんてする暇ないって言うし、悪魔青少年基金なんて雀の涙もいいところだし…",
+      "dialogue": "まさか…まだ助けが必要なんですか～？",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "near"
     },
     "5": {
       "type": "talk",
-      "dialogue": "なあ、ルイン…\\他の悪魔たちも同じ苦労をしてるんだよな？\\俺だけ辛い思いをしているなんてこと、ないよな？",
-      "char": "keep",
+      "dialogue": "ひえっ！！\\そ、それは助けじゃなくて脅迫なんだよ！\\主人に銃を撃つチャイルドがどこにいるんだよ！？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair",
+      "facial": "shock",
       "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "はあ…\\あなたのような貧乏悪魔は見たことがありません。\\おそらく、魔王候補生の中で一番貧しいのではないですか？",
-      "char": "c292_01",
+      "dialogue": "あらら～\\こうするとチビっ子様がもうこれ以上悩まなく\\なるって社長が教えてくれたんですよ～",
+      "char": "c296_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…やめてくれ、ルイン。",
-      "char": "c000_01",
+      "dialogue": "フフフ…\\こんなに激しくなるとは思いませんでしたが…",
+      "char": "c286_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "は？",
-      "char": "c292_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "そんなふうに言われたら…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "言われたら？",
-      "char": "c292_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "泣くぞ！全力で！うわあああ…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "unfair",
-      "screen_effect": "dialog_shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "泣かれても困ります…",
-      "char": "c292_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "チリが積もったところで所詮は、チリの塊なんだよ！どんだけ働いたってコンビニのバイト代じゃ、たかが知れてる…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "だけど、チャイルドたちを養うためには働かなきゃならない…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そもそも…\\チャイルドが増えて負担になるのであれば、強い者だけを残して弱いチャイルドは処分すれば良いではありませんか。",
-      "char": "c292_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "処分…？\\何だよ、それ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "shock",
-      "screen_effect": "dialog_shake"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "チャイルドを処分するだと？\\そんなこと、できるわけないだろ！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "他の悪魔も、そんな酷いことをやるのかよ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "やります。当然のことですよ。\\それとも、このまま役に立たない弱いチャイルドのために苦労するつもりですか？",
-      "char": "c292_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "だから…\\あ～もういい。もし俺が魔王になったらチャイルドを処分するの禁止にするからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "フッフッフッ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "リ、リザ…！",
+      "dialogue": "思ってただろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
       "before_effect": "shake"
     },
-    "23": {
+    "9": {
       "type": "talk",
-      "dialogue": "素敵ですね。チャイルド処分禁止令。\\御主人様は、魔界史上、最も心優しい魔王として語り継がれることでしょう。",
-      "char": "c002_01",
+      "dialogue": "ま、本当は…\\それで、ヒルドの気持ちに応える気になりましたか？",
+      "char": "c286_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
+      "pos": "right"
     },
-    "24": {
+    "10": {
       "type": "talk",
-      "dialogue": "そして、歴代最悪の魔王だとも…\\まぁ、魔王になれたらの話ですが…",
-      "char": "keep",
+      "dialogue": "へ～？",
+      "char": "c296_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "serious"
+      "pos": "right"
     },
-    "25": {
+    "11": {
       "type": "talk",
-      "dialogue": "御主人様を探し出すまでにかかった15分16秒は、本日の休憩時間から引いておきます。\\さぁ、行きましょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "それでは、ルイン様。ごきげんよう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "smile",
-      "after_effect": "go_to_left_point"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "うわわわ…！\\リザ、引っ張るな！",
+      "dialogue": "お、押し付けがましく質問するってことは\\ヒルドも礼儀ってもんをわかってないよな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
-      "before_effect": "go_to_left_point"
+      "facial": "confused"
     },
-    "28": {
+    "12": {
       "type": "talk",
-      "dialogue": "チャ…チャイルド処分禁止令…だと！？\\何をバカなことを考えているのだ…あのチビ猫め…",
-      "char": "c292_01"
+      "dialogue": "ほ～礼儀ですか…\\やはりご主人様にも良いところはありますね。",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right"
     },
-    "29": {
+    "13": {
+      "type": "talk",
+      "dialogue": "それってバカにしてるの？\\それとも本気でほめてるの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "もちろん、本気でほめてますよ？",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ヒルドのことは気にしないでください。\\チビっ子お客様の本音が聞・き・た・い・だ・け～♥",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "その危なっかしい武器を下ろして話すのはダメかな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "あら～これはヒルドと一心同体ですから～",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ちゃんと答えた方が良いと思いますよ、ご主人様。",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ご存知の通りヒルドは独占欲がかなり強いですから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "それが問題なんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "21": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "22": {
+      "type": "talk",
+      "dialogue": "あなた…毎日ヒルドをそそのかしているんですね。",
+      "background": "bg223_f",
+      "bgm": "24",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "私が何故、そんなことをするか…\\理由を知っていて、言っているんですか？",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ヒルドは強力な戦力ですから、御主人様が魔王になるために大きく貢献するでしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "それで良いではありませんか？\\ヒルドはご主人様が好きで、ご主人様もヒルドが必要でしょう。",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "しかし、あなたはまるでそれが問題でもあるかのような言い方ですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "問題ということはないですが…\\あなたが自分の立場を忘れているようなので。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "まぁ、良いでしょう。\\あなたはあなたの目的通り動くだけですから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そして私の仕事は御主人様のためにあなたの目的を\\利用することです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
     "30": {
       "type": "talk",
-      "dialogue": "どうした、ルイン。元気がないようだが。",
-      "background": "bg024_f",
-      "char": "c024_01",
+      "dialogue": "これからもよろしくお願いします、ヴェルデレト。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ルーファス様。申し訳ありません。\\少し考え事をしていました…",
-      "char": "c292_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "お前が考え事をするとは珍しいな。何かあったのか？",
-      "char": "c024_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "いえ…ただ、奴の悪魔らしからぬ発言が理解できなくて……",
-      "char": "c292_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "チビ猫のことか。",
-      "char": "c024_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "確かに、他の候補生たちとは随分と毛色が違うな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…ルイン。\\もしや、ヤツに惑わされたのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "まさか！\\何をおっしゃいますか、ルーファス様！\\そんなことは絶対にありません！！",
-      "char": "c292_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ふふ、そう向きになるな。\\お前の忠誠心を疑ってはいない。",
-      "char": "c024_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "だが…\\お前が悩むのも無理はない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "ヤツは悪魔のくせに魔界を嫌い、人間界を好む変わり者だ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "魔王争奪戦の候補生となったのもヤツの意思ではないと聞く。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "だが全くやる気がないのかと思えば、そうでもない…一体、何を考えているのやら。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "何かと興味の尽きない男だが…\\しかし、ヤツは魔界を治める器ではない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "ルイン。お前は引き続き人間界で、魔王争奪戦の情報を集めてくれ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "情報は、この戦いで勝利を収めるための鍵だ。\\お前の働きに期待しているぞ。",
+      "dialogue": "しかし…邪魔するような行動は謹んでください。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "before_effect": "go_to_right_point"
     },
-    "46": {
+    "32": {
       "type": "talk",
-      "dialogue": "はっ！",
-      "char": "c292_01",
+      "dialogue": "あなたと手を組むのは、魔王争奪戦が終わるまでです…この生意気な女狐め！",
+      "char": "c286_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake"
+      "distance": "near"
     },
-    "47": {
-      "type": "talk",
-      "dialogue": "ルーファス様の御心のままに。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "48": {
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,278 +2,179 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ホルル～！\\またバストの髪にイタズラしたでしょ！\\絶対に許さないんだから～！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "dialogue": "ホルスよ。",
+      "background": "bg064_f",
+      "bgm": "24",
+      "char": "c267_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "まったく…なんですぐ俺を疑うんだ。\\そんな疑い深いヤツに、女王様を任せておくわけにはいかないな。",
+      "dialogue": "呼んだかい、女王様？俺に何か用？",
       "char": "c266_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "3": {
       "type": "talk",
-      "dialogue": "うわ～ん！トサカ野郎！ダビが隠しておいたおやつ、また勝手に食べたな～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "俺がおやつを食べた証拠がどこにある？\\何時何分何秒、地球が何回回った時～？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "も～そんなのわかんないよ！\\いっつもダビが見てない時に食べてるじゃん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ニャ！ここでバストをいじめる悪いヤツは、ホルルだけだもん！",
-      "char": "c274_01",
+      "dialogue": "わらわが封印されたときのことだが…",
+      "char": "c267_01",
       "speaker": "same",
       "pos": "right"
     },
-    "7": {
+    "4": {
       "type": "talk",
-      "dialogue": "も～我慢できない！\\今日という今日は許さないんだからね～！",
+      "dialogue": "またその話？\\何度も話したじゃないか。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あの時は、時代的に祓魔師も多かったし、神も\\たくさんいたってさ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "女王様が<b>悪魔</b>になった途端封印されたのは、ただ運が悪かっただけだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "女王様を封印した奴らもあの時一緒に死んだはずさ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ふん、砂漠でお前を助けてやったのは誰だと思って\\るんだ？口答えばっかりしやがって。",
-      "char": "c266_01",
+      "dialogue": "いや、やはりおかしい…\\わらわを封印した者が死んだ？\\そんな都合のいい事が起こりうるのか？",
+      "char": "c267_01",
       "speaker": "same",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ほんっと、恩知らずなヤツだな…",
-      "char": "keep",
+      "dialogue": "悲しいな…\\2000年も仕えたこの俺を信じられないってこと？",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "心強い味方が増えたと思ったのですが問題児だったようですね。",
-      "char": "c002_01",
+      "dialogue": "傷つくなあ…うん、目には見えないけど、\\心臓から血がドクドク流れ出る気分だ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "sigh"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ご主人さま！\\いつまであの騒ぎを放っておくつもりですか？",
-      "char": "c001_01",
+      "dialogue": "つまり、腹心はバストだけで十分ってことかい？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "teach"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あのな、俺は自分の家の子供ですら言うことを聞かせられないんだぞ？\\余所の家の子供をどうやって止めろって言うんだよ？",
-      "char": "c000_01",
+      "dialogue": "女王様のために海も越えてきたってのに、\\これから何を心の支えに生きていけば…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "confused"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そういう態度を改めていただきたいのですが。",
-      "char": "c002_01",
+      "dialogue": "落ち着け。そんなことでいちいち傷ついていたら、\\魔王争奪戦の前に果ててしまうだろう。",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "shy"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "どうするかを訊くのではなく、ご自分でどうにかしてください。",
-      "char": "keep",
+      "dialogue": "でも、俺はたった今、振られたんだろ？\\それって落ち着いていられるか？",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "shy"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "はぁ…モナはご主人さまのことが心配です…\\いくら魔王候補生になって日が浅いとは言え、その開き直った態度はいかがなものかと…",
-      "char": "c001_01",
+      "dialogue": "ああもう、頭が痛くなる…\\わかった。余計なことは考えないようにしよう。",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "sigh"
+      "pos": "right"
     },
     "16": {
-      "type": "talk",
-      "dialogue": "ま～た始まった。\\いきなりやれって言われても、できるわけないだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "シャー！かかって来い！バカホルル！今日こそ\\決着を…",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak",
-      "one_ani": "attack"
+      "dialogue": "ふぅ…時が経つにつれて記憶が戻ってきているのか。",
+      "background": "dungeon_bg",
+      "bgm": "19",
+      "char": "c266_01",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "いつも口先だけじゃないか！\\お前こそ覚悟するんだな。\\生意気な猫め…",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "小僧の下についたのは、間違いだったか？\\面倒なことになった…",
+      "char": "keep",
+      "speaker": "same"
     },
     "19": {
       "type": "talk",
-      "dialogue": "これはいったい…\\何を騒いでおるのだ！？",
-      "bgm": "9",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "after_effect": "shake"
+      "dialogue": "女王様は、自分が悪魔じゃなくて《チャイルド》\\だって知ったらカンカンに怒るだろうなぁ。",
+      "char": "keep",
+      "speaker": "same"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ニャ～！ご主人様～！\\ホルルが…ホルルが～！",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "まったく、俺も下手を打ったな、アハハ…",
+      "char": "keep",
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "バスト、座れ！ホルス、そなたもだ。\\眠っている間に礼儀も忘れてしまったのか？",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "dialogue": "惚れた女が死にそうだったからって、\\慌てて契約して魂を奪ったまでは良かったが…",
+      "char": "keep",
+      "speaker": "same"
     },
     "22": {
       "type": "talk",
-      "dialogue": "くそ、バストめ…\\結局、お前のせいで俺まで！",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "やはり、死を前にした女を一国の王に仕立て上げるのは、さすがに無理があったか。",
+      "char": "keep",
+      "speaker": "same"
     },
     "23": {
       "type": "talk",
-      "dialogue": "バストだって怒られたもん。\\バカ～！バカホルル～！",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "おかげで2000年間、願いを叶えるためにあの手この手を考える羽目になるなんて…ふぅ。",
+      "char": "keep",
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ホルス…そなたのその態度がバストを挑発していると気付いておらぬわけではなかろう。",
-      "char": "c267_01",
+      "dialogue": "まあ、結果的には大満足なんだけどね。\\《望んだ生き方》というか。アハハ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ほどほどにせぬと、いつか本当に血を見ることになるぞ。",
+      "dialogue": "小僧の下で時間稼ぎでもできればと思ったんだが…\\なにか策を考えないとな…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "それとも、それがそなたの望みか？\\なら、わらわに直接訴えればよい。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
       "distance": "near"
     },
-    "27": {
-      "type": "talk",
-      "dialogue": "しっかり聞き入れてやるぞ？\\…そなたには、日増しに失望が募るばかりだからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ぐっ…！！",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "こっ…怖ぁ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake_weak"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "あら～なんて素敵なんでしょう♥\\胸がドキドキするわね～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "tempt"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ほう？\\ならば、ついにわらわの眷属になる決心がついたか？",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "うふふ、残念です♥\\それとこれとは別の話なんですよね～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "pretense"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ですが…現代に生まれるチャイルドにはない凄まじいまでの威厳です。",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "pretense"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "これはお手本にするべきですよ、御主人様。",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "smile"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "絶対、無理…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "serious"
-    },
-    "36": {
+    "26": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

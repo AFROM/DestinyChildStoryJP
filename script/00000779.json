@@ -1,395 +1,257 @@
 {
   "phase1": {
     "1": {
-      "type": "timebrief",
-      "background": "bg024_f",
+      "type": "talk",
+      "dialogue": "正面素振り50回！\\…そこ！集中してください！",
+      "background": "bg123_f",
       "bgm": "9",
-      "screen_effect": "dark"
+      "char": "c292_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "悪魔ケプリの回想…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "剣先が下がっていますよ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "敏腕サキュバスのリザさん！？\\ここには祓魔師がいるって自分の口で何度も言ってたでしょ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "enter_from_left_fast"
+      "dialogue": "はぁ、はぁ…もうダメです！\\少し休ませてください！",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "4": {
       "type": "talk",
-      "dialogue": "なんで、こんな場所で契約者に会おうとしてるの！？本当は俺を殺す気だろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
+      "dialogue": "ダメです！\\さっきも休んだでしょう。",
+      "char": "c292_00",
+      "speaker": "same_full",
       "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ここには、人間が多く集まります。\\それだけに騙しやすい人間も多いからです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "dialogue": "でも、こんなんじゃ、みんな倒れちゃいますよ！\\いったん休憩にして、先生の初恋の話でも聞かせてくださいよ～",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "6": {
       "type": "talk",
-      "dialogue": "御主人様を殺した後、その地位を乗っ取り悪名をとどろかすのも良いですが…\\まだその時ではないので、どうかご安心ください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "……",
+      "char": "c292_00",
+      "speaker": "same_full"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "それを聞いて安心なんてできるか！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "2人とも、ほどほどにしてください。\\そろそろ契約者候補との面談の時間ですよ。\\いつまで遊んでいるつもりですか？",
-      "char": "c001_01",
+      "dialogue": "ルインよ、デュランダルよ。",
+      "background": "bg188_f",
+      "char": "c024_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "screen_effect": "gray"
     },
     "9": {
       "type": "talk",
-      "dialogue": "モナ、聞いてなかったのかよ？\\リザは俺の命を狙ってるんだぞ！",
-      "char": "c000_01",
+      "dialogue": "私はお前たちを、ただの手駒として扱う気はない。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "screen_effect": "gray"
     },
     "10": {
       "type": "talk",
-      "dialogue": "それになんで、俺ばっかり叱られるんだよ？",
+      "dialogue": "私が魔界の王となるために、お前たちの力を貸して欲しい。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "distance": "near",
+      "screen_effect": "gray"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "モナ姉さまの言うこと聞きなさいよ！\\このバカご主人！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "師匠～\\今日は天気が悪いのでアイスクリームを買って2人で食べましょうよ～？",
+      "background": "bg188_f",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "13": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c311_01",
+      "dialogue": "悪天候とアイスクリームは関係ありません。",
+      "char": "c292_01",
       "speaker": "same",
-      "pos": "center"
+      "screen_effect": "gray"
     },
     "14": {
       "type": "talk",
-      "dialogue": "サポーターを3人も従えている悪魔が…\\情けないヤツだな。",
+      "dialogue": "それに、あなたは今、減量中のはずでは？",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "screen_effect": "gray"
     },
     "15": {
       "type": "talk",
-      "dialogue": "弱点の多い悪魔はすぐに淘汰されていくはずだ。\\それなのにどうして、まだ生きている？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "いや、まぁ、そうなんですけど…\\それじゃ、師匠の初恋の話でも聞かせてくださいよ～",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "16": {
+      "type": "talk",
+      "dialogue": "はあ…\\これも試練の1つですか、ルーファス様…",
+      "char": "c292_01",
+      "speaker": "same",
+      "before_effect": "shake",
+      "screen_effect": "gray"
+    },
+    "17": {
       "type": "curtain",
       "background": "back",
-      "bgm": "12",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "わわわ～っ！",
-      "background": "bg178_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "go_to_right_point"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ご主人さま！\\まだ逃げるタイミングではありません！\\せっかくのチャイルドが逃げてしまいますよ～！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "confused",
-      "before_effect": "enter_from_left_slow"
+      "dialogue": "すぐに怠けようとする愚かな輩…\\誰かが私の忠誠心を試すために、奴らに色魔を紛れ込ませているのか？",
+      "background": "bg097_chr02",
+      "char": "c292_00",
+      "speaker": "same_full"
     },
     "19": {
       "type": "talk",
-      "dialogue": "少しでも不利になると、すぐ逃げるのですね…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "dialogue": "ああ、頭がおかしくなりそう…\\ルーファス様、私はいつまでここにいればいいのですか…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "20": {
       "type": "talk",
-      "dialogue": "未熟なチャイルドだから良かったものの…\\実力のある候補生が相手なら御主人様は約3回ぐらい死亡していましたよ。",
+      "dialogue": "魔王争奪戦の情報を集めるために、力を尽くしているけど…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same_full"
     },
     "21": {
       "type": "talk",
-      "dialogue": "3回！？冗談だろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "dialogue": "未だ有益な情報は得られていない…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いいえ、冗談ではありません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "戦闘中に敵から背を向け逃走したことで1回。\\退路を確保せずに逃げ出したことで1回。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "だったら2回でしょ？なんで3回なんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "私が頭にきて1回…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "お前さ…\\もういい！鍵して寝る！\\お前とは怖くて一緒の家に住めないよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "unfair",
-      "screen_effect": "dialog_shake"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "はぁ…\\そんなに臆病でどうするんですか。",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "sigh"
-    },
-    "28": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "fade_in": "longer"
-    },
-    "29": {
-      "type": "curtain",
-      "background": "bg097_f",
-      "bgm": "8",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "なんだ？この感じ…昨日から…\\誰かに見られている…？",
+      "dialogue": "まるで不良生徒に振り回される新米教師みたいだな。",
       "background": "bg097_chr02",
       "char": "none",
       "speaker": "hero"
     },
-    "31": {
+    "23": {
       "type": "talk",
-      "dialogue": "…",
-      "background": "bg097_f",
-      "char": "c311_00",
-      "speaker": "unknown1",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "dialogue": "……",
+      "char": "c292_00",
+      "speaker": "same_full"
     },
-    "32": {
+    "24": {
       "type": "talk",
-      "dialogue": "…って目の前のチビの視線か。\\しかしなぜ、親の仇でも見つけたように睨みつけてくるんだ？",
-      "char": "c000_01",
+      "dialogue": "面倒な生徒に言う事を聞かせるため、アイスを買ってやったんだって？",
+      "char": "none",
+      "speaker": "hero"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "もしまた同じ手を使うなら、先に食べさせて「食べたんだからやれ！」って言えばいいよ。",
+      "char": "none",
+      "speaker": "hero"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "食べたんだからやれ？",
+      "char": "c292_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "center"
     },
-    "33": {
+    "27": {
       "type": "talk",
-      "dialogue": "なぁチビッ子。もしかして道にでも迷ったのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "これさ、サキュバス達が俺によく使う手なんだけど、これが結構効くんだよ…",
+      "char": "none",
+      "speaker": "hero"
     },
-    "34": {
+    "28": {
       "type": "talk",
-      "dialogue": "私にタメ口ですか？",
-      "char": "c311_00",
-      "speaker": "unknown1",
-      "pos": "right"
+      "dialogue": "言う事を聞きたくなくて、返そうと思っても、すでにアイスはお腹の中…\\どうだ？恐ろしい策略だろ？",
+      "char": "none",
+      "speaker": "hero"
     },
-    "35": {
+    "29": {
       "type": "talk",
-      "dialogue": "………\\少々お尋ねしますが、\\もしかして道に迷われたのですか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "余計なお世話です。\\チビ猫のアドバイスなど要りません。",
+      "char": "c292_00",
+      "speaker": "same_full"
     },
-    "36": {
-      "type": "talk",
-      "dialogue": "なぜ、私に敬語を使うのですか？",
-      "char": "c311_00",
-      "speaker": "unknown1",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "どうしろっていうの！？\\い、いや…何でもない。\\こんな小さなチビッ子とケンカはやめよう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "小さなチビッ子…",
-      "char": "c311_00",
-      "speaker": "unknown1",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "そうさ、小さなチビッ子。\\様子を見るに迷子か、そうじゃなきゃお使いに来たみたいだけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "迷子ではありません。お使いでもありませんし。",
-      "char": "c311_00",
-      "speaker": "unknown1",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "それじゃただの暇なチビッ子だな。\\じゃ、これどうぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "これは何ですか？",
-      "char": "c311_00",
-      "speaker": "unknown1",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "子供をなだめるためのアメちゃんさ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "主にうちの子供対策用。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "目つきが悪いのは、糖分が足りてないからさ。\\これでも食べて、早く家に帰りな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c311_00",
-      "speaker": "unknown1",
-      "pos": "right"
-    },
-    "47": {
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "48": {
+    "31": {
       "type": "talk",
-      "dialogue": "愚かなヤツだ。私に気が付かないなんて。",
-      "background": "bg043_f",
-      "char": "c311_01",
-      "speaker": "same"
+      "dialogue": "せ、先生…さっき食べたアイス、吐きそうです…\\うっ…",
+      "background": "bg123_f",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
     },
-    "49": {
+    "32": {
       "type": "talk",
-      "dialogue": "臆病で、スキだらけの悪魔。\\あんな奴はいくらでも殺せる。",
+      "dialogue": "何を言っているのですか！？\\素振りで嘔吐する人なんて、見たことありません。",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "before_effect": "shake"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "さぁ、思い切り竹刀を振ってください。\\例え吐いても、私が責任をもって片付けます。",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same_full"
     },
-    "50": {
+    "34": {
       "type": "talk",
-      "dialogue": "サポーター達も愚かだ。\\なぜ、あのような悪魔に従う？",
+      "dialogue": "気合いを入れて正面素振り、あと100回！",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same_full",
+      "one_ani": "attack"
     },
-    "51": {
+    "35": {
       "type": "talk",
-      "dialogue": "何か理由があるとでも言うのか？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "ううっ…\\もう勘弁してください！！",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
     },
-    "52": {
+    "36": {
+      "type": "talk",
+      "dialogue": "ふふふ…\\チビ猫も、たまには役に立ちますね。",
+      "char": "c292_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

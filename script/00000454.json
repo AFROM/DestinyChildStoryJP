@@ -2,105 +2,103 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "誰っ！",
-      "background": "bg095_f",
-      "bgm": "25",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "dialogue": "サルマキス、チャイルドの生活はどうだ？\\上手くやってるか？",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "こんにちは、サキュバスさん。",
-      "char": "c127_01",
+      "dialogue": "心配しないで。ご主人様のおかげで、\\とっても楽しく過ごしてるから。",
+      "char": "c126_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いきなりどこから出てきたのですか…\\驚かさないでください。",
-      "char": "c002_01",
+      "dialogue": "それはよかった。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "irritation"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ゴメンなさいね。\\驚かせるつもりはなかったのよ。",
-      "char": "c127_01",
+      "dialogue": "ふーん。",
+      "char": "c126_01",
       "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "その割には、\\まったく悪びれてなさそうな顔ですね…",
-      "char": "c002_01",
+      "dialogue": "ん？なんだ？何か悩みでもあるのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いつも気配を消しているから、こんなことが\\起きるんです。\\今後は気を付けてください。",
-      "char": "keep",
+      "dialogue": "そうじゃなくて…今思うとね。\\ご主人様って、思ったよりいい人みたい。",
+      "char": "c126_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そこは大目にみてくれないかしら。\\だって猫は、そういうものでしょう？",
-      "char": "c127_01",
+      "dialogue": "思ったよりって…\\まあ、そう言ってくれるのはありがたいけど。",
+      "char": "c000_01",
       "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そもそも、あなたは怪しすぎるのです。\\一体何を考えて…",
-      "char": "c002_01",
+      "dialogue": "この前、\\ご主人様は恋愛経験ゼロって聞いたから…\\とっても心配してたんだ。",
+      "char": "c126_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "おいリザ、何ひとりでブツブツ言ってるんだ？",
+      "dialogue": "ある意味、魅力がない人なのかなって…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "俺が恋愛経験ゼロ？\\誰がそんなこと言ってたんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "before_effect": "enter_from_left_slow"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "いえ、今バステトと話を…あら？\\いつの間にかいなくなってますね…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "何言ってんだよ？\\そこに誰かいたのか？",
-      "char": "c000_01",
+      "dialogue": "モナが教えてくれたよ。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ええ、さっきまでバステトが…\\いえ、もういいです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "モナのヤツ…\\よりによってサルマキスにそんな話を…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "13": {
       "type": "talk",
-      "dialogue": "バステト？あいつがどうかしたのか？",
+      "dialogue": "その…誤解してるみたいだけど。\\俺は恋愛したことがないわけじゃないぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -108,207 +106,157 @@
     },
     "14": {
       "type": "talk",
-      "dialogue": "御主人様。他のチャイルドはともかく\\バステトとは距離を置いたほうが良いでしょう。",
-      "char": "c002_01",
+      "dialogue": "それに…心配されるほど魅力がないわけでも…\\ない、はずだ。たぶん…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "距離を置くって…\\チャイルドの力を借りるには\\仲良くならないとダメだろ？",
-      "char": "c000_01",
+      "dialogue": "恋愛経験がないのは恥ずかしいことじゃないわ。\\ちょっと残念なだけ。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "それはそれとして、です。\\御主人様のことを思って、忠告しているんですよ。",
-      "char": "c002_01",
+      "dialogue": "そう言われると余計に恥ずかしいだろ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "何があったのか知らないけどな。\\俺はバステトをのけ者にするつもりはないぞ。",
-      "char": "c000_01",
+      "dialogue": "実は、私の契約者も恋愛経験がないの。\\ひとりの男性だけを好きになったせいでね。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "バステトは…危険です。\\具体的にどう危ないかはご説明出来ませんが…\\とにかく、お気をつけください。",
-      "char": "c002_01",
+      "dialogue": "そうだ。オマエの契約者、片思いしてたよな？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "何の証拠もなしに疑ってるのかよ。\\ちょっとそれはどうかと思うぞ。",
-      "char": "c000_01",
+      "dialogue": "うん、結局は叶わなかったけど。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "どう思われようが結構です。\\私は忠告しましたからね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "契約者が片思いしていた男性は事故で亡くなり…\\後を追って死のうとしていた契約者を、\\ダビが救った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "21": {
       "type": "talk",
-      "dialogue": "おいおい、何だってんだよ。\\まったく…",
+      "dialogue": "契約者はその人のことを忘れられなくて\\苦しんでたけど、私は絶対にそうはならないよ。",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "必ず、私だけの王子様を見つけ出すの！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そうか。できるといいな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "だから、ご主人様も諦めないで！\\とっても素敵な人だから！",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "もしかすると、ご主人様の魅力に気づいている人が\\意外と近くにいるかも…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "まさか…\\俺の周りに、そんな人がいるわけないだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "22": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "23": {
+    "27": {
       "type": "talk",
-      "dialogue": "グー…グー…むにゃ…にゃ？",
-      "background": "bg086_f",
-      "char": "c000_01",
+      "dialogue": "俺の周りにいるのは変態おばさんと、\\何かにつけて文句ばかり言うガキだけだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "screen_effect": "dark"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "だ、誰だ？誰かが俺の枕元に立ってる…\\そんな気がする…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ま、まさか…幽霊か？しかも体が動かん…\\悪魔でも金縛りにかかるもんなんだな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "やっぱり俺は暗殺者に狙われてたのか…\\いや、ちょっと暗殺者は現実味がなさすぎるな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "とりあえず幽霊の仕業ってことにしておこう。\\口は動くみたいだし…こりゃ騒ぐしかなさそうだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "facial": "haah"
     },
     "28": {
       "type": "talk",
-      "dialogue": "お、おい、お前は誰だ！姿を見せろ！",
-      "char": "c000_01",
+      "dialogue": "そんなことないよ！\\もう少し周りをよく見てみて！",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake",
-      "screen_effect": "dark"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "…",
+      "dialogue": "そう言うサルマキスの眼差しはどこか怪しかった。\\何かを知っているような目をしてた…",
       "char": "none",
-      "speaker": "unknown1",
-      "pos": "right",
-      "distance": "normal",
+      "speaker": "none",
       "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "な、何者だ？\\どうやって俺の部屋に入ってきた？",
+      "dialogue": "そんなはずない。オマエの勘違いだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "screen_effect": "dark"
+      "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "こんばんは、かわいい悪魔さん。\\起こしちゃったかしら？\\だったらゴメンなさいね。",
-      "char": "c127_01",
+      "dialogue": "本当にそうかなー。ウフフ…",
+      "char": "c126_01",
       "speaker": "same",
+      "pos": "right",
       "distance": "near"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ば、バステト？はあ…驚かせやがって。\\こんな夜中に何してるんだよ？",
+      "dialogue": "……？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "33": {
-      "type": "talk",
-      "dialogue": "悪魔さんがどんな夢を見てるのかなーって…\\いい夢を見ているようで、よかったわ。",
-      "char": "c127_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ん？夢？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "でも、夢はタダの夢でしかないから…\\あまり浸りすぎるのも良くないわよ。",
-      "char": "c127_01",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "おいおい、意味がサッパリ分からんが、\\何が言いたいんだ…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "それじゃ…いい夢を。",
-      "char": "c127_01",
-      "speaker": "same",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…何だったんだよ一体？\\まさか最初っから全部夢だった…とか？\\そんなこと、ないよな、ハハ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -1,11 +1,490 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "bg116_f",
+      "bgm": "46",
+      "fade_in": "longer",
+      "hold": "normal"
+    },
+    "2": {
       "type": "talk",
-      "dialogue": "チャイルドに武器を装備させ、もっと強くしてみてください。",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none"
+      "dialogue": "あっ！",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200302006"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "申し訳ない、大丈夫ですか？",
+      "char": "c319_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200302007"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "大丈夫です。貴方様こそ大丈夫でしたか？",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200302008"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ええ。",
+      "char": "c319_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "voiceid": "200302009"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "それは何よりです。\\それでは、わたくしはこれで…",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_slow",
+      "voiceid": "200302010"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "hold": "shorter"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "bg116_f",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あっ、もし失礼でなければ1つお伺いしても宜しいでしょうか…",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200302011"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はい、いくらでも聞いてください。",
+      "char": "c319_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "voiceid": "200302012"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "どんな花がお好きですか？",
+      "char": "c318_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200302013"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "花…？\\そうですね…私は野花が好きです。ですが何故…",
+      "char": "c319_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "voiceid": "200302014"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ん？お嬢さん？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "after_effect": "go_to_left_point",
+      "voiceid": "200302015"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "なんとも…\\奇妙な女性です。気配もなく姿を消すとは…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200302016"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "それより、ここまで降りて来ましたが…\\これからどうしましょう…",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near",
+      "voiceid": "200302017"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "hold": "normal"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg106_f",
+      "bgm": "9",
+      "fade_in": "longer",
+      "hold": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ターゲット発見！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200302018"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あら、今日のダビはやる気満々ね～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "smile",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200302019"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "うんっ！\\さっさと仕事を終わらせて、モナ姉さまと遊ぶの！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "200302020"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ハイハイ…\\俺もそうしたいよ。ところでターゲットって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200302021"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あそこだよ、バカご主人。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200302022"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "んっ？\\あの時代劇のようなコスプレしたヤツか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200302023"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "よりにもよって、どうしてアイツなんだよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200302024"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "どう見ても道に迷っている子供でしょ？\\道案内するフリして契約しちゃえばいいじゃん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200302025"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そういえば…キョロキョロしてるし…\\時代劇から抜け出して来たみたいだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200302026"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "すごいわ、ダビ。\\いつの間に洞察力を養ったのかしら～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "voiceid": "200302027"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "へへへ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "200302028"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "う～ん…やめないか？\\困ってる人を騙すのは、なんか後味悪いよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200302029"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "いつまでそんな寝ぼけた事を言っているつもり？\\ご主人が行かないならダビが行くよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point",
+      "voiceid": "200302030"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "お、おいっ！ダビ！あの厄介者め…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "voiceid": "200302031"
+    }
+  },
+  "phase3": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "hold": "normal"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg106_f",
+      "bgm": "46",
+      "fade_in": "longer",
+      "hold": "shorter"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ハーイ！そこの時代劇の人！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "smile",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200302032"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "今なんと？時代劇？\\人違いでは？私は時代劇の人では…",
+      "char": "c319_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "voiceid": "200302033"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "でも昔の服着てるじゃん？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200302034"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そういう伝統衣装だ、バカ。\\き、君！道に迷ったの？\\…お、俺が道を、教えてあげようか？\\よ、よければだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200302035"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ねぇ…なんでカミカミなの？全然ダメダメじゃん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh",
+      "voiceid": "200302036"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ふふっ！分かりました。",
+      "char": "c319_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "200302037"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "え？何だ、急に手を掴んで。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "confused",
+      "voiceid": "200302038"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "モナも分かりました～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200302039"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "何だよ、分からないのは俺だけか？分かるように言ってくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200302040"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "私は人間ではありません。私の名は《柳道士》\\貴方と同じ<b>悪魔</b>です。",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "200302041"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あ、悪魔…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "voiceid": "200302042"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "どうりで…私を警戒していたわけですね。",
+      "char": "c319_01",
+      "speaker": "same",
+      "voiceid": "200302043"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "とっとっとっ当然だ！\\魔王争奪戦の真っ最中だしな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "200302044"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦？おかしいですね…\\これだけの月日が流れたとはいえ…",
+      "char": "c319_01",
+      "speaker": "same",
+      "voiceid": "200302045"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ご主人さま、少し計画とは違いますけど、この方を相手にするのはどうでしょうか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200302046"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "もちろんだ！\\俺のマニュアルによると知らない悪魔に出会ったら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200302047"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "とにかく逃げろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "go_to_left_fast",
+      "voiceid": "200302048"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "待ってください。こうして会ったのも何かの縁。私の話を聞いてくれませんか？",
+      "char": "c319_01",
+      "speaker": "same",
+      "one_ani": "attack",
+      "voiceid": "200302049"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "私は…魔王争奪戦には参加しない。",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "200302050"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "本当か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200302051"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ええ。ですが、その前に1つ、確認したいことがあります…",
+      "char": "c319_01",
+      "speaker": "same",
+      "voiceid": "200302052"
+    },
+    "24": {
+      "type": "curtain",
+      "background": "back",
+      "hold": "shorter"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "無礼を…お許しください！",
+      "background": "bg106_f",
+      "char": "none",
+      "speaker": "budle",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
+      "voiceid": "200302053"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "だぁ～！\\悪魔を信じた俺がバカだった！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "voiceid": "200302054"
+    },
+    "27": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

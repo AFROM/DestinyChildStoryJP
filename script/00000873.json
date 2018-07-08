@@ -2,190 +2,196 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "おい、よく聞けよ。\\今から真面目な話をするからな。",
-      "background": "bg052_f",
-      "bgm": "20",
+      "dialogue": "…おい、ピクシー。\\これはどういう状況なんだ？",
+      "background": "bg086_f",
+      "bgm": "9",
       "char": "c000_01",
-      "speaker": "same",
-      "distance": "near"
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いつになく真剣だな、出来損ないの悪魔よ。\\何が言いたいんだ？",
-      "char": "m199_01",
-      "speaker": "same"
+      "dialogue": "何って～？\\ちょっと遊んでただけだよ～？",
+      "char": "c269_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いいから黙って、よーく聞けよ。",
+      "dialogue": "ちょっと？\\これだけ散らかしといてよく言えるな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前だって分かってるだろ？\\より魔王に相応しいのは、\\俺じゃなくお前の方だって。",
-      "char": "keep",
+      "dialogue": "ほんとにちょっとだけだもん！",
+      "char": "c269_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ほ～…\\ようやく現実が見えてきたのか？",
-      "char": "m199_01",
-      "speaker": "same"
+      "dialogue": "嘘つけ！\\散らかそうと思っても、\\ここまで散らかせないだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いやまあ、現実が見えたっつーか…\\想像してみたんだよ。",
-      "char": "c000_01",
+      "dialogue": "全く、イタズラばっかりして…\\ここでは遊ぶなって、いつも言ってるだろ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前が魔王になるのも、\\案外悪くないなって思ったんだ。\\だから譲ってやるよ。",
-      "char": "keep",
+      "dialogue": "ふああああ～ん！\\お兄ちゃんが怒ったー！！",
+      "char": "c269_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "譲ってやる、だと…！？\\下級悪魔の分際で、ほざくなよっ！",
-      "char": "m199_01",
-      "speaker": "same"
+      "dialogue": "はあ…俺には子育てなんて無理だ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "9": {
       "type": "talk",
-      "dialogue": "怒るなって！第一、自分が魔王に相応しいって\\言ったのは、お前の方だろ！",
-      "char": "c000_01",
+      "dialogue": "…この部屋の惨状は何ですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "irritation",
+      "before_effect": "enter_from_right_fast"
     },
     "10": {
       "type": "talk",
-      "dialogue": "俺をよーく見てみろ。\\俺がどれだけ魔王になりたくないか、\\目とか顔とか態度で分からないか？",
-      "char": "keep",
+      "dialogue": "リザ！\\怒る前に俺の話を聞いてくれ！\\これはピクシーの仕業で…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "cry",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ほう、辞退の決心は固いと？\\たしかにお前では器が小さすぎて荷が重すぎるしな…",
-      "char": "m199_01",
-      "speaker": "same"
+      "dialogue": "洋服はすべて床に散らかされ、\\壁には落書きがいっぱいですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ま、まあ…分かってもらえたんならいいや。\\とにかく、俺はお前を応援するつもりなんだよ。",
-      "char": "c000_01",
+      "dialogue": "その上カーテンは引き裂かれ、本は破かれ…\\これをピクシーがひとりでやったと？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "…我の魔王への道を、手助けするということか？",
-      "char": "m199_01",
-      "speaker": "same"
+      "dialogue": "あの小さなチャイルドに、\\本当にそんなことができると思っているのですか？\\嘘をつくにしても、もう少しまともな嘘を\\ついてはいかがです？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そっ。それが俺の計画だ。",
+      "dialogue": "嘘じゃないって！\\ピクシーからも言ってくれ。\\早くほんとのことを話さないと\\リザに誤解されるだろ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "cry"
     },
     "15": {
       "type": "talk",
-      "dialogue": "モナやリザは、とにかく俺を魔王にさせようと\\躍起になってる。",
-      "char": "keep",
+      "dialogue": "ふえええ～ん！\\また怒った！お兄ちゃんが怖いよー！",
+      "char": "c269_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "まったくいらんお節介だ…\\俺は魔王なんか興味ないっつーの。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "でもお前は違うよな。それに魔王を目指すんなら、\\素質もあるってことかもしれない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "まあつまりだ。俺はモナ達をだまして、\\魔王争奪戦を熱心にやるフリを続ける。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "で、いざゴール目前って時に、\\お前にバトンタッチ。\\そして、俺はオサラバってわけだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "もちろんこの計画は、お前みたいな\\魔王になる気満々のヤツが\\絶対に欠かせないぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "混乱に乗じて王の座を射止めるというのか？\\我の理想とは多少異なる計画だが…",
-      "char": "m199_01",
-      "speaker": "same"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ふむ…キサマのような出来損ないの悪魔の考えにしては悪くないな。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "だろ？だからそんな訳で、これから俺達は\\運命共同体だ。よろしくな～。",
+      "dialogue": "お、おい。\\ここで泣かれたら…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "serious"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ピクシーに罪を押し付けるだけでは飽き足らず、\\脅すとは…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "恥ずかしくないのですか？\\御主人様。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "だから、誤解です…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "教育的指導です。\\こっちに来てください。\\その根性を叩き直して差し上げます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "違うって言ってるだろ～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "after_effect": "go_to_right_point"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ふああああ～ん！",
+      "char": "c269_01",
+      "speaker": "same",
+      "screen_effect": "dialog_shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あ、あれ？お兄ちゃん？\\私をおいて遊びに行っちゃったの？",
+      "char": "keep",
+      "speaker": "same"
     },
     "24": {
+      "type": "talk",
+      "dialogue": "何で誰もいないの？\\お兄ちゃ～ん！ピクシーも連れて行ってよー！",
+      "char": "keep",
+      "speaker": "same",
+      "after_effect": "go_to_right_point"
+    },
+    "25": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "25": {
-      "type": "talk",
-      "dialogue": "ふうん…かわいい仔猫とトカゲが\\面白い話をしてますね～",
-      "background": "bg055_f",
-      "bgm": "19",
-      "char": "c001_01",
-      "speaker": "same"
-    },
     "26": {
-      "type": "talk",
-      "dialogue": "ヤンチャな子供のイタズラは、後始末が面倒だから\\あまり好きではないのだけれど…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "可愛いご主人さまのために、\\しばらくは目をつぶってあげようかしら～♥",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

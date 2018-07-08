@@ -2,327 +2,362 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お、お兄ちゃん、あのお姉ちゃん、変、だよ…\\って、メルが言ってた、よ…？",
-      "background": "bg086_f",
+      "dialogue": "あ~んっ！",
+      "background": "dungeon_bg",
       "bgm": "9",
-      "char": "c251_01",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "distance": "near",
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "変なのはお前だよ！",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "center",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "どこの世界に、\\人が寝てるベッドをひっくり返す奴がいるんだ…",
-      "char": "keep",
+      "dialogue": "…何してるんだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "こ、これはお兄ちゃんのためを思って…",
-      "char": "c251_01",
+      "dialogue": "バレちった♥",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ず、ずっと、監視するつもり…だけど、\\お、お兄ちゃんにも、\\け、警戒…してもらわないと…",
-      "char": "keep",
+      "dialogue": "「バレちった♥」って…\\お前、今イズンのリンゴを盗み食いしようとしたろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…とりあえず、お前の気持ちはわかった。\\けど、お前が心配するようなことは…",
-      "char": "c000_01",
+      "dialogue": "盗み食いだなんて。\\ここにあったから味見しようと思っただけだよ…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お、お兄ちゃん！",
-      "char": "c251_01",
+      "dialogue": "それを盗み食いって言うんだ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
     },
     "8": {
       "type": "talk",
-      "dialogue": "わ、わかったよ。\\わかったから、大声出すなって…",
-      "char": "c000_01",
+      "dialogue": "ふん…！\\ダビが盗み食いしようとご主人には関係ないでしょ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うふ…\\こんにちは、可愛い坊や…",
-      "char": "c198_01",
+      "dialogue": "何よ。\\イズンと家来ごっこしてたら\\本当に家来になっちゃったの？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "は、話しかけるな！ …って、メルが言ってた！",
-      "char": "c251_01",
+      "dialogue": "うるさい！\\さあ、イズンに謝れ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
     },
     "11": {
       "type": "talk",
-      "dialogue": "あら…嫌われちゃったのかしら…",
-      "char": "c198_01",
+      "dialogue": "ふん！一人で美味しい物食べてる\\欲張りなお姫様の方こそ謝りなさいよ。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "…そうだ、ご主人サマ。何の話をしていたの？\\私のことを話していたような気がしたのだけど…",
-      "char": "keep",
+      "dialogue": "自分勝手なヤツだ、まったく。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "13": {
       "type": "talk",
-      "dialogue": "……\\別に、何でもないよ。",
-      "char": "c000_01",
+      "dialogue": "構わん。\\気にするな。",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "本当かしら…\\あの心配性な坊やが、\\私について、何か言ってたんじゃない…？",
-      "char": "c198_01",
+      "dialogue": "本当にいいのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "う…っ。",
-      "char": "c000_01",
+      "dialogue": "ああ。\\その娘の言う通り、分け与えなかった私が悪い…\\一つくらい持っていけ。",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "うふふ…可愛い、ご主人サマ…\\すぐに顔に出ちゃうんだから…",
-      "char": "c198_01",
+      "dialogue": "ほら！バカご主人。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "victory"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それにしても、\\あの可愛らしい坊やが私のことを…ねえ。",
-      "char": "keep",
+      "dialogue": "…ま、本人がそう言うなら。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…あんまりいじめるなよ？\\あいつは、俺のためを思って\\言ってくれたんだから…",
-      "char": "c000_01",
+      "dialogue": "ふふ…",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "いじめるだなんて…",
-      "char": "c198_01",
+      "dialogue": "早速、味見しよっと。\\モナ姉さまと一緒に食べなくちゃー！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "after_effect": "go_to_right_point"
     },
     "20": {
       "type": "talk",
-      "dialogue": "私はただ、隠れて泣いているのを\\見守りたいというか…",
-      "char": "keep",
+      "dialogue": "はいはい、いってらっしゃい。\\それよりどうした？\\お前の物に触れたのに怒らないなんて。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "転ばせて、擦りむいた膝の傷を見たいというか…\\慰めるふりをして、追い詰めたいというか…",
-      "char": "keep",
+      "dialogue": "……",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お、おい…",
+      "dialogue": "お前、自分以外のヤツらはみんな家来扱いして…\\だから…その…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "どうしてかしらね…\\わざと嫌われるような行動ばかりしてしまうの。",
-      "char": "c198_01",
+      "dialogue": "……",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "24": {
       "type": "talk",
-      "dialogue": "仲直りするフリして傷つけるとか\\背中を押してプレッシャーに\\押し潰されるのが見たいとか……",
-      "char": "keep",
+      "dialogue": "な、何だよ。なんでそんな顔で見るんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "25": {
       "type": "talk",
-      "dialogue": "絶望している時にどんな気分かワザと聞いてみたり\\楽しそうにしているところに水をさしてみたり……",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "怪しい…タメ口使っても全然怒らないなんて。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
       "type": "talk",
-      "dialogue": "寝込んでいる時に、布団をはがしたり…\\大切にしているものを隠してみたり…",
-      "char": "keep",
+      "dialogue": "さっきの事だけど…\\私の代わりに叱ってくれたのか？",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ゼロスは饒舌に語りながら、\\妙な目つきで俺を見つめる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ん？何の…あ、リンゴのことか？\\代わりってわけじゃないけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ちょ、ちょっと落ち着けよ…\\お前、ガニメデと何かあったのか？",
-      "char": "c000_01",
+      "dialogue": "そうか。でもダビが盗んだリンゴは\\《私のリンゴ》だ。",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "うふ、全然…？",
-      "char": "c198_01",
+      "dialogue": "お主が怒るようなことでもないが…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "じゃあ、なんでそんなにいじめたいんだよ…\\ちょっと、怖かったぞ…",
+      "dialogue": "自分の物じゃなければ何を盗んでもいい\\って言いたいのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "あらあら…\\この程度の冗談、いつものことでしょう？\\全部、ウソよ…",
-      "char": "c198_01",
+      "dialogue": "じゃない…姫！\\家来としてすべきことをしたまでです！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "shake"
     },
     "32": {
       "type": "talk",
-      "dialogue": "うふふ……びっくりした？",
-      "char": "keep",
+      "dialogue": "面白いヤツよの。\\そうだな…家来ならそのくらいできるだろう。",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "そうだ、ご主人サマったらつまんないんだから……\\でも、そこまで言うなら……",
+      "dialogue": "こうするのはどうだ？\\これからお主は私の家来でない。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "34": {
       "type": "talk",
-      "dialogue": "これからは、そういう意地悪はやめるわ。\\それでいい？うふふ。",
-      "char": "keep",
+      "dialogue": "まさか！気まぐれ屋のお姫様にクビにされたのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
     },
     "35": {
       "type": "talk",
-      "dialogue": "な、なんだ…ビビった…\\頼むから、身内同士、仲良くやってくれよ？",
-      "char": "c000_01",
+      "dialogue": "身分昇進という言葉が合うか。\\これからは私の話し相手になってくれないか。",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "はいはい…\\わかったわ…ご主人サマ。",
-      "char": "c198_01",
+      "dialogue": "話し相手？\\友達になってくれっていうのも珍しいお願いだな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "37": {
       "type": "talk",
-      "dialogue": "頼んだからな。そうやって脅すから、\\ガニメデも心配するんだろうし…",
-      "char": "c000_01",
+      "dialogue": "ま、いいだろ。美人な友達がいるのも悪くない。\\他の悪魔たちが羨ましがるな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "38": {
       "type": "talk",
-      "dialogue": "…はあ。\\チャイルドを管理するってのも、大変だな…\\こういうとこが、「カリスマ不足」ってやつなのか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ふふふ。",
+      "char": "c196_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "39": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "なぁ、本当にいいのか、あのリンゴ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "40": {
       "type": "talk",
-      "dialogue": "絶望している時に手を差し伸べて、\\ギリギリで突き放してあげたい…",
-      "background": "bg056_f",
-      "bgm": "15",
-      "char": "c198_01",
+      "dialogue": "ああ、構わない。むしろ私より\\あの娘を心配すべきだ。",
+      "char": "c196_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "41": {
       "type": "talk",
-      "dialogue": "一番の信頼を勝ち取ってから、\\最後の最後で裏切って、嘲笑いたい…",
-      "char": "keep",
+      "dialogue": "…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal"
     },
     "42": {
       "type": "talk",
-      "dialogue": "ご主人サマ、私はあなたの\\一番の武器になってあげる…",
-      "char": "keep",
+      "dialogue": "あのリンゴがどんなリンゴかは…\\私にもまだ分からないのだ。\\ふふふ…",
+      "char": "c196_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
     "43": {
       "type": "talk",
-      "dialogue": "だけど、気を付けて？最後に誰を傷つけるか…\\それを知る事は出来ないから…",
-      "char": "keep",
+      "dialogue": "どんなリンゴって…\\ま、まさか毒リンゴ！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock"
     },
     "44": {
       "type": "curtain",

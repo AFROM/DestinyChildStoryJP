@@ -2,169 +2,74 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リザ、ゲニウスを見なかったか？",
-      "background": "bg086_f",
+      "dialogue": "…ありがとう。\\あなたの占いのおかけで、猫を助けられたわ。",
+      "background": "bg016_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
+      "char": "c127_00",
+      "speaker": "same_full",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あ、あのサイコパス…\\いえ、どうして彼女を探しているのですか？",
-      "char": "c002_01",
-      "speaker": "same",
+      "dialogue": "お礼なんていいよ。\\実際に猫を助けたのは君だからね。",
+      "char": "c113_00",
+      "speaker": "same_full",
       "pos": "right",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "今サイコパスって…まだ誤解が解けてないのか。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "でも、あなたが警告してくれたおかげで、\\事故を避けられた。",
+      "char": "c127_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "最近はめっきり俺の部屋に入ってこなくなったんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
+      "dialogue": "だから、それは俺の力じゃない。\\君は君自身の力で、未来を変えたんだ。",
+      "char": "c113_00",
+      "speaker": "same_full",
+      "pos": "right",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いつも作曲だのなんだのって しょっちゅう部屋に入ってきてたのに。",
+      "dialogue": "もう俺と会わないほうがいい。\\君のためにも、これ以上占ってあげる事は出来ない。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left",
+      "speaker": "same_full",
+      "pos": "right",
       "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "よかったではないですか。\\久しぶりに家に平和が訪れて…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
+      "dialogue": "ファン…",
+      "char": "c127_00",
+      "speaker": "same_full",
+      "pos": "left",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "この家の平和はお前たちが来た瞬間から\\もう壊れてる。",
-      "char": "c000_01",
+      "dialogue": "まだ自分の力を信じられないなんて…\\相変わらずね、あなたって子は…",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "center",
       "distance": "normal"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "はい？",
-      "char": "c002_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "いやー、まったく。\\ゲニウスのヤツ、どこに行ったんだー？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "彼女、ゲニウスなら心のダンジョンにいるはずです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "心のダンジョン。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "はい。最近はそこにひきこもって全く出てきません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "そうなのか？教えてくれてサンキュー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "御主人様は鈍感すぎます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "15": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "16": {
+    "9": {
       "type": "talk",
-      "dialogue": "本当にこのままで大丈夫か？\\そうだ、ここを直して…いや、違う！\\このままでも素晴らしい！自信を持ちなさい！",
-      "background": "dungeon_bg",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ゲニウス、ゲニウス。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "いや、やっぱり何かが足りない。\\もう少し新しい曲調が…",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "作曲中なのか？\\俺の声、全く耳に入ってないみたいだけど。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "誰だ！",
-      "char": "c130_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "うわっ！",
+      "dialogue": "うわっ！驚かせるなよ、バステト…\\そうやって急に出てくるの、やめてくんない？\\第一、どこから出てきてるんだ？",
+      "background": "bg086_f",
+      "bgm": "25",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -172,215 +77,227 @@
       "facial": "confused",
       "before_effect": "shake"
     },
-    "22": {
+    "10": {
       "type": "talk",
-      "dialogue": "あ、悪魔か。こ、ここには何の用だ？",
-      "char": "c130_01",
+      "dialogue": "試しにあなたもやってみたらどう？\\かくれんぼみたいなものよ。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "one_ani": "attack"
     },
-    "23": {
+    "11": {
       "type": "talk",
-      "dialogue": "最近、俺の部屋に来ないから何かあったのかと思って…俺が邪魔だったのか？",
+      "dialogue": "かくれんぼ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そうよ。誰にも見つからないように、身を隠すの。",
+      "char": "c127_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "誰にも見つからないように…か。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そんなことが出来りゃ、\\リザのお説教からも逃げられるな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "よし決めた。お前みたいに\\サッと消える方法を教えてくれよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "簡単よ。影の中に隠れればいいの。",
+      "char": "c127_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "影？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "灯台下暗し。外敵の影に隠れれば、\\誰もあなたを見つけられないわ。",
+      "char": "c127_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "影の中に隠れろって…無理だろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "お前以外に出来るとは思えないぞ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ふ~ん…\\せっかく教えてあげたのに、不満そうね…\\別にやりたくなければそれでいいのよ。",
+      "char": "c127_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "せめて、もっと簡単な方法で頼む…\\最近、リザの小言がひどくなってきたから、\\隠れたいんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "へえ…どんな風に、ひどくなってきたの？",
+      "char": "c127_01",
+      "speaker": "same",
       "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "よ、よく分かってるじゃない。\\じゃ、邪魔するなって言ってるでしょ！",
-      "char": "c130_01",
+      "dialogue": "前までは、1日に1度でいいから\\とにかく契約して来いって言ってたのに。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "怪しい…いつもと違い、慌てている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "今じゃ、1日にチャイルド5人を連れて来いって\\言うんだぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ゲニウス、俺に隠し事でもしてるのか？",
-      "char": "c000_01",
+      "dialogue": "昨日なんて、俺よりチャイルドのほうがマシだって\\言われた。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "か、隠し事だなんて…！",
-      "char": "c130_01",
+      "dialogue": "チャイルドのほうがマシって…ひどすぎないか？\\いくら何でも言いすぎだろ！血も涙もないやつだ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "28": {
       "type": "talk",
-      "dialogue": "じゃあ、後ろに隠してるソレは何だ？",
-      "char": "c000_01",
+      "dialogue": "あそこまで不愛想だと、誰も嫁に貰ってくれないぞ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "sulky"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そ、そんなものはない。\\邪魔しないでさっさと出てって。",
-      "char": "c130_01",
+      "dialogue": "なんですって？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "30": {
       "type": "talk",
-      "dialogue": "…分かった。もう邪魔はしないよ。\\…なーんて言うと思ったか？",
+      "dialogue": "リ、リザ？ええっと、何というかですね…\\バ、バステト、助けて…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "31": {
       "type": "talk",
-      "dialogue": "あ！何をする！",
-      "char": "c130_01",
+      "dialogue": "バステトなんていませんよ。\\そんなことより御主人様…\\先の発言について詳しく説明して下さい…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ゲニウスの手から奪い取ったのは、 他でもないくしゃくしゃに丸められた楽譜だった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "どれほど一生懸命作曲したのか、\\紙がボロボロだった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ただの楽譜じゃないか。",
+      "dialogue": "バ、バステトがいないっ！\\ついさっきまでそこにいたのに！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ふふ、怒られてる怒られてる。\\なんてからかい甲斐のある悪魔なのかしら。",
+      "background": "dungeon_bg",
+      "char": "c127_01",
+      "speaker": "same",
+      "pos": "center",
       "distance": "normal"
     },
     "35": {
       "type": "talk",
-      "dialogue": "返せ！",
-      "char": "c130_01",
+      "dialogue": "でもね、悪魔さん。\\他の奴らは、あなたをからかうだけじゃ\\気が済まないかもよ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center"
     },
     "36": {
       "type": "talk",
-      "dialogue": "ごめん。\\お前、他人が楽譜に触るの嫌いだったよな？\\お前が慌てる姿みて、意地悪したくなって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ところで、それも失敗作なのか？",
+      "dialogue": "せいぜい、気を付けることね。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…悩んでる。",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ゲニウスの口から悩みなんて言葉が出てくるとは…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "いつもは作曲し終わると楽譜を破り捨てていたのに…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "今回はお前がつくった曲を聞けるのか？\\楽しみだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "まだだ。まだ、手を加えるところがある。",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "ついに満足できそうな曲を作り出すなんて、\\早く聞かせてほしいよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "クラシックが何かも知らないヤツの言うことか。",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "ハハ。それじゃ俺は作業の邪魔にならないように、\\そろそろ戻るとするよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile",
-      "after_effect": "go_to_right_point"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "ふう…バレるところだった。\\それより、楽しみにしてるだなんて…\\やっぱり、このままではダメね。",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "もう少し待ってて、悪魔。\\アンタのためにこの世で一番美しい交響曲を\\つくってあげるから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
       "distance": "near"
     },
-    "48": {
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

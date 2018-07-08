@@ -2,132 +2,262 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人さま、いつまで隠れているつもりですか？",
-      "background": "bg086_f",
-      "bgm": "20",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "俺を殺さないって約束したろ！",
+      "background": "bg056_f",
+      "bgm": "19",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何を…言ってる？隠れているんじゃなくて…\\服を探して…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "口を慎みなさい。",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "服はテキトーに着るなって言ってたろ？\\契約者にナメられないようにって…",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "くっ…",
+      "char": "m141_00",
+      "speaker": "same_full",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ご主人さまが？服を？\\ひょっとして、クローゼット開けたら同じ服が\\10着あるタイプかしら？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "dialogue": "私がいつアナタを殺さないって言ったかしら？\\保留にすると言っただけよ。",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ご主人さま緊張してるようですね♥\\ドキドキしてる音がここまで聞こえてきますよ～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "議員を裏切ったアイツは\\俺が監視してる。",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "音？何の音？\\同じ音出せる！",
-      "bgm": "16",
-      "char": "m148_01",
+      "dialogue": "アンタに頼まれたことは全てやったじゃないか！\\それなのに今さら俺を殺すだって？",
+      "char": "keep",
       "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "し、静かにしろ！声が大きすぎる。\\今、外にお前の契約者が来てるんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "なんでだよ！アンタが心配してることは\\一切ない！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "契約者が？ところでここで何しているの？\\契約者が逃げ出す前にさっさと再契約しちゃおう！",
-      "char": "m148_01",
+      "dialogue": "私が心配していること？何かしら？ああ、\\私の悪事をバラすとかそういうこと？",
+      "char": "m056_00",
       "speaker": "same_full",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "逃げる？そんなことはないだろう。\\俺を襲う勢いで待ってるし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "正確に言うと、モナを待ってるのです。\\契約者には契約の記憶がないですから。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "そうだ！初めて契約したのも\\《モナの相談所》に来たからだ！",
-      "char": "m148_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "上の家がうるさいからって…\\ところで原因は？",
+      "dialogue": "どうでもいいわ、そんなこと。",
       "char": "keep",
       "speaker": "same_full",
       "pos": "right"
     },
+    "10": {
+      "type": "talk",
+      "dialogue": "そ、それじゃどうして…",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "アナタ、夏に蚊に刺されたことある？",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "…？",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
     "13": {
       "type": "talk",
-      "dialogue": "とにかく、ご主人さまが恐がる必要はないですよ。\\今まで通り、困った時はモナが解決して\\あげますから～",
-      "char": "c001_01",
-      "speaker": "same",
+      "dialogue": "最初は一度や二度だけど、だんだん暑くなってくると蚊の数は増えるでしょう？",
+      "char": "m056_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ううっ…本当のことだから言い返せない…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "悪魔らしくない良心も、たまにはいいですね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "悪魔くん、恐がらないで元気出して！",
-      "char": "m148_01",
+      "dialogue": "それがどれだけ厄介なことか知ってる？",
+      "char": "keep",
       "speaker": "same_full",
       "pos": "right"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "アンタ…",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "アナタは私にとって、蚊のようなもの。",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
     "17": {
       "type": "talk",
-      "dialogue": "はい、はい。ありがとよ…\\はあ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "放っておいても害はないけど\\目障りなのよ。害虫ってそんなものでしょう？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
+      "type": "talk",
+      "dialogue": "害虫？くくくっ…\\アンタこそ虫同然だろ。",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "悪事をはたらく政治家も、\\その政治家の血を吸って生きる記者も…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ひどい言い草ね。女性に向かって虫だなんて…\\せめて蜘蛛がいいかしら。",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "知ってる？ある人は蚊を捕まえるために\\わざと蜘蛛を飼うんですって。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "くくっ…結局はこうなる運命か…\\あんながむしゃらに走り回ったのに…",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "おしゃべりはこのくらいにして…\\そろそろ死んでくれない？",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ぐわああああ！",
+      "char": "m141_01",
+      "speaker": "same",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "きゃあ！",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "after_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "な、何！アナタまさか…悪魔と契約を…！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "今すぐうせろ！\\コイツは見てのとおり、ちょっと気性が荒くってね。",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ぐわああ！ズタズタに引き裂いてやる！",
+      "char": "m141_01",
+      "speaker": "same",
+      "screen_effect": "dialog_shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "アナタ…いつか必ず死んでもらうから！",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "怯えて逃げ帰るヤツは大したことない。",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "おい、ハロウィン。\\危うくあの世に行っちまうとこだった。\\なんで遅れたんだ？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "主人に内緒で出てこようと思って。",
+      "bgm": "4",
+      "char": "m141_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ま、上手く切り抜けられたからよかった。\\飯は食ったか？",
+      "char": "m141_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "まだなら俺の家に来るか？カップ麺くらいは\\作ってやれるぜ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "行く！\\お前のカップ麺はピカイチだ！",
+      "char": "m141_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

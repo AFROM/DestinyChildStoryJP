@@ -2,64 +2,68 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人さまぁ～。",
+      "dialogue": "ぐすっ、ぐすっ…んんん…ずずっ…チーン！",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "c001_01",
+      "bgm": "14",
+      "char": "c141_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "……",
+      "dialogue": "お、おい。ええっ？\\今のドラマを観て泣いてるの！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ご・主・人・さ・ま。",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "tempt"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "あら、どうしてそんなに元気がないのですか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "あ、モナか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "モナが来たことにも気づかないなんて\\がっかりです。",
-      "char": "c001_01",
+      "dialogue": "ぐすっ。あっ、当たり前じゃない。\\だって、こんな…悲しすぎて…うああん！",
+      "char": "c141_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
-      "facial": "pretense"
+      "before_effect": "shake_weak",
+      "after_effect": "shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ドラマだろ？こんなの作り話じゃないか。\\実話じゃないのに、何がそんなに悲しいんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "やっぱり悪魔は悪魔なのね。",
+      "char": "c141_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "こんなに悲しい、恋物語に涙も出ないなんて。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "本当、血も涙もない！\\あー、冷たいなあ、冷たいー！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "だよな？\\声をかけたのに相手が無視すると、\\がっかりするよな？",
+      "dialogue": "失礼だな。お前は知らないだろうけど、俺って結構、悪魔の間では優しいって有名なんだからな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -67,104 +71,94 @@
     },
     "9": {
       "type": "talk",
-      "dialogue": "誰かがご主人さまをがっかりさせたのですか？",
-      "char": "c001_01",
+      "dialogue": "ふーん、全然そう思わなーい。\\悪魔の評判なんて当てにならないわ。",
+      "char": "c141_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そうなんだよ。\\この前、ヒュプノスがボーっと立っていたから\\近寄って声をかけたんだ。",
+      "dialogue": "まあ、そうかもしれないけど。\\で、このドラマのどこがそんなに悲しいんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "11": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "聞いて、聞いて。あの男はね、\\一度も人に恋をしたことがないんだけど。",
+      "char": "c141_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ヒュプノス、ここで何してるんだ？",
-      "background": "bg178_f",
-      "char": "c000_01",
+      "dialogue": "ある日隣に引っ越してきた女に、\\一目惚れしちゃうのね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c142_01",
+      "dialogue": "それで、勇気を出して女に告白するんだけど、",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "おい、何かあったのか？",
-      "char": "c000_01",
+      "dialogue": "その女のお兄さんが、男の生き別れた兄弟なの。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c142_01",
+      "dialogue": "はぁ…？なんだその人間関係は…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point",
-      "screen_effect": "gray"
+      "pos": "left",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ヒュプノス？あれ？おい、どこに行くんだよ。\\ヒュプノス！ヒュプノス！",
+      "dialogue": "待って、まだ続きがあるの。\\男は女を諦めきれず、\\女と遠くに逃げようと決心するのよ。",
+      "char": "c141_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "そんなの駄目じゃん、兄弟の妹なんだろ？\\まさか、兄弟のほうが養子だとか…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "screen_effect": "gray"
-    },
-    "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "確かに俺を見たはずなんだけど…\\いや、目が合ったし間違いなく見たはずだ！",
-      "background": "bg086_f",
-      "char": "c000_01",
+      "dialogue": "正解。興味ないかと思ったのに、よく知ってるのね。もしかして、こっそり観てた？",
+      "char": "c141_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "それなのにまるで俺なんか存在しないみたいに\\返事もしないで行っちゃったんだよ。",
-      "char": "keep",
+      "dialogue": "ベタな話だな、そんなの観なくたってわかるさ。\\で、一体どの辺が悲しいんだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "たまに俺を好かないチャイルドもいるけど、\\あんな、あからさまに無視するヤツは初めてだ…",
+      "dialogue": "え、もしかして…\\生き別れの兄弟に出会った所か？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
@@ -172,198 +166,63 @@
     },
     "21": {
       "type": "talk",
-      "dialogue": "はあ…ヒュプノスの心を開くのは\\簡単じゃなさそうだな。",
-      "char": "keep",
+      "dialogue": "そんなわけないじゃない。男の人ってダメね。\\そんなことじゃ、美しい恋なんてできないわよ？",
+      "char": "c141_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そんなこともないですよ。",
-      "char": "c001_01",
+      "dialogue": "…う、美しい恋？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ん？モナはアイツの心を開く方法を知ってるのか？",
-      "char": "c000_01",
+      "dialogue": "そうよ、こんな言葉もあるでしょ？\\「愛を知らずに生きていくことなんてできない」。",
+      "char": "c141_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "near"
     },
     "24": {
       "type": "talk",
-      "dialogue": "はい、知ってるかもです。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "知ってるかもぉ？で、それは何だ？",
+      "dialogue": "ああ…聞いたことあるな。\\天使が悪魔に言い放ったっていう言葉か…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あら、ご主人様もあの映画観たのね！",
+      "char": "c141_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "それはですね～",
-      "char": "c001_01",
+      "dialogue": "まあな。俺は悪魔だから愛を知らなくても、\\生きていけるっていうことじゃないか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "それは…",
-      "char": "c000_01",
+      "dialogue": "心配しないで。いつかはご主人様も、\\愛の素晴らしさがわかるはずだから！",
+      "char": "c141_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "それは、秘密です♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "オマエ、本当に人を上げて落とす才能あるよな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "あら、ありがとうございます♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "褒めてない！\\とにかく、俺に自分で調べろってことだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ご主人さま、随分成長しましたね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ちっ。\\手を貸してるつもりなのかそうじゃないのか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "34": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ヒュプノス、今誰と話していたの？",
-      "background": "dungeon_bg",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ハーイ、キレイなお姉さん。新しい友達のロバよ。",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ロバと遊ぶ夢をみていたようね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "夢じゃないわ。あ…夢かしら？",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "それじゃ、私は眠りから覚めてるの？\\それとも…眠っているの？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "そうねぇ…\\ヒュプノスは答えを知ってるんじゃないかしら？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "私には分からないわ。",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "すぐに分かるわ。永遠の夢なんてないから。\\だから今は思う存分、夢を楽しんで。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "うん、永遠に幸せな世界で暮らすわ。",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

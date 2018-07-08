@@ -2,376 +2,295 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "見たわよ！昨日！\\やってくれたわねぇ！",
+      "dialogue": "先日、俺の住んでいる街で殺人事件が起きた。\\その名も、《兄弟殺人事件》",
       "background": "bg086_f",
-      "bgm": "19",
-      "char": "c190_01",
-      "speaker": "same"
+      "bgm": "12",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "な、何のこと！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "弟に嫉妬した兄が、弟を殺してしまう事件だが、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "しらばっくれても無駄よ。\\バッチリ、この両目で見たんだから。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "幸いにも早急に犯人を検挙することができた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お、俺なんかしたっけ？\\リザ、覚えてる？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "どれほど早急にかと言うと…\\ひどく殴られ弱った犯人が\\自ら警察署を訪れ自首してきたのだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "好き放題に飲み食いした結果お腹を壊し、\\お手洗いを長時間、占拠いたしました。",
-      "char": "c002_01",
+      "dialogue": "その犯人をボコボコにしたヤツが\\今この部屋にいる…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "みんな近所のトイレまで行ったんだっけ…\\それは反省してるけど、まさかそのこと？",
-      "char": "c000_01",
+      "dialogue": "《犯人はこの中にいる！》",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal",
-      "facial": "confused"
+      "screen_effect": "dialog_shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ごまかしは利かないわよ。\\貴方は昨晩、車を運転してどこかに出かけた…\\みんなに隠れてね。",
-      "char": "c190_01",
+      "dialogue": "《その犯人は…お前だ！》",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "車？\\いやいや、俺、運転免許持ってないし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "御主人様、やらかしたならやらかした、\\と報告してください。\\知っていれば対処の仕様もあります。",
-      "char": "c002_01",
+      "dialogue": "私が犯人だなんて！\\名探偵の助手には似合わないセリフだよ？",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "10": {
+    "9": {
       "type": "talk",
-      "dialogue": "いやいやいや。話聞いてます？\\免許も車も持ってないよ。",
+      "dialogue": "この暴力事件の犯人！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "11": {
+    "10": {
       "type": "talk",
-      "dialogue": "そう、免許を持ってないから\\運転しないという盲点…\\そこをついて、貴方はトランクに詰め込んだのよ…\\死体を！",
-      "char": "c190_01",
+      "dialogue": "これは単純な暴力事件じゃない！\\正義社会を実現するための努力の一環よ。",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
-    "12": {
+    "11": {
       "type": "talk",
-      "dialogue": "ちょ、ちょっと待て！\\だから、何の話をしてるんだ！？",
+      "dialogue": "何もお前がそんなことをする必要ないだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "facial": "idle"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "犯罪者は絶対に許さない。\\しかも自分の弟を殺すなんて…",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "とぼけても無駄よ。\\こっちには、証拠写真だってあるんだから！",
-      "char": "c190_01",
+      "dialogue": "…当然、罰を受けなくちゃ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "おい、マジでどうした？\\変なこと言うのやめろって！",
+      "dialogue": "お前が出ていかなくても\\警察が勝手に処理してくれる。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "facial": "idle"
     },
     "15": {
       "type": "talk",
-      "dialogue": "御主人様…悪魔らしくないという小言が\\そんなにも嫌だったんですか？",
-      "char": "c002_01",
+      "dialogue": "ふん！のろまな警察なんか信じられないよ。\\今回の事件も私じゃなきゃ解決できなったんだから。",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "だからといって、犯罪を起こす前は\\事前に私と十分な打ち合わせをしてくださらないと…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "リザ、あんなのデタラメに決まってるだろ！\\イシス、俺に何か恨みでもあるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "てへっ★",
-      "bgm": "4",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "none",
-      "one_ani": "attack"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "てへ…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "confused",
-      "before_effect": "none",
-      "screen_effect": "dialog_shake"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "どう、迫真の演技だったでしょ？\\名探偵役！",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "お…ま…あ…え…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "御主人様、開いた口を戻してください。\\今にもよだれが垂れそうです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "おっとと…！\\ああ、参ったなこりゃ…",
+      "dialogue": "まったく…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sigh"
     },
+    "17": {
+      "type": "talk",
+      "dialogue": "ポジティブに考えてみましょう。\\おかげでセシャトからの疑いが晴れましたよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "アタランテの契約者はセシャトの契約者である\\有名な少女探偵の助手だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "2人のチャイルドもまた、\\その関係をそのまま引き継ぎ\\アタランテはセシャトの助手となった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "セシャトは俺が悪魔という理由で\\全ての犯罪に俺が関与していると思っている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "《兄弟殺人事件》の背後にも\\俺がいると勘違いしている。\\幸いにも犯人はアタランテのおかげで捕まえたけど…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "疑いが晴れた？\\ふざけたこと言わないでくれよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "セシャトは悪魔が\\犯人の欲を駆り立ててるって思ってる。",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
     "24": {
       "type": "talk",
-      "dialogue": "ショックを受けた時は溜息をつくだけじゃなくて\\もっと大げさな動作もつけくわえると\\それっぽくなりますよ！",
-      "char": "c190_01",
+      "dialogue": "だから、悪魔を捕まえるまで\\事件は終わらないって。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "イシスはそう言うと、\\俺の演技指導を始めた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "こうやって空を仰いで額を抑えて…\\参ったな、こりゃあ！",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "イシス。演技指導はいいけど…\\もうこんなイタズラはやめるんだぞ。\\寿命が150年は縮んだ。",
+      "dialogue": "だってよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "serious"
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "うふふ…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なあ、連続殺人でも起きるみたいな言い方しないで\\もう放っておいてくれ、な？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "28": {
       "type": "talk",
-      "dialogue": "えっ！そんなにびっくりするくらい、\\私の演技すごかった！？",
-      "char": "c190_01",
+      "dialogue": "連続殺人事件？\\やっぱりそんな恐ろしい計画を企てていたのね。",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "褒めてない。でも、こんな嬉しそうな顔をされると\\否定できない。うーん、とはいえこの子が\\俺のチャイルドだと思うと…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どうしてそうなる。\\推理小説でも書く気か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "30": {
       "type": "talk",
-      "dialogue": "オーディションの審査、\\ご主人様はオッケーくれたということで！",
-      "char": "c190_01",
+      "dialogue": "安心するにはまだ早いよ、悪魔。",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "審査員に内緒でオーディションなんて\\聞いたことないけど。",
-      "char": "c000_01",
+      "dialogue": "度肝を抜く決定的証拠を持ってくるから。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "次はダビを攻略してみようかな？\\モナとの三角関係をネタにして…\\私はモナと隠れて相思相愛で…",
-      "char": "c190_01",
+      "dialogue": "今だって十分に度肝を抜かされてるよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "33": {
       "type": "talk",
-      "dialogue": "うえっ…聞いただけで、\\修羅場が安易に想像できる。",
-      "char": "c000_01",
+      "dialogue": "正義は必ず勝利する！",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "34": {
       "type": "talk",
-      "dialogue": "リザ、あいつのこと止めろよ。\\あらぬ誤解を招いて、大騒ぎになりそうだ。\\特に冗談が通じないやつら…",
-      "char": "keep",
+      "dialogue": "全然聞いてませんね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "そうでしょうか？\\私なら、あのような稚拙な演技に騙されません。\\騙される方が悪いのでは。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ち、稚拙！？\\騙される方が悪いですって？",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "shake"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "さっき俺と一緒に騙されてたのはどこの誰だ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…それは…\\そう、合わせていたのです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "うっそだー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "稚拙…そう言われたからには\\こうしてはいられません！",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "次はリザ、あなたを攻略します！\\涙もちょちょぎれるような完璧な悲劇を\\お見せいたしましょう！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "わかりました。\\一応、ハンカチは準備しておきますね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "いやあ…上手だったけどなぁ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
+      "pos": "center",
       "distance": "normal",
       "facial": "confused"
     },
-    "44": {
+    "35": {
+      "type": "talk",
+      "dialogue": "くっそー！\\少しは話を聞いてくれよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

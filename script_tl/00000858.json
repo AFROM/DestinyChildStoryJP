@@ -2,171 +2,223 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "クカー…チャロン…ゴロゴロ…クカー…",
-      "background": "bg070_f",
-      "bgm": "17",
-      "char": "m197_01",
+      "dialogue": "リベンジガールの契約者の願いですか？\\まさか、忘れてしまったのですか？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どこに行ったかと思えばこんな所で寝てたのか…",
+      "dialogue": "念のため、確認だ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "irritation"
     },
     "3": {
       "type": "talk",
-      "dialogue": "心配させやがって…\\何かあったんじゃないかってヒヤヒヤしたよ…",
-      "char": "keep",
+      "dialogue": "そうですか。願いを忘れる程、\\たくさんのチャイルドを集めたということですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "幸せそうに寝ている姿を見ると…\\契約者みたいにただの子供だな。",
+      "dialogue": "しかし、おかしいですね…\\御主人様の契約件数では、忘れてしまうことの方が\\不思議です。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "はぁ…起こしたら泣いて逃げるよな。\\戦いたくなかったら無理やりさせないって\\言ったけど…",
-      "char": "keep",
+      "dialogue": "正直にバカだと言ってくれ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "cry"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ヘヘ…チャロン…楽しい…ヘヘ…",
-      "char": "m197_01",
+      "dialogue": "御主人様にそんな無礼なことは言えません。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "何の夢みて笑ってるんだ？羨ましい…\\俺もここで昼寝でも…",
+      "dialogue": "よく言うよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "sulky"
     },
     "8": {
+      "type": "talk",
+      "dialogue": "リベンジガールの契約者が銀行強盗だ、ということはご存知ですよね？\\指名手配されたということも…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "それも全て、仲間であり恋人だった人間のせいです。契約者を裏切り、警察と手を組みました。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "契約者の願いは単純です。\\裏切った男に復讐すること。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "もう忘れないでくださいね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ああ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "9": {
-      "type": "talk",
-      "dialogue": "うわ…本当に寝ちゃったよ。あれ？チャロン…？\\また逃げたのか！",
-      "background": "bg070_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "逃げてないチャロン！",
-      "char": "m197_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ビックリした！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ど、どうして僕を追いかけてくるチャロン？",
-      "char": "m197_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "オマエが逃げるからだろ。\\オマエこそなんで逃げるんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
     "14": {
       "type": "talk",
-      "dialogue": "悪魔が追いかけてくるからチャロン！",
-      "char": "m197_01",
+      "dialogue": "お前の企みは全て把握している！\\契約者と復讐する気だろ？",
+      "background": "dungeon_bg",
+      "bgm": "24",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "fury",
+      "mvd_post_effect": "none"
     },
     "15": {
       "type": "talk",
-      "dialogue": "何だよそれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "今頃、思い出したのか？\\お前というヤツは本当に…",
+      "char": "m146_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "僕はもう家に帰るチャロン。お腹空いたチャロン。",
-      "char": "m197_01",
-      "speaker": "same",
+      "dialogue": "それで、私を邪魔しに来たのか？",
+      "char": "keep",
+      "speaker": "same_full",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "え？本当にもう逃げないのか？",
+      "dialogue": "当然だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "警告を忘れたようだな…",
+      "char": "m146_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "その指以外、全て使えなくしてやると言ったはずだ…",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あ…モナと一緒に来るの忘れてた…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "お、落ち着け。指だけじゃお前を助けてやれない。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "18": {
+    "22": {
       "type": "talk",
-      "dialogue": "お腹空いたチャロン！",
-      "char": "m197_01",
+      "dialogue": "そして、俺はお前の助けが必要なんだ。\\魔王になるために…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left"
     },
-    "19": {
+    "23": {
       "type": "talk",
-      "dialogue": "分かった、分かった。",
+      "dialogue": "私の契約者もそう言った。私の助けが必要だと。\\復讐のために。",
+      "char": "m146_01",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "私は契約者の怨念から生まれた存在。\\無理やり引き留めても、その欲望を消すことは\\できない。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "だが私の邪魔をしないのであれば\\お前の目的のために私も最善を尽くしてやろう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "いや、本当は魔王なんかになりたくは…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "irritation"
     },
-    "20": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "21": {
+    "27": {
       "type": "talk",
-      "dialogue": "夢の中で悪魔が優しくしてくれたチャロン。\\目を覚ましたら隣に悪魔がいたチャロン。",
-      "background": "bg110_f",
-      "char": "m197_01",
-      "speaker": "same"
+      "dialogue": "だからもう邪魔はするな。\\これ以上邪魔をしたら、その時は…",
+      "char": "m146_01",
+      "speaker": "same_full",
+      "distance": "near"
     },
-    "22": {
+    "28": {
       "type": "talk",
-      "dialogue": "チャロンは悪魔の出る夢をみたのか、\\それとも悪魔が僕の夢に出てきたのか…",
+      "dialogue": "わ、分かった、分かったよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "nonsense"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "分かったからどうか命だけは…",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
     },
-    "23": {
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

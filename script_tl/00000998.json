@@ -1,18 +1,235 @@
-﻿{
+{
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "すごいです～♥\\同じ方法で防具も装備できます。",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none",
-      "one_ani": "attack"
+      "type": "curtain",
+      "background": "back",
+      "bgm": "9",
+      "hold": "normal"
     },
     "2": {
+      "type": "curtain",
+      "background": "bg116_f",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "3": {
       "type": "talk",
-      "dialogue": "新しく獲得したチャイルドをチームに入れると\\戦闘がもっと簡単になりますよ～♥ \\前みたいにチャイルドを選択してチームに入れてみてください～♥",
+      "dialogue": "あの～ちょっとお聞きしたいんやけど…\\こんな花、見た事ありまへんか？",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200304001"
+    },
+    "4": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "hold": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "<color=808080>(リザは《おかしな絵》を目撃した！)",
+      "char": "none",
+      "speaker": "none",
+      "image": "raid2_flower"
+    },
+    "6": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "hold": "shorter"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "bg116_f",
+      "fade_in": "shorter",
+      "hold": "shorter"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…絵の才能が極めてゼロに近いですね。実物の写真はないのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200304003"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "えげつない言われようやわ…\\知らんなら、そうゆうたらええやん…",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200304004"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "本当に花ですか？風船と言われてもおかしくないくらい絵の才能がありませんね…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200304005"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "もうええって！見たん？見てないん？",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200304006"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "花、ですか…\\見てませんね。あの花屋さんに聞いてみては…？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200304007"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あ、せやな。おおきに！",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "after_effect": "go_to_left_point",
+      "voiceid": "200304008"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "もしよかったら、一緒にその花を探してあげましょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200304009"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ええの？！\\けったいな態度に似合わず、ええお人やなっ！",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200304010"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "フフッ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "200304011"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "46",
+      "fade_out": "normal",
+      "hold": "shorter"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg119_f",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "植物園にも行ったり、博物館にも行ったりしたけど、どうにも見つかりまへん…",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200304012"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "どこに隠して逃げよった？",
       "char": "keep",
-      "speaker": "none"
+      "speaker": "unknown1",
+      "pos": "left",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200304013"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "とても大切な花のようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200304014"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "その花を見つけんと自由の身になられへん言われて。うちのご主人、魔界でも有名な意地っ張りやから…",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200304015"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あら、しょうもないことゆうてしもたな。\\すんまへん。このことは聞かんかったことにしとくれやす。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "left",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200304016"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "大丈夫です。ですが、これ以上の捜索は、時間の無駄でしょう。ここで終了した方が賢明かと。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200304017"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shortest",
+      "hold": "shortest"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "",
+      "bgm": "42",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_atk_skill_drive_rec_gather.mvd",
+      "mvd_pos": "bottom"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…お姉さんから、けったいな力を感じます。なんも？まさか…悪魔じゃないです？",
+      "background": "bg119_f",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "voiceid": "200304018"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "私はサキュバスです。そういうアナタは<b>チャイルド</b>ですよね。そうでしょう？",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200304019"
+    },
+    "13": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "hold": "normal"
     }
   }
 }

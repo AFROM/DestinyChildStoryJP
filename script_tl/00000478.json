@@ -2,286 +2,205 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "た、大変だ。",
-      "background": "bg058_f",
-      "bgm": "24",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "リザ！ちょっとコレ見てよ！",
+      "background": "bg006_f",
+      "bgm": "4",
+      "char": "c153_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうした？",
-      "char": "c000_01",
+      "dialogue": "何ですか、これは？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "警察の上層部が、\\情報の漏洩は内部から起こったのでは…\\と疑い始めている。",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "ぼくが主のために作ったスケジュール表だよ。",
+      "char": "c153_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そりゃ、確かに大変だ。",
-      "char": "c000_01",
+      "dialogue": "スケジュール表…ですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ど、どうすればいいだろう？",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "うん、主はやる気が足りないからね。\\でもこれがあれば、ハキハキ働いてくれると\\思うんだよ。",
+      "char": "c153_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "選ぶしかないだろ。",
-      "char": "c000_01",
+      "dialogue": "ちょっと目を通してくれないかな？\\サキュバスで一番頭の良いリザなら、\\これの良さを分かってくれると思うんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "どちらを、か？",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "なるほど、良い判断です。\\そういうことなら、拝見しましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そういうこと。今まで通り警察側につくか、\\マフィアの傘下に入るか…",
-      "char": "c000_01",
+      "dialogue": "どれどれ…朝7時に起床、健康的でいいですね。\\8時から12時まで「インディー・ジョーンズ」鑑賞？なんですか、これは…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ああ、なぜこんなことに…",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "昼食は、狩猟と採取で済ます…\\14時から18時まで、\\ダンジョン探検に備えた訓練…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "幼馴染みがマフィアのボスだったのが問題だよな。",
-      "char": "c000_01",
+      "dialogue": "エポナ、これは何ですか…？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "irritation"
     },
     "11": {
       "type": "talk",
-      "dialogue": "せめてそれに気が付かなけりゃ、\\こんな厄介なことにはならなかったかも\\しれないけど。",
-      "char": "keep",
+      "dialogue": "ん？まだ続きがあるよ。\\夜は、ぼくが昆虫の調理を教えようと思うんだけど…",
+      "char": "c153_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "この男は京太一(かなどめ たいち)。\\トートの契約者だ。職業は刑事。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "質問に答えてください。これは何なんですか！？\\どう見ても魔王争奪戦とは、何の関係もないですよ！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "angry",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "マフィアを取り締まるために潜入したカジノで、\\そこのボスになってた幼馴染みと再会した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そんなことないよ。このスケジュールは主の\\精神を鍛えるために組まれてるんだ。",
+      "char": "c153_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "その上、その幼馴染みを助けようとしたのが\\運の尽きだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "インディー・ジョーンズシリーズを観ることで\\刺激を受けた主が、槍とナイフを持って\\ジャングルで狩りをするんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…なあ、あのモナって女性には、もう会えないのか？",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "この辺に、ジャングルなんてあるのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
     },
     "16": {
       "type": "talk",
-      "dialogue": "え？会ってどうすんの。",
-      "char": "c000_01",
+      "dialogue": "まあ、細かいことは気にしないで。\\それで、昼食後は、ロッククライミング、\\鞭の使い方講座、木登りの特訓をするんだ。",
+      "char": "c153_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "彼女はあのマフィアの一員なんだろ？\\俺をお姉さんに…\\ボスに会わせてもらえないかと…",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "木登り？御主人様は猿じゃないですよ？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そ、それはダメだ。",
-      "char": "c000_01",
+      "dialogue": "猿のように身軽じゃないと、\\探検はできないからね、仕方ないよ。",
+      "char": "c153_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "そういえば、モナはマフィアのふりをして、\\こいつを連れてきたんだったな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "た、探検ですか…なるほど…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
     },
     "20": {
       "type": "talk",
-      "dialogue": "その幼馴染みのボスってのはティアマトの契約者\\だから、俺も面識があることはあるけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あ、ちょっと口が滑っちゃった！ははは…\\って、ええええ！なんでスケジュール表を\\破っちゃうのさ！？",
+      "char": "c153_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "after_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "もしあいつに、モナがマフィアの一員だって\\名乗ったことがバレたら…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "こんなものは必要ありません。\\燃えるゴミの日にでも出しておきますね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation",
+      "one_ani": "attack"
     },
     "22": {
       "type": "talk",
-      "dialogue": "腹に風穴開けられそうだよな…",
-      "char": "c000_01",
+      "dialogue": "ひ、ひどいよ～！",
+      "char": "c153_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "どうした？顔色が悪いぞ？",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "はあ…やはりこの家でスケジュール管理が出来るのは私だけのようですね…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "い、いや、何でもない。\\とにかく、ボスに会わせるのは無理だ。\\そう簡単に会える人じゃないからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "では、俺はどうすればいいんだ？",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "とりあえず、選べって。そこからだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "うう…そんなにすぐに選べるなら、俺だって…",
-      "char": "c154_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "28": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "…俺の契約者が、ひどく悩んでいるようだな。\\主の仕業か？",
-      "background": "dungeon_bg",
-      "bgm": "9",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "仕業だなんて人聞きが悪いな。\\勝手にジレンマに陥ってるだけだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ジレンマ？\\何を悩む必要がある。\\考えるまでもなく、答えは明白だろう？",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "そうか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "そうだ。情報を漏洩した罪を告白するか否かで\\迷うのなら、まだ理解もできるが、\\刑事という職を選んだ以上、警察に残る以外、\\何がある。",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "はは、トートらしいな。\\…けど、お前の契約者には、\\もうひとつ大切なものがあるから迷ってるんだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "大切なもの？",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ああ、だから、刑事のくせにマフィアに\\情報漏洩なんてしちまったんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "…意味がわからないな。\\何をおいても、大切にすべきものはただひとつ。\\秩序を守ることだけだ。",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "はいはい、トートにこういう話はまだ早かったな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "何をわけの分からないことを…\\ふむ…主とあの契約者、どうにも理解に苦しむな。",
-      "char": "c154_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

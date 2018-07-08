@@ -2,246 +2,277 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "準備はよろしいですか？",
+      "dialogue": "お前、もう金輪際キッチンには近づくなよ！？",
       "background": "bg089_f",
       "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same"
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "2": {
       "type": "talk",
-      "dialogue": "え…俺、ちょっとトイレ…",
+      "dialogue": "ふぇぇ、そこまで言う事ないじゃん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake_weak"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "あのな、これでも優しく言ってる方だぞ！？\\インスタントラーメン作ろうとして、どうして\\家が燃えそうになるんだ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ワザとじゃないもん！\\怒鳴らないでよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sulky",
+      "one_ani": "attack"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ワザとなら、怒る程度じゃすまないぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "とにかく、ガスレンジには絶対！絶対！\\触るなよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "嫌だ！ヤダヤダ！触るもん！\\ラーメンも作るし、目玉焼きも作るもんね！\\だって、それフリでしょ！？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "振りなワケないだろ！どこのクラブだ！\\とにかく、素直に言うこと聞かないと…お、オルガ！ちょうどいいところへ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…ふう、喧しいな。\\何事だ？",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "言うこと聞かないと、オルガに頼んで\\上空2,000mから東京見物させるぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "もちろん命綱なしでな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ヒイッ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "おい、私の意志は…",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "オルガ、すまん！\\ここは黙って言うことを聞いてくれ…！\\家を無事に守るためだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "それでもいいのか？俺は本気だぞ？なっ、オルガ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "やれやれ…こやつの言うとおりだ。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ふええん、ご主人ズルい！\\モナ姉さまに言いつけちゃうんだからー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "superangry",
+      "after_effect": "go_to_right_point"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "はあ…面倒事に巻き込むな。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あのな、さっきも言っただろ。\\家を守るためだって。\\お前も家がなくなったら困るだろ？\\だから相槌の協力くらいしてくれってこと。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "3": {
+    "20": {
       "type": "talk",
-      "dialogue": "少し前に行ってきたばかりではないですか。\\これ以上待てません。さあ、準備してきてください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
     },
-    "4": {
+    "21": {
       "type": "talk",
-      "dialogue": "ああ、待ってくれ。靴下に穴が空いてる！",
+      "dialogue": "んで、キッチンには何の用だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "家中に漂うこの美味そうな匂い…\\それにつられて戻ってきたら、\\ダビがラーメンを作ってると聞いたので。",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "えー、自分で作るのが面倒だから\\ダビに分けてもらおうと思ったってこと？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "5": {
-      "type": "talk",
-      "dialogue": "今日は裸足で靴を履いてください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "それじゃ足の臭いが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "大丈夫です。どうせ汗まみれになるでしょうから。\\戻ってきてシャワーを浴びれば足の臭いも\\消えてしまいます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "うう…なんで近くに山なんてあるんだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "昨日まで一生懸命働いたんだから…\\今日は休んじゃダメか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "アルバイトのために大目に見てきましたが、\\今日はダメです。\\休日以外にいつ体を鍛えるつもりですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "山なんてなくなっちゃえばいいのに…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "そんな呪い、何度呟いても無駄ですよ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ちっ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "リザ！リザ！ハハハ！見たか、俺の呪いの威力を！",
-      "background": "bg036_f",
-      "bgm": "31",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "夜中、山に大きな穴が空いたそうですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ヘヘヘへ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "犯人はバズーカです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ヘヘへ…え？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "まさか本気で呪いだと思ったのですか？\\あんな大胆なこと、御主人様には無理です。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "バズーカ！本当なのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "Positive.",
-      "char": "m059_01",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "え、いや…山をどうしてくれるんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
     "24": {
       "type": "talk",
-      "dialogue": "山をターゲットにしろと命じたのは、マスターです。",
-      "char": "m059_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "分けてもらう？…いや、足りるわけないだろう。\\無論、丸ごといただこうと思っていた。",
+      "char": "m057_01",
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "なくなればいいとは思ってたけど…",
+      "dialogue": "…ダビは俺に感謝すべきだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "少し前まであんな喜んでいたのに\\心変わりされたようですね。",
-      "char": "c002_01",
+      "dialogue": "座ってな、俺が作ってやるよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "チャイルドが起こした厄介事は主人である俺が\\何とかしないとな…でもどうやって…",
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "俺、こう見えて自炊歴長いからさ。\\俺の作るインスタントラーメンは美味いぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "たかがインスタントでも、作るにはコツがあるんだ。麺じゃなくてスープから入れる！これがミソ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…お前、そんな無口だっけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "そういうお前は\\前からそんなに口やかましかったか？",
+      "char": "m057_01",
+      "speaker": "same"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "いや…でもお前といるせいか、\\柄にもないけど、おしゃべりになった気分だね。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "28": {
+    "35": {
       "type": "talk",
-      "dialogue": "何とか…",
-      "char": "keep",
+      "dialogue": "じゃあ、普段通り静かにしていろ。\\俺のようにな。",
+      "char": "m057_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…キャラに合わないことしても仕方ないか。\\遠慮なくそうさせてもらうよ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
-    "29": {
-      "type": "talk",
-      "dialogue": "俺は知らない！俺は見てない！見てないフリするぞ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "after_effect": "go_to_left_point"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "コントロールさえ上手くできれば\\立派な戦力になると思うのですが…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "無能な御主人様が開けた穴はチャイルドが\\埋めないと。これからも宜しくお願いしますね、\\バズーカ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "Positive. 命令をください。",
-      "char": "m059_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "33": {
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

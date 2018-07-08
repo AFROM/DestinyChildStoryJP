@@ -2,216 +2,421 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ひどい。ゲームの何が悪いっていうんだ…\\宿題終わってないのは確かだけど…",
-      "background": "bg041_f",
-      "bgm": "9",
-      "char": "c205_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "今日もハズレ。",
+      "background": "bg021_f",
+      "bgm": "24",
+      "char": "c188_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "でもゲームの方が面白いんだから\\しょうがないじゃん！",
-      "char": "keep",
+      "dialogue": "簡単にはいかないわね。",
+      "char": "c200_00",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "うわっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "facial": "shock"
+      "dialogue": "まさかここであきらめるつもりじゃないよね？\\まだ時間はある！",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あっ！",
-      "char": "c205_00",
+      "dialogue": "諦めるものですか。 逆に、何かがはっきりしている感じよ。",
+      "char": "c200_00",
       "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "お前、この前もゲームしながら歩いてて\\危ない目に遭っただろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ホントに？\\犯人が誰だかわかりそう？",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あの時のお兄ちゃんだ。",
-      "char": "c205_00",
+      "dialogue": "ううん、まだわからないわ。\\でも、私たちは真実に向かって\\少しずつ近づいているって確信はあるの。",
+      "char": "c200_00",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ああ、あの時のお兄さんだ。\\ゲーム好きにも、ほどがあるぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "わかった！それなら、こうしちゃいられない。\\もう一度手がかりを探してみる！",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "前を見て歩かないとダメだろ？\\前みたいに悪いお兄さんたちに\\ぶつかったらどうするんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ありがとう。",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うっ…お兄ちゃんもゲームって悪いものだと思う？",
-      "char": "c205_00",
+      "dialogue": "そう言えば、昨日会ったあの探偵はどう？\\何か使えそうな情報は？",
+      "char": "c188_00",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ゲームのことで怒られたのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "使えそうな……ね。どうかな……\\ちょっと頼りない探偵だから……",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "ゲームのせいで宿題をしてこなかったって、\\先生に怒られたんだ。",
-      "char": "c205_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "自業自得だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "天才少女探偵殿が、ボクに何の用？",
+      "background": "bg004_f",
+      "char": "c030_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "13": {
       "type": "talk",
-      "dialogue": "でも…でもゲームってすっごい面白いんだよ。",
-      "char": "c205_00",
+      "dialogue": "あなたが、悪魔にとても興味を持っていると\\聞いたので。",
+      "char": "c200_00",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "14": {
       "type": "talk",
-      "dialogue": "だんだん面白くなってきてるし…\\本当にゲームの中に入り込んだ気分になるんだ…",
-      "char": "keep",
+      "dialogue": "もしかして……\\キミも悪魔関連の事件を追ってるの？\\ねえ、どんな事件？",
+      "char": "c030_00",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…え？",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "落ち着いて。 それを確認するためにお会いしたいと思ったのです。",
+      "char": "c200_00",
+      "speaker": "same_full",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そう！お兄ちゃんに会った時からそんな感じがする。",
-      "char": "c205_00",
+      "dialogue": "担当している事件に\\悪魔が介入しているかもしれないと思ってるの？",
+      "char": "c030_00",
       "speaker": "same_full",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "17": {
       "type": "talk",
-      "dialogue": "コイツは結城遊(ゆうき ゆう)。マーリンの契約者だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "確信はできないけど……\\可能性はあると見たほうがいいと思うの。",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "18": {
       "type": "talk",
-      "dialogue": "今日みたいにゲームしながら歩いていて\\近所の不良たちにからまれていた所を",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ふむ……\\ボクが見る限りだと\\キミは悪魔なんて信じてないって感じだけど？",
+      "char": "c030_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "19": {
       "type": "talk",
-      "dialogue": "偶然通りかかった俺とモナに助けられ、\\それをきっかけに契約を交わした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "……仕方ないじゃないですか。\\悪魔だなんて……ファンタジーじゃあるまいし。",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ねぇ、知ってる？\\どうしてゲームが面白くなったのか。",
-      "char": "c205_00",
+      "dialogue": "頼りない探偵殿ねえ。\\さっき自分の口で、可能性はあるかもって\\言ったじゃない。",
+      "char": "c030_00",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "21": {
       "type": "talk",
-      "dialogue": "俺にそんなこと分かるわけないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "本当に悪魔がいると思っているのですか？",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "22": {
       "type": "talk",
-      "dialogue": "口ではこう言ってるけど、\\明らかにマーリンの影響を受けている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "当然！ボクは自分を信じてるから！",
+      "char": "c030_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "23": {
       "type": "talk",
-      "dialogue": "マーリンは自分がゲームの中から出てきた\\魔法使いだと信じているから…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あなたの手腕は、すでによく存じています。\\だとしても…… 悪魔の存在を信じるのは簡単ではありません。",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "gray"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ゲームをしている時だけは、現実とゲームの区別が\\つかないようだ。",
+      "dialogue": "想像力を発揮してみて。 C・オーギュスト・デュパンみたいに。",
+      "char": "c030_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "gray"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "へえ、すごい探偵だね。\\キミがデュパン好きなのを見破ったのか。",
+      "background": "bg021_f",
+      "char": "c188_00",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "単なる偶然よ。",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ところで、本当に悪魔の仕業なのかな？",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "本当に悪魔がその女をさらったのなら……\\悪魔を相手に戦うことになるの？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "怖い？",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "怖くはないよ！ 悪魔じゃなくて、魔王が出て来たって勝てるし！",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "魔王って…… 悪魔の存在も半信半疑なのに……",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "悪魔が実在したっていいじゃない？\\大事なのは、真実が何か、だし。",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "「想像力を発揮してみて」か……\\まあ、真実は思いがけない場所に\\あったりするから……",
+      "char": "c200_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "それじゃ、捜査を再開しましょうか？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "あのままでいいのでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "このままでは、あの事件に\\御主人様が介入している事実を突き止めるでしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "あのふたりが追っているのは\\ダナの契約者が失踪した事件だ。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "25": {
+    "40": {
       "type": "talk",
-      "dialogue": "お兄ちゃんにも分からないのか。\\ま、面白いからいっか。",
-      "char": "c205_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "彼女は俺と契約した後\\人目を遠ざけたいと、静かに暮らしている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "26": {
+    "41": {
       "type": "talk",
-      "dialogue": "そんなにゲームが好きなのか？",
+      "dialogue": "彼女を苦しめた養父母は\\相変わらず彼女を探しているようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "あのふたりは、消えたダナの契約者を\\探しているうちに俺の存在を知り、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "俺は存在を隠すために\\仕方なくふたりと契約を結んだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "契約の影響で、人間であるあのふたりは\\御主人様の存在を忘れはしましたが、",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "この状態が続けば、いつかまた御主人様と\\顔を合わせることになるでしょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "それまで待とう。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
-    "27": {
+    "47": {
       "type": "talk",
-      "dialogue": "うん！楽しいじゃん！\\ゲームの中では魔法も使えるし\\悪い怪物も倒せるんだから。",
-      "char": "c205_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "はい？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
-    "28": {
+    "48": {
       "type": "talk",
-      "dialogue": "でもちゃんと前を見て歩かなくちゃダメだぞ。",
+      "dialogue": "まだ大丈夫だろ。 ちょっと、のんびり行こうよ、のんびり……",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
-    "29": {
+    "49": {
       "type": "talk",
-      "dialogue": "…文句ばっかだね。",
-      "char": "c205_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "また人間の真似事ですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
-    "30": {
+    "50": {
+      "type": "talk",
+      "dialogue": "怠け者なだけだよ、俺は。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "人間の真似事をする、怠け者の古だぬきですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "52": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

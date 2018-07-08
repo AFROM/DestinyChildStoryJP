@@ -2,310 +2,210 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様のお部屋が…\\以前よりすごいことになってますね。",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "その幽霊は路地にいた。\\野良犬…いや、野良子犬のコムギがたたずむ場所に。",
+      "background": "bg177_f",
+      "bgm": "15",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それって、前からすごい汚かった\\って言いたいのか…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "そこでは女子高生と思われる幽霊が、\\壁にもたれてうずくまり、\\めそめそと涙を流していた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "gray"
     },
     "3": {
       "type": "talk",
-      "dialogue": "まあ、時に…この本はなんでしょうか？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "悲しい…辛い…誰か…助けて…\\この悲しみを止めて…",
+      "char": "c115_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "screen_effect": "gray"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あー、そこらのは全部、\\エリオスが置いていった本だな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "どうせすぐに成仏してしまう霊の願いなど、\\犬のコムギ以外には見向きもされないはずだった…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "screen_effect": "gray"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…エリオスが？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "これ以上…悲しいのはイヤ…",
+      "char": "c115_00",
+      "speaker": "same_full",
+      "screen_effect": "gray"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "そう、これ見てみろよ？\\明らかに俺が読めるものじゃなさそうだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "孟子、論語、自由論、ソクラテスの弁明…\\全部哲学書ですね。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "女子高生の霊はいつの間にか消え、\\今その場所にはソネットが立っていた。",
+      "background": "bg177_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ああ、毎日買ってきては置いてってさ、\\ついにこんな山積みになっちまった。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "幽霊だけに聞こえる、\\悲しいレクイエムを奏でながら。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "早く片付けないと、リザが怒り出しそうですね。",
-      "char": "c117_01",
+      "dialogue": "恨めしい人生♬辛いばかりの世の中♬",
+      "char": "c115_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "10": {
       "type": "talk",
-      "dialogue": "んー、でも…リザの説教も怖いが、\\エリオスの小言のほうが、もっと怖いんだよな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "ぐすっ、悲しい。悲しすぎる…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "11": {
       "type": "talk",
-      "dialogue": "なんつーか、何言ってるか\\チンプンカンプンなんだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "許して、私が悪かったの…ううっ…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "12": {
       "type": "talk",
-      "dialogue": "真理がどーとか、摂理がどーとか…\\俺は悪魔だけどな。\\あいつの話を聞いてると、\\キレイに浄化された気分になっちまう。",
-      "char": "keep",
+      "dialogue": "わたし死んだの♬まだ若いのに♬",
+      "char": "c115_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "one_ani": "attack"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あいつは俺のことを何か誤解してるんだよ。\\俺にこれ以上、愚かな人間をダマすなって\\言ってきたんだぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "どうやら幽霊の契約者と契約を交わしたせいか、\\ソネットは自分がまだ人間だと\\思い込んでいるようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "俺の方が何倍も人間にダマされ続けてるっての！",
-      "char": "keep",
+      "dialogue": "あら、ご主人さま。\\魔界から報奨金が出ましたよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "エリオスは愚か者です。\\あのような愚者の言葉に耳を傾ける必要は\\ありません。",
-      "char": "c117_01",
+      "dialogue": "はい？何の報奨金だよ。\\俺は何もしてないぞ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "あれ…\\お前、そんなにエリオスのこと嫌いだったっけ？",
-      "char": "c000_01",
+      "dialogue": "ソネットの歌を聴いて、\\「あの歌を聴くぐらいなら地獄にいるほうがマシ」とたくさんの霊が魔界にやってきたそうです。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal",
-      "facial": "idle"
+      "facial": "pretense"
     },
     "17": {
       "type": "talk",
-      "dialogue": "くそ、俺がバイトでいくら給料をピンハネされたと\\思ってやがる…！",
+      "dialogue": "それで、魔界の刑務所長が、\\感謝状と報奨金を送って来たんですよ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal",
-      "facial": "confused"
+      "facial": "pretense"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…エリオスは愚かなだけではなく、\\厚かましいんです。",
-      "char": "c117_01",
+      "dialogue": "それって良いこと…なのか？\\ソネットの願いは、幽霊退治じゃなかった\\ハズなんだが。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "idle"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あれだけ悪魔を嫌っておきながら、\\その悪魔の力を借りているなんて…信じられません。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あ、ええっと…エリオスにも、\\どうしようもない事情が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "そんなこと、どうでもいいです。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "とにかく、私の前では二度と\\その愚かなチャイルドの話はしないでください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "ヤーガが帰った後も、俺はしばらく\\彼女の態度について考えていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ヤーガとエリオスの契約者2人は\\元々仲のいい兄妹だったが、\\悪魔についての見解の相違によって\\疎遠になってしまった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "そして兄妹2人は悪魔によって起きた問題を、\\悪魔の力を借りて解決しようとした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "そんな訳でヤーガとエリオスが生まれた訳だが、\\現実での関係と同じくチャイルド達も、\\お互いを理解できなかったようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…って、それって俺が原因みたいじゃん。\\いや、たしかに俺のせいなのかも…う～ん…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "御主人様…\\この本の山は一体…？",
-      "char": "c002_01",
+      "dialogue": "うふ♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near",
-      "facial": "serious"
+      "facial": "tempt"
     },
-    "30": {
+    "20": {
       "type": "talk",
-      "dialogue": "うえっ、リザ。こ、この本はだな。\\俺じゃなくてエリ…",
+      "dialogue": "な、何だよその目は…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "confused"
     },
-    "31": {
+    "21": {
       "type": "talk",
-      "dialogue": "はあ…部屋を散らかしておきながら、\\まずは言い訳ですか？\\それとも、小姑みたいなお説教は控えろとでも？",
-      "char": "c002_01",
+      "dialogue": "もしかして妙なチャイルドを作ってしまったと、\\それもご自分の力が至らなかったせいだと、\\ちょっと後悔しちゃってますか？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
-      "facial": "serious"
+      "facial": "tempt"
     },
-    "32": {
+    "22": {
       "type": "talk",
-      "dialogue": "い、いや、別にそんなこと\\言うつもりじゃなくてだな…",
+      "dialogue": "ち、違うって！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused"
     },
-    "33": {
+    "23": {
       "type": "talk",
-      "dialogue": "ふむ…ですが御主人様がこんな本を読まれるとは\\意外です…哲学書、お好きなんですか？",
-      "char": "c002_01",
+      "dialogue": "もう、ご主人さまったら可愛い♥\\そんなに申し訳なさそうにしなくてもいいのに♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "distance": "near",
+      "facial": "smile"
     },
-    "34": {
+    "24": {
       "type": "talk",
-      "dialogue": "しかし哲学書を読んだからと言って。\\御主人様の格が上がるとは思えませんけどね。\\ふふ…",
+      "dialogue": "こんなに優しく想われて、うらやましいです。\\墓地に行ったら、亡くなった彼女に\\感激されちゃうかもしれませんね♥",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "distance": "normal"
     },
-    "35": {
+    "25": {
       "type": "talk",
-      "dialogue": "だから、これは俺のじゃなくてさ…",
+      "dialogue": "い、いや、そんなコト…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
     },
-    "36": {
+    "26": {
       "type": "talk",
-      "dialogue": "そうですね、この際、\\御主人様にふさわしくない物は、\\全部処分してスッキリしましょう。",
-      "char": "c002_01",
+      "dialogue": "悲しみが止まらない♬\\ああ、うらめしや♪あの詐欺師の悪魔め♬",
+      "char": "c115_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "distance": "far",
+      "loop_ani": "attack"
     },
-    "37": {
-      "type": "talk",
-      "dialogue": "えっ？リザ、ちょっと待て！\\や、やめろ！やめてくれー！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "shock",
-      "screen_effect": "shake"
-    },
-    "38": {
+    "27": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

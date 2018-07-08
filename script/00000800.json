@@ -2,433 +2,351 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "マアト。もう起きろよ？",
-      "background": "bg086_f",
-      "bgm": "31",
-      "char": "c000_01",
+      "dialogue": "ルナ～！\\ルナはどうして契約者に会いに行っても、いつもそのまま帰ってくるの？",
+      "background": "bg133_f",
+      "bgm": "9",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "joy"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ううん～ふふん～ムニャムニャ～",
-      "char": "c360_01",
+      "dialogue": "……",
+      "char": "c321_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "寝てるフリするな！\\いつまで布団の中でゴロゴロするつもりなんだ？",
-      "char": "c000_01",
+      "dialogue": "それをどうやって知りましたか？\\見つからないように、秘密にしていたんですが…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "それに他人のベッドで寝るな！\\そのベッドは俺のだぞ！！",
-      "char": "keep",
+      "dialogue": "ええっとね、知りたい？\\ダビの特技はストーキングなんだよ！\\どう？すごいでしょ！！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "facial": "joy"
     },
     "5": {
       "type": "talk",
-      "dialogue": "悪魔はバイトだったんでしょう。\\ベッドというのは誰かがその上に横になってこそ\\役割を果たすものよ？",
-      "char": "c360_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "だから、忙しい悪魔の代わりに、私が横になったわけですよ～それに気づけないとは…\\やっぱり、悟りを開けない悪魔は仕方ないですね～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "悟りなんかどうでもいい！\\早く起きなさい！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "confused"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "きゃ～！！",
-      "char": "c360_01",
+      "dialogue": "え…？\\ちょ、ちょっと待って！",
+      "char": "c321_01",
       "speaker": "same",
       "pos": "right",
       "before_effect": "shake"
     },
-    "9": {
+    "6": {
       "type": "talk",
-      "dialogue": "な、何！",
-      "char": "c000_01",
+      "dialogue": "そういう事は自慢しちゃダメよ！\\それに、黙って付いて行くなんて危ないわ！\\…悪魔は小さい子供でも容赦しないのよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ダビ小さい子供じゃないよ！\\もうすぐ立派な大人になれるって、モナ姉さまが言ったもん！！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "facial": "idle"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…ごめんね、ダビちゃん。\\ダビちゃんも一人前のサポーターなのよね。",
+      "char": "c321_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そうだよ！ダビも一人前のサポーターなの！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "10": {
       "type": "talk",
-      "dialogue": "いきなり掛け布団を取ったら寒いでしょう！\\あ～寒い。マアト凍って死んじゃう～！",
-      "char": "c360_01",
+      "dialogue": "はい。そうですね～\\では、一人前のサポーター様？\\一緒に行きましょうか。",
+      "char": "c321_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "疲れる…こんなマアト、すごく疲れる…\\いくら変わったとは言え、変わり過ぎなんじゃない？お前元々こんな性格じゃないだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "《人生はひと握りのほこりの如し》\\《太陽の下に永遠な物などない》",
-      "char": "c360_01",
+      "dialogue": "悪魔さんを探してるんでしょ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
+    "12": {
+      "type": "talk",
+      "dialogue": "うん！\\もう帰宅時間を過ぎてるのに帰ってこないから、きっと寄り道してるんだよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "13": {
       "type": "talk",
-      "dialogue": "《無より生まれし者よ、無へと帰すべし…》",
-      "char": "keep",
+      "dialogue": "ふふ…\\どんな寄り道をしてるのかしらね。\\では、のんびりと女同士のデートを楽しみましょう。",
+      "char": "c321_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "おい…マアト、お前…",
-      "char": "c000_01",
+      "dialogue": "うん！\\特別にダビの仲間にしてあげるっ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "victory",
+      "one_ani": "attack"
     },
     "15": {
-      "type": "talk",
-      "dialogue": "神が言う！\\《聞く耳ある者は聞くべきだ！》",
-      "char": "c360_01",
-      "speaker": "same",
-      "distance": "near"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "keep",
+      "dialogue": "ああっ！",
+      "background": "bg181_f",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "idle",
+      "screen_effect": "dialog_shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "で？…それから…？",
-      "char": "c000_01",
+      "dialogue": "見つけた。このイケないトサカ野郎！\\ダビに秘密で面白いことやってたでしょ！？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "near",
+      "facial": "idle",
+      "screen_effect": "dialog_shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "神が…神が…！",
-      "char": "c360_01",
+      "dialogue": "まぁ…\\普通の青少年っぽくて、悪魔さんがカラオケに来てるなんて、逆に想像できませんでした。",
+      "char": "c321_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "…続きは思い浮かばないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "説法も簡単じゃありませんね…",
-      "char": "c360_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "そもそも学んだ神学も読んだ書物も、嘘や欺瞞ばかりの偏った薄っぺらい知識だけ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "それに性格も完全に変わってしまいました。\\長ったらしいセリフなんてもう死んでも言えない体になってしまったのです…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "お前さ…本当に大丈夫か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "お前の<b>信仰</b>のことだけど…\\そんなに簡単に捨てても平気なのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "悪魔の方こそ、そんなこと言って大丈夫ですか？\\体がちょっとしびれたり、吐き気がするとか…",
-      "char": "c360_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "昔のことを完全に忘れたわけじゃないだろ？\\お前、ずっと前に俺の手をこんな感じで握って…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "握って…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "irritation"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "握って？",
-      "char": "c360_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "握って「悔い改めよ」とか、\\「悪魔にも光がある」とか言いながら、\\お祈りしてただろ！？",
+      "dialogue": "うるさい。俺にはストレス発散が必要なんだよ…\\ところで、お前たちは、モナのスパイか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sulky"
     },
-    "30": {
+    "20": {
       "type": "talk",
-      "dialogue": "こんな風にですか？",
-      "char": "c360_01",
+      "dialogue": "そうだよ！このバカご主人！\\毎日モナ姉さまに迷惑かけて！！",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "center",
+      "distance": "near",
+      "facial": "idle",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "31": {
+    "21": {
       "type": "talk",
-      "dialogue": "いや…こんなに顔を近づけてはいなかったけど…",
+      "dialogue": "モナ姉さまが言ってたんだよ！\\ご主人が心配で死んじゃうかもしれないって。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "モナ姉さまが死んだら、バカご主人のせいだからっ！",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "cry",
+      "one_ani": "attack"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そんなんで、モナが死ぬわけないだろう？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "irritation",
+      "screen_effect": "dialog_shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "イタ、イタタッ！\\引っ張るな！なんでそんなに力が強いんだよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "チビッ子、お馬鹿さんのモナのスパイが！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "go_to_left_point"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "早く家に帰るよ、ご主人！\\今日はやることが多いの。\\ダビを肩車してもらうんだから！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_left_slow",
+      "after_effect": "none"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ウフフ、ほんと、仲の良い兄弟みたいですね。",
+      "char": "c321_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "28": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ダビを肩車だとっ？さすがに無理があるだろう！？\\ルナ！見てないで助けてくれ！",
+      "background": "bg048_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "うれしいです。やっと私を頼ってくれるんですね？",
+      "char": "c321_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "フフッ。\\アナタから私に助けを求めたのは初めてですよ。\\知ってましたか？\\でしたら、期待に応えるべきですね！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "32": {
       "type": "talk",
-      "dialogue": "忘れていません…まだ覚えていますよ。",
-      "char": "c360_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "大切でもないことに時間を無駄にしていた\\あの時を忘れられると思いますか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "なんか簡単に言ってない？\\時間の無駄だったかもしれないけど必死だったぞ！\\あの時のお前は…",
+      "dialogue": "助けを求めたのは初めてだって？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "35": {
+    "33": {
       "type": "talk",
-      "dialogue": "当然ですよ。\\あの時の私は道に迷っている状態でしたから…",
-      "char": "c360_01",
+      "dialogue": "戦いでいつも助けてもらってるだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "それは、お仕事です。\\あなたが私に要求できる当然の権利です。",
+      "char": "c321_01",
       "speaker": "same",
       "pos": "right"
     },
+    "35": {
+      "type": "talk",
+      "dialogue": "お仕事…？\\何言ってるかよくわからないんだけど？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "36": {
       "type": "talk",
-      "dialogue": "そして今の私はついに道を見つけました。\\いえ、約束の地にたどり着いたのです。",
-      "char": "keep",
+      "dialogue": "ウフフ…\\さぁ～ダビちゃん！高い高いしてあげましょうか？\\月まで行けちゃうくらいの！",
+      "char": "c321_01",
       "speaker": "same",
       "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "約束の地？",
-      "char": "c000_01",
+      "dialogue": "だから、悪魔さんは放っておきましょう？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "38": {
       "type": "talk",
-      "dialogue": "はい。まさに、ここ。",
-      "char": "c360_01",
+      "dialogue": "満足したら、モナさんが心配しないうちに帰りましょうね。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "39": {
       "type": "talk",
-      "dialogue": "ここ？ここは俺の家だけど？",
-      "char": "c000_01",
+      "dialogue": "高い高い？ダビそれ大好きっ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense"
+      "facial": "joy"
     },
     "40": {
       "type": "talk",
-      "dialogue": "憐れで幼き子羊よ～マアトはすごく怠け者だから\\一度で理解してください。",
-      "char": "c360_01",
+      "dialogue": "それじゃ、落ちないようにちゃんと掴まっててね。",
+      "char": "c321_01",
       "speaker": "same",
       "pos": "right"
     },
     "41": {
       "type": "talk",
-      "dialogue": "あ、ああ…",
-      "char": "c000_01",
+      "dialogue": "悪魔さん。20分くらいダビちゃんと遊んでますね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "42": {
       "type": "talk",
-      "dialogue": "私の契約者は厳しい両親に育てられました。\\自由など一度も感じたことはありません。",
-      "char": "c360_01",
+      "dialogue": "自由というには短い時間ですが、しばらく羽を伸ばしてください。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "43": {
       "type": "talk",
-      "dialogue": "だから彼女の心の中には、いつも不安と混乱が満ちていました。",
-      "char": "keep",
+      "dialogue": "す、すごい…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "44": {
       "type": "talk",
-      "dialogue": "愛され、保護されるべき親のもとで、かえってストレスを感じていたのですから当然です。",
-      "char": "keep",
+      "dialogue": "こんなのお安い御用ですよ～",
+      "char": "c321_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "45": {
-      "type": "talk",
-      "dialogue": "やがて彼女は考えも無しに家を出ました。\\そして神の元へたどり着いたのです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "そして、神がどんな存在かも知らずに\\祈りを聞いてほしいと駄々をこねたのです。\\笑ってしまうでしょう？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "だから当然、神は祈りに応えない…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "結局、神に求めていた安らぎは得られず、悪魔に魂を売りました。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "もちろん、その悪魔も彼女の願いを叶える事はできませんでした。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "それは…\\そのことは、俺なりにすまないと思ってるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sad"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "仕方のないことです。\\神も悪魔も宇宙の片隅で静かに息をする被造物に過ぎません…",
-      "char": "c360_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "ならば結局、私の祈りを聞いてくれる存在は\\どこにもいないということでしょう？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "だから誰にも頼らないと決めたのです。\\まさに<b>私が私の神に</b>なるのです。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "あ！思いついた！神が言う！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "な、何でございましょうか！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "56": {
-      "type": "talk",
-      "dialogue": "《天国って…別にいいところじゃないわよ？\\暖かい布団に入ってつまみ食いしながらゴロゴロするのが本当の天国》",
-      "char": "c360_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "57": {
-      "type": "talk",
-      "dialogue": "あのな～そんな適当でいいのかよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "58": {
-      "type": "talk",
-      "dialogue": "適当でもいいでしょう？\\私は今が一番幸せなんだから。",
-      "char": "c360_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "59": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

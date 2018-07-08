@@ -2,330 +2,231 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ディアブロ！キミにきめた！",
-      "background": "dungeon_bg",
-      "bgm": "2",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "after_effect": "shake"
+      "dialogue": "ねえ、噂聞いた？あのご老人なんだけど…",
+      "background": "bg097_chr02",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…決めタ？",
-      "char": "m038_01",
-      "speaker": "same"
+      "dialogue": "う、噂ですか？",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "hero"
     },
     "3": {
       "type": "talk",
-      "dialogue": "悪い、ディアブロ。わかりづらかったな。\\出て戦ってくれって意味だったんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "コンビニで働いていると、\\たまにおもしろい話が入ってくる。",
+      "background": "bg097_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "幼稚すぎ！ご主人！\\そんなアニメ、子供が観るものだよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "他人の噂話をするのが好きな人は\\どの町にも必ず存在する…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いやあ、こうでもすれば多少は\\可愛くなるかなって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "向かいのアパートで暮らしている\\ご老人なんだけどね。\\自分がいつ死ぬか分かってるみたいなのよ。",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ディアブロはポケットに入んないもん。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ボケてるわけではなさそうなんだけど。\\死神が見えたって。",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "7": {
       "type": "talk",
-      "dialogue": "でもでも、可愛いダビはモナ姉さまの\\ポケットに入るもんねー♪",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "dialogue": "し、死神ですか？そ、そんなものこの世にいるわけ…",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "hero"
     },
     "8": {
       "type": "talk",
-      "dialogue": "入れ入れ。そして、二度と出て来るな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "dialogue": "でしょ？今の時代に死神だなんて…\\しかも姿格好も変でね…",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ふーんだ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "変なんですか？",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "hero"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…戦ってもいいのカ？",
-      "char": "m038_01",
-      "speaker": "same"
+      "dialogue": "顔がなくて白い羽をつけて\\血がしたたり落ちるしっぽを持ってるらしいわ。",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…今まで待ってたの！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
+      "dialogue": "ふう…想像しただけで気持ち悪い…",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "12": {
       "type": "talk",
-      "dialogue": "うわっ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "やーい、グズグズしてるから攻撃されてやんの～",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory",
-      "one_ani": "attack"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "お前な～味方が言う台詞かよ！？\\ディアブロ！早く攻撃するんだ！",
+      "dialogue": "…ん？",
+      "background": "bg097_f",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…そうすル。",
-      "char": "m038_01",
       "speaker": "same"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "もっと早く動いてくれ～！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "17": {
+    "13": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "あ、あの誰ですか…",
+      "background": "bg034_f",
+      "bgm": "24",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "おい、人間…いつまで死なない気でいるつもりだ？\\人生に未練は残すな…",
+      "char": "m037_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あ、死神様…もう来られて…",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "もう一日だけ待ってやると言っただろう。キキキ。\\友人にちゃんと別れの挨拶はしたか？",
+      "char": "m037_01",
+      "speaker": "same"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "下手したら死ぬところだった…",
-      "background": "bg101_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "…ああ…もう死ぬのかと思うと未練が…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人が鈍すぎるんだよ！",
-      "char": "c003_01",
+      "dialogue": "喰らいなさい！ネックスライス！",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
+      "facial": "serious",
       "one_ani": "attack"
     },
     "20": {
       "type": "talk",
-      "dialogue": "俺じゃなくてディアブロだろ？\\遅かったのはあいつなんだし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "うわっ！",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…でモ、勝った。",
-      "char": "m038_01",
-      "speaker": "same"
+      "dialogue": "ぐっ…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "22": {
       "type": "talk",
-      "dialogue": "まーな。でもさ、もっと簡単に勝てないわけ？",
-      "char": "c000_01",
+      "dialogue": "本当に殺したのか？ひどいな、サキュバス！\\俺は怖がらせるだけのつもりだったのに。キキキ。",
+      "char": "m037_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ご主人様、ご主人様！\\ダビ、甘いモノが食べたいなー！",
-      "char": "c003_01",
+      "dialogue": "気絶させただけです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "くそ、こういう時だけ「様」付けしやがって…",
-      "char": "c000_01",
+      "dialogue": "悪魔に言われて来たのか？\\キキキ…あいつ鈍いと思ってたが…\\どうして分かったんだ？",
+      "char": "m037_01",
       "speaker": "same",
       "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "一生懸命戦ったから、お腹が空いたんだもん！",
-      "char": "c003_01",
+      "dialogue": "これ以上、人間に近づくことは許しません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "angry",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "どこまで偉そうなんだよ…\\ああもう、わかった。でも、高すぎるのはダメだぞ。",
-      "char": "c000_01",
+      "dialogue": "あー、あれか？\\ライトがピカっと光って、\\記憶がなくなるっていう…",
+      "char": "m037_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ふん、ケチー",
-      "char": "c003_01",
+      "dialogue": "それとも悪魔の秘密を隠すために\\その人間と契約するんだろ…キキキ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "買ってやるだけありがたいと思え。\\で、何が食べたいんだ？",
-      "char": "c000_01",
+      "dialogue": "これから悪魔を連れて来て、死にかけの老人に\\契約書を押し付ける気だな？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "superangry"
+      "distance": "near"
     },
     "29": {
       "type": "talk",
-      "dialogue": "フルーツと生クリームたっぷりのクレープ！",
-      "char": "c003_01",
+      "dialogue": "…貴方の意図が全く分かりません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ディアブロ、お前は？何か食べたいものはあるか？",
-      "char": "c000_01",
+      "dialogue": "キキキ！ただのイタズラさ！",
+      "char": "m037_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "one_ani": "attack"
     },
     "31": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m038_01",
-      "speaker": "same"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ディアブロは食べたい物がないって！\\そうだ、ダビがディアブロの分まで…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ダメだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ご主人の欲張り！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "angry",
-      "before_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "欲張りは俺じゃなくてお前だろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ディアブロの分までダビが食べるのー！\\ご主人の分もー！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sad",
-      "one_ani": "attack"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "いい加減にしろっての！\\騒ぐなら何も買ってやんないぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…アイす…アめリカ―ノ。",
-      "char": "m038_01",
-      "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ん？",
-      "char": "c000_01",
+      "dialogue": "人間は本当に弱いな。\\からかうのがオモシロい！キキキ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "40": {
+    "32": {
       "type": "talk",
-      "dialogue": "食べたいモノ…アイすアめリカ―ノ",
-      "char": "m038_01",
-      "speaker": "same",
-      "one_ani": "attack"
+      "dialogue": "御主人様には扱いにくそうなチャイルドですね。\\ちゃんと監視しないと。",
+      "char": "c002_01",
+      "speaker": "same"
     },
-    "41": {
-      "type": "talk",
-      "dialogue": "…お、教えてくれてありがとう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "42": {
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

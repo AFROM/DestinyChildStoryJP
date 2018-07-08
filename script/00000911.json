@@ -2,206 +2,257 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "しっかり隠れなさい。お尻が丸見えよ～",
-      "background": "bg245_f",
-      "bgm": "18",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "本物のサンタと偽物のサンタが並んで\\座ってるのって…",
+      "background": "bg040_f",
+      "bgm": "31",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "アハハハハッ…フフフフッ…\\かくれんぼなんて何年ぶりかしら。契約者の記憶では12歳の頃かな？",
-      "char": "keep",
+      "dialogue": "おい、そんな意地を張らないで\\俺にオマエの名前を譲ってくれよ。",
+      "char": "c299_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "おい、アシュトレス！そんなに暴れるなよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "dialogue": "今だって勝手に使ってるでしょ。《偽物》のくせに…",
+      "char": "c253_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "どうしてですか？",
-      "char": "c194_01",
+      "dialogue": "元々、悪魔はウソが得意なんだ！",
+      "char": "c299_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ど、どうしてって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "それじゃ、私の名前を手に入れたら\\《本物》になるわけ？",
+      "char": "c253_01",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "俺のチャイルドには、基本的に危ない目にはあってほしくない。それが俺の正直な気持ちだけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "矛盾してるわ。\\やっぱりバカな悪魔って救いようがないわね…\\なぜ、人間たちはこんなバカに騙されるのかしら。",
+      "char": "keep",
+      "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "アシュトレスに限っては、何かが違う。そんな感じがする。",
+      "dialogue": "関係を説明すると、\\ニコルは本物のサンタクロースから\\生まれたチャイルド。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "俺はアシュトレスに何が言いたいんだ？\\《そんなに暴れたら危ない》とか《おとなしく主人の言うことを聞け》とか？",
+      "dialogue": "サンタクロースという名前を使っているあの男は\\サンタクロースと詐称しているだけのただの悪魔。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "でも、こんな言葉はアイツには伝わらないだろう。\\何か決定的に噛み合っていない。すごく危険なそんな感じだ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "よくも…！",
+      "char": "m216_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "10": {
       "type": "talk",
-      "dialogue": "はぁ、こんな面倒なことになるなんて想定外だ。\\あんなヤツだなんて想像もしてなかった…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "全部、ご主人のせいじゃない！\\相談無しに勝手に契約したんだしね！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "いや、俺はただ…\\アシュトレスの契約者がどれだけ無謀なことをしたのか、教えてやりたくて。",
-      "char": "c000_01",
-      "pos": "left",
-      "facial": "sad",
-      "speaker": "same"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "まさか、こんなことになるなんて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "優しいのですね。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "フフフッ。さぁご主人様、このアシュトレスが敵を見つけましたよ。あなたの命を付け狙う悪魔があそこにいます。いかがいたしましょうか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "首を斬れば即死でしょう。\\でも、それでは、あまり楽しめませんね～？\\とりあえず舌を切って黙らせてやりましょうか？\\何なりとお申し付けください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ほらね…\\やっぱりコイツからは危険なオーラを感じる。",
+      "dialogue": "そしてヤツは悪魔サンタクロースのチャイルド\\だったフェアリー。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "18": {
+    "11": {
       "type": "talk",
-      "dialogue": "お前がそうしたいだけだろ？\\そんなこと言ってないで、そろそろ撤収しよう。\\人目につきそうだし、このままじゃ大きな戦いになるぞ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "screen_effect": "dialog_shake"
+      "dialogue": "フェアリーはクリスマスが死ぬほど大嫌いだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "19": {
+    "12": {
       "type": "talk",
-      "dialogue": "そうですか…つまんない。\\まぁ、それが魔王争奪戦のルールなのですね。\\では、ひとつだけ質問があります。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "もちろん、クリスマスの象徴とも言える\\サンタクロースさえも…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "20": {
+    "13": {
       "type": "talk",
-      "dialogue": "魔王争奪戦は最も邪悪な悪魔を選ぶ試験ですよね？\\他の悪魔を排除するほど有利になるのでは？\\ご主人様がそれをしないのは何故ですか？",
+      "dialogue": "アイツは隙さえあれば私を殺そうとするわ。\\ねえ、いつまで放っておくつもり？",
+      "char": "c253_01",
+      "speaker": "same"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "このままだと本当に死んじゃうわ。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
-    "21": {
+    "15": {
       "type": "talk",
-      "dialogue": "魔王争奪戦は最も邪悪な悪魔を選ぶ試験じゃない。\\最も強い悪魔を決めるための戦いだ。\\そして俺は最も強い悪魔じゃ…",
+      "dialogue": "全然気にしてないくせに。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "16": {
+      "type": "talk",
+      "dialogue": "はあ…\\どうしてあんな怠け者の悪魔の部下になんて\\なったのかしら…",
+      "char": "c253_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "怠け者のチャイルドにはピッタリの主人だな。",
+      "char": "c299_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そうか、もうサンタとしての仕事はおしまいか。\\悪魔の部下になったんだからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "これはなんとも面白い見世物だ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "今すぐ、そのうるさい口をなんとかしないと\\後悔するわよ？",
+      "char": "c253_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ふん！後悔するのはオマエの方だ！",
+      "char": "m216_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "あっ…このまま《俺は最も強い悪魔じゃない》\\なんて言ったらアシュトレスに弱みを見せることに？俺はそこまで言いかけて黙った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "2人で同時にかかってくる気ね？",
+      "char": "c253_01",
+      "speaker": "same"
     },
     "23": {
       "type": "talk",
-      "dialogue": "なるほど、最も強い悪魔を選ぶ戦いですか…\\それならなおのこと、戦いを避けて通るわけにはいきませんよね？\\私のご主人様が弱腰なんて我慢なりません。",
-      "char": "c194_01",
+      "dialogue": "ルドルフ、キミに決めたっ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ご主人様も敵も悪魔ですから、悪魔に悪いことをしても罪にはなりませんよね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "俺はアンタとはなーんの関係もないんだ。\\勝手にやってくれ。",
+      "char": "c225_01",
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…",
+      "dialogue": "完全に大荒れだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "superangry"
+      "facial": "sigh",
+      "before_effect": "shake_weak"
     },
     "26": {
       "type": "talk",
-      "dialogue": "フフフッ、黙るということはそうなんですね？\\ま、かまいません。ゆっくり遊びましょう。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "さ、今こそ御主人様の影響力を発揮する時です。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "27": {
       "type": "talk",
-      "dialogue": "時間はたっぷりありますから。",
+      "dialogue": "力を見せつけてやるのです。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "one_ani": "attack"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "そんなおだてはフレイにしか通じない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そうですか、それは残念…",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "serious"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ルドルフ…ニコルのソリ引き。クリスマスの象徴！\\ぶち壊しにしてやる！",
+      "char": "m216_01",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "俺は関係ないんだってばー",
+      "char": "c225_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "いいぞ、フェアリー！全部ぶち壊してやれ！\\悪魔の名誉がかかってるんだ！",
+      "char": "c299_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "負けないで、ルドルフ！\\ここで負けたらソリ引きとしての面目が立たないわ！",
+      "char": "c253_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "はあ…誰が主人か分からなくなってきた…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry",
+      "before_effect": "shake_weak"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "御主人様。しっかりしてください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "sigh"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

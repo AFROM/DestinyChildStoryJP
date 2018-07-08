@@ -1,376 +1,163 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "うむ。\\君の部屋は、とても居心地がいいな。",
+      "type": "timebrief",
       "background": "bg086_f",
-      "bgm": "19",
-      "char": "c132_01",
-      "speaker": "same"
+      "bgm": "4",
+      "location": "home2"
     },
     "2": {
       "type": "talk",
-      "dialogue": "本当にそう思ってるのか？",
-      "char": "c000_01",
+      "dialogue": "悪魔！おい、悪魔はどこにいる！\\さっさと返事をしろ！",
+      "background": "bg086_f",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "もちろん。この狭さといい、\\ひしめき合って配置された家具といい、とても生活感があるよ。",
-      "char": "c132_01",
+      "dialogue": "うっさいチャイルドだな…\\俺を召使いみたいに呼ぶなって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "この部屋が気に入ったなら、あげるけど。",
-      "char": "c000_01",
+      "dialogue": "ハッ、笑わせるなよ。\\お前のような間抜けな者は召使いすら務まらぬわ。",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そうかね？\\なるほど…だがその前に、手をちょっと…",
-      "char": "c132_01",
+      "dialogue": "お前、主人に向かってその言い草は、\\ひどすぎないか…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "sigh"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…はぁ。素直に「汚い部屋」って言えばいいだろ。\\難しいこと言わないでさ。",
-      "char": "c000_01",
+      "dialogue": "生意気を言うな！\\そもそも平民のくせに主人を名乗ろうというのが、おこがましいのだ。",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はは。まあ正直、私の好みではないな。\\しかし、居心地がいいというのは事実だよ。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "何というか…\\君は、私と同じことを考えていそうだからね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "同じこと？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "「カルペ・ディエム」…\\今を生きろという意味だよ。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "明日を考えず、怠惰をむさぼる。\\その点が私と似ていると思ったんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "かなり遠回しだけど、\\すごいこと言ってくるな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "まあ、私には「怠惰」よりは「余裕」という言葉が\\相応しいけどね。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "言っとくけどさ…\\お前が思ってるほど俺は怠け者じゃないよ。\\お前みたいに、\\余裕ブッこいてる暇すらないんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "サキュバスたちは、\\1件でも多くの契約を結んで来いってうるさいし…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ポストには後から後から請求書が届くし。\\部屋が散らかってるのは、俺が忙しいって証拠だよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "別に、怠けてるのは罪じゃない。\\恥ずかしがることはないんだよ？",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "私が思うに、君はまだ完全に人生を諦めていない\\ようだね。もっと果敢に、暮らしを捨てなくては。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "それって…\\すっごく誤解されやすい発言だと思わない？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "そうかい？\\もしかすると明日、車にひかれるかもしれない。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "あるいは、大スターになるかもしれない。\\それは誰にも分からないことだ。",
+      "dialogue": "まったく、それすら分からんとは…\\最近のしもべは教育がなっとらんぞ。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "22": {
+    "8": {
       "type": "talk",
-      "dialogue": "極端すぎる…\\もうちょっと、現実的な例えを挙げようよ。",
+      "dialogue": "ハァ、もうシモベでも何でもいいや…\\それで、俺に何の用だよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "haah"
     },
-    "23": {
+    "9": {
       "type": "talk",
-      "dialogue": "何をしたところで、時間は勝手に流れていくんだ。\\君はもう少し、心に余裕を持ったほうがいい。",
-      "char": "c132_01",
+      "dialogue": "なんだその態度は。\\それがシモベの口の利き方か？",
+      "char": "c090_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
-    "24": {
+    "10": {
       "type": "talk",
-      "dialogue": "俺のサキュバスたちにも、そう伝えてもらえる？",
+      "dialogue": "…私めを呼びつけたのは、\\何のご用件でごぜえますでしょうかね、陛下ぁ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "serious"
     },
-    "25": {
+    "11": {
       "type": "talk",
-      "dialogue": "ふむ、サキュバスたちか。\\そういえば、リザというサキュバスは\\非常にお堅いようだね。",
-      "char": "c132_01",
+      "dialogue": "ぐぬぬ…わざわざ悪魔がチャイルドに\\合わせなきゃならんとは、なんて嫌な時代だ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うむ、たとえばだが、お前がこのヴァルカン様の力を必要とし、生意気にも呼びつけたとしよう。",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
-    "26": {
+    "13": {
       "type": "talk",
-      "dialogue": "おお、その辺は気が合いそうだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "まあ、私には関係ないことだがね。\\実際、君が一生懸命生きようと生きまいと\\私にはどうでもいいことだ。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "たとえ君が魔王になったとしても、\\それもまた、私には関係ない。",
+      "dialogue": "しかし、だ。\\その際、この私がごく普通に登場したのでは…\\あまりにも華々しさに欠けると、そうは思わぬか？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
-    "29": {
+    "14": {
       "type": "talk",
-      "dialogue": "はぁ…そうかよ。お前と同じぐらい、\\リザも無関心でいてくれればいいんだけどな。",
+      "dialogue": "ならファンファーレでも吹いてやろうか？\\…おっと、差し上げましょうか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そのリザというサキュバスだけどね…\\今、君の後ろで、歯ぎしりしてるよ？\\私とは関係ないことだが。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "そう、それ。\\リザもそういう無関心な態度…え？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "after_effect": "shake",
-      "facial": "smile"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "よくわかっているね。\\だから、リザというサキュバスが…",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "御主人様。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
       "facial": "irritation"
     },
-    "34": {
+    "15": {
       "type": "talk",
-      "dialogue": "…と呼んでも、私には関係ないことさ。",
-      "char": "c132_01",
+      "dialogue": "ふむ、たまにはお前も気が利くな。\\ファンファーレに…そうだな、花火まで用意したら\\さぞ盛り上がることだろう。",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
-    "35": {
+    "16": {
       "type": "talk",
-      "dialogue": "ちょっと待った。これ、空耳じゃないよな？\\今、リザの声がすごくハッキリ聞こえたんだけど。",
+      "dialogue": "ファ、ファンファーレに…花火って…マジかよ！\\ふざけんな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
+      "facial": "serious",
       "before_effect": "shake"
     },
-    "36": {
+    "17": {
       "type": "talk",
-      "dialogue": "私のお世話が気に障ったのでしたら、\\誠に申し訳ありません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "shy"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "げっ…本物じゃん！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ところで、どうしましょう？\\こう見えて、私はとても執着する性格なんです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "御主人様がそのようにおっしゃるなら…\\さらにやる気が出て参ります。",
+      "dialogue": "ファンファーレ吹いてチャイルドを呼ぶ悪魔が\\どこにいるんだよ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "near",
+      "facial": "confused"
     },
-    "40": {
+    "18": {
       "type": "talk",
-      "dialogue": "いや、ちょっとそれは…\\あの、そのやる気は、\\今出さなくていいから。な？",
+      "dialogue": "さらに花火と来たか…\\もういっそ、レッドカーペットでも敷いてやろうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ほう、悪くない案だ。\\なかなかお前も気が利くではないか。",
+      "char": "c090_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うわあああ！本気なのかよこいつ！\\カンベンしてくれーっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
+      "facial": "unfair",
       "before_effect": "shake"
     },
-    "41": {
-      "type": "talk",
-      "dialogue": "正確には「御主人様の怠惰」に対するやる気です。\\さあ、その性根を叩き直すとしましょうか。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense",
-      "one_ani": "attack"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "降参、降参です！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "ふふ…潔く敗北を認めるその姿…\\本当、気に入ったよ。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "44": {
+    "21": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

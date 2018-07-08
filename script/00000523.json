@@ -2,347 +2,290 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お、お前…",
-      "background": "bg177_f",
-      "bgm": "9",
+      "dialogue": "こんにちは！",
+      "background": "bg097_f",
+      "bgm": "14",
+      "char": "c199_00",
+      "speaker": "same_full"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "アウロラの契約者だ。\\毎日、飽きもせずにやってくる…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "好きだって言いに来たの！\\今日こそウチと付き合うって言って！",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "と、いきなり叫ぶ。\\いろんな意味で疲れる奴だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ダメだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ええー、なんでウチではあかんの？",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "訛ってる…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ぐぅ…",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "あら、誰かと思ったら。\\ご主人さまの可愛い彼女さん。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そんな、彼女だなんて…\\ウチ、恥ずかしい！",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "モナはと言うとアウロラとの契約を\\企てた張本人だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "俺が中二病だと嘘をついたらしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "悪魔だの契約だのという言葉を使えば\\俺が喜ぶとか言ったせいで",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "誕生した告白というのが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ほらほら、早く告白しましょ。\\何度もチャレンジすれば、きっと報われるわ♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はいっ！「ウチと契約してください、悪魔さん！」",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そのセリフにはもうだまされないぞ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "2": {
-      "type": "talk",
-      "dialogue": "よっ、悪魔。久しぶりだな。",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "あ、ああ。\\…それにしても、お前、\\やっぱり俺のこと、覚えてるんだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "あの天衣無縫を忘れられるわけないだろ～？",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "悪魔をあそこまで叩きのめしたのも、\\初めてだったしな！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "た、頼むからそのことは忘れてください…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "いいのかよ？\\全部忘れられたら、困るんじゃねえのか？",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "「他の悪魔との契約禁止」\\「よって、悪魔との賭け事も禁止」\\てめえが出した条件を、守れなくなるんだからな。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "しっかし、\\ルールすら知らずに乗り込んできたかと思ったら…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ずうずうしく代打ちを頼むなんてなあ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "toonear"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "お、お前も認めたんだからいいだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ちなみに、代打ちをしたのは…",
-      "background": "back",
-      "char": "none",
-      "speaker": "none",
-      "distance": "near",
-      "screen_effect": "gray"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "面白いことがあるって言うから来てみたら、\\天衣無縫が見られるなんてね。",
-      "background": "bg004_f",
-      "char": "c020_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "大丈夫、イカサマには慣れっこだから。\\安心して見てなよ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "フォルトゥナの契約者だ。\\そして、場を操作したのはもちろん…",
-      "background": "back",
-      "char": "none",
-      "speaker": "none",
-      "distance": "near",
-      "screen_effect": "gray"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "はっは～ん、うちの契約者ってば、\\天衣無縫に張り合うつもりみたいねえ。\\国士無双を狙うなら、やっぱこうかなあ～？",
-      "background": "bg004_f",
-      "char": "c020_01",
-      "speaker": "same",
-      "pos": "left",
-      "after_effect": "shake",
-      "one_ani": "attack"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ビクトリスはこうして、\\俺達が陰でイカサマをしていたことで、\\生まれたのだった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
     "19": {
       "type": "talk",
-      "dialogue": "てめえ！？イカサマしやがったのか！\\キャハハ！あの時はまんまとやられたわ！",
-      "char": "c202_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "dialogue": "え～、ダメなん？",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そう笑い飛ばしてくれたのが救いだった。",
+      "dialogue": "最初は本当に正体がバレたと思って\\焦って契約しちゃったけど…もう通じないからな！",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "21": {
+      "type": "talk",
+      "dialogue": "思ったより賢いのですね、ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "うるさい！いいからふたりともここから出てけ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "23": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "22": {
-      "type": "talk",
-      "dialogue": "そ、それより…\\お前の「魂の半分」を見なかったか？",
-      "background": "bg177_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "いんや～？\\たぶん、海の方にいると思うけど～。",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
     "24": {
       "type": "talk",
-      "dialogue": "探してるなら、行くだけ行ってみたら～？\\たぶん、防波堤とかで、\\おセンチになってると思うぜ？\\ウケる！ギャハハ！",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "あら、追い出されちゃった。",
+      "background": "bg098_f",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "笑ってやるなよ…\\とりあえず、ありがと。\\あ…それと…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "モナさんの言うとおりにしたけど、あかんかったね。",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "あ？",
-      "char": "c202_00",
-      "speaker": "same_full",
+      "dialogue": "また訛ってるわよ。",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…あの時、イカサマして悪かったな。\\そのせいで、復讐か何かができなくなったんだろ？",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "うっ。",
+      "char": "c199_00",
+      "speaker": "same_full",
       "pos": "left",
-      "facial": "sulky"
+      "before_effect": "shake_weak"
     },
     "28": {
       "type": "talk",
-      "dialogue": "はっ、いいってことよ。\\イカサマなんて、\\気付かない方が悪いんだからな！",
-      "char": "c202_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "大丈夫よ。冷たいフリをしてるだけ。\\本当はすごくときめいているはずよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "29": {
+      "type": "talk",
+      "dialogue": "ほ、ホンマに？",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "もちろんよ。今度はこう言ってみましょう。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "30": {
-      "type": "talk",
-      "dialogue": "…あ？悪魔の旦那じゃねえか。",
-      "background": "bg061_f",
-      "char": "c202_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…そーだよ。\\勝手に姿を消すわ、何度呼んでも応えないわ…\\一体、何してたんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake_weak"
-    },
     "32": {
       "type": "talk",
-      "dialogue": "海を眺めながら、孤独を噛み締めてたんだよ。\\…で？わざわざこんなとこまで探しに来るなんて、\\何か用でもあんの？",
-      "char": "c202_01",
+      "dialogue": "あのね、悪魔さん…ウチ、実は…",
+      "background": "bg097_f",
+      "char": "c199_00",
       "speaker": "same",
       "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "い、いや、別に用はないけど…",
+      "dialogue": "告白ならもういいよ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "left"
     },
     "34": {
       "type": "talk",
-      "dialogue": "お前が誰かに、\\「復讐」でもするんじゃないかって思って探してた…とはさすがに言えないよな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そうやなくて。\\実は…ウチ、契約した瞬間を覚えてるんよ。",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
     },
     "35": {
       "type": "talk",
-      "dialogue": "ギャハハ！\\そーんなに、あたしに会いたかったのかあ？",
-      "char": "c202_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "茶化すなよ…\\これでも、お前のこと、心配してたんだぞ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "お前は、まだ弱いんだから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "へえ…\\魔界で最弱のくせによく言うなあ。\\そんな奴に心配されるなんて、\\あたしもヤキが回ったみたいだねえ。",
-      "char": "c202_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "…なんてな。\\そんなこと言って、\\あたしが「復讐」を始めるんじゃないか…\\って心配してたんだろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "けど、心配しなくても大丈夫だよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "復讐も波に乗らないとできないもんだからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "たぶん、かなり先の話になるはずだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "なら、いいけど…\\できれば、もう勝手にいなくならないでくれよ？\\お嬢さん。",
+      "dialogue": "えっ！？何？それは本当か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "confused",
+      "before_effect": "shake"
     },
-    "44": {
+    "36": {
       "type": "talk",
-      "dialogue": "ふん、生意気なこと言うじゃねーか。\\悪魔の旦那よう！",
-      "char": "c202_01",
+      "dialogue": "いや、ちょっと待てよ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "serious"
     },
-    "45": {
+    "37": {
+      "type": "talk",
+      "dialogue": "だから、ウチとの契約…",
+      "char": "c199_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "モナの奴め…また変なこと吹き込んだな～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "まあ、ご主人さまったら\\どんどん賢くなっちゃうんだから♥",
+      "background": "bg098_f",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

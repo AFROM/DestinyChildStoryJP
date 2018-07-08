@@ -2,176 +2,296 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "今日までチャイルド5人が目標でしたが…",
-      "background": "bg036_f",
+      "dialogue": "んー…",
+      "background": "bg086_f",
       "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same"
+      "char": "m136_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はぁ？そんなこと聞いてないぞ。",
+      "dialogue": "あまり気を落とすな。\\リザに文句言われる俺の立場にもなってくれ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうでしたか？\\1週間でチャイルド5人は\\他の悪魔の平均より遥かに少ない数です。",
-      "char": "c002_01",
+      "dialogue": "ダビは行くよ。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ですからわざわざ言う必要もないかと。",
-      "char": "keep",
+      "dialogue": "待て。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いつもそうやって主人を傷つけるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "お話ししても、結局はどうにかするって\\おっしゃいますし…",
-      "char": "c002_01",
+      "dialogue": "レディに頼みなよ！\\なんでダビが家事をしなくちゃいけないの？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "7": {
+    "6": {
       "type": "talk",
-      "dialogue": "それはお前が息もできないくらい\\責め立てるからだろ！",
+      "dialogue": "だからくじで決めようって言ってるんだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "リザも呼んで！リザも家事をしなくちゃ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "戦闘、戦闘、戦闘って…飽き飽きなんだよ…\\5人集められなくて申し訳ないけど、",
-      "char": "keep",
+      "dialogue": "アイツはダメだ…愚痴ばっかだから。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "9": {
       "type": "talk",
-      "dialogue": "今日はここまで！もう無理だ。",
+      "dialogue": "隣で聞いてたら雑巾を奪って\\俺が掃除したくなるくらいだ…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "10": {
       "type": "talk",
-      "dialogue": "だろ、ベルボーイ。オマエも一言言ってやれ。",
-      "char": "keep",
+      "dialogue": "バカご主人。\\サキュバスの言いなりになって情けない…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "sigh"
     },
     "11": {
       "type": "talk",
-      "dialogue": "私はつ、疲れてなど…はあ…はあ…いませ…はあ…",
-      "char": "m137_01",
+      "dialogue": "そんなこと言える立場か？",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "shake_weak"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "可哀想なベルボーイ…\\大車輪回すネズミみたいに働いたってのに…\\リザ、これを見て何も思わないのか？",
-      "char": "c000_01",
+      "dialogue": "とにかく。俺、ダビ、そしてレディ。\\この三人でくじを引くんだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そうですね。とても疲れているようですね。",
-      "char": "c002_01",
+      "dialogue": "はあ…本当はモナも呼びたいところだけど…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "14": {
       "type": "talk",
-      "dialogue": "がっかりです。",
-      "char": "keep",
+      "dialogue": "モナ姉さまはダメだよ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…！",
-      "char": "m137_01",
+      "dialogue": "はいはい…",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "sigh"
     },
     "16": {
       "type": "talk",
-      "dialogue": "その程度の体力でご主人様のために戦うと？",
-      "char": "c002_01",
+      "dialogue": "それじゃ、一人ずつ…まずはレディから…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
     "17": {
       "type": "talk",
-      "dialogue": "もっと自分に厳しくなる必要がありそうですね、\\ベルボーイ。",
-      "char": "keep",
+      "dialogue": "……",
+      "char": "m136_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center"
     },
     "18": {
       "type": "talk",
-      "dialogue": "リザ、ちょっと言いすぎじゃ…",
+      "dialogue": "あ、お前は動けないんだっけ…\\それじゃ俺が代わりに…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ベルボーイ、反省します。",
-      "char": "m137_01",
-      "speaker": "same"
+      "dialogue": "あれ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ご主人様の《ベルボーイ》は疲れを知りません。\\もっと戦えます。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "皿洗いに決定！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy"
     },
     "21": {
       "type": "talk",
-      "dialogue": "え？無理するなよ！\\リザの言葉に惑わされるな！",
+      "dialogue": "す、すまない…レディ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いい姿勢です。気に入りましたわ。\\それでは、新しいチャイルドを\\見つけに行きましょうか。",
-      "char": "c002_01",
+      "dialogue": "問題ない。",
+      "char": "m136_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "center"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ベルボーイ、出撃します。",
-      "char": "m137_01",
-      "speaker": "same"
+      "dialogue": "でもさ、レディって縛られてるじゃん？\\どうやって皿洗いするの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "もう知るか！オマエたちだけで何とかしろ！",
+      "dialogue": "そう言えばこの前、家事をした時も…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "鍵がある…拘束具を外す鍵が…",
+      "char": "m136_01",
+      "speaker": "same"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "鍵があるはずだけど…その拘束具を外す鍵が。\\どんなに探しても見つからない。",
+      "background": "bg072_f",
+      "char": "m136_00",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "gray"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "そう言えば、レディの契約者が\\そんなこと言ってたっけ。\\鍵って本当にあるのか。",
+      "background": "bg086_f",
+      "char": "none",
+      "speaker": "none"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "鍵を取り出してくれ。",
+      "char": "m136_01",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ダビは彼女の懐にある\\鍵を一つ取り出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "お前が外してくれ。",
+      "char": "m136_01",
+      "speaker": "same"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "俺が？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ああ。\\それからその鍵…これからはお前が保管してくれ。",
+      "char": "m136_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "失くしちゃうかもよー。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "victory"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "うるさい！\\って言いたいところだけど…本当に失くすかも…\\いいのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "問題ない。大切なものほど…\\信頼する友に預けるべきだ。",
+      "char": "m136_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ダビならともかく\\バカご主人は絶対失くすよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ぜーったいに失くさない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ありがたい。",
+      "char": "m136_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あ、ああ…ところで、急に近寄るのはやめてくれないか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "sigh"
     },
-    "25": {
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

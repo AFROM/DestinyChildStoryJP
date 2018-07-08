@@ -2,148 +2,177 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "……",
-      "background": "bg089_f",
-      "bgm": "24",
-      "char": "m153_01",
-      "speaker": "same"
+      "dialogue": "勝ったー！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "捕まえた！",
+      "dialogue": "そんな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "enter_from_left_fast"
+      "facial": "serious"
     },
     "3": {
       "type": "talk",
-      "dialogue": "マスター、俺を待っていたのか？",
-      "char": "m153_01",
+      "dialogue": "本当に残念です。\\腕相撲でダビに負けるなんて…恥ずかしい。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ふん！何ともないフリか？",
+      "dialogue": "俺だって今、精一杯恥じらっているところだ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…俺を驚かせたければもう少し慎重に動け。",
-      "char": "m153_01",
+      "dialogue": "がっかりしないで～♪\\君の未来は～明るく輝いて～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "それはこっちのセリフだ！\\もうバレてるんだぞ。",
-      "char": "c000_01",
+      "dialogue": "勝ったのはダビだよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "何がだ？",
-      "char": "m153_01",
+      "dialogue": "トサカ野郎を慰めないで\\ダビのお祝いソング歌ってよ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "俺に内緒で夜に外出したことだ。",
-      "char": "c000_01",
+      "dialogue": "ノー、僕はね～悪魔のための歌をうたう～♪\\フォー・マイ・デビル～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "left"
+      "one_ani": "attack"
     },
     "9": {
       "type": "talk",
-      "dialogue": "俺を見ていたのか？思ったより暇らしいな。",
-      "char": "m153_01",
+      "dialogue": "この泥棒！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "10": {
       "type": "talk",
-      "dialogue": "マスターに内緒で悪いことをしたわけじゃない。\\モナは内緒にしろと言っていたが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "モナァァァ…",
+      "dialogue": "痛っ！なんで叩くんだよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "confused",
+      "before_effect": "shake"
     },
-    "12": {
+    "11": {
       "type": "talk",
-      "dialogue": "契約者の夢の中に行って来た。",
-      "char": "m153_01",
+      "dialogue": "モナ姉さまも、チャイルドも手に入れて！\\ダビも歌うチャイルドが欲しい！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "13": {
+    "12": {
       "type": "talk",
-      "dialogue": "どこが悪くないって言うんだ？",
+      "dialogue": "何言ってるんだよ…\\俺は悪魔でお前はサキュバスだろ？\\交換できるなら大歓迎だ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "14": {
+    "13": {
       "type": "talk",
-      "dialogue": "俺は契約者の悪夢の中から生まれたからな。\\契約者の願いを叶えてあげようと思っただけだ。",
-      "char": "m153_01",
+      "dialogue": "聞いてはいけないことを聞いてしまった気がします。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "…聞かなかったことにしてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "15": {
       "type": "talk",
-      "dialogue": "契約者の願いって…確か。\\これ以上、悪夢を見たくない、だったかな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ダビも歌をうたうチャイルド手に入れる！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "契約者の願いを叶えるって…\\悪夢と戦うつもりか？",
+      "dialogue": "そんなに言うならヘルツをくれてやってもいいけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そうだ。",
-      "char": "m153_01",
+      "dialogue": "御主人様…？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "これは長い戦いだ。\\どちらかが死ぬまで、戦い続けなければならない。",
-      "char": "keep",
+      "dialogue": "無視だ、無視。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "それが俺が生まれた理由。",
-      "char": "keep",
+      "dialogue": "オオ～聞いてしまった～君の本心～♪\\悲しみのセレナーデ～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "right"
+      "before_effect": "shake"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そして、契約者であるお前が俺を生み出した理由だ。",
+      "dialogue": "でも～！僕は諦めない～♪\\君のための歌を～♪\\フォーエバー♪",
+      "char": "keep",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "それは僕のデスティニー、イエーイ♪",
       "char": "keep",
       "speaker": "same",
       "distance": "near"
     },
-    "21": {
+    "22": {
+      "type": "talk",
+      "dialogue": "御主人様にはもったいないチャイルドですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "間違ってはないな…\\俺みたいな悪魔には手に負えないから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "24": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,218 +2,310 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リザ！リザ、頼む！ちょっと来てくれ！",
-      "background": "bg095_f",
-      "bgm": "31",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "screen_effect": "dialog_shake"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "あら♥\\ご主人さまがこんなにも切実にリザを求めるなんて♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "tempt"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "変な言い方するな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "うふふ♥隠さなくてもいいんですよ～？\\付き合いも長くなってきましたし、\\時にはやましい気持ちになることも♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "tempt"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ない！絶対に！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "…って、今はふざけてる場合じゃないんだ。リザ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "騒々しいですね。一体、何事ですか？",
-      "char": "c002_01",
+      "dialogue": "ご主人様のお部屋が…\\以前よりすごいことになってますね。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c117_01",
       "speaker": "same",
       "pos": "right"
     },
-    "8": {
+    "2": {
       "type": "talk",
-      "dialogue": "うちの玄関のドアがぶっ壊れてるんだ！\\その上、ドアの前に…",
+      "dialogue": "それって、前からすごい汚かった\\って言いたいのか…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "distance": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "まあ、時に…この本はなんでしょうか？",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あー、そこらのは全部、\\エリオスが置いていった本だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…エリオスが？",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そう、これ見てみろよ？\\明らかに俺が読めるものじゃなさそうだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "孟子、論語、自由論、ソクラテスの弁明…\\全部哲学書ですね。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ああ、毎日買ってきては置いてってさ、\\ついにこんな山積みになっちまった。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "「補欠、このドアのようになりたくなければ、\\リザを返せ。リザにふさわしいのは、このフレイ様だけだ！」",
-      "char": "keep",
+      "dialogue": "早く片付けないと、リザが怒り出しそうですね。",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…フレイ様…",
-      "char": "c002_01",
+      "dialogue": "んー、でも…リザの説教も怖いが、\\エリオスの小言のほうが、もっと怖いんだよな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
+      "pos": "left",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "クソ。フレイの奴、絶対にドアの修理代を請求してやる。…ってわけだからリザ、フレイの居場所を教えてくれ。",
-      "char": "c000_01",
+      "dialogue": "なんつーか、何言ってるか\\チンプンカンプンなんだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "残念ですが、存じ上げません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…その代わり、この責任は私が。\\このようなことになったのは、私のせいですので。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "別にリザのせいじゃないよ。\\あいつの性格は、嫌ってほど知ってるからな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "悪いのは全部、フレイだ！\\見つけ出して…",
+      "dialogue": "真理がどーとか、摂理がどーとか…\\俺は悪魔だけどな。\\あいつの話を聞いてると、\\キレイに浄化された気分になっちまう。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry",
-      "before_effect": "shake"
+      "distance": "normal"
     },
-    "16": {
+    "13": {
       "type": "talk",
-      "dialogue": "…お兄ちゃん、どうして怒ってるのぉ？\\フローラ、ケンカ嫌ぁ。",
-      "char": "c120_01",
+      "dialogue": "あいつは俺のことを何か誤解してるんだよ。\\俺にこれ以上、愚かな人間をダマすなって\\言ってきたんだぞ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "one_ani": "attack"
+      "pos": "left",
+      "distance": "normal"
     },
-    "17": {
+    "14": {
       "type": "talk",
-      "dialogue": "ふ、フローラ？これはケンカじゃなくって…",
-      "char": "c000_01",
+      "dialogue": "俺の方が何倍も人間にダマされ続けてるっての！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "エリオスは愚か者です。\\あのような愚者の言葉に耳を傾ける必要は\\ありません。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あれ…\\お前、そんなにエリオスのこと嫌いだったっけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "くそ、俺がバイトでいくら給料をピンハネされたと\\思ってやがる…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "慌てて弁解するが、時すでに遅し、\\フローラの目からは大粒の涙があふれ出した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…エリオスは愚かなだけではなく、\\厚かましいんです。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うわぁ～ん！！\\ケンカしないでよぉ～",
-      "char": "c120_01",
+      "dialogue": "あれだけ悪魔を嫌っておきながら、\\その悪魔の力を借りているなんて…信じられません。",
+      "char": "keep",
       "speaker": "same",
-      "loop_ani": "attack"
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "すると不思議なことに、あちこちに花が咲き始める。",
+      "dialogue": "あ、ええっと…エリオスにも、\\どうしようもない事情が…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そんなこと、どうでもいいです。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "とにかく、私の前では二度と\\その愚かなチャイルドの話はしないでください。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ヤーガが帰った後も、俺はしばらく\\彼女の態度について考えていた。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "21": {
-      "type": "talk",
-      "dialogue": "あら～綺麗ね～♥\\とっても素敵な能力♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "戦闘では、役に立ちませんが…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation",
-      "one_ani": "none"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そんなこと言うなよ、\\癒されるんだからいいだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "none"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "うう…\\ケンカしないで…",
-      "char": "c120_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle",
-      "before_effect": "shake_weak"
-    },
     "25": {
       "type": "talk",
-      "dialogue": "…とにかく、俺達のせいでフローラが\\怖がってるみたいだし、この話は終わり！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "ヤーガとエリオスの契約者2人は\\元々仲のいい兄妹だったが、\\悪魔についての見解の相違によって\\疎遠になってしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
       "type": "talk",
-      "dialogue": "フレイの奴には、後で絶対、\\請求書を送りつけてやるけどな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "sigh"
+      "dialogue": "そして兄妹2人は悪魔によって起きた問題を、\\悪魔の力を借りて解決しようとした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "27": {
+      "type": "talk",
+      "dialogue": "そんな訳でヤーガとエリオスが生まれた訳だが、\\現実での関係と同じくチャイルド達も、\\お互いを理解できなかったようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…って、それって俺が原因みたいじゃん。\\いや、たしかに俺のせいなのかも…う～ん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "御主人様…\\この本の山は一体…？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "うえっ、リザ。こ、この本はだな。\\俺じゃなくてエリ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "はあ…部屋を散らかしておきながら、\\まずは言い訳ですか？\\それとも、小姑みたいなお説教は控えろとでも？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "い、いや、別にそんなこと\\言うつもりじゃなくてだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ふむ…ですが御主人様がこんな本を読まれるとは\\意外です…哲学書、お好きなんですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "しかし哲学書を読んだからと言って。\\御主人様の格が上がるとは思えませんけどね。\\ふふ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "だから、これは俺のじゃなくてさ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "そうですね、この際、\\御主人様にふさわしくない物は、\\全部処分してスッキリしましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "えっ？リザ、ちょっと待て！\\や、やめろ！やめてくれー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "screen_effect": "shake"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

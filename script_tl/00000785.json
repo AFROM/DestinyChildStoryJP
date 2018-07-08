@@ -1,412 +1,287 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg219_f",
-      "bgm": "45",
-      "fade_in": "longer",
-      "hold": "shortest"
+      "type": "talk",
+      "dialogue": "トサカ頭の旦那も、口うるさいサキュバスも見当たらない…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c301_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…めちゃくちゃだな。",
-      "char": "c050_02",
+      "dialogue": "よし、今がチャンスや！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "enter_from_left_fast"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "3": {
-      "type": "talk",
-      "dialogue": "魔王になると大騒ぎし、実力もないのに暴れる。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "どうしようもない奴らだ…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ふむ…\\見覚えのある顔だが、こいつも死んでしまったか？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "6": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "shortest"
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "柳道士！\\今まで、どこ行っとったんやで？",
+      "background": "bg196_f",
+      "bgm": "46",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ごきげんよう、自請妃殿。\\今日はどのような用件で？",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "とぼけるな！\\今日こそあんたが隠した、黄泉の花をいただくで！",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
     },
     "7": {
-      "type": "curtain",
-      "background": "bg219_f",
-      "fade_in": "longest",
-      "hold": "normal",
-      "char": "c324_21"
+      "type": "talk",
+      "dialogue": "これはこれは…",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…こんにちは、オード様？\\サポーターのモナ…です…",
-      "char": "c324_21",
-      "speaker": "same"
+      "dialogue": "そなたも見たであろう？\\私は黄泉の花を持っておらぬよ。\\すべて若様に託したのだから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "死んでいると思ったが、気絶していただけか。\\お前の主人はどこにいる？",
-      "char": "c050_02",
+      "dialogue": "そないなこと信じられへん！",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "私のご主人さまは…\\……何故、居場所を知りたいのですか？\\モナのいないスキを狙って攻撃するつもりですか？",
-      "char": "c324_21",
+      "dialogue": "数百年間ひとりで律儀にあれを守っとったあんたが…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ふふふ…残念ですね？\\そんなこと企んでも、もう何の意味もありません。",
+      "dialogue": "どこの馬の骨かもわからへん悪魔に預けただなんて、信じられる思う？",
       "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "だって、モナにご主人さまは、もういませんから…",
-      "char": "keep",
+      "dialogue": "出会いは、人間はもちろん悪魔も成長させる。\\私もまた然り。",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "主人は死に、サポーターが生き残ったか…\\運がよかったな。",
-      "char": "c050_02",
+      "dialogue": "以前にはなかった「見る目」が養われたのだ。\\若様は、黄泉の花を託せる悪魔だ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "運が……よかった？",
-      "char": "c324_21",
+      "dialogue": "悪魔だが人間の心を持っている。\\そのような悪魔はそうおらぬ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ふふ…あはは…\\サポーターの存在意義は…\\主人となる悪魔に仕え、支えること…",
+      "dialogue": "ゆえに、私は若様を信頼できるのだ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "主人のいないサポーターに生きてる意味があると…？それでも…運がよかったですって？",
-      "char": "keep",
+      "dialogue": "この世には2種類の悪魔がおる…\\ただの悪魔と、人間の真似事をする悪魔と…",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "center"
+      "distance": "near"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あの子も…\\あの子もそんな風に思うでしょうか？\\1人だけ生き残った私を……\\羨ましいと思うでしょうか？",
+      "dialogue": "トサカ頭の旦那はんは、人間の真似事をしてるだけやで。柳道士、あんたもな。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "18": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "wait": "longer",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ウチは誰が何といおうと、悪魔だけは信じへん！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
     },
     "19": {
-      "type": "curtain",
-      "background": "bg219_f",
-      "bgm": "6",
-      "fade_in": "normal",
-      "hold": "shorter",
-      "char": "c215_00"
+      "type": "talk",
+      "dialogue": "弁解の余地もない。\\そなたの言うとおり悪魔とは本来、欺瞞を徳とする\\存在…",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "クソッ…\\こんな素人を選んで間違いだった。\\面倒なことになった…",
-      "char": "c215_00",
-      "speaker": "same"
+      "dialogue": "はあ…難儀であるな。\\どうすればそなたを説得できるのか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…この状況はモナのせいだと言いたいのですか？",
-      "char": "c324_01",
+      "dialogue": "みなさ～ん、ごきげんようッ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "center"
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ちゃんとしたサポートだったら、こんな状況になってない。違うか？",
-      "char": "c215_00",
+      "dialogue": "……チッ",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "何と言ったか…戦略的撤退？\\言葉は最もらしい。だが、結局逃げろだろ。",
-      "char": "keep",
+      "dialogue": "ごきげんよう、モナ殿。",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ああ、本当に…\\面倒なことになった…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "あら、お取込み中？\\ちょっとタイミングが悪かったかしら？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "この状況では撤退が最善ということを、未だご理解いただけませんか？",
-      "char": "c324_01",
+      "dialogue": "いや、そのようなことはない。",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "口を慎め…\\こんな風に隠れる…\\そのこと自体、我慢できない！",
-      "char": "c215_00",
+      "dialogue": "…運が良かったなぁ、柳道士。",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "他のサポーターが偵察に行きました。\\もうしばらく我慢してください…",
-      "char": "c324_01",
+      "dialogue": "……",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "そいつ、《おとり》として役に立つのか？",
-      "char": "c215_00",
+      "dialogue": "もしかして、ケンカ？\\仲良くしなきゃダメよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "center"
+      "facial": "pretense"
     },
     "29": {
       "type": "talk",
-      "dialogue": "<color=999999>《おとり》じゃなくて偵察に行ったのよ！</color>\\<color=999999>サポーターを一体、何だと思っているの？</color>",
-      "char": "c324_01",
+      "dialogue": "モナは、チャイルドみんなが仲良くしてくれると\\嬉しいなぁ～♥",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dark"
+      "facial": "smile"
     },
     "30": {
       "type": "talk",
-      "dialogue": "<color=999999>迂闊な行動をする子じゃないけど…</color>\\<color=999999>どうか…どうか無事に戻って来て…</color>",
+      "dialogue": "ね、お願いよ？",
       "char": "keep",
       "speaker": "same",
       "distance": "near",
-      "screen_effect": "dark"
+      "facial": "tempt"
     },
     "31": {
       "type": "talk",
-      "dialogue": "",
-      "char": "none",
+      "dialogue": "わかってん、わかってます！\\やさかい、胸を押し付けんといてや！",
+      "char": "c301_01",
       "speaker": "same",
-      "screen_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+      "pos": "left",
+      "before_effect": "shake"
     },
     "32": {
       "type": "talk",
-      "dialogue": "くっ！何だ！？",
-      "char": "c215_00",
+      "dialogue": "はぁ…\\もうやってられへん！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
+      "pos": "left",
+      "after_effect": "go_to_left_point"
     },
     "33": {
       "type": "talk",
-      "dialogue": "敵に発見されました！",
-      "char": "c324_01",
+      "dialogue": "…優しすぎるのも良くないわよ、柳道士。\\誰の味方かハッキリしてくれないと、モナ困っちゃうかも？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "34": {
       "type": "talk",
-      "dialogue": "発見？お前ら何をしてた？\\全く役に立たない！",
-      "char": "c215_00",
+      "dialogue": "気遣わせてしまい申し訳ない、モナ殿。\\しかし…自請妃殿にも事情があるのではないか？",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c324_01",
+      "dialogue": "悪魔に騙され、生まれ落ちてからこのかた、自由を手にしたことのない、憐れな乙女だ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "最後まで世話が焼ける…クソッ！",
-      "char": "c215_00",
+      "dialogue": "いつの日か自請妃殿にも、自由の日々が訪れよう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "モナ、少し時間を稼げ。\\早く戻って来るから。",
+      "dialogue": "その日が来ることを私は心から願っている。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "after_effect": "go_to_right_point"
+      "pos": "right"
     },
     "38": {
       "type": "talk",
-      "dialogue": "ご主人様？\\ちょっと待ってください、ご主人さま！",
-      "char": "c324_01",
+      "dialogue": "まぁ、自請妃殿には信じてもらえぬだろうがな…\\はははは…",
+      "char": "keep",
       "speaker": "same",
-      "before_effect": "shake"
+      "distance": "near"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "none",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "きゃあー！",
-      "char": "c324_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "41": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "shortest",
-      "wait": "longer"
-    },
-    "42": {
-      "type": "curtain",
-      "background": "bg219_f",
-      "bgm": "15",
-      "fade_in": "longest",
-      "hold": "longer",
-      "char": "c324_21"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "ご主人さまは結局、戻って来ませんでした…\\当然ですね…\\それが…最も悪魔らしい選択ですから…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "主人を恨んでいるのか？",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "恨む…\\あはは…恨みですか？\\そんなこと…\\むしろ尊敬していますよ…",
-      "char": "c324_21",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "最後まで…悪魔らしい姿を…\\見せてくれましたから。\\無力な……自分自身を恨みたくなるだけです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "それだけ喋れるのなら大丈夫だろう。\\適当なところに隠れていろ。\\争奪戦もそろそろ終わりだ。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "主人のいないサポーターを気にするほど余裕のある\\候補生はいないだろう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "ふふ…\\なら、オード様は余裕あふれる候補生なんですね…",
-      "char": "c324_21",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "ふん。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "51": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longer",
-      "wait": "longer"
-    },
-    "52": {
-      "type": "curtain",
-      "background": "bg198_f",
-      "fade_in": "longest",
-      "hold": "longer",
-      "char": "c324_21"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "最後の勝者であるルシフェロが魔王になってから魔界は平和を取り戻した。",
-      "char": "c324_21",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "でも、そもそも魔界に平和なんてあるの…？\\悪魔たちは平和の時代が到来したと言うでしょう。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "だけど、悪魔の足元で息を殺している者たちも果たしてそう言うのかしら…？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "56": {
-      "type": "talk",
-      "dialogue": "サポーターになりたくて生まれたわけじゃない…\\なのに、どうして私達は消耗品のように扱われるの？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "57": {
-      "type": "talk",
-      "dialogue": "こんな世界は間違ってる。\\このままじゃ何も守れない。\\それなら私は…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "normal"
-    },
-    "58": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "hold": "longest"
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

@@ -1,17 +1,190 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "チャイルドは<color=\"ff9900\">覚醒</color>をすればするほど強くなり、\\<color=\"ff9900\">Bクラス以上</color>からは<color=\"ff9900\">装飾</color>が<color=\"ff9900\">装備</color>できるようになります。",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none"
+      "dialogue": "まるで全て見透かしているようなセリフ。\\本当に昔から変わりませんね。あなたのその…",
+      "background": "bg223_f",
+      "bgm": "65",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200608001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そして<color=\"ff9900\">チャイルド専用ストーリー</color>と\\<color=\"ff9900\">ボイス</color>も聞けますので、\\もっと仲良くなりますね♥",
+      "dialogue": "ウザい喋り方。",
       "char": "keep",
-      "speaker": "none"
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200608002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そんな安い挑発に私が乗るとでも思いましたか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "200608003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "そんなことより、その口調。\\本性とかけ離れすぎているせいか、\\とてもぎこちないですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "voiceid": "200608004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "生意気な女め…もう我慢ならんッ！\\紳士的に振る舞うのはもうやめだ！",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "voiceid": "200608005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…ようやくあなたらしくなってきましたね、\\ヴェルデレト。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "voiceid": "200608006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "はあ～それ、それですよ。\\その人を見下した喋り方…\\いい気分ですか？",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200608007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "今だから言いますがね、リザ。あなたのその態度、\\いつも癪に障っていましたよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200608008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "まあ、偉ぶるために人一倍気を遣ってるから、\\仕方ないのかもしれませんがねえ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200608009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "気が付きませんでした…\\あなたの仰る通り、格下には気を配らない\\主義ですので。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200608010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "心配して、急いで来てみたが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200608011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "なにこれ怖い…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "200608999"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ずいぶん殺伐とした話をしてますね。リザさん？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "200608012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あら、リザ。本気の本気みたいね～\\毛が逆立った猫みたいになっちゃって…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200608013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "いいよね～猫。ヒルドは、猫も好きなんですよ～\\ニャ～♪",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200608014"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ヒルド…？\\チビっ子お客様を守りなさいと言ったのに…\\ずいぶんな有様ですね…",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200608015"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "情けない…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200608016"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "うえ～ん。モーガン、ひど～い。",
+      "char": "c296_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200608017"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ふむ…仕事が上手くいかず、ずいぶんご苦労されているようですね、ヴェルデレト。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200608018"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "その口調！しばらく見ないうちに、ウザさに磨きが掛かりましたね。その顔も私を苛立たせる…",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200608019"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "良いだろう！いつまでその澄ました顔でいられるか、確かめさせてもらうとしよう！\\そこの《御主人様》を奪った後でな！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200608020"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

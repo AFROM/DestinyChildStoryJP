@@ -2,238 +2,299 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "アナタ…\\たまに来ては《魔界の生態》や《悪魔育児法》みたいなおかしな本を探しているけど…",
-      "background": "bg013_f",
+      "dialogue": "あー、なるほど。\\君があの家の息子か。\\お兄さんが空手の選手らしいね。",
+      "background": "bg041_f",
       "bgm": "9",
-      "char": "c209_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
+      "char": "none",
+      "speaker": "unknown1"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あるわけないでしょ、そんな本！\\私を困らせたいのですか！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "…それで？",
+      "char": "c208_00",
+      "speaker": "same_full"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そんなに怒るなよ。\\探せば見つかるかもしれないだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "dialogue": "そういや、君もこの前大会で賞をとったんだって？\\お母さんから聞いたよ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "4": {
       "type": "talk",
-      "dialogue": "その時は責任をもってお貸ししますわ！\\図書館では静かに！絶対静粛にです！！",
-      "char": "c209_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "dialogue": "話がえらく長くてさ！\\ハハ、よっぽど自慢の息子なんだね。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "5": {
       "type": "talk",
-      "dialogue": "うるさいのはどっちだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "dialogue": "…母さんは僕が守る。兄さんなんて、必要ない。",
+      "char": "c208_00",
+      "speaker": "same_full"
     },
     "6": {
       "type": "talk",
-      "dialogue": "静かに！\\口数が多いですよ！",
-      "char": "c209_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "おいおい、そういうことを言うもんじゃないぞ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "7": {
       "type": "talk",
-      "dialogue": "とにかく、図書館では静かにしてください。\\静粛にです！分かりましたか！？",
-      "char": "keep",
+      "dialogue": "もう、僕の方が兄さんより強いんだ。\\絶対…兄さんに勝ってみせる…",
+      "char": "c208_00",
       "speaker": "same_full",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake_weak"
+      "distance": "near"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "none",
-      "speaker": "none"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そろそろ入ってもよろしいですか～？",
-      "char": "none",
-      "speaker": "mona"
+      "dialogue": "ファイロ！この卑怯者め…どこに隠れた！",
+      "background": "bg086_f",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "10": {
       "type": "talk",
-      "dialogue": "静かにと言ったでしょ！  ",
-      "char": "c209_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "ここにはいないよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "11": {
       "type": "talk",
-      "dialogue": "俺は何も言ってないぞ…",
-      "char": "c000_01",
+      "dialogue": "お前が隠したのか！？",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "やはりこの女には聞こえている。\\身を隠したモナの声が…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ヘカテーの契約者はその得体のしれない《声》を\\聞き続けてきたようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "こんにちわ～♥不破文香(ふわ ふみか)さん！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "え、これはどういう…",
-      "char": "c209_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "やっぱり私の声が聞こえるみたいですね。\\どうしてそんな強い力を持っちゃったのかしら？\\かわいそうに♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "none"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "またお前はいきなり…\\けど、かわいそう？",
+      "dialogue": "うっわ…悪人面…\\悪魔より悪魔らしいんじゃないか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "お前もあいつの味方をするんだな…\\いいぜ、一緒に片付けてやる。",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "<b>とりゃ！</b>",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
+      "loop_ani": "attack"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "うわあ！？\\部屋が黒焦げになる！\\やめろ！修繕費がバカにならんっ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ファイロ！出てこい！さもなくば\\お前の主人を炭にしてやる！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "部屋だけじゃなくて俺も炭にする気かよ！\\落ち着け、話し合おう！なっ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "18": {
       "type": "talk",
-      "dialogue": "はい、少なくとも彼女の周りには、\\彼女の幻聴を解決できる人がいないんですよ。",
-      "char": "c001_01",
+      "dialogue": "嘘つきなど、信用出来るわけねーだろ！",
+      "char": "c007_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "魔女の末裔。\\魔女の力といっても、\\使い方もわからないみたいですし。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "confused"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ここで暮らしていくなら\\人間らしく生まれ変わるほうが\\幸せかもしれませんね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ああ、でも本当にもったいないです♥\\あの魔力、そのまま頂くことはできないでしょうか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "tempt"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "なんか不吉なことを考えてないか？\\変なこと考えるなよ。",
+      "dialogue": "俺がいつ嘘ついたよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "facial": "fury"
     },
-    "23": {
+    "20": {
       "type": "talk",
-      "dialogue": "わかってますよ～\\ヘタレな可愛いご主人さま♥",
-      "char": "c001_01",
+      "dialogue": "俺をだましたじゃねーか！",
+      "char": "c007_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense"
+      "distance": "near"
     },
-    "24": {
+    "21": {
       "type": "talk",
-      "dialogue": "でも、不破さんの夢に現れて、苦しめている原因は\\大体想像がつきますね。",
+      "dialogue": "俺を強くするとか言って、\\ほんとはファイロを守るために契約したんだろ？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "pos": "right"
     },
-    "25": {
+    "22": {
       "type": "talk",
-      "dialogue": "わかるのか？\\だったらその原因を何とかすることはできないのか？",
+      "dialogue": "……",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "23": {
+      "type": "talk",
+      "dialogue": "契約者だろうが悪魔だろうが…\\結局、どっちも卑怯者なんだ。",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "お前も俺を利用するだけ利用して、\\あの悪魔みたいに見捨てるんだろ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "俺がファイロの契約者と契約するとき、\\欲望の欠片が落ちた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
     "26": {
       "type": "talk",
-      "dialogue": "ん～…\\モナならできると思いますけど～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "dialogue": "どうしてそんなことになったかは\\俺にもよくわからないが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "27": {
       "type": "talk",
-      "dialogue": "なら、頼めないか？\\かわいそう、だし…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "その欠片をある悪魔が拾った結果、\\フェニックスは生み出されたらしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "28": {
       "type": "talk",
-      "dialogue": "うふふ、仕方ありません。\\ご主人さまのお願いですからね！\\モナが一肌二肌、脱ぐとしますね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "dialogue": "不完全な欲望から生まれたせいで、\\フェニックスは悪魔でさえもコントロールできない\\狂戦士と化した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "29": {
       "type": "talk",
-      "dialogue": "お前が言うと変に聞こえるんだが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "dialogue": "…そのせいで、結局、前の主人に捨てられたんだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "そう聞こえてるのはご主人さまだけですよ～♥",
-      "char": "c001_01",
+      "dialogue": "何もかも、ファイロのせいだ！！\\あいつさえ、いなければ…！",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "right"
     },
     "31": {
+      "type": "talk",
+      "dialogue": "…悪かったよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "何…？",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "全部、俺のせいだ。\\俺がファイロと契約するときに、\\もうちょっと注意してれば…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あ、いや、\\お前が生まれたのを否定してるわけじゃないぞ？\\だけどさ、\\お前は俺のせいで嫌な思いをしてるわけだし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…男のくせに、うるさいやつだな。",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "えっと…それは、\\謝罪なんかいらないってことか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "…別に、そういうわけじゃない。",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "39": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あんな簡単に自分の非を認めるなんて…\\呆れたヤツだな。",
+      "background": "dungeon_bg",
+      "char": "c007_01",
+      "speaker": "same"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

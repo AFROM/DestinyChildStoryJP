@@ -2,189 +2,351 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "約束通りお前をあの世へ連れて行こう。\\死は祝福…ありがたく思え。",
+      "dialogue": "うわあ…",
       "background": "dungeon_bg",
-      "bgm": "2",
-      "char": "c067_01",
+      "bgm": "19",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "モナ姉さまに触るなっ、このネクラ野郎！",
-      "char": "c003_01",
+      "dialogue": "…紙くずだらけですね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "fury",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "nonsense"
     },
     "3": {
       "type": "talk",
-      "dialogue": "お前も共に行くのか？",
-      "char": "c067_01",
+      "dialogue": "紙くずって…さすがに酷くないか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "さあさあ、意地を張るのもそれぐらいにして。\\いい大人がみっともないですよお？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "teach"
+      "dialogue": "リザは呆れたように、\\部屋を埋め尽くしているラブレターを見渡した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "お前は、まだ我の問いに答えていない。",
-      "char": "c067_01",
+      "dialogue": "とりあえず、このラブレターの主を…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "6": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "呼んだかしら、坊や。",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "7": {
       "type": "talk",
-      "dialogue": "その前に言いたいことがあるわ。",
-      "background": "back",
-      "char": "c001_01",
+      "dialogue": "いや、ちょうど呼ぼうとしてたとこ。\\さすがだな、このラブレター。\\お前の契約者が見たら、喜ぶんじゃないか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "left",
       "distance": "normal",
-      "facial": "teach"
+      "facial": "idle"
     },
     "8": {
       "type": "talk",
-      "dialogue": "「我は何者なのか」\\「我が人生に何の意味があったか」",
-      "char": "keep",
+      "dialogue": "どうだっていいわ。\\契約者は契約者。\\あたしはあたしだもの。",
+      "char": "c065_01",
       "speaker": "same",
-      "facial": "teach"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…そういう疑問を持っているのは、\\あなただけじゃないの。\\不思議なことでも何でもなく。\\そもそも質問を間違えてるわ、タナトス。",
-      "char": "keep",
+      "dialogue": "…",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "teach"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "10": {
       "type": "talk",
-      "dialogue": "「自分はこれから何になるのか」を訊かないと。",
-      "char": "keep",
+      "dialogue": "…それはいいとして、よく来てくれたわね。\\このゴミの量に、参ってたところなの。",
+      "char": "c065_01",
       "speaker": "same",
+      "pos": "right",
       "distance": "near",
-      "facial": "teach"
+      "facial": "idle"
     },
     "11": {
       "type": "talk",
-      "dialogue": "どんな返事をするかは\\あなたが一番ご存知なんじゃないかしら？\\…ねえ、タナトス。",
-      "char": "keep",
+      "dialogue": "おいおい、お前までゴミ扱いかよ…\\あんなに愛されたがってたのに、\\愛されたらポイッか？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "toonear",
-      "facial": "teach"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "12": {
       "type": "talk",
-      "dialogue": "…ならば、我は…",
-      "char": "c067_01",
+      "dialogue": "それはあたしの契約者の話でしょ？",
+      "char": "c065_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal",
-      "one_ani": "attack"
+      "facial": "idle"
     },
     "13": {
       "type": "talk",
-      "dialogue": "死者を導く死神になろう。\\亡者が彼岸に旅立つ時、寂しくないように。",
+      "dialogue": "何度も言わせないで。あたしには関係ないわ。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "one_ani": "attack"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お前達が歩む先で\\死にゆくすべての者たちを祝福しよう。\\死は悲しみではないと啓蒙しよう。",
+      "dialogue": "…",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そう、それこそ我が生きる道。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "そう言うなよ。\\…しかし、ホントにいっぱいあるよな。\\全部読むの、大変だったろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
     },
     "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ふふ、まさか。読むわけないでしょ？",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ダビよ…",
-      "background": "dungeon_bg",
-      "char": "c067_01",
+      "dialogue": "はあ？\\それなのに捨てるつもりなのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near",
+      "facial": "sigh"
     },
     "18": {
       "type": "talk",
-      "dialogue": "うん？な、なに…？",
-      "char": "c003_01",
+      "dialogue": "ええ、どうせ「愛してる」だの「美しい」だの、\\薄っぺらい、お決まりの言葉が連ねられてるだけだもの。",
+      "char": "c065_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "19": {
       "type": "talk",
-      "dialogue": "我を喚び出したのはあの若造ではない。\\お前だ…",
-      "char": "c067_01",
+      "dialogue": "お前な…\\たとえそうだとしても、もらったからには読めよ。\\片付けるのはそれからだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ま、間違えちゃったの！\\モナ姉さまにもすごく、たくさん、\\いっぱい怒られたから、これ以上怒らないで！",
-      "char": "c003_01",
+      "dialogue": "嫌よ。\\時間の無駄でしょ？",
+      "char": "c065_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
     },
     "21": {
       "type": "talk",
-      "dialogue": "今は黙って若造に従っておこう。\\だが…必要な時はいつでも我を呼ぶがいい…",
-      "char": "c067_01",
+      "dialogue": "…リザ、読み上げてやってくれ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
     },
     "22": {
       "type": "talk",
-      "dialogue": "我が祝福は常にお前と共にあるだろう…",
-      "char": "keep",
+      "dialogue": "かしこまりました。\\…ですが、まさか、ここにある手紙を、\\全て読め…とはおっしゃいませんよね？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "distance": "normal",
+      "facial": "serious"
     },
     "23": {
       "type": "talk",
-      "dialogue": "…分かったわ。",
-      "char": "c003_01",
+      "dialogue": "いいから早く。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
     },
     "24": {
+      "type": "talk",
+      "dialogue": "…はあ。\\「初めまして。これまで、あなたを見守って…」",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "…やめて。\\どういうつもりなの、坊や。",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "それはこっちのセリフだ。\\お前こそどういうつもりなんだ？\\お前にラブレターを出したやつらの気持ち、\\少しは考えたことあるのかよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "どうしてあたしがそんなこと考えなきゃいけないの？相手が勝手に書いただけでしょ？",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "なら、その言葉、\\手紙を寄越したやつらに直接言ってみろよ。\\「手紙なんていらない。\\こんな無駄なこと、二度とするな」…ってな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "それは…",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "できないんだろ？\\嫌われるのが怖いから。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "angry"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "そ、そんなわけ…",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "お前は自分の契約者が情けないって言ってたけど、\\俺はそうは思わない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "自分に向けられた愛情を弄ぶようなやつなんかより、ずっとマシだからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c065_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "帰ろう、リザ。\\こいつが手紙を全部読み終わるまで、\\まだまだかかるだろうからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…また、悪魔らしくないことを。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "うるさい！\\じゃあな、エラト。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "go_to_left_point"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "…まさか、坊やにあんなことを言われるなんて。\\いつまでも子供じゃないのね…",
+      "char": "c065_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "39": {
       "type": "curtain",
       "background": "back",
-      "bgm": "keep",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

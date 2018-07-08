@@ -2,322 +2,162 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ちょっと前のホウキ事件があった後、\\なんとリザが気前よく掃除機を買ってくれていた。",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "演奏が終わり前を見ると♪\\私はひとりぼっち♪",
+      "background": "bg177_f",
+      "bgm": "15",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "高価で高性能な物を選びました。\\これからは御主人様ご自身で、\\お掃除なさって下さい。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "徘徊していた霊も消え♪\\ひとりぼっち♪ひとりぼっち♪",
+      "char": "keep",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ここまでしたにも関わらず片付かないようなら、\\その時は御主人様に、またヤーガのホウキを\\握ってもらいますからね。",
+      "dialogue": "…\\ひとりぼっちの歌♪ひとりぼっちの宴♪",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "speaker": "same"
     },
     "4": {
-      "type": "talk",
-      "dialogue": "なんだよー、\\それって俺の面倒が増えただけじゃんかー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "それは私のセリフです。\\御主人様のせいで、来る日も来る日も\\掃除、洗濯、食事の支度まで…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "私は家政婦ではなく、\\あくまで御主人様のサポーターなんですよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "はいはい、わかってますよー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "それはそうと、\\ヤーガはどこに行ったんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "さあ？ホウキを取られないように、\\どこかに隠れているのでは？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "11": {
+    "5": {
       "type": "talk",
-      "dialogue": "もしかしてあいつ…まだエリオスのことで、\\怒ってんのかね？",
+      "dialogue": "ふうん…\\ひとりぼっちの歌、ひとりぼっちの宴、ですか。",
       "background": "dungeon_bg",
-      "char": "c000_01",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
-    "12": {
+    "6": {
       "type": "talk",
-      "dialogue": "あ、ヤーガ、こんなトコにいたのか。\\気分はどうだ？",
+      "dialogue": "モナはそう思いませんけどね。\\魔界にも人間界にも、歌はどこにでもありますから。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
-    "13": {
+    "7": {
       "type": "talk",
-      "dialogue": "悪くはありません。\\わざわざ、それを訊きに来たんですか？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "いや、まあ、そのだな…\\とにかく、元気ならいいんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ところで、他に何かご用ですか？\\命令などあれば…",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あー、だから別に用ってほどじゃないんだ。\\お前の姿が見えなかったからだな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "…私を心配して見に来たと？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "まあ、そんなトコだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "面白いですね。\\ご主人様は、悪魔らしくない顔もお持ちで。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "まさか悪魔がチャイルドの心配をするとは…\\悪魔にとってチャイルドは\\道具に過ぎないと思っていましたが…",
+      "dialogue": "それはそうと、ソネットの契約者は\\もう着いた頃かしら？\\たしか魔界に行くと言っていたけれど…",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "私の…契約者？",
+      "char": "c115_01",
       "speaker": "same",
       "pos": "right"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "あらあら、悪い子ね♥\\サキュバスの独り言を盗み聞きなんてしちゃダメよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "私の契約者、どこに行ったの…？",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "毎日毎日、とあるチャイルドが奏でる曲を聞いて\\行ってしまったわ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "丁寧にあいさつまでしてたけれど、\\その様子だと知らなかったみたいね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ずっと泣いてたのよ彼女。\\だけど曲を聴いたら、\\すっきりした顔で行ってしまったわ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "タン、タン、タタン、タタタン~って\\口ずさみながらね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "葬送行進曲…",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あら、あれってレクイエムだったのね？\\レクイエムを演奏するチェリスト、ね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ご主人さまも、時々すごい子を作るのね♥\\あなたを作ったのは間違いなんじゃないかって、\\落ち込んでたくせに♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あはは…",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "none"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うふふ、悲しそうね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "悲しいんじゃない♪\\悲しみを吐き出しているの♪\\悲しみ♪悲しみ♪悲しみ♪",
+      "char": "c115_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "loop_ani": "attack"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "どうだろうな…他の悪魔はそんな感じみたいだけど、俺はそういうの、ちょっとなあ。",
-      "char": "c000_01",
+      "dialogue": "おバカなご主人様♪\\これからも悲しませてあげる♪",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "pos": "right"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "別に魔王になりたい訳でもねーし…\\何だよ、そんな怪訝そうなツラして？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "私の契約者は、悪魔が願いを叶えてくれると\\本気で思っていました。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "お前はそう思ってないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "さあ…私の契約者が願いを叶えるために\\ご主人様を呼んだのは事実ですが。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "結局ご主人様が彼女と契約を結んだのは、\\ご主人様の目論見通りだったのではないですか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "俺を自分勝手な奴だって、\\言いたいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "まさか。\\かえってご主人様が悪魔らしい行動をしたと\\感心しております。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "バカにされてるのか、本気でそう思ってるのか。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "どーも無表情だから、よくわからん。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…悪魔らしい行動、ねえ。それじゃお前は、\\どうしてそんな自己中なヤツの力を借りたいんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "理由は簡単です。\\悪魔が私より強いからです。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "はあ…何かよくわからんけど、\\これだけはハッキリしたな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "今、誰よりも悪魔っぽいのは俺じゃなくて、\\お前だろーな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "私が…悪魔らしい、ですか？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ホントの所、\\とっくにお前も分かってるんじゃないか？\\俺が人間の真似してる悪魔だってさ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "もしかして…怒っていますか？",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "そーだな。\\お前と話していると、腹が立って仕方ないよ。\\俺、もう帰るわ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry",
-      "before_effect": "go_to_left_point"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "強いと言われて…怒ったの？\\本当に、悪魔らしくない悪魔ね。",
-      "char": "c117_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

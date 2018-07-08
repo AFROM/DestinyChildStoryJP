@@ -2,8 +2,8 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "何だ、これ…？",
-      "background": "bg089_f",
+      "dialogue": "最近変な噂を聞くんだ。\\で、その噂に出てくる張本人に直接確認したいんだけど…",
+      "background": "bg086_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
@@ -11,295 +11,241 @@
     },
     "2": {
       "type": "talk",
-      "dialogue": "家の冷蔵庫、いつからこんなに\\食べ物がいっぱいだったっけ？\\おかずというおかずは全てそろってる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どうぞどうぞ、いくらでも。\\ご主人様になら、包み隠さず全てお話しします。",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "リザの奴…面倒くさいだの\\自分は家政婦じゃないだの文句言ってたくせに…",
+      "dialogue": "あのさ…もちろん根拠のない噂だとは思うけど\\はっきりさせた方がいいと思って。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "リザの配慮を無駄にしないためにも\\遠慮なくいただこうかな。",
+      "dialogue": "お前が万引きしてるのを見たって言う\\情報があったんだ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "御主人様、ご食事中でしたか。\\おかずが食卓いっぱいに…",
-      "char": "c002_01",
+      "dialogue": "そ、そんな…やってません！濡れ衣です！\\本当に…誓ってそんなことは！",
+      "char": "m077_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ちょうどよかった。\\おかげで今日は腹いっぱい食べさせてもらったよ。",
+      "dialogue": "うん、やっぱりそうだよな？\\見間違えたんだ、きっと。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "褒めていただき恐縮ですが\\何か勘違いされているようです。",
-      "char": "c002_01",
+      "dialogue": "ああ…信じてくれてありがとうございます、\\ご主人様。",
+      "char": "m077_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "それは私が作ったおかずではありません。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "え？そうなのか？じゃあ、誰が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "それは…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "気に入ったか…？",
-      "char": "m136_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "うわっ！？\\び、びっくりした…",
+      "dialogue": "いいよいいよ、こんなに素直でイイ奴が万引きなんてするはずない。変なこと聞いてごめんな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "facial": "haah"
     },
-    "13": {
-      "type": "talk",
-      "dialogue": "口に合って何より…",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "まさかレディ…お前が作ったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "冷蔵庫、空っぽだった…",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "お、驚いたよ！こんなに料理が上手だなんて…\\遠慮せずいただくよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
+    "9": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "19": {
+    "10": {
       "type": "talk",
-      "dialogue": "リザ、リザ！",
-      "background": "bg086_f",
+      "dialogue": "うーん、お腹が空いて眠れないな。\\夜食べるのは体に悪いってリザに怒られそうだけど…",
+      "background": "bg089_f",
+      "bgm": "20",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "sigh"
     },
-    "20": {
+    "11": {
       "type": "talk",
-      "dialogue": "どうかしましたか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "タンスにしまってあった服が全部消えたんだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "マヌケな泥棒だって\\あんな服は盗んでいきません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "…知ってるよ。でも消えたのは確かなんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "それは…",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ひいっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "私が全部…洗濯した…",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "全部？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "カビが生えてた…",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "素晴らしい行いですわ、レディ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "大げさに言いすぎだ。だからって\\レディが苦労してないって意味じゃない…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "でもレディ、無理な仕事を引き受ける必要は\\ありませんよ。\\御主人様が甘えるだけです。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "自分が好きでやってるんだろ。\\止める必要もない。",
-      "char": "c000_01",
+      "dialogue": "内緒で食べちゃえ～",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "33": {
+    "12": {
       "type": "talk",
-      "dialogue": "この怠け者…",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "serious"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "恩を返しただけ…\\この子のおかげで私は…生まれたから…",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ちょっと怖い顔だけど\\意外といい奴なのかもしれない。",
+      "dialogue": "パクパク、モグモグ…",
       "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "speaker": "unknown1"
     },
-    "36": {
+    "13": {
       "type": "talk",
-      "dialogue": "だから…",
-      "char": "m136_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ひっ！",
+      "dialogue": "な、何の音だ？まさか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
+      "facial": "confused"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ダビ！またお前か！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "…ゴクン。",
+      "char": "m077_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "えっ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ムシャムシャ…なんだ、お前は？",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "も、モア？い、一体何を…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "飯食ってんだから邪魔すんな！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "モア…急にどうしたんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "うるさい！つーか、誰だよお前！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "お前の主人だよ。俺の顔も忘れたのか？\\まさか…あの噂は…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あ？噂？知るかそんなもん！\\誰が流したか知らねえが、チクったらタダじゃおかねえぞ！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "こ、これが…あの素直でイイ奴なのか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
       "before_effect": "shake"
     },
-    "38": {
+    "25": {
       "type": "talk",
-      "dialogue": "遠慮しないで。",
-      "char": "m136_01",
+      "dialogue": "なんだ。お前、\\「イイ子ぶってるモア」に会ったのか？",
+      "char": "m077_01",
       "speaker": "same",
       "pos": "right"
     },
-    "39": {
+    "26": {
       "type": "talk",
-      "dialogue": "あ、ああ。ありがと、レディ…",
+      "dialogue": "じゃあ、お前はモアじゃないのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "confused"
     },
-    "40": {
+    "27": {
       "type": "talk",
-      "dialogue": "でも…\\あんな縛られた状態でどうやって…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "バーカ。俺は「怒りモードのモア」だよ！\\今は俺がこの体の主なんだ！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
     },
-    "41": {
+    "28": {
+      "type": "talk",
+      "dialogue": "…に、二重人格？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "他の奴らは全部ニセモノだ！\\俺がホンモノだっつーの！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ガツガツ…つーか、この家の冷蔵庫、何もないな？\\もっと美味いモンたくさん買っとけよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "他の奴ら、って…他にどんだけいるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
+    },
+    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

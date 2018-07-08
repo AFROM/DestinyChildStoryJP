@@ -1,11 +1,241 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "46",
+      "hold": "shorter"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg211_f",
+      "fade_in": "longer",
+      "hold": "normal"
+    },
+    "3": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">スキル情報</color>でスキルを確認して\\<color=\"ff9900\">レベルアップさせるスキル</color>を選びます。",
-      "background": "back_dim50",
+      "dialogue": "",
+      "background": "keep",
       "char": "none",
-      "speaker": "none"
+      "speaker": "none",
+      "voiceid": "200300999"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "",
+      "background": "bg212_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "200300998"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "",
+      "background": "bg212_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "200300997"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "",
+      "background": "bg213_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "200300996"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "",
+      "background": "bg214_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "200300995"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "42",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "bg207_f",
+      "fade_in": "shorter",
+      "hold": "shorter"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_atk_skill_drive_fire_c301.mvd"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そこ、じっとしいや！",
+      "char": "none",
+      "speaker": "unknown1",
+      "voiceid": "200300001"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "とりゃあ！",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "before_effect": "enter_from_right_fast",
+      "one_ani": "attack",
+      "voiceid": "200300002"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "はあ、はあ…\\あら？しっぽを巻いて逃げはりましたか？",
+      "char": "keep",
+      "speaker": "unknown1",
+      "voiceid": "200300003"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "捕まえたと思たら逃げるし、また捕まえたら逃げる…えらい、せわしないなぁ～まるでウナギさんやわ。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "distance": "near",
+      "voiceid": "200300004"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "好きにしたらええ。しっぽを掴んださかい、もう逃げられへんよ！",
+      "char": "keep",
+      "speaker": "unknown1",
+      "distance": "normal",
+      "voiceid": "200300005"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "hold": "shorter"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg119_f",
+      "bgm": "11",
+      "fade_in": "normal",
+      "hold": "shorter",
+      "char": "c000_01"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "匂うよ～匂うね～…",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "200300006"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "不吉で危険な臭いが…",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "serious",
+      "voiceid": "200300007"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "み～つけた♥",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "none",
+      "voiceid": "200300008"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "うわあっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "voiceid": "200300009"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "こんなところに隠れて～見つからないと思ったんですか？相変わらず考えが甘いですね、ご主人さま。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200300010"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "すみません、モナ様…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry",
+      "voiceid": "200300011"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "捕まった人が鬼になるのは知ってますよね～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200300012"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "えっ？それじゃ今度はモナが逃げるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200300013"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "モナを捕まえてどうする気ですか～？\\ご主人さまが捕まえるのは…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200300014"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "チャ・イ・ル・ド♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "tempt",
+      "voiceid": "200300015"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ハイハイ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200300016"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "それじゃ、鬼ごっこスタート！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200300017"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

@@ -2,54 +2,56 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "それはダメだ。",
-      "background": "bg008_f",
+      "dialogue": "このままじゃ過労で死んじゃうよ……\\ホント死にそう……",
+      "background": "bg057_f",
       "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "irritation"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何がダメなんだよ！",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ダメだって言ったらダメ。",
-      "char": "c000_01",
+      "dialogue": "そうだ！おい、カルカス！\\今どこにいる？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "idle"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "ふふ、いつもおそばに。\\どうしました？",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
     "4": {
       "type": "talk",
-      "dialogue": "イーーッ！この頑固オヤジ！",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "頑固なのはお前のほうだ！\\第一、ありえないだろ？",
+      "dialogue": "お前、占い師だったって言ってたよな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "sigh"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "そうです。\\正確には、予言者に近いと思います。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どうやって全ての戦いに参加するんだよ？",
-      "char": "keep",
+      "dialogue": "うわ、ちょっとすごいかも。\\そう見えなかったけど……",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "pretense"
     },
     "7": {
       "type": "talk",
-      "dialogue": "それも独りで。",
+      "dialogue": "とにかく、それなら魔王争奪戦がいつ終わるか\\わかるんだろ？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
@@ -57,200 +59,268 @@
     },
     "8": {
       "type": "talk",
-      "dialogue": "何がありえないんだよ？",
-      "char": "c083_01",
+      "dialogue": "いつ終わるか……ですか？\\ふふ、誰が勝つかではなく？",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "9": {
       "type": "talk",
-      "dialogue": "戦いは遊びじゃないんだよ。",
+      "dialogue": "それもわかるの！？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious"
     },
     "10": {
       "type": "talk",
-      "dialogue": "だからなんだってんだ？",
-      "char": "c083_01",
+      "dialogue": "いいえ。たぶんもう見えないと思います。\\そっち系の能力は全部失ってしまいましたから。",
+      "char": "c082_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "独りで戦うなんて無理だって！",
+      "dialogue": "…そっち系の能力ね～。\\それじゃあもう占いはできないのか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "無理じゃない！オレは強いんだ。",
-      "char": "c083_01",
+      "dialogue": "そうですね。\\契約者の方も、\\僕が現れてからはさっぱりのようですし。",
+      "char": "c082_01",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "バカも休み休み言え。\\絶対ダメだ、絶対！",
-      "char": "c000_01",
+      "dialogue": "僕に残されたのは、直感だけです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ねぇパパ！お願い、お願い、お願い！！",
-      "char": "c083_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "駄々こねても無駄だ。\\この話は聞かなかったことにする。わかったな。",
+      "dialogue": "直感……か。何が違うんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "えっと……\\限りなく分かれる2つの道があるとします。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "どっちの道に何があるかわかるのが占い。\\感じのいい方に従うのが直感。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "独りで戦えるように、ご主人さまを説得してくれ？",
-      "background": "dungeon_bg",
-      "char": "c001_01",
+      "dialogue": "同じように聞こえるけど……",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "うん！やってくれるよな？\\モナは口が達者だし。",
-      "char": "c083_01",
+      "dialogue": "知ってる上で行くのと、\\知らないけど行く、の違いですね。",
+      "char": "c082_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ん～…出来ないことはないけど…\\でも、なんでそんなことを頼むの？",
-      "char": "c001_01",
+      "dialogue": "はあ、そういう…それにしても、\\契約後に能力を失うなんて……\\こういうケースは初めてだなー。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "パパが心配だからだよ。",
-      "char": "c083_01",
+      "dialogue": "そうですか。\\僕はかえってありがたいです。",
+      "char": "c082_01",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ふふふっ…そうよねぇ～\\ご主人さまって、頼りないものねぇ？",
-      "char": "c001_01",
+      "dialogue": "怖かったんです。\\こう言うとなんですけど、\\人間の時は不幸な部類でした。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "モナもそう思うだろ？あんな鈍くさい悪魔は\\悪魔はおろか、人間と戦っても負けるに決まってる。",
-      "char": "c083_01",
+      "dialogue": "いくら未来を見ることができても\\運にいつも見放されていたので。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "だから、オレが守ってやらないとダメなんだ。",
-      "char": "keep",
+      "dialogue": "あ、俺と同じだ……\\俺も運の悪さなら負けないぞ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "joy"
     },
     "24": {
       "type": "talk",
-      "dialogue": "まあっ♥\\ネイトったら、立派になって…\\ご主人さまのためにそこまで…",
-      "char": "c001_01",
+      "dialogue": "はは、思い返してみると、苦難の日々でしたね。\\事故に遭いそうだったから家に閉じこもってたら、\\家が倒れるし。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ま、そのぐらいはチャイルドとして当たり前だろ？\\オレだって、いつまでもトラブルメーカーじゃいられないよ。",
-      "char": "c083_01",
+      "dialogue": "家が！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "で～も…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ん？",
-      "char": "c083_01",
+      "dialogue": "そう、家が。\\厄払いしようとして大ケガしたこともあります。",
+      "char": "c082_01",
       "speaker": "same",
       "pos": "right"
     },
+    "27": {
+      "type": "talk",
+      "dialogue": "道でばったり悪魔に出会うとか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
     "28": {
       "type": "talk",
-      "dialogue": "ネイトの頼みは聞いてあげられないわ♥",
-      "char": "c001_01",
+      "dialogue": "そう、その悪魔に無理やり契約させられて\\しまったりとか。",
+      "char": "c082_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "何でだよ！\\ついさっきまで頼まれてくれそうだったのに！",
-      "char": "c083_01",
+      "dialogue": "何が起こるかはわかるんですけど\\防ぐこともできず、避けることもできないんです。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "父親思いのその気持ちはとってもステキだと思うけどチャイルド1人にすべての戦闘を任せることは\\できないわ。",
-      "char": "c001_01",
+      "dialogue": "だから今はかえって気が楽です。\\ただ……",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "あと、ネイトが思ってるほど\\ご主人さまは情けなくはないわよ～？",
-      "char": "keep",
+      "dialogue": "ただ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "idle"
     },
     "32": {
       "type": "talk",
-      "dialogue": "心配しないで。ねっ、ネイト♥",
-      "char": "keep",
+      "dialogue": "この名前はちょっと恥ずかしいですね。",
+      "char": "c082_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "フン！オレにとっては\\情けなくて、頼りなくて、鈍くさいパパなんだよ！",
-      "char": "c083_01",
+      "dialogue": "もう予言もできないのに、予言者の名前だなんて。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "あらあら。\\これじゃどっちが親でどっちが娘か\\わからないわね♥",
-      "char": "c001_01",
+      "dialogue": "僕には似合わないんじゃないかなって。\\……気にしすぎですかね？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "right"
     },
     "35": {
+      "type": "talk",
+      "dialogue": "似合わないのはその名前じゃなくて俺の立場だよ。\\あーあ、なんでこんなに肩の荷が重い状況に\\なってるんだか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "立派にこなしていますよ。\\僕は、ご主人様を心から信じていますし。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "このままご主人様について行けばいいんだって……\\そう思える人ですから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "気のせいかもしれないぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ふふ、そう。気のせいでしょうけど。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "みんな期待しすぎじゃないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "期待されるのは嫌いですか？\\そういうところも変わってますね。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "僕は、ご主人様が思っているより、\\この暮らしが気に入ってます。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "本当ですよ。これは気のせいじゃないです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

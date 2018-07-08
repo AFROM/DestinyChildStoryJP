@@ -2,248 +2,357 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "このバアル様にもっとふさわしいヤツを連れてこい！",
-      "background": "bg197_f",
-      "bgm": "6",
-      "char": "c147_01",
+      "dialogue": "悪魔さーん。こんにちは。\\…ちょっと、お願いがあるんですけど。",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c133_01",
       "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "無茶なこと言うな。\\これは遊びじゃなくて戦闘なんだ！",
+      "dialogue": "却下。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "fury",
+      "distance": "near"
     },
     "3": {
       "type": "talk",
-      "dialogue": "臆病者が遠吠えか？\\戦い方を知らないなら見学してろ！",
-      "char": "c147_01",
+      "dialogue": "えー…聞きもせずに拒絶ですか？\\そう言わずに、悪魔さんてばー。",
+      "char": "c133_01",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "負けたりしたら…",
+      "dialogue": "ダメだ。そのふくらみ…怪しすぎる。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ふむ…",
-      "char": "c147_01",
+      "dialogue": "えー…悪魔さんったら本当の悪魔みたい！\\話も聞いてくれないなんて、ひどい！",
+      "char": "c133_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "何だ？戦闘中によそ見するな！",
+      "dialogue": "よくわからないけど、\\うちではその生き物は飼えません。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "俺はずいぶんオマエを甘く見ていた気がする。",
-      "char": "c147_01",
+      "dialogue": "えー…まだちゃんと見てもいないのに。\\本当に駄目ですか？",
+      "char": "c133_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "何だよ、急に…",
+      "dialogue": "駄目だ。 元の場所に戻して来い。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "俺はな、とても奇抜な戦略を思いついた。\\だがそれを成功させるにはオマエの力が必要だ。",
-      "char": "c147_01",
+      "dialogue": "ふう…仕方ありませんね。\\マムちゃん、あなたを元の場所に戻しに行くわね。",
+      "char": "c133_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "何だ？突然俺を持ち上げやがって…",
+      "dialogue": "マム…ちゃん？\\なんか嫌な予感…一体何を拾って来たんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "facial": "nonsense"
     },
     "11": {
       "type": "talk",
-      "dialogue": "餌で獲物を釣る！",
-      "char": "c147_01",
+      "dialogue": "マムシです。 はい、どうぞ。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "うわあああ！",
+      "dialogue": "毒蛇じゃん！早く捨てて来い！！\\おい、近づけるなっ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "go_to_left_fast",
-      "screen_effect": "dialog_shake"
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "distance": "near",
+      "mvd_post_effect": "none"
     },
     "13": {
       "type": "talk",
-      "dialogue": "クハハハ！適当に暴れてこい！\\俺はゆっくりついて行くぞ！",
-      "char": "c147_01",
+      "dialogue": "おっと、手が滑ってしまいました。\\毒蛇さんが悪魔さんのほうへ！！",
+      "char": "c133_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ひいいいい…変なのを拾ってくるから！\\し、死ぬうう！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "15": {
       "type": "talk",
-      "dialogue": "お、お、オマエ！俺を殺そうとしたな！",
-      "background": "bg111_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "あははは！悪魔さんってば、面白いんだから！\\ゴム製のおもちゃですよー。よくできてるでしょ？",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "前に言っただろう。\\俺は簡単には殺したりしないって。",
-      "char": "c147_01",
+      "dialogue": "ちくしょう！またイタズラか！言っておくけど、\\こういうのはコミュニケーションじゃないからな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "今さっき殺しかけただろうが！\\敵陣に投げ込んだだろ、俺を！",
-      "char": "c000_01",
+      "dialogue": "悪魔さんと仲良くなりたい、\\あたしのささやかな愛情表現ですよー。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "confused"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "生きてるじゃないか。\\この俺様のアイディアのおかげで戦闘で勝ったしな。",
-      "char": "c147_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "土下座して感謝されても足りないくらいだ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "お前とは絶対に戦わない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "俺以外にお前を使えるヤツがいるのか？",
-      "char": "c147_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "俺を道具扱いしやがって。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "笑わせるな。だったらお前は違うのか？\\お前もチャイルドを道具扱いしてるだろ。",
-      "char": "c147_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "誰が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "お互いに利用してるんだ。配慮も犠牲も…\\それはずる賢いヤツらが他人を利用する\\手段ってだけだ。",
-      "char": "c147_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "それにお前はその手段を使うほど\\ずる賢いヤツじゃない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "だから他のヤツらはお前を無視するんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "だからお前も俺を無視するのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "クハハハ！そうだ！俺もお前を無視した。",
-      "char": "c147_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "だが見てみろ。今回の戦闘も\\この俺がお前を使ってあげたじゃないか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それに心のこもった忠告まで…\\こんな待遇、他ではないぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "だから有り難く思えって言いたいのか？\\はいはい、ありがとうございましたー。",
+      "dialogue": "そんな愛情いらない。\\いつか殺されそうな気がする…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
+    "19": {
+      "type": "talk",
+      "dialogue": "悪魔さんったら、冗談ばっかり！\\あ、カエルもあるんですけど、いりますか？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "へえ。これもおもちゃなのか？\\最近のおもちゃはクオリティが高いなあ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "いえ、それは本当のカエルですよ？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "本物かよ！？こういうのは拾ってくるな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "dialog_shake",
+      "before_effect": "none"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ロマンチックじゃないですか？\\カエルさんに口づけすると、人間になるそうですよ。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "そういうおとぎ話もあるけど！現実は違うの！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "confused"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "非現実の塊みたいな悪魔さんの口から、\\現実とか、そんな言葉が…",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "うっ…でも、このカエルは、\\普通に拾ってきただけなんだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "でも、魔法がかけられてるかもしれませんよ？\\悪魔さんのピュアな口づけで呪いが解けるかも…",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "何だか…そんな気がしてきた…かも？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そうでしょう。騙されたと思って、\\カエルを呪いから解き放ってあげてください！",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "えっと。か、カエルに口づけを…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "はい！もしかしたら恩返しに宝物をくれるかも。\\つらいアルバイトとはおさらばできますよ！",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "た、宝物！？そ、そうだな。\\騙されたと思って…1回だけなら…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "shake_weak"
+    },
     "33": {
+      "type": "talk",
+      "dialogue": "そうです、悪魔さん。\\あなたは、呪いを解いた恩人になるんです。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "俺が恩人に！恩返しもバッチリ！？そ、それじゃ、このイタズラに付き合ってやるかな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ふふ、その意気ですよー！",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "よし、じゃあ行くぞ！何か、色も派手だし、\\きっと普通のカエルじゃなくて、\\呪いにかかった人間だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ちなみに、そのカエルさんのお名前はヤドクガエル。名前通り、毒矢を作るためのカエルさんです。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "毒ガエルじゃないか！熱帯雨林のカエルを、\\どこで拾って来たんだ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "本当は普通のカエルさんにメイクしてあげただけ。\\あ、身体に悪いものは使ってないですよ？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "カエルさんも気に入っているみたいです。\\なかなかの腕前でしょ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "また騙されたか！\\俺は毎回なんでこうも、ちょろいんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "悪魔さんはいつも、\\面白い反応を見せてくれるので大好きです。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "俺は嫌なんだよ…\\はあ、なんでこんなことに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "あら、残念。大好きっていうのは本音だったのに。\\それじゃあ、今日も一緒に遊びましょう。悪魔さん♥",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "誰か代わりにこいつと遊んでやってよ…\\はぁ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "distance": "near"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

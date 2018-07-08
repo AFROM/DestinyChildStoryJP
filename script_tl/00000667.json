@@ -2,244 +2,414 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "こんにちは、契約者サン……\\気持ちのいい午後ね……",
-      "background": "bg070_f",
-      "bgm": "14",
-      "char": "c198_01",
-      "speaker": "same",
+      "dialogue": "あ！やっと会えた！",
+      "background": "bg034_f",
+      "bgm": "17",
+      "char": "c196_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…こんにちは。チャイルドの暮らしはどう…？\\私の方はそれなりに充実しているわ…",
-      "char": "c198_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "ん？お前は…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…ウソだけど…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "イズンの契約者だ。俺に会えたのが嬉しいのか\\ニコニコ笑い、手を振っている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ふふ、相変わらずね、契約者サンったら…\\退屈で、つまらなそう…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "久しぶりね。元気だった？",
+      "char": "c196_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…でも、チャイルドとしての暮らしも同じよ…\\ご主人サマは、可愛いネンネちゃんだし…",
-      "char": "keep",
+      "dialogue": "あ、うん…お前の方こそ元気そうだな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら…… それは意外ね……\\",
-      "char": "c198_00",
+      "dialogue": "うん、おかげさまでね…",
+      "char": "c196_00",
       "speaker": "same_full",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そうは見えなかったでしょ…？\\すごく美味しそうで…\\飲み込んだら、お腹の中ですぐに溶けちゃいそう…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "おかげさま？まさか、契約のこと何か覚えてるのか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "飲み込むだなんて、怖いわ…\\まるで蛇みたい。",
-      "char": "c198_00",
+      "dialogue": "そうだ。\\アナタに会ったら渡そうと思って持ってきたの。",
+      "char": "c196_00",
       "speaker": "same_full",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ふふ、蛇、ねえ…\\ご主人サマを丸のみにできるなら、悪くないわ。\\いっそのこと、蛇に生まれたらよかったのに…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "彼女が差し出したのは、小さな箱だった。\\箱の中からは甘く香ばしい匂いが漂ってくる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "それじゃあ…次の願いは、それにしましょうか？",
-      "char": "c198_00",
+      "dialogue": "口に合うか分からないけど。",
+      "char": "c196_00",
       "speaker": "same_full",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "いいわね…\\だけど、そう思い通りには\\いかないんじゃないかしら？\\…あら？",
-      "char": "c198_01",
+      "dialogue": "クッキー…手作りか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "どうしたの？\\彼が、あなたを呼んでいる…？",
-      "char": "c198_00",
+      "dialogue": "うん。",
+      "char": "c196_00",
       "speaker": "same_full",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ええ、行ってくるわね…\\それと、\\あなたが契約した時のことを覚えていることは、\\秘密にしておくわ…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "まさか…\\これを渡すために、ここで俺を待ってたのか？\\いつ来るかも分からないのに…",
+      "char": "c000_01",
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "14": {
       "type": "talk",
-      "dialogue": "……そのほうが面白いから。\\それじゃ、またね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "アナタと初めて会った場所だから…\\いつかは会えると思って…",
+      "char": "c196_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ええ…\\生きていたら、また…",
-      "char": "c198_00",
+      "dialogue": "あ、でも誤解しないでね。\\わざと待ってたとか…そういうのじゃないから。",
+      "char": "keep",
       "speaker": "same_full",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
+      "type": "talk",
+      "dialogue": "クッキー作るのは趣味だから…ただ作ってみただけ。偶然アナタに会えるかもって思って…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "うう…話題を変えなくちゃ！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あの男とはどうだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あの…人のこと？",
+      "char": "c196_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "話題を変えるつもりが、雰囲気が一層悪化した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あの人は相変わらずよ。本当にピュアなんだから。",
+      "char": "c196_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "他の人にどっぷりハマっちゃって\\私なんか眼中にもないみたい。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それでもいいわ。まだ諦めたわけじゃないし。\\私を綺麗って言ってくれる人もいるし…",
+      "char": "c196_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "落ち込んでないようで何よりだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "本当は、自分に興味のない人なんてもう諦めて",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "綺麗と言ってくれたその人に\\心を開いてほしいけど",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "俺がどうこう言える立場でもない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "とにかく、前よりは良くなったみたいだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "クッキー、ありがとな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "うん。私たち、また会えるかしら？",
+      "char": "c196_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "縁があったらまた会えるだろ。\\だからって約束もせず待つのはやめてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "分かったわ。",
+      "char": "c196_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "17": {
+    "35": {
       "type": "talk",
-      "dialogue": "ご主人サマ、お呼びかしら？\\うふ、今度こそ私のお願いを…",
-      "background": "dungeon_bg",
-      "bgm": "2",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "それは聞かないって言ってるだろ…\\俺は平等がモットーなの！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ああ、必要な時だけ利用して、\\私の人権を好きなだけ蹂躙するのね…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "じゅう、りん？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "踏みにじるということですわ、ご主人さま♥\\チャイルドであるゼロスに、\\人権なんて初めからありませんけど♥",
+      "dialogue": "あら、甘い匂い。それじゃ、いただきまぁす♥",
+      "background": "bg086_f",
       "char": "c001_01",
       "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "モナ！俺がもらったクッキーを\\許可なく食べる気か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "は～い♥誰かは知りませんが、\\本当にいい腕したお嬢さんですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ん？どうして女だって分かったんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "これだから男の子って…\\食べたら分かりますよ。\\失恋した女の子のクッキーの味くらいは…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "それ…どんな味だよ！？\\絶対味覚でもあるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "ご主人さまも一口どうぞ♥\\ホントに美味しいですよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "何事もなかったかのように言わないでくれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "モナの言う通り、クッキーは本当に美味しい。\\甘くて爽やかな味だ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "失恋した女の子のクッキー…\\の味がするかは分からないが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "リンゴ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "爽やかなリンゴをたっぷり入れてありますね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "リンゴを入れるなんて…ただの偶然か…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "48": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "初めて私に綺麗と言ってくれたアナタに\\プレゼントしたかった。",
+      "background": "bg034_f",
+      "char": "c196_00",
+      "speaker": "same_full",
       "pos": "center",
-      "facial": "pretense"
+      "distance": "normal"
     },
-    "22": {
+    "50": {
       "type": "talk",
-      "dialogue": "あら、酷い…\\権利を蹂躙…と言えばよかったかしら…？",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ふふ、ゼロスの持つすべての権利は、\\ご主人さまのものよ。\\だから、それにも該当しないわ♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "あら、まあ…\\厳しいわね…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "私には、権利も人格もなし…か…\\",
+      "dialogue": "アナタの言う通り…\\自信を持って自分の気持ちを伝えるわ。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "normal"
     },
-    "26": {
+    "51": {
       "type": "talk",
-      "dialogue": "うふ…気に入ったわ…\\…ところで、あなたはどうして、\\そんなところで盗み聞きしているの？",
+      "dialogue": "その人が分かってくれなくても…絶対に諦めない。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "speaker": "same_full"
     },
-    "27": {
+    "52": {
       "type": "talk",
-      "dialogue": "うっ…",
-      "char": "c251_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
+      "dialogue": "私に勇気をくれてありがとう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
     },
-    "28": {
-      "type": "talk",
-      "dialogue": "可愛い坊や♥\\私から逃げられると思っているのかしら…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "う、うるさいな…どいてよ！\\…って、メルが言ってるの…",
-      "char": "c251_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ふふ…そうやって、\\ぷるぷる震えながら突っぱねようとするところが、\\また可愛いのよね…\\食べちゃいたくなるわ…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…！\\お、お兄ちゃ～ん！助けて～！",
-      "char": "c251_01",
-      "speaker": "same",
-      "pos": "left",
-      "after_effect": "go_to_right_point"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "あら、逃げちゃったわ。\\ふふ…本当に可愛い…",
-      "char": "c198_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "33": {
+    "53": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

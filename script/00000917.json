@@ -2,533 +2,320 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "部下の管理もまともにできんのか！！\\喧嘩も止められんとは、それでも貴様、小隊長か！",
-      "background": "bg115_f",
+      "dialogue": "ギフトパッケージのヤツが自我を持つようになったのは、はるか昔さ。",
+      "background": "bg046_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "COMMANDER",
-      "screen_effect": "dialog_shake"
+      "char": "c299_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "申し訳ありません！全ては私の責任です！",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "before_effect": "shake"
+      "dialogue": "今さら聞いても記憶が曖昧だけど\\確かあの時だったよ。",
+      "char": "keep",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "当たり前だ！まったく…\\お前がそんな無能だとは思わなかったぞ！\\躾もろくにできんのか？",
-      "char": "none",
-      "speaker": "COMMANDER"
+      "dialogue": "あのキツネみたいな子供。",
+      "char": "keep",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "父親の顔に泥を塗るような真似は慎め！！",
-      "char": "none",
-      "speaker": "COMMANDER"
+      "dialogue": "キツネ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "くっ…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "中隊長、外まで声が聞こえているわよ。",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "enter_from_right_slow"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "こ、これは、真生田(まにゅうだ)議員！\\ようこそおいでくださいました。",
-      "char": "none",
-      "speaker": "COMMANDER",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "近くまで来たから。\\それに少し聞きたい事があってね。",
-      "char": "m056_00",
-      "speaker": "same_full",
+      "dialogue": "ああ、キツネみたいなヤツだった。",
+      "char": "c299_01",
+      "speaker": "same",
       "pos": "right"
     },
-    "9": {
-      "type": "talk",
-      "dialogue": "そ、そうですか…\\さぁ、お座りください。",
-      "char": "none",
-      "speaker": "COMMANDER"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ところで議員…\\例の計画の進捗はいかがですか？",
-      "char": "none",
-      "speaker": "COMMANDER"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "中隊長…",
-      "char": "m056_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "facial": "sigh"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "はい…？",
-      "char": "none",
-      "speaker": "COMMANDER"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "…\\……！！",
-      "char": "none",
-      "speaker": "COMMANDER"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "追って処分を言い渡す！\\さっさと出ていけ！！",
-      "char": "none",
-      "speaker": "COMMANDER",
-      "screen_effect": "dialog_shake"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ハッ！",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "17": {
+    "6": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "7": {
+      "type": "talk",
+      "dialogue": "アナタ、サンタじゃないでしょ？",
+      "background": "bg077_f",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "人を疑う子供は悪い子だよ。\\悪い子にはプレゼントあげなーい。",
+      "char": "c299_00",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "嘘つきなサンタもいるのに。\\悪者サンタのプレゼントなんて受け取らないよ。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "迷惑なガキだな。何の根拠があって俺が\\サンタじゃないって思ってるんだ？",
+      "char": "c299_00",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "こんな子供がサンタなわけないでしょ。",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "自分だって子供なくせに…",
+      "char": "c299_00",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "サンタのふりして子供たちを連れ去ろうって\\魂胆でしょ？",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "口うるさい子供なんか連れ去って\\どうしろと？",
+      "char": "c299_00",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "やっぱり！サンタじゃない。\\サンタは子供たちのことが好きなのに！",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そうだよ！\\俺はサンタじゃなくて悪魔だ！",
+      "char": "c299_01",
+      "speaker": "same",
+      "screen_effect": "gray",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "それに悪魔が好きなのは厄介者の魂さ。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "gray"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "まったく、彼らのせいでこんな事になるなんて。",
-      "background": "bg160_f",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "before_effect": "enter_from_left_slow"
+      "dialogue": "キャア！",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "19": {
       "type": "talk",
-      "dialogue": "でも、仕方ありません…\\この部隊は古参が多いのです。新米士官の私に指示されるのは、癪に障るのでしょう。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "あー、うるさいな！心配するな。人間の子供を生きたまま捕って食うような趣味はないから。",
+      "char": "c299_01",
+      "speaker": "same",
+      "screen_effect": "gray"
     },
     "20": {
       "type": "talk",
-      "dialogue": "いいえ、私の力が足りないだけですね…",
+      "dialogue": "ただこの契約書に\\ハンコを押してくれればいい。簡単だろ？",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "speaker": "same",
+      "screen_effect": "gray"
     },
     "21": {
       "type": "talk",
-      "dialogue": "今の私が彼らにしてあげられる事は、庇ってやることぐらいです。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "け、契約書…？なら…\\自分とサンタ、いや、悪魔と契約を？",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ん？あれは…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "それじゃ…何を交換するの？",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "23": {
+      "type": "talk",
+      "dialogue": "オマエ、キツネみたいに賢いんだな。\\賢い人間の子供は面倒だけど…",
+      "char": "c299_01",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "簡単さ。オマエは俺に魂の一部を与えて、俺はオマエに願いを叶える力を与えるんだ。\\オマエの願いは何だ？",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "さあ、言ってみろ。オマエの願い。",
+      "char": "keep",
+      "speaker": "same",
+      "screen_effect": "gray"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "願いは… ",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
+    },
+    "27": {
       "type": "curtain",
-      "background": "keep",
+      "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "24": {
-      "type": "talk",
-      "dialogue": "はっはっはっはっ！\\見ものだったな、あの小娘の顔！",
-      "char": "none",
-      "speaker": "SOLDIERA",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "そうだな。\\俺たちがワザと騒いでいたとは知らずにな！\\しかし、中隊長が出てきた時は焦ったぞ？",
-      "char": "none",
-      "speaker": "SOLDIERB",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "そうか？あの中隊長も小隊長には失望してるだろ？\\なんてったって、あの伝説の連隊長の娘が、アレじゃあなぁ。",
-      "char": "none",
-      "speaker": "SOLDIERC",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "どれだけすごいのかと思いきや、実力もないくせに、言う事は一人前。\\人の話を全く聞かない頑固者。\\ああいうヤツは部下を無駄死にさせるぞ？",
-      "char": "none",
-      "speaker": "SOLDIERA",
-      "pos": "right"
-    },
     "28": {
       "type": "talk",
-      "dialogue": "まったくだ。さっさと軍隊を辞めてくれたらいいのにな！",
-      "char": "none",
-      "speaker": "SOLDIERB"
+      "dialogue": "願いは…？",
+      "background": "bg046_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "29": {
       "type": "talk",
-      "dialogue": "違いない！ハハハハハッ！",
-      "char": "none",
-      "speaker": "SOLDIERC",
+      "dialogue": "それがさ、そこで記憶が途切れてるんだよ。\\仕方ないだろ。相当昔のことなんだから。",
+      "char": "c299_01",
+      "speaker": "same",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "………",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left"
-    }
-  },
-  "phase2": {
-    "1": {
+      "dialogue": "とにかく、そのキツネみたいな子供と契約して\\漏れた魂の破片を袋に入れたら",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "その袋がしゃべりだしたんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "2": {
+    "33": {
       "type": "talk",
-      "dialogue": "まさか、あの騒ぎが仕組まれたものだったなんて…",
-      "background": "bg133_f",
-      "char": "c014_00",
-      "speaker": "same_full",
+      "dialogue": "おなか…すい、た…\\さん…たくろーす、さま…お…なか…が…",
+      "background": "bg077_f",
+      "char": "m223_01",
+      "speaker": "same",
       "pos": "left",
-      "before_effect": "enter_from_left_slow"
+      "screen_effect": "gray"
     },
-    "3": {
+    "34": {
       "type": "talk",
-      "dialogue": "確かに私は実力が足りない。\\でも、私なりに最善を尽くし頑張っているのに！",
+      "dialogue": "魂の破片を一生懸命集めた甲斐があったな。\\子供の魂が役に立ったみたいだ。",
+      "char": "c299_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "おい、《ギフトパッケージ》\\何か食べたい物はあるか？",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
     },
-    "4": {
+    "36": {
       "type": "talk",
-      "dialogue": "…信頼されてないんですね。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "部下を無駄死にか…\\でも、そうなのかもしれない…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "理想を追うあまり、人の話に耳を傾けなかった…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "部下をちゃんと見ていなかった。\\それが部下に伝わってしまった。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "意見を聞かない上司に誰が付いていく？\\フフッ、この結果は当然ですね…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…私は、何で軍人になろうと思ったんだろう。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "父上…",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ガルルル…ワンワン！",
-      "char": "none",
-      "speaker": "none"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "何の騒ぎ？",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "このクソ犬！おとなしくしろ！",
-      "char": "none",
-      "speaker": "PUNKA"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ガルル…ワンワン！",
-      "char": "c017_00",
-      "speaker": "same_full",
-      "pos": "center",
+      "dialogue": "悪い子供たちの…魂！",
+      "char": "m223_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "gray",
       "one_ani": "attack"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "何やってる！さっさと捕まえろ。",
-      "char": "none",
-      "speaker": "PUNKB"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "任せろって…\\ギャ～！噛まれたぁ～！",
-      "char": "none",
-      "speaker": "PUNKA"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "す、すごい…\\人間3人を相手にあんな小さな犬が、果敢にも立ち向かっている…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "くそっ！これならどうだ？",
-      "char": "none",
-      "speaker": "PUNKC"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "キャンッ！",
-      "char": "c017_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "止めなさい！\\犬をイジメて何が楽しいのですか！？",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "なんだ？お前は…\\部外者は黙ってろ。それにこっちは仕事だ！",
-      "char": "none",
-      "speaker": "PUNKA"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そんな仕事はありません！",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "なんだぁ？痛い目見たいようだな？",
-      "char": "none",
-      "speaker": "PUNKB",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "へっへっへ…\\首を突っ込んだ事を後悔させてやるよ？",
-      "char": "none",
-      "speaker": "PUNKC"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "逃げ道は…\\クッ！囲まれたか…",
-      "char": "c014_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…やるしかありませんか！",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    }
-  },
-  "phase3": {
-    "1": {
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "longer",
+      "wait": "normal",
       "fade_in": "normal"
     },
-    "2": {
+    "38": {
       "type": "talk",
-      "dialogue": "はぁ～\\今日はお客さんが多くて、ホントつかれたな…\\近くでイベントでもあったのか？",
-      "background": "bg133_f",
-      "char": "c000_01",
+      "dialogue": "サンタさん！今日は狩りに行かないのですか？",
+      "background": "bg046_f",
+      "char": "m223_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "そういや、最近バイト三昧で全然遊んでない。\\何か楽しいことがしたいよ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "いっそのこと、モナたちを誘えば遊びに出られるか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "しかし、アイツらの趣味と俺の趣味は全く合わない…荷物持ちにさせられるのがオチか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ガルル…ワンワン！",
-      "char": "none",
-      "speaker": "none"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ん？あれは…コムギ？\\何してるんだ？\\それにチンピラっぽい男たちに女性？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "コムギとは、かつてプライドをかけて激闘を繰り広げたお犬様だ。\\かろうじて、勝利を収める事ができたが、危ない戦いだった…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "あれ？コムギが襲われてる…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "大丈夫だ。俺はコムギの事を信じている…\\こんなところでやられるヤツじゃない！\\なぜなら、アイツは俺のライバルだから！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "さっさと家に帰って、ゆっくり休むか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "きゃ～！",
-      "char": "c014_00",
-      "speaker": "same_full",
       "pos": "right",
-      "before_effect": "shake"
+      "before_effect": "enter_from_right_fast"
     },
-    "14": {
+    "39": {
       "type": "talk",
-      "dialogue": "ちょっ！？女の人も襲われてるのか？\\コムギは何やってんだよ？",
-      "char": "c000_01",
+      "dialogue": "また腹が減ったのか？前にも言ったけど\\オマエの主人はもう狩りができない体になって…",
+      "char": "c299_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
+      "pos": "right"
     },
-    "15": {
+    "40": {
       "type": "talk",
-      "dialogue": "あっ、危ない！\\さっさと逃げろよ！なんで逃げないんだ？",
-      "char": "keep",
+      "dialogue": "ぜ～んぶ間抜けな悪魔のせいだ！\\オマエのせいでサンタクロース様の袋がからっぽに\\なったじゃない！",
+      "char": "m223_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "right"
     },
-    "16": {
+    "41": {
       "type": "talk",
-      "dialogue": "ああ、もう！\\ほんとウンザリなんだよ！こんなイベント！",
+      "dialogue": "責任とって！",
       "char": "keep",
       "speaker": "same",
       "distance": "near",
-      "facial": "unfair"
+      "one_ani": "attack"
     },
-    "17": {
+    "42": {
+      "type": "talk",
+      "dialogue": "やめろっ鼓膜が破れる！\\わかったよ、営業しに行けばいいんだろ。\\はぁ～",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "before_effect": "shake"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "やった！魂狩りだ！",
+      "char": "m223_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,289 +2,375 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "最近、ティタニアは公園によく行くらしい。\\ちょっと様子を見に行こう。",
-      "background": "bg070_f",
-      "bgm": "13",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "うむ。\\君の部屋は、とても居心地がいいな。",
+      "background": "bg086_f",
+      "bgm": "19",
+      "char": "c132_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "青い空！新鮮な空気！たくさんの人間！\\ぜんぶあたしのためにあるみたい！気持ちいいー！",
-      "char": "c133_01",
-      "speaker": "same"
+      "dialogue": "本当にそう思ってるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ティタニア、ご機嫌だな。\\何がそんなに楽しいんだ？",
-      "char": "c000_01",
+      "dialogue": "もちろん。この狭さといい、\\ひしめき合って配置された家具といい、とても生活感があるよ。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うっ…誰？",
-      "char": "c133_01",
+      "dialogue": "この部屋が気に入ったなら、あげるけど。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "警戒しなくていいよ。俺だよ、俺。",
-      "char": "c000_01",
+      "dialogue": "そうかね？\\なるほど…だがその前に、手をちょっと…",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ああ、かの有名な「オレオレ詐欺」ですか？\\あたし、お金ありませんけど…",
-      "char": "c133_01",
+      "dialogue": "…はぁ。素直に「汚い部屋」って言えばいいだろ。\\難しいこと言わないでさ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "あれ？なんだ、俺のことわからないのか…",
-      "char": "c000_01",
+      "dialogue": "はは。まあ正直、私の好みではないな。\\しかし、居心地がいいというのは事実だよ。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ええ。あたしは、詐欺師の悪魔なんて知りません。\\弱っちい感じの悪魔なら知ってますけど。",
-      "char": "c133_01",
+      "dialogue": "何というか…\\君は、私と同じことを考えていそうだからね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "おい…わかっててやってるな？",
+      "dialogue": "同じこと？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ん？なんのことですか？",
-      "char": "c133_01",
+      "dialogue": "「カルペ・ディエム」…\\今を生きろという意味だよ。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ふざけてるのか、そうじゃないのか。\\ハッキリしてくれ！",
-      "char": "c000_01",
+      "dialogue": "明日を考えず、怠惰をむさぼる。\\その点が私と似ていると思ったんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ああ、それはもちろん…\\ふざけてるんです。",
-      "char": "c133_01",
+      "dialogue": "かなり遠回しだけど、\\すごいこと言ってくるな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "こら、真面目な顔して言うな！",
-      "char": "c000_01",
+      "dialogue": "まあ、私には「怠惰」よりは「余裕」という言葉が\\相応しいけどね。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふふ。この程度のイタズラは、\\仲良くなりたいっていう意思表示じゃないですか。",
-      "char": "c133_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "それはさておき、悪魔さん。\\何かご用事ですか？",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "いや、特に用事があるわけじゃないんだけど…\\お前がよく公園にいるって聞いて来てみたんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "…付きまとい事案？\\悪魔さんって、ストーカー？",
-      "char": "c133_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "人聞きの悪いことを言うな！\\心配してやってるんだろ？",
+      "dialogue": "言っとくけどさ…\\お前が思ってるほど俺は怠け者じゃないよ。\\お前みたいに、\\余裕ブッこいてる暇すらないんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "サキュバスたちは、\\1件でも多くの契約を結んで来いってうるさいし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ポストには後から後から請求書が届くし。\\部屋が散らかってるのは、俺が忙しいって証拠だよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "別に、怠けてるのは罪じゃない。\\恥ずかしがることはないんだよ？",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "私が思うに、君はまだ完全に人生を諦めていない\\ようだね。もっと果敢に、暮らしを捨てなくては。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "わかりました。公園によく来る理由ですよね？\\んー。多分、契約者の影響だと思います。",
-      "char": "c133_01",
+      "dialogue": "それって…\\すっごく誤解されやすい発言だと思わない？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ティタニアの契約者はこの公園で、\\大会に出るための瞬発力が欲しいと願った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そうかい？\\もしかすると明日、車にひかれるかもしれない。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "契約者が望んだ姿がこれです。バレーボールの妖精。だからって、まさか本当に妖精になるとはね。",
-      "char": "c133_01",
-      "speaker": "none",
+      "dialogue": "あるいは、大スターになるかもしれない。\\それは誰にも分からないことだ。",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "妖精というか、天使に近い見た目だけどな。",
+      "dialogue": "極端すぎる…\\もうちょっと、現実的な例えを挙げようよ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "まあ、それはどっちでもいいんですけどね。\\しかし、天使って…言ってて恥ずかしくないですか？",
-      "char": "c133_01",
+      "dialogue": "何をしたところで、時間は勝手に流れていくんだ。\\君はもう少し、心に余裕を持ったほうがいい。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "恥ずかしいって言われても、\\他にピッタリくるものがないしなぁ…",
+      "dialogue": "俺のサキュバスたちにも、そう伝えてもらえる？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "それだけあたしの美貌が素晴らしいって話ですよね。それなら仕方がありません。",
-      "char": "c133_01",
+      "dialogue": "ふむ、サキュバスたちか。\\そういえば、リザというサキュバスは\\非常にお堅いようだね。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そうそう。美貌が…って、そんな話はしてないし！\\都合よく解釈するな。",
+      "dialogue": "おお、その辺は気が合いそうだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "smile"
     },
     "27": {
       "type": "talk",
-      "dialogue": "お近づきになるためのコミュニケーションです。\\残念。あたしの美貌を褒めたたえていいのに。",
-      "char": "c133_01",
+      "dialogue": "まあ、私には関係ないことだがね。\\実際、君が一生懸命生きようと生きまいと\\私にはどうでもいいことだ。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "お前は会話が一方的すぎるよ。\\まったく…これコミュニケーションか？",
-      "char": "c000_01",
+      "dialogue": "たとえ君が魔王になったとしても、\\それもまた、私には関係ない。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "悪魔さんのコミュ力がないのです。\\じゃあ、何か軽く食べながら\\ちゃんとお話ししましょうか？",
-      "char": "c133_01",
+      "dialogue": "はぁ…そうかよ。お前と同じぐらい、\\リザも無関心でいてくれればいいんだけどな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "30": {
       "type": "talk",
-      "dialogue": "あ、そうだな。\\それはいいアイディアだ！",
-      "char": "c000_01",
+      "dialogue": "そのリザというサキュバスだけどね…\\今、君の後ろで、歯ぎしりしてるよ？\\私とは関係ないことだが。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "pos": "right",
+      "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "あ、あと、あそこで売ってる可愛い風船も、\\買ってきてください。",
-      "char": "c133_01",
+      "dialogue": "そう、それ。\\リザもそういう無関心な態度…え？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "after_effect": "shake",
+      "facial": "smile"
     },
     "32": {
       "type": "talk",
-      "dialogue": "え、風船？ああ、あれか。\\まあ、いいけど…",
-      "char": "c000_01",
+      "dialogue": "よくわかっているね。\\だから、リザというサキュバスが…",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "その次は、あそこのレストランで\\おすすめメニューを…",
-      "char": "c133_01",
+      "dialogue": "御主人様。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "facial": "irritation"
     },
     "34": {
       "type": "talk",
-      "dialogue": "お、おう…って、俺はパシリか！\\支払いも全部俺かよ！",
-      "char": "c000_01",
+      "dialogue": "…と呼んでも、私には関係ないことさ。",
+      "char": "c132_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "35": {
       "type": "talk",
-      "dialogue": "せっかくちゃんとコミュニケーションを\\取りたいなって、思ったのに！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "えー、誤解ですよ！じゃあ、仕方ないなぁ。\\まずは、甘いモノを食べながら仲良くなりましょう！",
-      "char": "c133_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "う、うーん…まあ、それならいいけど。\\なんか振り回されてないか？",
+      "dialogue": "ちょっと待った。これ、空耳じゃないよな？\\今、リザの声がすごくハッキリ聞こえたんだけど。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "私のお世話が気に障ったのでしたら、\\誠に申し訳ありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "げっ…本物じゃん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "38": {
       "type": "talk",
-      "dialogue": "そんなことないですって。\\さあ、行きましょう！",
-      "char": "c133_01",
+      "dialogue": "ところで、どうしましょう？\\こう見えて、私はとても執着する性格なんです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "39": {
+      "type": "talk",
+      "dialogue": "御主人様がそのようにおっしゃるなら…\\さらにやる気が出て参ります。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "いや、ちょっとそれは…\\あの、そのやる気は、\\今出さなくていいから。な？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "正確には「御主人様の怠惰」に対するやる気です。\\さあ、その性根を叩き直すとしましょうか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "one_ani": "attack"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "降参、降参です！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "ふふ…潔く敗北を認めるその姿…\\本当、気に入ったよ。",
+      "char": "c132_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

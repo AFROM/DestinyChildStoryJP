@@ -2,10 +2,17 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "武器を選んだ後、<color=“ff9900”>強化開始</color>をタップしてください。",
-      "char": "none",
+      "dialogue": "<color=fcc800><b>弱点攻撃スキル</b></color>は<b>味方が敵に有利な状況の時に表示されます。",
+      "background": "back_dim50",
+      "char": "c255_01",
       "speaker": "none",
       "one_ani": "attack"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "素早くタップするのがポイント♥ \\それじゃ、始めますよ～♥",
+      "char": "keep",
+      "speaker": "none"
     }
   }
 }

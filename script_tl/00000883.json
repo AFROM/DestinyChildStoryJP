@@ -2,49 +2,49 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハックション！",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "本当の本当に、君の言う通りになるバロン？",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "m195_01",
       "speaker": "same",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "悪魔が風邪をひくなんて…",
-      "char": "c001_01",
+      "dialogue": "もちろん！ダビの言う通りにすればいいよ。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "人間界の冬は寒すぎる…\\家も古くて隙間風が…",
-      "char": "c000_01",
+      "dialogue": "上手くいくバロンか?",
+      "char": "m195_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "フフ…とりあえず鼻水を拭いてください♥",
-      "char": "c001_01",
+      "dialogue": "もう！ダビの言う通りにやれば大丈夫だってば！\\ちっとも難しくないよ。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "幸いにも、悪魔は人間界のウイルスなんかに\\感染しません。",
+      "dialogue": "早く！ご主人が来る前にやらないと！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "だから、大げさに騒がないでさっさとお仕事に\\いきましょ♥",
-      "char": "keep",
+      "dialogue": "わ、分かったバロン！",
+      "char": "m195_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "7": {
       "type": "curtain",
@@ -55,189 +55,156 @@
     },
     "8": {
       "type": "talk",
-      "dialogue": "ブワックション！",
-      "background": "bg033_f",
-      "char": "c000_01",
+      "dialogue": "悪魔様にあげようと思って持ってきたバロン。",
+      "background": "bg086_f",
+      "char": "m195_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "鼻水…",
-      "char": "m217_01",
+      "dialogue": "クッキーか？ありがとな、バロン。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "悪いな、レッドノーズ…\\ハ、ハ、ハックション！体が言うことを聞かない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "やっぱり変なウイルスにかかったんじゃないか？\\こ、このまま…ハックション！死んだらどうしよ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "死…ぬ？死ぬ…な…",
-      "char": "m217_01",
+      "dialogue": "い、いっぱい食べてくれバロン。",
+      "char": "m195_01",
       "speaker": "same",
       "pos": "right"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "ところで…なんでそんなに震えてるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "バ、バロン？",
+      "char": "m195_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
     "13": {
       "type": "talk",
-      "dialogue": "俺を心配してくれてるのか？",
+      "dialogue": "口ごもったりして…それに、クッキーの上にある\\この不思議な粉は何だ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "死んだら…面倒だ…悪魔…の、死体…\\かたづ、け…大変…",
-      "char": "m217_01",
+      "dialogue": "そ、そ、それは！クッキーがもっと美味しくなる\\魔法の粉バロン。",
+      "char": "m195_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ちゃんと聞こえるようにゆっくりと言ってくれる\\なんて。\\本当に優しいのね～",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "どうせなら死ねって正直に言ってくれ。",
+      "dialogue": "魔法の粉ー？へぇ、そこまで考えてくれるなんて\\本当にありがたいなー！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "cry"
+      "facial": "pretense"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そうだ！こんなに美味しいもの、一人で食べるのは\\もったいない。\\さ、オマエも食べてみろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
     },
     "17": {
       "type": "talk",
-      "dialogue": "もし、死んだとしてもぜーったいに風邪なんかで\\死なないからな！",
-      "char": "keep",
+      "dialogue": "バ、バロンはさっきいっぱい食べたから！\\お腹いっぱいバロン！",
+      "char": "m195_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ハックション！",
-      "char": "keep",
+      "dialogue": "いいから一口だけ食べてみろって！\\俺一人で食べるのは申し訳なくてさ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "facial": "joy"
     },
     "19": {
       "type": "talk",
-      "dialogue": "悪魔…死なない…風邪…なんかで…",
-      "char": "m217_01",
+      "dialogue": "だ、だいじょう…",
+      "char": "m195_01",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それに…バカは…風邪ひか…ない…",
-      "char": "keep",
+      "dialogue": "さ、食べてみな！",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "distance": "near",
+      "facial": "angry"
     },
     "21": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "うっ！ペッ、ペッ！",
+      "char": "m195_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ここは…寒く、ない…暖かい…冬…",
-      "background": "bg047_f",
-      "char": "m217_01",
+      "dialogue": "やっぱりおかしいと思った…\\クッキーに何をした？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "故郷の…冬、寒い…雪…毎日…さむ、い…",
-      "char": "keep",
+      "dialogue": "ダビの武器、下剤をふりかけたバロン！",
+      "char": "m195_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "24": {
       "type": "talk",
-      "dialogue": "本当に雪原で生まれたみたいにしゃべるんだな！\\そうやってしゃべっても、俺は信じないからなー",
-      "char": "c225_01",
+      "dialogue": "何だって？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "25": {
       "type": "talk",
-      "dialogue": "俺の記憶にオマエみたいなソリ引きなんていない。\\ニコルのソリ引きは俺がぜーんぶ覚えてるんだぜー",
-      "char": "keep",
+      "dialogue": "バロンは魔王争奪戦が嫌バロン！\\戦いは嫌バロン！",
+      "char": "m195_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ワタシは…ソリ引きの…チャイルド…姿が…かわ、った…",
-      "char": "m217_01",
+      "dialogue": "バロンに戦えって言うなら、\\コショウだってふりかけるバロン！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near",
+      "after_effect": "go_to_right_point"
     },
     "27": {
       "type": "talk",
-      "dialogue": "姿は変わっても見間違えたりしなーい！\\一体どれだけ勘だけで生きてきたか分かるか？",
-      "char": "c225_01",
+      "dialogue": "心配するなって…\\わかってるからさ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "smile"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "スリの勘ってやつを甘くみるなよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "とにかく！何を企んでいるかは知らないけど\\最後まで見守らせてもらうぜ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "騙そうなんて思うな。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "31": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ワタシの名前は…レッドノーズ…\\赤い鼻の…ソリ引き…",
-      "background": "bg197_f",
-      "char": "m217_01",
-      "speaker": "same"
-    },
-    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -1,355 +1,232 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "…はぁ。せっかくあの人に会えたのに、\\また助けてもらうなんて…",
-      "background": "bg068_f",
-      "bgm": "17",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "center"
+      "type": "curtain",
+      "background": "bg217_f",
+      "bgm": "6",
+      "fade_in": "normal",
+      "hold": "shorter"
     },
     "2": {
       "type": "talk",
-      "dialogue": "怪我、大丈夫かな？\\バイトの時間までまだちょっとあるし、\\神社によっていこうかな！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "3": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "…あ、メイ！また会えた！",
-      "background": "bg230_f",
-      "char": "c195_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "クレアもお参りに来たの？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ノー！ここ、ヒト、いない！\\テロン、遊べる！",
-      "char": "c195_00",
+      "dialogue": "うう…はあ…はあ…\\安…らぎ…安…らぎ…を…",
+      "char": "c049_01",
       "speaker": "same",
       "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "人があんまり来ないから、\\ここでテロンと遊んでたんだ。",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "イエス！メイ、ウコン！イッショ、遊ぶ！",
-      "char": "c195_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ふふ、いいよ。まだ時間があるし…\\でも、その前に、一緒にお参りしよう？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "イッショ？オマイリ？",
-      "char": "c195_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "そうそう！心から願えば、願いはいつか叶うんだよ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "イエス！クレア、テロン、ずっとイッショ！メイも！",
-      "char": "c195_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ふふふっ、じゃ～一緒にお願いしようね。",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "どうか、私に誰かを守れる力をください…母さん。",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "dark",
-      "mvd": "none"
-    },
-    "15": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    }
-  },
-  "phase2": {
-    "1": {
-      "type": "curtain",
-      "background": "back",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "…ふぅ。つ、疲れたぁ。",
-      "background": "bg230_f",
-      "char": "c167_00",
-      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ウキーッ！",
-      "char": "c167_00",
-      "speaker": "monkey",
-      "distance": "toonear"
+      "dialogue": "ダメ、マアト！\\負けないで！諦めないでっ！",
+      "char": "c056_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "きゃっ！ウコン、こっち！テロン、待って！",
-      "char": "c195_00",
-      "speaker": "same_full"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "みんな、楽しそうだな…そういえば、あたしも昔、\\母さんとああやって遊んだような…",
-      "char": "c167_00",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ぼんやりとしか覚えてないけど、\\転びそうになったところを母さんが助けてくれて…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "そろそろ父さんが帰ってくるからって、\\手を繋いで家に帰ったんだよね。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "それから…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "…メイ。",
-      "char": "c167_01",
-      "speaker": "same"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "母、さん？",
-      "char": "c167_00",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c167_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あ、ごめんなさい…\\あたしってば、ぼーっとしてたみたい。",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "構いませんよ。\\それより、クレアはどうしたんです？",
-      "char": "c167_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "え？クレアなら…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "きゃあーっ！！",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "この悲鳴は…",
-      "char": "c167_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "クレアのだ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "go_to_left_point"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "メイ！待って！！\\ひとりで行っては…",
-      "char": "c167_01",
+      "dialogue": "悪…魔…！",
+      "char": "c049_01",
       "speaker": "same",
       "pos": "right",
       "one_ani": "attack"
     },
-    "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    }
-  },
-  "phase3": {
-    "1": {
-      "type": "curtain",
-      "background": "back",
-      "bgm": "1",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "ヤメテ！テロン、離して！",
-      "background": "bg067_f",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "てめぇが離せ！この前は邪魔が入ったが、\\今度こそこいつは俺達のもんだ！",
-      "char": "none",
-      "speaker": "DemonA"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "あれは、この前の！やめなさい！！",
-      "char": "c167_00",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
     "5": {
       "type": "talk",
-      "dialogue": "ウキーッ！",
-      "char": "c167_00",
-      "speaker": "monkey",
-      "distance": "toonear"
+      "dialogue": "くうっ！",
+      "char": "c056_01",
+      "speaker": "same",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いててっ！離れろ、この猿！",
+      "dialogue": "マアトはジャンヌの首を両手で掴んだ。\\ジャンヌの顔が一瞬のうちに白く染まった。",
       "char": "none",
-      "speaker": "DemonB",
-      "screen_effect": "dialog_shake"
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "クレア、今のうちに逃げよう！\\ウコンも行くよ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "before_effect": "go_to_left_point"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "待て！逃がさねぇぞ！",
-      "char": "none",
-      "speaker": "DemonC"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "メイ！あいつら、きた！\\捕まる！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "before_effect": "enter_from_right_fast"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "うう、どうしたら…",
-      "char": "c167_00",
+      "dialogue": "死…んで…悪魔…！！",
+      "char": "c049_01",
       "speaker": "same",
       "distance": "near"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "まったく、手を焼かせますね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "くああ！",
+      "char": "c049_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_jump",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ジャンヌ！大丈夫か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "…だから、\\ひとりで行ってはいけないと言ったでしょう？",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "ううく……",
+      "char": "c056_01",
+      "speaker": "same"
     },
     "12": {
       "type": "talk",
-      "dialogue": "えっ？",
-      "char": "c167_00",
+      "dialogue": "これは、深刻なダメージです。",
+      "char": "c002_01",
       "speaker": "same"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ぐっわっ！て、てめぇ！この前の！",
-      "char": "none",
-      "speaker": "DemonA",
-      "screen_effect": "dialog_shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "dialogue": "マアトが完全に理性を失ってしまいましたね。\\こんな状態では……",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "メイを傷つける事は、許しませんよ？",
-      "char": "c167_01",
+      "dialogue": "ああ…！苦しい…くう…くっ！\\<b>くあああああ！！！</b>",
+      "char": "c049_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "loop_ani": "attack"
     },
     "15": {
+      "type": "talk",
+      "dialogue": "マアトの体が変！",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "黒く変わってる…！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c049_10",
+      "speaker": "same_full",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "不浄なる者どもよ。ひれ伏せ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "one_ani": "attack"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うわっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "神の名の下、お前達に裁きを！",
+      "char": "c049_10",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "マアト、やめろ！\\しっかりしろって！俺はお前の主人だぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "私の主は天上におわす、ただ一人のみ…",
+      "char": "c049_10",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "うわっ！やめろって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "これはマズいですね…\\最大火力で早々に決着を付けましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "おい！それだとマアトが危ないだろ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "手加減できる状態ではありません。\\あのマアトが求めているのは、ここにいる全ての敵を抹殺することです。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "マアトの説得は諦めましょう。\\マアトに浄化されたら困りますからね～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "クソ…最悪の状況だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "before_effect": "shake"
+    },
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

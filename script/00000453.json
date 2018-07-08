@@ -2,115 +2,103 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "なんか近頃変なんだよな。\\背筋がゾッとするっていうか…",
-      "background": "bg095_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "リザ、聞きたいことがあるんだけど…",
+      "background": "dungeon_bg",
+      "bgm": "4",
+      "char": "c126_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "背中から誰かの視線を感じる…\\でも後ろを振り向いても、誰もいないんだよな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どうかしましたか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "うう…まただ。何だよ、これ？\\もしかして、暗殺者に狙われてるのか…？",
-      "char": "c000_01",
+      "dialogue": "ご主人様に、誰かいい人を紹介する気はない？",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "紹介？なぜですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ぷふっ…！\\し、失礼、つい噴き出してしまいました。",
-      "background": "bg086_f",
-      "char": "c002_01",
+      "dialogue": "なぜって言われても。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "おい、こっちは真剣なんだぞ！",
-      "char": "c000_01",
+      "dialogue": "私には理解できません。\\どうして御主人様にいい人を\\紹介する必要があるのですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "だって、おかしいじゃないですか。\\よりによって、暗殺者だなんて…",
-      "char": "c002_01",
+      "dialogue": "ご主人様ってどこか寂しそうじゃない？\\仲のいい他の悪魔もいないみたいだし…",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "な、何がおかしいんだよ！\\俺だって一応、魔王争奪戦に参加してるんだし…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "だから、俺を排除したいと思うヤツがいても\\おかしくない…と思うぞ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "はあ、ようやくご自分の立場を自覚なされたのは\\喜ぶべきでしょうか。",
+      "dialogue": "貴女が心配することではありません。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "haah"
+      "distance": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "リザって恋愛経験ないでしょ？",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "すみませんが、恋愛に興味はありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "それとも、自意識過剰と言うべきでしょうか…",
-      "char": "keep",
+      "dialogue": "それじゃダメよ、リザ。\\世の中ひとりじゃ生きていけないもの。\\そんなこと言ってないで、周りをよく見てみて。",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "おい待て！\\自意識過剰って、どういう意味だよ！",
-      "char": "c000_01",
+      "dialogue": "リザの寂しい気持ちを慰めてくれる男性が\\きっといるはずよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "御主人様。客観的に申し上げますと、\\御主人様は誰かが策を巡らして倒すほどの存在感の\\あるお方ではありません。",
+      "dialogue": "寂しくなどありません。\\そんなことを言うために私を呼んだのですか？",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
@@ -118,97 +106,179 @@
     },
     "14": {
       "type": "talk",
-      "dialogue": "ですから、無駄な心配はせず、契約に向けて、\\地道に励んでください。",
-      "char": "keep",
+      "dialogue": "そんなことだなんて。\\愛より大切なものがどこにあるっていうの？リザ。\\口ではそう言っても、本当は寂しいんでしょ？",
+      "char": "c126_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ぐっ…それが事実なのは自分でもよーく分かってるが真っ向から突きつけられると、さすがにプライドが\\傷つくな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "恥ずかしがらないで。\\ゴキブリにだって相手がいるんだから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "でも、つけられてるのは本当だって！\\ちょっとは信じてくれ！\\最近、ずっと視線を感じるんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "それに、背筋がヒヤリとする時もあるし。\\時々、妙な音まで聞こえてくるしさ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "とにかく、なんか変なんだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "御主人様は少しお疲れなのかもしれませんね。\\元気の出る薬でも用意しましょうか？",
+      "dialogue": "ゴキブリ…！？\\今の私はゴキブリ同然とでも！？",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
-      "one_ani": "attack"
+      "facial": "shy"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "貴女…相手を不快にさせる\\才能があるみたいですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "shy"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "とにかく…\\これ以上変なことは言わないでください。\\御主人様にいい人を紹介するようなことは\\絶対にありません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "まったく、恋愛だなんて…\\魔王争奪戦で勝ち抜くためにも\\1分1秒たりとも無駄にできないというのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "20": {
       "type": "talk",
-      "dialogue": "はあ、もういいよ。\\こんなこと相談した俺がバカだったな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "リザの言う通り、俺を狙う奴がいるわけないもんな。ちょっと疲れてるのかも…\\ゆっくり休んだ方がいいかもしれない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "22": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "へぇ…思ってたより鈍くないのね。\\まさか、あたしの気配に気づくなんてね。",
-      "char": "c127_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "これからは少し、気を付けよっと。",
-      "char": "keep",
+      "dialogue": "リザ…アナタ、まさか…",
+      "char": "c126_01",
       "speaker": "same",
       "pos": "left",
       "distance": "near"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "何ですか？その顔は。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "へー、そうだったんだ。\\それならそうと、早く言ってくれればいいのに。",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そんなこととも知らず…ごめんなさいね、リザ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "何が言いたいのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
+    },
     "25": {
+      "type": "talk",
+      "dialogue": "ご主人様にいい人紹介したくないんでしょ？",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "先ほど言ったではありませんか。\\御主人様に恋愛ごっこを\\している暇などありません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "恥ずかしがらないで、正直に話してみて。\\本当は…ご主人様のこと好きなんでしょ？",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "誰が誰のことを好きですって？御主人様を？\\まったく！どうして私があんな子供を\\好きにならなくてはいけないのですか！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ハイハイ。大丈夫、内緒にしてあげるから。\\リザって思ったよりピュアな女性なのね。",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "心配しないで。ご主人様もリザの気持ちを\\分かってくれるわ。私が応援してあげる！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ちょっと！サルマキス！誤解です！\\絶対にそんなことありませんから！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "angry",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "それより…告白はいつするつもり？",
+      "char": "c126_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "サルマキス！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "angry",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "one_ani": "attack"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

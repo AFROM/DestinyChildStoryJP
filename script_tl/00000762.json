@@ -2,277 +2,249 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "おお、モナよ、どこへ行ったのだ。",
-      "background": "bg086_f",
-      "bgm": "20",
-      "char": "c180_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "dialogue": "太陽の娘と呼ばれても結局は人間。\\やはり《没落の女王》に変わりない。",
+      "background": "dungeon_bg",
+      "bgm": "19",
+      "char": "c266_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "screen_effect": "gray"
     },
     "2": {
       "type": "talk",
-      "dialogue": "モナに会えぬ我は…我の目は…\\盲目になってしまう！",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "ニャン！\\…！",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "gray"
     },
     "3": {
       "type": "talk",
-      "dialogue": "モナはこの俺様の太陽そのもの！",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "お前も主人の後を追う気か？",
+      "char": "c266_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "screen_effect": "gray"
     },
     "4": {
       "type": "talk",
-      "dialogue": "レウケのおかげでしばらく大人しくなったと\\思ったのにまたこの有様か…",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "いいだろう。\\それなら、お前もチャイルドにしてやろう。\\お前の主人と共に、俺のチャイルドとなれ。",
+      "char": "keep",
+      "speaker": "unknown1",
       "pos": "left",
-      "facial": "sigh"
+      "screen_effect": "gray"
     },
     "5": {
       "type": "talk",
-      "dialogue": "わ、私なりに一生懸命働きましたわ。\\それなのに…モナがいいというなら仕方ありません。",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ニャン！ニャー…！",
+      "char": "none",
+      "speaker": "unknown1",
+      "pos": "center",
+      "screen_effect": "gray"
     },
     "6": {
       "type": "talk",
-      "dialogue": "困ったもんだ。マンモンもマンモンだけど\\レウケまで職を失うなんて。",
-      "char": "c000_01",
-      "speaker": "same",
+      "dialogue": "何を言ってるかさっぱりだな。\\猫の言葉なんて分かるわけないが。",
+      "char": "c266_01",
+      "speaker": "unknown1",
       "pos": "left",
-      "facial": "pretense"
+      "screen_effect": "gray"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "うっ…",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そこまで考えてなかっただろ？",
-      "char": "c000_01",
+      "dialogue": "ニャハハハ～♪\\ご主人様は魔王になったらどうするの？",
+      "background": "bg082_f",
+      "bgm": "14",
+      "char": "c274_01",
       "speaker": "same",
       "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "彼が嫌で無意識に…",
-      "char": "c277_01",
+      "dialogue": "最近はくだらないことも聞くのだな。気になるか？",
+      "char": "c267_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "やっぱりな！オマエ、マンモンに何かしたのか？\\オマエが嫌いになるくらいのことを？",
-      "char": "c000_01",
+      "dialogue": "ご主人様が眠っている間バストも長～い夢を見たの。",
+      "char": "c274_01",
       "speaker": "same",
       "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "いえ、その…",
-      "char": "c277_01",
+      "dialogue": "太陽が昇って、月が沈んで、また太陽が昇って月が沈む…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "その間にずっとず～っと考えてた！ご主人様が目覚めたら、昔みたいに《おいでおいで》してほしいって！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ぺっ！ぺっ！こんな安物の酒を買ってくるとは…！\\この偉大なる王、マンモンに何たる侮辱！！\\今すぐ最高級のワインを出せ！！",
-      "background": "bg089_f",
-      "bgm": "19",
-      "char": "c180_01",
+      "dialogue": "おいでおいで？ああ、散歩のことか。",
+      "char": "c267_01",
       "speaker": "same",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "口だけは達者なのね…",
-      "char": "c277_01",
+      "dialogue": "ご主人様が《おいでおいで》したら、遠くまでお出かけできる！そうでしょ？",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "left",
-      "screen_effect": "gray"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "な、何だと？口だけは達者だと？\\このマンモン様に向かってなんと無礼な！",
-      "char": "c180_01",
+      "dialogue": "ああ。賢いな、そなたは。",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "聞き間違いですわ、マンモン様。",
-      "char": "c277_01",
+      "dialogue": "魔王になったら、たくさんおいでおいでしてくれる？",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "left",
-      "screen_effect": "gray"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "言い訳は聞かん！\\我を誰と心得る！？",
-      "char": "c180_01",
+      "dialogue": "それは魔王になれたらな。\\だが、前から言うように…",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "gray",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "もう二度と無駄口の言えぬようにしてやる！",
-      "char": "keep",
+      "dialogue": "分かってるよ！\\魔王争奪戦が終わるまでバストが先に死ぬかもしれないってことでしょ？",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "right",
-      "screen_effect": "gray"
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "やれるものならやってみなさい。\\時給しかくれないくせに、\\高級ワインですって？",
-      "char": "c277_01",
+      "dialogue": "生きるべきか～死ぬべきか～\\そんなのバストとは関係ないよ～！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "screen_effect": "gray"
+      "one_ani": "attack"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ちゃんと報酬を支払ってから大口を叩きなさい！\\貴方にお酒を飲ませるのに、\\私の財布は空っぽですわ！",
+      "dialogue": "バストはご主人様と一緒に《おいでおいで》するの！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "screen_effect": "gray"
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "金持ちだとか金貨しかないとか、\\口ばかりではないですか！\\このエセ君主！お山の大将！比類なき暗君！",
-      "char": "keep",
+      "dialogue": "そうか…そなたは単純でいいな。",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "left",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "え…エセ君主だと！？\\これ以上我慢できん！レウケ、貴様はクビだ！",
-      "char": "c180_01",
+      "dialogue": "私は複雑だ…\\沈む太陽…没落の女王と呼ばれていたがそれでも以前はファラオだった。\\だが、ここではただの王。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "23": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ぼ、没落の…誰がそんなひっどいこと言ったの！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "やってくれたな…",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "私が叱ってあげる！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "near",
+      "one_ani": "attack"
     },
     "25": {
       "type": "talk",
-      "dialogue": "そんな目で見ないでください。貴方ならあんな\\メタボ野郎の相手できますか？",
-      "char": "c277_01",
+      "dialogue": "誰であったろうか…もう覚えておらぬ…",
+      "char": "c267_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "間違ってはいません。\\苦労に比べて給料が低いのは事実ですから。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "いつ、誰にそう言われたのか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "レウケ。\\今日から時給を上げましょう。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "それなら話は変わってきます。",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "マンモン様♥モナを探すのはそれくらいにして\\私と遊びましょう？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "一言であそこまで変われるのか？",
-      "char": "c000_01",
+      "dialogue": "夢かもしれないよ？私もずっと夢を見てたから！",
+      "char": "c274_01",
       "speaker": "same",
       "pos": "left"
     },
+    "28": {
+      "type": "talk",
+      "dialogue": "夢を見たらしゃべれるようになったの！\\夢を見たらご主人様にも会えた♪",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ご主人様も夢を見るといいかも！\\そしたらバストみたいに夢が叶うかも！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "それなら、すぐに魔王になれるな。",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "31": {
       "type": "talk",
-      "dialogue": "ふん！貴様のような生意気な女などいらん！",
-      "char": "c180_01",
+      "dialogue": "私は2千年間、同じ夢を見ていた。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "私が間違ってましたわ。\\お詫びの意味も込めて\\無料サービスを…",
-      "char": "c277_01",
-      "speaker": "same"
+      "dialogue": "そうなの！？\\それなら、もうすぐ《おいでおいで》できるね！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
     },
     "33": {
       "type": "talk",
-      "dialogue": "む、無料サービス…？\\そ、それはど、どんなサービスだ…",
-      "char": "c180_01",
+      "dialogue": "ああ！",
+      "char": "c267_01",
       "speaker": "same",
       "pos": "right"
     },
     "34": {
-      "type": "talk",
-      "dialogue": "今教えてしまったらつまらないですわ。\\今はお試し程度なら…",
-      "char": "c277_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "<b>おおお！！</b>",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "恐ろしい…やっぱり世の中、金なのか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

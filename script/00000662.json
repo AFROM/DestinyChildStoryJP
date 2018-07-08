@@ -2,325 +2,306 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "もう大丈夫。今すぐ私が助けます！\\…テロン、お願い！",
-      "background": "bg075_f",
-      "bgm": "9",
-      "char": "c195_01",
-      "speaker": "same"
+      "dialogue": "ノーデンス！",
+      "background": "bg016_f",
+      "bgm": "19",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お願い、じゃないし！",
-      "char": "c000_01",
+      "dialogue": "な、何であんたがここにいるの！？",
+      "char": "c140_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "angry",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "きゃっ！",
-      "char": "c195_01",
+      "dialogue": "フフッ。あなたこそ、どうしてここにいるの？",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "びっくりいたしました…\\もう、ご主人様ったら…",
-      "char": "keep",
+      "dialogue": "えっと…さ、散歩！散歩してただけよ。",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺の方がビックリだよ。\\キュベレー、これはどういうことだ？\\説明してくれるよな？",
-      "char": "c000_01",
+      "dialogue": "散歩ね～\\普通、学校で散歩なんてする？変じゃない？",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "見ればおわかりでしょ？\\檻に入れられた可哀想な子たちを助けようと…",
-      "char": "c195_01",
+      "dialogue": "あたしの勝手でしょ。\\あんたこそ、こんなところで何してるわけ？",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ふう…チャイルドは、\\普通の人間には見えないから、\\目撃されてないとはいえ…",
-      "char": "c000_01",
+      "dialogue": "何してると思う？",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "手を離してください。\\今ここで助けないと…！",
-      "char": "c195_01",
+      "dialogue": "何って？…まさか、あたしの後をつけて来たんじゃないでしょうね？",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ダメだ！\\離したらこの世の動物園を、全て壊しそうだし…",
-      "char": "c000_01",
+      "dialogue": "あらやだ…\\ノーデンスったら、ちょっと自意識過剰じゃない？",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ほら、もう無茶なことはやめて、\\一緒に帰ろう。",
-      "char": "keep",
+      "dialogue": "う、うるさいっ。",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "見捨てろとおっしゃるのですか？\\無理矢理こんなところに連れて来られて、\\見世物にもされて…",
-      "char": "c195_01",
+      "dialogue": "それで、あなたはどこに行くつもり？\\そろそろ追いかけるのも飽きてきたんだけど。",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "本来この子たちは広い草原を走り回ったり、\\青い空を飛ぶべき子たちなんです！",
-      "char": "keep",
+      "dialogue": "やっぱりつけて来たんじゃない？！\\あたしのことからかって、そんなに楽しい？",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それなのに、\\こんな狭い場所にずっと閉じ込められて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "こんな姿は不自然です。\\私、我慢できません！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "loop_ani": "attack"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…キュベレー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "…そこまで言うのでしたら、\\私の代わりに、あの子たちを、\\救ってあげてください。",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "え？\\俺にはそんなこと出来ないよ…",
-      "char": "c000_01",
+      "dialogue": "もちろん。\\こんなに楽しいこと、やめられないわ。",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "あたしのこと、なめてるの？",
+      "char": "c140_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "どうかしら…\\ねえ、それより当ててみましょうか？\\あなたが何しに来たのか。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "何いってるの？…も、もう帰るわ。",
+      "char": "c140_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "契約者に会いに来たんでしょう？",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "できます。\\私に、自由をくれた時の様に\\してくださればいいのです。",
-      "char": "c195_01",
+      "dialogue": "……",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "俺がお前に自由を？",
-      "char": "c000_01",
+      "dialogue": "フフッ…少し違ったかしら？\\最近よくここに来てるみたいだけど、一度も契約者と会ってないわよね。",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そうです。\\すべての生物が集う楽園を夢見る心…\\それを私と、…そしてテロンに、\\与えてくれたのは貴方。",
-      "char": "c195_01",
+      "dialogue": "一体、どうしてかしら。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "left",
       "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あなたのおかげで、私とテロンは狭い檻から出て\\自由を夢見ることができたのよ。",
+      "dialogue": "…まあ、顔を合わせたくないのも、わからなくもないわ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "left",
       "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お願いします。あの子たちと契約を結んで。\\願いを叶えられるように、力を貸してください。",
+      "dialogue": "あなたの契約者は、友達を見捨てたんだから。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "left",
       "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "バカなこと言うなよ！",
-      "char": "c000_01",
+      "dialogue": "濡れ衣だって知っていたのに、何も言わなかった。\\他のみんなに嫌われたくないから…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "angry"
+      "distance": "near"
     },
     "24": {
       "type": "talk",
-      "dialogue": "…ご主人様？",
-      "char": "c195_01",
+      "dialogue": "そ、それは…\\元はと言えば、あんたの契約者のせいじゃない！",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
     },
     "25": {
       "type": "talk",
-      "dialogue": "俺がどんな力を与えたって言うんだ？\\お前が夢見る楽園なんて、俺は知らない。",
-      "char": "c000_01",
+      "dialogue": "ふふ、そう。濡れ衣を着せたのは私の契約者。でも、だから何？だましたり、だまされたり…それが人というものよ。",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "自由とか楽園とか…\\そういうのは、お前たちが自分で願ったことだ。",
+      "dialogue": "そんなことも分からないの、ノーデンス！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "27": {
       "type": "talk",
-      "dialogue": "でも、貴方と契約を結んだから…",
-      "char": "c195_01",
+      "dialogue": "あたしは…\\あたしは、そんなの絶対認めない！",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "俺は悪魔だぞ？\\夢とか希望とか知るか。\\…チャイルドの力だけ得られればいいんだ。",
-      "char": "c000_01",
+      "dialogue": "じゃあ、なぜ契約者と会わないの？\\自分の契約者がしたことが許せないからでしょ…？",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そんな、心にもないことを…",
-      "char": "c195_01",
+      "dialogue": "違う！許したいから、見守ってるの！",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "どういう意味だよ。\\お前に俺の心なんて、わかるわけないだろ？",
-      "char": "c000_01",
+      "dialogue": "一生懸命変わろうとしてる、あたしの契約者を…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "わかります。\\私の契約者が貴方に心を開かなかったら、\\私はこの場にいなかったのでしょう？",
-      "char": "c195_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "それは…",
-      "char": "c000_01",
+      "dialogue": "はぁ…まどろっこしいわね～",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "32": {
+      "type": "talk",
+      "dialogue": "あんたに何が分かるのよ！\\自分のことしか考えてないくせに…",
+      "char": "c140_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
     "33": {
       "type": "talk",
-      "dialogue": "チャイルドは人間の心から、\\生まれた存在。",
-      "char": "c195_01",
+      "dialogue": "それのどこが悪いの？\\つまんない…もう帰るわ。",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "after_effect": "go_to_left_point"
     },
     "34": {
       "type": "talk",
-      "dialogue": "だから、差し伸べられた手がどういったものか、\\とてもよくわかってしまうのです。",
-      "char": "keep",
+      "dialogue": "何なのよ、あいつ…",
+      "char": "c140_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "貴方が先に手を差し伸べなかったら、\\その心を受け止めてくれなかったら",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "私たちは生まれてこれなかった。",
-      "char": "keep",
+      "dialogue": "はぁ、困ったわ。新しいおもちゃを探すのは面倒くさいし…",
+      "background": "dungeon_bg",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "center",
       "distance": "normal"
     },
     "37": {
       "type": "talk",
-      "dialogue": "…な、何が言いたいのかさっぱりわからん。\\ほら、もう帰るぞ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "檻の中の子たちの夢も、お前の願いが叶った時に、\\誰かが叶えてくれるだろうよ。",
+      "dialogue": "仕方ないわね。もう少しノーデンスを可愛がってあげましょう。\\…壊れたら、直せばいいしね？",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "…ふふふ、やっぱり貴方は優しい人。\\…貴方のチャイルドになれて、よかったです。",
-      "char": "c195_01",
-      "speaker": "same",
       "pos": "center",
-      "distance": "near"
+      "distance": "normal"
     },
-    "40": {
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

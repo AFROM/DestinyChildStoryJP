@@ -2,250 +2,218 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "最近変な噂を聞くんだ。\\で、その噂に出てくる張本人に直接確認したいんだけど…",
+      "dialogue": "ご主人さま～？\\なんだか近頃、元気がなさそうですね？",
       "background": "bg086_f",
       "bgm": "9",
-      "char": "c000_01",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "idle"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうぞどうぞ、いくらでも。\\ご主人様になら、包み隠さず全てお話しします。",
-      "char": "m077_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "あのさ…もちろん根拠のない噂だとは思うけど\\はっきりさせた方がいいと思って。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "お前が万引きしてるのを見たって言う\\情報があったんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "そ、そんな…やってません！濡れ衣です！\\本当に…誓ってそんなことは！",
-      "char": "m077_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "うん、やっぱりそうだよな？\\見間違えたんだ、きっと。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ああ…信じてくれてありがとうございます、\\ご主人様。",
-      "char": "m077_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "いいよいいよ、こんなに素直でイイ奴が万引きなんてするはずない。変なこと聞いてごめんな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "9": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "うーん、お腹が空いて眠れないな。\\夜食べるのは体に悪いってリザに怒られそうだけど…",
-      "background": "bg089_f",
-      "bgm": "20",
+      "dialogue": "今頃気づいたか？\\昼はバイト、夜はチャイルド狩り…\\昼夜問わず働きづめだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "11": {
+    "3": {
       "type": "talk",
-      "dialogue": "内緒で食べちゃえ～",
+      "dialogue": "主人はこんな真面目に働いてるのに\\サキュバスってヤツは毎日文句ばかりだな。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
+      "facial": "sigh"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あら、傷つきます。\\モナはご主人さまの苦労は全て理解しているのに♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "からかってるだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "うふふ、まさか♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ご主人さま、雪のように白かったお肌が\\すっかり焼けましたから♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
       "facial": "pretense"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "サキュバスたちが集まれば\\みんなで心配してるんですよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "だ、か、ら♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "だから？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ご主人さまにちょっとしたプレゼントを準備したの♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "パクパク、モグモグ…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "プ、プレゼント？何もそこまで…\\でもどれ…一度見てみようかな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "13": {
       "type": "talk",
-      "dialogue": "な、何の音だ？まさか…",
-      "char": "c000_01",
+      "dialogue": "どうなさいました？どこか痛いところはありますか？お腹ですか？頭ですか？",
+      "char": "m063_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ダビ！またお前か！？",
-      "char": "keep",
+      "dialogue": "え？なんだ、こいつがプレゼントか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…ゴクン。",
-      "char": "m077_01",
+      "dialogue": "きっと気に入りますよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "えっ？",
-      "char": "c000_01",
+      "dialogue": "アンプル、ご主人さまの顔色が良くないみたい\\元気が出るように治療してくれるかしら？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ムシャムシャ…なんだ、お前は？",
-      "char": "m077_01",
+      "dialogue": "もちろんです。",
+      "char": "m063_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "も、モア？い、一体何を…",
-      "char": "c000_01",
+      "dialogue": "では、ベッドに横になってください。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "飯食ってんだから邪魔すんな！",
-      "char": "m077_01",
+      "dialogue": "ま、待て…！\\あ、アイツの頭についてるあの危険物！\\メチャクチャ光ってるじゃないか！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "20": {
       "type": "talk",
-      "dialogue": "モア…急にどうしたんだよ？",
-      "char": "c000_01",
+      "dialogue": "そ、それを俺のお尻に突き刺すわけじゃ…\\ないよな？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
     "21": {
       "type": "talk",
-      "dialogue": "うるさい！つーか、誰だよお前！",
-      "char": "m077_01",
+      "dialogue": "あら、勘のいいご主人さま♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お前の主人だよ。俺の顔も忘れたのか？\\まさか…あの噂は…",
+      "dialogue": "おっと！急に元気が出てきた！\\すごいな、アンプル！効果バツグンだ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "joy"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あ？噂？知るかそんなもん！\\誰が流したか知らねえが、チクったらタダじゃおかねえぞ！",
-      "char": "m077_01",
+      "dialogue": "まだ何も…",
+      "char": "m063_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "こ、これが…あの素直でイイ奴なのか…？",
+      "dialogue": "ハハ！\\力が湧いてくるのにじっとはしていられない！\\さあ、チャイルド集めに行こう、モナ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "facial": "joy"
     },
     "25": {
       "type": "talk",
-      "dialogue": "なんだ。お前、\\「イイ子ぶってるモア」に会ったのか？",
-      "char": "m077_01",
+      "dialogue": "ハハハハ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "joy",
+      "after_effect": "go_to_left_fast"
     },
     "26": {
       "type": "talk",
-      "dialogue": "じゃあ、お前はモアじゃないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "バーカ。俺は「怒りモードのモア」だよ！\\今は俺がこの体の主なんだ！",
-      "char": "m077_01",
+      "dialogue": "本当にありがとう、アンプル♥\\おかげでご主人さま、元気になったみたい。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "27": {
+      "type": "talk",
+      "dialogue": "まだ何もしていないのですが…",
+      "char": "m063_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "28": {
       "type": "talk",
-      "dialogue": "…に、二重人格？",
-      "char": "c000_01",
+      "dialogue": "本当に効果的。これからも時々よろしくね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "他の奴らは全部ニセモノだ！\\俺がホンモノだっつーの！",
-      "char": "m077_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ガツガツ…つーか、この家の冷蔵庫、何もないな？\\もっと美味いモンたくさん買っとけよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "他の奴ら、って…他にどんだけいるんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
-    },
-    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

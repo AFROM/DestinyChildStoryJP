@@ -1,239 +1,265 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg086_f",
-      "bgm": "4",
-      "fade_out": "shorter",
-      "wait": "shorter"
+      "type": "talk",
+      "dialogue": "不束者ではございますが、改めまして、今後とも\\どうぞよしなに…",
+      "background": "bg106_f",
+      "bgm": "42",
+      "char": "c318_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それじゃ、行ってきますねっ！マスター♪",
-      "char": "c045_01",
+      "dialogue": "これは…\\珍しいことに、とても礼儀正しいチャイルドですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ああ、ミクによろしくな。\\これ、俺からの差し入れだ。持ってってくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "dialogue": "リザ、気に入っちゃったみたいね♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "何だかお前ら楽しそうだな？\\俺も今度行っていい？",
-      "char": "keep",
+      "dialogue": "はい。\\久しぶりに話が通じるまともなチャイルドに出会った気がします。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "魔王候補生がうろつくと、ミクの居場所が他の悪魔にバレるから会わないって…\\そうするって決めたの悪魔様でしょ？",
-      "char": "c061_01",
+      "dialogue": "ふふ、そのように褒められますと何やらこそばゆうございます…",
+      "char": "c318_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そりゃそうなんだけど。",
-      "char": "c000_01",
+      "dialogue": "いけ好かへんなー！\\猫を被ってからに…",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "話は聞かせてやるから、大人しく待っておけ。\\ほら、行くぞ。",
-      "char": "c121_01",
+      "dialogue": "気ぃつけやぁ。\\口はうまいが、目的のためなら手段を選ばん。\\信頼できるような女じゃあらへん。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "はーいっ！",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "自請妃(じせいひ)はどうしちゃったのかしら？\\なんだかご機嫌斜めねぇ～",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "9": {
       "type": "talk",
-      "dialogue": "それじゃー行ってきま～す。",
-      "char": "c061_01",
+      "dialogue": "あの女が契約した理由しらへんの？",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "契約した理由は、己が目的を果たすためです。\\ほとんどのチャイルドがそうでしょう？",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あの女が求めるものは黄泉の花！\\そんためなら、何でもしはる。",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "あら～？\\それは自請妃あなたも同じよね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "う、うちはとうに諦めとります。",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ホント？\\知らなかったわ。てっきりそうだと思って…",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "idle"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "自請妃はご主人さまのチャイルドになったフリをし、黄泉の花を横取りする機会を伺っているとばかり…",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "………",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "そのような卑劣な手段…\\自請妃様はお使いになりませんわ…ふふ。",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "うっさいわ！この根暗女！！",
+      "char": "c301_01",
       "speaker": "same",
       "pos": "right",
       "one_ani": "attack"
     },
-    "10": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ん？メルポメネは行かないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "…ロックじゃない奴なんかに興味ねーし。",
-      "char": "c099_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "go_to_left_slow"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ミクの中継は結構見てただろ？\\まあいいけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "curtain",
-      "background": "back",
-      "wait": "shorter",
-      "fade_in": "shorter"
-    },
-    "15": {
-      "type": "curtain",
-      "background": "bg110_f",
-      "bgm": "17",
-      "fade_out": "shorter",
-      "wait": "shorter"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "みなさんっ！来てくれたんですね！",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "こんにちはっ！ミクさん！",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "これ、悪魔様からの差し入れだよ～",
-      "char": "c061_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "19": {
       "type": "talk",
-      "dialogue": "わぁ…ありがとうございます。\\私も会いたいなぁ…",
-      "char": "c358_01",
+      "dialogue": "ふんっ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そう言っていたと聞けば、彼も喜ぶだろう。",
-      "char": "c121_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "マスター、ミクさんの事、心配してましたもんね～",
-      "char": "c045_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "しかし、マスターがアイドルに目覚めるのは何時に\\なる事やら、そろそろ自信を無くしそう…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "大丈夫ですよ！自信を持ってください！\\アリアさんの努力はいつかきっと報われますよ。\\この間の練習の歌と踊り、とっても素敵でした！",
-      "char": "c358_01",
+      "dialogue": "あらあら…\\そんなに興奮なさらないでください。\\シワが増えますよ？",
+      "char": "c318_01",
       "speaker": "same",
       "pos": "left"
     },
-    "24": {
+    "21": {
       "type": "talk",
-      "dialogue": "えっ！練習見ててくれたんですか！？",
-      "char": "c045_01",
+      "dialogue": "大きなお世話や！ふんっ！",
+      "char": "c301_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake"
+      "distance": "normal",
+      "before_effect": "enter_from_right_fast",
+      "after_effect": "go_to_right_point"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "自請妃様はわたくしをお嫌いな様子。\\お邪魔であれば、わたくしは下がりましょう…",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "自請妃が貴方に打ち解けないのは当然の事。\\花を奪い合う、ライバルなのですから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "リザ様まで…\\わたくしのことを信じて下さらないのですか…？",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "はいっ！まず何よりパフォーマンスがとっても\\素晴らしかったです！\\本当にステージの上にいるみたいでした。",
-      "char": "c358_01",
+      "dialogue": "私は自分以外、誰も信じていません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "わわ、ミクさんにそんな風に言われると照れます…",
-      "char": "c045_01",
+      "dialogue": "そうなのよ～…\\リザは誰に対してもそうだから、気にしないでね♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "うんうん、あれは確かによかったよ！\\自信もって！",
-      "char": "c061_01",
+      "dialogue": "それに…\\ほとんどのチャイルドは契約者と同じように何かしらの欲望を抱えているものだしね。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ああ。君は着々と成長している。\\オレ達ももっと頑張らないとな。",
-      "char": "c121_01",
+      "dialogue": "ということは、つまり皆さん…\\わたくしが黄泉の花を諦めていないとお思いで？",
+      "char": "c318_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "29": {
       "type": "talk",
-      "dialogue": "アリアさんだけじゃないですよ。\\セイレーンさんの歌も、ミューズさんの歌も、\\私は大好きです。",
-      "char": "c358_01",
+      "dialogue": "…例えそうだとしても、私たちには関係ありません。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "私は、皆さんが歌う姿をここで見てるしかないけど、すごく、憧れます。",
+      "dialogue": "私たちは目的のために一緒にいる。\\それ以上でもそれ以下でもないです。\\それぞれの事情に踏み込むつもりはありません。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "胸がドキドキして…\\私も歌いたくなるんです。",
-      "char": "keep",
+      "dialogue": "目的…\\それはご主人様を魔王にする、ということですね？",
+      "char": "c318_01",
       "speaker": "same",
       "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "いつかもう一度、皆の前で…\\大きな舞台で、歌えたらいいのにな…",
+      "dialogue": "魔界を治める、唯一の存在。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "left"
     },
     "33": {
+      "type": "talk",
+      "dialogue": "ただのチャイルドであるわたくしには、到底想像もできない世界ですね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "わたくしの望みがいかにささやかで小さなものか痛感いたします。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "その割には、かなり必死に見えるけど～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ふふふ…欲望はチャイルドの源。\\すなわち、わたくしは欲望の塊なのでしょう…",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

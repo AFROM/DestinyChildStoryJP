@@ -1,126 +1,188 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg223_f",
-      "bgm": "10",
-      "fade_in": "shorter",
-      "hold": "shortest",
-      "char": "c002_01"
+      "type": "talk",
+      "dialogue": "むぅ…ここ最近の視聴率低下はマズいわ。\\みんな、ピリピリしててやな感じだし…",
+      "background": "bg100_f",
+      "bgm": "16",
+      "char": "c174_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はぁ…本当に派手なインテリアですね…",
+      "dialogue": "とはいえ…\\バトルの生中継、イマイチ盛り上がらないのよね。\\戦ってる方も見てる方も疲れてるっていうか…",
       "char": "keep",
-      "speaker": "same",
-      "voiceid": "200606001"
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "美だけを追求し、実用性に欠けている…\\まさしく虚飾の極みですね。",
+      "dialogue": "まあぶっちゃけこのままだとマンネリなのよ。\\いくら戦闘が激しくなったってそればっかりじゃ\\つまらないわ！",
       "char": "keep",
       "speaker": "same",
-      "voiceid": "200606002"
+      "one_ani": "attack"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ご主人様を…\\いえ、社長を侮辱するのはおやめ下さい。",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "right",
-      "voiceid": "200606003"
+      "dialogue": "う～ん…なにか新機軸…\\すっごいネタないかしら…",
+      "char": "keep",
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "それだけは…ガマンが出来ませんから…",
-      "char": "keep",
-      "speaker": "Morgan",
-      "pos": "right",
-      "voiceid": "200606004"
+      "dialogue": "A.Iさーん！スタジオ入り急いで下さーい！",
+      "char": "none",
+      "speaker": "staff",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なるほど、見事な忠誠心ですね。",
-      "char": "c002_01",
+      "dialogue": "あ、はーい！",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606005"
+      "after_effect": "go_to_right_jump"
     },
     "7": {
       "type": "talk",
-      "dialogue": "答えて頂けないと思いますが、一応お尋ねします。\\あなたの社長は、今どこにいますか？",
+      "dialogue": "はぁ…仕方ない。\\打開策を考えつつ、ここはなんとか盛り上げていきましょう！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606006"
+      "before_effect": "enter_from_left_fast"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…さっさと、掛かってこい！",
-      "bgm": "36",
-      "char": "c283_01",
+      "dialogue": "…ん？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "200606007"
+      "after_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "理解できませんね。どうしてヴェルデレトに、\\そこまで執着するのか…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606008"
+      "dialogue": "…",
+      "background": "back",
+      "bgm": "29",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_special_skill_rebirth_max.mvd",
+      "mvd_pos": "bottom"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…ここは、絶対に通さない…\\あの方は私が守る！",
-      "char": "c283_01",
+      "dialogue": "な…！？\\何、一体…？",
+      "background": "bg100_f",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200606009"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "彼に…依存しているのですね。\\彼には、あなたの気持ちは伝わりませんよ…",
-      "char": "c002_01",
+      "dialogue": "…",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606010"
+      "pos": "center",
+      "facial": "idle",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "12": {
       "type": "talk",
-      "dialogue": "むしろ、その気持ちを利用されるはず。\\いえ、もう既にされているのですね。",
-      "char": "keep",
+      "dialogue": "女の子…？\\…っていうか、あんた誰？\\ここは一般人は立ち入り禁止よ！",
+      "char": "c174_01",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "200606011"
+      "facial": "haah"
     },
     "13": {
       "type": "talk",
-      "dialogue": "<b>ご主人様を侮辱するな！</b>",
-      "char": "c283_01",
+      "dialogue": "はじめまして！私、初音ミクです！",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "voiceid": "200606012"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "《ご主人様》ですか…\\私の記憶では、そんな呼び方をされるような人物ではなかったはずですがね、ヴェルデレトは…",
-      "char": "c002_01",
+      "dialogue": "はじめましてって…\\この状況で動じず自己紹介するなんて、あなた結構\\大物ね。",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200606013"
+      "pos": "left"
     },
     "15": {
+      "type": "talk",
+      "dialogue": "…これは！？\\イイカンジの人材かも…\\番組で使っていいなら…ぶつぶつ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "one_ani": "attack"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あの？",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ああ、いえいえ！こっちの話！\\えっと、見たとこあなた部外者っぽいけど、\\ウチのディレクターに呼ばれてきたとか？",
+      "char": "c174_01",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "呼ばれたのは確かですが…\\具体的に誰とは…\\とにかく、私の歌を求める声が聞こえたんです。",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "つらい、苦しい、疲れた…って。\\その声を癒やす為に、私は来ました。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "私はバーチャルシンガー…\\皆に歌を届けるのが、私の存在意義だから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "なるほど…\\つまり、なんだかよくわからないけど…\\歌を届けられるなら、番組に出ても構わないって\\ことね？",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "はいっ♪\\私、精一杯、歌います！",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "じゃあ決まりね！そうとなったら、\\早速ディレクターに掛け合いましょう～★",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "24": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

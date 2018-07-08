@@ -2,249 +2,278 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "太陽の娘と呼ばれても結局は人間。\\やはり《没落の女王》に変わりない。",
-      "background": "dungeon_bg",
-      "bgm": "19",
-      "char": "c266_01",
-      "speaker": "unknown1",
-      "pos": "left",
-      "screen_effect": "gray"
+      "dialogue": "ホルル～！\\またバストの髪にイタズラしたでしょ！\\絶対に許さないんだから～！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ニャン！\\…！",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "gray"
+      "dialogue": "まったく…なんですぐ俺を疑うんだ。\\そんな疑い深いヤツに、女王様を任せておくわけにはいかないな。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "お前も主人の後を追う気か？",
-      "char": "c266_01",
-      "speaker": "unknown1",
-      "pos": "left",
-      "screen_effect": "gray"
+      "dialogue": "うわ～ん！トサカ野郎！ダビが隠しておいたおやつ、また勝手に食べたな～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "cry",
+      "screen_effect": "dialog_shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "いいだろう。\\それなら、お前もチャイルドにしてやろう。\\お前の主人と共に、俺のチャイルドとなれ。",
-      "char": "keep",
-      "speaker": "unknown1",
+      "dialogue": "俺がおやつを食べた証拠がどこにある？\\何時何分何秒、地球が何回回った時～？",
+      "char": "c000_01",
+      "speaker": "same",
       "pos": "left",
-      "screen_effect": "gray"
+      "facial": "pretense"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ニャン！ニャー…！",
-      "char": "none",
-      "speaker": "unknown1",
+      "dialogue": "も～そんなのわかんないよ！\\いっつもダビが見てない時に食べてるじゃん！",
+      "char": "c003_01",
+      "speaker": "same",
       "pos": "center",
-      "screen_effect": "gray"
+      "facial": "cry",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "何を言ってるかさっぱりだな。\\猫の言葉なんて分かるわけないが。",
-      "char": "c266_01",
-      "speaker": "unknown1",
-      "pos": "left",
-      "screen_effect": "gray"
+      "dialogue": "ニャ！ここでバストをいじめる悪いヤツは、ホルルだけだもん！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "も～我慢できない！\\今日という今日は許さないんだからね～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ニャハハハ～♪\\ご主人様は魔王になったらどうするの？",
-      "background": "bg082_f",
-      "bgm": "14",
-      "char": "c274_01",
+      "dialogue": "ふん、砂漠でお前を助けてやったのは誰だと思って\\るんだ？口答えばっかりしやがって。",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "最近はくだらないことも聞くのだな。気になるか？",
-      "char": "c267_01",
+      "dialogue": "ほんっと、恩知らずなヤツだな…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ご主人様が眠っている間バストも長～い夢を見たの。",
-      "char": "c274_01",
+      "dialogue": "心強い味方が増えたと思ったのですが問題児だったようですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "facial": "sigh"
     },
     "11": {
       "type": "talk",
-      "dialogue": "太陽が昇って、月が沈んで、また太陽が昇って月が沈む…",
-      "char": "keep",
+      "dialogue": "ご主人さま！\\いつまであの騒ぎを放っておくつもりですか？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "facial": "teach"
     },
     "12": {
       "type": "talk",
-      "dialogue": "その間にずっとず～っと考えてた！ご主人様が目覚めたら、昔みたいに《おいでおいで》してほしいって！",
-      "char": "keep",
+      "dialogue": "あのな、俺は自分の家の子供ですら言うことを聞かせられないんだぞ？\\余所の家の子供をどうやって止めろって言うんだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near",
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "おいでおいで？ああ、散歩のことか。",
-      "char": "c267_01",
+      "dialogue": "そういう態度を改めていただきたいのですが。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "shy"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ご主人様が《おいでおいで》したら、遠くまでお出かけできる！そうでしょ？",
-      "char": "c274_01",
+      "dialogue": "どうするかを訊くのではなく、ご自分でどうにかしてください。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "facial": "shy"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ああ。賢いな、そなたは。",
-      "char": "c267_01",
+      "dialogue": "はぁ…モナはご主人さまのことが心配です…\\いくら魔王候補生になって日が浅いとは言え、その開き直った態度はいかがなものかと…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "sigh"
     },
     "16": {
       "type": "talk",
-      "dialogue": "魔王になったら、たくさんおいでおいでしてくれる？",
-      "char": "c274_01",
+      "dialogue": "ま～た始まった。\\いきなりやれって言われても、できるわけないだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それは魔王になれたらな。\\だが、前から言うように…",
-      "char": "c267_01",
+      "dialogue": "シャー！かかって来い！バカホルル！今日こそ\\決着を…",
+      "char": "c274_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "one_ani": "attack"
     },
     "18": {
       "type": "talk",
-      "dialogue": "分かってるよ！\\魔王争奪戦が終わるまでバストが先に死ぬかもしれないってことでしょ？",
-      "char": "c274_01",
+      "dialogue": "いつも口先だけじゃないか！\\お前こそ覚悟するんだな。\\生意気な猫め…",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "19": {
       "type": "talk",
-      "dialogue": "生きるべきか～死ぬべきか～\\そんなのバストとは関係ないよ～！",
-      "char": "keep",
+      "dialogue": "これはいったい…\\何を騒いでおるのだ！？",
+      "bgm": "9",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "after_effect": "shake"
     },
     "20": {
       "type": "talk",
-      "dialogue": "バストはご主人様と一緒に《おいでおいで》するの！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "そうか…そなたは単純でいいな。",
-      "char": "c267_01",
+      "dialogue": "ニャ～！ご主人様～！\\ホルルが…ホルルが～！",
+      "char": "c274_01",
       "speaker": "same",
       "pos": "right"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "バスト、座れ！ホルス、そなたもだ。\\眠っている間に礼儀も忘れてしまったのか？",
+      "char": "c267_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "私は複雑だ…\\沈む太陽…没落の女王と呼ばれていたがそれでも以前はファラオだった。\\だが、ここではただの王。",
-      "char": "keep",
+      "dialogue": "くそ、バストめ…\\結局、お前のせいで俺まで！",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ぼ、没落の…誰がそんなひっどいこと言ったの！",
+      "dialogue": "バストだって怒られたもん。\\バカ～！バカホルル～！",
       "char": "c274_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "私が叱ってあげる！",
-      "char": "keep",
+      "dialogue": "ホルス…そなたのその態度がバストを挑発していると気付いておらぬわけではなかろう。",
+      "char": "c267_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "誰であったろうか…もう覚えておらぬ…",
-      "char": "c267_01",
+      "dialogue": "ほどほどにせぬと、いつか本当に血を見ることになるぞ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "いつ、誰にそう言われたのか…",
+      "dialogue": "それとも、それがそなたの望みか？\\なら、わらわに直接訴えればよい。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "27": {
       "type": "talk",
-      "dialogue": "夢かもしれないよ？私もずっと夢を見てたから！",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "夢を見たらしゃべれるようになったの！\\夢を見たらご主人様にも会えた♪",
+      "dialogue": "しっかり聞き入れてやるぞ？\\…そなたには、日増しに失望が募るばかりだからな。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ご主人様も夢を見るといいかも！\\そしたらバストみたいに夢が叶うかも！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "それなら、すぐに魔王になれるな。",
-      "char": "c267_01",
       "speaker": "same",
       "pos": "right"
     },
+    "28": {
+      "type": "talk",
+      "dialogue": "ぐっ…！！",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "こっ…怖ぁ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake_weak"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あら～なんて素敵なんでしょう♥\\胸がドキドキするわね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "tempt"
+    },
     "31": {
       "type": "talk",
-      "dialogue": "私は2千年間、同じ夢を見ていた。",
-      "char": "keep",
+      "dialogue": "ほう？\\ならば、ついにわらわの眷属になる決心がついたか？",
+      "char": "c267_01",
       "speaker": "same",
       "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "そうなの！？\\それなら、もうすぐ《おいでおいで》できるね！",
-      "char": "c274_01",
+      "dialogue": "うふふ、残念です♥\\それとこれとは別の話なんですよね～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
+      "facial": "pretense"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ああ！",
-      "char": "c267_01",
+      "dialogue": "ですが…現代に生まれるチャイルドにはない凄まじいまでの威厳です。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "facial": "pretense"
     },
     "34": {
+      "type": "talk",
+      "dialogue": "これはお手本にするべきですよ、御主人様。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "smile"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "絶対、無理…",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

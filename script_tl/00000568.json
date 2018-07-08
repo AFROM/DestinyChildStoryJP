@@ -2,188 +2,239 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "なるほど、私の論文を貶めた\\あの論客が批判を撤回すると。\\で？私はそれに対してどう対応すれば？",
-      "background": "bg100_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "ねえ…すぐに帰ってくるわよね？",
+      "background": "bg037_f",
+      "bgm": "15",
+      "char": "m045_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そんなことのために私の貴重な時間を\\奪ったというのですか？",
-      "char": "m049_00",
-      "speaker": "same_full"
+      "dialogue": "ただの出張だろ？何をそんなに心配してるんだ？\\すぐに戻ってくるよ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうおっしゃらず、\\和解の握手をしていただけませんか？",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "ほ、本当？本当にすぐに戻ってくる？",
+      "char": "m045_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "論文に関するインタビューと聞いたから\\来たのですが。\\生きている時間は限りある。\\下らない事で潰す意味はない。",
-      "char": "m049_00",
-      "speaker": "same_full"
+      "dialogue": "…これ。俺が帰ってくるまでに預かっててくれ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "5": {
       "type": "talk",
-      "dialogue": "生放送なので…段取り通りにお願いします…",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "この花瓶…",
+      "char": "m045_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "段取り？",
-      "char": "m049_00",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "一番大事にしている花瓶だ。\\誰かにプレゼントでもらったんだけど…\\とにかく、この花瓶を見て俺を思い出してくれ。\\いいな？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ハッ！誰がそんなもの！",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "あ、バスが来た。\\それじゃ、行ってくる。元気でな。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "8": {
       "type": "talk",
-      "dialogue": "なぜ一時でも、私の崇高な論文を批判した\\下等な人間と仲良くしなければならないのか？",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "あ！ちょっと待って！",
+      "char": "m045_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "大体、お前たちもお前たちだ…\\あいつの言うことを間に受けて、\\私を騙し討ちにして…",
+      "dialogue": "ちょっと…この花瓶…\\私が初めて会った日にあげたものじゃない。",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "near"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "…そうだ、あの論客気取りの愚か者と、\\あなたたちで私に土下座すれば\\お望み通り、握手でもなんでもしてやるよ。",
-      "char": "keep",
-      "speaker": "same_full"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "それは言い過ぎでは？\\大体、なぜ私たちが土下座を…",
-      "char": "none",
-      "speaker": "anchor"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "はいはい、ならば交渉決裂と言うことで。\\二度とこんな馬鹿げた舞台に\\呼び出さないでくれるかな？",
-      "char": "m049_00",
-      "speaker": "same_full"
-    },
-    "13": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "遅れてすみません。待ちましたか？",
+      "background": "bg002_f",
+      "bgm": "19",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うふふ、少しだけ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "本当にすみません。ちょっと用がありまして…",
+      "char": "none",
+      "speaker": "unknown1"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "…私は間違ってない。私は正しい。\\理解しない愚か者ども。理解できない愚か者ども…",
-      "background": "bg086_f",
-      "char": "m049_01",
+      "dialogue": "用って？\\ひょっとして…彼女のことですか？",
+      "char": "c001_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "pretense"
     },
     "15": {
       "type": "talk",
-      "dialogue": "お！？しゃれこうべ…いや、スカルが\\初めて聞こえるように喋ってくれたぞ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "は、はい？そ、それは…その…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "16": {
       "type": "talk",
-      "dialogue": "おめでとうございます、ご主人さま♥",
+      "dialogue": "あらあら、冗談のつもりだったのに、\\そこまで慌てなくていいんですよ♥",
       "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "いや、祝ってもらうような内容じゃなかっただろ…",
-      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "17": {
+      "type": "talk",
+      "dialogue": "は、はは…\\それよりあなたから先に連絡をくれるなんて\\夢にも思いませんでした。",
+      "char": "none",
+      "speaker": "unknown1"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "あの言葉、あいつの契約者が\\俺たちに向けて言った言葉なんじゃないか…？",
-      "char": "keep",
+      "dialogue": "モナは猪突的な男性が好きなんです。\\だから勇気を出して連絡してみたんですよ♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あらあら、ご主人さまったら♥\\まだご存じないんですね～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "dialogue": "ありがとうございます。\\僕の気持ちを受け取ってくれて…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "20": {
       "type": "talk",
-      "dialogue": "何が？",
-      "char": "c000_01",
+      "dialogue": "うふふ、短気なんですね。\\まだそちらの気持ちは受け取れてないんですよ。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ついさっき、スカルの契約者が\\生放送に出て番組の司会者と\\大喧嘩したんですよぉ～",
-      "char": "c001_01",
+      "dialogue": "モナ…モナ！\\ただじゃおかない！殺してやる！",
+      "char": "m045_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "まーた、何かプライドを刺激されるようなことを\\言われたのかな？",
+      "dialogue": "うう、耐えろ！これはただの営業だ、営業！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "スカルは、契約者の心の動きに\\連動しているチャイルドのようですねぇ～",
-      "char": "c001_01",
+      "dialogue": "あの女のせいで私の契約者が不幸になった！\\泣いてる！許さない！",
+      "char": "m045_01",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "それにしてはコイツ、契約者のこと\\知ろうとしてないみたいに見えるけど。",
+      "dialogue": "それには俺も同感だけど…\\あいつには絶対勝てないぞ、恐ろしい女なんだ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "25": {
       "type": "talk",
-      "dialogue": "自分で考えたり、何かをしようとする機能が\\欠落しているのかもしれないですね～",
-      "char": "c001_01",
+      "dialogue": "ううっ…！あの女さえいなければ…！",
+      "char": "m045_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "知れば知るほど、\\なんだかコイツが可哀想になってくるな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sad"
+      "dialogue": "正直、全ての原因は\\あの男にあるような気がするが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "27": {
       "type": "talk",
-      "dialogue": "でも、自分は正しいと信じているのだから、\\不幸ではないと思いますよ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "恋人がいながらもモナにアタックするとは…\\完全な浮気者だな、あいつ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "それにしても、モナもすごいな。\\あれを営業に活かすとは…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "しかもあの男の恋人まで引き込んで\\結局はブーケを作り出したし。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "やっぱり恐ろしい女だ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ご主人さま！ちょっとこっちに来てくれます？\\お客様がサインしてくださるみたいです♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "いや、これは恐ろしいってもんじゃない。\\残酷な女だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ぶっ殺す、モナ！",
+      "char": "m045_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

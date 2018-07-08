@@ -2,367 +2,189 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "魔王争奪戦が始まり悪魔が集まったおかげで、\\夜の世界の地下闘技場ではチャイルド同士の戦いに\\よるギャンブルが流行っている。",
-      "background": "bg054_f",
-      "bgm": "10",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "なあ、レッドクロス。\\ちょっといいか？",
+      "background": "dungeon_bg",
+      "bgm": "20",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "魔王争奪戦から逃げ出した臆病な悪魔…\\そんなどうしようもない奴らがただ余興のために行うくだらない賭け試合。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "何用でしょう、我が主君よ。",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "自分たちは命をかけて戦うこともないのに、\\チャイルドを戦わせての賭博だなんて…情けない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "《紅き十字架》…って奴、知らないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "俺がここに来た理由。それは地下闘技場の\\ディーラー《エシュ》に会うためだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…！\\い、いえ、存じませぬが…",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "彼女はチャンネルEvilの目を避け、地下闘技場の戦いを中継して荒稼ぎしているらしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "このラウンドのお相手は、4連勝中の怪力の持ち主！\\さあさあ、勇気ある挑戦者はいませんか！？",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "おおっと！早速、手が上がったようです！\\…では、そちらの赤いジャージの方！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "その小さな体でどんな戦いを見せてくれるのか！\\楽しみですね！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "えっ？赤いジャージって…俺？\\俺、挑戦したいなんて言ってな…うわっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "さて、さて！こちらの少年は何分耐えられるか！\\5分！10分！",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "15分以上に賭ける方はいらっしゃいませんか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "俺が勝つのに賭ける奴はいないのかよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "当然、いるわけないでしょ？\\それにあなた、手を上げたんじゃなくって、ただ背伸びをしただけだもの。",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "知ってて挑戦者にしたのかよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…はい！\\これにて、このラウンドの賭けは締め切ります！\\それでは早速！デビルズファイト！レディーゴー！",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…はぁ。",
-      "background": "bg058_f",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "負けるとは思ってたけど、まさかここまでボコボコにされてもチャイルドを呼ばないなんて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "こんなくだらないケンカに、俺の大事なチャイルドを呼ぶわけないだろ…",
+      "dialogue": "そっかー\\うーん、困ったなー",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "…その《紅き十字架》とやらが何かしたのですか？",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "いや、何かってほどのことじゃないんだけどさ。\\ユーナがそいつに花をもらったんだけど、\\正体がわからなくて困ってるらしい。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…けど、お前も知らないなら仕方ないな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "仕方ない…とは？\\どうするおつもりで？",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "こうなったら、\\俺が渡したってことにでもしとくかな。\\そうすれば、ユーナとも仲良くなれそうだし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そ、それはいかがなものかと。",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "何か問題でもあるか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "主君へ口答えをする無礼をお許しください。",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…ですが、他人の功を横取りするような\\卑怯な真似は、騎士道に反しますゆえ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "そういうことなら問題ないな。\\別に俺は騎士じゃないし…\\それに、正体も明かさず、\\コソコソしてる奴だって卑怯だろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "それは…",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "堂々と自分の正体を明かしてこそ真の騎士だ。\\違うか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "…いえ。\\我が主君よ、ごもっともでございます。",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "だろ？だから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "…しかし、その者にも覚悟を決める時間が\\必要でしょう。",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "…なんてな。\\本当は魔力配分ミスでチャイルドを呼べる魔力が\\なかっただけだけどな…",
+      "dialogue": "覚悟って、プロポーズするわけでもあるまいし…\\けど、まあ、こいつにしては上々の答えか。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "22": {
       "type": "talk",
-      "dialogue": "はは、それであんな無様な姿をさらしたってわけ？",
-      "char": "c176_01",
+      "dialogue": "確かにそうかもしれないな…なんて、こんな話、\\当人の《紅き十字架》がいないとこでしたって、\\何の意味もないけど。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あのね～言っとくけど、4連勝って大変なのよ。\\つまり、あなたの相手はボロボロ。",
-      "char": "keep",
+      "dialogue": "……",
+      "char": "c175_01",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ディーラーとして「名勝負でしたー！」ってふかしたけど…",
-      "char": "keep",
+      "dialogue": "じゃ、俺はこの辺で。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "after_effect": "go_to_left_point"
     },
     "25": {
       "type": "talk",
-      "dialogue": "疲れ果てて立ってるのがやっとの相手と、\\それに負ける雑魚なんて、ホントつまんない\\勝負だったわ。",
-      "char": "keep",
+      "dialogue": "真の騎士なら堂々と正体を明かせ…か。",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "26": {
-      "type": "talk",
-      "dialogue": "はいはい、私が悪うございました。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…ところで、お前、何者なんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どうして自分の魂と所有権をかけたギャンブルなんて、そんな危ないことしてるんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "俺が言えた義理じゃないけど、お前、誰かの\\チャイルドだろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "おっ、大正解！\\あなた、雑魚のわりに見る目があるね。\\では、問題です！\\あたしの主人はどこにいるでしょうか！",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "知るかよ…\\まあ、夜の世界のどこかにいるんじゃないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ブッブー！不正解！\\正解は「この手で始末しました！」でした！",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "…冗談だろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "正解！\\ホントは「契約なんてしてない」です！",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "答える気ないだろ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "あはっ、そうよ。\\あたしの主人はだいぶ前に死んだわ。\\…3人もいたのに、みーんな死んじゃった。",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "それも、3人ともあたしが進行してた試合でね。\\試合を始めたのも終わらせたのも、あたし。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…そう考えると「この手で始末した」っていうのも\\嘘じゃないかもね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ま、おかげで、こうして夜の世界で自由気ままに\\暮らしてるわけだけど。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "そんな事情があったのか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "どう？あたしって可哀想でしょ？\\同情してくれる？",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "同情なんてしないね。\\俺は基本的に魔界の女には同情しない主義なんだ。\\特に、俺より強い奴にはな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "絶対、恐ろしいことを企んでるに決まってる。\\とにかく、隠してる俺の財布をさっさと返せよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "あら、バレてたの。\\よく気が付いたわね。",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "当たり前だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "うちには油断のならない、おっかないサキュバスが\\3人もいるからな！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "お前がなんで俺をターゲットにしたのか知らないけど俺は一筋縄じゃいかないからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "受けて立ってやる！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "へーあなたも言うわね。\\ちょっと甘く見てたかも。",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "50": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

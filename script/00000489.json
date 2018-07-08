@@ -2,322 +2,240 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あら、ご主人様…\\お待ちしておりました。",
-      "background": "bg080_f",
-      "bgm": "17",
-      "char": "c167_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "新しく来たイシュタルっていうチャイルドは、\\気のせいかもしれないけど、\\態度が冷たいような気がする。",
+      "background": "bg035_f",
+      "bgm": "31",
+      "char": "none",
+      "speaker": "none"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いつもお疲れのようですね。",
-      "char": "keep",
+      "dialogue": "…フン。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そのような場所に立っていないで、\\さあ、こちらへどうぞ。",
-      "char": "keep",
+      "dialogue": "あのさ、イシュタル。\\来てからずっとそんな様子だけど\\何か気に入らないことでもあるのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "……？",
-      "char": "keep",
+      "dialogue": "…この服、どう思う。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どうしました？今日は口数が少ないですね。\\それほどお疲れなのですか？",
-      "char": "keep",
+      "dialogue": "お前の服？んーなんていうか動きづらそうだし…\\窮屈そうだよな。脱がしてやろうか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "疲れたというか…戸惑ってる。\\チャイルドが自分勝手に出てくるのはよくあるけど、コウガが現れるのは久しぶりだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…！ち、近づかないで！\\…この服は…落ち着く…脱がすのは不要だ！",
+      "char": "c164_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "それとも、人見知りしているのですか？\\ふふっ…あなたは相変わらずですね。",
-      "char": "c167_01",
+      "dialogue": "そ、そうなんだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "8": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "keep",
+      "dialogue": "…フン。それと、私に、1メートル以上近づくな。\\ただし…半径1メートル以上離れるのも禁止する。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "見つめ合っていてもいいですが…\\ともかく、こちらへいらしてください。",
-      "char": "keep",
+      "dialogue": "ぴったり1メートル以内にいろってか？\\変な命令だな。…で？他にしてほしいことは？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "終わりの見えない魔王争奪戦や繰り返される\\戦いではなく…\\楽しいお話でもいたしましょう。",
-      "char": "keep",
+      "dialogue": "…特にない。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "って言いながらチラチラ見られると\\気になるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あなたは…いつも、隣には来て下さらないのですね。",
-      "background": "bg068_f",
-      "bgm": "keep",
-      "char": "c167_01",
+      "dialogue": "…フン。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "コミュ障には難しい相談だ…と答えようとしたけど\\コウガの呟きがそれを遮った。",
+      "dialogue": "イシュタルの契約者が望んだのは、自分自身の束縛。茨の刺はイシュタルの心に備え付けられたドアにも\\絡みついてしまったみたいだ。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふふ…どうして、あんなに焦っていたのでしょう。\\私はようやく、時間がたくさんあることに\\気付けたんです。",
-      "char": "c167_01",
+      "dialogue": "…気になる？",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そう…あなたがくれた大切な時間は\\まだまだたくさんあるのです。",
-      "char": "keep",
+      "dialogue": "ああ、すごくね。\\変なことはしないから、何でも話してくれない？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "他愛のない昔話をして…\\のんびり過ごすと致しましょう。",
-      "char": "keep",
+      "dialogue": "…フン。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "wait": "longer",
-      "fade_in": "longer"
+      "type": "talk",
+      "dialogue": "ついに黙ってしまった。\\一体、俺にどうしろと？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "18": {
       "type": "talk",
-      "dialogue": "いらっしゃーい！\\小籠包をお持ちしました！サービスですよぅ！",
-      "background": "bg155_f",
-      "char": "c167_00",
+      "dialogue": "…ほら。そっち、水たまり。\\こっちに避けて。",
+      "char": "c164_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "えっ、あ、ホント大丈夫だから…\\おおお、俺たち金とかないし！",
+      "dialogue": "おおっと！\\危ない危ない。泥水って落ちないからなー…\\ありがとな、イシュタル。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あら～♥おいしそう！",
-      "char": "c001_01",
+      "dialogue": "…フン、今回は接近を許可する。\\その水たまりを避けたら、2メートル離れることを\\要求する。",
+      "char": "c164_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あっ…食べちゃってるし…！",
+      "dialogue": "近くなったら、倍以上離れさせるのかい！\\っていうか、今のは不可抗力だ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いいんだってば！\\遠慮なんかしないで、食べて食べて！",
-      "char": "c167_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "悪魔が近寄れば、私は困る。",
+      "char": "c164_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ウコンがいなくなっちゃったときは、\\ホント焦ったんだから！\\ほら、ウコンもちゃんとお礼して！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "俺が近づくのがそんなに嫌なのか…！\\そこまで嫌がってたとは知らず…悪いことをしたな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ウキャッ！",
-      "char": "keep",
-      "speaker": "monkey",
+      "dialogue": "また水たまりがある。\\こちらに避けるといい。",
+      "char": "c164_01",
+      "speaker": "same",
       "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "えへへ、ウコンもありがとうって！",
-      "char": "c167_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "いや、そしたらまたお前に近付くことになる。\\それは嫌だろうから、反対に避けるよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "はぁ…こんなことしてる場合じゃないんだけどな。",
-      "char": "c000_01",
+      "dialogue": "…こっちに避けて。",
+      "char": "c164_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "え？あ、ごめん…！\\何か用事だったの？",
-      "char": "c167_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
+      "dialogue": "浅い水たまりみたいだし、\\このまま突っ切ってもいけそうだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あたし、空気読めてなかった？",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "いえ、走り続けるばかりが方法ではありませんから。",
-      "char": "c002_01",
-      "speaker": "same_full",
-      "pos": "center",
-      "facial": "pretense"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "とはいえ…御主人様の言うとおり、\\あまりのんびりもしていられませんね。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "center",
-      "facial": "idle"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "うう…やらかしたかな、あたし…\\そうだ！ね、あたしにも何か手伝えないかな？",
-      "char": "c167_00",
-      "speaker": "same_full",
+      "dialogue": "…こっちに避けてってば。",
+      "char": "c164_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺を睨む顔が怖い。\\やれやれ、ご機嫌を損ねるくらいなら黙って\\イシュタルの指示に従った方がいいだろう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…フン。もう危機は去った。\\4メートル以上離れろ。",
+      "char": "c164_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "やっぱりかよ！\\意味がわからん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "32": {
+      "type": "talk",
+      "dialogue": "…フン。",
+      "char": "c164_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "そして一悶着の末…私は悪魔になってしまいました。",
-      "background": "bg068_f",
-      "bgm": "17",
-      "char": "c167_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "まったく、どうなることかと思いましたよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "そ、それは悪かったよ…\\でも、俺は一応断ったんだぞ…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ふふ、冗談ですよ。\\私は、今も…あなたのお世話をしたいと\\思っております。",
-      "char": "c167_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "謝るのなら、\\巻き添えで悪魔になってしまった\\ウコンにしてあげて下さい。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "キキ…",
-      "char": "c167_01",
-      "speaker": "monkey",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "…あら？\\うふふっ…ウコンも楽しいみたいです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "なら、何も問題はありませんね。\\この先、長き生が待ち受けているというだけのこと…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "人間の春は短かったけれど…\\悪魔の春は、長いのでしょうか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "42": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "wait": "normal",
-      "fade_in": "longer"
     }
   }
 }

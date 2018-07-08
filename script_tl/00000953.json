@@ -2,176 +2,568 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はあ、はあ…ううっ…！",
-      "background": "bg203_f",
-      "bgm": "39",
-      "char": "c000_01",
+      "dialogue": "はっはっは！なかなかやるじゃないか！\\これならどうだ！",
+      "background": "bg136_f",
+      "bgm": "1",
+      "char": "c037_01",
       "speaker": "same",
-      "facial": "serious",
-      "before_effect": "shake",
-      "screen_effect": "shake",
-      "voiceid": "200106001"
+      "pos": "center"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご主人、グズグズしないで！\\ダビ、クリスマスの妖精が欲しいのー！",
-      "char": "c003_01",
+      "dialogue": "危ない！アストレア！！",
+      "char": "c000_01",
       "speaker": "same",
-      "after_effect": "shake",
-      "voiceid": "200106002"
+      "pos": "left",
+      "facial": "fury",
+      "after_effect": "go_to_left_fast"
     },
     "3": {
       "type": "talk",
-      "dialogue": "御主人様…？それに、ダビまで…\\どうしてここに？\\大人しく待ってなさいと言ったのに…",
-      "char": "c002_01",
+      "dialogue": "えっ！",
+      "char": "c014_01",
       "speaker": "same",
-      "voiceid": "200106003"
+      "pos": "right",
+      "after_effect": "go_to_left_fast"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あらあら、ご主人さま♥\\そこまでモナと聖夜を過ごしたかったのですか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "voiceid": "200106004"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "何で、そうなるんだよ…\\ダビが俺の話を聞かずに突っ走るから。\\ところで誰だ、そいつ。",
+      "dialogue": "くそっ！ぐわっ！",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "200106005"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ルドルフの姿をした…\\何だ、このオーラは…",
-      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
-      "after_effect": "shake_weak",
-      "voiceid": "200106006"
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ご主人様！大丈夫ですか！？",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…ってて。だ、大丈夫だ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そうか、アイツもチャイルドだな？\\とうとうクランプスを見つけたのか！\\ふぅ～、これでやっと家に帰れるな！",
+      "dialogue": "あ、ペンが…",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy",
-      "voiceid": "200106007"
+      "facial": "nonsense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "御主人様、残念ですが彼はクランプスではなく、\\クランプスになりすましたチャイルドです。\\幸いにもあのチャイルドも主人がいませんでした。",
-      "char": "c002_01",
-      "speaker": "same",
-      "voiceid": "200106008"
+      "dialogue": "ユダが放った攻撃の衝撃で、胸のポケットにしまっていたペンが粉々に砕けてしまった…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "なりすましだなんて…\\ひどいこと言うねーお姉さんってば。",
-      "char": "c225_01",
+      "dialogue": "おっと…依頼失敗か？\\まぁ証拠はこの世から消えたんだ。報酬は支払われるだろう。",
+      "char": "c037_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200106009"
+      "pos": "center"
     },
     "10": {
       "type": "talk",
-      "dialogue": "それじゃ、あのサンタは…",
-      "char": "c000_01",
+      "dialogue": "小僧！きっちり方をつけたかったが、戦う理由がなくなっちまった。今日のところは引き分けってことで、次の機会を楽しみにしてるぜ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200106010"
+      "pos": "center"
     },
     "11": {
       "type": "talk",
-      "dialogue": "アハハハハ！",
-      "char": "c299_00",
-      "speaker": "unknown1",
-      "pos": "right",
-      "one_ani": "attack",
-      "voiceid": "200106011"
+      "dialogue": "あばよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "go_to_right_slow"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あいつが本物のサンタなはずないだろ？\\つくづく間抜けだね！",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200106012"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "はい、あのサンタは悪魔です♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200106013"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "悪魔だとぉ！？",
+      "dialogue": "お、終わったのか？",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "voiceid": "200106014"
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ご主人さま。危なかったですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "申し訳ありません。ご主人様を守るどころか、危ない目に合わせてしまいました。",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "悪魔だったのか！？",
-      "char": "c225_01",
+      "dialogue": "気にするな。お前が無事で何よりだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "voiceid": "200106015"
+      "pos": "left",
+      "facial": "smile"
     },
     "16": {
       "type": "talk",
-      "dialogue": "2人とも、こんな強力なオーラが漂っているのに、\\今まで気づかなかったんですか？",
-      "char": "c002_01",
+      "dialogue": "アストレア、安心なさい。\\守る機会は、今後沢山あるわ。沢山ね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "voiceid": "200106016"
+      "pos": "center"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あんな外見で、中身は悪魔なんて…",
+      "dialogue": "嫌なこと言うなよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "しかしアガメムノンもごめんな。\\ペン、壊れちゃったよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "それこそ気にするな。\\証拠がなければ、調査を行い見つければいい。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "証拠がなければ、作るという手もありますよ？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そんな卑怯な事はさせません！",
+      "char": "c014_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…だそうだ。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "では、そろそろ帰りましょうか。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ああ、そうだな、早く帰って休みたいよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "《ひき逃げ事件》の真相は結局わからなかったけど、ひとまず俺の事件はこれで終わりだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "アストレアは、事件を解決すると最後までゴネたけどアガメムノンのおかげで落ち着きを取り戻した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "そういえば、あいつらの契約者って公務員だっけ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "国を守る。市民を守る。そんな気持ちを持つ契約者から生まれたから、あいつらは仲がいいのかな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あの契約者たちには頑張ってほしいと思う。\\この国に住む一般悪魔としてね。\\二度と悪魔となんか契約しないように…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "生活を支えてくれている人たちに感謝だな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ご主人さま！\\やっとモナたちの苦労を理解していただけましたか♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "えっ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "nonsense",
-      "voiceid": "200106017"
+      "before_effect": "shake"
     },
-    "18": {
+    "33": {
       "type": "talk",
-      "dialogue": "へー、なるほどなるほど。\\ねえ、サンタのお兄さん、助けてくれないかな？\\あの人たち、僕にヒドイことしようとして、\\困ってるんだ。",
-      "char": "c225_01",
+      "dialogue": "そのように言われたら、私たちも頑張らなければなりませんね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200106018"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ほお…\\私のルドルフにそんなことをしようとしたのか…？",
-      "char": "c299_00",
-      "speaker": "unknown1",
-      "pos": "right",
-      "voiceid": "200106019"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "お前たち、悪い子だな？\\どれ、悪い子にはお仕置きしなければいかん…！",
-      "char": "c299_01",
-      "speaker": "same",
+      "pos": "center",
       "distance": "near",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
-      "voiceid": "200106020"
+      "facial": "smile"
     },
-    "21": {
+    "34": {
+      "type": "talk",
+      "dialogue": "あ、ああ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ダビへの感謝の気持ちはプリンでいいよ～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "victory"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ははっ…\\ありがとな、いつもいつも感謝してるよ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "37": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "fade_in": "normal",
+      "hold": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "皆さん、聞いてください。",
+      "background": "bg160_f",
+      "bgm": "13",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "私は、今まで父上の背中を追いかけるあまり、周りの事をちゃんと見つめられずにいました。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "そんな私を見て、皆さんは信頼を失ったのだと思います。恥ずかしい限りです。",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "だから、私はその信頼を取り戻したい！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "未熟者ですが、どうか私に力を貸してください！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "none",
+      "speaker": "SOLDIERA",
+      "pos": "center"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "私たちの方こそ、申し訳ありませんでした！",
+      "char": "none",
+      "speaker": "SOLDIERB",
+      "pos": "center",
+      "screen_effect": "dialog_shake"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "そ、その、すまなかった。\\少し調子に乗ってしまった。\\ま、まぁ、これからよろしくな。小隊長！",
+      "char": "none",
+      "speaker": "SOLDIERC",
+      "pos": "center",
+      "screen_effect": "dialog_shake"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "はい！よろしくお願いします！",
+      "char": "c014_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "47": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "やっと見つけたぜ。",
+      "background": "bg055_f",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "enter_from_left_slow"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "俺に何か用か？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "あの時、俺が目覚めていた事をお前、気が付いていただろ？",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "…お前の心に正義の火が灯っている限り、この事は\\キャプテンには黙っておこう。\\まぁ、バレても記憶を消されるぐらいだ。安心しろ。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "全然安心できねーよ！\\………なぁ。",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "俺の仕事を手伝わないか？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "それが、俺を探していた理由か？\\お前の小遣い稼ぎに付き合う気はないぞ？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "55": {
+      "type": "talk",
+      "dialogue": "よせよ…\\俺はひき逃げ犯を捕まえる。",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "どうやって？\\1つの証拠はお前が潰し、もう1つは壊れた。",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "新しい証拠を見つける！",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "新しい証拠を見つけるのは並大抵の事ではないぞ？",
+      "char": "c012_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "わかってる。俺はもう迷わない。諦めない。\\だからお前の力を貸してくれ！",
+      "char": "c012_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "60": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "ペンを回収できなかったなんて、ふざけているの？",
+      "background": "bg115_f",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "別にふざけちゃいねーよ。\\安心しな、ペンはもうこの世にはない。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "63": {
+      "type": "talk",
+      "dialogue": "…それ本当かしら？",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "64": {
+      "type": "talk",
+      "dialogue": "ああ、本当だ。\\今回の件については、俺も反省している。\\少し遊んじまったしな。だから、これは1つ貸しだ。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "65": {
+      "type": "talk",
+      "dialogue": "いいわ、それで納得してあげる。\\でも次はないわよ？\\用が済んだらさっさと消えなさい！",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "66": {
+      "type": "talk",
+      "dialogue": "おうおう、怖いねぇ～\\まったく、どっちが悪魔かわかったもんじゃない。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "67": {
+      "type": "talk",
+      "dialogue": "それじゃあ、またな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_slow"
+    },
+    "68": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m056_00",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "69": {
+      "type": "talk",
+      "dialogue": "どいつもこいつも使えない！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "70": {
+      "type": "talk",
+      "dialogue": "はぁ…武藤龍蔵。警戒しておいたほうがいいわね。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "71": {
+      "type": "talk",
+      "dialogue": "中隊長はどうしようかしら…\\上層部と繋がりができた今、役目は終ったようなものだし、そろそろ切り捨てる時かしらね…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "72": {
+      "type": "talk",
+      "dialogue": "ま、おいおい考えましょう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "73": {
+      "type": "talk",
+      "dialogue": "準備は整った。また一歩、私の望みに近づく…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "74": {
+      "type": "talk",
+      "dialogue": "《DA計画》本当に楽しみね。",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "75": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

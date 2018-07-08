@@ -2,255 +2,322 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "蕾さん。もうお家に帰る時間ですよ。",
-      "background": "bg015_f",
-      "bgm": "17",
+      "dialogue": "ちょっと前のホウキ事件があった後、\\なんとリザが気前よく掃除機を買ってくれていた。",
+      "background": "bg086_f",
+      "bgm": "9",
       "char": "none",
-      "speaker": "unknown1",
-      "pos": "center"
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "でも、花壇にお水をあげないと\\お花がしおれちゃうから…",
-      "char": "c120_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "高価で高性能な物を選びました。\\これからは御主人様ご自身で、\\お掃除なさって下さい。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いいのよ。\\その花壇は、明日取り壊されるんだから。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ここまでしたにも関わらず片付かないようなら、\\その時は御主人様に、またヤーガのホウキを\\握ってもらいますからね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そんな…",
-      "char": "c120_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "なんだよー、\\それって俺の面倒が増えただけじゃんかー。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "みんなで作った花壇なのに…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "それは私のセリフです。\\御主人様のせいで、来る日も来る日も\\掃除、洗濯、食事の支度まで…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "6": {
       "type": "talk",
-      "dialogue": "お花が咲くの、楽しみにしてたのに…",
+      "dialogue": "私は家政婦ではなく、\\あくまで御主人様のサポーターなんですよ！",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そんな顔しないで。\\そこに新しい建物が建つことになっているから、\\仕方がないのよ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "はいはい、わかってますよー。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "でも…",
-      "char": "c120_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "それはそうと、\\ヤーガはどこに行ったんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うっ…ううっ…お花、かわいそうだよぉ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left",
-      "before_effect": "shake_weak"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "蕾さん…",
-      "char": "c027_00",
-      "speaker": "same_full",
+      "dialogue": "さあ？ホウキを取られないように、\\どこかに隠れているのでは？",
+      "char": "c002_01",
+      "speaker": "same",
       "pos": "right"
     },
-    "11": {
+    "10": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "もしかしてあいつ…まだエリオスのことで、\\怒ってんのかね？",
+      "background": "dungeon_bg",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "美しき花の女神よ。\\なぜこんな場所へ？",
-      "background": "bg015_f",
-      "char": "c027_01",
+      "dialogue": "あ、ヤーガ、こんなトコにいたのか。\\気分はどうだ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "この花壇は、明日には消えてしまうと聞きましたが。",
-      "char": "keep",
+      "dialogue": "悪くはありません。\\わざわざ、それを訊きに来たんですか？",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…うん。\\でも、お花さん達は咲きたいって言ってるのぉ。",
-      "char": "c120_01",
+      "dialogue": "いや、まあ、そのだな…\\とにかく、元気ならいいんだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "このまま咲けないなんて、可哀想だよぉ…",
-      "char": "keep",
+      "dialogue": "ところで、他に何かご用ですか？\\命令などあれば…",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "心優しいお嬢さん。貴女がそう望むのならば、\\貴女が花を咲かせるまで、\\このキンティアがお守りいたしましょう。",
-      "char": "c027_01",
+      "dialogue": "あー、だから別に用ってほどじゃないんだ。\\お前の姿が見えなかったからだな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ありがとぉ。\\マツバボタン、キンセンカ、スミレ…\\みんなフローラのお歌を聴いてぇ！",
-      "char": "c120_01",
+      "dialogue": "…私を心配して見に来たと？",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "お花さん達の一番綺麗な姿を見せてほしいのぉ。",
-      "char": "keep",
+      "dialogue": "まあ、そんなトコだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "みんなの心を、幸せで満たせるように…",
-      "char": "keep",
+      "dialogue": "面白いですね。\\ご主人様は、悪魔らしくない顔もお持ちで。",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "まさか悪魔がチャイルドの心配をするとは…\\悪魔にとってチャイルドは\\道具に過ぎないと思っていましたが…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ご覧になりましたか？あの花壇。",
-      "background": "bg015_f",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "どうだろうな…他の悪魔はそんな感じみたいだけど、俺はそういうの、ちょっとなあ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "花壇？…まあ、いつの間に咲いたんでしょう。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "別に魔王になりたい訳でもねーし…\\何だよ、そんな怪訝そうなツラして？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "わかりません。\\…ですが、このまま取り壊されるのは\\少々もったいないですね。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "私の契約者は、悪魔が願いを叶えてくれると\\本気で思っていました。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "そうだわ！せっかくですし、\\工事が始まる前に花壇を移しませんか？\\屋上辺りなら、邪魔になることもないでしょうし。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "お前はそう思ってないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "いい考えですね。あれほど美しい花壇を\\失くしてしまうのは惜しいですから。\\では、早速。きっと子供達も喜びますよ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "さあ…私の契約者が願いを叶えるために\\ご主人様を呼んだのは事実ですが。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "26": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "結局ご主人様が彼女と契約を結んだのは、\\ご主人様の目論見通りだったのではないですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…モナ、新しい料理を考案しているようですね。",
-      "background": "bg089_f",
-      "char": "c002_01",
+      "dialogue": "俺を自分勝手な奴だって、\\言いたいのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "これは…お花ごはん？",
-      "char": "keep",
+      "dialogue": "まさか。\\かえってご主人様が悪魔らしい行動をしたと\\感心しております。",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そうよ～♥カラフルな物を食べると、\\気分も軽くなるんじゃないかと思って～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "dialogue": "バカにされてるのか、本気でそう思ってるのか。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "それで花料理…ですか。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "どーも無表情だから、よくわからん。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "31": {
       "type": "talk",
-      "dialogue": "いけなかったかしら？\\家中がお花だらけだから、\\ちょうどいいと思ったんだけど～。",
-      "char": "c001_01",
+      "dialogue": "…悪魔らしい行動、ねえ。それじゃお前は、\\どうしてそんな自己中なヤツの力を借りたいんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…いえ、名案です。\\フローラの様子から言って、\\しばらくの間は花が増え続けそうですから。",
-      "char": "c002_01",
+      "dialogue": "理由は簡単です。\\悪魔が私より強いからです。",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ふふ、フローラってばとっても楽しそうだものね～♥",
-      "char": "c001_01",
+      "dialogue": "はあ…何かよくわからんけど、\\これだけはハッキリしたな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "normal",
+      "facial": "haah"
     },
     "34": {
       "type": "talk",
-      "dialogue": "…さあ、フラワーティーが入ったわよ～♥\\みんなで楽しみましょう～♥",
+      "dialogue": "今、誰よりも悪魔っぽいのは俺じゃなくて、\\お前だろーな。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "normal",
+      "facial": "idle"
     },
     "35": {
       "type": "talk",
-      "dialogue": "えへへ…みんな幸せになあれ。",
-      "char": "c120_01",
+      "dialogue": "私が…悪魔らしい、ですか？",
+      "char": "c117_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "right",
+      "distance": "normal"
     },
     "36": {
+      "type": "talk",
+      "dialogue": "ホントの所、\\とっくにお前も分かってるんじゃないか？\\俺が人間の真似してる悪魔だってさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "もしかして…怒っていますか？",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "そーだな。\\お前と話していると、腹が立って仕方ないよ。\\俺、もう帰るわ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "angry",
+      "before_effect": "go_to_left_point"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "強いと言われて…怒ったの？\\本当に、悪魔らしくない悪魔ね。",
+      "char": "c117_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

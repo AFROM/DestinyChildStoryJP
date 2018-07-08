@@ -1,46 +1,42 @@
-{
+﻿{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いらっしゃませ。初めてのお客様ですね。\\ここは<color=\"cc66ff\">《Bar REPLAY》</color>でございます。",
-      "background": "bg176_f",
-      "bgm": "28",
-      "char": "c152_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "400501001"
+      "dialogue": "<color=\"ff9900\">クリスタル</color>を使ってチャイルドを召喚できます♥ ",
+      "background": "back_dim50",
+      "char": "c255_01",
+      "speaker": "none",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お酒は忘却の飲み物だと言いますが、\\ここではその逆…",
+      "dialogue": "召喚にクリスタルを使う理由ですか？",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400501002"
+      "speaker": "none"
     },
     "3": {
       "type": "talk",
-      "dialogue": "思い出したい記憶を願えば、\\ついさっきの出来事のように思い出せるでしょう。",
+      "dialogue": "欲望のカルマから逃れられない\\彼岸の存在を呼びやすくするため…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400501003"
+      "speaker": "none"
     },
     "4": {
       "type": "talk",
-      "dialogue": "未成年にお酒は勧められませんね…\\ミルクでも一杯いかがですか？",
+      "dialogue": "…少し難しかったようですね♥ ",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400501004"
+      "speaker": "none"
     },
     "5": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "今日のために\\先に<b>クリスタル30個</b>を入れておきました。",
+      "char": "keep",
+      "speaker": "none"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "直接チャイルドを召喚してみるのが一番早いですから♥",
+      "char": "keep",
+      "speaker": "none"
     }
   }
 }

@@ -2,289 +2,217 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様ー！ご主人様ー！",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c126_01",
-      "speaker": "same"
+      "dialogue": "は～い★深夜のパートナーA.I登場～★\\格闘実況チャンネルEvilを\\あなたの元にお届けしま～す！",
+      "background": "bg099_f",
+      "bgm": "29",
+      "char": "c174_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "toonear",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうしたんだ、サルマキス？",
-      "char": "c000_01",
+      "dialogue": "あなたのA.I、今日も張り切っていっちゃうよー！\\さて、今日のゲストは～？じゃーん★",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "バステト見なかった？",
-      "char": "c126_01",
+      "dialogue": "物凄い人気を誇る\\《カリスマ悪魔のイブ様》でーす！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "one_ani": "attack"
     },
     "4": {
       "type": "talk",
-      "dialogue": "バステト？\\いや…アイツは神出鬼没だからな…",
-      "char": "c000_01",
+      "dialogue": "いらっしゃいませ～イブ様！\\お越しいただき光栄です～！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どこに行ったんだろ？",
-      "char": "c126_01",
+      "dialogue": "どうも…\\本当は出たくなかったけど…\\近所迷惑になるくらいに付きまとわれて、\\駄々をこねられるとは思わなかったから…",
+      "char": "c124_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "enter_from_right_fast"
     },
     "6": {
       "type": "talk",
-      "dialogue": "何か用があるのか？",
-      "char": "c000_01",
+      "dialogue": "あはっ！ちなみに、今回の出演交渉、\\なかなかハードだったんですよぉ！",
+      "char": "c174_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "実は彼女のことが心配で。",
-      "char": "c126_01",
+      "dialogue": "1か月間、ストーカーの様にずーっと離れなかったから、あちこちに引っ張り回されちゃって！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "何があったか知らないけど、\\アイツのことなら心配しなくていいぞ。",
-      "char": "c000_01",
+      "dialogue": "A.Iの恥ずかしい姿をカメラに収めたオトモダチが\\たくさんいるらしいんだけど、\\番組終わったらお仕置きに行くから覚悟しててね★",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "他のことはともかく、自分のことは\\自分でなんとかするタイプのヤツだから。",
-      "char": "keep",
+      "dialogue": "魔界の果てまで追いかけちゃうんだから★\\それはそうと、イブ様！\\さっそくだけど質問ターイム！",
+      "char": "c174_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ひどいよ、ご主人様！",
-      "char": "c126_01",
+      "dialogue": "ヘタレでどうしようもない悪魔の\\使い魔になったって噂は本当なんですかぁ～？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "え？何が？",
-      "char": "c000_01",
+      "dialogue": "……",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "彼女のこと、放っておきすぎじゃない？",
-      "char": "c126_01",
+      "dialogue": "イブ様～？\\",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "私はね、バステトを見るたびに思うの。\\ボーっとしてるっていうか…\\寂しそうにしてるっていうか…",
-      "char": "keep",
+      "dialogue": "…ふふ、こんなことだろうと思ったわ…A.I。\\いいえ、チャンネルEvil。\\悪魔の取り巻きが…悪魔をからかおうっていうの？",
+      "char": "c124_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake_weak"
     },
     "14": {
       "type": "talk",
-      "dialogue": "アイツがか？他のヤツはともかく、\\アイツは絶対に寂しさなんか知らないヤツだぞ？",
-      "char": "c000_01",
+      "dialogue": "それとも、奴がバックについているからって…\\悪魔を甘く見てるのかしら…？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "気のせいだろ。",
+      "dialogue": "困るわね…チャンネルEvil…\\面倒なことを引き受けてくれていたから、\\黙っていたけど…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そんなことないわ。\\寂しさを感じない人なんていないもの。",
-      "char": "c126_01",
+      "dialogue": "あなたたちが魔王争奪戦でどんな役割をしようと…\\正直、私にはまったく興味がないの…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "彼女は他のチャイルドと仲良くするつもりは\\全くないみたい。",
+      "dialogue": "A.Iって言ったかしら…？\\私からどんなお仕置きを受けようと…\\後悔はないわね？",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "before_effect": "shake_weak"
     },
     "18": {
       "type": "talk",
-      "dialogue": "話しかけても変なことばかり言うし…\\心を開いてくれるといいんだけど…",
-      "char": "keep",
+      "dialogue": "イブ様ったらあ！\\あーん、もう、このクールな反応♥\\イブ様のお仕置きならドンと来いです～★",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あんなことしてたら\\一生独りぼっちになっちゃうよ。",
-      "char": "keep",
+      "dialogue": "フフ…期待に応えてあげたいけど…\\それじゃあ、あなたたちが望む返事をしてあげるわ…",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そんなこと言ったって、\\アイツがどこにいるかも分からないに…",
-      "char": "c000_01",
+      "dialogue": "いつか必ずどこかで、\\そのヘタレ悪魔を命がけで守るつもりよ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "どうやってあんなヤツの友達になろうってんだ？",
-      "char": "keep",
+      "dialogue": "おほぉ～先ほどとは打って変わって情熱的な発言！\\熱い熱い～★",
+      "char": "c174_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "near"
     },
     "22": {
       "type": "talk",
-      "dialogue": "心配しないで！\\必ず彼女の友達になってみせるから！",
-      "char": "c126_01",
+      "dialogue": "でも、それが魔王争奪戦の決勝だったら、\\どうなっちゃうんですか～？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near"
     },
     "23": {
       "type": "talk",
-      "dialogue": "こんなことしてる場合じゃない。\\バステトを探しに行かなくちゃ！",
-      "char": "keep",
+      "dialogue": "命懸けで戦うことに変わりはないわ。\\その時、同盟なんて何の意味も成さないでしょね…",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "バステトー！バステトー！",
+      "dialogue": "この場にいた事を後悔するほど…\\徹底的に潰しにかかれば、誰も文句はないでしょ？",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_point"
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "本当に奇妙ねぇ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "モナ？どこに隠れてたんだ？",
-      "char": "c000_01",
+      "dialogue": "だそうですよ？\\あらっ、ご主人さま、顔色が悪いですよ？",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "pretense"
     },
     "27": {
       "type": "talk",
-      "dialogue": "サルマキスの契約者はバステトの契約者の\\お兄さんが好きだったのよぉ。",
-      "char": "c001_01",
+      "dialogue": "ま、魔界の女って…怖すぎる…\\",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "結局、彼女のお兄さんは亡くなっちゃったけど。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ああ。そのせいで彼女は独りぼっちになったんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そんな彼女から、誰も信じようとしない\\バステトが生まれたってわけだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それより、どこに隠れてたんだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ナ・イ・ショ・です♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "tempt"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ハァ？俺の部屋に秘密の通路でもつくったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "フフ～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "うっ…恐ろしい女だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

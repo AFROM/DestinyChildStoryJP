@@ -1,189 +1,286 @@
 {
   "phase1": {
     "1": {
-      "type": "timebrief",
-      "background": "bg004_f",
-      "bgm": "15",
-      "time": "16:58"
+      "type": "talk",
+      "dialogue": "アテン！アテンどこー！",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_left_jump",
+      "after_effect": "enter_from_right_slow"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はじめまして、みなさん。\\凛堂圭斗(りんどう けいと)と申します。",
-      "char": "c090_00",
-      "speaker": "same_full"
+      "dialogue": "ダビ？あの腹黒男に何か用でもあるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "おお。ウワサ通りの、礼儀正しい少年だね。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "何～？ご主人ってば、\\アテンにヤキモチでも焼いてるわけ？\\残念だけどダビは…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ありがとうございます。それでは僕はこれで…\\どうぞ、ごゆっくりお楽しみください。",
-      "char": "c090_00",
-      "speaker": "same_full"
+      "dialogue": "そこまでだ、ダビ。",
+      "char": "c066_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あの子が、有名な車イスの王子様ですか？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "あっ、アテン！\\見てみて、これね、全部外れたの！\\知恵の輪！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ああ、頭が痛い…どうして会長は、あんな子供に\\会社を任せるおつもりなのか…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ほう…よくできたな。\\では、褒美をやろう。",
+      "char": "c066_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "親の欲目と言うじゃない。\\欠点が見えてないんでしょう。\\ま、顔は合格って所かしら？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ご褒美！？\\何？何くれるの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy"
     },
     "8": {
-      "type": "curtain",
-      "background": "bg035_f",
-      "fade_out": "shorter",
-      "wait": "shorter",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "もう1レベル上の知恵の輪だ。\\これであと半日は遊べるな。",
+      "char": "c066_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…僕はこの苦難を乗り切れるだろうか。\\こんな恐ろしい人達の上に立つことが\\できるだろうか…",
-      "char": "c090_00",
-      "speaker": "same_full",
+      "dialogue": "難しすぎるなら…\\そうだな、以前会った、\\黒埼 陽平という男に手伝ってもらうといい。",
+      "char": "keep",
+      "speaker": "same",
       "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "いや、ここまで来て諦めるわけにはいかない。\\気を引き締めていかないと。",
+      "dialogue": "あの男は知恵の輪が得意なんだ。\\もし嫌がったら、部屋を散らかしてやれ。\\それを一番嫌う。",
       "char": "keep",
-      "speaker": "same_full",
+      "speaker": "same",
       "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "お坊ちゃま、風が冷えてきました。\\そろそろ中にお入りください。",
-      "char": "c091_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "わかった！\\ダビ、頑張るね！散らかすのは得意だから！\\じゃあ、ご主人のおもりはよろしくね！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "before_effect": "go_to_right_slow"
     },
     "12": {
       "type": "talk",
-      "dialogue": "大丈夫、もう少ししたら戻るよ。",
-      "char": "c090_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "おもりってなんだ！\\おい、俺の話を…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それでは、私もここでお待ちします。",
-      "char": "c091_00",
-      "speaker": "same_full",
+      "dialogue": "ふっ、行ってしまったな。",
+      "background": "bg086_f",
+      "char": "c066_01",
+      "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ありがとう。でも今は1人になりたいんだ。",
-      "char": "c090_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "アテンはダビが外した知恵の輪を、\\手のひらの上で軽く転がす。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…かしこまりました。",
-      "char": "c091_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "その直後、ダビが1日かけて外した知恵の輪は、\\あっという間に繋がった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c090_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "far"
+      "dialogue": "す、すごい…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "なんだ？興味があるのか？",
+      "char": "c066_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…ヴァルカン。\\今までどこを出歩いていたんですか？",
-      "background": "bg086_f",
-      "char": "c002_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "知恵の輪を見つめていると、\\アテンはそれを俺に差し出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "19": {
       "type": "talk",
-      "dialogue": "お前の知ったことではないだろう。\\どこへ行こうと私の自由だ。",
-      "char": "c090_01",
-      "speaker": "same"
+      "dialogue": "やってみろ。\\ダビが力任せに外したせいで、\\だいぶ緩くなっているがな。",
+      "char": "c066_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "いいえ、勝手な行動は困ります。\\もっとチャイルドとしての自覚を持ってください。",
-      "char": "c002_01",
+      "dialogue": "お前の知能なら、\\これぐらいでちょうどいいだろう。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "normal"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ふん！\\知ったことか！",
-      "char": "c090_01",
+      "dialogue": "またバカにしやがって…\\主人にそんな態度ばっかり取ってると、\\そのうち痛い目見るからな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "はあ…\\とても、あの大人しい少年のチャイルドとは\\思えませんね…\\これは手を焼かされそうです…",
-      "char": "c002_01",
+      "dialogue": "おお、怖い怖い。\\俺は力で勝負するタイプではないからな。\\いくらお前とはいえ、暴力でねじ伏せられたら、\\なす術はないだろう。",
+      "char": "c066_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "irritation"
+      "pos": "right"
     },
     "23": {
+      "type": "talk",
+      "dialogue": "…だが、それが仕置きだと言うのなら、\\甘んじて受け入れてやる。\\好きにするといい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "言ったな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "覚えてろよ。\\いつかきっちり、俺が主人だって叩き込んでやる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "わかったな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_fast"
+    },
+    "27": {
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "24": {
+    "29": {
       "type": "talk",
-      "dialogue": "ふん…\\やはり、私の立場はあまり宜しくないか。\\だが…",
-      "background": "bg086_f",
-      "char": "c090_01",
-      "speaker": "same"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "いや、ここまで来て諦めるわけにはいかない。\\気を引き締めていかないと。",
-      "background": "bg035_f",
-      "char": "c090_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "gray"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "そうだ、戦え。絶対に諦めるな。\\それでこそ私の契約者に相応しい。",
-      "background": "bg086_f",
-      "char": "c090_01",
+      "dialogue": "ふっ、ここまできて「いつか」か。",
+      "background": "bg056_f",
+      "bgm": "19",
+      "char": "c066_01",
       "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left"
     },
-    "27": {
+    "30": {
+      "type": "talk",
+      "dialogue": "ふふ、そこが可愛いでしょ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "モナか。\\どこから見ていたんだ？",
+      "char": "c066_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ダビに新しい知恵の輪をあげたところからかしら。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ご主人さまをからかいたくなる気持ちは、\\よ～くわかるけど、お手柔らかにね？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ご主人さまってば、すぐに拗ねちゃうから♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "はは、わかっているさ。",
+      "char": "c066_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "その辺りについても、計算尽くだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "俺はあの悪魔が、結構気に入っているからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,251 +2,279 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "正面素振り50回！\\…そこ！集中してください！",
-      "background": "bg123_f",
-      "bgm": "9",
-      "char": "c292_00",
-      "speaker": "same_full"
+      "dialogue": "<b>うわあぁぁぁ～っ！！</b>",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "fury",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "剣先が下がっていますよ！",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "うわあぁっ！痛い！殴るな！痛いって！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
       "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "はぁ、はぁ…もうダメです！\\少し休ませてください！",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "また、ケンカですか…",
+      "char": "c286_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ダメです！\\さっきも休んだでしょう。",
-      "char": "c292_00",
-      "speaker": "same_full",
-      "before_effect": "shake"
+      "dialogue": "ケンカじゃなくて一方的に叩かれているんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "5": {
       "type": "talk",
-      "dialogue": "でも、こんなんじゃ、みんな倒れちゃいますよ！\\いったん休憩にして、先生の初恋の話でも聞かせてくださいよ～",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "今度は何が問題ですか？\\本当に…1日おきにケンカしてますね。",
+      "char": "c286_01",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c292_00",
-      "speaker": "same_full"
+      "dialogue": "欲張りトサカ野郎！私がモナ姉さまからもらった\\限定品ミネラルウォーターをなんで飲むの！？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "限定品ミネラルウォーター？！\\教会の聖水じゃあるまいし、コンビニで一番安いの\\買って来ただけだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ルインよ、デュランダルよ。",
-      "background": "bg188_f",
-      "char": "c024_01",
+      "dialogue": "でも限定品なの！\\モナ姉さまがダビにくれたミネラルウォーターだから限定品なの！！",
+      "char": "c003_01",
       "speaker": "same",
-      "screen_effect": "gray"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "私はお前たちを、ただの手駒として扱う気はない。",
-      "char": "keep",
+      "dialogue": "はぁ…",
+      "char": "c000_01",
       "speaker": "same",
-      "screen_effect": "gray"
+      "pos": "left",
+      "facial": "haah"
     },
     "10": {
       "type": "talk",
-      "dialogue": "私が魔界の王となるために、お前たちの力を貸して欲しい。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "gray"
+      "dialogue": "ダビ…\\サキュバスが主人にケンカを売るだなんてあっては\\ならないことですよ？",
+      "char": "c286_01",
+      "speaker": "same"
     },
     "11": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ダビ悪くない！ご主人が悪いの！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "師匠～\\今日は天気が悪いのでアイスクリームを買って2人で食べましょうよ～？",
-      "background": "bg188_f",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "gray"
+      "dialogue": "もちろんサキュバスも自分の主人に対して\\そういう思いをすることもあるでしょう。",
+      "char": "c286_01",
+      "speaker": "same"
     },
     "13": {
       "type": "talk",
-      "dialogue": "悪天候とアイスクリームは関係ありません。",
-      "char": "c292_01",
-      "speaker": "same",
-      "screen_effect": "gray"
+      "dialogue": "自分より情けない主人に仕えるなんて、避けられない運命のようなものですよね。",
+      "char": "keep",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "それに、あなたは今、減量中のはずでは？",
-      "char": "keep",
+      "dialogue": "へ～…\\ヴェルデレトもやっぱりご主人を情けないと\\思ってたんだね。",
+      "char": "c003_01",
       "speaker": "same",
-      "screen_effect": "gray"
+      "pos": "right",
+      "facial": "smile"
     },
     "15": {
       "type": "talk",
-      "dialogue": "いや、まぁ、そうなんですけど…\\それじゃ、師匠の初恋の話でも聞かせてくださいよ～",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "gray"
+      "dialogue": "ご主人様～ご主人様～って毎日言ってるから\\本当にご主人様のことが好きなんだって思ったけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "はあ…\\これも試練の1つですか、ルーファス様…",
-      "char": "c292_01",
-      "speaker": "same",
-      "before_effect": "shake",
-      "screen_effect": "gray"
+      "dialogue": "インキュバスがご主人様を好きになるなんて…\\ありえないですよ。ただの礼儀です。礼儀。",
+      "char": "c286_01",
+      "speaker": "same"
     },
     "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "礼儀…礼儀ね。\\知ってたよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "18": {
       "type": "talk",
-      "dialogue": "すぐに怠けようとする愚かな輩…\\誰かが私の忠誠心を試すために、奴らに色魔を紛れ込ませているのか？",
-      "background": "bg097_chr02",
-      "char": "c292_00",
-      "speaker": "same_full"
+      "dialogue": "フフ…分かってあげてください、ダビ。\\これが思春期特有の悪魔ですから。",
+      "char": "c286_01",
+      "speaker": "same"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ああ、頭がおかしくなりそう…\\ルーファス様、私はいつまでここにいればいいのですか…",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "うーん、いいよ～\\ヴェルデレトがそこまで言うなら許してあげる。\\モナ姉さまにミネラルウォーター買ってもらおっと！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "victory",
+      "after_effect": "go_to_right_point"
     },
     "20": {
       "type": "talk",
-      "dialogue": "魔王争奪戦の情報を集めるために、力を尽くしているけど…",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "許してくれて有難うございます！チッ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "21": {
       "type": "talk",
-      "dialogue": "未だ有益な情報は得られていない…",
+      "dialogue": "何が《自分より情けない主人に仕えるなんて、\\避けられない運命のようなもの》だよ…",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "22": {
       "type": "talk",
-      "dialogue": "まるで不良生徒に振り回される新米教師みたいだな。",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "ほ～…\\そんなに長い言葉を覚えていたとは…\\案外記憶力が良いのですね。",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c292_00",
-      "speaker": "same_full"
+      "dialogue": "褒めても無駄だ！騙されないぞ？\\お前、俺を魔王にするとか何とか言ってたくせに、今までそんな風に思ってたわけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "面倒な生徒に言う事を聞かせるため、アイスを買ってやったんだって？",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "落ち着いてください。\\そもそもあれは、ダビの為、仕方なく言った事です。そんなことも分からないのですか？まったく…",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "もしまた同じ手を使うなら、先に食べさせて「食べたんだからやれ！」って言えばいいよ。",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "ふんっ！\\その割には、心が全くこもってなかったような気がするけど...",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "26": {
       "type": "talk",
-      "dialogue": "食べたんだからやれ？",
-      "char": "c292_00",
+      "dialogue": "そんな事はありません。\\素晴らしいご主人様に会えてすごく満足しているのですよ。",
+      "char": "c286_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "これさ、サキュバス達が俺によく使う手なんだけど、これが結構効くんだよ…",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "いつも正論ばかり言ってるけど、一度キレると\\性格変わるよな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "言う事を聞きたくなくて、返そうと思っても、すでにアイスはお腹の中…\\どうだ？恐ろしい策略だろ？",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "そんな所が信じられないんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "29": {
       "type": "talk",
-      "dialogue": "余計なお世話です。\\チビ猫のアドバイスなど要りません。",
-      "char": "c292_00",
-      "speaker": "same_full"
+      "dialogue": "とにかく分かった。でも、えーと…\\インキュバスなんだからもう少しインキュバスらしく行動してくれよ。分かった？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "30": {
+      "type": "talk",
+      "dialogue": "もちろんですとも。",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
       "type": "curtain",
-      "background": "back",
+      "background": "bg223_f",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "31": {
-      "type": "talk",
-      "dialogue": "せ、先生…さっき食べたアイス、吐きそうです…\\うっ…",
-      "background": "bg123_f",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "dialog_shake"
-    },
     "32": {
       "type": "talk",
-      "dialogue": "何を言っているのですか！？\\素振りで嘔吐する人なんて、見たことありません。",
-      "char": "c292_00",
-      "speaker": "same_full",
-      "before_effect": "shake"
+      "dialogue": "ご主人様…社長…間抜けな悪魔の後始末なんて、\\いつまでやらなきゃいけないんですか？",
+      "bgm": "24",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "さぁ、思い切り竹刀を振ってください。\\例え吐いても、私が責任をもって片付けます。",
+      "dialogue": "ホント、イヤです。",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "気合いを入れて正面素振り、あと100回！",
-      "char": "keep",
-      "speaker": "same_full",
-      "one_ani": "attack"
+      "dialogue": "もう少しだけ我慢してください、モーガン。",
+      "char": "c286_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "35": {
       "type": "talk",
-      "dialogue": "ううっ…\\もう勘弁してください！！",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "dialog_shake"
+      "dialogue": "私たちの新しいご主人様はただの道具に過ぎません…私がリザよりも、優れていることを証明するには、\\少し時間が必要です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "36": {
       "type": "talk",
-      "dialogue": "ふふふ…\\チビ猫も、たまには役に立ちますね。",
-      "char": "c292_00",
-      "speaker": "same_full",
-      "pos": "center",
+      "dialogue": "魔王争奪戦が終わったら…\\あなたの望みを聞いてあげましょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
       "distance": "near"
     },
     "37": {
+      "type": "talk",
+      "dialogue": "社長は永遠に分からないでしょう…\\私が何を望んでいるのか…",
+      "char": "c283_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

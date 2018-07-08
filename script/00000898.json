@@ -1,108 +1,332 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg024_f",
-      "bgm": "59",
-      "fade_in": "normal",
-      "hold": "shorter"
+      "type": "talk",
+      "dialogue": "俺の携帯に変なメールが届いた。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "巨大な赤い龍、古の蛇、悪魔、サタン、\\世界を欺く者よ。",
-      "char": "c049_00",
-      "speaker": "same_full"
+      "dialogue": "どう見ても、魔王候補生の誰かが送ってきたメールに違いない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "生まれながらの罪人、摂理から外れた者、\\摂理を持たざる者よ。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "本当におかしなメールですね。\\御主人様に同盟を提案する悪魔がいるなんて…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "嘘、偽りの父よ。",
+      "dialogue": "争奪戦に参加したばかりの候補生のようですね。",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "私の脂に塗れた肉と内臓を…\\私の肝と2つの腎臓を、私の体をあなたに捧げます。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "参加したばかりの候補生？\\なんで分かるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "私をあなたの火で燃やし、\\私にあなたの律法をお授けください。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "御主人様の戦力を全く把握できていないからです。\\送信元のサポーターが誰なのか分かりませんが、本当に情けないです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "人間よ。俺を呼んだか？",
-      "char": "none",
-      "speaker": "Devil"
+      "dialogue": "見知らぬヤツにそこまで言うのか…\\お前こそサポーターの役目、ちゃんとできてるのか？毎日、俺のプライドを踏みにじってるだけだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ようこそ、おいで下さいました。悪魔よ。",
-      "char": "c049_00",
-      "speaker": "same_full"
+      "dialogue": "私は私なりに御主人様を《完璧》にサポートしているつもりですよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "勘違いするな。そのデタラメな呪文で\\召喚されたわけではない…",
-      "char": "none",
-      "speaker": "Devil"
+      "dialogue": "大した自信だな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ふざけた修道女が毎晩、悪魔召喚の儀式をしている\\という噂を聞いて訪れただけだ。",
-      "char": "none",
-      "speaker": "Devil"
+      "dialogue": "でなければ御主人様は、すでに脱落してるでしょう。話を戻しますが、とにかく送信元についてもう少し調べてみましょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "しかし、その噂が本当だったとはな…\\お前、一体何人の悪魔と契約した？",
-      "char": "none",
-      "speaker": "Devil"
+      "type": "curtain",
+      "background": "keep",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "安らぎを…私に安らぎを…！",
-      "char": "c049_00",
-      "speaker": "same_full"
+      "dialogue": "そんなわけで、俺はバズランボーと一緒に、偵察とモナのおつかいと野暮用のために出かけた。",
+      "background": "bg001_f",
+      "bgm": "31",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "13": {
       "type": "talk",
-      "dialogue": "はっ！それがお前の願いか？哀れなヤツだ。\\悪魔に安らぎを求めるなんて…",
-      "char": "none",
-      "speaker": "Devil"
+      "dialogue": "買わなきゃいけない物が、なんでこんなにあるんだ？こんだけ買ってりゃお金が貯まるわけないよな…\\トホホ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "14": {
       "type": "talk",
-      "dialogue": "よし、人間！俺と契約しろ！\\お前に安らぎを与えてやろう。運が良ければな…",
-      "char": "none",
-      "speaker": "Devil"
+      "dialogue": "買い物に行くんですか、マスター？",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "安らぎを…私に安らぎを与えてください…",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "ああ、モナにおつかいを頼まれてな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "このままではいけない。\\あれでは本当に死んでしまう！\\助けを呼ばないと…",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "after_effect": "go_to_left_point"
+      "dialogue": "では買い物をしてから偵察するのですか？",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
+      "type": "talk",
+      "dialogue": "え？買い物の次は…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
       "type": "curtain",
       "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ダビ～！\\泥遊びはそのくらいにして、家に帰れよ！",
+      "background": "bg122_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "何、ご主人！\\いつからダビのストーカーになったの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "誰がストーカーだ！\\モナに言われて探しにきたんだよ！\\あんまり遠くに行くなって言われてるだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "え～ん！ダビもっと遊びたいのに…\\帰りたくないもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_slow"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "マスターにメールを送ってきた悪魔にはいつ会えるのでしょうか？",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "そ、それはだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "おいおい…\\《10年後の夢》とか《叶えたい願い》とか、ないのかよ？",
+      "background": "bg042_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なんだ？エセ宗教の勧誘か？\\洗脳なんかされてたまるか！",
+      "char": "none",
+      "speaker": "gentleman"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "あ、行ってしまいましたね。",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "はぁ、モナに契約取ってこいって言われてるのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "マスターにメールを送ってきた悪魔にはいつ会えるのでしょうか？",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "そ、それはだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "32": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "……",
+      "background": "bg064_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "マスター…\\私たちは今、目的を見失っているのではないでしょうか？",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "そんなことはないと思うけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "でも、誰もいません。",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そうか！それはきっと来るのが遅すぎたんだ…\\仕方ない…家に帰ろう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "マスター…なんだか機嫌がよろしいようで。\\その悪魔と戦わなくても良いのではないでしょうか？",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そうだな。\\そいつが悪いヤツとは限らないしな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "正直、他の候補生と会うのは疲れるよ…\\戦いは性に合わないしな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "こんなことリザたちの前で言ったら怒られるけど。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "それはよかったです。私も戦うのは嫌いです。",
+      "char": "m202_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "そうなのか？\\久しぶりに心の通じるチャイルドに出会えたな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "44": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     }

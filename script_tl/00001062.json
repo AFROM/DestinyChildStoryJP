@@ -1,102 +1,24 @@
-{
+﻿{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "……! ",
-      "char": "none",
+      "dialogue": "ついに<color=\"ff9900\"><b>アンダーグラウンド</b></color>まで来ましたね♥\\ここは全チャイルドで挑まないといけないんです。",
+      "background": "back_dim50",
+      "char": "c255_01",
       "speaker": "none",
-      "sound": "se_tutorial_alarm",
-      "voiceid": "900201026"
+      "one_ani": "attack"
     },
     "2": {
-      "type": "curtain",
-      "background": "back",
-      "bgm": "none",
-      "fade_out": "shortest",
-      "wait": "shorter",
-      "fade_in": "longer"
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">すべて15ステージ</color>で、全ステージを通り抜けられたら\\小さいご主人さまの勝利！",
+      "char": "keep",
+      "speaker": "none"
     },
     "3": {
-      "type": "curtain",
-      "background": "bg086_f",
-      "fade_out": "shorter",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "4": {
-      "type": "curtain",
-      "background": "bg086_f",
-      "fade_out": "longer",
-      "wait": "normal",
-      "fade_in": "longer"
-    },
-    "5": {
       "type": "talk",
-      "dialogue": "Ah ah ah… What was that?!",
-      "background": "bg086_f",
-      "bgm": "none",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "screen_effect": "dialog_shake",
-      "sound": "se_tutorial_bed",
-      "voiceid": "900201027"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "A... Dream?",
+      "dialogue": "<color=\"ff9900\">3つのステージ</color>をクリアするたびに\\<color=\"ff9900\">コロニー</color>で報酬とバフをもらいます。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle",
-      "voiceid": "900201028"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "It was a dream, right?",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "idle",
-      "voiceid": "900201029"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "In that case, I'll continue sleeping!",
-      "bgm": "24",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "joy",
-      "voiceid": "900201030"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "To tell you the truth, it’s time to work\\It's incredible that a descendant of the Demon Lord like me is working in a shop…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "900201031"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "Ahh… how annoying…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "sound": "se_prologue_cloth",
-      "voiceid": "900201032"
-    },
-    "11": {
-      "type": "curtain",
-      "background": "back",
-      "bgm": "none",
-      "fade_out": "longest",
-      "wait": "longer",
-      "fade_in": "longer"
+      "speaker": "none"
     }
   }
 }

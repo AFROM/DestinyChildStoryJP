@@ -2,268 +2,295 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ねぇ、バカご主人ーあれ知ってる？",
+      "dialogue": "ダビ！ダビ！",
       "background": "bg086_f",
-      "bgm": "12",
-      "char": "c003_01",
+      "bgm": "4",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご主人は誰かさんの言う通り<b>バカ</b>だからな。\\<b>あれ</b>だけじゃ何のことか分からない。",
-      "char": "c000_01",
+      "dialogue": "うわあ！聞こえないよ！\\ダビには何も聞こえないよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "angry"
     },
     "3": {
       "type": "talk",
-      "dialogue": "それじゃ、ダビちゃんがバカご主人に\\優しく教えてあげるよ。",
-      "char": "c003_01",
+      "dialogue": "…お前、俺のイヤホンに触ったろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "angry"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あのね、\\キツネって酸っぱいブドウが嫌いなんだって！",
-      "char": "keep",
+      "dialogue": "うう、ダビは何も聞こえないよー。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "facial": "angry"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何だよ、急に…",
+      "dialogue": "これでもか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "pretense"
     },
     "6": {
       "type": "talk",
-      "dialogue": "モナ姉さまが読んでくれた本にあったんだよ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "俺は両耳を塞ぎ、首を振るダビに\\わざと指を見せゆっくり近づいた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "《キツネは言いました。あのブドウは\\まだ熟してないからどうせ食べられない》",
-      "char": "keep",
+      "dialogue": "ひゃあ！あっ！ひひひい！や、やめっ！\\うへへへ！やめれー！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile",
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "何だ、イソップ物語か？",
+      "dialogue": "さ、これでもう聞こえるだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "バカにも分かる話なの？",
+      "dialogue": "卑怯者！\\ダビはくすぐられるの苦手なの知ってるくせに！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "だからやったんだ。さ、ちゃんと答えろ。\\俺のイヤホンに触ったろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "触ってない！",
       "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "10": {
-      "type": "talk",
-      "dialogue": "バカを連呼するな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "それにその話の教訓は\\《キツネは酸っぱいブドウが嫌い》じゃないぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
     "12": {
       "type": "talk",
-      "dialogue": "自分に能力がないことを棚に上げて物事を\\環境などのせいにする怠け者の話だ。",
-      "char": "keep",
+      "dialogue": "嘘つくな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "俺が知ってるヤツの話か。",
-      "char": "c234_01",
+      "dialogue": "嘘じゃないもん！\\このトサカ野郎、いっつもダビばっかり疑って…",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ダビも！そういうヤツ知ってるよ。",
-      "char": "c003_01",
+      "dialogue": "お前の仕業じゃない…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "オマエらの言う知ってるヤツって、\\まさか俺じゃないよな？",
-      "char": "c000_01",
+      "dialogue": "本当か？\\じゃあ、どうしてイヤホンが壊れたんだ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "他に誰がいるの？",
+      "dialogue": "イヤホンひとつで怒ってるわけ？\\歌なんか聞かなきゃいいじゃん。",
       "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "誰が怠け者のキツネだって？\\慎重で我慢強いタイプなんだ、俺は。",
+      "dialogue": "イヤホンすれば\\お前のうるさい声を聞かずに済むだろ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "屁理屈までそっくりだな。",
-      "char": "c234_01",
+      "dialogue": "ダビの声は世界一可愛いんだよ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "そもそも採って食べたいブドウなんて\\俺にはないよ。勘違いしないでくれ。",
+      "dialogue": "ご主人様♥",
+      "char": "c233_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "アルゲースか、どうした？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "20": {
-      "type": "talk",
-      "dialogue": "魔王に興味がないのか？まったく…",
-      "char": "c234_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "21": {
       "type": "talk",
-      "dialogue": "バカかお前は！",
-      "char": "keep",
+      "dialogue": "ご主人様に告白したいことがあって。",
+      "char": "c233_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "やっぱバカだって！",
-      "char": "c003_01",
+      "dialogue": "こ、告白？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うるさい！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "まあ、お前が怠け者のキツネであろうが\\俺にはどうでもいい。",
-      "char": "c234_01",
+      "dialogue": "何を期待してるか分からないけど\\トサカ野郎が聞きたがってる\\その告白じゃないと思うよ。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
+    "24": {
+      "type": "talk",
+      "dialogue": "な、何だよ、俺が期待してる告白って。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "25": {
       "type": "talk",
-      "dialogue": "だが！",
-      "char": "keep",
+      "dialogue": "あの、実はぁ…",
+      "char": "c233_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "うん、うん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "さっきミスして電気がビリリッって…",
+      "char": "c233_01",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "26": {
-      "type": "talk",
-      "dialogue": "そんなに近寄るな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "優柔不断な子狐のせいで\\俺の課業を邪魔されるわけにはいかない。",
-      "char": "c234_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "28": {
       "type": "talk",
-      "dialogue": "何だよ、オマエの課業って。",
+      "dialogue": "ビリリッ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "29": {
       "type": "talk",
-      "dialogue": "己の力を試すことだ。\\だから大人しく魔王争奪戦に\\協力してやっているのに…",
-      "char": "c234_01",
+      "dialogue": "ご主人様のイヤホンに電流がビリリッって。",
+      "char": "c233_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "30": {
       "type": "talk",
-      "dialogue": "よりによって魔王争奪戦の参加者が\\こんなバカなヤツだなんて。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "やっぱりバカなんだ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "バカを連呼するな…",
+      "dialogue": "…お前の仕業だったのか！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "きゃっ！",
+      "char": "c233_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "うわあ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
       "before_effect": "shake"
     },
     "33": {
       "type": "talk",
-      "dialogue": "わざと強いヤツを避けてるだろう？\\なあ、子狐よ。",
-      "char": "c234_01",
+      "dialogue": "きゃっ。\\ごめんね、ご主人様。",
+      "char": "c233_01",
       "speaker": "same",
       "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "即脱落を避けるための有効な手段だろ？",
-      "char": "c000_01",
+      "dialogue": "心臓がビリリッ！\\ねぇ、告白された気分はどう？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right",
+      "facial": "victory"
     },
     "35": {
       "type": "talk",
-      "dialogue": "そうやって言い訳ばかりだと後で後悔するぞ。\\意外に熟した甘いブドウかもしれん。",
-      "char": "c234_01",
+      "dialogue": "刺激的すぎて…ショック死…バタッ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ご主人様！死んじゃダメ！",
+      "char": "c233_01",
       "speaker": "same",
       "pos": "right"
     },
-    "36": {
+    "37": {
+      "type": "talk",
+      "dialogue": "おめでとう、トサカ野郎。\\この世で一番刺激的な告白をもらったみたい。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "くうっ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

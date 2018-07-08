@@ -1,0 +1,94 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "あら？ここは…",
+      "background": "bg159_f",
+      "bgm": "23",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400619001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "いつもの雰囲気とは違いますね？\\ずいぶん暗いようですし…\\何か変な音も聞こえます。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400619002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "音…？音がどうしたって？\\俺には聞こえないけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "400619003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "うわ、どこ行くの？！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake",
+      "voiceid": "400619004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "やめてぇ～！ごめんなさい～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake",
+      "voiceid": "400619005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ご主人さま…\\そんなに怖がっていたら何もできませんよ。\\はぁ…良いでしょう、もう帰りましょう。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "400619006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "…あれ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400619007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…あれれ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "shake_weak",
+      "voiceid": "400619008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "エレベーターが…行ってしまいましたね～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "400619009"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

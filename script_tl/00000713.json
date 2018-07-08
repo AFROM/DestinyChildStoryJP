@@ -2,216 +2,256 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "これも、二束三文ぐらいにはなる…\\そうだな、これも持ってくか…",
-      "background": "bg086_f",
-      "bgm": "14",
+      "dialogue": "リ、リザ…俺が死んだら…ベッドの下を見てくれ。\\そこに俺の全財産を入れた通帳が…",
+      "background": "bg056_f",
+      "bgm": "12",
       "char": "c000_01",
-      "speaker": "same"
+      "speaker": "same",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "質屋に持っていく品は選べましたか、御主人様？",
+      "dialogue": "あ、その通帳なら既に全額引き落としています。",
       "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ああ。\\ま、小銭程度でも現金を殖やしておかないと、\\本当に路頭に迷いかねないしな…",
+      "dialogue": "ハッ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あの…さすがにこんなガラクタ、質草には\\ならないのでは…？",
+      "dialogue": "ベッドの下なんてありきたりです。",
       "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "手伝ってくれないならあっち行っててくれ。",
-      "char": "c000_01",
+      "dialogue": "遺言は終わったか？",
+      "char": "c230_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "おーい、おしゃべり悪魔さーん★",
-      "char": "c232_01",
+      "dialogue": "まだ終わって…ない！\\だから、今すぐ俺の背中から降りろ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "after_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ん…今俺に話しかけたのって、ダフネか？",
+      "dialogue": "そして、いい加減、遊びはお終いだ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "fury"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "まだ自分の立場を分かっていないようだな。\\いいだろ、その姿、忘れないでおく。",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "<b>運命の呪い！</b>",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "うわぁぁ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "地獄の安息を…",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "地獄をバカにするなよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "8": {
-      "type": "talk",
-      "dialogue": "珍しいこともあるものですね、\\ダフネから話しかけてくるなんて。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "それ、ぜーんぶダフネにちょーだい♪",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ぜんぶぅ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "一応言っておきますが、こんなのはいくら持って\\いてもゴミ同然ですよ。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "うるさいな、少し黙ってろよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
     "13": {
       "type": "talk",
-      "dialogue": "欲しいって言うなら譲ってもいいが、\\いくら出すんだ？タダじゃやれないぞ。",
-      "char": "keep",
+      "dialogue": "そ、そんな！私の必殺技を受けて\\無事でいられるなんて…！",
+      "char": "c230_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "全部合わせても、100円がいいところでは？\\ヘタをすれば処分費を取られかねません。",
+      "dialogue": "悲鳴はどうして？",
       "char": "c002_01",
       "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "お金は持ってないけどぉ、これでどうかな？",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そう言って、ダフネは俺が引っ張り出した\\ガラクタのひとつを持ちあげて見せた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "はい、これー★",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…いや、ちょっと待て。\\それ、俺のもんだぞ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "うん、これあげるよー♪",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "いやいやいや。\\なんか根本的なカン違いがあるようだが、\\それは俺のだって！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "これをダフネにくれれば、\\ダフネはこれをあげちゃう☆",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "だ、ダメだ、日本語が通じてる気がしない…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "つまり、こういうことでしょうか…\\御主人様のガラクタを、\\御主人様のガラクタで買うと。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "いや、それって理屈としておかしいだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "screen_effect": "dialog_shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "これも～、これも～、ふふふ、あと…これも♪",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "お、おい、やめろって！\\返してくれよ！",
+      "dialogue": "こいつのせいで背中が痛いんだよ！\\リザ！前みたいにコイツを気絶させてくれ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "27": {
+    "16": {
       "type": "talk",
-      "dialogue": "えっへへー★",
-      "char": "c232_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "dialogue": "無理です。どう考えてもあの技は私には\\難易度が高すぎます。",
+      "char": "c002_01",
+      "speaker": "same"
     },
-    "28": {
+    "17": {
       "type": "talk",
-      "dialogue": "こら、ダフネっ！",
+      "dialogue": "素直にやりたくないと言えよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "facial": "sulky"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "仕方ない。\\これだけは絶対に出さないと思っていたが…",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "じゃあ、出すな。\\それからさっさとそこをどけ。腰が砕けそうだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "悪魔、どうして私が右目を隠しているか知ってるか？",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…ものもらい？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…くっ！この右目は\\私が生まれた瞬間から封印されていた。",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "遠い昔…世界の起源まで遡る\\とても古い記録。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "その記録の中で眠っている古代の魂。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "また始まった。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "世界の秘密を秘めた…破壊の魂が…",
+      "char": "c230_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "この目の中に…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ネックスライス！",
+      "char": "c002_01",
+      "speaker": "same",
       "facial": "serious",
-      "after_effect": "go_to_right_point",
-      "screen_effect": "dialog_shake"
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "29": {
       "type": "talk",
-      "dialogue": "なるほど。ただ単に御主人様に構って\\ほしかっただけですね。",
-      "char": "c002_01",
+      "dialogue": "くっ…",
+      "char": "c230_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "30": {
+      "type": "talk",
+      "dialogue": "サンキュ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "到底、聞いてはいられないセリフです。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "もういい、早くこいつをどかしてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

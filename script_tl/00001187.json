@@ -1,121 +1,69 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "どんどん暗くなってくるけど、\\いったいどうなってるんだよ？",
-      "background": "bg159_f",
-      "bgm": "23",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "400604001"
+      "type": "curtain",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "これって完全に…\\<color=ff9900>《魔界の隅っこ》</color>みたいな感じだな。",
-      "char": "keep",
+      "dialogue": "なかなかいい感じですよ♥",
+      "background": "back_dim50",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle",
-      "voiceid": "400604002"
+      "pos": "right",
+      "facial": "tempt"
     },
     "3": {
       "type": "talk",
-      "dialogue": "魔界の隅っこってこういう感じなんですか？",
-      "char": "c001_01",
+      "dialogue": "どうだ！\\これが俺の実力さっ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense",
-      "voiceid": "400604003"
+      "facial": "pretense"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うん。光もなくて、暗くてな…\\モナは魔界の隅っこって行ったことないのか？",
+      "dialogue": "さすがです♥\\偉大な大悪魔である可愛いご主人さまなら、当然の結果でしたね～。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "400604004"
+      "facial": "unfair",
+      "screen_effect": "shake_weak"
     },
     "5": {
       "type": "talk",
-      "dialogue": "大体中央区域にいましたので。\\若い時はず～っとサポートの仕事をしてましたし。",
+      "dialogue": "ホホホ～。さて、そろそろモンスターたちへ記憶に残る一発を放ってみましょう！\\強力な一発！<color=ff9900><b>ドライブスキル</b></color>について説明しますね。",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense",
-      "voiceid": "400604005"
+      "facial": "smile"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうか…\\実はな、魔界の隅っここそが\\人間たちが話している<color=ff9900>《餓鬼地獄》</color>なんだよ。",
-      "char": "c000_01",
+      "dialogue": "<color=ff9900><b>ドライブスキル</b></color>は、さっき学んだ<color=fcc800>クリティカル(CRITICAL)</color>と<color=fcc800>弱点攻撃(WEAKPOINT)</color>を使用して、ゲージを溜めます。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "400604006"
+      "pos": "right",
+      "facial": "idle"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そこには恐ろしい悪魔達が集まってくるんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "voiceid": "400604007"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "奴らは、光の当たらない場所を求め\\飢餓地獄までやってくるんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "voiceid": "400604008"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "あらら～そうなんですか？\\それならば、アンダーグラウンドにも\\<color=ff9900>《恐ろしい悪魔》</color>が集まって来そうですね～",
+      "dialogue": "ゲージが溜まってボタンを押すと、必殺技が～！",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "facial": "pretense",
-      "voiceid": "400604009"
+      "before_effect": "shake_weak"
     },
-    "10": {
+    "8": {
       "type": "talk",
-      "dialogue": "その通りだよ！とても危険なんだ。\\だから、もう帰ったほうが… ",
+      "dialogue": "押すだけでいいの？それなら自信がある！\\毎日ネットカフェに行って鍛錬してたから！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "voiceid": "400604010"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "目標が目の前なのに止まれない～♪\\さあ、出発しましょう♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "one_ani": "attack",
-      "voiceid": "400604011"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "うううっ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry",
-      "voiceid": "400604012"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "facial": "joy",
+      "one_ani": "attack"
     }
   }
 }

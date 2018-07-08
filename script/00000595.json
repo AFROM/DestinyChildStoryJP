@@ -2,199 +2,359 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いち、に、さん…たったの三人？",
-      "background": "bg072_f",
-      "bgm": "19",
-      "char": "m136_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "おい、リザ。今度のはどんな奴なんだ？",
+      "background": "bg070_f",
+      "bgm": "31",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…何の話だ？\\悪魔を呼んだらさっさと願いを言ってくれ。",
-      "char": "c000_01",
+      "dialogue": "それは自分で確認してください。\\御主人様のチャイルドなのですから。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "またあの夢が問題か？",
-      "char": "keep",
+      "dialogue": "俺だけじゃわかんないんだよ。\\多重人格ってのも見破れなかったし、まだ出てない人格もあるって言うし…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "夢？ああ。あの夢はいつも問題だけど。\\でも、今はそれより大きな問題があるの。",
-      "char": "m136_00",
-      "speaker": "same_full",
+      "dialogue": "あら？こんにちは。ご主人様も、お散歩ですか？",
+      "char": "m077_01",
+      "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "お前の存在自体が問題だろ。",
+      "dialogue": "あ、ああ…そ、そう！散歩だった！\\なっ、リザ、散歩だよな！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "confused",
+      "before_effect": "shake",
+      "after_effect": "shake_weak"
     },
     "6": {
       "type": "talk",
-      "dialogue": "何だって？",
-      "char": "m136_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "…そこまで慌てると非常に不自然なのですが。\\とりあえずは、間違いないです。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "いや、だから…何が問題だって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "さっき何聞いてたわけ？\\三人しかないんだってば！\\今日いじめた奴が、たったの三人！",
-      "char": "m136_00",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "三人、しか？\\一体一日に何人いじめてるんだよ。",
+      "dialogue": "今日は「イイ奴」みたいだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "そのようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "smile"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "すっごい、いいお天気ですね、ご主人様！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "10": {
       "type": "talk",
-      "dialogue": "知らないわよ、初めから数えてなんかいないし。\\でも最近は…体が言うこと聞かない。",
-      "char": "m136_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "うん、そうだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ちょっとイタズラしようと思うと\\体が固まって…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "…嗚呼…こんなにいい天気なのに…私はなぜ幸せじゃないんでしょうか？",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "after_effect": "shake_weak"
     },
     "12": {
       "type": "talk",
-      "dialogue": "んー…",
+      "dialogue": "…へっ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "やっぱりあの夢が問題ね。\\誰かが私を縛り付けて、動けなくさせる夢。",
-      "char": "m136_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "はあ…天気にまで馬鹿にされてるみたい。\\私はこの世で一番哀れなチャイルドなんです、\\きっと。",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "after_effect": "shake_weak"
     },
     "14": {
       "type": "talk",
-      "dialogue": "結局、夢の通り！\\誰なのよ！誰が私の邪魔してるわけ？",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "あら、出ちゃったよ、別の人格。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "15": {
       "type": "talk",
-      "dialogue": "今も知らないヤツが\\お前を縛り付ける夢をみてるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "「憂鬱なモア」とでも名付けましょうか。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "だんだんひどくなる一方よ。\\怖い顔で動けないように体中縛り付けられる夢。",
-      "char": "m136_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "ご主人様は憂鬱な時、どうするんですか？",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak",
+      "after_effect": "shake_weak"
     },
     "17": {
       "type": "talk",
-      "dialogue": "きっと鍵があるはず…あの拘束具を外す鍵が…\\でもどれだけ探しても見つからない。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "俺？俺はまあ…\\部屋に閉じこもって、ずっと寝てるけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "もう！イライラする！！",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "なんだそりゃー！もっとアクティブに生きろよ！\\憂鬱な時はバンジージャンプがいいぜ！",
+      "char": "m077_01",
+      "speaker": "same",
       "pos": "right",
-      "screen_effect": "dialog_shake"
+      "screen_effect": "dialog_shake",
+      "loop_ani": "attack"
     },
     "19": {
       "type": "talk",
-      "dialogue": "レディの仕業に違いない。\\自分の契約者の行動をコントロールしているんだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "バンジー、やったことあるか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "loop_ani": "attack"
     },
     "20": {
       "type": "talk",
-      "dialogue": "こんなサイコパスから\\レディのようなチャイルドが生まれるのも\\不思議だけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "…いや。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "契約者があんなに\\チャイルドの影響を受けるのも珍しい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "今度は「ハイテンションモア」のようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "sigh"
     },
     "22": {
       "type": "talk",
-      "dialogue": "契約した後でそうなったんだろ？\\なら、契約が問題だと思うけど…",
+      "dialogue": "待った…多すぎだろ。あー訳わからん…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "俺を呼び出しても問題は解決しないぞ。",
-      "char": "keep",
+      "dialogue": "ククク、アーハッハッハ！\\どうやらボクの超絶精神攻撃が効いたようだね！？",
+      "char": "m077_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "loop_ani": "attack"
     },
     "24": {
       "type": "talk",
-      "dialogue": "うるさい！何かしないと気が済まないの！\\今だって体中縛られてるようで…",
-      "char": "m136_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "「中二病モア」…",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "haah"
     },
     "25": {
       "type": "talk",
-      "dialogue": "お前のことはさておき、\\俺にとって大切なのは契約だからな。",
+      "dialogue": "言わなくても、わかる。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "26": {
       "type": "talk",
-      "dialogue": "それで…お前の願いって何だ？",
-      "char": "keep",
+      "dialogue": "どんな攻撃かどーしても知りたいって？仕方ない、\\教えよう。たくさんの仮面を付けかえながら相手の精神を錯乱させる技だ。",
+      "char": "m077_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "loop_ani": "attack"
     },
     "27": {
       "type": "talk",
-      "dialogue": "鍵…拘束具を外す鍵が欲しい。",
-      "char": "m136_00",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "…アーッハッハッハ！この純白な魂が放つ攻撃に\\びっくりして声も出ないようだね？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "loop_ani": "attack"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "びっくりしたんじゃない、呆れてるんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "さあ、天に定められし漆黒の最終決戦(ハルマゲドン)の時は来た…掛かってこい、愚鈍で卑劣な悪魔め！！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "愚鈍で卑劣？お前、俺のことを卑劣って言ったな？\\愚鈍は合ってるが卑劣って言われるのは気に食わん！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "fury"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "落ち着いてください。もう少し待てば…",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "serious"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "いくら正気じゃないからってチャイルドに\\卑劣とか言われちゃ黙ってられないだろう？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "もう少し我慢すれば…",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "teach"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ああっ！なんということをしてしまったんだろう！\\ご主人様、私が失礼なことをしませんでしたか？",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…元通りになりますから。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "…これが「本来のモア」なのか？\\おい、モア。本当のお前は、一体どれなんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "これがホンモノです、ご主人様。",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "他の奴らも同じこと思ってるぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "でも、私たちは全員がホンモノなのです。",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "う～ん…色んな恨みが\\おもちゃに憑りついているように見えるけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "でも、チャイルドのお前たちは、魂はひとつ…\\あれ？俺、今「お前たち」って言ったよな？\\あーややこしい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "そんなにややこしいですか？\\それじゃあ、わかりやすくするために…",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "俺が貴様の体を乗っ取ってやる！\\このマヌケな悪魔め！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "えっと、こいつは「怒りモードのモア」だっけ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "おめでとうございます、御主人様。\\一石二鳥どころの収穫じゃないですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

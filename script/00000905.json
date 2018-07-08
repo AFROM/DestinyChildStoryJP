@@ -2,347 +2,262 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "じゃじゃ～ん！これがモナが用意した最終兵器…\\対魔王決戦兵器デビルバスター初号機リザ！",
-      "background": "bg095_f",
-      "bgm": "4",
-      "char": "c001_17",
+      "dialogue": "……俺に何か用か？",
+      "background": "bg054_f",
+      "bgm": "10",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "smile",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "500100025"
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうですか～？うふふふっ…！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory",
-      "voiceid": "500100026"
+      "dialogue": "あっさり見つかってしまうとは…\\尾行には、それなりに自信があったんだが。",
+      "char": "none",
+      "speaker": "Devil"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ヒトロクマルマル。約束の刻限ちょうどですね。",
-      "char": "c365_02",
-      "speaker": "same",
-      "before_effect": "enter_from_left_fast",
-      "voiceid": "500100027"
+      "dialogue": "そうなのか？\\真面目に尾行してるようには見えなかったが。\\その程度なら子守でもやってたほうがましだぜ？",
+      "char": "m206_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "リザッ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake",
-      "voiceid": "500100028"
+      "dialogue": "舐めた口を…\\まあ、いい。争う為に来たわけではないからな。",
+      "char": "none",
+      "speaker": "Devil"
     },
     "5": {
       "type": "talk",
-      "dialogue": "機械みたいなヤツだと思ってたけど、まさか本当にロボットになっちゃうなんて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "500100029"
+      "dialogue": "少し話をしないか？\\《ハーレム街の無法者ピッグボス》",
+      "char": "none",
+      "speaker": "Devil"
     },
     "6": {
       "type": "talk",
-      "dialogue": "何を言っているんですか？\\ちなみに私の計算では、あなたは360秒後に、3代目魔王ダビにロックオンされます。",
-      "char": "c365_02",
-      "speaker": "same",
-      "distance": "normal",
-      "voiceid": "500100030"
+      "dialogue": "俺には話す事なんてないんだがよ。\\まぁいい。くだらない話だったら覚悟しろよ？",
+      "char": "m206_01",
+      "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ぶっ！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake",
-      "voiceid": "500100031"
+      "dialogue": "お～怖い怖い。でも、きっとお前も気に入る話だ。",
+      "char": "none",
+      "speaker": "Devil"
     },
     "8": {
       "type": "talk",
-      "dialogue": "やめてください…汚いですね。\\舌下腺の分泌液が飛び散りましたよ。\\有機生命体はたまに訳の分からない行動をしますね。",
-      "char": "c365_02",
-      "speaker": "same",
-      "distance": "normal",
-      "one_ani": "attack",
-      "voiceid": "500100032"
+      "dialogue": "聞けば、仕える主人がいないというじゃないか。",
+      "char": "none",
+      "speaker": "Devil"
     },
     "9": {
       "type": "talk",
-      "dialogue": "訳がわからないのはこっちだよ…\\サキュバスリーダーのモナさんは本当はこんなチビでSSサキュバスのリザさんは本当はロボットだった\\なんて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "500100033"
+      "dialogue": "お前も知っての通り、俺はこの一帯でかなりの力を持つ悪魔だ。",
+      "char": "none",
+      "speaker": "Devil"
     },
     "10": {
       "type": "talk",
-      "dialogue": "リザはロボットじゃなくてアンドロイドです！それも太陽光で自家発電する未来志向型エコロイド！それが対魔王決戦兵器デビルバスター初号機リザです！",
-      "char": "c001_17",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "teach",
-      "voiceid": "500100034"
+      "dialogue": "はっきり言ってしまうと…\\お前に良い席を1つ用意してある。",
+      "char": "none",
+      "speaker": "Devil"
     },
     "11": {
       "type": "talk",
-      "dialogue": "エコだかエロだか知らないけど、そんなんどうでもいいよ！それに何だよ初号機って…\\リザのアンドロイドが量産とか、悪夢でしかないぞ！",
-      "char": "c000_01",
+      "dialogue": "力を持つ悪魔？\\ブッヒッヒ～！",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake",
-      "voiceid": "500100035"
+      "one_ani": "attack"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あははは…そうか、やっぱりそういうことか！\\うすうす気づいてはいたけど、\\やっぱりこれは夢だな！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "voiceid": "500100036"
+      "dialogue": "何故笑う？",
+      "char": "none",
+      "speaker": "Devil",
+      "screen_effect": "dialog_shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "俺、早く起きろ～！！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "unfair",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "500100037"
+      "dialogue": "あ～スマン、スマン。\\力を持つ悪魔っていうから、記憶を振り返ってみたんだが、思い出せなくてな。",
+      "char": "m206_01",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "御主人様は今、覚醒状態にあります。\\寝言は寝てから言ってください。\\それに私は最初に作られた時から、ずっと今と同じ姿です。",
-      "char": "c365_02",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100038"
+      "dialogue": "年のせいかと思ったら笑えてきちまってな！",
+      "char": "keep",
+      "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "はぁ、無駄な時間を過ごしましたね。あなたは240秒後に3代目魔王ダビにロックオンされます。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100039"
+      "dialogue": "こ、こいつ…俺を挑発しているのか？\\せっかく部下にしてやろうと思ったのに！",
+      "char": "none",
+      "speaker": "Devil"
     },
     "16": {
       "type": "talk",
-      "dialogue": "240秒だと？あと何分後？！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake",
-      "voiceid": "500100040"
+      "dialogue": "ないっ！ありえないぜっ！\\俺がてめえの部下になるなんて、絶対ありえねぇ！",
+      "char": "m206_01",
+      "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "4分です。",
-      "char": "c365_02",
+      "dialogue": "絶対だっ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "teach",
-      "voiceid": "500100041"
+      "distance": "near",
+      "one_ani": "attack"
     },
     "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "19": {
       "type": "talk",
-      "dialogue": "やばいじゃないか！？",
+      "dialogue": "緊急速報です！",
+      "background": "bg099_f",
+      "bgm": "29",
+      "char": "c174_01",
+      "speaker": "same"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ハーレム街で正体不明の連続暴行事件が発生中！",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "悪魔、チャイルド、人間問わず、無差別に暴行を繰り返しているようです！",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦ではありふれたハプニングですが…\\被害が深刻そうですね。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ツイてない悪魔や力のない悪魔は、十分にお気をつけくださ～い♪",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "コソコソ…",
+      "char": "none",
+      "speaker": "staff"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "それって本当？",
+      "char": "c174_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "皆さん！ただ今、容疑者の人相と服装が公開された模様です！！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "容疑者は、主人のいないチャイルドと見られます。\\外見の特徴はモヒカン頭をした豚…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "モヒカン頭をした豚…\\そんなヤツは世界広しといえども、アイツしかいないだろう…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "serious"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "大変なことになりましたね～\\まさかピックボスが、ここまでやるとは…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "私たちに火の粉が降りかからないよう、注意しないといけませんね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "どういう事だ？なんで注意が必要なんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "だって、直前までピックボスと会ってたのはご主人さまですよね？\\共犯と思われる可能性だってゼロではありませんよ？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "うっ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious",
-      "before_effect": "shake",
-      "voiceid": "500100042"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "大丈夫です。落ち着いてください。\\2人とも私の背中に乗ってください。",
-      "bgm": "9",
-      "char": "c365_02",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100043"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "《緊急回避モード》を起動します。\\今からマッハ15のスピードで空を飛び、魔王ダビの追跡を振り切ります。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100044"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "どうです～？すごいでしょう、ご主人さま～！\\この日のために搭載した特別装備です。",
-      "char": "c001_17",
-      "speaker": "same",
-      "facial": "victory",
-      "voiceid": "500100045"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "すごい！すごいけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "screen_effect": "dialog_shake",
-      "voiceid": "500100046"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そんなスピードで飛ぶ物体の上に乗ったら、普通は死ぬだろう！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "shock",
-      "before_effect": "shake",
-      "voiceid": "500100047"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "私の性能を疑うのですか？聞き逃せない言葉ですね。",
-      "char": "c365_02",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100048"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "いいでしょう。\\私の性能を証明するために、収束型レーザービームの威力をお見せしましょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100049"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "嫌な予感がするぞ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "voiceid": "500100050"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ちょっ、こっち見ないで！！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "voiceid": "500100051"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ビビビビーーチュドーン！",
-      "background": "bg244_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "mvd": "effect/battle/drive/c365/drive_set.mvd",
-      "voiceid": "500100999"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "メラメラメラ…",
-      "char": "none",
-      "speaker": "none",
-      "voiceid": "500100998"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "このように、肉眼で確認することができる全ての範囲の生命体を消滅させることができます。",
-      "char": "c365_02",
-      "speaker": "same",
-      "voiceid": "500100053"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "あら素敵っ！本当にすごい～♥",
-      "char": "c001_17",
-      "speaker": "same",
-      "facial": "joy",
-      "voiceid": "500100054"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "は、はははは…\\あ、あれ…？\\足が…震えて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "after_effect": "shake",
-      "voiceid": "500100055"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "それに声帯についている超音波モジュールを使用すると半径15km内の物体は振動により崩壊します。",
-      "char": "c365_02",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100056"
+      "before_effect": "shake"
     },
     "34": {
       "type": "talk",
-      "dialogue": "いや～ん、すごーい！",
-      "char": "c001_17",
+      "dialogue": "で～は～♥\\そろそろお仕事に行きましょうか！",
+      "char": "c001_01",
       "speaker": "same",
-      "facial": "victory",
-      "before_effect": "shake",
-      "voiceid": "500100057"
+      "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "すごくない！！これ全部どういうことだよ！？\\アンドロイドになると、常識が無くなるわけ！？",
-      "char": "c000_01",
+      "dialogue": "今回は、ハーレム街周辺は避けましょうね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "voiceid": "500100058"
+      "pos": "right",
+      "facial": "pretense"
     },
     "36": {
       "type": "talk",
-      "dialogue": "それに、魔王はどうなったんだよ？\\こんなのんきに話しててもいいのかよ？",
-      "char": "keep",
+      "dialogue": "そ、そうだな…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "voiceid": "500100059"
+      "facial": "confused"
     },
     "37": {
       "type": "talk",
-      "dialogue": "…あちゃ！忘れてました～♥",
-      "char": "c001_17",
+      "dialogue": "…っていうか、今日はお仕事休ませて！！",
+      "char": "keep",
       "speaker": "same",
-      "one_ani": "attack",
-      "voiceid": "500100060"
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "38": {
       "type": "curtain",
       "background": "back",
-      "bgm": "keep",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"

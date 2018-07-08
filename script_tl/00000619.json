@@ -2,288 +2,261 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハーイ、おチビさん。調子はいかが？",
-      "background": "bg069_f",
-      "bgm": "10",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "た、助けてくれ！お願いだ…うわああ！",
+      "background": "bg058_f",
+      "bgm": "18",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うぅぅ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "dialogue": "うっせえなあ。ったく、この程度で\\俺様が煩わせられるなんてな…",
+      "char": "c037_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あら、元気ないわね。\\この店はお気に召さなかった？",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "悪魔め！あっちに行け！\\サインなんて無効だ！無効！",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "4": {
       "type": "talk",
-      "dialogue": "い、いえ！とても良いと思います！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "まったく、人間はこれだから信じらんねえ…\\おい、人間。契約すると言ったのはお前だ。",
+      "char": "c037_01",
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そう良かった。\\何かあったらいつでも言って頂戴。",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "いい加減、覚悟決めろや。\\これ以上、ガタガタ抜かすんじゃねえぞ。",
+      "char": "keep",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "俺の人生においてマフィアの女ボスから\\食事に招待される日が来るとは…",
+      "dialogue": "あ、あの時は、お前が悪魔だと知らなかったから…",
       "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "speaker": "unknown1"
     },
     "7": {
       "type": "talk",
-      "dialogue": "魔界でもこんなに緊張したことはなかったぞ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "だからなんだ、俺様が悪魔だと分かった所で\\何も変わらねえ。\\契約は契約だ。",
+      "char": "c037_01",
+      "speaker": "same"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あ、あの…ところで、どうして俺をここに？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "悪魔なんかだと知ってたら、\\契約なんかしなかったよ…！",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "9": {
       "type": "talk",
-      "dialogue": "心当たりがない、と言いたいのかしら？",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "おいおい、歴史の勉強が足りねえなあ…",
+      "char": "c037_01",
+      "speaker": "same"
     },
     "10": {
       "type": "talk",
-      "dialogue": "え？い、いえ！\\で、ですからモナとの賭け事の…せいで…",
+      "dialogue": "今の繁栄を築くのに、\\お前達の先祖がどれだけの悪魔と\\契約したか知っているか？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "人間たちだけの力で\\ここまで生き残れたとでも思ってるのか？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "欲を知り、その欲を満たす力をお前達が\\元々持ち合わせたものだと思っているのか？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "よく考えろ。\\お前は欲を満たし、俺様は力を得る…\\悪い話じゃないハズだ。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "い、嫌だ！絶対に契約しない！",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ふん…苦労して捕まえた餌だ。\\簡単に手放すわけには…",
+      "char": "c037_01",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "いかねえな。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "うわああああ！",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "おい！大丈夫か！さっき悲鳴が…\\どうしてお前がここに？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "enter_from_left_fast"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あー、小僧か。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "これは一体…あんた何したんだ？\\あの人間は？まさか死んで…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "11": {
-      "type": "talk",
-      "dialogue": "あ、そのことなら気にしなくていいわ。\\負けは負けだもの、約束は守らないと。",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "それに…あの契約書が何かは知らないけど…\\私に損はないようだしね。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "幸いにもこの契約者は\\チャイルドの影響を全く受けていないようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ティアマトが言うには、\\自分は契約者が抑え込んでいた\\破壊的衝動が具体化したものらしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "でも、ティアマトよりは\\いくらか上品な感じもするが…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あの、やっぱり俺を呼び出したのは\\あの男のせい…ですか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "そう、この私に賭けを申し込んで来た\\あの図太い男のことよ。",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "もう調べはついてるわ。\\彼はアナタに会ったそうね。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "それは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "それはあの男が俺と契約するためだったと…\\他の誰でもないあなたのために…\\なんて言っちゃダメだよな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
     "21": {
       "type": "talk",
-      "dialogue": "やっぱりあの男が刑事ってことも、\\自分の子供の時の友人だってことも\\まだ知らないみたいだ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ピーチクうるさかったからな。\\面倒な奴は殺して当然だろう？",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "あの男のおかげで警察をやり過ごせた\\ってことも彼女は知らないだろう。",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ハハ！ガキらしくない顔だな。\\そんなに怒るなよ、気絶してるだけだ。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "大事な契約者を、むやみに殺せるわけねえだろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "大事な契約者…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ああ。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ユダはそう答え、\\倒れている人間を肩に担いだ。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "23": {
+    "28": {
       "type": "talk",
-      "dialogue": "何をそんなに考え込んでいるのかしら？",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "あ、いえ…ですから…\\その男は…誰だったっけ、と思いまして…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "へえ…トボける気？",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "あ…ですから、知らないといえば知らないし、\\知ってるといえば知っているというか…",
+      "dialogue": "どうする気だ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "27": {
-      "type": "talk",
-      "dialogue": "人をからかって…！",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ひいいい！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
     "29": {
       "type": "talk",
-      "dialogue": "…るわけでもなさそうね。\\言えない事情でもあるのかしら？",
-      "char": "c041_00",
-      "speaker": "same_full",
+      "dialogue": "この人間か？\\目を覚ましたら契約書にサインさせるつもりだ。",
+      "char": "c037_01",
+      "speaker": "same",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ふう…",
-      "char": "c000_01",
+      "dialogue": "…ったく、本当に面倒なシステムだぜ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "こんな仕事をしているから、\\人を見る目には自信があるの。\\私を騙そうとしているようには見えないわね。",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "助けてくれって声が聞こえた。\\どうして無理やり契約させるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "32": {
       "type": "talk",
-      "dialogue": "わ、分かっていただき何よりです…",
-      "char": "c000_01",
+      "dialogue": "子犬が吠えても\\虎はビクともしないだろう？",
+      "char": "c037_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ま…急ぐことでもないしね。\\この話はまた今度にしましょうか。",
-      "char": "c041_00",
-      "speaker": "same_full",
+      "dialogue": "お前のことは気に入ってるが\\他の奴は別だからな。\\だがそれも今のうちだぜ。",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "でも…",
+      "dialogue": "俺様がお前を見限ったら、面倒じゃ済まねえぞ。\\優しくしてやってる内に言うことを聞け。",
       "char": "keep",
-      "speaker": "same_full",
+      "speaker": "same",
       "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "で、でも…？",
+      "dialogue": "…やっぱり、あんたの手下にはなりたくないな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "36": {
       "type": "talk",
-      "dialogue": "絶対に、私を騙そうなんて思わないことね。\\生意気なヤツは嫌いよ。",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "ハッ、肝が据わってるな。\\ますます気に入ったぜ。",
+      "char": "c037_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "誓います！",
-      "char": "c000_01",
+      "dialogue": "知れば知るほど、面白い奴だよ。お前は。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "screen_effect": "dialog_shake"
+      "pos": "right",
+      "distance": "near"
     },
     "38": {
-      "type": "talk",
-      "dialogue": "潔くて結構。\\もう行っていいわ、また会いましょう。",
-      "char": "c041_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -1,0 +1,98 @@
+{
+  "phase1": {
+    "1": {
+      "type": "talk",
+      "dialogue": "！？\\うっ…空気を入れ替えないと。",
+      "background": "bg159_f",
+      "bgm": "23",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "400615001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "空気の入れ替えって…\\こんな深い地下施設では換気自体が難しそうですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400615002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そうだよな。雰囲気も怖くて…\\おばけが出てきそうな感じだよ… ",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "400615003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "… ",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400615004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "モナ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "400615005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "<color=ff9900>うわっ！</color>",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "toonear",
+      "screen_effect": "shake",
+      "voiceid": "400615006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うわわっ！あああっ！\\たっうええてええっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "shock",
+      "before_effect": "go_to_right_jump",
+      "screen_effect": "shake",
+      "voiceid": "400615007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "お喋りが多くなってきたと思ったら…",
+      "char": "c001_01",
+      "speaker": "same",
+      "voiceid": "400615008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ご主人様、ビビってますよね？\\そんなに怖いんですか？",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "pretense",
+      "voiceid": "400615009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "フフフッ、\\そんなに怖いのなら、モナが守ってあげますね～♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "tempt",
+      "voiceid": "400615010"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    }
+  }
+}

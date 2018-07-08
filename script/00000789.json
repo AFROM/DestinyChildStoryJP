@@ -2,562 +2,275 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ああ、モナよ！湯上がりで火照る、そのバラ色の頬！愛の奴隷たる我に、何卒、口付けを…",
-      "background": "bg155_f",
-      "bgm": "9",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "悪魔として生まれたなら、その義務を果たしなさい。",
+      "background": "bg188_f",
+      "bgm": "10",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はぁ、困りましたね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "sigh"
+      "dialogue": "何があっても諦めない事。\\中途半端な者たちはやがて取り残されるだろう。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "3": {
       "type": "talk",
-      "dialogue": "許すわけないじゃん！\\そのタラコ唇、モナ姉さまに近付けないでよ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle"
+      "dialogue": "利他的で善良な者と自ら苦労を背負う者たちは\\天国にしか行くことができないだろう…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ねぇ、何の騒ぎ？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
+      "dialogue": "名言ですね。師匠。",
+      "char": "c311_00",
+      "speaker": "none"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あー気にすんな。無視だ無視。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "おお、無名よ。\\最近は姿を見なかったが、今日は何用で来た？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "6": {
       "type": "talk",
-      "dialogue": "けど、大丈夫かな…？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "dialogue": "もう無名ではありません。",
+      "char": "c311_00",
+      "speaker": "none"
     },
     "7": {
       "type": "talk",
-      "dialogue": "退くのだ！\\モナとの愛の成就は何人にも邪魔はさせんっ！",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "before_effect": "none",
-      "one_ani": "attack"
+      "dialogue": "なに？\\気に入った名前でも見つけたか？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "8": {
       "type": "talk",
-      "dialogue": "もうっ！これ以上、モナ姉さまに近づいたら\\許さない！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "fury",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "dialogue": "はい。",
+      "char": "c311_00",
+      "speaker": "none"
     },
     "9": {
+      "type": "talk",
+      "dialogue": "私の新しい名前は…《ケプリ》",
+      "char": "keep",
+      "speaker": "none"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ケプリ？\\ハハ、私の耳が遠くなったのかな？",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "いいえ…ケプリは師匠のお名前です。\\しかし、今からは私の名前にしたいと思います。\\気に入りましたから。",
+      "char": "c311_00",
+      "speaker": "none"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ハハハハ！かわいいね、小さなチビッ子よ。\\名前を奪うと？\\ああ、好きなようにしなさい…",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "お前が私に勝つことは無いと思うが、覚えておけ。\\私を殺した瞬間、お前は《運命の渦》に巻き込まれるだろう。",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "悪魔を殺した悪魔は畏敬の対象となり、同時に標的となるだろう。安らかな暮らしとはお別れという事だ。",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c311_00",
+      "speaker": "none"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "話が長いですよ、師匠。さぁ、始めましょう。",
+      "char": "keep",
+      "speaker": "none",
+      "one_ani": "attack"
+    },
+    "17": {
       "type": "talk",
       "dialogue": "",
       "char": "none",
       "speaker": "none",
-      "mvd": "effect/battle/sfx_atk_skill_drive_fire_c003.mvd",
-      "mvd_pos": "center"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "あっ、あのバカ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "shock",
-      "after_effect": "shake_weak",
-      "screen_effect": "dialog_shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ぐ、ぐぬぁ～～～！",
-      "bgm": "6",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "before_effect": "shake",
-      "after_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
-      "mvd_pos": "left_top"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ダビが放ったスキルの火の粉がマンモンと建物に降りかかり、それは瞬く間に燃え広がっていった。",
-      "char": "none",
-      "speaker": "none",
-      "pos": "left",
-      "facial": "idle",
-      "screen_effect": "dark"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "し、知～らない！\\ダビのせいじゃないからね～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "confused",
-      "screen_effect": "none",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
-      "mvd_pos": "center"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ダビ！待て！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "いやっ…このままじゃ、温泉街が…どうしよう！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
-      "mvd_pos": "left_top"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "メイ！しっかりしろ！泣いている暇なんてないぞ！このままじゃ、お前の大事な場所が燃えちまう！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
-      "mvd_pos": "right_top"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ど、どうすればいいの…？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
-      "mvd_pos": "left_top"
+      "mvd": "effect/battle/sfx_atk_skill_drive_dark_c311.mvd"
     },
     "18": {
-      "type": "talk",
-      "dialogue": "ウキー！",
-      "char": "keep",
-      "speaker": "monkey",
-      "pos": "right",
-      "distance": "toonear",
-      "facial": "idle",
-      "before_effect": "none"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "そ、そうだね。しっかりしなきゃ…\\ありがとう、ウコン！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "idle"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "みなさん！力を貸してください！\\一緒に温泉街を守りましょう！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "21": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
-    }
-  },
-  "phase2": {
-    "1": {
-      "type": "talk",
-      "dialogue": "くそっ！なかなか火が消えない！",
-      "background": "bg231_f",
-      "bgm": "1",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
-      "mvd_pos": "right_top"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "建物が木造のせいか、力を合わせた消火活動でも、火の手が弱まる気配がない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "これは、不味いですね。被害の拡大を防ぐため、隣接した建物を壊すしかありません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle",
-      "screen_effect": "none",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
-      "mvd_pos": "top"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "そ、そんな…\\なんとかならないの！？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "before_effect": "none",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
-      "mvd_pos": "left_top"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "グルゥ～ワンワン！",
-      "char": "none",
-      "speaker": "none",
-      "pos": "left",
-      "facial": "idle",
-      "before_effect": "none",
-      "screen_effect": "none"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "な、なんだ？何が起こった！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
-      "mvd_pos": "top"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "あら…これは雨？",
-      "bgm": "5",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "top"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "うぉ～！これぞ正しく天の恵みか！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "right_top"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "よ、よかった…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "left_top"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ポツポツと降り出した雨は、やがて土砂降りの雨へと変わった。しかし、この雨、生温いぞ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "みなさん、お待たせしました。もう大丈夫ですよ！",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "far",
-      "facial": "idle",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "top"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "コウガ？これは、お前がやったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "right_top"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "はい。狛犬の力を借り、地脈を操作し、温泉の水を噴射させました。\\思ったより時間がかかってしまいましたが…",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "left_top"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ガウガウ！",
-      "char": "keep",
-      "speaker": "none",
-      "pos": "right",
-      "distance": "far",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "left_top"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "あ、ああ…よくやったな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "right_top"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "し、しかしコウガのヤツ…\\滅茶苦茶パワーアップしている…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "コウガ！ありがとう！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "left_top"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "メイもよく頑張りましたね。\\あなたのおかげで被害が広がるのを防げました。",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "left_top"
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "そ、そんな事は…ただ、一生懸命だっただけで…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "left_top"
+      "dialogue": "今から私が《ケプリ》です。\\あなたを倒し、名前を引き継ぎましたから。",
+      "background": "bg188_f",
+      "char": "c311_00",
+      "speaker": "same_full",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ふふ、さぁ、まだ終わっていませんよ。建物の中にいる人達を助けないと！",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "image_pos": "left_top",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "left_top"
+      "dialogue": "もう返事などできないと思いますが…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "21": {
       "type": "talk",
-      "dialogue": "建物って…ダビとマンモンか！？\\何やってるんだよアイツら…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "right_top"
+      "dialogue": "そうですね、何故私がこのような事をしたか、\\説明しておきましょう。",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "22": {
       "type": "talk",
-      "dialogue": "私が行きましょう。\\みなさんはそのまま、消火活動を。",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "center",
-      "mvd": "effect/battle/sfx_atk_skill_aqua_max.mvd",
-      "mvd_pos": "top"
+      "dialogue": "それに、この結果に納得がいかないのでしょう？\\しかし、これはとても合理的で妥当な結果です。",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "23": {
       "type": "talk",
-      "dialogue": "颯爽と建物に入るコウガの姿は燃え盛る炎に照らされて凛々しく輝いていた。",
-      "char": "none",
-      "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dark"
+      "dialogue": "弱点の排除…と言えばわかりますか？",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "24": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "私の過去を知り、弱さを知り、ただ高みから私を見下ろす存在。",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "25": {
       "type": "talk",
-      "dialogue": "うえ～ん！ごめんなさ～い。\\シクシク。",
-      "background": "bg232_f",
-      "bgm": "13",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "cry"
+      "dialogue": "あなたという悪魔が私を上から見下ろしている限り、私は永遠に可憐でかわいい存在から抜け出せないのです。",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
     },
     "26": {
       "type": "talk",
-      "dialogue": "わ、我のせいなのか？！",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "dialogue": "最後の授業は合格ですか？\\それだけはあなたの口から聞きたかったですが…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "27": {
       "type": "talk",
-      "dialogue": "この期に及んで言い訳か？いい加減、反省しろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "dialogue": "…",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "28": {
       "type": "talk",
-      "dialogue": "みなさん無事だったのですし、それ以上望むことなどありません。",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "さようなら、師匠。\\もう私は卒業です。",
+      "char": "keep"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "もっとキツ～く怒ってもいいんだぞ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ひぃっ…！\\我とした事が子供相手に大人げなかった…\\すまなかった！",
-      "char": "c180_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "dialogue": "師匠の言葉通り、悪魔を殺し名前を奪った私は悪魔の世界から異端視され、敬遠された。",
+      "background": "bg056_f",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "31": {
       "type": "talk",
-      "dialogue": "小さくなったダビとマンモンを見つめた後、\\コウガは目を細め温泉街を見渡し、こう言った。",
+      "dialogue": "関係ない。\\私は恥知らずで矛盾を繰り返し、自分の恥部を晒す\\悪魔を食って強くなるだろう。",
       "char": "none",
       "speaker": "none",
-      "pos": "center",
       "screen_effect": "dark"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ここではあなたも守るべき対象…\\ここにある全てを守って見せます。",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "魔王争奪戦が行われたのは、むしろ幸運。\\悪魔たちを<b>1つの場所に</b>集められるから。",
+      "char": "c311_01",
+      "speaker": "same"
     },
     "33": {
       "type": "talk",
-      "dialogue": "うふふ、それじゃあ二人には後片付けを手伝ってもらおうかな！新しい建物を作らないといけないし、忙しくなるわね！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "悪魔として生まれたなら、その義務を果たしなさい…",
+      "char": "keep",
+      "speaker": "same"
     },
     "34": {
       "type": "talk",
-      "dialogue": "そ、それから…あの時は、励ましてくれて\\ありがとう！",
+      "dialogue": "何があっても諦めない事。\\中途半端な者たちはやがて取り残されるだろう。\\そう仰いましたよね。師匠…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
     "35": {
       "type": "talk",
-      "dialogue": "ん？ああ、メイもよくがんばったな！\t",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "dialogue": "そんな事を言う者たちが群れを作り、魔界に集まって住んでいると？",
+      "char": "keep",
+      "speaker": "same"
     },
     "36": {
       "type": "talk",
-      "dialogue": "えへへっ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "dialogue": "なんて矛盾…",
+      "char": "keep",
+      "speaker": "same"
     },
     "37": {
       "type": "talk",
-      "dialogue": "はぁ～\\ご主人さま…わかっててやってます？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "sigh"
+      "dialogue": "悪魔たちはもうすぐ滅ぶでしょう。\\今まで生きていたのが不思議。",
+      "char": "keep",
+      "speaker": "same"
     },
     "38": {
       "type": "talk",
-      "dialogue": "な、なんだよ？しかし、一時はどうなる事かと思ったけど、みんな無事でよかったな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "すべてを殺し、噛み切り、飲み込んで、\\1匹残らず滅ぼしてやろう。",
+      "char": "keep",
+      "speaker": "same"
     },
     "39": {
       "type": "talk",
-      "dialogue": "そうですね♥\\ご主人さま、初詣のご利益あったんじゃないですか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
+      "dialogue": "私は誰にも依存せず、独り歩む。",
+      "char": "keep",
+      "speaker": "same"
     },
     "40": {
       "type": "talk",
-      "dialogue": "そ、そうだな…\\まぁ1年に1回ぐらいは\\神様にお願いするのもいいかもな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "smile"
+      "dialogue": "すべての悪魔を殺し、殺し、殺して最後の1人になった瞬間、証明される。",
+      "char": "keep",
+      "speaker": "same"
     },
     "41": {
+      "type": "talk",
+      "dialogue": "最も悪魔らしい悪魔はこの私だと！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "弱く、さすらうだけの悪魔に過ぎなかった\\このケプリが、悪の中の悪であると！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

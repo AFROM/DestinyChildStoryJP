@@ -2,108 +2,12 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハッ！",
-      "background": "bg056_f",
-      "char": "c000_01",
+      "dialogue": "ハッハハ…\\これが君たちの力なのかい？",
+      "background": "back_dim50",
+      "bgm": "keep",
+      "char": "c224_01",
       "speaker": "same",
-      "pos": "left",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "あら、すでに始まってますね♥\\<color=CC66FF>祓魔師</color>と<color=CC66FF>魔王候補生</color>の1対1の戦闘！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "う、うわぁ！\\どこに連れて来たんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
-      "mvd_pos": "right_top"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "…阿僧祇(あそうぎ)とは無限無数という言葉。\\劫(こう)とは非常に長い時間という意味…\"",
-      "char": "c057_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "far",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "…寶光(ほうこう)は降り注ぐ光明を表し、仏がこの世に降りてくる時に発せられる聖なる灯…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd",
-      "mvd_pos": "center"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "やっぱり無理だよ！本当に死んじゃう！\\あれは一体何？！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "フフ、<color=CC66FF>祓魔師</color>です。\\あっ！どこに逃げるんですか！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "死ぬ！本当に死ぬ！\\自分の主人を地獄の火の中に投げるつもりか～！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "far",
-      "facial": "idle",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "落ち着いてください！\\あなたは何をそんなに恐れているんですか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "一人では困難な相手でも\\<color=CC66FF>レイド</color>状態なら十分勝つことができます！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd",
-      "mvd_pos": "right_top"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "運が良ければ、素敵な報酬がもらえます♥\\悪魔に戦略はあっても、臆病は必要ないですよ～出発♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
-    },
-    "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal",
-      "hold": "normal"
+      "voiceid": "900201022"
     }
   }
 }

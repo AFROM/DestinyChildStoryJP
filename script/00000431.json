@@ -2,310 +2,303 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔を嫌う契約者の記憶のせいなのか、\\エリオスは悪魔である俺のことを嫌っている。",
-      "background": "bg086_f",
+      "dialogue": "木が大地から一直線に生えて、",
+      "background": "e048_01_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "char": "c107_00",
+      "speaker": "same_full",
+      "pos": "center"
     },
     "2": {
       "type": "talk",
-      "dialogue": "たまに俺を見る目つきから殺気すら感じる時がある。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "<color=ff1493>バンビーナ！",
+      "char": "c107_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "でも俺はチャイルドの好感を\\買わないといけない立場のため",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "邪魔です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "どうにかしてエリオスの心を開かなければならない。",
+      "dialogue": "人類が老いて死ぬという、普遍的な現象が\\なくならない限り…",
+      "char": "c107_00",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "象徴というものは単純な学問ではない、\\《人類の知識》に関連する人生、そのものである。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "<color=ff1493>エトワール！",
+      "char": "c107_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あっち行って。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "人文学の危機ともいいます。\\この世で、\\それ以上に悲しい言葉があるでしょうか？",
+      "char": "c107_00",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "<color=ff1493>マドモアゼル！",
+      "char": "c107_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "全ての人文学は、人類に対する関心です。\\慈愛をもとに育ってきた宇宙の樹なのです。",
+      "char": "c107_00",
+      "speaker": "same_full",
+      "pos": "center"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "<color=ff1493>我々のゴッドファーザー！",
+      "char": "c107_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…ハイ、ハイ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "天才心理学博士、勅使河原雅人(てしがわらまさと)と\\得体のしれない言葉を繰り返すアポロン。",
+      "background": "bg086_f",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "5": {
-      "type": "talk",
-      "dialogue": "エリオスは本が好きです。 それを利用してみるのはどうでしょうか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "本が好き、か…他の情報は？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "本を買いたがっているようでしたが…\\何か悩みがあるようですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "悩み、か。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "9": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "エリオス。",
-      "background": "dungeon_bg",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "むやみに呼ぶなと警告したはずだが…",
-      "char": "c112_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "そんなムキになるな。\\ひとつ提案をしに来たんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "悪魔とは取り引きしない。",
-      "char": "c112_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "取り引きじゃない。俺の優しさだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "悪魔の優しさ？笑わせるな。",
-      "char": "c112_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
     "16": {
       "type": "talk",
-      "dialogue": "聞いたところによると、読書が好きらしいな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "平凡な人間には想像もつかない風景が、\\毎日繰り広げられている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それで？",
-      "char": "c112_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "人間界ではあんなに優遇されているのに…\\この家ではお荷物扱いだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "18": {
       "type": "talk",
-      "dialogue": "読みたい本がたくさんあって、\\本を置くスペースがないとか…",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>ハハハ…<color=ff1493>なんともエキサイティングな冷遇だ！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near"
     },
     "19": {
       "type": "talk",
-      "dialogue": "…何が言いたい？",
-      "char": "c112_01",
+      "dialogue": "どけー！この変態！\\言いたいことあるなら\\手紙に書いて送れって言ったでしょ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "fury",
+      "one_ani": "none"
     },
     "20": {
       "type": "talk",
-      "dialogue": "俺の部屋を貸してやろうか？",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>その暴言、我慢できない！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…お前の部屋を？",
-      "char": "c112_01",
+      "dialogue": "うぅ…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ああ。俺の部屋に、読みたい本を好きなだけ\\置いておくんだ。",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>悩んでいるその表情も素敵だ！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "near"
     },
     "23": {
       "type": "talk",
-      "dialogue": "何を企んでいる？",
-      "char": "c112_01",
+      "dialogue": "えーん、モナ姉さまー！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "cry",
+      "before_effect": "shake_weak"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だから優しさだってば。\\とにかく、提案はしたからな。",
-      "char": "c000_01",
+      "dialogue": "やりすぎは禁物よ？\\そんなに悪い植物さんじゃないから。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…ふん。俺の足で悪魔の部屋に来いと？ふざけてる。",
-      "char": "c112_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "…モナはそうかばっているが、\\アポロンの立場では満足できないだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "アポロン…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "な、なんだコレ…",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>まったくもって…無視されてる気分だ…",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "screen_effect": "shake_weak"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "来たのか。",
-      "char": "c112_01",
+      "dialogue": "ひょっとして泣いてるのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "29": {
       "type": "talk",
-      "dialogue": "こ…この本ってまさか…",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>暴言を越えた冷遇と無視…！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "少しだけのつもりがつい買いすぎてしまった。",
-      "char": "c112_01",
+      "dialogue": "うっ…きっとアイツも本心で言ったわけじゃ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "31": {
       "type": "talk",
-      "dialogue": "全然少しじゃないし。\\ここで本を売ってもおかしくないぞ。",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>トレビアーン！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "32": {
       "type": "talk",
-      "dialogue": "何だ？今さら提案したことを撤回するのか？\\やはり悪魔を信じるべきじゃないな。",
-      "char": "c112_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "いや、撤回はしないけど。俺は嘘はつかない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "…いいだろう、信じてやる。\\なら、これからも…た、頼む。",
-      "char": "c112_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "これから何だって？声が小さいなー。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "これから読書している間は静かにしろと言ったんだ。",
-      "char": "c112_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "私語厳禁、紙を破る音、飲食禁止、\\いびきをかいてもダメだ。それから…",
+      "dialogue": "<color=ff1493>なんて素晴らしい天気でしょう！",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "one_ani": "attack"
     },
-    "38": {
+    "33": {
       "type": "talk",
-      "dialogue": "…優しくしすぎたかな。",
+      "dialogue": "<color=ff1493>私を、",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "<color=ff1493>この私を無視し冷遇する女性たち！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "<color=ff1493>私を新しい世界に導いた悪魔！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "<color=ff1493>あぁ、この美しい世の中よ…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "本人は満足しているみたいだし…ま、いっか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "smile"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "<color=ff1493>オルヴォワール！",
+      "char": "c107_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
     "39": {
       "type": "curtain",

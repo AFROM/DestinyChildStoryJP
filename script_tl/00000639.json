@@ -2,268 +2,339 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "一体どうした？",
-      "background": "bg095_f",
-      "bgm": "14",
-      "char": "c000_01",
+      "dialogue": "無能で三流の悪魔と契約して、\\この家に来てからもうどのくらい経っただろうか…",
+      "background": "e048_01_f",
+      "bgm": "12",
+      "char": "c148_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center"
     },
     "2": {
       "type": "talk",
-      "dialogue": "早く来て、のろまなご主人！\\首を伸ばして待ってたのに！",
-      "char": "c003_01",
+      "dialogue": "水をさすようで申し訳ありませんが…\\なぜそんな小説の出だしのようなナレーションを…？",
+      "background": "dungeon_bg",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "superangry"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "「伸ばして」じゃなくて、「長くして」だろ。",
-      "char": "c000_01",
+      "dialogue": "回想シーンなの！アタイは悪魔に、\\《世界征服》という凄いことを願ったワケ。",
+      "char": "c148_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
-      "type": "talk",
-      "dialogue": "とにかく…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "superangry"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "早く早く！溶けちゃうよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "fury"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "溶けるって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "8": {
+    "5": {
       "type": "talk",
-      "dialogue": "チョコレート？",
-      "background": "bg089_f",
+      "dialogue": "チャイルドが世界征服なぁ…\\また、変なヤツが出てきた。",
+      "background": "bg097_f",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "gray"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あら、世界征服。いいじゃないですか。\\面白そうですね♥ご主人さま、挑戦されてみては？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あほか。それより俺の願いを叶えてくれよ。\\「平穏な日々を返して」なんだけどな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "gray"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ふふ。悪魔の願いは、\\自分で叶えるしかありません♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "screen_effect": "gray"
     },
     "9": {
       "type": "talk",
-      "dialogue": "もう食べてもいいよね？食べるよ？",
-      "char": "c003_01",
+      "dialogue": "不公平だ！なんで俺の願い事は、\\誰にも聞いてもらえないんだ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "cry",
+      "screen_effect": "gray"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "ダメよ、ダメダメ。",
-      "char": "c169_01",
-      "speaker": "same"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "エウロス、お前が作ったのか？\\本当に美味そうだな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "へへっ…チョコ、好き？",
-      "char": "c169_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "え？あ、ああ、好きだよ。",
-      "char": "c000_01",
+      "dialogue": "ああ、うるさーい！\\せっかくアタイが契約シーンを回想してるのに。",
+      "background": "dungeon_bg",
+      "char": "c148_01",
       "speaker": "same",
       "pos": "left"
     },
-    "14": {
+    "12": {
       "type": "talk",
-      "dialogue": "ビ、ビックリした…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ともかく！まずは《大悪党》になることで、\\OKしたんだけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
-    "15": {
+    "13": {
       "type": "talk",
-      "dialogue": "それじゃ、食べて！",
-      "char": "c169_01",
+      "dialogue": "こんな暮らしじゃ、大悪党はおろか…\\近所のチンピラにもなれないような気がする！",
+      "char": "keep",
       "speaker": "same",
       "distance": "near"
     },
-    "16": {
+    "14": {
       "type": "talk",
-      "dialogue": "え？うわっ！",
-      "char": "c000_01",
+      "dialogue": "はぁ…なんかいつも平和だけど、\\あんたたち、いったいどういう暮らしをしてるんだ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "はい？どうとは、どういうことです？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "今日も、1日ずっと家でのんびりしてるけど、\\こんなんで、いつ魔王とやらになれるんだい？",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "何だよ！急に口の中に入れてどうするんだ！\\それも拳くらい大きいチョコを…！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ん～…そう言われても…\\ご主人さまには生活がありますし～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ダビが最初に食べようと思ってたのに！",
+      "dialogue": "そのためにはお金が必要！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "御主人様が、コンビニバイトという重大な日課を\\遂行している時は、このように待機しているのです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ちょっと。\\あんたらの主人に成長してもらわないと、\\アタイの名前も有名にならないだろっ！",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "アタイは、この世に名を轟かせる大悪党に\\なるんだよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "うふふ～のんびり行きましょう、イナンナ。\\焦ってどうにかなるようなものじゃないんだから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "のんきだねぇ。あんたたち、一体なんで、\\あんな悪魔のサポートなんかしてるんだい？",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "モナもリザも切れ者っぽいのに、\\なんであんなパッとしない奴に仕えてんの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "なんでダビは仲間はずれなの～？",
       "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "19": {
+    "26": {
       "type": "talk",
-      "dialogue": "美味しい？ヘヘ…",
-      "char": "c169_01",
-      "speaker": "same"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "う、うん！",
-      "char": "c000_01",
+      "dialogue": "パッとしない…ふふ、その言葉は、\\ちょっと新鮮かも～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
-    "21": {
+    "27": {
       "type": "talk",
-      "dialogue": "ダビにもちょうだい！",
+      "dialogue": "有能なサキュバスであれば、\\どんな悪魔でも魔王に仕立て上げられますから…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "そうだよ！モナ姉さまはなんでもできるんだよ！",
       "char": "c003_01",
       "speaker": "same",
       "pos": "right",
       "facial": "smile"
     },
-    "22": {
-      "type": "talk",
-      "dialogue": "あーん。",
-      "char": "c169_01",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "チョコレートが口から喉までいっぱいの\\惨めな悪魔が涙を流そうが、",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "サキュバス1人とチャイルド1人は\\仲良くチョコを食べながら和気あいあいだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "うぷ！ゴホ、ゴホ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ご主人様…欲張りだね。\\あんなに大きいチョコを1人で食べちゃうなんて。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sulky"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "その大きいチョコを無理やり\\口に押し込んだのは誰だよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…美味しくないの？",
-      "char": "c169_01",
-      "speaker": "same",
-      "distance": "near"
-    },
     "29": {
       "type": "talk",
-      "dialogue": "いや…そういう意味じゃなくて…",
-      "char": "c000_01",
+      "dialogue": "…まあ、そういうことです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "美味しく…ないの？",
-      "char": "c169_01",
+      "dialogue": "ふぅん。なるほどねぇ。\\モナ、アタイはどうだい？魔王の素質はあるかい？",
+      "char": "c148_01",
       "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "center",
+      "distance": "near"
     },
     "31": {
       "type": "talk",
-      "dialogue": "お、美味しいです！すっごく！",
-      "char": "c000_01",
+      "dialogue": "う～ん、そうねぇ。\\どうかしら～",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "facial": "pretense"
     },
     "32": {
       "type": "talk",
-      "dialogue": "それじゃ、あーん。",
-      "char": "c169_01",
-      "speaker": "same"
+      "dialogue": "モナは有能なんだろう？\\アタイをチャイルド初の魔王にしてくれよ！",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "33": {
       "type": "talk",
-      "dialogue": "今度は顔くらい大きいチョコレート…",
-      "char": "c000_01",
+      "dialogue": "ふぅ。御主人様にもあなたくらい、\\やる気があるといいのですが。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "ご主人、うらやましいー。\\チャイルドに愛されてるねー。",
-      "char": "c003_01",
+      "dialogue": "ほんとだよ！あの悪魔には、\\やる気のカケラもないよ！",
+      "char": "c148_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "left"
     },
     "35": {
       "type": "talk",
-      "dialogue": "コイツ、ふざけやがって…",
-      "char": "c000_01",
+      "dialogue": "アタイの方が立派な魔王になれると思わない！？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "36": {
+      "type": "talk",
+      "dialogue": "…ふむ。それは興味深い提案ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ダメよ、リザ。\\ご主人さまは、とーっても特殊だから、3人で\\サポートしてあげなくちゃ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ダビも！ダビも！モナ姉さまのお手伝いする！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "なるほど。サキュバスの助けを得るには、\\あの悪魔が邪魔っていうことね！",
+      "char": "c148_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "after_effect": "go_to_left_point"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "行ってしまいましたね。御主人様を本当に、\\どうにかするつもりでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "どうかしら～？\\ご主人さまにおもしろい、お友達ができて\\よかったわね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "お友達じゃなくて、悩みの種でしょう…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

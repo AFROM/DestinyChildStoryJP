@@ -2,342 +2,313 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "パッパラパー♪パパパパッパラパー♪",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c130_01",
+      "dialogue": "誰っ！",
+      "background": "bg095_f",
+      "bgm": "25",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うっ…",
-      "char": "c000_01",
+      "dialogue": "こんにちは、サキュバスさん。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "near"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ここでティンパニーがドンドンドン。",
-      "char": "c130_01",
+      "dialogue": "いきなりどこから出てきたのですか…\\驚かさないでください。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "irritation"
     },
     "4": {
       "type": "talk",
-      "dialogue": "う…何だよ…",
-      "char": "c000_01",
+      "dialogue": "ゴメンなさいね。\\驚かせるつもりはなかったのよ。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "弦楽器がジャジャーン、トランペット！パパパーン！",
-      "char": "c130_01",
+      "dialogue": "その割には、\\まったく悪びれてなさそうな顔ですね…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "う、うるさい…",
-      "char": "c000_01",
+      "dialogue": "いつも気配を消しているから、こんなことが\\起きるんです。\\今後は気を付けてください。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "クライマックス！パーパパーン！",
-      "char": "c130_01",
+      "dialogue": "そこは大目にみてくれないかしら。\\だって猫は、そういうものでしょう？",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "right",
       "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "うるさいってば！何してるんだよ！",
-      "char": "c000_01",
+      "dialogue": "そもそも、あなたは怪しすぎるのです。\\一体何を考えて…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…クソ、クソ、クソ、クソ、クソー！このバカ悪魔！アンタのせいで今ひらめいたこと\\忘れちゃったじゃない！",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "screen_effect": "dialog_shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "夜中に何のつもりだ！\\お前のせいで眠れないだろ！",
+      "dialogue": "おいリザ、何ひとりでブツブツ言ってるんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
+      "before_effect": "enter_from_left_slow"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "いえ、今バステトと話を…あら？\\いつの間にかいなくなってますね…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "やっぱり芸術の「げ」の字も分からない野蛮人は、\\救いようがないわね。",
-      "char": "c130_01",
+      "dialogue": "何言ってんだよ？\\そこに誰かいたのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "夜は創作と芸術の時間！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "陽が沈み、淡い月の光が輝く頃こそ\\芸術の感覚が研ぎ澄まされる…",
-      "char": "keep",
+      "dialogue": "ええ、さっきまでバステトが…\\いえ、もういいです。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "14": {
+    "13": {
       "type": "talk",
-      "dialogue": "はいはい、徹夜して作曲でも指揮でも\\何でもしてくれ。\\でもどうして俺の部屋なんだ？",
+      "dialogue": "バステト？あいつがどうかしたのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "15": {
+    "14": {
       "type": "talk",
-      "dialogue": "それは…この部屋が一番集中できるからで…\\分からないわ、一体何が不満なのか。",
-      "char": "c130_01",
+      "dialogue": "御主人様。他のチャイルドはともかく\\バステトとは距離を置いたほうが良いでしょう。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "距離を置くって…\\チャイルドの力を借りるには\\仲良くならないとダメだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "私のおかげで生涯聞けないかもしれない素晴らしい\\音楽をいつでも思う存分聞けるというのに…",
-      "char": "keep",
+      "dialogue": "それはそれとして、です。\\御主人様のことを思って、忠告しているんですよ。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "感謝されてもされきれない…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "悪いけど俺は野蛮人だからクラシックなんか聞いても眠くなるだけだ。",
+      "dialogue": "何があったのか知らないけどな。\\俺はバステトをのけ者にするつもりはないぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "18": {
+      "type": "talk",
+      "dialogue": "バステトは…危険です。\\具体的にどう危ないかはご説明出来ませんが…\\とにかく、お気をつけください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
     "19": {
       "type": "talk",
-      "dialogue": "それに、俺の部屋にいると集中できるなんて。",
-      "char": "keep",
+      "dialogue": "何の証拠もなしに疑ってるのかよ。\\ちょっとそれはどうかと思うぞ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "本当にそうなら、今頃俺は毎日クラシックを\\聴きながら優雅に指揮棒を振ってるだろうよ。",
-      "char": "keep",
+      "dialogue": "どう思われようが結構です。\\私は忠告しましたからね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "アンタみたいなちびっ子に、\\音楽の感性が理解できるのか？",
-      "char": "c130_01",
+      "dialogue": "おいおい、何だってんだよ。\\まったく…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "誰に向かってちびっ子だって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "アンタは私にこの部屋を渡す義務がある。",
-      "char": "c130_01",
+      "dialogue": "グー…グー…むにゃ…にゃ？",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "screen_effect": "dark"
     },
     "24": {
       "type": "talk",
-      "dialogue": "アンタのせいで、人生最高の作品を完成させる\\機会を逃したっていうのに。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "だ、誰だ？誰かが俺の枕元に立ってる…\\そんな気がする…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "25": {
       "type": "talk",
-      "dialogue": "どういう意味だ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "ま、まさか…幽霊か？しかも体が動かん…\\悪魔でも金縛りにかかるもんなんだな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
       "type": "talk",
-      "dialogue": "アンタが私の契約者と契約した日、\\素晴らしい音楽がひらめいた。\\幻想のように楽譜が目の前に広がったの。",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "やっぱり俺は暗殺者に狙われてたのか…\\いや、ちょっと暗殺者は現実味がなさすぎるな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "27": {
       "type": "talk",
-      "dialogue": "それなのに！その歌を思い出せない！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "とりあえず幽霊の仕業ってことにしておこう。\\口は動くみたいだし…こりゃ騒ぐしかなさそうだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "28": {
       "type": "talk",
-      "dialogue": "で、俺の部屋で忘れた音楽を思い出そうと？",
+      "dialogue": "お、おい、お前は誰だ！姿を見せろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake",
+      "screen_effect": "dark"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そうよ。\\この部屋にはきっとアンタの精神が宿っている。\\だから、この部屋で作曲すれば\\きっと感覚を取り戻せるはず。",
-      "char": "c130_01",
-      "speaker": "same",
+      "dialogue": "…",
+      "char": "none",
+      "speaker": "unknown1",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "screen_effect": "dark"
     },
     "30": {
       "type": "talk",
-      "dialogue": "精神が宿ってるだなんて… 悪魔よりもっと悪魔らしい言い分だな。",
+      "dialogue": "な、何者だ？\\どうやって俺の部屋に入ってきた？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "dark"
     },
     "31": {
       "type": "talk",
-      "dialogue": "もしそのひらめきを取り戻したら、\\その時は部屋を返してくれるんだろう？",
-      "char": "keep",
+      "dialogue": "こんばんは、かわいい悪魔さん。\\起こしちゃったかしら？\\だったらゴメンなさいね。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "near"
     },
     "32": {
       "type": "talk",
-      "dialogue": "…もちろん！こんな男臭い部屋は私もごめんだよ。",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "…はいはい。ところで、なんでお前は自分の作品に満足できないでいるんだ？",
+      "dialogue": "ば、バステト？はあ…驚かせやがって。\\こんな夜中に何してるんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "悪魔さんがどんな夢を見てるのかなーって…\\いい夢を見ているようで、よかったわ。",
+      "char": "c127_01",
+      "speaker": "same",
       "distance": "normal"
     },
     "34": {
       "type": "talk",
-      "dialogue": "抜けだらけよ。\\楽譜を見るたびに自分でも呆れるくらい平凡な音楽。どうやってそれに満足しろっていうの？",
-      "char": "c130_01",
+      "dialogue": "ん？夢？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "35": {
       "type": "talk",
-      "dialogue": "私には確かに才能がある。\\その才能を絶対に無駄にはできない。",
-      "char": "keep",
+      "dialogue": "でも、夢はタダの夢でしかないから…\\あまり浸りすぎるのも良くないわよ。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "right",
       "distance": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "私の契約者は自分の才能が何かも分からない、\\間抜けなヤツだけどね。",
-      "char": "keep",
+      "dialogue": "おいおい、意味がサッパリ分からんが、\\何が言いたいんだ…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "37": {
       "type": "talk",
-      "dialogue": "お前の契約者にもその言葉を聞いてほしい。\\間抜けっての以外は。",
-      "char": "c000_01",
+      "dialogue": "それじゃ…いい夢を。",
+      "char": "c127_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
     },
     "38": {
       "type": "talk",
-      "dialogue": "よし。快く部屋を引き渡してくれたから、\\アンタのために歌をつくってあげよう。",
-      "char": "c130_01",
+      "dialogue": "…何だったんだよ一体？\\まさか最初っから全部夢だった…とか？\\そんなこと、ないよな、ハハ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "いや、別に…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "遠慮するな。きっと気に入るよ。\\我が家の子犬は可愛い子～♪",
-      "char": "c130_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "おい…だいぶ予想外の歌な気が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

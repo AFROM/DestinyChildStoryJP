@@ -1,364 +1,248 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg188_f",
-      "bgm": "4",
-      "fade_in": "normal",
-      "hold": "shorter"
+      "type": "talk",
+      "dialogue": "自請妃について、調べがつきました。モナ。",
+      "background": "bg086_f",
+      "bgm": "26",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そろそろ動くとするか？\\ハッ！盛り上がってきたぜ。",
-      "char": "c051_02",
-      "speaker": "same",
-      "before_effect": "enter_from_left_fast",
-      "one_ani": "attack"
+      "dialogue": "あら♥\\リザってホント働き者ね～",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あのルシフェロが急に引退とはな！\\俺が生きてる間に魔王争奪戦が開かれるなんて思ってもみなかったぜ。",
+      "dialogue": "で、何かわかったことはある？",
       "char": "keep",
       "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "浮かれているわね、フレイ。",
-      "char": "c124_02",
+      "dialogue": "契約者が何者で、どのような経緯で、どの悪魔に生み出されたのか…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "お前はまた、何でそんなに不機嫌なんだ？\\俺に喧嘩を売らず、アイツと遊んでろ。",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "へぇ～",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c050_02",
-      "speaker": "same"
+      "dialogue": "そして、自請妃自身について…ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "オードは面白くないのよ。",
-      "char": "c124_02",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "うちのご主人さまには、荷が重そう？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "8": {
       "type": "talk",
-      "dialogue": "面白くないだと…？\\俺に喧嘩を売る理由がソレか？",
-      "char": "c051_02",
+      "dialogue": "実在すら怪しい伝説の花を探して来いという、雲を掴むような命令を下されたチャイルドですからね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そうよ？\\だから話しかけてるんじゃない。\\ちゃんと反応してくれるの貴方しかいないんだから。",
-      "char": "c124_02",
+      "dialogue": "大きな戦力でありながら、そのような命令を下される理由…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ふざけるなよ！いるだろうが？\\あの小さいヤツが…！",
-      "char": "c051_02",
+      "dialogue": "つまり、大変扱いにくいチャイルドということです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "うるさいわね…\\怒鳴る元気があったら、争奪戦で使いなさいよ。",
-      "char": "c124_02",
+      "dialogue": "実際、自請妃の前の主は、以前よりずっと気楽に過ごせているそうです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ハッ！《悪童フレイ》を舐めるなよ？\\争奪戦など片手で十分だ。",
-      "char": "c051_02",
+      "dialogue": "それ、ホンマ！？",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
     },
     "13": {
       "type": "talk",
-      "dialogue": "いまだに自分で悪童なんて自慢しているの？\\ほんと、子供っぽいのね。",
-      "char": "c124_02",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "あら、聞かれちゃった？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "魔王争奪戦の生き残り…\\オードがいるっていうのにね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "ぐぬぬ…",
+      "char": "c301_01",
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "へえ～…\\このフレイ様の手で死にたいヤツがいるみたいだな。",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "なんていうか…お気の毒ね？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そんなバカみたいな悪魔、どこにいるっていうの？",
-      "char": "c124_02",
+      "dialogue": "こっちこそせいせいしたわ！\\あの悪魔のせいで、腰曲がって骨腐るくらいに働いたさかい。ふん！忌々しいあの生活ともこれで\\おさらばや！おおきに。",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "left",
+      "one_ani": "attack"
     },
     "17": {
       "type": "talk",
-      "dialogue": "俺の目の前だっ！",
-      "char": "c051_02",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "dialogue": "それなら、もう黄泉の花なんて必要ないわよね？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "はあ…",
-      "char": "c050_02",
-      "speaker": "same"
+      "dialogue": "…はい？なんでや？",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longer",
-      "hold": "normal"
+      "type": "talk",
+      "dialogue": "だってそうでしょう？\\黄泉の花の入手はアナタを遠ざける為の方便。",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "20": {
-      "type": "curtain",
-      "background": "bg188_f",
-      "bgm": "19",
-      "fade_in": "normal",
-      "hold": "shorter",
-      "char": "c050_02"
+      "type": "talk",
+      "dialogue": "黄泉の花を手に入れる理由なんて、もうどこにもないじゃない？",
+      "char": "keep",
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ルシフェロが即位してどれくらい経ったか…\\魔王争奪戦がこんなに早く回ってくるなんて…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "えっと…たしかに、そうなるんかいな？",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ともかく、今回も騒がしいヤツだらけだな。\\ちゃんとしたサポーターの姿も無しか…",
+      "dialogue": "ふーむ…",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "そうですか～？\\今回の争奪戦もかなり面白そうですね～",
-      "char": "c001_01",
+      "dialogue": "あ、そっか！\\せやったら、もうトサカ頭の旦那の世話をしいひんでもええってことか！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "one_ani": "attack",
-      "sound": "se_summon",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "before_effect": "shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "お前は…",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "それはダ～メ♥\\まだご主人さまのチャイルドには、変わりないもの。",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "その様子…私のこと、忘れてしまいましたか？\\残念。これでも結構、有名になったんですが…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "残念ながら、完全な自由はまだまだ先って事ね。",
+      "char": "keep",
+      "speaker": "same"
     },
     "26": {
       "type": "talk",
-      "dialogue": "知ってますか？\\怠惰な悪魔専門トレーナー\\サポーターのモナといいます。",
-      "char": "keep",
+      "dialogue": "ええっ！？",
+      "char": "c301_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "before_effect": "shake"
     },
     "27": {
       "type": "talk",
-      "dialogue": "そう…モナ。覚えている。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ポジティブに考えましょ？\\前の主人みたいに大変なことはないはずだから、ね？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "28": {
       "type": "talk",
-      "dialogue": "《暴君オード》の口から私の名前を聞けるなんて光栄ですね。",
-      "char": "c001_01",
+      "dialogue": "そうです。\\ここのチャイルドに対する待遇は、比較的良好だと悪魔達の間でも悪評…いえ、好評なのです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "お前の名声は俺の耳にも届いている。\\あの時以来だな、こうして会うのは。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "雰囲気が大分、変わったようだが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それは…\\モナが以前よりも魅力的になったということですか？ふふっ、オード様はあの時とあまり変わりませんね。",
-      "char": "c001_01",
+      "dialogue": "そないなこと、どうでもええ！\\主人の良し悪しなんて、関係あらへん！",
+      "char": "c301_01",
       "speaker": "same",
       "pos": "left"
     },
+    "30": {
+      "type": "talk",
+      "dialogue": "くぅ…ずる賢いサキュバスどもめ。\\ぬか喜びさせてぇ…\\ウチをからかって遊ぶのが、そないに楽しいか！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ウチは絶対、黄泉の花を手に入れるさかいな！\\ほんでほんまの自由を勝ち取るんや！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_right_point"
+    },
     "32": {
       "type": "talk",
-      "dialogue": "今回は望む主人に出会えたのか？",
-      "char": "c050_02",
+      "dialogue": "計算通りに行きませんね。\\やはり扱いにくいチャイルドです。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "…まだ1人です。オード様は？",
+      "dialogue": "ええ、ご主人さまとは相性最悪ね…",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "haah"
     },
     "34": {
       "type": "talk",
-      "dialogue": "同じだ。\\ならば、お前が俺のサポーターになってくれないか？",
-      "char": "c050_02",
+      "dialogue": "いえ…主人の言うことを全く聞かないチャイルドと\\サポーターの言うことをなかなか聞かない主人ですから。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "まさか！\\オード様からプロポーズされる日が来るなんて♥\\昔を思い出しますね～",
-      "char": "c001_01",
+      "dialogue": "もしかすると、案外うまく行くかもしれませんよ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "right"
     },
     "36": {
-      "type": "talk",
-      "dialogue": "あの時、ホント情けなくなるくらい冷たくモナを捨てたの覚えてますか～？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "…そうだったか？",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "知っていますか、オード様？\\失恋を経験したサポーターは強くなるんですよ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "暴君オードのプロポーズを無下にするぐらいにはね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "確かにそのようだ。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "強い悪魔には魅力を感じないんです。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "モナが助けてあげないと何にもできない…\\何というか、庇護欲をくすぐってくれる悪魔のほうが好みなんです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "だ・か・ら！オード様は脱落で～す♥",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "pretense"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "残念ですが、そろそろお別れです。\\争奪戦が始まれば、きっとまた会えるでしょう。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "その時まで、どうかご無事で…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "after_effect": "go_to_left_point"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "強くなったな、モナ。",
-      "char": "c050_02",
-      "speaker": "same"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "庇護欲か…\\あいつの主人になる悪魔は苦労しそうだ。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "しかし…その悪魔が今回の争奪戦の台風の目になるかもしれない。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "期待しておこう…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "51": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "longer",
+      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     }

@@ -2,109 +2,123 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うわー！広い！一面真っ白だね！\\ご主人のちっこい部屋とは大違い！",
-      "background": "bg234_f",
-      "bgm": "14",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none"
+      "dialogue": "御主人様。どこに居るのですか、御主人様？\\…御主人様？",
+      "background": "bg086_f",
+      "bgm": "24",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そうね♥\\見渡す限りの白銀の世界…\\ご主人さまの部屋とは比べ物になりませんね～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense",
-      "before_effect": "none",
-      "after_effect": "none"
+      "dialogue": "このっ…早く出てきなさい、御主人様！",
+      "char": "keep",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "比べる対象がおかしいだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "fury",
-      "before_effect": "none",
-      "after_effect": "none",
-      "screen_effect": "dialog_shake"
+      "dialogue": "…はぁ。また、逃げられてしまいましたか。\\一体どこに行ったんでしょう…？",
+      "char": "keep",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…ったく、人が当てた旅行についてきて挙げ句の果てに文句いうの、やめてくんない？",
-      "char": "keep",
+      "dialogue": "君の主人なら\\そこからコソコソと抜け出していったな。",
+      "char": "m199_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そんなことより、早く旅館へ向かわないと、ゲレンデに行く時間がなくなります。\\御主人様のスキーを上達させる計画が台無しです。",
+      "dialogue": "は、はい…？蒼龍。\\なぜそれをもっと早く、言わなかったのですか…？",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "こんなとこに来てまで特訓させられんの！？",
-      "char": "c000_01",
+      "dialogue": "なぜ我がそんなことをしなければならない。\\そういうことは、下僕共の仕事だろう？",
+      "char": "m199_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "unfair",
-      "before_effect": "shake",
-      "after_effect": "none"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…ってか、スキーが、争奪戦の役に立つのかよ？\\ほんと勘弁してくれよな…",
-      "char": "keep",
+      "dialogue": "はぁ…あなたに聞いた、私が間違いでしたね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ねー！ダビ、早く雪遊びしたい！\\ご主人、早く早く～！",
-      "char": "c003_01",
+      "dialogue": "それよりだ、リザ。あの悪魔の代わりに\\我に仕える気はないか？",
+      "char": "m199_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "twinkle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あーもう、わかったよ…\\俺は温泉入って美味しいもの食べて雪祭り見物\\できれば満足なのに…",
-      "char": "c000_01",
+      "dialogue": "いい取引だと思うぞ。\\魔王になるのは、我に決まっているからな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "10": {
+      "type": "talk",
+      "dialogue": "そうですか。それはとても魅力的な提案ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "しかし生憎ですが、私はハズレると分かっている\\賭けには乗らない主義ですので。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ただ…そのあふれる自信の半分程度は、\\御主人様にも分けて欲しいぐらいですね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そんなこと、ほぼ不可能だと思いますけど…はぁ",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そのクールな知性と、実直さ…素晴らしい。\\君がますます欲しくなってきたぞ。",
+      "char": "m199_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "そのようなご評価は、光栄ですが…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "今回はご縁がなかったということで。\\ふふ、まあそれでも…少々嬉しかったとは\\言っておきます。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "17": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

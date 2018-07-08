@@ -2,24 +2,25 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ジュピターみたいなヤツは1人で十分だ。\\いや、1人でも多いくらいだ。",
-      "background": "bg070_f",
+      "dialogue": "アナタ…\\たまに来ては《魔界の生態》や《悪魔育児法》みたいなおかしな本を探しているけど…",
+      "background": "bg013_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "char": "c209_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "1人では足りません。\\いなくなってはもっと困ります。",
-      "char": "c002_01",
-      "speaker": "same",
+      "dialogue": "あるわけないでしょ、そんな本！\\私を困らせたいのですか！",
+      "char": "keep",
+      "speaker": "same_full",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "言うだけだから簡単だよな…管理するのは、\\結局俺なんだぞ！",
+      "dialogue": "そんなに怒るなよ。\\探せば見つかるかもしれないだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -27,298 +28,212 @@
     },
     "4": {
       "type": "talk",
-      "dialogue": "そうはいっても、悪魔ですら気迫負けするほどの\\カリスマを持つチャイルドが必要です。",
-      "char": "c002_01",
-      "speaker": "same",
+      "dialogue": "その時は責任をもってお貸ししますわ！\\図書館では静かに！絶対静粛にです！！",
+      "char": "c209_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "pretense"
+      "before_effect": "shake_weak"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ジュピターはその類のチャイルド。\\そういうチャイルドは多いほうが望ましいです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "敵を怯ませる前に、俺の息が詰まりそうだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "after_effect": "shake_weak"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "あ、あそこに、ご老体が集まっています。\\契約できるような方もいるのではないでしょうか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ご老体！？\\せめて、爺さんとかお年寄りって呼ぼうよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "nonsense"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "リザが指差した先には\\お年寄りのために無料で炊き出しをする\\ボランティアがいた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "えーと、計画はつまりこうだよな。\\爺さんと契約してジュピターが現れたんだから\\他の年寄りからも同じような理屈で…えっと…",
+      "dialogue": "うるさいのはどっちだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "irritation"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "静かに！\\口数が多いですよ！",
+      "char": "c209_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "とにかく、図書館では静かにしてください。\\静粛にです！分かりましたか！？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake_weak"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "none",
+      "speaker": "none"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そろそろ入ってもよろしいですか～？",
+      "char": "none",
+      "speaker": "mona"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "静かにと言ったでしょ！  ",
+      "char": "c209_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "《原石の発掘》？",
-      "char": "c002_01",
+      "dialogue": "俺は何も言ってないぞ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "pretense"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そう、それ。《原石の発掘計画》。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "はあ…こんな簡単な作戦名も忘れるようでは…\\本当にジュピターのようなカリスマ性のある\\チャイルドを探し当てることが\\できるんでしょうか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "…俺としては、探し当てなくてもいいんだけどな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky",
-      "before_effect": "shake_weak"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "まだそんなことを…あら？そんな話はさておき。\\あちらをご覧ください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "teach"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "どうした？…あれ？\\あそこにいるの、ジュピターの契約者じゃないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "before_effect": "shake_weak"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "こんにちはー。\\少し召し上がってってくださいなー。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ふん、そんな安っぽい飯なんぞ食えるか。",
-      "char": "c214_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "before_effect": "shake_weak"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "こう見えても結構おいしいんですよー。\\他のお年寄りにも好評なんです。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ワシをそんな奴らと一緒にしないでくれないかね？",
-      "char": "c214_00",
-      "speaker": "same_full"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…相変わらず、しゃんとしてる爺さんだなあ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ここで会ったのも何かの縁です。\\再契約をしに行きましょう。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "one_ani": "attack"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "また怒られるんじゃないか？\\だいたい、しゃんとしすぎなんだよ、あの爺さん。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "よろしいことではないですか。\\そのほうが現実に多くの不満を抱きますから。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…お？お前、この間の坊主じゃないか！",
-      "char": "c214_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "どうも。\\…見た感じ、この間とお変わりなく。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "小生意気な坊主だ。\\年寄りに減らず口を叩くとは。",
-      "char": "c214_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "だが、間違っちゃいない。\\目に見えるものが変わったわけじゃないからな。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "おまえと契約ってやつを結んでからは\\なんというか…気力が湧いてきたんだ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "頭も若い頃みたいに、やたら冴えてるしな。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それで満足されてるのですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "joy"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "はっ、まさか！\\ワシの願いはまだ叶っていないぞ。",
-      "char": "c214_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ワシをこの境遇に追いやったやつらは、\\今も高層ビルで、ふかふかの椅子に座って\\ふんぞり返っておるわい！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "この爺さん、\\かつて大きな会社の会長だったらしいけど。\\落ちぶれた今もその気力はすさまじいものがある。",
+      "dialogue": "やはりこの女には聞こえている。\\身を隠したモナの声が…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "35": {
+    "13": {
       "type": "talk",
-      "dialogue": "ワシはもっと力が欲しい！\\契約すればもっと力が湧く気がする。\\坊主。あの契約ってやつを、もう一度結べないか？",
-      "char": "c214_00",
+      "dialogue": "ヘカテーの契約者はその得体のしれない《声》を\\聞き続けてきたようだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "こんにちわ～♥不破文香(ふわ ふみか)さん！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "え、これはどういう…",
+      "char": "c209_00",
       "speaker": "same_full",
       "pos": "right"
     },
-    "36": {
+    "16": {
       "type": "talk",
-      "dialogue": "うーん、でもなあ…",
+      "dialogue": "やっぱり私の声が聞こえるみたいですね。\\どうしてそんな強い力を持っちゃったのかしら？\\かわいそうに♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "none"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "またお前はいきなり…\\けど、かわいそう？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "idle"
     },
-    "37": {
+    "18": {
       "type": "talk",
-      "dialogue": "何を迷っているのですか？\\契約者から積極的に契約を要求されるのは、\\非常に稀なことなのですよ？",
-      "char": "c002_01",
+      "dialogue": "はい、少なくとも彼女の周りには、\\彼女の幻聴を解決できる人がいないんですよ。",
+      "char": "c001_01",
       "speaker": "same",
-      "facial": "fury",
-      "before_effect": "shake",
-      "one_ani": "attack"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "はいはい、わかったよ。その前に爺さん。\\はっきり言っておくけど、契約したからって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "《願いが必ず叶うわけじゃない》だろ？\\前も聞いたさ。わかっておる。",
-      "char": "c214_00",
-      "speaker": "same_full",
       "pos": "right"
     },
-    "40": {
+    "19": {
       "type": "talk",
-      "dialogue": "オッケー。それじゃ聞くよ。爺さんの願いは？",
+      "dialogue": "魔女の末裔。\\魔女の力といっても、\\使い方もわからないみたいですし。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ここで暮らしていくなら\\人間らしく生まれ変わるほうが\\幸せかもしれませんね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ああ、でも本当にもったいないです♥\\あの魔力、そのまま頂くことはできないでしょうか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "なんか不吉なことを考えてないか？\\変なこと考えるなよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "facial": "serious"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "わかってますよ～\\ヘタレな可愛いご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "でも、不破さんの夢に現れて、苦しめている原因は\\大体想像がつきますね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "わかるのか？\\だったらその原因を何とかすることはできないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ん～…\\モナならできると思いますけど～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なら、頼めないか？\\かわいそう、だし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "うふふ、仕方ありません。\\ご主人さまのお願いですからね！\\モナが一肌二肌、脱ぐとしますね♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
       "facial": "smile"
     },
-    "41": {
+    "29": {
       "type": "talk",
-      "dialogue": "ワシの願いは…",
-      "char": "c214_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "お前が言うと変に聞こえるんだが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
     },
-    "42": {
+    "30": {
+      "type": "talk",
+      "dialogue": "そう聞こえてるのはご主人さまだけですよ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

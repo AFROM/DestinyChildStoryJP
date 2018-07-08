@@ -2,58 +2,66 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "んー…",
-      "background": "bg086_f",
+      "dialogue": "どけ！これは俺の体だ！",
+      "background": "dungeon_bg",
       "bgm": "9",
-      "char": "m136_01",
+      "char": "m077_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あまり気を落とすな。\\リザに文句言われる俺の立場にもなってくれ…",
-      "char": "c000_01",
+      "dialogue": "この体はもともと私のモノなの！あなたこそ消えて！",
+      "char": "m077_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake_weak"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ダビは行くよ。",
-      "char": "c003_01",
+      "dialogue": "今、俺が見ているのは\\自分自身と会話する、そんなパフォーマンス？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "待て。",
-      "char": "c000_01",
+      "dialogue": "パフォーマンスではなく、人格同士の会話ですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "レディに頼みなよ！\\なんでダビが家事をしなくちゃいけないの？",
-      "char": "c003_01",
+      "dialogue": "どっちもモアじゃないか。会話が必要か？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious"
     },
     "6": {
       "type": "talk",
-      "dialogue": "だからくじで決めようって言ってるんだろ。",
-      "char": "c000_01",
+      "dialogue": "モアはボク、ボクがモア！",
+      "char": "m077_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "loop_ani": "attack"
     },
     "7": {
       "type": "talk",
-      "dialogue": "リザも呼んで！リザも家事をしなくちゃ！",
-      "char": "c003_01",
+      "dialogue": "違います、ご主人様。私が本当のモアです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "アイツはダメだ…愚痴ばっかだから。",
+      "dialogue": "またかよ…互いにホンモノだって\\言い張るのを見るのも、もう疲れたよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -61,237 +69,218 @@
     },
     "9": {
       "type": "talk",
-      "dialogue": "隣で聞いてたら雑巾を奪って\\俺が掃除したくなるくらいだ…",
-      "char": "keep",
+      "dialogue": "ご主人様はどう思いますか？\\私がホンモノのモアですよね？",
+      "char": "m077_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "バカご主人。\\サキュバスの言いなりになって情けない…",
-      "char": "c003_01",
+      "dialogue": "私がホンモノのモアになるのを望んでますよね？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "sigh"
+      "distance": "far",
+      "before_effect": "shake",
+      "after_effect": "shake_weak"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そんなこと言える立場か？",
+      "dialogue": "え？俺は全員がモアだと思ってるけど。",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "とにかく。俺、ダビ、そしてレディ。\\この三人でくじを引くんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "はあ…本当はモナも呼びたいところだけど…",
-      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "14": {
+    "12": {
       "type": "talk",
-      "dialogue": "モナ姉さまはダメだよ！",
-      "char": "c003_01",
+      "dialogue": "ひとつだけ選んでください。\\ご主人様も、素直なモアがお好きでしょう？",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "far"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "嘘つくな！お前は素直じゃなくて、\\「イイ子ぶってるモア」だ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "15": {
+    "14": {
       "type": "talk",
-      "dialogue": "はいはい…",
+      "dialogue": "ちょっと待て。まずは落ち着いて話をしよう。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "俺にとっては全員がモアだ。\\素直なのも、怒ってるのも、全部ね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "16": {
       "type": "talk",
-      "dialogue": "それじゃ、一人ずつ…まずはレディから…",
+      "dialogue": "俺は、その中にいるモアが全員ホンモノだと思っている。",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "横着しやがって！ひとつだけ選べ！",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ご主人様、本当に全部ホンモノだと思っているのですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うん、もちろん。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "idle"
     },
-    "17": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "あ、お前は動けないんだっけ…\\それじゃ俺が代わりに…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あれ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
     "20": {
       "type": "talk",
-      "dialogue": "皿洗いに決定！",
-      "char": "c003_01",
+      "dialogue": "俺がホンモノだって言ってんだよ！",
+      "char": "m077_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "joy"
+      "distance": "near"
     },
     "21": {
       "type": "talk",
-      "dialogue": "す、すまない…レディ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "問題ない。",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "でもさ、レディって縛られてるじゃん？\\どうやって皿洗いするの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "そう言えばこの前、家事をした時も…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "鍵がある…拘束具を外す鍵が…",
-      "char": "m136_01",
-      "speaker": "same"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "鍵があるはずだけど…その拘束具を外す鍵が。\\どんなに探しても見つからない。",
-      "background": "bg072_f",
-      "char": "m136_00",
-      "speaker": "same",
-      "pos": "center",
-      "screen_effect": "gray"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "そう言えば、レディの契約者が\\そんなこと言ってたっけ。\\鍵って本当にあるのか。",
-      "background": "bg086_f",
-      "char": "none",
-      "speaker": "none"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "鍵を取り出してくれ。",
-      "char": "m136_01",
-      "speaker": "same"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ダビは彼女の懐にある\\鍵を一つ取り出した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "お前が外してくれ。",
-      "char": "m136_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "俺が？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ああ。\\それからその鍵…これからはお前が保管してくれ。",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "失くしちゃうかもよー。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "うるさい！\\って言いたいところだけど…本当に失くすかも…\\いいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "問題ない。大切なものほど…\\信頼する友に預けるべきだ。",
-      "char": "m136_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ダビならともかく\\バカご主人は絶対失くすよ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "ぜーったいに失くさない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ありがたい。",
-      "char": "m136_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "あ、ああ…ところで、急に近寄るのはやめてくれないか…",
+      "dialogue": "いや、全員がホンモノだ。あー、ややこしすぎて\\誰と話してるのか、わからなくなってきた。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "confused"
     },
-    "41": {
+    "22": {
+      "type": "talk",
+      "dialogue": "もっと効率的なやり方をしてみては？",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "効率的？どんな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "全部の人格のモアに向かって話すのです。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "えーっ、それぞれの人格が出ないと会話できないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "でも、モア同士は話せているではないですか。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "そっか。まあ、やってみるか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "よーし。おい、モアども！俺の話をよく聞けよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺はお前たち全員がホンモノだと思う。\\かつてどんな姿だったとしても、今が現実だから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "みんな、自分自身は大事にするだろ？\\みんなただ、幸せになりたいだけなんだろう？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "多重人格のチャイルドなんて俺も初めてだから…\\どう接していいかわからないけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "誰が出てきても、俺は本音で付き合うぞ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ご主人様…ありがとうござい…",
+      "char": "m077_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "うへっ…気色悪っ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "うん、正直な感想、ありがとな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

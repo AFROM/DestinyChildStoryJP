@@ -1,173 +1,163 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "あけまして、おめでとうございます！\\これからみんなで初詣に行きませんか？",
-      "background": "bg077_f",
-      "bgm": "8",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "type": "timebrief",
+      "background": "bg024_f",
+      "bgm": "9",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いくいくー！\\ぐふふ、どんなお願いしようかな！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "joy"
+      "dialogue": "悪魔ケプリの回想…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうですね。ぜひ、魔王の座を祈願しましょう。",
-      "char": "c002_01",
+      "dialogue": "敏腕サキュバスのリザさん！？\\ここには祓魔師がいるって自分の口で何度も言ってたでしょ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "enter_from_left_fast"
     },
     "4": {
       "type": "talk",
-      "dialogue": "だけど、この近くに神社なんてあったかしら～？",
-      "char": "c001_01",
+      "dialogue": "なんで、こんな場所で契約者に会おうとしてるの！？本当は俺を殺す気だろ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "はい。小さいですが、ご利益がある神社が\\ありますよ。温泉街で働く者しか知らない穴場です。",
-      "char": "c355_01",
+      "dialogue": "ここには、人間が多く集まります。\\それだけに騙しやすい人間も多いからです。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "cry"
+      "facial": "pretense"
     },
     "6": {
       "type": "talk",
-      "dialogue": "おい、おい。悪魔が神頼みって…\\それに俺はもっと寝ていたいんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "だ、ダメですか…？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ご主人さま♥\\人間界のルールを守るのであれば、初詣くらい、\\きちんと行かなくてはダメですよ！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "sulky"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "人間界のルールってスケールでかいよ！\\はぁ、しょうがない…帰りに甘酒おごれよな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "たどり着いた先には、凛と佇む神社があった…\\ボロいけど。",
-      "background": "bg230_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "モナ姉さまがダビの事をもっと、もっと好きになりますように！モナ姉さまとダビが結婚できますように！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "それからそれから…\\ご主人がモナ姉さまの前から消えますように！",
+      "dialogue": "御主人様を殺した後、その地位を乗っ取り悪名をとどろかすのも良いですが…\\まだその時ではないので、どうかご安心ください。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "smile",
-      "one_ani": "attack"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ダビ…\\願い事は別に、他人に聞かせる必要はないんだぞ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "どうですか、この神社は？なかなかいい所でしょ？",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そうですね。小さいですが、澄んだ気が満ち満ちています。これはご利益がありそうですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "さぁ、次はメイの番ですよ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "あっ、はい！",
-      "char": "c167_00",
       "speaker": "same",
       "pos": "right"
     },
+    "7": {
+      "type": "talk",
+      "dialogue": "それを聞いて安心なんてできるか！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "2人とも、ほどほどにしてください。\\そろそろ契約者候補との面談の時間ですよ。\\いつまで遊んでいるつもりですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "モナ、聞いてなかったのかよ？\\リザは俺の命を狙ってるんだぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "それになんで、俺ばっかり叱られるんだよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "モナ姉さまの言うこと聞きなさいよ！\\このバカご主人！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c311_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "サポーターを3人も従えている悪魔が…\\情けないヤツだな。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "弱点の多い悪魔はすぐに淘汰されていくはずだ。\\それなのにどうして、まだ生きている？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "12",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "わわわ～っ！",
+      "background": "bg178_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "go_to_right_point"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ご主人さま！\\まだ逃げるタイミングではありません！\\せっかくのチャイルドが逃げてしまいますよ～！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "before_effect": "enter_from_left_slow"
+    },
     "19": {
       "type": "talk",
-      "dialogue": "最後のメイのお祈りが始まった。みんなが見守る中、メイは手を合わせ真剣に願い事をしていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "少しでも不利になると、すぐ逃げるのですね…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ガウガウ！",
-      "char": "none",
-      "speaker": "none",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "dialogue": "未熟なチャイルドだから良かったものの…\\実力のある候補生が相手なら御主人様は約3回ぐらい死亡していましたよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "うわっ！なんだっ！？でかっ！！",
+      "dialogue": "3回！？冗談だろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -176,204 +166,230 @@
     },
     "22": {
       "type": "talk",
-      "dialogue": "ガウガウ！",
-      "char": "none",
-      "speaker": "none",
+      "dialogue": "いいえ、冗談ではありません。",
+      "char": "c002_01",
+      "speaker": "same",
       "pos": "right",
-      "screen_effect": "dialog_shake"
+      "facial": "pretense"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あらあら、あけましておめでとうございます。\\挨拶に来て下さったんですか？",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "far"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "うわ～！可愛いイヌだ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ふふ、この神社を守護している狛犬ですよ。\\私に懐いてくれているんです。",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ご主人さまも、ホント動物によく懐かれますね～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "さぁ、こっちにいらっしゃい。",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "far"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "べ、別に懐かれたくなんかない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "あははっ！",
-      "char": "c167_00",
+      "dialogue": "戦闘中に敵から背を向け逃走したことで1回。\\退路を確保せずに逃げ出したことで1回。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "30": {
+    "24": {
       "type": "talk",
-      "dialogue": "あ、メイ。お祈りは終わったのか？",
+      "dialogue": "だったら2回でしょ？なんで3回なんだよ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "私が頭にきて1回…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
       "facial": "idle"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "お前さ…\\もういい！鍵して寝る！\\お前とは怖くて一緒の家に住めないよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "unfair",
+      "screen_effect": "dialog_shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "はぁ…\\そんなに臆病でどうするんですか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "sigh"
+    },
+    "28": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "fade_in": "longer"
+    },
+    "29": {
+      "type": "curtain",
+      "background": "bg097_f",
+      "bgm": "8",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "なんだ？この感じ…昨日から…\\誰かに見られている…？",
+      "background": "bg097_chr02",
+      "char": "none",
+      "speaker": "hero"
     },
     "31": {
       "type": "talk",
-      "dialogue": "はいっ！沢山願い事しちゃいました！",
-      "char": "c167_00",
-      "speaker": "same",
+      "dialogue": "…",
+      "background": "bg097_f",
+      "char": "c311_00",
+      "speaker": "unknown1",
       "pos": "right",
-      "facial": "cry"
+      "before_effect": "enter_from_right_fast"
     },
     "32": {
       "type": "talk",
-      "dialogue": "そうか…メイはどんな願い事をしたんだ？",
+      "dialogue": "…って目の前のチビの視線か。\\しかしなぜ、親の仇でも見つけたように睨みつけてくるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "なぁチビッ子。もしかして道にでも迷ったのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "私にタメ口ですか？",
+      "char": "c311_00",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "………\\少々お尋ねしますが、\\もしかして道に迷われたのですか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "なぜ、私に敬語を使うのですか？",
+      "char": "c311_00",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "どうしろっていうの！？\\い、いや…何でもない。\\こんな小さなチビッ子とケンカはやめよう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "小さなチビッ子…",
+      "char": "c311_00",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そうさ、小さなチビッ子。\\様子を見るに迷子か、そうじゃなきゃお使いに来たみたいだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "迷子ではありません。お使いでもありませんし。",
+      "char": "c311_00",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "それじゃただの暇なチビッ子だな。\\じゃ、これどうぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "これは何ですか？",
+      "char": "c311_00",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "子供をなだめるためのアメちゃんさ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "smile"
     },
-    "33": {
-      "type": "talk",
-      "dialogue": "えっとですね、みんなの幸せと、\\この温泉街の繁栄と、そして…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "メイは話の途中で俺の顔を見つめて来た。ま、まさか…さっき食べたヤキソバの青のりがついてるのか？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "メイ、あなた…",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "cry"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "きゃっ！こ、コウガ！？急に後ろから\\話しかけないでよ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ふふふ、ごめんなさい。\\でも、もうすぐお仕事の時間ですよ？",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "あっ、もうこんな時間！\\楽しい時間ってすぐに終わっちゃうね！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "それじゃ、お仕事に行ってきま～す！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "go_to_right_slow"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "いってらっしゃ～い！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense",
-      "one_ani": "attack"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "メイは手を振りながら仕事場へと走り出した。\\メイの願いが叶うといいな。\\……甘酒はまた今度にしよう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "コウガ、お前は行かなくていいのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "はい。私は今日はお休みです。\\それにやる事ができましたから…",
-      "char": "c355_02",
-      "speaker": "same",
-      "pos": "right"
-    },
     "44": {
       "type": "talk",
-      "dialogue": "ウ～ワオ～ン！",
-      "char": "c355_02",
-      "speaker": "none",
-      "pos": "right",
-      "distance": "far"
+      "dialogue": "主にうちの子供対策用。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "45": {
       "type": "talk",
-      "dialogue": "あなたの願い、聞き届けました…\\その願い、私が守って見せましょう。",
-      "char": "c355_02",
+      "dialogue": "目つきが悪いのは、糖分が足りてないからさ。\\これでも食べて、早く家に帰りな。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "facial": "sigh"
+      "pos": "left",
+      "facial": "smile"
     },
     "46": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c311_00",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "47": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "愚かなヤツだ。私に気が付かないなんて。",
+      "background": "bg043_f",
+      "char": "c311_01",
+      "speaker": "same"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "臆病で、スキだらけの悪魔。\\あんな奴はいくらでも殺せる。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "サポーター達も愚かだ。\\なぜ、あのような悪魔に従う？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "何か理由があるとでも言うのか？",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "52": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
     }
   }
 }

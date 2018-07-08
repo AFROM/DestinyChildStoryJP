@@ -2,264 +2,245 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
-      "background": "bg099_f",
-      "bgm": "29",
-      "char": "c174_01",
-      "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake"
+      "dialogue": "ふーん…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c173_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "来たぞ！\\欲にまみれた悪魔たちのデス・ロワイヤル！！",
-      "char": "keep",
+      "dialogue": "あれ、ディナシー？どうしてここに？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "参加者には、なな、なんと！貪欲な悪魔も納得の\\超豪華プレゼントを差し上げま～す★",
-      "char": "keep",
+      "dialogue": "退屈だから。",
+      "char": "c173_01",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "distance": "normal"
     },
     "4": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "そっか。でも残念だったな。\\ここにはお前を楽しませてやれるものはないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "5": {
       "type": "talk",
-      "dialogue": "誰が勝つかなぁ～ドキドキ！ワクワク！",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c003_01",
+      "dialogue": "そうでもないと思うけど？",
+      "char": "c173_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "joy"
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なあ、他のチャンネルに変えようよ。\\1日中こんなの観てて飽きないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "dialogue": "ディナシーの視線は、\\ベッドの上でゴロゴロしている俺に\\向けられていた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "フンだ。うだつの上がらない小悪魔に\\拘束されているサポーターにとって…",
-      "char": "c003_01",
+      "dialogue": "…まさか、俺に興味があんの？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "left",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…強くてカッコイイ悪魔が観れるこのチャンネルは\\唯一のストレス解消なの！",
-      "char": "keep",
+      "dialogue": "多少。まだはっきりわからないけど。",
+      "char": "c173_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "誰がうだつが上がらない小悪魔だって！？\\まったく、変な言葉ばっかり覚えるよな！",
+      "dialogue": "と言ってもなぁ…\\そんなに見つめられても、何もないぞ。\\期待なんてするだけ無駄だから、\\他のおもちゃを探すんだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "confused"
     },
     "10": {
       "type": "talk",
-      "dialogue": "とにかく、こんな暴力的な番組は視聴禁止。\\保護者としての指導だ。お前は情操を育てる\\教育番組でも観てろ！わかったな！",
-      "char": "keep",
+      "dialogue": "ご主人は、1日中ベッドでモゾモゾしてるのが\\楽しいの？",
+      "char": "c173_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "うわ～ん。横暴ウスラトンカチ～！\\じゃあ他の観るもん。\\《世界の暴走悪魔列車から》観る。",
-      "char": "c003_01",
+      "dialogue": "…まさかお前、俺をイジッて遊ぶつもりか？\\そういうのは止めて欲しいんだけど。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "12": {
       "type": "talk",
-      "dialogue": "深夜にやってる旅番組か。\\チャンネルEvilっていうのが気になるけど、\\まあ、それくらいならいいか。ポチッとな。",
+      "dialogue": "話すくらい、いいでしょ。\\他の悪魔たちは魔王争奪戦で忙しいのに、\\ご主人はのんびりしてるんだし。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "怠けてるみたいに言うな！\\俺は魔王争奪戦なんてまったく興味がないんだよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "はぁい。あなたのそばに、チャンネルEvil…\\今日も飽きずにおなじみのセリフで始まりまーす…",
-      "background": "bg100_f",
-      "char": "c174_02",
+      "dialogue": "ふーん。",
+      "char": "c173_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "A.Iさん、何か今日はテンション低いな…",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "dialogue": "ディナシーは興味深そうに頷くと、\\俺のベッドの上に腰かけた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "これは妹だよ。お姉さんのA.Iと全然違う！\\…誰かに似てると思ったら、\\うちの年がら年中ゴロゴロしている引きこもり…\\ぐむっ！",
-      "char": "c003_01",
+      "dialogue": "…ご主人のこと、気に入りそう。",
+      "char": "c173_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "17": {
       "type": "talk",
-      "dialogue": "変な事ばかり言う口は塞いじゃうからなー？\\それにあれは妹じゃなくて…",
+      "dialogue": "あ…そう？なんで？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy"
+      "distance": "normal",
+      "facial": "haah"
     },
     "18": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longer",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "だって、シリアスなの嫌いだし、\\面倒くさいのも嫌いでしょ。\\怠け者で遊ぶのが好きで…あたしと同じだもん。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "実はどっちも本人です。\\双子っていうのはただの設定。\\A.Iもその妹も、どっちも私なの。",
-      "background": "bg069_f",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "お前、褒めてんの？\\それとも、けなしてんの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そ、そんな秘密をいきなり教えてもらっても！\\スキャンダルになっちゃうんじゃないか！？",
-      "char": "c000_01",
+      "dialogue": "褒めてる。\\ねえ、あたしの契約者とデートしたんでしょ？\\どうだった？",
+      "char": "c173_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake_weak"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "話したところで週刊誌に売りつける度胸も\\なさそうだし。それに、誰かに話したところで、\\誰も信じないだろうし。",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "だから…あれはデートじゃなくて、\\振り回されただけだってば。\\あいつが遊ぼうって、俺を勝手に連れまわしたんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "22": {
       "type": "talk",
-      "dialogue": "A.Iは人間でもなく、女でもない。\\…悪魔でもなく、その取り巻きでもない…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "そんなのはどうでもいいの。\\ねえ、どうだった？楽しかった？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "…あちこちでみんな、好き勝手言ってますし。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "それは…その。\\まあ、悪くは…なかったかな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
     },
     "24": {
       "type": "talk",
-      "dialogue": "そこであなたが「双子じゃない！」\\って言ったところで、新しい都市伝説の\\ひとつになるだけですよ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "ならよかった。\\あたしの契約者も、きっと楽しかったと思うもの。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "そ、そっか…大変だな…",
+      "dialogue": "…そうか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "joy"
     },
     "26": {
       "type": "talk",
-      "dialogue": "何がです？",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "そうに決まってるわ。\\じゃなきゃ、たった一度のデートで\\契約なんてしなかったはずよ。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "大きな秘密を抱えて、テレビに出続けること。",
+      "dialogue": "そ、そうかな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal",
+      "facial": "sulky"
     },
     "28": {
       "type": "talk",
-      "dialogue": "有名すぎてプライベートもなく、\\ワーカーホリックに間違えられるくらい\\仕事ばかりしてるから、じゃなくて？",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "そうよ。きっとご主人といるのは\\楽しいんだと思う。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "俺は有名になったことがないから、\\コンビニ行く時も変装する気持ちなんて、\\分からないけど。",
-      "char": "c000_01",
+      "dialogue": "だから、多分これからも、\\しょっちゅう来ることになるから。\\よろしくね。ご主人。",
+      "char": "c173_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "distance": "near"
     },
     "30": {
-      "type": "talk",
-      "dialogue": "でも俺なら「実はふたりとも私です！」って\\どっかでポロッと言っちゃいそうな気がする。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "嘘を吐き続けるのって性に合わないって言うか…\\あ、でもA.Iさんはそれで夢を売ってるから\\しょうがないか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "そうですね。A.Iの正体がこんな地味な女の子って\\知ったら子供たちの夢が…\\それに、私はただの商品で、たくさんの勢力の\\思惑で成り立っています。",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "…あなたみたいに生きられたら面白いでしょうね。\\それじゃ、私は次の予定があるので、この辺で…",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

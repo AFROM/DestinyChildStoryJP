@@ -2,317 +2,268 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はぁ、俺の悪魔人生。\\いまさら勉強して何になるんだ？",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c000_01",
+      "dialogue": "はあ…\\モナさん、私の悩み聞いてくれませんか？",
+      "background": "bg101_f",
+      "bgm": "31",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "distance": "far"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ペ、ペルソナ…？何だコレ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "あら、どうしたの～？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "<color=ff1493>ペルソーナ！",
-      "char": "c107_01",
+      "dialogue": "欲しいものがあるんですけど\\悪魔さんがお金を持っていないせいで\\買えないんです…",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "distance": "far"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うわ！ビックリした！",
+      "dialogue": "ツッコミどころ満載な悩みね…",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ああ、どうして悪魔さんは\\お金持ちじゃないんでしょう？",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "NO金持ち！\\NO金持ち！金なし！サル！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そうね～\\誰でもお金持ちになれるわけじゃないし…",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "お金持ちの悪魔に交換したいです。\\…交換…悪くないかも！",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "おい、俺は物じゃないぞ…\\そもそも、誰と交換するつもりだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "やだ！盗み聞きしてたんですか？\\悪趣味な悪魔さんですね！",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "出た！サル！しゃべるサル！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "サルって言うな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
-      "before_effect": "shake"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ノックしてから入って来いって言っただろ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>象徴学では\\<color=ff1493>仮面をかぶった群衆を象徴するが、\\<color=ff1493>普通は真の自分とは異なるものを意味する。",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "……！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>だが、ゴッドファーザーが読んでいる本のレベルを\\<color=ff1493>想定すれば…",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>《仮面を意味する言語、演技する人格》\\<color=ff1493>と書かれていますね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "せ、正解だ…！すごいな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>ウィー！このくらい常識です。\\<color=ff1493>他には？",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ああ、それじゃこの問題。\\このカップ…一体なんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "mvd": "ux/talk/efx_script_angry_set.mvd",
+      "mvd_pos": "left_top"
     },
     "13": {
       "type": "talk",
-      "dialogue": "<color=ff1493>カップではなく聖杯です。\\<color=ff1493>手に入れたいものが入っているという聖なる杯です。",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "金なし！モンキー！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "14": {
       "type": "talk",
-      "dialogue": "<color=ff1493>美術の問題なら、正解は最後の晩餐。",
-      "char": "keep",
+      "dialogue": "サルもモンキーも同じだろ！\\そうやって悪口言いまくるのは、\\悪趣味じゃないのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "それじゃ、④番だな。\\お前、本当にすごいな。",
-      "char": "c000_01",
+      "dialogue": "盗み聞きする方がもっと悪趣味です！\\許してほしければ、この限定人形を買ってください。",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "distance": "far"
     },
     "16": {
       "type": "talk",
-      "dialogue": "彼は天才で有名ですからね。",
-      "char": "c001_01",
+      "dialogue": "なんで俺が許しを乞わなきゃいけないんだ…\\…まあ、そんなに高くなければ\\買ってやらないこともないけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あ、モナ…！",
-      "char": "c000_01",
+      "dialogue": "今ならお買い得ですよ！\\限定版なのに、55人で買えちゃいます♥",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "distance": "far"
     },
     "18": {
       "type": "talk",
-      "dialogue": "人間界で暮らしたければ\\常識を学べとは言いましたが、\\こんなずるがしこい方法を使うとは\\思いませんでした♥",
-      "char": "c001_01",
+      "dialogue": "55人…って樋口一葉がか？\\どこがお買い得だよ…俺には1人でも大金だ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ずるがしこいって！\\こいつが勝手に出て来たんだ！",
-      "char": "c000_01",
+      "dialogue": "ちぇっ……せっかく高い人形を\\手に入れられると思ったのに。\\サルに期待したのが間違いでした。",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "distance": "far"
     },
     "20": {
       "type": "talk",
-      "dialogue": "自分の過ちをチャイルドにかぶせるなんて\\悪魔としてはご立派ですね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
+      "dialogue": "金なしサル！モンキー！ゴリラ！キングコング！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
     },
     "21": {
       "type": "talk",
-      "dialogue": "だから100年経っても魔王になれないんですよ。",
-      "char": "keep",
+      "dialogue": "サルじゃないって言ってるだろ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "superangry"
+      "pos": "left",
+      "before_effect": "shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "それはアポロンも同じですよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "angry"
+      "dialogue": "アウストラロピテクス！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "pos": "center",
+      "distance": "far",
+      "before_effect": "none",
+      "one_ani": "attack"
     },
     "23": {
       "type": "talk",
-      "dialogue": "こんなことしてご主人さまの脳が腐ったら、\\サポーターの責任は重大！",
-      "char": "keep",
+      "dialogue": "だから俺はサルじゃ…\\あ？アウス…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "toonear",
-      "facial": "superangry"
+      "pos": "left",
+      "facial": "confused"
     },
     "24": {
       "type": "talk",
-      "dialogue": "さ、続けて言ってみてください。\\自分のことは自分でする！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "teach"
+      "dialogue": "うふふ、そんな困った顔しなくても\\検索すれば出てきますよ～♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "じ…自分のことは自分でする…",
-      "char": "c000_01",
+      "dialogue": "褒め言葉だから調べなくてもいいですよ。\\ね？アウストラロピテクスさん。",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "far"
     },
     "26": {
       "type": "talk",
-      "dialogue": "<color=ff1493>自分のことはJIBUNDEする…",
-      "char": "c107_01",
+      "dialogue": "ほんとに褒め言葉なのか？一体、どんな意味が…\\あ、これか。「アウストラロピテクス」とは…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "smile"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ただし、悪魔的な方法で！",
-      "char": "c001_01",
+      "dialogue": "って、全然褒め言葉じゃないじゃん。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "teach"
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
     },
     "28": {
       "type": "talk",
-      "dialogue": "「悪魔」を付ければいいと思ってるだろ…",
+      "dialogue": "バカザル！アホザル！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "サルじゃないっつーの。\\いい加減にしろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そんなに怒らなくても～♥\\好きな子ほどいじめたくなっちゃうんですよ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "そんなわけないだろ…\\好きなら何でいじめるんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "29": {
-      "type": "talk",
-      "dialogue": "ただし、悪魔的な方法で！",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "teach"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ただし、悪魔的な方法で！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>TADASHI、悪魔的な方法で！",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "center"
-    },
     "32": {
       "type": "talk",
-      "dialogue": "そこのヒマワリ！\\無駄にカッコつけた発音しない！",
-      "char": "c001_01",
+      "dialogue": "……",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "teach"
+      "distance": "far",
+      "before_effect": "go_to_right_slow"
     },
     "33": {
       "type": "talk",
-      "dialogue": "<color=ff1493>自分のことは自分でする！<color=ff1493>ただし、悪魔的な方法で！",
-      "char": "c107_01",
+      "dialogue": "…あら～？図星だったのかしら～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "center"
+      "facial": "tempt"
     },
     "34": {
       "type": "talk",
-      "dialogue": "まったく…手のかかるご主人さまなんですから♥",
-      "char": "c001_01",
+      "dialogue": "な、なんだよ。何で急に黙るんだ？\\おい、メーデイア？どこ行くんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "35": {
       "type": "talk",
-      "dialogue": "それじゃ、各自の役割をこなしましょう！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ハイ！勉強します！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>ウィー、今から光合成を試してみます！",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "光合成って…他にもやることが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ご主人さま、今何か？",
+      "dialogue": "ご主人さまってば♥\\ほんと、罪な男ですね～♥",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
+      "distance": "near",
+      "facial": "pretense"
     },
-    "40": {
-      "type": "talk",
-      "dialogue": "何でもありません！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "41": {
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

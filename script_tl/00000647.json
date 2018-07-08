@@ -2,17 +2,16 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ユーナ、俺に話すことないか？",
+      "dialogue": "ん？なんだ、この花。\\誰がこんなものを…",
       "background": "bg086_f",
-      "bgm": "9",
+      "bgm": "17",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…それ、どういう意味？",
+      "dialogue": "あら、いい香りね。\\私にも一輪いただけない？\\これ、私の大好きな花なの。",
       "char": "c172_01",
       "speaker": "same",
       "pos": "right",
@@ -20,7 +19,7 @@
     },
     "3": {
       "type": "talk",
-      "dialogue": "俺に言いたいことがあるんじゃないかと思って。",
+      "dialogue": "どうぞ…と言いたいとこだけど、\\これ、俺のじゃないんだよな。\\気づいたら、ここに置いてあって…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -28,100 +27,105 @@
     },
     "4": {
       "type": "talk",
-      "dialogue": "最近、コイツはよく\\不審な行動をする。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あら、誰かからの贈り物かしら。",
+      "char": "c172_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "穴が空くくらい俺を見つめたと思ったら\\首をかしげたりもする。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おっ、ビンゴ！\\よく見たら、手紙が添えてあったぞ。\\なになに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "まるで、不思議な動物でも観察しているかのような\\眼差しで気分がすぐれない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "「親愛なるレディ・ユーナ。\\花園を歩いていたら、\\偶然、あなたに似た花を見つけました」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "言いたいことがあるなら言ってくれ。\\変な目で俺を見るな。",
-      "char": "c000_01",
+      "dialogue": "「よろしければ、受け取ってください」",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あ…そのこと。\\それ、坊やの勘違いよ。",
-      "char": "c172_01",
+      "dialogue": "「気に入っていただけると嬉しいです。\\R.C.より」",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "どういう意味だ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "言いたいことがあるのは確かだけど\\坊やに言いたいわけじゃないの。",
+      "dialogue": "……",
       "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "11": {
+    "10": {
       "type": "talk",
-      "dialogue": "じゃあ、誰に…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "怪訝な表情をすると、ユーナは静かに笑い\\俺の後ろを指さした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "俺の後ろに何が…ひいっ！",
+      "dialogue": "「R.C.」…といえば、レッドクロス…だよな？\\わざわざユーナの好きな花まで調べるなんて…\\モテモテでよかったな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "14": {
+    "11": {
       "type": "talk",
-      "dialogue": "モルガナよ。ハロー。",
+      "dialogue": "……",
       "char": "c172_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "…って、どうした？\\なんか、機嫌が悪そうだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "い、いいえ。\\お花、とっても綺麗ね。",
+      "char": "c172_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "…その割には、全然嬉しそうじゃないけど…\\えっと、まさか、レッドクロスのこと、嫌いなのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c178_01",
+      "dialogue": "…そんなことないわ。\\けど…ちょっと、重いかな…って。",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "じゃあ、今の今までモルガナが\\俺の後ろをぞろぞろついて来たってわけか？",
+      "dialogue": "重いって、\\レッドクロスの好意が…ってことだよな。\\気持ちはわかるけど、\\ユーナがそんなこと言うなんてな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -129,23 +133,22 @@
     },
     "17": {
       "type": "talk",
-      "dialogue": "ユーナ、ひょっとしてお前、\\モルガナを見てたのか？",
-      "char": "keep",
+      "dialogue": "…そうね、私らしくないわね。\\だけど、自分でもどうしてそんな風に\\思ってしまうのか、\\よくわからないの。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そうよ。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "まさか、契約者の影響か？\\確か、ユーナの契約者も、\\レッドクロスの契約者に遠慮してるみたいだったし…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "19": {
       "type": "talk",
-      "dialogue": "全然気づかなかった。蜃気楼だからか…\\何があったか知らないけど、\\用があるなら声をかけてくれ。",
+      "dialogue": "…言ってどうにかなることじゃないだろうけど、\\できれば、少しは心を開いてやってくれよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -153,7 +156,7 @@
     },
     "20": {
       "type": "talk",
-      "dialogue": "幽霊じゃあるまいし。ユーナがいなかったら\\ずっと気づかないままだった。",
+      "dialogue": "見た目は怖いけど、\\あいつは純粋な気持ちで、\\お前のことが好きなんだろうからな。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
@@ -161,167 +164,13 @@
     },
     "21": {
       "type": "talk",
-      "dialogue": "そうね、ユーナがいなかったら…",
-      "char": "c178_01",
+      "dialogue": "…そうね。きっと、あなたの言う通りよ。\\ありがとう。感謝してるのよ？",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "あ、そういえば…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "お前、どうやってモルガナを見つけたんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "え？ただ…見えただけだけど…",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "お前さ、それがどれだけすごい能力か知ってるか？\\こいつを見つけられるなんて。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "チャイルドの中にはモルガナの存在すら\\知らないヤツもいるのに。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "まさか。こんなによく目につくのに。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "目につく…？",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "こんなにキラキラして笑顔の美しいチャイルドが\\目につかないわけないじゃない。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そんな簡単に言われても…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ま、いいだろ。モルガナ、\\なんで俺の後をついてくるんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "あら？《モルガナを従わせてやるー》\\なんて近所中に言いまわってたくせに…",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "う、うるさい。俺の味方だろ？\\とにかく、どうして俺の後をつけるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "それは…秘密。",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "うう…お前、芸能人にでもなったつもりか？\\あれ？また消えやがった。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "私…分かる気がする。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "坊やの目には見えないかもしれないけど\\アナタを見るモルガナの目はキラキラ輝いてたわ。",
-      "char": "c172_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "生まれて初めて花を見た子供のような眼差し？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "…何だそれ。結局は俺を監視してたってことだろ？\\ホント、分かるようで分からないヤツだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

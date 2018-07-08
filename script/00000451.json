@@ -2,261 +2,314 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "サルマキス、チャイルドの生活はどうだ？\\上手くやってるか？",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c000_01",
-      "speaker": "same"
+      "dialogue": "…\\出て来たらどう？",
+      "background": "bg102_f",
+      "bgm": "9",
+      "char": "c124_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "after_effect": "none"
     },
     "2": {
       "type": "talk",
-      "dialogue": "心配しないで。ご主人様のおかげで、\\とっても楽しく過ごしてるから。",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "フッ…\\久しぶりだな、イブ。",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "3": {
       "type": "talk",
-      "dialogue": "それはよかった。",
-      "char": "c000_01",
+      "dialogue": "…誰？\\",
+      "char": "c124_00",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ふーん。",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "お、お前…私を忘れたのか！？",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ん？なんだ？何か悩みでもあるのか？",
-      "char": "c000_01",
+      "dialogue": "忘れるって…\\それは顔見知りの間で使う言葉よ。",
+      "char": "c124_00",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうじゃなくて…今思うとね。\\ご主人様って、思ったよりいい人みたい。",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "知らないはずないだろう！\\お前、いつも上の空だと思ったら…！",
+      "char": "none",
+      "speaker": "unknown1",
+      "screen_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "思ったよりって…\\まあ、そう言ってくれるのはありがたいけど。",
-      "char": "c000_01",
+      "dialogue": "…上の空？ そうじゃなくて、声をかけられたから\\答えただけだと思うの…覚えてないけど。",
+      "char": "c124_00",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "この前、\\ご主人様は恋愛経験ゼロって聞いたから…\\とっても心配してたんだ。",
-      "char": "c126_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "お前…！魔王争奪戦に参加するというから\\わ、私は、好意で見逃してやろうとしたのに！",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ある意味、魅力がない人なのかなって…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "決めたぞ！私が魔王になったあかつきには、\\生意気なお前を側室にしてやる！",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "10": {
       "type": "talk",
-      "dialogue": "俺が恋愛経験ゼロ？\\誰がそんなこと言ってたんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "dialogue": "それも100番目ぐらいの側室にな！フヘヘ…\\私の顔を拝むには、さ、3か月はかかるだろうな！",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "11": {
       "type": "talk",
-      "dialogue": "モナが教えてくれたよ。",
-      "char": "c126_01",
+      "dialogue": "ふうん…\\それで…いいの？",
+      "char": "c124_00",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "モナのヤツ…\\よりによってサルマキスにそんな話を…",
+      "dialogue": "え、えっ？\\",
       "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "speaker": "unknown1"
     },
     "13": {
       "type": "talk",
-      "dialogue": "その…誤解してるみたいだけど。\\俺は恋愛したことがないわけじゃないぞ。",
-      "char": "c000_01",
+      "dialogue": "私だったら、そんなくだらない復讐はしないわ。\\そうね、私なら…",
+      "char": "c124_00",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "それに…心配されるほど魅力がないわけでも…\\ない、はずだ。たぶん…",
+      "dialogue": "身動きも取れないくらい、あなたの体にフィットした棺を作って…\\脳天に水が一滴落ちるような穴を開けて…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "恋愛経験がないのは恥ずかしいことじゃないわ。\\ちょっと残念なだけ。",
-      "char": "c126_01",
+      "dialogue": "私の任期が終わるまで、そのまま放置すると思うの。ん、それがいいわ。\\あなたの顔、これで覚えられそう…",
+      "char": "c124_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "before_effect": "shake",
+      "loop_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "16": {
-      "type": "talk",
-      "dialogue": "そう言われると余計に恥ずかしいだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "実は、私の契約者も恋愛経験がないの。\\ひとりの男性だけを好きになったせいでね。",
-      "char": "c126_01",
+      "dialogue": "イブの本性、見てしまった！",
+      "background": "dungeon_bg",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そうだ。オマエの契約者、片思いしてたよな？",
-      "char": "c000_01",
+      "dialogue": "…あら、偶然？\\どうしてここに？",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うん、結局は叶わなかったけど。",
-      "char": "c126_01",
+      "dialogue": "イブが戦ってるみたいだったから\\様子を見に駆け付けたのさ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "pretense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "契約者が片思いしていた男性は事故で亡くなり…\\後を追って死のうとしていた契約者を、\\ダビが救った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "うう、でもこんな恐ろしい姿を目の当たりに\\するとは…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "21": {
       "type": "talk",
-      "dialogue": "契約者はその人のことを忘れられなくて\\苦しんでたけど、私は絶対にそうはならないよ。",
-      "char": "c126_01",
+      "dialogue": "駆け付けた…？\\なぜ…？",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "必ず、私だけの王子様を見つけ出すの！",
-      "char": "keep",
+      "dialogue": "そ、そりゃ… \\何はともあれ、《同盟関係》…みたいなもんだろ？\\す、助太刀しようかなあと…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "sigh"
     },
     "23": {
       "type": "talk",
-      "dialogue": "そうか。できるといいな。",
-      "char": "c000_01",
+      "dialogue": "あなたは私が…そんなに弱いと思っているの？\\サポーターは何も教えてないのかしら…\\ガッカリだわ。",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だから、ご主人様も諦めないで！\\とっても素敵な人だから！",
-      "char": "c126_01",
+      "dialogue": "あ、いや、イブのことは聞いてるよ。\\物凄い力の持ち主だって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "もしかすると、ご主人様の魅力に気づいている人が\\意外と近くにいるかも…",
+      "dialogue": "ただ…俺が駆け付けたのは、\\居ても立っても居られなかったって言うか…",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "haah"
     },
     "26": {
       "type": "talk",
-      "dialogue": "まさか…\\俺の周りに、そんな人がいるわけないだろ。",
-      "char": "c000_01",
+      "dialogue": "もしかすると頼もしい味方を失うんじゃないか\\って思ったら…つい。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "俺の周りにいるのは変態おばさんと、\\何かにつけて文句ばかり言うガキだけだよ。",
-      "char": "keep",
+      "dialogue": "頼もしい仲間って…世間知らずね。",
+      "char": "c124_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "そんなことないよ！\\もう少し周りをよく見てみて！",
-      "char": "c126_01",
+      "dialogue": "薄っぺらい契約書だけで…\\信用を得てると思ったら大間違いよ？ \\愚かな子…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そう言うサルマキスの眼差しはどこか怪しかった。\\何かを知っているような目をしてた…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "何っ！？ \\イブ、もしかして！裏切るつもりだったのか！？ ",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "30": {
       "type": "talk",
-      "dialogue": "そんなはずない。オマエの勘違いだろ。",
-      "char": "c000_01",
+      "dialogue": "うわー、怖いわー。\\魔界の女の怖さは知ってるつもりだったけど…！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "irritation",
+      "before_effect": "shake"
     },
     "31": {
       "type": "talk",
-      "dialogue": "本当にそうかなー。ウフフ…",
-      "char": "c126_01",
+      "dialogue": "まさかの、本人を目の前にしての強気な発言！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "32": {
       "type": "talk",
-      "dialogue": "……？",
+      "dialogue": "俺が素直で純真無垢な悪魔だからって\\酷すぎるだろっ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c124_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あなた…フレイと仲悪いでしょ？\\出会ってすぐフレイに喧嘩吹っ掛けられなかった？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "えっ！何で知ってんの？\\もしかして、見てた？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "nonsense"
     },
-    "33": {
+    "36": {
+      "type": "talk",
+      "dialogue": "見てないけど… \\フレイは自分と似てる相手を嫌うから。\\貴方たち、本当にそっくり…",
+      "char": "c124_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そっくりって…\\俺はそんなつもりないんだけど\\なんで皆そう言うのかな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "似てるからでしょ。\\…とにかく、私はもう行くわね。疲れちゃった…",
+      "char": "c124_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "わかったよ。\\ゆっくり休んでくれ。\\あ、もし他の候補生に会ったら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "私の邪魔をするようなら、迷いなく消すから。",
+      "char": "c124_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_slow"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "あのさ…\\俺の心臓がもたないからもうちょっと穏やかに…\\ちょっと、イブさーん、聞いてるー！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

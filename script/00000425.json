@@ -2,291 +2,384 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔さん！悪魔さん！\\新しい人形、買ってくれますよね！？ね！？",
-      "background": "bg070_f",
+      "dialogue": "最近シュリンクスがよく俺に笑いかけてくる。\\これはおやつをくれっていう、\\意思表示なのだろうか？",
+      "background": "bg089_f",
       "bgm": "14",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…朝から元気だな。",
+      "dialogue": "ほらシュリンクス、おやつの時間だぞ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "joy"
     },
     "3": {
       "type": "talk",
-      "dialogue": "買って！買って！サル！アウストラロピテクス！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "…悪魔さんは、\\なんでもお菓子で解決しようとするのですね。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "悪口やめろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "バレた！\\やっぱりお菓子だけで手懐けるのは無理だよな。\\そりゃ犬だって、ずっと同じエサだけだと飽きるらしいし。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ホモサピエンス！！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "何か失礼なこと考えてますね。\\そんな顔してます。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "もう騙されないぞ…どうせ、それも悪口だろ？",
+      "dialogue": "まあ…そうだね。ごめんなさい。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "mvd": "ux/talk/efx_script_angry_set.mvd",
-      "mvd_pos": "left_top"
+      "distance": "normal",
+      "facial": "haah"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…悪魔さんってバカですね。",
-      "char": "c106_01",
+      "dialogue": "やっぱり悪魔ですね！ひどいですよ！\\どんな失礼なことを考えてたんですか？\\きっと私を操って、悪の手先にする方法でも\\考えてたんでしょう？",
+      "char": "c101_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake_weak"
     },
     "8": {
       "type": "talk",
-      "dialogue": "バカ！バカ！",
-      "char": "keep",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "えっと、お前のこと…\\すごいカワイイって思ったんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
     },
     "9": {
       "type": "talk",
-      "dialogue": "くっ…知らなくても、\\検索したら全部出てくるんだよ！\\ホ…モサピエン…スとは…ん？悪口じゃ、ない？",
-      "char": "c000_01",
+      "dialogue": "あ、悪魔さんはそれを失礼だって\\思ったんですね。",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "やっぱりサル！やっぱりサル！",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "あの…大丈夫です。\\そういうことなら…もっと思っていただいても…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "うっ…今度は何も言い返せない…",
+      "dialogue": "じゃあ、お詫びってことで。\\プリン食べるか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "distance": "normal",
+      "facial": "smile"
     },
     "12": {
       "type": "talk",
-      "dialogue": "それで、買ってくれるんですよね？人形。",
-      "char": "c106_01",
+      "dialogue": "…！？",
+      "char": "c101_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "まあ、安ければな。\\けど、この近くに人形屋なんてないだろ。",
-      "char": "c000_01",
+      "dialogue": "プ…プリン…それも3つの味をセットで…？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ありますよ！\\とっても近くに！",
-      "char": "c106_01",
+      "dialogue": "プ、プリンは嫌いか？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…そんなとこあったか？\\で、どんな人形が欲しいんだ？",
-      "char": "c000_01",
+      "dialogue": "あ、悪魔さんは…もしかして天使ですか？",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "すっごく高性能なんです！\\動くし言葉までしゃべるんですよ！？",
-      "char": "c106_01",
+      "dialogue": "ハッハッハ、プリンあげたら、\\俺も天使に昇格できるのか！",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…ワトソンのことか？",
-      "char": "c000_01",
+      "dialogue": "うう…け、契約者の影響でしょうか。\\あの子…春日井奈波(かすがい ななみ)は甘い\\ものに目がないので…",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ワタシ？ワタシ？",
-      "char": "c106_01",
-      "speaker": " watson",
-      "distance": "far"
+      "dialogue": "奈波は…とっても頑張り屋さんなんです。\\同級生にいじめられても塞ぎ込まず、\\笑顔を忘れないような強くて優しい子で…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ぶっぶー！もっと高性能です！\\あったかくて、サイズは1分の1！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "far"
+      "dialogue": "契約者を思い出して、しんみりしちゃったみたいだ。話によると、その子は「優しい世界」を\\望んでいるらしいけど…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "20": {
       "type": "talk",
-      "dialogue": "サイズが1分の1って、絶対高いヤツだろ…\\却下！",
-      "char": "c000_01",
+      "dialogue": "それはそうと…おいしいですね、このプリン。",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake_weak",
-      "facial": "fury"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "高くなんてないです！\\お金で買えないだけ！",
-      "char": "c106_01",
+      "dialogue": "しんみりが1分も保たなかったな…\\契約者さんも、プリンには勝てなかったか…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お金で買えないって、ますます無理だろ…",
-      "char": "c000_01",
+      "dialogue": "もぐもぐ…何か言いましたか？",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "無理じゃありません！\\悪魔さんの気持ち次第ですから！",
-      "char": "c106_01",
+      "dialogue": "いや、独り言だよ。\\気にせず食べて。",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "left",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "気持ちでどうにかなるなら\\世の中、誰も困らないっての。",
-      "char": "c000_01",
+      "dialogue": "はい、ごちそうさまでした。\\どの味も、とってもおいしかったです。",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…うう、やっぱりバカです。\\悪魔さんの勘さえよければ、すぐに手に入るのに…",
-      "char": "c106_01",
+      "dialogue": "早っ！もう全部食べたのか？\\女子の別腹って本当にあるのかも…\\確かめたくなってきた。",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "far"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "バカって言うな！",
-      "char": "c000_01",
+      "dialogue": "…シュリンクス、チョコ…食べるか？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake_weak"
+      "distance": "normal",
+      "facial": "smile"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…そもそも、そんなでかい人形どこにあるんだ？",
-      "char": "keep",
+      "dialogue": "ああ…！か、神よ…！！あなたは神なのですか！",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "28": {
       "type": "talk",
-      "dialogue": "…バカ！鈍感！サル！",
-      "char": "c106_01",
+      "dialogue": "チョコも効果はバツグンだ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "one_ani": "attack"
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "29": {
       "type": "talk",
-      "dialogue": "おい、本音が出てるぞ…",
-      "char": "c000_01",
+      "dialogue": "チョコ、おいしいです。\\口の中でトロけて、甘さがじんわりと…\\これこそ優しくて幸せな味ですね！",
+      "char": "c101_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "あら～楽しそうですね～♥\\一体、何のお話ですか～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "メーデイアが人形を買ってくれってうるさいんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "どんな人形なんですか～？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "すぐ近くにある、\\高性能で1分の1サイズの人形らしい。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "金では買えないけど、\\俺の気持ち次第で手に入るとか何とか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "あらあら…\\メーデイア、ご主人さまには、\\はっきり言った方がいいんじゃない～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "pretense"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "無理です！気づかない方がバカなんです！\\この、鈍感サル！",
-      "char": "c106_01",
-      "speaker": "same",
-      "distance": "far",
-      "after_effect": "go_to_right_point"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "だから、俺はサルじゃないっての。\\モナ、分かったなら教えてくれよ。",
+      "dialogue": "グルメリポーター顔負けのコメントだ…！\\チョコってそんなすごい食べ物だっけ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ま、シュリンクスはよっぽど甘いものが\\好きなんだな。\\またシュリンクス用に買い置きしとくよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ホントですか…！\\悪魔さんは悪魔なんか辞めて、天使になるべきです！",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ハハ、そうだな。考えとくよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "joy"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "こんなに喜んでくれるなら\\初めからおやつをあげとけば良かったかな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "いえ、それは無理だと思います。\\あの頃のわたしは、\\悪魔さんのことを警戒してましたから。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "じゃあ…今は？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "そうですね、\\わたしの今の気持ちを素直に表現すると…\\悪魔さんは…本当に温かくて優しいです。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "38": {
       "type": "talk",
-      "dialogue": "うふふ、それは自分で気づいた方がいいですよ～♥\\ご主人さま♥",
-      "char": "c001_01",
+      "dialogue": "そしてわたしは、そんなあなたのお手伝いができて、本当に良かったと思っていますよ。優しい悪魔さん。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "normal"
     },
     "39": {
+      "type": "talk",
+      "dialogue": "…！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky",
+      "before_effect": "shake_weak"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "シュリンクスがニコッと明るく微笑んだので、\\驚いてしまった。\\どうやら、ついに俺を認めてくれたらしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "こちらこそ、ありがとな、シュリンクス。\\これからもよろしく頼む。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "はい、悪魔さん。\\これからも…美味しいおやつをお願いします。",
+      "char": "c101_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "結局、おやつが目当てなのか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "まったく、中身がお子様だから仕方ないか…\\シュリンクスの幸せそうな姿を見るために、\\またおやつを用意しといてやろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "45": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

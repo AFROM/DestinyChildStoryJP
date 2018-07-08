@@ -2,374 +2,275 @@
   "phase1": {
     "1": {
       "type": "curtain",
-      "background": "bg223_f",
-      "bgm": "64",
-      "fade_in": "longer",
-      "hold": "shorter"
+      "background": "bg136_f",
+      "bgm": "9",
+      "fade_in": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "私に屈辱を与えたかったようですが…\\惜しかったですね、ヴェルデレト。",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "pretense",
-      "voiceid": "200608021"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "くそっ…！",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "voiceid": "200608022"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "もうやめよう？リザ…\\作戦は成功したからね？",
+      "dialogue": "危ない所だったな…\\しかしあいつら一体なんなんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah",
-      "voiceid": "200608023"
+      "facial": "haah"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "それは、この悪魔に説明してもらいましょう。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "た、助けてくれてありがとう…",
+      "char": "none",
+      "speaker": "DemonA"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あっ…すいません。\\いつの間にか、役になりきっていたようですね。",
-      "char": "c002_01",
+      "dialogue": "まぁ、成り行きだけどな。\\ところでさっき話した誘拐ってどういうことだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "voiceid": "200608024"
+      "pos": "left",
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "<b>作戦？</b>一体どういうことだ？",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608025"
+      "dialogue": "そ、そうだ！聞いてくれ！\\ミクを！ミクを助けないと！",
+      "char": "none",
+      "speaker": "DemonA"
     },
     "7": {
       "type": "talk",
-      "dialogue": "言葉通りの意味です。\\一連のすべてが私の作戦でした。",
-      "char": "c002_01",
+      "dialogue": "お、落ち着けよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "voiceid": "200608026"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "御主人様がこちらに来たのも、\\私があなたを挑発したのも…",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "200608027"
+      "dialogue": "す、すまない…\\俺は、ミクのファンで、あるファンクラブに入っていたんだ。",
+      "char": "none",
+      "speaker": "DemonA"
     },
     "9": {
       "type": "talk",
-      "dialogue": "最近、この都市であなたの目撃情報を耳にしました。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "200608028"
+      "dialogue": "最初は良かったんだ！\\ミク好きが集まって、ミクの話題で盛り上がって…\\とても楽しかった！",
+      "char": "none",
+      "speaker": "DemonA"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そして間もなく《Café de Petit》という\\奇妙なカフェが出来たのです。",
-      "char": "keep",
+      "dialogue": "何だか普通の人間みたい！\\ご主人と、いいお友達になれそうだね～",
+      "char": "c003_01",
       "speaker": "same",
-      "voiceid": "200608029"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "店を見てすぐに分かりました。\\これはあなたの趣向であると…",
-      "char": "keep",
+      "dialogue": "うるさいよ！静かに聞け。",
+      "char": "c000_01",
       "speaker": "same",
-      "voiceid": "200608030"
+      "pos": "left",
+      "facial": "irritation"
     },
     "12": {
       "type": "talk",
-      "dialogue": "だからここに《御主人様》を送ったと？\\俺を探るためだけに？",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608031"
+      "dialogue": "ファンクラブの人数が増え、結構な人数になった時、誰かが言い出したんだ。\\俺たちでミクを手に入れようって…",
+      "char": "none",
+      "speaker": "DemonA"
     },
     "13": {
       "type": "talk",
-      "dialogue": "いいえ、サポーターが御主人様に命令など…\\これは御主人様たってのご希望でした。",
-      "char": "c002_01",
-      "speaker": "same",
-      "voiceid": "200608032"
+      "dialogue": "最初はみんな笑ってたけど、さらにファンクラブの人数が増え始めると、実際に計画しだすヤツが現れた。",
+      "char": "none",
+      "speaker": "DemonA"
     },
     "14": {
       "type": "talk",
-      "dialogue": "なに言ってんの？\\イヤがってる俺に無理矢理やらせたんだろう！\\…ウウブ！",
+      "dialogue": "後はこの有り様さ…\\決行は今日の放送の時…頼む！\\ミクにこの事を知らせて助けてやってくれ！",
+      "char": "none",
+      "speaker": "DemonA"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "おい！無茶言うなよ！\\ここは、大人しく、警察に相談しろよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "shock",
-      "after_effect": "shake",
-      "voiceid": "200608033"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ご主人さま～♥\\友達同士のお話を邪魔しちゃダメですよ！",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "pretense",
-      "voiceid": "200608034"
+      "before_effect": "shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "モナ、そんなに力を込めて口を塞ぐな…\\う、息が…！",
-      "char": "c000_01",
+      "dialogue": "何を言っているんですか御主人様。\\悪魔が警察に相談できるわけがないでしょう。",
+      "char": "c002_01",
       "speaker": "same",
-      "distance": "toonear",
-      "facial": "nonsense",
-      "voiceid": "200608035"
+      "pos": "right",
+      "facial": "irritation"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ヴェルデレト…\\あなたが私に劣等感を抱いていた事は知っています。",
-      "char": "c002_01",
+      "dialogue": "あらら～大変なことになりましたね。\\どうするんですか、かわいいご主人さま♥",
+      "char": "c001_01",
       "speaker": "same",
-      "voiceid": "200608036"
+      "pos": "right",
+      "distance": "near",
+      "facial": "pretense"
     },
     "18": {
       "type": "talk",
-      "dialogue": "だからこそ、このリザの御主人様に、大きな関心を\\持つと予想しました。",
-      "char": "keep",
+      "dialogue": "と、とりあえず、A.Iさんに連絡？",
+      "char": "c000_01",
       "speaker": "same",
-      "voiceid": "200608037"
+      "pos": "left",
+      "facial": "irritation"
     },
     "19": {
       "type": "talk",
-      "dialogue": "劣等感だと…！ふざけるなっ！",
-      "char": "c286_01",
+      "dialogue": "はぁ…本当に情けないですね！\\ここは《俺がミクを守る！》でしょう？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake",
-      "voiceid": "200608038"
+      "facial": "irritation"
     },
     "20": {
       "type": "talk",
-      "dialogue": "俺が《御主人様》を奪うと予想しただと？\\お前のご主人様を見かけた時はチャンスだと\\思ったが…",
-      "char": "keep",
+      "dialogue": "どうしてファンでもない俺が助けに行かなきゃいけないんだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608039"
+      "pos": "left",
+      "facial": "sigh"
     },
     "21": {
       "type": "talk",
-      "dialogue": "それも全て、お前の作戦だったなんて…\\くそっ！",
-      "char": "keep",
+      "dialogue": "決まってます。魔王になる為です！",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608040"
+      "pos": "center",
+      "distance": "near",
+      "facial": "teach",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "22": {
       "type": "talk",
-      "dialogue": "さすがに、ここまで上手くいくとは思いませんで\\した。昔から進歩がありませんね、あなたは…",
-      "char": "c002_01",
+      "dialogue": "いいですか、ご主人さま。\\このまま魔王争奪戦が進めば、熾烈な潰し合いに発展します。",
+      "char": "keep",
       "speaker": "same",
-      "voiceid": "200608041"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ケンカはもうやめて…",
-      "char": "c000_01",
+      "dialogue": "今のご主人さまが生き残る確率は限りなく0に近い\\でしょう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200608042"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "リザ…ホント怖い…",
-      "char": "c003_01",
+      "dialogue": "くっ…",
+      "char": "c000_01",
       "speaker": "same",
-      "facial": "cry",
-      "voiceid": "200608043"
+      "pos": "left",
+      "facial": "unfair"
     },
     "25": {
       "type": "talk",
-      "dialogue": "う～ん…\\完全に役になりきっちゃってるみたいですね～",
+      "dialogue": "しかし！\\もし、ここで初音ミクを手に入れたらどうなるかわかりますか？",
       "char": "c001_01",
       "speaker": "same",
-      "voiceid": "200608044"
+      "pos": "right",
+      "facial": "pretense"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…ああ、分かった。\\悔しいですが、敗者は勝者に従いましょう。",
-      "char": "c286_01",
+      "dialogue": "ミクを手に入れると、どうなるんだよ…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608045"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "しかし、気を付けてください。\\いつまでそのポジションを守れるか、見物させて\\もらいます。",
-      "char": "keep",
+      "dialogue": "ミクの力はご主人さまもご承知のはず…\\ミクを手に入れれば、他の悪魔を従える事ができ、\\魔王になれるというわけです。しかも平和的にです。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608046"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あなたの思惑通りで気に入りませんが、\\新しいご主人様に正式に御挨拶いたしましょう。\\私はインキュバスのヴェルデレトと申します。",
+      "dialogue": "幸い、現在、この近くには強力な悪魔はいません。\\つまり、これはチャンスなのです！",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "voiceid": "200608047"
+      "facial": "tempt"
     },
     "29": {
       "type": "talk",
-      "dialogue": "あなたが魔王になれるよう、このヴェルデレト。\\全身全霊を持って尽くしましょう。",
-      "char": "keep",
+      "dialogue": "な、なんだって！！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608048"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ねえねえ、バカインキュバス～\\リザが前に言ってたよ～",
-      "char": "c003_01",
+      "dialogue": "そ、そうか…\\言ってしまえば、ミクはある意味、最強の抑止力。\\その力を手に入れれば…",
+      "char": "keep",
       "speaker": "same",
-      "facial": "victory",
-      "voiceid": "200608049"
+      "pos": "left",
+      "facial": "joy"
     },
     "31": {
       "type": "talk",
-      "dialogue": "バカご主人は難しい話は分からない、体力もない、\\ナマケモノでサポーターを一生苦しめるだろうって～",
+      "dialogue": "…っておい！そんなんで騙されるかっ！\\しかも助けるからいつの間に手に入れるに変わってるわけ！？\\アイツらと変わらないじゃん！",
       "char": "keep",
       "speaker": "same",
-      "facial": "victory",
-      "voiceid": "200608050"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ダビ、シーッ。\\そんなすぐ分かること、言っちゃダメよ～",
+      "dialogue": "もう！ご主人さま！つべこべ言わずに行きますよ♥",
       "char": "c001_01",
       "speaker": "same",
-      "voiceid": "200608051"
+      "pos": "right",
+      "before_effect": "go_to_left_slow"
     },
     "33": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c286_01",
+      "dialogue": "ちょ、ちょっと待てよ、痛い！\\や、やめろ～！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608052"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "go_to_left_slow"
     },
     "34": {
       "type": "talk",
-      "dialogue": "リザっ！\\このチンチクリンに変なこと吹き込むのやめて！",
-      "char": "c000_01",
+      "dialogue": "さすがモナ姉さま！\\ご主人はモナ姉さまの手の上で転がってるんだね！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake",
-      "voiceid": "200608053"
+      "pos": "right",
+      "facial": "joy"
     },
     "35": {
       "type": "talk",
-      "dialogue": "いえ、まったく身に覚えがありません。",
+      "dialogue": "確かに転がされていますね。\\ただ、押し転がされてるように見えますが。",
       "char": "c002_01",
       "speaker": "same",
-      "voiceid": "200608054"
+      "pos": "right"
     },
     "36": {
-      "type": "talk",
-      "dialogue": "まあ、たしかに簡単なことではないでしょうね、\\魔王争奪戦…しかし…",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608055"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "問題ありません。ご主人様の能力に関わらず、\\魔王へとお導きするのが私の役目。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608056"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "それこそがサポーターの役目だと、\\自負しておりますので。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608057"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "そういう意味では、あなたたちは職務放棄したと\\言えるでしょう。サポーターを名乗る資格もない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608058"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "おお、そうだそうだー！\\俺、コイツのことちょっと見直したかも！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "voiceid": "200608059"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "わ～それじゃあ、ヒルドにも新しいご主人様が\\出来たってこと？いいね～\\ヒルドも魔王争奪戦に出られるんだよね？",
-      "char": "c296_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608060"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "いっぱい戦えると思うと…う～ん！\\今から興奮しちゃうかも～♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608061"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "ありえません…私にとってのご主人様は、\\ヴェルデレト様ただおひとり。",
-      "char": "c283_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608062"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "フフフ…それでは、よろしくお願いいたします。",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608063"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "何か企んでいるのでしょうが、まあお好きに。\\ただ、私の寝首を掻く気だとしても、\\サポーター業務だけは抜かりなくお願いします。",
-      "char": "c002_01",
-      "speaker": "same",
-      "voiceid": "200608064"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "それが問題なくこなせているうちは\\過去のあなたの過ちについて、\\出来る限り黙っていてあげましょう…",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200608065"
-    },
-    "47": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

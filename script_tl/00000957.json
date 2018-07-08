@@ -2,227 +2,420 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "見てしまった！\\ご主人様が猫の妖怪に拉致されるのを…",
-      "background": "bg182_f",
-      "bgm": "18",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "200202022"
+      "dialogue": "ひさしぶりね、メイ。\\元気にしていたかしら？",
+      "background": "bg087_f",
+      "bgm": "24",
+      "char": "c057_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうしよう！どうする？\\ひょっとするとこれって大チャンス！？\\このまま放っとけばモナ姉さまはダビのものになるってことだよね？",
-      "char": "keep",
+      "dialogue": "はい！ランフェイさんも元気そうで安心しました。",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "right",
-      "facial": "joy",
-      "voiceid": "200202023"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "こんなに突然…\\まだ心の準備ができてないのに♥",
-      "char": "keep",
+      "dialogue": "そう…ところで、何かあったのかしら？\\メイが私に会いにくるなんて。",
+      "char": "c057_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory",
-      "voiceid": "200202024"
+      "pos": "left",
+      "facial": "unfair"
     },
     "4": {
       "type": "talk",
-      "dialogue": "誰にでも初めてはあるものさ、準備もいいけど、決心が重要だろ？",
-      "bgm": "25",
-      "char": "c266_01",
+      "dialogue": "あはは…\\特に何かがあったわけじゃないんですけど。昔の事を考えてたら、ランフェイさんの顔が見たくなって…",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast",
-      "voiceid": "200202025"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そ、そうよね！\\まずは、モナ姉さまとの愛の巣を探すところから始めないと…♥",
-      "char": "c003_01",
+      "dialogue": "あら、一人暮らしで寂しくなったの？",
+      "char": "c057_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory",
-      "voiceid": "200202026"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…って、だ、誰っ！？ダビの秘密の話を盗み聞きするなんて！",
-      "char": "keep",
+      "dialogue": "いや、そんなことは…\\バイトのみんなとも仲良くやっているし、\\毎日充実した日々で。\\でも、そうなのかな…",
+      "char": "c167_00",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle",
-      "before_effect": "shake_weak",
-      "after_effect": "none",
-      "screen_effect": "dialog_shake",
-      "voiceid": "200202027"
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "君は、大声で秘密の話をベラベラと喋ってしまうんだね。少し不用心じゃないかい？",
-      "char": "c266_01",
+      "dialogue": "…",
+      "char": "c057_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202028"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そんなことより、さっき《猫の妖怪》って言ってた\\ね？君の主人を拉致したって。",
-      "char": "keep",
+      "dialogue": "……",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202029"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そ、それがどうしたの？\\たぶんご主人、今ごろひっどい拷問を受けてるよ！",
-      "char": "c003_01",
+      "dialogue": "好きな男でも出来た？",
+      "char": "c057_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200202030"
+      "pos": "center",
+      "distance": "near"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ふむ、拷問か。\\試しに聞くけど《ひっどい拷問》って、どんな感じの拷問？",
-      "char": "c266_01",
+      "dialogue": "えぇぇぇー！\\な、なに、何言ってるんですかっ！",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202031"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そ、それはもちろん、全身をがんじがらめに\\縛られて…",
-      "char": "c003_01",
+      "dialogue": "あら、図星だったみたいね。",
+      "char": "c057_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sulky",
-      "voiceid": "200202032"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ふんふん？",
-      "char": "c266_01",
+      "dialogue": "あ、あの人はそんなんじゃ…",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202033"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "脇腹をコチョコチョくすぐられること！\\あれ、本当にこの世の地獄なんだから！",
-      "bgm": "9",
-      "char": "c003_01",
+      "dialogue": "いい、メイ？\\よく聞きなさい。本当に好きになったのなら…",
+      "char": "c057_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "irritation",
-      "voiceid": "200202034"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "モナ姉さまだって、ダビが言うこと聞かないと、たまにやるんだよ！も～あれは本当に腹わたがよじれて、死にそうになるし！",
+      "dialogue": "例え、相手が死んでしまおうとも、離しちゃダメよ？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "voiceid": "200202035"
+      "pos": "center",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ハッハッハッハッ！\\なるほど。確かにそれは《ひっどい拷問》だ。",
-      "char": "c266_01",
+      "dialogue": "ら、ランフェイさん怖い…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ランフェイさんは相変わらずだったな。\\でも会えてよかった。\\物騒だからあんまり来ちゃダメって言われたけど、\\また遊びに…",
+      "background": "bg178_f",
+      "bgm": "9",
+      "char": "c167_00",
+      "speaker": "same"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "テローン！どこ、いるー？",
+      "char": "none",
+      "speaker": "unknown1"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "…？\\あんなところに子供？",
+      "char": "c167_00",
+      "speaker": "same"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "テローン！どこー？",
+      "background": "bg058_f",
+      "char": "c195_20",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "何か探してるの？\\この辺りは、ひとりだと危ないよ？",
+      "char": "c167_00",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "200202036"
+      "before_effect": "enter_from_right_slow"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "テロン、探してる！トモダチ！\\とっても、大切！ユー、知ってる？",
+      "char": "c195_20",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "テロン？知らないけど…\\大切な友達なんだね。",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "よし！あたしも友達探し手伝うよ！\\大切な友達が見つからない時の気持ちは、\\あたしにもよくわかるもん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ねぇ、ウコン？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ウキャッ！",
+      "char": "keep",
+      "speaker": "monkey",
+      "distance": "toonear"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "…それに、あの人なら、きっと手伝うだろうし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "アリガト！イッショ、テロン、探す！",
+      "char": "c195_20",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    }
+  },
+  "phase3": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "へぇ、クレアの両親ももう亡くなってるんだ。\\じゃあ、あたしと一緒だね。",
+      "background": "bg058_f",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "オゥ、イッショ！トモダチモ、イッショ！",
+      "char": "c195_20",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ウキーッ！",
+      "char": "c167_00",
+      "speaker": "monkey",
+      "distance": "toonear"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "うふふ、ウコンったら！\\あれ？あそこに誰か…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "何だ、こいつ。でかい猫か？",
+      "background": "bg058_f",
+      "char": "none",
+      "speaker": "DemonA"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "知らね。けど、珍しいし、高く売れるんじゃねーか？",
+      "char": "none",
+      "speaker": "DemonB"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あっ！テロン！テロン、返す！",
+      "char": "c195_20",
+      "speaker": "same_full",
+      "before_effect": "enter_from_right_slow"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "うるせー！\\こいつは俺のモンだ！",
+      "char": "none",
+      "speaker": "DemonA"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "クレア！危ない！！\\きゃぁ~！",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_right_fast",
+      "after_effect": "shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "テロン！返ってきた！\\メイ、いじめる、ダメ！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "てめぇ、そいつを寄こせ！殴られてーのか！？",
+      "char": "none",
+      "speaker": "DemonC"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "イヤッ！テロン、クレアと一緒！渡さない！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "クレアを助けないと…",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ところでその《モナ姉さま》だけど、君のご主人様が誘拐されたと知ったらどうするかな？",
+      "dialogue": "あたしが…",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "voiceid": "200202037"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "まあ、心配ぐらいはするんじゃない？",
-      "char": "c003_01",
+      "dialogue": "あたしが何とかするから！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "voiceid": "200202038"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そうだよね？\\ご主人様を救うために必死で奔走し、その挙げ句に捕まってしまったとしよう…",
-      "char": "c266_01",
+      "dialogue": "そこまでだ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202039"
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "19": {
       "type": "talk",
-      "dialogue": "そして、《モナ姉さま》は猫の妖怪にがんじがらめに縛られて、脇腹をくすぐられて…",
-      "char": "keep",
+      "dialogue": "え？",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202040"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "え、えええっ…！？モ、モナ姉さまに、そんなピンチが訪れちゃうの…！？",
-      "char": "c003_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "cry",
-      "one_ani": "attack",
-      "voiceid": "200202041"
+      "dialogue": "お前ら、子供に手を出して恥ずかしくないのかよ？",
+      "char": "c000_01",
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そ、それはダメっ！それだけはダメ～っ！！",
-      "char": "keep",
+      "dialogue": "あ、あなたは…あの時のっ！",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "cry",
-      "voiceid": "200202042",
-      "screen_effect": "dialog_shake"
+      "pos": "left"
     },
     "22": {
-      "type": "curtain",
-      "background": "back",
-      "bgm": "25",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "怪我はないですか？\\御主人様が来たからにはもう大丈夫です。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "23": {
       "type": "talk",
-      "dialogue": "脇腹をくすぐられる程度が拷問だって…？\\まったく、ふざけたサポーターもいたものだね。",
-      "background": "e048_01_f",
-      "char": "c266_01",
+      "dialogue": "…いや、そう言われても困るけど…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "voiceid": "200202043"
+      "pos": "left",
+      "facial": "irritation"
     },
     "24": {
       "type": "talk",
-      "dialogue": "一度、主人の顔を拝んでみたいものだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "voiceid": "200202044"
+      "dialogue": "何を弱気な…\\しっかりしてください。",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "25": {
+      "type": "talk",
+      "dialogue": "…はいはい。じゃ、頑張るとしますか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c167_01",
+      "speaker": "same"
+    },
+    "27": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

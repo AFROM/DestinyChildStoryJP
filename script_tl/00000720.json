@@ -2,254 +2,268 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ダヌが面倒なことを起こした。\\まぁ、そのこと自体は良い事でもあるが…",
+      "dialogue": "ねぇ、バカご主人ーあれ知ってる？",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "bgm": "12",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ただ…俺にとっては都合が悪い…",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "sigh"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "何、一人でぶつぶつ言ってるの？\\呼び出したならさっさと要件を言いなさいよ。",
-      "char": "c235_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "何とぼけてるんだよ！\\オマエが捕まえた泥棒のことに決まってるだろ！\\そのせいで面倒なことになってるんだよ！",
+      "dialogue": "ご主人は誰かさんの言う通り<b>バカ</b>だからな。\\<b>あれ</b>だけじゃ何のことか分からない。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "それじゃ、ダビちゃんがバカご主人に\\優しく教えてあげるよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あのね、\\キツネって酸っぱいブドウが嫌いなんだって！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
     "5": {
       "type": "talk",
-      "dialogue": "何よ！\\捕まえてあげたのに文句なの？",
-      "char": "c235_01",
+      "dialogue": "何だよ、急に…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "誰がいつ頼んだよ！",
-      "char": "c000_01",
+      "dialogue": "モナ姉さまが読んでくれた本にあったんだよ。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "空き巣被害で心配してたじゃない。",
-      "char": "c235_01",
+      "dialogue": "《キツネは言いました。あのブドウは\\まだ熟してないからどうせ食べられない》",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "確かに…心配だとは言ったけど…\\でも泥棒を捕まえてくれなんて\\一言も言ってないぞ！",
+      "dialogue": "何だ、イソップ物語か？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "警察が泥棒を捕まえてくれた人に\\懸賞金を出すって近所中を\\探し回ってるんだよ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "お前がもし防犯カメラにでも写ってたら\\どうするつもりだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "あー、あれ？壊したよ。",
-      "char": "c235_01",
+      "dialogue": "バカにも分かる話なの？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "12": {
+    "10": {
       "type": "talk",
-      "dialogue": "マジか…勘弁してくれ…",
+      "dialogue": "バカを連呼するな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "facial": "sigh",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "それにその話の教訓は\\《キツネは酸っぱいブドウが嫌い》じゃないぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "自分に能力がないことを棚に上げて物事を\\環境などのせいにする怠け者の話だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "証拠隠滅までしてあげたのに\\何よ、その言い草は！",
-      "char": "c235_01",
+      "dialogue": "俺が知ってるヤツの話か。",
+      "char": "c234_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "正義の味方ごっこなら、よそでやれよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "これ以上アンタの愚痴を聞きたくないから\\捕まえてあげたのよ！",
-      "char": "c235_01",
+      "dialogue": "ダビも！そういうヤツ知ってるよ。",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "16": {
+    "15": {
       "type": "talk",
-      "dialogue": "はいはい…全部俺のせいってことね…",
+      "dialogue": "オマエらの言う知ってるヤツって、\\まさか俺じゃないよな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "17": {
+    "16": {
       "type": "talk",
-      "dialogue": "男のくせにグチグチうるさいのよ！",
-      "char": "c235_01",
+      "dialogue": "他に誰がいるの？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
+    "17": {
+      "type": "talk",
+      "dialogue": "誰が怠け者のキツネだって？\\慎重で我慢強いタイプなんだ、俺は。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "ご主人さま～♥",
-      "char": "c001_01",
+      "dialogue": "屁理屈までそっくりだな。",
+      "char": "c234_01",
       "speaker": "same",
-      "before_effect": "enter_from_right_fast"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "モナどうした？",
+      "dialogue": "そもそも採って食べたいブドウなんて\\俺にはないよ。勘違いしないでくれ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "さっき、警察が来ましたよ～",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "魔王に興味がないのか？まったく…",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "げっ！ついに正体がバレたのか？",
-      "char": "c000_01",
+      "dialogue": "バカかお前は！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そうかもしれないし、\\そうじゃないかもしれませ～ん♥",
-      "char": "c001_01",
+      "dialogue": "やっぱバカだって！",
+      "char": "c003_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "right",
+      "facial": "victory"
     },
     "23": {
       "type": "talk",
-      "dialogue": "何だ…はっきり言えよ。",
+      "dialogue": "うるさい！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "まあ、お前が怠け者のキツネであろうが\\俺にはどうでもいい。",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "だが！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そんなに近寄るな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "優柔不断な子狐のせいで\\俺の課業を邪魔されるわけにはいかない。",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "何だよ、オマエの課業って。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "24": {
+    "29": {
       "type": "talk",
-      "dialogue": "するとモナは、俺に一枚の紙を差し出した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "え？！…これ、手配書じゃないか！\\おい、これって？！どうみてもダヌだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "はぁ？どうしてこんなブサイクが私なのよ！",
-      "char": "c235_01",
+      "dialogue": "己の力を試すことだ。\\だから大人しく魔王争奪戦に\\協力してやっているのに…",
+      "char": "c234_01",
       "speaker": "same",
       "pos": "right"
     },
-    "27": {
+    "30": {
       "type": "talk",
-      "dialogue": "この前、ダヌが捕まえた泥棒の共犯、って\\書いてありますね～",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ダヌ！オマエ、何かしたのか？",
-      "char": "c000_01",
+      "dialogue": "よりによって魔王争奪戦の参加者が\\こんなバカなヤツだなんて。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "screen_effect": "shake_weak"
+      "pos": "right"
     },
-    "29": {
+    "31": {
       "type": "talk",
-      "dialogue": "こっちが知りたいわよ！\\どうして私がアイツの共犯になるわけ？",
-      "char": "c235_01",
+      "dialogue": "やっぱりバカなんだ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
       "one_ani": "attack"
     },
-    "30": {
+    "32": {
       "type": "talk",
-      "dialogue": "その泥棒に恨みを買ったのかも知れないわねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ほらみろ…\\面倒くさいことになったじゃないか…",
+      "dialogue": "バカを連呼するな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "あの泥棒…ホント、許さない！",
-      "char": "c235_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "facial": "sigh",
+      "before_effect": "shake"
     },
     "33": {
       "type": "talk",
-      "dialogue": "おい、ダヌ！どこ行くんだ！！\\ダヌ！ダヌ！！",
+      "dialogue": "わざと強いヤツを避けてるだろう？\\なあ、子狐よ。",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "即脱落を避けるための有効な手段だろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "screen_effect": "dialog_shake",
-      "before_effect": "shake"
+      "facial": "irritation"
     },
-    "34": {
+    "35": {
+      "type": "talk",
+      "dialogue": "そうやって言い訳ばかりだと後で後悔するぞ。\\意外に熟した甘いブドウかもしれん。",
+      "char": "c234_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,179 +2,173 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "モナは魔界でも人間界でも、美人の類に入るため\\人目を引きやすい。",
-      "background": "bg086_f",
+      "dialogue": "やっぱり人間界は退屈だなぁ…\\魔王候補って言っても大したヤツもいないし…",
+      "background": "bg055_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "char": "c051_02",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "モナはいつもその美貌を活用して契約実績を\\上げている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あれ、バシリ。また寝てるのか？",
+      "char": "keep",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ところが、\\今回の契約者はモナの色気が通じなかったため\\代わりにリザが契約を担当した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "……",
+      "char": "m052_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "バッチリね。\\スマートな契約だったわよ、リザ♥",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "当然です。\\モナにできて、私にできないはずはありませんから。",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "pretense",
-      "one_ani": "attack"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "はーい、リザ先生。\\それってすっごく、キャラに合ってない発言だと思いまーす。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile",
-      "before_effect": "enter_from_left_fast"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "左様ですか。それで、何か問題があると？",
-      "char": "c002_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "serious",
-      "after_effect": "shake_weak"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "可愛げないなぁ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "よくやったな、リザ。\\さすが俺の秘書だ。",
-      "char": "m056_01",
+      "dialogue": "天気がいいとすぐ寝る癖なんとかしろよ。\\そんなんじゃ、オマエに背中を預けることも\\できない。",
+      "char": "c051_02",
       "speaker": "same",
       "pos": "right"
     },
+    "5": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "m052_01",
+      "speaker": "same"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "返事くらいしろよ。あ、そういやオマエ、\\しゃべれないんだっけ…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "はあ…リザがいたらこんな細かいことに気を\\使わなくてもいいのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "シャア！",
+      "char": "m052_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "おい！今俺に向かって攻撃しようとしたのか？\\相手を間違ってるぞ、相手を！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
     "10": {
       "type": "talk",
-      "dialogue": "…アバドン。申し訳ありませんが、私はまだ\\あなたの秘書になったつもりはありませんよ。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "シャアアア！",
+      "char": "m052_01",
+      "speaker": "same",
+      "after_effect": "go_to_left_point"
     },
     "11": {
       "type": "talk",
-      "dialogue": "「まだ」？\\じゃあ、いつかはなるつもりなのか？",
-      "char": "c000_01",
+      "dialogue": "おい！俺はオマエの主人…どこ行く！\\怒られるのがそんなに嫌なのか？",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あくまで可能性の話ですが。\\実際、御主人様のサポーターになったのも、\\似たような経緯ですから。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "怒られるようなことをするからいけないんだろ！\\おい！バシリ！戻って来い！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "13": {
-      "type": "talk",
-      "dialogue": "むう…\\たしかに元々はフレイのサキュバスだったもんなあ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "「まだ」なんて言わずに、\\今からでも俺の秘書になればいいだろう？\\破格の待遇で迎えてやる。",
-      "char": "m056_01",
+      "dialogue": "で…家出をしたと？",
+      "background": "bg077_f",
+      "bgm": "9",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そういうしゃべり方も、契約者そっくりだなあ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "……",
+      "char": "m052_01",
+      "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "チャイルドも魔王になれるなら\\あなたの秘書になるのも悪くはなさそうですね。",
+      "dialogue": "少し理解しがたいですね。\\私に関する情報なんてフレイ様が愚痴をこぼした\\信憑性のない言葉だけだと思いますが…",
       "char": "c002_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "待てよアバドン、\\ああいうのは絶対、秘書にしないほうがいいぞ。\\向いてないと思うし、いつ裏切るかわからない。",
-      "char": "c000_01",
+      "dialogue": "まあ…フレイ様の世話をするより\\私のところに来る方が合理的な選択ですが。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "それはリザが、本領を発揮できてないだけだろう。\\優秀な主人の元では優秀な部下が育つものだ！",
-      "char": "m056_01",
+      "dialogue": "それに、時期は違えど\\同じ御主人様に仕えたという縁もありますし…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ふふ、ご評価いただき、ありがとうございます。",
-      "char": "c002_01",
+      "dialogue": "何よりもアナタは貴重な戦力ですし、\\御主人様に紹介しましょう。",
+      "char": "keep",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あらあら。うちのご主人さまったら\\ヤキモチ焼いているみたいですね～？",
-      "char": "c001_01",
+      "dialogue": "まったくフレイ様は…実力はあるのに、\\部下を従える器がないのですから…",
+      "char": "keep",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "right"
     },
     "21": {
-      "type": "talk",
-      "dialogue": "や、ヤキモチなんか焼いてないしっ…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky",
-      "before_effect": "shake"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ご心配なさらず、御主人様。\\私はしばらく主人を変えるつもりはありませんから。",
-      "char": "c002_01",
+      "dialogue": "《バシリの日記》",
+      "background": "dungeon_bg",
+      "bgm": "24",
+      "char": "m052_01",
       "speaker": "same"
     },
     "23": {
       "type": "talk",
-      "dialogue": "しばらく、って…\\そういう含みのこもった言い方、\\怖いからやめてくんない…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "sigh"
+      "dialogue": "《ついにうるさい野郎から解放された》",
+      "char": "keep",
+      "speaker": "same"
     },
     "24": {
+      "type": "talk",
+      "dialogue": "《リザのところに来たから\\少しは平和になるだろう…》",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,171 +2,196 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "クカー…バロン…ゴロゴロ…クカー…",
-      "background": "bg070_f",
-      "bgm": "17",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…おい、ピクシー。\\これはどういう状況なんだ？",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どこに行ったかと思えばこんな所で寝てたのか…",
-      "char": "c000_01",
+      "dialogue": "何って～？\\ちょっと遊んでただけだよ～？",
+      "char": "c272_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "心配させやがって…\\何かあったんじゃないかってヒヤヒヤしたよ…",
-      "char": "keep",
+      "dialogue": "ちょっと？\\これだけ散らかしといてよく言えるな…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "幸せそうに寝ている姿を見ると…\\契約者みたいにただの子供だな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "はぁ…起こしたら泣いて逃げるよな。\\戦いたくなかったら無理やりさせないって\\言ったけど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ヘヘ…バロン…楽しい…ヘヘ…",
-      "char": "m195_01",
+      "dialogue": "ほんとにちょっとだけだもん！",
+      "char": "c272_01",
       "speaker": "same",
       "pos": "right"
     },
+    "5": {
+      "type": "talk",
+      "dialogue": "嘘つけ！\\散らかそうと思っても、\\ここまで散らかせないだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "全く、イタズラばっかりして…\\ここでは遊ぶなって、いつも言ってるだろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "fury"
+    },
     "7": {
       "type": "talk",
-      "dialogue": "何の夢みて笑ってるんだ？羨ましい…\\俺もここで昼寝でも…",
+      "dialogue": "ふああああ～ん！\\お兄ちゃんが怒ったー！！",
+      "char": "c272_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "はあ…俺には子育てなんて無理だ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
     "9": {
       "type": "talk",
-      "dialogue": "うわ…本当に寝ちゃったよ。あれ？バロン…？\\また逃げたのか！",
-      "background": "bg070_f",
-      "char": "c000_01",
+      "dialogue": "…この部屋の惨状は何ですか？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "facial": "nonsense"
+      "pos": "right",
+      "facial": "irritation",
+      "before_effect": "enter_from_right_fast"
     },
     "10": {
       "type": "talk",
-      "dialogue": "逃げてないバロン！",
-      "char": "m195_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ビックリした！",
+      "dialogue": "リザ！\\怒る前に俺の話を聞いてくれ！\\これはピクシーの仕業で…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
+      "facial": "cry",
       "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "洋服はすべて床に散らかされ、\\壁には落書きがいっぱいですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ど、どうして僕を追いかけてくるバロン？",
-      "char": "m195_01",
+      "dialogue": "その上カーテンは引き裂かれ、本は破かれ…\\これをピクシーがひとりでやったと？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "オマエが逃げるからだろ。\\オマエこそなんで逃げるんだよ？",
-      "char": "c000_01",
+      "dialogue": "あの小さなチャイルドに、\\本当にそんなことができると思っているのですか？\\嘘をつくにしても、もう少しまともな嘘を\\ついてはいかがです？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "悪魔が追いかけてくるからバロン！",
-      "char": "m195_01",
+      "dialogue": "嘘じゃないって！\\ピクシーからも言ってくれ。\\早くほんとのことを話さないと\\リザに誤解されるだろ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "cry"
     },
     "15": {
       "type": "talk",
-      "dialogue": "何だよそれ…",
-      "char": "c000_01",
+      "dialogue": "ふえええ～ん！\\また怒った！お兄ちゃんが怖いよー！",
+      "char": "c272_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "僕はもう家に帰るバロン。お腹空いたバロン。",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "え？本当にもう逃げないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "お腹空いたバロン！",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "分かった、分かった。",
+      "dialogue": "お、おい。\\ここで泣かれたら…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "serious"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "ピクシーに罪を押し付けるだけでは飽き足らず、\\脅すとは…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "恥ずかしくないのですか？\\御主人様。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "だから、誤解です…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
     },
     "20": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "教育的指導です。\\こっちに来てください。\\その根性を叩き直して差し上げます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "21": {
       "type": "talk",
-      "dialogue": "夢の中で悪魔が優しくしてくれたバロン。\\目を覚ましたら隣に悪魔がいたバロン。",
-      "background": "bg110_f",
-      "char": "m195_01",
-      "speaker": "same"
+      "dialogue": "違うって言ってるだろ～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "after_effect": "go_to_right_point"
     },
     "22": {
       "type": "talk",
-      "dialogue": "バロンは悪魔の出る夢をみたのか、\\それとも悪魔が僕の夢に出てきたのか…",
+      "dialogue": "ふああああ～ん！",
+      "char": "c272_01",
+      "speaker": "same",
+      "screen_effect": "dialog_shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あ、あれ？お兄ちゃん？\\私をおいて遊びに行っちゃったの？",
       "char": "keep",
       "speaker": "same"
     },
-    "23": {
+    "24": {
+      "type": "talk",
+      "dialogue": "何で誰もいないの？\\お兄ちゃ～ん！ピクシーも連れて行ってよー！",
+      "char": "keep",
+      "speaker": "same",
+      "after_effect": "go_to_right_point"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "26": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

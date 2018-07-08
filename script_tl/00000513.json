@@ -2,101 +2,106 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "どうして俺の周りには\\いつもおかしな奴らしかいないのか。",
-      "background": "bg066_f",
-      "bgm": "4",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "モナ～！\\お願い～！",
+      "background": "bg041_f",
+      "bgm": "14",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "アハハッ！悪魔め！お前の罪を自白しろ！\\",
-      "char": "c189_01",
+      "dialogue": "あら～♥そんなに慌ててどうしたの？\\エリシオンったら～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "一体、俺が何の罪を犯したって…\\",
-      "char": "c000_01",
+      "dialogue": "悪魔にもし、あたしのこと聞かれても、\\見なかったって答えて！お願い！",
+      "char": "c184_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前は罪を犯した！\\とーっても大きな罪をね！\\だから自白しなさい！",
-      "char": "c189_01",
+      "dialogue": "穏やかじゃないわね～♥\\一体何をやらかしちゃったの～？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "何を自白しろっていうんだよ！\\俺は無罪だ。",
-      "char": "c000_01",
+      "dialogue": "やらかしたっていうか…\\と、とにかくお願いね！",
+      "char": "c184_01",
       "speaker": "same",
       "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "堂々と嘘をつくなんて！\\私はアンタの罪を知ってる。だから自白するの！",
-      "char": "c189_01",
+      "dialogue": "あらあら～…へ～♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "こいつ疲れる…\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "あら、二人で何してるの？",
-      "char": "c001_01",
+      "dialogue": "…モナ！\\エリシオンを見なかったか！？",
+      "background": "bg041_f",
+      "char": "c000_01",
       "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あ、現れた！悪魔が犯した罪の結晶体！",
-      "char": "c189_01",
+      "dialogue": "え～と～♥エリシオンって言うと～？\\船長帽とビキニと浮き輪でフワフワ浮いてる、ちょっぴり刺激的なお嬢さんですよね？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake"
+      "facial": "pretense"
     },
     "10": {
       "type": "talk",
-      "dialogue": "罪の…結晶体？\\ひどいわねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "そう、めちゃくちゃけしからんやつ。\\見なかった？\\こっちのほうに来たはずなんだけど！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "くう…こんなマヌケな悪魔にあんな絶世の美女が\\サポーターにつくわけない！",
-      "char": "c189_01",
+      "dialogue": "あらあら♥\\なんでそんなにエリシオンに会いたいのかしら？\\ちょっぴり嫉妬しちゃいます♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "tempt"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あらあら♥それじゃ、ご主人さまは\\違法な方法を使ってモナを雇ったのかしら？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "いや、そんな冗談は良いからさ。\\見かけたんだろ？そうだよな？\\あいつ、どっちに行った！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そうなのかしら、ご主人さま？本当に、モナに内緒で主催者側と手を組んで…",
-      "char": "keep",
+      "dialogue": "教えたい気持ちはあるんですが、\\エリシオンに頼まれちゃったんですよね♥\\絶対にご主人さまには言うなって♥",
+      "char": "c001_01",
       "speaker": "same",
-      "facial": "pretense"
+      "pos": "right",
+      "facial": "confused"
     },
     "14": {
       "type": "talk",
-      "dialogue": "真に受けるな！被害者はこの俺だ！\\魔王争奪戦なんて、\\俺の人生計画にあるわけないだろ！",
+      "dialogue": "お前…\\俺が怒り狂って憤死するところが見たいとか、\\言い出すんじゃないだろうな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -104,111 +109,210 @@
     },
     "15": {
       "type": "talk",
-      "dialogue": "うふふ、そうでしょうね。\\それにしても面白いこと考える子ね♥",
+      "dialogue": "ふふふ♥\\冗談でも、そんな縁起の悪いこと言うなんて♥",
       "char": "c001_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "くう！悔しい！悪魔、なんで相手にしないの？\\やっぱりモナは美女だから…",
-      "char": "c189_01",
+      "dialogue": "ご主人さまがいなくなったら、\\モナはいろんな意味で生きていけませんよ♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "sigh"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あら、嬉しい誤解♥",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "…演技でもいいから、\\もう少し悲しそうな顔でもしてりゃあ、\\美しい主従愛ってことにできたんだろーけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "18": {
       "type": "talk",
-      "dialogue": "このままだと私が不利になるでしょ！\\だから悪魔に足かせをしないと！",
-      "char": "c189_01",
+      "dialogue": "うふふ♥\\ここに来たのはついさっきです♥\\あちらに行ったので、急げば追いつくかと♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile"
     },
     "19": {
       "type": "talk",
-      "dialogue": "お前の足についたそれのことか？\\丁重にお断りするよ。",
+      "dialogue": "わかった、ありがとう！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それはいい考えだ！\\片方は悪魔、もう片方は私にかけるんでしょ？",
-      "char": "c189_01",
+      "dialogue": "エリシオンめ！\\捕まえたらタダじゃおかないぞ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "21": {
-      "type": "talk",
-      "dialogue": "あら♥\\",
-      "char": "c001_01",
-      "speaker": "same"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "二人三脚でもあるまいし\\なんで俺が…",
-      "char": "c000_01",
+      "dialogue": "さて、あとはもうすぐ来るバスに乗れば、\\晴れてあたしは自由の身だ！ヨーホー♪",
+      "background": "bg037_f",
+      "char": "c184_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "loop_ani": "attack"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うっ…ひとつくらい言うこと聞いてよ！\\",
-      "char": "c189_01",
+      "dialogue": "自由？へえ。\\なれるものならなってみな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near",
+      "facial": "superangry",
+      "screen_effect": "dialog_shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "な、なんだ！\\どうして怒るんだよ！",
-      "char": "c000_01",
+      "dialogue": "ひいっ！？\\その声は…",
+      "char": "c184_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ううっ！それじゃ手錠！手錠ならどう？\\",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "いや、だから何で俺が\\そんな不便なものをつけないと…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "きー！なら私に何をしてくれるの！？\\このバカ野郎！！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…何でそんなに怒るんだよ！\\",
+      "dialogue": "俺から逃げられると思ったのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "superangry",
+      "distance": "near",
+      "before_effect": "none",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "29": {
+    "26": {
       "type": "talk",
-      "dialogue": "そうですね。\\いつか分かる日が来るんじゃないでしょうか♥",
-      "char": "c001_01",
+      "dialogue": "う～…\\何よそのヤンデレサイコストーカーちっくな台詞！\\キモイんですけど！",
+      "char": "c184_01",
       "speaker": "same",
       "pos": "right"
     },
+    "27": {
+      "type": "talk",
+      "dialogue": "はぁ？お前が自分の欲望のままに、\\逃げ回るような不良チャイルドじゃなきゃ\\こんなに追いかけ回さないんですが？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "きーっ！ああ言えばこう言う！\\ねぇ、いつまであたしを束縛すれば気が済むの？\\もうあんたのそばにいるのは、ヤなんですけど！",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "…他人が聞いたら、\\俺が束縛しすぎてるカップル同士の、\\ケンカにしか聞こえないだろうな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
     "30": {
+      "type": "talk",
+      "dialogue": "確かにチャイルドは契約して主人と一緒にいるけど、だからって所有物じゃないの。\\あたしだって、自由にどこにでも行く権利がある。",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…それは別に構わないけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "えっ、じゃあ好きなところに行っていいの！？",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…限度をわきまえてくれればな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "confused"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "あのさぁ、この際だからちゃんと話しておくけど。\\お前が俺の所有物じゃないってのは分かる。\\でも、俺と契約している以上は…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "俺はお前の面倒を見る義務があるんだ。\\危ないことに巻き込まれないようにとか、\\迷子になって帰れなくならないようにとか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "うう～、うるさい！うるさい～！\\お父さんなんて大っ嫌い！",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "俺はお父さんじゃないだろ！？\\お前は思春期の娘かよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "うう～…\\今日は失敗したけど、\\次は絶対に脱出してみせるから！",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "none"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "何かあったら責任取るのは俺なんだから…\\頼むから余計なことはしないでくれよ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

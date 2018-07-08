@@ -2,274 +2,186 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "じゃあね！クククッ！",
-      "background": "bg095_f",
+      "dialogue": "くうっ…",
+      "background": "bg089_f",
       "bgm": "20",
-      "char": "m007_01",
+      "char": "c000_01",
       "speaker": "same",
-      "after_effect": "go_to_left_point"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "バイバーイ！",
-      "char": "c003_01",
+      "dialogue": "ご主人さま、どうしてそんなにお疲れなんですか？",
+      "char": "c001_01",
       "speaker": "same",
-      "facial": "smile"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あら、ダビ。誰に挨拶してるの？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "テディだよ。バイバイしたの。",
-      "char": "c003_01",
+      "dialogue": "わざと分からないフリをしてるのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "5": {
+    "4": {
       "type": "talk",
-      "dialogue": "そう？旅行にでも行くのかしら？",
+      "dialogue": "えー？モナには分かりませんが？",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "5": {
+      "type": "talk",
+      "dialogue": "全部お前のせいだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "知らない。",
-      "char": "c003_01",
+      "dialogue": "トカゲと再契約をしろっていうからしたけど…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "知らない？",
-      "char": "c001_01",
+      "dialogue": "おかげでトイレにトカゲが\\住み着いちゃったじゃないか！\\最悪だよ俺の人生…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "出て行きたいっていうからドアを\\開けてあげたけど、どこに行くかは私も知らない。",
-      "char": "c003_01",
+      "dialogue": "人間界は厳しすぎる…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ダビったら、久々にいいことしてあげたのね。",
-      "char": "c001_01",
+      "dialogue": "グワアア！",
+      "char": "m004_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "10": {
       "type": "talk",
-      "dialogue": "やったー！モナ姉さまに褒められた。",
-      "char": "c003_01",
+      "dialogue": "うわーっ！\\びっくりして心臓が止まるかと思っただろ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ご主人さまもダビのこと少しは\\褒めてあげればいいのにね。",
+      "dialogue": "俺の契約者を悪く言うな、\\この臭い悪魔め！",
+      "char": "m004_01",
+      "speaker": "same"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "俺は悪魔だけど別に臭くはないぞ！\\毎日ちゃんとシャワーだって浴びてるし、\\特に足はキレイに洗ってる！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "一度くらいはありますよね？\\足を洗うの忘れて寝ることくらい～",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "12": {
-      "type": "talk",
-      "dialogue": "トサカ野郎に褒められても嬉しくないよ。\\それに、テディが絶対トサカ野郎には\\言うなって言ってたから。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
     "14": {
       "type": "talk",
-      "dialogue": "つまり…テディが家出したってことか？",
-      "background": "bg086_f",
+      "dialogue": "毎日ちゃんと洗ってるっての！",
       "char": "c000_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そういうことですね～",
-      "char": "c001_01",
+      "dialogue": "恐怖の足の臭い！その足で契約者を苦しめている！",
+      "char": "m004_01",
       "speaker": "same"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ついでにダビはアイツが簡単に家を出られるよう\\ご丁寧にドアまで開けてあげた、と。",
-      "char": "c000_01",
-      "speaker": "same"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "モナ姉さま、ひどい！\\どうしてトサカ野郎にしゃべったの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "一応、ご主人さまでしょ？\\チャイルドのせいで問題が起きたら\\モナも面倒だからよ。",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "放っておけばいいじゃん、チャイルドなんて。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ダビ！テディはお前が探してこい！",
+      "dialogue": "だから、なんでトイレにいるんだよ！\\普通トイレにトカゲが住み着くなんて\\思いもしないだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "17": {
+      "type": "talk",
+      "dialogue": "俺だってトカゲなんか\\踏みつぶしたくはないんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "あの時のことを思い出すと今でもゾッとする…\\あのヌルっとした感触…それにあの質感…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ううう…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake_weak"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "グワアア！ゾッとするのはこっちだ！\\契約者の復讐する！必ず！",
+      "char": "m004_01",
+      "speaker": "same",
+      "distance": "near"
+    },
     "21": {
       "type": "talk",
-      "dialogue": "なんでダビが探さないといけないの！",
-      "char": "c003_01",
+      "dialogue": "ほーんとによかったですね。\\トイレにトカゲが住み着いたおかげで\\新しいチャイルドも手に入りましたし♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "探して来なきゃ今日の晩ご飯は抜きだ！",
+      "dialogue": "復讐するって話、聞いてなかったのか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "angry",
-      "mvd": "ux/talk/efx_script_angry_set.mvd",
-      "mvd_pos": "left_top"
+      "pos": "left"
     },
     "23": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "あら♥そんな話、他のチャイルドからも\\しょっちゅう言われてるじゃないですか？フフフ♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "テディー！テディー！",
-      "background": "bg072_f",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "screen_effect": "dialog_shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ダビ！クククッ、\\ボクと遊びたくて来たの？",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ううん…トサカ野郎に怒られたの。\\テディの家出を手伝ったって…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sulky"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "もうバレたの？まだ遊び足りないのに…",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "戻ろうよ。\\テディを連れて戻らないと晩ご飯抜きなの。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ヤダ！それよりボクと遊ぼうよ。",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "イヤ！ダビはお腹空いたし。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それじゃ、アイツのお菓子を盗っちゃおうか？",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "あの人間の子？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "そうだよ。さっきもいっぱい盗って食べたんだ。",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "本当に？どうやって？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "子供は僕みたいな可愛いぬいぐるみが\\大好きなんだ。それを利用すればいいのさ！\\クククッ！",
-      "char": "m007_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "それじゃ、お菓子盗ってくるから、\\よ～く見ててよ～！",
-      "char": "keep",
+      "dialogue": "慰めの言葉になってないぞ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "after_effect": "go_to_left_point"
+      "facial": "sigh"
     },
-    "37": {
-      "type": "talk",
-      "dialogue": "あのチャイルド、気に入った！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "38": {
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

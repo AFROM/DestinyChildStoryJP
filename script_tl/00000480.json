@@ -2,212 +2,285 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "え、エリザベート！それは机じゃない、パソコン！\\ああっ！水をこぼしちゃダメだって！",
-      "background": "bg086_f",
-      "bgm": "19",
+      "dialogue": "おい、ここは俺の家だぞ！\\早く入れろって！",
+      "background": "bg095_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "none",
-      "after_effect": "go_to_right_point"
+      "facial": "unfair"
     },
     "2": {
       "type": "talk",
-      "dialogue": "たかが水ごときで騒ぐとは…\\品の欠片もないな。",
-      "char": "c156_01",
+      "dialogue": "べーっ、だ！絶対に入れてあげないもんね～！\\今からここはモナお姉さまとダビの\\愛の巣なんだから♥",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "facial": "victory",
+      "one_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ふむ、これはなんだ？\\鏡か？",
-      "char": "keep",
+      "dialogue": "入りたければ、\\契約のノルマを達成してきてください。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "facial": "pretense",
+      "one_ani": "attack"
     },
     "4": {
       "type": "talk",
-      "dialogue": "鏡じゃなくてスマートフォンだよ。\\やめてくれ、落とさないでー！",
+      "dialogue": "お前らな…\\居候のくせに、俺を追い出す気か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "after_effect": "go_to_right_point"
+      "facial": "confused"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あら、あのお嬢さんは、どちら様でしょうか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "confused"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "新しく迎えたチャイルドです。\\ご主人様の給料ひと月分と支援金をはたいて\\連れてきたそうですよ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ローンもあるって！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "まぁ♥\\ご主人様自らチャイルドを？\\いい傾向じゃないですか♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "少しは真面目に魔王争奪戦に臨んでくれる気に\\なってくれたんでしょうか♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "正直、俺も何でそんなことをするつもりに\\なったのかわからない。\\でも、エリザベートに会った途端…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "心惹かれたそうですよ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "あら、一目惚れなのね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "affair"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ちがーう！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "…どこか、懐かしい感じがしたんだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "それにしてもご主人様の接し方、\\まるで貧乏人が高級品に触れるみたいですねぇ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "おっかなびっくり！小心者！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "この小さな活字はどのようにして作ったのだ？\\非常に腕のよい職人がいるものだな。",
-      "char": "c156_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ああ、それは本って言って…\\あと、活字じゃなくて印刷だよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "go_to_right_point"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "彼女は…少し、変わったチャイルドですね。",
+      "dialogue": "すべては御主人様が魔王になるためですので。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "魔王なんか知るか！\\そんなものより、俺は部屋でゴロゴロしたいんだー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "へっへーん、知るかも何も、ご主人が魔王になる\\なんて、死んでもあり得ないけどね～",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…聞いたか、リザ。\\ムカつくけど、ダビの言う通りだ。\\どうせ俺が魔王になることなんてないんだから、\\魔王争奪戦なんて諦めよう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…ダビ、御主人様が勝手に入ってこられないよう、\\家中の穴を全て塞いでください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ラジャー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "おい、本気か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "当然です。御主人様が怠けないように、\\パートナーも選んでおきました。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "お前は…トート？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "主よ、よろしく頼む。",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_right_fast"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "よりにもよって、自分と同じクソ真面目な奴を\\選んできたな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "今回の件に関しましては、\\彼以上の適任はいないと自負しております。\\私のチャイルドを見る目に、\\間違いはありませんから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はいはい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "さーて、楽しいお仕事の時間だー",
+      "background": "bg049_f",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "20": {
       "type": "talk",
-      "dialogue": "チャイルドになったことで、\\この時代のことを忘れてしまったのでしょうか？",
-      "char": "keep",
+      "dialogue": "全く楽しそうではないな。",
+      "char": "c154_01",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "もしかしたら…\\遠い昔に生まれたチャイルドかもしれないわね。",
-      "char": "c001_01",
+      "dialogue": "心優しいチャイルドの目には、\\楽しそうに見えるんですー",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "主よ、あの男はどうだ？\\深く悩んでいる顔だ。",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ダメダメ。見た目が怖すぎる。\\たぶん、話しかけた途端にガツンだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…では、あの人間は？\\女性なら問題ないだろう？",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "わかってないな。\\ああいう性格キツそうな女は、強面のおっさんより\\怖いんだぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…あれなら文句はないだろう？\\強面でも、キツい性格でもなさそうだ。",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "えっ？\\あんな子供を巻き込もうとするとか、冗談だろ？\\さすがに引くわー",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "失礼した。少々、見境がなくなっていたようだ。\\しかし…間違っていたらすまないが、\\そもそも主には仕事をする気が見られないのだが。",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "お、やっと気付いたか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…はあ。\\サキュバス殿が怒るのも無理はないな。",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "仕方ないだろ？「ご主人様」なんて口だけで、\\あーしろこーしろって…\\どっちがご主人様かわかんないよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "主が義務を果たさないから、\\下の者達が大変な思いをしているのだろう？",
+      "char": "c154_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "主は自らの立ち位置を自覚する必要がある。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
-    "22": {
+    "34": {
       "type": "talk",
-      "dialogue": "ふむ…\\坊や、そなたの尾から、何やらよい香りがするな。",
-      "char": "c156_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "そういうこと言わな…匂いも嗅がないで！",
+      "dialogue": "うう…言い返せない。\\まさに男版リザだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake_weak"
+      "facial": "sigh"
     },
-    "24": {
+    "35": {
       "type": "talk",
-      "dialogue": "ひっ…ひゃあ！く、くすぐったい…！",
-      "char": "keep",
+      "dialogue": "それでは気を取り直して…\\あそこに手頃なターゲットがいる。\\契約を交わしてくるといい。",
+      "char": "c154_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake"
+      "pos": "right"
     },
-    "25": {
+    "36": {
       "type": "talk",
-      "dialogue": "どこか懐かしい…\\猫、か…？それとも…",
-      "char": "c156_01",
+      "dialogue": "はいはい、トート様。仰せのままに。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "center",
-      "distance": "near"
+      "distance": "near",
+      "facial": "haah"
     },
-    "26": {
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

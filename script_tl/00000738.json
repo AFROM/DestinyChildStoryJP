@@ -2,154 +2,243 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "くそっ！",
-      "background": "bg089_f",
-      "bgm": "9",
-      "char": "m189_01",
-      "speaker": "same",
-      "pos": "left",
-      "screen_effect": "dialog_shake"
+      "dialogue": "フフ、ご主人さまったら、お寝坊さんですね～",
+      "background": "bg086_f",
+      "bgm": "12",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そんな草食動物みたいな歯で\\俺に勝てると思ったのか。",
-      "char": "m190_01",
+      "dialogue": "さぁ、ご主人さま！\\もう、起きる時間ですよぉ～♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "tempt"
     },
     "3": {
       "type": "talk",
-      "dialogue": "勝ってやる！守ってやる！絶対に宝物は盗らせない！",
-      "char": "m189_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "どっちが勝つか賭けてみるか？",
-      "char": "m190_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "おいおい、ストーップ！",
+      "dialogue": "その手には乗らないぞ…\\まだ起きるには早い！\\何度もやられてたら、さすがに学習するわ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "enter_from_left_fast"
+      "facial": "pretense"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あら、まだ寝ボケてると思ったら中々の頭の冴えですね。これはご褒美をあげるべきかしら…？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "はい！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "toonear",
+      "facial": "smile"
     },
     "6": {
       "type": "talk",
-      "dialogue": "家の中でケンカはするなって言ったろ？\\ここで騒いだら警察が来る。",
-      "char": "keep",
+      "dialogue": "…ひっ！\\ど、どこ触ってんだよっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ちょっとお尻を叩いただけですよ～♥\\モナお姉様からのご褒美です。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "セ、セクハラだろ！\\訴えるぞ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "7": {
-      "type": "talk",
-      "dialogue": "ボクサーが！ボクサーがぁぁぁ！",
-      "char": "m189_01",
-      "speaker": "same"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "分かったから泣くなって。泣いても警察が来る。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
     "9": {
       "type": "talk",
-      "dialogue": "ぐすん！ずるっ！ひくっ！",
-      "char": "m189_01",
+      "dialogue": "ハイ、目は覚めたようですね？\\それでは準備をして、仕事に行きましょう。",
+      "char": "c001_01",
       "speaker": "same",
-      "before_effect": "shake_weak"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "なんで泣かせたんだ？",
+      "dialogue": "い、嫌だ！\\それに今日は雨だって、天気予報で…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "仕方ないだろ。これが俺の性格なんだ。\\マスターが俺をこんな風にしたんじゃないか。",
-      "char": "m190_01",
+      "dialogue": "あら、外はいいお天気ですよ？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "俺じゃなくてお前の契約者の性格だろ。",
+      "dialogue": "ゆ、夢の中でツバメが低く飛んでた気がするし…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "irritation"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ちっ！つべこべ言うガキだ。\\今日はここまでにしてやるから機嫌を直せ。",
-      "char": "m190_01",
+      "dialogue": "面白い冗談ですね～？\\たしか雨が降ると言われているんでしたっけ？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふん、だ！",
-      "char": "m189_01",
-      "speaker": "same"
+      "dialogue": "でも、その言い訳は、前にも聞きました。\\何度もやられてたら、さすがに学習しますよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "teach"
     },
     "15": {
       "type": "talk",
-      "dialogue": "次も楽しく遊ぼうぜ。",
-      "char": "m190_01",
+      "dialogue": "ひ、ひいいっ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake_weak"
     },
     "16": {
       "type": "talk",
-      "dialogue": "次も絶対に盗られないから！",
-      "char": "m189_01",
-      "speaker": "same"
+      "dialogue": "置いて行けばいいじゃない？\\どうせ戦うのはチャイルドでしょ？",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "勝手に俺の部屋に入って来るなよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
     },
     "18": {
       "type": "talk",
-      "dialogue": "毎日、毎日、歯を磨いている。",
-      "background": "dungeon_bg",
-      "char": "m189_01",
-      "speaker": "same"
+      "dialogue": "いえいえ、ご主人さま。\\今回は彼女にサポートをしてもらう予定なんですよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "大切なものを守るために強くなったのに\\ボクの宝物を狙う悪党がいる。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "おいおい、カンベンしてくれ…！\\こいつ全然、俺の言うこと聞かないんだぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ライオンより強い歯を手に入れてやる。\\悪党より恐ろしい怪物になってもかまわない！",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "安心しなさい、それは昔の話よ。\\今日からはちゃんと務めを果たすわ。",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "盗られたら何も残らないから…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "はい？急にどうしたんだよ？こないだまで、\\「女王が魔王候補ごときの命令を聞けるか」って\\鼻で笑ってたくせに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "22": {
+      "type": "talk",
+      "dialogue": "その考えに変わりはないわ。",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "だけど、私も今後を見据え、態度を改めようと\\思い直したの。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "何であれ、私は君のチャイルドになってしまったのだから…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "今、すごい嫌そうな顔してなかった？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "君が早く魔王にならないと、\\私の品格も一緒に落ちてしまうじゃない？",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "だからよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "はぁ…魔王候補ごときが、身に余るチャイルドを得たわけですか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "いまさら気付いたの？",
+      "char": "c247_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "とにかく、私が君に力を貸すのよ。\\ありがたく思いなさい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "へえへえ、ミュリナ女王様。\\身に余る光栄でございます！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

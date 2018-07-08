@@ -2,12 +2,142 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "You finally went outside!♥\\Let's go to the <color=ff9900>story</color> immediately!",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none",
+      "dialogue": "あぁ、頭が…\\なんでクリスマスにバトルなんて…",
+      "background": "bg204_f",
+      "bgm": "39",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200102059"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "ちぇー。ご主人、ギリギリ勝っちゃったね。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "200102060"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "《勝っちゃった》？\\ダビさんや、何を言っているのかね？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "200102061"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "って、こんなことしてる場合じゃ…\\オマエ、まさか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "before_effect": "shake",
+      "voiceid": "200102062"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "その通り！\\私こそが《神秘のクリスマスの妖精》でーす★",
+      "char": "c246_00",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200102063"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "騙されるか！\\オマエ、チャイルドだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "200102064",
+      "before_effect": "shake"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あら～♥\\アナタ、思ったより賢いのね。\\ご褒美にもうひとつ、いいことを教えてあげるわ。",
+      "char": "c246_01",
+      "speaker": "unknown1",
+      "pos": "right",
       "one_ani": "attack",
-      "voiceid": "900101001"
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "200102065"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "実は、私、迷えるチャイルドなんですよ！\\どう？チャイルドを手に入れる絶好の機会！",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "voiceid": "200102066"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "このチャンスを逃したら、\\あとあと後悔することになるかも？\\さあさあ、私が欲しかったら、\\捕まえてごらんなさ～い♪",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "after_effect": "go_to_right_point",
+      "voiceid": "200102067"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "おい、待て！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake",
+      "voiceid": "200102068"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ね、ねえバカご主人、\\今のって、クリスマスの妖精だよねっ！？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "joy",
+      "voiceid": "200102069",
+      "one_ani": "attack"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "このバカ、ちゃんと話を聞いてなかったのか？\\ヤツは妖精なんかじゃない、チャイルドだっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "200102070"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "むーっ、ダビ、バカじゃないもん！\\ダビのことをバカっていうなら、\\ご主人はウルトラスーパー大バカだよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "fury",
+      "voiceid": "200102071"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "こいつと口ゲンカしたって時間とカロリーのムダだ…それより、あのはぐれチャイルドを何とかするぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200102072"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

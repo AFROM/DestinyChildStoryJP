@@ -2,234 +2,209 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "クランプスに負けず劣らず、\\有名なチャイルド、フェアリー",
-      "background": "bg036_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "本当の本当に、君の言う通りになるチョロン？",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "m194_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "クリスマスになるとサンタの髭をつけた怪物が\\冷たい息を吐きながら街を徘徊すると言う",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "もちろん！ダビの言う通りにすればいいよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "都市伝説の…恐怖のチャイルドだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "上手くいくチョロンか?",
+      "char": "m194_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "よかったです。他の悪魔が聞いたら\\きっとうらやましがります。",
-      "char": "c002_01",
+      "dialogue": "もう！ダビの言う通りにやれば大丈夫だってば！\\ちっとも難しくないよ。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "で…実際、うらやましがってたか？",
-      "char": "c000_01",
+      "dialogue": "早く！ご主人が来る前にやらないと！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "まだそのような情報は入ってきていませんが…",
-      "char": "c002_01",
+      "dialogue": "わ、分かったチョロン！",
+      "char": "m194_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "当たり前だろ！\\これからも一生そんな話は出てこない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "強くたって何になる！すごい能力を持ってたって\\主人の言うことを聞かないのに！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "何度言っても…グスッ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "それはあくまで御主人様の役目…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "もうそんな話、聞きたくない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "聞かなくてもかまいません。本当のことですから。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "くっ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
-    },
-    "14": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "15": {
+    "8": {
       "type": "talk",
-      "dialogue": "元気だったか？",
-      "background": "bg119_f",
-      "char": "c299_01",
+      "dialogue": "悪魔様にあげようと思って持ってきたチョロン。",
+      "background": "bg086_f",
+      "char": "m194_01",
       "speaker": "same",
       "pos": "right"
     },
-    "16": {
+    "9": {
       "type": "talk",
-      "dialogue": "ふん！",
-      "char": "m216_01",
+      "dialogue": "クッキーか？ありがとな、チョロン。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "い、いっぱい食べてくれチョロン。",
+      "char": "m194_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ところで…なんでそんなに震えてるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "チョ、チョロン？",
+      "char": "m194_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "口ごもったりして…それに、クッキーの上にある\\この不思議な粉は何だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そ、そ、それは！クッキーがもっと美味しくなる\\魔法の粉チョロン。",
+      "char": "m194_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "魔法の粉ー？へぇ、そこまで考えてくれるなんて\\本当にありがたいなー！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "one_ani": "attack"
+      "facial": "pretense"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そうだ！こんなに美味しいもの、一人で食べるのは\\もったいない。\\さ、オマエも食べてみろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
     },
     "17": {
       "type": "talk",
-      "dialogue": "鼻息をかけるな！",
-      "char": "c299_01",
+      "dialogue": "チョ、チョロンはさっきいっぱい食べたから！\\お腹いっぱいチョロン！",
+      "char": "m194_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "オマエ、新しい主人の言うこと\\全然聞かないんだってな…",
-      "char": "keep",
+      "dialogue": "いいから一口だけ食べてみろって！\\俺一人で食べるのは申し訳なくてさ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "joy"
     },
     "19": {
       "type": "talk",
-      "dialogue": "新しい主人などいない！\\わしはサンタクロースの家来。\\忠誠心は変わっておらん！",
-      "char": "m216_01",
+      "dialogue": "だ、だいじょう…",
+      "char": "m194_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "気に入らないなら仕方ない。俺もさ、\\寝てても途中で起きちゃうんだ。",
-      "char": "c299_01",
+      "dialogue": "さ、食べてみな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "angry"
     },
     "21": {
       "type": "talk",
-      "dialogue": "マヌケなガキの使い魔になったのはともかく、\\《あの女》と仲良くしろなんてひどすぎないか？",
-      "char": "keep",
+      "dialogue": "うっ！ペッ、ペッ！",
+      "char": "m194_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いい機会じゃ！",
-      "char": "m216_01",
+      "dialogue": "やっぱりおかしいと思った…\\クッキーに何をした？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ほお…",
-      "char": "c299_01",
+      "dialogue": "ダビの武器、下剤をふりかけたチョロン！",
+      "char": "m194_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "24": {
       "type": "talk",
-      "dialogue": "《あの女》を殺す機会！",
-      "char": "m216_01",
+      "dialogue": "何だって？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake"
+      "facial": "confused"
     },
     "25": {
       "type": "talk",
-      "dialogue": "できるのか？",
-      "char": "c299_01",
+      "dialogue": "チョロンは魔王争奪戦が嫌チョロン！\\戦いは嫌チョロン！",
+      "char": "m194_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "信じてくれ！",
-      "char": "m216_01",
+      "dialogue": "チョロンに戦えって言うなら、\\コショウだってふりかけるチョロン！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
+      "distance": "near",
+      "after_effect": "go_to_right_point"
     },
     "27": {
       "type": "talk",
-      "dialogue": "確かに…オマエは一度決めたら\\どんな手を使ってもやり遂げるからな。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "もちろんだ！",
-      "char": "m216_01",
+      "dialogue": "心配するなって…\\わかってるからさ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "one_ani": "attack"
+      "facial": "smile"
     },
-    "29": {
-      "type": "talk",
-      "dialogue": "分かった。\\それじゃ、《あの女》はオマエに任せるとして…\\俺は仕事にでもいくとするか。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "今日も純粋な人間の魂を奪ってやる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,118 +2,256 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様。どこに居るのですか、御主人様？\\…御主人様？",
+      "dialogue": "お兄ちゃーん♥",
       "background": "bg086_f",
-      "bgm": "24",
-      "char": "c002_01",
-      "speaker": "same"
+      "bgm": "9",
+      "char": "c269_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "このっ…早く出てきなさい、御主人様！",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "…はぁ。また、逃げられてしまいましたか。\\一体どこに行ったんでしょう…？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "君の主人なら\\そこからコソコソと抜け出していったな。",
-      "char": "m199_01",
+      "dialogue": "何だ？急に甘えてくるなんて。\\お前何かたくらんでるだろ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "そ、そんなことないよ！\\ただ、お兄ちゃんに聞いてほしいお願いがあるだけ！",
+      "char": "c269_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "お願い？…ってどんなお願いだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "5": {
       "type": "talk",
-      "dialogue": "は、はい…？蒼龍。\\なぜそれをもっと早く、言わなかったのですか…？",
-      "char": "c002_01",
+      "dialogue": "ピクシーのお願い聞いてくれるの！？",
+      "char": "c269_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "なぜ我がそんなことをしなければならない。\\そういうことは、下僕共の仕事だろう？",
-      "char": "m199_01",
+      "dialogue": "いや、だからまず、どんな願いなのか聞いてから…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はぁ…あなたに聞いた、私が間違いでしたね。",
-      "char": "c002_01",
+      "dialogue": "ふわああん！\\お願い聞いてくれないの！？",
+      "char": "c269_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "それよりだ、リザ。あの悪魔の代わりに\\我に仕える気はないか？",
-      "char": "m199_01",
+      "dialogue": "うわっ！わ、わかった！\\聞く！聞くから泣くなって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "9": {
       "type": "talk",
-      "dialogue": "いい取引だと思うぞ。\\魔王になるのは、我に決まっているからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そうですか。それはとても魅力的な提案ですね。",
-      "char": "c002_01",
+      "dialogue": "ほんと！？\\へへへ。じゃあ、これ受け取って。",
+      "char": "c269_01",
       "speaker": "same",
       "pos": "right"
     },
+    "10": {
+      "type": "talk",
+      "dialogue": "これ…手紙か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "しかし生憎ですが、私はハズレると分かっている\\賭けには乗らない主義ですので。",
-      "char": "keep",
+      "dialogue": "うん！\\ママに渡しておいて！",
+      "char": "c269_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ただ…そのあふれる自信の半分程度は、\\御主人様にも分けて欲しいぐらいですね…",
-      "char": "keep",
+      "dialogue": "ママに…か。\\何が書いてあるんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そんなこと、ほぼ不可能だと思いますけど…はぁ",
-      "char": "keep",
+      "dialogue": "ナイショ！\\ママに書いた手紙なんだから、\\お兄ちゃんは読んじゃダメだからね！",
+      "char": "c269_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そのクールな知性と、実直さ…素晴らしい。\\君がますます欲しくなってきたぞ。",
-      "char": "m199_01",
+      "dialogue": "わ、わかってるよ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near"
+      "facial": "sigh"
     },
     "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
       "type": "talk",
-      "dialogue": "そのようなご評価は、光栄ですが…",
+      "dialogue": "…「わかってる」とは言ったものの、\\ダメと言われると余計に見たくなるんだよな。\\ちょっとくらいなら…",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "外道ですね。\\子供相手に嘘をつくなんて…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "うわっ！\\お、驚かすなよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "俺はてっきり、\\悪魔らしいって\\褒めてくれると思ったんだけどな…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "褒めるに値しない、幼稚な行為です。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
-    "16": {
+    "21": {
       "type": "talk",
-      "dialogue": "今回はご縁がなかったということで。\\ふふ、まあそれでも…少々嬉しかったとは\\言っておきます。",
+      "dialogue": "ま、まあ、確かに、\\子供の手紙を覗き見するなんて\\情けないかもしれないけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "でも、これはピクシーがママに書いた手紙だろう？\\どんな内容かぐらい知っておかないと、\\主人としてはいけないだろう？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left"
     },
-    "17": {
+    "23": {
+      "type": "talk",
+      "dialogue": "はいはい。\\お好きになさってください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "な、なんだよ？\\とりあえず、さっそく読んでみるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ママ、お元気ですか？\\嘘つきなおじさん悪魔に捕まって、毎日怖くて大変だけど、ピクシーは元気です。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "おいおい。\\まさか、嘘つきなおじさん悪魔って…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "状況から察するに、\\御主人様を指しているようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "子供ってさ、想像力豊かだよね…\\さ、続き続き。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "毎日怖くて大変だけど、ピクシーは元気です。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "特に大変なのは、\\嘘つきなおじさんが毒の入った食べ物を\\無理やり食べさせようとすることです。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "こちらは、御主人様が偏食するピクシーに、\\無理やりピーマンを食べさせようとしたことを示しているようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "毒って…\\俺はただピクシーが元気に大きく育つようにと思ってやってたのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "親の心子知らずとはよく言ったものですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

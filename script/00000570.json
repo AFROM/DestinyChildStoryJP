@@ -2,114 +2,107 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "嫌なら嫌とおっしゃってください。\\子供じみてはいませんか？",
-      "background": "bg086_f",
-      "bgm": "20",
-      "char": "c002_01",
+      "dialogue": "見てー！モナ姉さまお手製のチャーハンー！\\あぁ～モナ姉さまの愛情が籠ってていつもより\\何倍も美味しい…♥",
+      "background": "bg089_f",
+      "bgm": "9",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "irritation"
+      "facial": "joy"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうせ言っても聞かないだろ！",
+      "dialogue": "あぁ、チャーハンな。\\いつものチャーシューじゃなくて魚肉ソーセージを\\使ってみたらしいけど美味かったな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いや、そうじゃなくて…これは俺のせいじゃない！",
-      "char": "keep",
+      "dialogue": "え、なにその情報。\\そうなの！？っていうかなんで\\ウスラトンカチが知ってるの！？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "他でもない御主人様に契約書をお渡ししたのに\\自分のせいじゃないですって？",
-      "char": "c002_01",
+      "dialogue": "さっき食べたから。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "確かにもらったけど、落書きしたのは俺じゃない！\\それに、俺がこんな小学生みたいな絵を描くと\\思ってるのか？",
-      "char": "c000_01",
+      "dialogue": "う、ウソだもん！！これはモナ姉さまが\\ダビのために愛情たっぷりこめて\\作ってくれたんだ～！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "right",
+      "facial": "fury"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そのくらい私にも分かります。これはオーロラの\\仕業です。もう彼女は自白してます。",
-      "char": "c002_01",
+      "dialogue": "いや、悪いけど、モナは今日の昼当番だろ？\\だからリザだって食べたし…\\コイツもさっき食べてたよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ひどいわ、リザ！",
-      "char": "c026_01",
+      "dialogue": "ブツブツ…ブツブツ…",
+      "char": "m049_01",
       "speaker": "same"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ならオーロラにだけ怒ればいいだろ。\\なんで俺が怒られるの！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "shake"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "契約書を受け取ったのはご主人様です。\\最後まで責任を取ってください。",
-      "char": "c002_01",
+      "dialogue": "が、ガイコツ…シャレコウベも食べたの！？\\あーん！モナ姉さま…モナ姉さま～～！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "10": {
+    "9": {
       "type": "talk",
-      "dialogue": "責任なんて！ちょっとトイレに行ってる間に…\\どう食い止めろって言うんだ！",
+      "dialogue": "シャレコウベ…\\これ以上特色を表すあだ名もないな…\\って、大丈夫か、スカル？ムッとしてない？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "pos": "left"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…してなさそうだな。\\なあ、気にならないんだったら\\俺もシャレコウベって呼んでいい？\\その方が親しみやすいし。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もっと絵を描きたいの！",
-      "char": "c026_01",
+      "dialogue": "ブツ…ブツブツ…",
+      "char": "m049_01",
       "speaker": "same"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ダメです、オーロラ。\\さっきも言ったでしょう？",
-      "char": "c002_01",
+      "dialogue": "…もしもーし、俺の声聞こえてる？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それともまだ理解できていないのですか？\\やはり最初からお話ししないと…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "バカども…バカども…！\\私の論文にケチをつける哀れなバカ者ども！！",
+      "char": "m049_01",
+      "speaker": "same"
     },
     "14": {
-      "type": "talk",
-      "dialogue": "嫌よ！文句言われたくないわ！",
-      "char": "c026_01",
-      "speaker": "same",
-      "before_effect": "shake_weak"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "一体いつまで説教するんだ？",
+      "dialogue": "うん、聞いてないなこれ。\\コミュニケーション取れなくて、\\大丈夫なんだろうか…",
+      "background": "bg086_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -117,196 +110,158 @@
     },
     "16": {
       "type": "talk",
-      "dialogue": "オーロラ、お前はもう帰れ。\\紙はもうない。",
-      "char": "keep",
+      "dialogue": "…スカルは特殊ですから。\\御主人様の懸念も最もです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ぐすん…お絵かき…",
-      "char": "c026_01",
-      "speaker": "same"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "さっさと行けって…\\こっちが迷惑なんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "オーロラの執着は予想を遥かに超え、\\俺の横にセミのようにくっついて…",
-      "background": "bg041_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…紙をくれとせがんだ。\\しかもただの紙じゃなく、契約書を、だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "それがいいの！",
-      "char": "c026_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "これはダメだ…\\一体いつまでついて来るつもりだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "俺が何とかしよう。",
-      "char": "m050_01",
-      "speaker": "same",
-      "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "うわっ、ビックリした！？\\どこから現れたんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "キャア！怖い！イヤ！",
-      "char": "c026_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "いい加減、飛び跳ねるな…\\あっ！ズボンがちぎれる！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "厄介なものが離れないんだって？\\俺が片づけてやろう。",
-      "char": "m050_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "オーロラのことか？どこ情報だ？",
+      "dialogue": "やっぱ、気付いてるの俺だけじゃないよな？\\ちょっと他のチャイルドと違うっていうか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "30": {
+    "18": {
       "type": "talk",
-      "dialogue": "リザから聞いた。",
-      "char": "m050_01",
+      "dialogue": "契約者のマイナスの感情の塊と言いますか。\\自我がないわけではないのですが…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
-    "31": {
+    "19": {
       "type": "talk",
-      "dialogue": "自分は面倒だからって、遣いを送ったのか。",
+      "dialogue": "契約者と完全に別人格かというと、\\そうではない状態ですね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "どうしてスカルだけそうなっちゃったんだろうな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "left"
     },
-    "32": {
+    "21": {
       "type": "talk",
-      "dialogue": "で、どうやって解決するつもりだ？\\言っておくが、こいつはただ者じゃないぞ。",
-      "char": "keep",
+      "dialogue": "でも、そちらの方がいいでしょう？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "え？どういうこと？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "33": {
+    "23": {
       "type": "talk",
-      "dialogue": "こ、来ないで！",
-      "char": "c026_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "オーロラは怯えた表情で\\《凶殺》と書かれた名札を突き出した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "気に入らないヤツに付ける名札…\\お守りのようにも見えるが、相手がギロチンでも特に効果はない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "頭をちょん切ってやる…",
-      "char": "m050_01",
+      "dialogue": "変に自我が強くない方が扱いやすいではないですか。御主人様に反抗することなく、命令はちゃんと遂行\\してますし。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "24": {
+      "type": "talk",
+      "dialogue": "でもなぁ…なんとも言えず、\\機械に話しかけている感じが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "……？\\だからそれの何が問題なのですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あー、今わかった。\\リザさん、もうこの話はやめましょう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "何ですか、急に…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "俺の言うことに違反したり反抗されても\\時間の無駄、そう思わない？\\だから言うこと聞いててよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "時間の無駄、というのは確かにそうですが…\\でも…何ですか、もしかして私を扱いづらいと\\思ってます？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ほら、そういう風に思われたら\\何となく嫌だと思わなかった？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "何をおっしゃりたいのか…\\脈絡がまったくわかりません。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "うーん、俺の言い方が悪かったな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ただ俺は、スカルを扱いやすいとか便利とかで\\判断したくなかったんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "だって、いい意味でも悪い意味でもそう言われて\\嬉しいやつなんていないだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…わかりました。\\以後気をつけます…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "どっちが正しいかわからないけど、\\少なくとも俺はチャイルドをそういうことで\\判断したくないんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
     "37": {
-      "type": "talk",
-      "dialogue": "頭を？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "キャア！キャアアア！",
-      "char": "c026_01",
-      "speaker": "same",
-      "before_effect": "shake",
-      "one_ani": "attack"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "さあ、頭を差し出せ。",
-      "char": "m050_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "これじゃ「遣い」じゃなくて「刺客」だな…\\やり方が極端すぎる…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,268 +2,293 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ちがう！もう少し肩を上げろ！",
+      "dialogue": "なあ、モナ。\\ビクトリスがどこにいるか知らないか？",
       "background": "bg086_f",
-      "bgm": "12",
-      "char": "c072_01",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "バカにしてるのか！俺に不可能なんてない！",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ただもう少し肩を上げろと言っただけだ。",
-      "char": "c072_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "こんな夜中に何してるんだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "ファイロなんですが、\\ちょっと強そうなチャイルドを見かけると、\\武術を習うと聞かないんです。",
+      "dialogue": "ビクトリス、ですか？\\少なくとも、ここにはいませんね～",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "shy"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ほんと、元気ですね～。\\誰かさんとは大違いです♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
       "facial": "pretense"
     },
-    "7": {
+    "3": {
       "type": "talk",
-      "dialogue": "はっ、モナ。\\お前エネルギー保存の法則も知らないのか？",
+      "dialogue": "そうか…\\ビクトリス～！どこにいるんだ～？",
+      "background": "bg095_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
+      "facial": "idle"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ご主人、うるさい！\\ビクトリスなら、さっき出てったよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "あいつ、いつの間に…",
+      "background": "bg098_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "まるで、家出した猫ちゃんみたいですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
       "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "エネルギー保存の法則ですか？",
-      "char": "c001_01",
+      "dialogue": "猫なら心がどれだけ楽か…\\はぁ～",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そうだ。\\宇宙のエネルギーの総量は一定だっていう法則だ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
+      "dialogue": "たまにいなくなるチャイルドはいるけど、\\ビクトリスは少し特殊だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あんなにエネルギーを使ったらなくなっちゃうよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "pretense"
+      "dialogue": "言うなれば、\\目に入れたら痛いチャイルドというか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "だから、俺がエネルギーを\\節約しなきゃいけないってことさ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "joy"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ふーん…",
-      "char": "c001_01",
+      "dialogue": "「人生を懸けた勝負」「悪魔歓迎」\\「掛け金・魂」…？何だこりゃ…",
+      "background": "bg054_f",
+      "bgm": "10",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ぐはあっああ！",
-      "char": "c208_01",
+      "dialogue": "ここには言葉通り、魂を懸けて勝負をするという、\\少女がいるそうです。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "大丈夫か、ファイロ！？",
-      "char": "c072_01",
+      "dialogue": "ただの冗談だと思い、\\気に留めていなかったのですが…\\いくつか、悪魔のサインがあるようですね。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "serious"
     },
     "15": {
       "type": "talk",
-      "dialogue": "だ、大丈夫だ！このくらい、なんともない！\\俺がこの程度の傷でやられると思ってるのか！",
-      "char": "c208_01",
+      "dialogue": "悪魔のサインって…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "idle"
     },
     "16": {
       "type": "talk",
-      "dialogue": "何をしているのですか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "チャイルドは貴重な戦力。\\ケガをさせるようなことはお止め下さい。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ファイロ、こっちに来なさい。\\傷の手当をします。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "うっ…\\フェンリル、俺は大丈夫だ！もっと訓練しよう！",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "shake_weak"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "誰と話してるのですか、ファイロ！私を見なさい！",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "sigh"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "フェンリル！さっき、何かに気づきそうだった！\\一緒に戦地に行って訓練した方が…うわっ！",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "after_effect": "shake"
-    },
-    "22": {
-      "type": "curtain",
-      "fade_in": "normal"
-    },
-    "23": {
-      "type": "curtain",
-      "fade_out": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "おお、完璧な柔術だな。\\ 背負い投げからの縦四方固め。さすがだな、リザ。",
-      "char": "c072_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "グッジョブ♥",
+      "dialogue": "…ああ、これなんて、\\魔王候補のサインのようですよ～",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "tempt"
+      "facial": "idle"
     },
-    "26": {
+    "17": {
       "type": "talk",
-      "dialogue": "じっとしてなさい！薬を塗らないと！",
+      "dialogue": "ええ。\\運よく勝ち続けているおかげで、\\今のところ、死は免れているようですが…",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "idle"
     },
-    "27": {
+    "18": {
       "type": "talk",
-      "dialogue": "俺、怪我しないようにしよっと…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ん？\\御主人様、やはりファイロの傷は深刻です。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "顔は赤く、熱もあります。\\鼻血まで…止血しないと。",
+      "dialogue": "人間に負けるような、\\間抜けな悪魔ばかりではありません。\\このままでは、近い将来、\\彼女は確実に命を落とすでしょうね。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "pretense"
     },
-    "30": {
+    "19": {
       "type": "talk",
-      "dialogue": "いや、たぶんそれは…お前の胸とかお尻が…\\しっかり治療してくれ…ゆっくりな。",
+      "dialogue": "そ、そんなこと俺に伝えて、どうするつもりだよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "facial": "serious"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "…特別な理由はありません。\\…ただ、私が悪魔なら、\\放っておくことはないだろうと思い、\\ご報告したまでです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "では、帰りましょうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "い、いや、やっぱり、その子のとこに行くぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ふふ、すごい勢いでしたよね♥あの時は。\\ルールもよく知らないのに、\\契約者に麻雀勝負を挑んで…",
+      "background": "bg108_f",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "モナさん。その話はしないでください…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "shake_weak"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "「牌ってなんだ」「役ってなんだ」と、\\契約者の前で大騒ぎするなんて♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "し、仕方ないだろ！\\リザの話を聞いたら、\\さすがに放っておけなかったんだから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…まあ、結局、負けたけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "shorter",
+      "fade_in": "shortest"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ふふ、まさか、\\目の前で天衣無縫が見られるなんてねえ。",
+      "background": "bg004_f",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "31": {
       "type": "talk",
-      "dialogue": "た…助け…てくれ…",
-      "char": "c208_01",
+      "dialogue": "おチビさんは、もし魔王になっても、\\賭け事だけはしない方がいいと思うよ？\\大変なことになりたくなければ…ね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "32": {
+      "type": "talk",
+      "dialogue": "…そーする…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "未だに麻雀のことはよくわからないけど、\\あの日の俺は、\\フォルトゥナすら見たことがないほど、\\見事な負けっぷりだった…らしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "それでも俺が今、無事でいるのは、\\チャイルドを1度だけ貸し出すという条件で、\\再戦…その上、代役を立てたからだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "チャイルドを賭けの対象にするなんて、\\ほんとなら、絶対にやりたくなかったんだけど…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dark"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "どうしても、\\あの契約者が放っておけなかったんだよな…",
+      "char": "c202_00",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

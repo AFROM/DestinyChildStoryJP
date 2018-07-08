@@ -2,267 +2,324 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "まさか、モナの言う通りになるとは。",
-      "background": "bg056_f",
-      "bgm": "26",
+      "dialogue": "悪魔様～っ！",
+      "background": "bg089_f",
+      "bgm": "4",
+      "char": "c086_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "やっべえ…ゴガに呼ばれただけで、\\反射的に胃が痛くなって来たぞ…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "2": {
-      "type": "talk",
-      "dialogue": "ご主人さまの臨機応変さも\\ここまでみたいですねぇ。\\今回はどう片づけるんですか？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
     "3": {
       "type": "talk",
-      "dialogue": "うう…この世で一番憎たらしい奴。",
-      "char": "c000_01",
+      "dialogue": "悪魔様のために、スリッパを茹でてきたんですよ～。ヒドラさんも病みつきみたいです★",
+      "char": "c086_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ここなら音を立てても大丈夫そうね！\\思う存分、戦える！",
-      "char": "c095_01",
+      "dialogue": "は、腹が減った…も、もっと食べたい…",
+      "char": "m053_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "おい、ヴェスタ。前にも言ったけど…",
-      "char": "c000_01",
+      "dialogue": "あっ！ダ、ダメですよ、これは悪魔様にあげる分で…きゃあっ！？",
+      "char": "c086_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "うん！知ってる。\\自分との戦いでしょ？",
-      "char": "c095_01",
+      "dialogue": "バクバクバク！ダ、ダメだ\\食べても食べてもお腹が…減る…くぅぅ！\\ああああ！イライラするうううう！！",
+      "char": "m053_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
     "7": {
       "type": "talk",
-      "dialogue": "訓練というのは、誰の手も借りずに\\自分でやらなくちゃいけない。",
-      "char": "keep",
+      "dialogue": "…御主人様、貪欲のヒドラが狂ったように\\飛び跳ねてます。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そうそう。\\だから、稽古はやめ…",
+      "dialogue": "ああ、見ればわかる。\\ヒドラまでおかしくなるなんて、\\ゴガの料理はどうなってんだよ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "9": {
       "type": "talk",
-      "dialogue": "でも！私がどれだけ強くなったか見せてあげたいの。そのくらいいいでしょ？",
-      "char": "c095_01",
+      "dialogue": "ぎゃあっ！な、何よこの臭い！？\\しょ、消臭！消臭しなきゃ！",
+      "char": "c075_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "それは…そうだ！\\戦闘で見せてくれてもいいじゃないか、だろ？",
-      "char": "c000_01",
+      "dialogue": "…今度は享楽のタハが、\\香水をまき散らし始めました。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そんな戦いは意味ないの！\\私より強い相手と戦わないと\\本当の実力は分からない。",
-      "char": "c095_01",
+      "dialogue": "ああ、現在進行中で、俺もぶっかけられてるよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "でも師匠は強い奴と戦わせてくれないし。",
-      "char": "keep",
+      "dialogue": "わぁ、いい香り☆\\それじゃあ、タハさんの香水も混ぜて、\\グツグツ煮込みましょ～♪",
+      "char": "c086_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それはお前が怪我すると思って…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "家中パニック状態だが、それよりもゴガが\\また殺人料理を作ろうとしてる方が、\\はるかに問題だな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "師匠って本当は優しいんだね。",
-      "char": "c095_01",
+      "dialogue": "こんなことしている場合じゃないですよ。\\ご主人さま♥大事件、発生です。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "15": {
       "type": "talk",
-      "dialogue": "な、何だよ急に…",
+      "dialogue": "ええ…この状況より、大変なことってあるのか…？\\つーか、どっから出てきたんだよモナ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "16": {
       "type": "talk",
-      "dialogue": "あら、気を抜いた隙に見せる\\愛の告白でしょうか♥",
+      "dialogue": "うふふっ、驚かれましたか？\\私はいつもご主人さまの心の中にいますよ♥",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "うるさい！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "でも、気が利くだけじゃダメ！\\それだけじゃ強くなれない。",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "もう少し手荒く扱ってよ！",
+      "dialogue": "ま、冗談はともかく、ご主人さま。\\中々興味深い、心のダンジョンが見つかりました。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ちょ～っとエゲつないご造形の、\\野蛮な方々でいっぱいみたいですね。\\そこに魔王候補がいるんじゃないかと、\\そう私は見てますよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "うげ、魔王候補かよ…\\俺としちゃ、会いたくないんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "何言ってるんだよ。",
-      "char": "c000_01",
+      "dialogue": "そんなこと言わずに、確認がてら行ってみましょう。いっそ契約者を横取りしちゃうのもイイですね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あ、違う？\\それじゃ、もう少し突き放して…",
-      "char": "c095_01",
+      "dialogue": "それより御主人様…ゴガの料理から…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "やめろ！危険な、いや、おかしなこと言うな。\\優しくして何が悪いっていうんだ？",
-      "char": "c000_01",
+      "dialogue": "半世紀ぶりに見つかった、\\納豆のような悪臭が漂ってきていますが…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "師匠と戦いたい！",
-      "char": "c095_01",
+      "dialogue": "もう、ひどすぎるわ！こんなの耐えられない！\\ダンジョンでも何でもいいから、\\早くアイツを連れ出して頂戴！",
+      "char": "c075_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "モナ…この意地っ張り、どうすればいい？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "モナは意地っ張りな悪魔をしつけるのが\\専門ですからねぇ。\\こんな熱血チャイルドは手に負えませ～ん。",
-      "char": "c001_01",
+      "dialogue": "あー…ようやく終わったぁ…\\もう戦いはコリゴリだぜ…",
+      "background": "bg089_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "26": {
       "type": "talk",
-      "dialogue": "こんな時でも主人をからかうのか？とにかく…",
-      "char": "c000_01",
+      "dialogue": "お疲れ様です悪魔様っ！\\疲れた体に、私の手料理はいかがでしょうか？\\どうにも、このダンジョンの方々にご試食頂いた限りあまりウケはよくないようですが…",
+      "char": "c086_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "分かったよ、ちゃんと相手してやる。\\でも今回だけだ、次はないぞ。",
-      "char": "keep",
+      "dialogue": "そりゃ、そんなもん無理矢理食わせられりゃな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "ありがとう、師匠！一生懸命、戦うよ。",
-      "char": "c095_01",
+      "dialogue": "でもご主人さま、本当に凄まじい威力でしたよ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "いや、一生懸命になる必要はないけど。",
-      "char": "c000_01",
+      "dialogue": "おかげさまで、料理を食べさせられた方々は\\もれなく戦意喪失してしまい、\\ダンジョンを、楽々攻略出来ちゃったんですから。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "いいんですか？\\ご主人様の正体がバレちゃいますよ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "俺の正体が何だって言うんだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "補欠出身の最弱鈍感悪魔？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "…応援する気ないなら黙っててくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "あら、こんな絶好のチャンスを見逃せだなんて。\\この世で一番楽しい…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "戦い見物だろ？お前の好きにしろ！",
+      "dialogue": "まあ、そうだな。\\ゴガの料理のおかげだったのは確かだ。\\こりゃさすがに褒めてやらないとな。\\よくやったぞ、ゴガ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "え、ええ！？\\あ、悪魔様が私に微笑んでくれるなんて！",
+      "char": "c086_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "こ、これはやはり愛ゆえでしょうか？\\それともプロポーズだったり！？キャーっ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…え？ちょ、ちょっとゴガさん…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ようやく悪魔様に、私の料理が！\\愛が伝わったんですね！\\私…とっても嬉しいです！\\やっぱり、悪魔様に仕えて正解でした！",
+      "char": "c086_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "と、嬉しそうに言って走り去り…すぐに戻ってきた。いやな予感しかしねえ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "36": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "37": {
       "type": "talk",
-      "dialogue": "うふふ、頑張ってくださいね。\\シップを大量に買っておかなくちゃ♥",
-      "char": "c001_01",
+      "dialogue": "ハ、ハァハァ…\\超特急で作ってきましたよ！愛しの悪魔様！\\ゴガの愛をたっぷり込めて作った、\\愛のフルコースです！",
+      "background": "bg089_f",
+      "bgm": "8",
+      "char": "c086_01",
       "speaker": "same",
       "pos": "right"
     },
-    "37": {
+    "38": {
+      "type": "talk",
+      "dialogue": "そしてこの料理と共に、\\私の全てを悪魔様に捧げます♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "待て、待って。誰か…助けて。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

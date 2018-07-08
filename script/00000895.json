@@ -2,109 +2,231 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "すまないな。忙しいのに送ってもらって。",
-      "background": "bg237_f",
+      "dialogue": "バズコマンド…\\なんだか、興奮した表情をしてますね？",
+      "background": "bg151_f",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
+      "char": "c001_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あなたひとりで帰れる場所じゃないですから。",
-      "char": "c359_01",
+      "dialogue": "表情？\\バズコマンドの表情なんて、わかるのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そ、そうだな…\\もう一度遭難したら洒落になんないよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation",
-      "before_effect": "shake",
-      "after_effect": "none"
+      "dialogue": "もちろんです。\\チャイルドの表情を読むことくらい、有能な\\サポーターには朝飯前ですよ～♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "それに、これは願掛けでもあるんです。",
-      "char": "c359_01",
+      "dialogue": "\r\nチャイルド達は、ご主人さまの気付かない所で、\\泣いたり笑ったりしてるんですよ～♥\r\n",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "distance": "near",
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "願掛けって、なんの？",
+      "dialogue": "コイツの表情なんて絶対に分かるわけないだろ！\\こんな機械みたいな顔してるし！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "きゅ～きゅ～きゅ～～！",
-      "char": "m253_01",
+      "dialogue": "ご心配なく！\\どんな表情なのか直ちに報告いたします！",
+      "char": "m201_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ユキネどうしたの？",
-      "char": "c359_01",
+      "dialogue": "報告されてもなぁ…\\今は興奮した表情なんだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left",
+      "facial": "sigh"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ガアアアアアア！",
-      "char": "none",
-      "speaker": "MONSTER",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "dialogue": "そうです！久しぶりの出撃だと思うと、どうしても興奮してしまうのです！",
+      "char": "m201_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うわっ！また出たの！？\\落ち着いて話も出来ない！！",
+      "dialogue": "これだから、戦闘狂は理解できない…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "after_effect": "none"
+      "pos": "left",
+      "facial": "sigh"
     },
     "10": {
+      "type": "talk",
+      "dialogue": "久しぶりということは、武器が錆びついてないか心配ですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "sigh"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ご心配なく！\\いつでも出撃できるよう武器は徹底管理しています！",
+      "char": "m201_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "これは期待できますね～\\ご主人さま～？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "う～ん……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "バズコマンドは、他の悪魔と契約したことがある。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "最初の主人は争奪戦から脱落してしまった。\\その後、俺と契約することになった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "あのさ、モナ。\\バズコマンドの契約者はハーレム街にいたミスタースクリューじゃないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はい、そうですね。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "悪魔の気が宿って自我を得たとはいえ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "なんでネジから、あんな戦闘狂が生まれるんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "たぶん…以前に契約した悪魔の影響でしょう。\\バズコマンドの契約者が自我を得たのもその主人の\\影響ですからね～",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "でも、よかったですね？\\後先考えず襲いかかる、危険な候補生が脱落して。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "静かにしろよ。バズコマンドが聞いてるだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "irritation"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "いくら前の主人と言っても脱落したなんて聞いたら、正気を保てるとは思えない…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "バズコマンド、断固たる表情です！ご心配なく！",
+      "char": "m201_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あ、聞こえてた？\\表情の説明はもういいよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "before_effect": "none"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "戦場で生き残るのは勝者だけ。\\敗者に未来はありません。",
+      "char": "m201_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "これだから戦闘狂は…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "バズコマンドの記憶に残るためにも、勝ち続けなければなりませんね、ご主人さま～",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "さあ、戦いましょう。マスター！\\前進！前進！",
+      "char": "m201_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "まだ戦闘も始まってないけど、すごく疲れたよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "31": {
       "type": "curtain",
-      "background": "back",
+      "background": "keep",
+      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     }

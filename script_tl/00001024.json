@@ -1,24 +1,85 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ついに<color=\"ff9900\"><b>アンダーグラウンド</b></color>まで来ましたね♥\\ここは全チャイルドで挑まないといけないんです。",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none",
-      "one_ani": "attack"
+      "dialogue": "何だか不気味だ。",
+      "background": "bg063_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">すべて15ステージ</color>で、全ステージを通り抜けられたら\\小さいご主人さまの勝利！",
-      "char": "keep",
-      "speaker": "none"
+      "dialogue": "あのトンネルの向こうの<color=CC66FF>試練の塔</color>は、\\至る所に強い悪魔たちが散らばっています。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">3つのステージ</color>をクリアするたびに\\<color=\"ff9900\">コロニー</color>で報酬とバフをもらいます。",
+      "dialogue": "沸々と煮えくり返る欲望の熱湯、そのもの！\\みんな<color=CC66FF>試練の塔</color>で自分の実力を試しています。",
       "char": "keep",
-      "speaker": "none"
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "どうしてそんな面倒なことを…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "それがまた面白くて。\\<color=CC66FF>悪魔信者</color>たちが興味深い条件を提示したんです。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "試練の塔を1層クリアする度に、\\その試練にふさわしい<color=CC66FF>報酬</color>を与えると。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うわ、あいつら、どうしてそんな損するようなことを…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "何も得しないだろう？面白いのか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "自分より強い悪魔たちが、たじたじになって\\苦戦している様子を見物するの♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "<color=ff7480>……\\<color=ff7480>…♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

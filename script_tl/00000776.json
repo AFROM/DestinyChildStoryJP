@@ -2,299 +2,294 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "思うんですが、青い服を着たサンタなんて\\いないんじゃないですか？",
-      "background": "bg203_f",
-      "bgm": "4",
-      "char": "c000_01",
-      "speaker": "same"
+      "dialogue": "また、あの小娘か…",
+      "background": "bg134_f",
+      "bgm": "20",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "after_effect": "go_to_left_point"
     },
     "2": {
       "type": "talk",
-      "dialogue": "サンタの服が赤くなきゃいけないなんて\\誰が決めたんだ？固定観念に縛られんなよ。",
-      "char": "c299_00",
+      "dialogue": "ああっ！\\デュランダルさんが消えたっ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "3": {
       "type": "talk",
-      "dialogue": "それに、ロシアのサンタは青い服らしいぞ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "今日は何の用だ？",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "4": {
       "type": "talk",
-      "dialogue": "赤い服のサンタはな\\炭酸水を売りたい人間たちが生み出したんだよ。",
-      "char": "keep",
+      "dialogue": "きゃあ！\\び、び、び、びっくりした！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "facial": "fury",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "まあ、人間のクセになかなかやる。\\参考になるやり方だ。",
-      "char": "keep",
+      "dialogue": "デュランダルさん、こんにちは…！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "smile"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そ、そうですね…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "…今日は、お前の主人はいないのだな。\\俺に何か用か？",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そういうお前は、なんて格好してるんだ。",
-      "char": "c299_00",
+      "dialogue": "う～ん、特に用はないけど、ヒマだったから。\\デュランダルさん、ダビと遊ぼうよ？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "joy"
     },
     "8": {
       "type": "talk",
-      "dialogue": "俺の服？なんでです？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "悪いが、人と会う約束がある。わざわざ俺のところに来なくとも、主人に遊んでもらえばいいだろう。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "《クリスマスこそ悪魔たちの祭典》知らないのか？",
-      "char": "c299_00",
+      "dialogue": "ご主人は今、ネズミ駆除のアルバイトをしてるんだ。モナ姉さまとリザに内緒で。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "victory"
     },
     "10": {
       "type": "talk",
-      "dialogue": "年に一度の絶好のチャンス。\\まさかこのまま過ごすつもりか？",
+      "dialogue": "ダビと出かけたフリしてアルバイトに行ってるから、ダビは時間を潰さないといけないの。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
     "11": {
       "type": "talk",
-      "dialogue": "えっと…俺も先輩みたいに\\サンタの格好でもしろと？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "サポーターに隠れてアルバイトか…\\とんだ魔王候補生だな。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "はあ…\\ちょっとここで待ってろ。",
-      "char": "c299_00",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "dialogue": "お前の主人はどこだ？ヤツのバイト先に連れて行ってやろう。サポーターが1人でいるのは危ない。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "13": {
-      "type": "talk",
-      "dialogue": "なんか不吉な予感がするな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "14": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "shorter",
+      "wait": "normal",
       "fade_in": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ひー！\\階段がキツい！足が痛い…！",
+      "background": "bg145_r",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "思った通りだった…",
-      "background": "bg203_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "着替えろ。",
-      "char": "c299_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ええと…その、サンタの服に、ですか？",
-      "char": "c000_01",
+      "dialogue": "なんでスタッフはエレベーター禁止なんだよ…？\\名札を外しちゃえば誰だか分かんないのに…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "16": {
+      "type": "talk",
+      "dialogue": "だったら、使えばいいだろう。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "デュ、デュランダル！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "そうだ。固定観念にとらわれた愚かなガキどもの\\ために特別に赤い服を用意した。",
-      "char": "c299_00",
+      "dialogue": "ご主人は、ショッピングモールに来ると束縛の呪いにかかって、人間たちに優しくなっちゃうんだって。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ついでにヒゲもな。",
+      "dialogue": "あと、エレベーターに乗ると、人間の視線が刺さって死んじゃうんだって。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "facial": "smile"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あの…絶対着なきゃダメです？\\もっとクリエイティブな方法もあるんじゃ…",
+      "dialogue": "ご主人は、弱っちい悪魔だからね～",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "お願いだから口を閉じて…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "unfair"
     },
-    "21": {
-      "type": "talk",
-      "dialogue": "クリエイティブ？なるほど、固定観念にとらわれているのは、お前のほうだったのか。",
-      "char": "c299_00",
-      "speaker": "same",
-      "pos": "right"
-    },
     "22": {
       "type": "talk",
-      "dialogue": "いや、そうじゃなくて…",
-      "char": "c000_01",
+      "dialogue": "そんなことよりデュランダル。何しに来たんだよ？\\チャイルド集めの手伝いを頼んだら、ルーファスに呼ばれてるからって断っただろ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "haah"
     },
     "23": {
       "type": "talk",
-      "dialogue": "今まで、俺より画期的にチャイルドを増やした奴はいない。悪魔がサンタクロースになるなんて、\\誰が想像できた？",
-      "char": "c299_00",
+      "dialogue": "ああ、確かにそう言った。万事において優先すべきはルーファス様だからな。",
+      "char": "c289_00",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ま、役割にのめり込み過ぎて、\\自分が本当のサンタだと、信じ込んでしまったが…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お前に協力するのは、俺の手が空いている時か、気が向いた時だけだ。覚えておいてくれ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…お前、だから俺はサンタクロースの妄想にとらわれたんだって思っただろう？",
-      "char": "c299_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "いいえーそんなことは決して～",
+      "dialogue": "はいはい。で、俺のバイト先に来た理由はなんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "sigh",
+      "mvd": "ux/talk/efx_sigh.mvd"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "お前のサポーターが1人でうろついていたから連れてきた。それから…",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "まったく…\\悪魔のくせにそんなに愚かでどうするんだ？",
-      "char": "c299_00",
-      "speaker": "same",
+      "dialogue": "こいつを付け回していたヤツがいたから、ついでに片付けておいた。",
+      "char": "keep",
+      "speaker": "same_full",
       "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "だが、俺もそこまで言う資格はないか。\\自分が本当のサンタだって信じてる悪魔だなんて…",
-      "char": "keep",
+      "dialogue": "え！？\\…まさか、ダビが狙われてたのか…？！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
     },
     "29": {
       "type": "talk",
-      "dialogue": "あはは…まあ、過ぎたことですし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "いいか？今は魔王争奪戦の真っ最中だということを、常に頭に入れておけ。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "優秀なチャイルドがいたおかげだな。\\クランプスがいなければ今頃存在しないルドルフを探し続けていただろう。",
-      "char": "c299_00",
+      "dialogue": "いや、でも、まさか…\\ダビを狙うだなんて…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "dialog_shake"
     },
     "31": {
       "type": "talk",
-      "dialogue": "それはそうと、小僧。\\お前、これからもこの国にいるつもりか？",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "まさに、その《まさか》だ…\\サキュバスにまで手を出すヤツは、そうそういないと思うが後を付けられるのは面倒だからな。",
+      "char": "c289_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "はい？",
-      "char": "c000_01",
-      "pos": "left"
+      "dialogue": "あまり気を抜くな。では、失礼する。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "go_to_right_slow"
     },
     "33": {
       "type": "talk",
-      "dialogue": "俺が見たところ、お前はちょっと頭は悪いが\\ちゃんと教えればなかなかいい悪魔になりそうだ。",
-      "char": "c299_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "悪魔？詐欺師じゃなくて？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "詐欺師言うなよ！格が違うだろ…\\とにかく、俺と一緒にこの狭苦しい国を離れないか？",
-      "char": "c299_00",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "クランプスと3人で、クリスマスの\\新しい悪夢になるんだ。ハハハハ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "いやー…俺は誰かさんの言葉を借りると\\《怠け者のインドア派悪魔》なんで。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "サキュバスたちにそんなこと言われてるのか？",
-      "char": "c299_00",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "サキュバスとは言ってませんよ！",
+      "dialogue": "あ、ありが…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "40": {
+    "34": {
       "type": "talk",
-      "dialogue": "ははっ…\\顔に出てるんだよ、小僧。",
-      "char": "c299_00",
+      "dialogue": "…行っちゃった。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense"
     },
-    "41": {
+    "35": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "デュランダルって、案外いいヤツなのか…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,32 +2,34 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様にぴったりの役を見つけてきたわ！",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "また演技の話か？この前のこっぱずかしいセリフで\\終わりだって言っただろ！",
+      "dialogue": "アタランテ！",
+      "background": "bg177_f",
+      "bgm": "12",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "idle",
+      "screen_effect": "dialog_shake"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "俺は誰かの背後を\\こっそり追っていたアタランテを捕まえた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "まあまあ、落ち着いて。私の話を聞いて！\\ご主人様には役者の素質があるわ。",
-      "char": "c190_01",
+      "dialogue": "悪魔？",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "before_effect": "shake_weak"
     },
     "4": {
       "type": "talk",
-      "dialogue": "まさか。\\この間だってぼろくそ言ってたじゃないか。",
+      "dialogue": "ここで何してる！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -35,55 +37,55 @@
     },
     "5": {
       "type": "talk",
-      "dialogue": "アレは役柄が合わなかったの。\\この名役者イシスの見る目を信じてちょうだい。",
-      "char": "c190_01",
+      "dialogue": "しっ！静かにして。バレちゃう。",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
     "6": {
       "type": "talk",
-      "dialogue": "名役者ねえ…まあ、間違ってはいないか。\\まんまとリザも俺も騙されたからな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "で？俺に合ってる役って何？\\ワガママなタレントに振り回される、\\芸能事務所のマネージャーとか？",
+      "dialogue": "今回も殺人事件か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "今回は詐欺事件よ、アイツが主犯格。",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "違うわよ。もっとピッタリの役！",
-      "char": "c190_01",
+      "dialogue": "今回もボコボコにして\\警察署に突き出すつもりか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "はいはい、そんな役があったら嬉しいね。",
-      "char": "c000_01",
+      "dialogue": "当たり前でしょ。本当ならセシャトに\\みんなの前で直接犯人を暴き出せって言いたいけど",
+      "char": "c188_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "もう！本気で聞いてよ！\\はい、これ。台本よ。",
-      "char": "c190_01",
+      "dialogue": "あの子は注目されるのが嫌いだから。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もう演技はやらないって…",
+      "dialogue": "まさか、アイツが頼んだのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -92,40 +94,39 @@
     },
     "12": {
       "type": "talk",
-      "dialogue": "手を振って拒否をする俺にお構いなしに、\\イシスは台本を押し付けた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "セシャトはアイツが\\詐欺師だって証拠を集めればいいって言ってた。",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ロミオとジュリエット…？\\よりによってまた、こんな作品を選んできたのか？",
-      "char": "c000_01",
+      "dialogue": "でも…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "で、俺の役は？",
-      "char": "keep",
+      "dialogue": "でも、って何だよ。\\名探偵様の言うことなら何でも聞いてたくせに。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あら、見当つくかなって思ったんだけど。\\じゃあ先に私の役の発表から…",
-      "char": "c190_01",
+      "dialogue": "悔しいでしょ、セシャトが犯人を暴いたって、\\いい思いするのは警察なのに。",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "聞かなくてもわかる。\\どうせジュリエットだろ？",
+      "dialogue": "忘れたのか？\\お前たちは人間じゃなくてチャイルドだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -133,183 +134,97 @@
     },
     "17": {
       "type": "talk",
-      "dialogue": "てへっ。\\じゃあご主人様はなんだと思う？",
-      "char": "c190_01",
+      "dialogue": "でも！",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "わからないからさっきも聞いたんだよ…\\って、この流れで聞くってことは、ま、まさか…",
+      "dialogue": "それにお前が言ってたじゃないか。\\セシャトは注目されるのが嫌いだって…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "えへへ。",
-      "char": "c190_01",
+      "dialogue": "それはそうだけど…もったいないじゃない。\\あの天才的な頭脳、私にしか理解できないなんて…",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "いや、無理だし。\\俺は王子って柄じゃないし。合わないよ。",
+      "dialogue": "どうしてお前だけだって思うんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そう言わずに、1回だけお願い～！\\一生のお願い！",
-      "char": "c190_01",
+      "dialogue": "え？",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お前の一生のお願いは何回あるんだよ…\\で？その有名な台詞ってもしかして\\俺も知ってるアレか？",
+      "dialogue": "俺も知ってる、アイツがどれだけ賢いか。\\ま、俺を全ての犯罪の黒幕にしようとする癖は\\相変わらずだけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "どれだか答え合わせしましょうよ。\\台本をめくって、そのセリフを指さしてください。",
-      "char": "c190_01",
+      "dialogue": "悪魔！知ってたのね！\\セシャトの才能！",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
     "24": {
       "type": "talk",
-      "dialogue": "といって、イシスが台本を開く。\\俺は仕方なくパラパラとめくり…\\その有名な台詞を指さした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ああ、だから次からは\\人をボコボコにしないで…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "そう、王子が他人の家の前で\\真夜中にうるさく叫ぶあの迷惑なシーン。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あっ！いつの間にかいなくなってる！\\もう！悪魔のせいよ！",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
     },
     "26": {
       "type": "talk",
-      "dialogue": "愛のセレナーデ…",
-      "char": "c190_01",
+      "dialogue": "アタランテ！アタランテ！\\ちっこいくせに足だけは速いな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "27": {
       "type": "talk",
-      "dialogue": "うう…その言葉を聞いただけで\\鳥肌が立つ…",
-      "char": "c000_01",
+      "dialogue": "はあ…詐欺師のヤツ。\\誰かは知らないけど、\\どうか命だけは無事でいてくれ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "irritation",
-      "before_effect": "shake_weak"
+      "facial": "confused"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "ご主人様、セリフも頭に入ってるし。\\私はもう準備万端！\\今から私はイシスじゃないわよ。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ロミオが愛する「ジュリエット」よ。\\さん、はい！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "「ロミオ、おお、ロミオ…」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "うわっ、やめろ！やめてくれ！\\俺はまだ準備できてない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "「あなたはどうしてロミオなの？」",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "うわああああああ、くすぐったい！\\絶対無理！さようなら～！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "「ロミオ！ 私を捨てて行ってしまうの？」",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "やめろ！アドリブすんな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "after_effect": "go_to_left_point"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ご主人様、ご主人様～！",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "恥ずかしがり屋なんだから…\\まあ、最初からロミオとジュリエットは難しいか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

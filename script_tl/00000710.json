@@ -2,256 +2,197 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リ、リザ…俺が死んだら…ベッドの下を見てくれ。\\そこに俺の全財産を入れた通帳が…",
-      "background": "bg056_f",
-      "bgm": "12",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "sigh"
+      "dialogue": "おかえりなさいませ、御主人様。",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あ、その通帳なら既に全額引き落としています。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ハッ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "screen_effect": "dialog_shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ベッドの下なんてありきたりです。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "遺言は終わったか？",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "まだ終わって…ない！\\だから、今すぐ俺の背中から降りろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "after_effect": "shake"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "そして、いい加減、遊びはお終いだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "fury"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "まだ自分の立場を分かっていないようだな。\\いいだろ、その姿、忘れないでおく。",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "<b>運命の呪い！</b>",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "うわぁぁ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "shock",
-      "before_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "地獄の安息を…",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "地獄をバカにするなよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "そ、そんな！私の必殺技を受けて\\無事でいられるなんて…！",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "悲鳴はどうして？",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "こいつのせいで背中が痛いんだよ！\\リザ！前みたいにコイツを気絶させてくれ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "無理です。どう考えてもあの技は私には\\難易度が高すぎます。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "素直にやりたくないと言えよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "仕方ない。\\これだけは絶対に出さないと思っていたが…",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "じゃあ、出すな。\\それからさっさとそこをどけ。腰が砕けそうだ…",
+      "dialogue": "うう…今日も疲れた…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "20": {
+    "3": {
       "type": "talk",
-      "dialogue": "悪魔、どうして私が右目を隠しているか知ってるか？",
-      "char": "c230_01",
+      "dialogue": "お疲れ様でした～ご主人さま。\\あまり収穫はなかったですけど～",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "21": {
+    "4": {
       "type": "talk",
-      "dialogue": "…ものもらい？",
+      "dialogue": "一言多い。",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "それはそうと美味しそうな、いい匂いがするな。\\何の匂い？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "22": {
+    "6": {
       "type": "talk",
-      "dialogue": "…くっ！この右目は\\私が生まれた瞬間から封印されていた。",
-      "char": "c230_01",
+      "dialogue": "御主人様のために\\特別な料理を用意しました。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "7": {
+      "type": "talk",
+      "dialogue": "おお！？どういう風の吹き回しだ？\\いつも節約節約ってケチってたのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "酢豚に、から揚げ？お寿司まで…！\\うう、頑張った甲斐があったなぁ…！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ところで、このご馳走はいくらくらいかかったんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "お金の心配はいりません。\\さあ、たくさん召し上がってください。御主人様。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "お金ならいくらでもあります、お客様！\\足りなかったら出前を追加しますよ？",
+      "char": "c229_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "わかった。その言葉、信じるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "それじゃ…いっただっきまーす！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "金の心配はいらないという言葉は間違ってなかった。ただし、リザの立場からすれば…という前提付きで。",
+      "background": "bg086_f",
+      "char": "none",
+      "speaker": "none"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "でも俺の立場からすれば…",
+      "char": "c000_01",
+      "speaker": "none",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "もう過ぎたことです。覆水盆に返らず。\\ということで、過去は水に流して、未来に向けて…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "未来！？笑わせるな！\\お前のせいで、俺の怠けて暮らすという夢が…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "厳密にいうと、私ではなくブラウニーのお手柄です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "お手柄？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "リザ、裏金の事なら今後も遠慮なく聞いてください。情報料さえいただければ私は…",
+      "char": "c229_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "裏金じゃない！俺のへそくりだ！\\それに、そんな大げさなものじゃなくてささやかなものだったんだぞ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "遠い昔…世界の起源まで遡る\\とても古い記録。",
-      "char": "keep",
+      "dialogue": "確かにそうですね。\\ですから、豪遊には足りず、私のポケットマネーからお金を出しました。2割程度…",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "その記録の中で眠っている古代の魂。",
-      "char": "keep",
+      "dialogue": "うう…今度は絶対見つからないところに隠す…\\誰にも見つけられない場所にな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "unfair"
     },
     "25": {
       "type": "talk",
-      "dialogue": "また始まった。",
-      "char": "c000_01",
+      "dialogue": "どんな場所でも、この私にかかれば必ず見つけ出してみせます！\\今後とも、情報屋ブラウニーをご贔屓に～♪",
+      "char": "c229_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "near"
     },
     "26": {
-      "type": "talk",
-      "dialogue": "世界の秘密を秘めた…破壊の魂が…",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "この目の中に…！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ネックスライス！",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "serious",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "くっ…",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "サンキュ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "到底、聞いてはいられないセリフです。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "もういい、早くこいつをどかしてくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "serious"
-    },
-    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

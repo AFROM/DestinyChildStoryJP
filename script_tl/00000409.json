@@ -2,352 +2,217 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ヒャヒャヒャ！",
-      "background": "bg086_f",
-      "bgm": "2",
-      "char": "c083_01",
+      "dialogue": "う～ん……これじゃないのかなあ？",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "c003_01",
       "speaker": "same",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "pos": "right",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "こら！家の中では発砲するなって！",
-      "char": "c000_01",
+      "dialogue": "ねえねえ、カルカス！ちょっと来てぇ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "pos": "right",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あーあー聞こえない！",
-      "char": "c083_01",
+      "dialogue": "はい、ちびサキュバス様。\\あ、クロスワードパズルですね？",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "right"
+      "before_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "4": {
       "type": "talk",
-      "dialogue": "こんの…調子に乗りやがって…！",
-      "char": "c000_01",
+      "dialogue": "うん！\\でもね、これ見て！なんか合わないの！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "right",
+      "facial": "sulky"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺は背後からネイトに抱き着いた。\\そして銃を奪いとろうとするが…\\余計に大暴れされてしまった！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どれどれ……「長く続くさま」。\\ダビさんが書いた答えは……「永遠と」。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "離せえええ！このクソオヤジ！",
-      "char": "c083_01",
+      "dialogue": "ふふ、正しくは「延々と」ですね。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前っ！親に向かってなんて口のきき方だ！",
-      "char": "c000_01",
+      "dialogue": "えー？\\何よ、あのマヌケ。ダビに嘘ついたのね！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "fury"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "さっさと、そいつを寄こせ！\\家じゅうを穴だらけにするつもりか！？",
-      "char": "keep",
+      "dialogue": "……ご主人様から教えてもらったのですか？\\「永遠と」って。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "イーーッ！",
-      "char": "c083_01",
+      "dialogue": "そうだよ！\\何も知らないダビをだますなんて……",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "one_ani": "attack"
     },
     "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "えっと……ご主人様が……\\いや。ダビさん、ちょっと待って下さい。",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "11": {
-      "type": "curtain",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "もしかすると……僕が間違えて、ご主人様の答えが合ってるかもしれません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "やめろって！\\…待て！銃口をこっちに向けるな！暴力反対！\\こいつ！躊躇わず引き金を引きやがった！",
-      "background": "back",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "違う！「永遠と」って書くと\\縦のマスの答えが「永長戦」になっちゃうもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
     },
     "13": {
       "type": "talk",
-      "dialogue": "運よく弾は外れて、俺の背後の壁に直撃。\\無残な穴が空いた。危なかった…\\俺の頭にあんなふうに風穴が空くところだったぜ…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "こ、こっちの世界には\\そういう言葉もあるのかも……",
+      "char": "c082_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "当たったら死ぬだろ！",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "何言ってんの！？\\ちゃんと調べたけど、そんな言葉ないもん！",
+      "char": "c003_01",
       "speaker": "same",
-      "facial": "shock"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ネイトは俺の怒鳴り声に\\びくっとしたように体を竦めた。\\そして見開いた目で俺を見る。\\まるで、今目を覚ましたように…なんだこいつ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "あ！わかったー！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "victory"
     },
     "16": {
       "type": "talk",
-      "dialogue": "もういいから、その物騒なものを早く仕舞って…",
-      "char": "c000_01",
+      "dialogue": "カルカスお前、\\ウスラトンカチのこと、かばってるんでしょ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "facial": "idle"
     },
     "17": {
       "type": "talk",
-      "dialogue": "危なかったじゃないか！",
-      "char": "c083_01",
+      "dialogue": "ウスラトンカチ？\\ダビさん……ご主人様のことを、\\そんな風に呼んじゃダメですよ。",
+      "char": "c082_01",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…？それ、俺のセリフなんだけど…",
-      "char": "c000_01",
+      "dialogue": "うう……\\チャイルドたちはいっつもウスラトンカチのこと……",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "御主人様、何をそんなに騒いで…御主人様！？",
-      "char": "c002_01",
+      "dialogue": "ほらまた……",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "before_effect": "enter_from_right_fast"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "大丈夫ですか？",
-      "char": "keep",
+      "dialogue": "ご主人の味方ばかりする……\\カルカスもそうなんでしょ？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "cry"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あ、リザ。大丈夫だよ、なんでもない。",
-      "char": "c000_01",
+      "dialogue": "そんなことは。\\ダビさんが望むなら、ダビさんの味方になりますよ。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "何でもなくないです！下手したら御主人様が…",
-      "char": "c002_01",
+      "dialogue": "ふーんだ。いつも口だけ……",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "right",
+      "facial": "sulky"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ネイト！あなたが！？",
-      "char": "keep",
+      "dialogue": "はは。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "angry"
+      "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だって…だって！",
-      "char": "c083_01",
+      "dialogue": "まあ、とにかく……\\これは飽きちゃったから、ご主人に遊んでもらうー。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "victory"
     },
     "25": {
       "type": "talk",
-      "dialogue": "「だって」じゃないです…！\\土下座して謝っても足りないぐらいなのに…！",
-      "char": "c002_01",
+      "dialogue": "はいはい。\\あまり、いじめないであげてくださいね。",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "angry"
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "もういいよ、リザ。2人とも無事だったんだから。",
-      "char": "c000_01",
+      "dialogue": "なんかお母さんみたーい！\\わかったよー！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sulky",
+      "before_effect": "go_to_right_point"
     },
     "27": {
       "type": "talk",
-      "dialogue": "御主人様！御主人様にも責任があります。\\チャイルドが間違ったことをしたら、\\諫めるのも主の務め。",
-      "char": "c002_01",
+      "dialogue": "……",
+      "char": "c082_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "何で俺が怒られるの！？",
-      "char": "c000_01",
+      "dialogue": "あの妙な関係には\\どう歩み寄ればいいかわからないな……",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "本当に…御主人様とチャイルドたちを見ていると\\ハラハラして仕方ありません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "わかった、わかったよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ネイト！あなたは今すぐあの穴を修繕しなさい。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "after_effect": "go_to_right_point"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "…フン。",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "うう、お小言大魔王め…やっと行ったか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ネイト、大丈夫か？ケガ、してないよな？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "…パパ。リザの言うとおりだよ。\\あんたの問題は…",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "あまりにも甘すぎるところだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "はは。\\じゃあ、お前に説教をして罰でも与えろって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "それは嫌だ。",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "だろ？まあ、部屋はすごいことになったけど、\\誰もケガしてない。それでいいじゃん。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "一度失敗したら、\\同じことを繰り返さなきゃいいだけだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "ということで、家での銃火器の使用は禁止にしよう。わかったな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "…わかった。今回はパパの言うとおり\\イイ子にしといてやるよ。",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "…お前がそんなに素直に言うことを聞くなんて…\\いつもこうなら可愛いのにな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "パパにそんな風に言われると…\\また反抗したくなるんだけど？",
-      "char": "c083_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "それはやめてくれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "cry"
-    },
-    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

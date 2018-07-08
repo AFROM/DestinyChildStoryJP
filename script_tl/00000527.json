@@ -2,171 +2,222 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "驚きです！今年1年生の加賀京介(かが きょうすけ)くん！",
-      "background": "bg090_f",
-      "bgm": "30",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "ビクトリス！ねえ、ビクトリスってばー！",
+      "background": "bg062_f",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "先輩たちを抜き中等部優勝を飾りました！",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "ビクトリスとフォルトゥナって、\\どっちが運がいいの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "俺が勝った…！俺が兄さんに勝った！",
-      "char": "c208_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "あ？そりゃ、フォルトゥナだ。\\あたしはすでに、ボロ負けしてるしな。",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "全国大会で優勝した兄さんに…！\\いつも俺を苦しめていた兄さんに！",
-      "char": "c208_00",
-      "speaker": "same_full",
+      "dialogue": "えー！たった、1回負けただけじゃーん！\\次は勝つかもよ～？",
+      "char": "c003_01",
+      "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "一発も当てる事が出来なかったヤツが…\\一体どこで訓練したんだ？",
-      "char": "none",
-      "speaker": "unknown1",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "このチビサキュバスめ…\\そんなに、あたしとフォルトゥナが、\\やり合うとこが見てえのか？",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "悪魔と契約でもしたのか？",
-      "char": "none",
-      "speaker": "unknown1",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ぎくっ！\\べ、別に～？\\ただ、1回の勝負で決めるのは、\\もったいないな～って思っただけで～…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "7": {
       "type": "talk",
-      "dialogue": "まるで映画の主人公だ…！\\苦悩を乗り越え立ち上がったウッキーのように！",
-      "char": "c208_00",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "いいんだよ。\\1回負ければ、充分だ。",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
     },
     "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "賭けってのは、そういうもんだからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あーっはっはっはっはー",
-      "background": "e048_01_f",
-      "char": "c208_01",
+      "dialogue": "ええ～。ダビにはわかんなーい！\\なんで、\\次は勝てるかもしれないのに、やんないの～？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "loop_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "left",
+      "facial": "joy",
+      "one_ani": "attack"
     },
     "10": {
       "type": "talk",
-      "dialogue": "アイツ、さっきから何してんだ？",
-      "background": "bg086_f",
-      "char": "c000_01",
+      "dialogue": "勝つか、負けるか、確率は2分の1。\\この前負けたんだから、\\次は勝つかもしれないって？",
+      "char": "c202_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "笑いながらさ…",
+      "dialogue": "そりゃ、典型的なギャンブルの落とし穴だぜ？",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "どうやら、ファイロの契約者だったあの少年が今日、全国大会で優勝したみたいですね～♥",
-      "char": "c001_01",
+      "dialogue": "勝負は、毎回別物だ。\\確率もいつだって半々なのに、\\つい前の勝負を引きずっちまうんだよな、なぜか。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "もう、朝から気合を入れるんだってうりゃ！おおお！って大変だったんですから…",
+      "dialogue": "旦那も不思議に思うだろ？",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "distance": "near",
+      "before_effect": "shake_weak"
     },
     "14": {
       "type": "talk",
-      "dialogue": "どうやら、ファイロの成長が\\契約者も成長させたみたいですね～♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そうだ、これこそ俺の真の姿！\\もっと称えろ！この身に相応しい賛辞を！",
-      "background": "e048_01_f",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "あの言葉遣いまでうつらないといいけど…",
-      "background": "bg086_f",
+      "dialogue": "うっ…\\い、いきなり俺を巻き込むなよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "nonsense",
+      "before_effect": "enter_from_left_fast"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ギャハハ！\\旦那も、次こそあたしが真面目になるって方に、\\賭けてるんじゃないかと思ってさ！",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "アンタも物好きだねぇ～。そうか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "だから、勝手に家出するようなチャイルドを、\\そばに置いてるのかい…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "加賀京介君に受賞の心境を聞いてみたいと思います。",
-      "background": "bg090_f",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "あたしが変わるわけないってのに…な。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "え？「あーっはっはっはっはー」ですか？ 「もっと称えろ！」ですか？",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "…そんなのわからないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ハハ、すこし興奮しているようですね。\\なんと言いますか、無意識？とでも言いましょうか。心に響きます…",
-      "char": "none",
-      "speaker": "anchor"
+      "dialogue": "あ？",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
+      "type": "talk",
+      "dialogue": "結果は予測できても、\\実際にやってみないと、本当の結果はわからない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "例えば、俺がめちゃくちゃすごい悪魔になったら、\\お前はどうする？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "お前だって俺に従うようになるかもしれないだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…ま、そうなるつもりは、さらさらないけどな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "なんだよ、旦那。\\それじゃあ、結果は決まってるじゃねえか。",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…けどまあ、旦那の考えも悪くねえか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "どっちが先に根負けするか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "わかり切った結果が、本当に変わるか。\\もうひと勝負と行きますか！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "toonear"
+    },
+    "29": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

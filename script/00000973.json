@@ -2,189 +2,268 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "まるで全て見透かしているようなセリフ。\\本当に昔から変わりませんね。あなたのその…",
-      "background": "bg223_f",
-      "bgm": "65",
-      "char": "c286_01",
+      "dialogue": "あ～ん！ミクちゃん！いや、ミク様大好き～★",
+      "background": "bg100_f",
+      "bgm": "4",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608001"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ウザい喋り方。",
+      "dialogue": "チャンネルEvilの視聴率がうなぎ上りよ！\\グッズ展開も絶好調！！",
       "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "voiceid": "200608002"
+      "pos": "left",
+      "facial": "haah"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そんな安い挑発に私が乗るとでも思いましたか？",
-      "char": "c002_01",
+      "dialogue": "みんなの心をわしづかみね！ディレクターなんて、\\ミクちゃんの事、毎日拝んでるのよ～★",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense",
-      "voiceid": "200608003"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そんなことより、その口調。\\本性とかけ離れすぎているせいか、\\とてもぎこちないですね。",
-      "char": "keep",
+      "dialogue": "それだけ皆さんは疲れていたんですね…",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense",
-      "voiceid": "200608004"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "生意気な女め…もう我慢ならんッ！\\紳士的に振る舞うのはもうやめだ！",
-      "char": "c286_01",
+      "dialogue": "歌っていても感じます…\\皆さんが歌を求めているのを…\\私、もっともっと、届けたい…！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "voiceid": "200608005"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…ようやくあなたらしくなってきましたね、\\ヴェルデレト。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "voiceid": "200608006"
+      "dialogue": "ミクさ～ん！\\そろそろメイクお願いしま～す！",
+      "char": "none",
+      "speaker": "staff",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はあ～それ、それですよ。\\その人を見下した喋り方…\\いい気分ですか？",
-      "char": "c286_01",
+      "dialogue": "はいっ！今行きますね！",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608007"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "今だから言いますがね、リザ。あなたのその態度、\\いつも癪に障っていましたよ。",
-      "char": "keep",
+      "dialogue": "じゃあ、スタジオで会いましょう。\\今日も頑張ってね！",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608008"
+      "pos": "left",
+      "facial": "haah"
     },
     "9": {
       "type": "talk",
-      "dialogue": "まあ、偉ぶるために人一倍気を遣ってるから、\\仕方ないのかもしれませんがねえ…",
-      "char": "keep",
+      "dialogue": "ありがとうございます！\\頑張ります！",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608009"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "気が付きませんでした…\\あなたの仰る通り、格下には気を配らない\\主義ですので。",
-      "char": "c002_01",
+      "dialogue": "～<b>♪</b>",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200608010"
+      "pos": "right",
+      "before_effect": "go_to_left_point"
     },
     "11": {
       "type": "talk",
-      "dialogue": "心配して、急いで来てみたが…",
-      "char": "c000_01",
+      "dialogue": "人気におごるでもなく、皆のために…か。\\天使と呼ばれるのも納得ね。",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "enter_from_left_fast",
-      "voiceid": "200608011"
+      "pos": "center"
     },
     "12": {
       "type": "talk",
-      "dialogue": "なにこれ怖い…",
+      "dialogue": "最近はちょっと妙なファンも増えてきたし…\\気をつけてあげないと…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "voiceid": "200608999"
+      "pos": "center",
+      "facial": "irritation"
     },
     "13": {
-      "type": "talk",
-      "dialogue": "ずいぶん殺伐とした話をしてますね。リザさん？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah",
-      "voiceid": "200608012"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "あら、リザ。本気の本気みたいね～\\毛が逆立った猫みたいになっちゃって…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608013"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "いいよね～猫。ヒルドは、猫も好きなんですよ～\\ニャ～♪",
-      "char": "c296_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "200608014"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ヒルド…？\\チビっ子お客様を守りなさいと言ったのに…\\ずいぶんな有様ですね…",
-      "char": "c283_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608015"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "情けない…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608016"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "うえ～ん。モーガン、ひど～い。",
-      "char": "c296_01",
-      "speaker": "same",
-      "pos": "center",
-      "voiceid": "200608017"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ふむ…仕事が上手くいかず、ずいぶんご苦労されているようですね、ヴェルデレト。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200608018"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "その口調！しばらく見ないうちに、ウザさに磨きが掛かりましたね。その顔も私を苛立たせる…",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200608019"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "良いだろう！いつまでその澄ました顔でいられるか、確かめさせてもらうとしよう！\\そこの《御主人様》を奪った後でな！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200608020"
-    },
-    "22": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
+      "wait": "normal"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "bg119_f",
+      "bgm": "9",
       "wait": "normal",
       "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ご主人さま！\\きびきび歩いてください！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "teach"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "なぁ、もういい加減家に帰ろう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "そう言えば…\\今日は初音ミクのステージがあるようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "はは～ん、ご主人！\\早めに帰ってテレビ見るつもりだー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "そんなことはさせませんよ～♥\\ライバルがいない時こそ、絶好のチャンスです！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ここで契約できそうな人間を見つければ、邪魔されず契約が行えますよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "だけどさぁ…\\その契約できそうな人間が全然いないじゃん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "た、助けてくれ！！",
+      "char": "none",
+      "speaker": "DemonA"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ん？あれは人間…いや悪魔ですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ど、どうした！大丈夫か、お前？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "おい！そいつを渡してもらおうか！",
+      "char": "none",
+      "speaker": "DemonB"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "なんだかわからないが、大勢の悪魔に囲まれて\\しまった…\\もしかしてピンチ？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ご主人さま、この人数と闘うのは危険です。\\その悪魔を置いてここから離れましょう。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "し、しかし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "お、お願いだ…助けてくれ！\\こいつらは初音ミクを誘拐しようとしているんだ！",
+      "char": "none",
+      "speaker": "DemonA"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "えっ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…さっさといなくなれば良かったものを。\\聞いたのなら仕方ない！お前らも始末してやる！",
+      "char": "none",
+      "speaker": "DemonC"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "そうはさせません！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ぐはっ！！",
+      "char": "none",
+      "speaker": "DemonB",
+      "screen_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ご主人さま！今のうちです。\\逃げましょう！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "お、おう！お前も来い！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "36": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal"
     }
   }
 }

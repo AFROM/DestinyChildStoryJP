@@ -2,273 +2,317 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…気になることがある。",
+      "dialogue": "はぁ、俺の悪魔人生。\\いまさら勉強して何になるんだ？",
       "background": "bg086_f",
-      "bgm": "15",
-      "char": "c112_01",
+      "bgm": "4",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "俺に言ってるのか？",
-      "char": "c000_01",
+      "dialogue": "ペ、ペルソナ…？何だコレ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "問題でもあるのか。",
-      "char": "c112_01",
+      "dialogue": "<color=ff1493>ペルソーナ！",
+      "char": "c107_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "4": {
       "type": "talk",
-      "dialogue": "い、いや、意外すぎて。\\何だ、気になることって？",
+      "dialogue": "うわ！ビックリした！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "チャイルドの契約者たちは、\\悪魔に願いをかけた者たちだろ。",
-      "char": "c112_01",
+      "dialogue": "ノックしてから入って来いって言っただろ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうだ。",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>象徴学では\\<color=ff1493>仮面をかぶった群衆を象徴するが、\\<color=ff1493>普通は真の自分とは異なるものを意味する。",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "near"
     },
     "7": {
       "type": "talk",
-      "dialogue": "やつらはみんな、自分の願いを叶えたのか？",
-      "char": "c112_01",
+      "dialogue": "……！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "idle"
     },
     "8": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
+      "dialogue": "<color=ff1493>だが、ゴッドファーザーが読んでいる本のレベルを\\<color=ff1493>想定すれば…",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sad"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "やはりな…",
-      "char": "c112_01",
+      "dialogue": "<color=ff1493>《仮面を意味する言語、演技する人格》\\<color=ff1493>と書かれていますね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "お前の言う通り、悪魔は人間の願いを\\叶えたりしない。\\願いを叶える力を貸してやるだけだ。",
+      "dialogue": "せ、正解だ…！すごいな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "joy"
     },
     "11": {
       "type": "talk",
-      "dialogue": "悪魔を信じるのは無駄ってわけか。",
-      "char": "c112_01",
+      "dialogue": "<color=ff1493>ウィー！このくらい常識です。\\<color=ff1493>他には？",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そうかもしれない。",
+      "dialogue": "ああ、それじゃこの問題。\\このカップ…一体なんだ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ヤーガが言っていた。\\人間は悪魔よりも弱いから、\\悪魔の支配を受け入れなければならないと。",
-      "char": "c112_01",
+      "dialogue": "<color=ff1493>カップではなく聖杯です。\\<color=ff1493>手に入れたいものが入っているという聖なる杯です。",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "でも俺の契約者は悪魔を憎んでいる。\\悪魔のせいで自分の家族を失ったと\\信じているからな。",
+      "dialogue": "<color=ff1493>美術の問題なら、正解は最後の晩餐。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "しかし結局彼は、悪魔の力を借りてしまった。\\その証拠が俺だ。ヤーガの言う通り人間は…",
-      "char": "keep",
+      "dialogue": "それじゃ、④番だな。\\お前、本当にすごいな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "joy"
     },
     "16": {
       "type": "talk",
-      "dialogue": "エリオス。",
-      "char": "c000_01",
+      "dialogue": "彼は天才で有名ですからね。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "near"
     },
     "17": {
       "type": "talk",
-      "dialogue": "俺は契約者を理解できない。\\悪魔を憎んでいるあいつが、\\悪魔の力を借りるだなんて…",
-      "char": "c112_01",
+      "dialogue": "あ、モナ…！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "serious"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あれは仕方のないことだった。\\でも悪魔から妹を救おうとする彼の気持ちは本物だ。",
-      "char": "c000_01",
+      "dialogue": "人間界で暮らしたければ\\常識を学べとは言いましたが、\\こんなずるがしこい方法を使うとは\\思いませんでした♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "それじゃあ、俺は何だ？\\悪魔を嫌う俺の心と\\悪魔の力がなければ存在しない俺自身を",
-      "char": "c112_01",
+      "dialogue": "ずるがしこいって！\\こいつが勝手に出て来たんだ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "どう受け入れろというんだ。",
-      "char": "keep",
+      "dialogue": "自分の過ちをチャイルドにかぶせるなんて\\悪魔としてはご立派ですね～",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "irritation"
     },
     "21": {
       "type": "talk",
-      "dialogue": "それは…",
-      "char": "c000_01",
+      "dialogue": "だから100年経っても魔王になれないんですよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "facial": "superangry"
     },
     "22": {
       "type": "talk",
-      "dialogue": "俺は矛盾でしかない。\\矛盾はこの世に存在しない。",
-      "char": "c112_01",
+      "dialogue": "それはアポロンも同じですよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "angry"
     },
     "23": {
       "type": "talk",
-      "dialogue": "そんなことはない。",
-      "char": "c000_01",
+      "dialogue": "こんなことしてご主人さまの脳が腐ったら、\\サポーターの責任は重大！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "toonear",
+      "facial": "superangry"
     },
     "24": {
       "type": "talk",
-      "dialogue": "？",
-      "char": "c112_01",
+      "dialogue": "さ、続けて言ってみてください。\\自分のことは自分でする！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "teach"
     },
     "25": {
       "type": "talk",
-      "dialogue": "矛盾でもなんでも、\\お前の言うこと全てを理解するのは\\できないけど、これだけは確かだ。",
+      "dialogue": "じ…自分のことは自分でする…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "俺は今、お前を見ているということ。\\お前はお前だ、エリオス。\\それ以上でも、それ以下でもない。",
-      "char": "keep",
+      "dialogue": "<color=ff1493>自分のことはJIBUNDEする…",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "center"
     },
     "27": {
       "type": "talk",
-      "dialogue": "はは、ガキみたいなことを言うんだな。",
-      "char": "c112_01",
+      "dialogue": "ただし、悪魔的な方法で！",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "facial": "teach"
     },
     "28": {
       "type": "talk",
-      "dialogue": "エリオス…",
+      "dialogue": "「悪魔」を付ければいいと思ってるだろ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "left"
     },
     "29": {
       "type": "talk",
-      "dialogue": "でも、間違ったことでもない。\\《俺は俺》か…お前の言う通りなら、\\一番俺らしく生きるのが正解だな。",
-      "char": "c112_01",
+      "dialogue": "ただし、悪魔的な方法で！",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "teach"
     },
     "30": {
       "type": "talk",
-      "dialogue": "そう、それだよ。",
+      "dialogue": "ただし、悪魔的な方法で！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "facial": "confused"
     },
     "31": {
       "type": "talk",
-      "dialogue": "なら、これからも悪魔であるお前を憎み続ける。\\それが一番俺らしい姿だ。",
-      "char": "c112_01",
+      "dialogue": "<color=ff1493>TADASHI、悪魔的な方法で！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "center"
     },
     "32": {
       "type": "talk",
-      "dialogue": "は？そういう意味で言ったわけじゃ…",
-      "char": "c000_01",
+      "dialogue": "そこのヒマワリ！\\無駄にカッコつけた発音しない！",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "facial": "teach"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ハハハ。久々にすっきりした気分だ。",
-      "char": "c112_01",
+      "dialogue": "<color=ff1493>自分のことは自分でする！<color=ff1493>ただし、悪魔的な方法で！",
+      "char": "c107_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center"
     },
     "34": {
+      "type": "talk",
+      "dialogue": "まったく…手のかかるご主人さまなんですから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "それじゃ、各自の役割をこなしましょう！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ハイ！勉強します！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "<color=ff1493>ウィー、今から光合成を試してみます！",
+      "char": "c107_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "光合成って…他にもやることが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ご主人さま、今何か？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "angry"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "何でもありません！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

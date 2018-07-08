@@ -1,15 +1,203 @@
-﻿{
+{
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "全チャイルドの成長の第一歩は<color='ff9900\">レベルアップ</color>です。\\チャイルドのレベルを最大まで上げた後に次の成長を進めてください。",
-      "background": "back_dim50",
-      "char": "none",
-      "speaker": "none"
+      "type": "curtain",
+      "background": "back",
+      "bgm": "46",
+      "hold": "shorter"
     },
     "2": {
+      "type": "curtain",
+      "background": "bg106_f",
+      "fade_in": "normal",
+      "hold": "normal"
+    },
+    "3": {
       "type": "talk",
-      "dialogue": "合成したチャイルドは消えてしまうので注意してください。"
+      "dialogue": "おめでとうございます。\\新しいチャイルドを手に入れましたね、御主人様。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200308001"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "リザ？買い物に行ってたんじゃないのか？\\手ぶらで何してるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200308002"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "主人のいないチャイルドを見つけました。まだこの近くにいるはずです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308003"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ま～た～仕事～？\\ダビはいつモナ姉さまと遊べるの～？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "voiceid": "200308004"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ダビ、チャンスはある時に掴まないといけませんよ。さぁ、頑張ってお仕事しましょう。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200308005"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "これは、一日中こき使う気だな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200308006"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "hold": "shorter"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg157_f",
+      "bgm": "47",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "行きまっせ～！",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack",
+      "voiceid": "200308007"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "おっと…！",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200308008"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "hold": "shortest"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "どわぁ～っ…！",
+      "char": "c000_01",
+      "speaker": "none",
+      "pos": "center",
+      "facial": "serious",
+      "before_effect": "enter_from_right_fast",
+      "after_effect": "shake",
+      "screen_effect": "shake",
+      "mvd": "effect/battle/sfx_atk_skill_drive_fire_c301.mvd",
+      "voiceid": "200308009"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "bg157_f",
+      "fade_out": "shortest",
+      "fade_in": "shortest",
+      "char": "keep"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "おい！死んじゃうよっ！俺、死んじゃう！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "shock",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200308010"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "どうしてここに…？",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308011"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "何？",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200308012"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ヤナギ、随分とやられてるみたいだけど、大丈夫か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh",
+      "voiceid": "200308013"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "リザの話していた主人のいないチャイルドって…\\このお嬢さん？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200308014"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ええ。\\それより、私がいない間に色々あったようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200308015"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "うふっ、ご主人様♥ヤナギさんを助ける為にも、あのチャイルドをどうにかしなければいけませんね！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308016"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "はぁ～言われなくてもそのつもりだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "haah",
+      "voiceid": "200308017"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer"
     }
   }
 }

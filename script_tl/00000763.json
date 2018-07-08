@@ -2,238 +2,208 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うわ～ん！お腹痛いよ～！\\うっ、うっ…ダビ死んじゃうよぉ！",
-      "background": "bg086_f",
-      "bgm": "20",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "一体何を食べたら、そんな腹痛になるんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "わかんないよ、このバカご主人…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "はっ！もしかして…\\ダビを毒殺しようと…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "勝手に人を悪者扱いするな。\\ほら、薬でも飲んで休んでろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "い～や～だ～！薬は苦いんだもん…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ダビ～♥\\人間界で腹痛になったサキュバスは悲惨な末路を\\たどるのよ～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "pretense"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "腹痛で気力が尽きて死んでしまったら、\\名前もないお墓に埋められてしまうのよ？",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "sad"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ダ、ダビ…死ぬの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "今すぐ薬を飲まないとそうなるかもな～",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "い、いや！ダビ死にたくないよ！\\ダビ、薬飲む～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "after_effect": "go_to_right_point",
-      "screen_effect": "dialog_shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "何でも拾って食べるから腹痛になるんだよ…\\まったく、食い意地のはったチビサキュバスだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "あら…\\子供は周りの大人の行動をマネするものですよ～",
+      "dialogue": "やることはそんな多くないわ。\\ただマンモンのご機嫌をとればいいだけよ♥",
+      "background": "dungeon_bg",
+      "bgm": "9",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
-    "14": {
+    "2": {
       "type": "talk",
-      "dialogue": "なんだよ…\\俺のマネをしてるっていうのか？",
-      "char": "c000_01",
+      "dialogue": "他人のご機嫌をとるのは難しいことではありません。",
+      "char": "c277_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
-    "15": {
+    "3": {
       "type": "talk",
-      "dialogue": "ふふっ、気づくのが早いですね～♥",
+      "dialogue": "魔界でアルバイトをしていた時も\\社長のご機嫌とりが私の仕事でしたから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "それじゃ、ヨロシク♥",
       "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "right"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "ちょっと待て！\\俺は、腹痛にならないよう、ちゃんと3秒ルールを\\守ってるぞ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "はぁ～ご主人さま…",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "sigh"
-    },
-    "18": {
+    "5": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "あんなに自信満々に言ったのに…",
+      "background": "bg086_f",
+      "char": "c277_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "おお、お前が我が下僕か？\\フフ…気に入った！",
+      "bgm": "20",
+      "char": "c180_01",
+      "speaker": "same"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "この仕事…嫌ですわ…",
+      "char": "c277_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そう言うのも無理はないが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "確か、自分なら心配いらないって言ってたような～",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あんなタラコ唇相手だなんて聞いてませんわ。",
+      "char": "c277_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "この魅力的な我の唇を\\タラコと言ったか？",
+      "char": "c180_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ひゃっ！",
+      "char": "c277_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "負けん気の強い女だな！ガハハ！\\気に入ったぞ！",
+      "char": "c180_01",
+      "speaker": "same"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ヤツの目にはいいように映ってるみたいで何よりだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "こっちはよくありませんわ。\\あんなメタボ親父に仕えるなんて…",
+      "char": "c277_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "こっちの事情も分かってくれ…\\綺麗な女性を連れてこなきゃ\\俺に従わないって言うし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "やっと魔界での生活を終えて\\人間界に出て来れたと思ったのに…",
+      "char": "c277_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "19": {
       "type": "talk",
-      "dialogue": "うふふ、意外な所で企みが露見しちゃったわね～♥\\ねぇ、モーガン？",
-      "background": "bg089_f",
-      "bgm": "19",
-      "char": "c001_01",
+      "dialogue": "そうよね…\\私の人生、何ひとつ上手くいかないわ…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c283_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ガハハ！近う寄れ、レウケ。\\お前の注いだ酒が飲みたい！",
+      "char": "c180_01",
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あまりにも子供っぽい企みね。\\ダビがあんな事になってなかったら、気が付かなかったかも…",
-      "char": "c001_01",
+      "dialogue": "嫌ですわ。これじゃまるで…\\会食で気も利かず最後まで残って、",
+      "char": "c277_01",
       "speaker": "same",
       "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "何の話なのか…わかりませんね。",
-      "char": "c283_01",
+      "dialogue": "自分の仕事の自慢しかしない酒癖の悪い\\中年部長ではないですか。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ご主人さまを蔑ろにするのは、少し気になるけど、\\《ヴェルデレト》への一途な気持ちが可愛いから、\\親切に教えてあげるわね、モーガンちゃん♥",
+      "dialogue": "本当によかったですね、ご主人さま♥",
       "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ご主人さまにイタズラしたかったら、その食べ物は\\ダビに見せてはダメよ？",
-      "char": "keep",
+      "dialogue": "お前、喜びすぎだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ダビはと～っても食いしん坊さんだから。",
+      "dialogue": "毎日のように愛の告白してたマンモンを\\突き放すなんて。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "自分の主人が…\\チャイルドに負けてもかまわないということですか？",
-      "char": "c283_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "モナにとっては彼のような男性に告白されるのは\\日常茶飯事ですので♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "27": {
       "type": "talk",
-      "dialogue": "イタズラ程度のかわいいことなら見逃してあげるわ。",
-      "char": "c001_01",
+      "dialogue": "…だろうな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "28": {
       "type": "talk",
-      "dialogue": "で～も！やりすぎはダメよ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "dialogue": "近う寄れ！\\もっと近くで見たいものだ！うへへ。",
+      "char": "c180_01",
+      "speaker": "same"
     },
     "29": {
       "type": "talk",
-      "dialogue": "注意…するようにします。",
-      "char": "c283_01",
+      "dialogue": "やっぱりお金が全てですわ。",
+      "char": "c277_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "30": {
-      "type": "talk",
-      "dialogue": "ふふっ、賢い子は大好きよ～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

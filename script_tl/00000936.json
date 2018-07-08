@@ -2,170 +2,183 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "エルメスの頼みで、手分けして《トリ》の追跡に\\向かった俺達だったが…",
-      "background": "bg145_r",
-      "bgm": "12",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "2人とも歩く速度が非常に遅いですね。",
+      "background": "bg119_f",
+      "bgm": "9",
+      "char": "c365_02",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_slow",
+      "voiceid": "500101001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "リザ。見て見て！\\この服とってもカワイイと思わない♥",
-      "char": "c001_01",
+      "dialogue": "これでも急いでるの！\\しょうがないじゃない、身長低いんだから…\\もう、機械だから人の心が解らないのね！",
+      "char": "c001_17",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "center",
+      "facial": "shock",
+      "before_effect": "enter_from_right_slow",
+      "voiceid": "500101002"
     },
     "3": {
       "type": "talk",
-      "dialogue": "モナ、もう少し真面目に…\\私としては、モナには、そちらの展示されてる服の方が似合うかと思います。",
-      "char": "c002_01",
+      "dialogue": "人って…お前はサキュバスだろ。\\都合のいい時だけ、人になるなよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "500101003"
     },
     "4": {
       "type": "talk",
-      "dialogue": "さすがリザ！たしかにいい感じね。\\ちょっと試着しちゃおうかしら♥",
-      "char": "c001_01",
+      "dialogue": "嫌味を言う体力は残っているようですね。\\そのまま素直に背中に乗ってくだされば、魔王から逃げきれたものを。",
+      "char": "c365_02",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
+      "voiceid": "500101004"
     },
     "5": {
-      "type": "curtain",
-      "background": "keep",
-      "fade_out": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "魔王って、あのチビッ子サキュバスのダビだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "500101005"
     },
     "6": {
       "type": "talk",
-      "dialogue": "おおっ、さすがアキバのアトレだね。\\コレクションできそうなものがいっぱいだ！",
-      "background": "bg108_f",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ねぇねぇ～ご主人！これなに？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "おい！二人ともちょっと待て…",
-      "char": "c000_01",
-      "speaker": "same_full",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "あれ？アトレ秋葉原にこんな所あったっけ…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そんな事、どうでもいいじゃないか…\\集中したいから話しかけないで！",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ねぇねぇ～ご主人！これ買って～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "joy"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "なんだ、この展開は…\\みんな自分勝手にアトレを楽しんでトリのことを忘れている…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ここは、主人である俺がビシッと言い聞かせるしかないな！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "お前ら！トリのことはどうすんだよ！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…って、おー！\\コレ、超カッコイイな！\\モナ達にばれないように買わなくては…",
+      "dialogue": "ご主人様にたてつくとは100年早い。\\少し、お仕置きしてやろうじゃないか！\\はっはっはっはー！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "joy",
-      "before_effect": "shake"
+      "voiceid": "500101006"
     },
-    "16": {
+    "7": {
       "type": "talk",
-      "dialogue": "こんチキンしょー！\\離せって言っトリだろがー！！",
-      "char": "none",
-      "speaker": "none"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "あ、なんか聞き覚えある声～！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ああ、すげえわかりやすい。\\でもなんか様子が変だな…急ぐか！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ほら！エルメス！さっさとついて来い！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "go_to_left_point"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あっ！まってくれよ！！",
-      "char": "c036_01",
+      "dialogue": "知らないとは、罪ですね。\\そして…もうタイムリミットです。\\目標捕捉。識別RED。ターゲット、来ます。",
+      "bgm": "100",
+      "char": "c365_02",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake",
-      "after_effect": "go_to_left_point"
+      "voiceid": "500101007"
     },
-    "21": {
-      "type": "curtain",
-      "background": "back",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "22": {
+    "8": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "お～ほっほっほっほ～！\\このトサカ野郎、とうとう見つけたわよ！\\お前のようなゴミの命は、今日で終わりだと思え！",
+      "background": "bg197_f",
+      "bgm": "1",
+      "char": "c003_14",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "joy",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "500101008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はい！？あなた誰ですか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "voiceid": "500101009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…ん…ダビに似てる？\\わかった、ダビの家族か！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "500101010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "アイツめ、汚いぞ！\\勝てないからって身内を呼ぶなんて！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "voiceid": "500101011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "はっ！気でも狂った？愚かなトサカ野郎ね！\\私が新しい魔王！正真正銘のダビ様よ！\\お～ほっほっほっほ～！",
+      "char": "c003_14",
+      "speaker": "same",
+      "one_ani": "attack",
+      "voiceid": "500101012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ああ、そうね…\\この完璧に成長したダイナマイトボディを見て\\しまったら、そうなってしまうのも仕方ないわね。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "500101013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "これも全て！愚かな悪魔を主人として仕えながらも、コツコツと徳を積んだ成果よ！\\あ～はっはっはっは！お～っほっほっほっほ～！",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "joy",
+      "voiceid": "500101014"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "さて、命乞いでもしたらどう？\\床にひれ伏して、この靴をなめてみなさい！\\ピカピカになるまで綺麗にしたら許してあげる\\かもよ？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "voiceid": "500101015"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "これが、ダビ？\\ウソ…だろ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "voiceid": "500101016"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ご主人さま！大丈夫ですか？\\しっかりしてください！早くここから逃げないと！",
+      "char": "c001_17",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack",
+      "voiceid": "500101017"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "モナの言う通りです。急ぎましょう！\\早くご指示を！！",
+      "char": "c365_02",
+      "speaker": "same",
+      "one_ani": "attack",
+      "voiceid": "500101018"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "keep",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

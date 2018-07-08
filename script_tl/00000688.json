@@ -2,272 +2,318 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "それで、そのまま出て来たのか？\\つまらない男だな。",
-      "background": "bg086_f",
-      "bgm": "19",
-      "char": "c222_01",
-      "speaker": "same"
+      "dialogue": "俺は今、かなり困った状況にいる。\\いつものようにダビの催促で契約を結んでいた時…",
+      "background": "bg064_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none"
     },
     "2": {
       "type": "talk",
-      "dialogue": "おいおい！\\そのおかげでオマエが生まれたんだろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "私は《黒き蝶》…\\お前のような外道と出会うとは、これも運命か…",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
     },
     "3": {
       "type": "talk",
-      "dialogue": "だからつまらない男だと言ったのだ。",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…こんな変なヤツに出会ってしまった。",
+      "char": "none",
+      "speaker": "none"
     },
     "4": {
-      "type": "talk",
-      "dialogue": "私をこの世に生み出しておいて、\\少しもその責任を負っていない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "bgm": "keep",
+      "fade_out": "normal",
+      "fade_in": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺が何の責任を負ってないって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "この世は上に7、下に3つの世界がある。",
+      "background": "bg085_f",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
     },
     "6": {
       "type": "talk",
-      "dialogue": "銀行で契約を結んだら、当然そこにある金も\\全てかき集めてくるべきだ。",
-      "char": "c222_01",
+      "dialogue": "そうなんだ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "smile"
     },
     "7": {
       "type": "talk",
-      "dialogue": "いやいや、オマエ何言ってんだよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "貴様がコンビニで稼いだ端金程度で、\\この私が満足するとでも思っていたのか？",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "じゃあ何か？\\オマエにブランドのバッグを買うために\\この俺に銀行強盗でもしろと？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ブランドのバッグだと？\\そんな物でこの私の機嫌をとるつもりだったのか？",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "違うのか？女ってバッグ好きだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "凡人ならともかく、\\この私がその程度で満足するわけがなかろう。",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "周りと同じことをしていたら\\いつまでも特別な存在にはなれん。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "じゃあ、オマエの望みは何だよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "金！",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "…だと思った。\\体中、じゃらじゃら付けてるのを見た時に\\気づくべきだったよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "俺は例え生まれ変わっても\\オマエに金なんてやらないぞ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "まったく…\\契約者もチャイルドも揃いも揃って\\贅沢な願いだな！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "貴様…\\あの低俗な女の願いと私の高貴な願いを比較しているのか？",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "二人とも同じ拝金主義者だろうが…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "急に金を出せって言うチャイルドも、\\限度なしのカードが欲しいっていう契約者も、",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "俺にとっちゃ、どっちも同じ拝金主義者だ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "よくもこの私をあんな低俗な女と一緒にしたな…",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "本当のことだろ！\\その低俗な願いとやらのおかげで\\オマエが生まれたんだからな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "金の価値も知らない者は\\論じる価値もない浅はかな存在。",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "この私こそ、一番黄金が似合う高貴な存在。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "そんな高貴なお方が、どうしてこんな貧しい悪魔の\\チャイルドになったんでしょうかね…",
+      "dialogue": "違う。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "irritation"
     },
-    "28": {
+    "8": {
       "type": "talk",
-      "dialogue": "自分の立場を理解しているだけでも\\不幸中の幸いだな。",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "いいだろう。この私がチャンスを与えてやる。",
-      "char": "keep",
-      "speaker": "same",
+      "dialogue": "悪鬼の住む場所は最も下の世界。\\こっちの言葉で言えば、《地獄》",
+      "char": "c221_00",
+      "speaker": "same_full",
       "pos": "right",
       "distance": "near"
     },
-    "30": {
+    "9": {
       "type": "talk",
-      "dialogue": "チャンス？",
-      "char": "c000_01",
+      "dialogue": "あっ、故郷の友達？\\ダビもそこから来たんだよ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near",
+      "facial": "joy"
     },
-    "31": {
+    "10": {
       "type": "talk",
-      "dialogue": "この私に相応しい主人になるチャンスだ。",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "いや、遠慮しとくわ。\\俺はこのままでも十分だし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "いつまでそんな底辺な暮らしをしているつもりだ？",
-      "char": "c222_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "底辺な暮らしって…",
+      "dialogue": "友達じゃない。\\おい、話は終わったか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "facial": "sigh"
     },
-    "35": {
+    "11": {
       "type": "talk",
-      "dialogue": "さあ、今すぐあの銀行に行き\\金という金を残らずかき集めて来い！",
-      "char": "c222_01",
-      "speaker": "same",
+      "dialogue": "そこで私は\\《闇を切り裂く黒き蝶》と呼ばれていた。",
+      "char": "c221_00",
+      "speaker": "same_full",
       "pos": "right",
       "distance": "near"
     },
-    "36": {
+    "12": {
       "type": "talk",
-      "dialogue": "結局それかよっ！",
+      "dialogue": "黒き…蝶…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "私は…",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "堕落した友の魂を救うため、\\自ら3つの封印門を開き地上にやってきた使者だ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "信じなくてもいい。\\私は悪魔、お前の力が必要なのだ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "正直に言おう、私の力では届かない…\\手を貸してくれ、悪魔。\\…彼女を救ってほしい。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "その彼女って誰だよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "18": {
+      "type": "talk",
+      "dialogue": "そっか…うちのご主人は頼りないから、\\ダビがなんとかしてあげる！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "cry"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "私の話を信じてくれるのか？\\…誰も信じてくれなかったのに。",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "信じられそうなことを言えば\\信じるフリでもするさ！\\言っておくが、地獄から来たのは俺だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…やはり。\\他の次元の「道理」は理解できないのか…",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "バカ主人！\\友達のことを悪く言っちゃダメなんだよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "あいつの言葉に踊らされてるみたいだが、\\話の内容はいい加減なんだぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "それにお前、本当に、その友達だか何だかのために\\契約する気なのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ご主人、今日はどうしてそんなに興奮気味なの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "別に興奮なんてしてないよ！\\適当なこと言って、想像の中の友人を助けるなんて\\馬鹿なこと言ってるから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "いや、もちろん信じられないというのも理解する。\\だが、この《封印の両手》を見てみろ。",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "この両手の「封印」は、\\「友」を裏切り禁忌を犯した罪で…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "わ、分かったよ！わかったから、近づくな！\\手を貸すから！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "でも他人のために祈ったら後で後悔するぞ…\\いっそ自分のために祈ったらどうだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あまり大きい願いは叶えてやれないけどな… ",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "お前は……優しいな。",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…後悔はしない。\\契約については、先ほど聞いて理解した。",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "願いを聞く代わりに魂の一部を持っていくのだろう？いくらでも持っていくがいい。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "本当に分かってないな、絶対後悔するぞ！\\どうせ記憶はなくなるけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
     "37": {
+      "type": "talk",
+      "dialogue": "後悔はしない。\\私は今日のために生まれてきたのだ。",
+      "char": "c221_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "信じようが信じまいがお前の自由だ。\\契約をしよう。《黒き悪魔》よ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "綺麗な月だ。こういう日は右手が痛くなる。\\…なぜだろう。",
+      "background": "bg024_f",
+      "char": "c221_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

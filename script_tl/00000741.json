@@ -2,210 +2,154 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "どいつもこいつもボクサーが嫌いだって…\\本当に困ったよ。",
-      "background": "bg098_f",
+      "dialogue": "くそっ！",
+      "background": "bg089_f",
       "bgm": "9",
-      "char": "c000_01",
+      "char": "m189_01",
       "speaker": "same",
-      "facial": "sigh"
+      "pos": "left",
+      "screen_effect": "dialog_shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "欲張り屋さんはどこに行っても歓迎されないですわ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "そんな草食動物みたいな歯で\\俺に勝てると思ったのか。",
+      "char": "m190_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうそう！\\みんな欲張りなご主人のこと嫌いじゃん？",
-      "char": "c003_01",
+      "dialogue": "勝ってやる！守ってやる！絶対に宝物は盗らせない！",
+      "char": "m189_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "俺のどこが欲張りなんだよ！\\こんな正直で腰の低い悪魔がどこにいるって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "モナお姉さまを盗ったじゃん！",
-      "char": "c003_01",
+      "dialogue": "どっちが勝つか賭けてみるか？",
+      "char": "m190_01",
       "speaker": "same",
       "pos": "right"
     },
-    "6": {
+    "5": {
       "type": "talk",
-      "dialogue": "またそれか？",
+      "dialogue": "おいおい、ストーップ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "enter_from_left_fast"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "家の中でケンカはするなって言ったろ？\\ここで騒いだら警察が来る。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "あらあら、私はみんなのものよ。",
-      "char": "c001_01",
+      "dialogue": "ボクサーが！ボクサーがぁぁぁ！",
+      "char": "m189_01",
       "speaker": "same"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ご主人さまの役目はボクサーが\\他のチャイルドたちと\\仲良くできるようにすることです。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "そうすれば戦闘でも少しくらい役に立つでしょ？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "くっ…難しい宿題ばかり出しやがって…",
+      "dialogue": "分かったから泣くなって。泣いても警察が来る。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "smile"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ぐすん！ずるっ！ひくっ！",
+      "char": "m189_01",
+      "speaker": "same",
+      "before_effect": "shake_weak"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "なんで泣かせたんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ちょっとだけヒントをあげましょうか？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "仕方ないだろ。これが俺の性格なんだ。\\マスターが俺をこんな風にしたんじゃないか。",
+      "char": "m190_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ヒント…？",
+      "dialogue": "俺じゃなくてお前の契約者の性格だろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
+      "type": "talk",
+      "dialogue": "ちっ！つべこべ言うガキだ。\\今日はここまでにしてやるから機嫌を直せ。",
+      "char": "m190_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふん、だ！",
+      "char": "m189_01",
+      "speaker": "same"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "次も楽しく遊ぼうぜ。",
+      "char": "m190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "次も絶対に盗られないから！",
+      "char": "m189_01",
+      "speaker": "same"
+    },
+    "17": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "14": {
-      "type": "talk",
-      "dialogue": "お、おい、ボクサー！\\お前に言いたいことがある！",
-      "background": "bg147_f",
-      "bgm": "20",
-      "char": "c000_01",
-      "speaker": "same"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "何だ？",
-      "char": "m190_01",
-      "speaker": "same"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "俺が魔王になれるよう、力を…貸してくれ…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "代わりに何をくれるんだ？",
-      "char": "m190_01",
-      "speaker": "same"
-    },
     "18": {
       "type": "talk",
-      "dialogue": "代価なんてない！あ…あと何だっけ？\\あ、チャイルドは悪魔のために…\\ボ、ボランティアすべきだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "毎日、毎日、歯を磨いている。",
+      "background": "dungeon_bg",
+      "char": "m189_01",
+      "speaker": "same"
     },
     "19": {
       "type": "talk",
-      "dialogue": "大人しく主人の言うことを…",
+      "dialogue": "大切なものを守るために強くなったのに\\ボクの宝物を狙う悪党がいる。",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": "same"
     },
     "20": {
       "type": "talk",
-      "dialogue": "嫌だ。得しないことに無駄な労力は使わない。",
-      "char": "m190_01",
+      "dialogue": "ライオンより強い歯を手に入れてやる。\\悪党より恐ろしい怪物になってもかまわない！",
+      "char": "keep",
       "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "まだ終わってないぞ…えっと、次のセリフは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "盗られたら何も残らないから…",
+      "char": "keep",
+      "speaker": "same"
     },
     "22": {
-      "type": "talk",
-      "dialogue": "それなら仕方ない。魔王になって\\魔界の全てを手に入れた俺の雄姿を\\見せられなくて残念だ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "魔界の全て…？",
-      "char": "m190_01",
-      "speaker": "same",
-      "before_effect": "shake_weak"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "魔王は魔界にあるもの全てを\\手に入れることができるのか？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "そ、そうだ…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "魔王になったらな…ハハ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "いいだろう！魔王になれるよう力を貸してやる！",
-      "char": "m190_01",
-      "speaker": "same"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "その後に魔王の座を奪ってやる！ハハハ！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "本当にモナの言う通りだ…後はテキトーに\\時間を延ばせばいいだけだ。",
-      "char": "c000_01",
-      "speaker": "same"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "はあ…単純だけど扱いにくいヤツだ…",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "sigh"
-    },
-    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

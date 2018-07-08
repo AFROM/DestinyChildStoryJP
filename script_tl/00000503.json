@@ -2,287 +2,237 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あら、エシュじゃない♥\\最近、忙しそうね。",
-      "background": "bg023_f",
-      "bgm": "24",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "こんにちは、モナさん。そうなの。\\悪魔放送局とかってのが、つきまとってきて。",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "チャンネルEvilのことかしら？\\でも、どうしてエシュに？",
+      "dialogue": "ご主人さま、大丈夫ですか～？\\最近、元気がないようで、モナは心配です～♥",
+      "background": "bg086_f",
+      "bgm": "20",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "idle"
+      "facial": "sad"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "…別にいつも通りだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そんなことありませんよ～\\もう何日、お部屋に引きこもってると\\思ってるんです～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "《不幸特集》だとか何とか言ってたかな。",
-      "char": "c176_01",
+      "dialogue": "それがいつも通りなんだよ。\\お前達が来てからのことの方が、おかしかったんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "haah"
     },
     "5": {
       "type": "talk",
-      "dialogue": "「主人を3人も失った不幸なチャイルド」を\\取材したいみたい。",
-      "char": "keep",
+      "dialogue": "うふふ♥\\では私達は、ひとりの悪魔を救ったと\\いうことですね～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "smile"
     },
     "6": {
       "type": "talk",
-      "dialogue": "「4人目の主人の命運はいかに！」だって。",
-      "char": "keep",
+      "dialogue": "…また引きこもる気満々だけどな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "あら♥4人目の主人ができたってことが、\\いつの間にか広まったみたいね～",
+      "dialogue": "許しません♥\\…あら、こんにちは。",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "pretense"
+      "facial": "angry"
     },
     "8": {
       "type": "talk",
-      "dialogue": "いつの間にって…\\モナさんから聞いたって言ってたけど？",
-      "char": "c176_01",
+      "dialogue": "……",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "うふふ♥そうだったかしら～？\\この頃、忘れっぽくっていけないわ～",
-      "char": "c001_01",
+      "dialogue": "…ん？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "idle",
+      "before_effect": "shake_weak"
     },
     "10": {
       "type": "talk",
-      "dialogue": "もう、モナさんったら…\\おかげであたし、すっごく苦労したのよ？",
-      "char": "c176_01",
+      "dialogue": "うわっ！お、お前、いつの間に…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "主人はすぐに逃げちゃうしリポーターはしつこいし…",
-      "char": "keep",
+      "dialogue": "私のことは、どうかお気になさらずに。",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "12": {
       "type": "talk",
-      "dialogue": "なーにーがー深夜のパートナーよ。\\真っ昼間から追いかけ回しといて…",
-      "char": "keep",
+      "dialogue": "いやいや、気になるって！\\何の用だよ。まさか、俺を驚かせるために\\来たわけじゃないだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ふふ、それがプロというものよ。\\少しでも仕事から離れると落ち着かないタイプね♥",
+      "dialogue": "うふふ♥もしそうなら大成功ですね～♥",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "またそうやって、はぐらかす…",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ま、モナさんの思惑通り、簡単なインタビューには\\応じてあげたけど。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "まあ♥そこまでしてくれたの～？\\お疲れさま♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "お礼にイイコト♥してあげようかしら～？",
+      "dialogue": "チャイルドに驚かされるなんて、\\とってもキュートですよ～♥\\ご主人さま♥",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
       "facial": "tempt"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "嫌味か！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "…つーか、あいつ、俺のこと気に食わないのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "俺が歩いてるだけでため息は吐くわ、\\飯をこぼせば、ものすっごい剣幕でにらんでくるわ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "遠慮するわ。\\あのちっちゃいサキュバスが騒ぎ立てそうだから。\\それじゃ、あたしもあたしの仕事に戻るわ。",
-      "char": "c176_01",
+      "dialogue": "でも何でか、文句も言わずにテーブルを\\拭いてくれるんだよな。\\マジで意味わかんない。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "19": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "longer",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "いっそ、リザみたいに叱ってくれる方がまだマシだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ハァイ★いつものセリフは省略！\\今日はチャンネルEvilの深夜特番…",
-      "background": "bg100_f",
-      "bgm": "29",
-      "char": "c174_02",
+      "dialogue": "うふふ♥\\頼もしい騎士様ですね、ご主人さま♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "distance": "near",
+      "facial": "smile"
     },
     "21": {
       "type": "talk",
-      "dialogue": "《あなたの不幸、自慢してくださ～い★》\\他人の不幸を楽しむ、しょうもない特番…",
-      "char": "keep",
+      "dialogue": "どこがだ！\\リザも同じようなこと言ってたけど、\\さすがに怖いよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ん？NGワード？おおっと、失礼★\\…チェック厳しいな。",
-      "char": "keep",
+      "dialogue": "怖がらなくても大丈夫ですよ～♥\\ご主人さまがみんなに愛されている証ですから♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "tempt"
     },
     "23": {
       "type": "talk",
-      "dialogue": "さて、それじゃ、最初のゲストをお迎えします。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "え？さっきNG出たんじゃなかったの？\\このままオンエアしていいわけ？",
-      "char": "c176_01",
+      "dialogue": "うう…愛ってこんなだっけ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "enter_from_left_fast"
+      "facial": "sigh"
+    },
+    "24": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "…ったく、グダグダな番組ね。\\はいはい、来ましたよ。\\あたしが噂の不幸なチャイルドで～す。",
-      "char": "keep",
+      "dialogue": "…やはり、魔王になるには、\\足りないことばかりな方だ。",
+      "background": "dungeon_bg",
+      "bgm": "9",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "far",
+      "before_effect": "none"
     },
     "26": {
       "type": "talk",
-      "dialogue": "「主人を3人も失った」…で有名なのがあたしです。",
+      "dialogue": "しかし、この戦いが進むにつれ、\\王座に相応しい方へと成長していくだろう。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "far",
+      "before_effect": "none"
     },
     "27": {
       "type": "talk",
-      "dialogue": "波乱万丈な経歴ですね～\\3人の主人は、みんなあなたが葬ったとか？！",
-      "char": "c174_02",
+      "dialogue": "私にできることは、\\その時まで我が主君をお守りすること…\\そして、主君を魔王として擁すること。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "before_effect": "none"
     },
     "28": {
       "type": "talk",
-      "dialogue": "まさか！！\\全員、タイミング悪く死んだだけですよ～",
-      "char": "c176_01",
+      "dialogue": "この命、潰えようとも…必ずや果たしてみせよう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
+      "pos": "center",
+      "distance": "near"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "…けど、みんな好き勝手に噂してくれてるみたいね。今度の主人はいつ死ぬのかって。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "ちなみに、私は3ヶ月に賭けてます★\\ふふ、がっつり稼いで、この放送局を乗っ取って\\やる～★",
-      "char": "c174_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "えっ？また、NGワード？ホントうるさいわね～\\私が社長になったらアンタもクビにしてやるから！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "他人事だからって面白い賭けをしてくれてるわね。\\…いいわ。それじゃ、あたしとも勝負しない？",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ご存知の通り、あたしは夜の世界のディーラー！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "この賭け、仕切らせてもらうわ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "皆さんご注目！\\こうなったらでっかく賭けちゃいましょう！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "none"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "え？あたしはいつに賭けるのかって？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake_weak"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "もちろん「今度の主人が最後の主人」に賭けるわ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "さあさあ、終わらないゲームの始まりよ！\\先に諦めたほうが負けでどうかしら。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "loop_ani": "attack"
-    },
-    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

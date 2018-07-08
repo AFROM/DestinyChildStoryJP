@@ -2,307 +2,259 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…エラト。\\こんなとこで何してんだよ…",
+      "dialogue": "ややこしいわね…\\契約者ではなく、あなたが私を呼んだ、という認識で良いのよね？",
       "background": "bg086_f",
-      "bgm": "19",
-      "char": "c000_01",
+      "bgm": "9",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "distance": "near",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "しっ！\\話しかけないで、坊や。\\今、ちょっと大事なところなの。",
-      "char": "c065_01",
+      "dialogue": "まあ、そうかな…？\\悪魔と契約することで、チャイルドが生まれるわけだし…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "大事なとこって…\\なら、俺の部屋でやるなよ…",
-      "char": "c000_01",
+      "dialogue": "でも、私のこの姿は契約者が持っている欲望が具現化した姿なわけでしょう？",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c065_01",
+      "dialogue": "まあ…そうだな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "エラト！",
-      "char": "c000_01",
+      "dialogue": "もしも契約者が契約を結ばなかったら、私はここに\\存在しなかったのよね？",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "まあまあ、落ち着いてください。ご主人さま♥\\失敗したら大変ですから♥",
-      "char": "c001_01",
+      "dialogue": "そういうことになるな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "haah"
     },
     "7": {
       "type": "talk",
-      "dialogue": "まあ、確かに失敗したら大惨事だろうけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "普通、化粧なんて隠れてやらないか？\\いいのかよ、男にすっぴん見られても。",
+      "dialogue": "あのさ、メデューサ。\\結局、何が言いたいんだよ？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "facial": "irritation",
+      "before_effect": "shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "契約者とは別のメデューサとしての私だけの意思。\\それが、どの程度存在しているのかを訊きたいのよ。",
+      "char": "c064_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "いいの♥\\あたし、すっぴんでもキレイだから♥",
-      "char": "c065_01",
+      "dialogue": "いえ、「訊く」って表現は正しくないわね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "っつーか、すっぴんでもキレイ…なんて、\\目を見開きながら、マスカラ塗ってる奴のセリフか？",
-      "char": "c000_01",
+      "dialogue": "だってあなた、何も考えてないでしょ。\\話していて分かったわ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "あ～ら、マスカラなんてどこで覚えてきたの？\\坊やってば、物知りね～",
-      "char": "c065_01",
+      "dialogue": "はぁ？\\俺はちゃんと考えて契約したし、契約のことだって理解してる！\\チャイルドのお前が知った風に言わないでくれよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "うふふ♥あんまり馬鹿にしちゃダメよ、エラト。\\ご主人さまの顔が、真っ赤になっちゃったわ♥",
-      "char": "c001_01",
+      "dialogue": "ついでに言うとだな…\\俺だって出来れば契約なんてしたくないんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "irritation"
     },
     "13": {
       "type": "talk",
-      "dialogue": "…なってないし。",
-      "char": "c000_01",
+      "dialogue": "願いを叶えてやるって言っても怪しさ満点だろうし、せっかく生まれたのに悪魔と戦わなくちゃいけないわけだしさ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "none"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "可愛らしいこと♥\\あら、子供扱いされたから拗ねてたの？\\大人になるには、まだまだねえ～",
-      "char": "c065_01",
+      "dialogue": "へぇ…\\チャイルドに同情してるのね。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "うふふふ♥",
-      "char": "c001_01",
+      "dialogue": "申し訳ないと思ってるんだ。気の毒だって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "sad"
     },
     "16": {
       "type": "talk",
-      "dialogue": "おほほほ♥",
-      "char": "c065_01",
+      "dialogue": "同じことね。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
+      "dialogue": "分かったわ。それがあなたの気持ちなのね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あら、急に寡黙になったわね。",
-      "char": "c065_01",
+      "dialogue": "な、何が分かったんだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "少しは男らしくなったんじゃない？",
-      "char": "c001_01",
+      "dialogue": "それはもちろん、あなたとどう接すれば良いかをね。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ヤダ、モナってば。\\こういう男が好みなの？",
-      "char": "c065_01",
+      "dialogue": "えっ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ふふ、どうかしらね～？",
-      "char": "c001_01",
+      "dialogue": "必要なら呼んで頂戴。\\あなたの言うとおり、悪魔のために生まれたならこの身は悪魔のために使ってあげる。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "もう、我慢できねー！\\今すぐ、俺の部屋から出てけ！",
+      "dialogue": "い、いや、勝手に話を進めないでくれ。\\どういうつもりだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near",
-      "facial": "confused",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ダメよ、坊や。大声なんて出しちゃ。\\騒ぎたいなら、外でやってよ。",
-      "char": "c065_01",
+      "dialogue": "しばらく、私の力を貸してあげるって言ってるのよ。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "…ここ、俺の部屋だぞ？\\外でやるのはそっちの方だろ。",
+      "dialogue": "しばらくって…期限でもあるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
       "facial": "confused"
     },
     "25": {
       "type": "talk",
-      "dialogue": "もうっ、お子様なんだから。\\こういう時は、殿方が席を外すものよ。\\覚えておきなさい。",
-      "char": "c065_01",
+      "dialogue": "メデューサ。\\この名前は、あなたが付けてくれたものでしょう？\\私の意思とは関係なく…",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "都合のいい時だけ男扱いかよ…",
+      "dialogue": "ああ…\\それなりに考えてつけた名前だ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
+      "facial": "shy"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ほらほら。",
-      "char": "c065_01",
+      "dialogue": "あれからメデューサについて調べてみたわ。\\睨むだけで相手を石にしてしまう怪物だそうね。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "いいから出て行ってちょうだい。",
+      "dialogue": "私の契約者は誰にも負けない強い存在を望んでいる。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "このままじゃ、お化粧が終わらないわ。",
+      "dialogue": "私もそうよ。\\そもそも、私と契約者の意思を完全に切り離すつもりもないし。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "イ・ヤ・だ！\\俺は絶対、出て行かないからな！",
-      "char": "c000_01",
+      "dialogue": "アイデンティティについて、無駄に悩むつもりもないし…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "あ～ら、残念。\\快く部屋を貸してくれる優しい殿方には、\\麗しのレディが、お礼の口付けをしたのに。\\…んーっ。",
-      "char": "c065_01",
+      "dialogue": "今は、何に集中するべきか。\\それを決めることが一番大事だと思うわ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "エラトは唇を突き出すと、俺に顔を寄せてくる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "で…その目標は見つかったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "33": {
       "type": "talk",
-      "dialogue": "な、何を…！うわあ！",
-      "char": "c000_01",
+      "dialogue": "メデューサ。この名前が全てよ。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake",
-      "after_effect": "go_to_left_fast"
+      "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "あらあら、出て行っちゃったわね～♥\\ご主人さまには刺激が強すぎたかしら？",
-      "char": "c001_01",
+      "dialogue": "そこにいるだけで、畏怖される者。そんな存在を目指しているわ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "tempt"
+      "distance": "near"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "うふふ、坊やってば可愛いんだから♥",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "one_ani": "attack"
-    },
-    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

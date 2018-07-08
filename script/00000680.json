@@ -2,292 +2,276 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ワーウルフ、お前なぁ…\\どうしていつも、そんな豪快に転ぶんだ？",
+      "dialogue": "……",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "angry"
+      "bgm": "31",
+      "char": "c210_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "どうしてだろうね～\\もう1回、転べばわかるかな？",
-      "char": "c216_01",
+      "dialogue": "お、おい…\\一体何があったんだ…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious"
     },
     "3": {
       "type": "talk",
-      "dialogue": "転ぶな！\\見てるこっちまで痛くなる…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "dialogue": "タルタロスの鎧が…\\とってもスタイリッシュになってますね。",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そんなの気のせいだって～\\妄想激しいんだから～",
-      "char": "c216_01",
+      "dialogue": "その口をつつし…",
+      "char": "c210_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そういうのは妄想とは言わない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "タルタロスは唇をかみしめ怒りを我慢してる…\\もうちょっといじったら爆発しそうな勢いだ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "お前さ、子供じゃないんだから…\\膝小僧とかすりむくか？普通…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "dialogue": "花に木、蝶々…\\あら、可愛いお姫様もいるわ♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "まったく…\\こんなにケガするのは幼稚園児くらいだろ。",
-      "char": "keep",
+      "dialogue": "その口を慎めと…",
+      "char": "c210_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "よちよち…\\滑り台でケガしちゃったんでちゅか？\\ワーウルフちゃん？",
-      "char": "keep",
+      "dialogue": "タルタロス、一体誰がそんなことをしたんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "よちよち…\\ニャンコちゃんはあたしがケガして悲ちぃのね？\\優しい子ね～",
-      "char": "c216_01",
+      "dialogue": "見て分からないのか？お前のチャイルドが\\私の鎧に落書きをしたのだ！",
+      "char": "c210_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…ゴホン！\\ともかく、薬持ってくるからそこで待ってろ。",
+      "dialogue": "わ、分かったって。\\俺が叱っておくから閣下はゆっくり休んで…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "は～い。\\さみしいから早く戻って来てね～",
-      "char": "c216_01",
+      "dialogue": "ふざけるな！\\これも全て私の権威が失墜した証拠。",
+      "char": "c210_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "さみしいって、お前はそんなヤツか！？",
+      "dialogue": "私が直接処罰する。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "とりあえず、その剣をしまってくれ。\\まったく子供のイタズラに大げさだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "shorter",
-      "fade_in": "normal"
+      "facial": "sigh"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…って、いないし！どこ行った！？",
-      "background": "bg086_f",
-      "char": "c000_01",
+      "dialogue": "大げさ？今大げさと言ったか？",
+      "char": "c210_01",
       "speaker": "same",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "near"
     },
     "15": {
       "type": "talk",
-      "dialogue": "さみしいから、早く戻って来てって…\\いったい何だったんだろうな？",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "nonsense"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "まぁ、本気にしちゃいないけど。",
-      "char": "keep",
-      "speaker": "same",
-      "facial": "haah"
-    },
-    "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "はぁ…\\世の中のお父さんは、こんな気持ちなのかな。",
-      "background": "bg055_f",
+      "dialogue": "いや、だからそれは…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "confused"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "絶対に容赦しない！",
+      "char": "c210_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "うう…仕方ないな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ごめん。\\いや、申し訳ございませんでした、閣下。\\わたくしが代わりに謝罪致します。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あたしの残り香をたどってここまで来たの？\\ニャンコちゃん。",
-      "char": "c216_01",
+      "dialogue": "な、何をしている？",
+      "char": "c210_01",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "そんな器用な真似ができるか！\\普通に探しに来たんだよ！",
-      "char": "c000_01",
+      "dialogue": "あらあら。\\悪魔が自分のチャイルドに頭を下げるなんて…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "center",
+      "facial": "angry"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そうなんだ…\\オロオロとあたしを探し回るニャンコちゃんの姿を想像したら、ちょっと申し訳ない気分になっちゃった。",
-      "char": "c216_01",
+      "dialogue": "これは見逃せない名シーンね～\\ケータイで撮っておこうかしら～",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "facial": "pretense"
     },
     "22": {
       "type": "talk",
-      "dialogue": "申し訳ないと思うなら、勝手にいなくなるなよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "モナの奴、面白がりやがって。でも仕方ない。\\こうでもして早く片づけないと…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "いいじゃない。あたしは自由な狼なんだから～",
-      "char": "c216_01",
+      "dialogue": "悪魔という者が…\\チャイルドのために頭を下げるとは…",
+      "char": "c210_01",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "自由ってな、そういうことじゃないと思うぞ。",
+      "dialogue": "そうだ、俺の一大決心だ。\\だから今回だけ見逃してくれ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "一言、断りを入れるって、常識の範疇だからな。",
-      "char": "keep",
+      "dialogue": "…決めた。",
+      "char": "c210_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "う～ん！いい天気。",
-      "char": "c216_01",
+      "dialogue": "な、何を？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "はぐらかすな。\\いい天気も何も、もう夜だぞ。",
-      "char": "c000_01",
+      "dialogue": "王座はお前に譲り渡そう。",
+      "char": "c210_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "こんな月夜に、家に引きこもってるほうがもったいないじゃん。",
-      "char": "c216_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "引きこもるっていうか、寝る時間だからな。",
+      "dialogue": "ほ、本当か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "29": {
+      "type": "talk",
+      "dialogue": "自分のチャイルドのために\\頭を下げられる者なら\\魔王になる資格があると言えるだろう。",
+      "char": "c210_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "30": {
       "type": "talk",
-      "dialogue": "むしろ俺はもう寝たいんだが…",
+      "dialogue": "お前なら快く魔界を任せられる。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "悪いけど、あたし夜行性だからね～",
-      "char": "c216_01",
+      "dialogue": "あ、ありがとう、タルタロス。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "smile"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ニャンコちゃんさ。\\あたしがまたいなくなっても、探してくれる？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "フフ…フフフ…",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "33": {
       "type": "talk",
-      "dialogue": "探さないよ。自分でちゃんと戻ってこい！",
+      "dialogue": "ま、待てよ？\\タルタロスは魔王でもなんでもないじゃないか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ホントに羨ましいですわ～\\魔王様に認めてもらえて♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "うう…か、からかうな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "34": {
-      "type": "talk",
-      "dialogue": "え～残念。探して欲しかったのにな～",
-      "char": "c216_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "アホなこと言ってないで帰るぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
     "36": {
       "type": "talk",
-      "dialogue": "そうだね。\\寝る子は育つって言うもんねー！",
-      "char": "c216_01",
+      "dialogue": "これでやっと魔王というしがらみから抜け出せる。\\これから魔界を宜しく頼む、悪魔よ。",
+      "char": "c210_01",
       "speaker": "same",
       "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "バカ言え、俺はもう大人だ！",
+      "dialogue": "うるさい！このインチキ魔王！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "confused",
+      "mvd": "ux/talk/efx_script_angry_set.mvd",
+      "mvd_pos": "left_top"
     },
     "38": {
-      "type": "talk",
-      "dialogue": "ハハ。\\ニャンコちゃんは、もっと大人にならなきゃね～",
-      "char": "c216_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

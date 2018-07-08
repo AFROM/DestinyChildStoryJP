@@ -2,209 +2,200 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "よーく考えてみろ。常に笑っているようだが\\誰がお前の本当の心の内を知ってると思う？",
-      "background": "bg089_f",
-      "bgm": "19",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "モナ、俺の財布見てないか？",
+      "background": "bg086_f",
+      "bgm": "31",
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うっ…\\ダビはモナ姉さまのこと疑ったりしないもん。",
-      "char": "c003_01",
+      "dialogue": "ご自身の財布はご自身で管理してください。\\私はご主人さまのお母様じゃないですわ～",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "疑えと言ってるわけじゃない。\\相手に対する深い理解が必要だと言ってるんだ。",
-      "char": "m191_01",
+      "dialogue": "出かけなきゃいけないんだ。\\一緒に探してくれないか。\\いくら探しても出てこないんだ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "そんな難しいこと分かんないよ。",
-      "char": "c003_01",
+      "dialogue": "もう、ご主人さまったら、すぐ弱音を\\吐くんですから…\\どうしても見つからないのでしたら…\\あそこしかないですわ。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ま、これだけは覚えておくんだな。\\《この世に信じられるヤツなどいない》",
-      "char": "m191_01",
+      "dialogue": "どこだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "モナ姉さまはダビに嘘なんかつかないもん！",
-      "char": "c003_01",
+      "dialogue": "知りたいのでしたら教えてあげてもいいですけど…\\ちょっと心配ですわ。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "そうか、そうだといいな。\\だが、沈黙は時に嘘よりも恐ろしい…",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "アンタの言うことなんて信じないんだから！",
-      "char": "c003_01",
+      "dialogue": "ボクサー…ボクサー。",
+      "background": "dungeon_bg",
+      "bgm": "20",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
+      "before_effect": "enter_from_left_fast"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そんなカッカするな。\\これもお前のために言っていることだ…",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ぐぅ…",
+      "char": "m190_01",
+      "speaker": "same"
     },
     "10": {
       "type": "talk",
-      "dialogue": "やはり一人で考える時間が必要なようだ…\\恐ろしい怪物おじさんはこの辺で退散するとしよう…クフフ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "after_effect": "go_to_left_point"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ううっ…モナ姉さまは絶対に嘘つかないんだから！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "どうした？なんで泣いてるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "enter_from_left_fast"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ひっく！うえーん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "after_effect": "go_to_right_point"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "何かあったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "見てはいけないものを見てしまったようだ。",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "おい、誤解するなよ。\\俺が泣かせたわけじゃないからな。",
+      "dialogue": "寝てるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "ぐうぅぅぅ…",
+      "char": "m190_01",
+      "speaker": "same"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "よ、よし…財布だけそーっと抜き取れば\\気づかれないはずだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "でも…ボクサーの口、大きすぎて探しにくいな。\\仕方ない。頭を入れるしか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "うわ…何をこんなに詰め込んでるんだ？\\え？これ、俺の靴下じゃないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "片方しかないと思ったらここにあったのか。\\これはダビのヘアゴム…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "洗濯バサミ…モナの化粧品…あ、見つけた。\\俺の財布…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "shake"
+    },
     "17": {
       "type": "talk",
-      "dialogue": "ま、そうだろうな。",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ふわぁぁぁ…",
+      "char": "m190_01",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "本当だって！ダビに聞いてみろ！",
+      "dialogue": "おい、待て！待て待て！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "がぶっ！",
+      "char": "m190_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "<b>食われる！食われる！</b>",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "screen_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ぺっ！",
+      "char": "m190_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あ…食われるかと思った…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "財布を探しに来たのか？",
+      "char": "m190_01",
+      "speaker": "same"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "俺の財布を返せ！俺のもう片方の靴下も！\\ダビのヘアゴムも！洗濯バサミとモナの化粧品も！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "19": {
-      "type": "talk",
-      "dialogue": "分かった、分かった。社会の闇を知らない子供が\\どんな脅迫をされたか知らないが…",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "本人に直接聞くのが道理だろう？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "チクショー、俺のせいじゃないっての！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ハハハハ！ある言葉を思い出した。",
-      "char": "m191_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "《やましい奴ほどよく喋る》",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "今の状況にピッタリだろう？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
     "25": {
       "type": "talk",
-      "dialogue": "クフフ…面白い見世物は\\当然広めないと。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "返してほしい？ならば取り返してみろ！",
+      "char": "m190_01",
+      "speaker": "same"
     },
     "26": {
       "type": "talk",
-      "dialogue": "誰に話そうか。\\よし、まずはリザのところから行ってみよう。",
-      "char": "keep",
+      "dialogue": "今度頭を入れたら本当に食べる気だろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "<b>おい！待て！キメラ！キメラ！！</b>",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "screen_effect": "dialog_shake"
+      "dialogue": "よく分かってるじゃないか。",
+      "char": "m190_01",
+      "speaker": "same"
     },
     "28": {
       "type": "curtain",

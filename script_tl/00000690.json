@@ -2,249 +2,186 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "常識的に考えて真夜中に\\どこからともなく音が聞こえたら、",
+      "dialogue": "このくらいで十分だろ。",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "bgm": "19",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "confused"
     },
     "2": {
       "type": "talk",
-      "dialogue": "誰かがいると考えるのが普通だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "これで《十分》だと？\\いったい貴様の基準はどうなっているのだ？",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "しかし、その何者かが泥棒だとは考えにくい。\\少なくてもこの家では。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "175円？これで全部？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "なぜなら、盗める物がないといけないからだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "おい、オマエ！俺の部屋で何してる！",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "fury"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "心配しなくてもいいよ、お兄さん。\\盗みたくても盗むものがないんだからー",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "泥棒のくせに堂々としすぎだ。",
+      "dialogue": "そう言われてもな…\\ってかオマエの基準が常識外れだとは思わないのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "sigh"
     },
-    "9": {
+    "4": {
       "type": "talk",
-      "dialogue": "ブタの貯金箱に入ってたお金がたったの\\175円だなんてー",
-      "char": "c225_01",
+      "dialogue": "何故この私が\\世間の常識に合わせなくてはいけないのだ。",
+      "char": "c222_01",
       "speaker": "same",
       "pos": "right"
     },
-    "10": {
+    "5": {
       "type": "talk",
-      "dialogue": "175円でも泥棒にやる金はない。\\さっさと出てけ。",
+      "dialogue": "オマエ…いろんな意味で憎たらしいな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "とにかく文句言ってもムダだ。\\俺みたいなただのフリーターに\\贅沢させてやる余裕なんかないんだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "エルドラドは俺が持ってきた\\おにぎりを見つめ、ぶつぶつ文句を言った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "こんな貧乏人と契約を交わすべきではなかったわ。",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "え？…いま俺のこと貧乏人って言ったか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "そうだ貧乏人と言った。\\貴様、金の延べ棒を持っているのか？",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "出てく？逃がしてくれるなんて嬉しいねー。",
-      "char": "c225_01",
+      "dialogue": "ハァ？あるわけないだろ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "go_to_right_point"
+      "pos": "left",
+      "facial": "confused"
     },
     "12": {
       "type": "talk",
-      "dialogue": "おい、待て待て。",
-      "char": "c000_01",
+      "dialogue": "24Kの金のネックレスは？",
+      "char": "c222_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "窓を開けて何する気だ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "出てけって言ったじゃん？",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "far"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "部屋のドアから出てけって意味だ！",
+      "dialogue": "俺はただのフリーターだって言ったろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "fury"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "なら貧乏人で間違いない。",
+      "char": "c222_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "くそー！この金の亡者め！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "16": {
       "type": "talk",
-      "dialogue": "面倒だけど、仕方ないか。",
-      "char": "c225_01",
+      "dialogue": "確かに私は金の亡者。\\金は万能だからな。",
+      "char": "c222_01",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "玄関もダメだぞ。",
+      "dialogue": "悪いが俺は、いくら金を積まれても\\オマエみたいな拝金主義者にはならないぞ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ハ？窓もダメ、玄関もダメって。\\どうやって出てけって？",
-      "char": "c225_01",
+      "dialogue": "拝金主義者にはならない？それなら仕方ない。\\契約の記念にアクセサリーのひとつでも\\くれてやろうと思ったが…",
+      "char": "c222_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "家出禁止だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "と言い、彼女は俺に向かって\\金のブレスレットをぶら下げた腕を振ってみせた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "20": {
       "type": "talk",
-      "dialogue": "出てけって行ったのはお兄さんでしょー?",
-      "char": "c225_01",
+      "dialogue": "そ、そんなもんで俺はつられないぞ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "fury"
     },
     "21": {
       "type": "talk",
-      "dialogue": "図々しいヤツ…",
-      "char": "c000_01",
+      "dialogue": "ってのはウソ！\\金万歳！拝金主義万歳！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "near",
+      "facial": "joy",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "22": {
       "type": "talk",
-      "dialogue": "分かったよ。家出がダメなら\\散歩でもしてくるよー",
-      "char": "c225_01",
+      "dialogue": "だから私は金が好きなのだ。\\これさえあればできないことなど何一つない。",
+      "char": "c222_01",
       "speaker": "same",
       "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "そのくらいいいでしょー？",
+      "dialogue": "フフフ。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "そのくらいは許してやる…",
+      "dialogue": "おお！偉大なエルドラド様、万歳！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "joy"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "とでも言うと思ったか！\\またどこかで盗みを働く気だろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "夜空の星のように輝く瞳をした女性の～",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "財布だろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ふふ。",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "俺の家に来た以上、犯罪行為は絶対許さない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "お兄さん、ホントに悪魔？",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "オマエ今、俺のこと悪魔らしくないって思ったろ？\\ダメなものはダメだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "しつこいご主人様だねー\\分かったよ。今日はここまでにするよ。",
-      "char": "c225_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "それって…明日は盗みをするってことか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

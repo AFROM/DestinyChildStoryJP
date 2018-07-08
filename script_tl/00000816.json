@@ -2,192 +2,347 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "データ収集及び分析の結果、\\ウォッチャーが探している悪魔は\\日本にいないと推定されます。",
-      "background": "bg049_f",
-      "bgm": "9",
-      "char": "c002_01",
+      "dialogue": "風邪。もうすっかり良くなりましたね、ご主人さま♥",
+      "background": "bg089_f",
+      "bgm": "8",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それ、本当か？",
+      "dialogue": "ああ、雪のおかげだな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "3": {
       "type": "talk",
-      "dialogue": "困ったわねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "あれから数日後。俺はちょくちょく遊びに来てくれた雪の歌のおかげでぐっすり安眠。\\風邪は完治していた。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m124_01",
-      "speaker": "same"
+      "dialogue": "礼をしたいんだけど、雪って今どこにいるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "5": {
       "type": "talk",
-      "dialogue": "本当に困ったもんだ。\\せっかくここまで来たのに。",
-      "char": "c000_01",
+      "dialogue": "残念ですけど、それはちょっと分かりませんね。\\いま忙しいみたいですから、彼女♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "6": {
       "type": "talk",
-      "dialogue": "俺を心配しているのか？",
-      "char": "m124_01",
-      "speaker": "same"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "…うん。それで？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "御主人様、呑気なこと言ってる場合ではありません。ウォッチャーのターゲットが日本にいないことは\\分かったので、",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ウォッチャーはこれ以上、\\ここに留まることはできません。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "すなわち、これ以上御主人様のチャイルドとして\\働けないということです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "仕方ないだろ。公務執行中なんだし。\\むしろ引き留めたら公務執行妨害に\\なるんじゃないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ウォッチャーは大切な戦力です。\\簡単に諦めすぎではないですか？",
+      "dialogue": "様々な場所で、歌を届けているようです。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "serious"
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ああ、そっか。それがあの子の夢なんだもんな。\\雪もがんばってんだなあ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ええ。御主人様も見習って、チャイルドとの契約に\\励んでください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "へいへい…\\それにしても、ふっと現れたり不思議な子だったな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "礼のひとつも言いたかったんだが、いつ会えるやら…案外、呼べば来たりして。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ねえご主人～ポストに手紙入ってたよ。\\雪からだってさ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "手紙？\\えっと、なになに…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "13": {
       "type": "talk",
-      "dialogue": "やむを得ないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "悪魔さん、あれから体調はいかがですか？",
+      "background": "back",
+      "char": "c359_01",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "one_ani": "attack"
     },
     "14": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m124_01",
-      "speaker": "same"
+      "dialogue": "私は今、大好きな歌を沢山の人に届けています。",
+      "char": "keep",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "15": {
       "type": "talk",
-      "dialogue": "こんな時は！",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "とても素直な気持ちで歌えているのは、あの時あなたに背中を押して貰えたおかげなのかもしれません。",
+      "char": "keep",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "16": {
       "type": "talk",
-      "dialogue": "やっぱり当事者の意見を聞くのが一番ね♥",
+      "dialogue": "ありがとうございます。\\あなたに会えて…良かった。",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "17": {
       "type": "talk",
-      "dialogue": "いつからそんな真面目に…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "悪魔さんのお仕事は、とても危険で大変なものだと\\モナさんからお聞きしました。",
+      "char": "keep",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ウォッチャー、こんなことになっちゃったけど、\\アナタはこれからどうしたいの？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "ですが、悪魔さんならきっと出来ると。\\そう、信じています。どうかがんばってください。",
+      "char": "keep",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人様の言う通り、俺の役割は魔界を脅かす者を\\見つけ出し監視して遮断すること。",
-      "char": "m124_01",
-      "speaker": "same"
+      "dialogue": "私も、がんばります。\\かしこ",
+      "char": "keep",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "near",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "20": {
       "type": "talk",
-      "dialogue": "やっぱり…",
+      "dialogue": "う～ん、マズいなこりゃ。\\なんだかちょっとやる気が出ちゃったぞ。\\これから、二度寝するつもりだったのに…",
+      "background": "bg089_f",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "21": {
       "type": "talk",
-      "dialogue": "だが…その者が逃亡した地域は\\俺の管轄区域ではない。",
-      "char": "m124_01",
-      "speaker": "same"
+      "dialogue": "御主人様がやる気を出すなんて、病気ですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "one_ani": "attack"
     },
     "22": {
       "type": "talk",
-      "dialogue": "え？一人でやってたわけじゃないのか？",
+      "dialogue": "おい！病気は治ったっての！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake",
+      "after_effect": "none"
     },
     "23": {
       "type": "talk",
-      "dialogue": "もちろんだ。\\魔界の犯罪者は数えきれないくらい多い。",
-      "char": "m124_01",
-      "speaker": "same"
+      "dialogue": "たしかに、これは気になっちゃいますね♥\\その手紙、奪っちゃいましょうか♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none",
+      "one_ani": "attack"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だから…俺はここに残って約束を守る。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "手紙独り占めなんて、ズルいよ～\\ご主人～♪",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none",
+      "one_ani": "attack"
     },
     "25": {
       "type": "talk",
-      "dialogue": "約束？",
+      "dialogue": "え…！？ちょ、ちょっとよせ、やめろ！\\こっちは病み上がりで…！\\ギャーーー！？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "26": {
       "type": "talk",
-      "dialogue": "受けた分を返すという約束。",
-      "char": "m124_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "こいつらといると、心休まるヒマもありゃしない。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "27": {
       "type": "talk",
-      "dialogue": "これからは俺がご主人様に協力する。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "早くも雪の歌声が恋しくなってしまった…",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "そう言えば、雪も止んでしまったな。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "また雪が降れば、あいつに会えるかな？",
+      "char": "none",
+      "speaker": "none",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

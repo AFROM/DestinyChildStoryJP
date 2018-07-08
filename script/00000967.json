@@ -1,464 +1,237 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg086_f",
-      "bgm": "9",
-      "fade_in": "shorter",
-      "hold": "shortest"
+      "type": "talk",
+      "dialogue": "ようやく落ち着いたな。\\結局、お前はなんなんだ？チャイルドなのか？",
+      "background": "bg145_r",
+      "bgm": "17",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それでは御主人様…\\くれぐれも、作戦通りにお願いします。",
-      "char": "c002_01",
+      "dialogue": "ちゃいるどでも、ぬいぐるみでもないトリ…\\でもトリにも、よくわからないトリ…",
+      "char": "m246_01",
       "speaker": "same",
       "pos": "right",
-      "voiceid": "200602001"
+      "distance": "near",
+      "facial": "tempt"
     },
     "3": {
       "type": "talk",
-      "dialogue": "くぅ…！\\なんで俺が、メイドカフェで働かなくちゃいけないんだよ！？",
-      "char": "c000_01",
+      "dialogue": "そんなことはどうでもいいよ。\\ほらほら、クマクマの中に入って。\\大事にしてあげるから。ねっ？",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "200602002"
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile"
     },
     "4": {
       "type": "talk",
-      "dialogue": "嫌だ～！\\リザ！お前は悪魔かよっ！！",
-      "char": "keep",
+      "dialogue": "トリー！？\\そんなぬいぐるみの中に、入らないトリー！\\絶対イヤだトリー！",
+      "char": "m246_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake",
-      "voiceid": "200602003"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "お褒め頂き光栄です。",
-      "char": "c002_01",
+      "dialogue": "待って、エルメス。\\やっぱりそれは、いけないことだと思うわ。",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense",
-      "voiceid": "200602004"
+      "pos": "center",
+      "one_ani": "attack"
     },
     "6": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "え…！？\\で、でもさっきまで手伝ってくれるって…",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
-      "type": "curtain",
-      "background": "bg223_f",
-      "bgm": "24",
-      "fade_in": "normal",
-      "hold": "shorter",
-      "char": "c286_00"
+      "type": "talk",
+      "dialogue": "やっぱり可哀想だと思ったのよ。\\エルメスだって、何処かに閉じ込められたら\\イヤでしょう？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "8": {
       "type": "talk",
-      "dialogue": "モーガン。さきほどいらしたお客様はどうでしたか？あの…白髪の女性と御同席していた…",
-      "char": "keep",
+      "dialogue": "それは…そうだけど…",
+      "char": "c036_01",
       "speaker": "same",
-      "voiceid": "200602006"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "よく…分からないです…",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "right",
-      "voiceid": "200602007"
+      "dialogue": "トリー…\\やめて欲しいトリー…",
+      "char": "m246_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そうですか？私は中々のものだと思いましたが…\\モーガンは気に入らなかったようですね。",
-      "char": "c286_00",
+      "dialogue": "う、うぅ…分かった！\\普通の《トリぐるみ》でガマンする！",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200602008"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "確かにあの見た目では、そう思うかも知れませんね…ですが、いずれ必ずあなたも彼を気に入るはずです。",
-      "char": "keep",
+      "dialogue": "偉いわエルメス。ごめんなさいね？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200602009"
+      "pos": "center",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "見た目の問題ではありません…\\それに、たとえどんなお客様でも、私は…",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "right",
-      "voiceid": "200602010"
+      "dialogue": "お姉さん、ありがとうトリー！\\おかげで助かったトリー！",
+      "char": "m246_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "話は後で。どうやら、昔馴染みのお客様が\\いらっしゃったようです。",
-      "char": "c286_00",
+      "dialogue": "お礼に、トリのグッズの詰め合わせをあげるトリー！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200602011"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "歓迎の準備をいたしましょう。\\手伝ってもらえますか、モーガン？",
-      "char": "keep",
+      "dialogue": "雑貨に、食品まであるな…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "voiceid": "200602012"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "はい。ご主人様…\\社長の望みであれば…どんなことでも。",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "right",
-      "voiceid": "200602013"
+      "dialogue": "自分の姿をしたものを他人に食わせるのか…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "16": {
       "type": "talk",
-      "dialogue": "大丈夫、きっとあなたも彼を気に入りますよ…",
-      "char": "c286_00",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200602014"
+      "dialogue": "あら、モナはとっても可愛らしいと思いますよ。\\愛嬌があって♥",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "right",
-      "voiceid": "200602015"
+      "dialogue": "うぅ…いいなあ…いいなあ…",
+      "char": "c036_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "18": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "longer",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ふふ、帰ったらみんなで分けましょ。\\もちろんマヤウェルも仲良くね？",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "19": {
-      "type": "curtain",
-      "background": "bg223_f",
-      "bgm": "64",
-      "fade_in": "shorter",
-      "hold": "shortest",
-      "char": "c296_01"
+      "type": "talk",
+      "dialogue": "まぁ、そうっすね。それで手を打つっす。\\ゲームのお供になるおやつお願いしやっす！",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "いらっしゃいませ～！\\あらら、今度のお客様は、チビっ子様ですね～？",
-      "char": "keep",
+      "dialogue": "お姉さん、ありがトリー！\\おかげで助かったトリー！",
+      "char": "m246_01",
       "speaker": "same",
-      "voiceid": "200602016"
+      "pos": "center",
+      "distance": "near"
     },
     "21": {
       "type": "talk",
-      "dialogue": "う～ん、でもなんだか見覚えが。\\私達、どこかで会いましたっけ～？\\なーんて、古臭い決めセリフを言ってみちゃったり～",
-      "char": "keep",
+      "dialogue": "そんな訳で秋葉原のトリ騒動は、\\モナの活躍で締めくくられたのだったが、\\どうにも俺は腑に落ちない。",
+      "background": "back",
+      "char": "none",
       "speaker": "same",
-      "voiceid": "200602017"
+      "screen_effect": "dark"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いや、昼に会ったばっかりじゃないか！\\サービスとか言って、俺を無理矢理連れ込んだろ！",
-      "char": "c000_01",
+      "dialogue": "だから帰り際、\\こっそりモナに尋ねてみることにした。",
+      "char": "none",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "voiceid": "200602018"
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あらら？\\じゃあ、ヒルドに会いに来てくれたってことですか？やだ～ドキドキしちゃ～う。",
-      "char": "c296_01",
+      "dialogue": "モナ、急にトリを助けたのって、\\何か理由があるんじゃないか？",
+      "background": "bg010_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602019"
+      "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ち、違うから！\\俺は、バイトの応募に来ただけだから！",
-      "char": "c000_01",
+      "dialogue": "理由ですか？\\たとえば？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake",
-      "voiceid": "200602020"
+      "pos": "right",
+      "facial": "pretense"
     },
     "25": {
       "type": "talk",
-      "dialogue": "リザの計画どおり、再度カフェに来たものの…\\ココは思ってたよりヤバい所なのかもしれない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "200602021"
+      "dialogue": "たとえば…トリが人の物欲を刺激するから、\\あのまま放置して契約者を増やすつもり、とか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "あ～ん♥よそ見しないで下さいよ～\\ヒルド寂しくなっちゃう～♥",
-      "char": "c296_01",
+      "dialogue": "…ふふっ、どうでしょうね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602022"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "わ、分かった。分かったから…",
-      "char": "c000_01",
+      "dialogue": "おっきなトリは残念だけど、\\普通の《トリぐるみ》は買えた。\\ふふ、これは将来プレミアが付くはず…",
+      "char": "c036_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "voiceid": "200602023"
+      "pos": "center",
+      "one_ani": "attack"
     },
     "28": {
       "type": "talk",
-      "dialogue": "だってここの店員、全員悪魔じゃん！\\何が「危険はありません」だよ…\\覚えてろよ、リザ～！",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "200602024"
+      "dialogue": "それは分からないけど、いいものっすねー！\\どこに飾ろうかな～",
+      "char": "c022_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
     },
     "29": {
       "type": "talk",
-      "dialogue": "え、えっと、社長はどこですか？\\面接を受けたいんですが…？",
+      "dialogue": "みんなそこそこ納得出来たみたいだし…\\ま、いっか。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200602025"
+      "facial": "smile"
     },
     "30": {
       "type": "talk",
-      "dialogue": "お呼びでしょうか、お客様。\\私が《Café de Petit》の社長、\\ヴェルデレトと申します。",
-      "char": "c286_00",
+      "dialogue": "そうだな、また、暇な時にでも、\\皆で<color=ff9900>アトレ秋葉原</color>にショッピングにでも行くかな…",
+      "char": "none",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "200602026"
+      "screen_effect": "dark"
     },
     "31": {
-      "type": "talk",
-      "dialogue": "再びご来店頂き誠にありがとうございます。\\特にお客様とは…\\とても御懇意にさせて頂いているので…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602027"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "え、俺のこと知ってるの？\\まだ履歴書も出してないけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "200602028"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "失礼しました。正しくは、お客様のご友人を\\よく存じております。",
-      "char": "c286_00",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602029"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ところでお客様。当店がどういった事業を\\行っているか、ご存知でしょうか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602030"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "え？いや、普通じゃないのは分かるけど…\\詳しくは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "voiceid": "200602031"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "マナーは従業員だけではなく、お客様にも\\求められます。その程度は入店前に把握しておくべきではないでしょうか。",
-      "char": "c286_00",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200602032"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "うっ…\\理詰めにしてくるこのやり口、身に覚えがあるぞ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200602033"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "当店はメイドカフェ《Café de Petit》\\しかし、それはあくまで仮の姿…",
-      "char": "c286_00",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602034"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "悪魔のお客様方には解決事務所\\《Café de Petit》と、その名が知られております。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602035"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "それでは改めましてお客様。\\本日ご足労頂いたのは、どういったご用件で\\しょうか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602036"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "いや、だから俺はバイトの応募をしに来ただけなんだけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "200602037"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "ふむ…恐縮ですが、実はお客様のご用件には\\さほど興味はありません。",
-      "char": "c286_00",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602038"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "お客様にご用があるのは、\\むしろ私どもの方なのですから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602039"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "ヒルド。こちらのお客様の、ご対応をお願い\\出来ますか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602040"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "いいよ！いいよ～！\\他の悪魔は暗くて臭いから、嫌だったのよね～",
-      "char": "c296_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602041"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "でも、可愛いチビっ子お客様は大歓迎っ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602042"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "ふふ～っ、と～っても気に入っちゃったかも～♥",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200602043"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "ちょ、ちょっと！\\なんか俺を置き去りにして話が進んでるけど？\\別に俺はケンカしに来た訳じゃないからね！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "voiceid": "200602044"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "さっきからなんかカン違いしてない！？\\いきなり銃をぶっ放すような\\危ない悪魔じゃないからさ、俺！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "200602045"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "それではモーガン。あなたには…\\もう一人のお客様を、出迎える準備をして頂きま\\しょうか。",
-      "char": "c286_00",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200602046"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "私の願い…聞いてもらえますよね？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200602047"
-    },
-    "52": {
-      "type": "talk",
-      "dialogue": "はい…大切なお客様の出迎えの準備を…します。",
-      "char": "c283_00",
-      "speaker": "Morgan",
-      "pos": "right",
-      "voiceid": "200602048"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "ありがとうございます、モーガン。\\それでは、私は他のお客様の対応へ…",
-      "char": "c286_00",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point",
-      "voiceid": "200602049"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "お、おい！どこ行く気だ！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "confused",
-      "before_effect": "shake",
-      "voiceid": "200602050"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "や～ん、よそ見はダメですよ～♥\\チビっ子お客様の担当は、このヒルドなんです\\からねっ！",
-      "char": "c296_01",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200602051"
-    },
-    "56": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

@@ -2,91 +2,89 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "誓うぞ。\\俺はキャプテンを必ず魔王にしてみせる。",
-      "background": "dungeon_bg",
-      "bgm": "21",
-      "char": "c012_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "……",
+      "dialogue": "宜しくお願いしますね、マンティ。",
+      "background": "bg095_f",
+      "bgm": "24",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "教えたルートを動けば\\簡単に見つけ出すことができます。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "心配するな。",
+      "char": "m153_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "4": {
       "type": "talk",
-      "dialogue": "おめでとうございます、御主人様。\\久しぶりに、とても忠誠心の高いチャイルドを手に入れましたね。",
-      "char": "keep",
+      "dialogue": "絶対にばれてはいけません。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "久しぶりって…\\それを聞いたら、ほかのチャイルドが泣くぞ…",
-      "char": "c000_01",
+      "dialogue": "隠れるのは俺の特技だ。",
+      "char": "m153_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "left"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "それで、答えは？",
-      "char": "c012_01",
-      "speaker": "same",
-      "facial": "idle",
-      "one_ani": "attack"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "戦闘中に聞くことか？！\\頼むから集中してくれ…",
+      "dialogue": "ルルル～ララ～",
+      "background": "bg008_f",
+      "bgm": "20",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "集中できてないのはキャプテンの方じゃないのか…？",
-      "char": "c012_01",
-      "speaker": "same"
+      "dialogue": "やっぱりバイト代は封筒でもらうのが一番だな。",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "pretense"
     },
     "9": {
       "type": "talk",
-      "dialogue": "いや、そんなことない！\\いつも俺は戦闘に一生懸命さっ！",
-      "char": "c000_01",
+      "dialogue": "それじゃ、神聖なるバイト代の\\清算式でも始めるとしますか。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense",
-      "before_effect": "shake_weak"
+      "facial": "pretense"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…そうですかね。",
-      "char": "c002_01",
+      "dialogue": "憎たらしいサキュバスのヤツらめ。\\バイトを3件はしごしてるとは\\夢にも思ってないだろう！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "irritation"
+      "facial": "joy"
     },
     "11": {
       "type": "talk",
-      "dialogue": "どこが一生懸命なんだ？\\全くやる気を感じないぜ。\\それは相手に対して失礼だろ？",
-      "char": "c012_01",
-      "speaker": "same"
+      "dialogue": "捕まえた、マスター。",
+      "char": "m153_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "12": {
       "type": "talk",
-      "dialogue": "し、失礼！？",
+      "dialogue": "ひえっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -95,235 +93,27 @@
     },
     "13": {
       "type": "talk",
-      "dialogue": "キャプテンは…戦いたくないのか？",
-      "char": "c012_01",
-      "speaker": "same"
+      "dialogue": "すまないが全部お見通しだ。",
+      "char": "m153_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "いや、そういうわけじゃないんだけど…",
+      "dialogue": "うっ…そんな…嘘、だろ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "cry"
     },
     "15": {
       "type": "talk",
-      "dialogue": "まぁ、いい。今は目の前の戦闘を終わらせる。\\その後、話を聞こう。",
-      "char": "c012_01",
-      "speaker": "same"
+      "dialogue": "大人しく諦めろ。",
+      "char": "m153_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "16": {
-      "type": "talk",
-      "dialogue": "あ～何か不安なんだけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "17": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "さぁ～て！\\戦闘も終わったことだし、さっさと家に帰るかな？",
-      "background": "bg064_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense",
-      "before_effect": "enter_from_left_slow"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "家に帰る？\\まだ話が終わってないぞ。",
-      "char": "c012_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あ～も～！\\何が不満なんだか知らないけど適当に良しとしよう！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "なっ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "joy"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "それはできない。これは重要な問題だ。\\俺はチャイルドで、キャプテンは主人だからな。",
-      "char": "c012_01",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "本当に良いチャイルドを手に入れましたね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "あぁ、ホントだよ…\\仲間ができてよかったな、リザ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "もう一度、キャプテンに問おう。\\主人に戦う意志が無いのに、チャイルドが戦う意味はあるのか？",
-      "char": "c012_01",
-      "speaker": "same"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "そんなこと言われたって、しょうがないだろ？\\俺は魔王になるつもりなんてないんだから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ならば、キャプテンは何がしたいんだ！？",
-      "char": "c012_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ヒイィッ！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "いいか、よく聞け。\\キャプテンに付き従うチャイルドの存在理由とはなんだ？\\この戦いに何の意味がある？",
-      "char": "c012_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "魔王になりたくないのなら、なぜ戦う？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それは、モナたちが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "サキュバスたちを言い訳にするな！\\キャプテンの意思はどこにある！？",
-      "char": "c012_01",
-      "speaker": "same",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "キャプテンは、俺たちの存在を無視する気か？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "いや、無視してない…\\そういうことじゃなくて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "1つだけ選んでくれ。進むか、退くか…\\立ち止まっているのは性に合わない。",
-      "char": "c012_01",
-      "speaker": "same"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "どうか、俺の思いを無駄にしないでくれ。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "う～ん…\\答えを出したら、誰もいなくなるかもしれないな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "真剣に考えてください。御主人様。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "ああ…ごめん。わかってる。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "まぁ、すぐに答えを出さなくてもいいさ。\\キャプテンを責めてるわけじゃないからな。",
-      "char": "c012_01",
-      "speaker": "same"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "お前が求める答えじゃないかもしれないぞ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "何を話している、キャプテン？",
-      "char": "c012_01",
-      "speaker": "same"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "キャプテンの選択が俺の選択だ。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

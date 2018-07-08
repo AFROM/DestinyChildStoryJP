@@ -1,118 +1,53 @@
-{
+﻿{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ねぇ！\\お願いだから、トリを捕まえるの、手伝ってよ！！",
-      "background": "bg036_f",
-      "bgm": "20",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "欲しい物は、なんでも手に入れてきた。",
+      "background": "e048_01_f",
+      "bgm": "15",
+      "char": "c194_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ダダをこねるなって…\\さっきだって、俺達が手を貸さなきゃ危なかったろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "可愛い物、美しい物、キラキラした物…\\人の心でさえも。",
+      "bgm": "keep",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "3": {
       "type": "talk",
-      "dialogue": "それに、トリも迷惑してたぞ？もう、諦めろって…\\ホラ、行くぞ。",
+      "dialogue": "つまり、何が言いたいのかというと…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": "same_full"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うううぅ…っ！待って！",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "dialogue": "私が手に出来ない物はないということ。",
+      "char": "keep",
+      "speaker": "same_full"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ボクのコレクションを、何でもいいからあげる！\\だから、トリを捕まえるのを手伝ってよ！",
+      "dialogue": "だから、私の手から逃げるものは許さない。\\それが誰であっても…",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same_full",
+      "distance": "near"
     },
     "6": {
       "type": "talk",
-      "dialogue": "正直、ちょっと驚いた。\\エルメスが心底大事にしてるコレクションを譲るなんてこと、まず考えられないからだ。",
+      "dialogue": "　　　　",
       "char": "none",
       "speaker": "none",
-      "screen_effect": "dark"
+      "mvd": "effect/battle/sfx_atk_skill_drive_light_c194.mvd",
+      "background": "back_red"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "おまけに「何でもいいから」と来た。\\つまりそれぐらい本気であのトリを欲しがってるということだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "…はぁ、分かった。手伝ってやるよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ホント！？",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ああ。その代わり、\\さっきみたいな勝手な行動はなしだ。\\わかったな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "うんっ！うんっ！\\ありがとう！",
-      "char": "c036_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "はぁ…\\本当に、御主人様はチャイルドに甘すぎます。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "irritation"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "なんか、いい話っぽくなってるけど、\\やろうとしてることは誘拐と大差ないって思うのは\\ダビだけなの～？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ふふ、それで全然かまわないんじゃない？\\とっても悪魔的だし♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "pretense"
-    },
-    "15": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

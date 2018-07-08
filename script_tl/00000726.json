@@ -2,14 +2,259 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "覚悟はいいわね？",
-      "background": "bg200_f",
+      "dialogue": "このマヌケー！\\すっとこどっこい！",
+      "background": "bg113_f",
       "bgm": "9",
-      "char": "c244_01",
+      "char": "c238_01",
       "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
+      "type": "talk",
+      "dialogue": "うわっ！？また始まった！\\今度は何だ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "脳みそないの？その頭は飾りなの？\\マヌケにもほどがあるわ！プンスカ！",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "お、俺が何をしたって言うんですか、先輩！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "…あ、いたの？ごめん～\\特に何もないんだけどね。\\ただちょっとイライラして…\\思い出し怒りみたいなもん？",
+      "char": "c238_01",
+      "speaker": "same"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "それにしても、あんたの顔見てると、\\こうモヤモヤっとしてきて、イライラっと…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "はあ。そういう顔ですいませんね…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それに、何かにつけてすぐ謝る態度！\\それも気に入らないわ。",
+      "char": "c238_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "生まれてきてスミマセンでしたっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "メブ姐さんは、《ハロウィン応援団》として\\人間界にやってきた悪魔の大先輩だ。",
+      "background": "bg109_f",
+      "char": "none",
+      "screen_effect": "dark"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "本人曰く、\\諸事情につき魔王争奪戦に参加しなかったそうだ。",
+      "char": "none",
+      "screen_effect": "dark"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あのね。ルシフェロの奴が千年早く引退してたら\\あんたみたいな半端な悪魔はとっくに脱落してたわ。",
+      "char": "c238_01",
+      "speaker": "same"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "このメブ様の手によってね！\\おほほっ！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "は、はいいっ！多分、そうでしょうね！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "魔界の女性で一番腕っぷしが強いメブ姐さんに\\かかったら、まったく大げさな話ではない。\\俺なんか豆腐みたいに握りつぶされてしまうだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "しかし腕っぷしの話はタブーだ。\\どうやら姐さんは可愛い女の子として扱われたいみたいだからな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "このドアホウが～！",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "わっ！お、俺は何も言ってないっすよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "shake_weak"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "私の腕っぷしが強いって顔してたわよ！\\それよりねえ、これくらいでそんな驚いていたら…",
+      "char": "c238_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦なんて途中で弾き飛ばされるわよ！\\…もしかして、このメブ様の《教育》が足りないとでも言うんじゃないでしょうね？",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "きょ、教育…？\\そんなの、いつ受けましたっけ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "なぁにぃ？\\何か言ったかしら～？",
+      "char": "c238_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ひええっ…\\な、何も言ってません！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ふん！\\流行りのスイーツショップに行った帰りに\\ちょっと寄っただけなのに。\\そんなじゃ放っておけなくなるわね。",
+      "char": "c238_01",
+      "speaker": "same"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "さて、どこから鍛えようかなぁ～っと。\\腕も細いし、度胸もないし、頭も…\\ふう、気が遠くなりそうねぇ…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "サポーターの苦労が目に浮かぶわ…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "何か言うことは？",
+      "char": "c238_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "は、はいっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "before_effect": "shake_weak",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "あら。いいわね、その返事。一番気に入ったわ♥\\これからも、気合入れてついて来なさいよぉ！",
+      "char": "c238_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "これからも…？\\あ、あのいつまでいらっしゃるつもりです…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "さあ。少なくともあんたが自立して\\自分で歩けるようになるまでかしら？",
+      "char": "c238_01",
+      "speaker": "same"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

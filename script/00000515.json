@@ -2,229 +2,310 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "やあ、悪魔！\\モナがここに来ればいいって教えてくれたけど、\\偶然だね！",
-      "background": "bg070_f",
-      "bgm": "14",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "はい、ちゅうもーく！\\こっから、よく聞くこと！",
+      "background": "bg002_f",
+      "bgm": "20",
+      "char": "c003_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "俺がここにいるの分かってる時点で\\偶然でもなんでもないだろ…",
-      "char": "c000_01",
+      "dialogue": "うんうん。",
+      "char": "c184_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "よし！偶然会ったから\\ちょっと親密度を上げてみようか！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "この路地を抜けると、細い脇道があるの。\\家の間にあって、道には全然見えない奴。",
+      "char": "c003_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "今日は私とデートだよ！\\",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "デート！？\\何だよ、デートって！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ドキドキしてる！？\\私の片方の足かせと手錠をはめて\\二人三脚デートだよ！",
-      "char": "c189_01",
+      "dialogue": "おぉ～！\\そういう話が聞きたかったの！",
+      "char": "c184_01",
       "speaker": "same",
       "pos": "right"
     },
-    "7": {
+    "5": {
       "type": "talk",
-      "dialogue": "何の罰ゲームだよ！\\",
+      "dialogue": "その道をまっすぐ行くと、花屋さんが見えてくる。\\その花屋さんを右に曲がると…",
+      "char": "c003_01",
+      "speaker": "same"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "駅に出るよな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "7": {
+      "type": "talk",
+      "dialogue": "そう！\\んで、その駅から電車に乗れば…",
+      "char": "c003_01",
+      "speaker": "same"
+    },
     "8": {
       "type": "talk",
-      "dialogue": "くっ…私とのデートが罰ゲームだなんて…\\ご褒美に決まってるでしょ！",
-      "char": "c189_01",
+      "dialogue": "海に行ける～！",
+      "char": "c184_01",
       "speaker": "same",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "どこがっ！\\",
+      "dialogue": "海～！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "joy"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そうだ、まだ親密度が低いからね。\\少しずつポイントが貯まれば悪魔も優しくなるはず！",
-      "char": "c189_01",
+      "dialogue": "には行けないぞ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near",
+      "facial": "superangry",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ついに現実と仮想世界の\\区別ができなくなったか…",
-      "char": "c000_01",
+      "dialogue": "ひいっ！\\出たわね、ヤンデレサイコストーカー束縛系男子！",
+      "char": "c184_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "失礼だね！そのくらい区別できるよ！\\だから悪魔は好感度100点になったら、\\犯した罪を自白するようになる！",
-      "char": "c189_01",
+      "dialogue": "ひどいな。せめて責任感の強いご主人様、\\と呼んでくれないか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "そこからもう区別できてないみたいだけど…\\モナのせいだな。",
-      "char": "c000_01",
+      "dialogue": "お行儀悪いよ！\\勝手に乙女の内緒話を盗み聞きするなんて！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "とにかく！！デートよ！\\デートすれば全て解決するって言ってたし！",
-      "char": "c189_01",
+      "dialogue": "なぁ～にが乙女の内緒話だ…\\お前らが揃ったらろくな話はしてないって、\\聞く前からわかってたよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake_weak"
     },
     "15": {
       "type": "talk",
-      "dialogue": "俺に手錠と足かせを一つずつかけてか？\\",
+      "dialogue": "ふん。",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "エリシオンだけでも手に負えないのに、\\ダビまで協力したら、\\収拾がつかなくなるだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "16": {
+    "17": {
       "type": "talk",
-      "dialogue": "あっ！そう！嬉しい！やっと理解してくれたんだ！\\",
-      "char": "c189_01",
+      "dialogue": "「しゅうしゅう」なんて、\\最初からつけるつもりなんかないもんね！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "17": {
-      "type": "talk",
-      "dialogue": "断る！！\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
     "18": {
       "type": "talk",
-      "dialogue": "どう見てもデートじゃなくて\\罰ゲームだろ！",
-      "char": "keep",
+      "dialogue": "はいはい、最終的には、\\心労で寝込んだりしてほしいんだろ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ひどっ！\\",
-      "char": "c189_01",
+      "dialogue": "あったりー♪",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "smile",
+      "one_ani": "attack"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あらあらぁ。\\苦労してるみたいねぇ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "モナ先生！\\",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "今の時代、サポーターは先生にもなれるのか。\\",
+      "dialogue": "こんな奴が俺のサキュバスだなんて…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
+    "21": {
+      "type": "talk",
+      "dialogue": "それと、ついて来い。エリシオン。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "な、何？\\もしかして罰でも与えるつもり？",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "先生！悪魔の親密度を上げることができません！\\心の壁が高すぎます！",
-      "char": "c189_01",
+      "dialogue": "あっ！女の子に暴力振るうなんて、\\サイテーだぞ、ご主人！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "フフ。\\それを壊して旗をさしたら大きな達成感が\\得られると思わない？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "人聞き悪いこというな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "25": {
       "type": "talk",
-      "dialogue": "確かに！さすが先生！\\そうね！難しい程、クリアした時の喜びは大きい！",
-      "char": "c189_01",
+      "dialogue": "…海、行きたいんだろ？\\だったら行こうよ。今から。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "smile"
     },
     "26": {
       "type": "talk",
-      "dialogue": "俺はゲームの中の要塞か…\\クリアしても報酬アイテムはないぞ。",
+      "dialogue": "…！",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "でも、ひとりで行くのはダメだ。\\誰が狙ってるかわからないし…\\つーわけで、嫌かもしれないけど俺がついてく。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "い、いいわ！\\それくらい、許してあげる！",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "…まったく。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "30": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ヨーホー！\\海いいいい！！",
+      "background": "bg061_f",
+      "bgm": "14",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ちょっとはスッキリしたか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "27": {
+    "33": {
       "type": "talk",
-      "dialogue": "それはやってみないと分からないよ！\\それに、クリアしたら間違いなく報酬はもらえる。",
-      "char": "c189_01",
+      "dialogue": "ちょっぴりね。\\だけど、本当の願いは、あたしだけの楽園で、\\ずーっと遊びながら暮らすことよ。",
+      "char": "c184_01",
       "speaker": "same",
       "pos": "right"
     },
-    "28": {
+    "34": {
       "type": "talk",
-      "dialogue": "はあ…もう知るか。\\モナも来たことだし、二人で遊んでてくれ。\\俺は帰る。",
+      "dialogue": "へえ…\\その願い、俺のと似てるかも。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "まあ、確かに。\\ひきこもりのボッチにとっては、\\理想郷よね。",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "でも、家に閉じこもってるだけじゃ、\\本当の楽園にはたどり着けない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "まー、ひとりで来れなかったのは残念だけど。\\とりあえず、やっぱり海は大好き。\\想像していたよりも、ずっとずーっと、好き！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "連れてきてくれて、ありがとね。",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "…よかったよ。\\それじゃ、もうこれからは、\\脱出しないって考えていいんだよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "えっ？このエリシオンがこれだけで、\\満足すると思う？",
+      "char": "c184_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "はいはい…\\じゃあ、自分の部屋で満足の俺が、\\負けってことでいいよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
-      "after_effect": "go_to_left_point"
+      "facial": "sigh"
     },
-    "29": {
-      "type": "talk",
-      "dialogue": "あら、ご主人さま帰っちゃったわ。\\あなたはこれからどうするの？",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "もちろん、罪を犯した悪魔に自白させる！\\…私の心を奪ったその罪の自白をね！",
-      "char": "c189_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "これはまた、面白みがありそうね♥\\大変だと思うけど、がんばって♥",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "32": {
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

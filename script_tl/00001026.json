@@ -2,7 +2,7 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "登場する<color=\"ff9900\">敵の情報</color>です。\\<color=\"ff9900\"><b>[戦闘準備]</b></color>をタップしてください♥",
+      "dialogue": "手動戦闘でも、通常攻撃は操作なしで自動的に行われます。",
       "background": "back_dim50",
       "char": "c255_01",
       "speaker": "none",
@@ -10,19 +10,7 @@
     },
     "2": {
       "type": "talk",
-      "dialogue": "ステージは<color=\"ff9900\">3回繰り返し</color>できて、\\毎回<color=\"ff9900\"><b>アンダーグラウンドコイン</b></color>をもらって報酬がもらえます。",
-      "char": "keep",
-      "speaker": "none"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "もし負けても、\\敵のHPは負けたときの状態で維持されます。",
-      "char": "keep",
-      "speaker": "none"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ただ、戦闘の結果を見ないで<color=\"ff9900\">脱走</color>すると\\<color=\"ff9900\">プレイ可能な回数だけ消耗</color>されますので注意してくださいね♥",
+      "dialogue": "さあ、これからノーマルスキルはご主人さまがボタンをタップすると発動されます。\\試しに<color=ff9900><b>ノーマルスキル</color></b>をタップしてみましょうか？",
       "char": "keep",
       "speaker": "none"
     }

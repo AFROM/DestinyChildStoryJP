@@ -2,416 +2,282 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "そろそろ限界かしら？\\お～ふっふっふっふ～情けないトサカ野郎！\\いい加減、もう飽きてきたわね。",
-      "background": "bg197_f",
-      "bgm": "100",
-      "char": "c003_14",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "voiceid": "500102001"
+      "dialogue": "ピッグボス…",
+      "background": "bg119_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "さあ、もう終わりの時間よ！\\3代目魔王ダビに逆らった罪、その体で償いなさい！",
-      "bgm": "10",
-      "char": "keep",
+      "dialogue": "なんだ？人を呼びつけておいて…\\さっさと用件を言え。",
+      "char": "m206_01",
       "speaker": "same",
-      "facial": "joy",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "500102002"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あっ！良い事思いついたわ！まずはモナ姉さまから\\この魔王ダビが食べてあげる…！",
-      "char": "c003_14",
+      "dialogue": "えーとだな…だから…\\何、ちょっと確認したいことがあるというか…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "fury",
-      "voiceid": "500102003"
+      "pos": "left",
+      "facial": "irritation"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あ～れ～！",
-      "bgm": "1",
-      "char": "c001_17",
-      "speaker": "same",
-      "facial": "shock",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_atk_skill_drive_fire_c003.mvd",
-      "voiceid": "500102004"
+      "dialogue": "ピックボスが《ハーレム街、連続暴行事件》の犯人かどうか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "魔王ダビの恐ろしい魔法でクッキーに～…",
+      "dialogue": "こんな危ない事件を起こしたかもしれないヤツに面と向かって聞くなんて、とても怖い！",
       "char": "none",
-      "speaker": "cookiemona",
-      "image": "mona_cookie_01",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "500102005"
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ご主人さま、短い時間でしたが会えて幸せでした！\\さようなら…",
-      "char": "none",
-      "speaker": "cookiemona",
-      "screen_effect": "dialog_shake",
-      "image": "mona_cookie_01",
-      "voiceid": "500102006"
+      "dialogue": "おい！俺をからかってるのか？\\さっさと用件を言わないと、ただじゃおかんぞ！？",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "7": {
       "type": "talk",
-      "dialogue": "パリ…ポリ…",
-      "char": "none",
-      "speaker": "none",
-      "sound": "se_tutorial_bed",
-      "voiceid": "500102998"
+      "dialogue": "はいっ！\\アナタが犯人ですかっ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "えっ、モナ…？モナ～～！\\ちくしょ～～～！",
-      "char": "c000_01",
+      "dialogue": "ん？何の話だ。",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "shock",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "500102008"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あれ…これは涙…？\\俺、泣いてるのか？",
-      "char": "keep",
+      "dialogue": "ハーレム街、連続暴行事件だよ…\\お前の仕業なのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "cry",
-      "voiceid": "500102009"
+      "facial": "irritation"
     },
     "10": {
       "type": "talk",
-      "dialogue": "う～ふふ～\\これでモナ姉さまはダビと1つになったよ♥\\おほほほ！おほほほ！おほほ…",
-      "char": "c003_14",
+      "dialogue": "ハーレム街のだと？\\それはどんな事件だ？",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "joy",
-      "after_effect": "shake",
-      "voiceid": "500102010"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ペッ！ペッ！",
+      "dialogue": "ああ…思い出したぞ。\\今、噂になってるヤツか。",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake",
-      "voiceid": "500102999"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "おい！この野郎！\\モナを食っておいて、吐くとはなんだ！\\吐くぐらいなら食うなよっ！",
+      "dialogue": "で、どうなんだよ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake",
-      "voiceid": "500102011"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "うっ…\\なんか、俺も気持ち悪くなってきた…うっ！",
-      "char": "keep",
+      "dialogue": "そうだ、俺がやった。あまりにも舐めたヤツが多くてな。身の程もわきまえず、俺に盾突きやがって。",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "before_effect": "shake",
-      "voiceid": "500102012"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふんっ、うるさいわね！\\それじゃあ、次のクッキーはだ～れだ？",
-      "char": "c003_14",
+      "dialogue": "それにな、売られた喧嘩を買うのは礼儀ってもんだ。",
+      "char": "keep",
       "speaker": "same",
-      "voiceid": "500102013"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "……\\私の完璧なタングステンボディをクッキーにするわけにはいきません。\\あのような姿になるぐらいなら…",
-      "char": "c365_02",
+      "dialogue": "まぁ、頭に血が上っちまってたからよ、巻き込まれたヤツもいたんじゃねーか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "500102014"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "なっ！？\\や、やめろリザっ！\\いや、対魔王決戦兵器デビルバスター初号機リザ～！",
+      "dialogue": "お前…いい加減にしろよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake",
-      "voiceid": "500102015"
+      "facial": "confused"
     },
     "17": {
       "type": "talk",
-      "dialogue": "自爆シークエンス起動、最終承認完了。\\3…2…1…さようなら、御主人様…\\どうか、ご無事で…",
-      "char": "c365_02",
+      "dialogue": "お前に懸賞金をかけるって話まで出てるんだぞ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "loop_ani": "attack",
-      "voiceid": "500102016"
+      "pos": "left",
+      "facial": "fury"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ビビビビーーチュドーン！",
-      "char": "none",
-      "speaker": "none",
-      "before_effect": "shake",
-      "mvd": "effect/scenario/c365_self_boom/scenario_set.mvd",
-      "voiceid": "500100999"
+      "dialogue": "ブッヒッヒ！\\最近聞いた話じゃ、一番うれしい話だな。\\俺の名声が高まるってもんだ！",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "リザ～～！！\\バカヤロー！！",
-      "bgm": "15",
+      "dialogue": "名声じゃなくて、悪名の間違いだろ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake",
-      "after_effect": "shake",
-      "voiceid": "500102018"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "たとえクッキーになっても…\\俺は…お前に…生きて欲しかったっ…！",
-      "char": "keep",
+      "dialogue": "このバカ野郎がっ！",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "voiceid": "500102019"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "21": {
       "type": "talk",
-      "dialogue": "うふふふふ～これで2人きりね。\\それじゃ、おバカなウスラトンカチのトサカ野郎\\には、どんな罰を与えようかしら？",
-      "char": "c003_14",
+      "dialogue": "ヒィ～ッ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "smile",
-      "voiceid": "500102020"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そう、これは…\\永遠に終わらない罰なのよ。",
-      "bgm": "100",
-      "char": "keep",
-      "distance": "near",
-      "voiceid": "500102021"
+      "dialogue": "悪名は力！力は名声だ！\\このピッグボスこそ、ハーレムのボスに相応しい！",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うひ…\\うひひ……\\ひ～っひっひっひっひ！！",
-      "bgm": "100",
+      "dialogue": "これは、その足掛かりにすぎん！\\腰抜けのお前には理解できんだろうがな。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "facial": "joy",
-      "voiceid": "500102022"
+      "pos": "right"
     },
     "24": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "酷い言い方だな…\\仮にも俺が生み出したチャイルドだろう？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
     },
     "25": {
-      "type": "curtain",
-      "background": "back_red",
-      "fade_out": "longer",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ふんっ。",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "26": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "shorter",
-      "wait": "normal",
-      "fade_in": "longer"
+      "type": "talk",
+      "dialogue": "ううう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "27": {
-      "type": "curtain",
-      "background": "bg086_f",
-      "fade_out": "longer",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "お前が、ハーレム街の頂点に立ったなら…\\主人と言うのも考えてやる。",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "28": {
-      "type": "curtain",
-      "background": "bg086_f",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "longer"
+      "type": "talk",
+      "dialogue": "そんな条件なら、考えるまでもないよ。\\俺がハーレム街の頂点なんて不可能だから。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ピピピピ…ピピピピ…\\ピピピピ…ピピピピ…",
-      "background": "bg086_f",
-      "char": "none",
-      "speaker": "none",
-      "sound": "se_tutorial_alarm"
+      "dialogue": "ところでさ…\\なんで、よりによってハーレム街なんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "30": {
       "type": "talk",
-      "dialogue": "……！",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "俺が楽しめる場所が他にあると思うか？",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake",
-      "voiceid": "500102024"
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ハァ…ハァ…ハァ…何だ？！",
+      "dialogue": "暗く、陰気で腐臭が漂うあの場所こそ、ピックボスの王国に相応しいじゃないか！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "500102025"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "32": {
       "type": "talk",
-      "dialogue": "夢…？",
+      "dialogue": "他に理由が必要なのか？",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "500102026"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "夢…だよな？",
-      "char": "keep",
+      "dialogue": "いいや…\\本当にお前に合ってる気がするよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "500102027"
+      "pos": "left"
     },
     "34": {
       "type": "talk",
-      "dialogue": "ううう、よかった。本当に良かった…！",
+      "dialogue": "俺には1つも相応しくないけどな。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake",
-      "voiceid": "500102028"
+      "facial": "haah"
     },
     "35": {
       "type": "talk",
-      "dialogue": "どうしたんですか、ご主人さま？\\朝からそんな大泣きをして？\\怖い夢でも見ましたか？",
-      "char": "c001_01",
+      "dialogue": "そうか…\\なら、お前がハーレム街の王になる事はないな。\\同時に俺がお前を《主人》ということもないわけだ。",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile",
-      "voiceid": "500102029"
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "ああ、いつものモナだ…\\そうなんだよ、本当に怖い夢だった…\\うわ、冷や汗…服がビチャビチャだ。",
-      "char": "c000_01",
+      "dialogue": "ブッヒッヒ！良いぞ！とても気に入った！！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "cry",
-      "voiceid": "500102030"
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "うわあ～ご主人！\\子供みたいに怖い夢見て泣きながら起きたの？",
-      "char": "c003_01",
+      "dialogue": "はぁ…\\結局、平行線なわけね…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "victory",
-      "before_effect": "enter_from_right_fast",
-      "voiceid": "500102031"
+      "pos": "left",
+      "facial": "sigh"
     },
     "38": {
-      "type": "talk",
-      "dialogue": "はあ…いつも通りのダビだ…\\こんなに安心できるなんて…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile",
-      "voiceid": "500102032"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "こう見ると、お前本当にかわいいな！\\あんな姿のダビとは、もう二度と会いたくないよ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "voiceid": "500102033"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "あんな姿のダビって…？",
-      "char": "c003_01",
-      "speaker": "same",
-      "voiceid": "500102034"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "もしかして…",
-      "bgm": "100",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "500102035"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "こんな、姿かしら～？",
-      "background": "back_red",
-      "bgm": "1",
-      "char": "c003_15",
-      "speaker": "same",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "500102036"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "えっ…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "voiceid": "500102037"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "うあああああああああ～！！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "shock",
-      "before_effect": "shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "500102038"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "うっふふふふ…これで2人きりね。\\そう、これは…\\永遠に終わらない罰なのよ～",
-      "char": "c003_15",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "voiceid": "500102039"
-    },
-    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

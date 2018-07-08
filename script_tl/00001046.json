@@ -1,10 +1,161 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "bg076_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">覚醒</color>はチャイルドの真の力と\\ストーリーを引き出す成長方法です。覚醒を進めるためには<color=\"cc66ff\"><b>オニキス</color>が必要です。",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "… …",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "… …",
+      "char": "c085_01",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "生きることが面倒だから、\\地球が滅亡してほしい。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "目が合ったとたん、変な音がした。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そして一体なんだ、こいつ！\\<color=CC66FF>チャイルド名探偵</color>とか言ってるけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "私は人間のオスが嫌い。",
+      "char": "c085_01",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "near"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "そして悪魔はもっと嫌い！\\こんなこと、お金の為にしてるだけ。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "toonear"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あなたの美人なサポーターから必死にお願いされて\\仕方なく出てきたの。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "さっさと説明するから、よく聞いて！\\私の特技は<color=CC66FF>観察</color>。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "観察…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "頻繁に呼び出されるチャイルドがどんなヤツか<color=CC66FF>観察</color>した後、\\その情報を<color=CC66FF>チャンネルEvil</color>に提供する。",
+      "char": "c085_01",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "どうして、チャンネルEvilに…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "<color=CC66FF>チャンネルEvil</color>で誰かが言ってた。",
+      "char": "c085_01",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "他の悪魔たちに<color=CC66FF>頻繁に呼び出されるチャイルド</color>は、\\一般的に<color=CC66FF>疲労</color>が蓄積されて弱くなるって。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "<color=CC66FF>疲労</color>…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "質問しないで！イヤらしいヤツ！",
+      "char": "c085_01",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "逆に<color=CC66FF>あまり呼び出されないチャイルド</color>は力が<color=CC66FF>蓄積</color>されて、\\<color=CC66FF>撃攘</color>状態になってるの。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "私はそのチャイルドたちの<color=CC66FF>情報</color>を提供する役割。\\以上！じゃあ、美人サポーターに約束守るように伝えて。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "その約束って一体…\\って、もう行っちゃったよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "confused"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

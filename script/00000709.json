@@ -2,307 +2,326 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "これで何度目？\\先生が許せるのも限界があるわ。",
-      "background": "bg014_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "きゃっ！？",
+      "background": "bg089_f",
+      "bgm": "4",
+      "char": "c229_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "誰だ！？\\泥棒かっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "enter_from_left_fast",
+      "screen_effect": "dialog_shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "口がついてるなら話しなさい。\\この前はテストのカンニング。\\今度は誰かの課題を丸写し？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "…あれ？ブラウニーじゃないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…すみませんでした。",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "も、申し訳ありません。お皿を割ってしまいました…決してわざとではありません、本当にすみませんでした…！",
+      "char": "c229_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "その痣はどうしたの？友達とケンカでもした？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ちょっと暗かったので、つい手元が狂って…\\でも、このお皿は弁償いたします…\\本当に申し訳ありません…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "い、いえこれは…転んで怪我しただけです。",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "いいよ、いいよ。\\それより、ケガはしてないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "この課題はなかったことにするわね。\\明日までやってきなさい。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "大丈夫です。お皿を落とした瞬間、\\素早く避けましたから。",
+      "char": "c229_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "はぁ…もう戻っていいわ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "あっ…\\避ける余裕があるならお皿をキャッチすればよかったですね。\\どうしてそんなこと考え付かなかったんでしょう…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "はい…",
-      "char": "c230_00",
-      "speaker": "same_full"
+      "dialogue": "いいって。そんなに高くないお皿だし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "私っていつもこうです…\\考えるよりも先に体が動いて…グスン…\\あっ、でもこのお皿、駅前の100円均一のお店のですよね？",
+      "char": "c229_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "この課題をやったのは私。\\書き写したのはあの子たち。\\私はやってない、私は…",
-      "background": "bg064_f",
-      "char": "c230_00",
-      "speaker": "same_full",
+      "dialogue": "明日新しいの買って来ます。\\これくらいの安物なら私でも買えますから！",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "私は世界の運命を背負った…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "うっ…\\きっと悪気はないはず、悪気は…",
+      "char": "none",
+      "speaker": "same",
+      "screen_effect": "dark"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ここで何している？",
-      "char": "c230_01",
+      "dialogue": "ところで、なんでここにいるの？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "あ、アナタは…？",
-      "char": "c230_00",
-      "speaker": "same_full",
+      "dialogue": "あ！忘れるところでした！\\お客様に最新の情報をお伝えしようと思いまして！",
+      "char": "c229_01",
+      "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "私のことを知る必要はないわ。\\さっさと家に帰りなさい、ここは危険よ。",
-      "char": "c230_01",
+      "dialogue": "裏社会のか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "危険？",
-      "char": "c230_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "契約者同様、情報収集力に長けたブラウニーは\\その能力を十分に活かし、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "17": {
       "type": "talk",
-      "dialogue": "さっきここで何かの力を…\\いや、アナタが知る必要はない。",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "裏社会で情報屋をしている。\\主の俺からも情報料はきっちり取っていくが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "18": {
       "type": "talk",
-      "dialogue": "早くここを離れなさい！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "screen_effect": "dialog_shake"
+      "dialogue": "とにかく、その情報は何かと役に立つ。\\小動物みたいにちょこまか動いてそそっかしいところと、早口でまくしたてるところを除けば、なかなか使えるヤツだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "19": {
       "type": "talk",
-      "dialogue": "スクルド！",
-      "bgm": "12",
+      "dialogue": "今度はどんな情報だ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "enter_from_left_fast"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "遅かったわね？",
-      "char": "c230_01",
+      "dialogue": "はい。早くお伝えしたくて、直接持って来ました。",
+      "char": "c229_01",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "かくれんぼはこのくらいにしとこう。",
+      "dialogue": "持って来た？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry"
+      "facial": "confused"
     },
     "22": {
       "type": "talk",
-      "dialogue": "フフ…ついに結論を出すときが来たのか？",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "プー！！",
+      "char": "c229_00",
+      "speaker": "same_full",
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ああ、そうだ！\\かかってこい。力の限り相手してやる！",
+      "dialogue": "これが情報！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "とりゃ！",
-      "char": "c230_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "ブラウニーの契約者は猫社会で情報屋をしていたチンチラだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ネックスライス！",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "serious",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "dialogue": "そもそもチンチラが猫の情報屋だったなどという荒唐無稽な話を信じろというほうがおかしいのだが…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
       "type": "talk",
-      "dialogue": "くっ！背後から…攻撃してくるとは…！",
-      "char": "c230_01",
+      "dialogue": "どうやら契約者様が\\ものすごい情報を手に入れたようなのです。",
+      "char": "c229_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "気絶…したよな？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "プー？プイプイ？プイ？プーッ！",
+      "char": "c229_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "はい。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "通訳頼む…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "29": {
       "type": "talk",
-      "dialogue": "あの、一体これは…",
-      "char": "c230_00",
-      "speaker": "same_full",
+      "dialogue": "では、通訳いたします。\\お客様を狙っている悪魔を見つけたそうです。",
+      "char": "c229_01",
+      "speaker": "same",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ああ、気にしないでくれ。アイツ、病気なんだよ。\\これは治療みたいなもんだ…",
+      "dialogue": "そんなのいくらでもいるさ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "haah"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ところであんなダサい技名を\\叫ぶ必要があったでしょうか？",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "その悪魔は暗黒街の実力者で、多くの犯罪者を裏で\\操っていて…",
+      "char": "c229_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "気分の問題だ。",
-      "char": "c000_01",
+      "dialogue": "汚れた欲望を持つ犯罪者の魂を利用して大量にチャイルドを生み出しているようです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "知ってはいましたが…\\御主人様もこのチャイルドと同じくらい厄介ですね。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "それ、どこかで聞いた気がするな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "34": {
       "type": "talk",
-      "dialogue": "あの、この人…誰ですか？\\ひょっとして…この人の名前…",
-      "char": "c230_00",
+      "dialogue": "プー？プーッ？プ？ププ！",
+      "char": "c229_00",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near"
     },
     "35": {
       "type": "talk",
-      "dialogue": "気にするなって。\\そして、見なかったことにしてくれ。\\恥ずかしいから…",
+      "dialogue": "そして、その悪魔は今まさにお客様のところに寝首をかこうと忍び寄っていて…",
+      "char": "c229_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "来たぞ！",
+      "char": "c037_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "ぎゃ～～～！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "…ってお前かよ、ユダ！\\まぁ、そんな予感はしたけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "36": {
-      "type": "talk",
-      "dialogue": "御主人様、あの女性はスクルドの契約者では\\ありませんか？\\この際、再契約しましょう。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ダメだ。そんなことしたらヤツが\\また目を覚ますだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "それも困りますね…\\ネックスライスと、もう一度叫びたくはありません。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
     "39": {
       "type": "talk",
-      "dialogue": "やりたくないんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
+      "dialogue": "まさか、凄腕の情報屋であるベリー様よりも早く動くなんて…！",
+      "char": "c229_01",
+      "speaker": "same"
     },
     "40": {
       "type": "talk",
-      "dialogue": "とにかく、全て解決！俺たちはもう帰るから\\キレイさっぱり忘れてくれ。",
-      "char": "keep",
+      "dialogue": "そのネズミが遅いんだろ？大体一歩が小さすぎる。\\あっという間に追い越せたぜ？",
+      "char": "c037_01",
       "speaker": "same",
-      "pos": "left",
-      "after_effect": "go_to_left_point"
+      "pos": "right"
     },
     "41": {
       "type": "talk",
-      "dialogue": "いい機会なのに、残念です。",
-      "char": "c002_01",
-      "speaker": "same",
-      "after_effect": "go_to_left_point"
+      "dialogue": "ネズミじゃありません！チンチラです！！",
+      "char": "c229_01",
+      "speaker": "same"
     },
     "42": {
       "type": "talk",
-      "dialogue": "あの女性、すごく似ている。想像の中の私の姿と…",
-      "char": "c230_00",
+      "dialogue": "プー！！",
+      "char": "c229_00",
       "speaker": "same_full"
     },
     "43": {
       "type": "talk",
-      "dialogue": "あの人の名前も…《スクルド》かしら。",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "もういい加減にしろ～！\\チンチラも悪魔も…\\まとめて俺の家から出ていけ～っ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "unfair",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "44": {
       "type": "curtain",

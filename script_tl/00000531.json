@@ -2,313 +2,294 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あら…あの男性、イケメンね。\\きっと…あっちのタイプね…夜になると…",
-      "background": "bg003_f",
-      "bgm": "31",
-      "char": "c209_01",
+      "dialogue": "私でお役に立てるでしょうか…？",
+      "background": "bg095_f",
+      "bgm": "9",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "うお…いきなり何だよ？",
+      "dialogue": "なんだよ、リザ。\\珍しく弱気じゃないか。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何とはなによっ！\\ああ、きっと夜ごと洗濯機を回すタイプに\\違いないわっ！",
-      "char": "c209_01",
+      "dialogue": "ええ…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "さっきまでイケメンだって\\褒めてたんじゃないのか…？",
+      "dialogue": "頼れるのはお前だけなんだ\\しっかりしてくれよ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "pretense"
     },
     "5": {
       "type": "talk",
-      "dialogue": "人は見かけじゃないわっ！\\私には全て分かるの…あ、あの男！",
-      "char": "c209_01",
+      "dialogue": "むぅ…",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "pos": "right"
     },
     "6": {
-      "type": "talk",
-      "dialogue": "今度はあの男がどうしたって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "きっと他の男がいるに違いないわっ！",
-      "char": "c209_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "はぁ？\\男にほかの男って…\\お前って何を言ってるんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "現にほら、女性と腕組んで歩いてるじゃないか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "curtain",
-      "background": "bg091_f",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "11": {
-      "type": "curtain",
-      "background": "bg018_f",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "フフッ、ちゃんと見なさい…\\あの女は恐らく妹…",
-      "background": "bg018_f",
-      "char": "c209_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "だからって追いかける必要はなかっただろ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "腕を組んで歩く兄妹なんていないって言うけど、\\全くいないわけじゃないわ…あっ！ホラ！",
-      "char": "c209_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "だからそんなはずないだろ。\\さっさと戻って…あっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ホラ！見て！\\女を見送った後、他の男と！",
-      "char": "c209_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "いや待てよ、友達かもしれないだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ハズレ！\\わからない？\\友達同士で同じ香水は使わないでしょ。",
-      "char": "c209_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "なんでわかるんだよ、お前…\\それにしてもすごい観察力だな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "20": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "21": {
+    "7": {
       "type": "talk",
-      "dialogue": "まあ…このご時世だから珍しくもないけどね。\\はぁ～…",
-      "background": "bg002_f",
-      "char": "c209_01",
+      "dialogue": "ファイロ！\\ぶっ殺してやるぜ！",
+      "background": "bg095_f",
+      "bgm": "12",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "彼氏？彼女？みんな呪われてしまえっ！",
-      "char": "c209_01",
-      "speaker": "same",
-      "pos": "right",
       "distance": "near",
+      "one_ani": "attack",
       "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "23": {
+    "8": {
       "type": "talk",
-      "dialogue": "そんな横暴な…\\というか、なんでいきなり呪いが出てくるんだよ",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "それは私がと～っても怖くて邪悪な…\\魔女だからよっ！",
-      "char": "c209_01",
+      "dialogue": "来たようですね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
+      "facial": "sigh"
     },
-    "25": {
+    "9": {
       "type": "talk",
-      "dialogue": "機嫌を直せよ…\\魔女がチャイルドになったからって\\何も変わらないだろ？",
-      "char": "c000_01",
+      "dialogue": "フェニックス…すみませんが、\\ここにファイロはいませんよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ファイロ！\\ぶっ殺してやるぜ！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "left",
+      "screen_effect": "dialog_shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…フェニックス。\\冷静な話し合いで解決してはどうですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "話し…合い…？",
+      "char": "c007_01",
       "speaker": "same",
       "pos": "left"
     },
+    "13": {
+      "type": "talk",
+      "dialogue": "ええ、既にあなたは御主人様のもの。\\そして、それはファイロも同じ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふたりとも、御主人様の大切な戦力なのです。\\それなのに相争っては…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "この野郎！",
+      "char": "c208_01",
+      "speaker": "same",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ぐわっ！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "…なぜ、あなたがここに…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "大丈夫ですか、リザさん！",
+      "char": "c208_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "はぁ…\\私より、彼に聞くべきではありませんか。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "何言ってるんだ！\\あいつがお前を攻撃したんじゃ…",
+      "char": "c208_01",
+      "speaker": "same"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "こうなるんじゃないかと、思っていましたが…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "え？\\今、なんて…",
+      "char": "c208_01",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "フェニックスは、\\私を攻撃するつもりなどありませんよ。\\私はあなたじゃないのですから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ファイロを探しては殺すと騒ぐから、\\うるさくてかないません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "だからこそ、御主人様は\\私をガードマンとしてここに立たせたんです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
     "26": {
       "type": "talk",
-      "dialogue": "そうね、何も変わらないわ。\\乱暴な悪魔や魔女の子孫でもね！\\何も変わりゃしないわよ！",
-      "char": "c209_01",
+      "dialogue": "それなのに…あなたが急に現れるから…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "いつまで昔のことを根に持ってるんだよ！",
-      "char": "c000_01",
+      "dialogue": "どうしてここにいるんです？\\御主人様は、あなたを預かると言っていたでしょう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "right"
     },
     "28": {
       "type": "talk",
-      "dialogue": "お前、他人の日記帳見て\\書かれてるのが自分のことだと思うタイプだろ？",
-      "char": "keep",
+      "dialogue": "こざかしい！\\だから俺が出て行くのを邪魔したんだな！！",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "before_effect": "shake"
     },
     "29": {
       "type": "talk",
-      "dialogue": "えぇそうよ、ごめんなさいね。\\妄想オタクな上に夢みてるって、毎日怒られてるわ！",
-      "char": "c209_01",
+      "dialogue": "…こっちも愚か者でしたか。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "文学少女が夢見る妄想家って当然の事でしょう？\\それがそんなに悪いことなの…？",
-      "char": "keep",
+      "dialogue": "かかってきやがれ、ファイロ！\\ぶちのめしてやるからよ！\\オマエを殺して、俺が《ファイロ》になってやる！",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "center",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "distance": "near"
     },
     "31": {
       "type": "talk",
-      "dialogue": "うん…",
-      "char": "c000_01",
+      "dialogue": "ふん！\\お前に俺が倒せると思っているのか！！",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "one_ani": "attack"
     },
     "32": {
       "type": "talk",
-      "dialogue": "夢みて何が悪いのよ！",
-      "char": "c209_01",
+      "dialogue": "ひとりでもうるさいのに、さらに増えるだなんて…\\頭が痛くなりそうです。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "facial": "irritation"
     },
     "33": {
       "type": "talk",
-      "dialogue": "感性ってのは、\\廃れちゃいけないものなのよ！",
-      "char": "keep",
+      "dialogue": "<b>とりゃあ！</b>",
+      "char": "c007_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "34": {
       "type": "talk",
-      "dialogue": "そんな感性の廃れた人たちが\\社会に溢れたらどうなることか…",
-      "char": "keep",
+      "dialogue": "<b>行くぞっ！</b>",
+      "char": "c208_01",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "35": {
       "type": "talk",
-      "dialogue": "はいはい…",
-      "char": "c000_01",
+      "dialogue": "人間界には、こういう言葉があります。\\「馬鹿につける薬なし」",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "ヘカテーは魔女の末裔。\\そのせいか、人間の時とさほど違いはない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "申し訳ありません、御主人様。\\やはり私では力不足のようです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "37": {
       "type": "talk",
-      "dialogue": "既に悪魔に近い状態だったからではないかと\\思っているが…それが全てではないだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "うりゃっ！",
+      "char": "c007_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "38": {
       "type": "talk",
-      "dialogue": "恐らく、欲望と向かい合って正直に生きてきたのだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "くっ！",
+      "char": "c208_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
     },
     "39": {
-      "type": "talk",
-      "dialogue": "あれこれ口数も多いし、無責任な想像もするが。\\友人としては悪くないと思っている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

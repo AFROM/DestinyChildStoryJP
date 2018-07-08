@@ -2,162 +2,312 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "演奏が終わり前を見ると♪\\私はひとりぼっち♪",
-      "background": "bg177_f",
-      "bgm": "15",
-      "char": "c115_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "悪魔を嫌う契約者の記憶のせいなのか、\\エリオスは悪魔である俺のことを嫌っている。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "徘徊していた霊も消え♪\\ひとりぼっち♪ひとりぼっち♪",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "たまに俺を見る目つきから殺気すら感じる時がある。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…\\ひとりぼっちの歌♪ひとりぼっちの宴♪",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "でも俺はチャイルドの好感を\\買わないといけない立場のため",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
+      "type": "talk",
+      "dialogue": "どうにかしてエリオスの心を開かなければならない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "エリオスは本が好きです。 それを利用してみるのはどうでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "本が好き、か…他の情報は？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "本を買いたがっているようでしたが…\\何か悩みがあるようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "悩み、か。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "9": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "5": {
-      "type": "talk",
-      "dialogue": "ふうん…\\ひとりぼっちの歌、ひとりぼっちの宴、ですか。",
-      "background": "dungeon_bg",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "モナはそう思いませんけどね。\\魔界にも人間界にも、歌はどこにでもありますから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "それはそうと、ソネットの契約者は\\もう着いた頃かしら？\\たしか魔界に行くと言っていたけれど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "私の…契約者？",
-      "char": "c115_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "あらあら、悪い子ね♥\\サキュバスの独り言を盗み聞きなんてしちゃダメよ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "left"
-    },
     "10": {
       "type": "talk",
-      "dialogue": "私の契約者、どこに行ったの…？",
-      "char": "c115_01",
+      "dialogue": "エリオス。",
+      "background": "dungeon_bg",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "毎日毎日、とあるチャイルドが奏でる曲を聞いて\\行ってしまったわ♥",
-      "char": "c001_01",
+      "dialogue": "むやみに呼ぶなと警告したはずだが…",
+      "char": "c112_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "丁寧にあいさつまでしてたけれど、\\その様子だと知らなかったみたいね。",
-      "char": "keep",
+      "dialogue": "そんなムキになるな。\\ひとつ提案をしに来たんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ずっと泣いてたのよ彼女。\\だけど曲を聴いたら、\\すっきりした顔で行ってしまったわ♥",
-      "char": "keep",
+      "dialogue": "悪魔とは取り引きしない。",
+      "char": "c112_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "タン、タン、タタン、タタタン~って\\口ずさみながらね。",
-      "char": "keep",
+      "dialogue": "取り引きじゃない。俺の優しさだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "葬送行進曲…",
-      "char": "c115_01",
+      "dialogue": "悪魔の優しさ？笑わせるな。",
+      "char": "c112_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "あら、あれってレクイエムだったのね？\\レクイエムを演奏するチェリスト、ね。",
-      "char": "c001_01",
+      "dialogue": "聞いたところによると、読書が好きらしいな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ご主人さまも、時々すごい子を作るのね♥\\あなたを作ったのは間違いなんじゃないかって、\\落ち込んでたくせに♥",
-      "char": "keep",
+      "dialogue": "それで？",
+      "char": "c112_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right",
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "あはは…",
-      "char": "c115_01",
+      "dialogue": "読みたい本がたくさんあって、\\本を置くスペースがないとか…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "mvd": "none"
+      "pos": "left",
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うふふ、悲しそうね♥",
-      "char": "c001_01",
+      "dialogue": "…何が言いたい？",
+      "char": "c112_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "right",
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "悲しいんじゃない♪\\悲しみを吐き出しているの♪\\悲しみ♪悲しみ♪悲しみ♪",
-      "char": "c115_01",
+      "dialogue": "俺の部屋を貸してやろうか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "loop_ani": "attack"
+      "pos": "left",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "おバカなご主人様♪\\これからも悲しませてあげる♪",
-      "char": "keep",
+      "dialogue": "…お前の部屋を？",
+      "char": "c112_01",
       "speaker": "same",
-      "distance": "near",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "22": {
+      "type": "talk",
+      "dialogue": "ああ。俺の部屋に、読みたい本を好きなだけ\\置いておくんだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "何を企んでいる？",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "だから優しさだってば。\\とにかく、提案はしたからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "…ふん。俺の足で悪魔の部屋に来いと？ふざけてる。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "な、なんだコレ…",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "screen_effect": "shake_weak"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "来たのか。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "こ…この本ってまさか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "少しだけのつもりがつい買いすぎてしまった。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "全然少しじゃないし。\\ここで本を売ってもおかしくないぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "何だ？今さら提案したことを撤回するのか？\\やはり悪魔を信じるべきじゃないな。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "いや、撤回はしないけど。俺は嘘はつかない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "…いいだろう、信じてやる。\\なら、これからも…た、頼む。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "これから何だって？声が小さいなー。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "これから読書している間は静かにしろと言ったんだ。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "私語厳禁、紙を破る音、飲食禁止、\\いびきをかいてもダメだ。それから…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "…優しくしすぎたかな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

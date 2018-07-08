@@ -1,421 +1,273 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg188_f",
-      "bgm": "26",
-      "fade_in": "shorter",
-      "hold": "shortest"
+      "type": "talk",
+      "dialogue": "自請妃(じせいひ)…\\素直に御主人様のチャイルドになりましたが、彼女には気を付けるべきでしょう。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c002_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ふふ…ふふふ…うふふふ！\\悪魔たちがいっぱいね～\\本当にこれから魔王争奪戦が始まるのね！\\うふふふ～",
-      "bgm": "26",
-      "char": "c324_01",
-      "speaker": "same",
-      "before_effect": "enter_from_left_fast"
+      "dialogue": "彼女の行動には裏があります。",
+      "char": "keep",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あら、勝手に笑いが出てきちゃう…\\だめよ、モナ。気を引き締めていかないと！",
-      "char": "keep",
+      "dialogue": "裏っていうと、やっぱり…",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "shake_weak"
+      "pos": "left",
+      "facial": "haah"
     },
     "4": {
       "type": "talk",
-      "dialogue": "おい！",
-      "char": "c215_00",
+      "dialogue": "自由でしょう。",
+      "char": "c002_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "きゃあ！",
-      "char": "c324_01",
+      "dialogue": "御主人様に近づき、黄泉の花を奪い、それを手土産に以前の主人から自由を得る。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "screen_effect": "shake"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "お前、ボケっと突っ立って何してる？\\通行の邪魔……\\何だ、お前…サポーター？",
-      "char": "c215_00",
+      "dialogue": "まぁ、そんなところでしょうか。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "<color=999999>悪魔…？</color>\\<color=999999>侮られちゃダメ！自分を売り込まなきゃ…</color>",
-      "char": "c324_01",
-      "speaker": "same",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "こんにちは、サポーターのモナと言いま～す！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "サポーターのモナ？聞いた事ない。\\見たところ素人か？",
-      "char": "c215_00",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "し、素人じゃありません！\\れっきとしたサポーターです！",
-      "char": "c324_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "そんな名前、聞いたことない。",
-      "char": "c215_00",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "お前、悪魔に仕えたこと、1回もないだろ？\\魔王争奪戦には参加したことあるか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "そ、それは…\\でも、誰にでも初めてはありますよね？\\それにモナは優秀ですよ！だからモナを信じて一度…",
-      "char": "c324_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "面倒くさい…\\邪魔だから、どいて。",
-      "char": "c215_00",
-      "speaker": "same",
-      "pos": "center",
-      "after_effect": "go_to_left_point"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "あっ………",
-      "char": "c324_01",
-      "speaker": "same"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "ふん！モナの実力に気が付かないなんて！！\\見た目でしか判断できない悪魔なんて、たかが知れてるわ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "私もアナタみたいな悪魔は願い下げよ！",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "いけない…また冷静さを失っちゃった。\\う～ん…この性格は少し問題ね。",
-      "char": "keep",
-      "speaker": "same",
-      "before_effect": "shake_weak"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "さあ～！\\それではモナのために魔王様になってくれる、格好いい悪魔を探しに行きましょうか！",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "20": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "hold": "normal"
-    },
-    "21": {
-      "type": "curtain",
-      "background": "bg188_f",
-      "bgm": "24",
-      "fade_in": "longer",
-      "hold": "shortest",
-      "char": "c050_02"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "サポーターのモナか…\\初耳だな。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "主人がまだ見つかってないのか？\\俺もサポーターが必要な立場だが…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "あれぐらいのサポーターなら腐るほどいるからな…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "25": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    },
-    "26": {
-      "type": "curtain",
-      "background": "bg218_f",
-      "bgm": "14",
-      "fade_in": "normal",
-      "hold": "shorter"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "よっと…",
-      "char": "c324_01",
-      "speaker": "same",
-      "one_ani": "attack",
-      "sound": "se_summon",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "う～ん…\\やっぱり、先に魔界でご主人さまを探して来た方がよかったかな？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "そ、それにしても、人間界も大したことないわね。\\悪魔の代わりに人間達が住んでるだけでしょ？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "初めて来たけど、きっとすぐ慣れるはずだわ！\\はは！はは…は…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "ところで…ここはどこ？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "う～ん…\\ここから東へ行くと悪魔たちが集まってるとレーダーに…",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "…東ってどっちかな？",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "しょうがないわね。魅了術を使いましょうか…\\人間たちは弱いから、簡単に術にかかると思うし？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "道もわかって、契約用の人間も確保できて…\\ふふっ！一石二鳥ね♥",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "37": {
-      "type": "curtain",
-      "background": "bg218_f",
-      "fade_in": "normal",
-      "hold": "normal"
-    },
-    "38": {
+    "8": {
       "type": "talk",
-      "dialogue": "こんにちは。そこの坊や♥\\よかったらモナに道を教えてくれないかな？",
-      "char": "c324_01",
+      "dialogue": "旦那はん。\\どこに黄泉の花を隠したんでっか？",
+      "background": "bg041_f",
+      "bgm": "31",
+      "char": "c301_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "さ、さあ？\\どこでしょうかねぇ…？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "enter_from_left_fast"
+      "facial": "pretense"
     },
-    "39": {
+    "10": {
       "type": "talk",
-      "dialogue": "お前は…",
-      "char": "c050_02",
+      "dialogue": "どこでしょうかねぇ…？",
+      "char": "c301_01",
       "speaker": "same",
       "pos": "right"
     },
-    "40": {
+    "11": {
       "type": "talk",
-      "dialogue": "モナに道をちょっと…",
-      "char": "c324_01",
+      "dialogue": "知ってんのか、知らへんのかどっちどすか？\\魔王候補生なら、もっとはっきり言うておくれやす。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "俺も初めての道だ。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "だ、だからモナに道を…",
-      "char": "c324_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "道だけじゃなく、俺の言う事もわからないようだな。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "な、何？どうして魅了術が…\\ええ？人間じゃなくて、もしかして…悪魔？",
-      "char": "c324_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "screen_effect": "dark"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "サポーターを名乗るものが気が付かないなんてな…",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "ち、違います！\\調子を合わせただけですよ、悪魔様！",
-      "char": "c324_01",
-      "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "before_effect": "shake"
     },
-    "47": {
+    "12": {
       "type": "talk",
-      "dialogue": "まったく、何の調子だ…",
-      "char": "c050_02",
-      "speaker": "same"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "<color=999999>思い出した！</color>\\<color=999999>あの悪魔、《暴君オード》じゃない？</color>\\<color=999999>なんて幸運！</color>",
-      "char": "c324_01",
+      "dialogue": "だってなぁ…\\俺が知りません！って言っても、お前信じて\\くれるか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "まさか。そないなわけあらへんやんか。",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "なら、どうしろってんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "悪魔に騙され、なかば強引にチャイルドにさせられた自請妃――",
+      "char": "none",
+      "speaker": "none",
       "screen_effect": "dark"
     },
-    "49": {
+    "16": {
       "type": "talk",
-      "dialogue": "<color=999999>有力な魔王候補生に出会えるなんて！</color>\\<color=999999>この機会を逃すわけにはいかない…</color>",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
+      "dialogue": "彼女の以前の主人は、自由を与える代わりに伝説の花《黄泉の花》を要求したという。",
+      "char": "none",
+      "speaker": "none",
       "screen_effect": "dark"
     },
-    "50": {
+    "17": {
       "type": "talk",
-      "dialogue": "こんにちは、オード様！\\私はサポーターのモナと言いま～す！",
-      "char": "keep",
+      "dialogue": "旦那はん、ワザとはぐらかそうとしてんやないか？",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right",
+      "one_ani": "attack"
     },
-    "51": {
+    "18": {
       "type": "talk",
-      "dialogue": "それで？",
-      "char": "c050_02",
+      "dialogue": "ホ、ホントに知らないんだって！\\カンベンしてくれ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "go_to_left_point"
     },
-    "52": {
+    "19": {
       "type": "talk",
-      "dialogue": "え、え～と…\\私がオード様の魔王争奪戦をお手伝いして差し上げます！！",
-      "char": "c324_01",
+      "dialogue": "はぁ…悪魔ってヤツはいっつもこう。\\ウソつくわ、騙してくるわで…ほんま最悪！",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "center"
-    },
-    "53": {
-      "type": "talk",
-      "dialogue": "オード様を魔界史上、最も偉大な魔王にして…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "54": {
-      "type": "talk",
-      "dialogue": "お前の手は必要ない。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "55": {
-      "type": "talk",
-      "dialogue": "…はい？",
-      "char": "c324_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "56": {
-      "type": "talk",
-      "dialogue": "どいてくれるか？俺は忙しいんだ。",
-      "char": "c050_02",
-      "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "after_effect": "go_to_left_point"
     },
-    "57": {
+    "20": {
       "type": "talk",
-      "dialogue": "あっ………",
-      "char": "c324_01",
-      "speaker": "same",
-      "pos": "center"
+      "dialogue": "柳道士から黄泉の花を託されて以来、こうやって自請妃はしつこく俺に花をよこせとせがんでくる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "58": {
+    "21": {
       "type": "talk",
-      "dialogue": "もうっ、何なのよ～！！",
+      "dialogue": "うるさくて仕方ない。\\だが、かといって黄泉の花を渡したら…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "bg098_f",
+      "fade_out": "normal",
+      "fade_in": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "どうせ花を手に入れたら、さっさと出てくつもりなんだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "当たり前や！",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "即答かよっ！？\\そんなヤツに渡せるわけないだろうが！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "見た目の割には、強情な旦那やなぁ！",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "お前の方こそ、しつこいんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "俺の事情も考えてくれよ。\\花を渡したら、柳道士に怒られるだろうし…",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "pos": "left"
     },
-    "59": {
+    "29": {
+      "type": "talk",
+      "dialogue": "お前の以前の主人に、みすみす超レアアイテムの黄泉の花を渡しちまうことになるだろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "なんでやケチ！\\魔王には興味あらへん言わはったやあらへんか！",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "俺は魔王には興味ないけど、ライバルにプレゼントを送る趣味もないのっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "まったく、煮え切らへん半端なヤツ…！",
+      "char": "c301_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "なにぃ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "そないな半端な態度を見せられて、ウチが考え直すとでも思うてはるん？",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "今に見ときや…\\絶対《黄泉の花》を手に入れて、自由を取り戻したるさかい！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "はぁ…\\どこかに心の休まるところ、無いかな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

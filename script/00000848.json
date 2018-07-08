@@ -2,256 +2,253 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お兄ちゃーん♥",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c272_01",
+      "dialogue": "キャンディーおいしー！",
+      "background": "bg089_f",
+      "bgm": "20",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "facial": "smile"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何だ？急に甘えてくるなんて。\\お前何かたくらんでるだろ…",
+      "dialogue": "そんなに甘い物ばっか食べてると歯が腐るぞ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "pretense"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そ、そんなことないよ！\\ただ、お兄ちゃんに聞いてほしいお願いがあるだけ！",
-      "char": "c272_01",
+      "dialogue": "ふん！ダビはそんなのちっとも怖くないよ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お願い？…ってどんなお願いだよ…",
+      "dialogue": "本当に恐ろしいのが何か知ってるか？\\それはな、人間界の歯医者さ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "distance": "near",
+      "facial": "serious"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ピクシーのお願い聞いてくれるの！？",
-      "char": "c272_01",
+      "dialogue": "はい…しゃ…？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いや、だからまず、どんな願いなのか聞いてから…",
+      "dialogue": "そうさ。火花が散る尖った拷問器具で\\お前の歯をひとつずつ削っていくんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "toonear",
+      "facial": "shock"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ひええええ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "心配しないで、ダビ。歯医者さんに行くには\\沢山のお金が必要だから、ご主人さまには無理よ♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "そうなんだ！\\へへ、よかった。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はいはい、よかったね。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ところでそのキャンディーどうしたんだ？\\まさか、バイト先のコンビニでこっそり\\盗んだわけじゃ…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "違う！ダビはそんなことしないもんっ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "じゃあ、どうしたんだよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "7": {
-      "type": "talk",
-      "dialogue": "ふわああん！\\お願い聞いてくれないの！？",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "うわっ！わ、わかった！\\聞く！聞くから泣くなって…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ほんと！？\\へへへ。じゃあ、これ受け取って。",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "これ…手紙か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "うん！\\ママに渡しておいて！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ママに…か。\\何が書いてあるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ナイショ！\\ママに書いた手紙なんだから、\\お兄ちゃんは読んじゃダメだからね！",
-      "char": "c272_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "one_ani": "attack"
-    },
     "14": {
       "type": "talk",
-      "dialogue": "わ、わかってるよ。",
-      "char": "c000_01",
+      "dialogue": "銀行強盗のお姉さん！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "15": {
+      "type": "talk",
+      "dialogue": "え？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "まさか…リベンジガールの契約者？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "17": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "…「わかってる」とは言ったものの、\\ダメと言われると余計に見たくなるんだよな。\\ちょっとくらいなら…",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "外道ですね。\\子供相手に嘘をつくなんて…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
     "18": {
       "type": "talk",
-      "dialogue": "うわっ！\\お、驚かすなよ…",
+      "dialogue": "はあ、はあ…もう遅かったか？\\はあ…死ぬほど走ったのに…",
+      "background": "bg098_f",
+      "bgm": "24",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "facial": "sigh"
     },
     "19": {
       "type": "talk",
-      "dialogue": "俺はてっきり、\\悪魔らしいって\\褒めてくれると思ったんだけどな…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "dialogue": "ここで何をしている？また私の邪魔を…",
+      "char": "m142_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "褒めるに値しない、幼稚な行為です。",
-      "char": "c002_01",
+      "dialogue": "そうだ！邪魔しに来たんだよ！\\今度こそ現行犯逮捕のつもりが逃がしてしまった。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "angry"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ま、まあ、確かに、\\子供の手紙を覗き見するなんて\\情けないかもしれないけど…",
-      "char": "c000_01",
+      "dialogue": "お前、契約者と何を企んでる？\\契約者がなぜ俺の住む町に来たんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "angry"
     },
     "22": {
       "type": "talk",
-      "dialogue": "でも、これはピクシーがママに書いた手紙だろう？\\どんな内容かぐらい知っておかないと、\\主人としてはいけないだろう？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "お前と契約者を再契約させるためだ。\\再契約するのが嫌なのか？",
+      "char": "m142_01",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "はいはい。\\お好きになさってください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
+      "dialogue": "面白い悪魔だな。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "な、なんだよ？\\とりあえず、さっそく読んでみるぞ。",
+      "dialogue": "この前もそうだし、何かあるんだろう？\\俺に嘘ついてることがあるなら今すぐ言ってくれ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ママ、お元気ですか？\\嘘つきなおじさん悪魔に捕まって、毎日怖くて大変だけど、ピクシーは元気です。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そうすれば許してやる。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "おいおい。\\まさか、嘘つきなおじさん悪魔って…",
+      "dialogue": "誰が誰を許すって？",
+      "char": "m142_01",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "私は誰からの許しも求めていない。\\私が求めるものはアイツの破滅のみ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "誰にも邪魔はさせない！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "うっ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "おい！リベンジガール！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "27": {
-      "type": "talk",
-      "dialogue": "状況から察するに、\\御主人様を指しているようですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "子供ってさ、想像力豊かだよね…\\さ、続き続き。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "毎日怖くて大変だけど、ピクシーは元気です。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "特に大変なのは、\\嘘つきなおじさんが毒の入った食べ物を\\無理やり食べさせようとすることです。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
     "31": {
       "type": "talk",
-      "dialogue": "こちらは、御主人様が偏食するピクシーに、\\無理やりピーマンを食べさせようとしたことを示しているようです。",
-      "char": "c002_01",
+      "dialogue": "はあ…服が汚れたよ…リザに怒られるな…\\それよりアイツの願いって…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "32": {
       "type": "talk",
-      "dialogue": "毒って…\\俺はただピクシーが元気に大きく育つようにと思ってやってたのに…",
-      "char": "c000_01",
+      "dialogue": "…何だっけ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
+      "facial": "irritation",
+      "distance": "near"
     },
     "33": {
-      "type": "talk",
-      "dialogue": "親の心子知らずとはよく言ったものですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

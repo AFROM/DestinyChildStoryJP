@@ -1,140 +1,212 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "back",
-      "bgm": "66",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "しっかり隠れなさい。お尻が丸見えよ～",
+      "background": "bg245_f",
+      "bgm": "18",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "激化の一途を辿る魔王争奪戦…\\今日もまた、\\各地で激しい戦いが繰り広げられていた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "アハハハハッ…フフフフッ…\\かくれんぼなんて何年ぶりかしら。契約者の記憶では12歳の頃かな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
-      "type": "curtain",
-      "background": "bg119_f",
-      "bgm": "66",
-      "fade_out": "shortest",
-      "wait": "shorter",
-      "fade_in": "shorter"
-    },
-    "4": {
       "type": "talk",
-      "dialogue": "ぐあっ！",
+      "dialogue": "おい、アシュトレス！そんなに暴れるなよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "after_effect": "go_to_left_jump",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "facial": "fury",
+      "before_effect": "shake"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "どうしてですか？",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ご主人さま、さがってください…！",
-      "char": "c001_01",
+      "dialogue": "ど、どうしてって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "teach",
-      "before_effect": "enter_from_right_fast",
-      "after_effect": "go_to_left_fast"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "終わりの見えない戦いに、チャイルドたちは\\疲弊していた。\\それは、チャイルドを使役する悪魔も同じ事。",
+      "dialogue": "俺のチャイルドには、基本的に危ない目にはあってほしくない。それが俺の正直な気持ちだけど…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
-    },
-    "8": {
-      "type": "curtain",
-      "background": "bg178_f",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "9": {
       "type": "talk",
-      "dialogue": "い、いやだ！もう、やめてくれ！",
-      "char": "none",
-      "speaker": "DemonA",
-      "screen_effect": "shake",
-      "mvd": "effect/battle/sfx_story_sword_003.mvd"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "はっ！どいつもこいつも不甲斐ない。\\もっと骨のあるヤツはいないのか！",
-      "char": "c051_02",
-      "speaker": "same",
-      "before_effect": "enter_from_right_slow"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "朝から晩まで戦いばかり…髪もお肌もボロボロ…\\もういやっ！！",
-      "char": "c048_01",
-      "speaker": "same",
-      "distance": "near",
-      "after_effect": "shake"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "彼らは求めていた。\\休息を、そして安らぎを…",
+      "dialogue": "アシュトレスに限っては、何かが違う。そんな感じがする。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "俺はアシュトレスに何が言いたいんだ？\\《そんなに暴れたら危ない》とか《おとなしく主人の言うことを聞け》とか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "でも、こんな言葉はアイツには伝わらないだろう。\\何か決定的に噛み合っていない。すごく危険なそんな感じだ…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "はぁ、こんな面倒なことになるなんて想定外だ。\\あんなヤツだなんて想像もしてなかった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "全部、ご主人のせいじゃない！\\相談無しに勝手に契約したんだしね！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "いや、俺はただ…\\アシュトレスの契約者がどれだけ無謀なことをしたのか、教えてやりたくて。",
+      "char": "c000_01",
+      "pos": "left",
+      "facial": "sad",
+      "speaker": "same"
+    },
     "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "まさか、こんなことになるなんて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "14": {
-      "type": "curtain",
-      "background": "bg075_f",
-      "fade_out": "normal",
-      "wait": "normal"
+      "type": "talk",
+      "dialogue": "優しいのですね。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ここは何処？また迷ってしまったのかしら…\\はぁ、もう、疲れたわ…",
-      "char": "c124_00",
-      "speaker": "same"
+      "dialogue": "フフフッ。さぁご主人様、このアシュトレスが敵を見つけましたよ。あなたの命を付け狙う悪魔があそこにいます。いかがいたしましょうか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "積もり積もった思いは、スポットの許容限界を\\超えようとしていた。",
-      "background": "back",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "首を斬れば即死でしょう。\\でも、それでは、あまり楽しめませんね～？\\とりあえず舌を切って黙らせてやりましょうか？\\何なりとお申し付けください。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そして…",
+      "dialogue": "ほらね…\\やっぱりコイツからは危険なオーラを感じる。",
       "char": "none",
-      "speaker": "none"
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "18": {
       "type": "talk",
-      "dialogue": "この奇跡は起きたのである。",
-      "char": "none",
+      "dialogue": "お前がそうしたいだけだろ？\\そんなこと言ってないで、そろそろ撤収しよう。\\人目につきそうだし、このままじゃ大きな戦いになるぞ…",
+      "char": "c000_01",
       "speaker": "same",
-      "mvd": "effect/battle/sfx_special_skill_rebirth_max.mvd",
-      "mvd_pos": "bottom"
+      "pos": "left",
+      "facial": "haah",
+      "screen_effect": "dialog_shake"
     },
     "19": {
+      "type": "talk",
+      "dialogue": "そうですか…つまんない。\\まぁ、それが魔王争奪戦のルールなのですね。\\では、ひとつだけ質問があります。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦は最も邪悪な悪魔を選ぶ試験ですよね？\\他の悪魔を排除するほど有利になるのでは？\\ご主人様がそれをしないのは何故ですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦は最も邪悪な悪魔を選ぶ試験じゃない。\\最も強い悪魔を決めるための戦いだ。\\そして俺は最も強い悪魔じゃ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あっ…このまま《俺は最も強い悪魔じゃない》\\なんて言ったらアシュトレスに弱みを見せることに？俺はそこまで言いかけて黙った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "なるほど、最も強い悪魔を選ぶ戦いですか…\\それならなおのこと、戦いを避けて通るわけにはいきませんよね？\\私のご主人様が弱腰なんて我慢なりません。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ご主人様も敵も悪魔ですから、悪魔に悪いことをしても罪にはなりませんよね？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "superangry"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "フフフッ、黙るということはそうなんですね？\\ま、かまいません。ゆっくり遊びましょう。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "時間はたっぷりありますから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

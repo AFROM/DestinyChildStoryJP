@@ -2,238 +2,409 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "最近、俺に対するイシュタルの態度は、\\輪をかけて、更に冷たくなった。\\しかし、モナとは仲がいいようだ。",
-      "background": "bg090_f",
-      "bgm": "14",
+      "dialogue": "…",
+      "background": "bg086_f",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "…何なんだ？今日はやたらと、\\ナイアスが俺の顔を見つめてくる。\\何というか…果たし状でも叩きつけてきそうな顔だ。",
+      "background": "bg086_f",
+      "bgm": "9",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "2": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "far",
-      "facial": "idle"
-    },
     "3": {
       "type": "talk",
-      "dialogue": "あら、ご主人さまったら♥\\何であんなに離れているのかしら？",
-      "char": "c001_01",
+      "dialogue": "…あーわかったわかった！\\果たし状は受けてやるから、\\あんまり見るなって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…私が200メートル離れてろって言ったの。",
-      "char": "c164_01",
+      "dialogue": "…果たし状？\\悪魔くんってば、何言ってるの～？",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "あらあら、それはなぜ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "俺の「果たし状」という言葉に、\\ナイアスは呆れたような顔をした。\\なんか、恥ずかしいかも…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…近くにいると、熱くなってしまう。\\いつも通りの行動が出来ない。",
-      "char": "c164_01",
+      "dialogue": "…違うの？\\じゃあ、なんでそんなに見つめるんだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "熱くなるって、どこが？",
-      "char": "c001_01",
+      "dialogue": "…実は、\\悪魔くんのことがちょ～っと気になってて…\\だから、確認させてくれないかな～？",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…胸が。",
-      "char": "c164_01",
+      "dialogue": "確認って何を…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あらぁ♥\\それはときめいちゃってるってこと？\\それで体が火照っちゃうのかしら♥",
-      "char": "c001_01",
+      "dialogue": "それは、実際に確認してからのお楽しみ！\\じゃあ、とりあえずプールまで行ってみよ～！",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…うん。",
-      "char": "c164_01",
+      "dialogue": "ぷ、プール？それはちょっと…\\あっ、ひ、引っ張るなって！うわっ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "after_effect": "go_to_left_slow"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "あらあら♥\\ご主人さまったらモテモテねぇ♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_in": "normal"
     },
     "12": {
-      "type": "talk",
-      "dialogue": "…モテモテ？悪魔の知り合いには\\女がたくさんいるの？",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "うふふ、どうかしらぁ～♥\\少なくとも、女のチャイルドはいっぱいいるわね。",
-      "char": "c001_01",
+      "dialogue": "ほら、悪魔くん。\\逃げないで、そこにちゃんと立っててね？",
+      "background": "bg061_f",
+      "bgm": "4",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…モナのいじわる。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "抵抗も虚しく、\\俺は結局プールまで連れてこられてしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あら、イシュタルったら\\嫉妬しちゃって、可愛いわ♥\\ご主人さまに好きだから素直になれないって\\言っちゃえば？",
-      "char": "c001_01",
+      "dialogue": "またこれかよ…\\こないだの練習で充分だろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…嫌よ。言わない。\\言ってあげないんだから。",
-      "char": "c164_01",
+      "dialogue": "必殺！スペクタクル・イケメン・フィッシング！！",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そういうと思ったわぁ♥\\でも、言わなきゃご主人さまは\\一生気付かないわよ。",
-      "char": "c001_01",
+      "dialogue": "話聞いてよ！\\てか、どんなネーミングセンスして…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "after_effect": "shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…いい。今のままでいい。\\ただ、傍にいられればそれで…",
-      "char": "c164_01",
+      "dialogue": "うわぁ～っ！！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near",
+      "facial": "shock",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "19": {
       "type": "talk",
-      "dialogue": "あら、忍ぶ恋ってこと？素敵だわぁ♥\\傍にいるだけでいいなんてずいぶんピュアなのねぇ、イシュタル♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "すべてツッコミ切る前に、\\俺はいつかと同じようにプールに引きずり込まれた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "20": {
       "type": "talk",
-      "dialogue": "おーい！あのー！！\\そろそろ近くに行っていいー！？",
-      "char": "c000_01",
+      "dialogue": "う～ん、やっぱりなんか違う～？",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "far"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "あっ…！ま、まだダメぇ！\\…来るな！離れろ！500メートル以上！",
-      "char": "c164_01",
+      "dialogue": "「やっぱり」って…\\わかってたなら、最初からするなよな…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "distance": "normal",
+      "facial": "confused"
     },
     "22": {
       "type": "talk",
-      "dialogue": "…更に嫌われたか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "far"
+      "dialogue": "…こうなるのは予想できてたんだし、\\さっさと着替えとくんだった…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あらら、イシュタルったら、ほっぺが真っ赤♥\\そんなに慌てなくても、会話は聞こえてないわよ♥",
-      "char": "c001_01",
+      "dialogue": "…はあ。\\やっぱり、勘違いだったのかな～…",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "タイミング良すぎて、びっくりしただけ…\\今でこんななんだから、気持ちが知られたら\\心臓が爆発しちゃうかも。",
-      "char": "c164_01",
+      "dialogue": "…？\\何が？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "イシュタルったら…♥\\モナからそれとなくご主人さまに\\伝えましょうか？",
-      "char": "c001_01",
+      "dialogue": "えっ！？ば、バカ！そんなこと聞かないでよ～！",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…フン。モナは本当に意地悪。\\それはやめて。そんなことしたら\\「怒りに燃えるイシュタル」になっちゃうかも。",
-      "char": "c164_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ナイアスは顔を真っ赤にしながら怒り出す。\\そんなに聞かれたくないことだったのか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "27": {
       "type": "talk",
-      "dialogue": "あらぁ、面白い表現。\\せっかくだから\\「恋に燃えるイシュタル」にしたら？",
-      "char": "c001_01",
+      "dialogue": "…もうっ、こうなったら、第2段階よ！",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "…！か、からかわないで！\\もういい。モナとは口きかない。フン。",
-      "char": "c164_01",
+      "dialogue": "第2段階？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
     },
     "29": {
       "type": "talk",
-      "dialogue": "あらぁ。\\「本音をひた隠しにするイシュタル」ちゃんに\\嫌われちゃったわぁ♥",
-      "char": "c001_01",
+      "dialogue": "もちろん、遊園地に決まってるでしょ！",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "30": {
-      "type": "talk",
-      "dialogue": "おーーーーい！もうそっち行っていいーーー？\\よくわからないけど、許してよーーーー！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "far",
-      "facial": "cry"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "あらあ、ご主人様ったら、\\遠すぎて良く見えないわね♥\\モナが呼んできましょうか？",
-      "char": "c001_01",
+      "dialogue": "つ、疲れた…まさか、\\プールと遊園地をはしごする羽目になるなんて…",
+      "background": "bg072_f",
+      "bgm": "14",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "32": {
       "type": "talk",
-      "dialogue": "……フン。私が呼んでくるからいいわ。\\そしていつかは、私の気持ちも、\\自分の口で言うもん…",
-      "char": "c164_01",
+      "dialogue": "ちょっと～！悪魔くんってば、体力なさすぎ！",
+      "char": "c158_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "33": {
+      "type": "talk",
+      "dialogue": "あと2時間ぐらいだから、頑張って～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "2時間って、何かあるのか？\\…まあ、ここまで来たら、\\最後まで付き合うしかないか…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "あらあら♥\\プールに遊園地…最後は観覧車だなんて、\\素敵なデートですね♥",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "デートの「練習」！\\結局、何がしたかったのか分からなかったけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "ご主人さまは相変わらずですね～\\それで、ナイアス。\\結局、あなたの気持ちはどうだったの？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "う～ん…微妙だけど、やっぱり勘違いだったかも！\\悪魔くんは、イケメンじゃなかったみたい！",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "うふふ♥フラれちゃいましたね、ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "うるさい。\\俺達は別に、そーゆー関係じゃないっての。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "…てか、俺がイケメンかどうか確認するだけなら、\\わざわざ出かけなくてもよかったんじゃないの…？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "まあ、そうなんだけど…\\悪魔くんも悪くないかな～\\なんて思ったり思わなかったり…",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "あら♥よかったですね、ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "ま、まあ、\\イケメンじゃないって即答されるよりはマシ、か？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "ねえ、悪魔くん。\\もっと正確に判断するためにも、\\今度またプールに…",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "だが、断る！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "fury",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "ああ～ん、もう、即答しないでってば～！！",
+      "char": "c158_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "今度こそ、本気で溺れ死にかねない…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "50": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

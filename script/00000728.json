@@ -2,20 +2,259 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "そこをどけ！",
-      "background": "bg197_f",
+      "dialogue": "アリル～\\荷造りは終わった？",
+      "background": "bg086_f",
       "bgm": "9",
-      "char": "c245_01",
+      "char": "c238_01",
       "speaker": "same",
-      "distance": "near",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
       "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "2": {
+      "type": "talk",
+      "dialogue": "あなたじゃあるまいし。\\とっくに終わってるわ。",
+      "char": "c242_00",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ティフォンはどこかしら～？\\あの子の様子を見てきてくれない？",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "うっ、あれも私の担当？\\おーい、ティフォン！どこー？",
+      "char": "c242_00",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "朝から慌ただしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "今日はハロウィン応援団であり魔界の大先輩\\《サムハインパーティー》のメンバーが\\魔界に帰る日だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "メブ姐さんたちは、預けていた荷物を引き取って\\慌ただしく帰還準備をしていた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "それじゃあね。",
+      "background": "bg111_f",
+      "char": "c242_00",
+      "speaker": "same"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "アリルは一度も振り返らずに\\「ぽん」という音と共に姿を消した。",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "で？\\ティフォン、あんたはホントに残るの？",
+      "char": "c238_01",
+      "speaker": "none"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うん。 僕は人間界は初めてだから…\\ もう少し見て行きたいんだ。",
+      "char": "c237_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "支度ができたら呼んで。見送るから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふんだ、まるで子供相手の言い方ね。\\…まあ、そういう扱い嫌いじゃないけど。\\じゃ、後でね。",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "はぁ～やっと支度が終わったわ！\\久しぶりに動いたから、体中がバッキバキ…",
+      "background": "bg133_f",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "メブ姐さんはにっこり笑って\\別れの挨拶をするように手を差し出した。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "right",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "メ、メブ姐さん…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "あっ？あらあら～もしかして…",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あんた、泣いてるの？\\ねえ、泣いてるの？",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "ち、違います…\\これは泣いてるんじゃなくて…\\目にゴミが入ったんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あははは！実は泣き虫だったり？\\チョーダサい！",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sulky",
+      "before_effect": "shake_weak"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "…あのね、坊や。\\悪魔に生まれて悪魔として生きていくのに、\\人間みたいに、感情に振り回されると損するわよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "これはねえ、ハロウィンの夜が見せる一夜限りのパーティーなの。みんなそうやって割り切っている。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "感情的になるのはやめなさい。浮かれたパーティーは夜が明ければ終わるものなの。終わればただの他人になる…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "あんたみたいに抱き抱えているものが多いと、\\失うものも多いわよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "あんたは弱点が多すぎて、魔王になるのは\\大変だわね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "魔王なんて、なる気ないです…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ふん、その割にはけっこう頑張ってるじゃない。",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ま、いいわ。あんたがもし魔王になったら\\あたしがお祝いに歌って踊って、パーティーを\\盛り上げてあげる！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "天使も悪魔も、楽しい時には歌を歌うのよ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "そんな日が本当に来るかわからないけど…\\期待してます…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "そうね。 それじゃ、次のお祭りで会いましょ！\\あたしがいれば、きっと楽しいわよ！",
+      "char": "c238_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "34": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longest",
+      "wait": "normal",
+      "fade_in": "longer"
     }
   }
 }

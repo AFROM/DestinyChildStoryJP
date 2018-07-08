@@ -2,239 +2,257 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ねえ…すぐに帰ってくるわよね？",
-      "background": "bg037_f",
+      "dialogue": "結局、老いぼれの無駄な欲ということか？ハハハ…",
+      "background": "bg029_f",
       "bgm": "15",
-      "char": "m045_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "char": "m040_00",
+      "speaker": "same_full"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ただの出張だろ？何をそんなに心配してるんだ？\\すぐに戻ってくるよ。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ほ、本当？本当にすぐに戻ってくる？",
-      "char": "m045_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "…これ。俺が帰ってくるまでに預かっててくれ。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "この花瓶…",
-      "char": "m045_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "一番大事にしている花瓶だ。\\誰かにプレゼントでもらったんだけど…\\とにかく、この花瓶を見て俺を思い出してくれ。\\いいな？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "あ、バスが来た。\\それじゃ、行ってくる。元気でな。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "あ！ちょっと待って！",
-      "char": "m045_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ちょっと…この花瓶…\\私が初めて会った日にあげたものじゃない。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left",
-      "distance": "near"
-    },
-    "10": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "遅れてすみません。待ちましたか？",
-      "background": "bg002_f",
-      "bgm": "19",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "うふふ、少しだけ♥",
-      "char": "c001_01",
+      "dialogue": "爺さんたちがつく嘘のひとつにこんな言葉がある。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "13": {
+    "3": {
       "type": "talk",
-      "dialogue": "本当にすみません。ちょっと用がありまして…",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "用って？\\ひょっとして…彼女のことですか？",
-      "char": "c001_01",
+      "dialogue": "《老いたら死ぬしかない》",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "15": {
+    "4": {
       "type": "talk",
-      "dialogue": "は、はい？そ、それは…その…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "若造がこの老いぼれに何の用だ？",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
-    "16": {
+    "5": {
       "type": "talk",
-      "dialogue": "あらあら、冗談のつもりだったのに、\\そこまで慌てなくていいんですよ♥",
-      "char": "c001_01",
+      "dialogue": "用なんかないよ。ただ気分転換しに来ただけさ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "6": {
+      "type": "talk",
+      "dialogue": "そうか。\\それじゃあ、この老いぼれはそろそろ帰るとしよう。",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "別に帰らなくても…\\爺さんの方が先に来たんだし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "今時、珍しく親切な若造だな。",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ああ、この老いぼれにも\\お前のように若くて親切な友人が一人いた。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "その友達は？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そいつは家を守っている。\\わしが出てくるなと言ったんだ。",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "親切な友人がいても…\\一人でいたい時もある。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "その友達、一人でかわいそうだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そんなはずはない。あぁ…そんなはずはな。",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "この老人はチェインキラーの契約者だ。\\この国ではそれなりに有名な地主らしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "契約者のいう若い友人というのは、\\契約者が養っている後継者のことだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
     "17": {
       "type": "talk",
-      "dialogue": "は、はは…\\それよりあなたから先に連絡をくれるなんて\\夢にも思いませんでした。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "そういえば…若造。\\わしらは以前、どこかで会わなかったか？",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "モナは猪突的な男性が好きなんです。\\だから勇気を出して連絡してみたんですよ♥",
-      "char": "c001_01",
+      "dialogue": "…そうかな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ありがとうございます。\\僕の気持ちを受け取ってくれて…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ボケてきたかのう…気のせいみたいだ。",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "うふふ、短気なんですね。\\まだそちらの気持ちは受け取れてないんですよ。",
-      "char": "c001_01",
+      "dialogue": "……",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "モナ…モナ！\\ただじゃおかない！殺してやる！",
-      "char": "m045_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake"
+      "dialogue": "いや、やはりどこかで会っている。そうだろう？\\老いぼれではあるが、そこまで落ちぶれてはおらん。",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "うう、耐えろ！これはただの営業だ、営業！",
+      "dialogue": "若造、わしはお前を訪ねたことはなかったか？\\わしが…何か頼み事をしたような…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そ、そんなことはない！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "23": {
-      "type": "talk",
-      "dialogue": "あの女のせいで私の契約者が不幸になった！\\泣いてる！許さない！",
-      "char": "m045_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "24": {
       "type": "talk",
-      "dialogue": "それには俺も同感だけど…\\あいつには絶対勝てないぞ、恐ろしい女なんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "いや、違う！わしは確かに重要な頼み事をした！\\そうだろう？",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "screen_effect": "dialog_shake"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ううっ…！あの女さえいなければ…！",
-      "char": "m045_01",
+      "dialogue": "俺には関係ないことだ。そろそろ行かないと。\\じゃ、じゃあな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_right_point"
     },
     "26": {
       "type": "talk",
-      "dialogue": "正直、全ての原因は\\あの男にあるような気がするが…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "待て！若造！\\お前までわしを騙そうと…！",
+      "char": "m040_00",
+      "speaker": "same_full"
     },
     "27": {
       "type": "talk",
-      "dialogue": "恋人がいながらもモナにアタックするとは…\\完全な浮気者だな、あいつ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "大正解！",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast"
     },
     "28": {
       "type": "talk",
-      "dialogue": "それにしても、モナもすごいな。\\あれを営業に活かすとは…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "誰じゃ…？お嬢さんもどこかで…\\さっきあの若造と一緒にいただろう？",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "29": {
       "type": "talk",
-      "dialogue": "しかもあの男の恋人まで引き込んで\\結局はブーケを作り出したし。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そうですよ。私たちにとーっても大事な\\頼み事をしたじゃないですか。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "やっぱり恐ろしい女だ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "頼み事…ああ。思い出したぞ！\\わしの後継者の調査をお願いした。",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ご主人さま！ちょっとこっちに来てくれます？\\お客様がサインしてくださるみたいです♥",
+      "dialogue": "おじい様、いえ、お客様に内緒で\\何かを企んでないかの調査でしたよね。",
       "char": "c001_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "いや、これは恐ろしいってもんじゃない。\\残酷な女だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "dialogue": "あ、ああ、そうだったな。\\どうしてそれをすっかり忘れていたのか。",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "left"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ぶっ殺す、モナ！",
-      "char": "m045_01",
+      "dialogue": "一緒に行ってみますか？お客様の依頼を\\もう一度お受けすることも可能ですが…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "pos": "right"
     },
     "34": {
+      "type": "talk",
+      "dialogue": "そ、そうだな。行こう。わしの財産を守らねば！",
+      "char": "m040_00",
+      "speaker": "same_full",
+      "pos": "left"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "フフ…あとはご主人さまを説得すればいいだけね。\\ま、契約者が思い出した以上どうにもできないけど。",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

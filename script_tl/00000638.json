@@ -2,155 +2,248 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "今日の戦いぶり、なかなかでしたよ♥\\ふふ、成長したわね～",
-      "background": "dungeon_bg",
-      "bgm": "9",
-      "char": "c001_01",
+      "dialogue": "このバアル様にもっとふさわしいヤツを連れてこい！",
+      "background": "bg197_f",
+      "bgm": "6",
+      "char": "c147_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "言った通りだろ？\\アタイは、実は凄いんだ！",
-      "char": "c148_01",
+      "dialogue": "無茶なこと言うな。\\これは遊びじゃなくて戦闘なんだ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ホントに、もしかするとご主人さまより、\\魔王にふさわしいかもしれないわね♥",
-      "char": "c001_01",
+      "dialogue": "臆病者が遠吠えか？\\戦い方を知らないなら見学してろ！",
+      "char": "c147_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…アタイ、もう魔王はやめた！",
-      "char": "c148_01",
+      "dialogue": "負けたりしたら…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "残念だけど…\\アタイは魔王の器じゃなかったみたい。",
-      "char": "keep",
+      "dialogue": "ふむ…",
+      "char": "c147_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あらそう？\\どうしてそう思うようになったのかしら？",
-      "char": "c001_01",
+      "dialogue": "何だ？戦闘中によそ見するな！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "世界は広くて、\\アタイより強い奴なんて、たくさんいてさ。",
-      "char": "c148_01",
+      "dialogue": "俺はずいぶんオマエを甘く見ていた気がする。",
+      "char": "c147_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "悪魔だって、思ってたほど馬鹿じゃなかったし。\\あんたたちが仕えてる理由もわかった気もするし…",
-      "char": "keep",
+      "dialogue": "何だよ、急に…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "悪魔だからとか、チャイルドだからとか、\\それだけの問題じゃなくて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "アタイはまだ…\\ただヤル気だけで先走る、子供なんだよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "あらあら、そこまで考えられるなんて、\\やっぱりご主人さまより、全然マシかも♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "アンタのそういう所…\\ご主人が憎たらしく思うワケがわかるわ…",
-      "char": "c148_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "あら～やっぱりちょっと、成長したんじゃない？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "とにかく、魔王になるのは諦めたのさ！",
-      "char": "c148_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "うふふ～\\ご主人さまには、いい知らせね♥",
-      "char": "c001_01",
+      "dialogue": "俺はな、とても奇抜な戦略を思いついた。\\だがそれを成功させるにはオマエの力が必要だ。",
+      "char": "c147_01",
       "speaker": "same",
       "pos": "right"
     },
+    "10": {
+      "type": "talk",
+      "dialogue": "何だ？突然俺を持ち上げやがって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "餌で獲物を釣る！",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うわあああ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "go_to_left_fast",
+      "screen_effect": "dialog_shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "クハハハ！適当に暴れてこい！\\俺はゆっくりついて行くぞ！",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "お、お、オマエ！俺を殺そうとしたな！",
+      "background": "bg111_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "魔王は諦めたけど！大悪党になるって、\\目標は諦めたわけじゃないからね！",
-      "char": "c148_01",
+      "dialogue": "前に言っただろう。\\俺は簡単には殺したりしないって。",
+      "char": "c147_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "この世に、アタイの名を知らしめてやるんだ！",
-      "char": "keep",
+      "dialogue": "今さっき殺しかけただろうが！\\敵陣に投げ込んだだろ、俺を！",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "distance": "near",
+      "facial": "confused"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…チャイルドが魔王になろうなんて、\\アタイも大それたことを言ったもんだよね！",
-      "char": "keep",
+      "dialogue": "生きてるじゃないか。\\この俺様のアイディアのおかげで戦闘で勝ったしな。",
+      "char": "c147_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "今思うと、恥ずかしくて仕方ないかも…",
+      "dialogue": "土下座して感謝されても足りないくらいだ…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "あら～イナンナったら！\\ご主人さまに匹敵する可愛さだわ♥",
-      "char": "c001_01",
+      "dialogue": "お前とは絶対に戦わない！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "tempt"
+      "pos": "left",
+      "facial": "confused"
     },
     "21": {
+      "type": "talk",
+      "dialogue": "俺以外にお前を使えるヤツがいるのか？",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "俺を道具扱いしやがって。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "笑わせるな。だったらお前は違うのか？\\お前もチャイルドを道具扱いしてるだろ。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "誰が…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "お互いに利用してるんだ。配慮も犠牲も…\\それはずる賢いヤツらが他人を利用する\\手段ってだけだ。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "それにお前はその手段を使うほど\\ずる賢いヤツじゃない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "だから他のヤツらはお前を無視するんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "だからお前も俺を無視するのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "クハハハ！そうだ！俺もお前を無視した。",
+      "char": "c147_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "だが見てみろ。今回の戦闘も\\この俺がお前を使ってあげたじゃないか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "それに心のこもった忠告まで…\\こんな待遇、他ではないぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "だから有り難く思えって言いたいのか？\\はいはい、ありがとうございましたー。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

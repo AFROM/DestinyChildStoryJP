@@ -1,11 +1,217 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "bg106_f",
+      "bgm": "46",
+      "fade_in": "longer",
+      "hold": "shorter",
+      "char": "c319_01"
+    },
+    "2": {
       "type": "talk",
-      "dialogue": "ゴールドを使って最初のスキルをレベルアップしてみてください。",
-      "background": "back_dim50",
+      "dialogue": "素晴らしい！これこそ、正真正銘の縁(えにし)です。",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "200302055"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "おいおい…負けたからって適当なこと言ってるわけ\\じゃないよな？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200302056"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "無礼は謝罪します。貴方の勝利をどれほど願っていたことか。では、確認も済んだことですし、1つ頼み事をしてもいいでしょうか？",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200302057"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "一体、何の確認だったのかしら～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200302058"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "貴方たちの腕を確認したかったのです。なぜならこの花を…",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200302059"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "42",
+      "hold": "normal"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg216_f",
+      "fade_in": "normal",
+      "hold": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "彼が差し出したのは、大した特徴もない名前も知らない花だった。",
       "char": "none",
-      "speaker": "none"
+      "speaker": "none",
+      "voiceid": "200302060"
+    },
+    "4": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "hold": "shorter"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "bg106_f",
+      "fade_in": "shorter",
+      "hold": "shorter",
+      "char": "c319_01"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "守ってもらいたいのです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200302061"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "出会ってすぐに戦闘、しかも初対面で頼み事まで聞かないといけないなんて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200302062"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "順番が違うだろ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake",
+      "voiceid": "200302063"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "お願いです。このままでは、君子の道を歩むと誓い、生きてきた月日が無駄になってしまう…",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "200302064"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "すっごく大切な花みたいだけど…ご主人に預けてもいいの？ご飯に混ぜて食べちゃうかもよ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "victory",
+      "voiceid": "200302065"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "貴方なら…信じられる。\\私に嘘をつく事をためらったのだから。",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200302066"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "悪魔は古来より、盗むためには殺す、盗賊のような性をもつ者たちです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200302067"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ですが、貴方からはそのような気配は感じられない…",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200302068"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "やめてくれよ…\\気色悪い。オマエこそ、本当に悪魔か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "irritation",
+      "before_effect": "shake",
+      "voiceid": "200302069"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "私のことは《ヤナギ》と呼んでください。",
+      "char": "c319_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200302070"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "うふっ…\\悪魔らしからぬ態度ですね。まるで誰かさんみたい。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "voiceid": "200302071"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "そうですねぇ～この花の秘密を教えてくれたら、貴方のお願いを聞いてあげてもいいですよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "idle",
+      "voiceid": "200302072"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "おい！そんな勝手に…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake",
+      "voiceid": "200302073"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "いいでしょう。それが順序というものです。この花の全てを、偽りなくお話しましょう。",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "voiceid": "200302074"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
+      "hold": "normal"
     }
   }
 }

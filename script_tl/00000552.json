@@ -2,231 +2,177 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ねえ、噂聞いた？あのご老人なんだけど…",
-      "background": "bg097_chr02",
+      "dialogue": "うーん…",
+      "background": "bg089_f",
       "bgm": "9",
-      "char": "none",
-      "speaker": "unknown1"
+      "char": "c003_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "う、噂ですか？",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "どうかしたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "コンビニで働いていると、\\たまにおもしろい話が入ってくる。",
-      "background": "bg097_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "これ…飲まない。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "他人の噂話をするのが好きな人は\\どの町にも必ず存在する…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "氷まで入れて冷やしてやったのに…\\コーラが飲みたいって言ってたろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "向かいのアパートで暮らしている\\ご老人なんだけどね。\\自分がいつ死ぬか分かってるみたいなのよ。",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "さっきは飲みたいってダダまでこねといて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ボケてるわけではなさそうなんだけど。\\死神が見えたって。",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ご主人が、カァー！ペッ！って…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "し、死神ですか？そ、そんなものこの世にいるわけ…",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "俺が唾でも吐いて入れたと思ってるのか？\\お前じゃあるまいし！安心して飲め！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
     },
     "8": {
       "type": "talk",
-      "dialogue": "でしょ？今の時代に死神だなんて…\\しかも姿格好も変でね…",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "へぇ～ダビがイタズラしたの\\なんで分かったの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
     },
     "9": {
       "type": "talk",
-      "dialogue": "変なんですか？",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "hero"
+      "dialogue": "ダビお前…正直に言え。\\いつだ？水持って来いって言った時か？\\スープ持って来いって言った時か？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "顔がなくて白い羽をつけて\\血がしたたり落ちるしっぽを持ってるらしいわ。",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "へへ、コーラありがと、ご主人！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "after_effect": "go_to_right_point"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ふう…想像しただけで気持ち悪い…",
-      "background": "bg097_chr02",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "おい、待てダビ！ちゃんと答えろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "12": {
       "type": "talk",
-      "dialogue": "…ん？",
-      "background": "bg097_f",
-      "char": "c000_01",
-      "speaker": "same"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "あ、あの誰ですか…",
-      "background": "bg034_f",
-      "bgm": "24",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "おい、人間…いつまで死なない気でいるつもりだ？\\人生に未練は残すな…",
-      "char": "m037_01",
+      "dialogue": "見たぞ…ふふ…",
+      "char": "m036_01",
       "speaker": "same",
       "distance": "near"
     },
+    "13": {
+      "type": "talk",
+      "dialogue": "ふぎゃっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "全部見たぞ…\\元々、悪魔とは嘘がうまいものだ。ふふ…",
+      "char": "m036_01",
+      "speaker": "same"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "な、何を見たんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "あ、死神様…もう来られて…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "やっぱりダビの奴、イタズラしてたのか？\\あいつ食べ物で遊んだらバチが当たるって\\言ったのに！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "もう一日だけ待ってやると言っただろう。キキキ。\\友人にちゃんと別れの挨拶はしたか？",
-      "char": "m037_01",
+      "dialogue": "バチが当たるだと？悪魔が？\\ふふ…面白い悪魔だな…",
+      "char": "m036_01",
       "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…ああ…もう死ぬのかと思うと未練が…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "悪魔だって悪いことしたらバチが当たるんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "喰らいなさい！ネックスライス！",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious",
-      "one_ani": "attack"
+      "dialogue": "だからお前は…そうやって生きているのか？",
+      "char": "m036_01",
+      "speaker": "same"
     },
     "20": {
       "type": "talk",
-      "dialogue": "うわっ！",
-      "char": "none",
-      "speaker": "unknown1",
-      "screen_effect": "shake"
+      "dialogue": "…俺の何がいけないんだ？一体何が言いたい？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ぐっ…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "悪魔らしくないとか、なれとか、\\そんなことを言いたいならやめてくれ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "本当に殺したのか？ひどいな、サキュバス！\\俺は怖がらせるだけのつもりだったのに。キキキ。",
-      "char": "m037_01",
+      "dialogue": "モナとリザにしょっちゅう言われてるからな。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "気絶させただけです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…見ているぞ。\\オマエがどれだけ…オモシロいものを…見せてくれるか…",
+      "char": "m036_01",
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "悪魔に言われて来たのか？\\キキキ…あいつ鈍いと思ってたが…\\どうして分かったんだ？",
-      "char": "m037_01",
+      "dialogue": "陰気臭い奴だな…\\関わらない方がよさそうだ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "これ以上、人間に近づくことは許しません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "あー、あれか？\\ライトがピカっと光って、\\記憶がなくなるっていう…",
-      "char": "m037_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "それとも悪魔の秘密を隠すために\\その人間と契約するんだろ…キキキ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "これから悪魔を連れて来て、死にかけの老人に\\契約書を押し付ける気だな？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "…貴方の意図が全く分かりません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "キキキ！ただのイタズラさ！",
-      "char": "m037_01",
-      "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "人間は本当に弱いな。\\からかうのがオモシロい！キキキ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "御主人様には扱いにくそうなチャイルドですね。\\ちゃんと監視しないと。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

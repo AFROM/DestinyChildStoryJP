@@ -2,249 +2,257 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お待ちしておりました。\\といっても…ウコンが、ですけれど。",
+      "dialogue": "悩みは尽きないが、最近俺の頭を\\特に悩ませているのは、イシュタルの態度が\\いつまでも冷たいっていうことだ。",
       "background": "bg086_f",
       "bgm": "14",
-      "char": "c167_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "その猿、俺に興味なさそうだけど？",
-      "char": "c000_01",
+      "dialogue": "あら、元気がないですねご主人さま。\\何か悩み事ですかぁ？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あら？おかしいですね…",
-      "char": "c167_01",
+      "dialogue": "ああ、モナか…いや、実は\\イシュタルの態度が冷たくてなぁ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "keep",
+      "dialogue": "モナには色々話してくれますよ？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いいよ、別に。\\俺、猫以外の動物には嫌われがちだし。",
+      "dialogue": "そうなのか！？\\…じゃあ俺だけにあんな風に冷たいのか…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "6": {
       "type": "talk",
-      "dialogue": "でも、ウコンはあなたによく懐いているんですよ。\\もしかしたら、今日はちょっと機嫌が悪いのかも\\しれません。",
-      "char": "c167_01",
+      "dialogue": "あら♥\\イシュタルに何かイケナイ悪戯でも\\しちゃったんですか？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "8": {
       "type": "talk",
-      "dialogue": "ああ、そういえば…\\ダビさんから面白い話を聞いたんです。",
-      "background": "bg092_f",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "ダビが？なんて言ってたんだ？\\あいつの言葉は話半分に聞いといた方がいいぞ。",
+      "dialogue": "近付くことも許されないのに！？\\それより「イケないこと」って何だよ！\\いきなり変なこと言うな！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "confused"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ご主人さまったら顔が赤いですよ♥\\どんなことを考えたんですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…フン。私がいないとでも思ったのか？\\コソコソ陰口とはいい身分だ。",
+      "char": "c164_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "なーんも知らないくせして、口だけは達者だからな。",
-      "char": "keep",
+      "dialogue": "イシュタル！？モナと一緒だったのか。\\いや、今のは陰口とかじゃなくて…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "いえ、そんなことはありませんでしたよ。",
-      "char": "c167_01",
+      "dialogue": "…フン、そんなものどっちでもいい。\\お前が他人に私のことを相談するくらい悩んでるのは事実だろう。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "「なんでウサギじゃなくて猿といるの？」\\「コウガはウサギと一緒じゃないとダメでしょ？」\\ですって。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "…たまには的を射たこと言うんだな。",
+      "dialogue": "なんだか、いつも以上に\\冷たいような…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "facial": "sigh"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あら、なるほど♥\\それじゃあ、邪魔者は消えますね♥\\あとは若い者同士で♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ふふっ…そうですね。\\けれど、この名の元の持ち主がどのような方だとしても、彼女は彼女、私は私ですから。",
-      "char": "c167_01",
+      "dialogue": "おい、モナ！どこ行くんだ！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "鋭い質問ですね、と笑って答えたら、\\ダビさんもにっこりして行ってしまわれました。",
-      "char": "keep",
+      "dialogue": "…邪魔者、なんて…\\そ、そんなんじゃない…",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "鼻で笑ってなかった？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "dialogue": "なぜかイシュタルの方が、\\モナの言葉に動揺しているようだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あの子は、あなたが思っているよりも純粋な子です。その純粋さが裏目に出てしまっているのでしょう。",
-      "char": "c167_01",
+      "dialogue": "ったく、モナのヤツ…\\それより、ここに何しに来たんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "調子に乗るから、それは言うなよ。\\これ以上純粋になられたら、苦労しそうだからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "またそんな心にもないことを…\\たまには、ダビさんにも優しくしてあげて下さい。",
-      "char": "c167_01",
+      "dialogue": "…フン。お前に言う必要はない。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
+    "19": {
+      "type": "talk",
+      "dialogue": "あー…やっぱりそうか…\\わかった、じゃあ俺は新しい契約者を\\探しに行くから…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "20": {
       "type": "talk",
-      "dialogue": "どうしてみんながご主人様に頼るのか…\\チャイルドになってわかったんです。",
-      "char": "keep",
+      "dialogue": "待て、仕方ないから私が遊んでやる。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "いえ、頼る…というよりも、\\愛か、友情と言うべきかもしれません…",
-      "char": "keep",
+      "dialogue": "…え？遊ぶ…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "馴染んだ世界を離れて、ひとりになって…\\いつも側にいてくれて、優しくしてくれるのは\\ご主人様だけなんですもの。",
-      "char": "keep",
+      "dialogue": "お前が弱いから、仕方ないから私が鍛えてやる\\ということだ！は、反省しろ！",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "うええぇ…？そんなことないって。\\俺、大したことしてないし。",
+      "dialogue": "ご、ごめんなさい…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "facial": "confused"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ええ、確かにそうです。\\ですが、その大したことのない行為に、\\深い愛情を感じるんです。少なくとも…私は。",
-      "char": "c167_01",
+      "dialogue": "あと、近すぎる。\\お前が近くにいると体温が上昇する。\\特に頬が熱く、頭がぼーっとし、動悸が早くなる。\\可及的速やかに離れろ。50メートル以上。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "あ、愛情ね…",
+      "dialogue": "俺が傍にいるだけでそんな異常が！？\\それより、50メートル以上離れてなくちゃ\\いけないのに鍛えるって？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "confused"
     },
     "26": {
       "type": "talk",
-      "dialogue": "む…今、おかしなことを考えましたね？\\言っておきますが、あなたの思うような愛情とは\\違いますよ！",
-      "char": "c167_01",
+      "dialogue": "…フン、うるさい。とにかく離れろ。\\活動に支障をきたす…熱い…早く！息が、苦しいの…",
+      "char": "c164_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "私たちが初めて会ったとき…\\どれほど感謝したか、きっとあなたは\\知らないでしょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "息まで苦しいらしい。よく見ると、目も潤んでいる。とにかく、離れればよくなるっていうなら\\離れてやろう。",
+      "char": "none",
+      "speaker": "none"
     },
     "28": {
       "type": "talk",
-      "dialogue": "この空の下で、私にはウコンしかいなかった。\\この子が消えたときを思い出すと、\\今でも身がすくむくらいです。",
-      "char": "keep",
+      "dialogue": "はあ…しかし50メートルも離れろなんて無茶だよ。\\そんなにこの家はスペースがない…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ご主人様…\\あの時、あなたには急ぎの用があったのに、\\最後までこの子を探してくれましたよね？",
-      "char": "keep",
+      "dialogue": "よし、離れてくれたおかげで少し落ち着いた…\\念のため3メートルをキープするように。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "おかしいかもしれませんが、\\そんなあなたに私は救われたんです。\\あなたは…悪魔だというのに。",
-      "char": "keep",
+      "dialogue": "前は1メートルだったのに…\\俺のことがもっと嫌いになった？\\理由さえ言ってくれれば改善するぞ…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ですから…どうぞ遠慮なさらずお呼びください。",
-      "char": "keep",
+      "dialogue": "…フン。うるさい。\\…お前のせいではない。\\だから、距離は保持しつづけてくれ。",
+      "char": "c164_01",
       "speaker": "same",
       "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "私はいつでも、お側におりますから。",
-      "char": "keep",
+      "dialogue": "ん？俺のせいじゃないって？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left"
     },
     "33": {
+      "type": "talk",
+      "dialogue": "…そう。いいから、もう話しかけるな。\\また熱くなるから…",
+      "char": "c164_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "やっぱり前より冷たくなったよな…\\ああ、訳がわからないよ！\\これが思春期ってやつなのか…！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "35": {
       "type": "curtain",
       "background": "back",
-      "fade_out": "longest",
+      "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     }

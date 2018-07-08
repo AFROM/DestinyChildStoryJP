@@ -2,362 +2,305 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "近頃、バフォメットがモナと\\何かを相談しているようだ。",
-      "background": "bg086_f",
+      "dialogue": "んー…",
+      "background": "dungeon_bg",
       "bgm": "9",
-      "char": "none",
-      "speaker": "none"
+      "char": "c099_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "私、最近悪魔に不満がいっぱいあるの。\\",
-      "char": "c123_01",
+      "dialogue": "幸せな悩みを抱えているな。",
+      "char": "c121_01",
       "speaker": "same",
       "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何がバフォメットを\\そんな不満にさせているのかしら？",
-      "char": "c001_01",
+      "dialogue": "ミューズ先生！",
+      "char": "c099_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "4": {
       "type": "talk",
-      "dialogue": "あの悪魔のせいよ！\\私の画期的な企画にいつもケチつけるんだから！",
-      "char": "c123_01",
+      "dialogue": "創作とは、新たな命を産み出すことと同じだ。\\必然的に苦痛を伴う、祝福に満ちた行為…",
+      "char": "c121_01",
       "speaker": "same",
       "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どんな企画だったの？",
-      "char": "c001_01",
+      "dialogue": "うう…先生の話は難しすぎるよー。",
+      "char": "c099_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "商店街を純金で塗装して景気を良くする企画と、\\私をモデルにして人間たちに貢がせる企画よ。",
-      "char": "c123_01",
+      "dialogue": "ふっ、人生の真理を一度に悟る者はいない。\\音楽もまた然り。",
+      "char": "c121_01",
       "speaker": "same",
       "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "笑ってばかりいないで何か言ってよ。\\",
-      "char": "c123_01",
+      "dialogue": "…それで、どのような曲を作っていたのだ？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "ウチもよくわかんない。\\心の奥に、もやもやしたものがあるんだけど…",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "9": {
       "type": "talk",
-      "dialogue": "とっても素敵な企画ね♥ \\",
-      "char": "c001_01",
+      "dialogue": "それを曲にしないと、\\胸がいっぱいになって苦しいんだ。\\…狂っちゃいそうなくらい。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "でしょ？素晴らしい企画でしょ？\\それなのに全く理解してくれないんだから！",
-      "char": "c123_01",
+      "dialogue": "君の魂が、何か叫んでいるようだな。",
+      "char": "c121_01",
       "speaker": "same",
       "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "それで、ご主人さまに不満があるのね。",
-      "char": "c001_01",
+      "dialogue": "そうなのかな？",
+      "char": "c099_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そう！それが不満なの！\\",
-      "char": "c123_01",
+      "dialogue": "ああ。すべての雑念を振り払い、\\己の心に耳を傾けてごらん。\\きっと素晴らしい音楽が生まれてくるはずだ。",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "near"
     },
     "13": {
-      "type": "talk",
-      "dialogue": "ご主人さまに認めてもらいたいのに\\認めてもらえなくて？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そう！悪魔に褒めてもら…\\ち、違うもん！",
-      "char": "c123_01",
+      "dialogue": "悪魔！悪魔！あーくーまー！",
+      "background": "bg086_f",
+      "char": "c099_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…♥\\",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "何よ、その全部お見通し、みたいな顔は…\\ムカつく！そうよ！認められたいの！\\それなのにケチばっかつけるから！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ご主人さまも、きっとわざとじゃないわ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "うう…そうね。やっぱり私の努力不足ね。\\もっと画期的な企画を考えたら認めてくれるはず！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "さっき話してくれたのより\\もっと素敵な企画を？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "もちろん！\\悪魔の目がまん丸になるくらいね！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "どんなものを考えているか\\聞いてもいいかしら？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "まだ考えてはないけど…そうだ！\\悪魔っておやつ好き？",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "健康にいいもの以外は全部お好きよ♥\\",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "よし！それじゃ、今の家をお菓子の家にしよう！\\家具にもお菓子をくっつけて！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "それは素敵な企画ね～\\ところでどうやってお菓子をくっつけるの？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "当然、瞬間接着剤でしょ！\\",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "あら、食べられないのね。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どうして？\\悪魔なら接着剤食べても死なないでしょ？",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "…お前、俺に何を食わす気だ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "うわ、ビックリした！\\盗み聞き？サイテー！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "家の中で大声で話してたらそりゃ聞こえるだろ…\\",
+      "dialogue": "…何回も呼ばなくても聞こえるっての。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "32": {
+    "16": {
       "type": "talk",
-      "dialogue": "声が聞こえたら耳くらい塞いでよね！\\女子たちの話をこっそり聞くなんてサイテー。",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "ハイハイ…\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "まあ、聞こえちゃったなら仕方ないわ。\\悪魔のためにお菓子の家を作ってあげる！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "無理だ！\\一体どれだけのお菓子を買う気だ？\\そんな金はないぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ま、またケチつけて！\\そんなに私の企画が気に入らないの？",
-      "char": "c123_01",
+      "dialogue": "来たか！耳をかっぽじってよーく聞け！\\ものすっごい曲を聴かせてやるから！",
+      "char": "c099_01",
       "speaker": "same",
       "pos": "right",
-      "screen_effect": "dialog_shake"
+      "before_effect": "shake"
     },
-    "37": {
+    "17": {
       "type": "talk",
-      "dialogue": "これはただの金銭事情…\\お？おい、泣いてるのか！？\\いや、企画は気に入った！本当だ！",
+      "dialogue": "ものすっごい…嫌な予感しかない。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "18": {
+      "type": "talk",
+      "dialogue": "さあ、いっくぜー！イエェエエイ！",
+      "bgm": "36",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "keep",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "うう…み、耳が…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…ふう。\\言いたいこと全部吐き出したらスッキリしたー！\\いっやっほーぅ！気持ちイイー！",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "頼むから、言いたいことがあるなら\\普通に言ってくれ…俺の耳が死ぬ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "よっし！この勢いで新曲を作ってやる！\\ロックンロール！ベイベーッ！",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…まるで台風だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "素晴らしい曲だっただろう？",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "お？ミューズもいたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "演奏の邪魔にならないように隠れていたんだ。\\どうだった？メルポメネの魂の叫びは。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "あいつの魂より、俺の魂がヤバかった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "なんと…\\あの子の魂と、きちんと向き合わなかったのだな。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "歌詞ならそれなりに聞いたけどな。\\確か…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "「あなたのせいで私はブドウになったの！\\色とりどり！甘酸っぱい！\\チューインガムより美味しい弾力！」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…だったか？歌詞の意味はよくわかんないけど。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ああ、素晴らしい。誠に美しい魂の詩だ。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "は？どの辺がだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "…悪魔には少々、純粋すぎたか。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "そこは関係ないだろ。\\お前はあのヘンテコな歌の意味がわかるってのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "もちろんだ。悪魔よ、心の目を開け。\\歌は耳で聞くものではない、心で聴くのだ。",
+      "bgm": "32",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "38": {
       "type": "talk",
-      "dialogue": "…本当？ホントの本当に？\\",
-      "char": "c123_01",
+      "dialogue": "この曲のように。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "39": {
       "type": "talk",
-      "dialogue": "ああ！気に入ったさ！本当に立派な企画だ！\\だけど俺には金がなくて…",
-      "char": "c000_01",
+      "dialogue": "Oh Angela. Now when the winds cry Angela\\Baby, baby I'll be there♪",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "40": {
-      "type": "talk",
-      "dialogue": "そうなんだ！金銭問題ってわけね！\\私の企画は完璧だけど、\\お金が足りないなら仕方ない！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "うん、お前の企画は完璧だ！\\アハハ、聞いただけでハッピーになれる！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "もっと褒めてもいいんだよー。",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "完璧だ。最高だ。これ以上のものはない。\\他の誰にもできない斬新なアイディアだ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "初めて認めてくれるなんて。フフッ。\\気分いいから散歩でもしに行こうかな。\\ついて来てもいいわよー！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "ご主人さまに認めてもらえて\\本当に嬉しいみたいですね♥",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "これでついて行かなかったら\\また機嫌悪くするだろうな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "何してるの？\\ついて来ないの？",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "far"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "あら。\\モナも行かないといけないようですね～\\困った子♥",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "はあ…\\機嫌いいうちについて行こう。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "50": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

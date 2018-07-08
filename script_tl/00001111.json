@@ -1,10 +1,378 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "timebrief",
+      "background": "bg050_f",
+      "bgm": "14",
+      "date": "2017-11-24",
+      "location": "home1"
+    }
+  },
+  "phase2": {
+    "1": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">スキル情報</color>を選択してください。",
+      "dialogue": "The world\\Is full of <color=ff9900>desires</color>.",
+      "background": "bg050_f",
+      "bgm": "keep",
       "char": "none",
-      "speaker": "none"
+      "speaker": "none",
+      "voiceid": "900203008"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "Both the Human Kingdom and the Demon Kingdom are similar",
+      "background": "bg010_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203009"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "I don't have any interest in the Demon Kingdom.\\I also had nothing to do there, so I sat down in the Human Kingdom.",
+      "background": "bg036_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203010"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "With the money I receive from the Demon Kingdom\\And my part time work I was able to lead a calm life.",
+      "background": "bg095_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203011"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "I really like this life",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203012"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "《Please confirm the details above the electricity rate that you have not paid,\\Select 'Confirm' or 'Cancel'",
+      "bgm": "none",
+      "char": "none",
+      "speaker": "none",
+      "image": "phone_01_f",
+      "voiceid": "900203013"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "If I only didn't have these annoying problems.",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203014"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "Yes, yes, <color=ff9900>《Confirm》</color>.",
+      "background": "bg086_f",
+      "char": "none",
+      "speaker": "none",
+      "voiceid": "900203015"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "Eh?!\\Something just fell!?",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "shake",
+      "voiceid": "900203016"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "Pleased to meet you, adorable master ♥\\I’m your supporter, my name is <color=ff9900>Mona</color>♥",
+      "background": "bg086_f",
+      "bgm": "12",
+      "char": "c314_01",
+      "speaker": "mona",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "900203017"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "Eh? What?\\My supporter?",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "serious",
+      "before_effect": "shake",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "voiceid": "900203018"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "Yes! Master, your application was recently confirmed\\To participate in the competition to determine the next <color=ff9900>Demon Lord</color>.",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt",
+      "one_ani": "idle",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "900203019"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "Ah?\\What are you talking about? Demon Lord?\\Hey, don’t touch my cellphone without my permission!",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "voiceid": "900203020"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "Don’t you remember?\\Master, you just <color=ff9900>Confirmed</color> your entry to the competition on your own.",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "900203021"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "Eh?",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "900203022"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "Now that you say it, I just finished\\pressing <color=ff9900>Confirm</color> in the mail that recently arrived…\\No, but, wasn’t that an electric bill?",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "voiceid": "900203023"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "Can I use this room~?\\Hehe… I sense the scent of a young boy♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "before_effect": "go_to_left_slow",
+      "sound": "se_prologue_trash1",
+      "voiceid": "900203024"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "Hey, don’t lay down without asking!",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "confused",
+      "voiceid": "900203025"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
+      "wait": "longest",
+      "fade_in": "longer"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "Well, what does this mean?\\What is the Demon Lord competition?",
+      "background": "bg095_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "900203026"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "Eeehh~?\\Haven’t you been heard of the news at the Demon Kingdom?",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "900203027"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "Of course not!\\After all, I came here because I was fed up of the Demon Kingdom.",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "900203028"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "Master…\\You don’t have any friends, right?",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "900203029"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "Sh-shut up! I’m not alone!\\Of course, and what news?",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "900203030"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "At the moment, the Demon Lord is involved in a very scandalous festival♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "900203031"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "The actual Demon Lord Luciferro decided to suddenly retire、\\And, no one knows where he is.\\He fled from his home.",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "900203032"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "Fled? The Demon Lord?",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "voiceid": "900203033"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "Because of that, the competition to determine the next Demon Lord has started.\\You've finished the formalities beforehand to be able to register you without issues, master♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "900203034"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "Doesn't matter what i think?",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "voiceid": "900203035"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "What are you talking about?\\Didn’t you click on 'Confirm' by your own will?",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "voiceid": "900203036"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "That's different\\I have no interest to turn into a Demon Lord!",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "900203037"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "In that case, let's learn about the Demon Lord competition.\\Let's go~♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "900203038"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "Don’t keep talking as if nothing happened!",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "900203039"
+    },
+    "34": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "hold": "normal"
+    },
+    "35": {
+      "type": "curtain",
+      "background": "bg086_f",
+      "fade_in": "normal",
+      "hold": "normal",
+      "char": "c001_01"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "In that case, master\\At the moment everyone underestimates you by saying you are the weakest descendant of all…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "900203040"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "I don't care, let them think what they want!",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "900203041"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "But, now's the time to say goodbye to the title of 'The Weakest'!\\To wait for the ideal moment and prepare to fight in the competition of the <color=ff9900>Demon Lord</color>.\\Mona will be your special guide!",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "900203042"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "Even when I wanted to pass the day relaxing at home…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation",
+      "voiceid": "900203043"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "First off, let's resolve that habit of you being a hikikomori!",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "facial": "affair",
+      "voiceid": "900203044"
+    },
+    "41": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "hold": "shortest"
     }
   }
 }

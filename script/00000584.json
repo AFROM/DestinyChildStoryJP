@@ -2,265 +2,272 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人！ご主人！",
+      "dialogue": "おい、お前達。\\暴れないで、よーく聞けよ。",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "joy",
-      "screen_effect": "dialog_shake"
+      "bgm": "31",
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "一体何だよ？うるさいな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "…",
+      "char": "m050_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ホントにホントにすっごい話聞いた！\\この辺におっきなドラゴンがいるんだって！",
-      "char": "c003_01",
+      "dialogue": "何だ！？\\もったいぶらずに、さっさと言え！",
+      "char": "m056_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ドラゴン？あの体中が鱗で覆われてる、\\角があって空も飛べるモンスターか？",
+      "dialogue": "お前達は、俺の大事なチャイルドだ。\\だから、お前達が争う姿は見たくない。\\ケンカはやめろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ここは魔界じゃないぞ？\\人間界にドラゴンなんている訳が。",
-      "char": "keep",
+      "dialogue": "男のクセに何を言う！？\\そんな甘っちょろい言葉、聞いてられるか！",
+      "char": "m056_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ホントだもん！本当に聞いたもん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "嘘じゃない。本当だ。",
-      "char": "c116_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "お前が言ったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "私は聞いた話しか言わない。\\ありもしない話もしない。\\私が聞いた話では、\\この近所にドラゴンが住んでいる。",
-      "char": "c116_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "良く考えてみろ。\\お前もよく知るドラゴンだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "俺が知ってるドラゴン…あれ？\\そういえば…心当たりがあるな…まさか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "オルガ！オルガー！",
-      "background": "dungeon_bg",
-      "char": "c000_01",
-      "pos": "left",
-      "facial": "fury",
-      "screen_effect": "dialog_shake",
-      "speaker": "same"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ふう…今度は何だ。やかましい奴め。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "お前、最近夜中に散歩してるか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "している。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "それだ…お願いだから自重してくれ。\\ドラゴンがいるって噂が\\近所に広まってるらしいぞ。",
+      "dialogue": "お前さ、主人が真面目に話してるのに、\\その態度はないんじゃない？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
+    "7": {
+      "type": "talk",
+      "dialogue": "俺は悪魔の気持ちは分かってるつもりだ…\\だが…この野蛮なチャイルドは、\\わかってないようだな…",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "なにい！？\\今、俺に「野蛮人」って言ったな！？",
+      "char": "m056_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "違う…「野蛮なチャイルド」と、言ったんだ…",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "野蛮人だと！貴様！",
+      "char": "m056_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "「野蛮人」も「野蛮なチャイルド」も変わんないけど…これじゃラチが明かないな…\\まずは普通の会話から教えないとダメだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "はいはい、とにかく落ち着けアバドン。\\何か勘違いしてるみたいだから、言っておくが…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "いくら、お前達の契約者が主従関係だからって、\\同じようにお前にギロチンをこき使う権利はないぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "teach"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "契約者は契約者。\\チャイルドはチャイルドだと、割り切るんだ。\\わかったか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "teach"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "それは不公平だ！\\なぜ契約者は良くて、俺はいけないんだ？",
+      "char": "m056_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "いや、不公平とかそういう話じゃなくてだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "全然、理解してないようだな…フッ。",
+      "char": "m050_01",
+      "speaker": "same",
+      "after_effect": "shake_weak"
+    },
     "18": {
       "type": "talk",
-      "dialogue": "で？",
-      "char": "m057_01",
-      "speaker": "same"
+      "dialogue": "なんだその顔は！？\\俺を馬鹿にしてるのか！",
+      "char": "m056_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "after_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "で、って…\\そのうち、近所に悪魔が住んでるって\\噂まで立ちそうだよ。",
+      "dialogue": "とにかく！俺のチャイルドはみんな平等。\\そして、主人は俺だけだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m057_01",
-      "speaker": "same"
+      "dialogue": "あんまり言うことを聞かないようなら、\\主人に逆らったと見なすぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry"
     },
     "21": {
       "type": "talk",
-      "dialogue": "おい。",
-      "char": "keep",
+      "dialogue": "急に何を言う？\\そもそも貴様を主人だと認めた覚えはないぞ。",
+      "char": "m056_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "before_effect": "shake",
+      "after_effect": "shake_weak"
     },
     "22": {
       "type": "talk",
-      "dialogue": "な、なんだよ、いきなり…",
+      "dialogue": "うん、まあ知ってたよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "sigh"
     },
     "23": {
       "type": "talk",
-      "dialogue": "私が何もしないからといって、\\お前をどうこうできないわけじゃないぞ。\\これ以上面倒に巻き込むな。",
-      "char": "m057_01",
+      "dialogue": "何度も言わせるな。貴様を主人と認めたつもりは\\ない。しかし、それが問題だというのなら…",
+      "char": "m056_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "それで…俺を2,000m上空から\\東京見物でもさせてくれるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "うう…近くで見たら超怖いじゃん。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "いや、ここは主人としての威厳を\\チャイルドに見せなければ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "俺の小言が聞きたくなければ、\\小言を言われるようなことをするな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…ふう、もしドラゴンを見たという噂を聞いたら\\雲の影なんじゃないかって言ってやれ。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "馬鹿げてるな。",
+      "dialogue": "ま、まさか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "30": {
+    "25": {
       "type": "talk",
-      "dialogue": "人間界にドラゴンがいるって方が馬鹿げてるだろ。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "うう…",
-      "char": "c000_01",
+      "dialogue": "貴様を先に始末してやる！",
+      "char": "m056_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "center",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "32": {
+    "26": {
       "type": "talk",
-      "dialogue": "散歩は止めてくれないのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "同じことを二度言わせるな。",
-      "char": "m057_01",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "わかった、わかった。\\ただ、お前も少しは気を付けてくれ。\\できるだけ見つからないようにしろ。",
+      "dialogue": "うわっ！や、やめろアバドン！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
-      "after_effect": "go_to_left_point"
+      "before_effect": "shake"
     },
-    "35": {
+    "27": {
       "type": "talk",
-      "dialogue": "生意気な悪魔め、戦いでは言うことを聞く。\\だが契約はそれだけだ。\\それ以外の時間は自由にさせろ。",
-      "char": "m057_01",
+      "dialogue": "聞かん！\\己のチャイルドより弱い奴に、主人の資格はない！",
+      "char": "m056_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "うわああ！助けて、ギロチン！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "死は誰にでも訪れる…\\謙虚に受け入れるのだ…",
+      "char": "m050_01",
       "speaker": "same"
     },
-    "36": {
+    "30": {
       "type": "talk",
-      "dialogue": "面倒だが、近々あのうるさい口を\\二度と開けないようにしてやらねば。",
-      "char": "keep",
+      "dialogue": "今、そんなこと言ってる場合かーっ！？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
-    "37": {
+    "31": {
+      "type": "talk",
+      "dialogue": "アバドン、最後に悪魔の首だけ\\俺に切らせて欲しいのだが…",
+      "char": "m050_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "この軟弱な悪魔を始末した後で\\貴様の相手になってやる、ギロチン！",
+      "char": "m056_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd",
+      "one_ani": "attack"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "やっぱり他人の話は聞いてないようだな…",
+      "char": "m050_01",
+      "speaker": "same"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "お、お前ら…\\頼むから、少しは主人の言うことを聞いてくれーっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "35": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

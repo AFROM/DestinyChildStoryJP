@@ -2,353 +2,247 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハァイ。",
-      "background": "bg070_f",
-      "bgm": "17",
-      "char": "c190_01",
-      "speaker": "same"
+      "dialogue": "あの、ここに毎日来る\\不審な女性を見てませんか？",
+      "background": "bg091_f",
+      "bgm": "9",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "お姉さん！",
-      "char": "c190_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "女性？見てないけど…",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "3": {
       "type": "talk",
-      "dialogue": "お散歩？\\今日は外に出ていいって？",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "left",
+      "dialogue": "今日もダメね。\\ここで見たって聞いたんだけど…\\まさか私の存在に気づいて…！",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
       "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うん、体調もいいから…\\お医者様が許可をくださったの。",
-      "char": "c190_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "見たよ、その女。",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "確かに、顔色がいいわ。\\前会った時より元気そう。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "dialogue": "本当に！？",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "本当に？",
-      "char": "c190_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "毎日ここに来て、ぶつぶつ呟く女性のことでしょ？",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "うん。貴方の夢が叶う日も、\\そう遠くないみたい。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "…お姉さん、いつも励ましてくれてありがとう。\\お姉さんのおかげで私…",
-      "char": "c190_00",
+      "dialogue": "今どこにいるか知ってる？\\住んでいる所とか、よく行く場所とか…",
+      "char": "c188_00",
       "speaker": "same_full",
       "pos": "right",
       "distance": "normal"
     },
-    "9": {
+    "8": {
       "type": "talk",
-      "dialogue": "うふふ、私、嘘はつかないわ。\\本当にそう思ったから、そう言ったのよ！\\それより、演技の練習はしてる？",
-      "char": "c190_01",
+      "dialogue": "そこまでは知らないけど…とにかく見かけたわ。\\だから諦めないで待ってみて。",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "諦めないで…\\アナタ、まさか…！",
+      "char": "c188_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
     "10": {
       "type": "talk",
-      "dialogue": "もちろん！",
-      "char": "c190_00",
+      "dialogue": "あれ、いつの間にか消えた？\\こんなことしてる場合じゃない。\\早く雅美に伝えなきゃ。\\あの女の手がかりを見つけたって…",
+      "char": "keep",
       "speaker": "same_full",
       "pos": "right",
       "distance": "normal"
     },
     "11": {
-      "type": "talk",
-      "dialogue": "そっか。じゃあ、ちょっと見せてもらえるかな？",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "は、恥ずかしい…",
-      "char": "c190_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "恥ずかしがっちゃダメ。\\だいたい、大勢の観客の前に立つんだから。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "恥なんて捨てないと。\\役者にとって一番大事なのは自信！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "見てて。…こほん。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "「お嬢さん、時には思い切って\\20秒だけ勇気を出してごらん」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "「たった20秒、恥ずかしくても勇気を出そう」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "「そのたった20秒で、世界は変わる。\\きっと素敵なことが起こるから」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…お姉さん、ありがとう。",
-      "char": "c190_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ちょっとは参考になったかしら。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…うん、本当にすごかった。",
-      "char": "c190_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "23": {
+    "12": {
       "type": "talk",
-      "dialogue": "嫌だってば。他のやつに頼めよ。",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "そう言わずに。お願い！\\1回だけだから、一生のお願い～！",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…わかったよ。そこまでいうなら。\\1回だけだからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ありがとう、ご主人様。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "で、俺は何をすればいいんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "ここのセリフを読んで。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "…はぁ、めんどうくさい。何で俺がこんなこと…\\「時には思い切って」…",
+      "dialogue": "見つけた。\\お前、契約者に接触しただろ？",
+      "background": "bg091_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "haah"
     },
-    "30": {
+    "13": {
       "type": "talk",
-      "dialogue": "もっと感情を込めて！",
-      "char": "c190_01",
+      "dialogue": "アンタには関係ないよ。",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "normal"
     },
-    "31": {
+    "14": {
       "type": "talk",
-      "dialogue": "うう…なんでこんなこと…\\本当に、1回こっきりだからな。\\これが最初で最後だからな！",
+      "dialogue": "関係あるし、困るんだよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sigh"
     },
-    "32": {
+    "15": {
       "type": "talk",
-      "dialogue": "「時には思い切って\\20秒だけ勇気を出してみよう」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "「たった20秒、恥ずかしくても勇気を出そう\\そうすると、世界は変わる。きっと素敵な事が\\起きるから」",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c190_01",
+      "dialogue": "なんで？契約者が悪魔のこと知ったら\\また強制的に契約して、記憶を消す気？",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "35": {
+    "16": {
       "type": "talk",
-      "dialogue": "あれ？次のセリフ、お前じゃないのか？",
+      "dialogue": "良心ってものがないのね。\\どうして私の契約者の邪魔ばかりするの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "言っただろ。\\俺の正体をバラすわけにはいかないって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "アタランテの契約者は相棒の探偵と一緒に\\ある失踪事件を追っている。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "実はダナの契約者が失踪した事件で\\その事件の結末には俺も関係していた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "やはり悪魔とチャイルドが関係している分、\\俺は彼女たちがこの事件を忘れることを望んでいた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "しかし危険な好奇心は\\少したりとも消えることはなく、\\結局俺は彼女たちと強制的に\\契約を結ばざるを得なくなった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "契約後も彼女たちが真実に近づくたび\\俺は再契約を結ぶなどして邪魔をした。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "やっぱりあの事件には何か他の秘密が\\隠されているのよ。\\だから契約者の邪魔をするんでしょ？",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "違う。\\人間がむやみに振り回されるのを防ぎたいだけだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "それでも真実は解き明かさないと。",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "真実も耐えてこそ価値がある。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "極悪非道な犯罪者が言うセリフじゃないわ。",
+      "char": "c188_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "after_effect": "go_to_right_point"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "おい！アタランテ、どこに行く！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "36": {
+    "29": {
       "type": "talk",
-      "dialogue": "…あ、ごめんなさい。\\ご主人様が思ってたより下手だったから\\どうしようかなって考え込んでたわ。",
-      "char": "c190_01",
+      "dialogue": "契約者を手伝いに行くの！邪魔しないで！",
+      "char": "c188_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "far",
+      "loop_ani": "attack"
     },
-    "37": {
+    "30": {
       "type": "talk",
-      "dialogue": "せっかく手伝ってやったのに…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "人様にお見せするなら、もう少し練習が必要だわ。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "練習！？そんなのやらないよ。\\1回だけって言っただろ。\\一生のお願い使ったんだから、終わり。",
+      "dialogue": "言うこと聞かない助手だな。\\おい、戻って来い！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused",
-      "before_effect": "shake_weak"
+      "before_effect": "shake"
     },
-    "40": {
-      "type": "talk",
-      "dialogue": "まあ、…そうだったわね。\\でも助かったわ。ありがとう。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "ふん。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "本当に…本当にありがとう。",
-      "char": "c190_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "43": {
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

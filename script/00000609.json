@@ -2,15 +2,17 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人さま～お仕事の時間ですよ～♥",
+      "dialogue": "悪魔～一体何してる～♪\\さっさと～起き上がれ今こそ～♪",
       "background": "bg086_f",
-      "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same"
+      "bgm": "16",
+      "char": "m149_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何のことだ？今日のバイトは休みだぞ…",
+      "dialogue": "う、何だよ…\\寝ている悪魔を叩き起こして何する気だ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -18,140 +20,119 @@
     },
     "3": {
       "type": "talk",
-      "dialogue": "うふふ、ご主人さまったらバイトばかり。\\でもそっちじゃないんです。",
-      "char": "c001_01",
+      "dialogue": "太陽の日差しが～空を照らして～♪\\今こそ～魂を～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "4": {
       "type": "talk",
-      "dialogue": "モナのいうお仕事は\\ご主人さまに魔王になってもらうこと♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "その日食べる分をその日に稼ぐ悪魔に\\魔王なんて似合わない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "もう、そんなこと言わないでください。\\ささ、出かけましょう♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "はあ、もう家に帰りたい…",
+      "dialogue": "ふざけるな…今日は貴重な休日なんだ…\\サキュバスたちも外出中だし…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
+    "5": {
+      "type": "talk",
+      "dialogue": "久々に魔王争奪戦のことを忘れられる\\平和な一日だっていうのに…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ピース！真のピースは～♪\\君のハートの中に～イエーイ♪",
+      "char": "m149_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "何を言ってるかさっぱりだよ！\\さっさと部屋から出てってくれ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
     "8": {
       "type": "talk",
-      "dialogue": "まだ外にも出てませんよぉ～？",
-      "char": "c001_01",
+      "dialogue": "ミュージックを知らない君の～魂は～♪\\君の魂を～見つめる僕の瞳は～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack"
     },
     "9": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "10": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "10": {
+    "11": {
       "type": "talk",
-      "dialogue": "本当にこの戦力で戦うのか？",
-      "background": "dungeon_bg",
+      "dialogue": "結局逃げてきてしまった…ヘルツのヤツ…\\上手くもない歌で悪魔をからかうなんて…",
+      "background": "bg095_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "あら、敵の前で自信のなさを見せちゃうなんて。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "まだまだですね、ご主人さま♥",
-      "char": "keep",
+      "dialogue": "チキチキチキチキ♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "13": {
       "type": "talk",
-      "dialogue": "いつから俺を過大評価した？",
+      "dialogue": "うわああああっ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "実は、信頼できる最終手段はもう一つあるんです♥",
-      "char": "c001_01",
+      "dialogue": "現実から逃げずに～♪今を～切り開け～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack"
     },
     "15": {
       "type": "talk",
-      "dialogue": "マスターはお休み中だ。戦闘は俺の担当だ。",
-      "char": "m153_01",
+      "dialogue": "なんでここまでついて来るんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "left",
+      "facial": "confused"
     },
     "16": {
       "type": "talk",
-      "dialogue": "どこに隠れてたんだよ。\\主人の前で隠れる必要ないだろ。",
-      "char": "c000_01",
+      "dialogue": "耳を傾け～この音を聞け～ぃ♪\\君の魂は～音楽を欲してるっぜぇ～♪",
+      "char": "m149_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake_weak"
+      "one_ani": "attack"
     },
     "17": {
       "type": "talk",
-      "dialogue": "うふふ、それがマンティの特技ですから♥",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "それじゃ、戦闘能力のないご主人さまは、\\あっちの隅っこで休んでいてください。",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "よろしくね、マンティ♥",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "心配するな。俺の邪魔さえしなければ問題はない。",
-      "char": "m153_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…初めから俺を連れてくるなよ。",
+      "dialogue": "音楽じゃなくて騒音だ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "confused",
+      "before_effect": "shake"
     },
-    "22": {
+    "18": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,150 +2,183 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "Hadash zima iha？",
-      "background": "bg086_f",
+      "dialogue": "食べた？全部食べたの！？",
+      "background": "bg089_f",
       "bgm": "20",
-      "char": "m037_01",
+      "char": "c003_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "Tihkhu… Adameh shoq…",
-      "char": "m036_01",
-      "speaker": "same"
+      "dialogue": "何言ってるんだ？当然、全部食べたさ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "また始まった。\\また聞き取れない言葉で話し合ってる。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "《この時間、新しい計画ではない？》",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "《貴方が待っている…》\\《とても興味深いイタズラを…計画…》 ",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "何だそれ…翻訳機使ったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "何をおっしゃいますか…\\私が同時通訳したものです。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "いや、翻訳機はおいといて…\\それで、2人は今どんな会話をしているんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "イタズラ？計画？お前たち、\\またとんでもないことを企んでるな？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "キキキ、教えない。\\イタズラはこっそりやるのがいいんだ。",
-      "char": "m037_01",
+      "dialogue": "ダビの分の残しておくって言ったじゃん！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
-    "11": {
+    "4": {
       "type": "talk",
-      "dialogue": "リザ、あいつらを止めてくれ！",
+      "dialogue": "そんな約束してない。\\どうやってアイスクリームを残すんだ？\\溶けちゃうだろ。溶ける前に食べ切らないと。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "pretense"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "それがアイスクリームに対する礼儀ってもんだろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "キキキ…アイスクリームくらい\\買ってきてやる！",
+      "char": "m037_01",
+      "speaker": "same"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ホント？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "食べろ！ぜーんぶ食べろ！キキキキ…",
+      "char": "m037_01",
+      "speaker": "same",
+      "one_ani": "attack"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "一体何個あるんだよ！\\近所のスーパーで売ってるアイス買い占めたのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ビンゴ！",
+      "char": "m037_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "嘘つけ…そんな金ないだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "12": {
       "type": "talk",
-      "dialogue": "まだ御主人様に害を加えるようなことは\\していませんので過敏に反応する必要は\\ないと思います…",
-      "char": "c002_01",
+      "dialogue": "気に入ったか？ふふ…多いほどいいだろ…\\飽きるまで食べろ…ふふ…",
+      "char": "m036_01",
       "speaker": "same"
     },
     "13": {
       "type": "talk",
-      "dialogue": "この悪魔みたいなヤツらめ…人間界では迷惑行為だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "そうか…ふふ…いいことを思いついた…",
-      "char": "m036_01",
-      "speaker": "same"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "うわあ、リザ、あいつの口をふさいでくれ！",
+      "dialogue": "泥棒みたいなことするな！元に戻してこい！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "Amar~ Lhu natanti~",
+      "char": "m037_01",
+      "speaker": "same"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "Ehineham… Anal nihaazinah bayalu imarah.",
+      "char": "m036_01",
+      "speaker": "same"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "作戦名は…《ご主人様の悪魔性回復プロジェクト》…",
-      "char": "m036_01",
+      "dialogue": "Natanti tob mayaseh lkol. Ki bayalenu… tob ebah...",
+      "char": "keep",
       "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "興味深い作戦名ですね。\\そのプロジェクト、私も参加させていただいても\\宜しいですか？",
-      "char": "c002_01",
+      "dialogue": "あいつら何て言ってるんだ？急に外国語かよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "キキキ！もちろんだ！面白くなってきた！",
-      "char": "m037_01",
+      "dialogue": "ほんとバカご主人！そんなことも知らないの？\\あれは魔界の古い言葉だってリザが言ってたでしょ。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "待て…その悪魔性何とかプロジェクトってヤツ…\\内容を少し教えてもらえるか？",
+      "dialogue": "…古代語か。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "当然、秘密だ！",
+      "dialogue": "近所の人たちに分けてあげよう！\\キキキ。",
       "char": "m037_01",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "なんでだよ！",
+      "dialogue": "心優しい悪魔が近所の人たちのために\\アイスクリームを盗んだってな！キキキ！",
+      "char": "keep",
+      "speaker": "same",
+      "after_effect": "go_to_right_point"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "お前ら何をひそひそと…ど、どこに行く！\\本当に噂を流す気か？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "22": {
+    "23": {
+      "type": "talk",
+      "dialogue": "じゃ、行ってくる！キキキ！",
+      "char": "m037_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "心配するな…\\仕事はしっかりするヤツだ…ふふ…",
+      "char": "m036_01",
+      "speaker": "same"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ああ、俺の運命…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "26": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

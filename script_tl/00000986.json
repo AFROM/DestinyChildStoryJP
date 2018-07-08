@@ -2,79 +2,222 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "何だか不気味だ。",
-      "background": "bg063_f",
-      "char": "c000_01",
+      "dialogue": "見てしまった！\\ご主人様が猫の妖怪に拉致されるのを…",
+      "background": "bg182_f",
+      "bgm": "18",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "joy",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200202022"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あのトンネルの向こうの<color=CC66FF>試練の塔</color>は、\\至る所に強い悪魔たちが散らばっています。",
-      "char": "c001_01",
+      "dialogue": "どうしよう！どうする？\\ひょっとするとこれって大チャンス！？\\このまま放っとけばモナ姉さまはダビのものになるってことだよね？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "joy",
+      "voiceid": "200202023"
     },
     "3": {
       "type": "talk",
-      "dialogue": "沸々と煮えくり返る欲望の熱湯、そのもの！\\みんな<color=CC66FF>試練の塔</color>で自分の実力を試しています。",
+      "dialogue": "こんなに突然…\\まだ心の準備ができてないのに♥",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "victory",
+      "voiceid": "200202024"
     },
     "4": {
       "type": "talk",
-      "dialogue": "どうしてそんな面倒なことを…",
-      "char": "c000_01",
+      "dialogue": "誰にでも初めてはあるものさ、準備もいいけど、決心が重要だろ？",
+      "bgm": "25",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200202025"
     },
     "5": {
       "type": "talk",
-      "dialogue": "それがまた面白くて。\\<color=CC66FF>悪魔信者</color>たちが興味深い条件を提示したんです。",
-      "char": "c001_01",
+      "dialogue": "そ、そうよね！\\まずは、モナ姉さまとの愛の巣を探すところから始めないと…♥",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "victory",
+      "voiceid": "200202026"
     },
     "6": {
       "type": "talk",
-      "dialogue": "試練の塔を1層クリアする度に、\\その試練にふさわしい<color=CC66FF>報酬</color>を与えると。",
+      "dialogue": "…って、だ、誰っ！？ダビの秘密の話を盗み聞きするなんて！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "idle",
+      "before_effect": "shake_weak",
+      "after_effect": "none",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200202027"
     },
     "7": {
       "type": "talk",
-      "dialogue": "うわ、あいつら、どうしてそんな損するようなことを…？",
-      "char": "c000_01",
+      "dialogue": "君は、大声で秘密の話をベラベラと喋ってしまうんだね。少し不用心じゃないかい？",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "voiceid": "200202028"
     },
     "8": {
       "type": "talk",
-      "dialogue": "何も得しないだろう？面白いのか？",
-      "char": "c001_01",
+      "dialogue": "そんなことより、さっき《猫の妖怪》って言ってた\\ね？君の主人を拉致したって。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "voiceid": "200202029"
     },
     "9": {
       "type": "talk",
-      "dialogue": "自分より強い悪魔たちが、たじたじになって\\苦戦している様子を見物するの♥",
-      "char": "keep",
+      "dialogue": "そ、それがどうしたの？\\たぶんご主人、今ごろひっどい拷問を受けてるよ！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "voiceid": "200202030"
     },
     "10": {
       "type": "talk",
-      "dialogue": "<color=ff7480>……\\<color=ff7480>…♥",
+      "dialogue": "ふむ、拷問か。\\試しに聞くけど《ひっどい拷問》って、どんな感じの拷問？",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200202031"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そ、それはもちろん、全身をがんじがらめに\\縛られて…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sulky",
+      "voiceid": "200202032"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ふんふん？",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200202033"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "脇腹をコチョコチョくすぐられること！\\あれ、本当にこの世の地獄なんだから！",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation",
+      "voiceid": "200202034"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "モナ姉さまだって、ダビが言うこと聞かないと、たまにやるんだよ！も～あれは本当に腹わたがよじれて、死にそうになるし！",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "facial": "cry",
+      "voiceid": "200202035"
     },
-    "11": {
+    "15": {
+      "type": "talk",
+      "dialogue": "ハッハッハッハッ！\\なるほど。確かにそれは《ひっどい拷問》だ。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200202036"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ところでその《モナ姉さま》だけど、君のご主人様が誘拐されたと知ったらどうするかな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200202037"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "まあ、心配ぐらいはするんじゃない？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "200202038"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そうだよね？\\ご主人様を救うために必死で奔走し、その挙げ句に捕まってしまったとしよう…",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200202039"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "そして、《モナ姉さま》は猫の妖怪にがんじがらめに縛られて、脇腹をくすぐられて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200202040"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "え、えええっ…！？モ、モナ姉さまに、そんなピンチが訪れちゃうの…！？",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "cry",
+      "one_ani": "attack",
+      "voiceid": "200202041"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そ、それはダメっ！それだけはダメ～っ！！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "cry",
+      "voiceid": "200202042",
+      "screen_effect": "dialog_shake"
+    },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "25",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "脇腹をくすぐられる程度が拷問だって…？\\まったく、ふざけたサポーターもいたものだね。",
+      "background": "e048_01_f",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200202043"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "一度、主人の顔を拝んでみたいものだよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "voiceid": "200202044"
+    },
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

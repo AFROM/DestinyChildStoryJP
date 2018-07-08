@@ -2,252 +2,234 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リザめ、今日こそは…",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c267_01",
+      "dialogue": "ハ～イ★深夜のパートナーホルス参上～",
+      "background": "bg040_f",
+      "bgm": "24",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "2": {
       "type": "talk",
-      "dialogue": "リザなら急用があるって出かけたぞ。\\ムチャなスケジュールを俺に託してな…",
+      "dialogue": "うっわ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ふん、また逃げられたか。",
-      "char": "c267_01",
+      "dialogue": "そういうの、やめろよっ！！\\あとな、そのモノマネは嫌いだ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "shock"
     },
     "4": {
       "type": "talk",
-      "dialogue": "逃げられた？何かあったのか？\\おい、ダビ！リザがどこに行ったか知ってるか？",
-      "char": "c000_01",
+      "dialogue": "そんな下手だったかい？\\結構似てたと思うんだけどなぁ。",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "リザはトサカ野郎がイヤになって、家出しちゃったんじゃない？",
-      "char": "c003_01",
+      "dialogue": "もしかして芸能人とか嫌い？\\脳内彼女とか作って楽しむタイプ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…もういい。",
+      "dialogue": "単にそのモノマネが嫌いなだけだ！\\今は忙しいんだから、邪魔するなよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "facial": "fury"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ふむ、モナというサキュバスもそうだが、そなたと\\違って賢いではないか。",
-      "char": "c267_01",
+      "dialogue": "んー？これ、あれだろ？さっきサキュバス達に\\メチャクチャ叱られて押しつけられた宿題。",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "俺と違うってどういう意味だよ、それ…？",
+      "dialogue": "どれどれ…アハハ！なんだこりゃ！\\問題：「人間が実現不可能な望みを願った時の正しい対処法は？」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "答え：「慌てず騒がず、その願いを受け付ける」",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "こいつは違うな。\\なーんでこんな基本的な問題を間違えるかな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "えっ！？これが一番悪魔らしくないか？\\叶えてやれない願いも、受け付けるってのがさ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "9": {
-      "type": "talk",
-      "dialogue": "さあな…\\あとでサキュバスたちに教えてもらうがよい。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "go_to_right_slow"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ま、待てよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
-    },
-    "11": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
     "12": {
       "type": "talk",
-      "dialogue": "近う寄れ、バスト。",
-      "background": "bg048_f",
-      "bgm": "19",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "ニャハハハ～♪",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "わらわに懐いてくれるのは、そなただけだな。\\フフッ、寂しいものだ。",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "ご主人様、今日もサキュバスに会えなかったの？\\悪いサキュバス！バストが懲らしめてあげよっか？",
-      "char": "c274_01",
+      "dialogue": "違うな。\\受け付けるんじゃなくて願いの方を変えさせるのさ。",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "right"
     },
+    "13": {
+      "type": "talk",
+      "dialogue": "割に合わない契約をしてしまい、後から魔力をごっそり持ってかれたらどうするんだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "騙す方法はいくらでもある。\\自分の都合の良いように誘導するのさ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "チャイルドにするんだぞ？\\わざわざ反感を買う必要はないだろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "モナもリザも逃げ回っちゃってさー！\\サキュバスって悪い子ばっかりだね！",
-      "char": "keep",
+      "dialogue": "悪魔のくせに、そんな心配をしてるのか？\\今までよく生き残れたなあ…",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "2人とも、わらわのことを信じ切れていないのだ。\\それは賢明な判断だと思うぞ。",
-      "char": "c267_01",
+      "dialogue": "バカなのか…？アッハッハッ、笑えるな！\\小僧、この答案用紙このまま提出したら大目玉だぞ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "だが、困ったものだな…\\これでは、わらわの計画に支障が…",
+      "dialogue": "ふん、いいんだよ。\\この宿題は俺に対する八つ当たりみたいなものだし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "どんな答えを書いたって、どうせ叱られるんだよ。",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "19": {
-      "type": "talk",
-      "dialogue": "計画通りなら既に情報を集め、ここを後にするつもりだったのだが…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
     "20": {
       "type": "talk",
-      "dialogue": "ニャン！バストもお供するの！\\ホルルやサキュバスがいない遠いところに行こうね！",
-      "char": "c274_01",
+      "dialogue": "いや、そうだとしても、これは基本中の基本だ。\\口車に乗せるぐらい出来ないと、悪魔失格だぞ？",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そなたはわらわによく従ってくれている…\\猫の頃も、チャイルドになった今も、変わらず…",
-      "char": "c267_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ニャ？だって、ご主人様はバストの主だから！\\これからもずーっとご一緒するの！",
-      "char": "c274_01",
+      "dialogue": "ちゃんとメモしとけよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
+    "22": {
+      "type": "talk",
+      "dialogue": "<b>余計な願い</b>を引き受けると…\\叶えられなかった時、痛い目に遭うぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "ふっ…猫の言うことではないな。\\まあよい、時間はたっぷりある。",
-      "char": "c267_01",
+      "dialogue": "経験者の言葉だ。\\肝に銘じておけ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "いくらサキュバスが逃げ回ろうとも、\\わらわがあの小僧の下にいれば、\\いつか顔を合わせる時が来よう。",
-      "char": "keep",
+      "dialogue": "経験者…？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "さあ、どちらが先に根をあげるか…\\根競べと行こうではないか。",
-      "char": "keep",
+      "dialogue": "悪魔の寿命がどれだけ長いかは知ってるだろ？",
+      "char": "c266_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ご主人様は悪いサキュバスが嫌いなの～？\\モナとリザ、ご主人様を避けてるもんね？",
-      "char": "c274_01",
+      "dialogue": "願いを叶えてやれなかったせいで、\\生涯お世話しないといけなくなったりするんだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "いいや。\\わらわは、あのような意思の強い者とは相性がいい。むしろ、そばに置いておきたいくらいだ。",
-      "char": "c267_01",
+      "dialogue": "それって、クレオパトラと契約したときの話か…？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あの者たちなら、わらわを理解できようぞ。\\もちろん、理解できなくとも問題ない。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "わらわを拒むというのなら、徹底的に支配するまで。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "そうなれば、おとなしくわらわに従うであろう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "楽しみにしているがいい、バスト。\\面白いことになりそうだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "従うってなーに？",
-      "char": "c274_01",
+      "dialogue": "今日はなかなか冴えてるじゃないか。",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "right"
     },
-    "33": {
+    "29": {
       "type": "talk",
-      "dialogue": "ご主人様は王さまだもん！\\いつだって好きにしていいんだよ！",
+      "dialogue": "そうだ。女王様を2000年も追いかけているのは、単に俺の執着だけじゃないってことさ。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
-    "34": {
+    "30": {
+      "type": "talk",
+      "dialogue": "一生お世話か…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "わかった。肝に銘じておくよ。\\下手に願いを受け入れて、人生を棒に振るわけにいかないからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

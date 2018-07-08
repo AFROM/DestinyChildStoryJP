@@ -2,194 +2,183 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "助けてくれ。",
-      "background": "bg086_f",
-      "bgm": "24",
-      "char": "m146_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "え？",
+      "dialogue": "リザの奴、最近忙しそうだな。",
+      "background": "bg109_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "2": {
+      "type": "talk",
+      "dialogue": "ウォッチャーの仕事を手伝っているのよ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "3": {
       "type": "talk",
-      "dialogue": "珍しいな。\\リベンジガールが助けを求めてくるなんて…",
+      "dialogue": "最近契約したチャイルドのウォッチャーは、\\魔界の犯罪者たちを監視する役割を担っている。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "助けてくれと言ったんだ。行くところがある。\\私を連れて行ってくれ。",
-      "char": "m146_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "監視中の犯罪者の一人が人間界に逃亡したせいで\\その悪魔を追い人間界に来たのだが、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "はいはい…",
+      "dialogue": "人間界については何も知らないため\\魔王候補生の一人に助けを求めることにしたらしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "どうやって俺について知ったのかは分からないが、",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ウォッチャーはそんな訳で\\俺のところに訪れ契約を提案した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "それよりさ…前も考えたことなんだけど\\ウォッチャーは悪魔とチャイルド、どっちなんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "どうしてそんなことを？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "おかしいだろ？チャイルドが魔界から主人なしで\\来たってのもそうだし…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "チャイルドが魔界の犯罪者を監視してるのも\\何かおかしいし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "規則違反だとかなんとかで、\\争奪戦の参加資格をはく奪されるかもしれない…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あら、そこまで魔王争奪戦に真剣だったんですね♥\\そうとは知らずご主人さまをいじめちゃいました♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "そうじゃない！不利になると思って\\心配になっただけだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "confused"
     },
-    "6": {
+    "15": {
+      "type": "talk",
+      "dialogue": "それなら心配する必要はないですよ。\\ご主人さまの補佐官たちは有能で粘り強いですから♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "7": {
-      "type": "talk",
-      "dialogue": "さ、着いたぞ。どうすればいい？",
-      "background": "bg119_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "もうお前は必要ない。帰れ。",
-      "char": "m146_01",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "なっ！\\",
-      "char": "c000_01",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "distance": "normal",
-      "speaker": "same"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "おいおい、何しに来たか知らないまま帰れだと？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "大事なことだ。",
-      "char": "m146_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "何だよ、大事なことって。\\話してくれるまで絶対帰らないからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "しつこいな。",
-      "char": "m146_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "俺はお前の主人だからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "俺のチャイルドが何か企んでいるかもしれないのに、大人しく引き返せるとでも思ってるのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "私の邪魔をする気なら容赦はしない。",
-      "char": "m146_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
     "17": {
       "type": "talk",
-      "dialogue": "最近は下剋上が流行ってるのか？\\そんな風に脅しても絶対に帰らないからな！",
-      "char": "c000_01",
+      "dialogue": "今回も無駄骨でしたね。面目ありません。",
+      "background": "bg055_f",
+      "bgm": "24",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "本当は今すぐ帰りたい。\\こんなことになるならモナと一緒に来ればよかった…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "大丈夫だ。既に脱獄の経歴が5回もあるヤツだ。\\簡単には捕まらない。",
+      "char": "m128_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "…いいだろう。話してやろう。",
-      "char": "m146_01",
-      "speaker": "same_full",
+      "dialogue": "やはりもう少し資料集めが必要かと思われます。\\ハーレム街を利用しましょう。",
+      "char": "c002_01",
+      "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "は、はは！やっぱり俺が怖いだろ？",
-      "char": "c000_01",
+      "dialogue": "いい考えだ。",
+      "char": "m128_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "お前がいなければ私も困るからな。",
-      "char": "m146_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "毎回助けてくれてありがとう、リザ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "お前のそのか細い指も\\私の契約者が再契約するには必要だろう？",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "どういたしまして。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ひい…",
-      "char": "c000_01",
+      "dialogue": "私たちは助け合う仲ではないですか。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "最後の警告だ。",
-      "char": "m146_01",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near"
+      "dialogue": "私が貴方のために苦労した分、\\貴方は御主人様のために奉仕してください。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "また私の邪魔をした時は、その口以外使い物にならないようにしてやる。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "オマエたちの協力、ありがたく受け取る。",
+      "char": "m128_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "26": {
       "type": "curtain",

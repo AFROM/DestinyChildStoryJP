@@ -2,59 +2,29 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ご主人様、モナは本当に感激しました… ",
-      "background": "bg159_f",
-      "bgm": "23",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "tempt",
-      "voiceid": "400616001"
+      "dialogue": "これから<color=\"ff9900\">探検地域</color>は<color=\"cc66ff\">チームレベルが一定水準上昇するたびに</color>開かれます。",
+      "background": "bg061_f",
+      "char": "c153_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いきなり何の話だよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "voiceid": "400616002"
+      "dialogue": "新しい<color=\"ff9900\">探検地域</color>が表示されたら、より遠くに行くことができるかもしれません。"
     },
     "3": {
       "type": "talk",
-      "dialogue": "体力も無く、魔力も全然無しで\\カリスマも財力も無い状況で始めた魔王争奪戦… ",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "400616003"
+      "dialogue": "《牛の歩みも千里》という言葉があるでしょう…？\\<color=\"ff9900\">探検に長い時間がかかるほど報酬が良い</color>って意味です…多分。",
+      "char": "keep",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ハイハイから始まり歩き方まで\\教えてあげた苦労が報われました！  ",
+      "dialogue": "といっても、探検は初めてなので今回は<color=\"ff9900\">1時間</color>だけ行ってみましょうか？",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "400616004"
+      "distance": "near"
     },
     "5": {
-      "type": "talk",
-      "dialogue": "あぁ！\\この喜びがまさにサポーターの生きがいなんですね！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "smile",
-      "voiceid": "400616005"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "ハイハイも歩き方も自分で覚えたよ… ",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "serious",
-      "voiceid": "400616006"
-    },
-    "7": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

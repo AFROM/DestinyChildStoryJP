@@ -2,213 +2,209 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "友よ。\\君はどのくらい人間界で暮らしているのだ？",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "m200_01",
+      "dialogue": "本当の本当に、君の言う通りになるチャロン？",
+      "background": "bg089_f",
+      "bgm": "31",
+      "char": "m197_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そうだな…\\もう、だいぶ経っていると思うけど。",
-      "char": "c000_01",
+      "dialogue": "もちろん！ダビの言う通りにすればいいよ。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "さぞ寂しかっただろうに。",
-      "char": "m200_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "そうでもないよ。\\バイトにバイトにバイト…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "来る日も来る日も仕事ばっかで大変だったからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "どんな身分でも独りで暮らすのは心細いこと。\\悪魔といえ寂しさを感じないわけではないだろう。",
-      "char": "m200_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "独りの時はともかく、最近は騒がしくて大変だよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ホント周りに人が増えたな。\\こんなことは一度もなかったのに。",
-      "char": "keep",
+      "dialogue": "上手くいくチャロンか?",
+      "char": "m197_01",
       "speaker": "same",
       "pos": "left"
     },
-    "9": {
+    "4": {
       "type": "talk",
-      "dialogue": "こんなことなら、独り暮らしの方がマシだ。",
+      "dialogue": "もう！ダビの言う通りにやれば大丈夫だってば！\\ちっとも難しくないよ。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "早く！ご主人が来る前にやらないと！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "わ、分かったチャロン！",
+      "char": "m197_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "悪魔様にあげようと思って持ってきたチャロン。",
+      "background": "bg086_f",
+      "char": "m197_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "クッキーか？ありがとな、チャロン。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "そんな風に思っていたのか…",
-      "char": "m200_01",
+      "dialogue": "い、いっぱい食べてくれチャロン。",
+      "char": "m197_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "私も友にとっては迷惑な存在でしかないのか。\\すまない。",
-      "char": "keep",
+      "dialogue": "ところで…なんでそんなに震えてるんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "別にアンクのことじゃ…\\すまない。俺が悪かった。いや…",
-      "char": "c000_01",
+      "dialogue": "チャ、チャロン？",
+      "char": "m197_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
+      "pos": "right",
       "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "俺じゃない！この口が悪いんだ！",
-      "char": "keep",
+      "dialogue": "口ごもったりして…それに、クッキーの上にある\\この不思議な粉は何だ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ハハハ！冗談だ。\\私が友のことを理解していないとでも？\\お前は、口で薄情なことを言っても、チャイルド全員の面倒をちゃんと見てるじゃないか。",
-      "char": "m200_01",
+      "dialogue": "そ、そ、それは！クッキーがもっと美味しくなる\\魔法の粉チャロン。",
+      "char": "m197_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "愛情がなければできないことだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "それ、褒めてるのか？",
+      "dialogue": "魔法の粉ー？へぇ、そこまで考えてくれるなんて\\本当にありがたいなー！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sulky"
+      "facial": "pretense"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そうだ！こんなに美味しいもの、一人で食べるのは\\もったいない。\\さ、オマエも食べてみろ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
     },
     "17": {
       "type": "talk",
-      "dialogue": "なんだ、照れてるのか？面白いヤツだな。",
-      "char": "m200_01",
+      "dialogue": "チャ、チャロンはさっきいっぱい食べたから！\\お腹いっぱいチャロン！",
+      "char": "m197_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "それより、ファラオはまだ、来ないな。",
-      "char": "keep",
+      "dialogue": "いいから一口だけ食べてみろって！\\俺一人で食べるのは申し訳なくてさ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "joy"
     },
     "19": {
       "type": "talk",
-      "dialogue": "クレオパトラを待ってたのか？",
+      "dialogue": "だ、だいじょう…",
+      "char": "m197_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "さ、食べてみな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "angry"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "うっ！ペッ、ペッ！",
+      "char": "m197_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "やっぱりおかしいと思った…\\クッキーに何をした？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "20": {
-      "type": "talk",
-      "dialogue": "ファラオが独りで散歩したいと出て行ってしまって\\な。",
-      "char": "m200_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "独りになりたかったのか、護衛をファラオにも断られてしまった。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "うーん…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
     "23": {
       "type": "talk",
-      "dialogue": "だが、ファラオの気持ちも理解できる。\\私も静かに散歩するのが好きだからな。",
-      "char": "m200_01",
+      "dialogue": "ダビの武器、下剤をふりかけたチャロン！",
+      "char": "m197_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ファラオはしばらくは散歩を楽しむだろうから、\\私も久しぶりに趣味に没頭するとでもしよう。",
-      "char": "keep",
+      "dialogue": "何だって？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "25": {
       "type": "talk",
-      "dialogue": "平和はいつの時代も、風のように瞬く間に通り過ぎて行くものだ。",
-      "char": "keep",
+      "dialogue": "チャロンは魔王争奪戦が嫌チャロン！\\戦いは嫌チャロン！",
+      "char": "m197_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "訪れる平和を楽しめない兵士は戦場で勝つことはできない。",
+      "dialogue": "チャロンに戦えって言うなら、\\コショウだってふりかけるチャロン！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "after_effect": "go_to_right_point"
     },
     "27": {
       "type": "talk",
-      "dialogue": "君も心に余裕を持つといい。\\急いた気持ちでは運よく訪れる平和を手にすることは難しいからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "運よく訪れる平和、か…\\この世で一番運のない悪魔にも来るかな…",
+      "dialogue": "心配するなって…\\わかってるからさ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "smile"
     },
-    "29": {
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

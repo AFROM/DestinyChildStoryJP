@@ -2,319 +2,171 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "クレオパトラ無しにルーンを扱うのは大変でしょう。",
-      "background": "bg043_f",
-      "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "クカー…ファロン…ゴロゴロ…クカー…",
+      "background": "bg070_f",
+      "bgm": "17",
+      "char": "m196_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そうだな。\\ルーンはクレオパトラを自分の主人だと思っているからな。",
+      "dialogue": "どこに行ったかと思えばこんな所で寝てたのか…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "しかし、それ以外は問題ないだろ？\\いいヤツだし、大人しくて、親切で…",
+      "dialogue": "心配させやがって…\\何かあったんじゃないかってヒヤヒヤしたよ…",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "こんにちは～可愛い悪魔。\\私の名前はルーンと申しま～す。",
-      "char": "m212_01",
+      "dialogue": "幸せそうに寝ている姿を見ると…\\契約者みたいにただの子供だな。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "毎回会う度にあの挨拶をするのは困りものだけど…",
-      "char": "c000_01",
+      "dialogue": "はぁ…起こしたら泣いて逃げるよな。\\戦いたくなかったら無理やりさせないって\\言ったけど…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
     "6": {
       "type": "talk",
-      "dialogue": "バカだからでしょ？ホルスが言ってたし。\\毎日毎日忘れるから同じ挨拶しかできないって。",
-      "char": "c003_01",
+      "dialogue": "ヘヘ…ファロン…楽しい…ヘヘ…",
+      "char": "m196_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "強制契約の後遺症かもしれません。\\契約時、抵抗が激しかったそうです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ホルスが契約したんだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "仕方なかったのさ。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "仕方なかったか…\\典型的な良い訳だな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ところで、この話は女王…\\ファラオの前では遠慮してくれたら嬉しいね。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "知ってるだろ？あれこれ事情が複雑なのさ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "いつまで騙すつもりなんだよ…",
+      "dialogue": "何の夢みて笑ってるんだ？羨ましい…\\俺もここで昼寝でも…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
+    "8": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "うわ…本当に寝ちゃったよ。あれ？ファロン…？\\また逃げたのか！",
+      "background": "bg070_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "nonsense"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "逃げてないファロン！",
+      "char": "m196_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ビックリした！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ど、どうして僕を追いかけてくるファロン？",
+      "char": "m196_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "オマエが逃げるからだろ。\\オマエこそなんで逃げるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "ご主人様を…騙しているのか、ホルス～！",
-      "char": "m212_01",
+      "dialogue": "悪魔が追いかけてくるからファロン！",
+      "char": "m196_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ホルスがご主人様を騙した。\\ホルスがご主人様を…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "何だよそれ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "16": {
       "type": "talk",
-      "dialogue": "だけど、ご主人様は騙されたと教えてくれなかったけど…？",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "僕はもう家に帰るファロン。お腹空いたファロン。",
+      "char": "m196_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それは、現在進行形で騙されてるからだろ！\\こいつ、自分の言ってる事わかってるのか？",
+      "dialogue": "え？本当にもう逃げないのか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ルーンは物事と物事を結びつける線が非情に細い状態です。",
-      "char": "c002_01",
+      "dialogue": "お腹空いたファロン！",
+      "char": "m196_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "19": {
       "type": "talk",
-      "dialogue": "部分的記憶喪失とでも言いましょうか。\\文字は読めるが単語の意味を思い出せないのと同じような症状ですね。",
-      "char": "keep",
+      "dialogue": "分かった、分かった。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "smile"
     },
     "20": {
-      "type": "talk",
-      "dialogue": "これも強制契約の後遺症でしょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "リザ。俺は決めた！\\こんな不幸なチャイルドが生まれないように、無理な契約はしないと！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "dialogue": "夢の中で悪魔が優しくしてくれたファロン。\\目を覚ましたら隣に悪魔がいたファロン。",
+      "background": "bg110_f",
+      "char": "m196_01",
+      "speaker": "same"
     },
     "22": {
       "type": "talk",
-      "dialogue": "親切に、紳士的に、理性的に説得して契約を行うということでしょうか？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ファロンは悪魔の出る夢をみたのか、\\それとも悪魔が僕の夢に出てきたのか…",
+      "char": "keep",
+      "speaker": "same"
     },
     "23": {
-      "type": "talk",
-      "dialogue": "その通り！\\やっぱりリザは賢いな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "実力のある悪魔なら何の問題もありませんね。\\その実力があればの話ですが。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "酷い…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "ああ、本当に酷い話だね～\\一緒に俺まで非難する必要はないだろう？",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "そんな意図はありませんが。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "それにルーンは優しすぎるだけで、使えないわけじゃない。",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "一人前の働きはできるさ。そうだろ、ルーン？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "私は私の役目を全うしま～す！\\ところで、私の役目ってなんでしょう？",
-      "char": "m212_01",
-      "speaker": "same"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "あなたの役目は御主人様が魔王になれるように最善を尽くして戦うことです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ウフフ～知ってる。ご主人様が言ってた～\\可愛い悪魔の代わりに魔王候補生になりたいって～",
-      "char": "m212_01",
-      "speaker": "same"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "でも…可愛い悪魔がいるから\\今はそうすることはできないと言ってました～",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "そ、そうか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "アハー！可愛い悪魔がいれば、ご主人様も喜ぶよ！\\見てみたい～ご主人様の笑顔～",
-      "char": "m212_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "なんて主人思いの優しいヤツ！\\お前らも、ルーンを見習うべきだな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ハハッ、優しすぎて他のことは考えられないって短所があるけど…",
-      "char": "c266_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "どう使うかは、その悪魔の実力次第…\\そういうことだろう、リザ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "その通りですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "お前ら、ホントうるさいよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "なんで俺の周りには厄介なヤツしかいないんだよ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "おお～\\こんにちは～可愛い悪魔。\\私の名前はルーンと申しま～す。",
-      "char": "m212_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "もう、ホント嫌だ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "cry"
-    },
-    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

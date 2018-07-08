@@ -2,10 +2,21 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "The battle has started. First off, I'll show you the basics regarding the enemies!",
-      "char": "none",
-      "speaker": "none",
-      "voiceid": "900102001"
+      "dialogue": "I’m having fun ruling the Demon’s Kingdom.\\Even if that means this is hell for a weakling like you!\\HAHAHAHA…!",
+      "background": "back_red",
+      "bgm": "keep",
+      "char": "c224_01",
+      "speaker": "same_full",
+      "one_ani": "attack",
+      "voiceid": "900201025"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longest",
+      "wait": "longest",
+      "fade_in": "longest",
+      "hold": "shorter"
     }
   }
 }

@@ -2,296 +2,482 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "100m走で…25秒だった。",
-      "background": "bg019_f",
-      "bgm": "13",
-      "char": "c095_00",
+      "dialogue": "フッフッフ…\\この魔女の呼びかけに応じるとは、\\なんと愚かな人間よ。",
+      "background": "bg015_f",
+      "bgm": "24",
+      "char": "c086_00",
       "speaker": "same_full",
-      "pos": "right"
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "すごい！アンタ、タイヤでも付けて走ってるの？",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "うーん、ひとつ、\\大きなツッコミどころがあるわけだが…\\そもそも俺は人間じゃないんだよな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…何も付けてないけど。",
-      "char": "c095_00",
+      "dialogue": "さあ、今日も悪魔の手下であるお前に、\\新しい妙薬を用意してやったぞ。",
+      "char": "c086_00",
       "speaker": "same_full",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "それなのにこんなに遅いわけ？",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "我が闇を祝福するためのサバトにて捧げるものを、\\特別に試飲させてやるのだ、光栄に思うがいい。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…私だって分かってる。\\…恥ずかしすぎて体育の時間は\\隅っこでじっとしてるもん。",
-      "char": "c095_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "厨二病真っ盛りなこと言ってるこの女は、\\ゴガの契約者の原田響子。\\こいつもまたメシマズだが、\\さすがにゴガほどのぶっとんだ料理は作らない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "足が遅いからって恥ずかしがることないわ。\\練習すればいいじゃない！\\私が手伝ってあげる。",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "しかし、そこはやはりゴガの契約者。\\何かにつけて怪しい液体を作っては妙薬と称し、\\友人に無理矢理飲まそうとしてくるのだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ありがと…でも…",
-      "char": "c095_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "つまり、ゴガと似たベクトルで\\ヤバイ女ってことだ。\\なんで俺がそんな奴と一緒にいるかというと…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
-      "type": "talk",
-      "dialogue": "ん？",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "hold": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ここまで来て運動を教えてくれるのは嬉しいけど…",
-      "char": "c095_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "御主人様、お気を付けください…\\その「妙薬」と書かれたビンの中身ですが…",
+      "background": "bg015_f",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "10": {
       "type": "talk",
-      "dialogue": "もう！もっと大きい声で言いなさいよ！\\自信を持って！",
-      "char": "c095_01",
+      "dialogue": "ひどい臭いがします…\\これは間違いなく、腐ったカエルの臭いですね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "う、うん！運動を教えてくれるのは嬉しいんだけど…た、大変なの！",
-      "char": "c095_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "いや、なんでお前は、\\そんな的確に悪臭をかぎ分けられるんだ…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "大変？",
-      "char": "c095_01",
+      "dialogue": "変な目で見ないで頂けますか？\\私の方が不思議でなりませんよ。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "あなたの訓練の仕方、辛くって…\\私みたいな中学生には厳しすぎるわ…",
-      "char": "c095_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "もしや御主人様は、腐ったゲンゴロウと腐ったナマケモノの違いも、区別出来ないのですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "厳しい？そう…",
-      "char": "c095_01",
+      "dialogue": "はいはい、できないですよ。\\生まれてきてごめんなさい…\\とにかく、これの落とし主なら心当たりがあるな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "15": {
+      "type": "talk",
+      "dialogue": "たしか、1組の原田響子って子だ。\\そいつが、よく怪しい薬を作ってるらしい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "これが、俺と原田響子が出会うキッカケだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "それから俺は、原田響子の幼馴染である\\オーロラの契約者、鏡野有紗の頼みで\\妙薬を返しにいった訳だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "妙薬を作るような変人なら、\\悪魔の契約なんてオカルト臭いものも、\\簡単に受け入れてくるだろう、\\とそんな打算もあったりする。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "そして俺が妙薬を持っていくと、\\最初は原田響子は警戒するように俺をにらみつけた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "20": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "訓練の仕方？",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "そう！契約者を訓練するいい方法はないかな。",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "お前、契約者に会ってるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あ。",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "はあ…このバカ。\\むやみに契約者に会うなって言っただろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
     "21": {
       "type": "talk",
-      "dialogue": "言われたけど…でも！悔しいじゃん！\\100m走に25秒もかかるなんて！",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "おい…そこの人間。\\なぜお前が、神秘の妙薬を持っている？\\正直に話せ。魔女にウソが通じると思うなよ。",
+      "background": "bg014_f",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "distance": "near"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ん…普通じゃないのか？",
+      "dialogue": "あ、これはなんというか…",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "speaker": "same_full",
+      "pos": "left",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "それは契約者みたいな\\弱っちい女の子だけだよ…",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "そこからは俺の予想通り。\\原田響子は悪魔との契約に興味津々で、\\契約はとんとん拍子に進んでいった。だけど…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "もちろん、師匠は10秒以内で走れるよね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "俺を何だと思って…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "見るがいい悪魔の手下！\\ついに、新しい神秘の妙薬が完成したぞ！",
+      "background": "bg014_f",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "え！まさか…5秒？",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "クク…この妙薬は、実に素晴らしいぞ！\\なにせ月光の下に咲く、マンドラゴラ…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
     },
     "27": {
       "type": "talk",
-      "dialogue": "違う！20秒だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "っぽい、人型ニンジンを使ったスープだからな！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "アハハ！師匠ってば、冗談ばっかりー！\\とにかく、契約者が早く走れるように手を貸してよ。",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…コイツは、本気でニンジンがマンドラゴラの\\代わりになると思ってるのか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "29": {
       "type": "talk",
-      "dialogue": "それはダメだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "さらに今回はトカゲの目玉が入っている。\\クク、安心するがいい…無論、本物ではない。",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "どうして？師匠ー、そんな冷たくならないで、ね？",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "うずらの卵にスイカの種を付けると、\\リアルな目玉が出来るのだ。\\さあ…この妙薬を飲むがいい！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center"
     },
     "31": {
       "type": "talk",
-      "dialogue": "訓練っていうのは、自分の力でやるものだ。\\人の力を借りてちゃ意味がない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "と…契約したのはいいものの、こんな調子で、\\俺は原田響子の人体実験に付き合わされていた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "32": {
       "type": "talk",
-      "dialogue": "じ、自分との戦いなんだ！分かったか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "原田響子は毎日のように、\\変な妙薬を作っては俺に飲ませてくる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "33": {
       "type": "talk",
-      "dialogue": "さすが師匠！\\だから稽古の時も避けてばかりだったんだね！",
-      "char": "c095_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "もし俺が悪魔じゃなかったら、\\とっくに毒殺されてたことだろうな…\\そんな地獄のような日々が、\\3か月と10日過ぎたある日。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "34": {
       "type": "talk",
-      "dialogue": "分かった！契約者にはそう伝えておく！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
+      "dialogue": "散々モルモット気分を味わった俺は、\\ついに原田響子の契約書を手に入れたのだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "35": {
-      "type": "talk",
-      "dialogue": "おい、契約者には会うなって言ったろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "ほんと、口だけは上手いんですから♥ ",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…おい、悪魔の手下。私の話を聞いているのか。\\あまり魔女の話を無視するようならば、\\その身を呪いが蝕むぞ。",
+      "background": "bg015_f",
+      "bgm": "4",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "37": {
       "type": "talk",
-      "dialogue": "困るんだよ、あんな熱意のあるヤツは…\\こうでもしないと引き下がらない。",
+      "dialogue": "ああ、聞いてる聞いてる。\\だから呪いはカンベンしてくれ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
     },
     "38": {
       "type": "talk",
-      "dialogue": "でも、ご主人さまの臨機応変さは\\どこまで通じますかねぇ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "そうか、ならいい。\\今日は北極星のオーラで作った妙薬だ。\\さあ、飲み込め、今日は自信作だから\\私が手ずから飲ませてやろう！",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
     },
     "39": {
       "type": "talk",
-      "dialogue": "不安なこと言うな。",
+      "dialogue": "え、ちょ…？\\ぐえっ…！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "40": {
       "type": "talk",
-      "dialogue": "あまり心配しなくて大丈夫ですよ♥\\ヴェスタはいつでもご主人さまの味方なんですから♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "くっそ…契約したらもう毒薬とはオサラバだと\\思ってたのに…！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "41": {
+      "type": "talk",
+      "dialogue": "どうせいつも通り、激マズの…あれ？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "ん、んん？\\これは、意外と…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "どうした、悪魔の手下。",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "このスープ…いや、妙薬か。\\普通にウマいぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "え、おいしい…？\\そ、そうか…っ！",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "急に原田響子は顔を赤くして、表情をほころばせる。その様子は魔女なんかではなく、\\普通の可愛らしい女の子そのものだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "じ、実はな…\\私は、おいしい妙薬を作りたかったんだ…\\そうしたら、みんなとも仲良くなれるかも\\しれないだろ？それで…",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "え…そ、そうだったのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "ああ…だから、うれしいな。\\今まではいい触媒と魔力が足りず、失敗を重ねたが…これで、もはや懸念はない。",
+      "char": "c086_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "我が魔力は、\\ついに神域へ到達したということだろう。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "51": {
+      "type": "talk",
+      "dialogue": "クク…感謝するぞ、悪魔の手下。\\これもひとえに、お前の献身あってのことだ。\\これからは悪魔と盟約を結びし、\\偉大なる魔女として…おいしい妙薬を作るぞ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "52": {
+      "type": "talk",
+      "dialogue": "あ、相変わらず厨二病真っ盛りだけど、\\とどのつまり、\\うまい料理が作りたかっただけだったのか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "53": {
+      "type": "talk",
+      "dialogue": "ゴガがどうして、\\一生懸命マズイ料理を作っていたか。\\何となくわかった気がする。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "54": {
+      "type": "talk",
+      "dialogue": "要するに原田響子もゴガも、二重の意味で\\とんでもなく不器用な奴らだったということだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "55": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "hold": "normal"
+    },
+    "56": {
+      "type": "talk",
+      "dialogue": "ただいま、って…うわっ！\\なんだよ、この臭いっ！",
+      "background": "bg086_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "screen_effect": "shake_weak"
+    },
+    "57": {
+      "type": "talk",
+      "dialogue": "悪魔様、悪魔様、じゃーん★\\ゴガが、新作メニューを作りましたよ！\\これで悪魔様の胃と魂を、グッと掴めるはずです！\\はい、あーん★",
+      "char": "c086_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "58": {
+      "type": "talk",
+      "dialogue": "お、おい押し込むなっ！\\や、やめ…むぐっ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "59": {
+      "type": "talk",
+      "dialogue": "やっべ、飲み込んじまった…！\\そして味は、やっぱり…！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "60": {
+      "type": "talk",
+      "dialogue": "原田響子の料理は何とか上達したが、\\ゴガのは相変わらずの破壊力で…\\口にした瞬間、舌から脳天へと灼熱が駆け上がり、\\俺は一瞬でぶっ倒れた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "61": {
+      "type": "talk",
+      "dialogue": "あ、悪魔様？もしかして…あまりのおいしさに\\倒れてしまったのですか！？\\それでは、私がお口に、押し込んであげますねっ！",
+      "char": "c086_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "62": {
+      "type": "talk",
+      "dialogue": "どうぞいい夢を悪魔様。\\私の料理に囲まれた夢を見てくださいな。うふふっ♥",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "63": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

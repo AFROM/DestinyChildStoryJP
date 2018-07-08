@@ -2,118 +2,114 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様、準備ができました。",
+      "dialogue": "嫌なら嫌とおっしゃってください。\\子供じみてはいませんか？",
       "background": "bg086_f",
       "bgm": "20",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "irritation"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ああ、わかった…\\って、何の準備？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "最近<color=ff9900>ガス代がかさむ</color>と愚痴っていたではないですか。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "愚痴じゃなくて事実だよ。\\お前たちが来てからそうなったんだ。",
+      "dialogue": "どうせ言っても聞かないだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "5": {
+    "3": {
       "type": "talk",
-      "dialogue": "一体どれだけお湯を使ってるんだ？\\追い炊きしまくりとか？\\うちは銭湯じゃないんだからな！",
+      "dialogue": "いや、そうじゃなくて…これは俺のせいじゃない！",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "confused"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "他でもない御主人様に契約書をお渡ししたのに\\自分のせいじゃないですって？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "確かにもらったけど、落書きしたのは俺じゃない！\\それに、俺がこんな小学生みたいな絵を描くと\\思ってるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "大丈夫ですよ。これからは<color=ff9900>ガス代を心配せず</color>に\\好きなだけお湯を使えます。",
+      "dialogue": "そのくらい私にも分かります。これはオーロラの\\仕業です。もう彼女は自白してます。",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "へえ、自信満々だな。\\んじゃ、確かめさせてもらおうか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ひどいわ、リザ！",
+      "char": "c026_01",
+      "speaker": "same"
     },
     "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ならオーロラにだけ怒ればいいだろ。\\なんで俺が怒られるの！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "わ～お！",
-      "background": "bg096_f",
-      "char": "c000_01",
+      "dialogue": "契約書を受け取ったのはご主人様です。\\最後まで責任を取ってください。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "非常に画期的だと思いませんか？",
-      "char": "c002_01",
+      "dialogue": "責任なんて！ちょっとトイレに行ってる間に…\\どう食い止めろって言うんだ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "普通の人じゃ思いつかない方法…\\って意味じゃ確かに画期的だな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "dialogue": "もっと絵を描きたいの！",
+      "char": "c026_01",
+      "speaker": "same"
     },
     "12": {
       "type": "talk",
-      "dialogue": "お気に召していただけるものと思っていました。",
+      "dialogue": "ダメです、オーロラ。\\さっきも言ったでしょう？",
       "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "は…あは…はははは…",
-      "char": "c000_01",
+      "dialogue": "それともまだ理解できていないのですか？\\やはり最初からお話ししないと…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "沸き上がる…熱く…熱く沸き上がるぅ…！",
-      "char": "m051_01",
+      "dialogue": "嫌よ！文句言われたくないわ！",
+      "char": "c026_01",
       "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "before_effect": "shake_weak"
     },
     "15": {
       "type": "talk",
-      "dialogue": "なあ、なんかスゲー盛り上がってるんだけど。",
+      "dialogue": "一体いつまで説教するんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -121,190 +117,194 @@
     },
     "16": {
       "type": "talk",
-      "dialogue": "ガス代を節約するために\\まさか<color=ff9900>ハデスを熱源</color>として使うとは…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "オーロラ、お前はもう帰れ。\\紙はもうない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "17": {
       "type": "talk",
-      "dialogue": "奇抜すぎて言葉にならない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ぐすん…お絵かき…",
+      "char": "c026_01",
+      "speaker": "same"
     },
     "18": {
       "type": "talk",
-      "dialogue": "さあ、御主人様。試してみてください。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "あ、ああ…",
+      "dialogue": "さっさと行けって…\\こっちが迷惑なんだよ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ハデスの腕が浸かった浴槽からは、\\湯気が立ち上っていて確かに温かそうではあるけど…",
+      "dialogue": "オーロラの執着は予想を遥かに超え、\\俺の横にセミのようにくっついて…",
+      "background": "bg041_f",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
     "21": {
       "type": "talk",
-      "dialogue": "我を殺せ。地獄の業火で焼き尽くせ…！",
-      "char": "m051_01",
-      "speaker": "same",
-      "distance": "near",
-      "loop_ani": "attack"
+      "dialogue": "…紙をくれとせがんだ。\\しかもただの紙じゃなく、契約書を、だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "22": {
       "type": "talk",
-      "dialogue": "…ちょっと待て。\\こいつが見てる前で風呂に入れっての？",
-      "char": "c000_01",
+      "dialogue": "それがいいの！",
+      "char": "c026_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "何か問題が？\\他の悪魔たちでしたら、うっかり眠ってしまうほど\\甘美な子守歌ですよ。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "御主人様は、あまりにも人間的すぎるのです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "何より、ガス代を節約するためです。\\この金額をご覧になってください。\\贅沢を言っている場合ですか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "俺のせいかよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "はあ…\\わかったよ。言うとおりにする。\\確かに、贅沢言ってられないしな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "熱い…！沸き上がる！地獄の業火が燃え盛る…！",
-      "char": "m051_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "耳栓持ってこないとな…",
+      "dialogue": "これはダメだ…\\一体いつまでついて来るつもりだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "30": {
+    "24": {
       "type": "talk",
-      "dialogue": "んじゃ、<color=ff9900>ハデスの浴槽</color>に入ってみるよ。\\リザ、外に出てくれ。",
-      "char": "keep",
+      "dialogue": "俺が何とかしよう。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "うわっ、ビックリした！？\\どこから現れたんだよ！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "キャア！怖い！イヤ！",
+      "char": "c026_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "いい加減、飛び跳ねるな…\\あっ！ズボンがちぎれる！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "厄介なものが離れないんだって？\\俺が片づけてやろう。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "オーロラのことか？どこ情報だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "リザから聞いた。",
+      "char": "m050_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "わかりました。",
-      "char": "c002_01",
+      "dialogue": "自分は面倒だからって、遣いを送ったのか。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ん？ちょい待った。\\ハデスの契約者って…<color=ff9900>《女》</color>じゃなかったっけ？",
-      "char": "c000_01",
+      "dialogue": "で、どうやって解決するつもりだ？\\言っておくが、こいつはただ者じゃないぞ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "33": {
       "type": "talk",
-      "dialogue": "そうですが。",
-      "char": "c002_01",
+      "dialogue": "こ、来ないで！",
+      "char": "c026_01",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack"
     },
     "34": {
       "type": "talk",
-      "dialogue": "ええと。それじゃ、こいつは…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "オーロラは怯えた表情で\\《凶殺》と書かれた名札を突き出した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "35": {
       "type": "talk",
-      "dialogue": "溶ける、我の体が溶けていく…！",
-      "char": "m051_01",
-      "speaker": "same"
+      "dialogue": "気に入らないヤツに付ける名札…\\お守りのようにも見えるが、相手がギロチンでも特に効果はない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "36": {
       "type": "talk",
-      "dialogue": "…さあ、どうでしょう？",
-      "char": "c002_01",
+      "dialogue": "頭をちょん切ってやる…",
+      "char": "m050_01",
       "speaker": "same",
       "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "リザ、ガス代なんだけどさ…\\あんま気にするなよ。好きなだけ使えばいいさ。",
+      "dialogue": "頭を？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "38": {
       "type": "talk",
-      "dialogue": "いきなり何を言い出すんです。そうはいきません。\\聞かなかったことにします。",
-      "char": "c002_01",
+      "dialogue": "キャア！キャアアア！",
+      "char": "c026_01",
       "speaker": "same",
-      "pos": "right"
+      "before_effect": "shake",
+      "one_ani": "attack"
     },
     "39": {
       "type": "talk",
-      "dialogue": "待てって、おい、リザ！リザー！",
+      "dialogue": "さあ、頭を差し出せ。",
+      "char": "m050_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "これじゃ「遣い」じゃなくて「刺客」だな…\\やり方が極端すぎる…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "near",
-      "facial": "shock",
+      "facial": "serious",
       "before_effect": "shake"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "沸き上がる…私の体が燃えている！",
-      "char": "m051_01",
-      "speaker": "same",
-      "distance": "near",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "41": {
       "type": "curtain",

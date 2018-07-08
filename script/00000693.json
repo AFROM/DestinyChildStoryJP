@@ -2,119 +2,111 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ボス。\\チャイルドたちがあんたのことを褒めていたぞ。",
+      "dialogue": "常識的に考えて真夜中に\\どこからともなく音が聞こえたら、",
       "background": "bg086_f",
       "bgm": "9",
-      "char": "c227_01",
-      "speaker": "same",
-      "pos": "right"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ありえません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "誰かがいると考えるのが普通だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "えっ、嘘！？\\って、返事早っ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "dialogue": "しかし、その何者かが泥棒だとは考えにくい。\\少なくてもこの家では。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "申し訳ありません、御主人様。\\つい反射的に思ってもいない\\否定をしてしまいました。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "175円？これで全部？",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "5": {
       "type": "talk",
-      "dialogue": "「思ってもない否定」！？…\\本当かな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "なぜなら、盗める物がないといけないからだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ふうむ…どうやら、ボスは\\サキュバスたちとはうまくいっていないようだな。",
-      "char": "c227_01",
+      "dialogue": "おい、オマエ！俺の部屋で何してる！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "facial": "fury"
     },
     "7": {
       "type": "talk",
-      "dialogue": "いいえ、私たち御主人様にお仕え出来て\\とっても、とーっても幸せですわ。",
-      "char": "c002_01",
+      "dialogue": "心配しなくてもいいよ、お兄さん。\\盗みたくても盗むものがないんだからー",
+      "char": "c225_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "リザってそんなに棒読みみたいな話し方だっけ…？\\っていうか、なーんか気になる言い方だな…？",
+      "dialogue": "泥棒のくせに堂々としすぎだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "none"
+      "facial": "haah"
     },
     "9": {
       "type": "talk",
-      "dialogue": "精進します。\\思ってないことを言う時も\\笑顔で滑らかに言えるように。",
-      "char": "c002_01",
+      "dialogue": "ブタの貯金箱に入ってたお金がたったの\\175円だなんてー",
+      "char": "c225_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "「思ってないこと」って言っちゃったじゃん！？",
+      "dialogue": "175円でも泥棒にやる金はない。\\さっさと出てけ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "冗談はさておき。\\正直、少し違和感がありますね。\\チャイルドたちが御主人様を褒めるなんて…",
-      "char": "c002_01",
+      "dialogue": "出てく？逃がしてくれるなんて嬉しいねー。",
+      "char": "c225_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "serious",
-      "before_effect": "none"
+      "before_effect": "go_to_right_point"
     },
     "12": {
       "type": "talk",
-      "dialogue": "御主人様はいつもチャイルドに\\振り回されているだけなのに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious",
-      "before_effect": "none"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "否定できないのが悔しい…",
+      "dialogue": "おい、待て待て。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sad"
+      "facial": "confused"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "窓を開けて何する気だ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "14": {
       "type": "talk",
-      "dialogue": "振り回す、それだ。\\どうやら扱いやすい主人だと\\気に入っているようだな。",
-      "char": "c227_01",
+      "dialogue": "出てけって言ったじゃん？",
+      "char": "c225_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "far"
     },
     "15": {
       "type": "talk",
-      "dialogue": "えーと、褒められてるって思っていい？",
+      "dialogue": "部屋のドアから出てけって意味だ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -122,169 +114,137 @@
     },
     "16": {
       "type": "talk",
-      "dialogue": "何にせよ、好意的に受け入れられていることは\\間違いないんだ。誇りに思っていいのでは？",
-      "char": "c227_01",
+      "dialogue": "面倒だけど、仕方ないか。",
+      "char": "c225_01",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そりゃありがたいけど。\\その好意的なチャイルドたちの中に\\お前って入ってるの？",
+      "dialogue": "玄関もダメだぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "いいや、今のところは入っていない。",
-      "char": "c227_01",
+      "dialogue": "ハ？窓もダメ、玄関もダメって。\\どうやって出てけって？",
+      "char": "c225_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "今のところは、ってことは、\\これからそうなる可能性があるってことだよな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "まあな。\\まだ背を預けるには互いを知らなすぎるだろう。\\オレはこう見えても堅実なタイプでね。",
-      "char": "c227_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "そうですね。\\御主人様がいつ逃げ出すかわからないですから…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "どういう目で見られてるんだよ、俺は！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "おお、そう言われて怒るってことは…\\いざって時、逃げ出さない男だっていうのかい？",
-      "char": "c227_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "確かに、御主人様は普段はいつでも逃げ腰ですが。\\いざっていう時に尻尾を巻いて逃げ出す姿は見たことありません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ただ、そのいざっていう時が中々訪れないので\\そのいい面が中々見せられないのは事実です。\\それに…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "戦闘能力、人心掌握能力、帝王学…\\あらゆる面で他の魔王候補より劣っているのも事実。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ふむ、的確な分析だ。",
-      "char": "c227_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "俺の目の前で好き勝手言っちゃってさあ。",
+      "dialogue": "家出禁止だ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "29": {
+    "20": {
       "type": "talk",
-      "dialogue": "これ以上怒らせたくないなら、\\さっさとこの部屋から出ていけ！",
+      "dialogue": "出てけって行ったのはお兄さんでしょー?",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "図々しいヤツ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "分かったよ。家出がダメなら\\散歩でもしてくるよー",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そのくらいいいでしょー？",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "right"
     },
-    "30": {
+    "24": {
       "type": "talk",
-      "dialogue": "ふむ、それで怒る矜持は持ち合わせている。\\なるほど、なるほど…悪魔と言うよりも\\人間に近いのだな。",
-      "char": "c227_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "な、何だよ？もういいだろ。\\出ていけってば！",
+      "dialogue": "そのくらいは許してやる…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "facial": "smile"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "とでも言うと思ったか！\\またどこかで盗みを働く気だろ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "夜空の星のように輝く瞳をした女性の～",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "財布だろ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ふふ。",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "俺の家に来た以上、犯罪行為は絶対許さない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "お兄さん、ホントに悪魔？",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "オマエ今、俺のこと悪魔らしくないって思ったろ？\\ダメなものはダメだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "ボスのいい面、悪い面が何となくわかって来たぞ。\\なあボス、美味しい話があるんだが\\ひとつ乗らないか？",
-      "char": "c227_01",
+      "dialogue": "しつこいご主人様だねー\\分かったよ。今日はここまでにするよ。",
+      "char": "c225_01",
       "speaker": "same",
       "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "は？\\お、俺は余計なことはしないぞ！",
+      "dialogue": "それって…明日は盗みをするってことか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "sigh"
     },
     "34": {
-      "type": "talk",
-      "dialogue": "何、たぶんあんたに向いてる仕事だ。\\オレの契約者の件だが…どうも臆病すぎて、\\友達ができないようでな。",
-      "char": "c227_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "事情を知っているあんたが、\\友達として少し付き合ってやってくれ。\\…簡単で、あんたに向いてるヤマだろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "一体主人を何だと思ってるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "sigh",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

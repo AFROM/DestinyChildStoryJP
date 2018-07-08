@@ -2,284 +2,224 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お天気が良いわね。\\それはともかく、私の契約者は大丈夫かしら？",
-      "background": "bg095_f",
-      "bgm": "9",
-      "char": "c247_01",
+      "dialogue": "クランプスの契約者か…",
+      "background": "bg102_f",
+      "bgm": "14",
+      "char": "c299_01",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "天気が良いと家出をする、その癖は相変わらずのようだから…",
+      "dialogue": "今でも覚えているとも…\\非常に美しい女だった。\\あんなに魅力的な人間は初めてだった。",
       "char": "keep",
       "speaker": "same"
     },
     "3": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "確かフランスの貴族だったな…",
+      "char": "keep",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "バカぁ！",
-      "background": "bg070_f",
-      "char": "c003_01",
+      "dialogue": "ノン！違います。\\私の契約者は、イギリスの片田舎に住む\\女の子ですわよ♪",
+      "char": "c246_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "え、なんでよ？",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "ソバカスがと～っても、チャーミングでした！",
+      "char": "keep",
+      "speaker": "same"
     },
     "6": {
       "type": "talk",
-      "dialogue": "だってせっかくのパンを、全部ハトに取られちゃってるじゃない！\\バカよ、バカっ！",
-      "char": "c003_01",
+      "dialogue": "いやいや、お前の契約者はバイキングの姫だった。\\いや、ローマの女司祭だったか？",
+      "char": "c299_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "バカはあなたでしょ？\\これは、取られたんじゃなくて、あげてるの！",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "はあ、最後は武家の娘とか出てくるんですかね。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "8": {
       "type": "talk",
-      "dialogue": "え～そしたら、もっともっともーっとバカじゃん！",
-      "char": "c003_01",
+      "dialogue": "実は、マルコ・ポーロと共に西からやってきた船乗りと、海女の間に生まれたらしい。",
+      "char": "c299_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "バカバカ言わないでよ！",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near",
-      "before_effect": "shake"
+      "dialogue": "名前が確か《キディング・ユウ》でしたわね★",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "お兄ちゃん達に渡すくらいなら、ハトにあげた方が\\100倍マシだもん！",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "えーっと、この話、どこまで続くんですか？",
+      "char": "c000_01",
+      "speaker": "same",
       "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "自分で食べればいいじゃん！",
-      "char": "c003_01",
+      "dialogue": "ん？あそこで小っちゃい子が泣いてるぞ。",
+      "char": "c299_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ムリよ。だって、多すぎるし…",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "そこの坊や、お母さんはどこに行った？\\なぜひとりでいる？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "13": {
       "type": "talk",
-      "dialogue": "なら何で、パンなんか買ったの？",
-      "char": "c003_01",
+      "dialogue": "悪いけど、めっちゃ怪しい。\\まるで誘拐犯みたいだ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お兄ちゃんとお姉ちゃんに頼まれたからよ。",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "へぇ～おつかいだったのに、ハトに取られちゃってもいいんだ？",
-      "char": "c003_01",
+      "dialogue": "怖がらなくていいわよ。\\今、いいモノをあげるからね★",
+      "char": "c246_01",
       "speaker": "same",
       "pos": "right"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "ジャ～ン！\\ムカデの汁をふんだんに使った、\\特製クリスマスケーキ！",
+      "char": "c299_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "before_effect": "shake"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "あげてるんだってば…\\別にいいの。家に帰らなければ怒られないし…",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "子どもが気に入るものをあげて、\\どこかに連れてく…\\とか、企んでるわけじゃなさそうでよかった。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "17": {
       "type": "talk",
-      "dialogue": "…また家出したの？",
-      "char": "c003_01",
+      "dialogue": "ああ、こうして怯える子どもの顔を見ていると、\\昔のことを思い出しちゃう♪",
+      "char": "c246_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ええ、もう絶対帰らない！\\お兄ちゃんも、お姉ちゃんも…みんな嫌い！",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "あの頃、私の契約者は蚊が入った琥珀色のキャンディをもらってた…懐かしいな～♪",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "面倒事はいっつも私に押し付けて！\\断ると、イジメてくるし…",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "蚊が入った琥珀色のキャンディ？\\なんだソレ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ずるいよ！少し早く生まれただけじゃない！！",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "left",
-      "before_effect": "shake"
+      "dialogue": "知らないの？\\ホンモノの蚊を使った琥珀色のキャンディよ～★\\とっても美味しかった…",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "お兄ちゃんとお姉ちゃんが嫌いなの？",
-      "char": "c003_01",
+      "dialogue": "げっ！？\\食べたのか？それを…？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious"
     },
     "22": {
       "type": "talk",
-      "dialogue": "だからそう言ってるでしょ？",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "あはっ、ご主人様の表情！\\これだからあなたのこと、好きなの！！\\この程度の冗談にもリアクションしてくれるから。",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "だったら仕返ししちゃえばいいよ！",
-      "char": "c003_01",
+      "dialogue": "新しいチャイルドの悪質な冗談に慣れないと\\いけないっていう俺の身にもなってくれよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "twinkle"
+      "pos": "left",
+      "facial": "cry"
     },
     "24": {
       "type": "talk",
-      "dialogue": "し、仕返し？",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "ところで、あなたも元ご主人様に気に入られたら？\\もしかすると、プレゼントをもらえるかも…",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "うん！ダビならそうするよ？\\ウスラトンカチにいじめられる度に、仕返しするの。",
-      "char": "c003_01",
+      "dialogue": "ニセサンタからのプレゼントはいらないよ。\\変な…失礼、人を選ぶプレゼントが多いだろ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ウスラトンカチって…誰？",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "でもいいの？悪魔がサンタクロースからプレゼントをもらうには、その方法しかないわよ？",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "ありゃ、もう忘れちゃったの？\\人間ってみんな頭悪いのかなあ？",
-      "char": "c003_01",
+      "dialogue": "クリスマスとかサンタとか、興味ないし……",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "haah"
     },
     "28": {
       "type": "talk",
-      "dialogue": "なによそれ？\\変なことばかり言って…",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "プレゼントっていいわよね。\\記憶は薄れても見るたびに思い出せて…",
+      "char": "c246_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "そういえば…\\たしか前にも変なこと言ってなかったっけ…？",
+      "dialogue": "ああ、なんで忘れてたんだろう？\\また食べさせたいなぁ、蚊のキャンディ★",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "left"
+      "speaker": "same",
+      "pos": "right"
     },
     "30": {
       "type": "talk",
-      "dialogue": "それも忘れちゃったの？\\やっぱり、頭悪いな～",
-      "char": "c003_01",
+      "dialogue": "うう…ぞわっとするこというなよ。\\そういうプレゼントは願い下げだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "victory"
+      "pos": "left",
+      "facial": "irritation"
     },
     "31": {
-      "type": "talk",
-      "dialogue": "ちょっと！もしかして変な作り話で、あたしを\\からかってるんじゃないの！？",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ホントのことだもん！\\証拠もあるもん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "証拠？",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "うん！\\証拠にウスラトンカチを、見せれば良いんでしょ？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "一緒に来て！\\ウスラトンカチに会わせてあげる。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "おかしいな…《ウスラトンカチ》なんて人、\\全然知らないはずなのに。",
-      "char": "c247_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "聞き覚えがある気がするのは、なんでだろう…？",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near"
-    },
-    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

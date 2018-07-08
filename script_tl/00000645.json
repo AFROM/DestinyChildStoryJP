@@ -2,9 +2,9 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いない。",
-      "background": "dungeon_bg",
-      "bgm": "9",
+      "dialogue": "……",
+      "background": "bg017_f",
+      "bgm": "17",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -12,15 +12,15 @@
     },
     "2": {
       "type": "talk",
-      "dialogue": "いないですねぇ。",
-      "char": "c001_01",
+      "dialogue": "……",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "やっぱりいない。",
+      "dialogue": "おい、ユーナ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -28,15 +28,15 @@
     },
     "4": {
       "type": "talk",
-      "dialogue": "やっぱりいないですねぇ。",
-      "char": "c001_01",
+      "dialogue": "何かしら？",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…行こう。",
+      "dialogue": "…いつまでここにいるつもりだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -44,15 +44,15 @@
     },
     "6": {
       "type": "talk",
-      "dialogue": "あら、ご主人さまらしくないですよ。\\もう諦めるなんて。",
-      "char": "c001_01",
+      "dialogue": "坊やこそ、いつまでここにいるつもりなのかしら。",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "《俺らしいって何だ！》とでも反発してほしいのか？",
+      "dialogue": "俺はいいんだよ。\\ただ、もし、俺に付き合ってくれてるつもりなら、\\帰っていいからな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -60,15 +60,15 @@
     },
     "8": {
       "type": "talk",
-      "dialogue": "遠慮しま～す。\\いつものパターンになっちゃいます。",
-      "char": "c001_01",
+      "dialogue": "あら、気を遣ってくれているの？\\でも、大丈夫よ。\\私も特別な用事があって、ここにいるだけだから。",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "俺らしいのをお望みなら、\\この辺で諦めるのが正解だ。",
+      "dialogue": "その特別な用事…ってのは、\\俺に関係があるもの…じゃないよな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -76,279 +76,142 @@
     },
     "10": {
       "type": "talk",
-      "dialogue": "これで何回目だ。来る度、顔すら見れやしない。\\魔術師でもあるまいし…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "珍しく契約者の願いが叶ったケースのようですね。",
-      "char": "c001_01",
+      "dialogue": "ふふ、どうかしら…ね。\\今度は私が聞いてもいい？",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "ダメだ…って言いたいとこだけど、いいよ。\\何だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
     "12": {
       "type": "talk",
-      "dialogue": "望み通り、蜃気楼のように\\誰の目にも入らないみたいです。",
-      "char": "keep",
+      "dialogue": "坊やはここで、何を待っているの？",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "それはよかったな！\\だからって主人の目にも入らないって何様だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ささ、ご主人さまらしくこの辺で諦めて\\他のチャイルドでも探しに行きましょう？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "俺らしく諦めるなって言ったのいつだよ…",
+      "dialogue": "…傘を差した人を待ってるんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "16": {
+    "14": {
       "type": "talk",
-      "dialogue": "あら♥\\モナの挑発作戦はうまくいったみたいです♥",
-      "char": "c001_01",
+      "dialogue": "どんな傘？",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "distance": "normal"
     },
-    "17": {
+    "15": {
       "type": "talk",
-      "dialogue": "ふざけるな。お前の言う通り俺らしく\\ここで諦めてやる！",
+      "dialogue": "…っ！\\よく、俺が「人」じゃなくて、\\「傘」を待ってるってわかったな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "私、悪魔の坊やにとっても興味があるの。",
+      "char": "c172_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "怠け者で、のんびりしていて、\\一見、何も考えていないようにも見えるけれど、\\実は悲しい物語を抱えている…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "心のダンジョンから出るため振り返った俺は\\意外な瞬間に驚いてしまった。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "な、何だよこれ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あら、モルガナの足じゃないですか。",
-      "char": "c001_01",
+      "dialogue": "それがどんな物語かは知らないけれど、\\そんな坊やが、ただ人を待っているわけがない。\\…そうでしょう？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "21": {
+    "19": {
       "type": "talk",
-      "dialogue": "だから…なんでモルガナの足が宙に浮いてるんだよ。",
+      "dialogue": "…どうだろうな。\\ユーナが言うような悲しい物語なんて、\\俺も知らないから、よくわからない。\\俺が傘を待つのも、ただ傘が好きなだけだし。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
+      "distance": "normal"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "では、どうして傘が好きなのかしら。",
+      "char": "c172_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…雨が降るまでは、傘って見向きもされないだろ？\\けど、降り出した途端に、\\みんな傘がないって慌て出す。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "それは、彼女が蜃気楼だからですよ♥",
-      "char": "c001_01",
+      "dialogue": "そんな姿を見るのが楽しくて、\\時々、傘をこっそり隠したりしてるんだ。\\傘が好きな理由なんて、ただそれだけのことだよ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ふざけるな。\\モルガナ、今までこうやって\\俺の目を避けて逃げ回ってたのか？",
-      "char": "c000_01",
+      "dialogue": "ふふ、そうだったの。\\…じゃあ、あの傘は坊やにはつまらないものかしら？ちょうど、誰かが捨てていったみたいだけれど。",
+      "char": "c172_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "宙に浮いて、バカみたいにお前を探し回る\\主人を見て面白がってたのか？",
-      "char": "keep",
+      "dialogue": "…いや。誰かが捨てた傘を拾うってのも悪くない。\\よし、今日はあれにするか。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c178_01",
+      "dialogue": "…あっ、俺がこんなことしてるって、\\他の奴らには秘密にしてくれよ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "26": {
       "type": "talk",
-      "dialogue": "モルガナ、分かってあげて。\\ご主人さまはまだ子供なの。",
-      "char": "c001_01",
+      "dialogue": "ふふ、わかったわ。\\ふたりだけの秘密、ね。",
+      "char": "c172_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "near"
     },
     "27": {
-      "type": "talk",
-      "dialogue": "俺が何だって言うんだ！\\なんで俺を避ける？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "笑ってないで何とか言え。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…ハロー。",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "…おう、は、ハロー…じゃないっ！\\おい！お前、俺と仲良くする気あるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "あら、凄い迫力♥\\モルガナ、そろそろ仲良くするフリぐらい\\してあげてもいいんじゃない？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "これでもあなたを心配してるのよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "うう…！モナ、お前は静かにしてろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "さ、どうするつもりだ、モルガナ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…そうね、どうしよっか。",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "モルガナは首をかしげてくすくすと笑った。\\人をからかう才能はピカイチのようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "もし…私を捕まえられたら、\\少しは仲良くしてあげてもいいかも…",
-      "char": "c178_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "は？おい！どこに行く！戻ってこい！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "くっ…他のヤツらはともかく\\こいつは俺の手で捕まえてやる。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "俺に従わせてやる！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "angry"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "ご主人さまを挑発する才能は\\モナよりモルガナの方が上のようねぇ。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

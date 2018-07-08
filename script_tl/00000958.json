@@ -2,197 +2,157 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "そんなことより、あんなのが堂々と都心のど真ん中に建っているのに、なんで誰も気に留めないんだ？",
-      "background": "bg182_f",
-      "bgm": "25",
-      "char": "c000_01",
+      "dialogue": "…ふぅ。\\今回も何とか片付きましたね。\\大丈夫でしたか？メイ。",
+      "background": "bg077_f",
+      "bgm": "17",
+      "char": "c167_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "enter_from_left_fast",
-      "voiceid": "200202001"
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ま、悪魔のやる事だから何でもありだろうけど…幻術とかか？",
-      "char": "keep",
+      "dialogue": "う、うん。\\…けど、また助けられちゃったね。",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "voiceid": "200202002"
+      "pos": "right",
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ニャハハハ～♪\\あれは悪魔だけに送る…しょ、しょ…？",
-      "char": "c274_01",
+      "dialogue": "…余計な手出しをしてしまいましたか？",
+      "char": "c167_01",
       "speaker": "same",
-      "pos": "right",
-      "sound": "se_summon",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "200202003"
+      "pos": "left",
+      "facial": "confused"
     },
     "4": {
       "type": "talk",
-      "dialogue": "招待状だってさっ！",
-      "char": "keep",
+      "dialogue": "そんな！あなたがいなかったら、\\あたしもクレアも大変なことになってただろうし…",
+      "char": "c167_00",
       "speaker": "same",
       "pos": "right",
-      "voiceid": "200202004"
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "招待状…！？\\悪魔に招待状を送って何する気なんだよ？",
-      "char": "c000_01",
+      "dialogue": "ですが、自分で彼女を守りたかったのでしょう？",
+      "char": "c167_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "voiceid": "200202005"
+      "one_ani": "attack"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あ～惜しいな～！\\招待状じゃなくて、挑戦状だね！",
-      "char": "c274_01",
+      "dialogue": "それは…\\クレアを助けたいって思ったのはあたしだし、\\できれば自分で何とかしたかったけど…",
+      "char": "c167_00",
       "speaker": "same",
-      "distance": "near",
-      "voiceid": "200202006"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "おいっ！何が惜しいんだよ！\\全然違うじゃないか！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "screen_effect": "dialog_shake",
-      "voiceid": "200202007"
+      "dialogue": "メイ、助けてくれた！アリガト！",
+      "char": "c195_00",
+      "speaker": "same_full",
+      "pos": "center"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…っていうか、なんだお前？\\いきなり現れて。",
-      "char": "keep",
+      "dialogue": "…誰かを守れる力が欲しいのですか？",
+      "char": "c167_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah",
-      "voiceid": "200202008"
+      "facial": "irritation"
     },
     "9": {
       "type": "talk",
-      "dialogue": "よくぞ聞いてくれたね、私はバスト！\\ご主人様のお供をして、遠い遠い熱砂の海を渡って\\はる～ばるやってきたんだよ！",
-      "char": "c274_01",
+      "dialogue": "……",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "voiceid": "200202009"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "私ね、ここでご主人様と一緒に悪いことをい～っぱいしでかすのさ！",
+      "dialogue": "…うん、欲しい。\\母さんが、あたしを守ってくれたみたいに、\\あたしも、誰かを守りたい。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "voiceid": "200202010"
+      "one_ani": "attack"
     },
     "11": {
       "type": "talk",
-      "dialogue": "アナタもネコなんでしょ？私もネコだよ！\\長く長～く生きてきたネコのおばあさんなの！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200202011"
+      "dialogue": "わかりました。ならば私が力を貸しましょう。",
+      "char": "c167_01",
+      "pos": "center",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "おばあちゃんって呼んでもいいよ！\\ニャハハハ～♪",
-      "char": "keep",
+      "dialogue": "え？どういう…",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak",
-      "voiceid": "200202012"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "悪いことをしでかす…ご主人様と一緒に…？\\さてはお前、あのオベなんちゃらをおっ立てた悪魔のチャイルドだな！",
-      "char": "c000_01",
+      "dialogue": "さてさてご主人さま、私達の出番ですよ♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "200202013"
+      "pos": "center",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "14": {
       "type": "talk",
-      "dialogue": "シッシ！あっち行け！\\俺は魔王争奪戦とは関係のない善良な一般市民だ！",
-      "char": "keep",
+      "dialogue": "――！\\あ、あなたは…",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake_weak",
-      "voiceid": "200202014"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "え～？でもでも～ネコの匂いがするよ～？\\ネコが人間の姿をしてるってことは、それはもう神様か悪魔のどちらかしかありえないよ～",
-      "char": "c274_01",
+      "dialogue": "無理やり連れて来られたと思ったら、\\まさか、また契約することになるなんてな…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200202015"
+      "pos": "left",
+      "facial": "sigh"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ご主人様がね、魔王候補生を片っ端から連れてこいって。ほらほら～魔王争奪戦をするから早く行こうよ！",
-      "char": "keep",
+      "dialogue": "さあさあ、話は後です！願いを叶えたければ、\\契約をお願いしま～す♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200202016"
+      "pos": "center"
     },
     "17": {
       "type": "talk",
-      "dialogue": "な、があっ！引っ張るな！",
-      "char": "c000_01",
+      "dialogue": "契約って…よくわかんないけど…",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake",
-      "voiceid": "200202017"
+      "pos": "right",
+      "facial": "sigh"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ニャハハハ～♪今日はツイてるな～\\まさかいきなりネコ悪魔を見つけちゃうなんて～",
-      "char": "c274_01",
+      "dialogue": "それで誰かを守る力が手に入るなら…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200202018"
+      "pos": "center",
+      "distance": "near"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人様も～きっと誉めてくれるニャン！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200202019"
+      "dialogue": "メイは唇をキュッと噛み締めると、\\契約を受け入れたのだった。",
+      "char": "none",
+      "speaker": "none",
+      "pos": "left",
+      "screen_effect": "dark"
     },
     "20": {
-      "type": "talk",
-      "dialogue": "おい猫ばばあ！俺を猫呼ばわりするなら、孫を死に追いやるようなことはしちゃいけない！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake_weak",
-      "voiceid": "200202020"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ニャ～？なんか言ったかニャ～？\\歳のせいか耳が遠くて困っちゃってるニャン！",
-      "char": "c274_01",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "200202021"
-    },
-    "22": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

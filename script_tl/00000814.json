@@ -2,190 +2,290 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リザの奴、最近忙しそうだな。",
-      "background": "bg109_f",
-      "bgm": "9",
-      "char": "c000_01",
+      "dialogue": "うわ～！雪だ！",
+      "background": "bg034_f",
+      "bgm": "14",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ウォッチャーの仕事を手伝っているのよ。",
-      "char": "c001_01",
+      "dialogue": "都心で雪は珍しいですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "3": {
       "type": "talk",
-      "dialogue": "最近契約したチャイルドのウォッチャーは、\\魔界の犯罪者たちを監視する役割を担っている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そう言えば、この間の旅行たのしかったね！\\モナ姉さまっ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "4": {
       "type": "talk",
-      "dialogue": "監視中の犯罪者の一人が人間界に逃亡したせいで\\その悪魔を追い人間界に来たのだが、",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ええ♥途中でご主人さまが\\遭難しちゃったアクシデントはありましたけど…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "5": {
       "type": "talk",
-      "dialogue": "人間界については何も知らないため\\魔王候補生の一人に助けを求めることにしたらしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "御主人様にかまくら作りの才能があるとは、\\知りませんでした。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "6": {
       "type": "talk",
-      "dialogue": "どうやって俺について知ったのかは分からないが、",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ご主人、雪だるまになる才能も開花させてたよね～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ウォッチャーはそんな訳で\\俺のところに訪れ契約を提案した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "それよりさ…前も考えたことなんだけど\\ウォッチャーは悪魔とチャイルド、どっちなんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "どうしてそんなことを？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "おかしいだろ？チャイルドが魔界から主人なしで\\来たってのもそうだし…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "チャイルドが魔界の犯罪者を監視してるのも\\何かおかしいし…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "規則違反だとかなんとかで、\\争奪戦の参加資格をはく奪されるかもしれない…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "あら、そこまで魔王争奪戦に真剣だったんですね♥\\そうとは知らずご主人さまをいじめちゃいました♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "そうじゃない！不利になると思って\\心配になっただけだ。",
+      "dialogue": "お前ら！\\ご主人様をイジメて楽しいか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "shake",
+      "after_effect": "none"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "まったく…\\これなら遭難してた方がまだマシだったな。\\綺麗な舞や歌も聞けたしな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あら～？\\なにやらロマンスの香りがしますね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "えーっ、トサカ野郎のくせにナマイキー！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "fury",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "茶化すなって。遭難した所を女の子に助けられて、\\人生相談に乗っただけだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sulky",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "歌や踊りが上手い子でさ。\\あの時だけは日々の疲れから解放されたね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "おかしいですね…\\まるで普段から、ずいぶん苦労されているような\\言い方です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "irritation",
+      "before_effect": "none",
+      "after_effect": "none"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "こんなに尽くしてくれるサキュバスたちに囲まれて\\いるのに、何のご不満があるんでしょうね～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "15": {
       "type": "talk",
-      "dialogue": "それなら心配する必要はないですよ。\\ご主人さまの補佐官たちは有能で粘り強いですから♥",
-      "char": "c001_01",
+      "dialogue": "さっき自分で言ったセリフ思い出してみろよ？\\お前たち。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "16": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "はぁ…\\何だかまた、あの子の歌が聞きたくなってきた。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "17": {
       "type": "talk",
-      "dialogue": "今回も無駄骨でしたね。面目ありません。",
-      "background": "bg055_f",
-      "bgm": "24",
-      "char": "c002_01",
+      "dialogue": "そんなに良かったんですか？その歌は…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "18": {
       "type": "talk",
-      "dialogue": "大丈夫だ。既に脱獄の経歴が5回もあるヤツだ。\\簡単には捕まらない。",
-      "char": "m124_01",
+      "dialogue": "ああ、なんていうのかな、心が暖まるっていうか…\\そういえば、もっと沢山の人に歌を聞いてほしいって言ってたな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shy",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "19": {
       "type": "talk",
-      "dialogue": "やはりもう少し資料集めが必要かと思われます。\\ハーレム街を利用しましょう。",
-      "char": "c002_01",
+      "dialogue": "なら、街とかで歌えばいいんじゃん？\\路上ライブとか？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "20": {
       "type": "talk",
-      "dialogue": "いい考えだ。",
-      "char": "m124_01",
+      "dialogue": "彼女の歌はな、そんな安っぽい歌じゃないんだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "21": {
       "type": "talk",
-      "dialogue": "毎回助けてくれてありがとう、リザ。",
-      "char": "keep",
+      "dialogue": "心のこもった歌であれば、どこで歌おうとも問題ないのでは？",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "22": {
       "type": "talk",
-      "dialogue": "どういたしまして。",
-      "char": "c002_01",
+      "dialogue": "まぁ、そうなんだけど…\\彼女にはちゃんとした舞台を用意してあげたいって\\いうか…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "23": {
       "type": "talk",
-      "dialogue": "私たちは助け合う仲ではないですか。",
-      "char": "keep",
+      "dialogue": "あらまあ、ご主人さまがこんなに夢中になるなんて。どんな歌なのか、私もちょっと気になりますね♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense",
+      "before_effect": "none",
+      "after_effect": "none"
     },
     "24": {
-      "type": "talk",
-      "dialogue": "私が貴方のために苦労した分、\\貴方は御主人様のために奉仕してください。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "fade_in": "shorter"
     },
     "25": {
-      "type": "talk",
-      "dialogue": "オマエたちの協力、ありがたく受け取る。",
-      "char": "m124_01",
-      "speaker": "same",
-      "pos": "left"
+      "type": "curtain",
+      "background": "bg034_f",
+      "wait": "shorter",
+      "fade_in": "shorter"
     },
     "26": {
+      "type": "talk",
+      "dialogue": "…",
+      "char": "none",
+      "speaker": "none"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "見つけた…\\私に勇気をくれた人。",
+      "char": "c359_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_right_fast",
+      "after_effect": "none"
+    },
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

@@ -2,167 +2,256 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "さあ、続けてください。",
-      "background": "bg089_f",
-      "bgm": "31",
-      "char": "c002_01",
+      "dialogue": "お兄ちゃーん♥",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c271_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ファロンは絶対に御主人様のクッキーに\\下剤をかけたりしません。",
-      "char": "keep",
+      "dialogue": "何だ？急に甘えてくるなんて。\\お前何かたくらんでるだろ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ファ、ファロン… ファロンは…",
-      "char": "m196_01",
+      "dialogue": "そ、そんなことないよ！\\ただ、お兄ちゃんに聞いてほしいお願いがあるだけ！",
+      "char": "c271_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "大きい声ではっきりと。",
-      "char": "c002_01",
+      "dialogue": "お願い？…ってどんなお願いだよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "serious"
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ファロンは絶対にご主人様のクッキーに\\下剤をかけたりしないファロン…",
-      "char": "m196_01",
+      "dialogue": "ピクシーのお願い聞いてくれるの！？",
+      "char": "c271_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ファロンは絶対にコショウで作ったクッキーを御主人様に食べさせたりしません。",
-      "char": "c002_01",
+      "dialogue": "いや、だからまず、どんな願いなのか聞いてから…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ファ、ファロンは絶対にコショウ…えーん…",
-      "char": "m196_01",
+      "dialogue": "ふわああん！\\お願い聞いてくれないの！？",
+      "char": "c271_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "泣いても無駄です。",
-      "char": "c002_01",
+      "dialogue": "うわっ！わ、わかった！\\聞く！聞くから泣くなって…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "9": {
       "type": "talk",
-      "dialogue": "悪い悪魔ファロン。全部リザにバラしたファロン。",
-      "char": "m196_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "誤解です。御主人様は何も言っていません。",
-      "char": "c002_01",
+      "dialogue": "ほんと！？\\へへへ。じゃあ、これ受け取って。",
+      "char": "c271_01",
       "speaker": "same",
       "pos": "right"
     },
-    "11": {
+    "10": {
       "type": "talk",
-      "dialogue": "そ、それじゃリザはどうして分かったファロン？",
-      "char": "m196_01",
+      "dialogue": "これ…手紙か？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "11": {
+      "type": "talk",
+      "dialogue": "うん！\\ママに渡しておいて！",
+      "char": "c271_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "12": {
       "type": "talk",
-      "dialogue": "ダビが言ったファロン！悪いダビ！\\僕には友達だって言ったのに。",
-      "char": "keep",
+      "dialogue": "ママに…か。\\何が書いてあるんだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ダビも何も言っていません。",
-      "char": "c002_01",
+      "dialogue": "ナイショ！\\ママに書いた手紙なんだから、\\お兄ちゃんは読んじゃダメだからね！",
+      "char": "c271_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そ、それじゃ…",
-      "char": "m196_01",
+      "dialogue": "わ、わかってるよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "15": {
-      "type": "talk",
-      "dialogue": "言わなくても分かることもあります。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ずっと見てますから。",
-      "char": "keep",
+      "dialogue": "…「わかってる」とは言ったものの、\\ダメと言われると余計に見たくなるんだよな。\\ちょっとくらいなら…",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ファロンの知らないところで…",
-      "char": "keep",
+      "dialogue": "外道ですね。\\子供相手に嘘をつくなんて…",
+      "char": "c002_01",
       "speaker": "same",
+      "pos": "right",
       "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ひいっ！",
-      "char": "m196_01",
+      "dialogue": "うわっ！\\お、驚かすなよ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake"
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
     },
     "19": {
       "type": "talk",
-      "dialogue": "だから気を付けてくださいね、ファロン。",
-      "char": "c002_01",
+      "dialogue": "俺はてっきり、\\悪魔らしいって\\褒めてくれると思ったんだけどな…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "pretense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "次です！ファロンは絶対に壁に落書きして\\御主人様に罪を着せたりしません。",
-      "char": "keep",
+      "dialogue": "褒めるに値しない、幼稚な行為です。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "ファロンは絶対に、壁に落書きして\\ご主人様に罪を着せたりしません。",
-      "char": "m196_01",
+      "dialogue": "ま、まあ、確かに、\\子供の手紙を覗き見するなんて\\情けないかもしれないけど…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "リザ…怖いファロン…",
-      "char": "m196_01",
+      "dialogue": "でも、これはピクシーがママに書いた手紙だろう？\\どんな内容かぐらい知っておかないと、\\主人としてはいけないだろう？",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "23": {
+      "type": "talk",
+      "dialogue": "はいはい。\\お好きになさってください。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "な、なんだよ？\\とりあえず、さっそく読んでみるぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ママ、お元気ですか？\\嘘つきなおじさん悪魔に捕まって、毎日怖くて大変だけど、ピクシーは元気です。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "おいおい。\\まさか、嘘つきなおじさん悪魔って…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "状況から察するに、\\御主人様を指しているようですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "子供ってさ、想像力豊かだよね…\\さ、続き続き。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "毎日怖くて大変だけど、ピクシーは元気です。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "特に大変なのは、\\嘘つきなおじさんが毒の入った食べ物を\\無理やり食べさせようとすることです。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "こちらは、御主人様が偏食するピクシーに、\\無理やりピーマンを食べさせようとしたことを示しているようです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "毒って…\\俺はただピクシーが元気に大きく育つようにと思ってやってたのに…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "親の心子知らずとはよく言ったものですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

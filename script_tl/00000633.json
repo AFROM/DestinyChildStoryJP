@@ -2,66 +2,66 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "おい、小僧悪魔。\\今日も相変わらずみじめな有様だな。",
-      "background": "bg035_f",
-      "bgm": "9",
-      "char": "c147_01",
-      "speaker": "same"
+      "dialogue": "最近、ティタニアは公園によく行くらしい。\\ちょっと様子を見に行こう。",
+      "background": "bg070_f",
+      "bgm": "13",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "こ、小僧悪魔だと？\\誰に向かってガキ扱いしてるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "青い空！新鮮な空気！たくさんの人間！\\ぜんぶあたしのためにあるみたい！気持ちいいー！",
+      "char": "c133_01",
+      "speaker": "same"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ぺちゃくちゃ騒ぎ立てる姿はまさしくガキだな。",
-      "char": "c147_01",
+      "dialogue": "ティタニア、ご機嫌だな。\\何がそんなに楽しいんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前こそ悪魔みたいなこと言いやがって。\\お前、チャイルドになってどのくらいだ？",
+      "dialogue": "うっ…誰？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "警戒しなくていいよ。俺だよ、俺。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ああ、かの有名な「オレオレ詐欺」ですか？\\あたし、お金ありませんけど…",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "あれ？なんだ、俺のことわからないのか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "5": {
-      "type": "talk",
-      "dialogue": "何様のつもりだ？\\オマエ、自分が立派な悪魔だって自信もって言えるのか？",
-      "char": "c147_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "笑わせるな！\\オマエなんてくちばしのないヒヨコみたいなもんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "御主人様を悪く言うのはおやめなさい、バアル。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
     "8": {
       "type": "talk",
-      "dialogue": "すぐにでも折れそうなか弱いお嬢さんが\\誰に向かって説教か？",
-      "char": "c147_01",
+      "dialogue": "ええ。あたしは、詐欺師の悪魔なんて知りません。\\弱っちい感じの悪魔なら知ってますけど。",
+      "char": "c133_01",
       "speaker": "same",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "リザに当たるな。\\彼女を無視するのは主人である俺を\\無視するのと同じことだ。",
+      "dialogue": "おい…わかっててやってるな？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -69,114 +69,222 @@
     },
     "10": {
       "type": "talk",
-      "dialogue": "…今なんて言った？",
-      "char": "c147_01",
+      "dialogue": "ん？なんのことですか？",
+      "char": "c133_01",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "まあ、お前はもともと俺を無視してたが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "はあ？\\だから何て言いたいんだよ、ハッキリしろ！",
-      "char": "c147_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "俺は真面目に話してるんだ！",
+      "dialogue": "ふざけてるのか、そうじゃないのか。\\ハッキリしてくれ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ああ、それはもちろん…\\ふざけてるんです。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "こら、真面目な顔して言うな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c002_01",
+      "dialogue": "ふふ。この程度のイタズラは、\\仲良くなりたいっていう意思表示じゃないですか。",
+      "char": "c133_01",
       "speaker": "same",
-      "facial": "irritation"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "クハハハ！\\口を開けばおかしなことばかり言いやがる。",
-      "char": "c147_01",
+      "dialogue": "それはさておき、悪魔さん。\\何かご用事ですか？",
       "speaker": "same",
       "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "で、オマエを見て怖がれと？",
-      "char": "keep",
+      "dialogue": "いや、特に用事があるわけじゃないんだけど…\\お前がよく公園にいるって聞いて来てみたんだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ほお、尊敬するご主人様がいらっしゃった！\\皆、頭を下げろ！",
-      "char": "keep",
+      "dialogue": "…付きまとい事案？\\悪魔さんって、ストーカー？",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…リザ、こいつは無理だ。\\俺にはコントロールできない。",
+      "dialogue": "人聞きの悪いことを言うな！\\心配してやってるんだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "わかりました。公園によく来る理由ですよね？\\んー。多分、契約者の影響だと思います。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ティタニアの契約者はこの公園で、\\大会に出るための瞬発力が欲しいと願った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "契約者が望んだ姿がこれです。バレーボールの妖精。だからって、まさか本当に妖精になるとはね。",
+      "char": "c133_01",
+      "speaker": "none",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "妖精というか、天使に近い見た目だけどな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "まあ、それはどっちでもいいんですけどね。\\しかし、天使って…言ってて恥ずかしくないですか？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "恥ずかしいって言われても、\\他にピッタリくるものがないしなぁ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "それだけあたしの美貌が素晴らしいって話ですよね。それなら仕方がありません。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "そうそう。美貌が…って、そんな話はしてないし！\\都合よく解釈するな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "お近づきになるためのコミュニケーションです。\\残念。あたしの美貌を褒めたたえていいのに。",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "お前は会話が一方的すぎるよ。\\まったく…これコミュニケーションか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "19": {
+    "29": {
       "type": "talk",
-      "dialogue": "まるで他のチャイルドならコントロール\\できるような言い方ですね。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "悪魔さんのコミュ力がないのです。\\じゃあ、何か軽く食べながら\\ちゃんとお話ししましょうか？",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
     },
-    "20": {
+    "30": {
       "type": "talk",
-      "dialogue": "リザ…俺を助けにきたんじゃないのか？",
+      "dialogue": "あ、そうだな。\\それはいいアイディアだ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "cry"
+      "facial": "joy"
     },
-    "21": {
+    "31": {
       "type": "talk",
-      "dialogue": "御主人様に何かを期待するのは大変なことです。\\私だけでも進んで仲裁しないと…",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ブツブツ文句いうだけならあっち行ってろ！\\ガキはさっさと家に帰れ！",
-      "char": "c147_01",
+      "dialogue": "あ、あと、あそこで売ってる可愛い風船も、\\買ってきてください。",
+      "char": "c133_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
-    "23": {
+    "32": {
       "type": "talk",
-      "dialogue": "私を御主人様と同じ扱いにしないでください。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "どうか本人の前で言わないでくれ。",
+      "dialogue": "え、風船？ああ、あれか。\\まあ、いいけど…",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "その次は、あそこのレストランで\\おすすめメニューを…",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "お、おう…って、俺はパシリか！\\支払いも全部俺かよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "せっかくちゃんとコミュニケーションを\\取りたいなって、思ったのに！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "25": {
+    "36": {
+      "type": "talk",
+      "dialogue": "えー、誤解ですよ！じゃあ、仕方ないなぁ。\\まずは、甘いモノを食べながら仲良くなりましょう！",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "う、うーん…まあ、それならいいけど。\\なんか振り回されてないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "そんなことないですって。\\さあ、行きましょう！",
+      "char": "c133_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

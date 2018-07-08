@@ -2,290 +2,249 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うわ～！雪だ！",
-      "background": "bg034_f",
-      "bgm": "14",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "one_ani": "attack"
+      "dialogue": "さあ、早う言いーな。黄泉の花はどこに隠したん？",
+      "background": "bg042_f",
+      "bgm": "9",
+      "char": "c301_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "都心で雪は珍しいですね。",
-      "char": "c002_01",
+      "dialogue": "そなたもくどい。その執念には驚かされるばかりだ。",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そう言えば、この間の旅行たのしかったね！\\モナ姉さまっ！",
-      "char": "c003_01",
+      "dialogue": "簡単なことやで。\\黄泉の花の在処を教えてくれるだけでええんやで。",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ええ♥途中でご主人さまが\\遭難しちゃったアクシデントはありましたけど…",
-      "char": "c001_01",
+      "dialogue": "言えません。",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "御主人様にかまくら作りの才能があるとは、\\知りませんでした。",
-      "char": "c002_01",
+      "dialogue": "そない言えるのも今のうちやで…",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ご主人、雪だるまになる才能も開花させてたよね～！",
-      "char": "c003_01",
+      "dialogue": "これでどうやっ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "joy",
-      "before_effect": "none",
-      "after_effect": "none"
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前ら！\\ご主人様をイジメて楽しいか？",
-      "char": "c000_01",
+      "dialogue": "な、なにを…！\\く、くすぐるとは、ひひひ卑怯な！",
+      "char": "c319_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake",
-      "after_effect": "none"
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "まったく…\\これなら遭難してた方がまだマシだったな。\\綺麗な舞や歌も聞けたしな。",
-      "char": "keep",
+      "dialogue": "ええんか？ここがええんか！？",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh",
-      "before_effect": "none",
-      "after_effect": "none"
+      "distance": "near",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あら～？\\なにやらロマンスの香りがしますね～♥",
-      "char": "c001_01",
+      "dialogue": "ひひひ…\\やめ、やめて～～！",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "distance": "near",
+      "before_effect": "shake"
     },
     "10": {
-      "type": "talk",
-      "dialogue": "えーっ、トサカ野郎のくせにナマイキー！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "none",
-      "after_effect": "none"
+      "type": "curtain",
+      "background": "bg042_f",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "茶化すなって。遭難した所を女の子に助けられて、\\人生相談に乗っただけだ。",
-      "char": "c000_01",
+      "dialogue": "まったく、強情な奴や！\\もうヘトヘトやわ！",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sulky",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "歌や踊りが上手い子でさ。\\あの時だけは日々の疲れから解放されたね。",
-      "char": "keep",
+      "dialogue": "私は嘘は言いません。",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "おかしいですね…\\まるで普段から、ずいぶん苦労されているような\\言い方です。",
-      "char": "c002_01",
+      "dialogue": "黄泉の花は若様に渡した。\\黄泉の花の在処はもう私にはわからん。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "irritation",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "こんなに尽くしてくれるサキュバスたちに囲まれて\\いるのに、何のご不満があるんでしょうね～♥",
-      "char": "c001_01",
+      "dialogue": "あほ言わんといて。",
+      "char": "c301_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "sigh",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "さっき自分で言ったセリフ思い出してみろよ？\\お前たち。",
-      "char": "c000_01",
+      "dialogue": "あないに貴重な花を、素性もよう知らへん悪魔に渡すなんて、信じると思うんかぁ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "はぁ…\\何だかまた、あの子の歌が聞きたくなってきた。",
+      "dialogue": "あんたは悪魔を信じてへんくせに。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah",
-      "before_effect": "none",
-      "after_effect": "none"
+      "distance": "near"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そんなに良かったんですか？その歌は…",
-      "char": "c001_01",
+      "dialogue": "かつては…\\悪魔とは理を知らず、君子の道を逸する小人の輩に等しいと。",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ああ、なんていうのかな、心が暖まるっていうか…\\そういえば、もっと沢山の人に歌を聞いてほしいって言ってたな。",
-      "char": "c000_01",
+      "dialogue": "そう思っていた時もあった。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "shy",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "なら、街とかで歌えばいいんじゃん？\\路上ライブとか？",
-      "char": "c003_01",
+      "dialogue": "しかし、私もまた悪魔。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "彼女の歌はな、そんな安っぽい歌じゃないんだよ。",
-      "char": "c000_01",
+      "dialogue": "私は悪魔でありながら、君子の道を歩むべく精進している。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "心のこもった歌であれば、どこで歌おうとも問題ないのでは？",
-      "char": "c002_01",
+      "dialogue": "若様もまた、私と同じ道ではないものの善と義の心を持つ悪魔。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "まぁ、そうなんだけど…\\彼女にはちゃんとした舞台を用意してあげたいって\\いうか…",
-      "char": "c000_01",
+      "dialogue": "尊敬し、信頼するに値すると判断したのです。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "あらまあ、ご主人さまがこんなに夢中になるなんて。どんな歌なのか、私もちょっと気になりますね♥",
-      "char": "c001_01",
+      "dialogue": "私は愚かだった。\\この世がこんなに広いとも知らずに。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense",
-      "before_effect": "none",
-      "after_effect": "none"
+      "pos": "left"
     },
     "24": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "shorter",
-      "fade_in": "shorter"
+      "type": "talk",
+      "dialogue": "山奥に引きこもり、心身を磨いてきましたが、かえってそれが、見識を狭める結果になるとは…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "25": {
-      "type": "curtain",
-      "background": "bg034_f",
-      "wait": "shorter",
-      "fade_in": "shorter"
+      "type": "talk",
+      "dialogue": "相変わらず無駄口が多いねん。",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "訳の分からへんことを言うてへんで黄泉の花をちゃっちゃと寄こしたらええねん。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "見つけた…\\私に勇気をくれた人。",
-      "char": "c359_01",
+      "dialogue": "だから、私は持っていないと、何度も言っているではないですか。",
+      "char": "c319_01",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "enter_from_right_fast",
-      "after_effect": "none"
+      "pos": "left"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "もおお！何でこないなややこしいことに！",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "これぞ、世の理でしょう。",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "世の理？しょうもあらへん。",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ひとりで涼しい顔して気取ってもうて。\\あー胸糞悪い。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ははは……",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "笑わんといてやっ！ムカつくっ！",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

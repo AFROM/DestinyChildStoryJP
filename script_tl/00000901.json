@@ -1,227 +1,253 @@
 {
   "phase1": {
     "1": {
-      "type": "curtain",
-      "background": "bg217_f",
-      "bgm": "6",
-      "fade_in": "normal",
-      "hold": "shorter"
-    },
-    "2": {
       "type": "talk",
-      "dialogue": "うう…はあ…はあ…\\安…らぎ…安…らぎ…を…",
-      "char": "c049_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ダメ、マアト！\\負けないで！諦めないでっ！",
-      "char": "c056_01",
-      "speaker": "same"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "悪…魔…！",
-      "char": "c049_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "くうっ！",
-      "char": "c056_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "マアトはジャンヌの首を両手で掴んだ。\\ジャンヌの顔が一瞬のうちに白く染まった。",
+      "dialogue": "ブレーメンを見つけた場所は、ある古物屋のワゴン\\だった。",
+      "background": "bg089_f",
+      "bgm": "9",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "7": {
+    "2": {
       "type": "talk",
-      "dialogue": "死…んで…悪魔…！！",
-      "char": "c049_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "ダビが持ってきた来た古いシンバル。\\それがまさにブレーメンの契約者だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "8": {
+    "3": {
       "type": "talk",
-      "dialogue": "まったく、手を焼かせますね～",
-      "char": "c001_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "くああ！",
-      "char": "c049_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "go_to_right_jump",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ジャンヌ！大丈夫か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ううく……",
-      "char": "c056_01",
-      "speaker": "same"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "これは、深刻なダメージです。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "マアトが完全に理性を失ってしまいましたね。\\こんな状態では……",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ああ…！苦しい…くう…くっ！\\<b>くあああああ！！！</b>",
-      "char": "c049_01",
-      "speaker": "same",
-      "pos": "right",
-      "screen_effect": "dialog_shake",
-      "loop_ani": "attack"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "マアトの体が変！",
+      "dialogue": "ゴミを持ってきたってすごく叱られた。\\ねぇ、ご主人？",
       "char": "c003_01",
       "speaker": "same"
     },
-    "16": {
+    "4": {
       "type": "talk",
-      "dialogue": "黒く変わってる…！？",
+      "dialogue": "ゴ、ゴミ！？\\そんなことは言ってないと思うけど？",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "言った！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "言いましたね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そ、そうか……\\それよりも、ブレーメンの契約者はただの楽器だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "誰が楽器に恨みがこもってるなんてわかるんだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "リザはすぐに気が付いたけど？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "その程度、特別な能力がなくても十分に感知できることです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そんな目で俺を見るなよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sad"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "人間界に長くいると、そういうのに鈍感になるんだ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "センスというのは磨ければ磨くほど光を放つ物でしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "お前のその切り替えしのセンス…\\どんだけ磨いたんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ねぇねぇ、何か聞こえない？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "そう言えば聞こえるな…\\音楽？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "17": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c049_10",
-      "speaker": "same_full",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "dialogue": "またテレビをつけっぱなしにして！\\モナ姉さまが電気代を節約しろっていったじゃん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "18": {
       "type": "talk",
-      "dialogue": "不浄なる者どもよ。ひれ伏せ。",
-      "char": "keep",
-      "speaker": "same_full",
-      "one_ani": "attack"
+      "dialogue": "お前にまで、そんな小言を言われたくないよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "19": {
       "type": "talk",
-      "dialogue": "",
-      "char": "none",
-      "speaker": "none",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+      "dialogue": "クラシックですね。\\ふむ、たぶん犯人は…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
-      "type": "talk",
-      "dialogue": "うわっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "神の名の下、お前達に裁きを！",
-      "char": "c049_10",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "ラララ～ララララ～",
+      "background": "bg086_f",
+      "bgm": "17",
+      "char": "m203_01",
+      "speaker": "same"
     },
     "22": {
       "type": "talk",
-      "dialogue": "マアト、やめろ！\\しっかりしろって！俺はお前の主人だぞ？",
-      "char": "c000_01",
+      "dialogue": "くるくる回る…\\ダビの目もくるくる…",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "私の主は天上におわす、ただ一人のみ…",
-      "char": "c049_10",
-      "speaker": "same_full",
-      "pos": "right",
-      "one_ani": "attack"
+      "dialogue": "どんな構造なら、体から音楽を出せるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "",
-      "char": "none",
-      "speaker": "none",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+      "dialogue": "単純な生物や機械のような存在ではありませんから。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "うわっ！やめろって！",
-      "char": "c000_01",
+      "dialogue": "欲望がどのような形を持つかによりますね。\\チャイルドという存在は…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "unfair",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "これはマズいですね…\\最大火力で早々に決着を付けましょう。",
-      "char": "c002_01",
-      "speaker": "same",
-      "one_ani": "attack"
+      "dialogue": "こんにちは～チビ悪魔さん～\\ブレーメンの曲が聞きたくて、集まったんですか～？",
+      "char": "m203_01",
+      "speaker": "same"
     },
     "27": {
       "type": "talk",
-      "dialogue": "おい！それだとマアトが危ないだろ！？",
+      "dialogue": "ブレーメン。何してるんだ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "手加減できる状態ではありません。\\あのマアトが求めているのは、ここにいる全ての敵を抹殺することです。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "こんにちは～リトルレディ～\\ブレーメンと一緒に踊りましょう～",
+      "char": "m203_01",
+      "speaker": "same",
+      "one_ani": "attack"
     },
     "29": {
       "type": "talk",
-      "dialogue": "マアトの説得は諦めましょう。\\マアトに浄化されたら困りますからね～？",
-      "char": "c001_01",
-      "speaker": "same",
-      "facial": "pretense"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "クソ…最悪の状況だ。",
+      "dialogue": "俺の質問はスルー！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "angry",
+      "facial": "shock",
       "before_effect": "shake"
     },
+    "30": {
+      "type": "talk",
+      "dialogue": "くるくる～ダビも踊るの好き~\\ご主人も一緒に踊ろう～♪",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "one_ani": "attack"
+    },
     "31": {
+      "type": "talk",
+      "dialogue": "うぉ！どうしたんだ？\\やめろ！やめてくれ～目が回る～～",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "after_effect": "go_to_left_point"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "踊りもほどほどにしてください。\\ここを追い出されたら、次は路上生活ですよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "一緒に踊ろう～♪歌は歌で、踊りは踊りで。\\静かな場所で美しい音色が流れるように～♪",
+      "char": "m203_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

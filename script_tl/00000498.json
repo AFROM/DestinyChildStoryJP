@@ -2,189 +2,290 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "なあ、レッドクロス。\\ちょっといいか？",
-      "background": "dungeon_bg",
-      "bgm": "20",
-      "char": "c000_01",
+      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
+      "background": "bg099_f",
+      "bgm": "9",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何用でしょう、我が主君よ。",
-      "char": "c175_01",
+      "dialogue": "ん？今は深夜じゃないぞ？",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "《紅き十字架》…って奴、知らないか？",
-      "char": "c000_01",
+      "dialogue": "あれは決め台詞ですからね。\\失踪事件の時もほぼ1日中、出っ放しでしたが、\\決め台詞はずっと同じでしたよ～",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near",
+      "facial": "pretense"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…！\\い、いえ、存じませぬが…",
-      "char": "c175_01",
+      "dialogue": "ふ～ん…\\人気リポーターも大変なんだな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そっかー\\うーん、困ったなー",
-      "char": "c000_01",
+      "dialogue": "会ったこともないテレビの向こうの人を心配している暇があるなら、明日の暮らしすら不安な私たちの心配をしてください！",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
+      "distance": "near",
+      "facial": "teach"
     },
     "6": {
       "type": "talk",
-      "dialogue": "…その《紅き十字架》とやらが何かしたのですか？",
-      "char": "c175_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "いや、何かってほどのことじゃないんだけどさ。\\ユーナがそいつに花をもらったんだけど、\\正体がわからなくて困ってるらしい。",
+      "dialogue": "世間話の延長で、いきなりそういうこと言われる\\主人の気持ちも心配してくれよ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "unfair"
+    },
+    "7": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…けど、お前も知らないなら仕方ないな。",
-      "char": "keep",
+      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
+      "background": "bg099_f",
+      "char": "c174_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near",
+      "before_effect": "shake"
     },
     "9": {
       "type": "talk",
-      "dialogue": "仕方ない…とは？\\どうするおつもりで？",
-      "char": "c175_01",
+      "dialogue": "うぉ？また出てる。\\すごいなあ…ワーカーホリックか？",
+      "background": "bg086_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "こうなったら、\\俺が渡したってことにでもしとくかな。\\そうすれば、ユーナとも仲良くなれそうだし。",
-      "char": "c000_01",
+      "dialogue": "本当に働き者ですね。\\誰かさんに爪の垢でも煎じて飲ませたいですね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "serious"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そ、それはいかがなものかと。",
-      "char": "c175_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "何か問題でもあるか？",
+      "dialogue": "はいはい…\\こうやって八つ当たりされるのも俺の役目って\\ことだよな…\\俺って仕事熱心…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "sulky"
+    },
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "主君へ口答えをする無礼をお許しください。",
-      "char": "c175_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "…ですが、他人の功を横取りするような\\卑怯な真似は、騎士道に反しますゆえ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そういうことなら問題ないな。\\別に俺は騎士じゃないし…\\それに、正体も明かさず、\\コソコソしてる奴だって卑怯だろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "それは…",
-      "char": "c175_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "堂々と自分の正体を明かしてこそ真の騎士だ。\\違うか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…いえ。\\我が主君よ、ごもっともでございます。",
-      "char": "c175_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "だろ？だから…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "…しかし、その者にも覚悟を決める時間が\\必要でしょう。",
-      "char": "c175_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "覚悟って、プロポーズするわけでもあるまいし…\\けど、まあ、こいつにしては上々の答えか。",
+      "dialogue": "最近テレビで見ない日のない、\\謎の人気リポーター、A.I。",
+      "background": "bg069_f",
+      "bgm": "24",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "22": {
+    "14": {
       "type": "talk",
-      "dialogue": "確かにそうかもしれないな…なんて、こんな話、\\当人の《紅き十字架》がいないとこでしたって、\\何の意味もないけど。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "なぜそんな名前なのか、どんな経歴なのか、\\さらには人間なのか、悪魔なのか？\\さまざまな噂が囁かれている…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "23": {
+    "15": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c175_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "明らかになっているのはA.Iという名前と性別、\\そして格闘実況チャンネルEvilの\\レギュラーリポーターってことだけだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
-    "24": {
+    "16": {
       "type": "talk",
-      "dialogue": "じゃ、俺はこの辺で。",
+      "dialogue": "そんな謎多きリポーターその人が…\\目の前に座っているという状況が嘘みたいに思える。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "えっと…その…\\何て呼べば…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "after_effect": "go_to_left_point"
+      "facial": "irritation"
     },
-    "25": {
+    "18": {
       "type": "talk",
-      "dialogue": "真の騎士なら堂々と正体を明かせ…か。",
-      "char": "c175_01",
+      "dialogue": "A.Iで…結構…です…\\",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "はい？あの、声が小さくて\\良く聞こえな…",
+      "char": "c000_01",
       "speaker": "same",
       "distance": "near"
     },
+    "20": {
+      "type": "talk",
+      "dialogue": "A.Iって呼んでください！！",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "はっ、はいっ！わかりました！\\A.Iさんって呼びますね！\\で、用件とは…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "なぜセイレーンさんをデビューさせないのですか？\\あの子は貴方にとって豚に真珠…猫に小判…",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "いえいえ、泥中の蓮なのです。\\デビューしたら、スター街道まっしぐら。\\すぐに日本の、いえ世界の音楽シーンを\\席巻するでしょう。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "確かにセイレーンは俺にとって豚に真珠だろう。\\しかし…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "うちには、うちの事情があるんだ。\\そこはいくらA.Iさんだとしても\\首を縦に振るわけには…",
+      "char": "c000_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "sulky"
+    },
     "26": {
+      "type": "talk",
+      "dialogue": "私だって、よそ様の家の事情に干渉する趣味はありません。",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "しかし、明らかに金の卵であるセイレーンさんの\\デビューを…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "よりによって主人である貴方が止めているという\\現状が…どうしても理解できません…\\素晴らしい能力の持ち主が…凡人に邪魔されて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "はい？もう少し\\大きな声で喋ってもらえますか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "なんで！あんな！宝物を！\\埋もれさせて！おけるのですか！",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "distance": "near",
+      "before_effect": "shake",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "鼓膜が破れる！\\…小さい声でブツブツ呟いてると思ったら\\いきなり近づいて大声かい！中間はないのか！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "私は絶対諦めませんから！\\極上の原石を腐らせるわけにはいきません！",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "だから、俺にそれを言っても…\\それより、俺の連絡先はどうやって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "チャンネルEvilの力を甘く見ないでください。\\それくらいは簡単に調べられます。\\そして、このままでは引き下がらないわよ…！",
+      "char": "c174_00",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "チャンネルEvilは、開局から今日まで\\私が盛り上げてきたの。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "そのプライドにかけて\\必ずセイレーンさんはデビューさせる！\\今日はこのぐらいにしておくけど、\\次は絶対首を縦に振らせるから！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "37": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

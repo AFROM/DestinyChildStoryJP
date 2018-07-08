@@ -2,209 +2,268 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "本当の本当に、君の言う通りになるバロン？",
-      "background": "bg089_f",
-      "bgm": "31",
-      "char": "m195_01",
+      "dialogue": "なあ、俺のこと信じてくれよ。\\俺、嘘ついたことないし。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "もちろん！ダビの言う通りにすればいいよ。",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "上手くいくバロンか?",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "もう！ダビの言う通りにやれば大丈夫だってば！\\ちっとも難しくないよ。",
-      "char": "c003_01",
+      "dialogue": "イヤ～！\\ママが変なおじさんとは話しちゃダメって\\言ってたもん！",
+      "char": "c272_01",
       "speaker": "same",
       "pos": "right"
     },
-    "5": {
+    "3": {
       "type": "talk",
-      "dialogue": "早く！ご主人が来る前にやらないと！",
+      "dialogue": "俺、変なおじさんなの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "sound": "none",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "なんで俺が変なおじさんなんだよ！\\せめてお兄さんと呼べ！",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "fury"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "どうしてお兄ちゃんが私のご主人さまなの？\\ピクシーはご主人さまなんていらないもん！\\早くママのところに帰して！",
+      "char": "c272_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "わ、分かったバロン！",
-      "char": "m195_01",
+      "dialogue": "そんな言い方するなよ。誘拐犯みたいだろ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ピクシーは他のチャイルドと同様、\\人間と契約することで得たチャイルドだ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "だから、ピクシーにも他のチャイルド達にも\\母親なんているはずがない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "…となると、たぶん、\\ピクシーが言う《ママ》ってのは、\\ピクシーの契約者のことだろうな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ピクシー、\\お前達チャイルドには《ママ》なんていないんだ。\\お前が母親だと思ってるのは…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "7": {
+    "11": {
+      "type": "talk",
+      "dialogue": "聞きたくない！",
+      "char": "c272_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ママがいないなんて、どうしてそんな嘘つくの！？\\そんなこと、絶対信じないから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_right_point"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "おいっ！どこいくんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ピクシーは背を向けると、\\一瞬で消えて行ってしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "15": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "8": {
-      "type": "talk",
-      "dialogue": "悪魔様にあげようと思って持ってきたバロン。",
-      "background": "bg086_f",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "クッキーか？ありがとな、バロン。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "い、いっぱい食べてくれバロン。",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "ところで…なんでそんなに震えてるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "バ、バロン？",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "口ごもったりして…それに、クッキーの上にある\\この不思議な粉は何だ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "そ、そ、それは！クッキーがもっと美味しくなる\\魔法の粉バロン。",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "魔法の粉ー？へぇ、そこまで考えてくれるなんて\\本当にありがたいなー！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
     "16": {
       "type": "talk",
-      "dialogue": "そうだ！こんなに美味しいもの、一人で食べるのは\\もったいない。\\さ、オマエも食べてみろ。",
-      "char": "keep",
+      "dialogue": "ピクシー、ピクシー！",
+      "background": "bg001_f",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "バ、バロンはさっきいっぱい食べたから！\\お腹いっぱいバロン！",
-      "char": "m195_01",
+      "dialogue": "ダビみたいにもっと大きな声で呼びなよっ、\\バカご主人！\\ピクシー！ピクシー！！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "いいから一口だけ食べてみろって！\\俺一人で食べるのは申し訳なくてさ！",
+      "dialogue": "わかってるよ…\\ピクシ~！どこにいるんだー！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy"
+      "facial": "sigh"
     },
     "19": {
       "type": "talk",
-      "dialogue": "だ、だいじょう…",
-      "char": "m195_01",
+      "dialogue": "あっ、いた！\\ピクシーだ！！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "20": {
       "type": "talk",
-      "dialogue": "さ、食べてみな！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "angry"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "うっ！ペッ、ペッ！",
-      "char": "m195_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "やっぱりおかしいと思った…\\クッキーに何をした？",
+      "dialogue": "ピクシー？どこに…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "23": {
+    "21": {
       "type": "talk",
-      "dialogue": "ダビの武器、下剤をふりかけたバロン！",
-      "char": "m195_01",
+      "dialogue": "捕まえちゃうぞ～",
+      "background": "bg012_f",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right",
+      "facial": "smile",
+      "screen_effect": "dialog_shake",
       "one_ani": "attack"
     },
-    "24": {
+    "22": {
       "type": "talk",
-      "dialogue": "何だって？",
+      "dialogue": "イヤ！来ないで！\\ダビもお兄ちゃんも嫌い！大っ嫌い！！",
+      "char": "c272_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ピクシー…\\頼むから、俺の話を聞いてくれ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "sigh"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "イヤ！\\だってお兄ちゃん、変なことばっかり言うもん！\\ピクシーはママに…",
+      "char": "c272_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "25": {
       "type": "talk",
-      "dialogue": "バロンは魔王争奪戦が嫌バロン！\\戦いは嫌バロン！",
-      "char": "m195_01",
+      "dialogue": "ピクシー！\\ピクシーのママはここにいるよ。\\ピクシーを生んだのはご主人なんだから！",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
     },
     "26": {
       "type": "talk",
-      "dialogue": "バロンに戦えって言うなら、\\コショウだってふりかけるバロン！",
-      "char": "keep",
+      "dialogue": "…お兄ちゃんが、ママ？",
+      "char": "c272_01",
       "speaker": "same",
-      "distance": "near",
-      "after_effect": "go_to_right_point"
+      "pos": "center"
     },
     "27": {
       "type": "talk",
-      "dialogue": "心配するなって…\\わかってるからさ。",
+      "dialogue": "ママっ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "smile"
+      "distance": "near",
+      "facial": "shock",
+      "screen_effect": "shake"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "その言い方は抵抗があるけど、\\まあ、間違っちゃいない…か？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ふああああん～！！",
+      "char": "c272_01",
+      "speaker": "same",
+      "pos": "center",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "わっ！な、なんで泣くの？\\…あっ、わかった！\\ご主人がママなのが嫌なんでしょ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ふああああん～！！",
+      "char": "c272_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "screen_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "当たり？\\そりゃ嫌だよね～。\\こんなウスラトンカチがママなんて。\\ダビもご主人がママだったらグレてるもん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "smile"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "うう…俺だって、ダビの母親なんてごめんだ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "sigh"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

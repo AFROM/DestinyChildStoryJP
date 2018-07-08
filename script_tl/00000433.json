@@ -2,210 +2,273 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "その幽霊は路地にいた。\\野良犬…いや、野良子犬のコムギがたたずむ場所に。",
-      "background": "bg177_f",
+      "dialogue": "…気になることがある。",
+      "background": "bg086_f",
       "bgm": "15",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "そこでは女子高生と思われる幽霊が、\\壁にもたれてうずくまり、\\めそめそと涙を流していた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "gray"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "悲しい…辛い…誰か…助けて…\\この悲しみを止めて…",
-      "char": "c115_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "screen_effect": "gray"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "どうせすぐに成仏してしまう霊の願いなど、\\犬のコムギ以外には見向きもされないはずだった…",
-      "char": "none",
-      "speaker": "none",
-      "pos": "center",
-      "screen_effect": "gray"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "これ以上…悲しいのはイヤ…",
-      "char": "c115_00",
-      "speaker": "same_full",
-      "screen_effect": "gray"
-    },
-    "6": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "女子高生の霊はいつの間にか消え、\\今その場所にはソネットが立っていた。",
-      "background": "bg177_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "幽霊だけに聞こえる、\\悲しいレクイエムを奏でながら。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "恨めしい人生♬辛いばかりの世の中♬",
-      "char": "c115_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "one_ani": "attack"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ぐすっ、悲しい。悲しすぎる…",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "許して、私が悪かったの…ううっ…",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "わたし死んだの♬まだ若いのに♬",
-      "char": "c115_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "どうやら幽霊の契約者と契約を交わしたせいか、\\ソネットは自分がまだ人間だと\\思い込んでいるようだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "あら、ご主人さま。\\魔界から報奨金が出ましたよ♥",
-      "char": "c001_01",
+      "char": "c112_01",
       "speaker": "same",
       "pos": "right"
     },
-    "15": {
+    "2": {
       "type": "talk",
-      "dialogue": "はい？何の報奨金だよ。\\俺は何もしてないぞ。",
+      "dialogue": "俺に言ってるのか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "問題でもあるのか。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "い、いや、意外すぎて。\\何だ、気になることって？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "チャイルドの契約者たちは、\\悪魔に願いをかけた者たちだろ。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そうだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "やつらはみんな、自分の願いを叶えたのか？",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sad"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "やはりな…",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "お前の言う通り、悪魔は人間の願いを\\叶えたりしない。\\願いを叶える力を貸してやるだけだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "悪魔を信じるのは無駄ってわけか。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "そうかもしれない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "ヤーガが言っていた。\\人間は悪魔よりも弱いから、\\悪魔の支配を受け入れなければならないと。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "でも俺の契約者は悪魔を憎んでいる。\\悪魔のせいで自分の家族を失ったと\\信じているからな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "しかし結局彼は、悪魔の力を借りてしまった。\\その証拠が俺だ。ヤーガの言う通り人間は…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ソネットの歌を聴いて、\\「あの歌を聴くぐらいなら地獄にいるほうがマシ」とたくさんの霊が魔界にやってきたそうです。",
-      "char": "c001_01",
+      "dialogue": "エリオス。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "pos": "left",
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それで、魔界の刑務所長が、\\感謝状と報奨金を送って来たんですよ。",
-      "char": "keep",
+      "dialogue": "俺は契約者を理解できない。\\悪魔を憎んでいるあいつが、\\悪魔の力を借りるだなんて…",
+      "char": "c112_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
+      "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "それって良いこと…なのか？\\ソネットの願いは、幽霊退治じゃなかった\\ハズなんだが。",
+      "dialogue": "あれは仕方のないことだった。\\でも悪魔から妹を救おうとする彼の気持ちは本物だ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "idle"
+      "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "うふ♥",
-      "char": "c001_01",
+      "dialogue": "それじゃあ、俺は何だ？\\悪魔を嫌う俺の心と\\悪魔の力がなければ存在しない俺自身を",
+      "char": "c112_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "facial": "tempt"
+      "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "な、何だよその目は…",
-      "char": "c000_01",
+      "dialogue": "どう受け入れろというんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "もしかして妙なチャイルドを作ってしまったと、\\それもご自分の力が至らなかったせいだと、\\ちょっと後悔しちゃってますか？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "tempt"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "ち、違うって！",
+      "dialogue": "それは…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "俺は矛盾でしかない。\\矛盾はこの世に存在しない。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "もう、ご主人さまったら可愛い♥\\そんなに申し訳なさそうにしなくてもいいのに♥",
-      "char": "c001_01",
+      "dialogue": "そんなことはない。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "smile"
+      "pos": "left",
+      "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "こんなに優しく想われて、うらやましいです。\\墓地に行ったら、亡くなった彼女に\\感激されちゃうかもしれませんね♥",
-      "char": "keep",
+      "dialogue": "？",
+      "char": "c112_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "い、いや、そんなコト…！",
+      "dialogue": "矛盾でもなんでも、\\お前の言うこと全てを理解するのは\\できないけど、これだけは確かだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "screen_effect": "dialog_shake"
+      "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "悲しみが止まらない♬\\ああ、うらめしや♪あの詐欺師の悪魔め♬",
-      "char": "c115_01",
+      "dialogue": "俺は今、お前を見ているということ。\\お前はお前だ、エリオス。\\それ以上でも、それ以下でもない。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "far",
-      "loop_ani": "attack"
+      "pos": "left",
+      "distance": "near"
     },
     "27": {
+      "type": "talk",
+      "dialogue": "はは、ガキみたいなことを言うんだな。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "エリオス…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "でも、間違ったことでもない。\\《俺は俺》か…お前の言う通りなら、\\一番俺らしく生きるのが正解だな。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そう、それだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "なら、これからも悪魔であるお前を憎み続ける。\\それが一番俺らしい姿だ。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "は？そういう意味で言ったわけじゃ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ハハハ。久々にすっきりした気分だ。",
+      "char": "c112_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

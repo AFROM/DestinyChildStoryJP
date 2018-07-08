@@ -2,187 +2,251 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "むぅ…ここ最近の視聴率低下はマズいわ。\\みんな、ピリピリしててやな感じだし…",
-      "background": "bg100_f",
-      "bgm": "16",
-      "char": "c174_01",
-      "speaker": "same"
+      "dialogue": "どうですか、私の実力は？\\お楽しみいただけましたか？",
+      "background": "bg245_f",
+      "bgm": "9",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "とはいえ…\\バトルの生中継、イマイチ盛り上がらないのよね。\\戦ってる方も見てる方も疲れてるっていうか…",
+      "dialogue": "あ、これは失礼しました。\\ご主人様は遠くに隠れて、ブルブル震えていただけでしたね。",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "まあぶっちゃけこのままだとマンネリなのよ。\\いくら戦闘が激しくなったってそればっかりじゃ\\つまらないわ！",
+      "dialogue": "《やめろ～やめろ～！》って、うるさくて。\\つけてきた悪魔たちも呆れて逃げてしまうぐらいに。",
       "char": "keep",
       "speaker": "same",
-      "one_ani": "attack"
+      "distance": "near"
     },
     "4": {
       "type": "talk",
-      "dialogue": "う～ん…なにか新機軸…\\すっごいネタないかしら…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "そりゃちがうだろ！\\アイツらが逃げたのは、お前がおっかな過ぎるからだよ！何だよ、その剣の切れ味は！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "A.Iさーん！スタジオ入り急いで下さーい！",
-      "char": "none",
-      "speaker": "staff",
-      "screen_effect": "dark"
+      "dialogue": "私はただ、主人を守るため、頑張っただけですわ。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あ、はーい！",
-      "char": "c174_01",
+      "dialogue": "ご主人様はかなり高レベルな臆病者のようですね。",
+      "char": "keep",
       "speaker": "same",
-      "after_effect": "go_to_right_jump"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "はぁ…仕方ない。\\打開策を考えつつ、ここはなんとか盛り上げていきましょう！",
-      "char": "keep",
+      "dialogue": "そういうお前はかなり高レベルな腹黒チャイルドだ\\もんな。",
+      "char": "c000_01",
       "speaker": "same",
-      "before_effect": "enter_from_left_fast"
+      "pos": "left",
+      "facial": "pretense"
     },
     "8": {
       "type": "talk",
-      "dialogue": "…ん？",
-      "char": "keep",
+      "dialogue": "…腹黒チャイルドですって？",
+      "char": "c194_01",
       "speaker": "same",
-      "after_effect": "shake"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…",
-      "background": "back",
-      "bgm": "29",
-      "char": "none",
-      "speaker": "none",
-      "mvd": "effect/battle/sfx_special_skill_rebirth_max.mvd",
-      "mvd_pos": "bottom"
+      "dialogue": "そうだろ？\\何度でも言ってやる、この腹黒チャイルド！\\悪魔を煽って戦いに巻き込んだりしてさ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
     },
     "10": {
       "type": "talk",
-      "dialogue": "な…！？\\何、一体…？",
-      "background": "bg100_f",
-      "char": "c174_01",
+      "dialogue": "オホホ。何のことを言っているかわかりませんね？",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c358_01",
+      "dialogue": "それでは、私をご主人様の家までお連れください。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "idle",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "女の子…？\\…っていうか、あんた誰？\\ここは一般人は立ち入り禁止よ！",
-      "char": "c174_01",
+      "dialogue": "はぁ…やっぱり連れてかなきゃダメか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "haah"
     },
     "13": {
       "type": "talk",
-      "dialogue": "はじめまして！私、初音ミクです！",
-      "char": "c358_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "はじめましてって…\\この状況で動じず自己紹介するなんて、あなた結構\\大物ね。",
-      "char": "c174_01",
+      "dialogue": "悪いけど準備がまだなんだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "何か不安なことでも？\\私が礼儀知らずとか、ひねくれ者だとか、はっきり、おっしゃって頂いても私は傷つきませんよ。",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "15": {
       "type": "talk",
-      "dialogue": "…これは！？\\イイカンジの人材かも…\\番組で使っていいなら…ぶつぶつ…",
-      "char": "keep",
+      "dialogue": "そうじゃないって…\\お前じゃなくて他のチャイルドに説明する時間が必要なんだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "あの？",
-      "char": "c358_01",
+      "dialogue": "他のチャイルド…\\ああ、<b>白井良枝</b>のチャイルドのことですか？私と契約する前に契約した…",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ああ、いえいえ！こっちの話！\\えっと、見たとこあなた部外者っぽいけど、\\ウチのディレクターに呼ばれてきたとか？",
-      "char": "c174_01",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "その通り。面倒なことになったなぁ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "18": {
       "type": "talk",
-      "dialogue": "呼ばれたのは確かですが…\\具体的に誰とは…\\とにかく、私の歌を求める声が聞こえたんです。",
-      "char": "c358_01",
+      "dialogue": "フフフッ。それなら教えてください。\\あの子の願いとは何ですか？",
+      "char": "c194_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "つらい、苦しい、疲れた…って。\\その声を癒やす為に、私は来ました。",
+      "dialogue": "私の契約者、黒木麗花を殺してと言ったのですか？\\事件の真相を明らかにしてほしいと言ったのですか？",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "私はバーチャルシンガー…\\皆に歌を届けるのが、私の存在意義だから！",
-      "char": "keep",
+      "dialogue": "それは言えない。\\だけど、お前が考えてるような願いじゃないからな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "なるほど…\\つまり、なんだかよくわからないけど…\\歌を届けられるなら、番組に出ても構わないって\\ことね？",
-      "char": "c174_01",
+      "dialogue": "ふ～ん…そうですか。\\しかし、本当にわかりませんね…与えられた環境に満足しながら生きている平凡な子たちの気持ちが。",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "はいっ♪\\私、精一杯、歌います！",
-      "char": "c358_01",
+      "dialogue": "とにかく、事情はわかりました。\\臆病者の白井良枝が生み出したチャイルドがどんな姿をしているのか、とても気になりますが…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "じゃあ決まりね！そうとなったら、\\早速ディレクターに掛け合いましょう～★",
-      "char": "c174_01",
+      "dialogue": "とりあえず、ご主人様の言う通り、いま会うのは止めておきましょう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "24": {
+      "type": "talk",
+      "dialogue": "ですが、あまり待たせないでくださいね。私は思い通りにならないと、しつこく迫るタイプですから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ハハハハッ…悪魔として生きるのって最高ね。",
+      "background": "bg064_f",
+      "bgm": "15",
+      "char": "c194_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "やりたい放題…壊し放題…\\思いっきり暴れてもまるで疲れない…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "でも、少し物足りないわ…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そう、楽しいおもちゃがあればいいのよ！\\例えば…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "ちょっとやそっとじゃ壊れない、死なない…\\ずっと一緒に居られる存在…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…悪魔。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "クフッ…いつまで待たせるのですか。\\待ちくたびれて頭がオカシクなりそうですわ。",
+      "bgm": "100",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "　　　",
+      "background": "back_red",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_atk_skill_drive_light_c194.mvd"
+    },
+    "34": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

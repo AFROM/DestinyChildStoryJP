@@ -2,105 +2,124 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "この本は…",
-      "background": "bg013_f",
+      "dialogue": "あれ？おかしいな。\\どこに行ったんだろう…",
+      "background": "bg086_f",
       "bgm": "9",
       "char": "c000_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "この本がお気に召しましたか？",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "この本、どんな内容ですか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "有名な童話ですが、ご存知ないですか？\\「青い鳥」という本です。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "きこりの子であるチルチルとミチルが\\あるおばあさんの頼みで青い鳥を\\探しに行くというお話です。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "兄妹は青い鳥を探すため、\\不思議な国へ冒険しに行くんです。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "その兄弟は青い鳥を見つけたんですか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "いいえ。結局青い鳥は見つけられず、\\現実の世界に戻ってきます。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "童話なのにバッドエンドなんですね。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そんなことはありませんよ。\\兄妹は青い鳥を見つけることは\\できませんでしたが、父親が兄妹に\\キジバトをプレゼントするんです。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "二人はキジバトを見て、\\一番近いところにいたという事実に気づきます。",
-      "char": "none",
-      "speaker": "unknown1"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "幸せは一番近いところにある…ってことか。\\この本、いくらですか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ん？何、これ？童話の本？\\何、子供みたいに童話なんか読んで…",
-      "background": "bg086_f",
-      "char": "c003_01",
+      "dialogue": "ご主人さま、どうかされました？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "うーん…アモールの契約者が書いた手紙が、\\なくなってるんだけど…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ヒドいですわ、ご主人さま。\\少女の切実な思いが綴られた\\甘酸っぱい恋文を粗末に扱うなんて。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "わかってるって。\\だから、その甘酸っぱい手紙が、\\汚染されないように指ひとつ触れてませんけど？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "しかし、なくしたなんて…\\アモールが知ったら大変ですね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うう…そもそも、そんな手紙を受け取るべきじゃ、\\なかったんだよな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "アモールの契約者、\\射手矢弓美(いてや ゆみ)が書き綴ったはいいが、\\片思いの相手に届くことのなかったその手紙を…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "俺なんかの手に余るからって、\\机の引き出しのどこかで眠っていたはずなのに…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "昨日までちゃんと置いてあるのを確認したのに、\\なぜ失くなってしまったかは分からない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "その手紙のおかげで、アモールに出会えた、\\大切な手紙ですのに。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "まったく、酷いご主人さま…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "うう…俺は何にもしてないってば！\\本当に分からないんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ふぅ…アモールがその言い訳を、\\信じてくれるといいのですが。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
     "15": {
       "type": "talk",
-      "dialogue": "ダビ、人の部屋で何してるんだ？あ、その本！",
+      "dialogue": "そんな言い方しないで、\\助けてくれてもいいだろ！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -108,154 +127,115 @@
     },
     "16": {
       "type": "talk",
-      "dialogue": "あら、可愛いご主人さまのご登場！",
-      "char": "c003_01",
+      "dialogue": "モナがですか？私は手紙の重要性を、\\ご主人さまに気づいてもらおうとしましたのに。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal",
-      "facial": "smile"
+      "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "なんだよ、急にモナの真似しやがって…",
-      "char": "c000_01",
+      "dialogue": "おかげで、手紙を探す意欲が、\\心の奥から湧き上がって来ませんか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "退屈だったんですか？\\童話なんか読んじゃって♥",
-      "char": "c003_01",
+      "dialogue": "うう…どっちかっていうとお前に、\\デコピンでもしてやりたい意欲が湧き上がるよ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal",
-      "facial": "smile"
+      "facial": "sigh"
     },
     "19": {
       "type": "talk",
-      "dialogue": "可愛いご主人さま、\\私が絵本を読んであげますわ～",
-      "char": "keep",
+      "dialogue": "まあ、本当にひどいご主人さま。\\今すぐ手紙を探しましょう♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal",
-      "facial": "smile"
+      "facial": "pretense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "モナの真似はいいから、さっさと部屋から出ろ。",
+      "dialogue": "くそぅ、からかっただけだな。\\にくらしいヤツ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "21": {
-      "type": "talk",
-      "dialogue": "ふん！その歳で童話なんか読んじゃって…\\レベル低すぎて一緒にいれないわ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "まったく…どっちがレベル低いんだか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "23": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "24": {
+    "22": {
       "type": "talk",
-      "dialogue": "ヒュプノス、何して…いや、何の夢をみてるんだ？",
-      "background": "dungeon_bg",
+      "dialogue": "今日も渡せなかった。\\ううん、これでよかったんだ。どうせ受け取ってもらえないだろうし…",
+      "background": "bg070_f",
       "bgm": "17",
-      "char": "c000_01",
+      "char": "c141_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ねぇ…なんでそう思うの？",
+      "char": "c141_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "あなたに手が届かない以上、\\こんな手紙、書いたって無駄なのよ。",
+      "char": "c141_00",
+      "speaker": "same_full",
+      "pos": "right",
       "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "わかった…返事はしなくていいぞ。\\オマエにプレゼントがあるんだ。",
-      "char": "c000_01",
+      "dialogue": "そんなことないわ。大事なのは気持ちよ。",
+      "char": "c141_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "26": {
+      "type": "talk",
+      "dialogue": "もう少し待ってて。もっと強くなるから。\\あなたに釣り合うぐらい強くなるから…",
+      "char": "c141_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "normal"
+    },
     "27": {
       "type": "talk",
-      "dialogue": "青い鳥だ。覚えてるか？\\オマエの契約者が図書館で盗もうとした本だよ。",
-      "char": "keep",
+      "dialogue": "そう、それがあなたの気持ちなのよね。\\わかったわ…",
+      "char": "c141_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c142_01",
+      "dialogue": "この手紙は勇気を出せるまで、私が預かっておくね。その時まで、絶対あきらめないで。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "アイツ、童話の中で暮らしたいって言ってたよな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "でも青い鳥を探していた兄妹は結局、\\幸せは一番近いところにあるって気づいたんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "俺は、オマエが現実の世界でも\\幸せであってほしいと願ってる。\\ま、オマエが俺を信じてくれるかは\\分からないけど…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "とにかく、夢から覚めたら俺のところに来てくれ。\\現実の世界も思ったより悪くないってこと、\\教えてやるよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "青い…鳥…夢をみなくても青い鳥に会えるかしら？\\本当に信じてもいいの？",
-      "char": "c142_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "34": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

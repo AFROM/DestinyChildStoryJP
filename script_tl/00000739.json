@@ -2,202 +2,209 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "モナ、俺の財布見てないか？",
-      "background": "bg086_f",
-      "bgm": "31",
+      "dialogue": "昔、ある金持ちが暮らしていたんだけど、\\彼には愛する3人の息子たちがいた。",
+      "background": "bg134_f",
+      "bgm": "17",
       "char": "c000_01",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ご自身の財布はご自身で管理してください。\\私はご主人さまのお母様じゃないですわ～",
-      "char": "c001_01",
+      "dialogue": "でも父親が亡くなってから\\争い事が絶えなくなった。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "出かけなきゃいけないんだ。\\一緒に探してくれないか。\\いくら探しても出てこないんだ…",
-      "char": "c000_01",
+      "dialogue": "父親の遺産を多く手に入れるためだった。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "もう、ご主人さまったら、すぐ弱音を\\吐くんですから…\\どうしても見つからないのでしたら…\\あそこしかないですわ。",
-      "char": "c001_01",
+      "dialogue": "兄弟は毎日のようにケンカして、\\結局は3人とも死んでしまった。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どこだ？",
-      "char": "c000_01",
+      "dialogue": "誰もいなくなった家には父親の遺産が詰められた\\宝箱だけが残されていた。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "知りたいのでしたら教えてあげてもいいですけど…\\ちょっと心配ですわ。",
-      "char": "c001_01",
+      "dialogue": "とても悲しい話。",
+      "char": "m189_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "人間界の話なんてみんなこんなもんだよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "ボクサー…ボクサー。",
-      "background": "dungeon_bg",
-      "bgm": "20",
-      "char": "c000_01",
+      "dialogue": "こんな話は聞かせられないよ！\\悲しい話を聞いて契約者が泣いたらどうするの！",
+      "char": "m189_01",
       "speaker": "same",
-      "before_effect": "enter_from_left_fast"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ぐぅ…",
-      "char": "m190_01",
-      "speaker": "same"
+      "dialogue": "オモシロくて心が温まる話はないの？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "寝てるのか？",
+      "dialogue": "昔話がいいって言ったよな？\\舌切りスズメなんてどうだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ぐうぅぅぅ…",
-      "char": "m190_01",
-      "speaker": "same"
+      "dialogue": "可愛いスズメが舌を切られる悲しい話じゃん！",
+      "char": "m189_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "よ、よし…財布だけそーっと抜き取れば\\気づかれないはずだ。",
+      "dialogue": "でも最後は\\《ずっと幸せに暮らしましたとさ》で終わるし。",
       "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "でも…ボクサーの口、大きすぎて探しにくいな。\\仕方ない。頭を入れるしか…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "うわ…何をこんなに詰め込んでるんだ？\\え？これ、俺の靴下じゃないか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake_weak"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "片方しかないと思ったらここにあったのか。\\これはダビのヘアゴム…",
-      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
-    "16": {
+    "13": {
       "type": "talk",
-      "dialogue": "洗濯バサミ…モナの化粧品…あ、見つけた。\\俺の財布…",
-      "char": "keep",
+      "dialogue": "そういうのじゃなくて。",
+      "char": "m189_01",
       "speaker": "same",
-      "pos": "left",
-      "after_effect": "shake"
+      "pos": "right"
     },
-    "17": {
+    "14": {
       "type": "talk",
-      "dialogue": "ふわぁぁぁ…",
-      "char": "m190_01",
-      "speaker": "same"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "おい、待て！待て待て！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "がぶっ！",
-      "char": "m190_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "<b>食われる！食われる！</b>",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake",
-      "screen_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ぺっ！",
-      "char": "m190_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "あ…食われるかと思った…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "pretense"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "財布を探しに来たのか？",
-      "char": "m190_01",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "俺の財布を返せ！俺のもう片方の靴下も！\\ダビのヘアゴムも！洗濯バサミとモナの化粧品も！",
+      "dialogue": "じゃあ、自分で探せよ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "25": {
+    "15": {
       "type": "talk",
-      "dialogue": "返してほしい？ならば取り返してみろ！",
-      "char": "m190_01",
-      "speaker": "same"
+      "dialogue": "怒ったの？怒らないでよ。ね？\\怒らないでー。",
+      "char": "m189_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
     },
-    "26": {
+    "16": {
       "type": "talk",
-      "dialogue": "今度頭を入れたら本当に食べる気だろ？",
+      "dialogue": "ぶりっ子するな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "17": {
+      "type": "talk",
+      "dialogue": "チャイルドが契約者に会うこと自体、例外だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "これも全部、再契約のため！",
+      "char": "m189_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ただ契約者と楽しく遊んでただけじゃないか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "契約者はボクを亡くなったおじいさんが\\送ってくれたお化けだって思ってる。",
+      "char": "m189_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "それなのに、ボクが姿を見せなかったら\\どれだけ悲しむか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "再契約は俺とサポーターたちでなんとかするから\\お前は入ってこないで…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "契約者はまだ幼い少女なのに\\自分を助けてくれた人が\\実は悪魔だったなんて知ったら…",
+      "char": "m189_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "がっかりするよ…\\泣き出したらどうしよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "…お前、脅してるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ミミックはそんな恐ろしいこと考えないよ。",
+      "char": "m189_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "27": {
       "type": "talk",
-      "dialogue": "よく分かってるじゃないか。",
-      "char": "m190_01",
-      "speaker": "same"
+      "dialogue": "はあ…オモシロくて心温まる話だったっけ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "ヨロシク！",
+      "char": "m189_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "29": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

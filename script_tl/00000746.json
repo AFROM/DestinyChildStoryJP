@@ -2,119 +2,158 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "御主人様。どこに居るのですか、御主人様？\\…御主人様？",
-      "background": "bg086_f",
-      "bgm": "24",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "このっ…早く出てきなさい、御主人様！",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "…はぁ。また、逃げられてしまいましたか。\\一体どこに行ったんでしょう…？",
-      "char": "keep",
-      "speaker": "same"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "君の主人なら\\そこからコソコソと抜け出していったな。",
-      "char": "m192_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "は、はい…？血龍。\\なぜそれをもっと早く、言わなかったのですか…？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "なぜ我がそんなことをしなければならない。\\そういうことは、下僕共の仕事だろう？",
-      "char": "m192_01",
+      "dialogue": "気になっていることがあるんだが…\\そのうちの一つが何か分かるか？",
+      "background": "dungeon_bg",
+      "bgm": "19",
+      "char": "m191_01",
       "speaker": "same",
       "pos": "left"
     },
-    "7": {
+    "2": {
       "type": "talk",
-      "dialogue": "はぁ…あなたに聞いた、私が間違いでしたね。",
-      "char": "c002_01",
+      "dialogue": "さぁ、何かしら？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "魔界で最も有能なサポーターであるがアンタが\\どういう魂胆で補欠出身の悪魔を選んだ？",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "モナの好みを気にしてくれるなんて…\\ひょっとしてモナに興味があるのかしら？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "俺もお前の立場は分かってる。\\恐ろしい姿をしたモンスターに\\興味あるわけないだろう。",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "うふふ…アナタならちょっと興味があるかも♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "そんなに俺のことが気になるか？",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "8": {
       "type": "talk",
-      "dialogue": "それよりだ、リザ。あの悪魔の代わりに\\我に仕える気はないか？",
-      "char": "m192_01",
+      "dialogue": "心配ない。こう見えても臆病者なんだ、俺は。\\絶対に困らせないから安心してくれ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "いい取引だと思うぞ。\\魔王になるのは、我に決まっているからな。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "そうですか。それはとても魅力的な提案ですね。",
-      "char": "c002_01",
+      "dialogue": "この前、ダビにモナのことを信じない方がいいって\\アドバイスしてくれたみたいね？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "10": {
+      "type": "talk",
+      "dialogue": "おっと、拗ねたのか？それは困ったな。\\モナに嫌われるのは恐ろしい…クフフ…",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "11": {
       "type": "talk",
-      "dialogue": "しかし生憎ですが、私はハズレると分かっている\\賭けには乗らない主義ですので。",
-      "char": "keep",
+      "dialogue": "あら♥\\だったらこれからは紳士的なキメラを\\期待してもいいのかしら？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ただ…そのあふれる自信の半分程度は、\\御主人様にも分けて欲しいぐらいですね…",
-      "char": "keep",
+      "dialogue": "もちろんだ。\\ご主人様に忠誠する素晴らしいチャイルドに\\なってみせる。クフフ…",
+      "char": "m191_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "13": {
-      "type": "talk",
-      "dialogue": "そんなこと、ほぼ不可能だと思いますけど…はぁ",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そのクールな知性と、実直さ…素晴らしい。\\君がますます欲しくなってきたぞ。",
-      "char": "m192_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そのようなご評価は、光栄ですが…",
+      "dialogue": "ちゃんとキメラに忠告したのですか？",
+      "background": "bg089_f",
+      "bgm": "9",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
+    "15": {
+      "type": "talk",
+      "dialogue": "モナはいつもまじめに仕事してるわよ～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "16": {
       "type": "talk",
-      "dialogue": "今回はご縁がなかったということで。\\ふふ、まあそれでも…少々嬉しかったとは\\言っておきます。",
-      "char": "keep",
+      "dialogue": "多少図々しいところはありますが…\\仕事となると完璧にこなしますし、\\信じるとしましょう。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "pretense"
+      "pos": "right"
     },
     "17": {
+      "type": "talk",
+      "dialogue": "私はこれから、キメラの監視範囲を\\広げたいと思います。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "うふふ、お疲れ様ね。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "アナタもちゃんと監視してくださいね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ダビはまだ子供なので\\キメラが二人の中を\\引き裂こうとする戦略は無駄でしたが、",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "いつか彼のイタズラが\\度を過ぎる日がきっと来るはずです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

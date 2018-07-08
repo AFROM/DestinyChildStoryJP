@@ -2,390 +2,217 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "お兄さん、お兄さん！悪魔のお兄さん！",
-      "background": "bg034_f",
-      "bgm": "13",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ぐお、今日もダビのお優しいモーニングコールが\\鳴ってやがる…",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ん？",
-      "char": "c000_01",
+      "dialogue": "早く起きろご主人！\\このねぼすけ！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "angry"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あたしの応援ってどうかな？\\役に立ってます？",
-      "char": "c074_01",
+      "dialogue": "おーきーてー！早く契約者を探しに行こうよ！\\そんな調子じゃ魔王になんかなれないよ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "angry",
+      "after_effect": "shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "契約者の影響か、キリヌスは誰かを\\応援するのが好きみたいだ。\\明るい元気な妹みたいで、俺は嫌いじゃない。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "魔王なんて…無理…あと5分だけ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ああ。いつも応援してくれるから、\\励みになってるぞ。",
-      "char": "c000_01",
+      "dialogue": "まったく！何でモナお姉さまは、\\こんな救いようのないノロマな悪魔に…！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "やったぁ嬉しいー！\\じゃあ、これからも応援がんばるねっ！",
-      "char": "c074_01",
+      "dialogue": "モナお姉さまは、魔王のサキュバスに\\ならないとダメなのにぃ…！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "smile"
+      "facial": "joy"
     },
     "7": {
       "type": "talk",
-      "dialogue": "応援だけじゃなく戦いでも積極的だし、\\キリヌスは本当に良くできた子だ。",
-      "char": "none",
-      "speaker": "none",
+      "dialogue": "ご主人のせいで、モナお姉さまの人生まで\\メチャクチャになっちゃうでしょ！\\早く起きろってば、ナマケ者！",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right",
-      "screen_effect": "dark"
+      "facial": "sulky"
     },
     "8": {
       "type": "talk",
-      "dialogue": "にゃーん。",
-      "char": "c074_01",
-      "speaker": "unknown1",
+      "dialogue": "今すぐ起きないと…！",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right",
-      "screen_effect": "none"
+      "facial": "superangry"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あ、うちのニャンコがお腹空いてるみたい。\\はいは～い、今おやつあげますからね～",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "その時、俺はまどろみの中ではっきりと見た。",
+      "background": "back",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ん…？\\その猫、「ニャンコ」って名前なのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "スカートをまくり上げて突っ込んでくる\\ダビの蹴りと、それより速く俺の視線を\\覆いつくす巨大な影。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "そうなの！かわいいでしょ？",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "そして、その影はまるで空中を舞うように、\\身を大きくひねって…俺に突っ込んできて…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ああ、そうだな。\\ホントの意味で「ニャンコ」だな。",
+      "dialogue": "うおおおおおっ！？",
+      "background": "bg086_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "serious",
+      "before_effect": "go_to_left_slow"
     },
     "13": {
       "type": "talk",
-      "dialogue": "え、それってどういう意味？",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ダビの蹴りを食らって吹き飛ぶ影。\\それに巻き込まれた俺はベッドを転がり落ちて、\\さらにそいつの体に押しつぶされた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ああ、ヘルっていうチャイルドのペットも、\\同じ名前なんだよ。",
-      "char": "c000_01",
+      "dialogue": "大丈夫か、少年よ！",
+      "char": "c072_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "after_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ホント？へー、会ってみたいかも！\\そのネコちゃんも、かわいい子だといいなあ。",
-      "char": "c074_01",
+      "dialogue": "危機を感じて助けに来たぞ！\\ケガはないか？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "あー…まあ、会ってみたら分かると思うぞ。\\うん。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
+      "dialogue": "ま、まるで空中を舞うように…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "17": {
       "type": "talk",
-      "dialogue": "名前こそ「ニャンコ」だけどな。\\…ああ、名前だけは。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "なら、その人も応援しちゃおうっと！\\ファイト！ファイトー！",
-      "char": "c074_01",
+      "dialogue": "目を回しちゃってるみたい。\\ふふん、そんなに怖かった？",
+      "char": "c003_01",
       "speaker": "same",
       "pos": "right"
+    },
+    "18": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "shorter",
+      "fade_in": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "はは、ほーんと、\\がんばり屋さんだなあ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
+      "dialogue": "こんな感じでフェンリルは、\\俺と初めて会った時も突然だった。",
+      "background": "keep",
+      "bgm": "9",
+      "char": "none",
+      "speaker": "none"
     },
     "20": {
       "type": "talk",
-      "dialogue": "こうやって応援してもらえるのも、悪くない。\\少なくともこの時まで、俺はそう思っていた…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お前は弱そうだな少年よ。\\故にオレが守ってやろう。",
+      "background": "dungeon_bg",
+      "char": "c072_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "21": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "遠慮します！それに俺、弱くないし！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ん？今日の夕飯って、モナが作ったのか？",
-      "background": "bg089_f",
-      "bgm": "4",
-      "char": "c000_01",
+      "dialogue": "お前のチャイルドやサキュバスに比べれば、\\最弱だぞ。\\だが心配はいらない。オレが守ってやろう。",
+      "char": "c072_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ええ。残り物のおかずを並べただけですけどね♥",
-      "char": "c001_01",
+      "dialogue": "いらねーっての！\\お断りします！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious"
     },
     "24": {
       "type": "talk",
-      "dialogue": "それでもありがたいな。\\じゃあ、ちょっと遅めの夕飯にするか。\\キリヌスも一緒にどうだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "あっ、はい！それじゃあ、悪魔のお兄さんが\\おいしく食べれるように応援しますね！\\ファイト！ファイト！！",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "はは…\\何も食べる時までやらなくても良いんだけどな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ホント、一生懸命に応援してる。\\やっぱりいい子なんだな。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "28": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ご主人さま～先に失礼しますね。\\おやすみなさい～♥",
-      "background": "bg086_f",
+      "dialogue": "そろそろ慣れてください♥\\チャイルドは契約者の癖がパワーアップしている\\ようなものですから♥",
       "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "after_effect": "go_to_right_slow"
+      "facial": "confused"
     },
-    "30": {
+    "25": {
       "type": "talk",
-      "dialogue": "ああ、おやすみ。\\ふあ…そろそろ、俺も寝よっと。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "あっ！悪魔のお兄さん！\\いまから寝るの？",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "もうだいぶ遅いからな。\\明日のためにも寝ないと。お前も早く寝るんだぞ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "はーい！それじゃあ、悪魔のお兄さんが\\ぐっすり眠れるように応援しますね！\\ファイト！ファイト！\\おやすみ！おやすみー！！",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "う、うん…あ、ありがとう…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ファイト！ファイト！悪魔のお兄さん、がんばれー！",
-      "char": "c074_01",
+      "dialogue": "言葉足らずなのも、契約者がとても社交性のない方\\でしたから仕方ないことですよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack"
-    },
-    "36": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "37": {
-      "type": "curtain",
-      "background": "bg086_f",
-      "fade_out": "normal",
-      "fade_in": "normal",
-      "wait": "normal"
-    },
-    "38": {
-      "type": "curtain",
-      "background": "back",
-      "fade_in": "normal",
-      "fade_out": "normal",
-      "wait": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "…う、ん…もう朝か。\\んー…けっこう早く目が覚めたな。\\顔を洗おう…",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "あっ、悪魔のお兄さん！洗面所に行くの？",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "あ、うん。\\…もしかして、またか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
       "facial": "sigh"
     },
-    "42": {
+    "26": {
       "type": "talk",
-      "dialogue": "はい！悪魔のお兄さんがキチンとお顔を洗えるように、応援しますね！\\お顔がキレイキレイ！\\悪魔のお兄さん、ファイトー！おーっ！！",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "い、いや、いくらなんでも応援しすぎだろ…！",
+      "dialogue": "コミュニケーション能力の無さまで倍増すんのかよ…カンベンしてくれー！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "44": {
+    "27": {
       "type": "talk",
-      "dialogue": "ああっ！やっぱり怒られちゃった。",
-      "char": "c074_01",
+      "dialogue": "あら、モナはかえってそこがカワイイと思いますけど♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake"
+      "facial": "pretense"
     },
-    "45": {
-      "type": "talk",
-      "dialogue": "やっぱりって…\\一応やりすぎって自覚はあったのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "うん。でも応援するの、楽しいんだもん。\\1日だって応援できないと、禁断症状が\\起こっちゃって…",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "そ、そんなレベルで応援中毒だったのかよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "ふふふ、この秘密を知られたからには、\\もう仕方がありません。\\覚悟してもらいますよ、悪魔のお兄さん！",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "な、何するつもりだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "50": {
-      "type": "talk",
-      "dialogue": "朝も昼も夜も…四六時中…悪魔のお兄さんを\\応援しちゃうんです！\\やったー！ステキな毎日が始まりますよー！",
-      "char": "c074_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "51": {
-      "type": "talk",
-      "dialogue": "ああ…これはしんどいな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "52": {
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,290 +2,362 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
-      "background": "bg099_f",
+      "dialogue": "これからよろしくな、ディナシー",
+      "background": "dungeon_bg",
       "bgm": "9",
-      "char": "c174_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "before_effect": "shake"
+      "char": "c000_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ん？今は深夜じゃないぞ？",
-      "background": "bg086_f",
-      "char": "c000_01",
+      "dialogue": "どうでもいいわ。",
+      "char": "c173_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "あれは決め台詞ですからね。\\失踪事件の時もほぼ1日中、出っ放しでしたが、\\決め台詞はずっと同じでしたよ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "pretense"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "ふ～ん…\\人気リポーターも大変なんだな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "会ったこともないテレビの向こうの人を心配している暇があるなら、明日の暮らしすら不安な私たちの心配をしてください！",
-      "char": "c001_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "teach"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "世間話の延長で、いきなりそういうこと言われる\\主人の気持ちも心配してくれよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "unfair"
-    },
-    "7": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "ハ～イ★深夜のパートナーA.I参上～★\\あなたのそばに、格闘実況チャンネルEvilから\\お送りします！",
-      "background": "bg099_f",
-      "char": "c174_01",
-      "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "うぉ？また出てる。\\すごいなあ…ワーカーホリックか？",
-      "background": "bg086_f",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "本当に働き者ですね。\\誰かさんに爪の垢でも煎じて飲ませたいですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "はいはい…\\こうやって八つ当たりされるのも俺の役目って\\ことだよな…\\俺って仕事熱心…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "最近テレビで見ない日のない、\\謎の人気リポーター、A.I。",
-      "background": "bg069_f",
-      "bgm": "24",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "なぜそんな名前なのか、どんな経歴なのか、\\さらには人間なのか、悪魔なのか？\\さまざまな噂が囁かれている…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "明らかになっているのはA.Iという名前と性別、\\そして格闘実況チャンネルEvilの\\レギュラーリポーターってことだけだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そんな謎多きリポーターその人が…\\目の前に座っているという状況が嘘みたいに思える。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "えっと…その…\\何て呼べば…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "A.Iで…結構…です…\\",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "はい？あの、声が小さくて\\良く聞こえな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "A.Iって呼んでください！！",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near",
-      "before_effect": "shake"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "はっ、はいっ！わかりました！\\A.Iさんって呼びますね！\\で、用件とは…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "なぜセイレーンさんをデビューさせないのですか？\\あの子は貴方にとって豚に真珠…猫に小判…",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "いえいえ、泥中の蓮なのです。\\デビューしたら、スター街道まっしぐら。\\すぐに日本の、いえ世界の音楽シーンを\\席巻するでしょう。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "確かにセイレーンは俺にとって豚に真珠だろう。\\しかし…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "うちには、うちの事情があるんだ。\\そこはいくらA.Iさんだとしても\\首を縦に振るわけには…",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "sulky"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "私だって、よそ様の家の事情に干渉する趣味はありません。",
-      "char": "c174_00",
-      "speaker": "same_full",
       "pos": "right",
       "distance": "normal"
     },
-    "27": {
+    "3": {
       "type": "talk",
-      "dialogue": "しかし、明らかに金の卵であるセイレーンさんの\\デビューを…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "よりによって主人である貴方が止めているという\\現状が…どうしても理解できません…\\素晴らしい能力の持ち主が…凡人に邪魔されて…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "はい？もう少し\\大きな声で喋ってもらえますか…？",
+      "dialogue": "どうでもいいって…\\お前はどうしたいんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "う～ん。\\ご主人さまによるってことじゃないですか～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "うう…\\ガキのくせに人を値踏みしてるってのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ご主人？そう呼べばいいの？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "それでもいいし、お好きなように♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ちなみに、\\ダビは「ウスラトンカチ」って呼んでるよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "one_ani": "attack"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "あら、ダビったら。ご主人さまの前で\\そう呼んじゃダメって言ったでしょ～？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "俺がいなけりゃいいのかよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ウスラトンカチ？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "やめろ。\\そういうのはいいから、普通に呼んでくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "そう。なら、これからご主人って呼ぶわ。\\これでもう用事は終わり？なら、出て行ってくれる？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "素っ気ないな…\\あのさ、お前から他に言いたいこととかないの？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "言いたいこと？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "よろしくとか、\\こういうのは気を付けてほしいとか、\\好きなモノとか嫌いなモノとか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "好き嫌い…そうね。\\まず、面倒臭いのは嫌い。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "口出ししてくるとか、小言とか…\\そういうのは大嫌い。あと、退屈なのも嫌い。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "そういうところは契約者そっくりだな。\\じゃあ、好きなものは？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "haah"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "好きなのは…遊ぶこと。\\あと…チョコレート。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "うふふ、好きなものもそっくりなんですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "ダビも遊ぶの大好き！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile",
+      "one_ani": "attack"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そう？じゃあ、あなたはあたしと一緒に遊ぼう。\\でも、他の人たちは帰って。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…子供同士なら、まあまあ社交性はあるのか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ねえねえ、モナ姉さまも一緒じゃダメ？\\楽しいよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "smile"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "遠慮しとくわ。大人が一緒だと楽しくないもの。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なら、ダビも帰る！\\モナ姉さまがいないなら、\\何したって楽しくないもん。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "あっそ。どうでもいいわ。\\だったら…ご主人、あたしと遊ぶ？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "え、俺？遊ぶって…\\モナ、女の子と遊ぶ時って何をすればいいんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
       "facial": "confused"
     },
     "30": {
       "type": "talk",
-      "dialogue": "なんで！あんな！宝物を！\\埋もれさせて！おけるのですか！",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "dialogue": "まあ、今さら何をおっしゃってるんです～？\\ディナシーの契約者とは\\楽しく遊んだじゃないですか♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "tempt"
     },
     "31": {
       "type": "talk",
-      "dialogue": "鼓膜が破れる！\\…小さい声でブツブツ呟いてると思ったら\\いきなり近づいて大声かい！中間はないのか！",
+      "dialogue": "あれは遊んだんじゃなくて、\\振り回されたって言うんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake_weak"
     },
     "32": {
       "type": "talk",
-      "dialogue": "私は絶対諦めませんから！\\極上の原石を腐らせるわけにはいきません！",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "…なに？嫌なの？",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
     },
     "33": {
       "type": "talk",
-      "dialogue": "だから、俺にそれを言っても…\\それより、俺の連絡先はどうやって？",
+      "dialogue": "いや、そういうわけじゃないけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "distance": "normal",
+      "facial": "sulky"
     },
     "34": {
       "type": "talk",
-      "dialogue": "チャンネルEvilの力を甘く見ないでください。\\それくらいは簡単に調べられます。\\そして、このままでは引き下がらないわよ…！",
-      "char": "c174_00",
-      "speaker": "same_full",
-      "distance": "near"
+      "dialogue": "うふふ、ごめんなさいね、ディナシー♥\\ご主人さま、ひとりで遊ぶのは上手なんだけど…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "35": {
       "type": "talk",
-      "dialogue": "チャンネルEvilは、開局から今日まで\\私が盛り上げてきたの。",
-      "char": "keep",
+      "dialogue": "ふーん…ご主人、引きこもりのボッチなんだね。",
+      "char": "c003_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "joy"
     },
     "36": {
       "type": "talk",
-      "dialogue": "そのプライドにかけて\\必ずセイレーンさんはデビューさせる！\\今日はこのぐらいにしておくけど、\\次は絶対首を縦に振らせるから！",
-      "char": "keep",
+      "dialogue": "言葉には、もう少し気をつけてくんない？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "nonsense"
     },
     "37": {
+      "type": "talk",
+      "dialogue": "そっか…\\ボッチだと誰かと遊ぶってハードル高いから、\\遊ぶのはイヤなのね。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "いや、そんなこと言ってないし…\\つか、ボッチって言うな！違うから！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "…あたし、優柔不断なのも嫌いなの。もういいわ。\\遊び相手なんて、いくらでもいるもの。",
+      "char": "c173_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "あらあら…クールなのねぇ～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "sigh"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "クールすぎて、\\こっちは心が凍り付きそうなんだけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

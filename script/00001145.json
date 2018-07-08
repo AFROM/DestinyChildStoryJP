@@ -2,12 +2,86 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いくら攻撃しても微動だにしないですね。\\…このままでは勝てそうにありません！",
-      "char": "c002_01",
+      "dialogue": "あっ！は、初めてのお客さんだ！\\マニュアル通り、マニュアル通りに…",
+      "background": "bg108_f",
+      "bgm": "16",
+      "char": "c160_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "《よう！秘密の商店街は初めてだろ？》  \\《必要な物があれば、適当に持って行け！》",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "《ただし、アイテムを買うには<color=\"ff9900\">ダンジョンコイン</color>が必要だ！》\\《ダンジョンコインはダンジョンで手に入るヤツだぜ、兄ちゃん！》",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "兄ちゃんだって？！\\何、勝手に話を進めて…",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "idle"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あわわ…《その時その時に心が欲する商品のみ販売する方針だから、》\\《<color=\"ff9900\">時間が経つとアイテム一覧が変わる</color>ということを肝に銘じておけ！》",
+      "char": "c160_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "《<color=\"ff9900\">他のアイテム</color>が見たければ、》 \\《クリスタルを使用してリストを更新するように！》",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "《陳列されたアイテムをもっと見たいなら、》\\《<color=\"ff9900\"><b>販売スロット</b></color>を購入すれば良い。》",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "何だ、その言い方！\\商品を売る立場なら直すんだな！そして、お前…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "background": "back_dim50",
-      "bgm": "keep"
+      "facial": "idle"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "アルバイトはマニュアル以外の会話はできない…\\理解してくれ、お客さん。",
+      "char": "c160_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "あー…\\  ",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "sigh"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

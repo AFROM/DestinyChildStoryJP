@@ -2,15 +2,134 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">詳細確認</color>をたっぷしてして\\チャイルドの情報を見ることができます。",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "ふうぅ、やっと振り切ったか。\\まったく…自分がサンタだなんて、\\頭がどうかしてるよ。",
+      "background": "bg203_f",
+      "bgm": "39",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "voiceid": "200104001"
     },
     "2": {
       "type": "talk",
-      "dialogue": "<color=\"ff9900\">表示変更</color>ボタンを利用すると\\チャイルド情報や普段よく使うメニューが確認できます。",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "…時間は経ったけど、まだ鮮明に覚えてるよ。\\本物のサンタの顔を…",
+      "char": "keep",
+      "speaker": "part time Rudolf",
+      "voiceid": "200104002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "ま、セクシーなお姉さんたちが迎えに来て\\くれるなら、細かい理屈は無視してノコノコ付いてっちゃうかも。",
+      "char": "keep",
+      "speaker": "part time Rudolf",
+      "voiceid": "200104003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "あら、本当かしら～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense",
+      "voiceid": "200104004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "ああ、もちろんだよ！\\最後にちゃんと奇跡を用意してくれるなんて、\\さすがはクリスマスの夜だよね。",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "pos": "left",
+      "voiceid": "200104005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "お姉さん。\\僕、こう見えても結構歳とってるんだ。\\だけどお姉さんみたいなステキな女性…\\初めて見たよ。",
+      "char": "keep",
+      "speaker": "part time Rudolf",
+      "pos": "left",
+      "voiceid": "200104006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "私もこんなに可愛いルドルフを見たのは初めてよ～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "tempt",
+      "voiceid": "200104007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "クリスマスって言えばやっぱりルドルフだよねー\\どう？僕と一緒に熱いクリスマスの夜を…",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "pos": "left",
+      "voiceid": "200104008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "その前に確認させていただきます。\\あなたの正体は<color=ff9900>《クランプス》</color>ですね？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200104009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "…はあ、何てことだろう。\\久々にちゃんとしたクリスマスイブを過ごせると思ったのに…",
+      "char": "c225_00",
+      "speaker": "part time Rudolf",
+      "pos": "left",
+      "voiceid": "200104010"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "お姉さんたち、人間じゃないね？\\悪魔…いや、サキュバス？\\まっ、どっちでもいいや。",
+      "char": "keep",
+      "speaker": "part time Rudolf",
+      "pos": "left",
+      "voiceid": "200104011"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ああ、そうだよ！\\僕はお姉さんたちの探している《クランプス》さ。",
+      "char": "c225_01",
+      "speaker": "same",
+      "pos": "left",
+      "one_ani": "attack",
+      "sound": "se_summon",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "voiceid": "200104012"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "これ以上話す必要もなさそうですね、モナ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200104013"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "あら、リザってば焦りすぎよ？\\もう少しお互いわかり合う時間が必要だと\\思うんだけど？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200104014"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "私はそうは思いません。\\先に攻めさせていただきます…！",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200104015"
+    },
+    "16": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

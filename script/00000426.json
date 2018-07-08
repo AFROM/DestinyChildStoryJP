@@ -2,292 +2,368 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "<color=ff1493>エトワール！",
-      "background": "e048_01_f",
+      "dialogue": "心地いい風が吹く爽やかな午後だ。\\まさに完璧と言っていい。\\…後ろさえ見なければ。",
+      "background": "bg006_f",
       "bgm": "4",
-      "char": "c107_02",
-      "speaker": "same",
-      "distance": "near",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "はぁ。",
-      "background": "bg086_f",
-      "char": "c001_01",
+      "dialogue": "聞こえる？ワトソン。この風の声…\\まるでお空が私達の愛を祝福してるみたい！",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "confused"
+      "distance": "far"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いつも俺をからかい遊んでいるモナが、ああやって\\困っている顔をするのは珍しい…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "風！祝福！愛？ウソつけ！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ふん！いい気味だ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "きゃっ♥ワトソンってば！\\悪魔さんも聞きましたよね！？\\ワトソンも私を愛してるって！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "far",
+      "one_ani": "attack"
     },
     "5": {
       "type": "talk",
-      "dialogue": "しかし！そろそろこの辺でやめておかないとモナは\\きっと怒りを爆発させるだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "え？そいつ今、最後に\\「ウソつけ」って言ったような…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "おい！\\そこの興奮したヒマワリ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "dialogue": "しゃべる！サル悪魔！弱虫！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "7": {
       "type": "talk",
-      "dialogue": "<color=ff1493>イエッサー！",
-      "char": "c107_01",
+      "dialogue": "聞きました？\\よかったですね！ワトソンに褒めてもらえて。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "distance": "far"
     },
     "8": {
       "type": "talk",
-      "dialogue": "うちの女王様をいじめるのはやめにして、\\呼んでもいないのに来た理由を教えてくれ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>あ、そのことですが…<color=ff1493>",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ひぃ…",
+      "dialogue": "…どこに褒め言葉があったんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "facial": "sigh"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "サル！しゃべる！褒め言葉！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "サルがしゃべってるって褒めてるんですよ。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "far"
     },
     "11": {
       "type": "talk",
-      "dialogue": "<color=ff1493>ゴッドファーザーの\\<color=ff1493>チャイルドになれたことは嬉しいのですが、\\<color=ff1493>もう少し刺激が必要です。",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "し、刺激…？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>ウィー！\\<color=ff1493>これから我々は、《バンビーナ》を捕まえます！",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ば、ばんび…？\\何を捕まえるって？",
+      "dialogue": "はん、何をほざいてるんだか。\\気色悪い人形の分際で。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "12": {
+      "type": "talk",
+      "dialogue": "…気色、悪い？",
+      "char": "c106_01",
+      "speaker": "same"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "あ、いや…ヤバい！\\メーデイアの前で人形を侮辱してしまった！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "メ、メーデイア様…？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
     "15": {
       "type": "talk",
-      "dialogue": "「女の子」って意味ですよ♥\\つまりナンパですね。\\ご主人さまも彼と一緒に出かけてみては？",
-      "char": "c001_01",
+      "dialogue": "悪魔さん…あなたの夢って\\洋服屋のマネキンでしたよね？",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "distance": "near"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ああ、刺激ってそういう…\\だったら一人で…って、\\おい待て、お前ら部屋から押し出すんじゃない！？",
+      "dialogue": "お、俺はそんなこと、一言も…あ！\\ちゃんと見たらこの人形、可愛いな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "カワイイ！美少女！絶世の美女！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そ、そうだ！美少女だ！\\こんな絶世の美女に「人形」なんて言って\\悪かったな。アハハ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ご、誤魔化せないか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "…ふふふ。悪魔さんのくせにお目が高いですね！\\そうでしょう、そうでしょう。\\私のワトソンは美少女なんです！",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "う、うん！眩しいくらいの美少女だ。\\行く末は国民的アイドル間違いなし！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "そんなワトソンを気色悪いなんて…\\今回は許しますけど、次はないですからね？",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "お、おう。…ちなみに、もしまた言ったら？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "小指の第一関節から順番に球体関節に\\交換してあげます。きっと可愛いですよね？ね？",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "normal"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "可愛くない！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
-      "before_effect": "shake"
-    },
-    "17": {
-      "type": "curtain",
-      "background": "back",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "18": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>トレビアーン！\\<color=ff1493>女神の様な美しい髪をもつそこの少女！",
-      "background": "bg011_f",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "うっ…葉っぱが俺の頭に当たってる…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>その冷たい表情！とってもセクシーです！！",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>緊張されているのですか、バンビーナ…♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "うざい…うせろ。",
-      "char": "c048_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>う…うせろだなんて…",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "残念だったな。\\まぁ、お前の姿が見える女が、\\普通の女だと思うか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "idle"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>ジュネ…",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "center"
+      "before_effect": "shake_weak"
     },
     "27": {
       "type": "talk",
-      "dialogue": "俺にも分かるように話せよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "dialogue": "しゃべるサル！\\変身！球体関節サル！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
     },
     "28": {
       "type": "talk",
-      "dialogue": "<color=ff1493>…私には、よ、よく分かりません…",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "center",
-      "loop_ani": "attack"
+      "dialogue": "…その人形、1回殴りたい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "29": {
       "type": "talk",
-      "dialogue": "お前の姿が見える女性たちはな…？",
-      "char": "c000_01",
+      "dialogue": "球体関節に交換してほしいんですか？",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left"
+      "distance": "far"
     },
     "30": {
       "type": "talk",
-      "dialogue": "みんな正気じゃなかったり、\\悪魔に関係した恐ろしい女たちってことだ。",
-      "char": "keep",
+      "dialogue": "う…それはちょっと…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "sigh"
     },
     "31": {
       "type": "talk",
-      "dialogue": "<color=ff1493>そ、そんなっ！",
-      "char": "c107_01",
+      "dialogue": "ワガママですね。\\なら、新しい人形でもいいですよ？\\なんと、今なら樋口一葉が50人で買えちゃえます！",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
+      "distance": "far"
     },
     "32": {
       "type": "talk",
-      "dialogue": "お前の描いている未来がどんなだか知らないが、\\これが現実だ。",
+      "dialogue": "つまり5千円札が50枚？\\25万なんて、まさか純金製か？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "dialog_shake"
     },
     "33": {
       "type": "talk",
-      "dialogue": "分かったならもう諦め…",
-      "char": "keep",
+      "dialogue": "買ってくれますよね？\\これからは一生懸命頑張りますから～",
+      "char": "c106_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "distance": "near"
     },
     "34": {
       "type": "talk",
-      "dialogue": "あっ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "<color=ff1493>そこの、バンビーナ！！",
-      "char": "c107_01",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "どけ。",
-      "char": "c142_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "こりない奴だな…",
+      "dialogue": "買えるか！\\そんな大金あるわけないだろ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "before_effect": "shake",
+      "facial": "confused"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "え？ないんですか？",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "貧乏！金なし！サル！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "またサルって言いやがって！\\何と言われようと、ないものはない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "38": {
+      "type": "talk",
+      "dialogue": "…はあ。だからカードが使えなかったんですね…",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "…うん？おい。\\今、変なこと言わなかったか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "何がです？",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "いや…\\今さっき、何かを使えなかったとか何とか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "聞き間違いじゃないですか？\\私は使えないクレジットカードなんて知りません。",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "全く聞き間違いじゃないじゃん！\\俺のカードで何買おうとした？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "screen_effect": "shake_weak"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "騒がなくても返しますよ！使えないカードより、\\こっちのへそくりの方がいいですから！では！",
+      "char": "c106_01",
+      "speaker": "same",
+      "distance": "far"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "金なし！臆病者！チキン！",
+      "char": "keep",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "どこでそれを！あっ、待て！返せ！\\使ったらただじゃおかないからな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "screen_effect": "dialog_shake",
+      "before_effect": "shake"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "しゃべるサル！追いかけてくる！\\ウッキー！",
+      "char": "c106_01",
+      "speaker": " watson",
+      "distance": "far"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "だから、俺はサルじゃなあああああい！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
+      "distance": "near"
+    },
+    "49": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

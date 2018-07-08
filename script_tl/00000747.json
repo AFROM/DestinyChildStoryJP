@@ -2,190 +2,218 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "おい、よく聞けよ。\\今から真面目な話をするからな。",
-      "background": "bg052_f",
-      "bgm": "20",
+      "dialogue": "やばい…もう金を使い果たしてしまった…",
+      "background": "bg086_f",
+      "bgm": "24",
       "char": "c000_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "left",
+      "facial": "sigh"
     },
     "2": {
       "type": "talk",
-      "dialogue": "いつになく真剣だな、出来損ないの悪魔よ。\\何が言いたいんだ？",
-      "char": "m192_01",
-      "speaker": "same"
+      "dialogue": "それは困ったな、困った…クフフ…",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "いいから黙って、よーく聞けよ。",
+      "dialogue": "困ってるのになんで笑うんだよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前だって分かってるだろ？\\より魔王に相応しいのは、\\俺じゃなくお前の方だって。",
-      "char": "keep",
+      "dialogue": "分かってくれ、癖なんだ。クフフ…",
+      "char": "m191_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "ほ～…\\ようやく現実が見えてきたのか？",
-      "char": "m192_01",
-      "speaker": "same"
+      "dialogue": "いつものことだが、コイツは憎たらしい…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いやまあ、現実が見えたっつーか…\\想像してみたんだよ。",
-      "char": "c000_01",
+      "dialogue": "今、俺のこと憎たらしいと思っただろ。",
+      "char": "m191_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
     },
     "7": {
       "type": "talk",
-      "dialogue": "お前が魔王になるのも、\\案外悪くないなって思ったんだ。\\だから譲ってやるよ。",
-      "char": "keep",
+      "dialogue": "そ、そ、そ、そんなことはない！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "8": {
       "type": "talk",
-      "dialogue": "譲ってやる、だと…！？\\下級悪魔の分際で、ほざくなよっ！",
-      "char": "m192_01",
-      "speaker": "same"
+      "dialogue": "クフフ、冗談だ。",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "怒るなって！第一、自分が魔王に相応しいって\\言ったのは、お前の方だろ！",
-      "char": "c000_01",
+      "dialogue": "ところで金がないってのは\\本当に困ったな。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "俺をよーく見てみろ。\\俺がどれだけ魔王になりたくないか、\\目とか顔とか態度で分からないか？",
-      "char": "keep",
+      "dialogue": "ああ、大変だ。\\扶養サキュバスが多すぎる…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ほう、辞退の決心は固いと？\\たしかにお前では器が小さすぎて荷が重すぎるしな…",
-      "char": "m192_01",
-      "speaker": "same"
+      "dialogue": "それはそうと\\偶然、サキュバスたちの話を聞いてしまった…",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ま、まあ…分かってもらえたんならいいや。\\とにかく、俺はお前を応援するつもりなんだよ。",
-      "char": "c000_01",
+      "dialogue": "いや、やめておこう。話すべきではない。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "…我の魔王への道を、手助けするということか？",
-      "char": "m192_01",
-      "speaker": "same"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "そっ。それが俺の計画だ。",
+      "dialogue": "そこまで言ってやめるのか？\\気になって夜も眠れない。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "14": {
+      "type": "talk",
+      "dialogue": "ショックを受けると思って話してはなかったが…\\サキュバスたちはこう言った。",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "right"
+    },
     "15": {
       "type": "talk",
-      "dialogue": "モナやリザは、とにかく俺を魔王にさせようと\\躍起になってる。",
+      "dialogue": "貧乏な主人の下で働くのは大変だと。\\だからしばらくしたら\\新しい主人を探しに行くってな。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "まったくいらんお節介だぜ…\\俺は魔王なんか興味ないっつーの。",
-      "char": "keep",
+      "dialogue": "そ、それ本当か？\\いや…嘘だろ、嘘に決まってる。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "17": {
       "type": "talk",
-      "dialogue": "でもお前は違うよな。それに魔王を目指すんなら、\\素質もあるってことかもしれない。",
-      "char": "keep",
+      "dialogue": "俺は聞いたことをそのまま話してるだけだ。\\信じるかはお前次第だ。",
+      "char": "m191_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "まあつまりだ。俺はモナ達をだまして、\\魔王争奪戦を熱心にやるフリを続ける。",
+      "dialogue": "だが、一つ忠告しておこう…\\《この世に信じられるヤツなどいない》",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
     },
     "19": {
       "type": "talk",
-      "dialogue": "で、いざゴール目前って時に、\\お前にバトンタッチ。\\そして、俺はオサラバってわけだ！",
-      "char": "keep",
+      "dialogue": "お前の聞き間違いだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "near"
+      "pos": "left"
     },
     "20": {
       "type": "talk",
-      "dialogue": "もちろんこの計画は、お前みたいな\\魔王になる気満々のヤツが\\絶対に欠かせないぞ。",
+      "dialogue": "主人と言いつつバカにして\\不満ばかりで、苛立って、ダビは俺に殴りかかって\\くる時もあるけど…",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "混乱に乗じて王の座を射止めるというのか？\\我の理想とは多少異なる計画だが…",
-      "char": "m192_01",
-      "speaker": "same"
+      "dialogue": "だからって急に主人を変えたりしない！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ふむ…キサマのような出来損ないの悪魔の考えにしては悪くないな。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "どうやら俺の勘違いだったようだ。\\こんなに信頼が厚い仲だったとは…",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "だろ？だからそんな訳で、これから俺達は\\運命共同体だ。よろしくな～。",
+      "dialogue": "サキュバスたちも主人の気持ちを分かってくれたら\\いいんだがな…クフフ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "分かってくれるはずさ。\\お前が考える以上に仲がいいんだ、俺たち…\\で、でも、確認くらいはできるよな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
-    },
-    "24": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "facial": "irritation"
     },
     "25": {
       "type": "talk",
-      "dialogue": "ふうん…かわいい仔猫とトカゲが\\面白い話をしてますね～",
-      "background": "bg055_f",
-      "bgm": "19",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "主人として、だろ？",
+      "char": "m191_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
     },
     "26": {
       "type": "talk",
-      "dialogue": "ヤンチャな子供のイタズラは、後始末が面倒だから\\あまり好きではないのだけれど…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "あ、ああ！主人として…今すぐ確認しないと！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_point"
     },
     "27": {
       "type": "talk",
-      "dialogue": "可愛いご主人さまのために\\しばらくは目をつぶってあげようかしら～♥",
-      "char": "keep",
+      "dialogue": "クフフ…無意識にまたイタズラをしてしまった。\\モナに叱られるな。",
+      "char": "m191_01",
       "speaker": "same"
     },
     "28": {
+      "type": "talk",
+      "dialogue": "ま、仕方ない…\\互いに疑い、裏切ることほど…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "面白い見世物はないからな…",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

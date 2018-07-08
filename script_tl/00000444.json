@@ -2,216 +2,224 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "気に喰わない。\\",
-      "background": "bg116_f",
-      "bgm": "4",
-      "char": "c123_01",
-      "speaker": "same"
+      "dialogue": "新しいチャイルドのミューズだ。\\みんな、仲良く…",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "smile",
+      "pos": "left"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何が？\\",
-      "char": "c000_01",
+      "dialogue": "かっわいそ～\\よりによって、こんなウスラトンカチの\\チャイルドになるなんてね～",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "one_ani": "attack",
+      "facial": "angry",
+      "pos": "center"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ぜーんぶ気に喰わないの。\\あっちの建物からこっちの建物まで全部ね。",
-      "char": "c123_01",
+      "dialogue": "……",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "sigh"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…？\\普通の商店街に見えるけど…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "それが問題なのよ、悪魔。\\アンタもつまらないわね。",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "普通の何がいけないんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "これだから下っぱのヤツらってのは…\\斬新な考えってものができないのかしら。",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "下っぱ…！？\\",
+      "dialogue": "おい、新人の前で何言ってんだよ。\\舐められたらどうする。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "facial": "sigh"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "へっへーん、ホントのことでしょ！\\ご主人なんて舐められるくらいで\\ちょうどいいもんね！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "superangry"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "お前なぁ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "二人とも騒がしいですよ。\\サキュバスのリザと申します。\\お会いできて嬉しいです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "one_ani": "attack"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "嬉しい、か。\\なぜオレに会えたことが嬉しいと言い切れる？",
+      "char": "c121_01",
+      "speaker": "same",
+      "one_ani": "none"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そんな普通の考えじゃ、\\客なんて呼び込めないのよ。",
-      "char": "c123_01",
+      "dialogue": "…御主人様の戦力が増強されるのは、\\仕える者として喜ばしいことですので。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "それじゃ、お前の考える\\「理想的な商店街の姿」って何なんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "なるほど。戦力の増強、か。\\君はオレの存在価値を、そこに見出したわけだな。",
+      "char": "c121_01",
+      "speaker": "same"
     },
     "11": {
       "type": "talk",
-      "dialogue": "よくぞ聞いてくれました！\\私が考える理想的な商店街は…！",
-      "char": "c123_01",
+      "dialogue": "…御不快でしたか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "商店街は？\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "いいや、価値観は人それぞれだからな。\\そこに干渉するつもりはないさ。",
+      "char": "c121_01",
+      "speaker": "same"
     },
     "13": {
       "type": "talk",
-      "dialogue": "純金でできた黄金都市！\\この道の地面から屋根までぜーんぶ金にするのよ！",
-      "char": "c123_01",
-      "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "dialogue": "…しかし、君と話しているとこの歌を思い出すな。",
+      "char": "keep",
+      "speaker": "same"
     },
     "14": {
       "type": "talk",
-      "dialogue": "おおお！黄金都市！\\一日に数万人が行きかう街で金を塗装するってか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy"
+      "dialogue": "ミューズは唐突にギターを奏でたかと思うと、\\よく通る声で歌い始めた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark",
+      "bgm": "32"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そう！斬新でしょ？\\",
-      "char": "c123_01",
+      "dialogue": "All I know for sure is I'm trying\\I will always stand my ground♪",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "right"
+      "one_ani": "attack"
     },
     "16": {
       "type": "talk",
-      "dialogue": "けど、地面まで金で塗装したら\\毎日大量の金がはがれるよな？",
+      "dialogue": "おーい。ライブなら外でやってくれよ…\\俺の憩いの場で騒ぐのは勘弁してくれ。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そう。だから毎日また金を塗らないと！",
-      "char": "c123_01",
+      "dialogue": "悪魔にとっての憩いの場、か。\\悪魔にも安息が必要なのか？",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "right"
+      "bgm": "9"
     },
     "18": {
       "type": "talk",
-      "dialogue": "質問があるんだが…\\お前なら地面にはがれた金があったら…\\どうする？",
+      "dialogue": "当然だろ？…ちなみに、プライバシーもあるぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "19": {
       "type": "talk",
-      "dialogue": "バカね！当然、拾うでしょ！\\拾ったもの勝ちよ！",
-      "char": "c123_01",
+      "dialogue": "…なぜそこで私達を見るのですか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "お前と同じ考えをする奴は多いだろうな。",
+      "dialogue": "決まってるだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "当然でしょ！バカなの？\\道に金が落ちてるのに、\\拾わない人なんていると思う？",
-      "char": "c123_01",
+      "dialogue": "全っ然、わかんなーい！こーんな狭い家で、\\ひとりで部屋を使わせてあげてるんだよ？\\不満なんてあるわけないじゃん！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "angry"
     },
     "22": {
       "type": "talk",
-      "dialogue": "それじゃ、そのはがれた金を\\また塗り直す費用は誰が出すんだ？",
+      "dialogue": "使わせてあげてるってな…そもそもここは俺の家だ！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "商店街の人たちに決まってるでしょ！\\黄金都市っていう奇抜なマーケティング手段を\\諦めるわけにはいかないでしょ？",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "悪魔にも安息は必要、か。\\この小さな部屋で、\\悪魔はどのような安らぎを得ているんだ？",
+      "char": "c121_01",
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "どう考えても損だろ！\\一日の売上より金を塗装する方が\\高いに決まってる！",
+      "dialogue": "昼寝でしょ？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "朝寝坊では？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ああ、それこそサイコーの時間…\\って、何だよ、その馬鹿にしたような顔は。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "…悪魔とは、思っていたよりも単純なものなのだな。",
+      "char": "c121_01",
+      "speaker": "same"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "おい、新入りにまで呆れられたじゃないか！\\全部、お前らのせいだぞ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
-      "screen_effect": "dialog_shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "何よ！怒ることないじゃない！\\おじいさんに言いつけるわよ！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "お前の契約者のじいさんのことか？\\やれるもんならやってみろ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "く～っ！私の辞書に不可能の文字はないんだから！\\こうなったら、私が正しいことを証明してみせるわ！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どうやって…？\\",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "before_effect": "shake"
     },
     "29": {
       "type": "talk",
-      "dialogue": "とりあえずアンタの名義でお金を借りた後、\\都市の入り口から少しずつ塗装していく！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "…呆れてはいない。\\ただ少し…考え事は苦手なのかと思っただけだ。",
+      "char": "c121_01",
+      "speaker": "same"
     },
     "30": {
       "type": "talk",
-      "dialogue": "やめろ！\\俺を借金まみれにしたいのか？",
+      "dialogue": "そ、そんなことは…\\こう見えて、俺だっていろいろ考えてるんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -219,49 +227,59 @@
     },
     "31": {
       "type": "talk",
-      "dialogue": "何それ？\\おもしろそう！",
-      "char": "c123_01",
+      "dialogue": "そうですよ、ミューズ。\\御主人様の頭にも、きちんと\\「考える」という機能は備わっています。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "32": {
       "type": "talk",
-      "dialogue": "どこがだ！",
-      "char": "c000_01",
+      "dialogue": "例えば、「どうすれば昼寝ができるか」とか、\\「どうすればもっと眠れるか」など…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "一体何が言いたいのか分からないわ。",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "お前、今までどれだけ\\贅沢な暮らしをしてきたんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "何のことかさっぱりだけど、もう決めたから！\\この街を黄金都市にする！さぁ、お金を借りてきて！",
-      "char": "c123_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "この世界じゃ俺は未成年だ！\\はあ…これから先が心配だ。",
+      "dialogue": "俺は寝ることしか考えてないナマケモノか！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "寝ることしか考えていないナマケモノ、か。\\悪魔は自らをそう思っているのだな。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "違うって！そう思ってるのはリザで…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake_weak"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "否定しなくてもいい。\\ありのままの自分を受け入れるのだ、\\ナマケモノの悪魔よ。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "37": {
+      "type": "talk",
+      "dialogue": "もう嫌だ…何で毎度こうなるんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
+    },
+    "38": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

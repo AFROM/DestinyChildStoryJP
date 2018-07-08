@@ -1,12 +1,23 @@
-{
+﻿{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "Your <color=\"ff9900\">team members</color> are found below, master.\\Even though right now it's just me!",
-      "background": "none",
+      "dialogue": "レベルアップと強化を最後まで進めると\\<color=\"ff6600\">進化</color>することができます。",
+      "background": "back_dim50",
       "char": "none",
-      "speaker": "none",
-      "voiceid": "900102002"
+      "speaker": "none"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">★2</color>チャイルドを<color=\"cc66ff\">★3</color>チャイルドに進化さえるためには\\<color=\"ff9900\">チャイルドが2体</color>必要です。1体目のチャイルドを選んでください。",
+      "char": "none",
+      "speaker": "none"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "最後の1体を選択してください。",
+      "char": "none",
+      "speaker": "none"
     }
   }
 }

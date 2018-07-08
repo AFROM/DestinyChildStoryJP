@@ -2,298 +2,271 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "…あははっ。くくくっ。",
-      "background": "bg055_f",
-      "bgm": "9",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "そんなに笑うなよ…",
-      "char": "c000_01",
+      "dialogue": "レディ・モナ。少し時間をもらえないだろうか。",
+      "background": "dungeon_bg",
+      "bgm": "19",
+      "char": "c175_01",
       "speaker": "same",
       "pos": "left"
     },
-    "3": {
+    "2": {
       "type": "talk",
-      "dialogue": "はは、そんなこと言われてもね。\\笑いなんて自分で止められるものじゃないでしょ。\\…ぷぷっ。",
-      "char": "c176_01",
+      "dialogue": "あら？何かしら～？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "その…私の親友の話なのだが…",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "お前は俺をバカにしたくて笑ってるだけだろ…\\せっかく助けてやったのに…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "助けてなんて頼んでないでしょ？",
-      "char": "c176_01",
+      "dialogue": "ふふ、優しいのね～\\友達のために、そ～んな難しい顔をするなんて♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "5": {
+      "type": "talk",
+      "dialogue": "あ、そ、その…\\騎士として当然のこと…だ。",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
     "6": {
       "type": "talk",
-      "dialogue": "そもそも、夜の世界で誰かに絡まれるなんて\\いつものことなのに何でわざわざ首を突っ込んできたのよ。",
-      "char": "keep",
+      "dialogue": "すごいのね、騎士様って。\\…それで、お話って？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…まさか、あたしが負けるとでも思った？",
-      "char": "keep",
+      "dialogue": "親友には、非常に尊敬するご婦人が\\いるそうなのだが…",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "いや、えーっと…",
-      "char": "c000_01",
+      "dialogue": "しかしそのご婦人は、\\なぜか親友を避けているようなのだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation"
+      "distance": "near"
     },
     "9": {
       "type": "talk",
-      "dialogue": "図星？\\あはは、心配しなくっていいのに！",
-      "char": "c176_01",
+      "dialogue": "あらあら。何か心当たりはないの？",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "あんなのただの催し物よ。\\退屈な日常に刺激を与える、イベント。",
-      "char": "keep",
+      "dialogue": "特にそれらしいものは…",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "他の奴らの戦いを煽っておいて、自分だけ無傷でいられるわけないでしょ？",
-      "char": "keep",
+      "dialogue": "じゃあ、女性にモテないタイプなのかしらね？\\あなたのお友達は。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "絡まれるってわかってるなら、あんな仕事やめろよ…",
-      "char": "c000_01",
+      "dialogue": "そ、そんなことは！",
+      "char": "c175_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "わざわざ戦いを煽るような実況して…",
+      "dialogue": "彼は、騎士の中の騎士！\\ご婦人に嫌われるような男ではない！…はずだ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
     },
     "14": {
       "type": "talk",
-      "dialogue": "そのうち、イベントなんて言ってられなくなるぞ？",
-      "char": "keep",
+      "dialogue": "うふふ♥そうね。\\ちょっぴり照れ屋なだけだものね～♥",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "facial": "pretense"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あーのーねー！\\あなたに言われなくったって、それくらいちゃんと\\考えてるって。",
-      "char": "c176_01",
+      "dialogue": "そ、それをどうしてレディ・モナが…",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "before_effect": "shake_weak"
     },
     "16": {
       "type": "talk",
-      "dialogue": "夜の世界の住人に、いちゃもんをつける悪魔なんて、掃いて捨てるほどいるんだから！",
-      "char": "keep",
+      "dialogue": "あなたにと～ってもよく似てると思ったからかしら？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "facial": "affair"
     },
     "17": {
       "type": "talk",
-      "dialogue": "何の対策も立てずにやってると思ってるの？",
-      "char": "keep",
+      "dialogue": "…！",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "before_effect": "shake"
     },
     "18": {
       "type": "talk",
-      "dialogue": "対策を立ててたって、絶対とは言い切れないだろ？\\…ったく、どいつもこいつも、素直じゃないな…",
-      "char": "c000_01",
+      "dialogue": "あらあら、お顔が真っ赤よ～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "distance": "near",
+      "facial": "tempt"
     },
     "19": {
+      "type": "talk",
+      "dialogue": "た、戯れは止していただきたい！\\急用を思い出したので、私はもう失礼する！",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "go_to_left_point"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "あ～んなに慌てちゃって。\\可愛い騎士様ね～♥",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "21": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "20": {
-      "type": "talk",
-      "dialogue": "…はあ。それじゃ、聞かせてもらうけど、\\あなたはなんでそこまで、あたしにこの仕事を\\辞めさせたいわけ？",
-      "background": "bg133_f",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "まさか、女は男の陰に隠れて守られてろ…なんて、\\つまんないこと考えてるわけじゃないわよね？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
     "22": {
       "type": "talk",
-      "dialogue": "違う。\\…そもそも魔界の女のほとんどは俺より強いからな。",
+      "dialogue": "…そんなことがあったのか？\\お前って、ホント意地悪だよな。",
+      "background": "bg086_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "23": {
       "type": "talk",
-      "dialogue": "守ってやる必要なんてない！",
-      "char": "keep",
+      "dialogue": "あら、意地悪だなんて♥",
+      "char": "c001_01",
       "speaker": "same",
-      "distance": "near",
-      "facial": "unfair",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "…自分で言ってて恥ずかしくないわけ？",
-      "char": "c176_01",
+      "dialogue": "あんまり反応が可愛らしいから、\\ちょっぴりからかっただけですよ♥",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "う、うるさい…\\…とにかく、女だから守られてろ！なんて言う気はないよ。けど、わざわざ自分から危ない目に遭おうとする必要はないだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "dialogue": "どこが《ちょっぴり》なんだか…\\俺はモナにだけは恋愛相談はしまいと、\\固く心に決めた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "26": {
-      "type": "talk",
-      "dialogue": "別に、そんなのあたしの勝手でしょ？",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "お前は…\\わかったよ、もう勝手にしろ！",
+      "dialogue": "これ、《紅き十字架》って奴に\\届けといてくれないか？",
+      "background": "dungeon_bg",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "28": {
       "type": "talk",
-      "dialogue": "けど、魂をエサに賭けをするのだけはやめろよ。",
-      "char": "keep",
+      "dialogue": "手紙、ですか？\\なぜ私に…",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
+      "pos": "right"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ふん！\\あたしの魂をあたしがどうしようが、それこそあたしの自由よ。",
-      "char": "c176_01",
+      "dialogue": "いや、お前なら、そいつの居場所を\\知ってるんじゃないかと思って。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "そもそも、あたしの魂を対価に契約したあなたが、\\今更、何言ってるの？",
-      "char": "keep",
+      "dialogue": "…誤解です。私はその者のことなど…",
+      "char": "c175_01",
       "speaker": "same",
       "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "さっきからやんわり言ってたつもりだったけど、\\伝わってないみたいだし、\\この際はっきり言わせてもらうわね？\\ぶっちゃけあなたってウザいよ？",
-      "char": "keep",
+      "dialogue": "知らないか？そりゃ、残念だな。\\せっかく、ユーナがそいつに\\感謝の手紙を書いてくれたってのに。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…！\\そ、そのような者のことなど存じませんが、\\手紙を渡すことはできます！",
+      "char": "c175_01",
       "speaker": "same",
       "pos": "right",
       "before_effect": "shake"
     },
-    "32": {
-      "type": "talk",
-      "dialogue": "…そうかもな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
     "33": {
       "type": "talk",
-      "dialogue": "あたしが何をしようと自由だってのも、\\あなたとの契約条件のひとつだったと思うけど…\\忘れちゃった？",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "…いや。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "なら、これ以上、口出ししないで。",
-      "char": "c176_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "あたしが誰に襲われようがどこかでぶっ倒れようが\\気にしないでいいってことよ。おわかり？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "わかったら復唱して。\\「俺はエシュがどうなろうと気にしない」…ほら。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "お、俺は…\\いや、言わないぞ！\\俺だって、俺が何をしようが自由だからな！",
+      "dialogue": "…ぷっ。\\…ゴホン。そ、そうか。なら、頼んだぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "after_effect": "shake_weak"
+      "facial": "smile",
+      "after_effect": "go_to_left_point"
     },
-    "39": {
+    "34": {
       "type": "talk",
-      "dialogue": "ふん、勝手な奴。",
-      "char": "c176_01",
+      "dialogue": "…あの方は、やはり私が《紅き十字架》だと\\ご存じなのだろうか？",
+      "char": "c175_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "normal"
     },
-    "40": {
+    "35": {
+      "type": "talk",
+      "dialogue": "いずれにせよ、感謝いたします。我が主君よ。",
+      "char": "c175_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

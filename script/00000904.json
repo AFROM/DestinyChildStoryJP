@@ -1,241 +1,245 @@
 {
   "phase1": {
     "1": {
-      "type": "timebrief",
-      "background": "bg050_f",
-      "bgm": "14",
-      "date": "2018-04-01",
-      "time": "13:45",
-      "location": "home1"
-    }
-  },
-  "phase2": {
-    "1": {
       "type": "talk",
-      "dialogue": "世界は\\<color=ff9900>欲望</color>に満ちている。",
-      "background": "bg050_f",
-      "bgm": "keep",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "500100001"
+      "dialogue": "底辺まで落ちた事はあるか？",
+      "background": "bg177_f",
+      "bgm": "9",
+      "char": "m206_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それだけは魔界も人間界も変わらない。",
-      "background": "bg010_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "500100002"
+      "dialogue": "一体、何の話だよ？急に…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "俺は魔界に関心がなかったし、\\やりたい事もなかったから、人間界に定住した。",
-      "background": "bg036_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "500100003"
+      "dialogue": "お前が半端者に見えるから聞いてるんだ。",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "魔界から送られてくる金とバイト代で\\細々と暮らす平和な日々…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "500100004"
+      "dialogue": "言っちゃいなよ、ご主人！\\ご主人は甲斐性なしのダメ男だって！\\みんな、そう言ってるよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…あれ？この話、前にしなかったっけ？",
-      "background": "bg095_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "500100005"
+      "dialogue": "誰だよ…\\子供にこんな言葉を教えたヤツは。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そんな考えが頭をよぎった瞬間、何かが落ちてきた！",
-      "background": "bg086_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark",
-      "voiceid": "500100006"
+      "dialogue": "いいかダビ。\\そんな話、信じるんじゃないぞ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "7": {
       "type": "talk",
-      "dialogue": "こんにちは～可愛いご主人さま～♥\\ご主人さまのサポーターモナで～す！",
-      "char": "c001_17",
+      "dialogue": "モナ姉さまはダビにウソなんて言わないよ！\\それに、ダビ見たもん。",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack",
-      "sound": "se_summon",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
-      "voiceid": "500100007"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "どわっ！びっくりした！\\な、何だ！？",
-      "char": "c000_01",
+      "dialogue": "ご主人が床に這いつくばってる姿。",
+      "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "facial": "nonsense",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "500100008"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "はじめまして、可愛いご主人さま～♥\\ご主人さまのサポーターモナですよ～！",
-      "bgm": "4",
-      "char": "c001_17",
+      "dialogue": "はぁ～？",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "center",
-      "facial": "smile",
-      "voiceid": "500100009"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ご主人さま？サポーター？それにモナだと？",
+      "dialogue": "そ、それは…\\底辺とか、這いつくばってるんじゃなくてだな…\\そうだ！休憩をしてたんだ！！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "voiceid": "500100010"
+      "facial": "irritation"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ウソつけ！\\モナはそんなにちっちゃくない！\\それに胸だって…こう…",
-      "char": "keep",
+      "dialogue": "情けないヤツだ…",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation",
-      "voiceid": "500100011"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "わかった！ドッキリだろコレ！\\カメラは何処にあるんだ！？\\<color=ffc400>《★大成功★》</color>って書いたフリップ持ってる人が\\いるんだろう！？",
-      "char": "keep",
+      "dialogue": "おい！俺にも色々と事情があるんだ。\\知らないくせに勝手なこと言うなっての！",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy",
-      "voiceid": "500100012"
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "何を言ってるんですか～？とにかくご主人さま！\\今はのんびりしている場合じゃないんですよ！",
-      "char": "c001_17",
+      "dialogue": "ふむ、自尊心はあるみたいだな？\\勝手なこといって悪かったな。",
+      "char": "m206_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "teach",
-      "voiceid": "500100013"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "新しい魔王が即位したんです！\\その魔王が現在、人間界へ接近中！",
+      "dialogue": "情けないヤツじゃなく、クズのようなヤツと言うべきだったな。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "serious",
-      "voiceid": "500100014"
+      "distance": "near"
     },
     "15": {
       "type": "talk",
-      "dialogue": "魔王が即位…！？俺が寝ている間に？\\ちょっと待て…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "500100015"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "それってラッキーじゃん！\\魔王が即位したって事は、もう魔王争奪戦は\\終了だろ？\\これでまた、平和な日々がやってくる…！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "joy",
-      "before_effect": "shake",
-      "voiceid": "500100016"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "あれれ～？魔界のニュースを知らないのですか？",
-      "char": "c001_17",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "angry",
-      "screen_effect": "dialog_shake",
-      "voiceid": "500100017"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "戴冠式に参加しなかった唯一の悪魔であるご主人さまは、3代目魔王ダビに反旗を翻す者として、最初の反逆者に認定されてしまったんですよ～？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100018"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…ん？反逆者！？\\それに、ダビが魔王だって？\\一体、何が起こってるんだ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "500100019"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "わかった！夢でしょコレ！\\今、起きるから5分だけ時間ちょうだい！",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "shock",
-      "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "500100020"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "眠りから目を覚ます時間なんてないですよ！\\魔王ダビがもうすぐご主人さまを殺しに来ますから！",
-      "char": "c001_17",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "idle",
-      "voiceid": "500100021"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "何でだよ！？",
+      "dialogue": "子供の前でなんてことを…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "nonsense",
-      "before_effect": "shake",
-      "voiceid": "500100022"
+      "before_effect": "shake_weak"
     },
-    "23": {
+    "16": {
       "type": "talk",
-      "dialogue": "う～ん…日頃の行い？でも大丈夫です。\\こんな事もあろうかと、モナが作った秘密基地がありますから！\\そこに避難しましょう。",
-      "char": "c001_17",
+      "dialogue": "え～？\\なになに、クズ？",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "500100023"
+      "pos": "right"
     },
-    "24": {
+    "17": {
       "type": "talk",
-      "dialogue": "うふふふっ…期待してくださいね！\\基地には最終兵器を用意してますから！",
+      "dialogue": "子供は悪い事から覚えていくっていう言葉、知らないのかよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そんな言葉しらねぇ～な。\\バカでもクズでも好きに言わせりゃ良いじゃねーか。",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ブヒブヒ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "くだらない長話は終わりだ。\\それじゃあな。",
       "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "facial": "victory",
-      "voiceid": "500100024"
+      "after_effect": "go_to_right_point"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "どこに行くんだ？\\俺の話は終わってないぞ？俺の話を聞け！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "その騒々しい口、\\永遠に開けなくしてやろうか！",
+      "char": "m206_01",
+      "speaker": "same",
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "ヒイイ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ピッグボス怖い…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "25": {
+      "type": "talk",
+      "dialogue": "ブヒィ～！",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ねぇ…\\私と友達になろうよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なんだとっ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ピッグボスはご主人が怖がるチャイルドだから！\\ご主人がダビをいじめる度に、ピッグボスに言いつけるんだ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "勝手なこと抜かすな小娘！",
+      "char": "m206_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "go_to_right_point"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "えっ～！ちょっと待ってよピッグボス！\\行かないでよ！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "smile",
+      "before_effect": "go_to_right_point"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "なんて、怖い物知らずなんだ…\\いや、あれはただのおバカさんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "32": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

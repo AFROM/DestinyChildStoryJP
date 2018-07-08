@@ -2,164 +2,130 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "は～い！\\かわいそうなあなたたち。ここまでご苦労様！",
-      "background": "bg205_f",
-      "bgm": "39",
-      "char": "c246_01",
-      "speaker": "unknown1",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "200108001"
+      "dialogue": "今日はいつもより早くバイトが終わったし、\\久しぶりにランフェイさんのところに寄ってみようかな。",
+      "background": "bg054_f",
+      "bgm": "17",
+      "char": "c167_00",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_left_slow"
     },
     "2": {
       "type": "talk",
-      "dialogue": "クリスマスの妖精…！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "200108002"
+      "dialogue": "私の名前はメイ。\\生まれは違うけど、育ちは夜の世界！",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "クランプス…！",
-      "char": "c299_01",
-      "speaker": "same",
-      "one_ani": "attack",
-      "voiceid": "200108003"
+      "dialogue": "と言っても、ただ、夜の世界にある孤児院で\\暮らしていただけなんだけどね。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "え？アイツがクランプスだって？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "voiceid": "200108004"
+      "dialogue": "そして孤児院で仲良くなったのが、猿のウコン。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "5": {
       "type": "talk",
-      "dialogue": "こんな子供が、僕の憧れていたクランプスだって！？",
-      "char": "c225_01",
-      "speaker": "same",
-      "one_ani": "attack",
-      "voiceid": "200108005"
+      "dialogue": "両親を亡くした私を元気づけてくれた大切な友達だ。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "6": {
       "type": "talk",
-      "dialogue": "クリスマスの妖精がルドルフに乗ってるー！\\わーい、ダビも乗る！",
-      "char": "c003_01",
-      "speaker": "same",
-      "facial": "joy",
-      "one_ani": "attack",
-      "voiceid": "200108006"
+      "dialogue": "ランフェイさんにはすごくお世話になったな…\\ずっと孤児院で育った私を雇ってくれて…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ダビ、あれは乗ってるんじゃなく敷いてるのよ。\\まあ、あんまり大差ないけれど…",
-      "char": "c001_01",
-      "speaker": "same",
-      "voiceid": "200108007"
+      "dialogue": "今のバイト先が決まるまで、\\色々、力になってくれたよね。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "クランプス！\\お前の元からいなくなってしまって、\\本当にすまないと思っている！\\でも、あの時は正直どうかしてたんだ！",
-      "char": "c299_01",
-      "speaker": "same",
-      "voiceid": "200108008"
+      "dialogue": "夜の世界を怖がる人は多いけど、私の周りの人は\\みんないい人ばかりだった。\\私って本当に恵まれてるなぁ。\\最近、気になる人も出来たし…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "9": {
       "type": "talk",
-      "dialogue": "あら、青い服を着た人化サンタクロースなんて、\\お呼びじゃないわ。\\私のご主人様はサンタじゃなくて悪魔だもの。",
-      "char": "c246_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack",
-      "voiceid": "200108009"
+      "dialogue": "…けど、だからかな。\\あの人に会いたい！って思うたびに、\\前より寂しくなって…\\ますます、あの人に会いたくなる。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ん…？\\あ、そういうことか…！\\あの悪魔がクランプスの主人なのかっ！",
-      "char": "c000_01",
+      "dialogue": "この辺りにいたりして…",
+      "background": "bg054_f",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "voiceid": "200108010"
+      "before_effect": "enter_from_right_slow"
     },
     "11": {
       "type": "talk",
-      "dialogue": "ツイてますね。\\この際、あの悪魔も使い魔にしてしまいましょう。\\クランプスも手に入り、一石二鳥です。",
-      "char": "c002_01",
+      "dialogue": "メイ…",
+      "char": "c057_01",
       "speaker": "same",
-      "voiceid": "200108011"
+      "pos": "center",
+      "distance": "near"
     },
     "12": {
       "type": "talk",
-      "dialogue": "だけど、数百年も前から現役な大先輩だろ？\\後輩らしく挨拶だけして引き返した方が…",
-      "char": "c000_01",
+      "dialogue": "きゃっ！ラ、ランフェイさん！\\ビックリした…",
+      "char": "c167_00",
       "speaker": "same",
       "pos": "left",
-      "facial": "irritation",
-      "voiceid": "200108012"
+      "before_effect": "shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ねえねえ！ダビ、クリスマスの妖精欲しい！\\ぜ～ったい、欲しいったら欲しい！",
-      "char": "c003_01",
+      "dialogue": "あら？私に用があって来たのではないの？\\店の前にいるから、\\てっきりそうだと思ったのだけど…",
+      "char": "c057_01",
       "speaker": "same",
-      "facial": "smile",
-      "voiceid": "200108013"
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
     },
     "14": {
       "type": "talk",
-      "dialogue": "俺のクランプスが欲しいだと…？",
-      "char": "c299_01",
+      "dialogue": "私ってば、いつの間に…",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108014"
+      "pos": "left"
     },
     "15": {
       "type": "talk",
-      "dialogue": "よくもぬけぬけと言いおったな！\\さっきは手加減したが、今度は容赦せん！",
-      "char": "keep",
+      "dialogue": "…ふふ、とりあえず、入ってちょうだい。\\外は、物騒だから。",
+      "char": "c057_01",
       "speaker": "same",
-      "pos": "right",
-      "voiceid": "200108015"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ダビっ！余計なこと言うなよ！\\え～、あ、こちらは、戦う気なんてありませんよ？",
-      "char": "c000_01",
+      "dialogue": "はい！お邪魔しまーす！",
+      "char": "c167_00",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake",
-      "voiceid": "200108016"
+      "pos": "center",
+      "distance": "near"
     },
     "17": {
-      "type": "talk",
-      "dialogue": "さあ、決着をつけてやる！\\かかって来い！",
-      "char": "c299_01",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "200108017"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "まったく思い通りにいかない。\\結局こうやって実力行使になっちゃうんだよな…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "voiceid": "200108018"
-    },
-    "19": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "wait": "normal"
     }
   }
 }

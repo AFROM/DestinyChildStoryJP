@@ -1,10 +1,227 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "46",
+      "hold": "shorter"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg106_f",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "3": {
       "type": "talk",
-      "dialogue": "ここをタップしてください～♥",
-      "char": "c255_01",
-      "speaker": "none"
+      "dialogue": "なんでこの花が必要なんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200306026"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "主人に頼まれたのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200306027"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "残念ながら、私は天涯孤独の身です…\\主人を欠いた年月は早…",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200306028"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ストッ～プ！そこまでっ！\\退屈な話は体に良くありません。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200306029"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "特に、ご主人さまのような無駄に感傷的な悪魔には\\致命的です。",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "200306030"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "…無駄に感傷的で悪かったな。というか、話の腰を折られたせいで、逆に気になって仕方ないよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "200306031"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "オマエの目的は死人を生き返らせる事なのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "200306032"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "逆にお聞きしますが、死んだ者を生き返らせる事は悪い事なのですか？",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200306033"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "う、う～む…\\悪い事なのかも、しれないよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200306034"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ご主人さま！しっかりして下さい！",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "teach",
+      "voiceid": "200306035"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "今、ご主人さまが考えるべきことは…\\《どうすれば魔王になれるか》です！",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "idle",
+      "voiceid": "200306036"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "生き返りの話はひとまず置いておきましょう！\\ただでさえ危険な話ですからね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "normal",
+      "voiceid": "200306037"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ふっ、そうですね。\\わたくしも意地を張りたくありません。",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200306038"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "チャイルドは…\\ご主人様の意志に逆らうことはできませんから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200306039"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "大人しく従ってくれるのは嬉しいけどさ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200306040"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "ご心配なさらずに。私は貴方様に忠誠を誓います。",
+      "char": "c318_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200306041"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "42",
+      "fade_out": "normal",
+      "hold": "shorter"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg157_f",
+      "fade_in": "normal",
+      "hold": "normal"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "アッハハッ！残念やな！\\上手に逃げてはったのに捕まってしもうて。",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200306042"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "申し訳ないですが…\\《黄泉の花》はここにはありません。\\懸命に追いかけてきた甲斐が、なくなりましたね。",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200306043"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "な、ふざけんといてっ！",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "pos": "left",
+      "one_ani": "attack",
+      "voiceid": "200306044"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_atk_skill_drive_fire_c301.mvd"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うっ…！",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake",
+      "voiceid": "200306045"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "",
+      "char": "none",
+      "speaker": "none",
+      "mvd": "effect/battle/sfx_atk_skill_drive_aqua_c319.mvd"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ええ加減に、白黒つけまひょか！",
+      "char": "c301_01",
+      "speaker": "unknown1",
+      "distance": "near",
+      "one_ani": "attack",
+      "voiceid": "200306046"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "hold": "normal"
     }
   }
 }

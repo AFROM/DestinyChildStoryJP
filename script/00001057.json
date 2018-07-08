@@ -1,12 +1,230 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "10",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "2": {
       "type": "talk",
-      "dialogue": "★2の進化のためにはさらにチャイルドが2体必要です。\\1体だけ選んでください♥",
-      "background": "back_dim50",
-      "char": "c255_01",
-      "speaker": "none",
-      "one_ani": "attack"
+      "dialogue": "う～ん。これは問題だ…",
+      "background": "bg048_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "400101001"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "そんな顔して、どうしたんですか？\\ワタシの可愛いご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile",
+      "voiceid": "400101002"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "可愛い…\\それ禁止！禁止ワードに設定！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "before_effect": "shake",
+      "voiceid": "400101003"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "あらら～♥\\禁止ワードがどんどん増えていきますね。\\それはさておき、何か悩みがあるのでは？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "400101004"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…うん。俺って悪魔についての知識というか、\\自覚？のようなものがあまりないだろ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "400101005"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ふむふむ…あまりって言いましたか？\\本当に<color=ff9900>自分に甘い方</color>ですね…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "voiceid": "400101006"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "とにかく！\\チャイルド達も何だか疲れているようだし、\\何をどうすればいいのか全然わからないんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sulky",
+      "voiceid": "400101007",
+      "screen_effect": "dialog_shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "俺がやってるのは魔王争奪戦だろ？\\バイトとはわけが違うんだ…\\<color=ff9900>チャイルド</color>達の為に、\\何か<color=ff9900>サポート</color>をしてやりたいんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "400101008"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "それは、モナが行っていますが…\\モナのサポートに何かご不満でも？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "confused",
+      "voiceid": "400101009"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…ご主人さまは優しすぎます。\\もっと悪魔らしい態度を取ってください…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sigh",
+      "before_effect": "shake_weak",
+      "voiceid": "400101010"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "申し訳ございません！\\でも、今後の事を考えると、\\いつまでもモナだけに任せる事もできないだろう？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "voiceid": "400101011"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "せめて、お前の<color=ff9900>仕事</color>を手伝えればいいんだけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle",
+      "voiceid": "400101012"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "先ほども、ご注意しましたが、\\悪魔らしからぬ優しさですね。\\フフ…本当にしょうがないご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "400101013"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "それなら、良い場所があります。\\そこは、<color=ff9900>《夜の世界》</color>と呼ばれています。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400101014"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "いい機会なので、\\一緒に<color=ff9900>《夜の世界》</color>へ行ってみましょう♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "before_effect": "shake",
+      "voiceid": "400101015"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "えっ！？人間と悪魔がこんなにたくさん…\\こんな場所があったなんて…",
+      "background": "bg054_f",
+      "bgm": "10",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "400101016",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "驚きましたか？\\まあ、この場所を知らない悪魔がいる方が\\驚きですが…",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "voiceid": "400101017"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ここは、<color=ff9900>悪魔</color>と<color=ff9900>悪魔信者</color>が集う場所！\\どうですか？活気に満ちているでしょ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "400101018"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そうだな…でも、悪魔信者とは言え人間だし、\\こんなに悪魔がいると危険じゃないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "400101019"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "いいえ、夜の世界は<color=ff9900>治外法権</color>ですが、\\実際にはそれほど危険はないですよ。\\需要と供給、与える者と求める者、\\刹那の<color=ff9900>欲望</color>を満たすため、\\ひたすら働く素敵なところです。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "400101020"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "むしろ、この場所では悪魔より、\\<color=ff9900>《祓魔師》</color>たちの方が危険です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "voiceid": "400101021"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "でも、安心してください！\\ご主人さまの悩みも\\きっとここなら<color=ff9900>助け</color>が見つかりますよ♥",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "voiceid": "400101022"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shortest",
+      "wait": "shortest",
+      "fade_in": "longest"
     }
   }
 }

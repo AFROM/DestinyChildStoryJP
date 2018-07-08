@@ -1,22 +1,17 @@
-{
+﻿{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "I’m having fun ruling the Demon’s Kingdom.\\Even if that means this is hell for a weakling like you!\\HAHAHAHA…!",
-      "background": "back_red",
-      "bgm": "keep",
-      "char": "c224_01",
-      "speaker": "same_full",
-      "one_ani": "attack",
-      "voiceid": "900201025"
+      "dialogue": "<color=\"ff9900\">同じチャイルドを合成</color>して<color=\"ff9900\">最大レベル</color>を上げられます。",
+      "background": "back_dim50",
+      "char": "none",
+      "speaker": "none"
     },
     "2": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "wait": "longest",
-      "fade_in": "longest",
-      "hold": "shorter"
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">合成に使用されたチャイルドは消えてしまうので</color>注意してください。",
+      "char": "none",
+      "speaker": "none"
     }
   }
 }

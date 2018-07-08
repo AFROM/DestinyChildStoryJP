@@ -2,8 +2,8 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "リベンジガールの契約者の願いですか？\\まさか、忘れてしまったのですか？",
-      "background": "bg086_f",
+      "dialogue": "データ収集及び分析の結果、\\ウォッチャーが探している悪魔は\\日本にいないと推定されます。",
+      "background": "bg049_f",
       "bgm": "9",
       "char": "c002_01",
       "speaker": "same",
@@ -11,214 +11,178 @@
     },
     "2": {
       "type": "talk",
-      "dialogue": "念のため、確認だ…",
+      "dialogue": "それ、本当か？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "そうですか。願いを忘れる程、\\たくさんのチャイルドを集めたということですね。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "困ったわねぇ。",
+      "char": "c001_01",
+      "speaker": "same"
     },
     "4": {
       "type": "talk",
-      "dialogue": "しかし、おかしいですね…\\御主人様の契約件数では、忘れてしまうことの方が\\不思議です。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "……",
+      "char": "m125_01",
+      "speaker": "same"
     },
     "5": {
       "type": "talk",
-      "dialogue": "正直にバカだと言ってくれ…",
+      "dialogue": "本当に困ったもんだ。\\せっかくここまで来たのに。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "cry"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "御主人様にそんな無礼なことは言えません。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "俺を心配しているのか？",
+      "char": "m125_01",
+      "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "よく言うよ！",
+      "dialogue": "…うん。それで？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "リベンジガールの契約者が銀行強盗だ、ということはご存知ですよね？\\指名手配されたということも…",
+      "dialogue": "御主人様、呑気なこと言ってる場合ではありません。ウォッチャーのターゲットが日本にいないことは\\分かったので、",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "それも全て、仲間であり恋人だった人間のせいです。契約者を裏切り、警察と手を組みました。",
+      "dialogue": "ウォッチャーはこれ以上、\\ここに留まることはできません。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "契約者の願いは単純です。\\裏切った男に復讐すること。",
+      "dialogue": "すなわち、これ以上御主人様のチャイルドとして\\働けないということです。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もう忘れないでくださいね。",
-      "char": "keep",
+      "dialogue": "仕方ないだろ。公務執行中なんだし。\\むしろ引き留めたら公務執行妨害に\\なるんじゃないか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ああ…",
+      "dialogue": "ウォッチャーは大切な戦力です。\\簡単に諦めすぎではないですか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "やむを得ないだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
-    },
-    "13": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "お前の企みは全て把握している！\\契約者と復讐する気だろ？",
-      "background": "dungeon_bg",
-      "bgm": "24",
-      "char": "c000_01",
-      "speaker": "same",
-      "distance": "near",
-      "facial": "fury",
-      "mvd_post_effect": "none"
+      "dialogue": "……",
+      "char": "m125_01",
+      "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "今頃、思い出したのか？\\お前というヤツは本当に…",
-      "char": "m142_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "こんな時は！",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near"
     },
     "16": {
       "type": "talk",
-      "dialogue": "それで、私を邪魔しに来たのか？",
+      "dialogue": "やっぱり当事者の意見を聞くのが一番ね♥",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "当然だ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "警告を忘れたようだな…",
-      "char": "m142_01",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "その指以外、全て使えなくしてやると言ったはずだ…",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "あ…モナと一緒に来るの忘れてた…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "お、落ち着け。指だけじゃお前を助けてやれない。",
+      "dialogue": "いつからそんな真面目に…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "18": {
+      "type": "talk",
+      "dialogue": "ウォッチャー、こんなことになっちゃったけど、\\アナタはこれからどうしたいの？",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ご主人様の言う通り、俺の役割は魔界を脅かす者を\\見つけ出し監視して遮断すること。",
+      "char": "m125_01",
+      "speaker": "same"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "やっぱり…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "だが…その者が逃亡した地域は\\俺の管轄区域ではない。",
+      "char": "m125_01",
+      "speaker": "same"
+    },
     "22": {
       "type": "talk",
-      "dialogue": "そして、俺はお前の助けが必要なんだ。\\魔王になるために…",
-      "char": "keep",
+      "dialogue": "え？一人でやってたわけじゃないのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "23": {
       "type": "talk",
-      "dialogue": "私の契約者もそう言った。私の助けが必要だと。\\復讐のために。",
-      "char": "m142_01",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "もちろんだ。\\魔界の犯罪者は数えきれないくらい多い。",
+      "char": "m125_01",
+      "speaker": "same"
     },
     "24": {
       "type": "talk",
-      "dialogue": "私は契約者の怨念から生まれた存在。\\無理やり引き留めても、その欲望を消すことは\\できない。",
+      "dialogue": "だから…俺はここに残って約束を守る。",
       "char": "keep",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "near"
+      "speaker": "same"
     },
     "25": {
       "type": "talk",
-      "dialogue": "だが私の邪魔をしないのであれば\\お前の目的のために私も最善を尽くしてやろう。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "約束？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "いや、本当は魔王なんかになりたくは…",
-      "char": "c000_01",
+      "dialogue": "受けた分を返すという約束。",
+      "char": "m125_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "distance": "near"
     },
     "27": {
       "type": "talk",
-      "dialogue": "だからもう邪魔はするな。\\これ以上邪魔をしたら、その時は…",
-      "char": "m142_01",
-      "speaker": "same_full",
+      "dialogue": "これからは俺がご主人様に協力する。",
+      "char": "keep",
+      "speaker": "same",
       "distance": "near"
     },
     "28": {
-      "type": "talk",
-      "dialogue": "わ、分かった、分かったよ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "before_effect": "shake",
-      "facial": "nonsense"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "分かったからどうか命だけは…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "30": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

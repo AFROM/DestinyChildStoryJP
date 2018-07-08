@@ -2,183 +2,266 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "食べた？全部食べたの！？",
-      "background": "bg089_f",
+      "dialogue": "胸に手を当てて言ってみろ。",
+      "background": "bg086_f",
       "bgm": "20",
-      "char": "c003_01",
-      "speaker": "same"
+      "char": "c000_01",
+      "speaker": "same",
+      "facial": "angry"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何言ってるんだ？当然、全部食べたさ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "ダビの分の残しておくって言ったじゃん！",
-      "char": "c003_01",
+      "dialogue": "クククッ！ボクには良心ってものがないから\\手を当てる必要はないと思うけど？",
+      "char": "m007_01",
       "speaker": "same",
       "pos": "right"
     },
-    "4": {
+    "3": {
       "type": "talk",
-      "dialogue": "そんな約束してない。\\どうやってアイスクリームを残すんだ？\\溶けちゃうだろ。溶ける前に食べ切らないと。",
+      "dialogue": "なら、お前のしたことを認めるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "angry"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "ヤダ。ぜーったいに認めないよ！クククッ！",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
     },
     "5": {
       "type": "talk",
-      "dialogue": "それがアイスクリームに対する礼儀ってもんだろ？",
-      "char": "keep",
+      "dialogue": "う…リザ。ダメだ、こいつ！\\一発だけ殴っていいよな？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "pretense"
+      "facial": "serious",
+      "mvd": "ux/talk/efx_script_angry_set.mvd",
+      "mvd_pos": "left_top"
     },
     "6": {
       "type": "talk",
-      "dialogue": "キキキ…アイスクリームくらい\\買ってきてやる！",
-      "char": "m037_01",
+      "dialogue": "耐えてください、御主人様。\\怒りで手を上げるのは野蛮人のすることです。",
+      "char": "c002_01",
       "speaker": "same"
     },
     "7": {
       "type": "talk",
-      "dialogue": "ホント？",
-      "char": "c003_01",
+      "dialogue": "俺たち悪魔が今更、何言ってるんだ…\\それにあいつは一発殴られるべきだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "食べろ！ぜーんぶ食べろ！キキキキ…",
-      "char": "m037_01",
+      "dialogue": "フフフフ～ン♪",
+      "char": "m007_01",
       "speaker": "same",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "一体何個あるんだよ！\\近所のスーパーで売ってるアイス買い占めたのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "ビンゴ！",
-      "char": "m037_01",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "嘘つけ…そんな金ないだろ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "気に入ったか？ふふ…多いほどいいだろ…\\飽きるまで食べろ…ふふ…",
-      "char": "m036_01",
-      "speaker": "same"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "泥棒みたいなことするな！元に戻してこい！",
+      "dialogue": "まったく…困った奴だ！\\テディ！お前のせいでモナがどんな相談を\\受けたか知ってるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
+    "10": {
+      "type": "talk",
+      "dialogue": "《毎晩、うちの子がぬいぐるみの悪夢をみます。\\そのぬいぐるみの名前はテディ》",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "町中の子供たちが同じ悪夢をみるっていう噂だ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "おかしいな～？ボクの名前もテディだけど～",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "リザ。2発、いや3発だけ殴ろう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "mvd": "ux/talk/efx_script_angry_set.mvd",
+      "mvd_pos": "left_top"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "Amar~ Lhu natanti~",
-      "char": "m037_01",
+      "dialogue": "御主人様、こういう時こそ\\御主人様のカリスマ性を発揮する時です。",
+      "char": "c002_01",
       "speaker": "same"
     },
     "15": {
       "type": "talk",
-      "dialogue": "Ehineham… Anal nihaazinah bayalu imarah.",
-      "char": "m036_01",
-      "speaker": "same"
+      "dialogue": "ありもしないカリスマなんか発揮できるか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "16": {
       "type": "talk",
-      "dialogue": "Natanti tob mayaseh lkol. Ki bayalenu… tob ebah...",
-      "char": "keep",
+      "dialogue": "確かに、御主人様にカリスマ性など皆無でした。",
+      "char": "c002_01",
       "speaker": "same"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あいつら何て言ってるんだ？急に外国語かよ…",
+      "dialogue": "お前から殴られたいのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ほんとバカご主人！そんなことも知らないの？\\あれは魔界の古い言葉だってリザが言ってたでしょ。",
-      "char": "c003_01",
+      "dialogue": "ところで悪魔！子供たちが悪夢をみるのが\\そんなに悪いことなのか？",
+      "char": "m007_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "…古代語か。",
+      "dialogue": "悪魔なら、人間たちが苦しむ姿を\\見るのが好きなんじゃないのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "身の潔白を証明しようとしてる奴の発言じゃないな。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "それは内容にもよります。\\私たちが考慮すべきことは、御主人様の安全です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "補欠出身の悪魔が自分のチャイルドを\\盾にして悪さをしているという噂が流れたら\\困ります。",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "心配してくれてありがとよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "なるほど。\\悪魔が危険になるってことか。",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "お前、何か変なこと企んでないか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "20": {
+    "26": {
       "type": "talk",
-      "dialogue": "近所の人たちに分けてあげよう！\\キキキ。",
-      "char": "m037_01",
-      "speaker": "same"
+      "dialogue": "変なことなんて考えてないよ。\\面白いことを考えてたんだ。",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "right"
     },
-    "21": {
+    "27": {
       "type": "talk",
-      "dialogue": "心優しい悪魔が近所の人たちのために\\アイスクリームを盗んだってな！キキキ！",
+      "dialogue": "それが変なことだって言ってるんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "クククッ！町の子供たちが悪魔の出る悪夢を\\同時にみたらどうなるかなー、なんて。",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "面白そうだろ？",
       "char": "keep",
       "speaker": "same",
-      "after_effect": "go_to_right_point"
+      "pos": "right"
     },
-    "22": {
+    "30": {
       "type": "talk",
-      "dialogue": "お前ら何をひそひそと…ど、どこに行く！\\本当に噂を流す気か？",
+      "dialogue": "ゾッとしますわ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "serious"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "なんでそんな顔するんだ？\\とにかくダメだ！考えるのもダメ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "23": {
+    "32": {
       "type": "talk",
-      "dialogue": "じゃ、行ってくる！キキキ！",
-      "char": "m037_01",
+      "dialogue": "テディ、やっぱりお前が犯人なんだろ？",
+      "char": "keep",
       "speaker": "same",
-      "distance": "far"
+      "pos": "left",
+      "facial": "confused"
     },
-    "24": {
+    "33": {
       "type": "talk",
-      "dialogue": "心配するな…\\仕事はしっかりするヤツだ…ふふ…",
-      "char": "m036_01",
-      "speaker": "same"
+      "dialogue": "クククッ！ボクじゃないってば～。\\証拠があるなら出してみなよ！",
+      "char": "m007_01",
+      "speaker": "same",
+      "pos": "right"
     },
-    "25": {
+    "34": {
       "type": "talk",
-      "dialogue": "ああ、俺の運命…",
+      "dialogue": "うう、テディが犯人なのは、ほぼ確定なのに\\物的証拠がないなんて…！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "unfair",
+      "screen_effect": "dialog_shake"
     },
-    "26": {
+    "35": {
+      "type": "talk",
+      "dialogue": "御主人様が出てくる悪夢だなんて…\\考えただけでも頭が痛くなりますわ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "irritation"
+    },
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

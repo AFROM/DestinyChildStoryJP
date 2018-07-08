@@ -1,364 +1,205 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "この間、私の契約者に会ったのだろう？",
-      "background": "bg086_f",
-      "bgm": "19",
-      "char": "c132_01",
-      "speaker": "same"
+      "type": "curtain",
+      "bgm": "4",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "あれ？知ってたんだ？",
-      "char": "c000_01",
+      "dialogue": "はぁはぁ…こ、ここまで来れば、\\もうアイツも、追ってこられまい…",
+      "background": "dungeon_bg",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
+      "one_ani": "attack"
     },
     "3": {
       "type": "talk",
-      "dialogue": "リザというサキュバスが教えてくれた。\\私にひたすら愚痴をこぼしていたよ。",
-      "char": "c132_01",
+      "dialogue": "ヴァルカン？\\大汗かいて、どうしたんだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left"
     },
     "4": {
       "type": "talk",
-      "dialogue": "御主人様がまた人間の真似事をしただの…\\貴重な再契約のチャンスを逃しただの…",
-      "char": "keep",
+      "dialogue": "はぁはぁ…\\全部あの《マイラ》とかいう、チャイルドのせいだ…",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…全部見られてたのか。",
+      "dialogue": "はは～ん…マイラね。\\なんとなく、ことの成り行きがわかったぞ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "confused"
     },
     "6": {
       "type": "talk",
-      "dialogue": "人間を相手に悪魔が説教するとはね…\\ただの怠け者かと思いきや、違ったのかな？",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "だけど、これもいい機会だな。\\ここはワザとすっとぼけて、\\ヴァルカンの本音を聞いてみようか。",
+      "char": "none",
+      "speaker": "none"
     },
     "7": {
       "type": "talk",
-      "dialogue": "俺は褒めてやりたいけどな～",
-      "char": "c131_01",
+      "dialogue": "へ～…マイラがどうしたんだよ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
     },
     "8": {
       "type": "talk",
-      "dialogue": "俺を…褒める？",
-      "char": "c000_01",
+      "dialogue": "最近アイツが、私にトコトコ付きまとってくるんだ。まったく、いい迷惑だ…",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "だって、あんたの言ってることは正しいよ。\\命は貴重なものだ。粗末に扱っちゃダメだよ。",
-      "char": "c131_01",
+      "dialogue": "トコトコって…ぷっ",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "haah",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "いや、真っ青な顔で、\\笑いながらそんな教訓じみたこと言われても…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おい、そこで何故笑う！？\\私をバカにしているのか！",
+      "char": "c090_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
     },
     "11": {
       "type": "talk",
-      "dialogue": "オシリス、お前さ…",
+      "dialogue": "いや、マイラがお前に付いていく姿を\\想像しちゃってさ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "haah"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ん？\\俺、なんか間違ったこと言った？",
-      "char": "c131_01",
+      "dialogue": "なんというか？\\頑固な飼い主についてく子犬みたいな感じなのか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "confused"
     },
     "13": {
       "type": "talk",
-      "dialogue": "…あ、いや…",
-      "char": "c000_01",
+      "dialogue": "ふん、子犬のように可愛らしければ\\まだマシだったがな。",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "ミダスとオシリスは結構仲が良い。\\問題は、ふたりの契約者はそうじゃないってことだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "おいおい、なんでそんな深刻な顔してんだよ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ミダスの契約者は、\\死の淵をさまよっていた弟を、\\呪術で生き返らせた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お前なんかを、あんだけ敬ってくれる\\チャイルドなんて他にいないだろ。\\もっと喜んでもいいと思うぞ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "16": {
       "type": "talk",
-      "dialogue": "しかし不完全な状態で復活した弟は、\\俺に死にたいと願った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "引っかかる物言いだな…\\とにかく、私はアイツが気に食わんのだ。",
+      "char": "c090_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そうして生まれたのがオシリスだ。\\幸か不幸か、オシリスは生に対して、\\凄まじい執着を持っている。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "我ながら妙な気分だが、\\アイツのお節介が、煩わしくて仕方がない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "間違ってないよね。\\んじゃ、これからも、そんな感じでよろしく。",
-      "char": "c131_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "たしかにチャイルドになってからも、\\こいつらのしてることは変わってないな…\\契約者の記憶が干渉してるのか？",
+      "char": "none",
+      "speaker": "none"
     },
     "19": {
       "type": "talk",
-      "dialogue": "いいけど…お前たちさ…\\ホント変な関係だってこと、知ってるか？\\まったく共通点がないんだよね。",
+      "dialogue": "ふーん…でもま、口には気をつけろよ。\\今もマイラが隠れて、見てるかもしれないしな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "pretense"
     },
     "20": {
       "type": "talk",
-      "dialogue": "片方は「成るように成れ」って自由気ままに生きてるし、もう片方は「絶対死にたくない」って、必死で生きてるし。",
+      "dialogue": "もし今の話を聞かれてたら、\\ショックで泣いちゃってるかもしれないぞ？",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "facial": "pretense"
     },
     "21": {
       "type": "talk",
-      "dialogue": "一体、お互いのどこが気に入ってるんだ？",
-      "char": "keep",
+      "dialogue": "ふん！\\アイツがどう思おうと、私の知ったことか！",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "22": {
       "type": "talk",
-      "dialogue": "いわゆる凸凹コンビってヤツ？\\理由が必要なのかい？",
-      "char": "c132_01",
+      "dialogue": "とか何とか言っちゃって、\\ホントは気になっちゃってるんだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "idle"
     },
     "23": {
       "type": "talk",
-      "dialogue": "別に、そんなのいらないよね。",
-      "char": "c131_01",
+      "dialogue": "う、うるさいっ！お前などに相談したのが、\\そもそも間違いだったな…！",
+      "char": "c090_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "え？",
-      "char": "c000_01",
+      "dialogue": "不愉快だ、帰らせてもらおう。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense"
+      "pos": "right",
+      "after_effect": "go_to_right_point"
     },
     "25": {
       "type": "talk",
-      "dialogue": "自分の気持ちに素直に生きるのが一番だ。\\気が合ったから、オシリスとは友達になれた。",
-      "char": "c132_01",
+      "dialogue": "ははっ。俺はお前の慌てっぷりを見れて、\\けっこう楽しかったけどな。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "facial": "smile"
     },
     "26": {
       "type": "talk",
-      "dialogue": "…だってさ。",
-      "char": "c131_01",
+      "dialogue": "また来いよ。\\ちょくちょくこのネタで、からかってやるよ。\\ふっふっふ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "near",
+      "facial": "pretense"
     },
     "27": {
-      "type": "talk",
-      "dialogue": "だってさって…\\オシリス、お前はどう思ってるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "んー、俺もあんまり深く考えたことないや。\\なんなら、お前が代わりに考えてくれてもいいぞ。",
-      "char": "c131_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "いいな、それ。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "いや、おかしいだろ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "そうかね？君なら余計なお節介をして、\\下しかねない結論だと思うんだが。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "私としては、どうにも理解できない言葉だがね。\\お節介だなんて、うん。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "別にそんなつもりはないよ。\\当然の反応じゃないか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "superangry"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "兄が弟をまた殺したいって言ってるんだ！\\怒るのは当然だろ！？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury",
-      "before_effect": "shake_weak"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "それにお前たちは、どっちも俺のチャイルドだ！\\気にするに決まってんじゃん！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…お節介だなぁ。",
-      "char": "c131_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "だから、違うって！！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "まあ、でも…\\こういう類のお節介は悪くないと思うよ。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "こういう類のお節介って！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "nonsense"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "あれあれ、ミダスがご主人の優しさに\\心打たれたみたいだね。",
-      "char": "c131_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "うむ、優しさか。表現としては、\\そちらがふさわしいのかもしれないな。",
-      "char": "c132_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "まあ、俺は同意できないけど。",
-      "char": "c131_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "…片方だけでもわかってくれたなら、もういいや…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
-    },
-    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

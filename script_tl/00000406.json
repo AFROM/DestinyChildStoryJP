@@ -2,217 +2,372 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "う～ん……これじゃないのかなあ？",
-      "background": "bg089_f",
-      "bgm": "31",
-      "char": "c003_01",
+      "dialogue": "お兄さん、お兄さん、悪魔のお兄さん！！\\朝ですよー！\\早く起きて―！ファイト！おーっ！！",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c074_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "distance": "near",
+      "one_ani": "attack",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "2": {
       "type": "talk",
-      "dialogue": "ねえねえ、カルカス！ちょっと来てぇ！",
-      "char": "c003_01",
+      "dialogue": "うるさいよ…\\平和な朝が、騒音で台無しだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
+      "pos": "left",
+      "facial": "sigh"
     },
     "3": {
       "type": "talk",
-      "dialogue": "はい、ちびサキュバス様。\\あ、クロスワードパズルですね？",
-      "char": "c082_01",
+      "dialogue": "そ、騒音だなんて…！\\悪魔のお兄さんったら、ひどいです！",
+      "char": "c074_01",
       "speaker": "same",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "うん！\\でもね、これ見て！なんか合わないの！",
-      "char": "c003_01",
+      "dialogue": "悪魔のお兄さん、早く起きないと\\うちのニャンコも怒っちゃうんだからね！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sulky"
+      "pos": "right"
     },
     "5": {
       "type": "talk",
-      "dialogue": "どれどれ……「長く続くさま」。\\ダビさんが書いた答えは……「永遠と」。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "にゃーん。",
+      "char": "keep",
+      "speaker": "unknown1",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ふふ、正しくは「延々と」ですね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "…ニャンコが鋭く爪を立ててる。\\こりゃ危険だな、とっとと起きるとしよう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "7": {
       "type": "talk",
-      "dialogue": "えー？\\何よ、あのマヌケ。ダビに嘘ついたのね！",
-      "char": "c003_01",
+      "dialogue": "ところで悪魔のお兄さん、\\モナさんはどこに行っちゃったんです？",
+      "char": "c074_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "……ご主人様から教えてもらったのですか？\\「永遠と」って。",
-      "char": "c082_01",
+      "dialogue": "モナ…？\\さあ、知らないな。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "9": {
       "type": "talk",
-      "dialogue": "そうだよ！\\何も知らないダビをだますなんて……",
-      "char": "c003_01",
+      "dialogue": "そっかー。\\モナさんに遊んでもらいたかったのに…\\仕方ないや。お兄さんで手を打ちましょう。",
+      "char": "c074_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "えっと……ご主人様が……\\いや。ダビさん、ちょっと待って下さい。",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "なんか俺じゃあご不満な様子だけど、\\そこはスルーしとこう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "11": {
       "type": "talk",
-      "dialogue": "もしかすると……僕が間違えて、ご主人様の答えが合ってるかもしれません。",
-      "char": "keep",
+      "dialogue": "なんだよ。\\こっちに来たのは、モナ目当てだったのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "12": {
       "type": "talk",
-      "dialogue": "違う！「永遠と」って書くと\\縦のマスの答えが「永長戦」になっちゃうもん！",
-      "char": "c003_01",
+      "dialogue": "だってモナさん、カッコいいし、美人なんだもん。\\あたしも、ああいう大人になりたいんだー。",
+      "char": "c074_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "こ、こっちの世界には\\そういう言葉もあるのかも……",
-      "char": "c082_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "モナみたいに大きく、か…\\ちょっと難しいんじゃないか…？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "14": {
       "type": "talk",
-      "dialogue": "何言ってんの！？\\ちゃんと調べたけど、そんな言葉ないもん！",
-      "char": "c003_01",
+      "dialogue": "お兄さん…\\今、目線が変なところに向いてなかった…？\\あたしの気のせい？",
+      "char": "c074_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あ！わかったー！",
-      "char": "keep",
+      "dialogue": "ああ、気のせいだ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "victory"
+      "pos": "left",
+      "facial": "irritation"
     },
     "16": {
       "type": "talk",
-      "dialogue": "カルカスお前、\\ウスラトンカチのこと、かばってるんでしょ！",
-      "char": "keep",
+      "dialogue": "ふーん。ま、いいや！\\それじゃあ悪魔のお兄さんも起きたことだし、\\特訓開始だね！",
+      "char": "c074_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "idle"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "ウスラトンカチ？\\ダビさん……ご主人様のことを、\\そんな風に呼んじゃダメですよ。",
-      "char": "c082_01",
+      "dialogue": "ん？\\お前、特訓なんてしてるのか？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "うう……\\チャイルドたちはいっつもウスラトンカチのこと……",
-      "char": "c003_01",
+      "dialogue": "あたしじゃなくて、悪魔のお兄さんの特訓！\\モナさんがいないから、あたしが手伝ってあげる。",
+      "char": "c074_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ほらまた……",
-      "char": "c082_01",
+      "dialogue": "いやぁ、ちょっと言ってる意味がわかりませんね…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "confused"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ご主人の味方ばかりする……\\カルカスもそうなんでしょ？",
-      "char": "c003_01",
+      "dialogue": "さあ、早く行きましょう！\\今日からあたしも、悪魔のお兄さんの\\サポーターです！",
+      "char": "c074_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
+      "pos": "right"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そんなことは。\\ダビさんが望むなら、ダビさんの味方になりますよ。",
-      "char": "c082_01",
+      "dialogue": "待て、落ち着けって…\\具体的に、どんな特訓をするつもりなんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh"
     },
     "22": {
       "type": "talk",
-      "dialogue": "ふーんだ。いつも口だけ……",
-      "char": "c003_01",
+      "dialogue": "うーん、特訓といえば…\\まずは1,000km全力疾走とかですかね？",
+      "char": "c074_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "sulky"
+      "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "はは。",
-      "char": "c082_01",
+      "dialogue": "できるかっ！\\1,000kmって、東京から種子島ぐらいの\\距離なんだぞ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "24": {
       "type": "talk",
-      "dialogue": "まあ、とにかく……\\これは飽きちゃったから、ご主人に遊んでもらうー。",
-      "char": "c003_01",
+      "dialogue": "あっ、そ、そうなんですか？\\うーん、それなら、ナイアガラの滝で滝行とか…？",
+      "char": "c074_01",
       "speaker": "same",
       "pos": "right",
-      "facial": "victory"
+      "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "はいはい。\\あまり、いじめないであげてくださいね。",
-      "char": "c082_01",
+      "dialogue": "めちゃくちゃでかい滝じゃないか！\\水圧で押し流されるわ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "serious"
     },
     "26": {
       "type": "talk",
-      "dialogue": "なんかお母さんみたーい！\\わかったよー！",
-      "char": "c003_01",
+      "dialogue": "あうう…悪魔のお兄さんったら、文句ばっかり。\\それじゃ、ビクトリアの滝あたりで妥協しましょう。",
+      "char": "c074_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "sulky",
-      "before_effect": "go_to_right_point"
+      "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c082_01",
+      "dialogue": "…そこ、ナイアガラの滝より高いんだぞ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "unfair"
     },
     "28": {
       "type": "talk",
-      "dialogue": "あの妙な関係には\\どう歩み寄ればいいかわからないな……",
+      "dialogue": "高度100mからの水流で鍛えられるヤツが\\いるとすりゃ、そいつは超人だな。",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "む～っ、じゃあ、どうしたいんですか？\\あっ、いいこと思いついた！",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "絶対ロクでもない考えな気がするが、\\一応聞かせてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "佐渡島の海女と素潜り対決。\\これならどう？",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "さっきからコイツは、俺を殺したいんだろうか。\\素潜りのプロに勝てる訳ないだろう。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ふう、まだ気に入らないの？\\こんなに悪魔のお兄さんのために、\\一生懸命考えてあげてるのにー。",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ヘンテコな特訓ばっか挙げるからだ。\\それに引き換え…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "29": {
+    "36": {
+      "type": "talk",
+      "dialogue": "モナはいっつも自分で体験してみてから、\\俺に提案するんだぞ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "えっ？そうなの？",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "もちろん嘘だけど。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "それじゃ、あたしもモナさんみたいにやってみる！\\まずどうすればいいの？",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "そうだな…たとえば…\\近所の公園に行って、\\自然と意思疎通を図る訓練とか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "自然と意思疎通！なんかそれっぽいね！",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "だろ？自然の声が聞こえたら、成功だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "すごーい！かっこいい！\\超能力者みたいだね！",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "そうだ、その意気だ！\\そして、その特訓の成果を、ぜひ俺に教えてくれ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "了解ですっ、悪魔のお兄さん！\\大至急、自然の声を聞いてきますね！",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "ああ、がんばれよー。\\ファイトー！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "ファイトですっ！おーっ！",
+      "char": "c074_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle",
+      "after_effect": "go_to_right_point"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "…\\よし、うるさいのはいなくなったな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "嘘がバレるまで、ゆっくり出来そうだ。\\さーて、もうひと眠りするかな…\\がんばれよ～、キリヌス。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "50": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

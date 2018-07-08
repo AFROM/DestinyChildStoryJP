@@ -1,134 +1,307 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "……",
-      "background": "bg050_f",
-      "bgm": "17",
-      "char": "m125_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "bg114_f",
+      "bgm": "8",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何を考えてるんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "3": {
-      "type": "talk",
-      "dialogue": "…前の主人のことを考えていた。",
-      "char": "m125_01",
+      "dialogue": "君は、また舞台に立ちたいのか。",
+      "char": "c121_01",
       "speaker": "same",
       "pos": "right"
     },
-    "4": {
+    "3": {
       "type": "talk",
-      "dialogue": "ウォッチャーの主人って…どんな悪魔だったんだ？",
-      "char": "c000_01",
+      "dialogue": "ごめんなさい、現状が不満なわけじゃないんです。\\ただ…少しだけ、恋しくて。",
+      "char": "c358_01",
       "speaker": "same",
       "pos": "left"
     },
+    "4": {
+      "type": "talk",
+      "dialogue": "アイドルですものね…\\閉じこもっているのが嫌な気持ちはわかります。",
+      "char": "c045_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
     "5": {
       "type": "talk",
-      "dialogue": "賢くて、公平な悪魔だった。\\自分の仕事を大切に考える者だった。",
-      "char": "m125_01",
+      "dialogue": "でも…ミクちゃんが外に出たら、またこの前の\\二の舞じゃないかな。",
+      "char": "c061_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "自分の仕事？",
-      "char": "c000_01",
+      "dialogue": "そうだな。\\単独ライブなど開いたらチケットの奪い合いに…\\それこそ、魔王争奪戦並みの騒ぎになりそうだ。",
+      "char": "c121_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "facial": "smile",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "魔界を脅かす者たちを審判する仕事だ。",
-      "char": "m125_01",
+      "dialogue": "…だったら、飛び入り参加しちゃえばどうです？",
+      "char": "c045_01",
       "speaker": "same",
       "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "今のお前の仕事じゃないか。",
-      "char": "c000_01",
+      "dialogue": "誰かのライブに突撃するってこと？",
+      "char": "c061_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near",
+      "facial": "joy"
     },
     "9": {
       "type": "talk",
-      "dialogue": "その方から引き継いだ。",
-      "char": "m125_01",
+      "dialogue": "その通りです！\\今度セイレーンとミューズさんでライブセッション\\するじゃないですか！",
+      "char": "c045_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "へえ…それじゃ、その主人は？",
-      "char": "c000_01",
+      "dialogue": "規模もそこまで大きくないから、そこならミクさんが参加しても問題にならないはず！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "遠い昔のことだ。今は覚えていない。",
-      "char": "m125_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "……",
-      "char": "c000_01",
+      "dialogue": "で、でも…\\それだと、ご迷惑をお掛けしてしまうんじゃ…",
+      "char": "c358_01",
       "speaker": "same",
       "pos": "left"
     },
-    "13": {
+    "12": {
       "type": "talk",
-      "dialogue": "ひとつだけ…覚えていることがある。",
-      "char": "m125_01",
+      "dialogue": "二人とも、全然迷惑なんかじゃありませんよね！？",
+      "char": "c045_01",
       "speaker": "same",
       "pos": "right"
     },
+    "13": {
+      "type": "talk",
+      "dialogue": "うん、構わないよ。むしろ楽しみだよ。",
+      "char": "c061_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "ご主人様が最後に言った言葉だ。",
-      "char": "keep",
+      "dialogue": "私もかまわない。\\軽い暇つぶし程度の小規模なものだしな。",
+      "char": "c121_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "Tiqyemeniu ketabka. Ze qitson ketabi.",
+      "dialogue": "君が参加してくれれば新しい可能性が開けるかもしれない。ぜひ参加してみないか？",
       "char": "keep",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ん…古代語はちょっと…さっぱりだな。",
-      "char": "c000_01",
+      "dialogue": "…",
+      "char": "c358_01",
       "speaker": "same",
       "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "そうなのか？残念だ。",
-      "char": "m125_01",
+      "dialogue": "はいっ！",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "もうこの言葉を記憶しているのは、\\俺しかいないようだな。",
-      "char": "keep",
+      "dialogue": "じゃあ、早速練習しましょう！\\本番まで、あんまり時間はないですから！",
+      "char": "c045_01",
       "speaker": "same",
       "pos": "right"
     },
     "19": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "shorter"
+    },
+    "20": {
+      "type": "curtain",
+      "background": "bg110_f",
+      "wait": "shorter",
+      "fade_in": "shorter"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "あいつら、何時まで経っても帰ってこないし…\\様子見にきちまったよ…",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "enter_from_right_fast"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "べ、別に心配とかはしてないけど！\\ミューズ先生に迷惑かけてないか気になるだけ\\だから！",
+      "char": "keep",
+      "speaker": "same"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "<b>～♪～♪</b>",
+      "char": "none",
+      "speaker": "none",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "…ん？音楽…？",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "shorter",
+      "wait": "shorter"
+    },
+    "26": {
+      "type": "curtain",
+      "background": "bg114_f",
+      "wait": "shorter",
+      "fade_in": "shorter"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "ララ～ララララ～♪",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ん？メルポメネも来たのか。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "先生！なんで先生とミクが一緒に練習してんの？",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "今度やるセイレーンとの特別セッションにミクも参加する計画を立てたんだ。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "…はぁ？",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "ふぅ…イイカンジですねっ！\\あれ、メルポメネさん？",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "興味ないとか言ってたのに、来たんですー？",
+      "char": "c045_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "なんだかんだで、ミクさんが気になるんだね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ミューズ先生が気になって来ただけだっつの！\\アイドルなんてロックじゃないもの、ウチは音楽って認めないから。",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "何ですかそれー！",
+      "char": "c045_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "私は、ロックも好きですけど…",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "可愛くて天使な歌姫がロックのソウルわかるわけ\\ないし。",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "そんなこと…\\私だって、歌に魂を込めてます！\\歌を届けたい気持ちは同じはずですっ！",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "どうだか…\\ま、あんたらはあんたらで勝手にやれば\\ウチには関係ないけど。",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "メルポメネさん…",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "…やれやれ。素直じゃないな。",
+      "char": "c121_01",
+      "speaker": "same",
+      "pos": "center"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

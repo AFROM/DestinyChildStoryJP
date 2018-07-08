@@ -2,179 +2,233 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔として生まれたなら、その義務を果たしなさい。",
-      "background": "bg188_f",
-      "bgm": "10",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "どうやらあなたは魔王争奪戦よりも、お金を稼ぐことの方が大事なようですね。",
+      "background": "bg056_f",
+      "bgm": "9",
+      "char": "c292_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "何があっても諦めない事。\\中途半端な者たちはやがて取り残されるだろう。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "なぁ、ルイン…\\その大事なことについて話を聞いてほしいんだ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "3": {
       "type": "talk",
-      "dialogue": "利他的で善良な者と自ら苦労を背負う者たちは\\天国にしか行くことができないだろう…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "俺のチャイルド達は、3日に1回は事故るし、家の食糧は2日で食い尽くすんだ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "4": {
       "type": "talk",
-      "dialogue": "名言ですね。師匠。",
-      "char": "c311_00",
-      "speaker": "none"
+      "dialogue": "サキュバスたちは情報収集が忙しくてアルバイトなんてする暇ないって言うし、悪魔青少年基金なんて雀の涙もいいところだし…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "おお、無名よ。\\最近は姿を見なかったが、今日は何用で来た？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "なあ、ルイン…\\他の悪魔たちも同じ苦労をしてるんだよな？\\俺だけ辛い思いをしているなんてこと、ないよな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair",
+      "before_effect": "shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "もう無名ではありません。",
-      "char": "c311_00",
-      "speaker": "none"
+      "dialogue": "はあ…\\あなたのような貧乏悪魔は見たことがありません。\\おそらく、魔王候補生の中で一番貧しいのではないですか？",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "なに？\\気に入った名前でも見つけたか？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "…やめてくれ、ルイン。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "8": {
       "type": "talk",
-      "dialogue": "はい。",
-      "char": "c311_00",
-      "speaker": "none"
+      "dialogue": "は？",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "9": {
       "type": "talk",
-      "dialogue": "私の新しい名前は…《ケプリ》",
-      "char": "keep",
-      "speaker": "none"
+      "dialogue": "そんなふうに言われたら…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ケプリ？\\ハハ、私の耳が遠くなったのかな？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "言われたら？",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "11": {
       "type": "talk",
-      "dialogue": "いいえ…ケプリは師匠のお名前です。\\しかし、今からは私の名前にしたいと思います。\\気に入りましたから。",
-      "char": "c311_00",
-      "speaker": "none"
+      "dialogue": "泣くぞ！全力で！うわあああ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "unfair",
+      "screen_effect": "dialog_shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ハハハハ！かわいいね、小さなチビッ子よ。\\名前を奪うと？\\ああ、好きなようにしなさい…",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "泣かれても困ります…",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "お前が私に勝つことは無いと思うが、覚えておけ。\\私を殺した瞬間、お前は《運命の渦》に巻き込まれるだろう。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "チリが積もったところで所詮は、チリの塊なんだよ！どんだけ働いたってコンビニのバイト代じゃ、たかが知れてる…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "unfair"
     },
     "14": {
       "type": "talk",
-      "dialogue": "悪魔を殺した悪魔は畏敬の対象となり、同時に標的となるだろう。安らかな暮らしとはお別れという事だ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "だけど、チャイルドたちを養うためには働かなきゃならない…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "15": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c311_00",
-      "speaker": "none"
+      "dialogue": "そもそも…\\チャイルドが増えて負担になるのであれば、強い者だけを残して弱いチャイルドは処分すれば良いではありませんか。",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "話が長いですよ、師匠。さぁ、始めましょう。",
-      "char": "keep",
-      "speaker": "none",
-      "one_ani": "attack"
+      "dialogue": "処分…？\\何だよ、それ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "facial": "shock",
+      "screen_effect": "dialog_shake"
     },
     "17": {
       "type": "talk",
-      "dialogue": "",
-      "char": "none",
-      "speaker": "none",
-      "mvd": "effect/battle/sfx_atk_skill_drive_dark_c311.mvd"
+      "dialogue": "チャイルドを処分するだと？\\そんなこと、できるわけないだろ！？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
     },
     "18": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "他の悪魔も、そんな酷いことをやるのかよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake"
     },
     "19": {
       "type": "talk",
-      "dialogue": "今から私が《ケプリ》です。\\あなたを倒し、名前を引き継ぎましたから。",
-      "background": "bg188_f",
-      "char": "c311_00",
-      "speaker": "same_full",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+      "dialogue": "やります。当然のことですよ。\\それとも、このまま役に立たない弱いチャイルドのために苦労するつもりですか？",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "もう返事などできないと思いますが…",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "だから…\\あ～もういい。もし俺が魔王になったらチャイルドを処分するの禁止にするからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
     },
     "21": {
       "type": "talk",
-      "dialogue": "そうですね、何故私がこのような事をしたか、\\説明しておきましょう。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "フッフッフッ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "22": {
       "type": "talk",
-      "dialogue": "それに、この結果に納得がいかないのでしょう？\\しかし、これはとても合理的で妥当な結果です。",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "リ、リザ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "23": {
       "type": "talk",
-      "dialogue": "弱点の排除…と言えばわかりますか？",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "素敵ですね。チャイルド処分禁止令。\\御主人様は、魔界史上、最も心優しい魔王として語り継がれることでしょう。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "pretense"
     },
     "24": {
       "type": "talk",
-      "dialogue": "私の過去を知り、弱さを知り、ただ高みから私を見下ろす存在。",
+      "dialogue": "そして、歴代最悪の魔王だとも…\\まぁ、魔王になれたらの話ですが…",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "distance": "near",
+      "facial": "serious"
     },
     "25": {
       "type": "talk",
-      "dialogue": "あなたという悪魔が私を上から見下ろしている限り、私は永遠に可憐でかわいい存在から抜け出せないのです。",
+      "dialogue": "御主人様を探し出すまでにかかった15分16秒は、本日の休憩時間から引いておきます。\\さぁ、行きましょう。",
       "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
+      "speaker": "same",
+      "pos": "center",
+      "facial": "idle"
     },
     "26": {
       "type": "talk",
-      "dialogue": "最後の授業は合格ですか？\\それだけはあなたの口から聞きたかったですが…",
+      "dialogue": "それでは、ルイン様。ごきげんよう。",
       "char": "keep",
-      "speaker": "same_full"
+      "speaker": "same",
+      "pos": "center",
+      "facial": "smile",
+      "after_effect": "go_to_left_point"
     },
     "27": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "keep",
-      "speaker": "same_full"
+      "dialogue": "うわわわ…！\\リザ、引っ張るな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "before_effect": "go_to_left_point"
     },
     "28": {
       "type": "talk",
-      "dialogue": "さようなら、師匠。\\もう私は卒業です。",
-      "char": "keep"
+      "dialogue": "チャ…チャイルド処分禁止令…だと！？\\何をバカなことを考えているのだ…あのチビ猫め…",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "29": {
       "type": "curtain",
@@ -185,92 +239,136 @@
     },
     "30": {
       "type": "talk",
-      "dialogue": "師匠の言葉通り、悪魔を殺し名前を奪った私は悪魔の世界から異端視され、敬遠された。",
-      "background": "bg056_f",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "どうした、ルイン。元気がないようだが。",
+      "background": "bg024_f",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "31": {
       "type": "talk",
-      "dialogue": "関係ない。\\私は恥知らずで矛盾を繰り返し、自分の恥部を晒す\\悪魔を食って強くなるだろう。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ルーファス様。申し訳ありません。\\少し考え事をしていました…",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "魔王争奪戦が行われたのは、むしろ幸運。\\悪魔たちを<b>1つの場所に</b>集められるから。",
-      "char": "c311_01",
-      "speaker": "same"
+      "dialogue": "お前が考え事をするとは珍しいな。何かあったのか？",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "悪魔として生まれたなら、その義務を果たしなさい…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "いえ…ただ、奴の悪魔らしからぬ発言が理解できなくて……",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "34": {
       "type": "talk",
-      "dialogue": "何があっても諦めない事。\\中途半端な者たちはやがて取り残されるだろう。\\そう仰いましたよね。師匠…",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "チビ猫のことか。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "そんな事を言う者たちが群れを作り、魔界に集まって住んでいると？",
+      "dialogue": "確かに、他の候補生たちとは随分と毛色が違うな。",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "なんて矛盾…",
+      "dialogue": "…ルイン。\\もしや、ヤツに惑わされたのか？",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "悪魔たちはもうすぐ滅ぶでしょう。\\今まで生きていたのが不思議。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "まさか！\\何をおっしゃいますか、ルーファス様！\\そんなことは絶対にありません！！",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
     },
     "38": {
       "type": "talk",
-      "dialogue": "すべてを殺し、噛み切り、飲み込んで、\\1匹残らず滅ぼしてやろう。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "ふふ、そう向きになるな。\\お前の忠誠心を疑ってはいない。",
+      "char": "c024_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "39": {
       "type": "talk",
-      "dialogue": "私は誰にも依存せず、独り歩む。",
+      "dialogue": "だが…\\お前が悩むのも無理はない。",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "40": {
       "type": "talk",
-      "dialogue": "すべての悪魔を殺し、殺し、殺して最後の1人になった瞬間、証明される。",
+      "dialogue": "ヤツは悪魔のくせに魔界を嫌い、人間界を好む変わり者だ。",
       "char": "keep",
-      "speaker": "same"
+      "speaker": "same",
+      "pos": "right"
     },
     "41": {
       "type": "talk",
-      "dialogue": "最も悪魔らしい悪魔はこの私だと！",
+      "dialogue": "魔王争奪戦の候補生となったのもヤツの意思ではないと聞く。",
       "char": "keep",
       "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "right"
     },
     "42": {
       "type": "talk",
-      "dialogue": "弱く、さすらうだけの悪魔に過ぎなかった\\このケプリが、悪の中の悪であると！",
+      "dialogue": "だが全くやる気がないのかと思えば、そうでもない…一体、何を考えているのやら。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "何かと興味の尽きない男だが…\\しかし、ヤツは魔界を治める器ではない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "ルイン。お前は引き続き人間界で、魔王争奪戦の情報を集めてくれ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "情報は、この戦いで勝利を収めるための鍵だ。\\お前の働きに期待しているぞ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "はっ！",
+      "char": "c292_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "ルーファス様の御心のままに。",
       "char": "keep",
       "speaker": "same",
       "distance": "near",
-      "screen_effect": "dialog_shake"
+      "one_ani": "attack"
     },
-    "43": {
+    "48": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

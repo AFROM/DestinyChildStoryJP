@@ -2,310 +2,333 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "そいつは何だい、お嬢ちゃん？",
-      "background": "bg041_f",
-      "bgm": "20",
-      "char": "c299_01",
-      "speaker": "same"
+      "dialogue": "……",
+      "background": "bg136_f",
+      "bgm": "24",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "わたあめ！モナ姉さまが買ってくれたの！",
-      "char": "c003_01",
+      "dialogue": "……！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "joy"
+      "pos": "left",
+      "facial": "pretense",
+      "before_effect": "shake_weak"
     },
     "3": {
       "type": "talk",
-      "dialogue": "へえ、美味しそうだねぇ。\\ところで…それってもう口を付けちゃった？",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "光を背にして尾行すると影が長くなる。\\そんなことも知らんのか？",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ううん、まだだよ！\\もったいないからガマンしてるの。",
+      "dialogue": "…バレちゃったみたいだよ、ご主人。",
       "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "cry"
     },
     "5": {
       "type": "talk",
-      "dialogue": "そいつは良かった。病気にかかるところだったぞ。",
-      "char": "c299_01",
+      "dialogue": "し、静かに…！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "sigh",
+      "screen_effect": "dialog_shake"
     },
     "6": {
       "type": "talk",
-      "dialogue": "病気？モナ姉さまのくれるわたあめは汚くないもん！",
+      "dialogue": "静かにしたって無駄だよ。だってもうバレてるもん。",
       "char": "c003_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "facial": "cry"
     },
     "7": {
       "type": "talk",
-      "dialogue": "そうじゃないよ。お嬢ちゃんはバカだなあ。\\人間界の空気がどれだけ汚いか知ってるかい？",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "人間界の空気は、悪魔には猛毒なんだぞ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "だ、ダビは何ともないけど…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "気づかないだけさ。君の体の中には\\人間界の瘴気が少しずつ溜まってるんだ。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "その瘴気が血管を伝って、臓器の隅から隅までめぐりやがて、そいつが脳に到達すると…！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "ど、どうなるの？病気になっちゃうの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "そうさ。悪魔だって病気になるんだ。\\ま、病気になっても、すぐに死ぬわけじゃないが…",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "えぇ…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "でも人間界の病気には薬もないんだ。\\徐々に…苦しみながら…",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "最後は骨と皮だけになって、息を引き取るんだ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "ひいっ！\\ど、どうすればいいの？",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "before_effect": "shake"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "一番いいのは、洗って食べること。\\鼻から入った瘴気は吐き出せば出て行くけど",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "口から入った瘴気は、肺に溜まってしまうんだ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "そ、それじゃ、このわたあめも…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "うん、きれいに洗って食べるんだ。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "うん！サンタのおじさん、ありがとう！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "smile"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "…次からは「お兄さん」って呼びな。",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "24": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "サンタ！あんにゃろーどこにいるの！？\\うわああん！",
-      "background": "bg086_f",
-      "bgm": "4",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry",
-      "screen_effect": "dialog_shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "サンタ先輩？なんだ、どうした？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "ダビのわたあめぇ！うわああん！えーん！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "cry"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…わたあめ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ダビのわたあめが消えちゃった！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "fury",
-      "screen_effect": "dialog_shake"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "…横取りされた、とか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "違うの！ダビにウソついたんだよ！\\わたあめを洗って食べろって…",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "ブッ。\\わたあめを水で洗ったのかよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "わ、笑うな！バカぁ！このウスラトンカチ！",
-      "char": "c003_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "痛っ！なんで殴るんだよ！",
+      "dialogue": "コラ！黙ってろってば！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused",
       "before_effect": "shake"
     },
-    "35": {
+    "8": {
       "type": "talk",
-      "dialogue": "サンタのせいだもん！\\見つけたらただじゃおかないから！うわああん！",
+      "dialogue": "まったく、面倒なヤツらだな。なぜ俺に付きまとう？",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "コソコソと付け回されるのは好きじゃない。\\攻撃の意思があると、判断していいのか？",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ちょっと、すっごく怒ってるじゃん！\\ご主人、早く土下座して謝ってよ！",
       "char": "c003_01",
       "speaker": "same",
+      "distance": "near",
+      "facial": "cry",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "あのね、デュランダルさん！\\ダビたちは戦いたいわけじゃないの！\\実は…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "facial": "cry"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ダビ！ペラペラ喋るんじゃない！\\お前にはプライドがないのか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "プライドなんて死んじゃったら意味ないじゃん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "cry",
+      "one_ani": "attack"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "死ぬ前提で話すな！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "デュランダルさん、殺さないで～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "cry",
+      "before_effect": "shake"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "…別に殺そうとは思っていない。\\で、何の用だ。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "仲良くなりたくて付いて来た、わけではあるまい？",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "え、えっと～付いて来たっていうか～\\偶然同じ道を歩いてたっていうか～…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "before_effect": "shake_weak"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "ご主人、正直に言っちゃいなよ。\\デュランダルさんが何考えてるか分かんないから、\\監視してたって。",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "cry"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "ダビ！余計なこと言うなよ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "なるほど…\\俺を疑っていたのか。裏切りの心配はないと言ったはずだが…",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "確かに言われたけど…\\でも、なんていうか、こう…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "はぁ…\\回りくどい話は好きじゃない。はっきり言ってくれ。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "うーん…\\信じたいっていうか、信じたくないっていうか、でも信じられるっていうか、信じられないっていうか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "irritation"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c289_01",
+      "speaker": "same",
+      "pos": "center",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "わかったわかった！はっきり言う！！\\お前の言うことがどこまで本気なのか分からなくて、尾行して見張ってたんだ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "shock",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "フン、杞憂だな。\\俺たちがルーファス様の命令に背くことはない。",
+      "char": "c289_00",
+      "speaker": "same_full",
       "pos": "right",
-      "facial": "fury",
-      "after_effect": "go_to_right_point"
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start",
+      "mvd_pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ルーファス様は、お前を魔王の後継者として認め休戦することにした。だから俺たちはそれに従う。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "だが、もしお前がルーファス様を疑うのであれば放ってはおかん。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "center",
+      "distance": "near"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "…お前って見るからに強そうなのに、なんで魔王の座を狙わないんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "お前くらいの悪魔なら、ルーファスにだって勝てるかもしれないのに。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "フッ。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "鼻で笑われた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "お前はルーファス様の実力を知らない。恐らく、その能天気な性格が目を曇らせているんだろう。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "魔王争奪戦など何の意味もない。魔界を統治するのはルーファス様だ。それ以外の未来などない。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "何なんだよ、一体…",
+      "dialogue": "言い切るのかよ…\\だけど魔王争奪戦には予想外のことが起こったりするだろ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "confused"
     },
     "37": {
       "type": "talk",
-      "dialogue": "よっと。サキュバスのお嬢ちゃん、もう行ったか？",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "dialogue": "仮に予想外のことが起こったとしても、俺が責任を\\もって対処する。",
+      "char": "c289_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "38": {
       "type": "talk",
-      "dialogue": "先輩ですか…\\わたあめを洗えだなんて教えたのは？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ルーファス様を魔王に擁立する。それが俺たちの使命であり、存在意義だ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "39": {
       "type": "talk",
-      "dialogue": "はは、これだから子供はいいよなぁ。\\次はどう、からかってやろうか…",
-      "char": "c299_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "デュランダルは、ルーファスの命令に従って俺たちに干渉するのを止めた。それは一時的な休戦に過ぎないが、必要であればデュランダルたちの力を借りてもいいらしい。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "40": {
       "type": "talk",
-      "dialogue": "先輩もなかなか子供ですね…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "dialogue": "今回の尾行の目的は、デュランダルがどんな悪魔なのか知ることだった。だけど、結局、それは叶えられなかった。だって俺には到底、理解できない。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "41": {
+      "type": "talk",
+      "dialogue": "デュランダルの本心とルーファスへの忠誠心。\\そして、彼らのキズナの強さを…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

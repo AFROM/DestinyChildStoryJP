@@ -2,95 +2,33 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "はっはっはっ！\\予想はしておったが、\\ここまで来るとはのう。",
-      "background": "bg159_f",
-      "bgm": "23",
-      "char": "c257_01",
+      "dialogue": "It is not enough for this level ...\\More... more burning agony!",
+      "background": "back_dim50",
+      "bgm": "keep",
+      "char": "m051_01",
       "speaker": "same",
+      "distance": "near",
       "screen_effect": "dialog_shake",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "400603001"
+      "voiceid": "900201015"
     },
     "2": {
       "type": "talk",
-      "dialogue": "さすが、現役魔王候補生というべきか？\\実はのう…\\途中で帰ると思っておったわい。 ",
-      "char": "keep",
+      "dialogue": "It looks like it won't be easy.\\It looks like normal attacks will be useless.",
+      "char": "c002_01",
       "speaker": "same",
-      "voiceid": "400603002"
+      "pos": "left",
+      "facial": "angry",
+      "voiceid": "900201016"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ここまできた魔王候補生のために、\\<color=ff9900>《約束した報酬》</color>を渡そう！",
-      "char": "keep",
+      "dialogue": "Leave it to me!",
+      "char": "c003_01",
       "speaker": "same",
-      "voiceid": "400603003"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "…何じゃその目は。\\何か言いたげじゃな。\\少し補足するかのう。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400603004"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "アンダーグラウンドの奥に進むほど\\<color=ff9900>《沢山の報酬》</color>を出すつもりじゃ。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near",
-      "voiceid": "400603005"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "おぬし、さっきまで帰ろうとしておったろ？",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400603006"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "えっ…",
-      "char": "c000_01",
-      "pos": "left",
-      "distance": "near",
-      "facial": "shock",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd",
-      "voiceid": "400603999"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "よせよせ、\\そんな表情やめてくれ。 ",
-      "char": "c257_01",
-      "speaker": "same",
-      "voiceid": "400603007"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "我らは魔王候補生の実力を\\直接見る機会は無いからのう。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400603008"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "半人前の悪魔たちの\\手本となってくれるとうれしいのぅ。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400603009"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "さあ、鍵はおぬしが持っている。\\気に入ったところを選択してくれ。",
-      "char": "keep",
-      "speaker": "same",
-      "voiceid": "400603010"
-    },
-    "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "pos": "right",
+      "facial": "idle",
+      "one_ani": "attack",
+      "voiceid": "900201017"
     }
   }
 }

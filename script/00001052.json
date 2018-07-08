@@ -1,22 +1,17 @@
-{
+﻿{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "僕が治める魔界は楽しいよ。\\君たちのような弱者にとっては地獄だけどね…！\\アハハハ、ハッハハハハ…！",
-      "background": "back_red",
-      "bgm": "keep",
-      "char": "c224_01",
-      "speaker": "same_full",
-      "one_ani": "attack",
-      "voiceid": "900201025"
+      "dialogue": "<color=\"ff9900\">同じチャイルドを合成</color>して<color=\"ff9900\">最大レベル</color>を上げられます。",
+      "background": "back_dim50",
+      "char": "none",
+      "speaker": "none"
     },
     "2": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "longest",
-      "wait": "longest",
-      "fade_in": "longest",
-      "hold": "shorter"
+      "type": "talk",
+      "dialogue": "<color=\"ff9900\">合成に使用されたチャイルドは消えてしまうので</color>注意してください。",
+      "char": "none",
+      "speaker": "none"
     }
   }
 }

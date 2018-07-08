@@ -2,355 +2,350 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "神よ、どうか私の祈りに応え給え。\\とこしえの平穏を与え給え。",
-      "background": "bg059_f",
-      "bgm": "15",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "ねぇねぇルナ！\\ルナはどうしてご主人と契約したの？\\他の候補生たちは、ご主人のこと信頼できない悪魔\\だって言ってるよ？",
+      "background": "bg122_f",
+      "bgm": "9",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "twinkle"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "う～ん…\\信頼できないってどういうこと？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "idle"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あ、シスターミア。",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "心を開いて相談できる相手じゃないって意味ですよ。つまり、信じられるの反対。",
+      "char": "c321_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "ごめんなさい。\\シスターロゼッタの礼拝を邪魔したようですね。",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "そうなんだ～\\そしたら、ご主人は信頼できない悪魔なの？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "いいえ。\\ちょうど礼拝を終えようとしていたところです。\\シスターミアも礼拝に？",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "left"
+      "dialogue": "いいえ。",
+      "char": "c321_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "いいえ…シスターロゼッタに会いたくて…\\最近、気分はいかがですか？",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "絶対に違いますよ。絶対に…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
     },
     "7": {
-      "type": "talk",
-      "dialogue": "神様が与えてくださった平穏が私の中で\\満ちあふれています。",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "そうですか。本当にありがたいことですね。",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "そうですね。",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "…",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "シスターミア…\\何か話したいことでもあるのですか？",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "シスターロゼッタ。",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "どうして急に私の手を…",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "シスターロゼッタにどうしてもこの言葉を伝えたかったのです。",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "あなたは1人ではありません。\\神がロゼッタと共にあらんことを。",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そして私も毎日シスターのことを祈っています。",
-      "char": "keep",
-      "speaker": "same_full",
-      "distance": "near"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "シスターミアは天使のような方ですね。\\私もいつもシスターのことを祈っています。",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "シスターロゼッタ…",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "left"
-    },
-    "19": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
-      "fade_in": "normal"
+      "fade_in": "longest"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "bg122_f",
+      "fade_out": "shorter",
+      "wait": "shortest",
+      "fade_in": "longer",
+      "screen_effect": "gray",
+      "char": "c000_01"
+    },
+    "9": {
+      "type": "curtain",
+      "background": "keep",
+      "fade_out": "shorter",
+      "fade_in": "longer",
+      "screen_effect": "gray",
+      "char": "c000_01"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "お、起きたか？\\こんにちは、ルナ。",
+      "background": "bg122_f",
+      "char": "keep",
+      "speaker": "same",
+      "facial": "confused",
+      "screen_effect": "gray",
+      "mvd_post_effect": "posteffect_radial_blur"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "《ルナ》…？それが私の名前ですか？\\何か変な感じがします。",
+      "char": "c321_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray",
+      "mvd_post_effect": "posteffect_radial_blur"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ん？契約した時の記憶が消えたのか？\\そいつは困った…\\",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "screen_effect": "gray",
+      "mvd_post_effect": "posteffect_radial_blur"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "え～と…君は、だから…\\あ、あ、悪魔の…使い魔になった。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "screen_effect": "gray",
+      "mvd_post_effect": "posteffect_radial_blur"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "悪魔…使い魔…？",
+      "char": "c321_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray",
+      "mvd_post_effect": "posteffect_radial_blur"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "そういえば…\\ぼんやりと、そんな説明を聞いた覚えがあります。\\でも、その時の私ってこんな姿でしたか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "gray",
+      "mvd_post_effect": "posteffect_radial_blur"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "これは…\\最初から説明したほうが早そうだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "screen_effect": "gray",
+      "mvd_post_effect": "posteffect_radial_blur"
+    },
+    "17": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longer",
+      "wait": "normal",
+      "fade_in": "longest"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "それで、悪魔に追われていた私の本体…？\\契約者を助けるために契約した、ということでしょうか？",
+      "background": "bg154_f",
+      "char": "c321_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "でも、契約すると何か変わるんですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "シスターロゼッタはとても元気です。\\もう心配しなくて良いと思いますよ。",
-      "background": "bg114_f",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "そうだな、ルナの契約者を《守るための言い分》が手に入った。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "21": {
       "type": "talk",
-      "dialogue": "本当にそうだったら良いのですが…",
-      "char": "c056_01",
+      "dialogue": "こいつは俺の契約者だからちょっかい出すな！\\みたいな感じの…",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "22": {
       "type": "talk",
-      "dialogue": "何か気になることでもありますか？",
-      "char": "c056_00",
-      "speaker": "same_full",
+      "dialogue": "つまり、あなたのシモベになった代わりに、他の悪魔の勧誘から守ってくれるということですね。",
+      "char": "c321_01",
+      "speaker": "same",
       "pos": "right"
     },
     "23": {
       "type": "talk",
-      "dialogue": "そういうことじゃないわ。\\ただ…",
-      "char": "c056_01",
+      "dialogue": "でも、そんな面倒な事をするほど私の魂に価値があるのでしょうか？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "24": {
       "type": "talk",
-      "dialogue": "ただ…？",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "君の魂の価値？\\十分あるよ。その魂が強いチャイルドになるかは別の話だけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "いえ。とにかくマアトの契約者が求めていた安らぎを見つけられたのなら、それでいいのです。",
-      "char": "c056_01",
+      "dialogue": "悪魔のくせして、こんなこと言うのもアレだけど…\\人間は自分の魂の評価が低すぎるんだよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "26": {
       "type": "talk",
-      "dialogue": "心配しないでください。\\神様がいつも見守っていてくださいます。",
-      "char": "c056_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "悪魔には魂が無いから、俺が価値を語るのも可笑しな話だけど。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
     },
     "27": {
       "type": "talk",
-      "dialogue": "どうか神よ、ミアをお見守りください。",
-      "char": "c056_01",
+      "dialogue": "魂が…無いんですか？",
+      "char": "c321_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "28": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "うん。魂のような物はあるけど、人間のような魂は持ち合わせていない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "29": {
       "type": "talk",
-      "dialogue": "こんにちは、ロゼッタ。気分は良さそうですね。",
-      "background": "bg059_f",
-      "bgm": "59",
-      "char": "c360_01",
+      "dialogue": "だから悪魔たちは魂が欲しくて人間にちょっかいを出すんだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "30": {
       "type": "talk",
-      "dialogue": "ああ、私の祈りに応えてくれたのですね！",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
+      "dialogue": "君の契約者が俺に助けを求めた。\\無視することもできたけど、無理なお願いでもなかったし、俺にも得するものがあったから。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
     },
     "31": {
       "type": "talk",
-      "dialogue": "うふふ。あなたの祈りがどんなに耳をくすぐったか…怠け者の私が結局来てしまいました。",
-      "char": "c360_01",
+      "dialogue": "だから俺は助けた。ただ、それだけの話さ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "32": {
       "type": "talk",
-      "dialogue": "と言っても…\\あなたの祈りならいつでもお応えしましょう。",
+      "dialogue": "だから、負担に感じる必要はないよ。\\それじゃあ、この話はここで終わり！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "smile"
     },
     "33": {
       "type": "talk",
-      "dialogue": "ああ、我が神よ…",
-      "char": "c049_00",
-      "speaker": "same_full",
+      "dialogue": "こんな思いをさせておいて、負担に感じる必要がないなんて…",
+      "char": "c321_01",
+      "speaker": "same",
       "pos": "right"
     },
     "34": {
       "type": "talk",
-      "dialogue": "ロゼッタ…本当に私で良いのですか？\\私があなたの神になっても…？",
-      "char": "c360_01",
+      "dialogue": "大丈夫だって！\\さあ、グズグズしてないで行くぞ～",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "joy"
     },
     "35": {
       "type": "talk",
-      "dialogue": "どういうことですか？あなたは私の永遠の救世主。\\我が母であり、私の安息地です。",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "うちのサポーターと他のチャイルドたち、近所の住民にその他大勢、紹介しておかないとな！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "36": {
       "type": "talk",
-      "dialogue": "あなたに見捨てられたら私は生きていけません！\\ああ…私を地獄の一番深い穴に放り投げてしまう\\おつもりですか？",
-      "char": "keep",
-      "speaker": "same_full",
+      "dialogue": "私をそんなに簡単に信じても良いんですか？",
+      "char": "c321_01",
+      "speaker": "same",
       "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "落ち着いてください、ロゼッタ。\\絶対にあなたを見捨てたりしません。\\あなたは…あなたは私の最初の創造物ですから。",
-      "char": "c360_01",
+      "dialogue": "えっ？信じちゃダメなの？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
     },
     "38": {
       "type": "talk",
-      "dialogue": "私はあなたの願いから生まれましたが、\\その願いすら私を縛り付けることなどできません。",
-      "char": "keep",
+      "dialogue": "そ、そういうわけでは…",
+      "char": "c321_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "39": {
       "type": "talk",
-      "dialogue": "私はあなたの理想郷。あなたのサンクチュアリ。\\あなたの偶像。あなたが求めたすべて。",
-      "char": "keep",
+      "dialogue": "ルナの契約者も時々だけど、様子を見るよ。\\この約束はサポーター達には秘密な？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "40": {
       "type": "talk",
-      "dialogue": "あなたは私を崇拝し祈ることで\\あなたの理想に向けて少しずつ近づけるでしょう。",
+      "dialogue": "人間とはあまり関わりたくないんだ。\\正体がバレるかもしれないし…",
       "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "41": {
       "type": "talk",
-      "dialogue": "だから私はあなたの創造主。私たちは永遠にひとつ。アルファでありオメガなのです。",
+      "dialogue": "悪魔だなんて偉そうにしてるけど、俺は自分のこともまともにできなくて…",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "irritation"
     },
     "42": {
       "type": "talk",
-      "dialogue": "ああ…あなたのお言葉は霊薬の如し。\\あなたのお声をもっとお聞かせください。",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "right"
+      "dialogue": "とにかく！\\俺たちはもう、運命共同体のようなものさ。\\これからよろしくな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "43": {
       "type": "talk",
-      "dialogue": "憐れな我が魂よ。あなたを祝福します。\\私のもとで永遠の安息を。",
-      "char": "c360_01",
+      "dialogue": "運命…共同体…\\良いですね。こちらこそ、よろしくお願いします。",
+      "char": "c321_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "44": {
       "type": "talk",
-      "dialogue": "あら…地獄の悪臭を感じます。\\あなたの魂を狙う悪魔がここに来たようですね。",
+      "dialogue": "これからはアナタのシモベとして、その身をお守りします。",
       "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "distance": "near",
+      "one_ani": "attack"
     },
     "45": {
-      "type": "talk",
-      "dialogue": "面倒な悪魔…退魔のお祈りでも覚えようかな～？\\そうしたら地獄に送ってあげれるでしょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "46": {
-      "type": "talk",
-      "dialogue": "そんな…\\再契約してから悪魔と関わらないようにしてたのに…",
-      "char": "c049_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "47": {
-      "type": "talk",
-      "dialogue": "心配しないで、ロゼッタ。あなたは私のもの。\\誰もあなたの魂を奪うことなどできません。",
-      "char": "c360_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "48": {
-      "type": "talk",
-      "dialogue": "私の後ろに下がっていなさい。\\私があなたの槍となりましょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "49": {
-      "type": "talk",
-      "dialogue": "これは聖戦です。\\あなたの魂を守るための聖なる戦いなのです。",
-      "char": "keep",
-      "speaker": "same",
-      "distance": "near"
-    },
-    "50": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

@@ -2,208 +2,252 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "やることはそんな多くないわ。\\ただマンモンのご機嫌をとればいいだけよ♥",
-      "background": "dungeon_bg",
-      "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ニャン！ホルル！\\どうして私について来るの？",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c274_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "他人のご機嫌をとるのは難しいことではありません。",
-      "char": "c277_01",
+      "dialogue": "もう我慢できない！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "screen_effect": "dialog_shake"
     },
     "3": {
       "type": "talk",
-      "dialogue": "魔界でアルバイトをしていた時も\\社長のご機嫌とりが私の仕事でしたから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "それじゃ、ヨロシク♥",
-      "char": "c001_01",
+      "dialogue": "おい、いつまでイラついてるつもりだ？",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "right"
     },
+    "4": {
+      "type": "talk",
+      "dialogue": "ご主人様のお言葉さえなかったら、ホルルはとっくの昔にあの世行きだよ！",
+      "char": "c274_01",
+      "speaker": "same"
+    },
     "5": {
+      "type": "talk",
+      "dialogue": "あの世ってどの世だ？\\まったく、知能の低いヤツとは話にならないな。",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "そのくらいにしとけ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "ニャーン！\\子猫ちゃんは一体、どっちの味方？",
+      "char": "c274_01",
+      "speaker": "same",
+      "distance": "near",
+      "screen_effect": "dialog_shake"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "子猫ちゃんって俺のことか！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "私の味方じゃないなら他のとこに行って！",
+      "char": "c274_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "他のとこって…ここは俺の家だぞ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "serious",
+      "screen_effect": "dialog_shake"
+    },
+    "11": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
-    "6": {
-      "type": "talk",
-      "dialogue": "あんなに自信満々に言ったのに…",
-      "background": "bg086_f",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "おお、お前が我が下僕か？\\フフ…気に入った！",
-      "bgm": "20",
-      "char": "c180_01",
-      "speaker": "same"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "この仕事…嫌ですわ…",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "そう言うのも無理はないが…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "確か、自分なら心配いらないって言ってたような～",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "あんなタラコ唇相手だなんて聞いてませんわ。",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "12": {
       "type": "talk",
-      "dialogue": "この魅力的な我の唇を\\タラコと言ったか？",
-      "char": "c180_01",
+      "dialogue": "あら？ご主人さま、どうして外にいるのかしら～？\\あ、まさかモナのお迎えに？",
+      "background": "bg095_f",
+      "bgm": "9",
+      "char": "c001_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "right"
     },
     "13": {
       "type": "talk",
-      "dialogue": "ひゃっ！",
-      "char": "c277_01",
+      "dialogue": "そういうことに…しておいてくれ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "pos": "left",
+      "facial": "irritation"
     },
     "14": {
       "type": "talk",
-      "dialogue": "負けん気の強い女だな！ガハハ！\\気に入ったぞ！",
-      "char": "c180_01",
-      "speaker": "same"
+      "dialogue": "追い出されたんですね…\\ほんと、情けないご主人様。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
     },
     "15": {
       "type": "talk",
-      "dialogue": "ヤツの目にはいいように映ってるみたいで何よりだ…",
-      "char": "c000_01",
+      "dialogue": "自分の家から追い出される主人だなんて…\\今日こそ決着をつけましょう。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "facial": "sulky"
     },
     "16": {
       "type": "talk",
-      "dialogue": "こっちはよくありませんわ。\\あんなメタボ親父に仕えるなんて…",
-      "char": "c277_01",
+      "dialogue": "まずは御主人様の味方になってくれるチャイルドを全て招集して…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "こっちの事情も分かってくれ…\\綺麗な女性を連れてこなきゃ\\俺に従わないって言うし。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "やっと魔界での生活を終えて\\人間界に出て来れたと思ったのに…",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "そうよね…\\私の人生、何ひとつ上手くいかないわ…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "ガハハ！近う寄れ、レウケ。\\お前の注いだ酒が飲みたい！",
-      "char": "c180_01",
-      "speaker": "same"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "嫌ですわ。これじゃまるで…\\会食で気も利かず最後まで残って、",
-      "char": "c277_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "自分の仕事の自慢しかしない酒癖の悪い\\中年部長ではないですか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "本当によかったですね、ご主人さま♥",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "お前、喜びすぎだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "毎日のように愛の告白してたマンモンを\\突き放すなんて。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "モナにとっては彼のような男性に告白されるのは\\日常茶飯事ですので♥",
-      "char": "c001_01",
-      "speaker": "same"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "…だろうな。",
+      "dialogue": "寄ってたかってバストとホルスをリンチするのか！？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "serious",
+      "before_effect": "shake"
     },
-    "28": {
+    "18": {
       "type": "talk",
-      "dialogue": "近う寄れ！\\もっと近くで見たいものだ！うへへ。",
-      "char": "c180_01",
-      "speaker": "same"
+      "dialogue": "違います。\\それは、あのチャイルドたちには逆効果です。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
     },
-    "29": {
+    "19": {
       "type": "talk",
-      "dialogue": "やっぱりお金が全てですわ。",
-      "char": "c277_01",
+      "dialogue": "主人とチャイルドの立場を明らかにするのです。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "irritation"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "主人の立場を見せつけてどうする？\\そんなことしなくても、主人は俺だぞ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "そうでしょうか？\\このままでは、そのうち立場が逆転しますよ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "遠からずチャイルドが主人となり、主人がチャイルドとなる奇跡が起こるかもしれません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "奇跡！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "24": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "いつもいつもケンカばかりだな。",
+      "background": "dungeon_bg",
+      "char": "c267_01",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "ニャン…",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "おっと、また怒ってるのか？女王様！\\そんなに怒ってばかりいるとシワが増えるぞ。",
+      "char": "c266_01",
       "speaker": "same",
       "pos": "right"
     },
+    "28": {
+      "type": "talk",
+      "dialogue": "わざわざ《女王様》と呼ぶな！この無礼者めが。\\貴様の意地の悪さは世界一だな。",
+      "char": "c267_01",
+      "speaker": "same",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そうだよ！ご主人様は女王じゃなくてファラオだよ！バカホルル…",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "30": {
+      "type": "talk",
+      "dialogue": "毎日、人が嫌がることばかりして！\\ホルルは初めて会った時からダメ男だったんだから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "ハッハッハッ！\\悲しいな。ここには俺の味方はいないのか？",
+      "char": "c266_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "当たり前でしょ！\\私はずーっとご主人様の味方だもん！\\バカホルルになんて邪魔させないんだから！",
+      "char": "c274_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "33": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

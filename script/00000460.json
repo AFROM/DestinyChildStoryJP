@@ -2,243 +2,342 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "指みて！\\絆創膏だらけね。アナタ、お裁縫でもするの？",
-      "background": "bg014_f",
-      "bgm": "9",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "パッパラパー♪パパパパッパラパー♪",
+      "background": "bg086_f",
+      "bgm": "4",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "screen_effect": "dialog_shake",
+      "one_ani": "attack"
     },
     "2": {
       "type": "talk",
-      "dialogue": "しないわ。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "center",
+      "dialogue": "うっ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "じゃあ、どうしたのよ、その指。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "ここでティンパニーがドンドンドン。",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "これは…アーチェリーの練習してて。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "う…何だよ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "5": {
       "type": "talk",
-      "dialogue": "アーチェリー？あ、アナタのお兄さん、\\アーチェリー選手だったわよね。\\アナタも習ってるの？",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "弦楽器がジャジャーン、トランペット！パパパーン！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "6": {
       "type": "talk",
-      "dialogue": "そうじゃなくて…ただの…趣味っていうか…",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "う、うるさい…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "7": {
       "type": "talk",
-      "dialogue": "趣味？趣味にしては本格的ね。\\指がボロボロじゃない。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "クライマックス！パーパパーン！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "8": {
       "type": "talk",
-      "dialogue": "お兄ちゃんは毎日やってるし。",
-      "char": "c135_00",
+      "dialogue": "うるさいってば！何してるんだよ！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "9": {
       "type": "talk",
-      "dialogue": "お兄さんは選手で、アナタは趣味なんでしょ？\\そんなのやめて、今日は映画でも\\見に行きましょうよ。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "…クソ、クソ、クソ、クソ、クソー！このバカ悪魔！アンタのせいで今ひらめいたこと\\忘れちゃったじゃない！",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "ダメ、今日も練習しないと。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "夜中に何のつもりだ！\\お前のせいで眠れないだろ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
     },
     "11": {
       "type": "talk",
-      "dialogue": "趣味って言ったくせに。分かった、好きにして。",
-      "char": "none",
-      "speaker": "unknown1"
+      "dialogue": "やっぱり芸術の「げ」の字も分からない野蛮人は、\\救いようがないわね。",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "12": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "夜は創作と芸術の時間！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
     },
     "13": {
       "type": "talk",
-      "dialogue": "今日も練習…ああ！ヤダ！\\アーチェリーなんかどうにでもなれ！",
-      "background": "bg070_f",
-      "char": "c135_00",
-      "speaker": "same_full",
+      "dialogue": "陽が沈み、淡い月の光が輝く頃こそ\\芸術の感覚が研ぎ澄まされる…",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "やめるの？",
-      "char": "c135_01",
+      "dialogue": "はいはい、徹夜して作曲でも指揮でも\\何でもしてくれ。\\でもどうして俺の部屋なんだ？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "near"
+      "distance": "normal"
     },
     "15": {
       "type": "talk",
-      "dialogue": "…？アナタ、誰？",
-      "char": "c135_00",
-      "speaker": "same_full",
+      "dialogue": "それは…この部屋が一番集中できるからで…\\分からないわ、一体何が不満なのか。",
+      "char": "c130_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "そんな経ってないのに、もうやめちゃうの？",
-      "char": "c135_01",
+      "dialogue": "私のおかげで生涯聞けないかもしれない素晴らしい\\音楽をいつでも思う存分聞けるというのに…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "え？アナタ、知ってるの？私が何をしてるのか。",
-      "char": "c135_00",
-      "speaker": "same_full",
+      "dialogue": "感謝されてもされきれない…",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "そ、それは…\\アナタがアーチェリーの矢を持ってるから…",
-      "char": "c135_01",
+      "dialogue": "悪いけど俺は野蛮人だからクラシックなんか聞いても眠くなるだけだ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "19": {
       "type": "talk",
-      "dialogue": "そう？それじゃ、アーチェリーを始めて\\そんなに経ってないって\\どうして分かったの？",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "それに、俺の部屋にいると集中できるなんて。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "それは…関係ないでしょ。\\重要なのは、アナタがもう諦めようとしてることよ。",
-      "char": "c135_01",
+      "dialogue": "本当にそうなら、今頃俺は毎日クラシックを\\聴きながら優雅に指揮棒を振ってるだろうよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "アナタには関係ないでしょ。",
-      "char": "c135_00",
-      "speaker": "same_full",
+      "dialogue": "アンタみたいなちびっ子に、\\音楽の感性が理解できるのか？",
+      "char": "c130_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "22": {
       "type": "talk",
-      "dialogue": "そうね、私の知ったことじゃないわ。\\そうやってすぐ諦める程\\大事なことでもないみたいだし。",
-      "char": "c135_01",
+      "dialogue": "誰に向かってちびっ子だって？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "ち、違う…大事なことよ。\\でも、大変すぎるの。見て、この指。傷だらけよ。",
-      "char": "c135_00",
-      "speaker": "same_full",
+      "dialogue": "アンタは私にこの部屋を渡す義務がある。",
+      "char": "c130_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "どんなに力を使っても、弓を引けないの。\\弓の前じゃ、手も足もでないわ。",
+      "dialogue": "アンタのせいで、人生最高の作品を完成させる\\機会を逃したっていうのに。",
       "char": "keep",
-      "speaker": "same_full",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "25": {
       "type": "talk",
-      "dialogue": "初めからお兄ちゃんみたいな才能はないのよ。\\お兄ちゃんみたいに強くなるって思った私が\\バカだった。",
-      "char": "keep",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "どういう意味だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "26": {
       "type": "talk",
-      "dialogue": "お兄さんだって一度で弓を射たと思う？",
-      "char": "c135_01",
+      "dialogue": "アンタが私の契約者と契約した日、\\素晴らしい音楽がひらめいた。\\幻想のように楽譜が目の前に広がったの。",
+      "char": "c130_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "その人も、何百回も何千回も練習したから\\強くなれたのよ。",
+      "dialogue": "それなのに！その歌を思い出せない！",
       "char": "keep",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "28": {
       "type": "talk",
-      "dialogue": "…そうね。\\お兄ちゃんはいつも練習ばかりしてた。\\雨の日も、雪の日も、練習をやめなかった。",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "お兄さんの努力を認めるなら、ここで諦めちゃダメ。私が手を貸してあげるから、もう一度やってみて。",
-      "char": "c135_01",
+      "dialogue": "で、俺の部屋で忘れた音楽を思い出そうと？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "29": {
+      "type": "talk",
+      "dialogue": "そうよ。\\この部屋にはきっとアンタの精神が宿っている。\\だから、この部屋で作曲すれば\\きっと感覚を取り戻せるはず。",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
     "30": {
       "type": "talk",
-      "dialogue": "…ありがとう。\\あ、ところでアナタの名前は？",
-      "char": "c135_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "精神が宿ってるだなんて… 悪魔よりもっと悪魔らしい言い分だな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "31": {
       "type": "talk",
-      "dialogue": "それは後で…後で教えてあげる。",
-      "char": "c135_01",
+      "dialogue": "もしそのひらめきを取り戻したら、\\その時は部屋を返してくれるんだろう？",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "32": {
+      "type": "talk",
+      "dialogue": "…もちろん！こんな男臭い部屋は私もごめんだよ。",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "…はいはい。ところで、なんでお前は自分の作品に満足できないでいるんだ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "抜けだらけよ。\\楽譜を見るたびに自分でも呆れるくらい平凡な音楽。どうやってそれに満足しろっていうの？",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "私には確かに才能がある。\\その才能を絶対に無駄にはできない。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "私の契約者は自分の才能が何かも分からない、\\間抜けなヤツだけどね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "お前の契約者にもその言葉を聞いてほしい。\\間抜けっての以外は。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "よし。快く部屋を引き渡してくれたから、\\アンタのために歌をつくってあげよう。",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "いや、別に…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "遠慮するな。きっと気に入るよ。\\我が家の子犬は可愛い子～♪",
+      "char": "c130_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "one_ani": "attack"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "おい…だいぶ予想外の歌な気が…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "42": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

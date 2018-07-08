@@ -2,346 +2,265 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "うわあ…",
-      "background": "dungeon_bg",
-      "bgm": "19",
+      "dialogue": "なぁ！聞いたか？\\すごいチャイルドがいるって噂！",
+      "background": "bg048_f",
+      "bgm": "9",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "distance": "near",
+      "facial": "joy",
+      "after_effect": "shake"
     },
     "2": {
       "type": "talk",
-      "dialogue": "…紙くずだらけですね。",
-      "char": "c002_01",
+      "dialogue": "当然、私のことでしょう？",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "nonsense"
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "紙くずって…さすがに酷くないか？",
+      "dialogue": "ビンゴ！！\\だからこうして祝ってるんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sigh"
+      "facial": "joy",
+      "screen_effect": "dialog_shake"
     },
     "4": {
       "type": "talk",
-      "dialogue": "リザは呆れたように、\\部屋を埋め尽くしているラブレターを見渡した。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "よかったな、望み通り有名になれて。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
     },
     "5": {
       "type": "talk",
-      "dialogue": "とりあえず、このラブレターの主を…",
-      "char": "c000_01",
+      "dialogue": "私の望みは、有名になることじゃないわ。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "呼んだかしら、坊や。",
-      "char": "c065_01",
+      "dialogue": "何が違うんだよ？\\誰もが知る存在になりたかったんじゃないのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "いや、ちょうど呼ぼうとしてたとこ。\\さすがだな、このラブレター。\\お前の契約者が見たら、喜ぶんじゃないか？",
-      "char": "c000_01",
+      "dialogue": "これじゃ軽すぎるの。\\私の望みは、畏怖される存在になることだから。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "どうだっていいわ。\\契約者は契約者。\\あたしはあたしだもの。",
-      "char": "c065_01",
+      "dialogue": "でも…有名なら影響力も強くなるだろうし、あながち違うとも言い切れないわね。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…",
+      "dialogue": "存在するだけで畏怖される者、か…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "left"
     },
     "10": {
       "type": "talk",
-      "dialogue": "…それはいいとして、よく来てくれたわね。\\このゴミの量に、参ってたところなの。",
-      "char": "c065_01",
+      "dialogue": "それはさておき、ホントにすごいぞ。\\最近は悪魔達が戦う前に「メデューサはいるのか？」って聞いてくるんだ。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "facial": "idle"
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "shake"
     },
     "11": {
       "type": "talk",
-      "dialogue": "おいおい、お前までゴミ扱いかよ…\\あんなに愛されたがってたのに、\\愛されたらポイッか？",
-      "char": "c000_01",
+      "dialogue": "そう…\\でも、こんなのは第1段階に過ぎないわ。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "それはあたしの契約者の話でしょ？",
-      "char": "c065_01",
+      "dialogue": "第1段階…？\\じゃあ第2段階は？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "何度も言わせないで。あたしには関係ないわ。",
-      "char": "keep",
+      "dialogue": "魔王を目指すなら、よく聞いて。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "one_ani": "attack"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "…",
+      "dialogue": "支配者は、残酷と慈悲の両方を理解するべきなの。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そう言うなよ。\\…しかし、ホントにいっぱいあるよな。\\全部読むの、大変だったろ？",
-      "char": "c000_01",
+      "dialogue": "恐怖だけでは人を支配できないわ。\\かといって寛大さだけじゃ真に相手を感化させられない。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ふふ、まさか。読むわけないでしょ？",
-      "char": "c065_01",
+      "dialogue": "ということは、最初は恐怖、2段階目は寛大さか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "はあ？\\それなのに捨てるつもりなのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "sigh"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "ええ、どうせ「愛してる」だの「美しい」だの、\\薄っぺらい、お決まりの言葉が連ねられてるだけだもの。",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "お前な…\\たとえそうだとしても、もらったからには読めよ。\\片付けるのはそれからだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "嫌よ。\\時間の無駄でしょ？",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "…リザ、読み上げてやってくれ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "かしこまりました。\\…ですが、まさか、ここにある手紙を、\\全て読め…とはおっしゃいませんよね？",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "いいから早く。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "…はあ。\\「初めまして。これまで、あなたを見守って…」",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "…やめて。\\どういうつもりなの、坊や。",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "それはこっちのセリフだ。\\お前こそどういうつもりなんだ？\\お前にラブレターを出したやつらの気持ち、\\少しは考えたことあるのかよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "どうしてあたしがそんなこと考えなきゃいけないの？相手が勝手に書いただけでしょ？",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "なら、その言葉、\\手紙を寄越したやつらに直接言ってみろよ。\\「手紙なんていらない。\\こんな無駄なこと、二度とするな」…ってな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "angry"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "それは…",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "できないんだろ？\\嫌われるのが怖いから。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "near",
-      "facial": "angry"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "そ、そんなわけ…",
-      "char": "c065_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "shake"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "お前は自分の契約者が情けないって言ってたけど、\\俺はそうは思わない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "自分に向けられた愛情を弄ぶようなやつなんかより、ずっとマシだからな。",
+      "dialogue": "それじゃあ、これからは寛大な《メデューサさん》が見られるってわけか。",
       "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
+      "facial": "pretense"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "真面目に話を聞いてくれないうちは、2段階目には進めないわね。",
+      "char": "c064_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "これは、貴方にも関係ある話よ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "俺は別に、畏怖される存在になりたいわけじゃないからな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "魔王になりたくて、争奪戦に参加したんじゃないの？",
+      "char": "c064_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "…まあ、いいわ。\\あなたのやる気のなさはよく分かってるし。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "でも、もうひとつ。\\あまり優柔不断な態度を続けると、貴方の周りもそうなっていくわよ。\\責任を負えば負うほどね…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "貴方が以前言っていた、自らの意思とは関係なくチャイルドになってしまった子達のことよ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "その子達を、あまり不安にさせないようにね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "なぁ…\\お前の方が魔王に向いてるんじゃないか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "馬鹿なこと言わないで！",
+      "char": "c064_01",
+      "speaker": "same",
+      "distance": "near",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "うわっ！\\怒られてしまった…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "どう転んでも私は魔王になれないわ。\\だから私は、自分のやり方でこの世に君臨するの。",
+      "char": "c064_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "あなたも、常に集中することね。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "魔王にならなくていいわ。\\でも少なくとも、紙切れみたいに周りに振り回されるのはやめて頂戴。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "それも強い意志があってこそ出来ることだけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "目の前にいるチャイルドに振り回されてる俺なんかには、無理じゃないか…？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "cry"
     },
     "34": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c065_01",
+      "dialogue": "ふふ、私は例外よ。",
+      "char": "c064_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "idle"
+      "pos": "right"
     },
     "35": {
       "type": "talk",
-      "dialogue": "帰ろう、リザ。\\こいつが手紙を全部読み終わるまで、\\まだまだかかるだろうからな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "fury"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "…また、悪魔らしくないことを。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "facial": "serious"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "うるさい！\\じゃあな、エラト。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle",
-      "before_effect": "go_to_left_point"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "…まさか、坊やにあんなことを言われるなんて。\\いつまでも子供じゃないのね…",
-      "char": "c065_01",
+      "dialogue": "だって私は、伝説の怪物《メデューサ》なんだから。",
+      "char": "keep",
       "speaker": "same",
       "distance": "near"
     },
-    "39": {
+    "36": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

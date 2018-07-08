@@ -1,360 +1,372 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "魂のダンジョンに到着～♥",
-      "background": "bg199_f",
-      "bgm": "9",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "idle",
-      "one_ani": "attack"
+      "type": "curtain",
+      "background": "bg024_f",
+      "bgm": "13",
+      "fade_in": "normal",
+      "hold": "shorter",
+      "screen_effect": "dark"
     },
     "2": {
       "type": "talk",
-      "dialogue": "さぁさぁ、奥に進みましょうか？\\ご主人さま♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
+      "dialogue": "《解放されたマアト》は見たこともない力で\\黒いマアトを一気に制圧した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あぁ、ってあれ？コウガ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "黒いマアトは暗闇に侵食されるように完全に消えてしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…お待ちしておりました、ご主人様。",
-      "char": "c355_01",
+      "dialogue": "それじゃ、マアトの願いは叶った訳？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "こ、コウガ？どうしたんだよ、その恰好…\\新しく契約したのに、またコウガが出てくるなんて…",
-      "char": "c000_01",
+      "dialogue": "願いとは神が叶えるもの。\\この場合…そう、<b>超越</b>という表現が最も\\適切でしょうね。",
+      "char": "c360_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "あらあら、これはこれは…",
-      "char": "c001_01",
+      "dialogue": "それはともかく、準備運動もなしに戦ったから\\全身がだるいですね～",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "facial": "smile"
+      "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "モナ、どういうことなんだ？",
-      "char": "c000_01",
+      "dialogue": "温かいお風呂に入りた～い。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "8": {
       "type": "talk",
-      "dialogue": "これは、大変珍しい現象ですね♥\\ウワサには聞いていましたが、モナも見るのは初めてです。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "そうなのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "はい♥契約者とチャイルドが同じ願いを持って、\\再契約を行った場合、稀に元々いたチャイルドに、\\新たな力が宿ることがあるんですよ～",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "つまり、パワーアップですね♥",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "マジかっ！？\\しかし、俺の立場が…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "パワーアップは主人公の専売特許だろ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "ご主人さま…\\主人公を語るなら、もっと存在感を出してください。",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "sigh"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そ、それはまぁいい…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "で、どうだ、コウガ。実感とかあるのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "はい。身体が芯から熱くて…\\今なら、どのようなことでも出来そうです。",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "そうか。よかったな、コウガ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "smile"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "…それは、どうでしょうか。",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "コウガ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "な、何か、怒ってる…？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "何なの？ここ…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "center",
-      "one_ani": "attack",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "うわっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "なんでメイまで魂のダンジョンに来てるんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "私がここまで導きました。\\またメイを危険にさらされては困りますので。",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "また？\\それってどういうことだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "さて、どういうことでしょうね～♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "facial": "pretense"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "…その言い方、何か知ってるだろ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "隠しても無駄ですよ。\\先ほどの男性達にメイ達の居場所を教えたのは、\\あなたでしょう？",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "コウガ、それは誤解よ？",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "モナがご主人さまの悲しむようなことをすると思う？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "center"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "白々しい…\\メイを傷つける相手は、誰であろうと許しませんよ。",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "お、おい！二人ともやめろって！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "ご主人様は、この者を庇うのですか…\\ならば貴方もメイにとって害でしかありません。",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "コウガはそう言うと、俺達を睨みつけ、刀を抜いた…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "ご主人様、お覚悟！！",
-      "char": "c355_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "ま、待て、落ち着け、コウガ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "うわわわ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "go_to_left_jump",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "コウガ…？何して…",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "コウガは普段の落ち着いた様子が嘘のような勢いで、俺達に攻撃を仕掛けてくる。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "危ない！やめて、コウガ！",
-      "char": "c167_00",
-      "speaker": "same",
-      "pos": "center",
-      "before_effect": "shake"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "つっ…",
+      "dialogue": "《入りた～い》？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "43": {
+    "9": {
       "type": "talk",
-      "dialogue": "もう、誰かが傷付くのを見てるのはイヤ…",
-      "char": "c167_00",
-      "speaker": "same"
+      "dialogue": "あ、お風呂は私が先に入りますからね。\\そのつもりで～",
+      "char": "c360_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_left_point"
     },
-    "44": {
+    "10": {
       "type": "talk",
-      "dialogue": "今度は、守る！！",
+      "dialogue": "何、何？ちょっと待って！\\マアト！勝手に先に帰るなよ！\\あいつ、ロゼッタに見向きもせず…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "ごめんな、ロゼッタ。\\あんなに性格が変わるとは…",
       "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left",
+      "facial": "sigh"
     },
-    "45": {
+    "12": {
       "type": "talk",
-      "dialogue": "メイは俺を庇うように、\\コウガの前に立ちはだかった。",
+      "dialogue": "…大丈夫ですよ。",
+      "char": "c049_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "再契約後ロゼッタの魂は幸いにも安定を取り戻した。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "46": {
+    "14": {
+      "type": "talk",
+      "dialogue": "彼女は今まで自分を苦しめていた不安や混乱を\\もう感じないと言った。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "マアトが願いを叶えたため、今後の契約の可能性は\\事実上0%でしょう。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "しかし、他にも願いがあるはずです。\\もし、ありましたら遠慮なくおっしゃってください。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "もういいよ、リザ。\\こんな騒動を経験したのに、まだ営業かよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "これが私の仕事ですので。",
+      "char": "c002_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "マアトの願い…\\すなわち、欲望は私の欲望です。",
+      "char": "c049_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "感じられます。マアトが今、感じている安らぎを…\\まるで真理の光に出会ったような…",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "悪魔、あなたにはわからないでしょうね。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "あのな、ロゼッタさん。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "俺は今、感謝のお辞儀をしてもらってもいいぐらい\\なんだよ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "そうですね。本当に感謝しています。\\ありがとうございました、悪魔。",
+      "char": "c049_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "い、いや…\\別に、本当に頭を下げろということじゃ…\\なかったんだけどな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "before_effect": "shake"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "マ、マアトのやつ。\\本当に風呂を独り占めするつもりじゃないだろうな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "俺も、ものすごく疲れてるんだけど…\\はぁ…帰るか。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah",
+      "after_effect": "go_to_left_point"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "再契約の件は残念ですが、代わりにとっても心強い\\味方を得ましたね。\\なかなか良い結果でした～♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "それはもう少し様子を見ないとわかりませんよ？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "そんな怖い顔しなくても大丈夫よ、リザ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "モナ姉さま！ダビもお風呂で泡遊びしたいよ～",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "smile"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "そう？\\それじゃ久しぶりに温泉に遊びに行きましょうか？\\ご主人さまには秘密でね？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "ソレ、すごく良い！！",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "joy"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "私もちょうど…\\スケジュールが空いています。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "今、何か言ったかしら？リザさ～ん？",
+      "char": "c001_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "pretense"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "リザさ～ん？",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "smile"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "…もう戻りましょう。御主人様が呼んでいます。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious",
+      "after_effect": "go_to_left_point"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "一緒に行こうよ、リザさ～ん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "facial": "smile",
+      "before_effect": "go_to_left_point"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "ね～リザさ～ん♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "pretense",
+      "after_effect": "go_to_left_point"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "……",
+      "char": "c049_00",
+      "speaker": "same_full"
+    },
+    "41": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
-      "wait": "normal"
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "42": {
+      "type": "curtain",
+      "background": "e048_01_f",
+      "bgm": "59",
+      "fade_in": "normal",
+      "hold": "shorter"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "啓示を得ました。",
+      "char": "c049_00",
+      "speaker": "same_full"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "私は高い城の上に立ち、私の敵たちは槍と剣を持って城壁を囲んでいました。",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "力のない召使いは神の前に跪き叫びました。",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "46": {
+      "type": "talk",
+      "dialogue": "やがて雲を裂き、ラッパの音と共に\\天上の使者が降りて来ました。",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "47": {
+      "type": "talk",
+      "dialogue": "万物の守護者である彼女は槍を高らかに掲げ\\暗闇の軍勢に対し、その槍を振るいました。",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "48": {
+      "type": "talk",
+      "dialogue": "悪の群れは退けられ、天は開かれ、\\天使の歌声が響き渡りました。",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "49": {
+      "type": "talk",
+      "dialogue": "マアト。\\彼女は私の魂、私の分身。\\しかし私は彼女の姿から神を感じます。",
+      "char": "keep",
+      "speaker": "same_full"
+    },
+    "50": {
+      "type": "talk",
+      "dialogue": "マアトよ…\\あなたこそ私が待っていた《あの御方》なのですか？",
+      "char": "keep",
+      "speaker": "same_full",
+      "distance": "near"
+    },
+    "51": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

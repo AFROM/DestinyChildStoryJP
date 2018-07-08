@@ -1,11 +1,105 @@
-﻿{
+{
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ここまでついてきてくださった小さいご主人さまのために、\\モナが<color=\"ff9900\">イベントとプレゼント</color>を用意しました～♥",
-      "char": "c255_01",
+      "dialogue": "あのホルスってヤツ、何か妙だな。",
+      "background": "bg185_f",
+      "bgm": "25",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200206001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "うわ～ん、ヒジ擦りむいちゃったよ～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "cry",
+      "voiceid": "200206002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "デタラメに強いのに、なぜか俺たちにトドメを刺そうとしない。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200206003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "うえぇ～ん！アザもできちゃった～！\\ダビ、もうムダな抵抗はしない！だって怖いんもん！ううっ…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "voiceid": "200206004"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "それに、あの猫妖怪も変だ。\\ホルスをののしってはいても、結局はあいつに従ってる。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200206005"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "モナ姉さま～ダビを助けに来て～！\\これからは良い子にして何でも言うこと聞くから～！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry",
+      "before_effect": "shake",
+      "voiceid": "200206006"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "なんだ？この違和感…\\なかなか言葉にするのが難しい…",
+      "bgm": "9",
+      "char": "none",
       "speaker": "none",
-      "one_ani": "attack"
+      "screen_effect": "dark",
+      "voiceid": "200206007"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "おいダビ、静かにしろ！何か分かりそうなんだよ！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "sigh",
+      "voiceid": "200206008"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "分かりそうって何が？ムダだよ！\\ご主人の考えは、いっつも裏目に出てるじゃん！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "sad",
+      "before_effect": "shake_weak",
+      "voiceid": "200206009"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "ぐっ…考えようとしないヤツに言われたくない！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake",
+      "screen_effect": "none",
+      "voiceid": "200206010"
+    },
+    "11": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

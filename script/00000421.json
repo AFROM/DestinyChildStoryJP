@@ -2,149 +2,150 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "悪魔さん、少々よろしいですか。",
-      "background": "bg086_f",
-      "bgm": "14",
-      "char": "c101_01",
+      "dialogue": "みんなっ！いくぜっ～！\\ロックンロールベイべー！",
+      "background": "bg117_f",
+      "bgm": "4",
+      "char": "none",
       "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "またまた、眠りに落ちる直前に\\話しかけられるとは…\\デジャヴを感じるな…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "ロックンロールベイベー！\\イエェエェイ！イエェエェイ！",
+      "background": "bg099_f",
+      "char": "c099_00",
+      "speaker": "same_full",
+      "mvd": "ux/talk/efx_tv_blink.mvd"
     },
     "3": {
       "type": "talk",
-      "dialogue": "何？\\またお菓子が欲しいのか？",
+      "dialogue": "…ヒッ！",
+      "background": "bg086_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "idle"
+      "facial": "serious",
+      "before_effect": "shake_weak"
     },
     "4": {
       "type": "talk",
-      "dialogue": "…！！\\い、いただけるんですか？\\あっ、いえ、そうじゃなく…\\悪魔さん、今日は別件で来たんです。",
-      "char": "c101_01",
+      "dialogue": "どうしたんですか、マスター？",
+      "char": "c045_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near",
-      "before_effect": "shake"
+      "distance": "normal",
+      "before_effect": "enter_from_right_fast"
     },
     "5": {
       "type": "talk",
-      "dialogue": "うん、じゃあ何？",
+      "dialogue": "ああ…その…\\メルポメネと勘違いしたんだ。ふう。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
+      "facial": "sigh"
     },
     "6": {
       "type": "talk",
-      "dialogue": "悪魔さんは悪魔なのに\\どうして悪いことをしないんですか？",
-      "char": "c101_01",
+      "dialogue": "彼女はメルポメネじゃありませんよ。\\最近デビューしたアイドルの岡沢茉鈴(おかざわ まりん)です。",
+      "char": "c045_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "7": {
       "type": "talk",
-      "dialogue": "それって、俺にもっと悪いことをしろって\\言いたいの？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "dialogue": "アリアがテレビの画面を指差した。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "8": {
       "type": "talk",
-      "dialogue": "いいえ…あなたは変わってると言いたいんです、\\悪魔さん。",
-      "char": "c101_01",
+      "dialogue": "画面の中には、ステージの上でギターをかき鳴らす、メルポメネの契約者の姿があった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "ロック系でギター弾けちゃうアイドルなんですよ。\\カッコいいですよね。\\アリアもあんな風にすれば良かったなあ。",
+      "char": "c045_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "9": {
+    "10": {
       "type": "talk",
-      "dialogue": "変わってる…今ソファで寝ようとしてることが？\\普通は布団かベッドだもんな。",
+      "dialogue": "カッコいいけどさ。\\今までのアリアのスタイルと、\\ちょっと違う気がするぞ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "sulky"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "い、いえ。そこで悪魔さんが昼寝してる時、\\モナさんに小言を言われている姿は\\もう見慣れていますので。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
       "distance": "normal"
     },
     "11": {
       "type": "talk",
-      "dialogue": "わたしが聞きたいのは寝床のことではなく、\\あなたがなぜ悪行をしないかということです。",
-      "char": "keep",
+      "dialogue": "そうですね～\\アリア好みの路線とはちょっと違うけど、\\アイドルに必要なのは<color=ff9900>カリスマ</color>なんです！",
+      "char": "c045_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "そりゃあ悪魔が悪いことしなきゃいけないって、\\決まりはないからな。",
-      "char": "c000_01",
+      "dialogue": "最近すごい人気なんですよ。うらやましい！\\アリアも負けないように、レッスンしなくっちゃ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
+      "pos": "right",
+      "distance": "normal"
     },
     "13": {
       "type": "talk",
-      "dialogue": "じゃあ、えっと…なまけ者？",
-      "char": "c101_01",
+      "dialogue": "アイドルっていうのも大変なんだな。\\がんばれよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "なまけ者なら…とりあえず、悪くはないような…？",
-      "char": "keep",
+      "dialogue": "ロックンロールベイベー！\\イエェエェイ！イエェエェイ！",
+      "char": "c099_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "center",
+      "distance": "normal",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "15": {
       "type": "talk",
-      "dialogue": "おいおい、まだ納得いかないの？",
+      "dialogue": "うわっ！",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense",
+      "before_effect": "shake_weak"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "なんだ！今度は本物か！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "confused"
     },
-    "16": {
-      "type": "talk",
-      "dialogue": "どう思おうがお前の自由だけどさ、\\少なくとも俺はお前のイメージしてた\\悪い悪魔じゃないからね。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "idle"
-    },
     "17": {
       "type": "talk",
-      "dialogue": "そう…ですね。\\たしかに、そうかもしれません…",
-      "char": "c101_01",
+      "dialogue": "おう、その通り。わかってるじゃん。\\真のロッカーの登場だぜぇ！",
+      "char": "c099_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "center",
       "distance": "normal"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ちなみに、お前のイメージしてた悪魔って\\どんなの？",
+      "dialogue": "…で、メルポメネ。\\どうしたんだ、いきなり。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -152,232 +153,80 @@
     },
     "19": {
       "type": "talk",
-      "dialogue": "ええと…この世を破滅に導く、血に飢えた野獣？",
-      "char": "c101_01",
+      "dialogue": "ふん、ロック系アイドルだって…？\\ロックへの冒瀆だぜ！",
+      "char": "c099_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "20": {
       "type": "talk",
-      "dialogue": "うわあ…\\どんな化け物だよそれ…",
+      "dialogue": "そうか？\\別にアイドルだってロックやったっていいだろ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "でも…今は少しだけ、イメージが変わりました。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "dialogue": "ダメ！ゼッタイ！",
+      "char": "c099_01",
+      "pos": "left",
+      "distance": "near",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "22": {
       "type": "talk",
-      "dialogue": "へ～どんなふうに？",
-      "char": "c000_01",
+      "dialogue": "ロックって言うのは、ハングリーで、ワイルドで、\\アナーキーなんだよ！\\あんな可愛げのあるもんじゃない！",
+      "char": "c099_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "23": {
       "type": "talk",
-      "dialogue": "おやつをくれる…邪悪な存在？",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "単に「おやつ」を追加しただけじゃん！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "まだあなたとは出会ったばかりですが、\\少なくとも世界を破滅させる気はなさそうですね。\\安心しました。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "はいはい、平和な世界が守られてよかったね。",
+      "dialogue": "うん。まあ、お前の言ってることが事実なら、\\お前こそが真のロッカーなのは間違いないかもな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "haah"
     },
-    "27": {
+    "24": {
       "type": "talk",
-      "dialogue": "はい。それでは、今日はこの辺で…きゃっ！",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "短い悲鳴を上げて、\\シュリンクスは何もない所で、すっ転んだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "う、うう…ぐすっ…",
-      "char": "c101_01",
+      "dialogue": "ふふん。さすがは悪魔。\\ロック魂わかってるねぇ～",
+      "char": "c099_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "30": {
+    "25": {
       "type": "talk",
-      "dialogue": "あら、ご主人さま。\\いくら趣味とはいえ、\\女の子を泣かせるなんていけませんよ♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "teach",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "うわっ！なんだ、モナか…\\俺が泣かせたわけじゃないし、そんな趣味あるわけない！",
-      "char": "c000_01",
+      "dialogue": "気に入ったぜ、悪魔！あんたのために\\ウチが作った最高の曲を聞かせてやんよ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "confused",
-      "before_effect": "shake"
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
-    "32": {
+    "26": {
       "type": "talk",
-      "dialogue": "まったく…おい、シュリンクス、大丈夫か？\\ほら、俺の手につかまって。立てる？",
+      "dialogue": "タイトルは<color=ff9900>「トマトサンドイッチにトマトがない」</color>！",
       "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "なんとも残念なタイトルだな…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
       "facial": "sigh"
     },
-    "33": {
-      "type": "talk",
-      "dialogue": "あり…がとう。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "おお、ちゃんとお礼言えたね。\\お菓子食べる？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "…わたしは、お菓子をもらって喜ぶほど\\子供じゃありません。\\でも…いただきます。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "もうすっかり泣き止んだようだ。\\やっぱこいつにはお菓子をあげれば、\\大体解決するらしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "…もぐもぐ。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "一生懸命お菓子を頬張る姿が、\\リスみたいで可愛らしい。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "まあ、リスみたいに可愛い食べ方ですね♥",
-      "char": "c001_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal",
-      "facial": "pretense"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "ああ、珍しく考えが合ったな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "41": {
-      "type": "talk",
-      "dialogue": "…からかわないでください。それと…",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "うん？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "…わたし、分かったんです。\\悪魔さん、あなたは…優しい人です。",
-      "char": "c101_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "44": {
-      "type": "talk",
-      "dialogue": "…そっか、そりゃあ嬉しいな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
-    },
-    "45": {
-      "type": "talk",
-      "dialogue": "ちょっとは俺のことを信じてくれたのかな。\\シュリンクスは初めて、俺に優しく微笑んでくれた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "46": {
+    "28": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

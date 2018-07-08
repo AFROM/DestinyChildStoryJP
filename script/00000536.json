@@ -2,322 +2,358 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "呆れたヤツだ。勝算が見えない状況だというのに、\\いつまで無駄な足掻きをするつもりだ？",
-      "background": "dungeon_bg",
-      "bgm": "2",
-      "char": "c214_01",
+      "dialogue": "だから、会わせなさいよ！\\本当に重要なことなの！",
+      "background": "bg002_f",
+      "bgm": "31",
+      "char": "c209_01",
       "speaker": "same",
-      "after_effect": "shake"
+      "pos": "right",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "めっちゃ手強い奴なんだってば！\\…でも、あとちょっとで倒せるんだ！",
+      "dialogue": "だから、ダメだって言ってるだろ！\\ ",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused",
-      "before_effect": "shake"
+      "facial": "confused"
     },
     "3": {
       "type": "talk",
-      "dialogue": "…なるほど、戦況を顧みることも出来ず、退くつもりもない、と。",
-      "char": "c214_01",
+      "dialogue": "本当に悪いけど、\\フレイとは連絡したくないんだよ！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "4": {
       "type": "talk",
-      "dialogue": "仕方ない、この戦いに勝つためだ。\\私の真の力、見せてやろう。",
-      "char": "c214_01",
+      "dialogue": "どうしても会いたいんだったら、\\あそこにいる真面目そうな女性に聞くとか！",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "おい、戦闘中に何を…って、そのバッグは…",
-      "char": "c000_01",
+      "dialogue": "嫌です。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "shock"
+      "pos": "right",
+      "facial": "shy"
     },
     "6": {
       "type": "talk",
-      "dialogue": "ジュピターは自分のバッグを開いた。\\ついにバッグの中身が明らかに…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お前って奴は…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "7": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "c214_01",
+      "dialogue": "なるほど。\\悪魔らしく、いとも簡単に私に汚名を\\着せるのですね。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
+      "facial": "irritation"
     },
     "8": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "ですが嫌です。\\とにかくフレイ様に会えば…\\《リザ、お前》から始まって…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "serious"
     },
     "9": {
       "type": "talk",
-      "dialogue": "…あれっ？",
-      "background": "dungeon_bg",
-      "bgm": "19",
+      "dialogue": "考えただけでも寒気が…\\なので、絶対嫌です。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "idle"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "リザ！お前！\\いつまで俺を避けるつもりだ…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "…丁度あんな感じですね。\\本当に頭に来ます。\\わざと私の名前をあげてまで…",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "うわ、噂をすれば来やがった…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "nonsense"
     },
-    "10": {
-      "type": "talk",
-      "dialogue": "敵がいない…えっと…もしかして戦闘終わった？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "気を失うとは…\\覚悟はしていたが、ここまで情けないとは…",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "気を失った？俺が？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
     "13": {
       "type": "talk",
-      "dialogue": "ちょっと待て、一体何が起きたんだ？\\お前がバッグを開けて…それで…？",
-      "char": "keep",
+      "dialogue": "現れたわね、女の敵！ \\私を捨てておいて堂々と姿を現すなんて！",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "14": {
       "type": "talk",
-      "dialogue": "戦いには勝利したのだから、\\ここに長居する理由はない。",
-      "char": "c214_01",
+      "dialogue": "なんだ？\\誰だ、お前",
+      "char": "c051_02",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "そのバッグ、やっぱヤバいもんが入ってるんだろ？",
-      "char": "c000_01",
+      "dialogue": "だ…誰って…",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "16": {
       "type": "talk",
-      "dialogue": "…バッグの中身は重要ではない。\\どう使い、勝つか。それが重要なのだ。",
-      "char": "c214_01",
+      "dialogue": "はあ…\\困りましたね。",
+      "char": "c002_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "right",
+      "facial": "pretense"
     },
     "17": {
       "type": "talk",
-      "dialogue": "それ前も聞いたし。",
+      "dialogue": "そうだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "irritation"
     },
     "18": {
       "type": "talk",
-      "dialogue": "はあ、とにかくなんか危ない武器を使うなら\\前もって言ってくれよな。",
-      "char": "keep",
+      "dialogue": "誰って…\\女を口説いておいて\\誰とは何よ！どうしたらそんなことが言えるの！？",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake_weak"
+      "pos": "right",
+      "before_effect": "shake",
+      "one_ani": "attack"
     },
     "19": {
       "type": "talk",
-      "dialogue": "他のチャイルドをケガさせちゃいけないだろ？",
-      "char": "keep",
+      "dialogue": "まあ、落ち着け…\\あいつはいつもああなんだよ…",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "serious"
     },
     "20": {
       "type": "talk",
-      "dialogue": "ダビのやつ、隙あらばジュピターのバッグの中身を\\見ようとしてたけど…\\絶対触らせないようにしなきゃ。",
-      "char": "keep",
+      "dialogue": "そんな風にうやむやにしようとしても…\\無駄よ！",
+      "char": "c209_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right",
+      "before_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "…お前は、本当に魔王になるつもりがあるのか？",
-      "char": "c214_01",
+      "dialogue": "まさか…本当に名前を忘れてるの…\\ちょっと、聞いてるの？",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "before_effect": "shake_weak"
     },
     "22": {
       "type": "talk",
-      "dialogue": "えっ、いきなり何？",
-      "char": "c000_01",
+      "dialogue": "おい、補欠。\\この女をなんとかしろ。",
+      "char": "c051_02",
       "speaker": "same",
       "pos": "left",
-      "before_effect": "shake_weak",
-      "facial": "confused"
+      "after_effect": "go_to_left_point"
     },
     "23": {
       "type": "talk",
-      "dialogue": "本当にそのつもりなら、ひとつ忠告しよう。\\今後は勝利に貪欲になるべきだ。",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "正直魔王にはなりたくないけど…\\言われるまでもなく、\\戦闘ではベストを尽くしているつもりなんだけどな。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "そうは見えぬから、言っているんだ。\\ならば、この戦闘でも苦戦したのは、\\なぜだか理解しているのか？",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "チャイルドたちを心配して、迷っている間に\\戦況が変化し続けていた。それに気づかず\\引き際も見落とした。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "それで事前に予告もなく\\そんな危ないモノを使ったってことか？勝つために？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "だったら、あー、もういいや。\\やーめた、魔王やーめた。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky",
-      "before_effect": "shake"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "だから、おまえも二度とそいつを使うなよ？\\戦闘で負けたからってこの世が終わるわけでも\\ないし…",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "勝つつもりはない、と？",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "違うよ。\\危ないモノ使ってまで勝つ必要ないってこと。\\戦いに勝っても誰かが倒れてたら意味ないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "勝つつもりもないのに、ベストを尽くしている、\\なんて言葉を口にしたのか？",
-      "char": "c214_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "勝つっていうか…一生懸命戦わないと…\\チャイルドたちが危ないだろ？\\主人になった以上、あいつらは守ってやらないと。",
+      "dialogue": "お前が引き起こしたことだろ。\\なのに急に現れたと思ったら…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "34": {
+    "24": {
       "type": "talk",
-      "dialogue": "チャイルドを守る…\\それが、あなたが言うベストを尽くす戦い方、\\ということか…ふむ、なるほど。よくわかった。",
-      "char": "c214_01",
+      "dialogue": "御主人様、スムージーを頼んでもいいでしょうか？",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "pretense",
+      "after_effect": "go_to_right_slow"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ダメだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "…ってもう頼んでるし。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "アナタ…夜ごと口説いた女性たちから\\痛い目にあってる顔してる…",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "くっ、どうしてそれを…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "そんなのわかるわ。\\それに近頃、とっても性格のきつい女と\\暮らしてるわね？",
+      "char": "c209_01",
       "speaker": "same",
       "pos": "right"
     },
-    "35": {
+    "30": {
       "type": "talk",
-      "dialogue": "え？今の話で何がわかったの？",
+      "dialogue": "なんだと、そんなことまで…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake_weak"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "見なくても分かるわ。\\ホントに最低ね。\\可哀想に、アナタのような男に踊らされるなんて！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "うっ…\\記憶にない女にこうまで言われるとは…\\ふん！俺はお前に会いに来たわけじゃないぞ！",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "このスムージー、不味いですね。\\御主人様、どうぞ。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "shy"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "ハハ、やっぱり俺のサキュバスだな。\\美味しいものは一生譲ってくれないだろうな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "facial": "unfair"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "私だって今後一切、アナタに会うつもりはないわ！\\もう二度とアナタのことなんて考えない！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "あなたの、チャイルドたちへの気持ち、\\とでも言うべきか。\\…とにかく、あなたが必要とするまでは\\このバッグは決して使わない。",
-      "char": "c214_01",
+      "dialogue": "私の主人はバカで、魔力も体力もない…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "37": {
       "type": "talk",
-      "dialogue": "…マジで？",
+      "dialogue": "…なんで急に俺を引っ張り込むんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
+      "facial": "nonsense"
     },
     "38": {
       "type": "talk",
-      "dialogue": "あなたと私の目的や、やり方は少し違う気がするが…あなたのやり方に興味が湧いた。",
-      "char": "c214_01",
+      "dialogue": "甲斐性なしで、引きこもりで…",
+      "char": "c209_01",
       "speaker": "same",
       "pos": "right"
     },
     "39": {
       "type": "talk",
-      "dialogue": "それに、その情けない方法で魔王なれるなら\\私にとっては後世までネタにできるような話に\\なるだろうから。せいぜい頑張ってくれ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "その嫌味な言い方どうにかならない？",
+      "dialogue": "どういう風に思われてるのかがよくわかるよ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh",
-      "before_effect": "shake"
+      "facial": "unfair"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "でも、そんな主人を私が！\\アナタよりももっと強い悪魔にしてみせるわ！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "41": {
+      "type": "talk",
+      "dialogue": "あいつ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "この浮気者！スケベ野郎！不良め！",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "…気は済んだか？",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "44": {
+      "type": "talk",
+      "dialogue": "遊び人、女たらし、嘘つき野郎、バカ野郎…",
+      "char": "c209_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "今日は来るんじゃなかった…",
+      "char": "c051_02",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

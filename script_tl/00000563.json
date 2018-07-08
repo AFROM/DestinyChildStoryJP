@@ -2,229 +2,256 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "いろんな意味でわしの方が若造よりいい境遇だ。",
-      "background": "dungeon_bg",
+      "dialogue": "リユガーにも優しい心があるのかもしれない。",
+      "background": "bg086_f",
       "bgm": "9",
-      "char": "m040_01",
-      "speaker": "same"
-    },
-    "2": {
-      "type": "talk",
-      "dialogue": "何をぶつぶつ文句言ってるんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "3": {
+    "2": {
       "type": "talk",
-      "dialogue": "若造は悩みを抱えているが、わしに悩みなどない。\\そういう意味だ。",
-      "char": "m040_01",
+      "dialogue": "ご主人さま、少年マンガと現実を\\ごちゃ混ぜにしては困ります。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
+    "3": {
+      "type": "talk",
+      "dialogue": "ちがう！俺なりにリユガーを観察して\\下した結論だ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "4": {
       "type": "talk",
-      "dialogue": "本当にお前には悩みがないのか？",
-      "char": "c000_01",
+      "dialogue": "毎日怒ってばかりで、何かにつけてぶっ壊すだの…\\実際にあれこれ壊したりもしたし。",
+      "char": "keep",
       "speaker": "same",
       "pos": "left"
     },
     "5": {
       "type": "talk",
-      "dialogue": "悩みがないというのは何を聞いても\\振り回されないという意味だ。",
-      "char": "m040_01",
+      "dialogue": "でも、ダビと仲良くしたり\\ヒヨコみたいなのが好きだったり…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "6": {
       "type": "talk",
-      "dialogue": "自分に与えられた運命もまた同じ。",
+      "dialogue": "そういうのを見ると悪いところばかりじゃ\\ない気がするんだ。",
       "char": "keep",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "7": {
       "type": "talk",
-      "dialogue": "急に呼び出しておいて何の話だよ。",
+      "dialogue": "よかったと言うべきですかね？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "もちろんだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "8": {
-      "type": "talk",
-      "dialogue": "運命に抗わず水の流れのように\\全て流れに身を任せるのが…",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "9": {
       "type": "talk",
-      "dialogue": "私が得た悟りだが…\\今回だけはその真理に反することにした。",
-      "char": "keep",
+      "dialogue": "自分のチャイルドへの情が多いほどいいですが…\\それを上手く使えればいいですね。",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "悟ったとおり生きてくださいよ。",
+      "dialogue": "お前、俺がリユガーと上手くやっていけないと\\思ってるだろ？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
+      "pos": "left"
     },
     "11": {
       "type": "talk",
-      "dialogue": "若造の悩みを解決する方法を教えるとしよう。",
-      "char": "m040_01",
+      "dialogue": "ご主人さまの言う通りなら\\リユガーは小さくて可愛いものが\\好きってことだけど…",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "あ…それって魔王争奪戦を\\しなくてもいい方法か？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "そうだ。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "それなら大歓迎だ。\\で、その方法って？",
+      "dialogue": "そ、それは…\\俺が小さくて可愛いって意味じゃなくて…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "joy"
+      "facial": "sulky"
     },
-    "15": {
+    "13": {
       "type": "talk",
-      "dialogue": "諦めることだ。",
-      "char": "m040_01",
+      "dialogue": "モナの目にはいつも小さくて可愛いご主人さまだから可能性はなくはないですね♥",
+      "char": "c001_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "near"
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ひいっ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "15": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "諦めるって…何を。",
+      "dialogue": "リ、リユガー…",
+      "background": "bg067_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "魔王になりたいという欲をだ。",
-      "char": "m040_01",
+      "dialogue": "<b>殺す！</b>",
+      "char": "m039_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "near",
+      "screen_effect": "dialog_shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
     },
     "18": {
       "type": "talk",
-      "dialogue": "…期待した俺がバカだった。\\ふざけてるのか？",
+      "dialogue": "ぎゃあ！すみません！\\殺さないでくだ…、じゃなくて…",
       "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "お、お前にあげたい物があって来たんだ！\\プレゼントだ！",
+      "char": "keep",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "19": {
-      "type": "talk",
-      "dialogue": "わしは真剣だ。\\お前の心の中には欲がある。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
-    },
     "20": {
       "type": "talk",
-      "dialogue": "サキュバスたちからはその欲すらないって\\文句言われてるのに一体どういう意味だよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "ガルル…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "21": {
       "type": "talk",
-      "dialogue": "欲がないだと？よく考えてみろ。\\お前は戦いに参戦する度に最善を尽くす。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "そりゃあ、できれば勝った方がいいし…\\それに俺のせいでチャイルドたちに\\怪我を負わせるわけにはいかないだろう。",
+      "dialogue": "こ、これ…ヒヨコの…人形…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
+    "22": {
+      "type": "talk",
+      "dialogue": "ヒ…ヨコ…",
+      "char": "m039_01",
+      "speaker": "same"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "それこそが欲だと言っている。",
-      "char": "m040_01",
+      "dialogue": "この前ダビが持ってきたヒヨコは\\ニワトリになって飛んで行っちゃっただろ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "left"
     },
     "24": {
       "type": "talk",
-      "dialogue": "カレーライスに100円追加して\\唐揚げトッピングするのも欲だって言いそうだな。",
-      "char": "c000_01",
+      "dialogue": "お前が愛情込めて育てたのに…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "left"
     },
     "25": {
       "type": "talk",
-      "dialogue": "立派な例えだ。若造よ、欲のない者などいない。\\お前の悩みはその欲から生まれるものだ。",
-      "char": "m040_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "ガルゥゥ…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "26": {
       "type": "talk",
-      "dialogue": "そんなのこじつけだ。\\アンタの言う通りなら、チャイルドたちが\\どうなろうと気にするなってことじゃないか！",
+      "dialogue": "い、いや、お前のせいってわけじゃなくて！\\こ、今回は絶対に逃げない友達を連れて来た\\ってわけで…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake_weak"
+      "pos": "left"
     },
     "27": {
       "type": "talk",
-      "dialogue": "アンタも俺のチャイルドだってこと分かってるのか？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury",
-      "before_effect": "shake_weak"
+      "dialogue": "ヒヨコ…人形…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "28": {
       "type": "talk",
-      "dialogue": "わしはお前の所有物だということか。\\それこそが欲だと言っているのだ。",
-      "char": "m040_01",
+      "dialogue": "うん、うん…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "29": {
       "type": "talk",
-      "dialogue": "ぐわっ！全く話が通じない！もういい！帰る！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused",
-      "after_effect": "go_to_right_point",
-      "screen_effect": "dialog_shake"
+      "dialogue": "かわい…",
+      "char": "m039_01",
+      "speaker": "same"
     },
     "30": {
       "type": "talk",
-      "dialogue": "欲を捨てろ。純粋な欲ほど\\悩みは大きくなる。",
-      "char": "m040_01",
+      "dialogue": "はあ…よかった…",
+      "char": "c000_01",
       "speaker": "same",
-      "loop_ani": "attack"
+      "pos": "left",
+      "facial": "haah"
     },
     "31": {
+      "type": "talk",
+      "dialogue": "ヒヨコの…人形…バカ主人から奪う…",
+      "char": "m039_01",
+      "speaker": "same"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "え？い、いや、あげるんだってば！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "nonsense"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "<b>奪う！</b>",
+      "char": "m039_01",
+      "speaker": "same",
+      "screen_effect": "shake",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "助けてくれ！！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
+    },
+    "35": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

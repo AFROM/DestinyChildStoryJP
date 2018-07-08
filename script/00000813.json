@@ -1,188 +1,325 @@
 {
   "phase1": {
     "1": {
-      "type": "talk",
-      "dialogue": "データ収集及び分析の結果、\\ウォッチャーが探している悪魔は\\日本にいないと推定されます。",
-      "background": "bg049_f",
-      "bgm": "9",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "type": "curtain",
+      "background": "bg012_f",
+      "bgm": "14",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "2": {
       "type": "talk",
-      "dialogue": "それ、本当か？",
+      "dialogue": "ミク達のセッションか…\\どんな感じになるんだろうな？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "困ったわねぇ。",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "会場への護衛がこんなトサカ野郎で大丈夫なの～？",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "一番信頼出来る人…\\いいえ、悪魔の方、ですから。",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "center"
     },
     "5": {
       "type": "talk",
-      "dialogue": "本当に困ったもんだ。\\せっかくここまで来たのに。",
+      "dialogue": "ダビ！聞いたか？\\やっぱり、わかる人にはわかるんだよな。",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "joy"
     },
     "6": {
       "type": "talk",
-      "dialogue": "俺を心配しているのか？",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "よし、俺の命に代えても、ミクをライブ会場まで\\送り届けるぞ！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "angry",
+      "before_effect": "shake"
     },
     "7": {
       "type": "talk",
-      "dialogue": "…うん。それで？",
-      "char": "c000_01",
+      "dialogue": "あの…\\そこまで気負わなくて大丈夫ですよ？",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center"
     },
     "8": {
       "type": "talk",
-      "dialogue": "御主人様、呑気なこと言ってる場合ではありません。ウォッチャーのターゲットが日本にいないことは\\分かったので、",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "うっわ！本当にいるし！",
+      "bgm": "6",
+      "char": "none",
+      "speaker": "DemonA"
     },
     "9": {
       "type": "talk",
-      "dialogue": "ウォッチャーはこれ以上、\\ここに留まることはできません。",
-      "char": "keep",
+      "dialogue": "！？",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "before_effect": "shake"
     },
     "10": {
       "type": "talk",
-      "dialogue": "すなわち、これ以上御主人様のチャイルドとして\\働けないということです。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "教会の外に出てくりゃ、こっちのもんだよな！\\ミクちゃーん！\\疲れてるオレ達を癒やしてくれね～！？",
+      "char": "none",
+      "speaker": "DemonB"
     },
     "11": {
       "type": "talk",
-      "dialogue": "仕方ないだろ。公務執行中なんだし。\\むしろ引き留めたら公務執行妨害に\\なるんじゃないか？",
-      "char": "c000_01",
+      "dialogue": "早速かぎつけられてるじゃん…\\ご主人、ほら出番！",
+      "char": "c003_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ウォッチャーは大切な戦力です。\\簡単に諦めすぎではないですか？",
-      "char": "c002_01",
+      "dialogue": "わかってるよ！\\お前ら、ミクはこれからライブで…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "facial": "serious"
+      "pos": "left",
+      "facial": "fury"
     },
     "13": {
       "type": "talk",
-      "dialogue": "やむを得ないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "雑魚は引っ込んでろ！",
+      "char": "none",
+      "speaker": "DemonA"
     },
     "14": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "ぶふっ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "center",
+      "facial": "shock",
+      "before_effect": "go_to_left_jump",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_light.mvd"
     },
     "15": {
       "type": "talk",
-      "dialogue": "こんな時は！",
-      "char": "c001_01",
+      "dialogue": "悪魔さんっ！？",
+      "char": "c358_01",
       "speaker": "same",
-      "distance": "near"
+      "pos": "center",
+      "before_effect": "shake"
     },
     "16": {
       "type": "talk",
-      "dialogue": "やっぱり当事者の意見を聞くのが一番ね♥",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "早速やられてるし…\\全然頼りにならない！",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "いつからそんな真面目に…",
+      "dialogue": "み、ミク…オレのことは置いて…\\逃げるんだ…",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ウォッチャー、こんなことになっちゃったけど、\\アナタはこれからどうしたいの？",
-      "char": "c001_01",
-      "speaker": "same"
+      "dialogue": "ご主人を置いてサッサと逃げたいけど…\\他の悪魔も続々集まってきてるよ～…",
+      "char": "c003_01",
+      "speaker": "same",
+      "pos": "right",
+      "facial": "cry"
     },
     "19": {
       "type": "talk",
-      "dialogue": "ご主人様の言う通り、俺の役割は魔界を脅かす者を\\見つけ出し監視して遮断すること。",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "実物だ～！\\テレビで姿を見るだけじゃ足りなかったんだよぉ…！",
+      "char": "none",
+      "speaker": "DemonC"
     },
     "20": {
       "type": "talk",
-      "dialogue": "やっぱり…",
-      "char": "c000_01",
+      "dialogue": "きゃ～！",
+      "char": "c358_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "center",
+      "before_effect": "shake"
     },
     "21": {
       "type": "talk",
-      "dialogue": "だが…その者が逃亡した地域は\\俺の管轄区域ではない。",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "み、ミクに触るな…ぐふっ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious"
     },
     "22": {
       "type": "talk",
-      "dialogue": "え？一人でやってたわけじゃないのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
+      "dialogue": "あーもう。見てらんねー",
+      "bgm": "1",
+      "char": "none",
+      "speaker": "unknown1"
     },
     "23": {
       "type": "talk",
-      "dialogue": "もちろんだ。\\魔界の犯罪者は数えきれないくらい多い。",
-      "char": "m125_01",
-      "speaker": "same"
+      "dialogue": "ぐわっ",
+      "char": "none",
+      "speaker": "DemonA",
+      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
     },
     "24": {
       "type": "talk",
-      "dialogue": "だから…俺はここに残って約束を守る。",
-      "char": "keep",
-      "speaker": "same"
+      "dialogue": "これだから、甘ちゃんのアイドルはダメなんだよ。\\歌を届けるとか言っといて、そのステージにさえ立てねーでやんの。",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "one_ani": "attack"
     },
     "25": {
       "type": "talk",
-      "dialogue": "約束？",
+      "dialogue": "メルポメネ！お前、いつのまに！",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "left",
+      "facial": "joy",
+      "before_effect": "shake"
     },
     "26": {
       "type": "talk",
-      "dialogue": "受けた分を返すという約束。",
-      "char": "m125_01",
-      "speaker": "same",
-      "distance": "near"
+      "dialogue": "なんだこいつ！ミクちゃんを渡せ！",
+      "char": "none",
+      "speaker": "DemonB"
     },
     "27": {
       "type": "talk",
-      "dialogue": "これからは俺がご主人様に協力する。",
+      "dialogue": "…うっぜ！\\お前、ホントにミクの事好きなのかよ？\\てめえらは、ソウルまで腐りきっててホントサイテーだな。",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "ファンを語る偽物がよっ！",
       "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ほら、ぼさっとしてんな！\\さっさと行くぞ！\\ウチが連れてってやるから！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "えっ…？",
+      "char": "c358_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "歌を届けるんだろ？\\あんたのソウル、見せてみろよ！",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "…はいっ！",
+      "char": "c358_01",
       "speaker": "same",
       "distance": "near"
     },
-    "28": {
+    "33": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "100",
+      "fade_out": "longest",
+      "wait": "longest"
+    },
+    "34": {
+      "type": "curtain",
+      "background": "bg239_f",
+      "bgm": "86",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "わあああ～！",
+      "char": "none",
+      "speaker": "none"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ラララ～♪",
+      "char": "c358_01",
+      "speaker": "same",
+      "distance": "far",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "無事にやれてるみたいだな…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "やっと来たのか。\\ま、ウチが手を貸したんだから心配ないぜ。",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "はは…ありがとな、メルポメネ。\\やっぱりお前もミクが好きだったんだな。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "そんなんじゃねー！\\音楽に対するソウルは認めるってだけだし！",
+      "char": "c099_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "41": {
+      "type": "talk",
+      "dialogue": "はいはい…\\あーあ、俺も最初から見たかったなぁ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "42": {
+      "type": "talk",
+      "dialogue": "みんな～！\\私の歌を聞いてくれてありがとう！！",
+      "char": "c358_01",
+      "speaker": "same",
+      "distance": "near",
+      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+    },
+    "43": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

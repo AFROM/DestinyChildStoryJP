@@ -2,45 +2,47 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "深刻ですね…\\これしか覚えられないなんて…",
-      "background": "bg086_f",
-      "bgm": "31",
-      "char": "c286_01",
+      "dialogue": "ねぇ、ねぇ！聞いて！！\\私ね夢を見たの！！",
+      "background": "bg001_f",
+      "bgm": "14",
+      "char": "c280_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "center",
+      "distance": "near"
     },
     "2": {
       "type": "talk",
-      "dialogue": "もしかしてサポーターの資格に\\《主人をイジメられる》なんてのがあるのか？",
+      "dialogue": "その様子だと、いい夢だったみたいだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "haah"
+      "facial": "smile"
     },
     "3": {
       "type": "talk",
-      "dialogue": "小言はやめてください…\\ただでさえ気が滅入りそうなのに…",
-      "char": "c286_01",
+      "dialogue": "ううん、すっごい怖い夢。",
+      "char": "c280_01",
       "speaker": "same",
       "pos": "right"
     },
     "4": {
       "type": "talk",
-      "dialogue": "とにかく、あの素晴らしいリザの主人だし\\本当は素晴らしいところがあるのだろう…",
-      "char": "keep",
+      "dialogue": "…なんでそんなに楽しそうなんだよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "nonsense"
     },
     "5": {
       "type": "talk",
-      "dialogue": "…と、まだ期待はしていますよ。",
-      "char": "keep",
+      "dialogue": "う～ん？なんか変？",
+      "char": "c280_01",
       "speaker": "same",
       "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "うん…\\その件に関しては俺がどうこう言うことじゃないな…",
+      "dialogue": "いいや…\\それで、どんな悪夢だったんだよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -48,184 +50,149 @@
     },
     "7": {
       "type": "talk",
-      "dialogue": "だから…\\そういう返事を止めてほしいと言っているんですよ！",
-      "char": "c286_01",
+      "dialogue": "私がね…私が…",
+      "char": "c280_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
     "8": {
       "type": "talk",
-      "dialogue": "そんなことを言われると、自分が悲しくなります。",
-      "char": "keep",
+      "dialogue": "ハーイ、可愛いご主人さま♥\\ちゃんとお留守番できましたか～？",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "right"
+      "distance": "toonear",
+      "one_ani": "attack",
+      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
     },
     "9": {
       "type": "talk",
-      "dialogue": "とにかく、無駄話は止めて授業を再開しましょう。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "10": {
-      "type": "talk",
-      "dialogue": "うわぁ…\\もう2時間ぶっ続けだけど、休み時間はないのかよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "魔王争奪戦に参加しているというお方が…\\基礎が全く出来ていないじゃないですか？",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "自分のライバルや他の悪魔たちのことも全く知らないようですし。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "知らないんじゃないよ、興味がないだけ！\\モナとリザにも言ってるけど、俺は魔王になる気なんかないんだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left"
-    },
-    "14": {
-      "type": "talk",
-      "dialogue": "なんて事を言うのです！！\\モナ先輩とリザという有能なサポーターが2人もいるのに！",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "そのような発言、情けないと思いませんか？！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "16": {
-      "type": "talk",
-      "dialogue": "そうそう！俺が情けない！\\情けない主人でごめんね！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "unfair"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "そんな台詞、聞きたくありません！",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "18": {
-      "type": "talk",
-      "dialogue": "…お前、以前と態度変わってない？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sulky"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "ご主人様が自らを情けない存在と認めてしまうと…",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "私は自他共に認める、\\情けない悪魔のサポーターになってしまうじゃないですか！！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near",
-      "one_ani": "attack"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "ひぃっ…",
+      "dialogue": "<b>うわっ！</b>",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "serious",
       "before_effect": "shake"
     },
-    "22": {
+    "10": {
       "type": "talk",
-      "dialogue": "サポーターについて、まだ誤解していませんか、\\ヴェルデレト？\\御主人様のサポーターは私とモナだけ…\\いや、ダビと、この3人だけです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "before_effect": "enter_from_right_fast"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "ふん！敏腕サポーターのあの《リザ様》が軽々しく\\他人の話を盗み聴きするなんて！\\恥ずかしくはないのですか？",
-      "char": "c286_01",
+      "dialogue": "<b>きゃあ！</b>",
+      "char": "c280_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake_weak"
+      "before_effect": "shake"
     },
-    "24": {
+    "11": {
       "type": "talk",
-      "dialogue": "あなたが御主人様に無駄な話ばかり\\吹き込んでいるという報告があったのです。",
-      "char": "c002_01",
+      "dialogue": "あら？ティケまで驚くことないでしょ？",
+      "char": "c001_01",
       "speaker": "same"
     },
-    "25": {
+    "12": {
       "type": "talk",
-      "dialogue": "ほ、報告？\\お前、俺にこっそりスパイでも付けたのか？",
+      "dialogue": "ティケの悪夢が現実になっちゃったー！？",
+      "char": "c280_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "これはオマエじゃなくて、俺の悪夢だ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "ご主人さまは幸せな夢を《悪夢》と言ってしまう病気にかかってるみたいですね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "私の悪夢だよ！\\私がみた夢もこんなに大きかったもん。",
+      "char": "c280_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "ティケの胸が！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "えっ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "成長期の女の子はよく見る夢ね。\\体の変化に心がついていけず、そのしわ寄せが夢という形になって現れるんです。",
+      "char": "c001_01",
+      "speaker": "same"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "そ、そういう話は他でやってくれ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "confused"
     },
-    "26": {
+    "20": {
       "type": "talk",
-      "dialogue": "徹底していますね。さすがリザです。",
-      "char": "c286_01",
+      "dialogue": "どうしたの、悪魔。顔が真っ赤だよ？",
+      "char": "c280_01",
       "speaker": "same",
       "pos": "right"
     },
-    "27": {
+    "21": {
       "type": "talk",
-      "dialogue": "感心してる場合か！プライベート侵害だろ！",
+      "dialogue": "オマエが変なこと言うからだろっ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "sulky"
     },
-    "28": {
+    "22": {
       "type": "talk",
-      "dialogue": "あなたが頑張る必要はありません。御主人様は私が\\責任を持って必ず魔王にしてみせます。",
-      "char": "c002_01",
+      "dialogue": "ご主人さま…\\ティケが立派な大人の女性になれるよう、ご主人さまが導いてあげないと。",
+      "char": "c001_01",
       "speaker": "same"
     },
-    "29": {
+    "23": {
       "type": "talk",
-      "dialogue": "言いますね…\\あなたの思い通りになるか、楽しみですよ。",
-      "char": "c286_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "今、俺の将来について話しているんだよな？",
+      "dialogue": "そ、それは本物の大人のオマエがやってくれ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_left_point"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ねぇ、ねぇ、悪魔！どうしたの？\\私をおいてどこ行く気？\\まだ話は終わってないのに！",
+      "char": "c280_01",
+      "speaker": "same",
+      "pos": "right",
+      "after_effect": "go_to_left_point"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "あらあら…\\ティケが本当に大人になったら、どうするつもりかしらね～",
+      "char": "c001_01",
+      "speaker": "same",
       "facial": "sigh"
     },
-    "31": {
+    "26": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

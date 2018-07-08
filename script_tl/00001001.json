@@ -1,11 +1,370 @@
-﻿{
+{
   "phase1": {
     "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "46",
+      "hold": "shorter"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg157_f",
+      "fade_in": "normal",
+      "hold": "shorter",
+      "char": "c301_01"
+    },
+    "3": {
       "type": "talk",
-      "dialogue": "チャイルドを選んだら<color=\"ff9900\">レベルアップ</color>ボタンをタップしてください。",
-      "background": "back_dim50",
+      "dialogue": "嫌や～！ほんま嫌や～！",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake",
+      "voiceid": "200308018"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "オマエも生き返らせたい人がいるのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "enter_from_left_fast",
+      "voiceid": "200308019"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "何言うてはんの？\\死んだ人はそのままにしておかんと！\\うちは自由に生きたいだけや。",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200308020"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ご主人が黄泉の花を持って来れば自由をくれる～言うさかい。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "center",
+      "voiceid": "200308021"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "私も貴方が《黄泉の花》を悪用しているとは思ってはいません。",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308022"
+    },
+    "8": {
+      "type": "talk",
+      "dialogue": "ですが、貴方の主人は違う。悪魔は信用なりません。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308023"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "それはこっちのセリフやわ。",
+      "char": "c301_01",
+      "speaker": "same",
+      "pos": "center",
+      "before_effect": "shake_weak",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200308024"
+    },
+    "10": {
+      "type": "talk",
+      "dialogue": "だから、俺にこの花を預けて、自請妃(じせいひ)と\\決着を付けようとしたわけか。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "near",
+      "voiceid": "200308025"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "結局、このような事になってしまいましたが…",
+      "char": "c319_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308026"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "何話してはんの～？\\うちの用事はまだ終わってまへ～ん。",
+      "char": "c301_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200308027"
+    },
+    "13": {
+      "type": "talk",
+      "dialogue": "その花、うちによこしぃな！",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200308028"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "認められません。それは、アナタの前の主人にこの花を渡すことになります。",
+      "char": "c002_01",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200308029"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ライバルにチャンスを与えるわけにはいきません。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "normal",
+      "voiceid": "200308030"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "言っておくが、俺はこの花を使うつもりは\\これっぽっちもないぞ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200308031"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "だから無駄な努力はするな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "voiceid": "200308032"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "そうですね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "voiceid": "200308033"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "要らないのでしたら私にいただけませんでしょうか？",
+      "bgm": "9",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200308034"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "大人しいと思ったら…油断ならないな。\\いいか？黄泉の花は誰にも渡さない！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "voiceid": "200308035"
+    },
+    "21": {
+      "type": "talk",
+      "dialogue": "オマエ、一体誰を生き返らせるつもりだ？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200308036"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "私は亡者の魂を見る事ができます。",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308037"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "昼も夜も、亡者の魂が恨みを晴らしてくれと五月蠅いので、これは生き返らせた方が手っ取り早いと思いまして。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308038"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "も、もしかして…\\俺が花を持ってることが分かったのって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200308039"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "ええ、霊には物を見通す目がありますから。",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308040"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "それって、今ここにも霊がいるって…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "voiceid": "200308041"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "はい。ご主人様には見えないと思いますが、少し前から霊の姿があちらこちらに…",
+      "char": "c318_01",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "200308042"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "モ、モナ…こ、ここにお、お化けが…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "after_effect": "shake",
+      "screen_effect": "dialog_shake",
+      "voiceid": "200308043"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "あら、知りませんでしたか？\\先ほどから、ご主人さまの肩に座って黄泉の花を渡してくれと涙をポロポロと…",
+      "char": "c001_01",
+      "speaker": "same",
+      "facial": "pretense",
+      "voiceid": "200308044"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "う、うわああああああ…！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake",
+      "after_effect": "go_to_left_slow",
+      "voiceid": "200308045"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "うっそ…気絶した。",
+      "char": "c003_01",
+      "speaker": "same",
+      "voiceid": "200308046"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "やった～！これでダビと遊べるね、モナ姉さま！",
+      "char": "c003_01",
+      "speaker": "same",
+      "distance": "near",
+      "facial": "joy",
+      "voiceid": "200308047"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "そ、そうね、ダビ。",
+      "char": "c001_01",
+      "speaker": "same",
+      "voiceid": "200308048"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "はぁ…",
+      "char": "c002_01",
+      "speaker": "same",
+      "facial": "irritation",
+      "voiceid": "200308049"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "気が弱いのは心配ですが…\\これからも《黄泉の花》を宜しく頼みます。",
+      "char": "c319_01",
+      "speaker": "same",
+      "voiceid": "200308050"
+    }
+  },
+  "phase2": {
+    "1": {
+      "type": "curtain",
+      "background": "back",
+      "bgm": "42",
+      "fade_out": "longer",
+      "hold": "normal"
+    },
+    "2": {
+      "type": "curtain",
+      "background": "bg207_f",
+      "fade_in": "longer",
+      "hold": "shorter"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "はぁ～終わったん？",
+      "char": "c301_01",
+      "speaker": "same",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "200308051"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "そのトンガリ頭は何？バリって誰なん？",
+      "char": "keep",
+      "speaker": "same",
+      "voiceid": "200308052"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "バリはんってなんや気に障る子やな。しっかし、変に関わったら邪魔されそうやし…",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "near",
+      "voiceid": "200308053"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ま、くよくよ考えてもしゃ～ない。",
+      "char": "keep",
+      "speaker": "same",
+      "distance": "normal",
+      "voiceid": "200308054"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "うちもトンガリ頭の下でチャンスを待つ事に\\しまひょか。",
+      "char": "keep",
+      "speaker": "same",
+      "after_effect": "go_to_left_point",
+      "voiceid": "200308055"
+    },
+    "8": {
+      "type": "curtain",
+      "background": "bg216_f",
+      "fade_in": "longer",
+      "hold": "shorter"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "きっと黄泉の花を隠し持ってるさかいな…",
+      "background": "bg216_f",
       "char": "none",
-      "speaker": "none"
+      "speaker": "jachungbi",
+      "voiceid": "200308056"
+    },
+    "10": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "longest",
+      "hold": "longer"
     }
   }
 }

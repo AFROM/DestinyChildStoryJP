@@ -2,356 +2,347 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "今日はついてない。",
-      "background": "bg097_f",
-      "bgm": "31",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "お、お前…",
+      "background": "bg177_f",
+      "bgm": "9",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused"
     },
     "2": {
       "type": "talk",
-      "dialogue": "そもそもツいてる日なんてあるのか？\\って話だけど…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "よっ、悪魔。久しぶりだな。",
+      "char": "c202_00",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "3": {
       "type": "talk",
-      "dialogue": "コンビニで賞味期限の切れた食べ物を詰めている時、ちょうど入ってきたこいつに見つかるなんて。\\(よい子は真似してはいけません！)",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "おい、補欠、何してる？\\ゴミでも漁ってるのか？",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "悪魔はちょっと腐った物を食べたって\\腹痛は起こさないんだよ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "irritation"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "おい！このパン、カビが生えているぞ！\\こんな物を食ったら悪魔でも腹をこわすぞ。",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ファイロ…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "nonsense",
-      "screen_effect": "dialog_shake"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "はははっ、お前のチャイルドはああ言ってるぞ？\\では、今入荷した新鮮な食べ物を持ってきてくれ、\\バイトくん。",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "9": {
-      "type": "talk",
-      "dialogue": "自分で持ってこい。\\ここはレストランじゃないんだ！",
+      "dialogue": "あ、ああ。\\…それにしても、お前、\\やっぱり俺のこと、覚えてるんだな…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "idle"
     },
-    "10": {
+    "4": {
       "type": "talk",
-      "dialogue": "サービスがなってないな。",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "あの天衣無縫を忘れられるわけないだろ～？",
+      "char": "c202_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
-    "11": {
+    "5": {
       "type": "talk",
-      "dialogue": "店長にクレームでも入れるか。\\バイトをクビにしろって。",
+      "dialogue": "悪魔をあそこまで叩きのめしたのも、\\初めてだったしな！",
       "char": "keep",
-      "speaker": "same",
-      "pos": "right"
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
     },
-    "12": {
+    "6": {
       "type": "talk",
-      "dialogue": "この悪魔野郎…",
+      "dialogue": "た、頼むからそのことは忘れてください…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "fury"
+      "facial": "unfair"
     },
-    "13": {
+    "7": {
       "type": "talk",
-      "dialogue": "そうさ。\\悪魔らしくない悪魔のお前と違ってな。",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right"
+      "dialogue": "いいのかよ？\\全部忘れられたら、困るんじゃねえのか？",
+      "char": "c202_00",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
     },
-    "14": {
+    "8": {
       "type": "talk",
-      "dialogue": "そして、いい加減リザを返せ！\\魔界で一番弱いお前が手綱を握るには\\手ごわすぎる女だ。",
+      "dialogue": "「他の悪魔との契約禁止」\\「よって、悪魔との賭け事も禁止」\\てめえが出した条件を、守れなくなるんだからな。",
       "char": "keep",
-      "speaker": "same",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "near"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "しっかし、\\ルールすら知らずに乗り込んできたかと思ったら…",
+      "char": "keep",
+      "speaker": "same_full",
       "pos": "right"
     },
-    "15": {
+    "10": {
       "type": "talk",
-      "dialogue": "何を言うかと思えば。\\見苦しいですよ、フレイ様。",
-      "char": "c002_01",
-      "speaker": "same"
+      "dialogue": "ずうずうしく代打ちを頼むなんてなあ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "distance": "toonear"
     },
-    "16": {
+    "11": {
       "type": "talk",
-      "dialogue": "いいぞリザ！もっと言ってやれ！",
+      "dialogue": "お、お前も認めたんだからいいだろ！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "pretense"
     },
-    "17": {
+    "12": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "13": {
       "type": "talk",
-      "dialogue": "フレイがリザと言い合っている間に\\俺は急いでパンとサンドウィッチを\\カバンに押し込んだ。",
+      "dialogue": "ちなみに、代打ちをしたのは…",
+      "background": "back",
       "char": "none",
       "speaker": "none",
-      "screen_effect": "dark"
+      "distance": "near",
+      "screen_effect": "gray"
+    },
+    "14": {
+      "type": "talk",
+      "dialogue": "面白いことがあるって言うから来てみたら、\\天衣無縫が見られるなんてね。",
+      "background": "bg004_f",
+      "char": "c020_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "大丈夫、イカサマには慣れっこだから。\\安心して見てなよ。",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "16": {
+      "type": "talk",
+      "dialogue": "フォルトゥナの契約者だ。\\そして、場を操作したのはもちろん…",
+      "background": "back",
+      "char": "none",
+      "speaker": "none",
+      "distance": "near",
+      "screen_effect": "gray"
+    },
+    "17": {
+      "type": "talk",
+      "dialogue": "はっは～ん、うちの契約者ってば、\\天衣無縫に張り合うつもりみたいねえ。\\国士無双を狙うなら、やっぱこうかなあ～？",
+      "background": "bg004_f",
+      "char": "c020_01",
+      "speaker": "same",
+      "pos": "left",
+      "after_effect": "shake",
+      "one_ani": "attack"
     },
     "18": {
       "type": "talk",
-      "dialogue": "おい、誰も見てないからって許されるとでも？",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "お前は何だっ！いい加減空気読めよっ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "angry"
-    },
-    "20": {
-      "type": "talk",
-      "dialogue": "その魔界最弱に負けたのはフレイ様ですよ。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "減らず口を！\\もういい加減、家出ごっこはやめろ！",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "フレイがリザの手首を掴むと\\リザもついに限界に達したようだった。\\一触即発の危機か！？",
+      "dialogue": "ビクトリスはこうして、\\俺達が陰でイカサマをしていたことで、\\生まれたのだった。",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
-    "23": {
+    "19": {
       "type": "talk",
-      "dialogue": "二人とも、その辺で…",
+      "dialogue": "てめえ！？イカサマしやがったのか！\\キャハハ！あの時はまんまとやられたわ！",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake"
+    },
+    "20": {
+      "type": "talk",
+      "dialogue": "そう笑い飛ばしてくれたのが救いだった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "21": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
+    "22": {
+      "type": "talk",
+      "dialogue": "そ、それより…\\お前の「魂の半分」を見なかったか？",
+      "background": "bg177_f",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "irritation"
     },
+    "23": {
+      "type": "talk",
+      "dialogue": "いんや～？\\たぶん、海の方にいると思うけど～。",
+      "char": "c202_00",
+      "speaker": "same_full",
+      "pos": "right"
+    },
     "24": {
       "type": "talk",
-      "dialogue": "何をする！！！！",
-      "char": "c208_01",
-      "speaker": "same",
-      "distance": "normal",
-      "one_ani": "attack",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_fire.mvd"
+      "dialogue": "探してるなら、行くだけ行ってみたら～？\\たぶん、防波堤とかで、\\おセンチになってると思うぜ？\\ウケる！ギャハハ！",
+      "char": "keep",
+      "speaker": "same_full",
+      "pos": "right"
     },
     "25": {
       "type": "talk",
-      "dialogue": "女性に手を出すとは！\\お前はそれでも男か！許さん！",
-      "char": "keep",
+      "dialogue": "笑ってやるなよ…\\とりあえず、ありがと。\\あ…それと…",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "normal",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake"
+      "pos": "left",
+      "facial": "idle"
     },
     "26": {
       "type": "talk",
-      "dialogue": "誰だお前は…？\\それより、チャイルドが悪魔にケンカを売って、\\タダで済むと…",
-      "char": "c051_02",
-      "speaker": "same",
+      "dialogue": "あ？",
+      "char": "c202_00",
+      "speaker": "same_full",
       "pos": "right"
     },
     "27": {
       "type": "talk",
-      "dialogue": "思っているのか！？",
-      "char": "keep",
+      "dialogue": "…あの時、イカサマして悪かったな。\\そのせいで、復讐か何かができなくなったんだろ？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "before_effect": "shake",
-      "screen_effect": "shake"
+      "pos": "left",
+      "facial": "sulky"
     },
     "28": {
       "type": "talk",
-      "dialogue": "かかってこい！\\お前を許すわけにはいかない！",
-      "char": "c208_01",
-      "speaker": "same",
+      "dialogue": "はっ、いいってことよ。\\イカサマなんて、\\気付かない方が悪いんだからな！",
+      "char": "c202_00",
+      "speaker": "same_full",
       "pos": "right",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "distance": "near"
     },
     "29": {
-      "type": "talk",
-      "dialogue": "ファイロ…\\それはこっちのセリフだ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "まさか、リザの手を掴んだってだけで…\\まったく、手の付けようがないな！",
-      "char": "c051_02",
+      "dialogue": "…あ？悪魔の旦那じゃねえか。",
+      "background": "bg061_f",
+      "char": "c202_01",
       "speaker": "same",
       "pos": "right",
-      "before_effect": "shake",
-      "mvd": "effect/battle/sfx_com_all_dmg_phy_dark.mvd"
+      "distance": "near"
     },
     "31": {
       "type": "talk",
-      "dialogue": "ケンカは外でしろよ…",
+      "dialogue": "…そーだよ。\\勝手に姿を消すわ、何度呼んでも応えないわ…\\一体、何してたんだ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "unfair",
+      "before_effect": "shake_weak"
     },
     "32": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "海を眺めながら、孤独を噛み締めてたんだよ。\\…で？わざわざこんなとこまで探しに来るなんて、\\何か用でもあんの？",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "33": {
       "type": "talk",
-      "dialogue": "バカにつける薬はないというが\\付き合いきれんな。",
-      "background": "bg098_f",
-      "char": "c051_02",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "俺の主人をバカにするのはやめろ！",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "right",
-      "facial": "angry"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "俺の事じゃない…\\本当に、バカにつける薬は無い…",
+      "dialogue": "い、いや、別に用はないけど…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "serious"
+      "facial": "sulky"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "お前が誰かに、\\「復讐」でもするんじゃないかって思って探してた…とはさすがに言えないよな…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "ギャハハ！\\そーんなに、あたしに会いたかったのかあ？",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "36": {
       "type": "talk",
-      "dialogue": "次はもう少しマシなチャイルドを連れてこい。\\ああやって力任せに行動する奴じゃなくてな。",
-      "char": "c051_02",
+      "dialogue": "茶化すなよ…\\これでも、お前のこと、心配してたんだぞ？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_slow"
+      "pos": "left"
     },
     "37": {
       "type": "talk",
-      "dialogue": "おい！止まれ！逃げるのか！",
-      "char": "c208_01",
+      "dialogue": "お前は、まだ弱いんだから。",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
+      "pos": "left"
     },
     "38": {
-      "type": "curtain",
-      "background": "back",
-      "fade_out": "normal",
-      "wait": "normal",
-      "fade_in": "normal"
+      "type": "talk",
+      "dialogue": "へえ…\\魔界で最弱のくせによく言うなあ。\\そんな奴に心配されるなんて、\\あたしもヤキが回ったみたいだねえ。",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "shake_weak"
     },
     "39": {
       "type": "talk",
-      "dialogue": "ファイロ、大丈夫ですか。",
-      "background": "bg095_f",
-      "char": "c002_01",
+      "dialogue": "…なんてな。\\そんなこと言って、\\あたしが「復讐」を始めるんじゃないか…\\って心配してたんだろ？",
+      "char": "keep",
       "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
+      "pos": "right"
     },
     "40": {
       "type": "talk",
-      "dialogue": "あ、ああ、大丈夫だ…う！\\も、もうちょい後ろに…\\お、おい、補欠！",
-      "char": "c208_01",
+      "dialogue": "けど、心配しなくても大丈夫だよ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "41": {
       "type": "talk",
-      "dialogue": "俺の名前は補欠じゃない。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious"
-    },
-    "42": {
-      "type": "talk",
-      "dialogue": "俺をもっと強くしてくれ！\\オマエが呼べばどこにでもついて行く！",
-      "char": "c208_01",
-      "speaker": "same",
-      "pos": "center",
-      "one_ani": "attack",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
-    },
-    "43": {
-      "type": "talk",
-      "dialogue": "このままじゃすまさん…！\\いつかあいつに一発食らわせてやる！",
+      "dialogue": "復讐も波に乗らないとできないもんだからな。",
       "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "44": {
+    "42": {
       "type": "talk",
-      "dialogue": "ファイロは…\\本当に負けず嫌いのようですね。",
-      "char": "c002_01",
+      "dialogue": "たぶん、かなり先の話になるはずだ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
-    "45": {
+    "43": {
       "type": "talk",
-      "dialogue": "本当に分からないのか、ただのフリなのか…",
+      "dialogue": "なら、いいけど…\\できれば、もう勝手にいなくならないでくれよ？\\お嬢さん。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "sigh"
+      "facial": "idle"
     },
-    "46": {
+    "44": {
+      "type": "talk",
+      "dialogue": "ふん、生意気なこと言うじゃねーか。\\悪魔の旦那よう！",
+      "char": "c202_01",
+      "speaker": "same",
+      "pos": "right",
+      "one_ani": "attack"
+    },
+    "45": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

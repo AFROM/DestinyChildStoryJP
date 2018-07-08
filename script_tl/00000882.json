@@ -2,299 +2,171 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ルドルフがいなくなった！",
-      "background": "bg086_f",
-      "bgm": "9",
-      "char": "c253_01",
-      "speaker": "same"
+      "dialogue": "クカー…チョロン…ゴロゴロ…クカー…",
+      "background": "bg070_f",
+      "bgm": "17",
+      "char": "m194_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "また家出か？",
+      "dialogue": "どこに行ったかと思えばこんな所で寝てたのか…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "smile"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "心配させやがって…\\何かあったんじゃないかってヒヤヒヤしたよ…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "幸せそうに寝ている姿を見ると…\\契約者みたいにただの子供だな。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "はぁ…起こしたら泣いて逃げるよな。\\戦いたくなかったら無理やりさせないって\\言ったけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "haah"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "ヘヘ…チョロン…楽しい…ヘヘ…",
+      "char": "m194_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "何の夢みて笑ってるんだ？羨ましい…\\俺もここで昼寝でも…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "3": {
-      "type": "talk",
-      "dialogue": "…そうなのかしら？",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "いいえ。今回は強制的に連れて行かれた痕跡を見つけました。",
-      "char": "c002_01",
-      "speaker": "same",
-      "one_ani": "attack"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "まさか、さらわれたのか！？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "serious",
-      "before_effect": "shake"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "生意気な！よくも私のソリ引きを拉致したわね！\\一生後悔させてあげる。",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "貴女のソリ引きではありません。\\御主人様のチャイルドです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "irritation"
-    },
     "8": {
-      "type": "talk",
-      "dialogue": "そういうのは後回しにして、まずはルドルフを助け出そう！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "fury"
-    },
-    "9": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
       "wait": "normal",
       "fade_in": "normal"
     },
+    "9": {
+      "type": "talk",
+      "dialogue": "うわ…本当に寝ちゃったよ。あれ？チョロン…？\\また逃げたのか！",
+      "background": "bg070_f",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "before_effect": "shake",
+      "facial": "nonsense"
+    },
     "10": {
       "type": "talk",
-      "dialogue": "うう…一体何だよ…\\昼寝中のソリ引きをさらうなんて…",
-      "background": "bg129_f",
-      "char": "c225_01",
+      "dialogue": "逃げてないチョロン！",
+      "char": "m194_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
+      "distance": "near"
     },
     "11": {
       "type": "talk",
-      "dialogue": "おじさん、バチ当たるよ！",
-      "char": "keep",
+      "dialogue": "ビックリした！",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "serious",
+      "before_effect": "shake"
     },
     "12": {
       "type": "talk",
-      "dialogue": "ふん！人質のくせにやかましい！",
-      "char": "m216_01",
-      "speaker": "same",
-      "pos": "left",
-      "one_ani": "attack"
-    },
-    "13": {
-      "type": "talk",
-      "dialogue": "人質？どうして俺を人質なんかに？",
-      "char": "c225_01",
+      "dialogue": "ど、どうして僕を追いかけてくるチョロン？",
+      "char": "m194_01",
       "speaker": "same",
       "pos": "right"
     },
+    "13": {
+      "type": "talk",
+      "dialogue": "オマエが逃げるからだろ。\\オマエこそなんで逃げるんだよ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
     "14": {
       "type": "talk",
-      "dialogue": "あー、分かった。ニコルだな？\\おじさん、あの女のこと嫌いだもんね。",
-      "char": "keep",
+      "dialogue": "悪魔が追いかけてくるからチョロン！",
+      "char": "m194_01",
       "speaker": "same",
       "pos": "right"
     },
     "15": {
       "type": "talk",
-      "dialogue": "でも思い通りにならないと思うよ。\\あの女、すっごいズボラだから。\\なかなか動こうとしないんだから…",
-      "char": "keep",
+      "dialogue": "何だよそれ…",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "sigh"
     },
     "16": {
       "type": "talk",
-      "dialogue": "ここね、泥棒！",
-      "char": "c253_01",
+      "dialogue": "僕はもう家に帰るチョロン。お腹空いたチョロン。",
+      "char": "m194_01",
       "speaker": "same",
-      "pos": "right",
-      "before_effect": "enter_from_right_fast"
+      "pos": "right"
     },
     "17": {
       "type": "talk",
-      "dialogue": "あれ？…ウワサをすればホントに来た！",
-      "char": "c225_01",
-      "speaker": "same"
+      "dialogue": "え？本当にもう逃げないのか？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ふん！引っかかったな、ニコル！",
-      "char": "m216_01",
+      "dialogue": "お腹空いたチョロン！",
+      "char": "m194_01",
       "speaker": "same",
-      "before_effect": "shake"
+      "pos": "right",
+      "one_ani": "attack"
     },
     "19": {
       "type": "talk",
-      "dialogue": "もう、誰にもついて行くなって言ったでしょ？",
-      "char": "c253_01",
+      "dialogue": "分かった、分かった。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
+      "pos": "left",
+      "facial": "smile"
     },
     "20": {
-      "type": "talk",
-      "dialogue": "ぎゃ！何で俺を叩くんだよ！",
-      "char": "c225_01",
-      "speaker": "same",
-      "before_effect": "shake"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "まったく…\\恥ずかしくて外も歩けないわ！",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
+      "dialogue": "夢の中で悪魔が優しくしてくれたチョロン。\\目を覚ましたら隣に悪魔がいたチョロン。",
+      "background": "bg110_f",
+      "char": "m194_01",
+      "speaker": "same"
     },
     "22": {
       "type": "talk",
-      "dialogue": "こんなことするくらいならさっさと消えろ！\\今日から偽サンタのソリ引きになってやる！",
-      "char": "c225_01",
-      "speaker": "same",
-      "before_effect": "shake_weak"
+      "dialogue": "チョロンは悪魔の出る夢をみたのか、\\それとも悪魔が僕の夢に出てきたのか…",
+      "char": "keep",
+      "speaker": "same"
     },
     "23": {
-      "type": "talk",
-      "dialogue": "殺してやる！",
-      "char": "m216_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake",
-      "one_ani": "attack"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "うるさいわね！今、喧嘩してるのが見えないの？",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "こ、ころ…",
-      "char": "m216_01",
-      "speaker": "same"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "勝手に入ってくるな、おじさん！",
-      "char": "c225_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "生意気な女に生意気なソリ引き！二人とも容赦は…",
-      "char": "m216_01",
-      "speaker": "same",
-      "distance": "near",
-      "screen_effect": "dialog_shake"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "どいてっ！",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "one_ani": "attack"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "ぐわっ！",
-      "char": "m216_01",
-      "speaker": "same",
-      "before_effect": "shake",
-      "mvd": "ux/battle/sfx_enchant.mvd|boom_start"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "はあ、はあ…\\ニコル、1人で出て行くなってあれほど…\\ん？もうルドルフを救出したのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "それより…\\なんでフェアリーのヤツ、地面に伏せてるんだ？",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "犯人はニコルのようですね。",
-      "char": "c002_01",
-      "speaker": "same"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "そうかニコルにやられたのか…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "くうっ…",
-      "char": "m216_01",
-      "speaker": "same",
-      "before_effect": "shake"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "ソリ引きが家出した理由\\何か思い当たる節があるだろ。",
-      "char": "c225_01",
-      "speaker": "same"
-    },
-    "36": {
-      "type": "talk",
-      "dialogue": "私のせいでアナタが逃げたとでも言いたいの？\\いつまで言い訳するつもり？",
-      "char": "c253_01",
-      "speaker": "same",
-      "pos": "right",
-      "before_effect": "shake_weak"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "一件落着したようなので、フェアリーを連れて帰りましょう。",
-      "char": "c002_01",
-      "speaker": "same",
-      "facial": "smile",
-      "one_ani": "attack"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "はぁ…ほんとお騒がせなヤツらだよ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "haah"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "許さん…生意気な女め…ぐおっ…",
-      "char": "m216_01",
-      "speaker": "same",
-      "distance": "near",
-      "after_effect": "shake"
-    },
-    "40": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

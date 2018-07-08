@@ -2,74 +2,73 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "あなたがリザさんね？こんにちは。",
+      "dialogue": "見たわよ！昨日！\\やってくれたわねぇ！",
       "background": "bg086_f",
-      "bgm": "24",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right"
+      "bgm": "19",
+      "char": "c190_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "こんにちは、アシュトレス。私がリザです。",
-      "char": "c002_01",
+      "dialogue": "な、何のこと！？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "あなたの噂は聞いてるわ。\\とても有能なサポーターだそうね。\\会えてうれしいわ。",
-      "char": "c194_01",
+      "dialogue": "しらばっくれても無駄よ。\\バッチリ、この両目で見たんだから。",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "4": {
       "type": "talk",
-      "dialogue": "私も、アナタのことは伺っています。\\とても礼儀正しく、親切なチャイルドだそうですね。",
-      "char": "c002_01",
+      "dialogue": "お、俺なんかしたっけ？\\リザ、覚えてる？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "5": {
       "type": "talk",
-      "dialogue": "俺の部屋で何してるんだよ？\\商談か名刺交換の練習？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "haah"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "こんなところでビジネスの話なんてしません。\\くだらない冗談はさておき、彼女は本当に素晴らしいチャイルドですね。",
+      "dialogue": "好き放題に飲み食いした結果お腹を壊し、\\お手洗いを長時間、占拠いたしました。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "7": {
+    "6": {
       "type": "talk",
-      "dialogue": "素晴らしいチャイルドね…",
+      "dialogue": "みんな近所のトイレまで行ったんだっけ…\\それは反省してるけど、まさかそのこと？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "irritation"
+      "facial": "confused"
     },
-    "8": {
+    "7": {
       "type": "talk",
-      "dialogue": "フフッ、そんなに褒められたら恥ずかしいですわ。\\私なんて、まだまだです。",
-      "char": "c194_01",
+      "dialogue": "ごまかしは利かないわよ。\\貴方は昨晩、車を運転してどこかに出かけた…\\みんなに隠れてね。",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "車？\\いやいや、俺、運転免許持ってないし。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
     "9": {
       "type": "talk",
-      "dialogue": "ご謙遜を。\\どうやらアナタとは、上手くやって行けそうですね。",
+      "dialogue": "御主人様、やらかしたならやらかした、\\と報告してください。\\知っていれば対処の仕様もあります。",
       "char": "c002_01",
       "speaker": "same",
       "pos": "right",
@@ -77,211 +76,108 @@
     },
     "10": {
       "type": "talk",
-      "dialogue": "まあ、ありがとう。リザさん。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "11": {
-      "type": "talk",
-      "dialogue": "…それでは、私はこの辺りで失礼いたします。\\またお会いしましょう、アシュトレス。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal",
-      "after_effect": "go_to_right_point"
-    },
-    "12": {
-      "type": "talk",
-      "dialogue": "おーい、俺にもひと言くらい…\\…あ、行っちゃった。",
+      "dialogue": "いやいやいや。話聞いてます？\\免許も車も持ってないよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "sigh"
+      "facial": "confused"
+    },
+    "11": {
+      "type": "talk",
+      "dialogue": "そう、免許を持ってないから\\運転しないという盲点…\\そこをついて、貴方はトランクに詰め込んだのよ…\\死体を！",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "12": {
+      "type": "talk",
+      "dialogue": "ちょ、ちょっと待て！\\だから、何の話をしてるんだ！？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused",
+      "before_effect": "shake",
+      "screen_effect": "dialog_shake"
     },
     "13": {
       "type": "talk",
-      "dialogue": "うらやましいですね。\\あんな素敵なサキュバスにサポートしてもらえるなんて…フフフッ。",
-      "char": "c194_01",
+      "dialogue": "とぼけても無駄よ。\\こっちには、証拠写真だってあるんだから！",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "おいおい、なんでリザの後ろ姿を見ながらニヤニヤしてるんだ？キモいぞ…",
+      "dialogue": "おい、マジでどうした？\\変なこと言うのやめろって！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "confused"
+      "facial": "confused",
+      "before_effect": "shake"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あら、ごめんなさい。\\気に障りましたか？",
-      "char": "c194_01",
+      "dialogue": "御主人様…悪魔らしくないという小言が\\そんなにも嫌だったんですか？",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "気に障るも何も…\\一体、何を企んでるんだよ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "17": {
-      "type": "talk",
-      "dialogue": "企んでいるだなんて、人聞きが悪いですね。\\私は何も…",
-      "char": "c194_01",
+      "dialogue": "だからといって、犯罪を起こす前は\\事前に私と十分な打ち合わせをしてくださらないと…",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
-    "18": {
+    "17": {
       "type": "talk",
-      "dialogue": "そんなわけないだろ。チャイルドってのは、人間の欲望から生まれた存在だ。\\だから、みんな何かしらの願いを持ってるもんだ。",
+      "dialogue": "リザ、あんなのデタラメに決まってるだろ！\\イシス、俺に何か恨みでもあるのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "18": {
+      "type": "talk",
+      "dialogue": "てへっ★",
+      "bgm": "4",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "before_effect": "none",
+      "one_ani": "attack"
     },
     "19": {
       "type": "talk",
-      "dialogue": "それなのに、お前はそういうのを全然、表に出さないだろ？",
-      "char": "keep",
+      "dialogue": "てへ…？",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "near",
+      "facial": "confused",
+      "before_effect": "none",
+      "screen_effect": "dialog_shake"
     },
     "20": {
       "type": "talk",
-      "dialogue": "だから、何か企んでいると思ったのですか？\\心配はいりませんよ。私はただ願い事を胸の内に秘めているだけ。\\あまりガツガツしていたら、はしたないでしょう？",
-      "char": "c194_01",
+      "dialogue": "どう、迫真の演技だったでしょ？\\名探偵役！",
+      "char": "c190_01",
       "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "お前の契約者は、俺に願いも何も話さなかった。\\とにかく契約しろって駄々をこねられてさ。\\契約しなかったらネットに晒すとか言って…",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "irritation"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "そんなヤツからどんなチャイルドが生まれるか…\\まったく想像もできなかったよ。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "確かに願いのない人間なんていませんね。\\でも、沢山の物を欲しがる強欲な人間などとは違い、私の願いはただ1つですわ。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "アシュトレスの怪しい微笑みに、背筋がゾクッと震えた。な、何なんだ？",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "ご主人様、私は何をしても許される…\\そんな存在になりたいのです。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "26": {
-      "type": "talk",
-      "dialogue": "何をしても？\\それ、かなりヤバい願いだって、分かって言ってるのか？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "27": {
-      "type": "talk",
-      "dialogue": "フッ、承知しておりますとも。\\ご主人様にとって、とても危険な願いということも。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "28": {
-      "type": "talk",
-      "dialogue": "え…？\\何で《俺にとっては》なんだ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal",
-      "facial": "confused"
-    },
-    "29": {
-      "type": "talk",
-      "dialogue": "《何をしても許される存在》…\\つまり私の願いは、魔王になることですから。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "near"
-    },
-    "30": {
-      "type": "talk",
-      "dialogue": "はあ？",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "31": {
-      "type": "talk",
-      "dialogue": "魔王になれば、何をしても許されるのでしょう？",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "32": {
-      "type": "talk",
-      "dialogue": "そうすれば、誰にも邪魔されずに自由に暮らせる。\\フフフッ。素晴らしいではありませんか。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "33": {
-      "type": "talk",
-      "dialogue": "冗談だろ？\\チャイルドが魔王になりたいだなんて…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "34": {
-      "type": "talk",
-      "dialogue": "私、冗談など申しませんわ。",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "35": {
-      "type": "talk",
-      "dialogue": "…こ、心が読めるのか？",
+      "dialogue": "お…ま…あ…え…？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -289,56 +185,193 @@
       "facial": "nonsense",
       "before_effect": "shake"
     },
-    "36": {
+    "22": {
       "type": "talk",
-      "dialogue": "構いませんよね？私が魔王になっても。",
-      "char": "c194_01",
+      "dialogue": "御主人様、開いた口を戻してください。\\今にもよだれが垂れそうです。",
+      "char": "c002_01",
       "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "serious"
     },
-    "37": {
+    "23": {
       "type": "talk",
-      "dialogue": "ご主人様は、魔王になど興味がないのですから。",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "38": {
-      "type": "talk",
-      "dialogue": "確かに俺は魔王なんてなりたくない。\\だけど、チャイルドが魔王になるなんて、普通あり得ないだろ。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "39": {
-      "type": "talk",
-      "dialogue": "まぁ！悪魔とかチャイルドとか、そんな細かいことはどうでもよろしいでしょう？",
-      "char": "c194_01",
-      "speaker": "same",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "40": {
-      "type": "talk",
-      "dialogue": "どうでもよくない！\\お前は俺のチャイルドなんだから好き勝手はさせないからな！\\その腐った根性、叩き直してやる！",
+      "dialogue": "おっとと…！\\ああ、参ったなこりゃ…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "fury"
+      "facial": "sigh"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "ショックを受けた時は溜息をつくだけじゃなくて\\もっと大げさな動作もつけくわえると\\それっぽくなりますよ！",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "イシスはそう言うと、\\俺の演技指導を始めた。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "26": {
+      "type": "talk",
+      "dialogue": "こうやって空を仰いで額を抑えて…\\参ったな、こりゃあ！",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "screen_effect": "dialog_shake"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "イシス。演技指導はいいけど…\\もうこんなイタズラはやめるんだぞ。\\寿命が150年は縮んだ。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "えっ！そんなにびっくりするくらい、\\私の演技すごかった！？",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "褒めてない。でも、こんな嬉しそうな顔をされると\\否定できない。うーん、とはいえこの子が\\俺のチャイルドだと思うと…",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "30": {
+      "type": "talk",
+      "dialogue": "オーディションの審査、\\ご主人様はオッケーくれたということで！",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "31": {
+      "type": "talk",
+      "dialogue": "審査員に内緒でオーディションなんて\\聞いたことないけど。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "32": {
+      "type": "talk",
+      "dialogue": "次はダビを攻略してみようかな？\\モナとの三角関係をネタにして…\\私はモナと隠れて相思相愛で…",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "33": {
+      "type": "talk",
+      "dialogue": "うえっ…聞いただけで、\\修羅場が安易に想像できる。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "serious"
+    },
+    "34": {
+      "type": "talk",
+      "dialogue": "リザ、あいつのこと止めろよ。\\あらぬ誤解を招いて、大騒ぎになりそうだ。\\特に冗談が通じないやつら…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "idle"
+    },
+    "35": {
+      "type": "talk",
+      "dialogue": "そうでしょうか？\\私なら、あのような稚拙な演技に騙されません。\\騙される方が悪いのでは。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "36": {
+      "type": "talk",
+      "dialogue": "ち、稚拙！？\\騙される方が悪いですって？",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "idle",
+      "before_effect": "shake"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "さっき俺と一緒に騙されてたのはどこの誰だ？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
+    },
+    "38": {
+      "type": "talk",
+      "dialogue": "…それは…\\そう、合わせていたのです。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "39": {
+      "type": "talk",
+      "dialogue": "うっそだー。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "40": {
+      "type": "talk",
+      "dialogue": "稚拙…そう言われたからには\\こうしてはいられません！",
+      "char": "c190_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
     },
     "41": {
       "type": "talk",
-      "dialogue": "フフッ、どう叩き直してくださるのですか…\\楽しみにしていますわ。",
-      "char": "c194_01",
+      "dialogue": "次はリザ、あなたを攻略します！\\涙もちょちょぎれるような完璧な悲劇を\\お見せいたしましょう！",
+      "char": "keep",
       "speaker": "same",
       "pos": "right",
       "distance": "near"
     },
     "42": {
+      "type": "talk",
+      "dialogue": "わかりました。\\一応、ハンカチは準備しておきますね。",
+      "char": "c002_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal",
+      "facial": "pretense"
+    },
+    "43": {
+      "type": "talk",
+      "dialogue": "いやあ…上手だったけどなぁ…",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "confused"
+    },
+    "44": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

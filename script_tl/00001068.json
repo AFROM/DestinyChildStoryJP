@@ -2,9 +2,45 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "反対の属性の敵には<color=fcc800>WEAK POINT</color>と表示されます。\\WEAK POINTが出たら忘れずにタップです！\\<color=fcc800>弱点攻撃</color>になり、<color=ff9900>大ダメージ</color>を与える事ができます！",
-      "char": "none",
-      "speaker": "none"
+      "dialogue": "いらっしゃませ。初めてのお客様ですね。\\ここは<color=\"cc66ff\">《Bar REPLAY》</color>でございます。",
+      "background": "bg176_f",
+      "bgm": "28",
+      "char": "c152_00",
+      "speaker": "same",
+      "pos": "right",
+      "before_effect": "enter_from_right_fast",
+      "voiceid": "400501001"
+    },
+    "2": {
+      "type": "talk",
+      "dialogue": "お酒は忘却の飲み物だと言いますが、\\ここではその逆…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400501002"
+    },
+    "3": {
+      "type": "talk",
+      "dialogue": "思い出したい記憶を願えば、\\ついさっきの出来事のように思い出せるでしょう。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400501003"
+    },
+    "4": {
+      "type": "talk",
+      "dialogue": "未成年にお酒は勧められませんね…\\ミルクでも一杯いかがですか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right",
+      "voiceid": "400501004"
+    },
+    "5": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     }
   }
 }

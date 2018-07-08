@@ -2,236 +2,248 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "ん？なんか足元で何かが、\\俺の足の匂いを嗅いでいるような…",
-      "background": "bg068_f",
-      "bgm": "17",
-      "char": "c000_01",
+      "dialogue": "ご主人さま。本当に、あの相手と契約したんですね。",
+      "background": "bg086_f",
+      "bgm": "9",
+      "char": "c001_01",
       "speaker": "same",
-      "facial": "idle"
+      "pos": "right"
     },
     "2": {
       "type": "talk",
-      "dialogue": "「ような」ではなく、\\実際に匂いを嗅がれています。\\…ライオンのようですね。",
-      "char": "c002_01",
+      "dialogue": "…ああ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right",
+      "pos": "left",
       "distance": "normal"
     },
     "3": {
       "type": "talk",
-      "dialogue": "ライオンって言うと…",
-      "char": "c000_01",
+      "dialogue": "信じられません。\\ホント…",
+      "char": "c001_01",
       "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
+      "pos": "right",
+      "distance": "normal",
+      "facial": "teach"
     },
     "4": {
       "type": "talk",
-      "dialogue": "テロン！テロン！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "far"
-    },
-    "5": {
-      "type": "talk",
-      "dialogue": "やっぱり…\\あの子のライオンか。",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "distance": "normal"
-    },
-    "6": {
-      "type": "talk",
-      "dialogue": "俺は、遠くから駆け寄ってくる、\\キュベレーの契約者を見つけ呟いた。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "7": {
-      "type": "talk",
-      "dialogue": "ソーリー！ごめん！\\ビックリ？\\でも、テロン、ヒト、噛まない！安心、する！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal"
-    },
-    "8": {
-      "type": "talk",
-      "dialogue": "知ってるよ。",
+      "dialogue": "はは…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "smile"
+      "facial": "haah"
     },
-    "9": {
+    "5": {
       "type": "talk",
-      "dialogue": "俺の足を丹念に舐めている様は、\\まるで味見をしているように見えるけど、\\気が付かないフリをする。",
+      "dialogue": "ホ～ント悪魔らしくなってきましたね～♥\\さすがご主人さまです♥",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "tempt"
+    },
+    "6": {
+      "type": "talk",
+      "dialogue": "…そう言うと思った。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "7": {
+      "type": "talk",
+      "dialogue": "アシュトレスとの契約は不本意だったし、契約の詳細は話さないつもりだったけど…",
       "char": "none",
       "speaker": "none",
       "screen_effect": "dark"
     },
+    "8": {
+      "type": "talk",
+      "dialogue": "結局モナに問い詰められて話してしまった。",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
+    },
+    "9": {
+      "type": "talk",
+      "dialogue": "《人間の未来がどうなろうと俺の知ったことか！\\誰にも俺の邪魔はさせない！》",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near",
+      "facial": "angry"
+    },
     "10": {
       "type": "talk",
-      "dialogue": "テロン、知ってる？\\あれ？どこか、会った？",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "…とでも言ったところでしょうか？",
+      "char": "keep",
+      "speaker": "same",
       "pos": "right",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "idle"
     },
     "11": {
       "type": "talk",
-      "dialogue": "会ったことがあるかと聞いているようですね。",
-      "char": "c002_01",
+      "dialogue": "やっと魔王になるための自覚に目覚めたのですね～♥",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "12": {
       "type": "talk",
-      "dialogue": "いや、初めてだけど？",
+      "dialogue": "魔王にはならないよ。\\あの日の俺はどうかしてた…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "haah"
     },
     "13": {
       "type": "talk",
-      "dialogue": "でも、テロン、噛まない。\\ユー、知ってる。\\なんで？",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "まぁまぁ、そんなことおっしゃらずに♥\\モナと立派な魔王を目指しましょうね、ご主人さま♥",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "14": {
       "type": "talk",
-      "dialogue": "自分のライオンが人を噛まないことを、\\なぜ知っているのかと聞いています。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "15": {
-      "type": "talk",
-      "dialogue": "…通訳ありがとう。",
+      "dialogue": "やっぱり、言うんじゃなかった…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
+      "distance": "normal",
+      "facial": "irritation"
+    },
+    "15": {
+      "type": "talk",
+      "dialogue": "ところで、ご主人さまは、アシュトレスについてどうお考えですか？",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "right",
       "distance": "normal"
     },
     "16": {
       "type": "talk",
-      "dialogue": "なんとなく、かな…\\俺、昔からネコ科の動物とは、仲がいいんだよ。",
-      "char": "keep",
+      "dialogue": "どうって…\\アシュトレスは悪魔の力によって増幅された人間の欲望そのもの…だろ。",
+      "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
     "17": {
       "type": "talk",
-      "dialogue": "この子に初めて会った時も、\\こんな話をした。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "dialogue": "そうですね～♥\\彼女ほど、魔王に相応しいチャイルドはいませんからね～",
+      "char": "c001_01",
+      "speaker": "same",
+      "pos": "center",
+      "distance": "near"
     },
     "18": {
       "type": "talk",
-      "dialogue": "ライオンが俺の匂いをたどって、\\擦り寄ってきたところで、\\追いかけてきたこの子と出会った。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "19": {
-      "type": "talk",
-      "dialogue": "友達と遊んでいたのかい？",
+      "dialogue": "や、やめろよ。そういう言い方。\\ただでさえ、契約したことを後悔してるんだから…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "unfair"
+    },
+    "19": {
+      "type": "talk",
+      "dialogue": "友達が悪魔と契約してるところを見て、\\自分も契約したいなんて言い出すようなヤツと契約したなんて…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal",
+      "facial": "sigh"
     },
     "20": {
       "type": "talk",
-      "dialogue": "イエス！テロン、トモダチ！\\オニーサン、いっしょ、あそぼ！",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "ご主人さまが後悔なんて、アシュトレスがかわいそうですよ？\\それにあの子は生まれてきたことを、感謝しているかもしれませんよ？",
+      "char": "c001_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "21": {
       "type": "talk",
-      "dialogue": "テロンが友達だと言っています。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "…そ、それぐらいわかるよ。",
+      "dialogue": "どうだか…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
+    "22": {
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
+    },
     "23": {
       "type": "talk",
-      "dialogue": "テロン、怖い？",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
+      "dialogue": "…なあ、アシュトレス。\\ちょっといいか？",
+      "background": "dungeon_bg",
+      "bgm": "24",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
       "distance": "normal"
     },
     "24": {
       "type": "talk",
-      "dialogue": "怖いかって？\\いや、こんな小さかったら、\\怖くはないけど…",
+      "dialogue": "あら、ご主人様。どうかなさいました？",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "normal"
+    },
+    "25": {
+      "type": "talk",
+      "dialogue": "お前さ…\\俺のチャイルドになったこと、どう思ってる？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal"
     },
-    "25": {
-      "type": "talk",
-      "dialogue": "成長しきったキュベレーのテロンに比べれば、\\こんなちっこいのは子猫みたいなもんだ。",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
     "26": {
       "type": "talk",
-      "dialogue": "サンキュー！\\…マイアンクル、怖がる。\\テロン、こんなに、優しいのに…",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "フフッ。もちろん嬉しく思っていますよ？\\ご主人様には感謝しておりますわ。",
+      "char": "c194_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "27": {
       "type": "talk",
-      "dialogue": "彼女のおじさんは、\\テロンを怖がっているようです。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "center",
-      "distance": "normal"
+      "dialogue": "…モナの言った通りか？",
+      "char": "none",
+      "speaker": "none",
+      "screen_effect": "dark"
     },
     "28": {
       "type": "talk",
-      "dialogue": "その反対かもな。",
-      "char": "c000_01",
+      "dialogue": "ご主人様と出会えたからこそ、私の願いを叶える方法が見つかったのです。",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "left",
+      "pos": "right",
       "distance": "normal"
     },
     "29": {
       "type": "talk",
-      "dialogue": "はい？",
-      "char": "c002_01",
+      "dialogue": "ああ、早く魔王になりたいわぁ…",
+      "char": "keep",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "30": {
       "type": "talk",
-      "dialogue": "お前が、おじさんを怖がっている。\\それがテロンに伝わってるのかもしれないな。",
+      "dialogue": "またそれか。\\…お前、本気で魔王になりたいのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -239,15 +251,15 @@
     },
     "31": {
       "type": "talk",
-      "dialogue": "うーん…怖く、ない。\\でも、アフリカ、帰りたい。\\だけど、トモダチできたから、へいき。",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "フフッ、当然ですわ。\\できることなら、この願いはご主人様に叶えていただきたいのですが…",
+      "char": "c194_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "32": {
       "type": "talk",
-      "dialogue": "テロン以外の友達ができたってこと？",
+      "dialogue": "仮に俺が魔王だとしても、さすがにその願いは叶えてやれないな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
@@ -255,96 +267,111 @@
     },
     "33": {
       "type": "talk",
-      "dialogue": "うん。そのヒト、\\インマイドリーム…夜、寝る。\\夢、会いに来てくれる…",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "がっかりですわ、ご主人様。いっそ、\\俺が魔王になりたいからだっておっしゃって。",
+      "char": "c194_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "34": {
       "type": "talk",
-      "dialogue": "夢の中で出会った友達？",
+      "dialogue": "そんなこというか！\\お前みたいな子供に、魔王なんて\\任せられないからだ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal"
+      "distance": "normal",
+      "facial": "fury"
     },
     "35": {
       "type": "talk",
-      "dialogue": "She has a big lion！\\カワイイ。カッコイイ！",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "子供…？",
+      "char": "c194_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "36": {
       "type": "talk",
-      "dialogue": "はは、そうか。\\あいつら、\\この子の夢にお邪魔してるってわけか…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
-    },
-    "37": {
-      "type": "talk",
-      "dialogue": "それじゃ、今は寂しくない？",
+      "dialogue": "ああ。そうだ。\\そんな風に駄々をこねて…",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "smile"
+      "distance": "normal"
+    },
+    "37": {
+      "type": "talk",
+      "dialogue": "危ないからダメと言われてるのに聞き分けのない、\\わがままな子供だ。",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "38": {
       "type": "talk",
-      "dialogue": "うん。ダイジョーブ！\\オジサンとも、仲良くなれるように、\\がんばる！",
-      "char": "c195_00",
-      "speaker": "same_full",
+      "dialogue": "駄々をこねているわけでは…\\私は本気で魔王に…",
+      "char": "c194_01",
+      "speaker": "same",
       "pos": "right",
       "distance": "normal"
     },
     "39": {
       "type": "talk",
-      "dialogue": "そっか、頑張れ。\\お前の友達もきっと頑張ってるからさ。\\負けないようにしないとな。",
+      "dialogue": "本当にそうか？\\お前の契約者が友達の真似をして契約したみたいに、お前も俺の真似をしたいだけじゃないのか？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "distance": "normal",
-      "facial": "smile"
+      "facial": "angry"
     },
     "40": {
       "type": "talk",
-      "dialogue": "誠に言い難いのですが…\\テロンが思いっきり御主人様の、\\お尻に噛みついてます。",
-      "char": "c002_01",
+      "dialogue": "そんなことは…",
+      "char": "c194_01",
       "speaker": "same",
-      "pos": "center",
+      "pos": "right",
       "distance": "normal"
     },
     "41": {
       "type": "talk",
-      "dialogue": "う、ううう、うん…",
+      "dialogue": "とにかく、生半可な気持ちで魔王になりたいだなんてもう言うなよ？",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "distance": "normal",
-      "facial": "nonsense",
-      "before_effect": "shake_weak"
+      "distance": "normal"
     },
     "42": {
       "type": "talk",
-      "dialogue": "きゃあ！テロン！\\ノー！ダメ！ストップ！",
-      "char": "c195_00",
-      "speaker": "same_full",
-      "pos": "right",
-      "distance": "normal",
-      "before_effect": "shake"
+      "dialogue": "次、言ったら本気で怒るぞ。\\分かったな？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "distance": "normal"
     },
     "43": {
-      "type": "talk",
-      "dialogue": "ある意味、頑張るのは俺の方か…",
-      "char": "none",
-      "speaker": "none",
-      "screen_effect": "dark"
+      "type": "curtain",
+      "background": "back",
+      "fade_out": "normal",
+      "wait": "normal",
+      "fade_in": "normal"
     },
     "44": {
+      "type": "talk",
+      "dialogue": "この私が子供だなんて…\\ご主人様の目は節穴のようですね。",
+      "background": "dungeon_bg",
+      "char": "c194_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near",
+      "one_ani": "attack"
+    },
+    "45": {
+      "type": "talk",
+      "dialogue": "でもそんな愚かなところが、ご主人様の魅力なのかもしれないけど…",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "46": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",

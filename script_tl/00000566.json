@@ -2,220 +2,229 @@
   "phase1": {
     "1": {
       "type": "talk",
-      "dialogue": "う…ううっ…",
-      "background": "bg086_f",
+      "dialogue": "いろんな意味でわしの方が若造よりいい境遇だ。",
+      "background": "dungeon_bg",
       "bgm": "9",
-      "char": "c000_01",
-      "speaker": "same",
-      "facial": "sigh"
+      "char": "m040_01",
+      "speaker": "same"
     },
     "2": {
       "type": "talk",
-      "dialogue": "……",
-      "char": "m045_01",
+      "dialogue": "何をぶつぶつ文句言ってるんだ？",
+      "char": "c000_01",
       "speaker": "same",
-      "distance": "near",
-      "mvd_post_effect": "ux/talk/efx/efx_center_line.mvd"
+      "pos": "left"
     },
     "3": {
       "type": "talk",
-      "dialogue": "うわあっ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "shock",
-      "before_effect": "shake"
-    },
-    "4": {
-      "type": "talk",
-      "dialogue": "気が付きましたか？",
-      "char": "c002_01",
+      "dialogue": "若造は悩みを抱えているが、わしに悩みなどない。\\そういう意味だ。",
+      "char": "m040_01",
       "speaker": "same",
       "pos": "right"
     },
-    "5": {
+    "4": {
       "type": "talk",
-      "dialogue": "な、なんだ？何がどうなってるんだ？",
+      "dialogue": "本当にお前には悩みがないのか？",
       "char": "c000_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "left"
+    },
+    "5": {
+      "type": "talk",
+      "dialogue": "悩みがないというのは何を聞いても\\振り回されないという意味だ。",
+      "char": "m040_01",
+      "speaker": "same",
+      "pos": "right"
     },
     "6": {
       "type": "talk",
-      "dialogue": "御主人様が相手の攻撃を\\頭突きでかわそうとしたため。",
-      "char": "c002_01",
+      "dialogue": "自分に与えられた運命もまた同じ。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "7": {
       "type": "talk",
-      "dialogue": "みっともなく気絶してしまったのです。",
-      "char": "keep",
+      "dialogue": "急に呼び出しておいて何の話だよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "8": {
       "type": "talk",
-      "dialogue": "頭突きって…チャイルドのために\\カッコよく身を投じたって言ってくれないか？",
-      "char": "c000_01",
+      "dialogue": "運命に抗わず水の流れのように\\全て流れに身を任せるのが…",
+      "char": "m040_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "sigh"
+      "pos": "right"
     },
     "9": {
       "type": "talk",
-      "dialogue": "少しもカッコよくありません。\\結果的に、残されたチャイルドが苦労しましたから。",
-      "char": "c002_01",
+      "dialogue": "私が得た悟りだが…\\今回だけはその真理に反することにした。",
+      "char": "keep",
       "speaker": "same",
       "pos": "right"
     },
     "10": {
       "type": "talk",
-      "dialogue": "一言で言えば、無駄骨です。",
-      "char": "keep",
+      "dialogue": "悟ったとおり生きてくださいよ。",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "irritation"
     },
     "11": {
       "type": "talk",
-      "dialogue": "…それはそうと…ブーケはなんでこんなに\\俺の傍から離れないんだ？",
-      "char": "c000_01",
+      "dialogue": "若造の悩みを解決する方法を教えるとしよう。",
+      "char": "m040_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "12": {
       "type": "talk",
-      "dialogue": "これからはブーケが御主人様の看病をします。",
-      "char": "c002_01",
+      "dialogue": "あ…それって魔王争奪戦を\\しなくてもいい方法か？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left"
     },
     "13": {
       "type": "talk",
-      "dialogue": "え？",
-      "char": "c000_01",
+      "dialogue": "そうだ。",
+      "char": "m040_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "14": {
       "type": "talk",
-      "dialogue": "その反応は何？イヤなの？\\私が看病するのがそんなに嫌なの？",
-      "char": "m045_01",
-      "speaker": "same"
+      "dialogue": "それなら大歓迎だ。\\で、その方法って？",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "joy"
     },
     "15": {
       "type": "talk",
-      "dialogue": "あ、いや、そうじゃなくて…\\よりによってどうしてお前が…",
-      "char": "c000_01",
+      "dialogue": "諦めることだ。",
+      "char": "m040_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right",
+      "distance": "near"
     },
     "16": {
       "type": "talk",
-      "dialogue": "よりによって？\\やっぱり私が嫌いなのね！そうなんでしょ？\\私が嫌いなのよ！",
-      "char": "m045_01",
-      "speaker": "same"
+      "dialogue": "諦めるって…何を。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
     },
     "17": {
       "type": "talk",
-      "dialogue": "リ、リザ！こいつを何とかしてくれ！\\この状態で看病なんてできるわけないだろ！",
-      "char": "c000_01",
+      "dialogue": "魔王になりたいという欲をだ。",
+      "char": "m040_01",
       "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
+      "pos": "right"
     },
     "18": {
       "type": "talk",
-      "dialogue": "私もそう思いますが…",
-      "char": "c002_01",
+      "dialogue": "…期待した俺がバカだった。\\ふざけてるのか？",
+      "char": "c000_01",
       "speaker": "same",
-      "pos": "right"
+      "pos": "left",
+      "facial": "confused"
     },
     "19": {
       "type": "talk",
-      "dialogue": "が…？",
-      "char": "c000_01",
+      "dialogue": "わしは真剣だ。\\お前の心の中には欲がある。",
+      "char": "m040_01",
       "speaker": "same",
-      "pos": "left"
+      "pos": "right"
     },
     "20": {
       "type": "talk",
-      "dialogue": "許可しないなら許可するまで\\ついて行くと脅してきて…",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "21": {
-      "type": "talk",
-      "dialogue": "こ、これがエリートリザ様の忠誠心なのか？\\なんか言ってくれよ、リザ！",
-      "char": "c000_01",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "22": {
-      "type": "talk",
-      "dialogue": "おい！リザ！リザ！",
-      "char": "keep",
-      "speaker": "same",
-      "pos": "left",
-      "facial": "confused"
-    },
-    "23": {
-      "type": "talk",
-      "dialogue": "それでは私はこれで…やることが山積みですので。",
-      "char": "c002_01",
-      "speaker": "same",
-      "pos": "right",
-      "after_effect": "go_to_right_point"
-    },
-    "24": {
-      "type": "talk",
-      "dialogue": "リザ？いもしないリザを呼んでいるの？\\私が横にいるのに？",
-      "char": "m045_01",
-      "speaker": "same",
-      "pos": "right"
-    },
-    "25": {
-      "type": "talk",
-      "dialogue": "いや、だからそれは…",
+      "dialogue": "サキュバスたちからはその欲すらないって\\文句言われてるのに一体どういう意味だよ。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left"
     },
-    "26": {
+    "21": {
       "type": "talk",
-      "dialogue": "さっきは私のために命も投げ出すみたいなこと\\言ってたのに…私を弄んでいたのね！",
-      "char": "m045_01",
+      "dialogue": "欲がないだと？よく考えてみろ。\\お前は戦いに参戦する度に最善を尽くす。",
+      "char": "m040_01",
       "speaker": "same",
       "pos": "right"
     },
-    "27": {
+    "22": {
       "type": "talk",
-      "dialogue": "こんなことになるくらいなら止めとけばよかった…",
+      "dialogue": "そりゃあ、できれば勝った方がいいし…\\それに俺のせいでチャイルドたちに\\怪我を負わせるわけにはいかないだろう。",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left"
+    },
+    "23": {
+      "type": "talk",
+      "dialogue": "それこそが欲だと言っている。",
+      "char": "m040_01",
+      "speaker": "same",
+      "pos": "right",
+      "distance": "near"
+    },
+    "24": {
+      "type": "talk",
+      "dialogue": "カレーライスに100円追加して\\唐揚げトッピングするのも欲だって言いそうだな。",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
       "facial": "sigh"
     },
-    "28": {
+    "25": {
       "type": "talk",
-      "dialogue": "一生、私の名前だけ呼びなさい！\\私のことだけ考えて！",
-      "char": "m045_01",
+      "dialogue": "立派な例えだ。若造よ、欲のない者などいない。\\お前の悩みはその欲から生まれるものだ。",
+      "char": "m040_01",
       "speaker": "same",
-      "pos": "right",
-      "distance": "near"
+      "pos": "right"
     },
-    "29": {
+    "26": {
       "type": "talk",
-      "dialogue": "看病するってのは嘘だろ？\\俺を殺すつもりなんだろ！？",
+      "dialogue": "そんなのこじつけだ。\\アンタの言う通りなら、チャイルドたちが\\どうなろうと気にするなってことじゃないか！",
       "char": "c000_01",
       "speaker": "same",
       "pos": "left",
-      "facial": "confused"
+      "facial": "fury",
+      "before_effect": "shake_weak"
+    },
+    "27": {
+      "type": "talk",
+      "dialogue": "アンタも俺のチャイルドだってこと分かってるのか？",
+      "char": "keep",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "fury",
+      "before_effect": "shake_weak"
+    },
+    "28": {
+      "type": "talk",
+      "dialogue": "わしはお前の所有物だということか。\\それこそが欲だと言っているのだ。",
+      "char": "m040_01",
+      "speaker": "same",
+      "pos": "right"
+    },
+    "29": {
+      "type": "talk",
+      "dialogue": "ぐわっ！全く話が通じない！もういい！帰る！",
+      "char": "c000_01",
+      "speaker": "same",
+      "pos": "left",
+      "facial": "confused",
+      "after_effect": "go_to_right_point",
+      "screen_effect": "dialog_shake"
     },
     "30": {
+      "type": "talk",
+      "dialogue": "欲を捨てろ。純粋な欲ほど\\悩みは大きくなる。",
+      "char": "m040_01",
+      "speaker": "same",
+      "loop_ani": "attack"
+    },
+    "31": {
       "type": "curtain",
       "background": "back",
       "fade_out": "normal",
