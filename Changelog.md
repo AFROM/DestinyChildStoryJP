@@ -8,9 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Chapter 1 Fully TL
 - Tutorial (Only Newcomers) Fully TL
+- Maris and Aria at 99%
 
 ### Changed
-- Update files from DC 1.0.8.155516 Ver
+- Update files from DC 1.1.2.17956 Ver
 
 ### Removed
 - Nothing to see here
